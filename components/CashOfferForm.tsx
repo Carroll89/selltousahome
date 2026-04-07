@@ -60,18 +60,18 @@ export function CashOfferForm({
     const payload = {
       firstName,
       lastName: lastParts.join(' ') || '',
+      name: form.name.trim(),
       phone: form.phone,
       email: form.email || '',
+      propertyAddress: form.propertyAddress,
       address1: form.propertyAddress,
-      site: 'selltousahome.com',
-      customField: {
-        situation: form.situation,
-        source_page: sourcePage || (typeof window !== 'undefined' ? window.location.href : ''),
-        utm_source: getUTMParam('utm_source'),
-        utm_medium: getUTMParam('utm_medium'),
-        utm_campaign: getUTMParam('utm_campaign'),
-      },
-      tags: ['website-lead', `situation-${form.situation}`, 'harrisburg-pa'],
+      situation: form.situation,
+      site: 'harrisburg-pa',
+      sourcePage: sourcePage || (typeof window !== 'undefined' ? window.location.pathname : ''),
+      utmSource: getUTMParam('utm_source'),
+      utmMedium: getUTMParam('utm_medium'),
+      utmCampaign: getUTMParam('utm_campaign'),
+      tags: ['geo_site_lead', 'selltousahome'],
     };
 
     try {
