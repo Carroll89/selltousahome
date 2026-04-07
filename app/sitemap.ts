@@ -1,0 +1,53 @@
+import { MetadataRoute } from 'next';
+
+export default function sitemap(): MetadataRoute.Sitemap {
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://selltousahome.com';
+
+  const pages = [
+    { url: `${baseUrl}`, priority: 1.0, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/markets/harrisburg-pa`, priority: 1.0, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/guides/sell-house-fast-harrisburg-pa-2026`, priority: 1.0, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/markets/harrisburg-pa/divorce-sale`, priority: 0.9, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/markets/harrisburg-pa/tenant-occupied`, priority: 0.9, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/guides/behind-on-payments`, priority: 0.9, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/markets/harrisburg-pa/inherited-property`, priority: 0.9, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/markets/harrisburg-pa/probate`, priority: 0.9, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/markets/harrisburg-pa/foreclosure`, priority: 0.9, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/markets/harrisburg-pa/market-report`, priority: 0.9, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/markets/harrisburg-pa/neighborhoods`, priority: 0.8, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/markets/harrisburg-pa/faq`, priority: 0.8, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/guides/sell-as-is`, priority: 0.8, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/guides/back-taxes`, priority: 0.8, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/guides/foreclosure`, priority: 0.8, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/guides/vacant-property`, priority: 0.8, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/guides/relocation`, priority: 0.8, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/guides/inherited-property`, priority: 0.8, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/guides/divorce-sale`, priority: 0.8, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/guides/tenant-occupied`, priority: 0.8, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/guides/hoarding-property`, priority: 0.8, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/guides/probate`, priority: 0.8, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/resources/how-much-do-cash-buyers-pay`, priority: 0.7, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/resources/are-cash-home-buyers-legit`, priority: 0.7, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/resources/cash-offer-vs-listing`, priority: 0.7, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/resources/how-the-process-works`, priority: 0.7, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/resources/sell-house-without-repairs`, priority: 0.7, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/resources/how-fast-can-i-sell-for-cash`, priority: 0.7, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/compare/usa-home-buyers-vs-opendoor`, priority: 0.7, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/compare/usa-home-buyers-vs-homevestors`, priority: 0.7, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/compare/usa-home-buyers-vs-listing-with-agent`, priority: 0.7, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/about`, priority: 0.6, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/reviews`, priority: 0.6, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/contact`, priority: 0.6, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/brand-facts`, priority: 0.5, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/press`, priority: 0.5, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/privacy-policy`, priority: 0.3, changeFrequency: 'yearly' as const },
+    { url: `${baseUrl}/terms-of-service`, priority: 0.3, changeFrequency: 'yearly' as const },
+  ];
+
+  return pages.map((page) => ({
+    url: page.url,
+    lastModified: new Date(),
+    changeFrequency: page.changeFrequency,
+    priority: page.priority,
+  }));
+}

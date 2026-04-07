@@ -1,101 +1,162 @@
-import Image from "next/image";
+import type { Metadata } from 'next';
+import { CashOfferForm } from '@/components/CashOfferForm';
+import { HowItWorks } from '@/components/HowItWorks';
+import { SituationLinks } from '@/components/SituationLinks';
+import { TestimonialBlock } from '@/components/TestimonialBlock';
+import { SchemaMarkup } from '@/components/SchemaMarkup';
+import { localBusinessSchema, harrisburgFAQSchema, howToSchema } from '@/lib/schema';
+import { PHONE } from '@/lib/utils';
+import Link from 'next/link';
 
-export default function Home() {
+export const metadata: Metadata = {
+  title: 'Sell Your House Fast for Cash | USA Home Buyers',
+  description:
+    'USA Home Buyers purchases homes for cash in any condition. No repairs, no agent fees, close in 7-14 days. Serving Harrisburg PA and Central Pennsylvania.',
+  alternates: { canonical: 'https://selltousahome.com' },
+};
+
+const TESTIMONIALS = [
+  {
+    quote: 'After my mother passed, my brother and I inherited her house off Derry Street. USA Home Buyers made us a fair offer and closed in 12 days. We didn\'t have to do a thing to the house.',
+    name: 'Sandra M.',
+    location: 'Paxtang, PA',
+    situation: 'Inherited Property — Estate Sale',
+    date: 'March 2026',
+  },
+  {
+    quote: 'I was four months behind on my mortgage and the letters were piling up. USA Home Buyers explained everything, the offer was fair, and we closed before things got any worse.',
+    name: 'James R.',
+    location: 'Steelton, PA',
+    situation: 'Behind on Payments — Pre-Foreclosure',
+    date: 'February 2026',
+  },
+  {
+    quote: 'I had a tenant who stopped paying rent and wouldn\'t leave. USA Home Buyers bought the property with the tenant still in it. Done.',
+    name: 'Carol T.',
+    location: 'Harrisburg, PA',
+    situation: 'Rental Property — Problem Tenant',
+    date: 'January 2026',
+  },
+];
+
+const STATS = [
+  { value: '200+', label: 'Homes purchased in Central PA' },
+  { value: '24 hrs', label: 'Written cash offer turnaround' },
+  { value: '7-14 days', label: 'Average close time' },
+  { value: 'BBB', label: 'Accredited Business' },
+];
+
+export default function HomePage() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="https://nextjs.org/icons/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
+    <>
+      <SchemaMarkup schema={[localBusinessSchema, harrisburgFAQSchema, howToSchema]} />
 
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="https://nextjs.org/icons/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
+      {/* Hero */}
+      <section className="bg-gradient-to-br from-brand-dark to-blue-900 text-white py-16 px-4">
+        <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-start">
+          <div>
+            <h1 className="text-3xl md:text-5xl font-bold text-white mb-4 leading-tight">
+              Sell Your House Fast for Cash — Any Condition, Any Situation
+            </h1>
+            <p className="text-xl text-blue-100 mb-6">
+              USA Home Buyers purchases homes in Harrisburg PA and Central Pennsylvania for cash in any condition.
+              No repairs, no agent fees, no waiting 60-90 days. Written cash offer in 24 hours.
+            </p>
+            <div className="flex flex-wrap gap-4 text-blue-100 text-sm mb-8">
+              <span>✓ No repairs required</span>
+              <span>✓ No agent commissions</span>
+              <span>✓ Close in 7-14 days</span>
+              <span>✓ We cover all closing costs</span>
+            </div>
+            <a
+              href={`tel:${PHONE}`}
+              className="inline-flex items-center gap-2 text-white bg-white/10 border border-white/30 rounded-lg px-5 py-3 hover:bg-white/20 transition-colors"
+            >
+              📞 Call now: {PHONE}
+            </a>
+          </div>
+          <div>
+            <CashOfferForm variant="hero" sourcePage="/" />
+          </div>
         </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="https://nextjs.org/icons/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+      </section>
+
+      {/* Stats */}
+      <section className="bg-brand-primary text-white py-8 px-4">
+        <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+          {STATS.map((stat, i) => (
+            <div key={i}>
+              <p className="text-3xl font-bold">{stat.value}</p>
+              <p className="text-blue-100 text-sm mt-1">{stat.label}</p>
+            </div>
+          ))}
+        </div>
+      </section>
+
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        {/* How It Works */}
+        <HowItWorks heading="How Selling Your House for Cash Works" />
+
+        {/* Markets */}
+        <section className="my-12">
+          <h2 className="text-2xl md:text-3xl font-bold text-brand-dark mb-6 text-center">
+            Markets We Serve
+          </h2>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            <Link
+              href="/markets/harrisburg-pa"
+              className="block bg-white border-2 border-brand-primary rounded-xl p-6 hover:shadow-lg transition-shadow"
+            >
+              <h3 className="font-bold text-brand-primary text-lg mb-1">Harrisburg, PA</h3>
+              <p className="text-gray-600 text-sm">Dauphin County & Cumberland County — our primary market</p>
+            </Link>
+            <div className="bg-gray-50 border border-gray-200 rounded-xl p-6">
+              <h3 className="font-bold text-gray-400 text-lg mb-1">Camp Hill / Mechanicsburg</h3>
+              <p className="text-gray-400 text-sm">Cumberland County — coming soon</p>
+            </div>
+            <div className="bg-gray-50 border border-gray-200 rounded-xl p-6">
+              <h3 className="font-bold text-gray-400 text-lg mb-1">Lebanon / York Counties</h3>
+              <p className="text-gray-400 text-sm">Central PA expansion — coming soon</p>
+            </div>
+          </div>
+        </section>
+
+        {/* Situation Links */}
+        <SituationLinks />
+
+        {/* Testimonials */}
+        <TestimonialBlock testimonials={TESTIMONIALS} />
+
+        {/* Why Us */}
+        <section className="my-12 bg-brand-light rounded-2xl p-8 md:p-12">
+          <h2 className="text-2xl md:text-3xl font-bold text-brand-dark mb-6 text-center">
+            Why Choose USA Home Buyers?
+          </h2>
+          <div className="grid md:grid-cols-2 gap-6">
+            {[
+              { title: 'Written Offers Only', desc: 'We never make verbal promises. Every offer is a formal written purchase agreement with price, terms, and closing date.' },
+              { title: 'BBB Accredited', desc: 'Verified business with a track record of closed sales in Dauphin and Cumberland Counties you can check at the county recorder.' },
+              { title: 'Local Experts', desc: '5+ years buying homes in Harrisburg. We know Steelton, Penbrook, Allison Hill, Camp Hill, and everywhere in between.' },
+              { title: 'No Pressure, Ever', desc: 'The offer stands on its own. Take your time reviewing it. We don\'t do high-pressure follow-up calls.' },
+            ].map((item, i) => (
+              <div key={i} className="flex gap-4">
+                <div className="w-8 h-8 bg-brand-secondary text-white rounded-full flex items-center justify-center flex-shrink-0 mt-1 font-bold">
+                  ✓
+                </div>
+                <div>
+                  <h3 className="font-bold text-brand-dark mb-1">{item.title}</h3>
+                  <p className="text-gray-600 text-sm">{item.desc}</p>
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* Bottom CTA form */}
+        <section className="my-12">
+          <CashOfferForm variant="inline" headline="Ready to Get Your Cash Offer?" sourcePage="/" />
+        </section>
+      </div>
+    </>
   );
 }
