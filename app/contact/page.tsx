@@ -5,7 +5,7 @@ import { localBusinessSchema } from '@/lib/schema';
 import { PHONE } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'Contact USA Home Buyers | Get a Cash Offer — Harrisburg PA',
+  title: 'Contact Us | Get a Cash Offer — Harrisburg PA',
   description:
     'Contact USA Home Buyers to get a cash offer for your Harrisburg PA house. Call, text, or submit online. Written offer in 24 hours. We buy houses as-is, any condition.',
   alternates: { canonical: 'https://selltousahome.com/contact' },

@@ -11,7 +11,7 @@ import { faqSchema, howToSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'Sell My House Fast Allentown PA | Cash Offer in 24 Hours | USA Home Buyers',
+  title: 'Sell My House Fast Allentown PA | Cash Offer in 24 Hours',
   description:
     'We buy houses in Allentown PA for cash, as-is, in any condition. Written offer in 24 hours, close in 7 days. No repairs, no fees. Serving all of Lehigh County.',
   alternates: { canonical: `${SITE_URL}/markets/allentown-pa` },

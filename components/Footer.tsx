@@ -28,8 +28,10 @@ export function Footer() {
             <h3 className="text-white font-semibold mb-3">Markets</h3>
             <ul className="space-y-2 text-sm">
               <li><Link href="/markets/harrisburg-pa" className="hover:text-white">Harrisburg, PA</Link></li>
-              <li><Link href="/markets/harrisburg-pa/market-report" className="hover:text-white">Market Report</Link></li>
+              <li><Link href="/markets/harrisburg-pa/market-report" className="hover:text-white">Harrisburg Market Report</Link></li>
               <li><Link href="/markets/harrisburg-pa/neighborhoods" className="hover:text-white">Neighborhoods</Link></li>
+              <li><Link href="/markets/allentown-pa" className="hover:text-white">Allentown, PA</Link></li>
+              <li><Link href="/markets/allentown-pa/market-report" className="hover:text-white">Allentown Market Report</Link></li>
             </ul>
           </div>
 
@@ -42,6 +44,8 @@ export function Footer() {
               <li><Link href="/guides/foreclosure" className="hover:text-white">Foreclosure</Link></li>
               <li><Link href="/guides/behind-on-payments" className="hover:text-white">Behind on Payments</Link></li>
               <li><Link href="/guides/sell-as-is" className="hover:text-white">Sell As-Is</Link></li>
+              <li><Link href="/guides/divorce-sale" className="hover:text-white">Divorce Sale</Link></li>
+              <li><Link href="/guides/back-taxes" className="hover:text-white">Back Taxes</Link></li>
               <li><Link href="/resources/how-the-process-works" className="hover:text-white">How It Works</Link></li>
             </ul>
           </div>

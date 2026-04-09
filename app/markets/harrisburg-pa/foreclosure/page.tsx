@@ -7,7 +7,7 @@ import { articleSchema, faqSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'Sell Before Foreclosure in Harrisburg PA | Dauphin County | USA Home Buyers',
+  title: 'Sell Before Foreclosure in Harrisburg PA | Dauphin County',
   description:
     'Facing foreclosure in Harrisburg or Dauphin County PA? Sell before the sheriff sale and protect your equity. Cash offer in 24 hours, close in 7-14 days.',
   alternates: { canonical: `${SITE_URL}/markets/harrisburg-pa/foreclosure` },

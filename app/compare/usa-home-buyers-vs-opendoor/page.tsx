@@ -8,7 +8,7 @@ import { articleSchema, faqSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'USA Home Buyers vs. Opendoor — Which Is Better for Selling Your House?',
+  title: 'Us vs. Opendoor — Which Is Better for Selling Your House?',
   description:
     'Comparing USA Home Buyers vs. Opendoor for selling your house fast. Key differences in fees, service areas, speed, and who actually pays more. Local vs. iBuyer explained.',
   alternates: { canonical: `${SITE_URL}/compare/usa-home-buyers-vs-opendoor` },

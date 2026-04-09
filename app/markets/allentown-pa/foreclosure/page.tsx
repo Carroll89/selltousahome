@@ -7,7 +7,7 @@ import { articleSchema, faqSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'Sell Before Foreclosure in Allentown PA | Lehigh County | USA Home Buyers',
+  title: 'Sell Before Foreclosure in Allentown PA | Lehigh County',
   description:
     'Facing foreclosure in Allentown or Lehigh County PA? Sell before the sheriff sale and protect your equity. Cash offer in 24 hours, close in 7-14 days. Hablamos español.',
   alternates: { canonical: `${SITE_URL}/markets/allentown-pa/foreclosure` },

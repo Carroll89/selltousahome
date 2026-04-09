@@ -7,7 +7,7 @@ import { articleSchema, faqSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'Sell Tenant-Occupied Rental in Harrisburg PA | Cash Offer | USA Home Buyers',
+  title: 'Sell Tenant-Occupied Rental in Harrisburg PA | Cash Offer',
   description:
     'Selling a rental property with tenants in Harrisburg PA? We buy tenant-occupied properties as-is — no eviction required. Cash offer in 24 hours, close in 7-14 days.',
   alternates: { canonical: `${SITE_URL}/markets/harrisburg-pa/tenant-occupied` },

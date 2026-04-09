@@ -7,7 +7,7 @@ import { articleSchema, faqSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'Sell Tenant-Occupied Rental in Allentown PA | Cash Offer | USA Home Buyers',
+  title: 'Sell Tenant-Occupied Rental in Allentown PA | Cash Offer',
   description:
     'Selling a rental property with tenants in Allentown PA? We buy tenant-occupied properties as-is — no eviction required. Cash offer in 24 hours, close in 7-14 days. 58% renter market.',
   alternates: { canonical: `${SITE_URL}/markets/allentown-pa/tenant-occupied` },

@@ -8,7 +8,7 @@ import { articleSchema, faqSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'USA Home Buyers vs. HomeVestors (We Buy Ugly Houses) — Which Is Better?',
+  title: 'Us vs. HomeVestors (We Buy Ugly Houses) — Which Is Better?',
   description:
     'Comparing USA Home Buyers vs. HomeVestors / We Buy Ugly Houses. Local direct buyer vs. franchise model — fees, offers, service, and who actually serves Central PA.',
   alternates: { canonical: `${SITE_URL}/compare/usa-home-buyers-vs-homevestors` },

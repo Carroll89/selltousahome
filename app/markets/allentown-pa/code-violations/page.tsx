@@ -7,7 +7,7 @@ import { articleSchema, faqSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'Sell House with Code Violations in Allentown PA | Cash Offer | USA Home Buyers',
+  title: 'Sell House with Code Violations in Allentown PA | Cash Offer',
   description:
     'Selling a house with code violations in Allentown PA? We buy properties with open violations, liens, and city citations as-is. Cash offer in 24 hours, close in 7-14 days.',
   alternates: { canonical: `${SITE_URL}/markets/allentown-pa/code-violations` },

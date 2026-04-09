@@ -7,7 +7,7 @@ import { articleSchema, faqSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'Selling Your Harrisburg PA House — FAQ | USA Home Buyers',
+  title: 'Selling Your Harrisburg PA House — FAQ',
   description:
     'Answers to the most common questions about selling a house fast in Harrisburg PA. Cash offers, timelines, as-is sales, closing costs, and Dauphin County specifics.',
   alternates: { canonical: `${SITE_URL}/markets/harrisburg-pa/faq` },

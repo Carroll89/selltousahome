@@ -5,7 +5,7 @@ import { SchemaMarkup } from '@/components/SchemaMarkup';
 import { PHONE, SITE_URL } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'Press & Media — USA Home Buyers | News Coverage & Resources',
+  title: 'Press & Media | News Coverage & Resources',
   description:
     'Press resources for USA Home Buyers LLC. Media inquiries, company background, service area information, and brand assets for journalists and publications.',
   alternates: { canonical: `${SITE_URL}/press` },

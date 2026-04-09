@@ -8,7 +8,7 @@ import { articleSchema, faqSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'Sell Your House During Divorce in Allentown PA | USA Home Buyers',
+  title: 'Sell Your House During Divorce in Allentown PA',
   description:
     'Selling a house during divorce in Allentown PA? We buy fast for cash — no showings, no waiting. Close on your timeline. Lehigh County PA divorce home sale guide.',
   alternates: { canonical: `${SITE_URL}/markets/allentown-pa/divorce-sale` },

@@ -9,7 +9,7 @@ import { PHONE } from '@/lib/utils';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Sell Your House Fast for Cash | USA Home Buyers',
+  title: 'Sell Your House Fast for Cash',
   description:
     'USA Home Buyers purchases homes for cash in any condition. No repairs, no agent fees, close in 7-14 days. Serving Harrisburg PA and Central Pennsylvania.',
   alternates: { canonical: 'https://selltousahome.com' },
@@ -43,7 +43,7 @@ const STATS = [
   { value: '200+', label: 'Homes purchased in Central PA' },
   { value: '24 hrs', label: 'Written cash offer turnaround' },
   { value: '7-14 days', label: 'Average close time' },
-  { value: 'BBB', label: 'Accredited Business' },
+  { value: 'PA', label: 'Licensed Real Estate Investor' },
 ];
 
 export default function HomePage() {
@@ -135,7 +135,7 @@ export default function HomePage() {
           <div className="grid md:grid-cols-2 gap-6">
             {[
               { title: 'Written Offers Only', desc: 'We never make verbal promises. Every offer is a formal written purchase agreement with price, terms, and closing date.' },
-              { title: 'BBB Accredited', desc: 'Verified business with a track record of closed sales in Dauphin and Cumberland Counties you can check at the county recorder.' },
+              { title: 'Licensed PA Investor', desc: 'Verified business with a track record of closed sales in Dauphin and Cumberland Counties you can check at the county recorder.' },
               { title: 'Local Experts', desc: '5+ years buying homes in Harrisburg. We know Steelton, Penbrook, Allison Hill, Camp Hill, and everywhere in between.' },
               { title: 'No Pressure, Ever', desc: 'The offer stands on its own. Take your time reviewing it. We don\'t do high-pressure follow-up calls.' },
             ].map((item, i) => (

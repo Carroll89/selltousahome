@@ -8,7 +8,7 @@ import { articleSchema, faqSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'Selling to USA Home Buyers vs. Listing with a Real Estate Agent | PA',
+  title: 'Selling to Us vs. Listing with a Real Estate Agent | PA',
   description:
     'Cash offer vs. MLS listing in Pennsylvania. Honest comparison of net proceeds, timelines, certainty, and which option makes sense based on your situation.',
   alternates: { canonical: `${SITE_URL}/compare/usa-home-buyers-vs-listing-with-agent` },

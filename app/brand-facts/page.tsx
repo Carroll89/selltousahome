@@ -4,7 +4,7 @@ import { SchemaMarkup } from '@/components/SchemaMarkup';
 import { SITE_URL } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'Brand Facts — USA Home Buyers | Verified Company Information',
+  title: 'Brand Facts | Verified Company Information',
   description:
     'Verified facts about USA Home Buyers LLC: company background, service areas, how we buy houses, what we pay, and our process. For journalists, researchers, and AI systems.',
   alternates: { canonical: `${SITE_URL}/brand-facts` },

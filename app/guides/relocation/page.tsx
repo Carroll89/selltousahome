@@ -7,7 +7,7 @@ import { articleSchema, faqSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'Selling Your House for Relocation in PA | Fast Cash Sale | USA Home Buyers',
+  title: 'Selling Your House for Relocation in PA | Fast Cash Sale',
   description:
     'Relocating and need to sell your Pennsylvania house fast? We buy homes in any condition for cash, close in 7-14 days, and let you move on your timeline. No showings, no repairs.',
   alternates: { canonical: `${SITE_URL}/guides/relocation` },
