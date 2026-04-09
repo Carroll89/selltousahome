@@ -52,6 +52,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/contact`, priority: 0.6, changeFrequency: 'monthly' as const },
     { url: `${baseUrl}/brand-facts`, priority: 0.5, changeFrequency: 'monthly' as const },
     { url: `${baseUrl}/press`, priority: 0.5, changeFrequency: 'monthly' as const },
+    // Blog
+    { url: `${baseUrl}/blog`, priority: 0.8, changeFrequency: 'weekly' as const },
+    { url: `${baseUrl}/blog/sell-inherited-house-pennsylvania`, priority: 0.8, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/blog/sell-house-with-code-violations-pa`, priority: 0.8, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/blog/cash-buyer-vs-realtor-pennsylvania`, priority: 0.8, changeFrequency: 'monthly' as const },
     { url: `${baseUrl}/privacy-policy`, priority: 0.3, changeFrequency: 'yearly' as const },
     { url: `${baseUrl}/terms-of-service`, priority: 0.3, changeFrequency: 'yearly' as const },
   ];
