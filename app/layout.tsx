@@ -23,10 +23,19 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   alternates: { canonical: SITE_URL },
   robots: { index: true, follow: true },
+  icons: {
+    icon: '/favicon.ico',
+    apple: '/apple-touch-icon.png',
+    other: [
+      { rel: 'icon', type: 'image/png', sizes: '32x32', url: '/favicon-32x32.png' },
+      { rel: 'icon', type: 'image/png', sizes: '16x16', url: '/favicon-16x16.png' },
+    ],
+  },
   openGraph: {
     type: 'website',
     siteName: 'USA Home Buyers',
     locale: 'en_US',
+    images: [{ url: '/og-image.jpg', width: 1200, height: 630, alt: 'USA Home Buyers - Sell Your House Fast for Cash' }],
   },
 };
 
