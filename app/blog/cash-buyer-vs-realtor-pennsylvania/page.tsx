@@ -9,7 +9,7 @@ import { articleSchema, faqSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'Cash Buyer vs. Realtor in Pennsylvania: The Real Difference | USA Home Buyers',
+  title: 'Cash Buyer vs. Realtor in Pennsylvania: The Real Difference '
   description:
     'Selling your PA home? Compare cash buyers vs. real estate agents on price, speed, costs, and hassle. Honest breakdown — no spin.',
   alternates: { canonical: `${SITE_URL}/blog/cash-buyer-vs-realtor-pennsylvania` },

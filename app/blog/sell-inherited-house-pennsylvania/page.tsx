@@ -9,7 +9,7 @@ import { articleSchema, faqSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'How to Sell an Inherited House in Pennsylvania | USA Home Buyers',
+  title: 'How to Sell an Inherited House in Pennsylvania'
   description:
     'Inherited a house in Pennsylvania? Learn your options — sell as-is, probate requirements, tax implications, and how to close fast without family drama.',
   alternates: { canonical: `${SITE_URL}/blog/sell-inherited-house-pennsylvania` },

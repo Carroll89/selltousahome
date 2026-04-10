@@ -5,7 +5,7 @@ import { SchemaMarkup } from '@/components/SchemaMarkup';
 import { SITE_URL } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'Blog | Selling Your House in Pennsylvania | USA Home Buyers',
+  title: 'Blog | Selling Your House in Pennsylvania'
   description:
     'Guides, tips, and real talk for Pennsylvania homeowners selling in tough situations. Foreclosure, probate, inherited property, divorce, code violations — we cover it all.',
   alternates: { canonical: `${SITE_URL}/blog` },
