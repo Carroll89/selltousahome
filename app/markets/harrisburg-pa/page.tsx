@@ -10,6 +10,7 @@ import { SituationLinks } from '@/components/SituationLinks';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
 import { localBusinessSchema, harrisburgFAQSchema, howToSchema } from '@/lib/schema';
 import { PHONE } from '@/lib/utils';
+import { VideoEmbed } from '@/components/VideoEmbed';
 
 export const metadata: Metadata = {
   title: 'Sell My House Fast Harrisburg PA | Cash Offer in 24 Hours',
@@ -127,7 +128,10 @@ export default function HarrisburgMarketPage() {
           </div>
         </div>
       </section>
-
+      <VideoEmbed
+        src="https://v3b.fal.media/files/b/0a95c0fc/QS_oBfAsYUxtHMdVSx8CT_harrisburg-main.mp4"
+        title="Sell Your House Fast in Harrisburg, PA"
+      />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* How It Works */}
         <HowItWorks heading="How Selling Your Harrisburg House for Cash Works" />

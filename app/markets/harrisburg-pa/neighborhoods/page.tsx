@@ -6,6 +6,7 @@ import { FAQSection } from '@/components/FAQSection';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
 import { articleSchema, faqSchema, harrisburgLocalBusinessSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
+import { VideoEmbed } from '@/components/VideoEmbed';
 
 export const metadata: Metadata = {
   title: 'Sell My House in Harrisburg PA Neighborhoods | Allison Hill, Midtown, Uptown',
@@ -143,7 +144,10 @@ export default function HarrisburgNeighborhoodsPage() {
           </div>
         </div>
       </section>
-
+      <VideoEmbed
+        src="https://v3b.fal.media/files/b/0a95c0fd/Qd9Kj8btMSOYmTT1Hwvjy_harrisburg-neighborhoods.mp4"
+        title="Harrisburg, PA Neighborhoods Guide"
+      />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article>
 

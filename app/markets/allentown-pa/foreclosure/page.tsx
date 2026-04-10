@@ -6,6 +6,7 @@ import { FAQSection } from '@/components/FAQSection';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
 import { articleSchema, faqSchema, allentownLocalBusinessSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
+import { VideoEmbed } from '@/components/VideoEmbed';
 
 export const metadata: Metadata = {
   title: 'Sell Before Foreclosure in Allentown PA | Lehigh County',
@@ -93,7 +94,10 @@ export default function AllentownForeclosurePage() {
           </div>
         </div>
       </section>
-
+      <VideoEmbed
+        src="https://v3b.fal.media/files/b/0a95c0f8/WDXLw4OFz0AB3MkMFsn3b_allentown-foreclosure.mp4"
+        title="Selling Before Foreclosure in Allentown"
+      />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article>
 

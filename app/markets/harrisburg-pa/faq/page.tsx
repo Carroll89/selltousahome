@@ -6,6 +6,7 @@ import { FAQSection } from '@/components/FAQSection';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
 import { articleSchema, faqSchema, harrisburgLocalBusinessSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
+import { VideoEmbed } from '@/components/VideoEmbed';
 
 export const metadata: Metadata = {
   title: 'Selling Your Harrisburg PA House — FAQ',
@@ -121,7 +122,10 @@ export default function HarrisburgFAQPage() {
           </div>
         </div>
       </section>
-
+      <VideoEmbed
+        src="https://v3b.fal.media/files/b/0a95c0fa/ez3GzE01xhle-dHlM87zy_harrisburg-faq.mp4"
+        title="Frequently Asked Questions — Harrisburg Home Sales"
+      />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article>
           <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-10">

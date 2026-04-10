@@ -10,6 +10,7 @@ import { SituationLinks } from '@/components/SituationLinks';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
 import { faqSchema, howToSchema, allentownLocalBusinessSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
+import { VideoEmbed } from '@/components/VideoEmbed';
 
 export const metadata: Metadata = {
   title: 'Sell My House Fast Allentown PA | Cash Offer in 24 Hours',
@@ -131,7 +132,10 @@ export default function AllentownMarketPage() {
           </div>
         </div>
       </section>
-
+      <VideoEmbed
+        src="https://v3b.fal.media/files/b/0a95c0f8/zLYouEqILs7_2R7GIM9GB_allentown-main.mp4"
+        title="Sell Your House Fast in Allentown, PA"
+      />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* How It Works */}
         <HowItWorks heading="How Selling Your Allentown House for Cash Works" />

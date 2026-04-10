@@ -6,6 +6,7 @@ import { FAQSection } from '@/components/FAQSection';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
 import { faqSchema, allentownLocalBusinessSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
+import { VideoEmbed } from '@/components/VideoEmbed';
 
 // ─── Update these numbers each month ─────────────────────────────────────────
 const REPORT_DATA = {
@@ -204,7 +205,10 @@ export default function AllentownMarketReport() {
           </div>
         </div>
       </section>
-
+      <VideoEmbed
+        src="https://v3b.fal.media/files/b/0a95c0f9/Xkj6xhxOG8RjUXMCfaw4H_allentown-market-report.mp4"
+        title="Allentown, PA Real Estate Market Report"
+      />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
 
         {/* TL;DR */}
