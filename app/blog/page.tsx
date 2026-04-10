@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import Link from 'next/link';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
 import { SITE_URL } from '@/lib/utils';
@@ -69,7 +70,15 @@ export default function BlogIndexPage() {
     <>
       <SchemaMarkup schema={[blogSchema]} />
 
-      <section className="bg-gradient-to-br from-brand-dark to-blue-900 text-white py-16 px-4">
+      <section className="relative text-white py-16 px-4 overflow-hidden">
+        <Image
+          src="/images/harrisburg-hero.jpg"
+          alt="Pennsylvania home — sell your house fast for cash"
+          fill
+          className="object-cover object-center"
+          priority
+        />
+        <div className="absolute inset-0 bg-brand-dark/80" />
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-3xl md:text-4xl font-bold text-white mb-4 leading-tight">
             Selling a House in Pennsylvania

@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import Link from 'next/link';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
@@ -17,8 +18,16 @@ export default function AboutPage() {
     <>
       <SchemaMarkup schema={[organizationSchema]} />
 
-      <section className="bg-gradient-to-br from-brand-dark to-blue-900 text-white py-16 px-4">
-        <div className="max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-start">
+      <section className="relative text-white py-16 px-4 overflow-hidden">
+        <Image
+          src="/images/harrisburg-hero.jpg"
+          alt="Pennsylvania home — sell your house fast for cash"
+          fill
+          className="object-cover object-center"
+          priority
+        />
+        <div className="absolute inset-0 bg-brand-dark/80" />
+        <div className="relative z-10 max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-start">
           <div>
             <h1 className="text-3xl md:text-4xl font-bold text-white mb-4 leading-tight">
               About USA Home Buyers

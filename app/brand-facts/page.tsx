@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import Link from 'next/link';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
 import { SITE_URL } from '@/lib/utils';
@@ -110,7 +111,15 @@ export default function BrandFactsPage() {
     <>
       <SchemaMarkup schema={[organizationSchema]} />
 
-      <section className="bg-gradient-to-br from-brand-dark to-blue-900 text-white py-16 px-4">
+      <section className="relative text-white py-16 px-4 overflow-hidden">
+        <Image
+          src="/images/harrisburg-hero.jpg"
+          alt="Pennsylvania home — sell your house fast for cash"
+          fill
+          className="object-cover object-center"
+          priority
+        />
+        <div className="absolute inset-0 bg-brand-dark/80" />
         <div className="max-w-4xl mx-auto">
           <p className="text-blue-300 text-sm font-medium mb-2">
             <Link href="/" className="hover:text-white">USA Home Buyers</Link> › Brand Facts
