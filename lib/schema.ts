@@ -1,5 +1,115 @@
 import { PHONE, SITE_URL } from './utils';
 
+type CityConfig = {
+  city: string;
+  region: string;
+  postalCode: string;
+  lat: number;
+  lng: number;
+  description: string;
+  areaServed: { '@type': string; name: string; sameAs?: string }[];
+};
+
+const CITY_CONFIGS: Record<string, CityConfig> = {
+  harrisburg: {
+    city: 'Harrisburg',
+    region: 'PA',
+    postalCode: '17101',
+    lat: 40.2732,
+    lng: -76.8867,
+    description:
+      'Cash home buyers serving Harrisburg PA and Central Pennsylvania. We buy houses as-is in any condition — no repairs, no agent fees, close in 7-14 days.',
+    areaServed: [
+      { '@type': 'City', name: 'Harrisburg', sameAs: 'https://en.wikipedia.org/wiki/Harrisburg,_Pennsylvania' },
+      { '@type': 'City', name: 'Camp Hill' },
+      { '@type': 'City', name: 'Mechanicsburg' },
+      { '@type': 'City', name: 'Carlisle' },
+      { '@type': 'City', name: 'Lemoyne' },
+      { '@type': 'City', name: 'Steelton' },
+      { '@type': 'City', name: 'Hershey' },
+      { '@type': 'County', name: 'Dauphin County' },
+      { '@type': 'County', name: 'Cumberland County' },
+    ],
+  },
+  allentown: {
+    city: 'Allentown',
+    region: 'PA',
+    postalCode: '18101',
+    lat: 40.6023,
+    lng: -75.4714,
+    description:
+      'Cash home buyers serving Allentown PA and the Lehigh Valley. We buy houses as-is in any condition — no repairs, no agent fees, close in 7-14 days. Hablamos español.',
+    areaServed: [
+      { '@type': 'City', name: 'Allentown', sameAs: 'https://en.wikipedia.org/wiki/Allentown,_Pennsylvania' },
+      { '@type': 'City', name: 'Bethlehem' },
+      { '@type': 'City', name: 'Easton' },
+      { '@type': 'City', name: 'Whitehall Township' },
+      { '@type': 'City', name: 'Fountain Hill' },
+      { '@type': 'City', name: 'Northampton' },
+      { '@type': 'City', name: 'Emmaus' },
+      { '@type': 'City', name: 'Catasauqua' },
+      { '@type': 'County', name: 'Lehigh County' },
+      { '@type': 'County', name: 'Northampton County' },
+    ],
+  },
+};
+
+export function localBusinessSchemaFor(cityKey: 'harrisburg' | 'allentown') {
+  const cfg = CITY_CONFIGS[cityKey];
+  return {
+    '@context': 'https://schema.org',
+    '@type': ['LocalBusiness', 'RealEstateAgent'],
+    '@id': `${SITE_URL}/#business-${cityKey}`,
+    name: 'USA Home Buyers',
+    description: cfg.description,
+    url: SITE_URL,
+    telephone: PHONE,
+    priceRange: '$',
+    openingHoursSpecification: [
+      {
+        '@type': 'OpeningHoursSpecification',
+        dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday'],
+        opens: '08:00',
+        closes: '18:00',
+      },
+    ],
+    address: {
+      '@type': 'PostalAddress',
+      addressLocality: cfg.city,
+      addressRegion: cfg.region,
+      postalCode: cfg.postalCode,
+      addressCountry: 'US',
+    },
+    geo: {
+      '@type': 'GeoCoordinates',
+      latitude: cfg.lat,
+      longitude: cfg.lng,
+    },
+    areaServed: cfg.areaServed,
+    hasOfferCatalog: {
+      '@type': 'OfferCatalog',
+      name: 'Cash Home Buying Services',
+      itemListElement: [
+        {
+          '@type': 'Offer',
+          itemOffered: {
+            '@type': 'Service',
+            name: 'Cash Home Purchase',
+            description:
+              'We buy houses for cash in any condition, any situation, closing in 7-14 days.',
+          },
+        },
+      ],
+    },
+  };
+}
+
+/** Pre-built Harrisburg LocalBusiness schema (alias for backward compat) */
+export const harrisburgLocalBusinessSchema = localBusinessSchemaFor('harrisburg');
+
+/** Pre-built Allentown LocalBusiness schema */
+export const allentownLocalBusinessSchema = localBusinessSchemaFor('allentown');
+
 export const organizationSchema = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
@@ -28,6 +138,7 @@ export const organizationSchema = {
   },
 };
 
+/** @deprecated Use harrisburgLocalBusinessSchema or localBusinessSchemaFor('harrisburg') */
 export const localBusinessSchema = {
   '@context': 'https://schema.org',
   '@type': ['LocalBusiness', 'RealEstateAgent'],

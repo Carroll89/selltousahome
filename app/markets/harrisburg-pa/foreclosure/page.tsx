@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
-import { articleSchema, faqSchema } from '@/lib/schema';
+import { articleSchema, faqSchema, harrisburgLocalBusinessSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
 
 export const metadata: Metadata = {
@@ -48,6 +48,7 @@ export default function HarrisburgForeclosurePage() {
   return (
     <>
       <SchemaMarkup schema={[
+        harrisburgLocalBusinessSchema,
         articleSchema('Sell Before Foreclosure in Harrisburg, PA — Dauphin County', pageUrl),
         faqSchema(FAQ_ITEMS),
       ]} />

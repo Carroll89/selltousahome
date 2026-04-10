@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
-import { articleSchema, faqSchema } from '@/lib/schema';
+import { articleSchema, faqSchema, allentownLocalBusinessSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
 
 export const metadata: Metadata = {
@@ -53,6 +53,7 @@ export default function AllentownForeclosurePage() {
   return (
     <>
       <SchemaMarkup schema={[
+        allentownLocalBusinessSchema,
         articleSchema('Sell Before Foreclosure in Allentown, PA — Lehigh County', pageUrl),
         faqSchema(FAQ_ITEMS),
       ]} />

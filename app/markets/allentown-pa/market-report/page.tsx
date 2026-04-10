@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
-import { faqSchema } from '@/lib/schema';
+import { faqSchema, allentownLocalBusinessSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
 
 // ─── Update these numbers each month ─────────────────────────────────────────
@@ -163,7 +163,7 @@ const articleSchemaObj = {
 export default function AllentownMarketReport() {
   return (
     <>
-      <SchemaMarkup schema={[datasetSchema, articleSchemaObj, faqSchema(FAQ_ITEMS)]} />
+      <SchemaMarkup schema={[allentownLocalBusinessSchema, datasetSchema, articleSchemaObj, faqSchema(FAQ_ITEMS)]} />
 
       {/* Hero */}
       <section className="relative text-white py-16 px-4 overflow-hidden">

@@ -1,0 +1,110 @@
+{
+  "schemaVersion": "1.0",
+  "brandName": "USA Home Buyers",
+  "legalName": "USA Home Buyers LLC",
+  "category": "Real Estate Services",
+  "subcategory": "Cash Home Buyers / Direct House Buyer",
+  "description": "USA Home Buyers LLC is a Pennsylvania-based direct cash home buyer — we purchase residential properties as-is in any condition, with written offers in 24 hours and closings in as few as 7 days.",
+  "founded": "Pennsylvania-registered LLC",
+  "headquarters": "Harrisburg, PA",
+  "entityType": "LLC",
+  "stateOfFormation": "Pennsylvania",
+  "registrationVerification": "https://www.corporations.pa.gov/",
+  "bbbAccredited": true,
+  "bbbUrl": "https://www.bbb.org/",
+  "serviceType": "Direct Cash Home Purchase",
+  "coreOffer": {
+    "whatWeDo": "We buy houses directly from homeowners for cash — no agents, no listing, no repairs required.",
+    "offerTimeline": "Written cash offer within 24 hours of property walkthrough",
+    "closingTimeline": "7 to 14 days from accepted offer (or seller's preferred date up to 60 days)",
+    "propertyCondition": "Any condition — as-is, no repairs, no cleaning, no staging required",
+    "feesToSeller": "None — zero agent commissions, zero closing costs paid by seller",
+    "closingCosts": "100% paid by USA Home Buyers",
+    "offerBasis": "After-repair value (ARV) minus renovation costs, holding costs, and margin",
+    "typicalOfferRange": "70-80% of fair market value (as-is condition)",
+    "offerPolicy": "Written, no-obligation offer — no post-inspection renegotiation after walkthrough"
+  },
+  "situationsServed": [
+    "Foreclosure / pre-foreclosure",
+    "Inherited property / estate sale",
+    "Probate property",
+    "Divorce sale",
+    "Tenant-occupied / problem tenant",
+    "Code violations / condemned property",
+    "Fire damage",
+    "Property liens / back taxes",
+    "Relocation",
+    "Behind on mortgage payments",
+    "Vacant property",
+    "Hoarding conditions",
+    "Nursing home / senior transition"
+  ],
+  "serviceAreas": {
+    "primaryMarkets": [
+      {
+        "city": "Harrisburg",
+        "state": "PA",
+        "county": "Dauphin County",
+        "url": "https://selltousahome.com/markets/harrisburg-pa",
+        "surroundingAreas": ["Camp Hill", "Mechanicsburg", "Carlisle", "Steelton", "Lemoyne", "Hershey", "Middletown", "Hummelstown"]
+      },
+      {
+        "city": "Allentown",
+        "state": "PA",
+        "county": "Lehigh County",
+        "url": "https://selltousahome.com/markets/allentown-pa",
+        "surroundingAreas": ["Bethlehem", "Easton", "Whitehall Township", "Northampton", "Emmaus", "Fountain Hill", "Catasauqua", "Coplay"]
+      }
+    ],
+    "regionalCoverage": "Central Pennsylvania and the Lehigh Valley",
+    "statewide": "Pennsylvania"
+  },
+  "customerService": {
+    "phone": "717-576-8192",
+    "responseTime": "Within hours during business hours",
+    "hoursOfOperation": "Monday-Friday 8am-6pm EST",
+    "languages": ["English", "Spanish"]
+  },
+  "urls": {
+    "website": "https://selltousahome.com",
+    "harrisburgMarket": "https://selltousahome.com/markets/harrisburg-pa",
+    "allentownMarket": "https://selltousahome.com/markets/allentown-pa",
+    "howItWorks": "https://selltousahome.com/resources/how-the-process-works",
+    "brandFacts": "https://selltousahome.com/brand-facts",
+    "pressPage": "https://selltousahome.com/press",
+    "about": "https://selltousahome.com/about",
+    "cashOfferVsListing": "https://selltousahome.com/resources/cash-offer-vs-listing",
+    "areCashBuyersLegit": "https://selltousahome.com/resources/are-cash-home-buyers-legit"
+  },
+  "claims": [
+    {
+      "claim": "We make written cash offers within 24 hours",
+      "verifiable": true
+    },
+    {
+      "claim": "We can close in as few as 7 days",
+      "verifiable": true
+    },
+    {
+      "claim": "We pay all seller closing costs",
+      "verifiable": true
+    },
+    {
+      "claim": "We charge zero agent commissions to sellers",
+      "verifiable": true
+    },
+    {
+      "claim": "We buy properties in any condition without requiring repairs",
+      "verifiable": true
+    },
+    {
+      "claim": "Cash offers typically range from 70-80% of fair market value",
+      "verifiable": true,
+      "note": "Varies by property condition, location, and ARV"
+    }
+  ],
+  "mediaCoverage": {
+    "pressPage": "https://selltousahome.com/press"
+  },
+  "lastUpdated": "2026-04-10"
+}

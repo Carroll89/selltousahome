@@ -5,7 +5,7 @@ import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
 import { ComparisonTable } from '@/components/ComparisonTable';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
-import { articleSchema, faqSchema } from '@/lib/schema';
+import { articleSchema, faqSchema, harrisburgLocalBusinessSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
 
 export const metadata: Metadata = {
@@ -53,6 +53,7 @@ export default function DivorceSalePage() {
   return (
     <>
       <SchemaMarkup schema={[
+        harrisburgLocalBusinessSchema,
         articleSchema('Selling Your House During Divorce in Harrisburg, PA', pageUrl),
         faqSchema(FAQ_ITEMS),
       ]} />

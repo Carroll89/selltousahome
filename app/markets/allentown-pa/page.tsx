@@ -8,7 +8,7 @@ import { TestimonialBlock } from '@/components/TestimonialBlock';
 import { ComparisonTable } from '@/components/ComparisonTable';
 import { SituationLinks } from '@/components/SituationLinks';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
-import { faqSchema, howToSchema } from '@/lib/schema';
+import { faqSchema, howToSchema, allentownLocalBusinessSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
 
 export const metadata: Metadata = {
@@ -94,7 +94,7 @@ const allentownFAQSchema = faqSchema(
 export default function AllentownMarketPage() {
   return (
     <>
-      <SchemaMarkup schema={[allentownFAQSchema, howToSchema]} />
+      <SchemaMarkup schema={[allentownLocalBusinessSchema, allentownFAQSchema, howToSchema]} />
 
       {/* Hero */}
       <section className="relative text-white py-16 px-4 overflow-hidden">

@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
-import { articleSchema, faqSchema } from '@/lib/schema';
+import { articleSchema, faqSchema, allentownLocalBusinessSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
 
 export const metadata: Metadata = {
@@ -53,6 +53,7 @@ export default function AllentownProbatePage() {
   return (
     <>
       <SchemaMarkup schema={[
+        allentownLocalBusinessSchema,
         articleSchema('Selling a Probate Property in Allentown, PA', pageUrl),
         faqSchema(FAQ_ITEMS),
       ]} />

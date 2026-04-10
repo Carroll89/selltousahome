@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
-import { articleSchema, faqSchema } from '@/lib/schema';
+import { articleSchema, faqSchema, harrisburgLocalBusinessSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
 
 export const metadata: Metadata = {
@@ -58,6 +58,7 @@ export default function HarrisburgFireDamagePage() {
   return (
     <>
       <SchemaMarkup schema={[
+        harrisburgLocalBusinessSchema,
         articleSchema('Selling a Fire-Damaged House in Harrisburg, PA', pageUrl),
         faqSchema(FAQ_ITEMS),
       ]} />
