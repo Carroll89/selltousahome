@@ -9,7 +9,7 @@ import { articleSchema, faqSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'Selling a House With Code Violations in PA '
+  title: 'Selling a House With Code Violations in PA',
   description:
     'Have open permits or code violations on your PA home? You can still sell. Learn what violations mean for your sale, and how cash buyers handle them.',
   alternates: { canonical: `${SITE_URL}/blog/sell-house-with-code-violations-pa` },
