@@ -191,10 +191,10 @@ export default function KopCodeViolationsPage() {
                 </p>
               </div>
               <div className="border border-gray-200 rounded-lg p-4">
-                <p className="font-semibold text-brand-dark">Montgomery County Board of Assessment Appeals</p>
+                <p className="font-semibold text-brand-dark">PA Dept. of Community &amp; Economic Development — Housing &amp; Code Resources</p>
                 <p className="text-gray-600">
-                  <a href="https://www.montcopa.org/368/Board-of-Assessment-Appeals" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:underline">montcopa.org</a>{' '}
-                  — Assessment and property records for Upper Merion Township and all of Montgomery County.
+                  <a href="https://dced.pa.gov" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:underline">dced.pa.gov</a>{' '}
+                  — Pennsylvania DCED oversees housing programs and municipal code standards, including habitability requirements relevant to Upper Merion Township enforcement.
                 </p>
               </div>
             </div>

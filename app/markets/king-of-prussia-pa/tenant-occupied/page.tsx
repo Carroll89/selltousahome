@@ -210,10 +210,10 @@ export default function KopTenantOccupiedPage() {
                 </p>
               </div>
               <div className="border border-gray-200 rounded-lg p-4">
-                <p className="font-semibold text-brand-dark">Montgomery County Register of Wills</p>
+                <p className="font-semibold text-brand-dark">Penn State Extension — Landlord-Tenant Resources</p>
                 <p className="text-gray-600">
-                  <a href="https://www.montcopa.org/753/Register-of-Wills" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:underline">montcopa.org</a>{' '}
-                  — Montgomery County property records and estate administration, relevant when a rental property changes ownership.
+                  <a href="https://extension.psu.edu" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:underline">extension.psu.edu</a>{' '}
+                  — Penn State Extension covers Pennsylvania landlord-tenant law, rental property management, and housing rights — including tenant protections during ownership transfers.
                 </p>
               </div>
             </div>
