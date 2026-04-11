@@ -91,6 +91,8 @@ export default function HarrisburgInheritedPropertyPage() {
       <VideoEmbed
         src="https://v3b.fal.media/files/b/0a95c0fb/gxjjT8T-3zVNFOeDd2o8__harrisburg-inherited.mp4"
         title="Selling an Inherited Property in Harrisburg"
+        poster="/images/video-posters/harrisburg-inherited.jpg"
+        subtitle="Learn about selling your inherited property in Harrisburg"
       />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article>

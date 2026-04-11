@@ -200,6 +200,8 @@ export default function HarrisburgMarketReport() {
       <VideoEmbed
         src="https://v3b.fal.media/files/b/0a95c0fc/Z-XmF_o8FB2J9ON4IJWK2_harrisburg-market-report.mp4"
         title="Harrisburg, PA Real Estate Market Report"
+        poster="/images/video-posters/harrisburg-market-report.jpg"
+        subtitle="See how we help homeowners in Harrisburg sell fast"
       />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
 

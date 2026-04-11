@@ -125,6 +125,8 @@ export default function HarrisburgFAQPage() {
       <VideoEmbed
         src="https://v3b.fal.media/files/b/0a95c0fa/ez3GzE01xhle-dHlM87zy_harrisburg-faq.mp4"
         title="Frequently Asked Questions — Harrisburg Home Sales"
+        poster="/images/video-posters/harrisburg-faq.jpg"
+        subtitle="See how we help homeowners in Harrisburg sell fast"
       />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article>

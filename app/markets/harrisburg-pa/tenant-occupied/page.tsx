@@ -90,6 +90,8 @@ export default function HarrisburgTenantOccupiedPage() {
       <VideoEmbed
         src="https://v3b.fal.media/files/b/0a95c0fd/HIBLHpdMne0FxlgRD-3fF_harrisburg-tenant-occupied.mp4"
         title="Selling a Tenant-Occupied Property in Harrisburg"
+        poster="/images/video-posters/harrisburg-tenant-occupied.jpg"
+        subtitle="Learn about selling your tenant-occupied property in Harrisburg"
       />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article>

@@ -91,6 +91,8 @@ export default function HarrisburgForeclosurePage() {
       <VideoEmbed
         src="https://v3b.fal.media/files/b/0a95c0fb/2lwNNUG9OfQUfRJgt_Cu-_harrisburg-foreclosure.mp4"
         title="Selling Before Foreclosure in Harrisburg"
+        poster="/images/video-posters/harrisburg-foreclosure.jpg"
+        subtitle="Learn about selling your property before foreclosure in Harrisburg"
       />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article>

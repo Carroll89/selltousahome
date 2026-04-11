@@ -135,6 +135,8 @@ export default function AllentownMarketPage() {
       <VideoEmbed
         src="https://v3b.fal.media/files/b/0a95c0f8/zLYouEqILs7_2R7GIM9GB_allentown-main.mp4"
         title="Sell Your House Fast in Allentown, PA"
+        poster="/images/video-posters/allentown-main.jpg"
+        subtitle="See how we help homeowners in Allentown sell fast"
       />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* How It Works */}

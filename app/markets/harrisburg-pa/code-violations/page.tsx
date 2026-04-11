@@ -102,6 +102,8 @@ export default function HarrisburgCodeViolationsPage() {
       <VideoEmbed
         src="https://v3b.fal.media/files/b/0a95c0fa/Rjgk-bPzVnANojDTcLEQp_harrisburg-code-violations.mp4"
         title="Selling a Home with Code Violations in Harrisburg"
+        poster="/images/video-posters/harrisburg-code-violations.jpg"
+        subtitle="Learn about selling your code violation property in Harrisburg"
       />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article>

@@ -97,6 +97,8 @@ export default function AllentownForeclosurePage() {
       <VideoEmbed
         src="https://v3b.fal.media/files/b/0a95c0f8/WDXLw4OFz0AB3MkMFsn3b_allentown-foreclosure.mp4"
         title="Selling Before Foreclosure in Allentown"
+        poster="/images/video-posters/allentown-foreclosure.jpg"
+        subtitle="Learn about selling your property before foreclosure in Allentown"
       />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article>
