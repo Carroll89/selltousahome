@@ -131,6 +131,8 @@ export default function HarrisburgMarketPage() {
       <VideoEmbed
         src="https://v3b.fal.media/files/b/0a95c0fc/QS_oBfAsYUxtHMdVSx8CT_harrisburg-main.mp4"
         title="Sell Your House Fast in Harrisburg, PA"
+        poster="/images/video-posters/harrisburg-main-poster.jpg"
+        subtitle="See how we help homeowners in Harrisburg sell fast for cash"
       />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* How It Works */}

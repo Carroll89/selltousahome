@@ -94,6 +94,8 @@ export default function AllentownDivorceSalePage() {
       <VideoEmbed
         src="https://v3b.fal.media/files/b/0a95c0f7/caLPVXoORM986HzvQqDBE_allentown-divorce.mp4"
         title="Selling a House During Divorce in Allentown"
+        poster="/images/video-posters/allentown-divorce-poster.jpg"
+        subtitle="See how we help Allentown homeowners sell quickly and move forward during a divorce"
       />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article className="max-w-4xl">

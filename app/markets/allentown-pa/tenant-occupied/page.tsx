@@ -96,6 +96,8 @@ export default function AllentownTenantOccupiedPage() {
       <VideoEmbed
         src="https://v3b.fal.media/files/b/0a95c0f9/9i3z8bWrhNYAyWExOZasV_allentown-tenant-occupied.mp4"
         title="Selling a Tenant-Occupied Property in Allentown"
+        poster="/images/video-posters/allentown-tenant-occupied-poster.jpg"
+        subtitle="See how we buy tenant-occupied properties in Allentown — no evictions required"
       />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article>

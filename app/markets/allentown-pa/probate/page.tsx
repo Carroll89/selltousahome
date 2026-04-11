@@ -96,6 +96,8 @@ export default function AllentownProbatePage() {
       <VideoEmbed
         src="https://v3b.fal.media/files/b/0a95c0f9/sGkI0ze2QQXFYH2nOxhSa_allentown-probate.mp4"
         title="Selling a Probate Property in Allentown"
+        poster="/images/video-posters/allentown-probate-poster.jpg"
+        subtitle="See how we help Allentown families sell probate properties for cash, fast"
       />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article>

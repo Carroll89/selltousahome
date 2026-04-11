@@ -102,6 +102,8 @@ export default function HarrisburgFireDamagePage() {
       <VideoEmbed
         src="https://v3b.fal.media/files/b/0a95c0fb/ujkumlRycp1KcN9eUOueo_harrisburg-fire-damage.mp4"
         title="Selling a Fire-Damaged Home in Harrisburg"
+        poster="/images/video-posters/harrisburg-fire-damage-poster.jpg"
+        subtitle="See how we buy fire-damaged homes in Harrisburg — cash offer, any condition"
       />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article>

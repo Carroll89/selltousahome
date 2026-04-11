@@ -103,6 +103,8 @@ export default function HarrisburgPropertyLiensPage() {
       <VideoEmbed
         src="https://v3b.fal.media/files/b/0a95c0fd/Nc_adaeWMqrhab3b0C4zT_harrisburg-property-liens.mp4"
         title="Selling a Home with Liens in Harrisburg"
+        poster="/images/video-posters/harrisburg-property-liens-poster.jpg"
+        subtitle="See how we buy Harrisburg homes with liens — we handle the paperwork and payoff"
       />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article>

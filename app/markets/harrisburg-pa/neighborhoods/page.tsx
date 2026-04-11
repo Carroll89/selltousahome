@@ -147,6 +147,8 @@ export default function HarrisburgNeighborhoodsPage() {
       <VideoEmbed
         src="https://v3b.fal.media/files/b/0a95c0fd/Qd9Kj8btMSOYmTT1Hwvjy_harrisburg-neighborhoods.mp4"
         title="Harrisburg, PA Neighborhoods Guide"
+        poster="/images/video-posters/harrisburg-neighborhoods-poster.jpg"
+        subtitle="See how we buy homes across all Harrisburg neighborhoods — any condition, any area"
       />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article>

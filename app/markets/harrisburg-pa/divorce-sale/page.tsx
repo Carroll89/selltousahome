@@ -94,6 +94,8 @@ export default function DivorceSalePage() {
       <VideoEmbed
         src="https://v3b.fal.media/files/b/0a95c0fa/tc1zAxUMb-BO9mAhHZd_V_harrisburg-divorce.mp4"
         title="Selling a House During Divorce in Harrisburg"
+        poster="/images/video-posters/harrisburg-divorce-poster.jpg"
+        subtitle="See how we help Harrisburg homeowners sell quickly and move forward during a divorce"
       />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article className="max-w-4xl">

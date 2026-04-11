@@ -97,6 +97,8 @@ export default function AllentownInheritedPropertyPage() {
       <VideoEmbed
         src="https://v3b.fal.media/files/b/0a95c0f8/FqXR-hxAOSciAP09lUsin_allentown-inherited.mp4"
         title="Selling an Inherited Property in Allentown"
+        poster="/images/video-posters/allentown-inherited-poster.jpg"
+        subtitle="See how we help Allentown families sell inherited properties without the hassle"
       />
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article>
