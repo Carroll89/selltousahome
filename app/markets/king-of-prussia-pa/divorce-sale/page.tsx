@@ -95,6 +95,19 @@ export default function KopDivorceSalePage() {
         poster="/images/video-posters/kop-divorce.jpg"
         subtitle="Neutral third party — fair offer, fast close, done"
       />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px4 pb-4 text-sm text-gray-600 leading-relaxed">
+            <p className="mb-3">Selling a house during a divorce in King of Prussia is stressful under the best circumstances. I&apos;m with USA Home Buyers, and I want to explain why a cash sale often makes the most sense in this situation.</p>
+            <p className="mb-3">The traditional listing route requires agreement at every step — agent selection, list price, repairs and updates, which offers to accept. When two people in a divorce have to agree on all of that, it often drags on for months. Meanwhile, you&apos;re both carrying a shared asset and dealing with a house neither of you wants to be tied to anymore.</p>
+            <p className="mb-3">A cash sale cuts through that. We make one written offer to both parties within 24 hours. If you accept, we close in 7 to 14 days. The proceeds come out at closing and get divided per your divorce agreement or court order.</p>
+            <p className="mb-3">With King of Prussia median home values in the $453,000 to $549,000 range, there&apos;s often significant equity at stake. Our goal is to get both parties a fair, fast outcome.</p>
+            <p className="mb-3">We&apos;re a neutral third party. We don&apos;t have a stake in either side of the divorce. Our job is just to close the deal efficiently.</p>
+            <p className="mb-3">Montgomery County Court of Common Pleas handles divorce proceedings. Call USA Home Buyers at 888-440-5250. Fair offer, 24 hours, close in 7 to 14 days. Done.</p>
+        </div>
+      </details>
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article>

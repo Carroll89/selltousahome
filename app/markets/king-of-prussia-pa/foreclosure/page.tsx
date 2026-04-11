@@ -95,6 +95,19 @@ export default function KopForeclosurePage() {
         poster="/images/video-posters/kop-foreclosure.jpg"
         subtitle="Close fast, protect your equity, stop the sheriff sale"
       />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px4 pb-4 text-sm text-gray-600 leading-relaxed">
+            <p className="mb-3">Facing foreclosure in Montgomery County is a stressful situation, but you have more options than you might think. I&apos;m with USA Home Buyers, and I want to walk you through the most important one.</p>
+            <p className="mb-3">Pennsylvania requires judicial foreclosure — the lender goes through the courts. In Montgomery County, that process typically runs 12 to 18 months from first missed payment to sheriff sale. But once a sheriff sale date is scheduled, the window for action narrows fast.</p>
+            <p className="mb-3">Here&apos;s what most people don&apos;t realize: if you sell your home before the sheriff sale, the foreclosure stops. The mortgage gets paid off at closing. The case gets dismissed. Any remaining equity — after the mortgage and closing costs — goes to you. Not to the bank.</p>
+            <p className="mb-3">We&apos;ve helped Montgomery County homeowners close in seven days to beat sheriff sale deadlines. Cash purchase means no lender approval, no appraisal contingency, no financing that can fall through.</p>
+            <p className="mb-3">Montgomery County properties carry significant value — with median home prices in the $453,000 to $549,000 range, there&apos;s often meaningful equity worth protecting. Don&apos;t let the sheriff sale take that.</p>
+            <p className="mb-3">PHFA&apos;s HEMAP program offers mortgage assistance — you have 33 days from receiving the foreclosure notice to apply. Call USA Home Buyers right now at 888-440-5250. We&apos;ll give you a written offer within 24 hours.</p>
+        </div>
+      </details>
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article>

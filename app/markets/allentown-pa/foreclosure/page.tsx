@@ -100,6 +100,19 @@ export default function AllentownForeclosurePage() {
         poster="/images/video-posters/allentown-foreclosure.jpg"
         subtitle="Learn about selling your property before foreclosure in Allentown"
       />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px4 pb-4 text-sm text-gray-600 leading-relaxed">
+            <p className="mb-3">If you&apos;re facing foreclosure in Allentown or anywhere in Lehigh County, I want to give you a clear picture of what&apos;s happening and what your options are. I&apos;m with USA Home Buyers.</p>
+            <p className="mb-3">Pennsylvania runs judicial foreclosures — that means the lender has to go through the courts. The process typically takes 12 to 18 months from your first missed payment to the Lehigh County sheriff sale. That sounds like a long time, but once a sale date is scheduled, the pressure is intense.</p>
+            <p className="mb-3">Here&apos;s the option most people don&apos;t fully understand: sell before the sheriff sale. If you close on a cash sale before the scheduled sheriff sale date, the mortgage gets paid off at closing and the foreclosure case is dismissed. Whatever equity you have left — that&apos;s yours.</p>
+            <p className="mb-3">We&apos;ve helped Allentown and Lehigh County homeowners close in seven days to beat sheriff sale deadlines. We move fast because we pay cash — no financing contingency, no lender approval process, no waiting on an appraisal.</p>
+            <p className="mb-3">There&apos;s also PHFA&apos;s HEMAP assistance program — if you haven&apos;t applied, you have 33 days from receiving the notice of intention to foreclose to do so.</p>
+            <p className="mb-3">The worst thing you can do right now is wait. Call USA Home Buyers at 888-440-5250. We&apos;ll give you a written cash offer within 24 hours and help you understand exactly where you stand.</p>
+        </div>
+      </details>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article>
 

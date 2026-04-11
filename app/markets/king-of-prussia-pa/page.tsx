@@ -17,6 +17,9 @@ export const metadata: Metadata = {
   description:
     'We buy houses in King of Prussia PA for cash, as-is. Written offer in 24 hours, close in 7-14 days. No repairs, no agent fees. Serving Montgomery County.',
   alternates: { canonical: `${SITE_URL}/markets/king-of-prussia-pa` },
+  openGraph: {
+    images: [{ url: '/images/king-of-prussia-hero.jpg', width: 1200, height: 630, alt: 'Sell Your House Fast in King of Prussia PA' }],
+  },
 };
 
 const TESTIMONIALS = [
@@ -163,6 +166,18 @@ export default function KingOfPrussiaMarketPage() {
         poster="/images/video-posters/kop-main.jpg"
         subtitle="Cash offer in 24 hours — no repairs, no agent fees"
       />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px4 pb-4 text-sm text-gray-600 leading-relaxed">
+            <p className="mb-3">If you&apos;re looking to sell your house fast in King of Prussia, PA, here&apos;s how we work. I&apos;m with USA Home Buyers. We buy homes in King of Prussia and throughout Montgomery County for cash, as-is, in any condition.</p>
+            <p className="mb-3">Here&apos;s the 2026 market reality in King of Prussia. Zillow puts the median home value at $453,560. Redfin&apos;s median sale price is $549,350. King of Prussia has a Redfin Compete Score of 82 out of 100. But the median home takes 34 days to go pending, then another 45 to 60 days to close. You&apos;re looking at three to four months from listing to cash in hand.</p>
+            <p className="mb-3">We close in 7 to 14 days. Written offer within 24 hours of your call. No repairs, no cleaning, no agent commissions. We cover all closing costs.</p>
+            <p className="mb-3">We serve all of Upper Merion Township and Montgomery County: Norristown, Conshohocken, Plymouth Meeting, Wayne, Collegeville, Valley Forge, Bryn Mawr, Bridgeport, and surrounding communities. Whether you&apos;re relocating, dealing with an inherited property, or facing a time-sensitive situation — we&apos;re the call to make.</p>
+            <p className="mb-3">Call USA Home Buyers at 888-440-5250. We&apos;ll ask a few questions, make a fair written offer within 24 hours, and close on your schedule.</p>
+        </div>
+      </details>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* How It Works */}

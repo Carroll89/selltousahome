@@ -95,6 +95,19 @@ export default function KopTenantOccupiedPage() {
         poster="/images/video-posters/kop-tenant.jpg"
         subtitle="We buy with tenants in place — no eviction required"
       />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px4 pb-4 text-sm text-gray-600 leading-relaxed">
+            <p className="mb-3">Selling a rental property in King of Prussia or Montgomery County with tenants in place is one of the situations where a cash buyer makes the most sense. I&apos;m with USA Home Buyers, and we buy tenant-occupied properties regularly.</p>
+            <p className="mb-3">Most buyers using conventional financing don&apos;t want to purchase a tenant-occupied property. They either want to move in themselves or they&apos;re not set up to be landlords. Financing lenders get cautious. Your buyer pool shrinks significantly before you even list.</p>
+            <p className="mb-3">Pennsylvania landlord-tenant law gives your tenants rights around showings and access. If your tenant isn&apos;t cooperative — which often happens when they realize the property is being sold — coordinating showings through the MLS can be a nightmare.</p>
+            <p className="mb-3">We don&apos;t need showings. We buy tenant-occupied properties in King of Prussia as-is, with tenants in place. We take the property with the existing lease and handle the tenant transition ourselves after closing.</p>
+            <p className="mb-3">Montgomery County&apos;s rental market is strong, particularly near the King of Prussia business corridor, Valley Forge, and communities along Route 202.</p>
+            <p className="mb-3">Call USA Home Buyers at 888-440-5250. Written cash offer in 24 hours. No eviction required.</p>
+        </div>
+      </details>
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article>

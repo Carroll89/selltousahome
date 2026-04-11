@@ -95,6 +95,19 @@ export default function KopFireDamagePage() {
         poster="/images/video-posters/kop-fire-damage.jpg"
         subtitle="Cash offer in 24 hours — we buy fire damage as-is"
       />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px4 pb-4 text-sm text-gray-600 leading-relaxed">
+            <p className="mb-3">If you have a fire-damaged property in King of Prussia or Montgomery County, you&apos;re dealing with a situation that most real estate professionals aren&apos;t equipped to handle. I&apos;m with USA Home Buyers, and we buy fire-damaged properties for cash, as-is.</p>
+            <p className="mb-3">Fire-damaged homes are effectively unmarketable through conventional channels. Conventional financing won&apos;t appraise a structurally compromised or gutted property. The longer a fire-damaged home sits — open to weather, at risk of further structural deterioration, creating liability — the worse the situation gets.</p>
+            <p className="mb-3">We buy fire-damaged King of Prussia and Montgomery County properties for cash in their current condition. No remediation required. No structural repairs before closing. No smoke or water damage cleanup on your end. We assess the property in its current state and make a written cash offer within 24 hours.</p>
+            <p className="mb-3">With King of Prussia median home values in the $453,000 to $549,000 range, there&apos;s often significant value in the land and structure even after fire damage.</p>
+            <p className="mb-3">Once you accept, we can close in as few as 7 days. We handle all closing costs. No agent commissions. We take on full responsibility for the property at closing — including all the cleanup and remediation that comes after.</p>
+            <p className="mb-3">Call us right now at 888-440-5250. We&apos;ll get you a fair cash offer fast so you can move forward.</p>
+        </div>
+      </details>
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article>

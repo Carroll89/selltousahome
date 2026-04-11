@@ -128,6 +128,20 @@ export default function HarrisburgFAQPage() {
         poster="/images/video-posters/harrisburg-faq.jpg"
         subtitle="See how we help homeowners in Harrisburg sell fast"
       />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px4 pb-4 text-sm text-gray-600 leading-relaxed">
+            <p className="mb-3">I get a lot of the same questions from Harrisburg homeowners thinking about selling to a cash buyer, so let me answer the most common ones right here. I&apos;m with USA Home Buyers.</p>
+            <p className="mb-3">How fast do we close? Our standard is 7 to 14 days after you accept the offer. Our fastest close in the Harrisburg area was 5 days. If you need more time, we work with your timeline.</p>
+            <p className="mb-3">What do we pay? We pay 70 to 80 percent of fair market value. No agent commissions — that&apos;s typically 5 to 6 percent saved. No closing costs — we cover them. No repair expenses.</p>
+            <p className="mb-3">Do we buy houses in bad condition? Yes. We buy as-is in any condition — fire-damaged, mold, structural issues, hoarding situations, tenant damage. Whatever condition your Harrisburg property is in, we&apos;ll make you an offer.</p>
+            <p className="mb-3">What about liens or back taxes? Those get paid at closing from proceeds. You don&apos;t need cash upfront in most cases. The title company handles it.</p>
+            <p className="mb-3">What areas do we serve? All of Harrisburg and Dauphin County — Camp Hill, Mechanicsburg, Carlisle, Steelton, Lower Paxton Township, Swatara Township, and surrounding communities.</p>
+            <p className="mb-3">Any other questions? Call us at 888-440-5250. We&apos;re real people, we answer the phone, and we&apos;ll give you straight answers.</p>
+        </div>
+      </details>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article>
           <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-10">

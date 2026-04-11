@@ -93,6 +93,18 @@ export default function HarrisburgTenantOccupiedPage() {
         poster="/images/video-posters/harrisburg-tenant-occupied.jpg"
         subtitle="Learn about selling your tenant-occupied property in Harrisburg"
       />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px4 pb-4 text-sm text-gray-600 leading-relaxed">
+            <p className="mb-3">Selling a tenant-occupied rental property in Harrisburg comes with its own set of complications. I&apos;m with USA Home Buyers, and I want to be straight with you about how we handle this.</p>
+            <p className="mb-3">Pennsylvania landlord-tenant law gives tenants specific rights when a property is sold. You generally can&apos;t just show up and show the house — you need proper notice, and in most cases, you need to honor the lease term. If your tenant has a fixed-term lease, a buyer using conventional financing typically won&apos;t be interested.</p>
+            <p className="mb-3">We buy tenant-occupied properties in Harrisburg as-is, lease and all. We don&apos;t require you to evict your tenant before closing. We&apos;ll take the property with the tenant in place and work out the transition ourselves.</p>
+            <p className="mb-3">This matters if you have a difficult tenant situation — non-payment, a lease you can&apos;t easily break, a tenant who isn&apos;t cooperating with showings. A traditional listing in that situation can drag on for months. We skip all of that.</p>
+            <p className="mb-3">If you&apos;re a Harrisburg landlord ready to exit a property — whether you have a great tenant or a problem tenant — call USA Home Buyers at 888-440-5250. Written cash offer in 24 hours, close in 7 to 14 days. No eviction required.</p>
+        </div>
+      </details>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article>
 

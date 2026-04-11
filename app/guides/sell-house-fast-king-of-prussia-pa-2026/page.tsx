@@ -14,6 +14,9 @@ export const metadata: Metadata = {
   description:
     'Complete 2026 guide to selling your house fast in King of Prussia PA. Honest comparison of cash buyers, agents, and iBuyers with real Montgomery County numbers.',
   alternates: { canonical: `${SITE_URL}/guides/sell-house-fast-king-of-prussia-pa-2026` },
+  openGraph: {
+    images: [{ url: '/images/king-of-prussia-hero.jpg', width: 1200, height: 630, alt: 'Sell Your House Fast in King of Prussia PA' }],
+  },
 };
 
 const FAQ_ITEMS = [
@@ -117,6 +120,19 @@ export default function SellHouseFastKopGuide() {
         poster="/images/video-posters/kop-guide.jpg"
         subtitle="Cash offers, agents, iBuyers — honest comparison"
       />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px4 pb-4 text-sm text-gray-600 leading-relaxed">
+            <p className="mb-3">If you&apos;re trying to sell your house fast in King of Prussia in 2026, you&apos;ve got a few real options — and I want to give you an honest comparison so you can decide what&apos;s right for your situation. I&apos;m with USA Home Buyers.</p>
+            <p className="mb-3">Option one: traditional listing with an agent. In King of Prussia, the median home takes about 34 days to go pending, then another 45 to 60 days to close after that. You&apos;re looking at three to four months from listing to cash in hand. In a market with a Compete Score of 82 out of 100, well-priced homes in great condition do well. The trade-off is time, uncertainty, and the cost of repairs, staging, and agent commissions.</p>
+            <p className="mb-3">Option two: iBuyers. Companies like Opendoor make instant offers on homes that fit their criteria — typically updated, well-maintained properties in certain price ranges. If your home qualifies, it can be convenient. But service fees often run 5 to 8 percent, and not all King of Prussia properties qualify.</p>
+            <p className="mb-3">Option three: a local cash buyer like USA Home Buyers. We buy in any condition — no repairs, no staging, no showings. Written cash offer within 24 hours. Close in 7 to 14 days. We cover all closing costs. The trade-off is that we pay below full retail — typically 70 to 80 percent of market value. But with King of Prussia median values at $453,000 to $549,000, that&apos;s still a significant number.</p>
+            <p className="mb-3">Which option is right for you depends on your timeline, your property&apos;s condition, and how much certainty matters. If you have time and a move-in-ready home, the MLS may serve you well. If you need speed, certainty, or if your property has complications, a cash sale is the move.</p>
+            <p className="mb-3">Want to know what we&apos;d offer for your specific King of Prussia property? Call 888-440-5250 or fill out the form. You&apos;ll have a written offer in 24 hours.</p>
+        </div>
+      </details>
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
 

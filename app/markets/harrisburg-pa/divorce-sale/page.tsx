@@ -97,6 +97,19 @@ export default function DivorceSalePage() {
         poster="/images/video-posters/harrisburg-divorce.jpg"
         subtitle="Learn about selling your property during divorce in Harrisburg"
       />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px4 pb-4 text-sm text-gray-600 leading-relaxed">
+            <p className="mb-3">Selling a house during a divorce is one of the most stressful financial situations a homeowner can face. I&apos;m with USA Home Buyers, and we&apos;ve helped couples in Harrisburg and Dauphin County navigate this many times.</p>
+            <p className="mb-3">Here&apos;s the core problem with a traditional sale during divorce: it takes too long. You&apos;re looking at finding an agent both parties can agree on, making repairs both parties agree on, accepting an offer both parties agree on — and then waiting 45 to 60 days to close while a divorce case is potentially still active.</p>
+            <p className="mb-3">A cash sale cuts through all of that. We make one written offer to both parties within 24 hours. You both review it. If you accept, we close in 7 to 14 days. The proceeds come out of closing and get divided per your divorce agreement or court order. Done.</p>
+            <p className="mb-3">We&apos;re a neutral third party — we&apos;re not aligned with either spouse. Our only job is to make the transaction as fast and smooth as possible so both parties can move forward.</p>
+            <p className="mb-3">In Harrisburg, the Dauphin County Court of Common Pleas handles divorce proceedings. Whether you&apos;re early in the process or the court has already ordered a sale, we can work with your attorneys and timeline.</p>
+            <p className="mb-3">Call USA Home Buyers at 888-440-5250. We&apos;ll get you an offer within 24 hours and help you both move on.</p>
+        </div>
+      </details>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article className="max-w-4xl">
 

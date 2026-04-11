@@ -17,6 +17,9 @@ export const metadata: Metadata = {
   description:
     'We buy houses in Allentown PA for cash, as-is, in any condition. Written offer in 24 hours, close in 7 days. No repairs, no fees. Serving all of Lehigh County.',
   alternates: { canonical: `${SITE_URL}/markets/allentown-pa` },
+  openGraph: {
+    images: [{ url: '/images/allentown-hero.jpg', width: 1200, height: 630, alt: 'Sell Your House Fast in Allentown PA' }],
+  },
 };
 
 const TESTIMONIALS = [
@@ -138,6 +141,19 @@ export default function AllentownMarketPage() {
         poster="/images/video-posters/allentown-main.jpg"
         subtitle="See how we help homeowners in Allentown sell fast"
       />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px4 pb-4 text-sm text-gray-600 leading-relaxed">
+            <p className="mb-3">Hey, if you need to sell your house fast in Allentown, PA, I want to tell you exactly how we work. I&apos;m with USA Home Buyers. We buy houses in Allentown and all of Lehigh County and Northampton County for cash, as-is, with no repairs and no agent fees.</p>
+            <p className="mb-3">Here&apos;s the Allentown market right now in 2026. Median home value is around $267,000 per Zillow, with median sale prices on Redfin coming in around $245,000. Average days to pending is 29 days — it&apos;s an active market. But after you go pending, you&apos;re still 45 to 60 days from closing. That&apos;s two to three months from listing to keys changing hands.</p>
+            <p className="mb-3">We short-circuit all of that. You contact us, we ask a few questions about your property and situation, and within 24 hours you have a written cash offer. If you accept, you choose the closing date. Our fastest close in the Lehigh Valley was six days.</p>
+            <p className="mb-3">No repairs. No cleaning. No staging. No open houses. No agent commissions eating 5 to 6 percent of your sale price. We cover all closing costs.</p>
+            <p className="mb-3">We serve all of Allentown — the South Side, West End, Fountain Hill, Whitehall, Bethlehem, Easton, Northampton Borough, Emmaus, Catasauqua, and every corner of Lehigh and Northampton County. Whatever your situation — estate, divorce, foreclosure, bad condition, problem tenant — we&apos;ve handled it before.</p>
+            <p className="mb-3">Call 888-440-5250 to get your offer started. We&apos;re ready today.</p>
+        </div>
+      </details>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* How It Works */}
         <HowItWorks heading="How Selling Your Allentown House for Cash Works" />

@@ -217,6 +217,19 @@ export default function KingOfPrussiaMarketReport() {
         poster="/images/video-posters/kop-market-report.jpg"
         subtitle="$453K median value — competitive market, but we buy in any condition"
       />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px4 pb-4 text-sm text-gray-600 leading-relaxed">
+            <p className="mb-3">Let&apos;s look at the King of Prussia PA real estate market in 2026 — actual numbers, not hype. I&apos;m with USA Home Buyers.</p>
+            <p className="mb-3">The Zillow Home Value Index for King of Prussia is $453,560 as of February 2026, up 5.9 percent year-over-year. Redfin reports the median sale price at $549,350. King of Prussia has a Redfin Compete Score of 82 out of 100, classified as Very Competitive. The sale-to-list ratio is 97.6 percent.</p>
+            <p className="mb-3">Here&apos;s the number that doesn&apos;t get enough attention: the median home takes 34 days to go pending. After that, inspections, appraisals, and mortgage processing add another 45 to 60 days. Total time from listing to close is roughly 80 to 95 days.</p>
+            <p className="mb-3">We close in 7 to 14 days. No appraisal contingency. No financing that can fall through. No buyer getting cold feet after inspection.</p>
+            <p className="mb-3">Year-over-year appreciation is up 5.9 percent on ZHVI and 3.7 percent per Redfin. Both signal continued strength, driven by suburban Philadelphia demand and limited new inventory in established neighborhoods near Valley Forge.</p>
+            <p className="mb-3">If you&apos;re trying to decide between listing and a cash sale in King of Prussia, the math depends on your timeline and how much certainty matters. Call USA Home Buyers at 888-440-5250 for a written offer within 24 hours.</p>
+        </div>
+      </details>
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
 
@@ -229,7 +242,7 @@ export default function KingOfPrussiaMarketReport() {
               up {REPORT_DATA.yoyZHVI} year-over-year.
             </li>
             <li>
-              <strong>Median sale price:</strong> {REPORT_DATA.medianSalePrice} (up {REPORT_DATA.yoySalePrice} YoY).
+              <strong>Median sale price:</strong> {REPORT_DATA.medianSalePrice} per Redfin (up {REPORT_DATA.yoySalePrice} YoY).
             </li>
             <li>
               <strong>Days to pending:</strong> ~{REPORT_DATA.daysToPending} days. Full closing adds 45–60 more days after that.

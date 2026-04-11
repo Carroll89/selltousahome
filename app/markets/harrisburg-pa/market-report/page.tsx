@@ -203,6 +203,19 @@ export default function HarrisburgMarketReport() {
         poster="/images/video-posters/harrisburg-market-report.jpg"
         subtitle="See how we help homeowners in Harrisburg sell fast"
       />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px4 pb-4 text-sm text-gray-600 leading-relaxed">
+            <p className="mb-3">Let me give you the real numbers on the Harrisburg PA housing market in 2026. I&apos;m with USA Home Buyers, and we track this data every day.</p>
+            <p className="mb-3">Zillow&apos;s Home Value Index for the Harrisburg area puts the median home value at $234,569 as of early 2026. Redfin&apos;s median sale price for city-limit properties is around $145,000 — that gap tells you something about the mix of urban row homes and suburban single-family houses in the metro area.</p>
+            <p className="mb-3">Average days to pending in Harrisburg is five days. That&apos;s fast — it means when a well-priced home hits the MLS, it goes under contract quickly. But after going pending, you&apos;re still 45 to 60 days from closing. Inspections, appraisals, mortgage underwriting — all of that happens after the offer is accepted.</p>
+            <p className="mb-3">That&apos;s why some sellers in Harrisburg choose a cash sale instead. We close in 7 to 14 days. There&apos;s no appraisal contingency, no financing that can fall through, no buyer getting cold feet after inspection.</p>
+            <p className="mb-3">Harrisburg is also seeing year-over-year appreciation, driven by its status as the state capital, Penn State Harrisburg&apos;s presence, and relative affordability compared to Philadelphia and Pittsburgh.</p>
+            <p className="mb-3">Whether you decide to list traditionally or call us, understanding the market helps you make a better decision. If you&apos;d like a cash offer on your Harrisburg property, call USA Home Buyers at 888-440-5250.</p>
+        </div>
+      </details>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
 
         {/* TL;DR */}

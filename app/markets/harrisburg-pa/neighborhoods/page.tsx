@@ -150,6 +150,18 @@ export default function HarrisburgNeighborhoodsPage() {
         poster="/images/video-posters/harrisburg-neighborhoods.jpg"
         subtitle="See how we help homeowners in Harrisburg neighborhoods sell fast"
       />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px4 pb-4 text-sm text-gray-600 leading-relaxed">
+            <p className="mb-3">Harrisburg has a lot of distinct neighborhoods, and where your house is located matters — whether you&apos;re selling traditionally or going the cash route. I&apos;m with USA Home Buyers, and I want to give you a quick lay of the land.</p>
+            <p className="mb-3">The city sits in Dauphin County, right on the Susquehanna River. You&apos;ve got established residential neighborhoods like Bellevue Park, Allison Hill, and Midtown — each with its own price range and character. The suburbs like Camp Hill, Mechanicsburg, and Carlisle attract buyers who want the Harrisburg metro without the city core.</p>
+            <p className="mb-3">The Harrisburg metro has a median home value around $234,000 per Zillow, though city-limit sale prices median closer to $145,000. Average days to pending for the area is just five days — that&apos;s fast. But fast to pending doesn&apos;t mean fast to close. After an accepted offer on the MLS, you&apos;re still 45 to 60 days away from closing.</p>
+            <p className="mb-3">We buy houses in every Harrisburg neighborhood — whether it&apos;s a row home on Derry Street, a split-level in Lawnton, or a Colonial in Paxtang. Condition doesn&apos;t matter. Neighborhood doesn&apos;t disqualify you.</p>
+            <p className="mb-3">If you&apos;re a homeowner anywhere in the Harrisburg area looking for a fast, certain sale, call USA Home Buyers at 888-440-5250. Written offer within 24 hours, close in 7 to 14 days.</p>
+        </div>
+      </details>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article>
 

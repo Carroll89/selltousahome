@@ -95,6 +95,19 @@ export default function KopCodeViolationsPage() {
         poster="/images/video-posters/kop-code-violations.jpg"
         subtitle="As-is cash sale — violations handled after closing"
       />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px4 pb-4 text-sm text-gray-600 leading-relaxed">
+            <p className="mb-3">If your King of Prussia or Montgomery County property has open code violations, you&apos;re in a situation where most traditional buyers can&apos;t help you. I&apos;m with USA Home Buyers, and code violation properties are something we buy regularly.</p>
+            <p className="mb-3">Montgomery County has active code enforcement. Violations — whether from unpermitted additions, structural deficiencies, health and safety citations, or deferred maintenance — make it nearly impossible to sell to a buyer using conventional financing.</p>
+            <p className="mb-3">We don&apos;t use financing. We pay cash. There&apos;s no appraiser, no lender underwriting, no appraisal contingency. We buy the property in its current condition — violations, citations, and all.</p>
+            <p className="mb-3">How do violations get resolved at closing? They&apos;re treated like any other lien or encumbrance. The title search identifies all outstanding fines and municipal liens. At closing, those get paid from your proceeds before the remainder goes to you.</p>
+            <p className="mb-3">We&apos;ve bought Montgomery County properties with multiple open violations, properties cited for structural issues, properties with unpermitted construction, and properties where code enforcement had been active for years.</p>
+            <p className="mb-3">Call USA Home Buyers at 888-440-5250. We&apos;ll make a written cash offer within 24 hours and explain exactly how the violation resolution works at closing.</p>
+        </div>
+      </details>
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article>
