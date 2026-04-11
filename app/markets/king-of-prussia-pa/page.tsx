@@ -170,7 +170,7 @@ export default function KingOfPrussiaMarketPage() {
         <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
           📝 Video Transcript
         </summary>
-        <div className="px4 pb-4 text-sm text-gray-600 leading-relaxed">
+        <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
             <p className="mb-3">If you&apos;re looking to sell your house fast in King of Prussia, PA, here&apos;s how we work. I&apos;m with USA Home Buyers. We buy homes in King of Prussia and throughout Montgomery County for cash, as-is, in any condition.</p>
             <p className="mb-3">Here&apos;s the 2026 market reality in King of Prussia. Zillow puts the median home value at $453,560. Redfin&apos;s median sale price is $549,350. King of Prussia has a Redfin Compete Score of 82 out of 100. But the median home takes 34 days to go pending, then another 45 to 60 days to close. You&apos;re looking at three to four months from listing to cash in hand.</p>
             <p className="mb-3">We close in 7 to 14 days. Written offer within 24 hours of your call. No repairs, no cleaning, no agent commissions. We cover all closing costs.</p>

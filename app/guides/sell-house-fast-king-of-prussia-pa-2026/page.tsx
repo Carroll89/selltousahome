@@ -10,7 +10,7 @@ import { articleSchema, faqSchema, kingOfPrussiaLocalBusinessSchema } from '@/li
 import { PHONE, SITE_URL } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'Sell House Fast King of Prussia PA 2026 Guide',
+  title: 'King of Prussia PA Home Selling Guide 2026',
   description:
     'Complete 2026 guide to selling your house fast in King of Prussia PA. Honest comparison of cash buyers, agents, and iBuyers with real Montgomery County numbers.',
   alternates: { canonical: `${SITE_URL}/guides/sell-house-fast-king-of-prussia-pa-2026` },
@@ -124,7 +124,7 @@ export default function SellHouseFastKopGuide() {
         <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
           📝 Video Transcript
         </summary>
-        <div className="px4 pb-4 text-sm text-gray-600 leading-relaxed">
+        <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
             <p className="mb-3">If you&apos;re trying to sell your house fast in King of Prussia in 2026, you&apos;ve got a few real options — and I want to give you an honest comparison so you can decide what&apos;s right for your situation. I&apos;m with USA Home Buyers.</p>
             <p className="mb-3">Option one: traditional listing with an agent. In King of Prussia, the median home takes about 34 days to go pending, then another 45 to 60 days to close after that. You&apos;re looking at three to four months from listing to cash in hand. In a market with a Compete Score of 82 out of 100, well-priced homes in great condition do well. The trade-off is time, uncertainty, and the cost of repairs, staging, and agent commissions.</p>
             <p className="mb-3">Option two: iBuyers. Companies like Opendoor make instant offers on homes that fit their criteria — typically updated, well-maintained properties in certain price ranges. If your home qualifies, it can be convenient. But service fees often run 5 to 8 percent, and not all King of Prussia properties qualify.</p>

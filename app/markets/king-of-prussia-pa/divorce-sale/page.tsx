@@ -9,10 +9,11 @@ import { PHONE, SITE_URL } from '@/lib/utils';
 import { VideoEmbed } from '@/components/VideoEmbed';
 
 export const metadata: Metadata = {
-  title: 'Sell House During Divorce King of Prussia PA',
+  title: 'Sell Home in Divorce King of Prussia PA',
   description:
-    'Selling a house during divorce in King of Prussia or Montgomery County PA? We buy as-is, close in 7-14 days, and eliminate ongoing joint ownership complications. Cash offer in 24 hours.',
+    'Selling a house during divorce in King of Prussia PA? We buy as-is, close in 7-14 days, and eliminate joint ownership complications. Cash offer in 24 hours.',
   alternates: { canonical: `${SITE_URL}/markets/king-of-prussia-pa/divorce-sale` },
+  openGraph: { images: [{ url: '/images/king-of-prussia-hero.jpg', width: 1200, height: 630, alt: 'Sell Your Home During Divorce in King of Prussia PA' }] },
 };
 
 const FAQ_ITEMS = [
@@ -99,7 +100,7 @@ export default function KopDivorceSalePage() {
         <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
           📝 Video Transcript
         </summary>
-        <div className="px4 pb-4 text-sm text-gray-600 leading-relaxed">
+        <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
             <p className="mb-3">Selling a house during a divorce in King of Prussia is stressful under the best circumstances. I&apos;m with USA Home Buyers, and I want to explain why a cash sale often makes the most sense in this situation.</p>
             <p className="mb-3">The traditional listing route requires agreement at every step — agent selection, list price, repairs and updates, which offers to accept. When two people in a divorce have to agree on all of that, it often drags on for months. Meanwhile, you&apos;re both carrying a shared asset and dealing with a house neither of you wants to be tied to anymore.</p>
             <p className="mb-3">A cash sale cuts through that. We make one written offer to both parties within 24 hours. If you accept, we close in 7 to 14 days. The proceeds come out at closing and get divided per your divorce agreement or court order.</p>

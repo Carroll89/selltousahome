@@ -13,6 +13,7 @@ export const metadata: Metadata = {
   description:
     'Facing foreclosure in King of Prussia or Montgomery County PA? Sell before the sheriff sale and protect your equity. Cash offer in 24 hours, close in 7-14 days.',
   alternates: { canonical: `${SITE_URL}/markets/king-of-prussia-pa/foreclosure` },
+  openGraph: { images: [{ url: '/images/king-of-prussia-hero.jpg', width: 1200, height: 630, alt: 'Sell Before Foreclosure in King of Prussia PA' }] },
 };
 
 const FAQ_ITEMS = [
@@ -99,7 +100,7 @@ export default function KopForeclosurePage() {
         <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
           📝 Video Transcript
         </summary>
-        <div className="px4 pb-4 text-sm text-gray-600 leading-relaxed">
+        <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
             <p className="mb-3">Facing foreclosure in Montgomery County is a stressful situation, but you have more options than you might think. I&apos;m with USA Home Buyers, and I want to walk you through the most important one.</p>
             <p className="mb-3">Pennsylvania requires judicial foreclosure — the lender goes through the courts. In Montgomery County, that process typically runs 12 to 18 months from first missed payment to sheriff sale. But once a sheriff sale date is scheduled, the window for action narrows fast.</p>
             <p className="mb-3">Here&apos;s what most people don&apos;t realize: if you sell your home before the sheriff sale, the foreclosure stops. The mortgage gets paid off at closing. The case gets dismissed. Any remaining equity — after the mortgage and closing costs — goes to you. Not to the bank.</p>

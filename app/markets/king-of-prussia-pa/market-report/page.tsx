@@ -115,7 +115,7 @@ const PAGE_URL = `${SITE_URL}/markets/king-of-prussia-pa/market-report`;
 export const metadata: Metadata = {
   title: 'King of Prussia PA Housing Market 2026',
   description:
-    'King of Prussia PA housing market data 2026: median home value $453,560, median sale $549,350, 34 days to pending, +5.9% YoY. Neighborhood breakdown and cash buyer ranges. Updated April 2026.',
+    'King of Prussia PA housing market 2026: median home value $453,560, median sale $549,350, 34 days to pending, +5.9% YoY. Cash buyer ranges. Updated April 2026.',
   alternates: { canonical: PAGE_URL },
   openGraph: {
     title: 'King of Prussia PA Housing Market Report 2026',
@@ -123,6 +123,7 @@ export const metadata: Metadata = {
       'Current King of Prussia PA home prices, days on market, and what it means if you\'re selling in 2026.',
     url: PAGE_URL,
     type: 'article',
+    images: [{ url: '/images/king-of-prussia-hero.jpg', width: 1200, height: 630, alt: 'King of Prussia PA Housing Market 2026' }],
   },
 };
 
@@ -221,7 +222,7 @@ export default function KingOfPrussiaMarketReport() {
         <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
           📝 Video Transcript
         </summary>
-        <div className="px4 pb-4 text-sm text-gray-600 leading-relaxed">
+        <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
             <p className="mb-3">Let&apos;s look at the King of Prussia PA real estate market in 2026 — actual numbers, not hype. I&apos;m with USA Home Buyers.</p>
             <p className="mb-3">The Zillow Home Value Index for King of Prussia is $453,560 as of February 2026, up 5.9 percent year-over-year. Redfin reports the median sale price at $549,350. King of Prussia has a Redfin Compete Score of 82 out of 100, classified as Very Competitive. The sale-to-list ratio is 97.6 percent.</p>
             <p className="mb-3">Here&apos;s the number that doesn&apos;t get enough attention: the median home takes 34 days to go pending. After that, inspections, appraisals, and mortgage processing add another 45 to 60 days. Total time from listing to close is roughly 80 to 95 days.</p>

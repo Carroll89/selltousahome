@@ -9,10 +9,11 @@ import { PHONE, SITE_URL } from '@/lib/utils';
 import { VideoEmbed } from '@/components/VideoEmbed';
 
 export const metadata: Metadata = {
-  title: 'Sell Tenant-Occupied Property King of Prussia PA',
+  title: 'Sell Rental Property King of Prussia PA',
   description:
-    'Selling a rental property with tenants in King of Prussia or Montgomery County PA? We buy tenant-occupied homes as-is. No eviction needed, no repairs, close in 7-14 days.',
+    'Selling a rental property with tenants in King of Prussia PA? We buy tenant-occupied homes as-is. No eviction needed, no repairs, close in 7-14 days.',
   alternates: { canonical: `${SITE_URL}/markets/king-of-prussia-pa/tenant-occupied` },
+  openGraph: { images: [{ url: '/images/king-of-prussia-hero.jpg', width: 1200, height: 630, alt: 'Sell a Tenant-Occupied Property in King of Prussia PA' }] },
 };
 
 const FAQ_ITEMS = [
@@ -99,7 +100,7 @@ export default function KopTenantOccupiedPage() {
         <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
           📝 Video Transcript
         </summary>
-        <div className="px4 pb-4 text-sm text-gray-600 leading-relaxed">
+        <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
             <p className="mb-3">Selling a rental property in King of Prussia or Montgomery County with tenants in place is one of the situations where a cash buyer makes the most sense. I&apos;m with USA Home Buyers, and we buy tenant-occupied properties regularly.</p>
             <p className="mb-3">Most buyers using conventional financing don&apos;t want to purchase a tenant-occupied property. They either want to move in themselves or they&apos;re not set up to be landlords. Financing lenders get cautious. Your buyer pool shrinks significantly before you even list.</p>
             <p className="mb-3">Pennsylvania landlord-tenant law gives your tenants rights around showings and access. If your tenant isn&apos;t cooperative — which often happens when they realize the property is being sold — coordinating showings through the MLS can be a nightmare.</p>
@@ -195,6 +196,26 @@ export default function KopTenantOccupiedPage() {
               >
                 Pennsylvania Landlord and Tenant Act — 68 P.S. § 250.101 et seq. (legis.state.pa.us)
               </a>
+            </div>
+          </section>
+
+          <section className="mb-10">
+            <h2 className="text-xl font-bold text-brand-dark mb-4">Landlord-Tenant Resources — Montgomery County</h2>
+            <div className="space-y-3 text-sm">
+              <div className="border border-gray-200 rounded-lg p-4">
+                <p className="font-semibold text-brand-dark">HUD — Fair Housing and Tenant Rights</p>
+                <p className="text-gray-600">
+                  <a href="https://www.hud.gov" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:underline">hud.gov</a>{' '}
+                  — Federal fair housing standards, including tenant rights during property sales.
+                </p>
+              </div>
+              <div className="border border-gray-200 rounded-lg p-4">
+                <p className="font-semibold text-brand-dark">Montgomery County Register of Wills</p>
+                <p className="text-gray-600">
+                  <a href="https://www.montcopa.org/753/Register-of-Wills" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:underline">montcopa.org</a>{' '}
+                  — Montgomery County property records and estate administration, relevant when a rental property changes ownership.
+                </p>
+              </div>
             </div>
           </section>
 

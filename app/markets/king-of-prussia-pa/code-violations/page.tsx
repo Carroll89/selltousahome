@@ -9,10 +9,11 @@ import { articleSchema, faqSchema, kingOfPrussiaLocalBusinessSchema } from '@/li
 import { PHONE, SITE_URL } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'Sell House with Code Violations King of Prussia PA',
+  title: 'Code Violations Sale King of Prussia PA',
   description:
-    'Have code violations on your King of Prussia or Upper Merion Township property? We buy as-is regardless of code issues. Cash offer in 24 hours, close in 7-14 days.',
+    'Code violations in King of Prussia or Upper Merion Township? We buy as-is regardless of code issues. Cash offer in 24 hours, close in 7-14 days.',
   alternates: { canonical: `${SITE_URL}/markets/king-of-prussia-pa/code-violations` },
+  openGraph: { images: [{ url: '/images/king-of-prussia-hero.jpg', width: 1200, height: 630, alt: 'Sell a Home with Code Violations in King of Prussia PA' }] },
 };
 
 const FAQ_ITEMS = [
@@ -99,7 +100,7 @@ export default function KopCodeViolationsPage() {
         <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
           📝 Video Transcript
         </summary>
-        <div className="px4 pb-4 text-sm text-gray-600 leading-relaxed">
+        <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
             <p className="mb-3">If your King of Prussia or Montgomery County property has open code violations, you&apos;re in a situation where most traditional buyers can&apos;t help you. I&apos;m with USA Home Buyers, and code violation properties are something we buy regularly.</p>
             <p className="mb-3">Montgomery County has active code enforcement. Violations — whether from unpermitted additions, structural deficiencies, health and safety citations, or deferred maintenance — make it nearly impossible to sell to a buyer using conventional financing.</p>
             <p className="mb-3">We don&apos;t use financing. We pay cash. There&apos;s no appraiser, no lender underwriting, no appraisal contingency. We buy the property in its current condition — violations, citations, and all.</p>
@@ -178,6 +179,26 @@ export default function KopCodeViolationsPage() {
           />
 
           <FAQSection items={FAQ_ITEMS} heading="Frequently Asked Questions — Code Violations in King of Prussia" />
+
+          <section className="mt-10">
+            <h2 className="text-xl font-bold text-brand-dark mb-4">Code Violation Resources — Montgomery County</h2>
+            <div className="space-y-3 text-sm">
+              <div className="border border-gray-200 rounded-lg p-4">
+                <p className="font-semibold text-brand-dark">HUD — Minimum Property Standards</p>
+                <p className="text-gray-600">
+                  <a href="https://www.hud.gov" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:underline">hud.gov</a>{' '}
+                  — Federal guidelines on housing habitability standards, including violations that affect financing eligibility.
+                </p>
+              </div>
+              <div className="border border-gray-200 rounded-lg p-4">
+                <p className="font-semibold text-brand-dark">Montgomery County Board of Assessment Appeals</p>
+                <p className="text-gray-600">
+                  <a href="https://www.montcopa.org/368/Board-of-Assessment-Appeals" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:underline">montcopa.org</a>{' '}
+                  — Assessment and property records for Upper Merion Township and all of Montgomery County.
+                </p>
+              </div>
+            </div>
+          </section>
 
           <div className="mt-8 text-sm text-gray-500">
             <p>

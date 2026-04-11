@@ -11,8 +11,9 @@ import { PHONE, SITE_URL } from '@/lib/utils';
 export const metadata: Metadata = {
   title: 'Sell Fire-Damaged House King of Prussia PA',
   description:
-    'Selling a fire-damaged property in King of Prussia or Montgomery County PA? We buy fire-damaged homes as-is for cash. No repairs, no restoration required. Cash offer in 24 hours.',
+    'Selling a fire-damaged property in King of Prussia PA? We buy fire-damaged homes as-is for cash. No repairs, no restoration required. Cash offer in 24 hours.',
   alternates: { canonical: `${SITE_URL}/markets/king-of-prussia-pa/fire-damage` },
+  openGraph: { images: [{ url: '/images/king-of-prussia-hero.jpg', width: 1200, height: 630, alt: 'Sell a Fire-Damaged House in King of Prussia PA' }] },
 };
 
 const FAQ_ITEMS = [
@@ -99,7 +100,7 @@ export default function KopFireDamagePage() {
         <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
           📝 Video Transcript
         </summary>
-        <div className="px4 pb-4 text-sm text-gray-600 leading-relaxed">
+        <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
             <p className="mb-3">If you have a fire-damaged property in King of Prussia or Montgomery County, you&apos;re dealing with a situation that most real estate professionals aren&apos;t equipped to handle. I&apos;m with USA Home Buyers, and we buy fire-damaged properties for cash, as-is.</p>
             <p className="mb-3">Fire-damaged homes are effectively unmarketable through conventional channels. Conventional financing won&apos;t appraise a structurally compromised or gutted property. The longer a fire-damaged home sits — open to weather, at risk of further structural deterioration, creating liability — the worse the situation gets.</p>
             <p className="mb-3">We buy fire-damaged King of Prussia and Montgomery County properties for cash in their current condition. No remediation required. No structural repairs before closing. No smoke or water damage cleanup on your end. We assess the property in its current state and make a written cash offer within 24 hours.</p>
@@ -166,6 +167,26 @@ export default function KopFireDamagePage() {
           />
 
           <FAQSection items={FAQ_ITEMS} heading="Frequently Asked Questions — Fire-Damaged Homes in King of Prussia" />
+
+          <section className="mt-10">
+            <h2 className="text-xl font-bold text-brand-dark mb-4">Fire Damage Resources — Montgomery County</h2>
+            <div className="space-y-3 text-sm">
+              <div className="border border-gray-200 rounded-lg p-4">
+                <p className="font-semibold text-brand-dark">HUD — Housing and Urban Development</p>
+                <p className="text-gray-600">
+                  <a href="https://www.hud.gov" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:underline">hud.gov</a>{' '}
+                  — Federal housing standards and resources for distressed and fire-damaged properties.
+                </p>
+              </div>
+              <div className="border border-gray-200 rounded-lg p-4">
+                <p className="font-semibold text-brand-dark">Penn State Extension — Housing Resources</p>
+                <p className="text-gray-600">
+                  <a href="https://extension.psu.edu" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:underline">extension.psu.edu</a>{' '}
+                  — Pennsylvania residential property resources, including post-disaster housing guidance.
+                </p>
+              </div>
+            </div>
+          </section>
 
           <div className="mt-8 text-sm text-gray-500">
             <p>

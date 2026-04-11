@@ -11,8 +11,9 @@ import { VideoEmbed } from '@/components/VideoEmbed';
 export const metadata: Metadata = {
   title: 'Sell Inherited House King of Prussia PA',
   description:
-    'Inherited a property in King of Prussia or Montgomery County PA? We buy inherited homes as-is, work around estate timelines, and close in 7-14 days. No repairs, no cleanout.',
+    'Inherited a property in King of Prussia PA? We buy inherited homes as-is, work around estate timelines, and close in 7-14 days. No repairs, no cleanout.',
   alternates: { canonical: `${SITE_URL}/markets/king-of-prussia-pa/inherited-property` },
+  openGraph: { images: [{ url: '/images/king-of-prussia-hero.jpg', width: 1200, height: 630, alt: 'Sell an Inherited Home in King of Prussia PA' }] },
 };
 
 const FAQ_ITEMS = [
@@ -104,7 +105,7 @@ export default function KopInheritedPropertyPage() {
         <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
           📝 Video Transcript
         </summary>
-        <div className="px4 pb-4 text-sm text-gray-600 leading-relaxed">
+        <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
             <p className="mb-3">Inheriting a home in King of Prussia or Montgomery County comes with complexity — and often, some real emotional weight. I&apos;m with USA Home Buyers, and we handle estate properties in this area regularly.</p>
             <p className="mb-3">What we see most often: the family home has been in the family for decades. It needs work — maybe a new roof, outdated bathrooms, deferred maintenance that piled up over the years. The heirs don&apos;t live nearby. Nobody wants to coordinate repairs or manage showings from out of state while also handling everything else that comes with losing someone.</p>
             <p className="mb-3">We buy inherited Montgomery County properties as-is. You don&apos;t need to clean it out. Don&apos;t repair anything. Don&apos;t even take furniture you don&apos;t want — we&apos;ll handle all of it. We make a written cash offer within 24 hours and close in as few as 7 days.</p>

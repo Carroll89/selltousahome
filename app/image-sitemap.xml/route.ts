@@ -57,6 +57,78 @@ const IMAGE_ENTRIES: ImageEntry[] = [
     imageUrl: `${BASE_URL}/images/king-of-prussia-hero.jpg`,
     title: 'King of Prussia PA Housing Market Report 2026',
   },
+  // KOP situation pages — hero image
+  {
+    pageUrl: `${BASE_URL}/markets/king-of-prussia-pa/foreclosure`,
+    imageUrl: `${BASE_URL}/images/king-of-prussia-hero.jpg`,
+    title: 'Sell Before Foreclosure in King of Prussia PA',
+  },
+  {
+    pageUrl: `${BASE_URL}/markets/king-of-prussia-pa/code-violations`,
+    imageUrl: `${BASE_URL}/images/king-of-prussia-hero.jpg`,
+    title: 'Sell a Home with Code Violations in King of Prussia PA',
+  },
+  {
+    pageUrl: `${BASE_URL}/markets/king-of-prussia-pa/divorce-sale`,
+    imageUrl: `${BASE_URL}/images/king-of-prussia-hero.jpg`,
+    title: 'Sell Your Home During Divorce in King of Prussia PA',
+  },
+  {
+    pageUrl: `${BASE_URL}/markets/king-of-prussia-pa/fire-damage`,
+    imageUrl: `${BASE_URL}/images/king-of-prussia-hero.jpg`,
+    title: 'Sell a Fire-Damaged House in King of Prussia PA',
+  },
+  {
+    pageUrl: `${BASE_URL}/markets/king-of-prussia-pa/inherited-property`,
+    imageUrl: `${BASE_URL}/images/king-of-prussia-hero.jpg`,
+    title: 'Sell an Inherited Home in King of Prussia PA',
+  },
+  {
+    pageUrl: `${BASE_URL}/markets/king-of-prussia-pa/probate`,
+    imageUrl: `${BASE_URL}/images/king-of-prussia-hero.jpg`,
+    title: 'Sell a Probate Property in King of Prussia PA',
+  },
+  {
+    pageUrl: `${BASE_URL}/markets/king-of-prussia-pa/tenant-occupied`,
+    imageUrl: `${BASE_URL}/images/king-of-prussia-hero.jpg`,
+    title: 'Sell a Tenant-Occupied Property in King of Prussia PA',
+  },
+  // KOP situation pages — video poster images
+  {
+    pageUrl: `${BASE_URL}/markets/king-of-prussia-pa/foreclosure`,
+    imageUrl: `${BASE_URL}/images/video-posters/kop-foreclosure.jpg`,
+    title: 'Stop Foreclosure in King of Prussia PA — Video',
+  },
+  {
+    pageUrl: `${BASE_URL}/markets/king-of-prussia-pa/code-violations`,
+    imageUrl: `${BASE_URL}/images/video-posters/kop-code-violations.jpg`,
+    title: 'Sell a Home with Code Violations in King of Prussia PA — Video',
+  },
+  {
+    pageUrl: `${BASE_URL}/markets/king-of-prussia-pa/divorce-sale`,
+    imageUrl: `${BASE_URL}/images/video-posters/kop-divorce.jpg`,
+    title: 'Sell Your Home During Divorce in King of Prussia PA — Video',
+  },
+  {
+    pageUrl: `${BASE_URL}/markets/king-of-prussia-pa/fire-damage`,
+    imageUrl: `${BASE_URL}/images/video-posters/kop-fire-damage.jpg`,
+    title: 'Sell a Fire-Damaged House in King of Prussia PA — Video',
+  },
+  {
+    pageUrl: `${BASE_URL}/markets/king-of-prussia-pa/inherited-property`,
+    imageUrl: `${BASE_URL}/images/video-posters/kop-inherited.jpg`,
+    title: 'Sell an Inherited Home in King of Prussia PA — Video',
+  },
+  {
+    pageUrl: `${BASE_URL}/markets/king-of-prussia-pa/probate`,
+    imageUrl: `${BASE_URL}/images/video-posters/kop-probate.jpg`,
+    title: 'Sell a Probate Property in King of Prussia PA — Video',
+  },
+  {
+    pageUrl: `${BASE_URL}/markets/king-of-prussia-pa/tenant-occupied`,
+    imageUrl: `${BASE_URL}/images/video-posters/kop-tenant.jpg`,
+    title: 'Sell a Tenant-Occupied Property in King of Prussia PA — Video',
+  },
   // Video poster images
   {
     pageUrl: `${BASE_URL}/markets/harrisburg-pa`,

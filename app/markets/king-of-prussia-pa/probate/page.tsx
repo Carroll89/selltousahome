@@ -11,8 +11,9 @@ import { VideoEmbed } from '@/components/VideoEmbed';
 export const metadata: Metadata = {
   title: 'Sell Probate Property King of Prussia PA',
   description:
-    'Selling a probate property in King of Prussia or Montgomery County PA? We work with executors, handle estate complications, and close in 7-14 days. No repairs, no cleanout.',
+    'Selling a probate property in King of Prussia PA? We work with executors, handle estate complications, and close in 7-14 days. No repairs, no cleanout.',
   alternates: { canonical: `${SITE_URL}/markets/king-of-prussia-pa/probate` },
+  openGraph: { images: [{ url: '/images/king-of-prussia-hero.jpg', width: 1200, height: 630, alt: 'Sell a Probate Property in King of Prussia PA' }] },
 };
 
 const FAQ_ITEMS = [
@@ -99,7 +100,7 @@ export default function KopProbatePage() {
         <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
           📝 Video Transcript
         </summary>
-        <div className="px4 pb-4 text-sm text-gray-600 leading-relaxed">
+        <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
             <p className="mb-3">If you&apos;re the executor of an estate with real property in King of Prussia or Montgomery County, here&apos;s what you need to know. I&apos;m with USA Home Buyers.</p>
             <p className="mb-3">Probate in Montgomery County goes through the Montgomery County Register of Wills, located in Norristown. Once you have Letters Testamentary or Letters of Administration, you have the legal authority to sell estate real property. You don&apos;t need to wait for the entire estate to settle.</p>
             <p className="mb-3">Montgomery County estates vary widely in complexity. A straightforward estate can move through the opening process in weeks. Multi-heir situations or contested estates take longer. But the sale of the property itself can often proceed independently.</p>
