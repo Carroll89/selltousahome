@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 import { CashOfferForm } from '@/components/CashOfferForm';
+import { VideoEmbed } from '@/components/VideoEmbed';
 import { FAQSection } from '@/components/FAQSection';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
 import { ComparisonTable } from '@/components/ComparisonTable';
@@ -109,6 +110,13 @@ export default function SellHouseFastKopGuide() {
           </div>
         </div>
       </section>
+
+      <VideoEmbed
+        src="/videos/kop/kop-guide.mp4"
+        title="How to Sell Your House Fast in King of Prussia (2026 Guide)"
+        poster="/images/video-posters/kop-guide.jpg"
+        subtitle="Cash offers, agents, iBuyers — honest comparison"
+      />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
 
