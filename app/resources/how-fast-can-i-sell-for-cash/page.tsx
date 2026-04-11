@@ -8,7 +8,7 @@ import { articleSchema, faqSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'How Fast Can I Sell My House for Cash? Real Timelines Explained',
+  title: 'How Fast Can I Sell for Cash? Timelines',
   description:
     'A cash home sale can close in as little as 7 days. Here\'s what the actual timeline looks like, what causes delays, and how to move as fast as possible.',
   alternates: { canonical: `${SITE_URL}/resources/how-fast-can-i-sell-for-cash` },

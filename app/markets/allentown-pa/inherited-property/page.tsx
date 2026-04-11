@@ -9,7 +9,7 @@ import { PHONE, SITE_URL } from '@/lib/utils';
 import { VideoEmbed } from '@/components/VideoEmbed';
 
 export const metadata: Metadata = {
-  title: 'Sell Inherited Property in Allentown PA | Lehigh County Estate Sale Cash Offer',
+  title: 'Sell Inherited Property in Allentown PA',
   description:
     'Inherited a house in Allentown or Lehigh County PA? We buy inherited properties as-is, handle estate complications, and close in 7-14 days. No cleanout, no repairs. Bilingual service.',
   alternates: { canonical: `${SITE_URL}/markets/allentown-pa/inherited-property` },

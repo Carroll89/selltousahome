@@ -8,7 +8,7 @@ import { articleSchema, faqSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'Sell Your House with Back Taxes in PA | Tax Liens & Delinquent Taxes',
+  title: 'Sell House with Back Taxes in PA',
   description:
     'Selling a house with back taxes or a tax lien in Pennsylvania? Back taxes don\'t block a cash sale — they\'re paid from proceeds at closing. Cash offer in 24 hours.',
   alternates: { canonical: `${SITE_URL}/guides/back-taxes` },

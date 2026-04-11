@@ -9,7 +9,7 @@ import { PHONE, SITE_URL } from '@/lib/utils';
 import { VideoEmbed } from '@/components/VideoEmbed';
 
 export const metadata: Metadata = {
-  title: 'Sell My House in Harrisburg PA Neighborhoods | Allison Hill, Midtown, Uptown',
+  title: 'Sell My House in Harrisburg Neighborhoods',
   description:
     'We buy houses in every Harrisburg PA neighborhood — Allison Hill, Midtown, Uptown, Penbrook, Steelton, Paxtang, and more. Cash offer in 24 hours, close in 7-14 days.',
   alternates: { canonical: `${SITE_URL}/markets/harrisburg-pa/neighborhoods` },

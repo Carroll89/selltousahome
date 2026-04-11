@@ -9,7 +9,7 @@ import { articleSchema, faqSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'Selling an Inherited Property in Pennsylvania — Complete Guide',
+  title: 'Selling Inherited Property in PA — Guide',
   description:
     'Inherited a house in Pennsylvania? Learn your options for selling quickly, navigating probate, and maximizing your proceeds. PA-specific legal context included.',
   alternates: { canonical: 'https://selltousahome.com/guides/inherited-property' },
@@ -259,6 +259,13 @@ export default function InheritedPropertyGuidePage() {
           />
 
           <section className="mt-10 text-sm text-gray-500">
+            <p className="mb-3">
+              <strong>Sources:</strong>{' '}
+              <a href="https://www.revenue.pa.gov/" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:underline">PA Inheritance Tax — Revenue.PA.gov</a>{' '}·{' '}
+              <a href="https://www.dauphincounty.gov/government/support-agencies/register-of-wills" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:underline">Dauphin County Register of Wills</a>{' '}·{' '}
+              <a href="https://www.legis.state.pa.us/" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:underline">PA Real Property Law — Title 68</a>{' '}·{' '}
+              <a href="https://www.nar.realtor/research-and-statistics" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:underline">NAR Research &amp; Statistics</a>
+            </p>
             <p>
               Related:{' '}
               <Link href="/markets/harrisburg-pa/inherited-property" className="text-brand-primary hover:underline">Harrisburg-Specific Inherited Property Guide</Link>{' '}

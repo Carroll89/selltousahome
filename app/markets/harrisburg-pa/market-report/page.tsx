@@ -95,7 +95,7 @@ const FAQ_ITEMS = [
 const PAGE_URL = `${SITE_URL}/markets/harrisburg-pa/market-report`;
 
 export const metadata: Metadata = {
-  title: 'Harrisburg PA Housing Market Report 2026 — Prices, Trends & Data',
+  title: 'Harrisburg PA Housing Market 2026',
   description:
     'Current Harrisburg PA housing market data for 2026: median home price $234,569, 5 days to pending, 4.2% YoY appreciation. Updated April 2026 with neighborhood breakdown.',
   alternates: { canonical: PAGE_URL },
@@ -495,6 +495,13 @@ export default function HarrisburgMarketReport() {
             Market data sourced from Zillow ZHVI, Redfin, and local MLS. Updated {REPORT_DATA.lastUpdated}.
             Individual home values vary based on condition, location, and market timing.
             This page is for informational purposes — contact a licensed real estate professional for personalized advice.
+          </p>
+          <p className="mt-3 text-xs text-gray-400">
+            <strong>Sources:</strong>{' '}
+            <a href="https://www.legis.state.pa.us/" target="_blank" rel="noopener noreferrer" className="underline">PA Real Property Law — Title 68 (legis.state.pa.us)</a>{' '}·{' '}
+            <a href="https://www.dauphincounty.gov/government/support-agencies/register-of-wills" target="_blank" rel="noopener noreferrer" className="underline">Dauphin County Register of Wills</a>{' '}·{' '}
+            <a href="https://www.revenue.pa.gov/" target="_blank" rel="noopener noreferrer" className="underline">PA Inheritance Tax — Revenue.PA.gov</a>{' '}·{' '}
+            <a href="https://www.nar.realtor/research-and-statistics" target="_blank" rel="noopener noreferrer" className="underline">NAR Research &amp; Statistics</a>
           </p>
         </div>
       </div>

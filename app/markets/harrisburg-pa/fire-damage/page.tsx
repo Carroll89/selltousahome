@@ -9,7 +9,7 @@ import { PHONE, SITE_URL } from '@/lib/utils';
 import { VideoEmbed } from '@/components/VideoEmbed';
 
 export const metadata: Metadata = {
-  title: 'Sell a Fire-Damaged House in Harrisburg PA | Cash Offer As-Is',
+  title: 'Sell a Fire-Damaged House — Harrisburg PA',
   description:
     'Need to sell a fire-damaged home in Harrisburg or Dauphin County PA? We buy fire-damaged properties as-is, cash offer in 24 hours, no repairs required. Skip the insurance headaches.',
   alternates: { canonical: `${SITE_URL}/markets/harrisburg-pa/fire-damage` },

@@ -103,7 +103,7 @@ const FAQ_ITEMS = [
 const PAGE_URL = `${SITE_URL}/markets/allentown-pa/market-report`;
 
 export const metadata: Metadata = {
-  title: 'Allentown PA Housing Market Report 2026 — Prices, Trends & Data',
+  title: 'Allentown PA Housing Market 2026',
   description:
     'Current Allentown PA housing market data for 2026: median home value $245K, 7 days to pending, 5.1% YoY appreciation. Updated April 2026 with neighborhood breakdown.',
   alternates: { canonical: PAGE_URL },
@@ -404,6 +404,13 @@ export default function AllentownMarketReport() {
             Market data sourced from Zillow, Redfin, and local MLS. Updated {REPORT_DATA.lastUpdated}.
             Individual home values vary based on condition, location, and market timing.
             This page is for informational purposes — contact a licensed real estate professional for personalized advice.
+          </p>
+          <p className="mt-3 text-xs text-gray-400">
+            <strong>Sources:</strong>{' '}
+            <a href="https://www.legis.state.pa.us/" target="_blank" rel="noopener noreferrer" className="underline">PA Real Property Law — Title 68 (legis.state.pa.us)</a>{' '}·{' '}
+            <a href="https://www.lehighcounty.org/" target="_blank" rel="noopener noreferrer" className="underline">Lehigh County Government (lehighcounty.org)</a>{' '}·{' '}
+            <a href="https://www.revenue.pa.gov/" target="_blank" rel="noopener noreferrer" className="underline">PA Inheritance Tax — Revenue.PA.gov</a>{' '}·{' '}
+            <a href="https://www.nar.realtor/research-and-statistics" target="_blank" rel="noopener noreferrer" className="underline">NAR Research &amp; Statistics</a>
           </p>
         </div>
       </div>

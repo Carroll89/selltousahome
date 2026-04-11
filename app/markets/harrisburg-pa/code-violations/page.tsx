@@ -9,7 +9,7 @@ import { PHONE, SITE_URL } from '@/lib/utils';
 import { VideoEmbed } from '@/components/VideoEmbed';
 
 export const metadata: Metadata = {
-  title: 'Sell House with Code Violations in Harrisburg PA | Cash Offer',
+  title: 'Sell with Code Violations — Harrisburg PA',
   description:
     'Selling a house with code violations in Harrisburg PA? We buy properties with open violations, municipal liens, and city citations as-is. Cash offer in 24 hours, close in 7–14 days.',
   alternates: { canonical: `${SITE_URL}/markets/harrisburg-pa/code-violations` },

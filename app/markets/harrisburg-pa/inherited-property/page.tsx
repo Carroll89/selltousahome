@@ -9,7 +9,7 @@ import { PHONE, SITE_URL } from '@/lib/utils';
 import { VideoEmbed } from '@/components/VideoEmbed';
 
 export const metadata: Metadata = {
-  title: 'Sell Inherited Property in Harrisburg PA | Estate Sale Cash Offer',
+  title: 'Sell Inherited Property in Harrisburg PA',
   description:
     'Inherited a house in Harrisburg or Dauphin County PA? We buy inherited properties as-is, handle estate complications, and close in 7-14 days. No cleanout, no repairs.',
   alternates: { canonical: `${SITE_URL}/markets/harrisburg-pa/inherited-property` },

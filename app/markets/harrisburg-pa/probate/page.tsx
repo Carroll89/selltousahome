@@ -9,7 +9,7 @@ import { PHONE, SITE_URL } from '@/lib/utils';
 import { VideoEmbed } from '@/components/VideoEmbed';
 
 export const metadata: Metadata = {
-  title: 'Selling a Probate Property in Harrisburg PA | Dauphin County Estate Sales',
+  title: 'Probate Property Sale — Harrisburg PA',
   description:
     'Need to sell a house in probate in Harrisburg or Dauphin County PA? We buy probate properties as-is, work around estate timelines, and close in 7-14 days.',
   alternates: { canonical: `${SITE_URL}/markets/harrisburg-pa/probate` },

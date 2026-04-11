@@ -8,7 +8,7 @@ import { articleSchema, faqSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'Selling a Tenant-Occupied Property in Pennsylvania — Cash Buyers',
+  title: 'Selling Tenant-Occupied Property in PA',
   description:
     'Selling a rental property with tenants in Pennsylvania? Cash buyers purchase tenant-occupied properties as-is. PA landlord-tenant law explained.',
   alternates: { canonical: 'https://selltousahome.com/guides/tenant-occupied' },

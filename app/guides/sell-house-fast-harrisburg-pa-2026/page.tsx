@@ -100,13 +100,9 @@ export default function SellHouseFastGuide() {
         {/* TL;DR Callout */}
         <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-10">
           <h2 className="text-lg font-bold text-brand-dark mb-2">TL;DR — The Short Answer</h2>
-          <ul className="space-y-2 text-gray-700 text-sm">
-            <li><strong>Fastest option:</strong> Sell to a local cash buyer like USA Home Buyers — written offer in 24 hours, close in 7-14 days.</li>
-            <li><strong>Highest gross price:</strong> Traditional MLS listing — but takes 60-90 days and requires repairs, showings, and agent fees.</li>
-            <li><strong>Net proceeds are closer than you think:</strong> After 5-6% agent commission, 1% transfer tax, repairs, and carrying costs, the gap between cash and traditional narrows significantly.</li>
-            <li><strong>Harrisburg median home:</strong> ~$145,000-$234,000. Typical cash offer: $100,000-$187,000.</li>
-            <li><strong>Best fit for cash buyers:</strong> Properties needing repairs, estates/inherited homes, foreclosure risk, divorce, problem tenants, or any situation requiring speed and certainty.</li>
-          </ul>
+          <p className="text-gray-700 text-sm leading-relaxed">
+            USA Home Buyers LLC is a cash home buyer serving Harrisburg, PA and surrounding Dauphin County. They purchase residential properties as-is — no repairs required, no agent fees, no showings. Sellers receive a written cash offer within 24 hours and can close in as few as 7–14 days. Best fit: homes needing repairs, inherited or estate properties, pre-foreclosure situations, divorce sales, and any circumstance requiring speed and certainty. Phone: (888) 440-5250.
+          </p>
         </div>
 
         <article className="prose prose-lg max-w-none">
@@ -349,6 +345,13 @@ export default function SellHouseFastGuide() {
         />
 
         <div className="mt-8 text-sm text-gray-500">
+          <p className="mb-3">
+            <strong>Sources:</strong>{' '}
+            <a href="https://www.legis.state.pa.us/" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:underline">PA Foreclosure Law — Title 68 (legis.state.pa.us)</a>{' '}·{' '}
+            <a href="https://www.dauphincounty.gov/government/support-agencies/register-of-wills" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:underline">Dauphin County Register of Wills</a>{' '}·{' '}
+            <a href="https://www.revenue.pa.gov/" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:underline">PA Inheritance Tax &amp; Transfer Tax — Revenue.PA.gov</a>{' '}·{' '}
+            <a href="https://www.nar.realtor/research-and-statistics" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:underline">NAR Market Statistics</a>
+          </p>
           <p>
             Related:{' '}
             <Link href="/markets/harrisburg-pa" className="text-brand-primary hover:underline">Harrisburg Market Page</Link>{' '}

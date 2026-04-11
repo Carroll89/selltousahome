@@ -9,7 +9,7 @@ import { PHONE, SITE_URL } from '@/lib/utils';
 import { VideoEmbed } from '@/components/VideoEmbed';
 
 export const metadata: Metadata = {
-  title: 'Sell a House with Property Liens in Harrisburg PA | Dauphin County',
+  title: 'Sell House with Liens in Harrisburg PA',
   description:
     'Selling a house with property liens in Harrisburg or Dauphin County PA? We buy properties with tax liens, municipal liens, judgment liens, and mechanic\'s liens as-is. Cash offer in 24 hours.',
   alternates: { canonical: `${SITE_URL}/markets/harrisburg-pa/property-liens` },
