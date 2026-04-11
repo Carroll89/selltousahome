@@ -32,6 +32,9 @@ export function Header() {
             <Link href="/markets/allentown-pa" className="text-gray-600 hover:text-brand-primary">
               Allentown PA
             </Link>
+            <Link href="/markets/king-of-prussia-pa" className="text-gray-600 hover:text-brand-primary">
+              King of Prussia PA
+            </Link>
             <Link href="/guides/sell-house-fast-harrisburg-pa-2026" className="text-gray-600 hover:text-brand-primary">
               Seller Guides
             </Link>
@@ -77,6 +80,7 @@ export function Header() {
             {[
               { href: '/markets/harrisburg-pa', label: 'Harrisburg PA' },
               { href: '/markets/allentown-pa', label: 'Allentown PA' },
+              { href: '/markets/king-of-prussia-pa', label: 'King of Prussia PA' },
               { href: '/guides/sell-house-fast-harrisburg-pa-2026', label: 'Seller Guides' },
               { href: '/resources/how-the-process-works', label: 'How It Works' },
               { href: '/reviews', label: 'Reviews' },

@@ -55,9 +55,16 @@
         "county": "Lehigh County",
         "url": "https://selltousahome.com/markets/allentown-pa",
         "surroundingAreas": ["Bethlehem", "Easton", "Whitehall Township", "Northampton", "Emmaus", "Fountain Hill", "Catasauqua", "Coplay"]
+      },
+      {
+        "city": "King of Prussia",
+        "state": "PA",
+        "county": "Montgomery County",
+        "url": "https://selltousahome.com/markets/king-of-prussia-pa",
+        "surroundingAreas": ["Norristown", "Conshohocken", "Plymouth Meeting", "Wayne", "Bridgeport", "Collegeville", "Gulph Mills", "Valley Forge", "Bryn Mawr", "Eagleville", "Trooper", "Audubon"]
       }
     ],
-    "regionalCoverage": "Central Pennsylvania and the Lehigh Valley",
+    "regionalCoverage": "Central Pennsylvania, the Lehigh Valley, and Greater Philadelphia (Montgomery County)",
     "statewide": "Pennsylvania"
   },
   "customerService": {

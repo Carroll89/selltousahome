@@ -32,6 +32,8 @@ export function Footer() {
               <li><Link href="/markets/harrisburg-pa/neighborhoods" className="hover:text-white">Neighborhoods</Link></li>
               <li><Link href="/markets/allentown-pa" className="hover:text-white">Allentown, PA</Link></li>
               <li><Link href="/markets/allentown-pa/market-report" className="hover:text-white">Allentown Market Report</Link></li>
+              <li><Link href="/markets/king-of-prussia-pa" className="hover:text-white">King of Prussia, PA</Link></li>
+              <li><Link href="/markets/king-of-prussia-pa/market-report" className="hover:text-white">KOP Market Report</Link></li>
             </ul>
           </div>
 
