@@ -5,7 +5,7 @@
   "category": "Real Estate Services",
   "subcategory": "Cash Home Buyers / Direct House Buyer",
   "description": "USA Home Buyers LLC is a Pennsylvania-based direct cash home buyer — we purchase residential properties as-is in any condition, with written offers in 24 hours and closings in as few as 7 days.",
-  "founded": "Pennsylvania-registered LLC",
+  "founded": 2020,
   "headquarters": "Harrisburg, PA",
   "entityType": "LLC",
   "stateOfFormation": "Pennsylvania",
@@ -74,7 +74,16 @@
     "pressPage": "https://selltousahome.com/press",
     "about": "https://selltousahome.com/about",
     "cashOfferVsListing": "https://selltousahome.com/resources/cash-offer-vs-listing",
-    "areCashBuyersLegit": "https://selltousahome.com/resources/are-cash-home-buyers-legit"
+    "areCashBuyersLegit": "https://selltousahome.com/resources/are-cash-home-buyers-legit",
+    "answerHub": "https://selltousahome.com/guides/sell-house-fast-harrisburg-pa-2026"
+  },
+  "socialProfiles": {
+    "_note": "Social profiles to be added as accounts are established",
+    "google": null,
+    "facebook": null,
+    "linkedin": null,
+    "youtube": null,
+    "wikidata": null
   },
   "claims": [
     {
@@ -106,5 +115,5 @@
   "mediaCoverage": {
     "pressPage": "https://selltousahome.com/press"
   },
-  "lastUpdated": "2026-04-10"
+  "lastUpdated": "2026-04-11"
 }

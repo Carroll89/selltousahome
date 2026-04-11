@@ -273,6 +273,43 @@ export const harrisburgFAQSchema = {
   ],
 };
 
+/**
+ * Generate a VideoObject schema for a self-hosted video.
+ * Designed for use inside the VideoEmbed component or any page with a <video> element.
+ */
+export function videoObjectSchema({
+  name,
+  description,
+  contentUrl,
+  thumbnailUrl,
+  uploadDate = '2026-04-06',
+}: {
+  name: string;
+  description: string;
+  contentUrl: string;
+  thumbnailUrl?: string;
+  uploadDate?: string;
+}) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'VideoObject',
+    name,
+    description,
+    contentUrl,
+    uploadDate,
+    ...(thumbnailUrl ? { thumbnailUrl } : {}),
+    publisher: {
+      '@type': 'Organization',
+      name: 'USA Home Buyers',
+      url: SITE_URL,
+      logo: {
+        '@type': 'ImageObject',
+        url: `${SITE_URL}/logo.png`,
+      },
+    },
+  };
+}
+
 export function articleSchema(headline: string, url: string, datePublished = '2026-04-06') {
   return {
     '@context': 'https://schema.org',

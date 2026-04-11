@@ -8,7 +8,7 @@ import { TestimonialBlock } from '@/components/TestimonialBlock';
 import { ComparisonTable } from '@/components/ComparisonTable';
 import { SituationLinks } from '@/components/SituationLinks';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
-import { localBusinessSchema, harrisburgFAQSchema, howToSchema } from '@/lib/schema';
+import { harrisburgLocalBusinessSchema, harrisburgFAQSchema, howToSchema } from '@/lib/schema';
 import { PHONE } from '@/lib/utils';
 import { VideoEmbed } from '@/components/VideoEmbed';
 
@@ -91,7 +91,7 @@ const FAQ_ITEMS = [
 export default function HarrisburgMarketPage() {
   return (
     <>
-      <SchemaMarkup schema={[localBusinessSchema, harrisburgFAQSchema, howToSchema]} />
+      <SchemaMarkup schema={[harrisburgLocalBusinessSchema, harrisburgFAQSchema, howToSchema]} />
 
       {/* Hero */}
       <section className="relative text-white py-16 px-4 overflow-hidden">
