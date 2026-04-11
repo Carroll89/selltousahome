@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Image from 'next/image';
 import Link from 'next/link';
 import { CashOfferForm } from '@/components/CashOfferForm';
+import { VideoEmbed } from '@/components/VideoEmbed';
 import { FAQSection } from '@/components/FAQSection';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
 import { articleSchema, faqSchema, kingOfPrussiaLocalBusinessSchema } from '@/lib/schema';
@@ -87,6 +88,13 @@ export default function KopCodeViolationsPage() {
           </div>
         </div>
       </section>
+
+      <VideoEmbed
+        src="/videos/kop/kop-code-violations.mp4"
+        title="Selling a Home with Code Violations in King of Prussia"
+        poster="/images/video-posters/kop-code-violations.jpg"
+        subtitle="As-is cash sale — violations handled after closing"
+      />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article>

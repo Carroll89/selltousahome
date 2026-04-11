@@ -8,6 +8,7 @@ import { TestimonialBlock } from '@/components/TestimonialBlock';
 import { ComparisonTable } from '@/components/ComparisonTable';
 import { SituationLinks } from '@/components/SituationLinks';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
+import { VideoEmbed } from '@/components/VideoEmbed';
 import { kingOfPrussiaLocalBusinessSchema, faqSchema, howToSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
 
@@ -156,8 +157,12 @@ export default function KingOfPrussiaMarketPage() {
         </div>
       </section>
 
-      {/* VIDEO PLACEHOLDER — add once video is generated */}
-      {/* <VideoEmbed src="..." title="Sell Your House Fast in King of Prussia, PA" poster="..." subtitle="..." /> */}
+      <VideoEmbed
+        src="https://v3b.fal.media/files/b/0a95decf/74Ql1wWuwS01CHQNHWto7_tmp_92t1iuy.mp4"
+        title="Sell Your House Fast in King of Prussia, PA"
+        poster="/images/video-posters/kop-main.jpg"
+        subtitle="Cash offer in 24 hours — no repairs, no agent fees"
+      />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* How It Works */}

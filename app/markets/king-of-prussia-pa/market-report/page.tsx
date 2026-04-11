@@ -6,6 +6,7 @@ import { FAQSection } from '@/components/FAQSection';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
 import { faqSchema, kingOfPrussiaLocalBusinessSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
+import { VideoEmbed } from '@/components/VideoEmbed';
 
 const REPORT_DATA = {
   lastUpdated: 'April 2026',
@@ -209,6 +210,13 @@ export default function KingOfPrussiaMarketReport() {
           </div>
         </div>
       </section>
+
+      <VideoEmbed
+        src="https://v3b.fal.media/files/b/0a95dee2/wgOSCCLedS62biZT2idSa_tmpsnmzp1ou.mp4"
+        title="King of Prussia PA Real Estate Market Report 2026"
+        poster="/images/video-posters/kop-market-report.jpg"
+        subtitle="$453K median value — competitive market, but we buy in any condition"
+      />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
 

@@ -6,6 +6,7 @@ import { FAQSection } from '@/components/FAQSection';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
 import { articleSchema, faqSchema, kingOfPrussiaLocalBusinessSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
+import { VideoEmbed } from '@/components/VideoEmbed';
 
 export const metadata: Metadata = {
   title: 'Sell Tenant-Occupied Property King of Prussia PA',
@@ -87,6 +88,13 @@ export default function KopTenantOccupiedPage() {
           </div>
         </div>
       </section>
+
+      <VideoEmbed
+        src="https://v3b.fal.media/files/b/0a95df2c/Znob3E96boiwZJHMS5_eL_tmp7ayu0frl.mp4"
+        title="Selling a Tenant-Occupied Property in King of Prussia"
+        poster="/images/video-posters/kop-tenant.jpg"
+        subtitle="We buy with tenants in place — no eviction required"
+      />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article>

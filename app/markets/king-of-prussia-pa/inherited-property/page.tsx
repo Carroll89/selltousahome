@@ -6,6 +6,7 @@ import { FAQSection } from '@/components/FAQSection';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
 import { articleSchema, faqSchema, kingOfPrussiaLocalBusinessSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
+import { VideoEmbed } from '@/components/VideoEmbed';
 
 export const metadata: Metadata = {
   title: 'Sell Inherited House King of Prussia PA',
@@ -93,8 +94,12 @@ export default function KopInheritedPropertyPage() {
         </div>
       </section>
 
-      {/* VIDEO PLACEHOLDER */}
-      {/* <VideoEmbed src="..." title="Selling an Inherited Property in King of Prussia" poster="..." subtitle="..." /> */}
+      <VideoEmbed
+        src="https://v3b.fal.media/files/b/0a95def1/jVsu-IJt22iTOfJVnP7ix_tmp5zzgvczd.mp4"
+        title="Selling an Inherited Property in King of Prussia"
+        poster="/images/video-posters/kop-inherited.jpg"
+        subtitle="No cleanout, no repairs — we handle estate situations throughout Montgomery County"
+      />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article>

@@ -6,6 +6,7 @@ import { FAQSection } from '@/components/FAQSection';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
 import { articleSchema, faqSchema, kingOfPrussiaLocalBusinessSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
+import { VideoEmbed } from '@/components/VideoEmbed';
 
 export const metadata: Metadata = {
   title: 'Sell Probate Property King of Prussia PA',
@@ -87,6 +88,13 @@ export default function KopProbatePage() {
           </div>
         </div>
       </section>
+
+      <VideoEmbed
+        src="https://v3b.fal.media/files/b/0a95df1c/KQo_XFArGldrHQEJk2zmF_tmpvn8hov_u.mp4"
+        title="Selling a Probate Property in Montgomery County PA"
+        poster="/images/video-posters/kop-probate.jpg"
+        subtitle="We work with executors and the Register of Wills process"
+      />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article>

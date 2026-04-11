@@ -6,6 +6,7 @@ import { FAQSection } from '@/components/FAQSection';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
 import { articleSchema, faqSchema, kingOfPrussiaLocalBusinessSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
+import { VideoEmbed } from '@/components/VideoEmbed';
 
 export const metadata: Metadata = {
   title: 'Sell Before Foreclosure King of Prussia PA',
@@ -87,6 +88,13 @@ export default function KopForeclosurePage() {
           </div>
         </div>
       </section>
+
+      <VideoEmbed
+        src="https://v3b.fal.media/files/b/0a95deff/yTMtMQagjSFeLtV41hyAs_tmpsvzh7kq1.mp4"
+        title="Stop Foreclosure in Montgomery County PA"
+        poster="/images/video-posters/kop-foreclosure.jpg"
+        subtitle="Close fast, protect your equity, stop the sheriff sale"
+      />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article>

@@ -6,6 +6,7 @@ import { FAQSection } from '@/components/FAQSection';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
 import { articleSchema, faqSchema, kingOfPrussiaLocalBusinessSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
+import { VideoEmbed } from '@/components/VideoEmbed';
 
 export const metadata: Metadata = {
   title: 'Sell House During Divorce King of Prussia PA',
@@ -87,6 +88,13 @@ export default function KopDivorceSalePage() {
           </div>
         </div>
       </section>
+
+      <VideoEmbed
+        src="https://v3b.fal.media/files/b/0a95df0e/xq97s-oPWTHJKhDC2X5H-_tmprp6rudrp.mp4"
+        title="Selling Your House During Divorce in King of Prussia"
+        poster="/images/video-posters/kop-divorce.jpg"
+        subtitle="Neutral third party — fair offer, fast close, done"
+      />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article>
