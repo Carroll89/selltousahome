@@ -11,6 +11,11 @@ const MARKET_BLOGS: Record<string, Array<{ title: string; href: string }>> = {
     { title: 'Selling a House With Code Violations in Pennsylvania', href: '/blog/sell-house-with-code-violations-pa' },
     { title: 'Cash Buyer vs. Realtor in Pennsylvania: What\'s the Real Difference?', href: '/blog/cash-buyer-vs-realtor-pennsylvania' },
   ],
+  'reading-pa': [
+    { title: 'How to Sell an Inherited House in Pennsylvania', href: '/blog/sell-inherited-house-pennsylvania' },
+    { title: 'Selling a House With Code Violations in Pennsylvania', href: '/blog/sell-house-with-code-violations-pa' },
+    { title: 'Cash Buyer vs. Realtor in Pennsylvania: What\'s the Real Difference?', href: '/blog/cash-buyer-vs-realtor-pennsylvania' },
+  ],
   'king-of-prussia-pa': [
     { title: 'How to Sell an Inherited House in Pennsylvania', href: '/blog/sell-inherited-house-pennsylvania' },
     { title: 'Selling a House With Code Violations in Pennsylvania', href: '/blog/sell-house-with-code-violations-pa' },

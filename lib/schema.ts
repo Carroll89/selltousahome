@@ -55,6 +55,26 @@ const CITY_CONFIGS: Record<string, CityConfig> = {
       { '@type': 'County', name: 'Delaware County' },
     ],
   },
+  reading: {
+    city: 'Reading',
+    region: 'PA',
+    postalCode: '19601',
+    lat: 40.3356,
+    lng: -75.9269,
+    description:
+      'Cash home buyers serving Reading PA and Berks County. We buy houses as-is in any condition — no repairs, no agent fees, close in 7-14 days. Hablamos español.',
+    areaServed: [
+      { '@type': 'City', name: 'Reading', sameAs: 'https://en.wikipedia.org/wiki/Reading,_Pennsylvania' },
+      { '@type': 'City', name: 'Wyomissing' },
+      { '@type': 'City', name: 'Shillington' },
+      { '@type': 'City', name: 'Sinking Spring' },
+      { '@type': 'City', name: 'Muhlenberg' },
+      { '@type': 'City', name: 'Kutztown' },
+      { '@type': 'City', name: 'Boyertown' },
+      { '@type': 'City', name: 'Pottstown' },
+      { '@type': 'County', name: 'Berks County' },
+    ],
+  },
   allentown: {
     city: 'Allentown',
     region: 'PA',
@@ -78,7 +98,7 @@ const CITY_CONFIGS: Record<string, CityConfig> = {
   },
 };
 
-export function localBusinessSchemaFor(cityKey: 'harrisburg' | 'allentown' | 'kingOfPrussia') {
+export function localBusinessSchemaFor(cityKey: 'harrisburg' | 'allentown' | 'kingOfPrussia' | 'reading') {
   const cfg = CITY_CONFIGS[cityKey];
   return {
     '@context': 'https://schema.org',
@@ -131,6 +151,9 @@ export function localBusinessSchemaFor(cityKey: 'harrisburg' | 'allentown' | 'ki
 
 /** Pre-built Harrisburg LocalBusiness schema (alias for backward compat) */
 export const harrisburgLocalBusinessSchema = localBusinessSchemaFor('harrisburg');
+
+/** Pre-built Reading LocalBusiness schema */
+export const readingLocalBusinessSchema = localBusinessSchemaFor('reading');
 
 /** Pre-built Allentown LocalBusiness schema */
 export const allentownLocalBusinessSchema = localBusinessSchemaFor('allentown');
@@ -258,6 +281,45 @@ export const howToSchema = {
       name: 'Get Paid',
       text: 'Show up to closing, sign the paperwork, and walk away with your cash.',
       position: 4,
+    },
+  ],
+};
+
+export const readingFAQSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'How fast can I sell my house for cash in Reading PA?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'USA Home Buyers can close in as few as 7 days in Reading PA. We make a written cash offer within 24 hours of learning about your property. The typical timeline from first contact to cash in hand is 7-14 days.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'What is the transfer tax when selling a house in Reading PA?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Reading PA has one of the highest real estate transfer taxes in Pennsylvania — 5% total (4% City of Reading local tax plus 1% PA state tax). On a $185,000 home, that is $9,250. By comparison, most Berks County municipalities outside Reading pay only 2% total. When you sell to USA Home Buyers, we cover all closing costs including transfer taxes.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Do you buy houses in Reading PA in any condition?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "Yes. We buy row homes, twins, and single-family houses throughout Reading PA and Berks County in any condition — no repairs, no cleaning, no staging required. Reading's housing stock is predominantly pre-1939 brick construction with lead paint, aging systems, and deferred maintenance. That is exactly the kind of property we buy.",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: '¿Compran casas en Reading PA? / Do you buy houses in Spanish in Reading PA?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Sí, hablamos español. We are bilingual and serve Reading\'s majority-Hispanic community. Call us to discuss your property in English or Spanish — (717) 576-8192.',
+      },
     },
   ],
 };

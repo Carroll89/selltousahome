@@ -57,6 +57,18 @@
         "surroundingAreas": ["Bethlehem", "Easton", "Whitehall Township", "Northampton", "Emmaus", "Fountain Hill", "Catasauqua", "Coplay"]
       },
       {
+        "city": "Reading",
+        "state": "PA",
+        "county": "Berks County",
+        "url": "https://selltousahome.com/markets/reading-pa",
+        "transferTax": "5% total (4% City of Reading local + 1% PA state) — highest in Berks County",
+        "medianSalePrice": "$185,000 (Redfin Feb 2026)",
+        "medianHomeValue": "$227,041 (Zillow 2026)",
+        "hispanicPopulation": "70.8% Hispanic — bilingual service available (Hablamos español)",
+        "housingStock": "52% row homes, 56% pre-1939 construction",
+        "surroundingAreas": ["Wyomissing", "Shillington", "Sinking Spring", "Muhlenberg", "Kutztown", "Boyertown", "Pottstown"]
+      },
+      {
         "city": "King of Prussia",
         "state": "PA",
         "county": "Montgomery County",
@@ -79,6 +91,7 @@
     "allentownMarket": "https://selltousahome.com/markets/allentown-pa",
     "kingOfPrussiaMarket": "https://selltousahome.com/markets/king-of-prussia-pa",
     "kingOfPrussiaAnswerHub": "https://selltousahome.com/guides/sell-house-fast-king-of-prussia-pa-2026",
+    "readingMarket": "https://selltousahome.com/markets/reading-pa",
     "howItWorks": "https://selltousahome.com/resources/how-the-process-works",
     "brandFacts": "https://selltousahome.com/brand-facts",
     "pressPage": "https://selltousahome.com/press",
