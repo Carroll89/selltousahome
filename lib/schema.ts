@@ -75,6 +75,31 @@ const CITY_CONFIGS: Record<string, CityConfig> = {
       { '@type': 'County', name: 'Berks County' },
     ],
   },
+  stateCollege: {
+    city: 'State College',
+    region: 'PA',
+    postalCode: '16801',
+    lat: 40.7934,
+    lng: -77.86,
+    description:
+      'Cash home buyers serving State College PA and Centre County. We buy houses as-is in any condition — no repairs, no agent fees, close in 7-14 days.',
+    areaServed: [
+      { '@type': 'City', name: 'State College', sameAs: 'https://en.wikipedia.org/wiki/State_College,_Pennsylvania' },
+      { '@type': 'City', name: 'Bellefonte' },
+      { '@type': 'City', name: 'Boalsburg' },
+      { '@type': 'City', name: 'Port Matilda' },
+      { '@type': 'City', name: 'Philipsburg' },
+      { '@type': 'City', name: 'Milesburg' },
+      { '@type': 'City', name: 'Snow Shoe' },
+      { '@type': 'City', name: 'Tyrone' },
+      { '@type': 'City', name: 'Lock Haven' },
+      { '@type': 'City', name: 'Lewistown' },
+      { '@type': 'City', name: 'Clearfield' },
+      { '@type': 'County', name: 'Centre County' },
+      { '@type': 'County', name: 'Clinton County' },
+      { '@type': 'County', name: 'Mifflin County' },
+    ],
+  },
   allentown: {
     city: 'Allentown',
     region: 'PA',
@@ -98,7 +123,7 @@ const CITY_CONFIGS: Record<string, CityConfig> = {
   },
 };
 
-export function localBusinessSchemaFor(cityKey: 'harrisburg' | 'allentown' | 'kingOfPrussia' | 'reading') {
+export function localBusinessSchemaFor(cityKey: 'harrisburg' | 'allentown' | 'kingOfPrussia' | 'reading' | 'stateCollege') {
   const cfg = CITY_CONFIGS[cityKey];
   return {
     '@context': 'https://schema.org',
@@ -160,6 +185,9 @@ export const allentownLocalBusinessSchema = localBusinessSchemaFor('allentown');
 
 /** Pre-built King of Prussia LocalBusiness schema */
 export const kingOfPrussiaLocalBusinessSchema = localBusinessSchemaFor('kingOfPrussia');
+
+/** Pre-built State College LocalBusiness schema */
+export const stateCollegeLocalBusinessSchema = localBusinessSchemaFor('stateCollege');
 
 export const organizationSchema = {
   '@context': 'https://schema.org',

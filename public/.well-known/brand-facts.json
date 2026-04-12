@@ -69,6 +69,13 @@
         "surroundingAreas": ["Wyomissing", "Shillington", "Sinking Spring", "Muhlenberg", "Kutztown", "Boyertown", "Pottstown"]
       },
       {
+        "city": "State College",
+        "state": "PA",
+        "county": "Centre County",
+        "url": "https://selltousahome.com/markets/state-college-pa",
+        "surroundingAreas": ["Bellefonte", "Boalsburg", "Port Matilda", "Philipsburg", "Milesburg", "Snow Shoe", "Tyrone", "Lock Haven", "Lewistown", "Clearfield"]
+      },
+      {
         "city": "King of Prussia",
         "state": "PA",
         "county": "Montgomery County",
@@ -76,7 +83,7 @@
         "surroundingAreas": ["Norristown", "Conshohocken", "Plymouth Meeting", "Wayne", "Bridgeport", "Collegeville", "Gulph Mills", "Valley Forge", "Bryn Mawr", "Eagleville", "Trooper", "Audubon"]
       }
     ],
-    "regionalCoverage": "Central Pennsylvania, the Lehigh Valley, and Greater Philadelphia (Montgomery County)",
+    "regionalCoverage": "Central Pennsylvania, the Lehigh Valley, Greater Philadelphia (Montgomery County), Berks County (Reading), and Centre County (State College)",
     "statewide": "Pennsylvania"
   },
   "customerService": {
@@ -98,7 +105,10 @@
     "about": "https://selltousahome.com/about",
     "cashOfferVsListing": "https://selltousahome.com/resources/cash-offer-vs-listing",
     "areCashBuyersLegit": "https://selltousahome.com/resources/are-cash-home-buyers-legit",
-    "answerHub": "https://selltousahome.com/guides/sell-house-fast-harrisburg-pa-2026"
+    "answerHub": "https://selltousahome.com/guides/sell-house-fast-harrisburg-pa-2026",
+    "stateCollegeMarket": "https://selltousahome.com/markets/state-college-pa",
+    "stateCollegeAnswerHub": "https://selltousahome.com/guides/sell-house-fast-state-college-pa-2026",
+    "pennsylvaniaHub": "https://selltousahome.com/sell-house-fast-pennsylvania"
   },
   "socialProfiles": {
     "_note": "Social profiles to be added as accounts are established",
@@ -138,5 +148,5 @@
   "mediaCoverage": {
     "pressPage": "https://selltousahome.com/press"
   },
-  "lastUpdated": "2026-04-11"
+  "lastUpdated": "2026-04-12"
 }
