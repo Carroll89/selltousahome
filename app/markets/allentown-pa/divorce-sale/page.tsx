@@ -94,13 +94,8 @@ export default function AllentownDivorceSalePage() {
       <VideoEmbed
         src="https://v3b.fal.media/files/b/0a95c0f7/caLPVXoORM986HzvQqDBE_allentown-divorce.mp4"
         title="Selling a House During Divorce in Allentown"
-<<<<<<< HEAD
         poster="/images/video-posters/allentown-divorce-poster.jpg"
         subtitle="See how we help Allentown homeowners sell quickly and move forward during a divorce"
-=======
-        poster="/images/video-posters/allentown-divorce.jpg"
-        subtitle="Learn about selling your property during divorce in Allentown"
->>>>>>> db652478dd89d7d27200e95ec4d3219806ea3cbb
       />
       <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
         <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">

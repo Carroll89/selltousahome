@@ -90,13 +90,8 @@ export default function HarrisburgProbatePage() {
       <VideoEmbed
         src="https://v3b.fal.media/files/b/0a95c0fd/U7h8UzeQ4x2PjBwIKRqyc_harrisburg-probate.mp4"
         title="Selling a Probate Property in Harrisburg"
-<<<<<<< HEAD
         poster="/images/video-posters/harrisburg-probate-poster.jpg"
         subtitle="See how we help Harrisburg families sell probate properties for cash, fast"
-=======
-        poster="/images/video-posters/harrisburg-probate.jpg"
-        subtitle="Learn about selling your probate property in Harrisburg"
->>>>>>> db652478dd89d7d27200e95ec4d3219806ea3cbb
       />
       <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
         <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">

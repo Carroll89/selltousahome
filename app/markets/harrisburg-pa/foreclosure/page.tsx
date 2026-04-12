@@ -91,13 +91,8 @@ export default function HarrisburgForeclosurePage() {
       <VideoEmbed
         src="https://v3b.fal.media/files/b/0a95c0fb/2lwNNUG9OfQUfRJgt_Cu-_harrisburg-foreclosure.mp4"
         title="Selling Before Foreclosure in Harrisburg"
-<<<<<<< HEAD
         poster="/images/video-posters/harrisburg-foreclosure-poster.jpg"
         subtitle="See how we help Harrisburg homeowners stop foreclosure and protect their equity"
-=======
-        poster="/images/video-posters/harrisburg-foreclosure.jpg"
-        subtitle="Learn about selling your property before foreclosure in Harrisburg"
->>>>>>> db652478dd89d7d27200e95ec4d3219806ea3cbb
       />
       <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
         <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">

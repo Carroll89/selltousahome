@@ -125,13 +125,8 @@ export default function HarrisburgFAQPage() {
       <VideoEmbed
         src="https://v3b.fal.media/files/b/0a95c0fa/ez3GzE01xhle-dHlM87zy_harrisburg-faq.mp4"
         title="Frequently Asked Questions — Harrisburg Home Sales"
-<<<<<<< HEAD
         poster="/images/video-posters/harrisburg-faq-poster.jpg"
         subtitle="Hear answers to the most common questions about selling your Harrisburg home for cash"
-=======
-        poster="/images/video-posters/harrisburg-faq.jpg"
-        subtitle="See how we help homeowners in Harrisburg sell fast"
->>>>>>> db652478dd89d7d27200e95ec4d3219806ea3cbb
       />
       <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
         <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">

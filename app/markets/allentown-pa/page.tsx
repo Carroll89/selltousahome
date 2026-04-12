@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     'We buy houses in Allentown PA for cash, as-is, in any condition. Written offer in 24 hours, close in 7 days. No repairs, no fees. Serving all of Lehigh County.',
   alternates: { canonical: `${SITE_URL}/markets/allentown-pa` },
   openGraph: {
-    images: [{ url: '/images/allentown-hero.jpg', width: 1200, height: 630, alt: 'Sell Your House Fast in Allentown PA' }],
+    images: [{ url: '/images/allentown-landmark-hero.jpg', width: 1200, height: 630, alt: 'Allentown Steel Stacks and Victorian row homes — Sell Your House Fast in Allentown PA' }],
   },
 };
 
@@ -104,7 +104,7 @@ export default function AllentownMarketPage() {
       {/* Hero */}
       <section className="relative text-white py-8 md:py-16 px-4 overflow-hidden">
         <Image
-          src="/images/allentown-hero.jpg"
+          src="/images/allentown-landmark-hero.jpg"
           alt="Allentown PA homes — we buy houses fast for cash"
           fill
           className="object-cover object-center"

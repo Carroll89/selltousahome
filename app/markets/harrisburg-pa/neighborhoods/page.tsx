@@ -147,13 +147,8 @@ export default function HarrisburgNeighborhoodsPage() {
       <VideoEmbed
         src="https://v3b.fal.media/files/b/0a95c0fd/Qd9Kj8btMSOYmTT1Hwvjy_harrisburg-neighborhoods.mp4"
         title="Harrisburg, PA Neighborhoods Guide"
-<<<<<<< HEAD
         poster="/images/video-posters/harrisburg-neighborhoods-poster.jpg"
         subtitle="See how we buy homes across all Harrisburg neighborhoods — any condition, any area"
-=======
-        poster="/images/video-posters/harrisburg-neighborhoods.jpg"
-        subtitle="See how we help homeowners in Harrisburg neighborhoods sell fast"
->>>>>>> db652478dd89d7d27200e95ec4d3219806ea3cbb
       />
       <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
         <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">

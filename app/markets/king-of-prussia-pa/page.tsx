@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     'We buy houses in King of Prussia PA for cash, as-is. Written offer in 24 hours, close in 7-14 days. No repairs, no agent fees. Serving Montgomery County.',
   alternates: { canonical: `${SITE_URL}/markets/king-of-prussia-pa` },
   openGraph: {
-    images: [{ url: '/images/king-of-prussia-hero.jpg', width: 1200, height: 630, alt: 'Sell Your House Fast in King of Prussia PA' }],
+    images: [{ url: '/images/king-of-prussia-landmark-hero.jpg', width: 1200, height: 630, alt: 'Valley Forge National Park and King of Prussia homes — Sell Your House Fast in King of Prussia PA' }],
   },
 };
 
@@ -124,7 +124,7 @@ export default function KingOfPrussiaMarketPage() {
       {/* Hero */}
       <section className="relative text-white py-16 px-4 overflow-hidden">
         <Image
-          src="/images/king-of-prussia-hero.jpg"
+          src="/images/king-of-prussia-landmark-hero.jpg"
           alt="King of Prussia PA homes — cash home buyers serving Montgomery County"
           fill
           className="object-cover object-center"

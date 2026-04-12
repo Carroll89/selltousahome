@@ -96,13 +96,8 @@ export default function AllentownTenantOccupiedPage() {
       <VideoEmbed
         src="https://v3b.fal.media/files/b/0a95c0f9/9i3z8bWrhNYAyWExOZasV_allentown-tenant-occupied.mp4"
         title="Selling a Tenant-Occupied Property in Allentown"
-<<<<<<< HEAD
         poster="/images/video-posters/allentown-tenant-occupied-poster.jpg"
         subtitle="See how we buy tenant-occupied properties in Allentown — no evictions required"
-=======
-        poster="/images/video-posters/allentown-tenant-occupied.jpg"
-        subtitle="Learn about selling your tenant-occupied property in Allentown"
->>>>>>> db652478dd89d7d27200e95ec4d3219806ea3cbb
       />
       <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
         <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">

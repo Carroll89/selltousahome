@@ -19,7 +19,7 @@ export const metadata: Metadata = {
     'We buy houses in Harrisburg PA for cash, as-is, in any condition. Written offer in 24 hours, close in 7 days. No repairs, no fees.',
   alternates: { canonical: 'https://selltousahome.com/markets/harrisburg-pa' },
   openGraph: {
-    images: [{ url: '/images/harrisburg-hero.jpg', width: 1200, height: 630, alt: 'Sell Your House Fast in Harrisburg PA' }],
+    images: [{ url: '/images/harrisburg-landmark-hero.jpg', width: 1200, height: 630, alt: 'Pennsylvania State Capitol and Harrisburg row homes — Sell Your House Fast in Harrisburg PA' }],
   },
 };
 
@@ -100,7 +100,7 @@ export default function HarrisburgMarketPage() {
       {/* Hero */}
       <section className="relative text-white py-8 md:py-16 px-4 overflow-hidden">
         <Image
-          src="/images/harrisburg-hero.jpg"
+          src="/images/harrisburg-landmark-hero.jpg"
           alt="Harrisburg PA homes — we buy houses fast for cash"
           fill
           className="object-cover object-center"
