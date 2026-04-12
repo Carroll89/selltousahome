@@ -8,7 +8,7 @@ import { articleSchema, faqSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'Are Cash Home Buyers Legit? How to Tell the Good from the Bad',
+  title: 'Are Cash Home Buyers Legit? PA Guide',
   description:
     'Cash home buyers are real — but not all of them operate the same way. Learn what questions to ask, what red flags to watch for, and how to verify a company before you sign anything.',
   alternates: { canonical: `${SITE_URL}/resources/are-cash-home-buyers-legit` },

@@ -9,7 +9,7 @@ import { PHONE, SITE_URL } from '@/lib/utils';
 import { VideoEmbed } from '@/components/VideoEmbed';
 
 export const metadata: Metadata = {
-  title: 'Sell House with Code Violations in Harrisburg PA | Cash Offer',
+  title: 'Sell with Code Violations — Harrisburg PA',
   description:
     'Selling a house with code violations in Harrisburg PA? We buy properties with open violations, municipal liens, and city citations as-is. Cash offer in 24 hours, close in 7–14 days.',
   alternates: { canonical: `${SITE_URL}/markets/harrisburg-pa/code-violations` },
@@ -102,9 +102,26 @@ export default function HarrisburgCodeViolationsPage() {
       <VideoEmbed
         src="https://v3b.fal.media/files/b/0a95c0fa/Rjgk-bPzVnANojDTcLEQp_harrisburg-code-violations.mp4"
         title="Selling a Home with Code Violations in Harrisburg"
+<<<<<<< HEAD
         poster="/images/video-posters/harrisburg-code-violations-poster.jpg"
         subtitle="See how we buy Harrisburg homes with code violations — as-is, no repairs needed"
+=======
+        poster="/images/video-posters/harrisburg-code-violations.jpg"
+        subtitle="Learn about selling your code violation property in Harrisburg"
+>>>>>>> db652478dd89d7d27200e95ec4d3219806ea3cbb
       />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px4 pb-4 text-sm text-gray-600 leading-relaxed">
+            <p className="mb-3">If your Harrisburg property has code violations — outstanding city citations, failed inspections, unpermitted work — selling it the traditional way is a real challenge. Most buyers using financing can&apos;t touch it. I&apos;m with USA Home Buyers, and this is exactly the kind of property we buy.</p>
+            <p className="mb-3">The City of Harrisburg Bureau of Codes Enforcement is active. Violations accumulate fines. Unpermitted additions or structural issues can make a property unmortgageable, which cuts out 80 to 90 percent of your buyer pool immediately.</p>
+            <p className="mb-3">We&apos;re not one of those buyers. We pay cash, so there&apos;s no lender review, no appraisal flagging issues, no financing contingency that falls apart when the inspector finds the unpermitted garage addition. We buy the property in its current condition.</p>
+            <p className="mb-3">Here&apos;s how it works at closing: the code violation fines are identified during the title search. They get paid from closing proceeds, just like a lien or back taxes would. In most cases, you don&apos;t need cash upfront to resolve them. The title company handles the payoffs.</p>
+            <p className="mb-3">If you have a property in Harrisburg or Dauphin County with code violations and you&apos;re not sure what to do with it, call USA Home Buyers at 888-440-5250. We&apos;ll give you a written cash offer within 24 hours and explain exactly how the violations get resolved at closing. No surprises.</p>
+        </div>
+      </details>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article>
 

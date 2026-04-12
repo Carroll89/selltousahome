@@ -9,7 +9,7 @@ import { PHONE, SITE_URL } from '@/lib/utils';
 import { VideoEmbed } from '@/components/VideoEmbed';
 
 export const metadata: Metadata = {
-  title: 'Selling a Probate Property in Harrisburg PA | Dauphin County Estate Sales',
+  title: 'Probate Property Sale — Harrisburg PA',
   description:
     'Need to sell a house in probate in Harrisburg or Dauphin County PA? We buy probate properties as-is, work around estate timelines, and close in 7-14 days.',
   alternates: { canonical: `${SITE_URL}/markets/harrisburg-pa/probate` },
@@ -90,9 +90,27 @@ export default function HarrisburgProbatePage() {
       <VideoEmbed
         src="https://v3b.fal.media/files/b/0a95c0fd/U7h8UzeQ4x2PjBwIKRqyc_harrisburg-probate.mp4"
         title="Selling a Probate Property in Harrisburg"
+<<<<<<< HEAD
         poster="/images/video-posters/harrisburg-probate-poster.jpg"
         subtitle="See how we help Harrisburg families sell probate properties for cash, fast"
+=======
+        poster="/images/video-posters/harrisburg-probate.jpg"
+        subtitle="Learn about selling your probate property in Harrisburg"
+>>>>>>> db652478dd89d7d27200e95ec4d3219806ea3cbb
       />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px4 pb-4 text-sm text-gray-600 leading-relaxed">
+            <p className="mb-3">If you&apos;re an executor or administrator handling an estate with property in Harrisburg, this video is for you. Probate real estate sales have their own rules, and I want to make sure you understand them.</p>
+            <p className="mb-3">First, where does probate happen in Harrisburg? The Dauphin County Register of Wills, located at the county courthouse on Market Street. That&apos;s where Letters Testamentary or Letters of Administration get issued — and once you have those, you have the legal authority to sell the estate&apos;s real property.</p>
+            <p className="mb-3">Here&apos;s something that surprises a lot of executors: you don&apos;t have to wait until the entire estate is closed to sell the house. Once you have your Letters, you can move on the property. Simple estates in Dauphin County can move through the opening process in a few weeks.</p>
+            <p className="mb-3">We buy probate properties in Harrisburg and Dauphin County as-is. No repairs, no cleanout. We work around your timeline. If you need to close fast, we can do it in 7 to 14 days. If the estate needs more time, we can accommodate that too.</p>
+            <p className="mb-3">The executor signs the deed — not individual heirs — and the proceeds go into the estate account for distribution. A title company experienced with estate sales handles all the paperwork.</p>
+            <p className="mb-3">If you&apos;re the personal representative of a Harrisburg estate and need to sell the home, call USA Home Buyers at 888-440-5250. We&apos;ll walk you through the process and get you a written cash offer within 24 hours.</p>
+        </div>
+      </details>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article>
 

@@ -9,7 +9,7 @@ import { PHONE, SITE_URL } from '@/lib/utils';
 import { VideoEmbed } from '@/components/VideoEmbed';
 
 export const metadata: Metadata = {
-  title: 'Selling a Probate Property in Allentown PA | Lehigh County Estate Sales',
+  title: 'Probate Property Sale — Allentown PA',
   description:
     'Need to sell a house in probate in Allentown or Lehigh County PA? We buy probate properties as-is, work around estate timelines, and close in 7-14 days. Bilingual service available.',
   alternates: { canonical: `${SITE_URL}/markets/allentown-pa/probate` },
@@ -96,9 +96,27 @@ export default function AllentownProbatePage() {
       <VideoEmbed
         src="https://v3b.fal.media/files/b/0a95c0f9/sGkI0ze2QQXFYH2nOxhSa_allentown-probate.mp4"
         title="Selling a Probate Property in Allentown"
+<<<<<<< HEAD
         poster="/images/video-posters/allentown-probate-poster.jpg"
         subtitle="See how we help Allentown families sell probate properties for cash, fast"
+=======
+        poster="/images/video-posters/allentown-probate.jpg"
+        subtitle="Learn about selling your probate property in Allentown"
+>>>>>>> db652478dd89d7d27200e95ec4d3219806ea3cbb
       />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px4 pb-4 text-sm text-gray-600 leading-relaxed">
+            <p className="mb-3">If you&apos;re the executor or personal representative of an estate with property in Allentown or Lehigh County, here&apos;s what you need to know about selling it. I&apos;m with USA Home Buyers.</p>
+            <p className="mb-3">Probate in Allentown is handled through the Lehigh County Register of Wills. Once Letters Testamentary or Letters of Administration are issued, the personal representative has legal authority to sell estate real property. You don&apos;t have to wait for the entire estate to close.</p>
+            <p className="mb-3">Simple estates in Lehigh County can open and get Letters issued in a matter of weeks. More complex situations — contested wills, multiple heirs, outstanding debts — can take longer. But the house can often be sold independently while the estate continues.</p>
+            <p className="mb-3">We buy probate properties in Allentown and throughout Lehigh and Northampton County as-is. The executor signs the deed on behalf of the estate. Proceeds go into the estate account for distribution. The title company prepares all estate-specific documentation.</p>
+            <p className="mb-3">No repairs. No cleanout. No open houses. We close in 7 to 14 days. The estate can move forward without a property sitting on the Allentown MLS for months.</p>
+            <p className="mb-3">Call USA Home Buyers at 888-440-5250. We&apos;ll give you a written cash offer within 24 hours and walk you through exactly how a probate sale works in Lehigh County.</p>
+        </div>
+      </details>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article>
 

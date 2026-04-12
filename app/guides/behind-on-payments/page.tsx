@@ -291,6 +291,13 @@ export default function BehindOnPaymentsPage() {
           </section>
 
           <div className="mt-8 text-sm text-gray-500">
+            <p className="mb-3">
+              <strong>Sources:</strong>{' '}
+              <a href="https://www.legis.state.pa.us/" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:underline">PA Foreclosure Law — Title 68 (legis.state.pa.us)</a>{' '}·{' '}
+              <a href="https://www.dauphincounty.gov/government/support-agencies/register-of-wills" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:underline">Dauphin County Register of Wills</a>{' '}·{' '}
+              <a href="https://www.revenue.pa.gov/" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:underline">PA Transfer Tax — Revenue.PA.gov</a>{' '}·{' '}
+              <a href="https://www.nar.realtor/research-and-statistics" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:underline">NAR Research &amp; Statistics</a>
+            </p>
             <p>
               Related:{' '}
               <Link href="/guides/foreclosure" className="text-brand-primary hover:underline">Foreclosure Guide</Link>{' '}

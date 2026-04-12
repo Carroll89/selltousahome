@@ -8,7 +8,7 @@ import { articleSchema, faqSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'Sell Your House Without Making Repairs — As-Is Cash Sale Guide',
+  title: 'Sell As-Is Without Repairs — PA Guide',
   description:
     'You can sell a house as-is without repairs, cleanouts, or updates. Here\'s how it works, what "as-is" actually means legally, and what you can expect from the offer.',
   alternates: { canonical: `${SITE_URL}/resources/sell-house-without-repairs` },

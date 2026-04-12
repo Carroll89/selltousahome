@@ -9,7 +9,7 @@ import { PHONE, SITE_URL } from '@/lib/utils';
 import { VideoEmbed } from '@/components/VideoEmbed';
 
 export const metadata: Metadata = {
-  title: 'Sell a Fire-Damaged House in Harrisburg PA | Cash Offer As-Is',
+  title: 'Sell a Fire-Damaged House — Harrisburg PA',
   description:
     'Need to sell a fire-damaged home in Harrisburg or Dauphin County PA? We buy fire-damaged properties as-is, cash offer in 24 hours, no repairs required. Skip the insurance headaches.',
   alternates: { canonical: `${SITE_URL}/markets/harrisburg-pa/fire-damage` },
@@ -102,9 +102,27 @@ export default function HarrisburgFireDamagePage() {
       <VideoEmbed
         src="https://v3b.fal.media/files/b/0a95c0fb/ujkumlRycp1KcN9eUOueo_harrisburg-fire-damage.mp4"
         title="Selling a Fire-Damaged Home in Harrisburg"
+<<<<<<< HEAD
         poster="/images/video-posters/harrisburg-fire-damage-poster.jpg"
         subtitle="See how we buy fire-damaged homes in Harrisburg — cash offer, any condition"
+=======
+        poster="/images/video-posters/harrisburg-fire-damage.jpg"
+        subtitle="Learn about selling your fire-damaged property in Harrisburg"
+>>>>>>> db652478dd89d7d27200e95ec4d3219806ea3cbb
       />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px4 pb-4 text-sm text-gray-600 leading-relaxed">
+            <p className="mb-3">Selling a fire-damaged home in Harrisburg is not something most real estate agents know how to handle. Insurance claims, structural damage, smoke and water remediation — it&apos;s a complicated situation. I&apos;m with USA Home Buyers, and we buy fire-damaged properties in Harrisburg and Dauphin County as-is, for cash.</p>
+            <p className="mb-3">Here&apos;s what that means in practice. You don&apos;t need to repair anything. You don&apos;t need to remediate smoke or water damage. You don&apos;t need to bring the structure up to code before selling. We buy the property in whatever condition it&apos;s in right now.</p>
+            <p className="mb-3">Fire-damaged homes are essentially unmarketable through traditional channels. Conventional financing won&apos;t appraise a structurally compromised home, and getting a mortgage on a gutted property isn&apos;t possible. Your buyer pool shrinks to all-cash investors — which is exactly what we are.</p>
+            <p className="mb-3">We move fast because we have to. Fire-damaged homes are often open to weather, at risk of further deterioration, and creating ongoing insurance and liability headaches. The faster you can close and hand off responsibility, the better.</p>
+            <p className="mb-3">We make written cash offers within 24 hours. Once you accept, we can close in as few as 7 days. We handle all closing costs. No agent commissions, no repairs, no remediation required on your end.</p>
+            <p className="mb-3">Call USA Home Buyers right now at 888-440-5250. Whether it was a kitchen fire or a total loss, we&apos;ll get you an offer fast so you can move forward.</p>
+        </div>
+      </details>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article>
 

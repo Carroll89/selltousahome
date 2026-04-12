@@ -9,7 +9,7 @@ import { articleSchema, faqSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'Cash Offer vs. Listing with an Agent — Which Is Right for You?',
+  title: 'Cash Offer vs. Listing — Which Wins?',
   description:
     'Honest comparison of selling to a cash buyer vs. listing with a real estate agent. Timeline, costs, certainty, and net proceeds — the real numbers for Pennsylvania sellers.',
   alternates: { canonical: `${SITE_URL}/resources/cash-offer-vs-listing` },

@@ -9,7 +9,7 @@ import { PHONE, SITE_URL } from '@/lib/utils';
 import { VideoEmbed } from '@/components/VideoEmbed';
 
 export const metadata: Metadata = {
-  title: 'Sell a House with Property Liens in Harrisburg PA | Dauphin County',
+  title: 'Sell House with Liens in Harrisburg PA',
   description:
     'Selling a house with property liens in Harrisburg or Dauphin County PA? We buy properties with tax liens, municipal liens, judgment liens, and mechanic\'s liens as-is. Cash offer in 24 hours.',
   alternates: { canonical: `${SITE_URL}/markets/harrisburg-pa/property-liens` },
@@ -103,9 +103,27 @@ export default function HarrisburgPropertyLiensPage() {
       <VideoEmbed
         src="https://v3b.fal.media/files/b/0a95c0fd/Nc_adaeWMqrhab3b0C4zT_harrisburg-property-liens.mp4"
         title="Selling a Home with Liens in Harrisburg"
+<<<<<<< HEAD
         poster="/images/video-posters/harrisburg-property-liens-poster.jpg"
         subtitle="See how we buy Harrisburg homes with liens — we handle the paperwork and payoff"
+=======
+        poster="/images/video-posters/harrisburg-property-liens.jpg"
+        subtitle="Learn about selling your property with liens in Harrisburg"
+>>>>>>> db652478dd89d7d27200e95ec4d3219806ea3cbb
       />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px4 pb-4 text-sm text-gray-600 leading-relaxed">
+            <p className="mb-3">One of the biggest misconceptions I hear from Harrisburg homeowners is that liens mean they can&apos;t sell. That&apos;s not true. I&apos;m with USA Home Buyers, and I want to explain how property liens actually work in a sale.</p>
+            <p className="mb-3">In Harrisburg and Dauphin County, the most common liens are delinquent property tax liens filed by the Tax Claim Bureau, city municipal liens for unpaid water, sewer, or code fines, judgment liens from the Dauphin County Court of Common Pleas, mechanic&apos;s liens from unpaid contractors, and IRS or PA Department of Revenue tax liens.</p>
+            <p className="mb-3">Here&apos;s the key thing to understand: liens don&apos;t block a sale. They have to be resolved at or before closing, but in almost all cases, they&apos;re paid directly from your sale proceeds. You typically don&apos;t need cash upfront. The title company runs a search, finds all the liens, and pays them off at closing.</p>
+            <p className="mb-3">The problem with traditional buyers is that conventional financing lenders require clear title. A buyer using a mortgage can&apos;t close until liens are resolved. Cash buyers don&apos;t have that constraint.</p>
+            <p className="mb-3">We&apos;ve bought Harrisburg properties with tax liens, municipal liens, judgment liens, and mechanic&apos;s liens. As long as there&apos;s enough equity to cover the liens and our offer, we can close.</p>
+            <p className="mb-3">Don&apos;t assume a lien means you&apos;re stuck. Call USA Home Buyers at 888-440-5250. We&apos;ll give you a cash offer within 24 hours and walk you through exactly how your specific liens get resolved.</p>
+        </div>
+      </details>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article>
 

@@ -9,7 +9,7 @@ import { PHONE, SITE_URL } from '@/lib/utils';
 import { VideoEmbed } from '@/components/VideoEmbed';
 
 export const metadata: Metadata = {
-  title: 'Sell Inherited Property in Allentown PA | Lehigh County Estate Sale Cash Offer',
+  title: 'Sell Inherited Property in Allentown PA',
   description:
     'Inherited a house in Allentown or Lehigh County PA? We buy inherited properties as-is, handle estate complications, and close in 7-14 days. No cleanout, no repairs. Bilingual service.',
   alternates: { canonical: `${SITE_URL}/markets/allentown-pa/inherited-property` },
@@ -97,9 +97,26 @@ export default function AllentownInheritedPropertyPage() {
       <VideoEmbed
         src="https://v3b.fal.media/files/b/0a95c0f8/FqXR-hxAOSciAP09lUsin_allentown-inherited.mp4"
         title="Selling an Inherited Property in Allentown"
+<<<<<<< HEAD
         poster="/images/video-posters/allentown-inherited-poster.jpg"
         subtitle="See how we help Allentown families sell inherited properties without the hassle"
+=======
+        poster="/images/video-posters/allentown-inherited.jpg"
+        subtitle="Learn about selling your inherited property in Allentown"
+>>>>>>> db652478dd89d7d27200e95ec4d3219806ea3cbb
       />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px4 pb-4 text-sm text-gray-600 leading-relaxed">
+            <p className="mb-3">Inheriting a house in Allentown is rarely straightforward. There&apos;s the emotional weight of it, the logistics of a property you may not live near, and often family members in different places with different opinions. I&apos;m with USA Home Buyers, and we handle inherited properties in Allentown and Lehigh County every week.</p>
+            <p className="mb-3">The most common thing we hear: they don&apos;t want to deal with it. The property needs work. There&apos;s furniture and belongings that need to go somewhere. Nobody wants to manage a Lehigh Valley property from another state. A traditional listing means repairs, cleanout, showings, waiting — on top of everything else you&apos;re already dealing with.</p>
+            <p className="mb-3">We buy inherited Allentown properties as-is. Don&apos;t touch a thing. No cleanout, no repairs, no painting, no landscaping. We make a written cash offer within 24 hours and close in as few as seven days.</p>
+            <p className="mb-3">If the property is going through probate, that&apos;s fine. Once the Lehigh County Register of Wills issues Letters Testamentary or Letters of Administration, the personal representative can authorize the sale. The house can be sold while other estate matters are still being wrapped up.</p>
+            <p className="mb-3">You don&apos;t have to spend months managing an Allentown property you didn&apos;t ask for. Call USA Home Buyers at 888-440-5250. Fair offer, fast close, no hassle.</p>
+        </div>
+      </details>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article>
 

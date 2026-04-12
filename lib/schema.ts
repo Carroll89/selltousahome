@@ -31,6 +31,30 @@ const CITY_CONFIGS: Record<string, CityConfig> = {
       { '@type': 'County', name: 'Cumberland County' },
     ],
   },
+  kingOfPrussia: {
+    city: 'King of Prussia',
+    region: 'PA',
+    postalCode: '19406',
+    lat: 40.0892,
+    lng: -75.3961,
+    description:
+      'Cash home buyers serving King of Prussia PA and Montgomery County. We buy houses as-is in any condition — no repairs, no agent fees, close in 7-14 days.',
+    areaServed: [
+      { '@type': 'City', name: 'King of Prussia', sameAs: 'https://en.wikipedia.org/wiki/King_of_Prussia,_Pennsylvania' },
+      { '@type': 'City', name: 'Norristown' },
+      { '@type': 'City', name: 'Conshohocken' },
+      { '@type': 'City', name: 'Plymouth Meeting' },
+      { '@type': 'City', name: 'Bridgeport' },
+      { '@type': 'City', name: 'Wayne' },
+      { '@type': 'City', name: 'Collegeville' },
+      { '@type': 'City', name: 'Gulph Mills' },
+      { '@type': 'City', name: 'Valley Forge' },
+      { '@type': 'City', name: 'Bryn Mawr' },
+      { '@type': 'County', name: 'Montgomery County' },
+      { '@type': 'County', name: 'Chester County' },
+      { '@type': 'County', name: 'Delaware County' },
+    ],
+  },
   allentown: {
     city: 'Allentown',
     region: 'PA',
@@ -54,7 +78,7 @@ const CITY_CONFIGS: Record<string, CityConfig> = {
   },
 };
 
-export function localBusinessSchemaFor(cityKey: 'harrisburg' | 'allentown') {
+export function localBusinessSchemaFor(cityKey: 'harrisburg' | 'allentown' | 'kingOfPrussia') {
   const cfg = CITY_CONFIGS[cityKey];
   return {
     '@context': 'https://schema.org',
@@ -110,6 +134,9 @@ export const harrisburgLocalBusinessSchema = localBusinessSchemaFor('harrisburg'
 
 /** Pre-built Allentown LocalBusiness schema */
 export const allentownLocalBusinessSchema = localBusinessSchemaFor('allentown');
+
+/** Pre-built King of Prussia LocalBusiness schema */
+export const kingOfPrussiaLocalBusinessSchema = localBusinessSchemaFor('kingOfPrussia');
 
 export const organizationSchema = {
   '@context': 'https://schema.org',
@@ -273,6 +300,43 @@ export const harrisburgFAQSchema = {
     },
   ],
 };
+
+/**
+ * Generate a VideoObject schema for a self-hosted video.
+ * Designed for use inside the VideoEmbed component or any page with a <video> element.
+ */
+export function videoObjectSchema({
+  name,
+  description,
+  contentUrl,
+  thumbnailUrl,
+  uploadDate = '2026-04-06',
+}: {
+  name: string;
+  description: string;
+  contentUrl: string;
+  thumbnailUrl?: string;
+  uploadDate?: string;
+}) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'VideoObject',
+    name,
+    description,
+    contentUrl,
+    uploadDate,
+    ...(thumbnailUrl ? { thumbnailUrl } : {}),
+    publisher: {
+      '@type': 'Organization',
+      name: 'USA Home Buyers',
+      url: SITE_URL,
+      logo: {
+        '@type': 'ImageObject',
+        url: `${SITE_URL}/logo.png`,
+      },
+    },
+  };
+}
 
 export function articleSchema(headline: string, url: string, datePublished = '2026-04-06') {
   return {

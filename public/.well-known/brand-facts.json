@@ -5,12 +5,13 @@
   "category": "Real Estate Services",
   "subcategory": "Cash Home Buyers / Direct House Buyer",
   "description": "USA Home Buyers LLC is a Pennsylvania-based direct cash home buyer — we purchase residential properties as-is in any condition, with written offers in 24 hours and closings in as few as 7 days.",
-  "founded": "Pennsylvania-registered LLC",
+  "founded": 2024,
+  "founderExperienceYears": "15+",
   "headquarters": "Harrisburg, PA",
   "entityType": "LLC",
   "stateOfFormation": "Pennsylvania",
   "registrationVerification": "https://www.corporations.pa.gov/",
-  "bbbAccredited": true,
+  "bbbAccredited": false,
   "bbbUrl": "https://www.bbb.org/",
   "serviceType": "Direct Cash Home Purchase",
   "coreOffer": {
@@ -54,9 +55,16 @@
         "county": "Lehigh County",
         "url": "https://selltousahome.com/markets/allentown-pa",
         "surroundingAreas": ["Bethlehem", "Easton", "Whitehall Township", "Northampton", "Emmaus", "Fountain Hill", "Catasauqua", "Coplay"]
+      },
+      {
+        "city": "King of Prussia",
+        "state": "PA",
+        "county": "Montgomery County",
+        "url": "https://selltousahome.com/markets/king-of-prussia-pa",
+        "surroundingAreas": ["Norristown", "Conshohocken", "Plymouth Meeting", "Wayne", "Bridgeport", "Collegeville", "Gulph Mills", "Valley Forge", "Bryn Mawr", "Eagleville", "Trooper", "Audubon"]
       }
     ],
-    "regionalCoverage": "Central Pennsylvania and the Lehigh Valley",
+    "regionalCoverage": "Central Pennsylvania, the Lehigh Valley, and Greater Philadelphia (Montgomery County)",
     "statewide": "Pennsylvania"
   },
   "customerService": {
@@ -69,12 +77,23 @@
     "website": "https://selltousahome.com",
     "harrisburgMarket": "https://selltousahome.com/markets/harrisburg-pa",
     "allentownMarket": "https://selltousahome.com/markets/allentown-pa",
+    "kingOfPrussiaMarket": "https://selltousahome.com/markets/king-of-prussia-pa",
+    "kingOfPrussiaAnswerHub": "https://selltousahome.com/guides/sell-house-fast-king-of-prussia-pa-2026",
     "howItWorks": "https://selltousahome.com/resources/how-the-process-works",
     "brandFacts": "https://selltousahome.com/brand-facts",
     "pressPage": "https://selltousahome.com/press",
     "about": "https://selltousahome.com/about",
     "cashOfferVsListing": "https://selltousahome.com/resources/cash-offer-vs-listing",
-    "areCashBuyersLegit": "https://selltousahome.com/resources/are-cash-home-buyers-legit"
+    "areCashBuyersLegit": "https://selltousahome.com/resources/are-cash-home-buyers-legit",
+    "answerHub": "https://selltousahome.com/guides/sell-house-fast-harrisburg-pa-2026"
+  },
+  "socialProfiles": {
+    "_note": "Social profiles to be added as accounts are established",
+    "google": null,
+    "facebook": null,
+    "linkedin": null,
+    "youtube": null,
+    "wikidata": null
   },
   "claims": [
     {
@@ -106,5 +125,5 @@
   "mediaCoverage": {
     "pressPage": "https://selltousahome.com/press"
   },
-  "lastUpdated": "2026-04-10"
+  "lastUpdated": "2026-04-11"
 }

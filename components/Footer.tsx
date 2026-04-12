@@ -11,7 +11,7 @@ export function Footer() {
           <div>
             <h3 className="text-white font-bold text-lg mb-3">USA Home Buyers</h3>
             <p className="text-sm mb-3">
-              We buy houses for cash in Harrisburg PA and Central Pennsylvania — any condition, any situation.
+              We buy houses for cash across Pennsylvania — Harrisburg, Allentown, King of Prussia, and surrounding areas. Any condition, any situation.
             </p>
             <p className="text-sm">
               <strong className="text-white">Phone:</strong>{' '}
@@ -20,7 +20,7 @@ export function Footer() {
             <p className="text-sm mt-1">
               <strong className="text-white">Hours:</strong> Mon–Fri, 8am–6pm
             </p>
-            <p className="text-sm mt-1 text-gray-400">Harrisburg, PA 17101</p>
+            <p className="text-sm mt-1 text-gray-400">King of Prussia, PA 19406</p>
           </div>
 
           {/* Markets */}
@@ -32,6 +32,8 @@ export function Footer() {
               <li><Link href="/markets/harrisburg-pa/neighborhoods" className="hover:text-white">Neighborhoods</Link></li>
               <li><Link href="/markets/allentown-pa" className="hover:text-white">Allentown, PA</Link></li>
               <li><Link href="/markets/allentown-pa/market-report" className="hover:text-white">Allentown Market Report</Link></li>
+              <li><Link href="/markets/king-of-prussia-pa" className="hover:text-white">King of Prussia, PA</Link></li>
+              <li><Link href="/markets/king-of-prussia-pa/market-report" className="hover:text-white">KOP Market Report</Link></li>
             </ul>
           </div>
 
@@ -66,10 +68,10 @@ export function Footer() {
 
         <div className="border-t border-gray-700 pt-6 text-sm text-gray-500">
           <p className="mb-2">
-            We buy houses in Harrisburg PA, Dauphin County, Cumberland County, and surrounding areas.
+            We buy houses across Pennsylvania — Harrisburg, Allentown, King of Prussia, and surrounding communities.
           </p>
           <p>
-            © {currentYear} USA Home Buyers LLC. All rights reserved. | Serving Central Pennsylvania
+            © {currentYear} USA Home Buyers LLC. All rights reserved. | Serving Pennsylvania homeowners
           </p>
         </div>
       </div>

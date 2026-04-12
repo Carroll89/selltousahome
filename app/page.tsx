@@ -12,7 +12,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Sell Your House Fast for Cash',
   description:
-    'USA Home Buyers purchases homes for cash in any condition. No repairs, no agent fees, close in 7-14 days. Serving Harrisburg PA and Central Pennsylvania.',
+    'USA Home Buyers purchases homes for cash in any condition. No repairs, no agent fees, close in 7-14 days. Serving Harrisburg, Allentown, King of Prussia, and Pennsylvania.',
   alternates: { canonical: 'https://selltousahome.com' },
 };
 
@@ -68,7 +68,7 @@ export default function HomePage() {
               Sell Your House Fast for Cash — Any Condition, Any Situation
             </h1>
             <p className="text-xl text-blue-100 mb-6">
-              USA Home Buyers purchases homes in Harrisburg PA and Central Pennsylvania for cash in any condition.
+              USA Home Buyers purchases homes across Pennsylvania for cash in any condition.
               No repairs, no agent fees, no waiting 60-90 days. Written cash offer in 24 hours.
             </p>
             <div className="flex flex-wrap gap-4 text-blue-100 text-sm mb-6">
@@ -117,16 +117,22 @@ export default function HomePage() {
               className="block bg-white border-2 border-brand-primary rounded-xl p-6 hover:shadow-lg transition-shadow"
             >
               <h3 className="font-bold text-brand-primary text-lg mb-1">Harrisburg, PA</h3>
-              <p className="text-gray-600 text-sm">Dauphin County & Cumberland County — our primary market</p>
+              <p className="text-gray-600 text-sm">Dauphin County & Cumberland County</p>
             </Link>
-            <div className="bg-gray-50 border border-gray-200 rounded-xl p-6">
-              <h3 className="font-bold text-gray-400 text-lg mb-1">Camp Hill / Mechanicsburg</h3>
-              <p className="text-gray-400 text-sm">Cumberland County — coming soon</p>
-            </div>
-            <div className="bg-gray-50 border border-gray-200 rounded-xl p-6">
-              <h3 className="font-bold text-gray-400 text-lg mb-1">Lebanon / York Counties</h3>
-              <p className="text-gray-400 text-sm">Central PA expansion — coming soon</p>
-            </div>
+            <Link
+              href="/markets/allentown-pa"
+              className="block bg-white border-2 border-brand-primary rounded-xl p-6 hover:shadow-lg transition-shadow"
+            >
+              <h3 className="font-bold text-brand-primary text-lg mb-1">Allentown, PA</h3>
+              <p className="text-gray-600 text-sm">Lehigh County & Lehigh Valley</p>
+            </Link>
+            <Link
+              href="/markets/king-of-prussia-pa"
+              className="block bg-white border-2 border-brand-primary rounded-xl p-6 hover:shadow-lg transition-shadow"
+            >
+              <h3 className="font-bold text-brand-primary text-lg mb-1">King of Prussia, PA</h3>
+              <p className="text-gray-600 text-sm">Montgomery County & suburban Philadelphia</p>
+            </Link>
           </div>
         </section>
 
@@ -144,8 +150,8 @@ export default function HomePage() {
           <div className="grid md:grid-cols-2 gap-6">
             {[
               { title: 'Written Offers Only', desc: 'We never make verbal promises. Every offer is a formal written purchase agreement with price, terms, and closing date.' },
-              { title: 'Licensed PA Investor', desc: 'Verified business with a track record of closed sales in Dauphin and Cumberland Counties you can check at the county recorder.' },
-              { title: 'Local Experts', desc: '5+ years buying homes in Harrisburg. We know Steelton, Penbrook, Allison Hill, Camp Hill, and everywhere in between.' },
+              { title: 'Licensed PA Investor', desc: 'Verified business with a track record of closed sales across Pennsylvania — check the county recorder in any market we serve.' },
+              { title: 'Local Experts', desc: '15+ years buying homes across PA. Harrisburg, Allentown, King of Prussia — we know the neighborhoods, the numbers, and the process.' },
               { title: 'No Pressure, Ever', desc: 'The offer stands on its own. Take your time reviewing it. We don\'t do high-pressure follow-up calls.' },
             ].map((item, i) => (
               <div key={i} className="flex gap-4">

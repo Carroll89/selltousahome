@@ -8,7 +8,7 @@ import { articleSchema, faqSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'Selling Parents\' House When They Move to a Nursing Home | PA Guide',
+  title: 'Selling Parents\' House for Nursing Home',
   description:
     'Need to sell your parents\' house when they\'re moving to a nursing home in Pennsylvania? Learn Medicaid spend-down rules, power of attorney requirements, and how to close fast. PA-specific guidance.',
   alternates: { canonical: `${SITE_URL}/guides/selling-parents-house-nursing-home` },

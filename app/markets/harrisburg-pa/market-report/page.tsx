@@ -95,7 +95,7 @@ const FAQ_ITEMS = [
 const PAGE_URL = `${SITE_URL}/markets/harrisburg-pa/market-report`;
 
 export const metadata: Metadata = {
-  title: 'Harrisburg PA Housing Market Report 2026 — Prices, Trends & Data',
+  title: 'Harrisburg PA Housing Market 2026',
   description:
     'Current Harrisburg PA housing market data for 2026: median home price $234,569, 5 days to pending, 4.2% YoY appreciation. Updated April 2026 with neighborhood breakdown.',
   alternates: { canonical: PAGE_URL },
@@ -200,9 +200,27 @@ export default function HarrisburgMarketReport() {
       <VideoEmbed
         src="https://v3b.fal.media/files/b/0a95c0fc/Z-XmF_o8FB2J9ON4IJWK2_harrisburg-market-report.mp4"
         title="Harrisburg, PA Real Estate Market Report"
+<<<<<<< HEAD
         poster="/images/video-posters/harrisburg-market-report-poster.jpg"
         subtitle="Get the latest insights on the Harrisburg PA real estate market from our local team"
+=======
+        poster="/images/video-posters/harrisburg-market-report.jpg"
+        subtitle="See how we help homeowners in Harrisburg sell fast"
+>>>>>>> db652478dd89d7d27200e95ec4d3219806ea3cbb
       />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px4 pb-4 text-sm text-gray-600 leading-relaxed">
+            <p className="mb-3">Let me give you the real numbers on the Harrisburg PA housing market in 2026. I&apos;m with USA Home Buyers, and we track this data every day.</p>
+            <p className="mb-3">Zillow&apos;s Home Value Index for the Harrisburg area puts the median home value at $234,569 as of early 2026. Redfin&apos;s median sale price for city-limit properties is around $145,000 — that gap tells you something about the mix of urban row homes and suburban single-family houses in the metro area.</p>
+            <p className="mb-3">Average days to pending in Harrisburg is five days. That&apos;s fast — it means when a well-priced home hits the MLS, it goes under contract quickly. But after going pending, you&apos;re still 45 to 60 days from closing. Inspections, appraisals, mortgage underwriting — all of that happens after the offer is accepted.</p>
+            <p className="mb-3">That&apos;s why some sellers in Harrisburg choose a cash sale instead. We close in 7 to 14 days. There&apos;s no appraisal contingency, no financing that can fall through, no buyer getting cold feet after inspection.</p>
+            <p className="mb-3">Harrisburg is also seeing year-over-year appreciation, driven by its status as the state capital, Penn State Harrisburg&apos;s presence, and relative affordability compared to Philadelphia and Pittsburgh.</p>
+            <p className="mb-3">Whether you decide to list traditionally or call us, understanding the market helps you make a better decision. If you&apos;d like a cash offer on your Harrisburg property, call USA Home Buyers at 888-440-5250.</p>
+        </div>
+      </details>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
 
         {/* TL;DR */}
@@ -495,6 +513,13 @@ export default function HarrisburgMarketReport() {
             Market data sourced from Zillow ZHVI, Redfin, and local MLS. Updated {REPORT_DATA.lastUpdated}.
             Individual home values vary based on condition, location, and market timing.
             This page is for informational purposes — contact a licensed real estate professional for personalized advice.
+          </p>
+          <p className="mt-3 text-xs text-gray-400">
+            <strong>Sources:</strong>{' '}
+            <a href="https://www.legis.state.pa.us/" target="_blank" rel="noopener noreferrer" className="underline">PA Real Property Law — Title 68 (legis.state.pa.us)</a>{' '}·{' '}
+            <a href="https://www.dauphincounty.gov/government/support-agencies/register-of-wills" target="_blank" rel="noopener noreferrer" className="underline">Dauphin County Register of Wills</a>{' '}·{' '}
+            <a href="https://www.revenue.pa.gov/" target="_blank" rel="noopener noreferrer" className="underline">PA Inheritance Tax — Revenue.PA.gov</a>{' '}·{' '}
+            <a href="https://www.nar.realtor/research-and-statistics" target="_blank" rel="noopener noreferrer" className="underline">NAR Research &amp; Statistics</a>
           </p>
         </div>
       </div>

@@ -91,9 +91,27 @@ export default function HarrisburgForeclosurePage() {
       <VideoEmbed
         src="https://v3b.fal.media/files/b/0a95c0fb/2lwNNUG9OfQUfRJgt_Cu-_harrisburg-foreclosure.mp4"
         title="Selling Before Foreclosure in Harrisburg"
+<<<<<<< HEAD
         poster="/images/video-posters/harrisburg-foreclosure-poster.jpg"
         subtitle="See how we help Harrisburg homeowners stop foreclosure and protect their equity"
+=======
+        poster="/images/video-posters/harrisburg-foreclosure.jpg"
+        subtitle="Learn about selling your property before foreclosure in Harrisburg"
+>>>>>>> db652478dd89d7d27200e95ec4d3219806ea3cbb
       />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px4 pb-4 text-sm text-gray-600 leading-relaxed">
+            <p className="mb-3">If you&apos;re facing foreclosure in Harrisburg or Dauphin County, time matters more than almost anything right now. I&apos;m with USA Home Buyers, and I want to walk you through what&apos;s actually happening and what you can do about it.</p>
+            <p className="mb-3">Pennsylvania is a judicial foreclosure state. In Dauphin County, the foreclosure process typically takes 12 to 18 months from your first missed payment to the sheriff sale. There&apos;s also a mandatory conciliation conference — a court-supervised meeting where the lender and borrower try to work something out. It often adds several months.</p>
+            <p className="mb-3">Here&apos;s what most people don&apos;t know: if you sell your house before the sheriff sale, the foreclosure stops. The mortgage gets paid off at closing, the case gets dismissed, and you walk away with whatever equity you have left. That equity doesn&apos;t go to the bank — it goes to you.</p>
+            <p className="mb-3">We&apos;ve helped Harrisburg homeowners close in seven days to beat sheriff sale deadlines. Once you accept our written cash offer, we move fast. No financing contingencies, no waiting on a bank.</p>
+            <p className="mb-3">You also have options like PHFA&apos;s HEMAP assistance — you have 33 days from receiving the notice to apply. And Dauphin County&apos;s conciliation conference is actually an opportunity to buy time while you figure out your best path.</p>
+            <p className="mb-3">If you&apos;re in foreclosure or think you might be headed there, call us now at 888-440-5250. We&apos;ll give you a cash offer within 24 hours and help you understand all your options.</p>
+        </div>
+      </details>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article>
 

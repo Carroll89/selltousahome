@@ -103,7 +103,7 @@ const FAQ_ITEMS = [
 const PAGE_URL = `${SITE_URL}/markets/allentown-pa/market-report`;
 
 export const metadata: Metadata = {
-  title: 'Allentown PA Housing Market Report 2026 — Prices, Trends & Data',
+  title: 'Allentown PA Housing Market 2026',
   description:
     'Current Allentown PA housing market data for 2026: median home value $245K, 7 days to pending, 5.1% YoY appreciation. Updated April 2026 with neighborhood breakdown.',
   alternates: { canonical: PAGE_URL },
@@ -208,9 +208,27 @@ export default function AllentownMarketReport() {
       <VideoEmbed
         src="https://v3b.fal.media/files/b/0a95c0f9/Xkj6xhxOG8RjUXMCfaw4H_allentown-market-report.mp4"
         title="Allentown, PA Real Estate Market Report"
+<<<<<<< HEAD
         poster="/images/video-posters/allentown-market-report-poster.jpg"
         subtitle="Get the latest insights on the Allentown PA real estate market from our local team"
+=======
+        poster="/images/video-posters/allentown-market-report.jpg"
+        subtitle="See how we help homeowners in Allentown sell fast"
+>>>>>>> db652478dd89d7d27200e95ec4d3219806ea3cbb
       />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px4 pb-4 text-sm text-gray-600 leading-relaxed">
+            <p className="mb-3">Here&apos;s a real look at the Allentown PA housing market in 2026. I&apos;m with USA Home Buyers, and we track these numbers closely because they affect every offer we make.</p>
+            <p className="mb-3">Median home value in the Allentown area per Zillow is $267,465. Redfin&apos;s median sale price for the city is around $245,000. Days to pending is running about 29 days — the Lehigh Valley market is active, but not as fast as some Philadelphia suburbs.</p>
+            <p className="mb-3">After those 29 days on market, you&apos;re still 45 to 60 days from closing after going pending. The realistic timeline from listing to close is two to three months, assuming nothing goes wrong.</p>
+            <p className="mb-3">Allentown sits at an interesting price point — more affordable than the Philadelphia metro while still within commuting distance. That drives demand from buyers priced out of Montgomery and Delaware County. Properties in good condition move quickly; properties with issues sit.</p>
+            <p className="mb-3">We pay 70 to 80 percent of fair market value — with Allentown medians around $245,000, that&apos;s typically $172,000 to $196,000 for a median-priced home, with zero agent commissions and zero repair costs.</p>
+            <p className="mb-3">Want to know what we&apos;d offer for your specific property? Call 888-440-5250 or fill out the form. Written offer in 24 hours.</p>
+        </div>
+      </details>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
 
         {/* TL;DR */}
@@ -218,7 +236,7 @@ export default function AllentownMarketReport() {
           <h2 className="text-lg font-bold text-brand-dark mb-3">TL;DR — The Short Answer</h2>
           <ul className="space-y-2 text-gray-700 text-sm">
             <li>
-              <strong>Median home value:</strong> {REPORT_DATA.medianHomeValue} —
+              <strong>Median home value:</strong> {REPORT_DATA.medianHomeValue} per Zillow ZHVI —
               up {REPORT_DATA.yoyPriceChange} year-over-year.
             </li>
             <li>
@@ -404,6 +422,13 @@ export default function AllentownMarketReport() {
             Market data sourced from Zillow, Redfin, and local MLS. Updated {REPORT_DATA.lastUpdated}.
             Individual home values vary based on condition, location, and market timing.
             This page is for informational purposes — contact a licensed real estate professional for personalized advice.
+          </p>
+          <p className="mt-3 text-xs text-gray-400">
+            <strong>Sources:</strong>{' '}
+            <a href="https://www.legis.state.pa.us/" target="_blank" rel="noopener noreferrer" className="underline">PA Real Property Law — Title 68 (legis.state.pa.us)</a>{' '}·{' '}
+            <a href="https://www.lehighcounty.org/" target="_blank" rel="noopener noreferrer" className="underline">Lehigh County Government (lehighcounty.org)</a>{' '}·{' '}
+            <a href="https://www.revenue.pa.gov/" target="_blank" rel="noopener noreferrer" className="underline">PA Inheritance Tax — Revenue.PA.gov</a>{' '}·{' '}
+            <a href="https://www.nar.realtor/research-and-statistics" target="_blank" rel="noopener noreferrer" className="underline">NAR Research &amp; Statistics</a>
           </p>
         </div>
       </div>

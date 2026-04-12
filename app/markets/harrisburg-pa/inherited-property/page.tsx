@@ -9,7 +9,7 @@ import { PHONE, SITE_URL } from '@/lib/utils';
 import { VideoEmbed } from '@/components/VideoEmbed';
 
 export const metadata: Metadata = {
-  title: 'Sell Inherited Property in Harrisburg PA | Estate Sale Cash Offer',
+  title: 'Sell Inherited Property in Harrisburg PA',
   description:
     'Inherited a house in Harrisburg or Dauphin County PA? We buy inherited properties as-is, handle estate complications, and close in 7-14 days. No cleanout, no repairs.',
   alternates: { canonical: `${SITE_URL}/markets/harrisburg-pa/inherited-property` },
@@ -91,9 +91,27 @@ export default function HarrisburgInheritedPropertyPage() {
       <VideoEmbed
         src="https://v3b.fal.media/files/b/0a95c0fb/gxjjT8T-3zVNFOeDd2o8__harrisburg-inherited.mp4"
         title="Selling an Inherited Property in Harrisburg"
+<<<<<<< HEAD
         poster="/images/video-posters/harrisburg-inherited-poster.jpg"
         subtitle="See how we help Harrisburg families sell inherited properties without the hassle"
+=======
+        poster="/images/video-posters/harrisburg-inherited.jpg"
+        subtitle="Learn about selling your inherited property in Harrisburg"
+>>>>>>> db652478dd89d7d27200e95ec4d3219806ea3cbb
       />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px4 pb-4 text-sm text-gray-600 leading-relaxed">
+            <p className="mb-3">Inheriting a house in Harrisburg can feel overwhelming, especially when you don&apos;t live nearby, the property needs work, or there are multiple family members involved. I&apos;m with USA Home Buyers, and we help families in exactly this situation every day.</p>
+            <p className="mb-3">What we see a lot: someone passes away, leaves behind a home in Dauphin County, and the heirs are scattered. Nobody wants to deal with repairs, cleaning out decades of belongings, or managing showings from out of town. The thought of going through a traditional listing — finding an agent, fixing things up, waiting 60 or 90 days to close — it&apos;s exhausting on top of already grieving.</p>
+            <p className="mb-3">We buy inherited properties as-is. That means you don&apos;t touch a thing. Don&apos;t clean it out, don&apos;t make repairs, don&apos;t even sweep the floor. We&apos;ll handle all of that. We make you a written cash offer within 24 hours of your call, and we can close in as few as seven days.</p>
+            <p className="mb-3">If the property is in probate, that&apos;s okay. We work around estate timelines and can coordinate directly with executors and attorneys. The personal representative can sign for the sale once the Dauphin County Register of Wills issues Letters Testamentary.</p>
+            <p className="mb-3">We serve all of Harrisburg and Dauphin County. No repairs. No cleanout. No agent fees. Just a fair cash offer and a simple process.</p>
+            <p className="mb-3">Call USA Home Buyers at 888-440-5250. We&apos;ll answer your questions and get you an offer fast.</p>
+        </div>
+      </details>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article>
 
