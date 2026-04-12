@@ -8,7 +8,7 @@ import { articleSchema, faqSchema, readingLocalBusinessSchema } from '@/lib/sche
 import { PHONE, SITE_URL } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'Tenant-Occupied Property in Reading PA — Sell Your House Fast',
+  title: 'Tenant-Occupied Home in Reading PA | Cash Offer, No Eviction',
   description:
     'Selling a rental or tenant-occupied property in Reading PA? We buy tenant-occupied homes as-is. No eviction required. Cash offer in 24 hours. Hablamos español.',
   alternates: { canonical: `${SITE_URL}/markets/reading-pa/tenant-occupied` },
@@ -96,12 +96,26 @@ export default function ReadingTenantOccupiedPage() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article>
 
+          <div className="bg-brand-light/20 p-6 rounded-xl mb-8">
+            <h2 className="text-lg font-bold mb-3">TL;DR</h2>
+            <ul className="space-y-1 text-sm text-gray-700">
+              <li>• <strong>No eviction required</strong> — we buy Reading rental properties with tenants in place, including non-paying tenants</li>
+              <li>• Reading&apos;s <strong>61.5% renter-occupied rate</strong> makes tenant-occupied sales one of our most common situations</li>
+              <li>• <strong>PA eviction takes 2–6 months</strong> — selling avoids the entire process and stops the cost bleed</li>
+              <li>• Reading&apos;s <strong>5% transfer tax = $9,250</strong> on a $185K sale — we cover all closing costs so your net is the offer</li>
+            </ul>
+          </div>
+
           <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-10">
             <h2 className="text-lg font-bold text-brand-dark mb-2">Reading PA: A High-Density Rental Market</h2>
             <p className="text-gray-700 text-sm">
+              According to{' '}
+              <a href="https://www.neighborhoodscout.com/pa/reading/real-estate" target="_blank" rel="noopener noreferrer" className="text-brand-primary underline">NeighborhoodScout</a>,
               Reading has a 61.5% renter-occupied rate — more renters than almost any other comparable PA city.
-              Average rent is $1,748/month (NeighborhoodScout). With 70.8% Hispanic population, many rentals
-              in Reading serve families on tight budgets. When tenant situations go wrong — non-payment, property
+              Average rent is $1,748/month. According to the{' '}
+              <a href="https://www.berkspa.gov/departments/recorder-of-deeds/fee-schedule" target="_blank" rel="noopener noreferrer" className="text-brand-primary underline">Berks County Recorder of Deeds (berkspa.gov)</a>,
+              Reading&apos;s 5% transfer tax (4% city + 1% state) applies to all rental property sales.
+              With 70.8% Hispanic population, many rentals in Reading serve families on tight budgets. When tenant situations go wrong — non-payment, property
               damage, licensing violations — the eviction and recovery process in PA is slow and costly.
               Selling to a cash buyer is often the fastest path out.
             </p>

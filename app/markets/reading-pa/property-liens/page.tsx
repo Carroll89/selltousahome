@@ -97,13 +97,27 @@ export default function ReadingPropertyLiensPage() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article>
 
+          <div className="bg-brand-light/20 p-6 rounded-xl mb-8">
+            <h2 className="text-lg font-bold mb-3">TL;DR</h2>
+            <ul className="space-y-1 text-sm text-gray-700">
+              <li>• <strong>Liens don&apos;t block sales</strong> — they&apos;re identified in the title search and paid off at closing from proceeds</li>
+              <li>• Search Berks County liens online at{' '}
+                <strong>berks.pa.publicsearch.us</strong> (Recorder) or <strong>gis.co.berks.pa.us</strong> (Assessment)</li>
+              <li>• Lien-encumbered sales typically close in <strong>10–21 days</strong> (IRS liens may add time for payoff letters)</li>
+              <li>• Reading&apos;s <strong>5% transfer tax = $9,250</strong> on a $185K sale — we cover all closing costs; only the liens come out of proceeds</li>
+            </ul>
+          </div>
+
           <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-10">
             <h2 className="text-lg font-bold text-brand-dark mb-2">Liens Don&apos;t Block Sales — They Get Paid at Closing</h2>
             <p className="text-gray-700 text-sm">
               A lien is a legal claim against a property for unpaid debts. It attaches to the property, not the
-              person — meaning it must be resolved before the deed can transfer to a new owner. The title company
-              identifies all liens during the title search, gets payoff amounts, and pays them at closing from
-              the sale proceeds. You receive whatever equity remains.
+              person — meaning it must be resolved before the deed can transfer to a new owner. According to the{' '}
+              <a href="https://www.berkspa.gov/departments/recorder-of-deeds" target="_blank" rel="noopener noreferrer" className="text-brand-primary underline">Berks County Recorder of Deeds (berkspa.gov)</a>,
+              all recorded liens on Reading properties are searchable online at{' '}
+              <a href="https://berks.pa.publicsearch.us/" target="_blank" rel="noopener noreferrer" className="text-brand-primary underline">berks.pa.publicsearch.us</a>.
+              The title company identifies all liens during the title search, gets payoff amounts, and pays them at
+              closing from the sale proceeds. You receive whatever equity remains after liens are satisfied.
             </p>
           </div>
 
@@ -131,7 +145,7 @@ export default function ReadingPropertyLiensPage() {
             <div className="space-y-3 text-sm">
               {[
                 { name: 'Berks County Recorder of Deeds', detail: '633 Court Street, 3rd Floor, Reading PA 19601 | Phone: 610-478-3380 | Online: berks.pa.publicsearch.us', url: 'https://berks.pa.publicsearch.us/' },
-                { name: 'Berks County Assessment Office', detail: '400 E. Wyomissing Avenue, Mohnton PA 19540 | Phone: 610-478-6262 | Parcel Search: gis.co.berks.pa.us/parcelsearch', url: 'https://gis.co.berks.pa.us/parcelsearch/' },
+                { name: 'Berks County Assessment Office', detail: 'According to berkspa.gov/departments/assessment — 400 E. Wyomissing Avenue, Mohnton PA 19540 | Phone: 610-478-6262 | Parcel Search: gis.co.berks.pa.us/parcelsearch', url: 'https://gis.co.berks.pa.us/parcelsearch/' },
                 { name: 'City of Reading — Tax & Utility', detail: 'Contact City of Reading Finance Department for municipal tax and utility lien status', url: null },
               ].map((item, i) => (
                 <div key={i} className="border border-gray-200 rounded-lg p-4">

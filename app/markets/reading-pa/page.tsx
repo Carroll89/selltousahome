@@ -18,7 +18,7 @@ export const revalidate = 86400;
 export const metadata: Metadata = {
   title: 'Sell My House Fast Reading PA | Cash Offer in 24 Hours',
   description:
-    'We buy houses in Reading PA for cash, as-is, in any condition. Written offer in 24 hours, close in 7 days. No repairs, no fees. Hablamos español. Serving all of Berks County.',
+    'We buy houses in Reading PA for cash, as-is. Written offer in 24 hours, close in 7 days. No repairs, no fees. Hablamos español. Serving Berks County.',
   alternates: { canonical: `${SITE_URL}/markets/reading-pa` },
   openGraph: {
     images: [{ url: '/images/reading-landmark-hero.jpg', width: 1200, height: 630, alt: 'Reading PA brick row homes — Sell Your House Fast in Reading PA' }],

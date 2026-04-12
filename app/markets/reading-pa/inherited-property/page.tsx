@@ -10,7 +10,7 @@ import { PHONE, SITE_URL } from '@/lib/utils';
 export const metadata: Metadata = {
   title: 'Inherited Property in Reading PA — Sell Your House Fast',
   description:
-    'Inherited a house in Reading PA or Berks County? We buy inherited properties as-is — no cleanout, no repairs. Cash offer in 24 hours, close in 7-14 days. Hablamos español.',
+    'Inherited a house in Reading PA? We buy inherited properties as-is — no cleanout, no repairs needed. Cash offer in 24 hours, close in 7-14 days. Hablamos español.',
   alternates: { canonical: `${SITE_URL}/markets/reading-pa/inherited-property` },
 };
 
@@ -96,12 +96,25 @@ export default function ReadingInheritedPropertyPage() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article>
 
+          <div className="bg-brand-light/20 p-6 rounded-xl mb-8">
+            <h2 className="text-lg font-bold mb-3">TL;DR</h2>
+            <ul className="space-y-1 text-sm text-gray-700">
+              <li>• <strong>No cleanup, no repairs required</strong> — we buy Reading row homes exactly as-is with all contents</li>
+              <li>• Berks County probate is filed at the <strong>Register of Wills, 633 Court St, Reading PA 19601</strong> (610-478-6600)</li>
+              <li>• Once <strong>Letters Testamentary are issued</strong>, we can close in 7–14 days — you don&apos;t wait for full estate settlement</li>
+              <li>• Reading&apos;s <strong>5% transfer tax = $9,250</strong> on a $185K sale — we cover all closing costs so heirs keep more</li>
+            </ul>
+          </div>
+
           <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-10">
             <h2 className="text-lg font-bold text-brand-dark mb-2">What Most Families Want to Know First</h2>
             <p className="text-gray-700 text-sm">
               You don&apos;t have to clean it out. You don&apos;t have to fix anything. Reading&apos;s pre-war row homes
               are exactly what we buy. The biggest questions are usually about probate — and most are resolvable faster
-              than people expect with the right title company and a clear estate situation. One more thing:{' '}
+              than people expect with the right title company and a clear estate situation. According to the{' '}
+              <a href="https://www.berkspa.gov/departments/register-of-wills" target="_blank" rel="noopener noreferrer" className="text-brand-primary underline">Berks County Register of Wills (berkspa.gov)</a>,
+              once Letters Testamentary are issued the executor has full legal authority to sell estate real estate — no need to
+              wait for the entire probate to conclude. One more thing:{' '}
               <strong>Reading&apos;s 5% transfer tax is a real cost in a traditional sale — we cover it entirely.</strong>
             </p>
           </div>
@@ -205,9 +218,13 @@ export default function ReadingInheritedPropertyPage() {
               No back-and-forth, no repair credits, no lender re-approval after a price change.
             </p>
             <p className="text-gray-700">
-              Reading also has one of PA&apos;s highest transfer tax rates at 5%. On a $185,000 sale, that&apos;s $9,250 in
-              transfer taxes — costs a traditional seller pays on top of agent commissions. When you sell to us,
-              we cover everything.
+              According to the{' '}
+              <a href="https://www.berkspa.gov/departments/recorder-of-deeds/fee-schedule" target="_blank" rel="noopener noreferrer" className="text-brand-primary underline">Berks County Recorder of Deeds (berkspa.gov)</a>{' '}
+              and the{' '}
+              <a href="https://www.pa.gov/agencies/revenue/resources/tax-types-and-information/realty-transfer-tax" target="_blank" rel="noopener noreferrer" className="text-brand-primary underline">PA Department of Revenue (pa.gov)</a>,
+              Reading&apos;s combined transfer tax is 5% — one of the highest rates in Pennsylvania. On a $185,000 sale,
+              that&apos;s $9,250 in transfer taxes, with the seller conventionally paying the 4% city portion ($7,400).
+              When you sell to us, we cover everything.
             </p>
           </section>
 

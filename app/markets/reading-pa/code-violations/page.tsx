@@ -10,7 +10,7 @@ import { PHONE, SITE_URL } from '@/lib/utils';
 export const metadata: Metadata = {
   title: 'Code Violations in Reading PA — Sell Your House Fast',
   description:
-    'Selling a house with code violations in Reading PA? We buy properties with open city citations, condemned properties, and code-non-compliant homes. Cash offer in 24 hours.',
+    'Selling a house with code violations in Reading PA? We buy properties with open city citations and condemned homes as-is. Cash offer in 24 hours. We cover all closing costs.',
   alternates: { canonical: `${SITE_URL}/markets/reading-pa/code-violations` },
 };
 
@@ -96,6 +96,16 @@ export default function ReadingCodeViolationsPage() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article>
 
+          <div className="bg-brand-light/20 p-6 rounded-xl mb-8">
+            <h2 className="text-lg font-bold mb-3">TL;DR</h2>
+            <ul className="space-y-1 text-sm text-gray-700">
+              <li>• We buy properties with <strong>open code violations</strong> — no remediation required before closing</li>
+              <li>• <strong>56% of Reading homes are pre-1939</strong>; code violations are endemic, not exceptional, in this market</li>
+              <li>• FHA and conventional lenders <strong>won&apos;t finance</strong> violation-heavy properties — cash buyers are the realistic path to a sale</li>
+              <li>• Reading&apos;s <strong>5% transfer tax = $9,250</strong> on a $185K sale — we cover all closing costs including the full transfer tax</li>
+            </ul>
+          </div>
+
           <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-10">
             <h2 className="text-lg font-bold text-brand-dark mb-2">Code Violations in Reading — The Reality</h2>
             <p className="text-gray-700 text-sm">
@@ -139,9 +149,15 @@ export default function ReadingCodeViolationsPage() {
               property into compliance before you can sell.
             </p>
             <p className="text-gray-700">
-              And because Reading has a 5% transfer tax, the total cost of a traditional sale — violations remediation
-              + agent commissions + transfer tax — can exceed $40,000 on a $185,000 property. Our cash offer,
-              with zero closing costs to you, is often the more rational economic choice.
+              According to the{' '}
+              <a href="https://www.berkspa.gov/departments/recorder-of-deeds/fee-schedule" target="_blank" rel="noopener noreferrer" className="text-brand-primary underline">Berks County Recorder of Deeds (berkspa.gov)</a>
+              and the{' '}
+              <a href="https://www.pa.gov/agencies/revenue/resources/tax-types-and-information/realty-transfer-tax" target="_blank" rel="noopener noreferrer" className="text-brand-primary underline">PA Department of Revenue (pa.gov)</a>,
+              Reading&apos;s 5% transfer tax (4% city + 1% state) applies to all real estate transfers in the city —
+              significantly higher than the 2% paid in surrounding Berks County municipalities.
+              The total cost of a traditional sale — violations remediation + agent commissions + transfer tax —
+              can exceed $40,000 on a $185,000 property. Our cash offer, with zero closing costs to you,
+              is often the more rational economic choice.
             </p>
           </section>
 

@@ -96,12 +96,27 @@ export default function ReadingProbatePage() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article>
 
+          <div className="bg-brand-light/20 p-6 rounded-xl mb-8">
+            <h2 className="text-lg font-bold mb-3">TL;DR</h2>
+            <ul className="space-y-1 text-sm text-gray-700">
+              <li>• You <strong>don&apos;t need to finish probate</strong> to sell the real estate — once Letters Testamentary are issued, we can close</li>
+              <li>• Berks County probate is handled at the <strong>Register of Wills, 633 Court St Suite 2C, Reading PA 19601</strong> — phone (610) 478-6600</li>
+              <li>• Reading&apos;s <strong>pre-1939 row homes sell as-is</strong> — no repairs, no cleanout, no staging required</li>
+              <li>• Reading&apos;s <strong>5% transfer tax = $9,250</strong> on a $185K sale — we cover all closing costs so the estate keeps more for heirs</li>
+            </ul>
+          </div>
+
           <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-10">
             <h2 className="text-lg font-bold text-brand-dark mb-2">The Short Version</h2>
             <p className="text-gray-700 text-sm">
-              You don&apos;t need to finish probate to sell the real estate. Once the Berks County Register of Wills
-              issues Letters Testamentary, the executor can sign a real estate contract. We can close in 7-14 days
-              from that point. Reading&apos;s 5% transfer tax? We cover it. The pre-1939 row home needs work? We buy it as-is.
+              You don&apos;t need to finish probate to sell the real estate. According to the{' '}
+              <a href="https://www.berkspa.gov/departments/register-of-wills" target="_blank" rel="noopener noreferrer" className="text-brand-primary underline">Berks County Register of Wills (berkspa.gov)</a>,
+              once Letters Testamentary are issued the executor has full legal authority to manage and sell estate assets.
+              We can close in 7–14 days from that point. According to the{' '}
+              <a href="https://www.berkspa.gov/departments/recorder-of-deeds/fee-schedule" target="_blank" rel="noopener noreferrer" className="text-brand-primary underline">Berks County Recorder of Deeds (berkspa.gov)</a>
+              and the{' '}
+              <a href="https://www.pa.gov/agencies/revenue/resources/tax-types-and-information/realty-transfer-tax" target="_blank" rel="noopener noreferrer" className="text-brand-primary underline">PA Department of Revenue (pa.gov)</a>,
+              Reading&apos;s 5% total transfer tax is 4% city + 1% state — we cover it. The pre-1939 row home needs work? We buy it as-is.
             </p>
           </div>
 
@@ -162,9 +177,11 @@ export default function ReadingProbatePage() {
               A cash sale is often the most practical solution — and it gets proceeds into the estate faster.
             </p>
             <p className="text-gray-700">
-              Add in Reading&apos;s 5% transfer tax — the seller&apos;s portion is typically 4%, or $7,400 on a $185K sale —
-              and the cost of a traditional sale in Reading is significantly higher than in surrounding Berks County towns.
-              When we buy, we absorb those costs entirely.
+              According to the{' '}
+              <a href="https://www.berkspa.gov/departments/recorder-of-deeds/fee-schedule" target="_blank" rel="noopener noreferrer" className="text-brand-primary underline">Berks County Recorder of Deeds fee schedule (berkspa.gov)</a>,
+              Reading&apos;s transfer tax is 5% total — the seller&apos;s city portion is 4%, or $7,400 on a $185K sale.
+              The cost of a traditional sale in Reading is significantly higher than in surrounding Berks County towns
+              that pay only 2% total. When we buy, we absorb those costs entirely.
             </p>
           </section>
 

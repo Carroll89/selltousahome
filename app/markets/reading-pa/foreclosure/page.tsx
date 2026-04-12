@@ -97,13 +97,27 @@ export default function ReadingForeclosurePage() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article>
 
+          <div className="bg-brand-light/20 p-6 rounded-xl mb-8">
+            <h2 className="text-lg font-bold mb-3">TL;DR</h2>
+            <ul className="space-y-1 text-sm text-gray-700">
+              <li>• Pennsylvania&apos;s judicial foreclosure takes <strong>6–18 months</strong> — you have more time to act than most homeowners realize</li>
+              <li>• Selling before the <strong>Berks County sheriff sale</strong> at 633 Court St, Reading PA 19601 stops the foreclosure and protects your equity</li>
+              <li>• Reading&apos;s <strong>5% transfer tax = $9,250</strong> on a $185K sale — we absorb it entirely so your equity stays yours</li>
+              <li>• We can <strong>close in 7 days</strong> — fast enough to beat most sheriff sale deadlines</li>
+            </ul>
+          </div>
+
           <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-10">
             <h2 className="text-lg font-bold text-brand-dark mb-2">What You Need to Know Right Now</h2>
             <p className="text-gray-700 text-sm">
-              Pennsylvania&apos;s judicial foreclosure process averages 12-18 months. You have more time than you think.
+              According to{' '}
+              <a href="https://www.nolo.com/legal-encyclopedia/pennsylvania-foreclosure-laws-procedures.html" target="_blank" rel="noopener noreferrer" className="text-brand-primary underline">Nolo.com</a>,
+              Pennsylvania&apos;s judicial foreclosure process averages 12–18 months from first missed payment to sheriff&apos;s sale.
+              You have more time than you think.
               If your Reading home is worth more than you owe, a cash sale pays off the mortgage, stops the foreclosure,
-              and puts money in your pocket. Reading&apos;s 5% transfer tax? We cover it — nothing comes out of your equity
-              for taxes or closing costs.
+              and puts money in your pocket. According to the{' '}
+              <a href="https://www.berkspa.gov/departments/recorder-of-deeds/fee-schedule" target="_blank" rel="noopener noreferrer" className="text-brand-primary underline">Berks County Recorder of Deeds (berkspa.gov)</a>,
+              Reading&apos;s 5% transfer tax (4% city + 1% state) is among the highest in Pennsylvania — we cover it entirely.
             </p>
           </div>
 

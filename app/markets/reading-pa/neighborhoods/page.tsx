@@ -8,7 +8,7 @@ import { PHONE, SITE_URL } from '@/lib/utils';
 export const metadata: Metadata = {
   title: 'Reading PA Neighborhoods — We Buy Houses in Every Area',
   description:
-    'We buy houses in every Reading PA neighborhood — College Heights, Hampden Heights, Centre Park, Millmont, East Reading, Downtown, GoggleWorks, and Mount Penn. Cash offer in 24 hours.',
+    'We buy houses in all Reading PA neighborhoods — College Heights, Hampden Heights, East Reading, Downtown, GoggleWorks, Mount Penn, and more. Cash offer in 24 hours.',
   alternates: { canonical: `${SITE_URL}/markets/reading-pa/neighborhoods` },
 };
 

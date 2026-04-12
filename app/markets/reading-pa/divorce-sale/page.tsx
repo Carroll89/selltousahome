@@ -10,7 +10,7 @@ import { PHONE, SITE_URL } from '@/lib/utils';
 export const metadata: Metadata = {
   title: 'Divorce Sale in Reading PA — Sell Your House Fast',
   description:
-    'Selling a house during divorce in Reading PA? We provide fast, fair cash offers and close quickly so you can both move on. No repairs, no showings. Hablamos español.',
+    'Selling a house during divorce in Reading PA? Fast, fair cash offers and close in 7–14 days so both parties can move on. No repairs, no showings. Hablamos español.',
   alternates: { canonical: `${SITE_URL}/markets/reading-pa/divorce-sale` },
 };
 
@@ -91,6 +91,16 @@ export default function ReadingDivorceSalePage() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article>
 
+          <div className="bg-brand-light/20 p-6 rounded-xl mb-8">
+            <h2 className="text-lg font-bold mb-3">TL;DR</h2>
+            <ul className="space-y-1 text-sm text-gray-700">
+              <li>• A cash sale delivers a <strong>firm number and a clean break</strong> — both parties know exactly what they&apos;re getting and when</li>
+              <li>• <strong>Both spouses must typically sign</strong> unless the Berks County Court grants one party sole authority</li>
+              <li>• <strong>No repairs, no staging, no showings</strong> — eliminates the biggest source of conflict in divorce property sales</li>
+              <li>• Reading&apos;s <strong>5% transfer tax adds $9,250</strong> on a $185K sale — we absorb it so more gets divided between both parties</li>
+            </ul>
+          </div>
+
           <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-10">
             <h2 className="text-lg font-bold text-brand-dark mb-2">Why a Cash Sale Works in Divorce Situations</h2>
             <p className="text-gray-700 text-sm">
@@ -136,11 +146,38 @@ export default function ReadingDivorceSalePage() {
               Reading&apos;s median home sale price is $185,000 (Redfin, Feb 2026) with a Zillow ZHVI of $227,041.
               In a traditional sale, a Reading seller faces: 5% transfer tax (4% local = $7,400), agent commissions
               (5-6% = $9,250-$11,100), and potential repair costs on pre-1939 housing stock. Total friction costs
-              of $17,000-$25,000+ are common.
+              of $17,000-$25,000+ are common. According to the{' '}
+              <a href="https://www.berkspa.gov/departments/recorder-of-deeds/fee-schedule" target="_blank" rel="noopener noreferrer" className="text-brand-primary underline">Berks County Recorder of Deeds (berkspa.gov)</a>,
+              Reading&apos;s 5% transfer tax is the city&apos;s 4% local rate plus 1% PA state — more than double what most Berks County
+              municipalities pay.
             </p>
             <p className="text-gray-700">
               When you sell to USA Home Buyers, we make a written cash offer and absorb all closing costs.
               The offer we make is what you walk away with to divide — no surprise deductions at the closing table.
+            </p>
+          </section>
+
+          <section className="mb-10">
+            <h2 className="text-2xl font-bold text-brand-dark mb-4">Reading&apos;s Housing Stock and Divorce Situations</h2>
+            <p className="text-gray-700 mb-4">
+              Over 56% of Reading&apos;s housing stock was built before 1939. That means most homes involved in Reading
+              divorce sales are brick row homes or semi-detached twins with aging electrical, lead paint, cast iron
+              plumbing, and deferred maintenance. According to{' '}
+              <a href="https://www.neighborhoodscout.com/pa/reading/real-estate" target="_blank" rel="noopener noreferrer" className="text-brand-primary underline">NeighborhoodScout</a>,
+              over 52% of Reading&apos;s housing units are attached row homes — the dominant housing type across almost every neighborhood.
+            </p>
+            <p className="text-gray-700 mb-4">
+              A traditional divorce sale in Reading requires both parties to agree on repairs, contractors, and
+              listing price while managing an active court process. Pre-1939 row homes regularly surface inspection
+              issues that result in price renegotiations — a fresh source of conflict when a couple is already
+              under legal and financial strain.
+            </p>
+            <p className="text-gray-700">
+              A cash sale eliminates that entirely: no inspection contingencies, no repair negotiations, no
+              counter-offers triggered by home defects. Both parties receive their share of a fixed number on
+              a fixed closing date. In Reading&apos;s majority-Hispanic community — 70.8% of residents are Hispanic —
+              we&apos;re also fully bilingual. We can handle the entire process in English or Spanish, which matters
+              when family members or attorneys prefer to communicate in one language or the other.
             </p>
           </section>
 
