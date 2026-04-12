@@ -12,6 +12,7 @@ import { VideoEmbed } from '@/components/VideoEmbed';
 import { kingOfPrussiaLocalBusinessSchema, faqSchema, howToSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
 import { MultiStepForm } from '@/components/MultiStepForm';
+import { BlogClusterLinks } from '@/components/BlogClusterLinks';
 
 export const revalidate = 86400;
 
@@ -125,7 +126,7 @@ export default function KingOfPrussiaMarketPage() {
       <SchemaMarkup schema={[kingOfPrussiaLocalBusinessSchema, kopFAQSchema, howToSchema]} />
 
       {/* Hero */}
-      <section className="relative text-white py-16 px-4 overflow-hidden">
+      <section className="relative text-white py-8 md:py-16 px-4 overflow-hidden">
         <Image
           src="/images/king-of-prussia-landmark-hero.jpg"
           alt="King of Prussia PA homes — cash home buyers serving Montgomery County"
@@ -215,6 +216,7 @@ export default function KingOfPrussiaMarketPage() {
                 ))}
               </tbody>
             </table>
+            <p className="mt-4 text-xs text-gray-400">Market data last updated: April 2026</p>
           </div>
           <p className="mt-4 text-sm text-gray-600">
             KOP is competitive — but &quot;competitive&quot; means your home sits 34 days before an offer, then
@@ -308,6 +310,9 @@ export default function KingOfPrussiaMarketPage() {
             ))}
           </div>
         </section>
+
+        {/* Blog Cluster Links */}
+        <BlogClusterLinks marketSlug="king-of-prussia-pa" cityName="King of Prussia" />
 
         {/* Guided Survey Form */}
         <section className="my-12 bg-brand-light rounded-2xl p-8">
