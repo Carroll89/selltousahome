@@ -8,7 +8,7 @@ import { articleSchema, faqSchema, stateCollegeLocalBusinessSchema } from '@/lib
 import { PHONE, SITE_URL } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'Sell Fire-Damaged House State College PA | Cash Offer',
+  title: 'Sell Fire-Damaged House State College PA',
   description:
     'Fire-damaged property in State College or Centre County PA? We buy fire-damaged houses as-is — no repairs, no restoration required. Cash offer in 24 hours.',
   alternates: { canonical: `${SITE_URL}/markets/state-college-pa/fire-damage` },
@@ -91,21 +91,39 @@ export default function StateCollegeFireDamagePage() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article>
 
+          <div className="bg-blue-50 border border-blue-200 rounded-2xl p-6 mb-10">
+            <h2 className="text-base font-bold text-brand-dark mb-2">TL;DR — The Short Answer</h2>
+            <p className="text-gray-700 text-sm leading-relaxed">
+              Mortgage lenders won&apos;t finance fire-damaged properties, so traditional buyers are out
+              of the picture anyway. We buy fire-damaged houses throughout Centre County — structural
+              damage, smoke and water damage, partial restoration, condemned structures, all of it.
+              Insurance proceeds you&apos;ve already received are yours to keep; our offer is based on the
+              as-is real estate value. One written offer, one closing, 7–14 days.
+            </p>
+          </div>
+
           <section className="mb-10">
             <h2 className="text-2xl font-bold text-brand-dark mb-4">
               What Selling a Fire-Damaged Property Looks Like With Us
             </h2>
             <p className="text-gray-700 mb-4">
               The standard real estate process doesn&apos;t work well for fire-damaged properties. Traditional
-              buyers finance their purchases through mortgage lenders, and lenders won&apos;t approve loans
-              on uninhabitable or significantly damaged structures. That means your buyer pool is
-              limited to cash buyers anyway — you just don&apos;t get to choose who they are.
+              buyers finance through mortgage lenders, and lenders won&apos;t approve loans on uninhabitable
+              or significantly damaged structures. That limits your buyer pool to cash buyers anyway —
+              you just don&apos;t get to choose who they are.
             </p>
             <p className="text-gray-700 mb-4">
-              We evaluate the property based on what&apos;s there: the land value, the remaining structure,
-              the scope of damage, and the Centre County market. We make one offer that accounts for
-              all of it. You don&apos;t need to get contractor estimates, coordinate restoration, or deal
-              with insurance adjusters on our behalf.
+              According to State College Borough Code Enforcement (statecollegepa.us), fire-damaged
+              structures are subject to mandatory inspection and may receive condemnation orders if
+              deemed unsafe. According to the Centre County Recorder of Deeds (centrecountypa.gov),
+              all deeds — including those on damaged or condemned properties — require a Uniform
+              Parcel Identifier (UPI) stamp before recording. We handle both at closing.
+            </p>
+            <p className="text-gray-700 mb-4">
+              We evaluate the property on what&apos;s there: the land value, the remaining structure, the
+              scope of damage, and the Centre County market. We make one offer that accounts for all
+              of it. You don&apos;t need contractor estimates, restoration coordination, or to deal with
+              insurance adjusters on our behalf.
             </p>
             <div className="space-y-3">
               {[
@@ -125,6 +143,29 @@ export default function StateCollegeFireDamagePage() {
                 </div>
               ))}
             </div>
+          </section>
+
+          <section className="mb-10">
+            <h2 className="text-2xl font-bold text-brand-dark mb-4">
+              Insurance, Liens, and the State College Market
+            </h2>
+            <p className="text-gray-700 mb-4">
+              If you received an insurance payout for the fire, that money is yours. Our offer is
+              based on the as-is real estate value — independent of any insurance settlement. If the
+              mortgage company is holding insurance proceeds in escrow (a common lender practice when
+              the collateral property is damaged), those funds are handled at closing: the title company
+              pays off the remaining mortgage balance and the lender releases the held proceeds.
+            </p>
+            <p className="text-gray-700 mb-4">
+              In State College, fire damage in the rental zones near Penn State sometimes involves
+              complicated tenant situations — student lease questions, displaced tenants, renters
+              insurance claims. None of that affects your ability to sell. If the property is uninhabitable,
+              the lease is typically suspended. We buy it as-is regardless of the tenant situation.
+            </p>
+            <p className="text-gray-700">
+              State College Borough has a 3.00% total realty transfer tax — the highest in Centre County.
+              We cover it when we buy. You don&apos;t carry that cost.
+            </p>
           </section>
 
           <CashOfferForm

@@ -8,9 +8,9 @@ import { articleSchema, faqSchema, stateCollegeLocalBusinessSchema } from '@/lib
 import { PHONE, SITE_URL } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'Sell Rental Property State College PA | Tenant In Place',
+  title: 'Sell Rental Property State College PA',
   description:
-    'Done with State College student rentals? We buy tenant-occupied properties — no eviction required. Cash offer in 24 hours, close in 7-14 days. 73% renter market.',
+    'Done with State College student rentals? We buy tenant-occupied properties — no eviction required. Cash offer in 24 hours, close in 7-14 days.',
   alternates: { canonical: `${SITE_URL}/markets/state-college-pa/tenant-occupied` },
 };
 
@@ -97,6 +97,17 @@ export default function StateCollegeTenantOccupiedPage() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article>
 
+          <div className="bg-blue-50 border border-blue-200 rounded-2xl p-6 mb-10">
+            <h2 className="text-base font-bold text-brand-dark mb-2">TL;DR — The Short Answer</h2>
+            <p className="text-gray-700 text-sm leading-relaxed">
+              You don&apos;t need to evict before selling. We buy State College rental properties with tenants
+              in place — student leases, non-paying tenants, mid-lease situations, all of it. According to
+              the U.S. Census Bureau (census.gov), 73.9% of State College housing units are renter-occupied
+              — the most common sale we do here. The lease transfers to us at closing, the security deposit
+              is accounted for on the closing statement, and you&apos;re done landlording in 7–14 days.
+            </p>
+          </div>
+
           <section className="mb-10">
             <h2 className="text-2xl font-bold text-brand-dark mb-4">
               The Penn State Rental Trap — and How to Get Out
@@ -119,9 +130,11 @@ export default function StateCollegeTenantOccupiedPage() {
               the lease to end.
             </p>
             <div className="bg-blue-50 border border-blue-100 rounded-xl p-5 text-sm text-gray-700">
-              <strong>According to DataUSA and RentCafe (2024):</strong> 73.9% of State College housing units
-              are renter-occupied — compared to Pennsylvania&apos;s statewide average of roughly 31%.
-              The university effect makes this one of the highest renter-concentration markets in the state.
+              According to the U.S. Census Bureau (census.gov), 73.9% of State College housing units are
+              renter-occupied — compared to Pennsylvania&apos;s statewide average of roughly 31%.
+              According to Pennsylvania&apos;s Landlord and Tenant Act (68 P.S. § 250.101 et seq.), a lease
+              does not terminate because of a property sale — it transfers to the new owner with all
+              original terms intact. We know this market well.
             </div>
           </section>
 

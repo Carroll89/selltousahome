@@ -10,7 +10,7 @@ import { PHONE, SITE_URL } from '@/lib/utils';
 export const metadata: Metadata = {
   title: 'Sell Probate Property State College PA',
   description:
-    'Selling a probate property in State College or Centre County PA? We work with executors and estate attorneys, buy as-is, and close around Centre County Register of Wills timelines.',
+    'Selling probate property in State College PA? We work with executors, buy as-is, and close around Centre County Register of Wills timelines',
   alternates: { canonical: `${SITE_URL}/markets/state-college-pa/probate` },
 };
 
@@ -96,6 +96,17 @@ export default function StateCollegeProbatePage() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article>
 
+          <div className="bg-blue-50 border border-blue-200 rounded-2xl p-6 mb-10">
+            <h2 className="text-base font-bold text-brand-dark mb-2">TL;DR — The Short Answer</h2>
+            <p className="text-gray-700 text-sm leading-relaxed">
+              You can sell once the Centre County Register of Wills issues Letters Testamentary or Letters
+              of Administration — you don&apos;t need to wait for the full estate to settle. According to the
+              Centre County Register of Wills (centrecountypa.gov), executors have broad authority to sell
+              real estate once Letters are issued. We can provide a written offer before Letters are issued,
+              giving you a concrete number for estate planning. Closing happens when you have authority to sign.
+            </p>
+          </div>
+
           <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-10">
             <h2 className="text-lg font-bold text-brand-dark mb-2">For Executors and Estate Attorneys</h2>
             <p className="text-gray-700 text-sm">
@@ -133,10 +144,10 @@ export default function StateCollegeProbatePage() {
               Either instrument gives the personal representative authority to sell real property.
             </p>
             <p className="text-gray-700">
-              Note: All deeds in Centre County require a Uniform Parcel Identifier (UPI) stamp obtained
-              from the Centre County Tax Assessment Office (420 Holmes Street, Suite 301, Bellefonte —
-              (814) 355-6721) before the deed can be recorded. Cost: $10.00. This is handled by the
-              title company at closing.
+              According to the Centre County Tax Assessment Office (centrecountypa.gov), all deeds in
+              Centre County require a Uniform Parcel Identifier (UPI) stamp obtained from their office
+              at 420 Holmes Street, Suite 301, Bellefonte, PA 16823 before the deed can be recorded.
+              Cost: $10.00. This is handled by the title company at closing.
             </p>
           </section>
 

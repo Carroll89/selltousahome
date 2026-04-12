@@ -8,9 +8,9 @@ import { articleSchema, faqSchema, stateCollegeLocalBusinessSchema } from '@/lib
 import { PHONE, SITE_URL } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'Stop Foreclosure in State College PA | Centre County',
+  title: 'Stop Foreclosure State College PA',
   description:
-    'Facing foreclosure in State College or Centre County PA? Sell before the sheriff sale and protect your equity. Cash offer in 24 hours, close before your deadline.',
+    'Facing foreclosure in State College PA? Sell before the sheriff sale and protect your equity. Cash offer in 24 hours, close before your deadline',
   alternates: { canonical: `${SITE_URL}/markets/state-college-pa/foreclosure` },
 };
 
@@ -97,14 +97,26 @@ export default function StateCollegeForeclosurePage() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article>
 
+          <div className="bg-blue-50 border border-blue-200 rounded-2xl p-6 mb-10">
+            <h2 className="text-base font-bold text-brand-dark mb-2">TL;DR — The Short Answer</h2>
+            <p className="text-gray-700 text-sm leading-relaxed">
+              Pennsylvania is a judicial foreclosure state — the Centre County process takes 9–18 months from
+              first missed payment to sheriff&apos;s sale. If your home is worth more than you owe, selling before
+              that date lets you keep your equity instead of losing it. We close in 7–14 days. Call as soon as
+              you receive your Act 6 notice. There&apos;s no redemption period in Pennsylvania — once the
+              sheriff&apos;s sale happens, you can&apos;t get the home back.
+            </p>
+          </div>
+
           <section className="mb-10">
             <h2 className="text-2xl font-bold text-brand-dark mb-4">
               PA Judicial Foreclosure — What the Timeline Looks Like
             </h2>
             <p className="text-gray-700 mb-4">
               Pennsylvania only allows judicial foreclosure — every case goes through the Centre County
-              Court of Common Pleas. That means multiple required notices, waiting periods, and court steps
-              before anything happens. Here&apos;s the sequence:
+              Court of Common Pleas. According to Pennsylvania Act 6 of 1974 (41 P.S. § 101 et seq.), your
+              lender must send a written 30-day notice of intent to foreclose before filing, and must also
+              notify you of HEMAP assistance. Here&apos;s the full sequence:
             </p>
             <div className="space-y-3">
               {[
@@ -129,10 +141,10 @@ export default function StateCollegeForeclosurePage() {
               Pennsylvania after the sheriff&apos;s sale.
             </p>
             <p className="mt-2 text-xs text-gray-500">
-              Sources:{' '}
+              According to{' '}
               <a href="https://www.nolo.com/legal-encyclopedia/pennsylvania-foreclosure-laws-procedures.html" target="_blank" rel="noopener noreferrer" className="underline">PA Foreclosure Laws & Procedures (Nolo)</a>
-              {' '}·{' '}
-              <a href="https://www.phfa.org/mhp/hemap/" target="_blank" rel="noopener noreferrer" className="underline">HEMAP — PA Housing Finance Agency</a>
+              {' '}and the{' '}
+              <a href="https://www.phfa.org/mhp/hemap/" target="_blank" rel="noopener noreferrer" className="underline">PA Housing Finance Agency (phfa.org)</a>.
             </p>
           </section>
 
@@ -150,7 +162,7 @@ export default function StateCollegeForeclosurePage() {
                 {
                   title: 'Loan modification / repayment plan',
                   badge: 'If you want to keep the house',
-                  desc: "Contact your servicer directly or through a HUD-approved housing counselor. Many lenders will negotiate a repayment plan or modification if you can show you can afford a modified payment going forward. HEMAP (PA's emergency mortgage assistance) may also help.",
+                  desc: "Contact your servicer directly or through a HUD-approved housing counselor. Many lenders negotiate repayment plans if you can show ability to pay going forward. According to the Pennsylvania Housing Finance Agency (phfa.org), HEMAP provides temporary mortgage loans to homeowners facing foreclosure due to circumstances beyond their control — job loss, medical bills, or divorce.",
                 },
                 {
                   title: 'Short sale',

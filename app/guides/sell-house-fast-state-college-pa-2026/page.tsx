@@ -11,7 +11,7 @@ import { PHONE, SITE_URL } from '@/lib/utils';
 export const metadata: Metadata = {
   title: 'Sell House Fast State College PA 2026 Guide',
   description:
-    'Complete 2026 guide to selling your house fast in State College PA. Honest comparison of cash buyers, agents, iBuyers, and FSBO with real Centre County data and transfer tax breakdown.',
+    'Complete 2026 guide to selling fast in State College PA. Cash buyers vs. agents vs. FSBO with real Centre County data and transfer tax breakdown.',
   alternates: { canonical: `${SITE_URL}/guides/sell-house-fast-state-college-pa-2026` },
   openGraph: {
     images: [{ url: '/images/state-college-hero.jpg', width: 1200, height: 630, alt: 'Sell Your House Fast in State College PA' }],

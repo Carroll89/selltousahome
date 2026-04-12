@@ -11,7 +11,7 @@ import { VideoEmbed } from '@/components/VideoEmbed';
 export const metadata: Metadata = {
   title: 'Sell Inherited Property State College PA',
   description:
-    'Inherited a house in State College or Centre County PA? We buy inherited properties as-is, work around Centre County probate, close in 7-14 days. No cleanout required.',
+    'Inherited a house in State College PA? We buy as-is, work around Centre County probate, close in 7-14 days. No cleanout or repairs required',
   alternates: { canonical: `${SITE_URL}/markets/state-college-pa/inherited-property` },
 };
 
@@ -117,13 +117,14 @@ export default function StateCollegeInheritedPropertyPage() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article>
 
-          <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-10">
-            <h2 className="text-lg font-bold text-brand-dark mb-2">The Short Answer for Most Families</h2>
-            <p className="text-gray-700 text-sm">
-              You don&apos;t have to clean it out, fix anything, or be in State College to close.
-              Most Centre County probate situations resolve faster than families expect — often 2-6 weeks
-              for Letters Testamentary. We can have a signed contract before probate is finished and
-              close the day Letters are issued.
+          <div className="bg-blue-50 border border-blue-200 rounded-2xl p-6 mb-10">
+            <h2 className="text-base font-bold text-brand-dark mb-2">TL;DR — The Short Answer</h2>
+            <p className="text-gray-700 text-sm leading-relaxed">
+              If you inherited a property in State College or Centre County, you don&apos;t have to clean it out,
+              fix it up, or be here to sell it. According to the Centre County Register of Wills
+              (centrecountypa.gov), once Letters Testamentary are issued the executor can sign a purchase
+              agreement and move straight to closing — often within days of filing. Many of these homes
+              are 1970s–1990s colonials that need work. That&apos;s fine — we buy them as-is.
             </p>
           </div>
 
@@ -168,7 +169,9 @@ export default function StateCollegeInheritedPropertyPage() {
             </h2>
             <p className="text-gray-700 mb-4">
               If the property was titled solely in the deceased&apos;s name, it passes through the estate
-              at the Centre County Register of Wills. Here&apos;s how it typically works:
+              at the Centre County Register of Wills. According to the Centre County Register of Wills
+              (centrecountypa.gov), executors and administrators have broad authority to sell real estate
+              once Letters are issued. Here&apos;s how it typically works:
             </p>
             <div className="space-y-3">
               {[

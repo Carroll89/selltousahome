@@ -8,9 +8,9 @@ import { articleSchema, faqSchema, stateCollegeLocalBusinessSchema } from '@/lib
 import { PHONE, SITE_URL } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'Sell House During Divorce in State College PA',
+  title: 'Sell House in Divorce State College PA',
   description:
-    'Selling a house during divorce in State College or Centre County PA? We make it fast and clean. Cash offer in 24 hours, close in 7-14 days. No repair disputes, no agent complications.',
+    'Selling a house during divorce in State College PA? Cash offer in 24 hours, close in 7-14 days. No repair disputes, no agent fees',
   alternates: { canonical: `${SITE_URL}/markets/state-college-pa/divorce-sale` },
 };
 
@@ -96,6 +96,17 @@ export default function StateCollegeDivorceSalePage() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article>
 
+          <div className="bg-blue-50 border border-blue-200 rounded-2xl p-6 mb-10">
+            <h2 className="text-base font-bold text-brand-dark mb-2">TL;DR — The Short Answer</h2>
+            <p className="text-gray-700 text-sm leading-relaxed">
+              Both spouses need to agree and sign the closing documents — that&apos;s it. A cash sale in State
+              College cuts through the complications: no repair negotiations between parties, no agent
+              commissions off the top, and both sides know the exact number before anyone signs. State College
+              Borough&apos;s 3% transfer tax is covered by us, not deducted from proceeds. Written offer in
+              24 hours, close in 7–14 days.
+            </p>
+          </div>
+
           <section className="mb-10">
             <h2 className="text-2xl font-bold text-brand-dark mb-4">
               Why Divorcing Couples Choose a Cash Sale in Centre County
@@ -123,6 +134,39 @@ export default function StateCollegeDivorceSalePage() {
 
           <section className="mb-10">
             <h2 className="text-2xl font-bold text-brand-dark mb-4">
+              How PA Equitable Distribution Works for the Marital Home
+            </h2>
+            <p className="text-gray-700 mb-4">
+              Pennsylvania doesn&apos;t automatically split marital property 50/50. According to the
+              Pennsylvania Divorce Code (23 Pa. C.S. § 3502), courts apply equitable distribution —
+              meaning a fair division based on each spouse&apos;s income, contributions to the marriage,
+              and economic circumstances. The marital home is typically one of the largest assets being
+              divided.
+            </p>
+            <p className="text-gray-700 mb-4">
+              For many couples, a cash sale is the cleanest resolution: sell the home, pay off the
+              mortgage and closing costs, and split whatever&apos;s left per the settlement agreement.
+              According to the Centre County Court of Common Pleas (centrecountypa.gov), if one spouse
+              refuses to cooperate in the sale, the court can compel it through an equitable distribution
+              order.
+            </p>
+            <div className="grid sm:grid-cols-2 gap-4 mt-4">
+              {[
+                { title: 'Simple', desc: "Sell the home, pay the mortgage at closing, split what's left. One transaction, clean outcome. No ongoing co-ownership." },
+                { title: 'Fast', desc: 'We close in 7–14 days. A litigated divorce can drag on for months — but the house sale doesn\'t have to.' },
+                { title: 'No repair disputes', desc: 'We buy as-is. You don\'t need to negotiate which spouse fixes what before listing, or who pays for the inspection findings.' },
+                { title: 'Predictable number', desc: "Both parties know the exact price before signing. No surprise appraisal gaps, no buyer financing fall-through, no re-negotiation after inspection." },
+              ].map((item, i) => (
+                <div key={i} className="bg-gray-50 border border-gray-200 rounded-xl p-4">
+                  <h3 className="font-semibold text-brand-dark mb-1 text-sm">{item.title}</h3>
+                  <p className="text-xs text-gray-600">{item.desc}</p>
+                </div>
+              ))}
+            </div>
+          </section>
+
+          <section className="mb-10">
+            <h2 className="text-2xl font-bold text-brand-dark mb-4">
               The State College Transfer Tax — It Matters in a Divorce Sale
             </h2>
             <p className="text-gray-700 mb-4">
@@ -131,8 +175,8 @@ export default function StateCollegeDivorceSalePage() {
               which means that cost doesn&apos;t come out of the proceeds you&apos;re dividing.
             </p>
             <p className="text-xs text-gray-500">
-              Source:{' '}
-              <a href="https://centrecountypa.gov/420/Realty-Transfer-Tax-Rates" target="_blank" rel="noopener noreferrer" className="underline">Centre County Realty Transfer Tax Rates</a>
+              According to{' '}
+              <a href="https://centrecountypa.gov/420/Realty-Transfer-Tax-Rates" target="_blank" rel="noopener noreferrer" className="underline">Centre County Realty Transfer Tax Rates (centrecountypa.gov)</a>.
             </p>
           </section>
 

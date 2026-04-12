@@ -51,7 +51,7 @@ const NEIGHBORHOODS = [
   {
     name: 'Highlands',
     medianPrice: '~$360,000',
-    notes: '-5% YoY; ~31 days DOM (homes.com). Slightly longer DOM than citywide average — more buyer negotiation leverage.',
+    notes: '-5% YoY; ~31 days DOM (homes.com). Slightly longer DOM than citywide average — more room for buyer negotiation.',
   },
   {
     name: 'Orchard Park',

@@ -8,9 +8,9 @@ import { articleSchema, faqSchema, stateCollegeLocalBusinessSchema } from '@/lib
 import { PHONE, SITE_URL } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'Sell House with Code Violations State College PA',
+  title: 'Sell House Code Violations State College PA',
   description:
-    'Code violations from State College Borough or Centre County? We buy houses as-is with open violations, failed inspections, and unpermitted work. Cash offer in 24 hours.',
+    'Code violations in State College Borough? We buy houses as-is — open violations, failed inspections, unpermitted work. Cash offer in 24 hours',
   alternates: { canonical: `${SITE_URL}/markets/state-college-pa/code-violations` },
 };
 
@@ -91,20 +91,34 @@ export default function StateCollegeCodeViolationsPage() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article>
 
+          <div className="bg-blue-50 border border-blue-200 rounded-2xl p-6 mb-10">
+            <h2 className="text-base font-bold text-brand-dark mb-2">TL;DR — The Short Answer</h2>
+            <p className="text-gray-700 text-sm leading-relaxed">
+              Open code violations in State College Borough don&apos;t prevent a sale — they transfer to the
+              new owner. Traditional buyers with mortgage financing can&apos;t close on violation properties;
+              lenders require clean inspections first. We don&apos;t. We make one offer that accounts for
+              remediation cost upfront, you don&apos;t fix anything, and we close in 7–14 days. Recorded
+              municipal fines and liens are resolved from proceeds at closing.
+            </p>
+          </div>
+
           <section className="mb-10">
             <h2 className="text-2xl font-bold text-brand-dark mb-4">
               Code Violations Are Common in State College&apos;s Older Rental Stock
             </h2>
             <p className="text-gray-700 mb-4">
               State College Borough&apos;s housing stock is heavily weighted toward properties built between
-              1940 and 1990 — over 45% was built in the 1970-1999 period alone. These homes are aging
-              and many of them have been used as student rentals for 20-30 years, which accelerates
-              wear and deferred maintenance.
+              1940 and 1990 — over 45% was built in the 1970–1999 period alone. These homes are aging
+              and many have been used as student rentals for 20–30 years, which accelerates wear and
+              deferred maintenance.
             </p>
             <p className="text-gray-700 mb-4">
-              Borough code enforcement focuses on property maintenance, safety systems,
-              and rental housing standards. Violations accumulate when landlords can&apos;t keep up —
-              or when they&apos;ve been managing student turnover for so long that maintenance has fallen behind.
+              According to Pennsylvania&apos;s Uniform Construction Code (dli.pa.gov), all residential
+              structures must meet minimum habitability standards. According to State College Borough
+              Code Enforcement (statecollegepa.us), the borough enforces the International Property
+              Maintenance Code (IPMC) for all properties — with particular attention to rental housing
+              near campus. Violations accumulate when landlords fall behind on maintenance or when
+              unpermitted work surfaces during a sale.
             </p>
             <div className="grid sm:grid-cols-2 gap-4 mt-4">
               {[
@@ -128,10 +142,31 @@ export default function StateCollegeCodeViolationsPage() {
               Their underwriters require a clean inspection or repairs as a condition of funding. That means
               a traditional buyer — even a motivated one — can&apos;t close until you fix the violations.
             </p>
-            <p className="text-gray-700 text-sm">
+            <p className="text-gray-700 text-sm mb-3">
               Cash buyers don&apos;t have lender requirements. We assess the property ourselves, make an offer
               that accounts for the violation remediation cost, and close without requiring you to fix
               anything first. You skip the repair process entirely.
+            </p>
+            <p className="text-gray-700 text-sm">
+              Liens and fines that have been recorded with the Centre County Recorder of Deeds or the
+              State College Borough are identified during the title search and paid from proceeds at closing.
+              You don&apos;t have to resolve them separately before the sale. The title company handles the
+              payoff.
+            </p>
+          </section>
+
+          <section className="mb-10">
+            <h2 className="text-2xl font-bold text-brand-dark mb-3">What Happens After We Buy</h2>
+            <p className="text-gray-700 text-sm mb-3">
+              Once we close, the property transfers to us and the violation responsibility transfers too.
+              We work with State College Borough to bring the property into compliance — getting permits
+              pulled for unpermitted work, scheduling required inspections, and completing any remediation.
+              That process is ours to manage, not yours.
+            </p>
+            <p className="text-gray-700 text-sm">
+              For sellers, that means you walk away clean. You don&apos;t carry the violation into your
+              next chapter. The borough isn&apos;t chasing you for unresolved compliance orders.
+              The property is sold, the proceeds are in your account, and you&apos;re done.
             </p>
           </section>
 
