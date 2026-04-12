@@ -8,6 +8,8 @@ import { faqSchema, kingOfPrussiaLocalBusinessSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
 import { VideoEmbed } from '@/components/VideoEmbed';
 
+export const revalidate = 86400;
+
 const REPORT_DATA = {
   lastUpdated: 'April 2026',
   medianHomeValueZHVI: '$453,560',

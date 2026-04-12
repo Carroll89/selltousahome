@@ -14,6 +14,8 @@ import { VideoEmbed } from '@/components/VideoEmbed';
 import { BlogClusterLinks } from '@/components/BlogClusterLinks';
 import { MultiStepForm } from '@/components/MultiStepForm';
 
+export const revalidate = 86400;
+
 export const metadata: Metadata = {
   title: 'Sell My House Fast Allentown PA | Cash Offer in 24 Hours',
   description:

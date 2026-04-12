@@ -13,6 +13,8 @@ import { kingOfPrussiaLocalBusinessSchema, faqSchema, howToSchema } from '@/lib/
 import { PHONE, SITE_URL } from '@/lib/utils';
 import { MultiStepForm } from '@/components/MultiStepForm';
 
+export const revalidate = 86400;
+
 export const metadata: Metadata = {
   title: 'Sell My House Fast King of Prussia PA',
   description:
