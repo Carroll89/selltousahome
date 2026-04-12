@@ -98,7 +98,7 @@ export default function StateCollegeInheritedPropertyPage() {
       <VideoEmbed
         src="/videos/state-college-inherited.mp4"
         title="Selling an Inherited Property in State College PA"
-        poster="/images/video-posters/state-college-inherited.jpg"
+        poster="/videos/state-college-inherited-poster.jpg"
         subtitle="How we help families sell inherited properties in Centre County"
       />
       <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">

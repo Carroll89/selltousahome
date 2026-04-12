@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
+import { VideoEmbed } from '@/components/VideoEmbed';
 import { articleSchema, faqSchema, stateCollegeLocalBusinessSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
 
@@ -83,7 +84,22 @@ export default function StateCollegeCodeViolationsPage() {
             </a>
           </div>
           <div>
-            <CashOfferForm variant="hero" sourcePage="/markets/state-college-pa/code-violations" />
+  
+      <VideoEmbed
+        src="/videos/state-college-code-violations.mp4"
+        title="Sell a House With Code Violations in State College"
+        poster="/videos/state-college-code-violations-poster.jpg"
+        subtitle="Open violations, failed inspections — we buy as-is"
+      />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+          Got code violations on your State College property? We buy houses with open violations, failed inspections, and unpermitted work. No need to fix anything. We handle it all after closing.
+        </div>
+      </details>
+          <CashOfferForm variant="hero" sourcePage="/markets/state-college-pa/code-violations" />
           </div>
         </div>
       </section>

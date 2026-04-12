@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
+import { VideoEmbed } from '@/components/VideoEmbed';
 import { articleSchema, faqSchema, stateCollegeLocalBusinessSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
 
@@ -89,7 +90,22 @@ export default function StateCollegeTenantOccupiedPage() {
             </a>
           </div>
           <div>
-            <CashOfferForm variant="hero" sourcePage="/markets/state-college-pa/tenant-occupied" />
+  
+      <VideoEmbed
+        src="/videos/state-college-tenant.mp4"
+        title="Sell a Rental Property in State College PA"
+        poster="/videos/state-college-tenant-poster.jpg"
+        subtitle="Done with student rentals? We buy tenant-occupied homes as-is"
+      />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+          Done with student rentals in State College? We buy tenant-occupied properties. No need to evict, no need to wait for leases to end. We take it off your hands as-is. Cash offer in 24 hours.
+        </div>
+      </details>
+          <CashOfferForm variant="hero" sourcePage="/markets/state-college-pa/tenant-occupied" />
           </div>
         </div>
       </section>

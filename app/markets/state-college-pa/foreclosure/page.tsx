@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
+import { VideoEmbed } from '@/components/VideoEmbed';
 import { articleSchema, faqSchema, stateCollegeLocalBusinessSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
 
@@ -89,7 +90,22 @@ export default function StateCollegeForeclosurePage() {
             </a>
           </div>
           <div>
-            <CashOfferForm variant="hero" sourcePage="/markets/state-college-pa/foreclosure" />
+  
+      <VideoEmbed
+        src="/videos/state-college-foreclosure.mp4"
+        title="Facing Foreclosure in State College PA?"
+        poster="/videos/state-college-foreclosure-poster.jpg"
+        subtitle="How to sell before the sheriff sale in Centre County"
+      />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+          If you&apos;re facing foreclosure in Centre County, time matters. We can make a cash offer and close before your sheriff sale date. No banks, no delays. You walk away with equity instead of losing the house. Call 888-440-5250 — we move fast when deadlines are tight.
+        </div>
+      </details>
+          <CashOfferForm variant="hero" sourcePage="/markets/state-college-pa/foreclosure" />
           </div>
         </div>
       </section>

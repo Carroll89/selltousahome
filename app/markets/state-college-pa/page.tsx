@@ -149,7 +149,7 @@ export default function StateCollegeMarketPage() {
       <VideoEmbed
         src="/videos/state-college-main.mp4"
         title="Sell Your House Fast in State College, PA"
-        poster="/images/video-posters/state-college-main.jpg"
+        poster="/videos/state-college-main-poster.jpg"
         subtitle="See how we help homeowners in State College and Centre County sell fast"
       />
       <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">

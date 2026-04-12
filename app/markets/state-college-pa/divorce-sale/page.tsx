@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
+import { VideoEmbed } from '@/components/VideoEmbed';
 import { articleSchema, faqSchema, stateCollegeLocalBusinessSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
 
@@ -88,7 +89,22 @@ export default function StateCollegeDivorceSalePage() {
             </a>
           </div>
           <div>
-            <CashOfferForm variant="hero" sourcePage="/markets/state-college-pa/divorce-sale" />
+  
+      <VideoEmbed
+        src="/videos/state-college-divorce.mp4"
+        title="Selling a House During Divorce in State College"
+        poster="/videos/state-college-divorce-poster.jpg"
+        subtitle="One offer, one closing, clean split of proceeds"
+      />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+          Going through a divorce and need to sell the house in State College? We make one offer, both parties sign, and we close in 7 to 14 days. No agents, no open houses, no dragging it out. Proceeds get split at closing per your agreement.
+        </div>
+      </details>
+          <CashOfferForm variant="hero" sourcePage="/markets/state-college-pa/divorce-sale" />
           </div>
         </div>
       </section>

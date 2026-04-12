@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
+import { VideoEmbed } from '@/components/VideoEmbed';
 import { articleSchema, faqSchema, stateCollegeLocalBusinessSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
 
@@ -88,7 +89,22 @@ export default function StateCollegeProbatePage() {
             </a>
           </div>
           <div>
-            <CashOfferForm variant="hero" sourcePage="/markets/state-college-pa/probate" />
+  
+      <VideoEmbed
+        src="/videos/state-college-probate.mp4"
+        title="Selling Probate Property in State College PA"
+        poster="/videos/state-college-probate-poster.jpg"
+        subtitle="Working with executors and Centre County Register of Wills"
+      />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+          Handling a probate sale in Centre County? We work directly with executors and the Register of Wills office. We buy as-is, no repairs needed, and we close around probate timelines. Cash offer in 24 hours.
+        </div>
+      </details>
+          <CashOfferForm variant="hero" sourcePage="/markets/state-college-pa/probate" />
           </div>
         </div>
       </section>
