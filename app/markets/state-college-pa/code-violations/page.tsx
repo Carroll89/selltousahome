@@ -9,7 +9,7 @@ import { articleSchema, faqSchema, stateCollegeLocalBusinessSchema } from '@/lib
 import { PHONE, SITE_URL } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'Sell House Code Violations State College PA',
+  title: 'Code Violations? Sell House State College PA',
   description:
     'Code violations in State College Borough? We buy houses as-is — open violations, failed inspections, unpermitted work. Cash offer in 24 hours',
   alternates: { canonical: `${SITE_URL}/markets/state-college-pa/code-violations` },

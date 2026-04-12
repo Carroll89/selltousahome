@@ -9,6 +9,7 @@ import { ComparisonTable } from '@/components/ComparisonTable';
 import { SituationLinks } from '@/components/SituationLinks';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
 import { BlogClusterLinks } from '@/components/BlogClusterLinks';
+import { MultiStepForm } from '@/components/MultiStepForm';
 import { stateCollegeLocalBusinessSchema, faqSchema, howToSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
 import { VideoEmbed } from '@/components/VideoEmbed';
@@ -324,6 +325,17 @@ export default function StateCollegeMarketPage() {
             subheadline="No obligation. Written offer in 24 hours. We cover the transfer tax."
             sourcePage="/markets/state-college-pa"
           />
+        </section>
+
+        {/* Multi-step survey form */}
+        <section className="my-12">
+          <div className="text-center mb-6">
+            <h2 className="text-2xl font-bold text-gray-900">Get Your Personalized Cash Offer</h2>
+            <p className="text-gray-600">
+              Answer 4 quick questions and get a cash offer for your State College home.
+            </p>
+          </div>
+          <MultiStepForm sourcePage="/markets/state-college-pa" />
         </section>
 
         {/* Blog cluster links */}

@@ -130,9 +130,13 @@ export default function StateCollegeForeclosurePage() {
             </h2>
             <p className="text-gray-700 mb-4">
               Pennsylvania only allows judicial foreclosure — every case goes through the Centre County
-              Court of Common Pleas. According to Pennsylvania Act 6 of 1974 (41 P.S. § 101 et seq.), your
+              Court of Common Pleas. According to{' '}
+              <a href="https://www.legis.state.pa.us/cfdocs/legis/LI/uconsCheck.cfm?yr=1974&sessInd=0&act=6" target="_blank" rel="noopener noreferrer" className="text-brand underline">Pennsylvania Act 6 of 1974</a>{' '}
+              (41 P.S. § 101 et seq.), your
               lender must send a written 30-day notice of intent to foreclose before filing, and must also
-              notify you of HEMAP assistance. Here&apos;s the full sequence:
+              notify you of{' '}
+              <a href="https://www.phfa.org/programs/hemap.aspx" target="_blank" rel="noopener noreferrer" className="text-brand underline">HEMAP assistance (PA Housing Finance Agency)</a>.
+              Here&apos;s the full sequence:
             </p>
             <div className="space-y-3">
               {[
