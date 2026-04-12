@@ -4,8 +4,9 @@ import Link from 'next/link';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
-import { articleSchema, faqSchema, readingLocalBusinessSchema } from '@/lib/schema';
+import { articleSchema, faqSchema, readingLocalBusinessSchema, videoObjectSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
+import { VideoEmbed } from '@/components/VideoEmbed';
 
 export const metadata: Metadata = {
   title: 'Inherited Property in Reading PA — Sell Your House Fast',
@@ -56,6 +57,7 @@ export default function ReadingInheritedPropertyPage() {
         readingLocalBusinessSchema,
         articleSchema('Selling an Inherited Property in Reading PA — Berks County', pageUrl),
         faqSchema(FAQ_ITEMS),
+        videoObjectSchema({ name: 'Selling an Inherited House in Reading PA', description: 'USA Home Buyers explains how to sell an inherited property in Reading PA without cleanouts, repairs, or waiting for probate to finish.', contentUrl: `${SITE_URL}/videos/reading-pa-inherited.mp4`, thumbnailUrl: `${SITE_URL}/videos/reading-pa-inherited-poster.jpg`, uploadDate: '2026-04-12' }),
       ]} />
 
       <section className="relative text-white py-16 px-4 overflow-hidden">
@@ -92,6 +94,22 @@ export default function ReadingInheritedPropertyPage() {
           </div>
         </div>
       </section>
+
+      <VideoEmbed
+        src="/videos/reading-pa-inherited.mp4"
+        title="Selling an Inherited House in Reading PA"
+        poster="/videos/reading-pa-inherited-poster.jpg"
+        subtitle="We handle probate complexity and buy as-is"
+      />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+          <p className="mb-3">If you&apos;ve inherited a house in Reading, you&apos;re probably dealing with Berks County probate court, property taxes piling up, and a house that needs work. Most of Reading&apos;s homes were built before 1939. That means old systems, possible lead paint, and expensive repairs.</p>
+          <p>We buy inherited properties as-is. No cleanouts, no repairs, no listing. We handle the paperwork and can close around your probate timeline.</p>
+        </div>
+      </details>
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article>

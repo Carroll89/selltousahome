@@ -4,8 +4,9 @@ import Link from 'next/link';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
-import { articleSchema, faqSchema, readingLocalBusinessSchema } from '@/lib/schema';
+import { articleSchema, faqSchema, readingLocalBusinessSchema, videoObjectSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
+import { VideoEmbed } from '@/components/VideoEmbed';
 
 export const metadata: Metadata = {
   title: 'Divorce Sale in Reading PA — Sell Your House Fast',
@@ -51,6 +52,7 @@ export default function ReadingDivorceSalePage() {
         readingLocalBusinessSchema,
         articleSchema('Selling a House During Divorce in Reading PA', pageUrl),
         faqSchema(FAQ_ITEMS),
+        videoObjectSchema({ name: 'Selling a House During Divorce in Reading PA', description: 'USA Home Buyers explains how divorcing couples can sell their Reading PA home fast for cash with no repairs, no showings, and a clean break for both parties.', contentUrl: `${SITE_URL}/videos/reading-pa-divorce.mp4`, thumbnailUrl: `${SITE_URL}/videos/reading-pa-divorce-poster.jpg`, uploadDate: '2026-04-12' }),
       ]} />
 
       <section className="relative text-white py-16 px-4 overflow-hidden">
@@ -87,6 +89,22 @@ export default function ReadingDivorceSalePage() {
           </div>
         </div>
       </section>
+
+      <VideoEmbed
+        src="/videos/reading-pa-divorce.mp4"
+        title="Selling a House During Divorce in Reading PA"
+        poster="/videos/reading-pa-divorce-poster.jpg"
+        subtitle="A fast, fair cash offer so both parties can move on"
+      />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+          <p className="mb-3">Going through a divorce and need to sell a house in Reading? We make it simple. Both parties get a fair cash offer, we handle everything, and you can close fast without the stress of listing, showing, or waiting.</p>
+          <p>With Reading&apos;s five percent transfer tax, a traditional sale costs thousands more than you&apos;d expect. We buy as-is, no repairs needed.</p>
+        </div>
+      </details>
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article>

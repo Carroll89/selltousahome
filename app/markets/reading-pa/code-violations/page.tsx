@@ -4,8 +4,9 @@ import Link from 'next/link';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
-import { articleSchema, faqSchema, readingLocalBusinessSchema } from '@/lib/schema';
+import { articleSchema, faqSchema, readingLocalBusinessSchema, videoObjectSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
+import { VideoEmbed } from '@/components/VideoEmbed';
 
 export const metadata: Metadata = {
   title: 'Code Violations in Reading PA — Sell Your House Fast',
@@ -56,6 +57,7 @@ export default function ReadingCodeViolationsPage() {
         readingLocalBusinessSchema,
         articleSchema('Selling a House With Code Violations in Reading PA', pageUrl),
         faqSchema(FAQ_ITEMS),
+        videoObjectSchema({ name: 'Sell Your Reading PA House With Code Violations', description: 'USA Home Buyers buys Reading PA properties with open code violations, citations, and condemned homes as-is — no repairs required.', contentUrl: `${SITE_URL}/videos/reading-pa-code-violations.mp4`, thumbnailUrl: `${SITE_URL}/videos/reading-pa-code-violations-poster.jpg`, uploadDate: '2026-04-12' }),
       ]} />
 
       <section className="relative text-white py-16 px-4 overflow-hidden">
@@ -92,6 +94,22 @@ export default function ReadingCodeViolationsPage() {
           </div>
         </div>
       </section>
+
+      <VideoEmbed
+        src="/videos/reading-pa-code-violations.mp4"
+        title="Reading PA Code Violations — Sell As-Is"
+        poster="/videos/reading-pa-code-violations-poster.jpg"
+        subtitle="We buy properties with open citations, no repairs needed"
+      />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+          <p className="mb-3">Got code violations on your Reading property? Many of Reading&apos;s older row homes run into code issues. Outdated wiring, structural problems, lead paint. We buy properties with open violations, no repairs required.</p>
+          <p>You don&apos;t need to fix anything before we close.</p>
+        </div>
+      </details>
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article>

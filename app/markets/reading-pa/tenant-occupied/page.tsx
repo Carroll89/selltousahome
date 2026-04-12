@@ -4,8 +4,9 @@ import Link from 'next/link';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
-import { articleSchema, faqSchema, readingLocalBusinessSchema } from '@/lib/schema';
+import { articleSchema, faqSchema, readingLocalBusinessSchema, videoObjectSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
+import { VideoEmbed } from '@/components/VideoEmbed';
 
 export const metadata: Metadata = {
   title: 'Tenant-Occupied Home in Reading PA | Cash Offer, No Eviction',
@@ -56,6 +57,7 @@ export default function ReadingTenantOccupiedPage() {
         readingLocalBusinessSchema,
         articleSchema('Selling a Tenant-Occupied Property in Reading PA', pageUrl),
         faqSchema(FAQ_ITEMS),
+        videoObjectSchema({ name: 'Sell Your Tenant-Occupied Reading PA Rental — No Eviction Needed', description: 'USA Home Buyers buys tenant-occupied rental properties in Reading PA as-is. No eviction required — we handle the tenants after closing.', contentUrl: `${SITE_URL}/videos/reading-pa-tenant-occupied.mp4`, thumbnailUrl: `${SITE_URL}/videos/reading-pa-tenant-occupied-poster.jpg`, uploadDate: '2026-04-12' }),
       ]} />
 
       <section className="relative text-white py-16 px-4 overflow-hidden">
@@ -92,6 +94,22 @@ export default function ReadingTenantOccupiedPage() {
           </div>
         </div>
       </section>
+
+      <VideoEmbed
+        src="/videos/reading-pa-tenant-occupied.mp4"
+        title="Sell Your Reading PA Rental — No Eviction Needed"
+        poster="/videos/reading-pa-tenant-occupied-poster.jpg"
+        subtitle="We buy tenant-occupied properties as-is"
+      />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+          <p className="mb-3">Tired of being a landlord in Reading? With over sixty percent of Reading&apos;s housing being rental properties, we work with landlords every day. We buy tenant-occupied properties as-is.</p>
+          <p>We handle the tenants, you get your cash. No evictions, no repairs, no hassle.</p>
+        </div>
+      </details>
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article>

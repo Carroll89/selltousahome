@@ -4,8 +4,9 @@ import Link from 'next/link';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
-import { articleSchema, faqSchema, readingLocalBusinessSchema } from '@/lib/schema';
+import { articleSchema, faqSchema, readingLocalBusinessSchema, videoObjectSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
+import { VideoEmbed } from '@/components/VideoEmbed';
 
 export const metadata: Metadata = {
   title: 'Foreclosure in Reading PA — Sell Your House Fast',
@@ -56,6 +57,7 @@ export default function ReadingForeclosurePage() {
         readingLocalBusinessSchema,
         articleSchema('Sell Before Foreclosure in Reading PA — Berks County', pageUrl),
         faqSchema(FAQ_ITEMS),
+        videoObjectSchema({ name: 'Facing Foreclosure in Reading PA? Sell Before the Sheriff Sale', description: 'USA Home Buyers explains how Pennsylvania homeowners in pre-foreclosure can sell fast for cash before the Berks County sheriff sale.', contentUrl: `${SITE_URL}/videos/reading-pa-foreclosure.mp4`, thumbnailUrl: `${SITE_URL}/videos/reading-pa-foreclosure-poster.jpg`, uploadDate: '2026-04-12' }),
       ]} />
 
       <section className="relative text-white py-16 px-4 overflow-hidden">
@@ -93,6 +95,22 @@ export default function ReadingForeclosurePage() {
           </div>
         </div>
       </section>
+
+      <VideoEmbed
+        src="/videos/reading-pa-foreclosure.mp4"
+        title="Facing Foreclosure in Reading PA?"
+        poster="/videos/reading-pa-foreclosure-poster.jpg"
+        subtitle="Sell before the Berks County sheriff sale and protect your equity"
+      />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+          <p className="mb-3">Facing foreclosure in Reading? Pennsylvania&apos;s judicial foreclosure process can take six to eighteen months, which means you have time to act. We work with homeowners in pre-foreclosure across Berks County to provide a fast cash sale before the sheriff&apos;s sale.</p>
+          <p>You avoid the court process, protect your credit, and walk away with cash in hand.</p>
+        </div>
+      </details>
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article>

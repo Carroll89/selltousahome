@@ -8,8 +8,9 @@ import { TestimonialBlock } from '@/components/TestimonialBlock';
 import { ComparisonTable } from '@/components/ComparisonTable';
 import { SituationLinks } from '@/components/SituationLinks';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
-import { readingLocalBusinessSchema, readingFAQSchema, howToSchema } from '@/lib/schema';
+import { readingLocalBusinessSchema, readingFAQSchema, howToSchema, videoObjectSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
+import { VideoEmbed } from '@/components/VideoEmbed';
 import { BlogClusterLinks } from '@/components/BlogClusterLinks';
 import { MultiStepForm } from '@/components/MultiStepForm';
 
@@ -101,7 +102,7 @@ const FAQ_ITEMS = [
 export default function ReadingMarketPage() {
   return (
     <>
-      <SchemaMarkup schema={[readingLocalBusinessSchema, readingFAQSchema, howToSchema]} />
+      <SchemaMarkup schema={[readingLocalBusinessSchema, readingFAQSchema, howToSchema, videoObjectSchema({ name: 'Sell Your House Fast in Reading, PA', description: 'USA Home Buyers explains how to sell your house fast in Reading, PA for cash — no repairs, no agent fees, covering Reading&apos;s 5% transfer tax.', contentUrl: `${SITE_URL}/videos/reading-pa-main.mp4`, thumbnailUrl: `${SITE_URL}/videos/reading-pa-main-poster.jpg`, uploadDate: '2026-04-12' })]} />
 
       {/* Hero */}
       <section className="relative text-white py-8 md:py-16 px-4 overflow-hidden">
@@ -145,6 +146,23 @@ export default function ReadingMarketPage() {
           </div>
         </div>
       </section>
+
+      <VideoEmbed
+        src="/videos/reading-pa-main.mp4"
+        title="Sell Your House Fast in Reading, PA"
+        poster="/videos/reading-pa-main-poster.jpg"
+        subtitle="See how we help homeowners in Reading sell fast for cash"
+      />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+          <p className="mb-3">Looking to sell your house fast in Reading, Pennsylvania? We&apos;re USA Home Buyers, local cash buyers serving Reading and all of Berks County. We buy houses as-is, in any condition. No repairs, no agent fees, and we can close in as little as seven days.</p>
+          <p className="mb-3">Here&apos;s something most sellers don&apos;t realize: Reading has one of the highest transfer taxes in Pennsylvania at five percent. That&apos;s over nine thousand dollars on a typical home sale. When you sell to us, we help you avoid those hidden costs.</p>
+          <p>Call us today for a free cash offer. Hablamos español.</p>
+        </div>
+      </details>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 

@@ -4,8 +4,9 @@ import Link from 'next/link';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
-import { articleSchema, faqSchema, readingLocalBusinessSchema } from '@/lib/schema';
+import { articleSchema, faqSchema, readingLocalBusinessSchema, videoObjectSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
+import { VideoEmbed } from '@/components/VideoEmbed';
 
 export const metadata: Metadata = {
   title: 'Fire Damage in Reading PA — Sell Your House Fast',
@@ -56,6 +57,7 @@ export default function ReadingFireDamagePage() {
         readingLocalBusinessSchema,
         articleSchema('Selling a Fire-Damaged House in Reading PA', pageUrl),
         faqSchema(FAQ_ITEMS),
+        videoObjectSchema({ name: 'Sell Your Fire-Damaged Home in Reading PA', description: 'USA Home Buyers buys fire-damaged properties across Berks County as-is for cash — no insurance claims to finalize, no contractor estimates needed.', contentUrl: `${SITE_URL}/videos/reading-pa-fire-damage.mp4`, thumbnailUrl: `${SITE_URL}/videos/reading-pa-fire-damage-poster.jpg`, uploadDate: '2026-04-12' }),
       ]} />
 
       <section className="relative text-white py-16 px-4 overflow-hidden">
@@ -92,6 +94,22 @@ export default function ReadingFireDamagePage() {
           </div>
         </div>
       </section>
+
+      <VideoEmbed
+        src="/videos/reading-pa-fire-damage.mp4"
+        title="Sell Your Fire-Damaged Home in Reading PA"
+        poster="/videos/reading-pa-fire-damage-poster.jpg"
+        subtitle="No restoration required — cash offer in 24 hours"
+      />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+          <p className="mb-3">If your Reading home has fire damage, you might think it&apos;s unsellable. It&apos;s not. We buy fire-damaged properties across Berks County, as-is, for cash. No insurance claims to finalize, no contractor estimates to get.</p>
+          <p>Just a fair offer and a fast close.</p>
+        </div>
+      </details>
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article>
