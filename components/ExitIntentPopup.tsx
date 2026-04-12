@@ -54,7 +54,7 @@ export function ExitIntentPopup() {
 
   function handleCTA() {
     setVisible(false);
-    const el = document.getElementById('lead-form');
+    const el = document.getElementById('survey-form');
     if (el) el.scrollIntoView({ behavior: 'smooth' });
   }
 

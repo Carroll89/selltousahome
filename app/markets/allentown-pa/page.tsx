@@ -12,6 +12,7 @@ import { faqSchema, howToSchema, allentownLocalBusinessSchema } from '@/lib/sche
 import { PHONE, SITE_URL } from '@/lib/utils';
 import { VideoEmbed } from '@/components/VideoEmbed';
 import { BlogClusterLinks } from '@/components/BlogClusterLinks';
+import { MultiStepForm } from '@/components/MultiStepForm';
 
 export const metadata: Metadata = {
   title: 'Sell My House Fast Allentown PA | Cash Offer in 24 Hours',
@@ -272,6 +273,19 @@ export default function AllentownMarketPage() {
 
         {/* Blog Cluster Links */}
         <BlogClusterLinks marketSlug="allentown-pa" cityName="Allentown" />
+
+        {/* Guided Survey Form */}
+        <section className="my-12 bg-brand-light rounded-2xl p-8">
+          <div className="text-center mb-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-brand-dark mb-2">
+              Not sure where to start? Let us guide you.
+            </h2>
+            <p className="text-gray-600">
+              Answer 4 quick questions and get a personalized cash offer for your Allentown home.
+            </p>
+          </div>
+          <MultiStepForm sourcePage="/markets/allentown-pa" />
+        </section>
 
         {/* Bottom CTA */}
         <section className="my-12">
