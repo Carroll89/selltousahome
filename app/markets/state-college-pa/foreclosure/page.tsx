@@ -161,10 +161,11 @@ export default function StateCollegeForeclosurePage() {
               Pennsylvania after the sheriff&apos;s sale.
             </p>
             <p className="mt-2 text-xs text-gray-500">
-              According to{' '}
-              <a href="https://www.nolo.com/legal-encyclopedia/pennsylvania-foreclosure-laws-procedures.html" target="_blank" rel="noopener noreferrer" className="underline">PA Foreclosure Laws & Procedures (Nolo)</a>
-              {' '}and the{' '}
-              <a href="https://www.phfa.org/mhp/hemap/" target="_blank" rel="noopener noreferrer" className="underline">PA Housing Finance Agency (phfa.org)</a>.
+              According to the{' '}
+              <a href="https://www.consumerfinance.gov/housing/housing-insecurity/help-for-homeowners/foreclosure/" target="_blank" rel="noopener noreferrer" className="underline">CFPB foreclosure guide</a>,{' '}
+              <a href="https://www.legis.state.pa.us/cfdocs/legis/LI/uconsCheck.cfm?yr=1974&sessInd=0&act=6" target="_blank" rel="noopener noreferrer" className="underline">PA Act 6 (legis.state.pa.us)</a>,
+              and the{' '}
+              <a href="https://www.phfa.org/mhp/hemap/" target="_blank" rel="noopener noreferrer" className="underline">PA Housing Finance Agency</a>.
             </p>
           </section>
 
