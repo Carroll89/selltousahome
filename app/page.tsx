@@ -53,7 +53,7 @@ export default function HomePage() {
       <SchemaMarkup schema={[localBusinessSchema, harrisburgFAQSchema, howToSchema]} />
 
       {/* Hero */}
-      <section className="relative text-white py-16 px-4 overflow-hidden">
+      <section className="relative text-white py-8 md:py-16 px-4 overflow-hidden">
         <Image
           src="/images/harrisburg-hero.jpg"
           alt="Harrisburg PA neighborhood — sell your house fast for cash"
@@ -71,7 +71,7 @@ export default function HomePage() {
               USA Home Buyers purchases homes in Harrisburg PA and Central Pennsylvania for cash in any condition.
               No repairs, no agent fees, no waiting 60-90 days. Written cash offer in 24 hours.
             </p>
-            <div className="flex flex-wrap gap-4 text-blue-100 text-sm mb-8">
+            <div className="flex flex-wrap gap-4 text-blue-100 text-sm mb-6">
               <span>✓ No repairs required</span>
               <span>✓ No agent commissions</span>
               <span>✓ Close in 7-14 days</span>
@@ -79,9 +79,9 @@ export default function HomePage() {
             </div>
             <a
               href={`tel:${PHONE}`}
-              className="inline-flex items-center gap-2 text-white bg-white/10 border border-white/30 rounded-lg px-5 py-3 hover:bg-white/20 transition-colors"
+              className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white font-bold rounded-lg px-6 py-3 text-lg shadow-lg transition-colors"
             >
-              📞 Call now: {PHONE}
+              📞 Call Now — We Answer 24/7
             </a>
           </div>
           <div>

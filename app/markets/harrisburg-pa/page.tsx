@@ -11,6 +11,7 @@ import { SchemaMarkup } from '@/components/SchemaMarkup';
 import { localBusinessSchema, harrisburgFAQSchema, howToSchema } from '@/lib/schema';
 import { PHONE } from '@/lib/utils';
 import { VideoEmbed } from '@/components/VideoEmbed';
+import { BlogClusterLinks } from '@/components/BlogClusterLinks';
 
 export const metadata: Metadata = {
   title: 'Sell My House Fast Harrisburg PA | Cash Offer in 24 Hours',
@@ -94,7 +95,7 @@ export default function HarrisburgMarketPage() {
       <SchemaMarkup schema={[localBusinessSchema, harrisburgFAQSchema, howToSchema]} />
 
       {/* Hero */}
-      <section className="relative text-white py-16 px-4 overflow-hidden">
+      <section className="relative text-white py-8 md:py-16 px-4 overflow-hidden">
         <Image
           src="/images/harrisburg-hero.jpg"
           alt="Harrisburg PA homes — we buy houses fast for cash"
@@ -113,14 +114,14 @@ export default function HarrisburgMarketPage() {
               no agent fees. We serve all of Dauphin County and Cumberland County, including Camp Hill, Mechanicsburg,
               Carlisle, and Steelton. Written cash offer within 24 hours, close in as few as 7 days.
             </p>
-            <div className="flex flex-wrap gap-3 text-blue-100 text-sm mb-6">
+            <div className="flex flex-wrap gap-3 text-blue-100 text-sm mb-5">
               <span>✓ No repairs</span>
               <span>✓ No commissions</span>
               <span>✓ We pay closing costs</span>
               <span>✓ Close in 7 days</span>
             </div>
-            <a href={`tel:${PHONE}`} className="inline-flex items-center gap-2 text-white bg-white/10 border border-white/30 rounded-lg px-5 py-3 hover:bg-white/20">
-              📞 {PHONE}
+            <a href={`tel:${PHONE}`} className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white font-bold rounded-lg px-6 py-3 text-lg shadow-lg transition-colors">
+              📞 Call Now — We Answer 24/7
             </a>
           </div>
           <div>
@@ -166,7 +167,8 @@ export default function HarrisburgMarketPage() {
               </tbody>
             </table>
           </div>
-          <p className="mt-4 text-sm text-gray-600">
+          <p className="mt-4 text-xs text-gray-400">Market data last updated: April 2026</p>
+          <p className="mt-2 text-sm text-gray-600">
             The Harrisburg market is fast — five days to pending is quick. But &quot;pending&quot; and &quot;closed&quot; are different.
             After an offer gets accepted, inspections, appraisals, and financing still take 45-60 days.
           </p>
@@ -231,6 +233,9 @@ export default function HarrisburgMarketPage() {
             ))}
           </div>
         </section>
+
+        {/* Blog Cluster Links */}
+        <BlogClusterLinks marketSlug="harrisburg-pa" cityName="Harrisburg" />
 
         {/* Bottom CTA */}
         <section className="my-12">

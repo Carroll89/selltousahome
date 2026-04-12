@@ -6,6 +6,7 @@ import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { MobileCallBar } from '@/components/MobileCallBar';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
+import { ExitIntentPopup } from '@/components/ExitIntentPopup';
 import { organizationSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
 
@@ -61,11 +62,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
           </>
         )}
       </head>
-      <body className="pb-16 md:pb-0 antialiased">
+      <body className="pb-20 md:pb-0 antialiased">
         <Header />
         <main>{children}</main>
         <Footer />
         <MobileCallBar />
+        <ExitIntentPopup />
       </body>
     </html>
   );

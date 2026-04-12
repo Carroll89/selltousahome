@@ -86,6 +86,7 @@ export function localBusinessSchemaFor(cityKey: 'harrisburg' | 'allentown') {
       longitude: cfg.lng,
     },
     areaServed: cfg.areaServed,
+    dateModified: '2026-04-01',
     hasOfferCatalog: {
       '@type': 'OfferCatalog',
       name: 'Cash Home Buying Services',

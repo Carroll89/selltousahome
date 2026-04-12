@@ -3,6 +3,28 @@ export function getUTMParam(param: string): string {
   return new URLSearchParams(window.location.search).get(param) || '';
 }
 
+export function getSourceChannel(): string {
+  if (typeof window === 'undefined') return 'direct';
+
+  const utmSource = new URLSearchParams(window.location.search).get('utm_source');
+  if (utmSource) return 'paid';
+
+  const referrer = document.referrer;
+  if (!referrer) return 'direct';
+
+  try {
+    const referrerHost = new URL(referrer).hostname;
+    if (referrerHost === window.location.hostname) return 'direct';
+    if (/google\.com|bing\.com|duckduckgo\.com/.test(referrerHost)) return 'organic';
+    if (/chatgpt\.com|perplexity\.ai|claude\.ai/.test(referrerHost)) return 'ai_search';
+    if (/facebook\.com|instagram\.com|reddit\.com|twitter\.com/.test(referrerHost)) return 'social';
+  } catch {
+    // invalid referrer URL
+  }
+
+  return 'direct';
+}
+
 export const PHONE = process.env.NEXT_PUBLIC_PHONE || '717-576-8192';
 export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://selltousahome.com';
 export const GHL_WEBHOOK_URL = process.env.NEXT_PUBLIC_GHL_WEBHOOK_URL || 'https://rex-ghl-backend.onrender.com/webhooks/website-lead';

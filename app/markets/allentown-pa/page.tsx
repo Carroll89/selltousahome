@@ -11,6 +11,7 @@ import { SchemaMarkup } from '@/components/SchemaMarkup';
 import { faqSchema, howToSchema, allentownLocalBusinessSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
 import { VideoEmbed } from '@/components/VideoEmbed';
+import { BlogClusterLinks } from '@/components/BlogClusterLinks';
 
 export const metadata: Metadata = {
   title: 'Sell My House Fast Allentown PA | Cash Offer in 24 Hours',
@@ -98,7 +99,7 @@ export default function AllentownMarketPage() {
       <SchemaMarkup schema={[allentownLocalBusinessSchema, allentownFAQSchema, howToSchema]} />
 
       {/* Hero */}
-      <section className="relative text-white py-16 px-4 overflow-hidden">
+      <section className="relative text-white py-8 md:py-16 px-4 overflow-hidden">
         <Image
           src="/images/allentown-hero.jpg"
           alt="Allentown PA homes — we buy houses fast for cash"
@@ -117,14 +118,14 @@ export default function AllentownMarketPage() {
               no agent fees. We serve all of Lehigh County and Northampton County, including Bethlehem, Easton,
               Whitehall, and Fountain Hill. Written cash offer within 24 hours, close in as few as 7 days.
             </p>
-            <div className="flex flex-wrap gap-3 text-blue-100 text-sm mb-6">
+            <div className="flex flex-wrap gap-3 text-blue-100 text-sm mb-5">
               <span>✓ No repairs</span>
               <span>✓ No commissions</span>
               <span>✓ We pay closing costs</span>
               <span>✓ Close in 7 days</span>
             </div>
-            <a href={`tel:${PHONE}`} className="inline-flex items-center gap-2 text-white bg-white/10 border border-white/30 rounded-lg px-5 py-3 hover:bg-white/20">
-              📞 {PHONE}
+            <a href={`tel:${PHONE}`} className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white font-bold rounded-lg px-6 py-3 text-lg shadow-lg transition-colors">
+              📞 Call Now — We Answer 24/7
             </a>
           </div>
           <div>
@@ -192,7 +193,8 @@ export default function AllentownMarketPage() {
               </tbody>
             </table>
           </div>
-          <p className="mt-4 text-sm text-gray-600">
+          <p className="mt-4 text-xs text-gray-400">Market data last updated: April 2026</p>
+          <p className="mt-2 text-sm text-gray-600">
             Allentown is a competitive seller&apos;s market — 88/100 Redfin Compete Score, averaging 6 offers per home. But competitive doesn&apos;t mean easy: 29 days on market, then 30-45 days for financing contingency. A cash sale closes the whole thing in 7-14 days.
           </p>
           <p className="mt-2 text-sm">
@@ -251,6 +253,9 @@ export default function AllentownMarketPage() {
             ))}
           </div>
         </section>
+
+        {/* Blog Cluster Links */}
+        <BlogClusterLinks marketSlug="allentown-pa" cityName="Allentown" />
 
         {/* Bottom CTA */}
         <section className="my-12">

@@ -1,7 +1,7 @@
 'use client';
 
-import { useState, FormEvent } from 'react';
-import { GHL_WEBHOOK_URL, SITUATION_OPTIONS, getUTMParam } from '@/lib/utils';
+import { useState, useEffect, FormEvent } from 'react';
+import { GHL_WEBHOOK_URL, SITUATION_OPTIONS, getUTMParam, getSourceChannel } from '@/lib/utils';
 
 interface CashOfferFormProps {
   headline?: string;
@@ -42,6 +42,12 @@ export function CashOfferForm({
   const [errors, setErrors] = useState<FormErrors>({});
   const [submitting, setSubmitting] = useState(false);
 
+  useEffect(() => {
+    if (typeof window !== 'undefined' && !sessionStorage.getItem('first_touch_url')) {
+      sessionStorage.setItem('first_touch_url', window.location.href);
+    }
+  }, []);
+
   function validate(): boolean {
     const newErrors: FormErrors = {};
     if (!form.name.trim()) newErrors.name = 'Name is required';
@@ -71,6 +77,20 @@ export function CashOfferForm({
       utmSource: getUTMParam('utm_source'),
       utmMedium: getUTMParam('utm_medium'),
       utmCampaign: getUTMParam('utm_campaign'),
+      source_market: (() => {
+        const path = typeof window !== 'undefined' ? window.location.pathname : '';
+        const match = path.match(/\/markets\/([^/]+)/);
+        return match ? match[1] : '';
+      })(),
+      source_page_type: (() => {
+        const path = typeof window !== 'undefined' ? window.location.pathname : '';
+        if (path.startsWith('/markets/')) return 'market';
+        if (path.startsWith('/guides/')) return 'guide';
+        if (path.startsWith('/blog/')) return 'blog';
+        return 'other';
+      })(),
+      source_channel: getSourceChannel(),
+      first_touch_url: typeof window !== 'undefined' ? sessionStorage.getItem('first_touch_url') || window.location.href : '',
       tags: ['geo_site_lead', 'selltousahome'],
     };
 
