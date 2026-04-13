@@ -81,9 +81,21 @@
         "county": "Montgomery County",
         "url": "https://selltousahome.com/markets/king-of-prussia-pa",
         "surroundingAreas": ["Norristown", "Conshohocken", "Plymouth Meeting", "Wayne", "Bridgeport", "Collegeville", "Gulph Mills", "Valley Forge", "Bryn Mawr", "Eagleville", "Trooper", "Audubon"]
+      },
+      {
+        "city": "Erie",
+        "state": "PA",
+        "county": "Erie County",
+        "url": "https://selltousahome.com/markets/erie-pa",
+        "transferTax": "2% total (1% PA state + 1% local) — standard Pennsylvania rate",
+        "medianHomeValue": "$115,000-$120,000 (DataUSA ACS 2024)",
+        "housingStock": "77% pre-1970 — Cape Cods, bungalows, older single-family; 104+ inches annual snowfall",
+        "rentRate": "~50% renter-occupied",
+        "povertyRate": "~23% — near 2x national average",
+        "surroundingAreas": ["Millcreek Township", "Harborcreek", "Lawrence Park", "Wesleyville", "North East", "Girard", "Fairview", "Edinboro", "Corry", "Union City", "Waterford"]
       }
     ],
-    "regionalCoverage": "Central Pennsylvania, the Lehigh Valley, Greater Philadelphia (Montgomery County), Berks County (Reading), and Centre County (State College)",
+    "regionalCoverage": "Central Pennsylvania, the Lehigh Valley, Greater Philadelphia (Montgomery County), Berks County (Reading), Centre County (State College), and Erie County (Northwest Pennsylvania)",
     "statewide": "Pennsylvania"
   },
   "customerService": {

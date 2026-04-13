@@ -41,6 +41,9 @@ export function Header() {
             <Link href="/markets/state-college-pa" className="text-gray-600 hover:text-brand-primary">
               State College PA
             </Link>
+            <Link href="/markets/erie-pa" className="text-gray-600 hover:text-brand-primary">
+              Erie PA
+            </Link>
             <Link href="/guides/sell-house-fast-harrisburg-pa-2026" className="text-gray-600 hover:text-brand-primary">
               Seller Guides
             </Link>
@@ -90,6 +93,7 @@ export function Header() {
               { href: '/markets/king-of-prussia-pa', label: 'King of Prussia PA' },
               { href: '/markets/reading-pa', label: 'Reading PA' },
               { href: '/markets/state-college-pa', label: 'State College PA' },
+              { href: '/markets/erie-pa', label: 'Erie PA' },
               { href: '/guides/sell-house-fast-harrisburg-pa-2026', label: 'Seller Guides' },
               { href: '/resources/how-the-process-works', label: 'How It Works' },
               { href: '/reviews', label: 'Reviews' },

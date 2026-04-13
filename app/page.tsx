@@ -147,6 +147,13 @@ export default function HomePage() {
               <h3 className="font-bold text-brand-primary text-lg mb-1">State College, PA</h3>
               <p className="text-gray-600 text-sm">Centre County</p>
             </Link>
+            <Link
+              href="/markets/erie-pa"
+              className="block bg-white border-2 border-brand-primary rounded-xl p-6 hover:shadow-lg transition-shadow"
+            >
+              <h3 className="font-bold text-brand-primary text-lg mb-1">Erie, PA</h3>
+              <p className="text-gray-600 text-sm">Erie County — Northwest PA</p>
+            </Link>
           </div>
         </section>
 

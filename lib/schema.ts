@@ -100,6 +100,30 @@ const CITY_CONFIGS: Record<string, CityConfig> = {
       { '@type': 'County', name: 'Mifflin County' },
     ],
   },
+  erie: {
+    city: 'Erie',
+    region: 'PA',
+    postalCode: '16501',
+    lat: 42.1294,
+    lng: -80.0850,
+    description:
+      'Cash home buyers serving Erie PA and Erie County. We buy houses as-is in any condition — no repairs, no agent fees, close in 7-14 days.',
+    areaServed: [
+      { '@type': 'City', name: 'Erie', sameAs: 'https://en.wikipedia.org/wiki/Erie,_Pennsylvania' },
+      { '@type': 'City', name: 'Millcreek Township' },
+      { '@type': 'City', name: 'Harborcreek' },
+      { '@type': 'City', name: 'Lawrence Park' },
+      { '@type': 'City', name: 'Wesleyville' },
+      { '@type': 'City', name: 'North East' },
+      { '@type': 'City', name: 'Girard' },
+      { '@type': 'City', name: 'Fairview' },
+      { '@type': 'City', name: 'Edinboro' },
+      { '@type': 'City', name: 'Corry' },
+      { '@type': 'City', name: 'Union City' },
+      { '@type': 'City', name: 'Waterford' },
+      { '@type': 'County', name: 'Erie County' },
+    ],
+  },
   allentown: {
     city: 'Allentown',
     region: 'PA',
@@ -123,7 +147,7 @@ const CITY_CONFIGS: Record<string, CityConfig> = {
   },
 };
 
-export function localBusinessSchemaFor(cityKey: 'harrisburg' | 'allentown' | 'kingOfPrussia' | 'reading' | 'stateCollege') {
+export function localBusinessSchemaFor(cityKey: 'harrisburg' | 'allentown' | 'kingOfPrussia' | 'reading' | 'stateCollege' | 'erie') {
   const cfg = CITY_CONFIGS[cityKey];
   return {
     '@context': 'https://schema.org',
@@ -188,6 +212,48 @@ export const kingOfPrussiaLocalBusinessSchema = localBusinessSchemaFor('kingOfPr
 
 /** Pre-built State College LocalBusiness schema */
 export const stateCollegeLocalBusinessSchema = localBusinessSchemaFor('stateCollege');
+
+/** Pre-built Erie LocalBusiness schema */
+export const erieLocalBusinessSchema = localBusinessSchemaFor('erie');
+
+export const erieFAQSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'How fast can I sell my house for cash in Erie PA?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'USA Home Buyers can close in as few as 7 days in Erie PA. We make a written cash offer within 24 hours of learning about your property. The typical timeline from first contact to cash in hand is 7-14 days.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'How much will you pay for my Erie PA house?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "Cash offers for Erie homes typically range from 60-75% of after-repair value. Erie's urban core median is around $115,000-$120,000 (DataUSA 2024), so a typical cash offer for an urban Erie home ranges from $70,000-$90,000. Suburban Millcreek homes at $250,000-$300,000 can yield offers of $175,000-$225,000. We cover all closing costs — no agent commissions, no fees.",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'Do you buy houses in Erie PA in any condition?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: "Yes. Erie's housing stock is 77% pre-1970 — old electrical, aging plumbing, deferred winter maintenance, and lake-effect snow damage are common. We buy in any condition. No repairs, no cleaning, no staging.",
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'What is the transfer tax when selling a house in Erie PA?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Erie PA has a standard Pennsylvania transfer tax of 2% total — 1% PA state tax plus 1% local tax. By convention, this is split 50/50 between buyer and seller, with each paying 1%. When you sell to USA Home Buyers, we cover all closing costs. Source: PA Department of Revenue, pa.gov.',
+      },
+    },
+  ],
+};
 
 export const organizationSchema = {
   '@context': 'https://schema.org',
