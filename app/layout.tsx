@@ -1,8 +1,4 @@
 import type { Metadata } from 'next';
-
-// Force all pages to render on-demand (not at build time)
-// This keeps builds fast and memory-safe as we scale to 250+ markets
-export const dynamic = 'force-dynamic';
 import Script from 'next/script';
 import { Inter } from 'next/font/google';
 import './globals.css';
