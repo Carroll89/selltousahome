@@ -9,7 +9,7 @@ import { PHONE, SITE_URL } from '@/lib/utils';
 import { VideoEmbed } from '@/components/VideoEmbed';
 
 export const metadata: Metadata = {
-  title: 'Foreclosure in Erie PA — Sell Your House Fast',
+  title: 'Stop Foreclosure Erie PA — Cash Sale',
   description:
     'Facing foreclosure in Erie PA or Erie County? Sell before the sheriff sale and protect your equity. Cash offer in 24 hours, close in 7-14 days.',
   alternates: { canonical: `${SITE_URL}/markets/erie-pa/foreclosure` },

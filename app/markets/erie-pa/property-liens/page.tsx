@@ -8,7 +8,7 @@ import { articleSchema, faqSchema, erieLocalBusinessSchema } from '@/lib/schema'
 import { PHONE, SITE_URL } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'Property Liens Erie PA — Sell Your House Fast',
+  title: 'Property Liens Erie PA — Cash Sale',
   description:
     'Selling a house with liens or back taxes in Erie PA? We buy properties with liens, back taxes, and judgments. Liens are paid at closing. Cash offer in 24 hours.',
   alternates: { canonical: `${SITE_URL}/markets/erie-pa/property-liens` },

@@ -8,7 +8,7 @@ import { articleSchema, faqSchema, erieLocalBusinessSchema } from '@/lib/schema'
 import { PHONE, SITE_URL } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'Tenant-Occupied Erie PA — Sell Your Rental Fast',
+  title: 'Sell Tenant-Occupied Rental Erie PA',
   description:
     'Selling a tenant-occupied property in Erie PA? We buy rental properties with tenants in place — including non-paying tenants. Cash offer in 24 hours. No eviction needed.',
   alternates: { canonical: `${SITE_URL}/markets/erie-pa/tenant-occupied` },

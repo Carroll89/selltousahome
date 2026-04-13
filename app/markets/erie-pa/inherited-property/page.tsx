@@ -9,7 +9,7 @@ import { PHONE, SITE_URL } from '@/lib/utils';
 import { VideoEmbed } from '@/components/VideoEmbed';
 
 export const metadata: Metadata = {
-  title: 'Inherited Property Erie PA — Sell Your House Fast',
+  title: 'Inherited Property Erie PA — Cash Buyers',
   description:
     'Inherited a house in Erie PA? We buy inherited properties as-is — no cleanout, no repairs needed. Cash offer in 24 hours, close in 7-14 days. Serving Erie County.',
   alternates: { canonical: `${SITE_URL}/markets/erie-pa/inherited-property` },

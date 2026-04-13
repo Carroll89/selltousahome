@@ -6,7 +6,7 @@ import { articleSchema, erieLocalBusinessSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'Erie PA Neighborhoods — We Buy Houses in Every Area',
+  title: 'Erie PA Neighborhoods — We Buy Houses',
   description:
     'We buy houses in all Erie PA neighborhoods — Little Italy, West Bayfront, Glenwood, Millcreek, Downtown, and more. Cash offer in 24 hours. Serving all of Erie County.',
   alternates: { canonical: `${SITE_URL}/markets/erie-pa/neighborhoods` },

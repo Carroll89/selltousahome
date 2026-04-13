@@ -7,7 +7,7 @@ import { faqSchema, erieLocalBusinessSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'Erie PA Cash Home Buyer FAQ | Sell Your House Fast',
+  title: 'Erie PA Cash Home Buyers FAQ',
   description:
     'Answers to every question about selling your house fast in Erie PA — timelines, prices, transfer tax, probate, foreclosure, and more. Serving Erie County.',
   alternates: { canonical: `${SITE_URL}/markets/erie-pa/faq` },

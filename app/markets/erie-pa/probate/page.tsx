@@ -8,7 +8,7 @@ import { articleSchema, faqSchema, erieLocalBusinessSchema } from '@/lib/schema'
 import { PHONE, SITE_URL } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'Probate Property Sale Erie PA — Cash Home Buyers',
+  title: 'Probate Property Erie PA — Cash Sale',
   description:
     'Selling a probate property in Erie PA? We buy estate homes as-is, work around Erie County probate timelines, and close in 7-14 days. No repairs, no cleanout required.',
   alternates: { canonical: `${SITE_URL}/markets/erie-pa/probate` },

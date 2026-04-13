@@ -8,7 +8,7 @@ import { articleSchema, faqSchema, erieLocalBusinessSchema } from '@/lib/schema'
 import { PHONE, SITE_URL } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'Code Violations Erie PA — Sell Your House As-Is',
+  title: 'Code Violations Erie PA — Sell As-Is',
   description:
     'Selling a house with code violations in Erie PA? We buy properties with open code violations as-is. No repairs, no city compliance required first. Cash offer in 24 hours.',
   alternates: { canonical: `${SITE_URL}/markets/erie-pa/code-violations` },

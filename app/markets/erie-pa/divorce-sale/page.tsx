@@ -8,7 +8,7 @@ import { articleSchema, faqSchema, erieLocalBusinessSchema } from '@/lib/schema'
 import { PHONE, SITE_URL } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'Divorce Sale Erie PA — Sell Your House Fast for Cash',
+  title: 'Divorce Sale Erie PA — Cash Home Buyers',
   description:
     'Selling a house during divorce in Erie PA? We buy as-is, close in 7-14 days, and split proceeds at closing. No repairs, no showings, no delay. Serving Erie County.',
   alternates: { canonical: `${SITE_URL}/markets/erie-pa/divorce-sale` },

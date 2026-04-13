@@ -8,7 +8,7 @@ import { articleSchema, faqSchema, erieLocalBusinessSchema } from '@/lib/schema'
 import { PHONE, SITE_URL } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'Fire Damage House Erie PA — Sell Your House Fast',
+  title: 'Fire Damage Erie PA — Sell House Fast',
   description:
     'Selling a fire-damaged house in Erie PA? We buy fire-damaged properties as-is for cash. No repairs, no remediation required. Written offer in 24 hours. Serving Erie County.',
   alternates: { canonical: `${SITE_URL}/markets/erie-pa/fire-damage` },

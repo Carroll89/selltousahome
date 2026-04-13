@@ -9,6 +9,17 @@ interface CashOfferFormProps {
   buttonText?: string;
   variant?: 'hero' | 'inline' | 'footer';
   sourcePage?: string;
+  placeholderCity?: string;
+}
+
+function getCityFromSourcePage(sourcePage?: string): string {
+  if (!sourcePage) return 'Your City';
+  if (sourcePage.includes('erie-pa')) return 'Erie';
+  if (sourcePage.includes('harrisburg-pa')) return 'Harrisburg';
+  if (sourcePage.includes('allentown-pa')) return 'Allentown';
+  if (sourcePage.includes('king-of-prussia-pa')) return 'King of Prussia';
+  if (sourcePage.includes('reading-pa')) return 'Reading';
+  return 'Your City';
 }
 
 interface FormState {
@@ -31,7 +42,9 @@ export function CashOfferForm({
   buttonText = 'Get My Cash Offer in 24 Hours →',
   variant = 'hero',
   sourcePage,
+  placeholderCity,
 }: CashOfferFormProps) {
+  const resolvedCity = placeholderCity || getCityFromSourcePage(sourcePage);
   const [form, setForm] = useState<FormState>({
     name: '',
     phone: '',
@@ -177,7 +190,7 @@ export function CashOfferForm({
             value={form.propertyAddress}
             onChange={(e) => setForm({ ...form, propertyAddress: e.target.value })}
             className={inputClass}
-            placeholder="123 Main St, Harrisburg, PA"
+            placeholder={`123 Main St, ${resolvedCity}, PA`}
           />
           {errors.propertyAddress && (
             <p className="mt-1 text-sm text-red-500">{errors.propertyAddress}</p>

@@ -8,7 +8,7 @@ import { SITE_URL } from '@/lib/utils';
 export const revalidate = 86400;
 
 export const metadata: Metadata = {
-  title: 'Erie PA Housing Market Report 2026 | Home Prices',
+  title: 'Erie PA Housing Market Report 2026',
   description:
     'Erie PA housing market data for 2026 — median prices by ZIP, days on market, transfer tax, housing stock age, demographics, and cash buyer insights from USA Home Buyers.',
   alternates: { canonical: `${SITE_URL}/markets/erie-pa/market-report` },

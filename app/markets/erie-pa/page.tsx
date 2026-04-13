@@ -8,16 +8,15 @@ import { TestimonialBlock } from '@/components/TestimonialBlock';
 import { ComparisonTable } from '@/components/ComparisonTable';
 import { SituationLinks } from '@/components/SituationLinks';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
-import { erieLocalBusinessSchema, erieFAQSchema, howToSchema, videoObjectSchema } from '@/lib/schema';
+import { erieLocalBusinessSchema, erieFAQSchema, erieHowToSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
-import { VideoEmbed } from '@/components/VideoEmbed';
 import { BlogClusterLinks } from '@/components/BlogClusterLinks';
 import { MultiStepForm } from '@/components/MultiStepForm';
 
 export const revalidate = 86400;
 
 export const metadata: Metadata = {
-  title: 'Sell My House Fast Erie PA | Cash Offer in 24 Hours',
+  title: 'Sell My House Fast Erie PA',
   description:
     'We buy houses in Erie PA for cash, as-is. Written offer in 24 hours, close in 7 days. No repairs, no fees. Serving Erie County — 77% pre-1970 homes, any condition.',
   alternates: { canonical: `${SITE_URL}/markets/erie-pa` },
@@ -98,7 +97,7 @@ const FAQ_ITEMS = [
 export default function ErieMarketPage() {
   return (
     <>
-      <SchemaMarkup schema={[erieLocalBusinessSchema, erieFAQSchema, howToSchema, videoObjectSchema({ name: 'Sell Your House Fast in Erie, PA', description: 'USA Home Buyers explains how to sell your house fast in Erie, PA for cash — no repairs, no agent fees, any condition.', contentUrl: `${SITE_URL}/videos/erie-pa-main.mp4`, thumbnailUrl: `${SITE_URL}/videos/erie-pa-main-poster.jpg`, uploadDate: '2026-04-12' })]} />
+      <SchemaMarkup schema={[erieLocalBusinessSchema, erieFAQSchema, erieHowToSchema]} />
 
       {/* Hero */}
       <section className="relative text-white py-8 md:py-16 px-4 overflow-hidden">
@@ -137,22 +136,7 @@ export default function ErieMarketPage() {
         </div>
       </section>
 
-      <VideoEmbed
-        src="/videos/erie-pa-main.mp4"
-        title="Sell Your House Fast in Erie, PA"
-        poster="/videos/erie-pa-main-poster.jpg"
-        subtitle="See how we help Erie homeowners sell fast for cash"
-      />
-      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
-        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
-          📝 Video Transcript
-        </summary>
-        <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          <p className="mb-3">Looking to sell your house fast in Erie, Pennsylvania? We&apos;re USA Home Buyers, local cash buyers serving Erie and all of Erie County. We buy houses as-is, in any condition. No repairs, no agent fees, and we can close in as little as seven days.</p>
-          <p className="mb-3">Erie&apos;s housing stock is 77% pre-1970 — older homes with aging systems, deferred maintenance, and sometimes snow or weather damage. That&apos;s exactly the kind of property we buy. You don&apos;t have to fix anything.</p>
-          <p>Call us today for a free cash offer. No pressure, no obligation.</p>
-        </div>
-      </details>
+
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
@@ -233,7 +217,20 @@ export default function ErieMarketPage() {
         <HowItWorks heading="How Selling Your Erie PA House for Cash Works" />
 
         {/* Situations */}
-        <SituationLinks heading="We Buy Houses in Erie in Any Situation" />
+        <SituationLinks
+          heading="We Buy Houses in Erie in Any Situation"
+          situations={[
+            { label: 'Inherited or Estate Property', href: '/markets/erie-pa/inherited-property', description: 'Sell an inherited home fast without repairs or hassle' },
+            { label: 'Going Through Divorce', href: '/markets/erie-pa/divorce-sale', description: 'Close quickly and split proceeds — minimal conflict' },
+            { label: 'Behind on Mortgage', href: '/markets/erie-pa/foreclosure', description: 'Sell before the sheriff sale, protect your credit' },
+            { label: 'Tenant-Occupied Property', href: '/markets/erie-pa/tenant-occupied', description: 'We buy with tenants still in place — no eviction needed' },
+            { label: 'Needs Repairs (Sell As-Is)', href: '/guides/sell-as-is', description: 'Foundation, roof, mold — we buy it anyway' },
+            { label: 'Back Taxes or Liens', href: '/guides/back-taxes', description: 'Unpaid taxes and liens get handled at closing' },
+            { label: 'Relocating', href: '/guides/relocation', description: 'Job start date? We close fast to meet your timeline' },
+            { label: 'Vacant Property', href: '/guides/vacant-property', description: 'Stop paying taxes on a property you can\'t use' },
+            { label: 'Probate Sale', href: '/markets/erie-pa/probate', description: 'We work with estate attorneys and executors regularly' },
+          ]}
+        />
 
         {/* Testimonials */}
         <TestimonialBlock testimonials={TESTIMONIALS} heading="What Erie PA Homeowners Are Saying" />
