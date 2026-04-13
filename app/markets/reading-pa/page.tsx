@@ -111,6 +111,7 @@ export default function ReadingMarketPage() {
           alt="Reading PA brick row homes — we buy houses fast for cash"
           fill
           className="object-cover object-center"
+          sizes="(max-width: 1200px) 100vw, 1200px"
           priority
         />
         <div className="absolute inset-0 bg-brand-dark/80" />
