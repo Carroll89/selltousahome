@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import Image from 'next/image';
+
 import Link from 'next/link';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { HowItWorks } from '@/components/HowItWorks';
@@ -101,14 +101,20 @@ export default function ErieMarketPage() {
 
       {/* Hero */}
       <section className="relative text-white py-8 md:py-16 px-4 overflow-hidden">
-        <Image
-          src="/images/erie-pa-hero.jpg"
-          alt="Erie PA home — we buy houses fast for cash"
-          fill
-          className="object-cover object-center"
-          sizes="(max-width: 1200px) 100vw, 1200px"
-          priority
-        />
+        <picture className="absolute inset-0 w-full h-full">
+          <source
+            srcSet="/images/optimized/erie-pa-hero-640.jpg 640w, /images/optimized/erie-pa-hero-828.jpg 828w, /images/optimized/erie-pa-hero-1080.jpg 1080w, /images/optimized/erie-pa-hero-1200.jpg 1200w"
+            type="image/jpeg"
+            sizes="100vw"
+          />
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/images/optimized/erie-pa-hero-1200.jpg"
+            alt="Erie PA home — we buy houses fast for cash"
+            fetchPriority="high"
+            className="object-cover object-center absolute inset-0 w-full h-full"
+          />
+        </picture>
         <div className="absolute inset-0 bg-brand-dark/80" />
         <div className="relative z-10 max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-start">
           <div>
