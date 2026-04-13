@@ -2,13 +2,13 @@ services:
   - type: web
     name: selltousahome
     runtime: node
-    buildCommand: npm install && npm run build
+    region: virginia
+    buildCommand: npm install --include=dev && NODE_OPTIONS=--max-old-space-size=1536 npm run build
     startCommand: npm run start
+    plan: standard
     envVars:
       - key: NODE_ENV
         value: production
-      - key: NODE_OPTIONS
-        value: "--max-old-space-size=1536"
       - key: PORT
         value: "3000"
       - key: NEXT_PUBLIC_GHL_WEBHOOK_URL
@@ -19,4 +19,3 @@ services:
         sync: false
       - key: NEXT_PUBLIC_SITE_URL
         value: https://selltousahome.com
-    plan: starter
