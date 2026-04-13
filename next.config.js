@@ -7,6 +7,10 @@ const nextConfig = {
     return config;
   },
   trailingSlash: false,
+  experimental: {
+    workerThreads: false,
+    cpus: 1,
+  },
   images: {
     unoptimized: false,
     formats: ['image/avif', 'image/webp'],
