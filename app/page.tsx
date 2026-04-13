@@ -12,7 +12,7 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'Sell Your House Fast for Cash',
   description:
-    'USA Home Buyers purchases homes for cash in any condition. No repairs, no agent fees, close in 7-14 days. Serving Harrisburg, Allentown, King of Prussia, and Pennsylvania.',
+    'USA Home Buyers purchases homes for cash in any condition. No repairs, no agent fees, close in 7-14 days. Serving Harrisburg, Allentown, King of Prussia, Reading, State College, and all of Pennsylvania.',
   alternates: { canonical: 'https://selltousahome.com' },
 };
 
@@ -132,6 +132,20 @@ export default function HomePage() {
             >
               <h3 className="font-bold text-brand-primary text-lg mb-1">King of Prussia, PA</h3>
               <p className="text-gray-600 text-sm">Montgomery County & suburban Philadelphia</p>
+            </Link>
+            <Link
+              href="/markets/reading-pa"
+              className="block bg-white border-2 border-brand-primary rounded-xl p-6 hover:shadow-lg transition-shadow"
+            >
+              <h3 className="font-bold text-brand-primary text-lg mb-1">Reading, PA</h3>
+              <p className="text-gray-600 text-sm">Berks County</p>
+            </Link>
+            <Link
+              href="/markets/state-college-pa"
+              className="block bg-white border-2 border-brand-primary rounded-xl p-6 hover:shadow-lg transition-shadow"
+            >
+              <h3 className="font-bold text-brand-primary text-lg mb-1">State College, PA</h3>
+              <p className="text-gray-600 text-sm">Centre County</p>
             </Link>
           </div>
         </section>
