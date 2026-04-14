@@ -161,6 +161,27 @@ export default function HomePage() {
               <h3 className="font-bold text-brand-primary text-lg mb-1">Erie, PA</h3>
               <p className="text-gray-600 text-sm">Erie County — Northwest PA</p>
             </Link>
+            <Link
+              href="/markets/bethlehem-pa"
+              className="block bg-white border-2 border-brand-primary rounded-xl p-6 hover:shadow-lg transition-shadow"
+            >
+              <h3 className="font-bold text-brand-primary text-lg mb-1">Bethlehem, PA</h3>
+              <p className="text-gray-600 text-sm">Northampton County — Lehigh Valley</p>
+            </Link>
+            <Link
+              href="/markets/lancaster-pa"
+              className="block bg-white border-2 border-brand-primary rounded-xl p-6 hover:shadow-lg transition-shadow"
+            >
+              <h3 className="font-bold text-brand-primary text-lg mb-1">Lancaster, PA</h3>
+              <p className="text-gray-600 text-sm">Lancaster County — PA Dutch Country</p>
+            </Link>
+            <Link
+              href="/markets/york-pa"
+              className="block bg-white border-2 border-brand-primary rounded-xl p-6 hover:shadow-lg transition-shadow"
+            >
+              <h3 className="font-bold text-brand-primary text-lg mb-1">York, PA</h3>
+              <p className="text-gray-600 text-sm">York County — First US Capital</p>
+            </Link>
           </div>
         </section>
 

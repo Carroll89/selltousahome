@@ -207,6 +207,33 @@
           "Mountville"
         ],
         "foreclosureDiversionProgram": "Lancaster County Courts operate a Foreclosure Diversion Program \u2014 Case Management Orders pause proceedings and require housing counseling (court.co.lancaster.pa.us/260)"
+      },
+      {
+        "city": "York",
+        "state": "PA",
+        "county": "York County",
+        "url": "https://selltousahome.com/markets/york-pa",
+        "surroundingAreas": [
+          "Hanover",
+          "Red Lion",
+          "Dallastown",
+          "Spring Grove",
+          "Dover",
+          "Shrewsbury",
+          "New Freedom",
+          "Glen Rock",
+          "Dillsburg",
+          "York Haven",
+          "Manchester",
+          "Windsor",
+          "Seven Valleys",
+          "Jacobus",
+          "West York",
+          "North York",
+          "Wrightsville",
+          "Mount Wolf",
+          "East York"
+        ]
       }
     ],
     "regionalCoverage": "Central Pennsylvania, the Lehigh Valley, Greater Philadelphia (Montgomery County), Berks County (Reading), Centre County (State College), and Erie County (Northwest Pennsylvania)",
@@ -239,7 +266,8 @@
     "stateCollegeAnswerHub": "https://selltousahome.com/guides/sell-house-fast-state-college-pa-2026",
     "pennsylvaniaHub": "https://selltousahome.com/sell-house-fast-pennsylvania",
     "bethlehemMarket": "https://selltousahome.com/markets/bethlehem-pa",
-    "bethlehemAnswerHub": "https://selltousahome.com/guides/sell-house-fast-bethlehem-pa-2026"
+    "bethlehemAnswerHub": "https://selltousahome.com/guides/sell-house-fast-bethlehem-pa-2026",
+    "yorkGuide": "https://selltousahome.com/guides/sell-house-fast-york-pa-2026"
   },
   "socialProfiles": {
     "_note": "Social profiles to be added as accounts are established",

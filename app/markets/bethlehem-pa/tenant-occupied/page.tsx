@@ -116,9 +116,17 @@ export default function BethlehemTenantOccupiedPage() {
             We buy tenant-occupied properties as-is, no showings required.
           </p>
           <p className="text-gray-700 mb-4">
-            The City of Bethlehem requires landlords to maintain a valid rental registration under its Rental
-            Registration Program. We handle the ownership transfer and take over all compliance requirements
-            at closing.
+            According to the{' '}
+            <a href="https://www.bethlehem-pa.gov/Planning_and_Zoning/Housing/RentalRegistrationProgram/" className="text-brand-primary hover:underline" target="_blank" rel="noopener noreferrer">City of Bethlehem Rental Registration Program (bethlehem-pa.gov)</a>,
+            landlords must maintain a valid rental registration. We handle the ownership transfer and take over
+            all compliance requirements at closing — you walk away clean.
+          </p>
+          <p className="text-gray-700 mb-4">
+            According to the{' '}
+            <a href="https://www.pa.gov/agencies/revenue/resources/tax-types-and-information/realty-transfer-tax" className="text-brand-primary hover:underline" target="_blank" rel="noopener noreferrer">Pennsylvania Department of Revenue (pa.gov)</a>,
+            a 2% total realty transfer tax applies to Bethlehem property sales, including tenant-occupied rentals.
+            Pennsylvania&apos;s Landlord and Tenant Act of 1951 also governs how lease obligations transfer to the
+            new owner — existing tenants retain their rights under active lease agreements.
           </p>
         </section>
 

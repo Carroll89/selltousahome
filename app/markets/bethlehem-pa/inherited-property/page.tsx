@@ -115,6 +115,13 @@ export default function BethlehemInheritedPropertyPage() {
             row homes average closer to $245,000 and often require significant work before they compete at retail.
             That math changes when a cash buyer purchases as-is: no repairs, no staging, no commission.
           </p>
+          <p className="text-gray-700 mb-3">
+            According to the{' '}
+            <a href="https://www.pa.gov/agencies/revenue/resources/tax-types-and-information/realty-transfer-tax" className="text-brand-primary hover:underline" target="_blank" rel="noopener noreferrer">Pennsylvania Department of Revenue (pa.gov)</a>,
+            the PA realty transfer tax applies to all real estate transfers including estate sales — the standard rate
+            is 1% state plus 1% local (Bethlehem), totaling 2% of the sale price. On a $245,000 South Side row home,
+            that&apos;s $4,900 total. When you sell to us, we cover all closing costs including the full transfer tax.
+          </p>
           <p className="text-gray-700 mb-4">
             We&apos;ve worked through the Northampton County probate process many times. We understand the Register of
             Wills timeline, the Letters Testamentary requirement, and how to structure a purchase agreement that
@@ -127,8 +134,10 @@ export default function BethlehemInheritedPropertyPage() {
             Northampton County Register of Wills — Probate Office
           </h2>
           <p className="text-gray-700 mb-2">
-            According to the Northampton County government website, probate for Bethlehem and all Northampton County
-            estates is handled by:
+            According to the{' '}
+            <a href="https://norcopa.gov/recorder-of-deeds" className="text-brand-primary hover:underline" target="_blank" rel="noopener noreferrer">Northampton County Recorder of Deeds (norcopa.gov)</a>,
+            all deed transfers — including estate deeds — must be recorded at 669 Washington Street, Easton, PA 18042
+            before ownership formally changes hands. Probate for Bethlehem and all Northampton County estates is handled by:
           </p>
           <div className="bg-white rounded-xl p-4 border border-gray-200 text-sm">
             <p className="font-semibold text-brand-dark">Northampton County Register of Wills and Orphan&apos;s Court</p>

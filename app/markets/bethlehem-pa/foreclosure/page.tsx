@@ -106,9 +106,12 @@ export default function BethlehemForeclosurePage() {
             The Northampton County Foreclosure Timeline
           </h2>
           <p className="text-gray-700 mb-3">
-            Pennsylvania is a 100% judicial foreclosure state, governed by Pennsylvania Rules of Civil Procedure
-            (Rules 1141-1150) and Act 6 of 1974 (68 P.S. § 901 et seq.). According to Nolo&apos;s updated PA
-            Foreclosure Laws guide (January 2026), the process unfolds in stages that give homeowners significant time:
+            Pennsylvania is a 100% judicial foreclosure state. According to the{' '}
+            <a href="https://www.pa.gov/agencies/revenue/resources/tax-types-and-information/realty-transfer-tax" className="text-brand-primary hover:underline" target="_blank" rel="noopener noreferrer">Pennsylvania Department of Revenue (pa.gov)</a>,
+            all property transfers — including pre-foreclosure sales — are subject to the 2% PA realty transfer tax.
+            Governed by Pennsylvania Rules of Civil Procedure (Rules 1141-1150) and{' '}
+            <a href="https://www.pa.gov/agencies/dobs/consumers-investors/consumer-resources/consumer-financial-protections.html" className="text-brand-primary hover:underline" target="_blank" rel="noopener noreferrer">Act 6 of 1974 (PA Consumer Protections)</a>,
+            the process unfolds in stages that give homeowners significant time:
           </p>
           <div className="space-y-3 mb-4">
             {[

@@ -17,7 +17,7 @@ export const revalidate = 86400;
 export const metadata: Metadata = {
   title: 'Sell My House Fast Bethlehem PA',
   description:
-    'We buy houses in Bethlehem PA for cash, as-is. Written offer in 24 hours, close in 7 days. No repairs, no fees. Serving Northampton County — South Side row homes, any condition. Hablamos español.',
+    'We buy houses in Bethlehem PA for cash, as-is. Written offer in 24 hours, close in 7 days. No repairs, no fees. Northampton County. Hablamos español.',
   alternates: { canonical: `${SITE_URL}/markets/bethlehem-pa` },
   openGraph: {
     images: [{ url: '/images/bethlehem-pa-hero.jpg', width: 1200, height: 630, alt: 'Bethlehem PA South Side homes — Sell Your House Fast' }],

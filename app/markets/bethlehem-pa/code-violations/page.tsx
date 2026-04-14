@@ -120,6 +120,20 @@ export default function BethlehemCodeViolationsPage() {
             electrical or plumbing inspections, outstanding permit violations from unpermitted work, and
             properties with municipal liens from years of citations.
           </p>
+          <p className="text-gray-700 mb-3">
+            According to the{' '}
+            <a href="https://www.dli.pa.gov/Businesses/Construction-Accreditation/UCC/Pages/default.aspx" className="text-brand-primary hover:underline" target="_blank" rel="noopener noreferrer">PA Department of Labor &amp; Industry — Uniform Construction Code (dli.pa.gov)</a>,
+            Pennsylvania&apos;s UCC applies statewide, governing minimum standards for all residential structures.
+            Properties in violation of the UCC can still be sold — the buyer assumes responsibility for
+            bringing the property into compliance after closing.
+          </p>
+          <p className="text-gray-700 mb-3">
+            According to the{' '}
+            <a href="https://www.bethlehem-pa.gov" className="text-brand-primary hover:underline" target="_blank" rel="noopener noreferrer">City of Bethlehem (bethlehem-pa.gov)</a>,
+            the Bureau of Inspection Services enforces both the UCC and local property maintenance standards.
+            Sellers can request a violation status summary from the Bureau before listing — or simply disclose
+            known violations to a cash buyer like us and close without remediation.
+          </p>
         </section>
 
         <section className="mb-10 bg-brand-light rounded-2xl p-6">

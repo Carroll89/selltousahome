@@ -116,9 +116,19 @@ export default function BethlehemFireDamagePage() {
             we assess the current state, price accordingly, and handle the remediation as part of our investment.
           </p>
           <p className="text-gray-700 mb-4">
-            According to Pennsylvania&apos;s Real Estate Seller Disclosure Act, fire damage must be disclosed —
-            but that disclosure happens to us, and we factor it in. You&apos;re not hiding anything from buyers
-            who then back out. We know what we&apos;re purchasing.
+            According to the{' '}
+            <a href="https://www.dos.pa.gov/ProfessionalLicensing/BoardsCommissions/RealEstate/Pages/default.aspx" className="text-brand-primary hover:underline" target="_blank" rel="noopener noreferrer">PA Real Estate Commission — Seller Disclosure Act (dos.pa.gov)</a>,
+            fire and smoke damage is a material defect requiring disclosure in Pennsylvania property sales.
+            That disclosure happens to us — we factor it into the offer and take responsibility for the condition.
+            You&apos;re not hiding anything from buyers who then back out. We know exactly what we&apos;re purchasing.
+          </p>
+          <p className="text-gray-700 mb-3">
+            According to the{' '}
+            <a href="https://www.bethlehem-pa.gov" className="text-brand-primary hover:underline" target="_blank" rel="noopener noreferrer">City of Bethlehem (bethlehem-pa.gov)</a>,
+            properties under an active condemnation or unsafe structure order must resolve their status before
+            they can be re-occupied — but they can be sold. We purchase condemned fire-damaged properties and
+            manage the remediation or demolition process after closing, including navigating city re-inspection
+            requirements.
           </p>
         </section>
 

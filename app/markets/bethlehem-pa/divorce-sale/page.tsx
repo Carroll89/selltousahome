@@ -120,6 +120,19 @@ export default function BethlehemDivorceSalePage() {
             neither party wants to manage repairs during a contentious period, often sit longer. Our as-is offer
             removes that barrier.
           </p>
+          <p className="text-gray-700 mb-3">
+            According to the{' '}
+            <a href="https://www.pa.gov/agencies/revenue/resources/tax-types-and-information/realty-transfer-tax" className="text-brand-primary hover:underline" target="_blank" rel="noopener noreferrer">Pennsylvania Department of Revenue (pa.gov)</a>,
+            a 2% total realty transfer tax applies to all PA property transfers, including divorce-related sales.
+            On a $320,000 Bethlehem home, that&apos;s $6,400 — customarily split 50/50. When you sell to us,
+            we cover the full transfer tax as part of paying all closing costs.
+          </p>
+          <p className="text-gray-700 mb-4">
+            According to the{' '}
+            <a href="https://www.dos.pa.gov/ProfessionalLicensing/BoardsCommissions/RealEstate/Pages/default.aspx" className="text-brand-primary hover:underline" target="_blank" rel="noopener noreferrer">PA Real Estate Commission (dos.pa.gov)</a>,
+            Pennsylvania does not require an attorney at closing, but both parties on title must sign a deed transfer.
+            In divorce situations, a Northampton County title company can coordinate separate signings if needed.
+          </p>
         </section>
 
         <section className="mb-10 bg-brand-light rounded-2xl p-6">

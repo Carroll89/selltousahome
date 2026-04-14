@@ -50,6 +50,9 @@ export function Header() {
             <Link href="/markets/lancaster-pa" className="text-gray-600 hover:text-brand-primary">
               Lancaster PA
             </Link>
+            <Link href="/markets/york-pa" className="text-gray-600 hover:text-brand-primary">
+              York PA
+            </Link>
             <Link href="/guides/sell-house-fast-harrisburg-pa-2026" className="text-gray-600 hover:text-brand-primary">
               Seller Guides
             </Link>
@@ -102,6 +105,7 @@ export function Header() {
               { href: '/markets/erie-pa', label: 'Erie PA' },
               { href: '/markets/bethlehem-pa', label: 'Bethlehem PA' },
               { href: '/markets/lancaster-pa', label: 'Lancaster PA' },
+              { href: '/markets/york-pa', label: 'York PA' },
               { href: '/guides/sell-house-fast-harrisburg-pa-2026', label: 'Seller Guides' },
               { href: '/resources/how-the-process-works', label: 'How It Works' },
               { href: '/reviews', label: 'Reviews' },

@@ -118,6 +118,18 @@ export default function BethlehemProbatePage() {
             exactly as they are. According to Redfin, Bethlehem&apos;s median sale price is $320,000 (February 2026),
             with South Side properties averaging near $245,000.
           </p>
+          <p className="text-gray-700 mb-3">
+            According to the{' '}
+            <a href="https://norcopa.gov/recorder-of-deeds" className="text-brand-primary hover:underline" target="_blank" rel="noopener noreferrer">Northampton County Recorder of Deeds (norcopa.gov)</a>,
+            all estate deed transfers must be recorded at 669 Washington Street, Easton, PA 18042 following court authorization.
+            Recording fees for a deed are $75.25 base plus $10 per parcel identifier.
+          </p>
+          <p className="text-gray-700 mb-3">
+            According to the{' '}
+            <a href="https://www.pa.gov/agencies/revenue/resources/tax-types-and-information/realty-transfer-tax" className="text-brand-primary hover:underline" target="_blank" rel="noopener noreferrer">Pennsylvania Department of Revenue (pa.gov)</a>,
+            probate estate sales are subject to the standard 2% PA realty transfer tax (1% state + 1% City of Bethlehem local).
+            Certain family transfers may qualify for an exemption — a PA real estate attorney can confirm eligibility.
+          </p>
         </section>
 
         <section className="mb-10 bg-brand-light rounded-2xl p-6">

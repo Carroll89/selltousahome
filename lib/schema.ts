@@ -151,6 +151,38 @@ const CITY_CONFIGS: Record<string, CityConfig> = {
       { '@type': 'County', name: 'Lancaster County' },
     ],
   },
+  york: {
+    city: 'York',
+    region: 'PA',
+    postalCode: '17401',
+    lat: 39.962303,
+    lng: -76.727692,
+    description:
+      'USA Home Buyers purchases homes for cash in York, PA and throughout York County — including Hanover, Red Lion, Dallastown, Spring Grove, and Dover — with 24-hour offers and 7–14 day closings. Hablamos español.',
+    areaServed: [
+      { '@type': 'City', name: 'York', sameAs: 'https://en.wikipedia.org/wiki/York,_Pennsylvania' },
+      { '@type': 'City', name: 'Hanover' },
+      { '@type': 'City', name: 'Red Lion' },
+      { '@type': 'City', name: 'Dallastown' },
+      { '@type': 'City', name: 'Spring Grove' },
+      { '@type': 'City', name: 'Dover' },
+      { '@type': 'City', name: 'Shrewsbury' },
+      { '@type': 'City', name: 'New Freedom' },
+      { '@type': 'City', name: 'Glen Rock' },
+      { '@type': 'City', name: 'Dillsburg' },
+      { '@type': 'City', name: 'York Haven' },
+      { '@type': 'City', name: 'Manchester' },
+      { '@type': 'City', name: 'Windsor' },
+      { '@type': 'City', name: 'Seven Valleys' },
+      { '@type': 'City', name: 'Jacobus' },
+      { '@type': 'City', name: 'West York' },
+      { '@type': 'City', name: 'North York' },
+      { '@type': 'City', name: 'Wrightsville' },
+      { '@type': 'City', name: 'Mount Wolf' },
+      { '@type': 'City', name: 'East York' },
+      { '@type': 'County', name: 'York County' },
+    ],
+  },
   bethlehem: {
     city: 'Bethlehem',
     region: 'PA',
@@ -201,7 +233,7 @@ const CITY_CONFIGS: Record<string, CityConfig> = {
   },
 };
 
-export function localBusinessSchemaFor(cityKey: 'harrisburg' | 'allentown' | 'bethlehem' | 'kingOfPrussia' | 'reading' | 'stateCollege' | 'erie' | 'lancaster') {
+export function localBusinessSchemaFor(cityKey: 'harrisburg' | 'allentown' | 'bethlehem' | 'kingOfPrussia' | 'reading' | 'stateCollege' | 'erie' | 'lancaster' | 'york') {
   const cfg = CITY_CONFIGS[cityKey];
   return {
     '@context': 'https://schema.org',
@@ -322,6 +354,81 @@ export const lancasterHowToSchema = {
       '@type': 'HowToStep',
       name: 'Get Paid at Closing',
       text: 'Sign at the Lancaster County title company, walk away with your cash. No repairs or cleanout required.',
+      position: 4,
+    },
+  ],
+};
+
+/** Pre-built York LocalBusiness schema */
+export const yorkLocalBusinessSchema = localBusinessSchemaFor('york');
+
+export const yorkFAQSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'How fast can I sell my house for cash in York PA?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'USA Home Buyers can close in as few as 7 days in York PA. We send a written cash offer within 24 hours of learning about your property. According to Redfin, York City homes sell in about 31 days on the open market — but that path requires showings, inspections, and lender wait time. With a cash sale, there is no bank involved.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'How much will you pay for my York PA house?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Cash offers for York homes typically range from 65–75% of after-repair value. According to Redfin, the York City median sale price is $165,850 (February 2026), with Northeast York properties often under $120,000. We cover all closing costs — no agent commissions, no fees deducted from your number.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'What is the transfer tax when selling a house in York PA?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'York PA has a 2% total real estate transfer tax — 1% Pennsylvania state tax plus 1% local (0.5% City of York + 0.5% York City School District per Article 355 of York City Ordinances). By convention this is split 50/50. On a $165,000 home, the total is $3,300. When you sell to USA Home Buyers, we cover all closing costs. Source: PA Department of Revenue (pa.gov); City of York (yorkcity.org).',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: '\u00bfCompran casas en York PA? / Do you work with Spanish-speaking sellers?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'S\u00ed, hablamos espa\u00f1ol. According to the U.S. Census Bureau ACS, 36.6% of York City residents are Hispanic or Latino. We serve the York community in both English and Spanish. Call us, fill out the form, or stop by. Entendemos el vecindario y el proceso.',
+      },
+    },
+  ],
+};
+
+export const yorkHowToSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'HowTo',
+  name: 'How to Sell Your House Fast for Cash in York PA',
+  description: 'Step-by-step process for selling your York home for cash in York County',
+  step: [
+    {
+      '@type': 'HowToStep',
+      name: 'Submit Your Property Information',
+      text: 'Fill out our 2-minute form with your York property address, condition, and your timeline.',
+      position: 1,
+    },
+    {
+      '@type': 'HowToStep',
+      name: 'Receive Your Written Cash Offer',
+      text: 'We review your property and send a written cash offer within 24 hours — no obligation, no pressure.',
+      position: 2,
+    },
+    {
+      '@type': 'HowToStep',
+      name: 'Choose Your Closing Date',
+      text: 'If you accept, pick any closing date — as fast as 7 days or whenever works for your schedule.',
+      position: 3,
+    },
+    {
+      '@type': 'HowToStep',
+      name: 'Get Paid at Closing',
+      text: 'Sign at the York County title company, walk away with your cash. No repairs or cleanout required.',
       position: 4,
     },
   ],
