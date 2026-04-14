@@ -10,7 +10,7 @@ import { SITE_URL } from '@/lib/utils';
 export const revalidate = 86400;
 
 export const metadata: Metadata = {
-  title: 'Sell Inherited House Lancaster PA — Cash Offer',
+  title: 'Sell Inherited House Lancaster PA',
   description:
     'Inherited a house in Lancaster PA? We buy inherited properties as-is — rowhouses, farmsteads, estate sales. Cash offer in 24 hours. Work with Lancaster County Register of Wills.',
   alternates: { canonical: `${SITE_URL}/markets/lancaster-pa/inherited-property` },

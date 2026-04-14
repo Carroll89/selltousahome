@@ -10,9 +10,9 @@ import { PHONE, SITE_URL } from '@/lib/utils';
 export const revalidate = 86400;
 
 export const metadata: Metadata = {
-  title: 'Sell House Fast Lancaster PA 2026 — Full Guide',
+  title: 'Sell House Fast Lancaster PA 2026',
   description:
-    'How to sell your house fast in Lancaster PA in 2026 — cash buyers, agents, FSBO, iBuyers compared with real local data. Transfer tax, market stats, neighborhood context. Updated April 2026.',
+    'How to sell your house fast in Lancaster PA in 2026 — cash buyers, agents, FSBO, iBuyers compared. Real data, transfer tax, market stats. April 2026.',
   alternates: { canonical: `${SITE_URL}/guides/sell-house-fast-lancaster-pa-2026` },
 };
 

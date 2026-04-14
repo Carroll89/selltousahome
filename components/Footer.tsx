@@ -80,10 +80,10 @@ export function Footer() {
 
         <div className="border-t border-gray-700 pt-6 text-sm text-gray-500">
           <p className="mb-2">
-            We buy houses across Pennsylvania — Harrisburg, Allentown, Bethlehem, Lancaster, York, King of Prussia, Reading, State College, Erie, and surrounding communities.
+            We buy houses across Pennsylvania and Delaware — Harrisburg, Allentown, Bethlehem, Lancaster, York, King of Prussia, Reading, State College, Erie, Wilmington DE, and surrounding communities.
           </p>
           <p>
-            © {currentYear} USA Home Buyers LLC. All rights reserved. | Serving Pennsylvania homeowners
+            © {currentYear} USA Home Buyers LLC. All rights reserved. | Serving Pennsylvania and Delaware homeowners
           </p>
         </div>
       </div>

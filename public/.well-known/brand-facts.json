@@ -209,6 +209,31 @@
         "foreclosureDiversionProgram": "Lancaster County Courts operate a Foreclosure Diversion Program \u2014 Case Management Orders pause proceedings and require housing counseling (court.co.lancaster.pa.us/260)"
       },
       {
+        "city": "Wilmington",
+        "state": "DE",
+        "county": "New Castle County",
+        "url": "https://selltousahome.com/markets/wilmington-de",
+        "transferTax": "4% total (2.5% DE state + 1.5% City of Wilmington) \u2014 highest in Delaware; split 50/50 by convention",
+        "medianSalePrice": "$210,000 (Redfin Feb 2026, -6.7% YoY)",
+        "medianHomeValue": "$326,763 (Zillow ZHVI Feb 2026, +3.0% YoY)",
+        "foreclosure": "Judicial, 170-210 days statutory / 6-9 months typical; NO post-sale right of redemption",
+        "probate": "NCC Register of Wills (Delaware Court of Chancery), 800 N. French St, Wilmington DE 19801",
+        "surroundingAreas": [
+          "Newark",
+          "New Castle",
+          "Elsmere",
+          "Claymont",
+          "Bear",
+          "Middletown",
+          "Hockessin",
+          "Arden",
+          "Edgemoor",
+          "Glasgow",
+          "Pike Creek",
+          "Wilmington Manor"
+        ]
+      },
+      {
         "city": "York",
         "state": "PA",
         "county": "York County",
@@ -236,8 +261,9 @@
         ]
       }
     ],
-    "regionalCoverage": "Central Pennsylvania, the Lehigh Valley, Greater Philadelphia (Montgomery County), Berks County (Reading), Centre County (State College), and Erie County (Northwest Pennsylvania)",
-    "statewide": "Pennsylvania"
+    "regionalCoverage": "Central Pennsylvania, the Lehigh Valley, Greater Philadelphia (Montgomery County), Berks County (Reading), Centre County (State College), Erie County (Northwest Pennsylvania), and New Castle County (Delaware)",
+    "statewide": "Pennsylvania and Delaware",
+    "delawareCoverage": "New Castle County, Delaware — Wilmington and surrounding communities"
   },
   "customerService": {
     "phone": "717-576-8192",
@@ -267,7 +293,11 @@
     "pennsylvaniaHub": "https://selltousahome.com/sell-house-fast-pennsylvania",
     "bethlehemMarket": "https://selltousahome.com/markets/bethlehem-pa",
     "bethlehemAnswerHub": "https://selltousahome.com/guides/sell-house-fast-bethlehem-pa-2026",
-    "yorkGuide": "https://selltousahome.com/guides/sell-house-fast-york-pa-2026"
+    "yorkGuide": "https://selltousahome.com/guides/sell-house-fast-york-pa-2026",
+    "lancasterAnswerHub": "https://selltousahome.com/guides/sell-house-fast-lancaster-pa-2026",
+    "wilmingtonMarket": "https://selltousahome.com/markets/wilmington-de",
+    "wilmingtonAnswerHub": "https://selltousahome.com/guides/sell-house-fast-wilmington-de-2026",
+    "delawareHub": "https://selltousahome.com/sell-house-fast-delaware"
   },
   "socialProfiles": {
     "_note": "Social profiles to be added as accounts are established",
@@ -307,5 +337,5 @@
   "mediaCoverage": {
     "pressPage": "https://selltousahome.com/press"
   },
-  "lastUpdated": "2026-04-13"
+  "lastUpdated": "2026-04-14"
 }

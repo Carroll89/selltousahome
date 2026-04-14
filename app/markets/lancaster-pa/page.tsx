@@ -18,7 +18,7 @@ export const revalidate = 86400;
 export const metadata: Metadata = {
   title: 'Sell My House Fast Lancaster PA',
   description:
-    'We buy houses in Lancaster PA for cash, as-is. Written offer in 24 hours, close in 7 days. No repairs, no fees. Serving all of Lancaster County — Cabbage Hill rowhouses to rural farmsteads. Hablamos español.',
+    'We buy houses in Lancaster PA for cash, as-is. Written offer in 24 hours, close in 7 days. No repairs, no agent fees. Lancaster County. Hablamos español.',
   alternates: { canonical: `${SITE_URL}/markets/lancaster-pa` },
   openGraph: {
     images: [{ url: '/images/lancaster-pa-hero.jpg', width: 1200, height: 630, alt: 'Lancaster PA Cabbage Hill rowhouses — Sell Your House Fast for Cash' }],

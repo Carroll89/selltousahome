@@ -151,6 +151,31 @@ const CITY_CONFIGS: Record<string, CityConfig> = {
       { '@type': 'County', name: 'Lancaster County' },
     ],
   },
+  wilmington: {
+    city: 'Wilmington',
+    region: 'DE',
+    postalCode: '19801',
+    lat: 39.7447,
+    lng: -75.5484,
+    description:
+      'Cash home buyers in Wilmington, DE and throughout New Castle County. We buy houses as-is in any condition — no repairs, no agent fees, close in 7-14 days.',
+    areaServed: [
+      { '@type': 'City', name: 'Wilmington', sameAs: 'https://en.wikipedia.org/wiki/Wilmington,_Delaware' },
+      { '@type': 'City', name: 'Newark' },
+      { '@type': 'City', name: 'New Castle' },
+      { '@type': 'City', name: 'Elsmere' },
+      { '@type': 'City', name: 'Claymont' },
+      { '@type': 'City', name: 'Bear' },
+      { '@type': 'City', name: 'Middletown' },
+      { '@type': 'City', name: 'Hockessin' },
+      { '@type': 'City', name: 'Arden' },
+      { '@type': 'City', name: 'Edgemoor' },
+      { '@type': 'City', name: 'Glasgow' },
+      { '@type': 'City', name: 'Pike Creek' },
+      { '@type': 'City', name: 'Wilmington Manor' },
+      { '@type': 'County', name: 'New Castle County', sameAs: 'https://en.wikipedia.org/wiki/New_Castle_County,_Delaware' },
+    ],
+  },
   york: {
     city: 'York',
     region: 'PA',
@@ -233,7 +258,7 @@ const CITY_CONFIGS: Record<string, CityConfig> = {
   },
 };
 
-export function localBusinessSchemaFor(cityKey: 'harrisburg' | 'allentown' | 'bethlehem' | 'kingOfPrussia' | 'reading' | 'stateCollege' | 'erie' | 'lancaster' | 'york') {
+export function localBusinessSchemaFor(cityKey: 'harrisburg' | 'allentown' | 'bethlehem' | 'kingOfPrussia' | 'reading' | 'stateCollege' | 'erie' | 'lancaster' | 'york' | 'wilmington') {
   const cfg = CITY_CONFIGS[cityKey];
   return {
     '@context': 'https://schema.org',
@@ -283,6 +308,81 @@ export function localBusinessSchemaFor(cityKey: 'harrisburg' | 'allentown' | 'be
     },
   };
 }
+
+/** Pre-built Wilmington LocalBusiness schema */
+export const wilmingtonLocalBusinessSchema = localBusinessSchemaFor('wilmington');
+
+export const wilmingtonFAQSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'How fast can I sell my house for cash in Wilmington DE?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'USA Home Buyers can close in as few as 7 days in Wilmington DE. We send a written cash offer within 24 hours of learning about your property. According to Redfin, Wilmington homes spend a median of 72 days on market when listed traditionally. A cash sale eliminates showings, inspections, and the bank approval wait entirely.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'How much will you pay for my Wilmington DE house?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Cash offers for Wilmington city homes typically range from 65\u201375% of fair market value. According to Redfin, the Wilmington median sale price is $210,000 (February 2026). We cover all closing costs including Delaware\u2019s 4% transfer tax \u2014 nothing comes out of your offer number.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'What is the transfer tax when selling a house in Wilmington DE?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Wilmington DE has a 4% total real estate transfer tax \u2014 2.5% Delaware state tax plus 1.5% City of Wilmington local tax. By convention this is split 50/50 between buyer and seller, with each paying 2%. On a $210,000 home the total is $8,400. When you sell to USA Home Buyers, we cover all closing costs. Source: Delaware Division of Revenue; New Castle County (newcastlede.gov).',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'How does foreclosure work in Delaware?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Delaware is a judicial foreclosure state. Lenders must file a complaint in New Castle County Superior Court. The typical timeline from first missed payment to sheriff\u2019s sale is 170\u2013210 days by statute, though 6\u20139 months is common in practice. Delaware has no post-sale right of redemption. Source: amerinotexchange.com; Nolo Delaware Foreclosure Laws.',
+      },
+    },
+  ],
+};
+
+export const wilmingtonHowToSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'HowTo',
+  name: 'How to Sell Your House Fast for Cash in Wilmington DE',
+  description: 'Step-by-step process for selling your Wilmington home for cash in New Castle County',
+  step: [
+    {
+      '@type': 'HowToStep',
+      name: 'Submit Your Property Information',
+      text: 'Fill out our 2-minute form with your Wilmington property address, condition, and your timeline.',
+      position: 1,
+    },
+    {
+      '@type': 'HowToStep',
+      name: 'Receive Your Written Cash Offer',
+      text: 'We review your property and send a written cash offer within 24 hours \u2014 no obligation, no pressure.',
+      position: 2,
+    },
+    {
+      '@type': 'HowToStep',
+      name: 'Choose Your Closing Date',
+      text: 'If you accept, pick any closing date \u2014 as fast as 7 days or whenever works for your schedule.',
+      position: 3,
+    },
+    {
+      '@type': 'HowToStep',
+      name: 'Get Paid at Closing',
+      text: 'Sign at the New Castle County title company, walk away with your cash. No repairs or cleanout required.',
+      position: 4,
+    },
+  ],
+};
 
 /** Pre-built Lancaster LocalBusiness schema */
 export const lancasterLocalBusinessSchema = localBusinessSchemaFor('lancaster');
