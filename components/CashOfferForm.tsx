@@ -19,7 +19,22 @@ function getCityFromSourcePage(sourcePage?: string): string {
   if (sourcePage.includes('allentown-pa')) return 'Allentown';
   if (sourcePage.includes('king-of-prussia-pa')) return 'King of Prussia';
   if (sourcePage.includes('reading-pa')) return 'Reading';
+  if (sourcePage.includes('state-college-pa')) return 'State College';
+  if (sourcePage.includes('bethlehem-pa')) return 'Bethlehem';
+  if (sourcePage.includes('lancaster-pa')) return 'Lancaster';
+  if (sourcePage.includes('york-pa')) return 'York';
+  if (sourcePage.includes('wilmington-de')) return 'Wilmington';
+  if (sourcePage.includes('youngstown-oh')) return 'Youngstown';
   return 'Your City';
+}
+
+function getStateFromSourcePage(sourcePage?: string): string {
+  if (!sourcePage) return '';
+  if (sourcePage.includes('wilmington-de')) return 'DE';
+  if (sourcePage.includes('youngstown-oh')) return 'OH';
+  // Default to PA for all Pennsylvania markets
+  if (sourcePage.includes('-pa') || sourcePage.includes('harrisburg') || sourcePage.includes('allentown') || sourcePage.includes('king-of-prussia') || sourcePage.includes('reading') || sourcePage.includes('erie') || sourcePage.includes('state-college') || sourcePage.includes('bethlehem') || sourcePage.includes('lancaster') || sourcePage.includes('york-pa')) return 'PA';
+  return '';
 }
 
 interface FormState {
@@ -45,6 +60,8 @@ export function CashOfferForm({
   placeholderCity,
 }: CashOfferFormProps) {
   const resolvedCity = placeholderCity || getCityFromSourcePage(sourcePage);
+  const resolvedState = getStateFromSourcePage(sourcePage);
+  const addressStateSuffix = resolvedState ? `, ${resolvedState}` : '';
   const [form, setForm] = useState<FormState>({
     name: '',
     phone: '',
@@ -174,7 +191,7 @@ export function CashOfferForm({
             value={form.phone}
             onChange={(e) => setForm({ ...form, phone: e.target.value })}
             className={inputClass}
-            placeholder="(717) 555-0000"
+            placeholder="(555) 555-0000"
           />
           {errors.phone && <p className="mt-1 text-sm text-red-500">{errors.phone}</p>}
         </div>
@@ -190,7 +207,7 @@ export function CashOfferForm({
             value={form.propertyAddress}
             onChange={(e) => setForm({ ...form, propertyAddress: e.target.value })}
             className={inputClass}
-            placeholder={`123 Main St, ${resolvedCity}, PA`}
+            placeholder={`123 Main St, ${resolvedCity}${addressStateSuffix}`}
           />
           {errors.propertyAddress && (
             <p className="mt-1 text-sm text-red-500">{errors.propertyAddress}</p>
