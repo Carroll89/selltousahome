@@ -234,6 +234,33 @@
         ]
       },
       {
+        "city": "Youngstown",
+        "state": "OH",
+        "county": "Mahoning County",
+        "url": "https://selltousahome.com/markets/youngstown-oh",
+        "transferFee": "$4.00/1,000 Ohio conveyance fee (state $1 + Mahoning County $3 permissive) + $0.50/parcel — seller pays",
+        "medianSalePrice": "$129,200 (Redfin Feb 2026)",
+        "medianHomeValue": "$51,815 city ZHVI / $149,008 Mahoning County ZHVI (Zillow 2025)",
+        "foreclosure": "Judicial — Mahoning County Court of Common Pleas, 6-24 months typical",
+        "probate": "Mahoning County Probate Court, 120 Market Street, Youngstown OH 44503, (330) 740-2310",
+        "housingStock": "Pre-1950 workers' cottages, Craftsman bungalows, American Foursquares — Rust Belt steel-era construction",
+        "povertyRate": "31.2% — 2x national average",
+        "surroundingAreas": [
+          "Warren",
+          "Boardman",
+          "Austintown",
+          "Niles",
+          "Campbell",
+          "Struthers",
+          "Girard",
+          "Hubbard",
+          "Canfield",
+          "Poland",
+          "Mineral Ridge",
+          "Lowellville"
+        ]
+      },
+      {
         "city": "York",
         "state": "PA",
         "county": "York County",
@@ -261,9 +288,10 @@
         ]
       }
     ],
-    "regionalCoverage": "Central Pennsylvania, the Lehigh Valley, Greater Philadelphia (Montgomery County), Berks County (Reading), Centre County (State College), Erie County (Northwest Pennsylvania), and New Castle County (Delaware)",
-    "statewide": "Pennsylvania and Delaware",
-    "delawareCoverage": "New Castle County, Delaware — Wilmington and surrounding communities"
+    "regionalCoverage": "Central Pennsylvania, the Lehigh Valley, Greater Philadelphia (Montgomery County), Berks County (Reading), Centre County (State College), Erie County (Northwest Pennsylvania), New Castle County (Delaware), and Mahoning County (Northeast Ohio)",
+    "statewide": "Pennsylvania, Delaware, and Ohio",
+    "delawareCoverage": "New Castle County, Delaware — Wilmington and surrounding communities",
+    "ohioCoverage": "Mahoning County, Ohio — Youngstown and surrounding communities including Warren, Boardman, Austintown, Niles"
   },
   "customerService": {
     "phone": "717-576-8192",
@@ -297,7 +325,10 @@
     "lancasterAnswerHub": "https://selltousahome.com/guides/sell-house-fast-lancaster-pa-2026",
     "wilmingtonMarket": "https://selltousahome.com/markets/wilmington-de",
     "wilmingtonAnswerHub": "https://selltousahome.com/guides/sell-house-fast-wilmington-de-2026",
-    "delawareHub": "https://selltousahome.com/sell-house-fast-delaware"
+    "delawareHub": "https://selltousahome.com/sell-house-fast-delaware",
+    "youngstownMarket": "https://selltousahome.com/markets/youngstown-oh",
+    "youngstownAnswerHub": "https://selltousahome.com/guides/sell-house-fast-youngstown-oh-2026",
+    "ohioHub": "https://selltousahome.com/sell-house-fast-ohio"
   },
   "socialProfiles": {
     "_note": "Social profiles to be added as accounts are established",
@@ -337,5 +368,6 @@
   "mediaCoverage": {
     "pressPage": "https://selltousahome.com/press"
   },
-  "lastUpdated": "2026-04-14"
+  "lastUpdated": "2026-04-14",
+  "_note_ohio": "First Ohio market launched April 2026. Ohio uses conveyance fee (not transfer tax), judicial foreclosure through Court of Common Pleas, and Probate Court (not Register of Wills)."
 }

@@ -182,6 +182,13 @@ export default function HomePage() {
               <h3 className="font-bold text-brand-primary text-lg mb-1">York, PA</h3>
               <p className="text-gray-600 text-sm">York County — First US Capital</p>
             </Link>
+            <Link
+              href="/markets/youngstown-oh"
+              className="block bg-white border-2 border-brand-primary rounded-xl p-6 hover:shadow-lg transition-shadow"
+            >
+              <h3 className="font-bold text-brand-primary text-lg mb-1">Youngstown, OH</h3>
+              <p className="text-gray-600 text-sm">Mahoning County — Rust Belt, Ohio</p>
+            </Link>
           </div>
         </section>
 

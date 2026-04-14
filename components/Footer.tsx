@@ -11,7 +11,7 @@ export function Footer() {
           <div>
             <h3 className="text-white font-bold text-lg mb-3">USA Home Buyers</h3>
             <p className="text-sm mb-3">
-              We buy houses for cash across Pennsylvania — Harrisburg, Allentown, Bethlehem, King of Prussia, Reading, State College, Erie, and surrounding areas. Any condition, any situation.
+              We buy houses for cash across Pennsylvania, Delaware, and Ohio — Harrisburg, Allentown, Bethlehem, Lancaster, York, Wilmington DE, Youngstown OH, and surrounding areas. Any condition, any situation.
             </p>
             <p className="text-sm">
               <strong className="text-white">Phone:</strong>{' '}
@@ -46,6 +46,10 @@ export function Footer() {
               <li><Link href="/markets/lancaster-pa/market-report" className="hover:text-white">Lancaster Market Report</Link></li>
               <li><Link href="/markets/york-pa" className="hover:text-white">York, PA</Link></li>
               <li><Link href="/markets/york-pa/market-report" className="hover:text-white">York Market Report</Link></li>
+              <li><Link href="/markets/wilmington-de" className="hover:text-white">Wilmington, DE</Link></li>
+              <li><Link href="/markets/youngstown-oh" className="hover:text-white">Youngstown, OH</Link></li>
+              <li><Link href="/markets/youngstown-oh/market-report" className="hover:text-white">Youngstown Market Report</Link></li>
+              <li><Link href="/sell-house-fast-ohio" className="hover:text-white">Sell House Fast Ohio</Link></li>
             </ul>
           </div>
 
@@ -80,10 +84,10 @@ export function Footer() {
 
         <div className="border-t border-gray-700 pt-6 text-sm text-gray-500">
           <p className="mb-2">
-            We buy houses across Pennsylvania and Delaware — Harrisburg, Allentown, Bethlehem, Lancaster, York, King of Prussia, Reading, State College, Erie, Wilmington DE, and surrounding communities.
+            We buy houses across Pennsylvania, Delaware, and Ohio — Harrisburg, Allentown, Bethlehem, Lancaster, York, King of Prussia, Reading, State College, Erie, Wilmington DE, Youngstown OH, and surrounding communities.
           </p>
           <p>
-            © {currentYear} USA Home Buyers LLC. All rights reserved. | Serving Pennsylvania and Delaware homeowners
+            © {currentYear} USA Home Buyers LLC. All rights reserved. | Serving Pennsylvania, Delaware, and Ohio homeowners
           </p>
         </div>
       </div>

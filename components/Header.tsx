@@ -56,6 +56,9 @@ export function Header() {
             <Link href="/markets/wilmington-de" className="text-gray-600 hover:text-brand-primary">
               Wilmington DE
             </Link>
+            <Link href="/markets/youngstown-oh" className="text-gray-600 hover:text-brand-primary">
+              Youngstown OH
+            </Link>
             <Link href="/guides/sell-house-fast-harrisburg-pa-2026" className="text-gray-600 hover:text-brand-primary">
               Seller Guides
             </Link>
@@ -110,6 +113,7 @@ export function Header() {
               { href: '/markets/lancaster-pa', label: 'Lancaster PA' },
               { href: '/markets/york-pa', label: 'York PA' },
               { href: '/markets/wilmington-de', label: 'Wilmington DE' },
+              { href: '/markets/youngstown-oh', label: 'Youngstown OH' },
               { href: '/guides/sell-house-fast-harrisburg-pa-2026', label: 'Seller Guides' },
               { href: '/resources/how-the-process-works', label: 'How It Works' },
               { href: '/reviews', label: 'Reviews' },

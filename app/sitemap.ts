@@ -132,6 +132,21 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/guides/sell-house-fast-wilmington-de-2026`, priority: 1.0, changeFrequency: 'monthly' as const },
     // Delaware state hub
     { url: `${baseUrl}/sell-house-fast-delaware`, priority: 0.9, changeFrequency: 'monthly' as const },
+    // Youngstown OH
+    { url: `${baseUrl}/markets/youngstown-oh`, priority: 1.0, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/markets/youngstown-oh/market-report`, priority: 0.9, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/markets/youngstown-oh/inherited-property`, priority: 0.9, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/markets/youngstown-oh/foreclosure`, priority: 0.9, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/markets/youngstown-oh/divorce-sale`, priority: 0.9, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/markets/youngstown-oh/probate`, priority: 0.9, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/markets/youngstown-oh/tenant-occupied`, priority: 0.9, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/markets/youngstown-oh/code-violations`, priority: 0.9, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/markets/youngstown-oh/fire-damage`, priority: 0.9, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/markets/youngstown-oh/faq`, priority: 0.8, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/markets/youngstown-oh/neighborhoods`, priority: 0.8, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/guides/sell-house-fast-youngstown-oh-2026`, priority: 1.0, changeFrequency: 'monthly' as const },
+    // Ohio state hub
+    { url: `${baseUrl}/sell-house-fast-ohio`, priority: 0.9, changeFrequency: 'monthly' as const },
     { url: `${baseUrl}/blog`, priority: 0.8, changeFrequency: 'weekly' as const },
     { url: `${baseUrl}/blog/sell-inherited-house-pennsylvania`, priority: 0.8, changeFrequency: 'monthly' as const },
     { url: `${baseUrl}/blog/sell-house-with-code-violations-pa`, priority: 0.8, changeFrequency: 'monthly' as const },

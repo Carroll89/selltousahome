@@ -235,6 +235,32 @@ const CITY_CONFIGS: Record<string, CityConfig> = {
       { '@type': 'County', name: 'Lehigh County' },
     ],
   },
+  youngstown: {
+    city: 'Youngstown',
+    region: 'OH',
+    postalCode: '44503',
+    lat: 41.0998,
+    lng: -80.6495,
+    description:
+      'USA Home Buyers LLC buys houses for cash in Youngstown, Ohio and throughout Mahoning County. Written offer in 24 hours, close in 7-14 days. Any condition.',
+    areaServed: [
+      { '@type': 'City', name: 'Youngstown', sameAs: 'https://en.wikipedia.org/wiki/Youngstown,_Ohio' },
+      { '@type': 'City', name: 'Warren' },
+      { '@type': 'City', name: 'Boardman' },
+      { '@type': 'City', name: 'Austintown' },
+      { '@type': 'City', name: 'Niles' },
+      { '@type': 'City', name: 'Campbell' },
+      { '@type': 'City', name: 'Struthers' },
+      { '@type': 'City', name: 'Girard' },
+      { '@type': 'City', name: 'Hubbard' },
+      { '@type': 'City', name: 'Canfield' },
+      { '@type': 'City', name: 'Poland' },
+      { '@type': 'City', name: 'Mineral Ridge' },
+      { '@type': 'City', name: 'Lowellville' },
+      { '@type': 'County', name: 'Mahoning County' },
+      { '@type': 'County', name: 'Trumbull County' },
+    ],
+  },
   allentown: {
     city: 'Allentown',
     region: 'PA',
@@ -258,7 +284,7 @@ const CITY_CONFIGS: Record<string, CityConfig> = {
   },
 };
 
-export function localBusinessSchemaFor(cityKey: 'harrisburg' | 'allentown' | 'bethlehem' | 'kingOfPrussia' | 'reading' | 'stateCollege' | 'erie' | 'lancaster' | 'york' | 'wilmington') {
+export function localBusinessSchemaFor(cityKey: 'harrisburg' | 'allentown' | 'bethlehem' | 'kingOfPrussia' | 'reading' | 'stateCollege' | 'erie' | 'lancaster' | 'york' | 'wilmington' | 'youngstown') {
   const cfg = CITY_CONFIGS[cityKey];
   return {
     '@context': 'https://schema.org',
@@ -308,6 +334,81 @@ export function localBusinessSchemaFor(cityKey: 'harrisburg' | 'allentown' | 'be
     },
   };
 }
+
+/** Pre-built Youngstown LocalBusiness schema */
+export const youngstownLocalBusinessSchema = localBusinessSchemaFor('youngstown');
+
+export const youngstownFAQSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'How fast can I sell my house for cash in Youngstown OH?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'USA Home Buyers can close in as few as 7 days in Youngstown OH. We send a written cash offer within 24 hours of learning about your property. According to Redfin, Youngstown homes spend a median of 70 days on market when listed. A cash sale eliminates showings, inspections, and bank approval entirely.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'How much will you pay for my Youngstown OH house?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Cash offers for Youngstown homes typically range from 65\u201375% of after-repair value. According to Redfin, the Youngstown median sale price is $129,200 (February 2026). We cover all closing costs including Ohio\u2019s conveyance fee \u2014 nothing comes out of your offer.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'What is the conveyance fee when selling a house in Youngstown OH?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Ohio uses a conveyance fee instead of a transfer tax. In Mahoning County the total is $4.00 per $1,000 of sale price \u2014 $1/1,000 state (ORC \u00a7 319.202) plus $3/1,000 county permissive (ORC \u00a7 322.02) \u2014 plus a $0.50 per-parcel transfer fee. The seller pays. On a $129,200 sale, the conveyance fee is about $517. Source: Mahoning County Auditor (auditor.mahoningcountyoh.gov).',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'How does foreclosure work in Ohio?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Ohio is a judicial foreclosure state. Every foreclosure must go through the Mahoning County Court of Common Pleas. The process runs 6\u201324 months from first missed payment to confirmation of the sheriff\u2019s sale. Ohio requires mediation referral for residential foreclosures (HB 130). Source: Ohio Legal Help (ohiolegalhelp.org/foreclosure_timeline).',
+      },
+    },
+  ],
+};
+
+export const youngstownHowToSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'HowTo',
+  name: 'How to Sell Your House Fast for Cash in Youngstown OH',
+  description: 'Step-by-step process for selling your Youngstown home for cash in Mahoning County, Ohio',
+  step: [
+    {
+      '@type': 'HowToStep',
+      name: 'Submit Your Property Information',
+      text: 'Fill out our 2-minute form with your Youngstown property address, condition, and your timeline.',
+      position: 1,
+    },
+    {
+      '@type': 'HowToStep',
+      name: 'Receive Your Written Cash Offer',
+      text: 'We review your property and send a written cash offer within 24 hours \u2014 no obligation, no pressure.',
+      position: 2,
+    },
+    {
+      '@type': 'HowToStep',
+      name: 'Choose Your Closing Date',
+      text: 'If you accept, pick any closing date \u2014 as fast as 7 days or whenever works for your schedule.',
+      position: 3,
+    },
+    {
+      '@type': 'HowToStep',
+      name: 'Get Paid at Closing',
+      text: 'Sign at the Mahoning County title company, walk away with your cash. No repairs or cleanout required.',
+      position: 4,
+    },
+  ],
+};
 
 /** Pre-built Wilmington LocalBusiness schema */
 export const wilmingtonLocalBusinessSchema = localBusinessSchemaFor('wilmington');
