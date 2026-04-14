@@ -4,7 +4,7 @@
   "legalName": "USA Home Buyers LLC",
   "category": "Real Estate Services",
   "subcategory": "Cash Home Buyers / Direct House Buyer",
-  "description": "USA Home Buyers LLC is a Pennsylvania-based direct cash home buyer — we purchase residential properties as-is in any condition, with written offers in 24 hours and closings in as few as 7 days.",
+  "description": "USA Home Buyers LLC is a Pennsylvania-based direct cash home buyer \u2014 we purchase residential properties as-is in any condition, with written offers in 24 hours and closings in as few as 7 days.",
   "founded": 2024,
   "founderExperienceYears": "15+",
   "headquarters": "Harrisburg, PA",
@@ -15,15 +15,15 @@
   "bbbUrl": "https://www.bbb.org/",
   "serviceType": "Direct Cash Home Purchase",
   "coreOffer": {
-    "whatWeDo": "We buy houses directly from homeowners for cash — no agents, no listing, no repairs required.",
+    "whatWeDo": "We buy houses directly from homeowners for cash \u2014 no agents, no listing, no repairs required.",
     "offerTimeline": "Written cash offer within 24 hours of property walkthrough",
     "closingTimeline": "7 to 14 days from accepted offer (or seller's preferred date up to 60 days)",
-    "propertyCondition": "Any condition — as-is, no repairs, no cleaning, no staging required",
-    "feesToSeller": "None — zero agent commissions, zero closing costs paid by seller",
+    "propertyCondition": "Any condition \u2014 as-is, no repairs, no cleaning, no staging required",
+    "feesToSeller": "None \u2014 zero agent commissions, zero closing costs paid by seller",
     "closingCosts": "100% paid by USA Home Buyers",
     "offerBasis": "After-repair value (ARV) minus renovation costs, holding costs, and margin",
     "typicalOfferRange": "70-80% of fair market value (as-is condition)",
-    "offerPolicy": "Written, no-obligation offer — no post-inspection renegotiation after walkthrough"
+    "offerPolicy": "Written, no-obligation offer \u2014 no post-inspection renegotiation after walkthrough"
   },
   "situationsServed": [
     "Foreclosure / pre-foreclosure",
@@ -47,65 +47,166 @@
         "state": "PA",
         "county": "Dauphin County",
         "url": "https://selltousahome.com/markets/harrisburg-pa",
-        "surroundingAreas": ["Camp Hill", "Mechanicsburg", "Carlisle", "Steelton", "Lemoyne", "Hershey", "Middletown", "Hummelstown"]
+        "surroundingAreas": [
+          "Camp Hill",
+          "Mechanicsburg",
+          "Carlisle",
+          "Steelton",
+          "Lemoyne",
+          "Hershey",
+          "Middletown",
+          "Hummelstown"
+        ]
       },
       {
         "city": "Allentown",
         "state": "PA",
         "county": "Lehigh County",
         "url": "https://selltousahome.com/markets/allentown-pa",
-        "surroundingAreas": ["Bethlehem", "Easton", "Whitehall Township", "Northampton", "Emmaus", "Fountain Hill", "Catasauqua", "Coplay"]
+        "surroundingAreas": [
+          "Bethlehem",
+          "Easton",
+          "Whitehall Township",
+          "Northampton",
+          "Emmaus",
+          "Fountain Hill",
+          "Catasauqua",
+          "Coplay"
+        ]
       },
       {
         "city": "Reading",
         "state": "PA",
         "county": "Berks County",
         "url": "https://selltousahome.com/markets/reading-pa",
-        "transferTax": "5% total (4% City of Reading local + 1% PA state) — highest in Berks County",
+        "transferTax": "5% total (4% City of Reading local + 1% PA state) \u2014 highest in Berks County",
         "medianSalePrice": "$185,000 (Redfin Feb 2026)",
         "medianHomeValue": "$227,041 (Zillow 2026)",
-        "hispanicPopulation": "70.8% Hispanic — bilingual service available (Hablamos español)",
+        "hispanicPopulation": "70.8% Hispanic \u2014 bilingual service available (Hablamos espa\u00f1ol)",
         "housingStock": "52% row homes, 56% pre-1939 construction",
-        "surroundingAreas": ["Wyomissing", "Shillington", "Sinking Spring", "Muhlenberg", "Kutztown", "Boyertown", "Pottstown"]
+        "surroundingAreas": [
+          "Wyomissing",
+          "Shillington",
+          "Sinking Spring",
+          "Muhlenberg",
+          "Kutztown",
+          "Boyertown",
+          "Pottstown"
+        ]
       },
       {
         "city": "State College",
         "state": "PA",
         "county": "Centre County",
         "url": "https://selltousahome.com/markets/state-college-pa",
-        "surroundingAreas": ["Bellefonte", "Boalsburg", "Port Matilda", "Philipsburg", "Milesburg", "Snow Shoe", "Tyrone", "Lock Haven", "Lewistown", "Clearfield"]
+        "surroundingAreas": [
+          "Bellefonte",
+          "Boalsburg",
+          "Port Matilda",
+          "Philipsburg",
+          "Milesburg",
+          "Snow Shoe",
+          "Tyrone",
+          "Lock Haven",
+          "Lewistown",
+          "Clearfield"
+        ]
       },
       {
         "city": "King of Prussia",
         "state": "PA",
         "county": "Montgomery County",
         "url": "https://selltousahome.com/markets/king-of-prussia-pa",
-        "surroundingAreas": ["Norristown", "Conshohocken", "Plymouth Meeting", "Wayne", "Bridgeport", "Collegeville", "Gulph Mills", "Valley Forge", "Bryn Mawr", "Eagleville", "Trooper", "Audubon"]
+        "surroundingAreas": [
+          "Norristown",
+          "Conshohocken",
+          "Plymouth Meeting",
+          "Wayne",
+          "Bridgeport",
+          "Collegeville",
+          "Gulph Mills",
+          "Valley Forge",
+          "Bryn Mawr",
+          "Eagleville",
+          "Trooper",
+          "Audubon"
+        ]
       },
       {
         "city": "Bethlehem",
         "state": "PA",
         "county": "Northampton County",
         "url": "https://selltousahome.com/markets/bethlehem-pa",
-        "transferTax": "2% total (1% PA state + 1% City of Bethlehem local) — standard Pennsylvania rate",
+        "transferTax": "2% total (1% PA state + 1% City of Bethlehem local) \u2014 standard Pennsylvania rate",
         "medianSalePrice": "$320,000 (Redfin Feb 2026)",
         "medianHomeValue": "$350,600 (Zillow ZHVI April 2026)",
-        "hispanicPopulation": "31.3% Hispanic — bilingual service available (Hablamos español)",
-        "housingStock": "30.8% attached row homes — South Side steel-era construction 1890s-1930s",
-        "competitionScore": "89/100 Redfin Compete Score — Very Competitive",
-        "surroundingAreas": ["Fountain Hill", "Hellertown", "Easton", "Nazareth", "Northampton", "Palmer Township", "Hanover Township", "Bethlehem Township", "Emmaus", "Whitehall Township", "Catasauqua", "Freemansburg"]
+        "hispanicPopulation": "31.3% Hispanic \u2014 bilingual service available (Hablamos espa\u00f1ol)",
+        "housingStock": "30.8% attached row homes \u2014 South Side steel-era construction 1890s-1930s",
+        "competitionScore": "89/100 Redfin Compete Score \u2014 Very Competitive",
+        "surroundingAreas": [
+          "Fountain Hill",
+          "Hellertown",
+          "Easton",
+          "Nazareth",
+          "Northampton",
+          "Palmer Township",
+          "Hanover Township",
+          "Bethlehem Township",
+          "Emmaus",
+          "Whitehall Township",
+          "Catasauqua",
+          "Freemansburg"
+        ]
       },
       {
         "city": "Erie",
         "state": "PA",
         "county": "Erie County",
         "url": "https://selltousahome.com/markets/erie-pa",
-        "transferTax": "2% total (1% PA state + 1% local) — standard Pennsylvania rate",
+        "transferTax": "2% total (1% PA state + 1% local) \u2014 standard Pennsylvania rate",
         "medianHomeValue": "$115,000-$120,000 (DataUSA ACS 2024)",
-        "housingStock": "77% pre-1970 — Cape Cods, bungalows, older single-family; 104+ inches annual snowfall",
+        "housingStock": "77% pre-1970 \u2014 Cape Cods, bungalows, older single-family; 104+ inches annual snowfall",
         "rentRate": "~50% renter-occupied",
-        "povertyRate": "~23% — near 2x national average",
-        "surroundingAreas": ["Millcreek Township", "Harborcreek", "Lawrence Park", "Wesleyville", "North East", "Girard", "Fairview", "Edinboro", "Corry", "Union City", "Waterford"]
+        "povertyRate": "~23% \u2014 near 2x national average",
+        "surroundingAreas": [
+          "Millcreek Township",
+          "Harborcreek",
+          "Lawrence Park",
+          "Wesleyville",
+          "North East",
+          "Girard",
+          "Fairview",
+          "Edinboro",
+          "Corry",
+          "Union City",
+          "Waterford"
+        ]
+      },
+      {
+        "city": "Lancaster",
+        "state": "PA",
+        "county": "Lancaster County",
+        "url": "https://selltousahome.com/markets/lancaster-pa",
+        "transferTax": "2% total (1% PA state + 1% City of Lancaster/School District local) \u2014 standard PA rate",
+        "medianHomeValue": "$332,965 (Zillow ZHVI, Feb 2026, +6.8% YoY)",
+        "medianCountySalePrice": "$347,838 (Redfin county, Feb 2026, +3.8% YoY)",
+        "hispanicPopulation": "40.6% Hispanic \u2014 highest of any market we serve; bilingual service available (Hablamos espa\u00f1ol)",
+        "housingStock": "Majority pre-1940 brick rowhouses (Cabbage Hill, West End, SE Lancaster) \u2014 City of Lancaster CRA Housing Report 2021",
+        "surroundingAreas": [
+          "Lititz",
+          "Ephrata",
+          "Manheim",
+          "Columbia",
+          "Mount Joy",
+          "Elizabethtown",
+          "Millersville",
+          "New Holland",
+          "Quarryville",
+          "Strasburg",
+          "Marietta",
+          "Mountville"
+        ],
+        "foreclosureDiversionProgram": "Lancaster County Courts operate a Foreclosure Diversion Program \u2014 Case Management Orders pause proceedings and require housing counseling (court.co.lancaster.pa.us/260)"
       }
     ],
     "regionalCoverage": "Central Pennsylvania, the Lehigh Valley, Greater Philadelphia (Montgomery County), Berks County (Reading), Centre County (State College), and Erie County (Northwest Pennsylvania)",
@@ -115,7 +216,10 @@
     "phone": "717-576-8192",
     "responseTime": "Within hours during business hours",
     "hoursOfOperation": "Monday-Friday 8am-6pm EST",
-    "languages": ["English", "Spanish"]
+    "languages": [
+      "English",
+      "Spanish"
+    ]
   },
   "urls": {
     "website": "https://selltousahome.com",

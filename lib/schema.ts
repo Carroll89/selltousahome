@@ -124,6 +124,33 @@ const CITY_CONFIGS: Record<string, CityConfig> = {
       { '@type': 'County', name: 'Erie County' },
     ],
   },
+  lancaster: {
+    city: 'Lancaster',
+    region: 'PA',
+    postalCode: '17602',
+    lat: 40.0379,
+    lng: -76.3055,
+    description:
+      'USA Home Buyers purchases homes for cash in Lancaster, PA and throughout Lancaster County — including Lititz, Ephrata, Manheim, Columbia, Mount Joy, and Elizabethtown — with 24-hour offers and 7–14 day closings; hablamos español.',
+    areaServed: [
+      { '@type': 'City', name: 'Lancaster', sameAs: 'https://en.wikipedia.org/wiki/Lancaster,_Pennsylvania' },
+      { '@type': 'City', name: 'Lititz' },
+      { '@type': 'City', name: 'Ephrata' },
+      { '@type': 'City', name: 'Manheim' },
+      { '@type': 'City', name: 'Columbia' },
+      { '@type': 'City', name: 'Mount Joy' },
+      { '@type': 'City', name: 'Elizabethtown' },
+      { '@type': 'City', name: 'Millersville' },
+      { '@type': 'City', name: 'New Holland' },
+      { '@type': 'City', name: 'Quarryville' },
+      { '@type': 'City', name: 'Strasburg' },
+      { '@type': 'City', name: 'East Petersburg' },
+      { '@type': 'City', name: 'Akron' },
+      { '@type': 'City', name: 'Marietta' },
+      { '@type': 'City', name: 'Mountville' },
+      { '@type': 'County', name: 'Lancaster County' },
+    ],
+  },
   bethlehem: {
     city: 'Bethlehem',
     region: 'PA',
@@ -174,7 +201,7 @@ const CITY_CONFIGS: Record<string, CityConfig> = {
   },
 };
 
-export function localBusinessSchemaFor(cityKey: 'harrisburg' | 'allentown' | 'bethlehem' | 'kingOfPrussia' | 'reading' | 'stateCollege' | 'erie') {
+export function localBusinessSchemaFor(cityKey: 'harrisburg' | 'allentown' | 'bethlehem' | 'kingOfPrussia' | 'reading' | 'stateCollege' | 'erie' | 'lancaster') {
   const cfg = CITY_CONFIGS[cityKey];
   return {
     '@context': 'https://schema.org',
@@ -224,6 +251,81 @@ export function localBusinessSchemaFor(cityKey: 'harrisburg' | 'allentown' | 'be
     },
   };
 }
+
+/** Pre-built Lancaster LocalBusiness schema */
+export const lancasterLocalBusinessSchema = localBusinessSchemaFor('lancaster');
+
+export const lancasterFAQSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'How fast can I sell my house for cash in Lancaster PA?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'USA Home Buyers can close in as few as 7 days in Lancaster PA. We send a written cash offer within 24 hours of learning about your property. According to Redfin, Lancaster City homes go pending in about 19 days on the open market — and that path requires showings, inspections, and lender approval. With a cash sale, there is no bank, no contingency wait, no mortgage to clear.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'How much will you pay for my Lancaster PA house?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Cash offers for Lancaster homes typically range from 70–80% of fair market value. According to Zillow, the Lancaster City median home value is $332,965 (February 2026). A typical cash offer on a Cabbage Hill or West End rowhouse near the $233,000 neighborhood median ranges from $163,000–$186,000. We cover all closing costs — no agent commissions, no fees deducted from your number.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'What is the transfer tax when selling a house in Lancaster PA?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Lancaster PA has a standard 2% total real estate transfer tax — 1% Commonwealth of Pennsylvania plus 1% local (City of Lancaster and School District of Lancaster). By convention, buyer and seller each pay half — 1% each. On a $235,000 home, the total tax is $4,700. When you sell to USA Home Buyers, we cover all closing costs. Source: PA Department of Revenue; ALT Title PA Transfer Tax Deviations List (July 2025).',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: '\u00bfCompran casas en Lancaster PA? / Do you work with Spanish-speaking sellers?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'S\u00ed, hablamos espa\u00f1ol. According to the U.S. Census Bureau ACS, 40.6% of Lancaster City residents identify as Hispanic or Latino — the highest of any market we serve. Call us in English or Spanish. We understand the neighborhoods, the housing stock, and the process.',
+      },
+    },
+  ],
+};
+
+export const lancasterHowToSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'HowTo',
+  name: 'How to Sell Your House Fast for Cash in Lancaster PA',
+  description: 'Step-by-step process for selling your Lancaster home for cash in Lancaster County',
+  step: [
+    {
+      '@type': 'HowToStep',
+      name: 'Submit Your Property Information',
+      text: 'Fill out our 2-minute form with your Lancaster property address, condition, and your timeline.',
+      position: 1,
+    },
+    {
+      '@type': 'HowToStep',
+      name: 'Receive Your Written Cash Offer',
+      text: 'We review your property and send a written cash offer within 24 hours — no obligation, no pressure.',
+      position: 2,
+    },
+    {
+      '@type': 'HowToStep',
+      name: 'Choose Your Closing Date',
+      text: 'If you accept, pick any closing date — as fast as 7 days or whenever works for your schedule.',
+      position: 3,
+    },
+    {
+      '@type': 'HowToStep',
+      name: 'Get Paid at Closing',
+      text: 'Sign at the Lancaster County title company, walk away with your cash. No repairs or cleanout required.',
+      position: 4,
+    },
+  ],
+};
 
 /** Pre-built Bethlehem LocalBusiness schema */
 export const bethlehemLocalBusinessSchema = localBusinessSchemaFor('bethlehem');

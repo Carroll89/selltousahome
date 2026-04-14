@@ -42,6 +42,8 @@ export function Footer() {
               <li><Link href="/markets/erie-pa/market-report" className="hover:text-white">Erie Market Report</Link></li>
               <li><Link href="/markets/bethlehem-pa" className="hover:text-white">Bethlehem, PA</Link></li>
               <li><Link href="/markets/bethlehem-pa/market-report" className="hover:text-white">Bethlehem Market Report</Link></li>
+              <li><Link href="/markets/lancaster-pa" className="hover:text-white">Lancaster, PA</Link></li>
+              <li><Link href="/markets/lancaster-pa/market-report" className="hover:text-white">Lancaster Market Report</Link></li>
             </ul>
           </div>
 
@@ -76,7 +78,7 @@ export function Footer() {
 
         <div className="border-t border-gray-700 pt-6 text-sm text-gray-500">
           <p className="mb-2">
-            We buy houses across Pennsylvania — Harrisburg, Allentown, Bethlehem, King of Prussia, Reading, State College, Erie, and surrounding communities.
+            We buy houses across Pennsylvania — Harrisburg, Allentown, Bethlehem, Lancaster, King of Prussia, Reading, State College, Erie, and surrounding communities.
           </p>
           <p>
             © {currentYear} USA Home Buyers LLC. All rights reserved. | Serving Pennsylvania homeowners
