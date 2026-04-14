@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
 import { SITE_URL } from '@/lib/utils';
+import { getAllPosts } from '@/lib/blog';
 
 export const metadata: Metadata = {
   title: 'Blog | Selling Your House in Pennsylvania',
@@ -24,35 +25,7 @@ const blogSchema = {
   },
 };
 
-const POSTS = [
-  {
-    slug: 'sell-inherited-house-pennsylvania',
-    title: 'How to Sell an Inherited House in Pennsylvania',
-    excerpt:
-      'Inheriting a house is equal parts gift and burden. Here\'s what you need to know about probate, taxes, multiple heirs, and selling as-is.',
-    date: 'April 9, 2026',
-    category: 'Inherited Property',
-    readTime: '8 min',
-  },
-  {
-    slug: 'sell-house-with-code-violations-pa',
-    title: 'Selling a House With Code Violations in Pennsylvania',
-    excerpt:
-      'Open permits, point-of-sale inspections, failed systems — code violations don\'t have to stop your sale. Learn how cash buyers handle them.',
-    date: 'April 10, 2026',
-    category: 'Code Violations',
-    readTime: '7 min',
-  },
-  {
-    slug: 'cash-buyer-vs-realtor-pennsylvania',
-    title: 'Cash Buyer vs. Realtor in Pennsylvania: What\'s the Real Difference?',
-    excerpt:
-      'An honest, numbers-based comparison of cash buyers vs. real estate agents in PA. When each option wins — no spin.',
-    date: 'April 11, 2026',
-    category: 'Comparison',
-    readTime: '9 min',
-  },
-];
+const POSTS = getAllPosts();
 
 const CATEGORY_COLORS: Record<string, string> = {
   'Inherited Property': 'bg-purple-100 text-purple-700',
@@ -65,7 +38,7 @@ const CATEGORY_COLORS: Record<string, string> = {
   'Education': 'bg-gray-100 text-gray-700',
 };
 
-export default function BlogIndexPage() {
+export default async function BlogIndexPage() {
   return (
     <>
       <SchemaMarkup schema={[blogSchema]} />
