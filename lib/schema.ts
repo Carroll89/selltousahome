@@ -124,6 +124,33 @@ const CITY_CONFIGS: Record<string, CityConfig> = {
       { '@type': 'County', name: 'Erie County' },
     ],
   },
+  bethlehem: {
+    city: 'Bethlehem',
+    region: 'PA',
+    postalCode: '18018',
+    lat: 40.625932,
+    lng: -75.370458,
+    description:
+      'Cash home buyers serving Bethlehem PA and Northampton County. We buy houses as-is in any condition — no repairs, no agent fees, close in 7-14 days. Hablamos español.',
+    areaServed: [
+      { '@type': 'City', name: 'Bethlehem', sameAs: 'https://en.wikipedia.org/wiki/Bethlehem,_Pennsylvania' },
+      { '@type': 'City', name: 'Easton' },
+      { '@type': 'City', name: 'Nazareth' },
+      { '@type': 'City', name: 'Hellertown' },
+      { '@type': 'City', name: 'Fountain Hill' },
+      { '@type': 'City', name: 'Whitehall Township' },
+      { '@type': 'City', name: 'Palmer Township' },
+      { '@type': 'City', name: 'Hanover Township' },
+      { '@type': 'City', name: 'Bethlehem Township' },
+      { '@type': 'City', name: 'Wilson Borough' },
+      { '@type': 'City', name: 'Freemansburg' },
+      { '@type': 'City', name: 'Northampton' },
+      { '@type': 'City', name: 'Emmaus' },
+      { '@type': 'City', name: 'Catasauqua' },
+      { '@type': 'County', name: 'Northampton County' },
+      { '@type': 'County', name: 'Lehigh County' },
+    ],
+  },
   allentown: {
     city: 'Allentown',
     region: 'PA',
@@ -147,7 +174,7 @@ const CITY_CONFIGS: Record<string, CityConfig> = {
   },
 };
 
-export function localBusinessSchemaFor(cityKey: 'harrisburg' | 'allentown' | 'kingOfPrussia' | 'reading' | 'stateCollege' | 'erie') {
+export function localBusinessSchemaFor(cityKey: 'harrisburg' | 'allentown' | 'bethlehem' | 'kingOfPrussia' | 'reading' | 'stateCollege' | 'erie') {
   const cfg = CITY_CONFIGS[cityKey];
   return {
     '@context': 'https://schema.org',
@@ -197,6 +224,81 @@ export function localBusinessSchemaFor(cityKey: 'harrisburg' | 'allentown' | 'ki
     },
   };
 }
+
+/** Pre-built Bethlehem LocalBusiness schema */
+export const bethlehemLocalBusinessSchema = localBusinessSchemaFor('bethlehem');
+
+export const bethlehemFAQSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: [
+    {
+      '@type': 'Question',
+      name: 'How fast can I sell my house for cash in Bethlehem PA?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'USA Home Buyers can close in as few as 7 days in Bethlehem PA. We send a written cash offer within 24 hours of learning about your property. According to Redfin, Bethlehem homes sell in about 10 days on the open market — but that requires showings, repairs, and lender wait time. With us, there is no waiting on bank approval.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'How much will you pay for my Bethlehem PA house?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Cash offers for Bethlehem homes typically range from 70-80% of fair market value. According to Redfin, the median sale price in Bethlehem is $320,000 (February 2026), so a typical cash offer ranges from $224,000-$256,000. South Side row homes near $245,000 median yield offers of approximately $172,000-$196,000. We cover all closing costs — no commissions, no fees.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: 'What is the transfer tax when selling a house in Bethlehem PA?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'Bethlehem PA has a standard 2% total real estate transfer tax — 1% Pennsylvania state tax plus 1% City of Bethlehem local tax. By convention this is split 50/50 between buyer and seller. On a $320,000 home, the total tax is $6,400, with seller paying $3,200. When you sell to USA Home Buyers, we cover all closing costs. Source: City of Bethlehem Ordinance Article 335.',
+      },
+    },
+    {
+      '@type': 'Question',
+      name: '\u00bfCompran casas en Bethlehem PA? / Do you buy houses from Spanish-speaking sellers?',
+      acceptedAnswer: {
+        '@type': 'Answer',
+        text: 'S\u00ed, hablamos espa\u00f1ol. We serve Bethlehem\'s Hispanic community, which represents 31.3% of the city population. Call us to discuss your property in English or Spanish. We understand the South Side neighborhoods and work with sellers from all backgrounds.',
+      },
+    },
+  ],
+};
+
+export const bethlehemHowToSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'HowTo',
+  name: 'How to Sell Your House Fast for Cash in Bethlehem PA',
+  description: 'Step-by-step process for selling your Bethlehem home for cash in Northampton County',
+  step: [
+    {
+      '@type': 'HowToStep',
+      name: 'Submit Your Property Information',
+      text: 'Fill out our 2-minute form with basic details about your Bethlehem property — address, condition, your timeline.',
+      position: 1,
+    },
+    {
+      '@type': 'HowToStep',
+      name: 'Receive Your Written Cash Offer',
+      text: 'We review your property and send a written cash offer within 24 hours — no obligation, no pressure.',
+      position: 2,
+    },
+    {
+      '@type': 'HowToStep',
+      name: 'Choose Your Closing Date',
+      text: 'If you accept, pick any closing date — as fast as 7 days or on whatever schedule works for you.',
+      position: 3,
+    },
+    {
+      '@type': 'HowToStep',
+      name: 'Get Paid at Closing',
+      text: 'Sign at the Northampton County title company, walk away with your cash. No repairs, no clean-out required.',
+      position: 4,
+    },
+  ],
+};
 
 /** Pre-built Harrisburg LocalBusiness schema (alias for backward compat) */
 export const harrisburgLocalBusinessSchema = localBusinessSchemaFor('harrisburg');

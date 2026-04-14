@@ -83,6 +83,19 @@
         "surroundingAreas": ["Norristown", "Conshohocken", "Plymouth Meeting", "Wayne", "Bridgeport", "Collegeville", "Gulph Mills", "Valley Forge", "Bryn Mawr", "Eagleville", "Trooper", "Audubon"]
       },
       {
+        "city": "Bethlehem",
+        "state": "PA",
+        "county": "Northampton County",
+        "url": "https://selltousahome.com/markets/bethlehem-pa",
+        "transferTax": "2% total (1% PA state + 1% City of Bethlehem local) — standard Pennsylvania rate",
+        "medianSalePrice": "$320,000 (Redfin Feb 2026)",
+        "medianHomeValue": "$350,600 (Zillow ZHVI April 2026)",
+        "hispanicPopulation": "31.3% Hispanic — bilingual service available (Hablamos español)",
+        "housingStock": "30.8% attached row homes — South Side steel-era construction 1890s-1930s",
+        "competitionScore": "89/100 Redfin Compete Score — Very Competitive",
+        "surroundingAreas": ["Fountain Hill", "Hellertown", "Easton", "Nazareth", "Northampton", "Palmer Township", "Hanover Township", "Bethlehem Township", "Emmaus", "Whitehall Township", "Catasauqua", "Freemansburg"]
+      },
+      {
         "city": "Erie",
         "state": "PA",
         "county": "Erie County",
@@ -120,7 +133,9 @@
     "answerHub": "https://selltousahome.com/guides/sell-house-fast-harrisburg-pa-2026",
     "stateCollegeMarket": "https://selltousahome.com/markets/state-college-pa",
     "stateCollegeAnswerHub": "https://selltousahome.com/guides/sell-house-fast-state-college-pa-2026",
-    "pennsylvaniaHub": "https://selltousahome.com/sell-house-fast-pennsylvania"
+    "pennsylvaniaHub": "https://selltousahome.com/sell-house-fast-pennsylvania",
+    "bethlehemMarket": "https://selltousahome.com/markets/bethlehem-pa",
+    "bethlehemAnswerHub": "https://selltousahome.com/guides/sell-house-fast-bethlehem-pa-2026"
   },
   "socialProfiles": {
     "_note": "Social profiles to be added as accounts are established",
@@ -160,5 +175,5 @@
   "mediaCoverage": {
     "pressPage": "https://selltousahome.com/press"
   },
-  "lastUpdated": "2026-04-12"
+  "lastUpdated": "2026-04-13"
 }
