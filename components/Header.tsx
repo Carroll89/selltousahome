@@ -92,7 +92,7 @@ export function Header() {
               )}
             </div>
 
-            <Link href="/guides/sell-house-fast-harrisburg-pa-2026" className="text-gray-600 hover:text-brand-primary whitespace-nowrap">
+            <Link href="/guides" className="text-gray-600 hover:text-brand-primary whitespace-nowrap">
               Seller Guides
             </Link>
             <Link href="/resources/how-the-process-works" className="text-gray-600 hover:text-brand-primary whitespace-nowrap">
@@ -168,7 +168,7 @@ export function Header() {
             </div>
 
             {[
-              { href: '/guides/sell-house-fast-harrisburg-pa-2026', label: 'Seller Guides' },
+              { href: '/guides', label: 'Seller Guides' },
               { href: '/resources/how-the-process-works', label: 'How It Works' },
               { href: '/reviews', label: 'Reviews' },
               { href: '/about', label: 'About' },

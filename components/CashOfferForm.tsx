@@ -1,6 +1,26 @@
 'use client';
 
-import { useState, useEffect, FormEvent } from 'react';
+import { useState, useEffect, useRef, FormEvent } from 'react';
+
+// Minimal Google Maps types needed for Autocomplete
+declare global {
+  interface Window {
+    google?: {
+      maps: {
+        places: {
+          Autocomplete: new (
+            input: HTMLInputElement,
+            opts?: { types?: string[]; componentRestrictions?: { country: string } }
+          ) => {
+            addListener: (event: string, handler: () => void) => void;
+            getPlace: () => { formatted_address?: string };
+          };
+        };
+      };
+    };
+    initGooglePlaces?: () => void;
+  }
+}
 import { GHL_WEBHOOK_URL, SITUATION_OPTIONS, getUTMParam, getSourceChannel } from '@/lib/utils';
 
 interface CashOfferFormProps {
@@ -10,6 +30,13 @@ interface CashOfferFormProps {
   variant?: 'hero' | 'inline' | 'footer';
   sourcePage?: string;
   placeholderCity?: string;
+}
+
+function formatPhone(value: string): string {
+  const digits = value.replace(/\D/g, '').slice(0, 10);
+  if (digits.length < 4) return digits;
+  if (digits.length < 7) return `(${digits.slice(0, 3)}) ${digits.slice(3)}`;
+  return `(${digits.slice(0, 3)}) ${digits.slice(3, 6)}-${digits.slice(6)}`;
 }
 
 function getCityFromSourcePage(sourcePage?: string): string {
@@ -71,6 +98,52 @@ export function CashOfferForm({
   });
   const [errors, setErrors] = useState<FormErrors>({});
   const [submitting, setSubmitting] = useState(false);
+  const addressInputRef = useRef<HTMLInputElement>(null);
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const autocompleteRef = useRef<any>(null);
+
+  // Load Google Places and attach autocomplete
+  useEffect(() => {
+    const apiKey = process.env.NEXT_PUBLIC_GOOGLE_PLACES_KEY;
+    if (!apiKey || typeof window === 'undefined') return;
+
+    function initAutocomplete() {
+      if (!addressInputRef.current || !window.google?.maps?.places) return;
+      const ac = new window.google.maps.places.Autocomplete(addressInputRef.current, {
+        types: ['address'],
+        componentRestrictions: { country: 'us' },
+      });
+      ac.addListener('place_changed', () => {
+        const place = ac.getPlace();
+        if (place.formatted_address) {
+          setForm((prev) => ({ ...prev, propertyAddress: place.formatted_address! }));
+        }
+      });
+      autocompleteRef.current = ac;
+    }
+
+    // If already loaded
+    if (window.google?.maps?.places) {
+      initAutocomplete();
+      return;
+    }
+
+    // Load the script once
+    const scriptId = 'google-places-script';
+    if (!document.getElementById(scriptId)) {
+      window.initGooglePlaces = initAutocomplete;
+      const script = document.createElement('script');
+      script.id = scriptId;
+      script.src = `https://maps.googleapis.com/maps/api/js?key=${apiKey}&libraries=places&callback=initGooglePlaces`;
+      script.async = true;
+      script.defer = true;
+      document.head.appendChild(script);
+    } else {
+      // Script tag exists but callback already fired; try again shortly
+      const timer = setTimeout(initAutocomplete, 500);
+      return () => clearTimeout(timer);
+    }
+  }, []);
 
   useEffect(() => {
     if (typeof window !== 'undefined' && !sessionStorage.getItem('first_touch_url')) {
@@ -97,7 +170,7 @@ export function CashOfferForm({
       firstName,
       lastName: lastParts.join(' ') || '',
       name: form.name.trim(),
-      phone: form.phone,
+      phone: form.phone.replace(/\D/g, ''),
       email: form.email || '',
       propertyAddress: form.propertyAddress,
       address1: form.propertyAddress,
@@ -189,7 +262,7 @@ export function CashOfferForm({
             type="tel"
             autoComplete="tel"
             value={form.phone}
-            onChange={(e) => setForm({ ...form, phone: e.target.value })}
+            onChange={(e) => setForm({ ...form, phone: formatPhone(e.target.value) })}
             className={inputClass}
             placeholder="(555) 555-0000"
           />
@@ -202,6 +275,7 @@ export function CashOfferForm({
           </label>
           <input
             id="propertyAddress"
+            ref={addressInputRef}
             type="text"
             autoComplete="street-address"
             value={form.propertyAddress}
