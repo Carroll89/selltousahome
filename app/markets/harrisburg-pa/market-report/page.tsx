@@ -145,7 +145,7 @@ const articleSchema = {
   '@type': 'Article',
   headline: 'Harrisburg PA Housing Market Report — April 2026',
   datePublished: '2026-04-01',
-  dateModified: '2026-04-07',
+  dateModified: '2026-04-16',
   author: { '@type': 'Organization', name: 'USA Home Buyers', url: SITE_URL },
   publisher: {
     '@type': 'Organization',

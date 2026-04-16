@@ -41,7 +41,7 @@ export default function YorkMarketReportPage() {
     <>
       <SchemaMarkup schema={[
         yorkLocalBusinessSchema,
-        articleSchema('York PA Housing Market Report 2026 — York City and York County', pageUrl, '2026-04-13'),
+        articleSchema('York PA Housing Market Report 2026 — York City and York County', pageUrl, '2026-04-13', '2026-04-16'),
         faqSchema(FAQ_ITEMS),
       ]} />
 

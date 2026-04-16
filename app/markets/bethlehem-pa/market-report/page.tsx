@@ -41,7 +41,7 @@ export default function BethlehemMarketReportPage() {
     <>
       <SchemaMarkup schema={[
         bethlehemLocalBusinessSchema,
-        articleSchema('Bethlehem PA Housing Market Report 2026', pageUrl),
+        articleSchema('Bethlehem PA Housing Market Report 2026', pageUrl, '2026-04-13', '2026-04-16'),
         faqSchema(FAQ_ITEMS),
       ]} />
 

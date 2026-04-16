@@ -42,7 +42,7 @@ export default function YoungstownMarketReportPage() {
     <>
       <SchemaMarkup schema={[
         youngstownLocalBusinessSchema,
-        articleSchema('Youngstown OH Housing Market Report 2026 — Mahoning County Data', pageUrl, '2026-04-14'),
+        articleSchema('Youngstown OH Housing Market Report 2026 — Mahoning County Data', pageUrl, '2026-04-14', '2026-04-16'),
         faqSchema(FAQ_ITEMS),
       ]} />
 

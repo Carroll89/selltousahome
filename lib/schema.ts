@@ -1039,13 +1039,13 @@ export function videoObjectSchema({
   };
 }
 
-export function articleSchema(headline: string, url: string, datePublished = '2026-04-06') {
+export function articleSchema(headline: string, url: string, datePublished = '2026-04-06', dateModified?: string) {
   return {
     '@context': 'https://schema.org',
     '@type': 'Article',
     headline,
     datePublished,
-    dateModified: datePublished,
+    dateModified: dateModified || datePublished,
     author: { '@type': 'Organization', name: 'USA Home Buyers', url: SITE_URL },
     publisher: {
       '@type': 'Organization',

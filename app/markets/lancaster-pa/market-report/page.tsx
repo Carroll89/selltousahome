@@ -18,7 +18,8 @@ export const metadata: Metadata = {
 const articleSch = articleSchema(
   'Lancaster PA Housing Market Report 2026',
   `${SITE_URL}/markets/lancaster-pa/market-report`,
-  '2026-04-13'
+  '2026-04-13',
+  '2026-04-16'
 );
 
 const faqItems = [

@@ -102,7 +102,7 @@ export default function StateCollegeMarketReport() {
     <>
       <SchemaMarkup schema={[
         stateCollegeLocalBusinessSchema,
-        articleSchema('State College PA Housing Market Report 2026', pageUrl, '2026-04-12'),
+        articleSchema('State College PA Housing Market Report 2026', pageUrl, '2026-04-12', '2026-04-16'),
         faqSchema(FAQ_ITEMS),
       ]} />
 

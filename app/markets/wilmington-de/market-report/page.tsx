@@ -41,7 +41,7 @@ export default function WilmingtonMarketReportPage() {
     <>
       <SchemaMarkup schema={[
         wilmingtonLocalBusinessSchema,
-        articleSchema('Wilmington DE Housing Market Report 2026 — New Castle County', pageUrl, '2026-04-13'),
+        articleSchema('Wilmington DE Housing Market Report 2026 — New Castle County', pageUrl, '2026-04-13', '2026-04-16'),
         faqSchema(FAQ_ITEMS),
       ]} />
 
