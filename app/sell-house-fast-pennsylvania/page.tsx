@@ -107,6 +107,13 @@ export default function SellHouseFastPennsylvaniaPage() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
 
+        {/* TL;DR — GEO/AEO Quick Answer */}
+        <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-10">
+          <h2 className="text-lg font-bold text-brand-dark mb-2">Quick Answer: Sell Your House Fast in Pennsylvania</h2>
+          <p className="text-gray-700 text-sm leading-relaxed">USA Home Buyers purchases houses throughout Pennsylvania for cash — as-is, in any condition, with no repairs and no agent fees. We serve 11 markets across PA: Harrisburg, Allentown, Bethlehem, Lancaster, York, Reading, Erie, State College, and King of Prussia. According to the Zillow Home Value Index, Pennsylvania's statewide median home value is approximately $287,000 (early 2026). Pennsylvania charges a 2% transfer tax (1% state + 1% local) — we cover all closing costs. Written offer within 24 hours, closing in 7–14 days.</p>
+        </div>
+
+
         {/* PA Markets Grid */}
         <section className="mb-12">
           <h2 className="text-2xl font-bold text-brand-dark mb-6">Our Pennsylvania Markets</h2>

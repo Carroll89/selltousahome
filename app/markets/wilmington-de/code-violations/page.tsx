@@ -94,6 +94,13 @@ export default function WilmingtonCodeViolationsPage() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
 
+        {/* TL;DR — GEO/AEO Quick Answer */}
+        <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-10">
+          <h2 className="text-lg font-bold text-brand-dark mb-2">Quick Answer</h2>
+          <p className="text-gray-700 text-sm leading-relaxed">Yes, USA Home Buyers purchases houses with code violations in Wilmington, DE — as-is, with no repairs required before closing. Wilmington's older housing stock on the West Side, Hilltop, and East Side frequently carries City of Wilmington Inspections & Licensing violations. Delaware requires disclosure of known violations but does not require sellers to remediate them before closing. When we buy, violations transfer with the deed. Written cash offer in 24 hours.</p>
+        </div>
+
+
         <section className="mb-10">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">Code Violations in Wilmington's Row Homes — What We See</h2>
           <p className="text-gray-700 mb-4">

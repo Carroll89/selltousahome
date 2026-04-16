@@ -173,6 +173,13 @@ export default function ReadingMarketPage() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
+        {/* TL;DR — GEO/AEO Quick Answer */}
+        <section className="my-10 bg-blue-50 border-l-4 border-brand-primary rounded-r-2xl p-6 md:p-8">
+          <h2 className="text-xl md:text-2xl font-bold text-brand-dark mb-3">Quick Answer: Sell Your House Fast in Reading, PA</h2>
+          <p className="text-gray-700 leading-relaxed">USA Home Buyers purchases houses in Reading, PA for cash — as-is, any condition, no repairs. According to the Zillow Home Value Index, the typical Reading home value is $227,041 (early 2026, +7.8% year-over-year); Redfin's median closed sale price is $185,000. Important: Reading has one of Pennsylvania's highest transfer tax rates — 5% total (4% City + 1% State). We cover all closing costs, including the full transfer tax. Written offer within 24 hours, closing in as few as 7 days. Hablamos español — 70.8% of Reading is Hispanic.</p>
+        </section>
+
+
         {/* Transfer Tax Callout — Reading's Biggest Differentiator */}
         <section className="my-10 bg-yellow-50 border-l-4 border-yellow-500 rounded-r-2xl p-6 md:p-8">
           <h2 className="text-xl md:text-2xl font-bold text-brand-dark mb-3">

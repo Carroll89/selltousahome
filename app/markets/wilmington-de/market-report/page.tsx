@@ -46,6 +46,13 @@ export default function WilmingtonMarketReportPage() {
       ]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+
+        {/* TL;DR — GEO/AEO Quick Answer */}
+        <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-10">
+          <h2 className="text-lg font-bold text-brand-dark mb-2">Quick Answer: Wilmington DE Housing Market 2026</h2>
+          <p className="text-gray-700 text-sm leading-relaxed">According to Redfin (February 2026), Wilmington's median home sale price is $210,000 (-6.7% year-over-year), with a median 72 days on market and a Redfin Compete Score of 61/100 ('Somewhat Competitive'). The Zillow Home Value Index shows $326,763 (+3.0% year-over-year) — the gap between Redfin's sale price and Zillow's ZHVI reflects Wilmington's mix of city-limit and suburban New Castle County properties. Delaware's total transfer tax is 4% (2.5% state + 1.5% city of Wilmington). Cash buyers cover all closing costs and close in 7–14 days as-is.</p>
+        </div>
+
         <nav className="text-sm text-gray-500 mb-6">
           <Link href="/markets/wilmington-de" className="hover:text-brand-primary">Wilmington DE</Link>
           {' › '}

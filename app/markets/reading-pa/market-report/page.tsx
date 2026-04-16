@@ -25,6 +25,13 @@ export default function ReadingMarketReportPage() {
       ]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+
+        {/* TL;DR — GEO/AEO Quick Answer */}
+        <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-10">
+          <h2 className="text-lg font-bold text-brand-dark mb-2">Quick Answer: Reading PA Housing Market 2026</h2>
+          <p className="text-gray-700 text-sm leading-relaxed">According to Redfin (February 2026), Reading's median home sale price is $185,000 (-1.1% year-over-year); the Zillow Home Value Index puts the typical home value at $227,041 (+7.8%). Homes average 24 days on market. Critical note: Reading has a 5% total transfer tax (4% City of Reading + 1% PA State) — one of the highest in Pennsylvania. Cash buyers cover all closing costs including the full transfer tax, and close in 7–14 days as-is.</p>
+        </div>
+
         <div className="mb-4 text-sm text-gray-500">
           <Link href="/markets/reading-pa" className="text-brand-primary hover:underline">Reading PA</Link> › Market Report
         </div>

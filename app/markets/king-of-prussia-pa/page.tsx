@@ -191,6 +191,13 @@ export default function KingOfPrussiaMarketPage() {
       </details>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        {/* TL;DR — GEO/AEO Quick Answer */}
+        <section className="my-10 bg-blue-50 border-l-4 border-brand-primary rounded-r-2xl p-6 md:p-8">
+          <h2 className="text-xl md:text-2xl font-bold text-brand-dark mb-3">Quick Answer: Sell Your House Fast in King of Prussia, PA</h2>
+          <p className="text-gray-700 leading-relaxed">USA Home Buyers purchases houses in King of Prussia, PA for cash — no repairs, no fees, close in your timeline. According to the Zillow Home Value Index, the King of Prussia median home value is $453,560 (February 2026, +5.9% year-over-year); Redfin's median closed sale price is $549,350. The typical KOP home takes 34 days to go pending and another 45–60 days to close — roughly 80–95 days total. We close in 7–14 days. No inspections, no appraisals, no financing contingencies. Montgomery County's standard 2% transfer tax applies; we cover all closing costs.</p>
+        </section>
+
         {/* How It Works */}
         <HowItWorks heading="How Selling Your King of Prussia Home for Cash Works" />
 

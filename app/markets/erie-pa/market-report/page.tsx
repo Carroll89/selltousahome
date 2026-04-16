@@ -25,6 +25,13 @@ export default function ErieMarketReportPage() {
       ]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+
+        {/* TL;DR — GEO/AEO Quick Answer */}
+        <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-10">
+          <h2 className="text-lg font-bold text-brand-dark mb-2">Quick Answer: Erie PA Housing Market 2026</h2>
+          <p className="text-gray-700 text-sm leading-relaxed">Erie's city-limit home values average approximately $115,000–$120,000 based on Zillow ZHVI data and zip-code-level Redfin analysis (February 2026); suburban Erie (zip codes 16505/16509) commands $250,000–$300,000. Despite low price points, Erie's market is competitive — Redfin rates it 'Very Competitive' across most zip codes. Erie County charges the standard Pennsylvania transfer tax of 2% (split 1%/1% buyer/seller). Cash buyers offer 70–80% of FMV, closing in 7–14 days as-is.</p>
+        </div>
+
         <div className="mb-4 text-sm text-gray-500">
           <Link href="/markets/erie-pa" className="text-brand-primary hover:underline">Erie PA</Link> › Market Report
         </div>

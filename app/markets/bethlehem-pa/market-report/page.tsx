@@ -46,6 +46,13 @@ export default function BethlehemMarketReportPage() {
       ]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+
+        {/* TL;DR — GEO/AEO Quick Answer */}
+        <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-10">
+          <h2 className="text-lg font-bold text-brand-dark mb-2">Quick Answer: Bethlehem PA Housing Market 2026</h2>
+          <p className="text-gray-700 text-sm leading-relaxed">According to Redfin (February 2026), Bethlehem's median home sale price is $320,000, up 16.6% year-over-year. The Zillow Home Value Index (ZHVI) for Bethlehem is $350,600 (+2.9% annually). Homes go pending in ~10 days and sell above list price (100.5% sale-to-list ratio, per Redfin) — a very competitive seller's market. Cash buyers typically offer 70–80% of fair market value, closing in 7–14 days without repairs, showings, or agent commissions.</p>
+        </div>
+
         <nav className="text-sm text-gray-500 mb-6">
           <Link href="/" className="hover:text-brand-primary">Home</Link>
           {' › '}

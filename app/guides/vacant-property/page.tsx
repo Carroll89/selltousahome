@@ -87,6 +87,12 @@ export default function VacantPropertyGuidePage() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article>
+        {/* TL;DR — GEO/AEO Quick Answer */}
+        <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-10">
+          <h2 className="text-lg font-bold text-brand-dark mb-2">Quick Answer: Selling a Vacant or Abandoned Property in Pennsylvania</h2>
+          <p className="text-gray-700 text-sm leading-relaxed">Yes, you can sell a vacant or abandoned property in Pennsylvania — but timing matters. Vacant properties often accumulate code violations, property maintenance citations, and tax arrears that can cloud the title or trigger municipal fines. Pennsylvania municipalities have the authority to place liens on vacant properties for maintenance costs. USA Home Buyers purchases vacant properties as-is throughout Pennsylvania — any condition, any citation history. We close in as few as 7 days and handle title issues directly.</p>
+        </div>
+
           <section className="mb-10">
             <h2 className="text-2xl font-bold text-brand-dark mb-4">
               The Real Cost of a Vacant Property

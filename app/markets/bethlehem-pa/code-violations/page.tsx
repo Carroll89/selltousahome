@@ -100,6 +100,13 @@ export default function BethlehemCodeViolationsPage() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
 
+        {/* TL;DR — GEO/AEO Quick Answer */}
+        <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-10">
+          <h2 className="text-lg font-bold text-brand-dark mb-2">Quick Answer</h2>
+          <p className="text-gray-700 text-sm leading-relaxed">Yes, USA Home Buyers purchases houses with code violations in Bethlehem, PA — as-is, with no repairs required before closing. Bethlehem's South Side row home stock (most built for Bethlehem Steel workers between 1890 and 1930) frequently has deferred maintenance violations, open permit issues, or City of Bethlehem Notice of Violation letters. When we buy your property, existing violations transfer with the deed. You close on your timeline without touching a single violation. Written cash offer in 24 hours.</p>
+        </div>
+
+
         <section className="mb-10">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">
             Code Violations Are Common in Bethlehem&apos;s Pre-War Housing Stock

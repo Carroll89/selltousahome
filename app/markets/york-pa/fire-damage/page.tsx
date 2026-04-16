@@ -96,6 +96,13 @@ export default function YorkFireDamagePage() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
 
+        {/* TL;DR — GEO/AEO Quick Answer */}
+        <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-10">
+          <h2 className="text-lg font-bold text-brand-dark mb-2">Quick Answer</h2>
+          <p className="text-gray-700 text-sm leading-relaxed">Yes, USA Home Buyers buys fire-damaged houses in York, PA — as-is, in any condition. Whether there's partial smoke damage to one room or the structure is a total loss, we assess and purchase in current condition. No repairs, no insurance coordination required from the seller. We close in as few as 7 days. Written cash offer within 24 hours.</p>
+        </div>
+
+
         <section className="mb-10">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">
             Fire Damage in York's Row Home Stock

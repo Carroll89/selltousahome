@@ -88,6 +88,12 @@ export default function ProbateGuidePage() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <article>
+        {/* TL;DR — GEO/AEO Quick Answer */}
+        <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-10">
+          <h2 className="text-lg font-bold text-brand-dark mb-2">Quick Answer: Selling a House During Probate in Pennsylvania</h2>
+          <p className="text-gray-700 text-sm leading-relaxed">Yes, you can sell a house while it is in probate in Pennsylvania — once the executor or administrator has Letters Testamentary or Letters of Administration from the county Register of Wills. Pennsylvania probate typically takes 9–18 months for a simple estate. You do not need to wait for probate to complete: you can sign a purchase agreement during probate and close once the executor has legal authority to deed the property. USA Home Buyers works with estate executors throughout Pennsylvania and closes in as few as 7 days.</p>
+        </div>
+
           <section className="mb-10">
             <h2 className="text-2xl font-bold text-brand-dark mb-4">
               Pennsylvania Probate — The Basics

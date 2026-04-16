@@ -51,6 +51,13 @@ export default function LancasterTenantOccupiedPage() {
       <SchemaMarkup schema={[lancasterLocalBusinessSchema, articleSch, faqSchema(FAQ_ITEMS)]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+
+        {/* TL;DR — GEO/AEO Quick Answer */}
+        <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-10">
+          <h2 className="text-lg font-bold text-brand-dark mb-2">Quick Answer</h2>
+          <p className="text-gray-700 text-sm leading-relaxed">Yes, USA Home Buyers buys tenant-occupied properties in Lancaster, PA. Pennsylvania law (68 P.S. § 250.101 et seq.) requires the lease to transfer with the property — the buyer becomes the new landlord at closing. Fixed-term leases transfer intact; month-to-month tenancies require 15–30 days written notice to terminate. We buy with the tenant in place — no eviction required before closing. Written cash offer within 24 hours. We serve all of Lancaster City and Lancaster County.</p>
+        </div>
+
         <nav className="text-sm text-gray-500 mb-6">
           <Link href="/" className="hover:text-brand-primary">Home</Link>
           {' → '}

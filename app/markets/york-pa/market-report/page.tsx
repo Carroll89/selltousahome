@@ -46,6 +46,13 @@ export default function YorkMarketReportPage() {
       ]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+
+        {/* TL;DR — GEO/AEO Quick Answer */}
+        <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-10">
+          <h2 className="text-lg font-bold text-brand-dark mb-2">Quick Answer: York PA Housing Market 2026</h2>
+          <p className="text-gray-700 text-sm leading-relaxed">According to Redfin (February 2026), York's Redfin Compete Score is 86/100 ('Very Competitive'). Per the U.S. Census Bureau ACS (via DataUSA), York City's homeownership rate is 43.7% — over half the city rents. York County charges the standard Pennsylvania 2% transfer tax (1% buyer / 1% seller). Cash buyers typically offer 70–80% of fair market value and close in 7–14 days without repairs, showings, or agent commissions.</p>
+        </div>
+
         <nav className="text-sm text-gray-500 mb-6">
           <Link href="/markets/york-pa" className="hover:text-brand-primary">York PA</Link>
           {' › '}

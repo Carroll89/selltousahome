@@ -96,6 +96,13 @@ export default function YorkTenantOccupiedPage() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
 
+        {/* TL;DR — GEO/AEO Quick Answer */}
+        <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-10">
+          <h2 className="text-lg font-bold text-brand-dark mb-2">Quick Answer</h2>
+          <p className="text-gray-700 text-sm leading-relaxed">Yes, USA Home Buyers buys tenant-occupied properties in York, PA. Pennsylvania law (68 P.S. § 250.101 et seq.) requires existing leases to transfer to the new owner at closing — you don't need to evict the tenant before selling. Fixed-term leases transfer intact; month-to-month tenancies can be ended with 15–30 days written notice. We buy with the tenant in place — no eviction, no vacancy requirement. Written cash offer within 24 hours.</p>
+        </div>
+
+
         <section className="mb-10">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">
             York's Rental Market — Context for Sellers

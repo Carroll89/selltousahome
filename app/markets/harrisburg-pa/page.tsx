@@ -162,6 +162,13 @@ export default function HarrisburgMarketPage() {
         </div>
       </details>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+
+        {/* TL;DR — GEO/AEO Quick Answer */}
+        <section className="my-10 bg-blue-50 border-l-4 border-brand-primary rounded-r-2xl p-6 md:p-8">
+          <h2 className="text-xl md:text-2xl font-bold text-brand-dark mb-3">Quick Answer: Sell Your House Fast in Harrisburg, PA</h2>
+          <p className="text-gray-700 leading-relaxed">USA Home Buyers purchases houses in Harrisburg, PA for cash — as-is, in any condition, with no repairs and no agent fees. According to the Zillow Home Value Index, the Harrisburg area median home value is $234,569 (April 2026); within city limits, Redfin tracks a median closed sale price of approximately $145,000. The market goes pending in 5 days on average, but after that, financing and inspections add another 45–60 days. We close in 7–14 days — cash, no contingencies. We serve all of Harrisburg and Dauphin County.</p>
+        </section>
+
         {/* How It Works */}
         <HowItWorks heading="How Selling Your Harrisburg House for Cash Works" />
 

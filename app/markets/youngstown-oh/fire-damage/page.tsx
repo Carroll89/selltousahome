@@ -94,6 +94,13 @@ export default function YoungstownFireDamagePage() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
 
+        {/* TL;DR — GEO/AEO Quick Answer */}
+        <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-10">
+          <h2 className="text-lg font-bold text-brand-dark mb-2">Quick Answer</h2>
+          <p className="text-gray-700 text-sm leading-relaxed">Yes, USA Home Buyers buys fire-damaged houses in Youngstown, OH — as-is, regardless of the extent of damage. Youngstown's older housing stock (much of it pre-1940) is particularly susceptible to fire damage, and many properties sit vacant after a fire without immediate buyers. We assess and purchase in current condition — no repairs, no insurance claim required from you. Written cash offer within 24 hours.</p>
+        </div>
+
+
         <section className="mb-10">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">Fire Damage in Youngstown — What You're Dealing With</h2>
           <p className="text-gray-700 mb-4">

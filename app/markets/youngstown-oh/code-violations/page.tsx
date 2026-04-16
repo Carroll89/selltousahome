@@ -93,6 +93,13 @@ export default function YoungstownCodeViolationsPage() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
 
+        {/* TL;DR — GEO/AEO Quick Answer */}
+        <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-10">
+          <h2 className="text-lg font-bold text-brand-dark mb-2">Quick Answer</h2>
+          <p className="text-gray-700 text-sm leading-relaxed">Yes, USA Home Buyers purchases houses with code violations in Youngstown, OH — as-is, with no repairs required before closing. Youngstown's housing stock (heavily concentrated in pre-1940 working-class homes) frequently carries City of Youngstown Property Maintenance Code violations, open permits, or exterior disrepair notices. When we buy, violations transfer with the deed. You close on your timeline without touching a single issue. Written cash offer in 24 hours.</p>
+        </div>
+
+
         <section className="mb-10">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">Code Violations in Youngstown — A Market-Specific Reality</h2>
           <p className="text-gray-700 mb-4">

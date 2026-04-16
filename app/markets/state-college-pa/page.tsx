@@ -176,6 +176,13 @@ export default function StateCollegeMarketPage() {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
+        {/* TL;DR — GEO/AEO Quick Answer */}
+        <section className="my-10 bg-blue-50 border-l-4 border-brand-primary rounded-r-2xl p-6 md:p-8">
+          <h2 className="text-xl md:text-2xl font-bold text-brand-dark mb-3">Quick Answer: Sell Your House Fast in State College, PA</h2>
+          <p className="text-gray-700 leading-relaxed">USA Home Buyers purchases houses in State College, PA for cash — as-is, in any condition, with no repairs and no agent fees. According to the Zillow Home Value Index, the State College median home value is $408,500 (March 2026, +0.9% year-over-year); Redfin's median closed sale price is $450,000 with a Compete Score of 93/100 — among the most competitive in Pennsylvania. Homes go pending in 5 days on average. We close in 7–14 days, no inspections or financing contingencies. We serve all of State College and Centre County.</p>
+        </section>
+
+
         {/* FAQ moved up — section order differs from Harrisburg/Allentown builds */}
         <FAQSection items={FAQ_ITEMS} heading="Common Questions from State College Sellers" />
 

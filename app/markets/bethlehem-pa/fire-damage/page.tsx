@@ -100,6 +100,13 @@ export default function BethlehemFireDamagePage() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
 
+        {/* TL;DR — GEO/AEO Quick Answer */}
+        <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-10">
+          <h2 className="text-lg font-bold text-brand-dark mb-2">Quick Answer</h2>
+          <p className="text-gray-700 text-sm leading-relaxed">Yes, USA Home Buyers buys fire-damaged houses in Bethlehem, PA — as-is, regardless of the extent of damage. Whether it's partial smoke damage, water damage from firefighting, or a complete structural loss, we buy the property in its current condition. You don't need to open an insurance claim, file a permit, or make any repairs before closing. We handle the assessment and restoration from there. Written cash offer within 24 hours.</p>
+        </div>
+
+
         <section className="mb-10">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">
             Fire Damage in Bethlehem&apos;s Row Home Stock

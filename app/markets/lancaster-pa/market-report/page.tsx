@@ -42,6 +42,13 @@ export default function LancasterMarketReportPage() {
       <SchemaMarkup schema={[lancasterLocalBusinessSchema, articleSch, faqSchema(faqItems)]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+
+        {/* TL;DR — GEO/AEO Quick Answer */}
+        <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-10">
+          <h2 className="text-lg font-bold text-brand-dark mb-2">Quick Answer: Lancaster PA Housing Market 2026</h2>
+          <p className="text-gray-700 text-sm leading-relaxed">According to the Zillow Home Value Index, Lancaster City's typical home value is $332,965 (+6.8% year-over-year, February 2026). Redfin tracks Lancaster County's median sale price at $347,838 (+3.8% YoY) — the city-only figure fluctuates due to small monthly sample size. The market is very tight: Redfin Compete Score is 84/100. Lancaster County charges the standard Pennsylvania 2% transfer tax. Cash buyers typically offer 70–80% of FMV, closing in 7–14 days without repairs or fees.</p>
+        </div>
+
         <nav className="text-sm text-gray-500 mb-6">
           <Link href="/" className="hover:text-brand-primary">Home</Link>
           {' → '}
