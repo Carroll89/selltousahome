@@ -78,7 +78,7 @@ const content: BlogPostContent = {
         'PA DOR Payment Plan: The Pennsylvania Department of Revenue offers installment agreements for state tax debts. If the PA lien is the issue, you may be able to negotiate a partial payoff at closing with the balance on a payment plan.',
         'Bankruptcy: Chapter 13 bankruptcy can sometimes strip junior liens or create a structured repayment plan. Chapter 7 may discharge some of the underlying tax debt (older IRS debts sometimes qualify for discharge in bankruptcy). This requires a bankruptcy attorney to evaluate.',
         'Short sale: If the mortgage lender agrees to accept less than the payoff, the remaining proceeds can go to lienors. Short sales with multiple lienors require coordination — they\'re complex but not impossible.',
-        'We\'ve navigated all of these scenarios. We can\'t always close, but we\'ll tell you honestly what\'s workable and what isn\'t.',
+        'We\'ve worked through all of these scenarios. We can\'t always close, but we\'ll tell you honestly what\'s workable and what isn\'t.',
       ],
       callout: {
         type: 'amber',
@@ -89,7 +89,7 @@ const content: BlogPostContent = {
     {
       heading: 'Local Property Tax Delinquency: The Faster Clock',
       paragraphs: [
-        'Of all the tax lien types, unpaid local property taxes move on the fastest timeline in Pennsylvania. Here\'s why: the Real Estate Tax Sale Law (72 P.S. § 5860) gives county tax claim bureaus authority to sell properties for unpaid taxes — and the process moves faster than mortgage foreclosure.',
+        'Unpaid local property taxes move faster than any other lien type in Pennsylvania. The Real Estate Tax Sale Law (72 P.S. § 5860) gives county tax claim bureaus authority to sell properties for unpaid taxes — and the process moves faster than mortgage foreclosure.',
         'The Pennsylvania tax sale process runs roughly like this: Year 1 — taxes unpaid, penalty interest accrues. Year 2 — property listed with the Tax Claim Bureau. Year 3 — property listed for Upset Sale (owner can still redeem by paying all back taxes, interest, and costs before the sale). Post-Upset Sale — unsold properties go to Judicial Sale, where they\'re sold free and clear of all liens — including the mortgage.',
         'At a Judicial Sale, your property can sell for a fraction of its value. The mortgage lender gets some of the proceeds, but you get nothing — and your equity is gone.',
         'The counties where we see this most often: Dauphin, York, and Lancaster County all have active Tax Claim Bureau operations. If you\'re even one year behind on property taxes, get ahead of this.',

@@ -91,7 +91,7 @@ const content: BlogPostContent = {
     {
       heading: 'Acting Fast Is the Only Strategy That Works',
       paragraphs: [
-        'The biggest mistake homeowners in foreclosure make is waiting. Waiting to see if the lender will modify. Waiting to find the perfect buyer. Waiting to emotionally accept what\'s happening. Every week that passes is a week closer to the sheriff\'s sale and a week of additional interest, fees, and attorney costs accruing against your balance.',
+        'The biggest mistake homeowners in foreclosure make is waiting — waiting for the lender to call back, waiting to find the perfect buyer, waiting to accept what\'s happening. Every week that passes is more interest, more fees, more attorney costs added to your balance.',
         'If you\'re in foreclosure in Pennsylvania and you have equity in the property, a fast cash sale is almost always worth pursuing — even if it means selling below what you think the house is worth on the open market.',
         'The calculation isn\'t "cash offer vs. listing price." The calculation is: cash offer minus mortgage payoff versus $0 at a sheriff\'s sale — plus a foreclosure on your credit for 7 years.',
         'We\'ve worked with homeowners in Dauphin County, Cumberland County, York County, and Lancaster County who were within weeks of a sheriff\'s sale. We closed in time. We\'re not going to tell you we can always pull off a miracle — but if you have time to act, we can move fast.',

@@ -78,7 +78,7 @@ export default function CashBuyerVsRealtorPAPage() {
             </h1>
             <p className="text-lg text-blue-100 mb-6">
               Most articles on this topic are written by people trying to sell you one or the other. 
-              This one isn't. Here's what each option actually costs, how long each actually takes, 
+              This one isn't. Here's what each option costs, how long each takes, 
               and when one makes more sense than the other.
             </p>
           </div>

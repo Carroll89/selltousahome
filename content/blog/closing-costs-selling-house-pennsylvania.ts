@@ -100,12 +100,12 @@ const content: BlogPostContent = {
     {
       heading: 'How Cash Buyers Handle Closing Costs Differently',
       paragraphs: [
-        'When you sell to a cash buyer like USA Home Buyers, the closing cost picture changes significantly:',
-        'No agent commissions. Cash buyers purchase directly from the seller — no agents on either side, no 5–6% commission.',
-        'We cover all closing costs. The offer we make is the number you receive. Transfer taxes, title insurance, settlement fees, deed prep, recording fees — all covered by us.',
-        'No lender fees. Because there\'s no mortgage, there are no loan origination fees, appraisal fees, or underwriting costs associated with the buyer\'s financing.',
-        'Faster close means fewer carrying costs. Every month you own a property costs you property taxes, insurance, utilities, and possibly mortgage payments. A 7–14 day closing eliminates those months of carrying costs.',
-        'The tradeoff is that cash offers are typically 10–20% below what you might achieve on the open market with a top-dollar listing. For homeowners who need speed, who have properties in difficult conditions, or who are dealing with situations like probate or foreclosure, the net result after closing costs and carrying costs can actually favor the cash sale.',
+        'Selling to a cash buyer changes the closing cost math significantly.',
+        'There\'s no agent commission — we buy directly, so there\'s no 5–6% split at closing.',
+        'We cover all closing costs: transfer taxes, title insurance, settlement fees, deed prep, recording fees. The number we offer is what you receive.',
+        'Because there\'s no mortgage involved, there are no lender fees on our end — no appraisal, no loan origination, no underwriting costs.',
+        'Closing in 7–14 days instead of 90+ also cuts your carrying costs. Every month you hold the property costs you taxes, insurance, utilities, and possibly mortgage payments. A faster close stops that clock.',
+        'The tradeoff: cash offers typically run 10–20% below what you might get from a competitive listing. But for homeowners who need speed, have properties in rough shape, or are dealing with probate or foreclosure, the net proceeds after closing costs and carrying costs can come out closer than you\'d expect.',
       ],
       callout: {
         type: 'green',

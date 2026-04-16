@@ -118,7 +118,7 @@ const content: BlogPostContent = {
         'Yes — and it\'s common. Here\'s how it works in practice:',
         'The executor has authority to list and sell real estate once Letters Testamentary are issued, typically within the first month or two of filing. You can market the property, accept an offer, and sign a purchase agreement. The sale proceeds go into the estate account.',
         'The actual closing and deed transfer typically happens either during the probate period (if the court approves the sale and the executor has authority) or after the estate is settled and the executor has authorization to deed property to the buyer.',
-        'Cash buyers are the most flexible partners in probate situations because they don\'t need mortgage financing, which eliminates lender timelines from the equation. If probate is at month 10 and the creditor window is about to close, a cash buyer can structure a fast closing. If probate is at month 3, they can set a closing 6–9 months out and lock in the price today.',
+        'Cash buyers are easiest to work with in probate situations because there\'s no bank financing — no lender timeline to plan around. If probate is at month 10 and the creditor window is about to close, a cash buyer can close fast. If probate is at month 3, they can set a closing 6–9 months out and lock in the price today.',
         'We\'ve bought probate properties in Harrisburg, Lancaster, and York County. Working with an estate attorney who communicates clearly with the title company is the key to a smooth close. We\'re experienced on our end — the key is that the executor stays organized.',
       ],
       callout: {
@@ -135,7 +135,7 @@ const content: BlogPostContent = {
         'Revocable living trust: Property titled in the trust passes directly to the trust beneficiaries. No court involvement.',
         'Lady Bird Deed (enhanced life estate deed): The original owner retains control during life, then the property passes directly to named beneficiaries at death. Pennsylvania allows these.',
         'Tenancy by the entirety: A form of joint ownership for married couples in Pennsylvania. The surviving spouse inherits automatically.',
-        'If the property passed through any of these mechanisms, you may be able to sell within weeks instead of months. Pull the deed from the county recorder of deeds. The vesting language tells you exactly how the property was owned.',
+        'If the property transferred through any of these arrangements, you could sell within weeks instead of months. Pull the deed from the county recorder of deeds. The vesting language tells you exactly how the property was owned.',
       ],
     },
   ],

@@ -73,9 +73,8 @@ export default function SellInheritedHousePAPage() {
               How to Sell an Inherited House in Pennsylvania
             </h1>
             <p className="text-lg text-blue-100 mb-6">
-              Inheriting a house is equal parts gift and burden. The property has value — but so does your time, 
-              your peace of mind, and your relationship with the other people involved. Here's what you actually 
-              need to know to move forward.
+              Inheriting a house can feel like a gift and a headache at the same time. The property has real value — but so does your time, 
+              your peace of mind, and your relationship with the other people involved. Here's what you need to know to move forward.
             </p>
           </div>
           <div>
@@ -169,7 +168,7 @@ export default function SellInheritedHousePAPage() {
           <section className="mb-10">
             <h2 className="text-2xl font-bold text-brand-dark mb-4">The Tax Piece: Step-Up in Basis</h2>
             <p className="text-gray-700 mb-4">
-              Here's the part most heirs either don't know about or don't fully understand — and it's genuinely good news.
+              Most heirs don't know about this part — and it's genuinely good news.
             </p>
             <p className="text-gray-700 mb-4">
               When you inherit property, your cost basis is "stepped up" to the fair market value on the date of 
@@ -182,8 +181,8 @@ export default function SellInheritedHousePAPage() {
               not $145,000.
             </p>
             <p className="text-gray-700 mb-4">
-              This is one reason to move relatively quickly on selling after inheriting. The longer you hold, the more 
-              the property may appreciate, increasing your eventual capital gains exposure.
+              This is one reason to sell sooner rather than later after inheriting. The longer you hold it, the more 
+              the property may appreciate — and the bigger your eventual capital gains exposure.
             </p>
             <div className="bg-blue-50 border border-blue-100 rounded-xl p-5 mb-4">
               <p className="text-sm text-gray-700">

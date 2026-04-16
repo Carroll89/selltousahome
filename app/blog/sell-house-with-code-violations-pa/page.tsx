@@ -110,7 +110,7 @@ export default function SellHouseCodeViolationsPAPage() {
             <p className="text-gray-700 mb-4">
               Some violations are cosmetic and easy to resolve. Others — structural problems, failed septic systems, 
               knob-and-tube wiring — are significant and expensive to address. The impact on your sale depends on 
-              both the severity of the violations and the type of buyer you're dealing with.
+              both the severity of the violations and the kind of buyer you're working with.
             </p>
             <div className="grid md:grid-cols-2 gap-4 mb-4">
               <div className="bg-red-50 border border-red-100 rounded-xl p-5">
