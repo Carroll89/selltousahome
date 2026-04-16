@@ -29,7 +29,7 @@ export default function ReadingMarketReportPage() {
         {/* TL;DR — GEO/AEO Quick Answer */}
         <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-10">
           <h2 className="text-lg font-bold text-brand-dark mb-2">Quick Answer: Reading PA Housing Market 2026</h2>
-          <p className="text-gray-700 text-sm leading-relaxed">According to Redfin (February 2026), Reading's median home sale price is $185,000 (-1.1% year-over-year); the Zillow Home Value Index puts the typical home value at $227,041 (+7.8%). Homes average 24 days on market. Critical note: Reading has a 5% total transfer tax (4% City of Reading + 1% PA State) — one of the highest in Pennsylvania. Cash buyers cover all closing costs including the full transfer tax, and close in 7–14 days as-is.</p>
+          <p className="text-gray-700 text-sm leading-relaxed">According to Redfin (March 2026), Reading's median home sale price is $185,000 (-1.1% year-over-year); the Zillow Home Value Index puts the typical home value at $227,041 (+7.8%). Homes average 24 days on market. Critical note: Reading has a 5% total transfer tax (4% City of Reading + 1% PA State) — one of the highest in Pennsylvania. Cash buyers cover all closing costs including the full transfer tax, and close in 7–14 days as-is.</p>
         </div>
 
         <div className="mb-4 text-sm text-gray-500">
@@ -64,11 +64,11 @@ export default function ReadingMarketReportPage() {
               <tbody>
                 {[
                   ['Typical Home Value (Zillow ZHVI)', '$227,041', 'Zillow, early 2026 — all homes'],
-                  ['Median Sale Price', '$185,000', 'Redfin, Feb 2026 — closed transactions'],
-                  ['YoY Price Change', '-1.1%', 'Redfin Feb 2026'],
-                  ['Median Price Per Sq Ft', '$120', 'Redfin Feb 2026'],
-                  ['Median Days on Market', '24 days', 'Redfin Feb 2026 — up from 12 days YoY'],
-                  ['Sale-to-List Ratio', '96.6%', 'Redfin Feb 2026 — down 4.7pts YoY'],
+                  ['Median Sale Price', '$185,000', 'Redfin, Mar 2026 — closed transactions'],
+                  ['YoY Price Change', '-1.1%', 'Redfin Mar 2026'],
+                  ['Median Price Per Sq Ft', '$125', 'Redfin Mar 2026'],
+                  ['Median Days on Market', '24 days', 'Redfin Mar 2026'],
+                  ['Sale-to-List Ratio', '96.6%', 'Redfin Mar 2026'],
                   ['Homes Sold (month)', '47', 'Redfin Feb 2026'],
                   ['Average Offers Per Home', '6', 'Redfin'],
                   ['Compete Score', '80/100 — Very Competitive', 'Redfin'],

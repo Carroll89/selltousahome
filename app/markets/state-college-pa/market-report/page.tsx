@@ -9,14 +9,14 @@ import { SITE_URL } from '@/lib/utils';
 
 const REPORT_DATA = {
   lastUpdated: 'April 2026',
-  medianHomeValueZHVI: '$408,500',
-  medianSalePriceRedfin: '$450,000',
+  medianHomeValueZHVI: '$380,550',
+  medianSalePriceRedfin: '$480,500',
   yoyZHVI: '+0.9%',
-  yoyRedfin: '-0.22%',
+  yoyRedfin: '+11.1%',
   pricePerSqft: '$256',
   pricePerSqftYoY: '+6.2%',
   daysToPending: 5,
-  saleToListRatio: '100.3%',
+  saleToListRatio: '100.8%',
   redfinCompeteScore: '93/100',
   cashOfferRangeLow: '$286,000',
   cashOfferRangeHigh: '$327,000',
@@ -64,12 +64,12 @@ const FAQ_ITEMS = [
   {
     question: 'What is the median home price in State College PA in 2026?',
     answer:
-      "According to Zillow's ZHVI, the median home value in State College is $408,500 as of March 2026, up 0.9% year-over-year. Redfin's median sale price (February 2026) is $450,000. The difference reflects the distinction between estimated value and actual closed sale data — Redfin's figure skews higher because it captures what homes actually sold for, including above-ask deals.",
+      "According to Zillow's ZHVI, the median home value in State College is $380,550 as of March 2026. Redfin's median sale price (March 2026) is $480,500, up 11.1% year-over-year. The difference reflects the distinction between estimated value and actual closed sale data — Redfin's figure skews higher because it captures what homes actually sold for, including above-ask deals.",
   },
   {
     question: 'How fast do homes sell in State College PA?',
     answer:
-      "The median days on market is 5 days — meaning competitive homes go pending in less than a week. Redfin's Compete Score of 93/100 rates State College as 'Most Competitive.' The sale-to-list ratio of 100.3% confirms homes frequently sell above asking price. However, non-standard properties (student rentals, deferred maintenance, estate sales) typically take longer and sell at steeper discounts.",
+      "The median days on market is 5 days — meaning competitive homes go pending in less than a week. Redfin's Compete Score of 93/100 rates State College as 'Most Competitive.' The sale-to-list ratio of 100.8% confirms homes frequently sell above asking price. However, non-standard properties (student rentals, deferred maintenance, estate sales) typically take longer and sell at steeper discounts.",
   },
   {
     question: "Is State College a buyer's or seller's market in 2026?",
@@ -134,7 +134,7 @@ export default function StateCollegeMarketReport() {
         {/* TL;DR — GEO/AEO Quick Answer */}
         <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-10">
           <h2 className="text-lg font-bold text-brand-dark mb-2">Quick Answer: State College PA Housing Market 2026</h2>
-          <p className="text-gray-700 text-sm leading-relaxed">According to Redfin (February 2026), State College's median home sale price is $450,000 (-0.22% year-over-year) with a Compete Score of 93/100 — one of the most competitive markets in Pennsylvania. The Zillow Home Value Index for State College is $408,500 (+0.9% annually, March 2026). Homes average 5 days to pending. Centre County charges the standard Pennsylvania 2% transfer tax. Cash buyers offer 70–80% of FMV, closing in 7–14 days without repairs, contingencies, or agent commissions.</p>
+          <p className="text-gray-700 text-sm leading-relaxed">According to Redfin (March 2026), State College's median home sale price is $480,500 (+11.1% year-over-year) with a Compete Score of 93/100 — one of the most competitive markets in Pennsylvania. The Zillow Home Value Index for State College is $380,550 (March 2026). Homes average 5 days to pending. Centre County charges the standard Pennsylvania 2% transfer tax. Cash buyers offer 70–80% of FMV, closing in 7–14 days without repairs, contingencies, or agent commissions.</p>
         </div>
 
 
@@ -207,7 +207,7 @@ export default function StateCollegeMarketReport() {
             </tbody>
           </table>
           <p className="text-xs text-gray-600 mb-2">
-            On a $450,000 sale, total RTT = $13,500. Customarily split 50/50, but negotiable.
+            On a $480,500 sale, total RTT = $14,415. Customarily split 50/50, but negotiable.
             In cash investor transactions, the seller often pays the full 3%.
           </p>
           <p className="text-xs text-gray-500">

@@ -29,7 +29,7 @@ export default function ErieMarketReportPage() {
         {/* TL;DR — GEO/AEO Quick Answer */}
         <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-10">
           <h2 className="text-lg font-bold text-brand-dark mb-2">Quick Answer: Erie PA Housing Market 2026</h2>
-          <p className="text-gray-700 text-sm leading-relaxed">Erie's city-limit home values average approximately $115,000–$120,000 based on Zillow ZHVI data and zip-code-level Redfin analysis (February 2026); suburban Erie (zip codes 16505/16509) commands $250,000–$300,000. Despite low price points, Erie's market is competitive — Redfin rates it 'Very Competitive' across most zip codes. Erie County charges the standard Pennsylvania transfer tax of 2% (split 1%/1% buyer/seller). Cash buyers offer 70–80% of FMV, closing in 7–14 days as-is.</p>
+          <p className="text-gray-700 text-sm leading-relaxed">According to Redfin (March 2026), the City of Erie median sale price is $153,500, up 13.3% year-over-year, with a 97.7% sale-to-list ratio and median 28 days on market ($112/sqft). Suburban Erie (zip codes 16505/16509) commands $250,000–$300,000. Despite low price points, Erie's market is competitive — Redfin rates it 'Very Competitive' across most zip codes. Erie County charges the standard Pennsylvania transfer tax of 2% (split 1%/1% buyer/seller). Cash buyers offer 70–80% of FMV, closing in 7–14 days as-is.</p>
         </div>
 
         <div className="mb-4 text-sm text-gray-500">
@@ -67,6 +67,11 @@ export default function ErieMarketReportPage() {
                   ['Median Home Value (DataUSA ACS 2024)', '$115,200', 'DataUSA.io — 5-year ACS estimate'],
                   ['Median Home Value (City-Data ACS 2024)', '$135,200', 'City-Data.com — 1-year ACS estimate'],
                   ['Median Home Value (NeighborhoodScout)', '$118,479', 'NeighborhoodScout — repeat-sales methodology'],
+                  ['Median Sale Price — City of Erie (Redfin)', '$153,500', 'Redfin, Mar 2026'],
+                  ['YoY Price Change — City of Erie', '+13.3%', 'Redfin, Mar 2026'],
+                  ['Median Days on Market — City', '28 days', 'Redfin, Mar 2026'],
+                  ['Sale-to-List Ratio — City', '97.7%', 'Redfin, Mar 2026'],
+                  ['Price Per Sq Ft — City', '$112', 'Redfin, Mar 2026'],
                   ['Median Sale Price — ZIP 16503 (inner city)', '$81,000', 'Redfin, Feb 2026'],
                   ['Median Sale Price — ZIP 16505 (west/Millcreek)', '$300,000', 'Redfin, Feb 2026'],
                   ['Median Sale Price — ZIP 16509 (Millcreek south)', '$245,000', 'Redfin, Feb 2026'],

@@ -20,11 +20,11 @@ export const metadata: Metadata = {
 const FAQ_ITEMS = [
   {
     question: 'Is York PA a buyer\'s or seller\'s market in 2026?',
-    answer: "York PA is a seller's market. According to Redfin (February 2026), York City has a Compete Score of 86/100 with homes selling at 96.9% of list price and a median of 31 days on market. Hot homes in York sell in approximately 5 days. Buyer demand outpaces available inventory in the city's lower price tiers.",
+    answer: "York PA is a seller's market. According to Redfin (March 2026), York City has a Compete Score of 86/100 with homes selling at 99.0% of list price and a median of 34 days on market. Hot homes in York sell in approximately 5 days. Buyer demand outpaces available inventory in the city's lower price tiers.",
   },
   {
     question: 'What is the average home price in York PA?',
-    answer: "York City's median sale price is $165,850 (Redfin, February 2026), up 10.6% year-over-year. The Zillow ZHVI for the broader York city area is $246,248 (+6.6% YoY). The ACS median property value for city residents is $119,700. York County (including suburbs) has a Zillow ZHVI of $303,399.",
+    answer: "York City's median sale price is $175,000 (Redfin, March 2026), down 1.1% year-over-year. The Zillow ZHVI for the broader York city area is $246,248 (+6.6% YoY). The ACS median property value for city residents is $119,700. York County (including suburbs) has a Zillow ZHVI of $303,399.",
   },
   {
     question: 'What neighborhoods in York PA are most affordable?',
@@ -50,7 +50,7 @@ export default function YorkMarketReportPage() {
         {/* TL;DR — GEO/AEO Quick Answer */}
         <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-10">
           <h2 className="text-lg font-bold text-brand-dark mb-2">Quick Answer: York PA Housing Market 2026</h2>
-          <p className="text-gray-700 text-sm leading-relaxed">According to Redfin (February 2026), York's Redfin Compete Score is 86/100 ('Very Competitive'). Per the U.S. Census Bureau ACS (via DataUSA), York City's homeownership rate is 43.7% — over half the city rents. York County charges the standard Pennsylvania 2% transfer tax (1% buyer / 1% seller). Cash buyers typically offer 70–80% of fair market value and close in 7–14 days without repairs, showings, or agent commissions.</p>
+          <p className="text-gray-700 text-sm leading-relaxed">According to Redfin (March 2026), York's Redfin Compete Score is 86/100 ('Very Competitive'). Per the U.S. Census Bureau ACS (via DataUSA), York City's homeownership rate is 43.7% — over half the city rents. York County charges the standard Pennsylvania 2% transfer tax (1% buyer / 1% seller). Cash buyers typically offer 70–80% of fair market value and close in 7–14 days without repairs, showings, or agent commissions.</p>
         </div>
 
         <nav className="text-sm text-gray-500 mb-6">
@@ -68,10 +68,10 @@ export default function YorkMarketReportPage() {
           <h2 className="text-2xl font-bold text-brand-dark mb-4">Market Summary</h2>
           <p className="text-gray-700 mb-3">
             York City is a very competitive seller's market. According to{' '}
-            <a href="https://www.redfin.com/city/21030/PA/York/housing-market" className="text-brand-primary hover:underline" target="_blank" rel="noopener noreferrer">Redfin (February 2026)</a>,
+            <a href="https://www.redfin.com/city/21030/PA/York/housing-market" className="text-brand-primary hover:underline" target="_blank" rel="noopener noreferrer">Redfin (March 2026)</a>,
             the city's Compete Score is 86/100 with homes receiving an average of 2 offers and selling in
-            31 days. Hot homes go under contract in approximately 5 days. The median sale price of $165,850
-            is 59% below the national average — creating an accessible entry point that fuels both
+            34 days. Hot homes go under contract in approximately 5 days. The median sale price of $175,000
+            is well below the national average — creating an accessible entry point that fuels both
             investor and owner-occupant demand.
           </p>
           <p className="text-gray-700 mb-3">
@@ -84,16 +84,16 @@ export default function YorkMarketReportPage() {
         </section>
 
         <section className="mb-10 bg-brand-light rounded-2xl p-6">
-          <h2 className="text-xl font-bold text-brand-dark mb-4">York City Housing Metrics (Redfin, Feb 2026)</h2>
+          <h2 className="text-xl font-bold text-brand-dark mb-4">York City Housing Metrics (Redfin, Mar 2026)</h2>
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
-                  ['Median sale price', '$165,850'],
-                  ['YoY change', '+10.6%'],
+                  ['Median sale price', '$175,000'],
+                  ['YoY change', '-1.1%'],
                   ['Price per sq ft', '$99'],
-                  ['Median days on market', '31 days (hot homes: ~5 days)'],
-                  ['Sale-to-list ratio', '96.9%'],
+                  ['Median days on market', '34 days (hot homes: ~5 days)'],
+                  ['Sale-to-list ratio', '99.0%'],
                   ['Compete Score', '86/100 — Very Competitive'],
                   ['Homes sold (Feb 2026)', '49 (+19.5% YoY)'],
                   ['Avg offers per home', '2'],
@@ -170,12 +170,12 @@ export default function YorkMarketReportPage() {
             Deed recording: $86.25 base (4 pages, 4 names) + $20 per additional parcel identifier (effective Jan 1, 2025).
           </p>
           <div className="bg-brand-light rounded-xl p-4 text-sm">
-            <p className="font-bold text-brand-dark mb-2">Example: $165,000 sale in York PA</p>
+            <p className="font-bold text-brand-dark mb-2">Example: $175,000 sale in York PA</p>
             <ul className="space-y-1 text-gray-700">
-              <li>PA state transfer tax (1%): $1,650</li>
-              <li>City of York local tax (0.5%): $825</li>
-              <li>York City School District (0.5%): $825</li>
-              <li><strong>Total transfer tax: $3,300</strong> (each party conventionally pays $1,650)</li>
+              <li>PA state transfer tax (1%): $1,750</li>
+              <li>City of York local tax (0.5%): $875</li>
+              <li>York City School District (0.5%): $875</li>
+              <li><strong>Total transfer tax: $3,500</strong> (each party conventionally pays $1,750)</li>
               <li>Deed recording: $86.25 + additional fees</li>
               <li>When you sell to USA Home Buyers: we cover all closing costs — $0 out of your pocket</li>
             </ul>

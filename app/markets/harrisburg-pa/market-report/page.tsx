@@ -14,14 +14,14 @@ export const revalidate = 86400;
 const REPORT_DATA = {
   lastUpdated: 'April 2026',
   medianHomeValueZHVI: '$234,569',
-  medianSalePriceCity: '~$145,000',
-  daysToPending: 5,
+  medianSalePriceCity: '~$152,500',
+  daysToPending: 24,
   daysToClose: '45–60',
   totalSaleTimeline: '50–65',
-  yoyPriceChange: '+4.2%',
-  pricePerSqft: '$142',
+  yoyPriceChange: '+5.2%',
+  pricePerSqft: '$104',
   activeListings: 'Low (seller\'s market)',
-  listToSaleRatio: '99.1%',
+  listToSaleRatio: '98.4%',
   cashOfferRangeLow: '$100,000',
   cashOfferRangeHigh: '$187,000',
   paTransferTax: '2% (1% buyer / 1% seller)',
@@ -65,27 +65,27 @@ const FAQ_ITEMS = [
   {
     question: 'What is the median home price in Harrisburg PA in 2026?',
     answer:
-      'The Zillow Home Value Index (ZHVI) for the Harrisburg metro area is approximately $234,569 as of April 2026. Within city limits, Redfin and local MLS data show a median sale price closer to $145,000, reflecting Harrisburg\'s concentration of older row homes and working-class neighborhoods.',
+      'The Zillow Home Value Index (ZHVI) for the Harrisburg metro area is approximately $234,569 as of April 2026. Within city limits, Redfin and local MLS data show a median sale price closer to $152,500, reflecting Harrisburg\'s concentration of older row homes and working-class neighborhoods.',
   },
   {
     question: 'How long does it take to sell a house in Harrisburg PA?',
     answer:
-      'The median days to pending in Harrisburg is approximately 5 days — meaning offers come quickly. However, the full closing process (inspections, appraisals, mortgage underwriting, title) adds another 45–60 days. Total timeline from list to close: 50–65 days. Cash buyers close in 7–14 days.',
+      'The median days on market in Harrisburg is approximately 24 days per Redfin March 2026 data. After going under contract, the full closing process (inspections, appraisals, mortgage underwriting, title) adds another 45–60 days. Total timeline from list to close: 70–85 days. Cash buyers close in 7–14 days.',
   },
   {
     question: 'Is Harrisburg PA a buyer\'s or seller\'s market in 2026?',
     answer:
-      'Harrisburg is a seller\'s market in 2026. Active inventory is low, homes are going pending within days, and the list-to-sale price ratio is approximately 99.1%, meaning sellers are getting very close to their asking price. This reflects the broader Central PA trend of limited new construction and sustained demand.',
+      'Harrisburg is a seller\'s market in 2026. Active inventory is low, homes are moving steadily, and the list-to-sale price ratio is approximately 98.4%, meaning sellers are getting very close to their asking price. This reflects the broader Central PA trend of limited new construction and sustained demand.',
   },
   {
     question: 'What are home prices doing in Harrisburg year-over-year?',
     answer:
-      'Harrisburg area home values are up approximately 4.2% year-over-year as of April 2026 according to Zillow ZHVI data. This is consistent with the broader Pennsylvania housing market trend, driven by low inventory, remote work demand, and affordability relative to Philadelphia and Pittsburgh.',
+      'Harrisburg area home values are up approximately 5.2% year-over-year as of April 2026 per Redfin March 2026 data. This is consistent with the broader Pennsylvania housing market trend, driven by low inventory, remote work demand, and affordability relative to Philadelphia and Pittsburgh.',
   },
   {
     question: 'How much do cash buyers pay for Harrisburg homes?',
     answer:
-      'Cash buyers typically offer 70–80% of fair market value. On a Harrisburg home in the $145,000–$234,000 range, that means a cash offer of $100,000–$187,000. The trade-off: no agent commissions (5–6%), no closing costs (the buyer covers), no repairs, and closing in 7–14 days instead of 50–65.',
+      'Cash buyers typically offer 70–80% of fair market value. On a Harrisburg home in the $152,500–$234,000 range, that means a cash offer of $100,000–$187,000. The trade-off: no agent commissions (5–6%), no closing costs (the buyer covers), no repairs, and closing in 7–14 days instead of 70–85.',
   },
   {
     question: 'Which Harrisburg neighborhoods have the highest home values?',

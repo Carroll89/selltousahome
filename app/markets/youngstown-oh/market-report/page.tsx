@@ -21,11 +21,11 @@ export const metadata: Metadata = {
 const FAQ_ITEMS = [
   {
     question: 'What is the median home price in Youngstown OH?',
-    answer: 'According to Redfin, the Youngstown median sale price is $129,200 as of February 2026. The Zillow ZHVI for the city is $51,815 — reflecting the vast inventory of distressed and vacant properties that pulls the overall average down. Mahoning County as a whole has a ZHVI of $149,008 (Zillow, 2025), reflecting the higher values in suburban Boardman and Austintown.',
+    answer: 'According to Redfin, the Youngstown median sale price is $102,000 as of March 2026. The Zillow ZHVI for the city is $51,815 — reflecting the vast inventory of distressed and vacant properties that pulls the overall average down. Mahoning County as a whole has a ZHVI of $149,008 (Zillow, 2025), reflecting the higher values in suburban Boardman and Austintown.',
   },
   {
     question: 'How long does it take to sell a house in Youngstown OH?',
-    answer: 'According to Redfin, Youngstown homes spend a median of 70 days on market as of February 2026, up from 58 days the prior year. Many city-core properties sit longer because they don\'t qualify for conventional financing — reducing the buyer pool to cash investors only.',
+    answer: 'According to Redfin, Youngstown homes spend a median of 70 days on market as of March 2026. Many city-core properties sit longer because they don\'t qualify for conventional financing — reducing the buyer pool to cash investors only.',
   },
   {
     question: 'Is Youngstown a buyer\'s or seller\'s market?',
@@ -78,20 +78,20 @@ export default function YoungstownMarketReportPage() {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
 
         <section className="mb-10">
-          <h2 className="text-2xl font-bold text-brand-dark mb-4">Market Overview — February 2026</h2>
+          <h2 className="text-2xl font-bold text-brand-dark mb-4">Market Overview — March 2026</h2>
           <p className="text-gray-700 mb-4">
             Youngstown's housing market operates in two parallel realities. The{' '}
-            <a href="https://www.redfin.com/city/21075/OH/Youngstown/housing-market" className="text-brand-primary hover:underline" target="_blank" rel="noopener noreferrer">Redfin median sale price of $129,200</a>{' '}
+            <a href="https://www.redfin.com/city/21075/OH/Youngstown/housing-market" className="text-brand-primary hover:underline" target="_blank" rel="noopener noreferrer">Redfin median sale price of $102,000</a>{' '}
             reflects actual transactions — the subset of habitable properties that changed hands
-            in February 2026. The{' '}
+            in March 2026. The{' '}
             <a href="https://www.zillow.com/home-values/28060/youngstown-oh/" className="text-brand-primary hover:underline" target="_blank" rel="noopener noreferrer">Zillow ZHVI of $51,815</a>{' '}
             captures the typical value across all housing units — including the estimated 30-40%
             of parcels that are vacant, demolished, or held by the Mahoning County Land Bank.
             That gap between "what sells" and "what exists" defines this market.
           </p>
           <p className="text-gray-700 mb-4">
-            Thirty homes sold in February 2026 — down from 53 the year prior. The 57.6% YoY
-            price jump is a statistical artifact of that small sample, not a genuine surge.
+            March 2026 data shows the median sale price at $102,000 (-0.98% YoY), reflecting stabilization
+            in actual transaction pricing as the market normalizes from prior-period small-sample volatility.
             For pricing context, neighboring{' '}
             <a href="https://www.zillow.com/home-values/2399/mahoning-county-oh/" className="text-brand-primary hover:underline" target="_blank" rel="noopener noreferrer">Mahoning County as a whole has a ZHVI of $149,008</a>,
             reflecting the stronger suburban values in Boardman and Austintown.
@@ -104,11 +104,11 @@ export default function YoungstownMarketReportPage() {
             <table className="w-full text-sm">
               <tbody>
                 {[
-                  ['Median sale price (Redfin, Feb 2026)', '$129,200'],
-                  ['YoY change — sale price', '+57.6% (small sample — 30 sales)'],
+                  ['Median sale price (Redfin, Mar 2026)', '$102,000'],
+                  ['YoY change — sale price', '-0.98%'],
                   ['Zillow ZHVI — city of Youngstown (2025)', '$51,815 (-2.2% YoY)'],
                   ['Zillow ZHVI — Mahoning County (2025)', '$149,008 (+4.5% YoY)'],
-                  ['Price per square foot (Redfin, Feb 2026)', '$73/sqft (-14.0% YoY)'],
+                  ['Price per square foot (Redfin, Mar 2026)', '$92/sqft'],
                   ['Median days on market', '70 days (up from 58 YoY)'],
                   ['Sale-to-list ratio', '97.0% (+2.7 pts YoY)'],
                   ['Redfin Compete Score', '69/100 — Somewhat Competitive'],
@@ -218,7 +218,7 @@ export default function YoungstownMarketReportPage() {
             </table>
           </div>
           <p className="text-gray-700 mt-3 text-sm">
-            On a $129,200 sale: $516.80 conveyance fee + $0.50 parcel fee = <strong>~$517 total</strong> (seller-paid).
+            On a $102,000 sale: $408 conveyance fee + $0.50 parcel fee = <strong>~$408.50 total</strong> (seller-paid).
             When you sell to USA Home Buyers, we cover all closing costs — this fee comes out of our side, not yours.
           </p>
         </section>

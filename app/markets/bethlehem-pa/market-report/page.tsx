@@ -20,11 +20,11 @@ export const metadata: Metadata = {
 const FAQ_ITEMS = [
   {
     question: 'Is Bethlehem PA a good time to sell in 2026?',
-    answer: "Yes — according to Redfin, Bethlehem's Compete Score is 89/100 (Very Competitive) and homes are selling at 100.5% of list price in an average of 10 days. The median sale price rose 16.6% year-over-year to $320,000 as of February 2026. However, that performance is for move-in-ready homes. Properties with deferred maintenance, code issues, or complicated ownership often sit longer or require price reductions.",
+    answer: "Yes — according to Redfin, Bethlehem's Compete Score is 89/100 (Very Competitive) and homes are selling at 99.6% of list price in an average of 21 days. The median sale price rose 14.0% year-over-year to $313,500 as of March 2026. However, that performance is for move-in-ready homes. Properties with deferred maintenance, code issues, or complicated ownership often sit longer or require price reductions.",
   },
   {
     question: 'What is the median home price in Bethlehem PA?',
-    answer: "According to Redfin (February 2026), Bethlehem's median sale price is $320,000, up 16.6% year-over-year. Zillow's home value estimate (ZHVI) is $350,600, up 2.9% annually. South Bethlehem has a lower median near $245,000, reflecting the dense pre-war row home stock on the South Side.",
+    answer: "According to Redfin (March 2026), Bethlehem's median sale price is $313,500, up 14.0% year-over-year. Zillow's home value estimate (ZHVI) is $350,600, up 2.9% annually. South Bethlehem has a lower median near $245,000, reflecting the dense pre-war row home stock on the South Side.",
   },
   {
     question: 'What is the transfer tax in Bethlehem PA?',
@@ -50,7 +50,7 @@ export default function BethlehemMarketReportPage() {
         {/* TL;DR — GEO/AEO Quick Answer */}
         <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-10">
           <h2 className="text-lg font-bold text-brand-dark mb-2">Quick Answer: Bethlehem PA Housing Market 2026</h2>
-          <p className="text-gray-700 text-sm leading-relaxed">According to Redfin (February 2026), Bethlehem's median home sale price is $320,000, up 16.6% year-over-year. The Zillow Home Value Index (ZHVI) for Bethlehem is $350,600 (+2.9% annually). Homes go pending in ~10 days and sell above list price (100.5% sale-to-list ratio, per Redfin) — a very competitive seller's market. Cash buyers typically offer 70–80% of fair market value, closing in 7–14 days without repairs, showings, or agent commissions.</p>
+          <p className="text-gray-700 text-sm leading-relaxed">According to Redfin (March 2026), Bethlehem's median home sale price is $313,500, up 14.0% year-over-year. The Zillow Home Value Index (ZHVI) for Bethlehem is $350,600 (+2.9% annually). Homes go pending in ~21 days and sell near list price (99.6% sale-to-list ratio, per Redfin) — a very competitive seller's market. Cash buyers typically offer 70–80% of fair market value, closing in 7–14 days without repairs, showings, or agent commissions.</p>
         </div>
 
         <nav className="text-sm text-gray-500 mb-6">
@@ -78,12 +78,12 @@ export default function BethlehemMarketReportPage() {
                 {[
                   ['Avg home value (Zillow ZHVI)', '$350,600', 'April 2026'],
                   ['YoY change (Zillow)', '+2.9%', 'April 2026'],
-                  ['Median sale price (Redfin)', '$320,000', 'February 2026'],
-                  ['YoY change (Redfin)', '+16.6%', 'February 2026'],
+                  ['Median sale price (Redfin)', '$313,500', 'March 2026'],
+                  ['YoY change (Redfin)', '+14.0%', 'March 2026'],
                   ['Alternate median (Rocket Homes)', '$330,774', 'March 2025'],
                   ['Price per sq ft', '$178', 'Redfin, Feb 2026'],
-                  ['Median days on market', '10 days', 'Redfin, Feb 2026'],
-                  ['Sale-to-list ratio', '100.5%', 'Redfin, Feb 2026'],
+                  ['Median days on market', '21 days', 'Redfin, Mar 2026'],
+                  ['Sale-to-list ratio', '99.6%', 'Redfin, Mar 2026'],
                   ['Redfin Compete Score', '89/100 — Very Competitive', 'Feb 2026'],
                   ['Avg offers per listing', '5 offers', 'Redfin, Feb 2026'],
                   ['Hot homes sell in', '~6 days at ~4% above list', 'Redfin, Feb 2026'],
@@ -158,7 +158,7 @@ export default function BethlehemMarketReportPage() {
             What the Data Means for Bethlehem Sellers
           </h2>
           <p className="text-gray-700 mb-3">
-            Bethlehem&apos;s 89/100 Compete Score and 10-day median DOM reflect strong demand — but that demand is
+            Bethlehem&apos;s 89/100 Compete Score and 21-day median DOM reflect strong demand — but that demand is
             concentrated in move-in-ready properties. According to the U.S. Census Bureau, 30.8% of Bethlehem&apos;s
             housing units are attached structures (row homes and twins), the majority built between 1890 and 1930
             for Bethlehem Steel workers.
@@ -170,7 +170,7 @@ export default function BethlehemMarketReportPage() {
             can&apos;t or don&apos;t want to front that cost, a cash sale at 70-80% of FMV is a rational choice.
           </p>
           <p className="text-gray-700 mb-3">
-            The 16.6% year-over-year price increase (Redfin) is also worth context: it reflects the Lehigh Valley&apos;s
+            The 14.0% year-over-year price increase (Redfin, March 2026) is also worth context: it reflects the Lehigh Valley&apos;s
             continued attraction to buyers from Philadelphia and the New York metro. That buyer pool wants turnkey,
             not project homes. Sellers with older properties or complicated situations are often better served
             by a direct cash sale than by competing for a narrower slice of the retail market.
@@ -194,7 +194,7 @@ export default function BethlehemMarketReportPage() {
                   <th className="py-3 px-4 text-left">Component</th>
                   <th className="py-3 px-4 text-left">Rate</th>
                   <th className="py-3 px-4 text-left">Who Pays</th>
-                  <th className="py-3 px-4 text-left">On $320K Home</th>
+                  <th className="py-3 px-4 text-left">On $313.5K Home</th>
                 </tr>
               </thead>
               <tbody>
@@ -202,19 +202,19 @@ export default function BethlehemMarketReportPage() {
                   <td className="py-3 px-4">Pennsylvania State RTT</td>
                   <td className="py-3 px-4">1.0%</td>
                   <td className="py-3 px-4">Split 50/50</td>
-                  <td className="py-3 px-4">$3,200 total</td>
+                  <td className="py-3 px-4">$3,135 total</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="py-3 px-4">City of Bethlehem Local RTT</td>
                   <td className="py-3 px-4">1.0%</td>
                   <td className="py-3 px-4">Split 50/50</td>
-                  <td className="py-3 px-4">$3,200 total</td>
+                  <td className="py-3 px-4">$3,135 total</td>
                 </tr>
                 <tr className="bg-white font-bold">
                   <td className="py-3 px-4">TOTAL</td>
                   <td className="py-3 px-4">2.0%</td>
                   <td className="py-3 px-4">Seller pays 1%</td>
-                  <td className="py-3 px-4">$6,400 total ($3,200 seller)</td>
+                  <td className="py-3 px-4">$6,270 total ($3,135 seller)</td>
                 </tr>
               </tbody>
             </table>

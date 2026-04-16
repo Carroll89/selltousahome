@@ -13,15 +13,15 @@ export const revalidate = 86400;
 // ─── Update these numbers each month ─────────────────────────────────────────
 const REPORT_DATA = {
   lastUpdated: 'April 2026',
-  medianHomeValue: '$245,000',
+  medianHomeValue: '$255,000',
   medianSalePriceCity: '~$195,000',
-  daysToPending: 7,
+  daysToPending: 15,
   daysToClose: '45–60',
   totalSaleTimeline: '52–67',
-  yoyPriceChange: '+5.1%',
-  pricePerSqft: '$148',
+  yoyPriceChange: '+5.2%',
+  pricePerSqft: '$167',
   activeListings: 'Low (seller\'s market)',
-  listToSaleRatio: '98.7%',
+  listToSaleRatio: '100.4%',
   cashOfferRangeLow: '$136,000',
   cashOfferRangeHigh: '$196,000',
   paTransferTax: '2% (1% buyer / 1% seller)',
@@ -73,27 +73,27 @@ const FAQ_ITEMS = [
   {
     question: 'What is the median home price in Allentown PA in 2026?',
     answer:
-      'The median home value in Allentown is approximately $245,000 as of April 2026. Within specific neighborhoods like the South Side and Center City, values range from $130,000–$200,000. West End and surrounding areas command higher prices in the $200,000–$280,000 range.',
+      'The median home value in Allentown is approximately $255,000 as of April 2026. Within specific neighborhoods like the South Side and Center City, values range from $130,000–$200,000. West End and surrounding areas command higher prices in the $200,000–$280,000 range.',
   },
   {
     question: 'How long does it take to sell a house in Allentown PA?',
     answer:
-      'The median days to pending in Allentown is approximately 7 days — meaning offers come quickly on well-priced properties. However, the full closing process (inspections, appraisals, mortgage underwriting, title) adds another 45–60 days. Total timeline from list to close: 52–67 days. Cash buyers close in 7–14 days.',
+      'The median days on market in Allentown is approximately 15 days per Redfin March 2026 data. After going under contract, the full closing process (inspections, appraisals, mortgage underwriting, title) adds another 45–60 days. Total timeline from list to close: 60–75 days. Cash buyers close in 7–14 days.',
   },
   {
     question: 'Is Allentown PA a buyer\'s or seller\'s market in 2026?',
     answer:
-      'According to Redfin and local MLS data, Allentown is a seller\'s market in 2026. Active inventory is low, homes are going pending quickly, and the list-to-sale price ratio is approximately 98.7%, meaning sellers are getting very close to their asking price. The Lehigh Valley has seen sustained demand from buyers priced out of the Philadelphia metro.',
+      'According to Redfin and local MLS data, Allentown is a seller\'s market in 2026. Active inventory is low, homes are going pending quickly, and the list-to-sale price ratio is approximately 100.4%, meaning sellers are getting at or above their asking price. The Lehigh Valley has seen sustained demand from buyers priced out of the Philadelphia metro.',
   },
   {
     question: 'What are home prices doing in Allentown year-over-year?',
     answer:
-      'According to the Zillow Home Value Index, Allentown area home values are up approximately 5.1% year-over-year as of April 2026. This is driven by continued demand from Philadelphia-area buyers, limited new construction in the Lehigh Valley, and Allentown\'s relative affordability compared to other PA metros.',
+      'According to Redfin March 2026 data, Allentown area home values are up approximately 5.2% year-over-year as of April 2026. This is driven by continued demand from Philadelphia-area buyers, limited new construction in the Lehigh Valley, and Allentown\'s relative affordability compared to other PA metros.',
   },
   {
     question: 'How much do cash buyers pay for Allentown homes?',
     answer:
-      'Cash buyers typically offer 70–80% of fair market value. On an Allentown home in the $195,000–$245,000 range, that means a cash offer of $136,000–$196,000. The trade-off: no agent commissions (5–6%), no closing costs (the buyer covers), no repairs, and closing in 7–14 days instead of 52–67.',
+      'Cash buyers typically offer 70–80% of fair market value. On an Allentown home in the $195,000–$255,000 range, that means a cash offer of $136,000–$196,000. The trade-off: no agent commissions (5–6%), no closing costs (the buyer covers), no repairs, and closing in 7–14 days instead of 60–75.',
   },
   {
     question: 'What makes Allentown\'s housing market unique?',
@@ -107,7 +107,7 @@ const PAGE_URL = `${SITE_URL}/markets/allentown-pa/market-report`;
 export const metadata: Metadata = {
   title: 'Allentown PA Housing Market 2026',
   description:
-    'Current Allentown PA housing market data for 2026: median home value $245K, 7 days to pending, 5.1% YoY appreciation. Updated April 2026 with neighborhood breakdown.',
+    'Current Allentown PA housing market data for 2026: median home value $255K, 15 days on market, 5.2% YoY appreciation. Updated April 2026 with neighborhood breakdown.',
   alternates: { canonical: PAGE_URL },
   openGraph: {
     title: 'Allentown PA Housing Market Report 2026',

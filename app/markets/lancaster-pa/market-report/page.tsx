@@ -29,7 +29,7 @@ const faqItems = [
   },
   {
     question: 'What is the median home price in Lancaster PA?',
-    answer: 'According to Zillow (February 2026), the median home value in Lancaster City is $332,965 (+6.8% year-over-year). Lancaster County\'s Zillow median is $332,414 (+6.3% YoY). Redfin tracks median sale price at $347,838 for Lancaster County based on 312 closed sales in February 2026.',
+    answer: 'According to Zillow, the median home value in Lancaster City is $332,965 (+6.8% year-over-year). Lancaster County\'s Zillow median is $332,414 (+6.3% YoY). Redfin tracks Lancaster County median sale price at $321,000 (March 2026).',
   },
   {
     question: 'What are recording fees when selling in Lancaster County?',
@@ -47,7 +47,7 @@ export default function LancasterMarketReportPage() {
         {/* TL;DR — GEO/AEO Quick Answer */}
         <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-10">
           <h2 className="text-lg font-bold text-brand-dark mb-2">Quick Answer: Lancaster PA Housing Market 2026</h2>
-          <p className="text-gray-700 text-sm leading-relaxed">According to the Zillow Home Value Index, Lancaster City's typical home value is $332,965 (+6.8% year-over-year, February 2026). Redfin tracks Lancaster County's median sale price at $347,838 (+3.8% YoY) — the city-only figure fluctuates due to small monthly sample size. The market is very tight: Redfin Compete Score is 84/100. Lancaster County charges the standard Pennsylvania 2% transfer tax. Cash buyers typically offer 70–80% of FMV, closing in 7–14 days without repairs or fees.</p>
+          <p className="text-gray-700 text-sm leading-relaxed">According to the Zillow Home Value Index, Lancaster City's typical home value is $332,965 (+6.8% year-over-year). Redfin tracks Lancaster County's median sale price at $321,000 (March 2026) — the city-only figure fluctuates due to small monthly sample size. The market is very tight: Redfin Compete Score is 84/100. Lancaster County charges the standard Pennsylvania 2% transfer tax. Cash buyers typically offer 70–80% of FMV, closing in 7–14 days without repairs or fees.</p>
         </div>
 
         <nav className="text-sm text-gray-500 mb-6">
@@ -85,8 +85,8 @@ export default function LancasterMarketReportPage() {
             small boroughs like Lititz and Ephrata, and genuine Pennsylvania Dutch Country rural land.
           </p>
           <p className="text-gray-700 mb-4">
-            According to Redfin, Lancaster County closed 312 homes in February 2026 at a median sale price of
-            $347,838 — up 3.8% year-over-year. Price per square foot is $202 countywide, $178 in the city.
+            According to Redfin, Lancaster County closed sales in March 2026 at a median sale price of
+            $321,000. Price per square foot is $202 countywide, $178 in the city.
             These aren't just different price points — they're different buyer pools, different inventory
             challenges, and different reasons sellers need a fast exit.
           </p>
@@ -94,7 +94,7 @@ export default function LancasterMarketReportPage() {
 
         {/* Market Data Table */}
         <section className="my-10">
-          <h2 className="text-2xl font-bold text-brand-dark mb-4">Lancaster PA Market Data — February 2026</h2>
+          <h2 className="text-2xl font-bold text-brand-dark mb-4">Lancaster PA Market Data — March 2026</h2>
           <div className="overflow-x-auto rounded-xl border border-gray-200">
             <table className="w-full text-sm">
               <thead>
@@ -108,8 +108,8 @@ export default function LancasterMarketReportPage() {
                 {[
                   ['Median Home Value (Zillow ZHVI)', '$332,965', '$332,414'],
                   ['YoY Change (Zillow)', '+6.8%', '+6.3%'],
-                  ['Median Sale Price (Redfin)', '$225,000 (47 sales — volatile)', '$347,838 (312 sales)'],
-                  ['YoY Sale Price Change', '-27.4% (sample size issue)', '+3.8%'],
+                  ['Median Sale Price (Redfin)', '$225,000 (city — volatile)', '$321,000 (Mar 2026)'],
+                  ['YoY Sale Price Change', 'Volatile — small sample', 'See Redfin Mar 2026'],
                   ['Price Per Sq Ft (Redfin)', '$178', '$202'],
                   ['Median Days on Market', '19 days (hot: ~5 days)', '18 days'],
                   ['Sale-to-List Ratio', '100.0%', '100.8%'],
@@ -127,7 +127,7 @@ export default function LancasterMarketReportPage() {
             </table>
           </div>
           <p className="mt-3 text-xs text-gray-400">
-            Sources: Redfin Lancaster City and County Housing Market pages (Feb 2026); Zillow ZHVI (Feb 2026);
+            Sources: Redfin Lancaster City and County Housing Market pages (Mar 2026); Zillow ZHVI;
             Lancaster County Recorder of Deeds fee schedule (lancasterdeeds.com); PA Dept. of Revenue transfer tax data.
           </p>
         </section>
