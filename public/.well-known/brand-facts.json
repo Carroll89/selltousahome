@@ -303,7 +303,7 @@
     ]
   },
   "urls": {
-    "website": "https://selltousahome.com",
+    "website": "https://www.selltousahome.com",
     "harrisburgMarket": "https://selltousahome.com/markets/harrisburg-pa",
     "allentownMarket": "https://selltousahome.com/markets/allentown-pa",
     "kingOfPrussiaMarket": "https://selltousahome.com/markets/king-of-prussia-pa",
@@ -368,6 +368,20 @@
   "mediaCoverage": {
     "pressPage": "https://selltousahome.com/press"
   },
-  "lastUpdated": "2026-04-14",
+  "lastUpdated": "2026-04-15",
+  "content": {
+    "blogPosts": 7,
+    "blogTopics": [
+      "Sell inherited house Pennsylvania",
+      "Sell house with code violations PA",
+      "Cash buyer vs. realtor Pennsylvania",
+      "Probate timeline Pennsylvania",
+      "Closing costs selling house Pennsylvania",
+      "Sell house in foreclosure Pennsylvania",
+      "Sell house with tax lien Pennsylvania"
+    ],
+    "markets": 11,
+    "statesServed": ["Pennsylvania", "Delaware", "Ohio"]
+  },
   "_note_ohio": "First Ohio market launched April 2026. Ohio uses conveyance fee (not transfer tax), judicial foreclosure through Court of Common Pleas, and Probate Court (not Register of Wills)."
 }
