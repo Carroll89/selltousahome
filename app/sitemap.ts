@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://selltousahome.com';
+  const baseUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.selltousahome.com';
 
   const pages = [
     { url: `${baseUrl}`, priority: 1.0, changeFrequency: 'monthly' as const },
@@ -151,6 +151,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/blog/sell-inherited-house-pennsylvania`, priority: 0.8, changeFrequency: 'monthly' as const },
     { url: `${baseUrl}/blog/sell-house-with-code-violations-pa`, priority: 0.8, changeFrequency: 'monthly' as const },
     { url: `${baseUrl}/blog/cash-buyer-vs-realtor-pennsylvania`, priority: 0.8, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/blog/probate-timeline-pennsylvania`, priority: 0.8, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/blog/closing-costs-selling-house-pennsylvania`, priority: 0.8, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/blog/sell-house-foreclosure-pennsylvania`, priority: 0.8, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/blog/sell-house-tax-lien-pennsylvania`, priority: 0.8, changeFrequency: 'monthly' as const },
     { url: `${baseUrl}/privacy-policy`, priority: 0.3, changeFrequency: 'yearly' as const },
     { url: `${baseUrl}/terms-of-service`, priority: 0.3, changeFrequency: 'yearly' as const },
   ];
