@@ -100,6 +100,13 @@ export default function BethlehemDivorceSalePage() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
 
+        {/* TL;DR — GEO/AEO Quick Answer */}
+        <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-10">
+          <h2 className="text-lg font-bold text-brand-dark mb-2">Quick Answer</h2>
+          <p className="text-gray-700 text-sm leading-relaxed">Yes, you can sell a house during or after a divorce in Bethlehem, PA. Both spouses must agree to the sale, or a Northampton County Court of Common Pleas order can compel it. A cash sale eliminates the carrying costs and emotional friction of a long listing — you split the equity and close in 7–14 days. USA Home Buyers buys divorce-sale properties in the Bethlehem area as-is, with no repairs required.</p>
+        </div>
+
+
         <section className="mb-10">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">
             Why Cash Buyers Make Divorce Home Sales Easier

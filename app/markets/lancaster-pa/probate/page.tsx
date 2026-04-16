@@ -51,6 +51,13 @@ export default function LancasterProbatePage() {
       <SchemaMarkup schema={[lancasterLocalBusinessSchema, articleSch, faqSchema(FAQ_ITEMS)]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+
+        {/* TL;DR — GEO/AEO Quick Answer */}
+        <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-10">
+          <h2 className="text-lg font-bold text-brand-dark mb-2">Quick Answer</h2>
+          <p className="text-gray-700 text-sm leading-relaxed">You can sell a house in probate in Lancaster, PA — once the executor has Letters Testamentary from the Lancaster County Register of Wills. Pennsylvania probate typically takes 9–18 months; Lancaster County typically runs 10–15 months due to higher volume. You can sign a purchase agreement now and close when ready. USA Home Buyers works with Lancaster County estate executors regularly.</p>
+        </div>
+
         <nav className="text-sm text-gray-500 mb-6">
           <Link href="/" className="hover:text-brand-primary">Home</Link>
           {' → '}

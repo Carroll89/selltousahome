@@ -101,6 +101,13 @@ export default function YorkForeclosurePage() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
 
+        {/* TL;DR — GEO/AEO Quick Answer */}
+        <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-10">
+          <h2 className="text-lg font-bold text-brand-dark mb-2">Quick Answer</h2>
+          <p className="text-gray-700 text-sm leading-relaxed">Yes, you can sell a house in foreclosure in York, PA. Pennsylvania uses judicial foreclosure through the York County Court of Common Pleas — the process typically runs 12–18 months from first missed payment to sheriff sale, giving you time to sell and protect your equity. USA Home Buyers can close in as few as 7 days with cash, paying off the mortgage and stopping the foreclosure before it completes.</p>
+        </div>
+
+
         <section className="mb-10">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">
             The York County Foreclosure Timeline

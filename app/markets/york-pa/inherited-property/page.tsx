@@ -102,6 +102,13 @@ export default function YorkInheritedPropertyPage() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
 
+        {/* TL;DR — GEO/AEO Quick Answer */}
+        <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-10">
+          <h2 className="text-lg font-bold text-brand-dark mb-2">Quick Answer</h2>
+          <p className="text-gray-700 text-sm leading-relaxed">If you inherited a house in York, PA, you likely need to complete probate through the York County Register of Wills before selling — unless the property was held jointly or in a living trust. York County probate typically runs 9–14 months. USA Home Buyers buys inherited properties in York as-is — no repairs or cleanout required, and we work around your probate timeline.</p>
+        </div>
+
+
         <section className="mb-10">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">
             Inherited a York PA Home? Here's What to Know

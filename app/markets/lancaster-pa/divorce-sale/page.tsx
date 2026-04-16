@@ -55,6 +55,13 @@ export default function LancasterDivorceSalePage() {
       <SchemaMarkup schema={[lancasterLocalBusinessSchema, articleSch, faqSchema(FAQ_ITEMS)]} />
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+
+        {/* TL;DR — GEO/AEO Quick Answer */}
+        <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-10">
+          <h2 className="text-lg font-bold text-brand-dark mb-2">Quick Answer</h2>
+          <p className="text-gray-700 text-sm leading-relaxed">Yes, you can sell a house during or after a divorce in Lancaster, PA. Both spouses must agree to the sale, or a Lancaster County Court of Common Pleas order can compel it. A cash sale removes the property from the divorce equation quickly — you split the equity and move on. USA Home Buyers buys divorce-sale properties in Lancaster as-is, closing in 7–14 days.</p>
+        </div>
+
         <nav className="text-sm text-gray-500 mb-6">
           <Link href="/" className="hover:text-brand-primary">Home</Link>
           {' → '}

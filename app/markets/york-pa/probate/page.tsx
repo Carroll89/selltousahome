@@ -97,6 +97,13 @@ export default function YorkProbatePage() {
 
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
 
+        {/* TL;DR — GEO/AEO Quick Answer */}
+        <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-10">
+          <h2 className="text-lg font-bold text-brand-dark mb-2">Quick Answer</h2>
+          <p className="text-gray-700 text-sm leading-relaxed">You can sell a house in probate in York, PA — once the executor has Letters Testamentary from the York County Register of Wills. Pennsylvania probate typically takes 9–18 months; York County typically runs 9–14 months for straightforward estates. You can accept a cash offer now and schedule closing around your probate timeline. USA Home Buyers works with York County estate executors.</p>
+        </div>
+
+
         <section className="mb-10">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">Probate Sales in York County — What to Know</h2>
           <p className="text-gray-700 mb-3">
