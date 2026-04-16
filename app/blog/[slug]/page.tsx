@@ -23,6 +23,12 @@ async function loadContent(slug: string): Promise<BlogPostContent | null> {
         return (await import('@/content/blog/sell-house-foreclosure-pennsylvania')).default;
       case 'sell-house-tax-lien-pennsylvania':
         return (await import('@/content/blog/sell-house-tax-lien-pennsylvania')).default;
+      case 'sell-house-divorce-pennsylvania':
+        return (await import('@/content/blog/sell-house-divorce-pennsylvania')).default;
+      case 'selling-tenant-occupied-property-pa':
+        return (await import('@/content/blog/selling-tenant-occupied-property-pa')).default;
+      case 'property-taxes-pennsylvania-what-happens':
+        return (await import('@/content/blog/property-taxes-pennsylvania-what-happens')).default;
       default:
         return null;
     }

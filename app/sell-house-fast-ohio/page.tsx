@@ -253,6 +253,188 @@ export default function OhioHubPage() {
 
         <FAQSection items={FAQ_ITEMS} heading="Frequently Asked Questions — Selling a House in Ohio" />
 
+        {/* ===== SECTION: Legal Overview ===== */}
+        <section className="my-12" id="oh-legal-overview">
+          <div className="bg-amber-50 border-l-4 border-amber-400 rounded-r-xl p-4 mb-6">
+            <p className="text-sm font-semibold text-amber-800">TL;DR — OH Home Sale Process</p>
+            <p className="text-sm text-amber-700 mt-1">Ohio closings are typically handled by title companies — attorneys are optional, not required. Standard timeline: 30-45 days financed, 7-14 days cash. Ohio requires a Residential Property Disclosure Form (ORC § 5302.30) for most residential sales. Sellers pay the conveyance fee. Ohio does NOT have a traditional real estate transfer tax.</p>
+          </div>
+          <h2 className="text-2xl font-bold text-brand-dark mb-4">How Home Sales Work in Ohio</h2>
+          <div className="space-y-4 text-gray-700">
+            <p>Ohio is a title-company state for most residential closings. Attorneys are not required at closing, though many sellers choose to use one for complex transactions (estate sales, short sales, properties with title issues). Title companies coordinate the closing, verify title, and handle the conveyance fee payment to the county auditor.</p>
+            <p>Ohio uses the standard Ohio Association of Realtors purchase contract. Cash buyers waive financing and inspection contingencies, allowing closings in as few as 7 days. Traditional financed transactions typically take 30-45 days from accepted offer to closing.</p>
+            <p>Ohio requires sellers to complete a <strong>Residential Property Disclosure Form</strong> under ORC § 5302.30. This form discloses known material defects: structural, plumbing, electrical, HVAC, water/drainage, hazardous materials, zoning violations, and pending litigation. Cash buyers purchasing as-is still receive this form but typically waive the inspection contingency. Federal lead paint disclosure is required for pre-1978 homes — nearly universal in Youngstown&apos;s pre-WWII housing stock.</p>
+            <p>Ohio also has a <strong>Transfer-on-Death (TOD) Deed</strong> option — a beneficiary deed that allows real estate to pass outside of probate. If a property has a TOD deed, it bypasses the probate process entirely and transfers directly to the named beneficiary. This is increasingly common in Ohio and significantly affects how estate sales are handled.</p>
+            <p className="text-sm text-gray-500">According to <a href="https://codes.ohio.gov/ohio-revised-code/section-5302.30" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:underline">ORC § 5302.30 — Ohio Residential Property Disclosure</a> and <a href="https://codes.ohio.gov/ohio-revised-code/section-5302.22" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:underline">ORC § 5302.22 — Transfer on Death Deed</a>.</p>
+          </div>
+        </section>
+
+        {/* ===== SECTION: Transfer Tax (Conveyance Fee) ===== */}
+        <section className="my-12" id="oh-conveyance-fee">
+          <div className="bg-amber-50 border-l-4 border-amber-400 rounded-r-xl p-4 mb-6">
+            <p className="text-sm font-semibold text-amber-800">TL;DR — Ohio Conveyance Fee</p>
+            <p className="text-sm text-amber-700 mt-1">Ohio doesn&apos;t have a &ldquo;transfer tax&rdquo; — it&apos;s called a conveyance fee. State rate: $1.00 per $1,000. Most counties add a permissive fee of up to $3.00/1,000. Mahoning County (Youngstown) total: $4.00/1,000 + $0.50/parcel. The seller pays. On a $130K Youngstown sale, that&apos;s about $520 + $0.50.</p>
+          </div>
+          <h2 className="text-2xl font-bold text-brand-dark mb-4">Ohio Conveyance Fee — Not a Transfer Tax</h2>
+          <div className="space-y-4 text-gray-700">
+            <p>Ohio calls its transaction fee a <strong>conveyance fee</strong> rather than a real estate transfer tax. It&apos;s functionally the same thing — a fee paid when real estate changes hands — but it&apos;s administered by county auditors, not a state revenue department, and paid via DTE Form 100 at the county auditor&apos;s office at closing.</p>
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm border border-gray-200 rounded-xl overflow-hidden">
+                <thead className="bg-brand-dark text-white">
+                  <tr>
+                    <th className="py-3 px-4 text-left">County</th>
+                    <th className="py-3 px-4 text-left">State Fee</th>
+                    <th className="py-3 px-4 text-left">Permissive Fee</th>
+                    <th className="py-3 px-4 text-left">Total</th>
+                    <th className="py-3 px-4 text-left">Extra</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {[
+                    ['Mahoning County (Youngstown)', '$1.00/1,000', '$3.00/1,000', '$4.00/1,000', '$0.50/parcel'],
+                    ['Most Ohio counties', '$1.00/1,000', '$3.00/1,000', '$4.00/1,000', 'Varies'],
+                    ['Franklin County (Columbus)', '$1.00/1,000', '$3.00/1,000', '$4.00/1,000', 'None'],
+                    ['Some rural counties', '$1.00/1,000', '$1.00/1,000', '$2.00/1,000', 'None'],
+                  ].map(([county, state, perm, total, extra], i) => (
+                    <tr key={i} className={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
+                      <td className="py-2 px-4 font-medium">{county}</td>
+                      <td className="py-2 px-4">{state}</td>
+                      <td className="py-2 px-4">{perm}</td>
+                      <td className="py-2 px-4 font-bold text-brand-primary">{total}</td>
+                      <td className="py-2 px-4 text-xs text-gray-600">{extra}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            <p className="text-xs text-gray-500 mt-2">Source: <a href="https://codes.ohio.gov/ohio-revised-code/section-319.202" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:underline">ORC § 319.202</a> (state fee) and <a href="https://codes.ohio.gov/ohio-revised-code/section-322.02" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:underline">ORC § 322.02</a> (permissive fee). Use <a href="https://auditor.mahoningcountyoh.gov/ConveyanceCalculator" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:underline">Mahoning County Auditor&apos;s conveyance calculator</a> for Youngstown properties.</p>
+            <div className="bg-blue-50 rounded-xl p-5 mt-4">
+              <h3 className="font-bold text-brand-dark mb-2">Estimated Closing Costs — $130K Sale in Youngstown, OH</h3>
+              <ul className="text-sm text-gray-700 space-y-1">
+                <li>• Conveyance fee (Mahoning County, seller pays): <strong>$520.50</strong> ($4.00/1,000 × 130 + $0.50)</li>
+                <li>• Title insurance (owner&apos;s policy): <strong>$500–$800</strong></li>
+                <li>• Settlement/closing fee: <strong>$300–$500</strong></li>
+                <li>• Recording fees (Senate Bill 94): <strong>$39 base + $8/page</strong></li>
+                <li>• Real estate agent commission (if applicable): <strong>$6,500–$7,800</strong> (5-6%)</li>
+                <li className="pt-2 font-bold text-brand-dark">Traditional sale total: ~$7,860–$9,620</li>
+                <li className="font-bold text-green-700">Cash sale with USA Home Buyers: $0 (we cover all closing costs)</li>
+              </ul>
+            </div>
+          </div>
+        </section>
+
+        {/* ===== SECTION: Foreclosure Process ===== */}
+        <section className="my-12" id="oh-foreclosure">
+          <div className="bg-amber-50 border-l-4 border-amber-400 rounded-r-xl p-4 mb-6">
+            <p className="text-sm font-semibold text-amber-800">TL;DR — Ohio Foreclosure</p>
+            <p className="text-sm text-amber-700 mt-1">Ohio is a judicial foreclosure state — all cases go through the county Court of Common Pleas. Timeline: 6-24 months from first missed payment to sheriff&apos;s sale confirmation. Ohio HB 130 requires mediation referral for residential foreclosures. Homeowners retain the right to cure through confirmation of the sale.</p>
+          </div>
+          <h2 className="text-2xl font-bold text-brand-dark mb-4">Ohio Foreclosure Process — What Sellers Need to Know</h2>
+          <div className="space-y-4 text-gray-700">
+            <p>Ohio is a <strong>judicial foreclosure state</strong>. Every foreclosure must go through the county Court of Common Pleas — there is no non-judicial (power-of-sale) option. This is somewhat consumer-protective (more process, more notice, more opportunity to respond) but also slower and more public.</p>
+            <div className="overflow-x-auto">
+              <table className="w-full text-sm border border-gray-200 rounded-xl overflow-hidden">
+                <thead className="bg-brand-dark text-white">
+                  <tr>
+                    <th className="py-3 px-4 text-left">Phase</th>
+                    <th className="py-3 px-4 text-left">Timing</th>
+                    <th className="py-3 px-4 text-left">What Happens</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {[
+                    ['Missed payments', 'Month 1-3', 'Lender notices and demand letters. No legal action yet.'],
+                    ['Complaint filed', 'Month 2-5', 'Lender files in Court of Common Pleas. You are served.'],
+                    ['Mediation referral', 'Month 3-5', 'Ohio HB 130 requires mediation referral for residential foreclosures.'],
+                    ['Judgment', 'Month 4-8', 'If no valid defense or settlement, court enters judgment.'],
+                    ["Sheriff's sale ordered", 'Month 6-12', 'Court orders sheriff sale. Scheduled with at least 30-day notice.'],
+                    ["Sheriff's sale", 'Month 6-24', 'Property auctioned at county courthouse.'],
+                    ['Sale confirmation', 'Weeks after sale', 'Court confirms sale. Deed transferred to buyer.'],
+                  ].map(([phase, timing, what], i) => (
+                    <tr key={i} className={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
+                      <td className="py-2 px-4 font-medium">{phase}</td>
+                      <td className="py-2 px-4 text-orange-600">{timing}</td>
+                      <td className="py-2 px-4">{what}</td>
+                    </tr>
+                  ))}
+                </tbody>
+              </table>
+            </div>
+            <p>Ohio homeowners retain the right to cure (pay off the arrears) through confirmation of the sheriff&apos;s sale — this is one of the most seller-protective aspects of Ohio foreclosure law. You can also sell at any point before sale confirmation. A cash buyer can close in 7-14 days, which is far faster than the foreclosure process moves.</p>
+            <p className="text-sm text-gray-500">According to <a href="https://www.ohiolegalhelp.org/foreclosure_timeline" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:underline">Ohio Legal Help — Foreclosure Timeline</a> and ORC Chapter 2323.</p>
+            <Link href="/markets/youngstown-oh/foreclosure" className="text-sm text-brand-primary hover:underline">Sell your Youngstown home in foreclosure &rarr;</Link>
+          </div>
+        </section>
+
+        {/* ===== SECTION: Probate Overview ===== */}
+        <section className="my-12" id="oh-probate">
+          <div className="bg-amber-50 border-l-4 border-amber-400 rounded-r-xl p-4 mb-6">
+            <p className="text-sm font-semibold text-amber-800">TL;DR — Ohio Probate</p>
+            <p className="text-sm text-amber-700 mt-1">Ohio uses Probate Court (county-level), not a Register of Wills. Full probate required for estates over $35,000. Mahoning County Probate Court: 120 Market St., Youngstown, (330) 740-2310. You CAN sell during probate once the court opens the estate and grants authority. Ohio has no state inheritance tax (abolished 2013).</p>
+          </div>
+          <h2 className="text-2xl font-bold text-brand-dark mb-4">Selling an Inherited Ohio Property — Probate Overview</h2>
+          <div className="space-y-4 text-gray-700">
+            <p>Ohio uses <strong>Probate Court</strong> for estate administration — not a &ldquo;Register of Wills&rdquo; (Pennsylvania) or &ldquo;Register of Wills/Chancery Court&rdquo; (Delaware). Each of Ohio&apos;s 88 counties has its own Probate Court. The court oversees estate administration, appoints personal representatives, and authorizes the sale of real property.</p>
+            <p>Full probate is typically required for estates with gross assets exceeding <strong>$35,000</strong> (or $100,000 for a surviving spouse). Below those thresholds, a simplified release or summary administration may be available. Real estate ownership is valued at fair market value for this threshold calculation.</p>
+            <p><strong>Can you sell during Ohio probate?</strong> Yes. Once the Probate Court opens the estate and appoints a personal representative (executor or administrator), that person gains authority to manage and sell estate real estate — subject to court approval for the sale price in some circumstances. We work with probate timelines regularly.</p>
+            <p><strong>Transfer-on-Death deed:</strong> Ohio permits TOD deeds (ORC § 5302.22) that allow real estate to bypass probate entirely. If the deceased filed a TOD deed naming a beneficiary, the property passes outside of probate. The beneficiary simply records an affidavit of confirmation. This is common in Youngstown and throughout Ohio.</p>
+            <p><strong>Ohio inheritance tax:</strong> Ohio abolished its estate tax on January 1, 2013. There is no Ohio state inheritance tax. Federal estate tax may apply for very large estates. Inherited property receives a stepped-up basis at the date of death.</p>
+            <div className="bg-blue-50 rounded-xl p-4 mt-2">
+              <h3 className="font-bold text-brand-dark mb-1">Ohio Probate Courts — Our Markets</h3>
+              <ul className="text-sm text-gray-700 space-y-1">
+                <li>• <strong>Mahoning County (Youngstown):</strong> 120 Market St., Youngstown OH 44503 | (330) 740-2310</li>
+              </ul>
+            </div>
+            <p className="text-sm text-gray-500">According to <a href="https://codes.ohio.gov/ohio-revised-code/section-2113.03" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:underline">ORC § 2113.03</a> and the <a href="https://www.mahoningcountyoh.gov" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:underline">Mahoning County Probate Court</a>.</p>
+            <div className="flex gap-3 flex-wrap">
+              <Link href="/markets/youngstown-oh/inherited-property" className="text-sm text-brand-primary hover:underline">Inherited property in Youngstown &rarr;</Link>
+              <Link href="/markets/youngstown-oh/probate" className="text-sm text-brand-primary hover:underline">Probate sale in Youngstown &rarr;</Link>
+            </div>
+          </div>
+        </section>
+
+        {/* ===== SECTION: Market Snapshot ===== */}
+        <section className="my-12" id="oh-market-snapshot">
+          <div className="bg-amber-50 border-l-4 border-amber-400 rounded-r-xl p-4 mb-6">
+            <p className="text-sm font-semibold text-amber-800">TL;DR — Ohio Market</p>
+            <p className="text-sm text-amber-700 mt-1">We currently serve Youngstown, OH (Mahoning County). Youngstown is a Rust Belt market: median sale price ~$129,200, 70 days median DOM, pre-1950 housing stock dominates. Many properties don&apos;t qualify for conventional financing — strong cash buyer demand. Ohio conveyance fee: $4.00/1,000 in Mahoning County.</p>
+          </div>
+          <h2 className="text-2xl font-bold text-brand-dark mb-4">Ohio Market Snapshot — Youngstown</h2>
+          <div className="overflow-x-auto">
+            <table className="w-full text-sm border border-gray-200 rounded-xl overflow-hidden">
+              <thead className="bg-brand-dark text-white">
+                <tr>
+                  <th className="py-3 px-4 text-left">Metric</th>
+                  <th className="py-3 px-4 text-left">Youngstown, OH</th>
+                  <th className="py-3 px-4 text-left">Note</th>
+                </tr>
+              </thead>
+              <tbody>
+                {[
+                  ['County', 'Mahoning County', 'Northeast Ohio, Rust Belt'],
+                  ['Median sale price', '~$129,200', 'Redfin, early 2026'],
+                  ['Median days on market', '70 days', 'Traditional MLS listings'],
+                  ['Cash sale timeline', '7-14 days', 'USA Home Buyers average'],
+                  ['Conveyance fee (seller pays)', '$4.00/1,000 + $0.50', 'Mahoning County rate'],
+                  ['Foreclosure type', 'Judicial (Common Pleas)', 'No non-judicial option in Ohio'],
+                  ['State inheritance tax', 'None (abolished 2013)', 'Federal estate tax may apply'],
+                  ['TOD deed available', 'Yes — ORC § 5302.22', 'Can bypass probate entirely'],
+                  ['Attorney at closing', 'Optional', 'Not required by Ohio statute'],
+                  ['Conventional financing', 'Limited', 'Pre-1950 stock often fails inspection'],
+                  ['Cash buyer activity', 'High', 'Strong demand from investors + owner-occupants'],
+                ].map(([metric, value, note], i) => (
+                  <tr key={i} className={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
+                    <td className="py-2 px-4 font-medium text-brand-dark">{metric}</td>
+                    <td className="py-2 px-4 font-bold text-brand-primary">{value}</td>
+                    <td className="py-2 px-4 text-xs text-gray-500">{note}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
+          </div>
+          <p className="text-xs text-gray-500 mt-3">Sources: Redfin, Zillow, Mahoning County Auditor, Ohio Legal Help, ORC. Data as of early 2026.</p>
+        </section>
+
         <section className="my-12">
           <CashOfferForm variant="footer" headline="Ready to Sell Your Ohio Home Fast?" sourcePage="/sell-house-fast-ohio" />
         </section>

@@ -143,6 +143,57 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     markets: ['harrisburg-pa'],
     isStatic: false,
   },
+  {
+    slug: 'sell-house-divorce-pennsylvania',
+    title: 'How to Sell a House in Divorce in Pennsylvania',
+    excerpt:
+      "Equitable distribution, buyouts, tax timing — here's everything divorcing PA homeowners need to know about the family home.",
+    date: 'April 16, 2026',
+    datePublished: '2026-04-16',
+    category: 'Divorce',
+    readTime: '9 min',
+    heroImage: '/images/harrisburg-hero.jpg',
+    heroAlt: 'Pennsylvania home — selling in divorce',
+    description:
+      'How to sell a house in divorce in Pennsylvania. Equitable distribution rules, buyout options, tax implications, and why cash buyers simplify the process.',
+    primaryKeyword: 'how to sell a house in divorce in Pennsylvania',
+    markets: ['harrisburg-pa', 'allentown-pa', 'lancaster-pa', 'york-pa'],
+    isStatic: false,
+  },
+  {
+    slug: 'selling-tenant-occupied-property-pa',
+    title: "Selling a Tenant-Occupied Property in Pennsylvania: A Landlord's Guide",
+    excerpt:
+      "Your tenants have rights that affect your sale — but they don't stop it. Here's what PA landlord-tenant law actually says.",
+    date: 'April 16, 2026',
+    datePublished: '2026-04-16',
+    category: 'Landlord',
+    readTime: '10 min',
+    heroImage: '/images/harrisburg-hero.jpg',
+    heroAlt: 'Tenant-occupied rental property in Pennsylvania',
+    description:
+      'Selling a tenant-occupied property in Pennsylvania? Leases survive the sale, tenants have notice rights, and cash for keys can speed things up. Full landlord guide.',
+    primaryKeyword: 'selling tenant-occupied property Pennsylvania',
+    markets: ['harrisburg-pa', 'allentown-pa', 'state-college-pa', 'reading-pa'],
+    isStatic: false,
+  },
+  {
+    slug: 'property-taxes-pennsylvania-what-happens',
+    title: "What Happens If You Don't Pay Property Taxes in Pennsylvania?",
+    excerpt:
+      "Upset Sales, Judicial Sales, and a multi-year process before you lose your home. Here's what delinquent PA property taxes actually mean.",
+    date: 'April 16, 2026',
+    datePublished: '2026-04-16',
+    category: 'Education',
+    readTime: '9 min',
+    heroImage: '/images/harrisburg-hero.jpg',
+    heroAlt: 'Pennsylvania property tax delinquency — what sellers need to know',
+    description:
+      "What happens if you don't pay property taxes in Pennsylvania? Upset Sales, Judicial Sales, redemption rights, and how to sell before losing your home.",
+    primaryKeyword: "what happens if you don't pay property taxes in Pennsylvania",
+    markets: ['harrisburg-pa', 'allentown-pa', 'reading-pa', 'erie-pa'],
+    isStatic: false,
+  },
 ];
 
 /** Get all posts sorted by date (newest first) */
