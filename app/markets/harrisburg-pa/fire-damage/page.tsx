@@ -131,7 +131,9 @@ export default function HarrisburgFireDamagePage() {
               <li>✓ Insurance payouts are yours to keep; pending claims can often be assigned to the buyer</li>
               <li>✓ City condemnation orders don&apos;t prevent a sale — they factor into the offer</li>
               <li>✓ We close in 7–14 days from accepted offer</li>
-            </ul>
+            
+            <li><Link href="/blog/destroyed-rental-property-case-study" className="text-brand-primary hover:underline">Case Study: He Sold His Destroyed Rental for $50K →</Link></li>
+          </ul>
           </div>
 
           <section className="mb-10">

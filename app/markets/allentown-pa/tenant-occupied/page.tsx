@@ -212,7 +212,9 @@ export default function AllentownTenantOccupiedPage() {
               <Link href="/guides/tenant-occupied" className="text-brand-primary hover:underline">Tenant-Occupied Property Guide</Link>{' '}
               ·{' '}
               <Link href="/markets/allentown-pa" className="text-brand-primary hover:underline">Sell Your Allentown House</Link>
-            </p>
+            
+              {'·'}{' '}
+              <Link href="/blog/destroyed-rental-property-case-study" className="text-brand-primary hover:underline">Case Study: Destroyed Rental, $50K Cash Out</Link></p>
           </div>
         </article>
       </div>

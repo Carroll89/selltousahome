@@ -205,7 +205,9 @@ export default function StateCollegeFireDamagePage() {
               <a href="https://www.statecollegepa.us/203/Code-Enforcement" target="_blank" rel="noopener noreferrer" className="underline">State College Borough Code Enforcement</a>
               {' '}·{' '}
               <a href="https://centrecountypa.gov/418/Recorder-of-Deeds" target="_blank" rel="noopener noreferrer" className="underline">Centre County Recorder of Deeds</a>
-            </p>
+            
+              {'·'}{' '}
+              <Link href="/blog/destroyed-rental-property-case-study" className="text-brand-primary hover:underline">Case Study: Destroyed Rental, $50K Cash Out</Link></p>
           </div>
         </article>
       </div>

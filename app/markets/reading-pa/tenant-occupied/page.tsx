@@ -121,7 +121,9 @@ export default function ReadingTenantOccupiedPage() {
               <li>• Reading&apos;s <strong>61.5% renter-occupied rate</strong> makes tenant-occupied sales one of our most common situations</li>
               <li>• <strong>PA eviction takes 2–6 months</strong> — selling avoids the entire process and stops the cost bleed</li>
               <li>• Reading&apos;s <strong>5% transfer tax = $9,250</strong> on a $185K sale — we cover all closing costs so your net is the offer</li>
-            </ul>
+            
+            <li><Link href="/blog/destroyed-rental-property-case-study" className="text-brand-primary hover:underline">Case Study: He Sold His Destroyed Rental for $50K →</Link></li>
+          </ul>
           </div>
 
           <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-10">

@@ -194,6 +194,23 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     markets: ['harrisburg-pa', 'allentown-pa', 'reading-pa', 'erie-pa'],
     isStatic: false,
   },
+  {
+    slug: 'destroyed-rental-property-case-study',
+    title: 'He Thought His Destroyed Rental Was Worthless — He Walked Away With $50,000',
+    excerpt:
+      "His tenant ran a drug operation out of the property. Police raided it. He moved to Massachusetts and had no idea what to do. Here's how it ended.",
+    date: 'April 16, 2026',
+    datePublished: '2026-04-16',
+    category: 'Case Study',
+    readTime: '10 min',
+    heroImage: '/images/harrisburg-hero.jpg',
+    heroAlt: 'Destroyed rental property Pennsylvania — sold for cash as-is',
+    description:
+      'A Pennsylvania landlord\'s rental was destroyed by a tenant after a drug raid. He was out of state with no idea what to do. A mobile notary closed the deal at his kitchen table — he walked away with $50,000.',
+    primaryKeyword: 'sell destroyed rental property Pennsylvania',
+    markets: ['harrisburg-pa', 'allentown-pa', 'lancaster-pa', 'york-pa', 'reading-pa', 'bethlehem-pa', 'state-college-pa', 'erie-pa', 'king-of-prussia-pa', 'wilmington-de', 'youngstown-oh'],
+    isStatic: false,
+  },
 ];
 
 /** Get all posts sorted by date (newest first) */

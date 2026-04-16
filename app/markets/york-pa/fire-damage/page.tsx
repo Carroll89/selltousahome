@@ -151,6 +151,8 @@ export default function YorkFireDamagePage() {
             <li><Link href="/markets/york-pa/code-violations" className="text-brand-primary hover:underline">Code violations in York PA →</Link></li>
             <li><Link href="/markets/york-pa" className="text-brand-primary hover:underline">York PA market overview →</Link></li>
             <li><Link href="/guides/sell-as-is" className="text-brand-primary hover:underline">Selling a house as-is in Pennsylvania →</Link></li>
+          
+            <li><Link href="/blog/destroyed-rental-property-case-study" className="text-brand-primary hover:underline">Case Study: He Sold His Destroyed Rental for $50K →</Link></li>
           </ul>
         </section>
 

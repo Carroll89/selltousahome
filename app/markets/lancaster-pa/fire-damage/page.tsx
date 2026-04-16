@@ -112,6 +112,8 @@ export default function LancasterFireDamagePage() {
         <div className="my-8 flex flex-wrap gap-4 text-sm">
           <Link href="/markets/lancaster-pa" className="text-brand-primary hover:underline">← Back to Lancaster PA</Link>
           <Link href="/markets/lancaster-pa/code-violations" className="text-brand-primary hover:underline">Code Violations →</Link>
+        
+          <Link href="/blog/destroyed-rental-property-case-study" className="text-brand-primary hover:underline">Case Study: Destroyed Rental → $50K →</Link>
         </div>
 
         <CashOfferForm variant="footer" headline="Get a Cash Offer for Your Fire-Damaged Lancaster Property" sourcePage="/markets/lancaster-pa" />

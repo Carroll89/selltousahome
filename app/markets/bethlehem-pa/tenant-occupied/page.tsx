@@ -151,6 +151,8 @@ export default function BethlehemTenantOccupiedPage() {
           <ul className="space-y-2 text-sm">
             <li><Link href="/markets/bethlehem-pa" className="text-brand-primary hover:underline">Bethlehem PA market overview →</Link></li>
             <li><Link href="/guides/tenant-occupied" className="text-brand-primary hover:underline">Selling a tenant-occupied property guide →</Link></li>
+          
+            <li><Link href="/blog/destroyed-rental-property-case-study" className="text-brand-primary hover:underline">Case Study: He Sold His Destroyed Rental for $50K →</Link></li>
           </ul>
         </section>
 

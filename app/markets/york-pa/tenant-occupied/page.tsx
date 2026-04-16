@@ -149,6 +149,8 @@ export default function YorkTenantOccupiedPage() {
           <ul className="space-y-2 text-sm">
             <li><Link href="/markets/york-pa" className="text-brand-primary hover:underline">York PA market overview →</Link></li>
             <li><Link href="/guides/tenant-occupied" className="text-brand-primary hover:underline">Selling a tenant-occupied property guide →</Link></li>
+          
+            <li><Link href="/blog/destroyed-rental-property-case-study" className="text-brand-primary hover:underline">Case Study: He Sold His Destroyed Rental for $50K →</Link></li>
           </ul>
         </section>
 

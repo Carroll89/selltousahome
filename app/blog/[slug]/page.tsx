@@ -29,6 +29,8 @@ async function loadContent(slug: string): Promise<BlogPostContent | null> {
         return (await import('@/content/blog/selling-tenant-occupied-property-pa')).default;
       case 'property-taxes-pennsylvania-what-happens':
         return (await import('@/content/blog/property-taxes-pennsylvania-what-happens')).default;
+      case 'destroyed-rental-property-case-study':
+        return (await import('@/content/blog/destroyed-rental-property-case-study')).default;
       default:
         return null;
     }

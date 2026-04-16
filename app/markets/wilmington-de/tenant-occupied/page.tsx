@@ -135,6 +135,8 @@ export default function WilmingtonTenantOccupiedPage() {
           <ul className="space-y-2 text-sm">
             <li><Link href="/markets/wilmington-de" className="text-brand-primary hover:underline">Wilmington DE Cash Home Buyers →</Link></li>
             <li><Link href="/markets/wilmington-de/code-violations" className="text-brand-primary hover:underline">Sell a Property with Code Violations in Wilmington →</Link></li>
+          
+            <li><Link href="/blog/destroyed-rental-property-case-study" className="text-brand-primary hover:underline">Case Study: He Sold His Destroyed Rental for $50K →</Link></li>
           </ul>
         </section>
       </div>

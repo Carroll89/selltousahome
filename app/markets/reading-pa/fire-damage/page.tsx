@@ -121,7 +121,9 @@ export default function ReadingFireDamagePage() {
               <li>• Reading&apos;s <strong>52% attached row home stock</strong> creates unique shared-wall fire complications traditional buyers can&apos;t finance</li>
               <li>• Full gut-rehab on a pre-1939 Reading row home commonly runs <strong>$60K–$120K+</strong> — a cash sale avoids all of it</li>
               <li>• Reading&apos;s <strong>5% transfer tax = $9,250</strong> on a $185K sale — we cover all closing costs</li>
-            </ul>
+            
+            <li><Link href="/blog/destroyed-rental-property-case-study" className="text-brand-primary hover:underline">Case Study: He Sold His Destroyed Rental for $50K →</Link></li>
+          </ul>
           </div>
 
           <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-10">

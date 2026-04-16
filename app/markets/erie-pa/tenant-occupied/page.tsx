@@ -98,7 +98,9 @@ export default function ErieTenantOccupiedPage() {
               <li>• <strong>No eviction required</strong> before you sell — we take on the tenant after closing</li>
               <li>• Erie&apos;s ~50% renter rate means this is one of the most common situations we handle</li>
               <li>• We cover all closing costs — no commissions, no fees, no surprise deductions</li>
-            </ul>
+            
+            <li><Link href="/blog/destroyed-rental-property-case-study" className="text-brand-primary hover:underline">Case Study: He Sold His Destroyed Rental for $50K →</Link></li>
+          </ul>
           </div>
 
           <section className="mb-10">

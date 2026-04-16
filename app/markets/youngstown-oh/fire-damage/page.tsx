@@ -137,6 +137,8 @@ export default function YoungstownFireDamagePage() {
           <ul className="space-y-2 text-sm">
             <li><Link href="/markets/youngstown-oh" className="text-brand-primary hover:underline">Youngstown OH Cash Home Buyers →</Link></li>
             <li><Link href="/markets/youngstown-oh/code-violations" className="text-brand-primary hover:underline">Code Violations in Youngstown OH →</Link></li>
+          
+            <li><Link href="/blog/destroyed-rental-property-case-study" className="text-brand-primary hover:underline">Case Study: He Sold His Destroyed Rental for $50K →</Link></li>
           </ul>
         </section>
       </div>

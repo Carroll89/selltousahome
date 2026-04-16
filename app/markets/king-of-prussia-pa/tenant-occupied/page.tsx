@@ -238,7 +238,9 @@ export default function KopTenantOccupiedPage() {
               <Link href="/markets/king-of-prussia-pa" className="text-brand-primary hover:underline">
                 Sell Your King of Prussia House
               </Link>
-            </p>
+            
+              {'·'}{' '}
+              <Link href="/blog/destroyed-rental-property-case-study" className="text-brand-primary hover:underline">Case Study: Destroyed Rental, $50K Cash Out</Link></p>
           </div>
         </article>
       </div>

@@ -111,6 +111,8 @@ export default function LancasterTenantOccupiedPage() {
           <Link href="/markets/lancaster-pa" className="text-brand-primary hover:underline">← Back to Lancaster PA</Link>
           <Link href="/markets/lancaster-pa/code-violations" className="text-brand-primary hover:underline">Code Violations →</Link>
           <Link href="/guides/tenant-occupied" className="text-brand-primary hover:underline">Full Tenant-Occupied Guide →</Link>
+        
+          <Link href="/blog/destroyed-rental-property-case-study" className="text-brand-primary hover:underline">Case Study: Destroyed Rental → $50K →</Link>
         </div>
 
         <CashOfferForm variant="footer" headline="Get a Cash Offer for Your Lancaster Rental" sourcePage="/markets/lancaster-pa" />

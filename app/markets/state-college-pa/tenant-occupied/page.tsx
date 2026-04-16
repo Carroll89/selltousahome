@@ -139,7 +139,9 @@ export default function StateCollegeTenantOccupiedPage() {
               <li>The property is now 25-30 years old and starting to need real money</li>
               <li>May have a decent tenant in right now but dreads the next turnover</li>
               <li>Knows the house would rent again in spring but wonders if it&apos;s worth it</li>
-            </ul>
+            
+            <li><Link href="/blog/destroyed-rental-property-case-study" className="text-brand-primary hover:underline">Case Study: He Sold His Destroyed Rental for $50K →</Link></li>
+          </ul>
             <p className="text-gray-700 mb-4">
               If that&apos;s you, the exit strategy is simple: sell to us. We buy the property with the
               current tenant in place. No eviction. No vacancy period. You don&apos;t need to wait for

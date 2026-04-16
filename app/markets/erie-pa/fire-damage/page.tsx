@@ -98,7 +98,9 @@ export default function ErieFireDamagePage() {
               <li>• <strong>Smoke damage, partial fire, or total loss</strong> — we buy all levels of damage</li>
               <li>• Insurance payout doesn&apos;t affect the sale — you <strong>keep both proceeds separately</strong></li>
               <li>• We cover all closing costs — 2% transfer tax, title fees, everything</li>
-            </ul>
+            
+            <li><Link href="/blog/destroyed-rental-property-case-study" className="text-brand-primary hover:underline">Case Study: He Sold His Destroyed Rental for $50K →</Link></li>
+          </ul>
           </div>
 
           <section className="mb-10">
