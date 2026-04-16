@@ -341,13 +341,13 @@ export default function KingOfPrussiaMarketReport() {
               drive the Redfin median up.
             </p>
             <p>
-              At <strong>{REPORT_DATA.pricePerSqft} per square foot</strong>, KOP sits well above the Pennsylvania
+              According to Redfin, at <strong>{REPORT_DATA.pricePerSqft} per square foot</strong>, KOP sits well above the Pennsylvania
               median (~$165–$200/sqft) and is in line with competitive suburban Philadelphia markets like
               Conshohocken and Plymouth Meeting. The gap vs. the Main Line communities (Wayne at $500+/sqft,
               Bryn Mawr higher) reflects KOP&apos;s older 1950s–1970s housing stock.
             </p>
             <p>
-              The <strong>97.6% sale-to-list ratio</strong> means most homes sell just below asking — not at the
+              According to Redfin market data, the <strong>97.6% sale-to-list ratio</strong> means most homes sell just below asking — not at the
               deep discounts of a soft market. Hot homes in the most desirable sub-neighborhoods sell 4% above
               list. If your home is priced right and in good condition, the market will reward it — eventually.
             </p>

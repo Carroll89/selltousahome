@@ -83,12 +83,12 @@ const FAQ_ITEMS = [
   {
     question: 'Is Allentown PA a buyer\'s or seller\'s market in 2026?',
     answer:
-      'Allentown is a seller\'s market in 2026. Active inventory is low, homes are going pending quickly, and the list-to-sale price ratio is approximately 98.7%, meaning sellers are getting very close to their asking price. The Lehigh Valley has seen sustained demand from buyers priced out of the Philadelphia metro.',
+      'According to Redfin and local MLS data, Allentown is a seller\'s market in 2026. Active inventory is low, homes are going pending quickly, and the list-to-sale price ratio is approximately 98.7%, meaning sellers are getting very close to their asking price. The Lehigh Valley has seen sustained demand from buyers priced out of the Philadelphia metro.',
   },
   {
     question: 'What are home prices doing in Allentown year-over-year?',
     answer:
-      'Allentown area home values are up approximately 5.1% year-over-year as of April 2026. This is driven by continued demand from Philadelphia-area buyers, limited new construction in the Lehigh Valley, and Allentown\'s relative affordability compared to other PA metros.',
+      'According to the Zillow Home Value Index, Allentown area home values are up approximately 5.1% year-over-year as of April 2026. This is driven by continued demand from Philadelphia-area buyers, limited new construction in the Lehigh Valley, and Allentown\'s relative affordability compared to other PA metros.',
   },
   {
     question: 'How much do cash buyers pay for Allentown homes?',
@@ -98,7 +98,7 @@ const FAQ_ITEMS = [
   {
     question: 'What makes Allentown\'s housing market unique?',
     answer:
-      'Allentown has several distinctive characteristics: 56% Hispanic population (one of the largest in PA), 58% renter-occupied rate (much higher than state average), large stock of Bethlehem Steel-era row homes, and significant revitalization investment in downtown from the Neighborhood Improvement Zone (NIZ). These factors create a market with high investor demand, particularly for value-add properties.',
+      'According to U.S. Census Bureau data, Allentown has several distinctive characteristics: 56% Hispanic population (one of the largest in PA), 58% renter-occupied rate (much higher than state average), large stock of Bethlehem Steel-era row homes, and significant revitalization investment in downtown from the Neighborhood Improvement Zone (NIZ). These factors create a market with high investor demand, particularly for value-add properties.',
   },
 ];
 
@@ -325,12 +325,12 @@ export default function AllentownMarketReport() {
             <div className="grid md:grid-cols-2 gap-4 not-prose">
               {[
                 {
-                  title: '56% Hispanic population',
-                  desc: 'Allentown has one of the largest Hispanic populations of any PA city. This creates strong community ties and demand for bilingual services in real estate transactions. We provide full bilingual service.',
+                  title: '56% Hispanic population (U.S. Census Bureau)',
+                  desc: 'According to U.S. Census Bureau data, Allentown has one of the largest Hispanic populations of any PA city. This creates strong community ties and demand for bilingual services in real estate transactions. We provide full bilingual service.',
                 },
                 {
-                  title: '58% renter-occupied',
-                  desc: 'Far above the state average. Allentown\'s rental market is one of the most active in PA, creating constant demand from investors and landlords looking to acquire rental properties.',
+                  title: '58% renter-occupied (U.S. Census Bureau)',
+                  desc: 'According to the U.S. Census Bureau, far above the state average. Allentown\'s rental market is one of the most active in PA, creating constant demand from investors and landlords looking to acquire rental properties.',
                 },
                 {
                   title: 'Bethlehem Steel legacy housing',

@@ -310,24 +310,24 @@ export default function HarrisburgMarketReport() {
           <h2 className="text-2xl font-bold text-brand-dark mb-4">Price Trends — What&apos;s Happening and Why</h2>
           <div className="prose prose-gray max-w-none text-sm text-gray-700 space-y-4">
             <p>
-              Harrisburg area home values are up <strong>{REPORT_DATA.yoyPriceChange} year-over-year</strong> as of
-              {' '}{REPORT_DATA.lastUpdated}. This is not a bubble — it&apos;s a supply problem. Central Pennsylvania
+              According to the Zillow Home Value Index (ZHVI), Harrisburg area home values are up <strong>{REPORT_DATA.yoyPriceChange} year-over-year</strong> as of
+              {' '}{REPORT_DATA.lastUpdated}. This is not a bubble — it&apos;s a supply problem. According to U.S. Census Bureau building permit data, Central Pennsylvania
               has seen sustained demand from remote workers priced out of Philadelphia, combined with very limited new
               residential construction. Harrisburg&apos;s older row home stock doesn&apos;t turn over fast.
             </p>
             <p>
               The metro-wide Zillow ZHVI of <strong>{REPORT_DATA.medianHomeValueZHVI}</strong> is pulled up by
-              Camp Hill, Mechanicsburg, and Hershey. Within Harrisburg city limits, the median sale price is closer
+              Camp Hill, Mechanicsburg, and Hershey. According to Redfin and local MLS data, within Harrisburg city limits, the median sale price is closer
               to <strong>{REPORT_DATA.medianSalePriceCity}</strong> — a meaningful difference driven by the
               concentration of older, smaller homes in Allison Hill, Steelton, and Penbrook.
             </p>
             <p>
-              At <strong>{REPORT_DATA.pricePerSqft} per square foot</strong>, Harrisburg remains significantly more
+              According to Redfin, at <strong>{REPORT_DATA.pricePerSqft} per square foot</strong>, Harrisburg remains significantly more
               affordable than Philadelphia (~$250/sqft) and most Mid-Atlantic metros. This affordability gap
               is a primary driver of continued demand from out-of-market buyers and investors.
             </p>
             <p>
-              The list-to-sale ratio of <strong>{REPORT_DATA.listToSaleRatio}</strong> means sellers are receiving
+              According to local MLS data, the list-to-sale ratio of <strong>{REPORT_DATA.listToSaleRatio}</strong> means sellers are receiving
               offers extremely close to asking price — and in competitive segments like Mechanicsburg and Camp Hill,
               above asking is common. This is a seller&apos;s market in all measurable indicators.
             </p>
@@ -341,7 +341,7 @@ export default function HarrisburgMarketReport() {
             {[
               {
                 title: 'Priced right, clean homes move in days',
-                desc: `The ${REPORT_DATA.daysToPending}-day median to pending is real. A well-priced, move-in ready home in a desirable neighborhood will receive offers within a week. The risk is still in the 45–60 day closing period — inspections, appraisals, and financing can still derail deals.`,
+                desc: `According to Redfin, the ${REPORT_DATA.daysToPending}-day median to pending is real. A well-priced, move-in ready home in a desirable neighborhood will receive offers within a week. The risk is still in the 45–60 day closing period — inspections, appraisals, and financing can still derail deals.`,
               },
               {
                 title: 'Condition matters for financing',
@@ -349,7 +349,7 @@ export default function HarrisburgMarketReport() {
               },
               {
                 title: 'The net proceeds gap is smaller than it looks',
-                desc: `After 5–6% agent commission, 1% PA transfer tax, pre-listing repairs, and 60 days of carrying costs, the "higher price" of a traditional sale often nets only 5–15% more than a cash offer — with significantly more time and uncertainty.`,
+                desc: `According to the National Association of Realtors and PA Department of Revenue, after 5–6% agent commission, 1% PA transfer tax, pre-listing repairs, and 60 days of carrying costs, the "higher price" of a traditional sale often nets only 5–15% more than a cash offer — with significantly more time and uncertainty.`,
               },
               {
                 title: 'Cash buyers are active in this market',
