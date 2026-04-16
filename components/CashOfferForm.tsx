@@ -154,7 +154,7 @@ export function CashOfferForm({
   const labelClass = isFooter ? 'text-gray-200' : 'text-gray-700';
   const inputClass = isFooter
     ? 'mt-1 block w-full rounded-lg border-gray-600 bg-gray-800 text-white placeholder-gray-400 focus:ring-brand-primary focus:border-brand-primary min-h-[44px]'
-    : 'mt-1 block w-full rounded-lg border-gray-300 focus:ring-brand-primary focus:border-brand-primary min-h-[44px]';
+    : 'mt-1 block w-full rounded-lg border-gray-300 text-gray-900 focus:ring-brand-primary focus:border-brand-primary min-h-[44px]';
 
   return (
     <div id="lead-form" className={containerClass}>
