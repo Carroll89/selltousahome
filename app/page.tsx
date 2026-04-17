@@ -41,10 +41,10 @@ const TESTIMONIALS = [
 ];
 
 const STATS = [
-  { value: '200+', label: 'Homes purchased in Central PA' },
+  { value: 'Hundreds', label: 'Homeowners helped across 11 states' },
   { value: '24 hrs', label: 'Written cash offer turnaround' },
   { value: '7-14 days', label: 'Average close time' },
-  { value: 'PA', label: 'Licensed Real Estate Investor' },
+  { value: 'A+', label: 'BBB Accredited Business' },
 ];
 
 export default function HomePage() {
@@ -76,7 +76,7 @@ export default function HomePage() {
               <span className="hidden md:inline"> — Any Condition, Any Situation</span>
             </h1>
             <p className="text-sm text-blue-100 mb-3">
-              200+ homes purchased across Pennsylvania · Written offer in 24 hours
+              Hundreds of homes purchased across 11 states · Written offer in 24 hours
             </p>
             <p className="hidden lg:block text-xl text-blue-100 mb-6">
               USA Home Buyers purchases homes across Pennsylvania for cash in any condition.
