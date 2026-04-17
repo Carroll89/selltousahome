@@ -81,12 +81,13 @@ interface FormErrors {
 export function CashOfferForm({
   headline = 'Get Your Cash Offer in 24 Hours',
   subheadline = 'Takes 2 minutes. No obligation.',
-  buttonText = 'Get My Cash Offer in 24 Hours →',
+  buttonText,
   variant = 'hero',
   sourcePage,
   placeholderCity,
 }: CashOfferFormProps) {
   const resolvedCity = placeholderCity || getCityFromSourcePage(sourcePage);
+  const resolvedButtonText = buttonText ?? (variant === 'hero' ? 'Get My Cash Offer →' : 'Get My Cash Offer in 24 Hours →');
   const resolvedState = getStateFromSourcePage(sourcePage);
   const addressStateSuffix = resolvedState ? `, ${resolvedState}` : '';
   const [form, setForm] = useState<FormState>({
@@ -236,7 +237,21 @@ export function CashOfferForm({
       </h2>
       <p className={`text-sm mb-4 ${isFooter ? 'text-gray-300' : 'text-gray-500'}`}>{subheadline}</p>
 
-      <form onSubmit={handleSubmit} noValidate className="space-y-4">
+      {/* TODO(Lens/Dan): Replace text placeholder with official BBB A+ Accredited badge image when received. Target path: public/images/trust/bbb-a-plus.png */}
+      {variant === 'hero' && (
+        <div className="flex items-center gap-3 mb-4 pb-4 border-b border-gray-200">
+          <div className="flex-shrink-0 bg-blue-900 text-white text-xs font-bold px-3 py-2 rounded leading-tight text-center" aria-label="BBB A+ Accredited Business">
+            <div>BBB</div>
+            <div className="text-yellow-300">A+ RATED</div>
+          </div>
+          <div className="text-xs text-gray-600 leading-snug">
+            <div className="font-semibold text-gray-800">Accredited Business</div>
+            <div>Better Business Bureau · A+ Rating</div>
+          </div>
+        </div>
+      )}
+
+      <form onSubmit={handleSubmit} noValidate className={variant === 'hero' ? 'space-y-3' : 'space-y-4'}>
         <div>
           <label htmlFor="name" className={`block text-sm font-medium ${labelClass}`}>
             Your Name <span className="text-red-500">*</span>
@@ -288,6 +303,7 @@ export function CashOfferForm({
           )}
         </div>
 
+        {variant !== 'hero' && (
         <div>
           <label htmlFor="email" className={`block text-sm font-medium ${labelClass}`}>
             Email <span className={`text-xs ${isFooter ? 'text-gray-400' : 'text-gray-400'}`}>(optional)</span>
@@ -302,7 +318,9 @@ export function CashOfferForm({
             placeholder="you@example.com"
           />
         </div>
+        )}
 
+        {variant !== 'hero' && (
         <div>
           <label htmlFor="situation" className={`block text-sm font-medium ${labelClass}`}>
             Your Situation
@@ -321,13 +339,14 @@ export function CashOfferForm({
             ))}
           </select>
         </div>
+        )}
 
         <button
           type="submit"
           disabled={submitting}
           className="w-full py-4 px-6 bg-brand-secondary hover:bg-green-700 disabled:opacity-60 text-white font-bold text-lg rounded-lg transition-colors focus:outline-none focus:ring-2 focus:ring-green-500 focus:ring-offset-2"
         >
-          {submitting ? 'Submitting...' : buttonText}
+          {submitting ? 'Submitting...' : resolvedButtonText}
         </button>
 
         <p className={`text-xs ${isFooter ? 'text-gray-400' : 'text-gray-500'}`}>

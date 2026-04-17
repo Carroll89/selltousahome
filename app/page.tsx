@@ -53,7 +53,7 @@ export default function HomePage() {
       <SchemaMarkup schema={[localBusinessSchema, harrisburgFAQSchema, howToSchema]} />
 
       {/* Hero */}
-      <section className="relative text-white py-8 md:py-16 px-4 overflow-hidden">
+      <section className="relative text-white py-6 md:py-12 px-4 overflow-hidden">
         <picture className="absolute inset-0 w-full h-full">
           <source
             srcSet="/images/optimized/harrisburg-hero-640.jpg 640w, /images/optimized/harrisburg-hero-828.jpg 828w, /images/optimized/harrisburg-hero-1080.jpg 1080w, /images/optimized/harrisburg-hero-1200.jpg 1200w"
@@ -71,14 +71,18 @@ export default function HomePage() {
         <div className="absolute inset-0 bg-brand-dark/80" />
         <div className="relative z-10 max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-start">
           <div>
-            <h1 className="text-3xl md:text-5xl font-bold text-white mb-4 leading-tight">
-              Sell Your House Fast for Cash — Any Condition, Any Situation
+            <h1 className="text-2xl md:text-4xl lg:text-5xl font-bold text-white mb-3 leading-tight">
+              Sell Your House Fast for Cash
+              <span className="hidden md:inline"> — Any Condition, Any Situation</span>
             </h1>
-            <p className="text-xl text-blue-100 mb-6">
-              USA Home Buyers purchases homes across Pennsylvania for cash in any condition.
-              No repairs, no agent fees, no waiting 60-90 days. Written cash offer in 24 hours.
+            <p className="text-sm text-blue-100 mb-3">
+              200+ homes purchased across Pennsylvania · Written offer in 24 hours
             </p>
-            <div className="flex flex-wrap gap-4 text-blue-100 text-sm mb-6">
+            <p className="hidden lg:block text-xl text-blue-100 mb-6">
+              USA Home Buyers purchases homes across Pennsylvania for cash in any condition.
+              No repairs, no agent fees, no waiting 60–90 days. Written cash offer in 24 hours.
+            </p>
+            <div className="hidden lg:flex flex-wrap gap-4 text-blue-100 text-sm mb-6">
               <span>✓ No repairs required</span>
               <span>✓ No agent commissions</span>
               <span>✓ Close in 7-14 days</span>
@@ -93,6 +97,22 @@ export default function HomePage() {
           </div>
           <div>
             <CashOfferForm variant="hero" sourcePage="/" />
+          </div>
+        </div>
+      </section>
+
+      {/* Mobile-only brochure content — desktop sees this in the hero left column */}
+      <section className="lg:hidden bg-brand-dark text-white py-6 px-4">
+        <div className="max-w-7xl mx-auto">
+          <p className="text-lg text-blue-100 mb-4">
+            USA Home Buyers purchases homes across Pennsylvania for cash in any condition.
+            No repairs, no agent fees, no waiting 60–90 days. Written cash offer in 24 hours.
+          </p>
+          <div className="flex flex-wrap gap-3 text-blue-100 text-sm">
+            <span>✓ No repairs required</span>
+            <span>✓ No agent commissions</span>
+            <span>✓ Close in 7–14 days</span>
+            <span>✓ We cover all closing costs</span>
           </div>
         </div>
       </section>
