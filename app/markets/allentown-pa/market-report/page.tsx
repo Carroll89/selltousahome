@@ -219,10 +219,10 @@ export default function AllentownMarketReport() {
         </summary>
         <div className="px4 pb-4 text-sm text-gray-600 leading-relaxed">
             <p className="mb-3">Here&apos;s a real look at the Allentown PA housing market in 2026. I&apos;m with USA Home Buyers, and we track these numbers closely because they affect every offer we make.</p>
-            <p className="mb-3">Median home value in the Allentown area per Zillow is $267,465. Redfin&apos;s median sale price for the city is around $245,000. Days to pending is running about 29 days — the Lehigh Valley market is active, but not as fast as some Philadelphia suburbs.</p>
-            <p className="mb-3">After those 29 days on market, you&apos;re still 45 to 60 days from closing after going pending. The realistic timeline from listing to close is two to three months, assuming nothing goes wrong.</p>
+            <p className="mb-3">Median home value in the Allentown area per Zillow is $267,465. According to Redfin (March 2026), the median sale price for the city is around $255,000. Days to pending is running about 15 days — the Lehigh Valley market is active and moving faster than this time last year.</p>
+            <p className="mb-3">After going pending, you&apos;re still 45 to 60 days from closing. The realistic timeline from listing to close is two to three months, assuming nothing goes wrong.</p>
             <p className="mb-3">Allentown sits at an interesting price point — more affordable than the Philadelphia metro while still within commuting distance. That drives demand from buyers priced out of Montgomery and Delaware County. Properties in good condition move quickly; properties with issues sit.</p>
-            <p className="mb-3">We pay 70 to 80 percent of fair market value — with Allentown medians around $245,000, that&apos;s typically $172,000 to $196,000 for a median-priced home, with zero agent commissions and zero repair costs.</p>
+            <p className="mb-3">We pay 70 to 80 percent of fair market value — with Allentown medians around $255,000, that&apos;s typically $179,000 to $204,000 for a median-priced home, with zero agent commissions and zero repair costs.</p>
             <p className="mb-3">Want to know what we&apos;d offer for your specific property? Call 888-440-5250 or fill out the form. Written offer in 24 hours.</p>
         </div>
       </details>
