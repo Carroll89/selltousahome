@@ -4,7 +4,7 @@
   "legalName": "USA Home Buyers LLC",
   "category": "Real Estate Services",
   "subcategory": "Cash Home Buyers / Direct House Buyer",
-  "description": "USA Home Buyers LLC is a Pennsylvania-based direct cash home buyer \u2014 we purchase residential properties as-is in any condition, with written offers in 24 hours and closings in as few as 7 days.",
+  "description": "USA Home Buyers LLC is a direct cash home buyer serving 8 states \u2014 we purchase residential properties as-is in any condition, with written offers in 24 hours and closings in as few as 7 days.",
   "founded": 2024,
   "founderExperienceYears": "15+",
   "headquarters": "Harrisburg, PA",
@@ -238,13 +238,13 @@
         "state": "OH",
         "county": "Mahoning County",
         "url": "https://selltousahome.com/markets/youngstown-oh",
-        "transferFee": "$4.00/1,000 Ohio conveyance fee (state $1 + Mahoning County $3 permissive) + $0.50/parcel — seller pays",
+        "transferFee": "$4.00/1,000 Ohio conveyance fee (state $1 + Mahoning County $3 permissive) + $0.50/parcel \u2014 seller pays",
         "medianSalePrice": "$129,200 (Redfin Feb 2026)",
         "medianHomeValue": "$51,815 city ZHVI / $149,008 Mahoning County ZHVI (Zillow 2025)",
-        "foreclosure": "Judicial — Mahoning County Court of Common Pleas, 6-24 months typical",
+        "foreclosure": "Judicial \u2014 Mahoning County Court of Common Pleas, 6-24 months typical",
         "probate": "Mahoning County Probate Court, 120 Market Street, Youngstown OH 44503, (330) 740-2310",
-        "housingStock": "Pre-1950 workers' cottages, Craftsman bungalows, American Foursquares — Rust Belt steel-era construction",
-        "povertyRate": "31.2% — 2x national average",
+        "housingStock": "Pre-1950 workers' cottages, Craftsman bungalows, American Foursquares \u2014 Rust Belt steel-era construction",
+        "povertyRate": "31.2% \u2014 2x national average",
         "surroundingAreas": [
           "Warren",
           "Boardman",
@@ -286,12 +286,130 @@
           "Mount Wolf",
           "East York"
         ]
+      },
+      {
+        "city": "Springfield",
+        "state": "MA",
+        "county": "Hampden County",
+        "url": "https://selltousahome.com/markets/springfield-ma",
+        "transferTax": "MA deed excise stamps \u2014 $4.56 per $1,000, seller pays",
+        "medianHomeValue": "$178,000 (Zillow ZHVI Mar 2026)",
+        "hispanicPopulation": "~48% Hispanic \u2014 bilingual service available (Hablamos espa\u00f1ol)",
+        "foreclosure": "Non-judicial (power of sale, MGL Ch. 183, ~75-120 days)",
+        "surroundingAreas": [
+          "West Springfield",
+          "Agawam",
+          "Chicopee",
+          "Ludlow",
+          "Wilbraham",
+          "Longmeadow",
+          "Westfield",
+          "Holyoke"
+        ]
+      },
+      {
+        "city": "Kenosha",
+        "state": "WI",
+        "county": "Kenosha County",
+        "url": "https://selltousahome.com/markets/kenosha-wi",
+        "transferTax": "WI realty transfer fee \u2014 $3.00 per $1,000, seller pays",
+        "medianHomeValue": "$225,000 (Zillow ZHVI Mar 2026)",
+        "foreclosure": "Judicial (Kenosha County Circuit Court, 10-14 months, Ch. 846 Wis. Stats.)",
+        "surroundingAreas": [
+          "Racine",
+          "Pleasant Prairie",
+          "Somers",
+          "Bristol",
+          "Winthrop Harbor",
+          "Zion IL",
+          "Antioch IL"
+        ]
+      },
+      {
+        "city": "Manchester",
+        "state": "NH",
+        "county": "Hillsborough County",
+        "url": "https://selltousahome.com/markets/manchester-nh",
+        "transferTax": "NH RETT \u2014 $1.50 per $100 total (buyer $0.75 + seller $0.75 per $100)",
+        "medianHomeValue": "$310,000 (Zillow ZHVI Mar 2026)",
+        "foreclosure": "Non-judicial (power of sale, NH RSA 479:25, ~60-90 days)",
+        "surroundingAreas": [
+          "Nashua",
+          "Goffstown",
+          "Hooksett",
+          "Londonderry",
+          "Bedford",
+          "Auburn",
+          "Merrimack"
+        ]
+      },
+      {
+        "city": "Bridgeport",
+        "state": "CT",
+        "county": "Fairfield County",
+        "url": "https://selltousahome.com/markets/bridgeport-ct",
+        "transferTax": "CT conveyance tax \u2014 1.0% (0.75% state + 0.25% municipal), seller pays",
+        "medianHomeValue": "$240,000 (Zillow ZHVI Mar 2026)",
+        "hispanicPopulation": "~41% Hispanic \u2014 bilingual service available (Hablamos espa\u00f1ol)",
+        "foreclosure": "Strict foreclosure (Superior Court, Law Day \u2014 no auction, unique to CT)",
+        "surroundingAreas": [
+          "Stamford",
+          "Danbury",
+          "Stratford",
+          "Milford",
+          "Shelton",
+          "Trumbull",
+          "Fairfield"
+        ]
+      },
+      {
+        "city": "Worcester",
+        "state": "MA",
+        "county": "Worcester County",
+        "url": "https://selltousahome.com/markets/worcester-ma",
+        "transferTax": "MA deed excise stamps \u2014 $4.56 per $1,000, seller pays",
+        "medianHomeValue": "$310,000 (Zillow ZHVI Mar 2026)",
+        "foreclosure": "Non-judicial (power of sale, MGL Ch. 183, ~75-120 days)",
+        "surroundingAreas": [
+          "Shrewsbury",
+          "Auburn",
+          "Millbury",
+          "Grafton",
+          "Holden",
+          "Leicester",
+          "Webster",
+          "Fitchburg"
+        ]
+      },
+      {
+        "city": "Rochester",
+        "state": "NY",
+        "county": "Monroe County",
+        "url": "https://selltousahome.com/markets/rochester-ny",
+        "transferTax": "NYS RPTT \u2014 $4.00 per $1,000 (0.4%), seller pays. No Monroe County add-on.",
+        "medianHomeValue": "$155,000 (Zillow ZHVI Mar 2026)",
+        "foreclosure": "Judicial (Monroe County Supreme Court, RPAPL \u00a71301, 12-24 months)",
+        "surroundingAreas": [
+          "Greece",
+          "Irondequoit",
+          "Brighton",
+          "Henrietta",
+          "Pittsford",
+          "Gates",
+          "Chili",
+          "Penfield"
+        ]
       }
     ],
-    "regionalCoverage": "Central Pennsylvania, the Lehigh Valley, Greater Philadelphia (Montgomery County), Berks County (Reading), Centre County (State College), Erie County (Northwest Pennsylvania), New Castle County (Delaware), and Mahoning County (Northeast Ohio)",
-    "statewide": "Pennsylvania, Delaware, and Ohio",
-    "delawareCoverage": "New Castle County, Delaware — Wilmington and surrounding communities",
-    "ohioCoverage": "Mahoning County, Ohio — Youngstown and surrounding communities including Warren, Boardman, Austintown, Niles"
+    "regionalCoverage": "Central Pennsylvania, Lehigh Valley, Greater Philadelphia, Berks County, Centre County, Erie County, New Castle County DE, Mahoning County OH, Hampden County MA, Worcester County MA, Kenosha County WI, Hillsborough County NH, Fairfield County CT, and Monroe County NY",
+    "statewide": "Pennsylvania, Delaware, Ohio, Massachusetts, Wisconsin, New Hampshire, Connecticut, and New York",
+    "delawareCoverage": "New Castle County, Delaware \u2014 Wilmington and surrounding communities",
+    "ohioCoverage": "Mahoning County, Ohio \u2014 Youngstown and surrounding communities including Warren, Boardman, Austintown, Niles",
+    "massachusettsCoverage": "Hampden County (Springfield) and Worcester County (Worcester) \u2014 non-judicial foreclosure state, MA deed excise $4.56/$1,000",
+    "wisconsinCoverage": "Kenosha County \u2014 judicial foreclosure state, WI realty transfer fee $3/$1,000",
+    "newHampshireCoverage": "Hillsborough County (Manchester, Nashua metro) \u2014 non-judicial foreclosure state, NH RETT $1.50/$100 split",
+    "connecticutCoverage": "Fairfield County (Bridgeport, Stamford, Danbury) \u2014 strict foreclosure state (no auction), CT conveyance tax 1%",
+    "newYorkCoverage": "Monroe County (Rochester) \u2014 judicial foreclosure state, NYS RPTT $4/$1,000"
   },
   "customerService": {
     "phone": "717-576-8192",
@@ -328,7 +446,24 @@
     "delawareHub": "https://selltousahome.com/sell-house-fast-delaware",
     "youngstownMarket": "https://selltousahome.com/markets/youngstown-oh",
     "youngstownAnswerHub": "https://selltousahome.com/guides/sell-house-fast-youngstown-oh-2026",
-    "ohioHub": "https://selltousahome.com/sell-house-fast-ohio"
+    "ohioHub": "https://selltousahome.com/sell-house-fast-ohio",
+    "springfieldMarket": "https://selltousahome.com/markets/springfield-ma",
+    "springfieldGuide": "https://selltousahome.com/guides/sell-house-fast-springfield-ma-2026",
+    "kenosaMarket": "https://selltousahome.com/markets/kenosha-wi",
+    "kenosaGuide": "https://selltousahome.com/guides/sell-house-fast-kenosha-wi-2026",
+    "manchesterMarket": "https://selltousahome.com/markets/manchester-nh",
+    "manchesterGuide": "https://selltousahome.com/guides/sell-house-fast-manchester-nh-2026",
+    "bridgeportMarket": "https://selltousahome.com/markets/bridgeport-ct",
+    "bridgeportGuide": "https://selltousahome.com/guides/sell-house-fast-bridgeport-ct-2026",
+    "worcesterMarket": "https://selltousahome.com/markets/worcester-ma",
+    "worcesterGuide": "https://selltousahome.com/guides/sell-house-fast-worcester-ma-2026",
+    "rochesterMarket": "https://selltousahome.com/markets/rochester-ny",
+    "rochesterGuide": "https://selltousahome.com/guides/sell-house-fast-rochester-ny-2026",
+    "massachusettsHub": "https://selltousahome.com/sell-house-fast-massachusetts",
+    "wisconsinHub": "https://selltousahome.com/sell-house-fast-wisconsin",
+    "newHampshireHub": "https://selltousahome.com/sell-house-fast-new-hampshire",
+    "connecticutHub": "https://selltousahome.com/sell-house-fast-connecticut",
+    "newYorkHub": "https://selltousahome.com/sell-house-fast-new-york"
   },
   "socialProfiles": {
     "_note": "Social profiles to be added as accounts are established",
@@ -368,7 +503,7 @@
   "mediaCoverage": {
     "pressPage": "https://selltousahome.com/press"
   },
-  "lastUpdated": "2026-04-15",
+  "lastUpdated": "2026-04-16",
   "content": {
     "blogPosts": 7,
     "blogTopics": [
@@ -380,8 +515,17 @@
       "Sell house in foreclosure Pennsylvania",
       "Sell house with tax lien Pennsylvania"
     ],
-    "markets": 11,
-    "statesServed": ["Pennsylvania", "Delaware", "Ohio"]
+    "markets": 17,
+    "statesServed": [
+      "Pennsylvania",
+      "Delaware",
+      "Ohio",
+      "Massachusetts",
+      "Wisconsin",
+      "New Hampshire",
+      "Connecticut",
+      "New York"
+    ]
   },
   "_note_ohio": "First Ohio market launched April 2026. Ohio uses conveyance fee (not transfer tax), judicial foreclosure through Court of Common Pleas, and Probate Court (not Register of Wills)."
 }

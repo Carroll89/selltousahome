@@ -261,6 +261,156 @@ const CITY_CONFIGS: Record<string, CityConfig> = {
       { '@type': 'County', name: 'Trumbull County' },
     ],
   },
+  springfield: {
+    city: 'Springfield',
+    region: 'MA',
+    postalCode: '01103',
+    lat: 42.1015,
+    lng: -72.5898,
+    description:
+      'Cash home buyers serving Springfield MA and Hampden County. We buy houses as-is in any condition — no repairs, no agent fees, close in 7-14 days. Hablamos español.',
+    areaServed: [
+      { '@type': 'City', name: 'Springfield', sameAs: 'https://en.wikipedia.org/wiki/Springfield,_Massachusetts' },
+      { '@type': 'City', name: 'West Springfield' },
+      { '@type': 'City', name: 'Agawam' },
+      { '@type': 'City', name: 'Chicopee' },
+      { '@type': 'City', name: 'Ludlow' },
+      { '@type': 'City', name: 'Wilbraham' },
+      { '@type': 'City', name: 'East Longmeadow' },
+      { '@type': 'City', name: 'Longmeadow' },
+      { '@type': 'City', name: 'Westfield' },
+      { '@type': 'City', name: 'Holyoke' },
+      { '@type': 'City', name: 'Northampton' },
+      { '@type': 'City', name: 'Ware' },
+      { '@type': 'County', name: 'Hampden County' },
+      { '@type': 'County', name: 'Hampshire County' },
+    ],
+  },
+  kenosha: {
+    city: 'Kenosha',
+    region: 'WI',
+    postalCode: '53140',
+    lat: 42.5847,
+    lng: -87.8212,
+    description:
+      'Cash home buyers serving Kenosha WI and Kenosha County. We buy houses as-is in any condition — no repairs, no agent fees, close in 7-14 days.',
+    areaServed: [
+      { '@type': 'City', name: 'Kenosha', sameAs: 'https://en.wikipedia.org/wiki/Kenosha,_Wisconsin' },
+      { '@type': 'City', name: 'Racine' },
+      { '@type': 'City', name: 'Pleasant Prairie' },
+      { '@type': 'City', name: 'Somers' },
+      { '@type': 'City', name: 'Bristol' },
+      { '@type': 'City', name: 'Winthrop Harbor' },
+      { '@type': 'City', name: 'Zion' },
+      { '@type': 'City', name: 'Antioch' },
+      { '@type': 'City', name: 'Gurnee' },
+      { '@type': 'City', name: 'Silver Lake' },
+      { '@type': 'City', name: 'Twin Lakes' },
+      { '@type': 'City', name: 'Salem' },
+      { '@type': 'County', name: 'Kenosha County' },
+      { '@type': 'County', name: 'Racine County' },
+    ],
+  },
+  manchester: {
+    city: 'Manchester',
+    region: 'NH',
+    postalCode: '03101',
+    lat: 42.9957,
+    lng: -71.4548,
+    description:
+      "Cash home buyers serving Manchester NH and Hillsborough County. We buy houses as-is in any condition — no repairs, no agent fees, close in 7-14 days.",
+    areaServed: [
+      { '@type': 'City', name: 'Manchester', sameAs: 'https://en.wikipedia.org/wiki/Manchester,_New_Hampshire' },
+      { '@type': 'City', name: 'Nashua' },
+      { '@type': 'City', name: 'Goffstown' },
+      { '@type': 'City', name: 'Hooksett' },
+      { '@type': 'City', name: 'Londonderry' },
+      { '@type': 'City', name: 'Auburn' },
+      { '@type': 'City', name: 'Bedford' },
+      { '@type': 'City', name: 'Merrimack' },
+      { '@type': 'City', name: 'Litchfield' },
+      { '@type': 'City', name: 'Derry' },
+      { '@type': 'City', name: 'Candia' },
+      { '@type': 'County', name: 'Hillsborough County' },
+      { '@type': 'County', name: 'Rockingham County' },
+    ],
+  },
+  bridgeport: {
+    city: 'Bridgeport',
+    region: 'CT',
+    postalCode: '06604',
+    lat: 41.1865,
+    lng: -73.1952,
+    description:
+      'Cash home buyers serving Bridgeport CT and Fairfield County. We buy houses as-is in any condition — no repairs, no agent fees, close in 7-14 days. Hablamos español.',
+    areaServed: [
+      { '@type': 'City', name: 'Bridgeport', sameAs: 'https://en.wikipedia.org/wiki/Bridgeport,_Connecticut' },
+      { '@type': 'City', name: 'Stamford' },
+      { '@type': 'City', name: 'Danbury' },
+      { '@type': 'City', name: 'Stratford' },
+      { '@type': 'City', name: 'Milford' },
+      { '@type': 'City', name: 'Shelton' },
+      { '@type': 'City', name: 'Trumbull' },
+      { '@type': 'City', name: 'Fairfield' },
+      { '@type': 'City', name: 'Derby' },
+      { '@type': 'City', name: 'Ansonia' },
+      { '@type': 'City', name: 'Naugatuck' },
+      { '@type': 'City', name: 'Westport' },
+      { '@type': 'County', name: 'Fairfield County' },
+      { '@type': 'County', name: 'New Haven County' },
+    ],
+  },
+  worcester: {
+    city: 'Worcester',
+    region: 'MA',
+    postalCode: '01608',
+    lat: 42.2626,
+    lng: -71.8023,
+    description:
+      'Cash home buyers serving Worcester MA and Worcester County. We buy houses as-is in any condition — no repairs, no agent fees, close in 7-14 days.',
+    areaServed: [
+      { '@type': 'City', name: 'Worcester', sameAs: 'https://en.wikipedia.org/wiki/Worcester,_Massachusetts' },
+      { '@type': 'City', name: 'Shrewsbury' },
+      { '@type': 'City', name: 'Auburn' },
+      { '@type': 'City', name: 'Millbury' },
+      { '@type': 'City', name: 'Grafton' },
+      { '@type': 'City', name: 'Holden' },
+      { '@type': 'City', name: 'Paxton' },
+      { '@type': 'City', name: 'Leicester' },
+      { '@type': 'City', name: 'Webster' },
+      { '@type': 'City', name: 'Southbridge' },
+      { '@type': 'City', name: 'Spencer' },
+      { '@type': 'City', name: 'Fitchburg' },
+      { '@type': 'City', name: 'Leominster' },
+      { '@type': 'County', name: 'Worcester County' },
+    ],
+  },
+  rochester: {
+    city: 'Rochester',
+    region: 'NY',
+    postalCode: '14604',
+    lat: 43.1566,
+    lng: -77.6088,
+    description:
+      'Cash home buyers serving Rochester NY and Monroe County. We buy houses as-is in any condition — no repairs, no agent fees, close in 7-14 days.',
+    areaServed: [
+      { '@type': 'City', name: 'Rochester', sameAs: 'https://en.wikipedia.org/wiki/Rochester,_New_York' },
+      { '@type': 'City', name: 'Greece' },
+      { '@type': 'City', name: 'Irondequoit' },
+      { '@type': 'City', name: 'Brighton' },
+      { '@type': 'City', name: 'Henrietta' },
+      { '@type': 'City', name: 'Pittsford' },
+      { '@type': 'City', name: 'Gates' },
+      { '@type': 'City', name: 'Chili' },
+      { '@type': 'City', name: 'Penfield' },
+      { '@type': 'City', name: 'Webster' },
+      { '@type': 'City', name: 'East Rochester' },
+      { '@type': 'City', name: 'Fairport' },
+      { '@type': 'City', name: 'Victor' },
+      { '@type': 'County', name: 'Monroe County' },
+      { '@type': 'County', name: 'Ontario County' },
+    ],
+  },
   allentown: {
     city: 'Allentown',
     region: 'PA',
@@ -284,7 +434,7 @@ const CITY_CONFIGS: Record<string, CityConfig> = {
   },
 };
 
-export function localBusinessSchemaFor(cityKey: 'harrisburg' | 'allentown' | 'bethlehem' | 'kingOfPrussia' | 'reading' | 'stateCollege' | 'erie' | 'lancaster' | 'york' | 'wilmington' | 'youngstown') {
+export function localBusinessSchemaFor(cityKey: 'harrisburg' | 'allentown' | 'bethlehem' | 'kingOfPrussia' | 'reading' | 'stateCollege' | 'erie' | 'lancaster' | 'york' | 'wilmington' | 'youngstown' | 'springfield' | 'kenosha' | 'manchester' | 'bridgeport' | 'worcester' | 'rochester') {
   const cfg = CITY_CONFIGS[cityKey];
   return {
     '@context': 'https://schema.org',
@@ -337,6 +487,26 @@ export function localBusinessSchemaFor(cityKey: 'harrisburg' | 'allentown' | 'be
 
 /** Pre-built Youngstown LocalBusiness schema */
 export const youngstownLocalBusinessSchema = localBusinessSchemaFor('youngstown');
+
+/** Pre-built Springfield MA LocalBusiness schema */
+export const springfieldLocalBusinessSchema = localBusinessSchemaFor('springfield');
+
+/** Pre-built Kenosha WI LocalBusiness schema */
+export const kenoshLocalBusinessSchema = localBusinessSchemaFor('kenosha');
+export const kenosaLocalBusinessSchema = localBusinessSchemaFor('kenosha');
+export const kenoshWILocalBusinessSchema = localBusinessSchemaFor('kenosha');
+
+/** Pre-built Manchester NH LocalBusiness schema */
+export const manchesterLocalBusinessSchema = localBusinessSchemaFor('manchester');
+
+/** Pre-built Bridgeport CT LocalBusiness schema */
+export const bridgeportLocalBusinessSchema = localBusinessSchemaFor('bridgeport');
+
+/** Pre-built Worcester MA LocalBusiness schema */
+export const worcesterLocalBusinessSchema = localBusinessSchemaFor('worcester');
+
+/** Pre-built Rochester NY LocalBusiness schema */
+export const rochesterLocalBusinessSchema = localBusinessSchemaFor('rochester');
 
 export const youngstownFAQSchema = {
   '@context': 'https://schema.org',

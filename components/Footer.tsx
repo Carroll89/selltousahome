@@ -11,7 +11,7 @@ export function Footer() {
           <div>
             <h3 className="text-white font-bold text-lg mb-3">USA Home Buyers</h3>
             <p className="text-sm mb-3">
-              We buy houses for cash across Pennsylvania, Delaware, and Ohio — Harrisburg, Allentown, Bethlehem, Lancaster, York, Wilmington DE, Youngstown OH, and surrounding areas. Any condition, any situation.
+              We buy houses for cash across 8 states — Pennsylvania, Delaware, Ohio, Massachusetts, Wisconsin, New Hampshire, Connecticut, and New York. Any condition, any situation.
             </p>
             <p className="text-sm">
               <strong className="text-white">Phone:</strong>{' '}
@@ -50,6 +50,17 @@ export function Footer() {
               <li><Link href="/markets/youngstown-oh" className="hover:text-white">Youngstown, OH</Link></li>
               <li><Link href="/markets/youngstown-oh/market-report" className="hover:text-white">Youngstown Market Report</Link></li>
               <li><Link href="/sell-house-fast-ohio" className="hover:text-white">Sell House Fast Ohio</Link></li>
+              <li><Link href="/markets/springfield-ma" className="hover:text-white">Springfield, MA</Link></li>
+              <li><Link href="/markets/worcester-ma" className="hover:text-white">Worcester, MA</Link></li>
+              <li><Link href="/sell-house-fast-massachusetts" className="hover:text-white">Sell House Fast Massachusetts</Link></li>
+              <li><Link href="/markets/kenosha-wi" className="hover:text-white">Kenosha, WI</Link></li>
+              <li><Link href="/sell-house-fast-wisconsin" className="hover:text-white">Sell House Fast Wisconsin</Link></li>
+              <li><Link href="/markets/manchester-nh" className="hover:text-white">Manchester, NH</Link></li>
+              <li><Link href="/sell-house-fast-new-hampshire" className="hover:text-white">Sell House Fast New Hampshire</Link></li>
+              <li><Link href="/markets/bridgeport-ct" className="hover:text-white">Bridgeport, CT</Link></li>
+              <li><Link href="/sell-house-fast-connecticut" className="hover:text-white">Sell House Fast Connecticut</Link></li>
+              <li><Link href="/markets/rochester-ny" className="hover:text-white">Rochester, NY</Link></li>
+              <li><Link href="/sell-house-fast-new-york" className="hover:text-white">Sell House Fast New York</Link></li>
             </ul>
           </div>
 
@@ -57,7 +68,10 @@ export function Footer() {
           <div>
             <h3 className="text-white font-semibold mb-3">Seller Guides</h3>
             <ul className="space-y-2 text-sm">
-              <li><Link href="/guides/sell-house-fast-harrisburg-pa-2026" className="hover:text-white">2026 Selling Guide</Link></li>
+              <li><Link href="/guides/sell-house-fast-harrisburg-pa-2026" className="hover:text-white">2026 Harrisburg Guide</Link></li>
+              <li><Link href="/guides/sell-house-fast-springfield-ma-2026" className="hover:text-white">Springfield MA Guide</Link></li>
+              <li><Link href="/guides/sell-house-fast-worcester-ma-2026" className="hover:text-white">Worcester MA Guide</Link></li>
+              <li><Link href="/guides/sell-house-fast-rochester-ny-2026" className="hover:text-white">Rochester NY Guide</Link></li>
               <li><Link href="/guides/inherited-property" className="hover:text-white">Inherited Property</Link></li>
               <li><Link href="/guides/foreclosure" className="hover:text-white">Foreclosure</Link></li>
               <li><Link href="/guides/behind-on-payments" className="hover:text-white">Behind on Payments</Link></li>
@@ -84,10 +98,10 @@ export function Footer() {
 
         <div className="border-t border-gray-700 pt-6 text-sm text-gray-500">
           <p className="mb-2">
-            We buy houses across Pennsylvania, Delaware, and Ohio — Harrisburg, Allentown, Bethlehem, Lancaster, York, King of Prussia, Reading, State College, Erie, Wilmington DE, Youngstown OH, and surrounding communities.
+            We buy houses across Pennsylvania, Delaware, Ohio, Massachusetts, Wisconsin, New Hampshire, Connecticut, and New York — Harrisburg, Allentown, Bethlehem, Lancaster, York, Erie, Reading, Wilmington DE, Youngstown OH, Springfield MA, Worcester MA, Kenosha WI, Manchester NH, Bridgeport CT, Rochester NY, and surrounding communities.
           </p>
           <p>
-            © {currentYear} USA Home Buyers LLC. All rights reserved. | Serving Pennsylvania, Delaware, and Ohio homeowners
+            © {currentYear} USA Home Buyers LLC. All rights reserved. | Serving homeowners in PA, DE, OH, MA, WI, NH, CT, and NY
           </p>
         </div>
       </div>

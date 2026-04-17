@@ -28,6 +28,29 @@ const marketsByState: { state: string; cities: { href: string; label: string }[]
     state: 'Ohio',
     cities: [{ href: '/markets/youngstown-oh', label: 'Youngstown' }],
   },
+  {
+    state: 'Massachusetts',
+    cities: [
+      { href: '/markets/springfield-ma', label: 'Springfield' },
+      { href: '/markets/worcester-ma', label: 'Worcester' },
+    ],
+  },
+  {
+    state: 'Wisconsin',
+    cities: [{ href: '/markets/kenosha-wi', label: 'Kenosha' }],
+  },
+  {
+    state: 'New Hampshire',
+    cities: [{ href: '/markets/manchester-nh', label: 'Manchester' }],
+  },
+  {
+    state: 'Connecticut',
+    cities: [{ href: '/markets/bridgeport-ct', label: 'Bridgeport' }],
+  },
+  {
+    state: 'New York',
+    cities: [{ href: '/markets/rochester-ny', label: 'Rochester' }],
+  },
 ];
 
 export function Header() {
