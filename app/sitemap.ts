@@ -173,6 +173,18 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/markets/kenosha-wi/faq`, priority: 0.8, changeFrequency: 'monthly' as const },
     { url: `${baseUrl}/markets/kenosha-wi/neighborhoods`, priority: 0.8, changeFrequency: 'monthly' as const },
     { url: `${baseUrl}/guides/sell-house-fast-kenosha-wi-2026`, priority: 1.0, changeFrequency: 'monthly' as const },
+    // Racine-Mount Pleasant WI
+    { url: `${baseUrl}/markets/racine-mount-pleasant-wi`, priority: 1.0, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/markets/racine-mount-pleasant-wi/market-report`, priority: 0.9, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/markets/racine-mount-pleasant-wi/inherited-property`, priority: 0.9, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/markets/racine-mount-pleasant-wi/foreclosure`, priority: 0.9, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/markets/racine-mount-pleasant-wi/divorce-sale`, priority: 0.9, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/markets/racine-mount-pleasant-wi/probate`, priority: 0.9, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/markets/racine-mount-pleasant-wi/tenant-occupied`, priority: 0.9, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/markets/racine-mount-pleasant-wi/code-violations`, priority: 0.9, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/markets/racine-mount-pleasant-wi/fire-damage`, priority: 0.9, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/markets/racine-mount-pleasant-wi/faq`, priority: 0.8, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/markets/racine-mount-pleasant-wi/neighborhoods`, priority: 0.8, changeFrequency: 'monthly' as const },
     // Manchester NH
     { url: `${baseUrl}/markets/manchester-nh`, priority: 1.0, changeFrequency: 'monthly' as const },
     { url: `${baseUrl}/markets/manchester-nh/market-report`, priority: 0.9, changeFrequency: 'monthly' as const },

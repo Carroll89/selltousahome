@@ -54,6 +54,7 @@ export function Footer() {
               <li><Link href="/markets/worcester-ma" className="hover:text-white">Worcester, MA</Link></li>
               <li><Link href="/sell-house-fast-massachusetts" className="hover:text-white">Sell House Fast Massachusetts</Link></li>
               <li><Link href="/markets/kenosha-wi" className="hover:text-white">Kenosha, WI</Link></li>
+              <li><Link href="/markets/racine-mount-pleasant-wi" className="hover:text-white">Racine &amp; Mount Pleasant, WI</Link></li>
               <li><Link href="/sell-house-fast-wisconsin" className="hover:text-white">Sell House Fast Wisconsin</Link></li>
               <li><Link href="/markets/manchester-nh" className="hover:text-white">Manchester, NH</Link></li>
               <li><Link href="/sell-house-fast-new-hampshire" className="hover:text-white">Sell House Fast New Hampshire</Link></li>
@@ -98,7 +99,7 @@ export function Footer() {
 
         <div className="border-t border-gray-700 pt-6 text-sm text-gray-500">
           <p className="mb-2">
-            We buy houses across Pennsylvania, Delaware, Ohio, Massachusetts, Wisconsin, New Hampshire, Connecticut, and New York — Harrisburg, Allentown, Bethlehem, Lancaster, York, Erie, Reading, Wilmington DE, Youngstown OH, Springfield MA, Worcester MA, Kenosha WI, Manchester NH, Bridgeport CT, Rochester NY, and surrounding communities.
+            We buy houses across Pennsylvania, Delaware, Ohio, Massachusetts, Wisconsin, New Hampshire, Connecticut, and New York — Harrisburg, Allentown, Bethlehem, Lancaster, York, Erie, Reading, Wilmington DE, Youngstown OH, Springfield MA, Worcester MA, Kenosha WI, Racine-Mount Pleasant WI, Manchester NH, Bridgeport CT, Rochester NY, and surrounding communities.
           </p>
           <p>
             © {currentYear} USA Home Buyers LLC. All rights reserved. | Serving homeowners in PA, DE, OH, MA, WI, NH, CT, and NY

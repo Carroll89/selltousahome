@@ -37,7 +37,10 @@ const marketsByState: { state: string; cities: { href: string; label: string }[]
   },
   {
     state: 'Wisconsin',
-    cities: [{ href: '/markets/kenosha-wi', label: 'Kenosha' }],
+    cities: [
+      { href: '/markets/kenosha-wi', label: 'Kenosha' },
+      { href: '/markets/racine-mount-pleasant-wi', label: 'Racine & Mount Pleasant' },
+    ],
   },
   {
     state: 'New Hampshire',

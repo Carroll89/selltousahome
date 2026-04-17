@@ -411,6 +411,28 @@ const CITY_CONFIGS: Record<string, CityConfig> = {
       { '@type': 'County', name: 'Ontario County' },
     ],
   },
+  racineMountPleasant: {
+    city: 'Racine',
+    region: 'WI',
+    postalCode: '53403',
+    lat: 42.7261,
+    lng: -87.7829,
+    description:
+      'Cash home buyers serving Racine, Mount Pleasant WI and Racine County. We buy houses as-is in any condition — no repairs, no agent fees, close in 7-14 days.',
+    areaServed: [
+      { '@type': 'City', name: 'Racine', sameAs: 'https://en.wikipedia.org/wiki/Racine,_Wisconsin' },
+      { '@type': 'City', name: 'Mount Pleasant', sameAs: 'https://en.wikipedia.org/wiki/Mount_Pleasant,_Racine_County,_Wisconsin' },
+      { '@type': 'City', name: 'Caledonia' },
+      { '@type': 'City', name: 'Sturtevant' },
+      { '@type': 'City', name: 'Union Grove' },
+      { '@type': 'City', name: 'Burlington' },
+      { '@type': 'City', name: 'Wind Point' },
+      { '@type': 'City', name: 'Raymond' },
+      { '@type': 'City', name: 'Waterford' },
+      { '@type': 'City', name: 'Rochester' },
+      { '@type': 'County', name: 'Racine County' },
+    ],
+  },
   allentown: {
     city: 'Allentown',
     region: 'PA',
@@ -434,7 +456,7 @@ const CITY_CONFIGS: Record<string, CityConfig> = {
   },
 };
 
-export function localBusinessSchemaFor(cityKey: 'harrisburg' | 'allentown' | 'bethlehem' | 'kingOfPrussia' | 'reading' | 'stateCollege' | 'erie' | 'lancaster' | 'york' | 'wilmington' | 'youngstown' | 'springfield' | 'kenosha' | 'manchester' | 'bridgeport' | 'worcester' | 'rochester') {
+export function localBusinessSchemaFor(cityKey: 'harrisburg' | 'allentown' | 'bethlehem' | 'kingOfPrussia' | 'reading' | 'stateCollege' | 'erie' | 'lancaster' | 'york' | 'wilmington' | 'youngstown' | 'springfield' | 'kenosha' | 'manchester' | 'bridgeport' | 'worcester' | 'rochester' | 'racineMountPleasant') {
   const cfg = CITY_CONFIGS[cityKey];
   return {
     '@context': 'https://schema.org',
@@ -507,6 +529,10 @@ export const worcesterLocalBusinessSchema = localBusinessSchemaFor('worcester');
 
 /** Pre-built Rochester NY LocalBusiness schema */
 export const rochesterLocalBusinessSchema = localBusinessSchemaFor('rochester');
+
+/** Pre-built Racine-Mount Pleasant WI LocalBusiness schema */
+export const racineMountPleasantLocalBusinessSchema = localBusinessSchemaFor('racineMountPleasant');
+export const racineWILocalBusinessSchema = localBusinessSchemaFor('racineMountPleasant');
 
 export const youngstownFAQSchema = {
   '@context': 'https://schema.org',
