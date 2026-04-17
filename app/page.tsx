@@ -13,7 +13,7 @@ export const metadata: Metadata = {
   title: 'Sell Your House Fast for Cash',
   description:
     'USA Home Buyers purchases homes for cash in any condition. No repairs, no agent fees, close in 7-14 days. Serving Harrisburg, Allentown, King of Prussia, Reading, State College, and all of Pennsylvania.',
-  alternates: { canonical: 'https://selltousahome.com' },
+  alternates: { canonical: 'https://www.selltousahome.com' },
 };
 
 const TESTIMONIALS = [

@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: 'Behind on Mortgage Payments in PA — Sell Before Foreclosure',
   description:
     'Behind on your mortgage in Pennsylvania? You can sell before the sheriff sale and keep your equity. PA foreclosure timeline explained. Cash offer in 24 hours.',
-  alternates: { canonical: 'https://selltousahome.com/guides/behind-on-payments' },
+  alternates: { canonical: 'https://www.selltousahome.com/guides/behind-on-payments' },
 };
 
 const FAQ_ITEMS = [

@@ -185,6 +185,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/markets/racine-mount-pleasant-wi/fire-damage`, priority: 0.9, changeFrequency: 'monthly' as const },
     { url: `${baseUrl}/markets/racine-mount-pleasant-wi/faq`, priority: 0.8, changeFrequency: 'monthly' as const },
     { url: `${baseUrl}/markets/racine-mount-pleasant-wi/neighborhoods`, priority: 0.8, changeFrequency: 'monthly' as const },
+    { url: `${baseUrl}/guides/sell-house-fast-racine-mount-pleasant-wi-2026`, priority: 1.0, changeFrequency: 'monthly' as const },
     // Manchester NH
     { url: `${baseUrl}/markets/manchester-nh`, priority: 1.0, changeFrequency: 'monthly' as const },
     { url: `${baseUrl}/markets/manchester-nh/market-report`, priority: 0.9, changeFrequency: 'monthly' as const },

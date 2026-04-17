@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: 'Facing Foreclosure in PA — Sell Fast',
   description:
     'Behind on mortgage in Pennsylvania? PA is a judicial foreclosure state with 12-18 month timelines. Learn how to sell before the sheriff sale and protect your equity.',
-  alternates: { canonical: 'https://selltousahome.com/guides/foreclosure' },
+  alternates: { canonical: 'https://www.selltousahome.com/guides/foreclosure' },
 };
 
 const FAQ_ITEMS = [

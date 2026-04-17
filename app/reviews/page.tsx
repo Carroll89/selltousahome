@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   title: 'Reviews — Harrisburg PA Cash Home Buyers',
   description:
     'Read reviews from homeowners who sold their house to USA Home Buyers in Harrisburg, PA. Real stories from inheritance, foreclosure, divorce, and problem tenant sales.',
-  alternates: { canonical: 'https://selltousahome.com/reviews' },
+  alternates: { canonical: 'https://www.selltousahome.com/reviews' },
 };
 
 const REVIEWS = [

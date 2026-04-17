@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: 'Selling Tenant-Occupied Property in PA',
   description:
     'Selling a rental property with tenants in Pennsylvania? Cash buyers purchase tenant-occupied properties as-is. PA landlord-tenant law explained.',
-  alternates: { canonical: 'https://selltousahome.com/guides/tenant-occupied' },
+  alternates: { canonical: 'https://www.selltousahome.com/guides/tenant-occupied' },
 };
 
 const FAQ_ITEMS = [

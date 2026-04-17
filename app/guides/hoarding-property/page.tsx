@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: 'Selling a Hoarding Property in Pennsylvania — Cash Buyers',
   description:
     'Need to sell a severely cluttered or hoarding property in PA? Cash buyers purchase hoarding homes as-is with no cleanup required.',
-  alternates: { canonical: 'https://selltousahome.com/guides/hoarding-property' },
+  alternates: { canonical: 'https://www.selltousahome.com/guides/hoarding-property' },
 };
 
 const FAQ_ITEMS = [

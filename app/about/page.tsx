@@ -10,7 +10,7 @@ export const metadata: Metadata = {
   title: 'About Us | We Buy Houses for Cash in Harrisburg PA',
   description:
     'USA Home Buyers LLC is a local cash home buying company serving Harrisburg and Central Pennsylvania. We buy houses as-is, in any condition. No repairs, no fees, close in 7-14 days.',
-  alternates: { canonical: 'https://selltousahome.com/about' },
+  alternates: { canonical: 'https://www.selltousahome.com/about' },
 };
 
 export default function AboutPage() {

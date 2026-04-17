@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   title: 'Sell House Fast Harrisburg PA 2026 — Complete Guide',
   description:
     'Complete 2026 guide to selling your house fast in Harrisburg PA. Honest comparison of cash buyers, agents, and iBuyers with real Harrisburg numbers.',
-  alternates: { canonical: 'https://selltousahome.com/guides/sell-house-fast-harrisburg-pa-2026' },
+  alternates: { canonical: 'https://www.selltousahome.com/guides/sell-house-fast-harrisburg-pa-2026' },
   openGraph: {
     images: [{ url: '/images/harrisburg-hero.jpg', width: 1200, height: 630, alt: 'Sell Your House Fast in Harrisburg PA' }],
   },

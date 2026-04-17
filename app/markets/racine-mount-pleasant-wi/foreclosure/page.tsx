@@ -89,12 +89,52 @@ export default function RacineForeclosurePage() {
 
       <div className="max-w-7xl mx-auto px-4 py-8">
         <section className="my-8">
-          <h2 className="text-2xl font-bold text-brand-dark mb-4">Market Data: Racine WI — $205,000 Median Price, 35-Day DOM</h2>
+          <h2 className="text-2xl font-bold text-brand-dark mb-4">Wisconsin Judicial Foreclosure — The Racine County Timeline</h2>
           <p className="text-gray-700 mb-4">
-            According to Redfin (March 2026), the median sale price in Racine is $205,000 with homes receiving 8 offers on average and selling in around 35 days. The Zillow Home Value Index (February 2026) puts the typical Racine home value at $171,496, up 4.4% year over year. Transfer tax: Wisconsin realty transfer fee — $3.00 per $1,000 of consideration, paid by seller (Wis. Stat. § 77.22). On a $205,000 Racine sale: $615. Source: Wisconsin Department of Revenue (revenue.wi.gov).
+            Wisconsin is a judicial foreclosure state under Wis. Stat. Ch. 846. Every foreclosure on a Racine County property must be filed as a civil action in the Racine County Circuit Court at 730 Wisconsin Avenue, Racine WI 53403, (262) 636-3333. There is no non-judicial / trustee-sale path available in Wisconsin; lenders cannot bypass the court.
+          </p>
+          <div className="overflow-x-auto mb-4">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr className="bg-brand-primary text-white">
+                  <th className="text-left p-3">Stage</th>
+                  <th className="text-left p-3">Typical Timeline</th>
+                  <th className="text-left p-3">Statute</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-gray-200">
+                <tr className="bg-white"><td className="p-3 font-medium">Default / missed payments</td><td className="p-3">Months 1-3</td><td className="p-3">Per mortgage contract</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Notice of right to cure</td><td className="p-3">Varies (15-30 days typical)</td><td className="p-3">Wis. Stat. § 425.104 (consumer credit) or policy</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Complaint filed in Racine County Circuit Court</td><td className="p-3">Day 0 of the lawsuit</td><td className="p-3">Wis. Stat. § 846.03</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Summons and complaint served on borrower</td><td className="p-3">Days 1-60</td><td className="p-3">Wis. Stat. § 801.11</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Answer due</td><td className="p-3">20 days after service</td><td className="p-3">Wis. Stat. § 802.06</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Judgment of foreclosure entered</td><td className="p-3">Months 3-6 after filing</td><td className="p-3">Wis. Stat. § 846.10</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Statutory redemption period — 6 months (owner-occupied 1-4 family, lender waives deficiency)</td><td className="p-3">6 months from judgment</td><td className="p-3">Wis. Stat. § 846.101</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Statutory redemption period — 12 months (lender preserves deficiency, or non-owner-occupied)</td><td className="p-3">12 months from judgment</td><td className="p-3">Wis. Stat. § 846.10</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Sheriff\'s sale (published in Racine Journal Times)</td><td className="p-3">After redemption expires</td><td className="p-3">Wis. Stat. § 846.16</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Confirmation of sale hearing</td><td className="p-3">15-30 days after sale</td><td className="p-3">Wis. Stat. § 846.17</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Writ of assistance (eviction from foreclosed home)</td><td className="p-3">After confirmation</td><td className="p-3">Wis. Stat. § 846.185</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-gray-700 mb-4">
+            Total Racine County timeline from complaint filing to sheriff\'s sale: 10-14 months typical. The pivotal fork is Wis. Stat. § 846.101 — if the lender waives its right to a deficiency judgment, the redemption period drops from 12 months to 6 months. For owner-occupied 1-4 family dwellings, this is the lender\'s default path because it gets the sheriff\'s sale six months sooner. If you\'re reading the complaint and it says the lender waives deficiency, your clock is 6 months from judgment — not 12.
           </p>
           <p className="text-gray-700 mb-4">
-            If your foreclosure is already filed at Racine County Circuit Court, every week matters. Judgment of foreclosure starts the 6-month statutory redemption clock (Wis. Stat. § 846.101). After that, the sheriff&rsquo;s sale is final. Selling now lets you preserve equity and walk away — selling after the sale usually means the lender has absorbed it.
+            The redemption period is your window. During it, you can: (1) cure the default and reinstate the loan (Wis. Stat. § 425.105 for consumer-credit loans), (2) pay off the full balance and redeem the property (§ 846.13), (3) sell the property and pay off the mortgage from proceeds, (4) negotiate a short sale with the lender, or (5) do nothing and lose the property at the sheriff\'s sale. Options (3) and (4) are where we come in. We can close in 7-14 days, the closing proceeds satisfy the mortgage, the lender files a satisfaction at the Racine County Register of Deeds, and the foreclosure action is dismissed.
+          </p>
+        </section>
+
+        <section className="my-8">
+          <h2 className="text-2xl font-bold text-brand-dark mb-4">Racine Market Data — Why Selling Beats Auction</h2>
+          <p className="text-gray-700 mb-4">
+            Per Redfin (March 2026), the Racine median sale price is $205,000 with homes receiving 8 offers on average and selling in around 35 days. Per the Zillow Home Value Index (February 2026), the typical Racine home value is $171,496, up 4.4% year over year. The Wisconsin realty transfer fee under Wis. Stat. § 77.22 is $3.00 per $1,000 ($615 on a $205,000 sale); we cover it. Per Realtor.com (April 2026), the Racine-Mount Pleasant metro hotness median is $347,720.
+          </p>
+          <p className="text-gray-700 mb-4">
+            Sheriff\'s sales at Racine County Circuit Court typically recover 60-75% of fair market value for the lender — often less. Our cash offers for distressed Racine foreclosure properties typically run 68-80% of FMV, with the seller preserving any equity above the mortgage payoff. If your Racine cream brick cottage has $30K of equity and you\'re six weeks from the sheriff\'s sale, the math on selling now versus letting the sale happen is stark: either you walk with the $30K, or the lender and buyer at auction absorb it.
+          </p>
+          <p className="text-gray-700 mb-4">
+            Source: Wisconsin Statutes Ch. 846 (docs.legis.wisconsin.gov); Redfin.com; Zillow.com; Racine County Clerk of Courts, (262) 636-3333.
           </p>
         </section>
 

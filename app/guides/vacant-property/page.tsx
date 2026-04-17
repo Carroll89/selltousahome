@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: 'Selling a Vacant Property in Pennsylvania — Cash Buyers',
   description:
     'Selling a vacant or abandoned property in PA? Cash buyers purchase vacant homes as-is with no cleanup, no repairs. Close in 7-14 days.',
-  alternates: { canonical: 'https://selltousahome.com/guides/vacant-property' },
+  alternates: { canonical: 'https://www.selltousahome.com/guides/vacant-property' },
 };
 
 const FAQ_ITEMS = [

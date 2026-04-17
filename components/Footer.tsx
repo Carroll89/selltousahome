@@ -73,6 +73,7 @@ export function Footer() {
               <li><Link href="/guides/sell-house-fast-springfield-ma-2026" className="hover:text-white">Springfield MA Guide</Link></li>
               <li><Link href="/guides/sell-house-fast-worcester-ma-2026" className="hover:text-white">Worcester MA Guide</Link></li>
               <li><Link href="/guides/sell-house-fast-rochester-ny-2026" className="hover:text-white">Rochester NY Guide</Link></li>
+              <li><Link href="/guides/sell-house-fast-racine-mount-pleasant-wi-2026" className="hover:text-white">Racine-Mount Pleasant WI Guide</Link></li>
               <li><Link href="/guides/inherited-property" className="hover:text-white">Inherited Property</Link></li>
               <li><Link href="/guides/foreclosure" className="hover:text-white">Foreclosure</Link></li>
               <li><Link href="/guides/behind-on-payments" className="hover:text-white">Behind on Payments</Link></li>

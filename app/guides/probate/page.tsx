@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: 'Selling a House During Probate in Pennsylvania — Guide',
   description:
     'Selling a house during probate in Pennsylvania? Learn how estate sales work, PA probate timelines, and how cash buyers can close while probate is ongoing.',
-  alternates: { canonical: 'https://selltousahome.com/guides/probate' },
+  alternates: { canonical: 'https://www.selltousahome.com/guides/probate' },
 };
 
 const FAQ_ITEMS = [

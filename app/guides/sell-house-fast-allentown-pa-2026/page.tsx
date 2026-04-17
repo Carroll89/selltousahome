@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   title: 'Sell House Fast Allentown PA 2026 — Guide',
   description:
     'Complete 2026 guide to selling your house fast in Allentown PA. Honest comparison of cash buyers, agents, and iBuyers with real Lehigh Valley numbers.',
-  alternates: { canonical: 'https://selltousahome.com/guides/sell-house-fast-allentown-pa-2026' },
+  alternates: { canonical: 'https://www.selltousahome.com/guides/sell-house-fast-allentown-pa-2026' },
   openGraph: {
     images: [{ url: '/images/allentown-hero.jpg', width: 1200, height: 630, alt: 'Sell Your House Fast in Allentown PA' }],
   },

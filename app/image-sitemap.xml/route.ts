@@ -1,6 +1,6 @@
 import { NextResponse } from 'next/server';
 
-const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://selltousahome.com';
+const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.selltousahome.com';
 
 interface ImageEntry {
   pageUrl: string;

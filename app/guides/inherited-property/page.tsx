@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   title: 'Selling Inherited Property in PA — Guide',
   description:
     'Inherited a house in Pennsylvania? Learn your options for selling quickly, navigating probate, and maximizing your proceeds. PA-specific legal context included.',
-  alternates: { canonical: 'https://selltousahome.com/guides/inherited-property' },
+  alternates: { canonical: 'https://www.selltousahome.com/guides/inherited-property' },
 };
 
 const FAQ_ITEMS = [

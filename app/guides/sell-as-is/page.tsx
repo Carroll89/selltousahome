@@ -11,7 +11,7 @@ export const metadata: Metadata = {
   title: 'Sell Your House As-Is in Pennsylvania — No Repairs Required',
   description:
     'Selling a house as-is in Pennsylvania? Learn how cash buyers purchase homes in any condition — no repairs, no inspections, no lender requirements.',
-  alternates: { canonical: 'https://selltousahome.com/guides/sell-as-is' },
+  alternates: { canonical: 'https://www.selltousahome.com/guides/sell-as-is' },
 };
 
 const FAQ_ITEMS = [

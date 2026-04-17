@@ -20,7 +20,7 @@ export const metadata: Metadata = {
   title: 'Sell My House Fast Harrisburg PA | Cash Offer in 24 Hours',
   description:
     'We buy houses in Harrisburg PA for cash, as-is, in any condition. Written offer in 24 hours, close in 7 days. No repairs, no fees.',
-  alternates: { canonical: 'https://selltousahome.com/markets/harrisburg-pa' },
+  alternates: { canonical: 'https://www.selltousahome.com/markets/harrisburg-pa' },
   openGraph: {
     images: [{ url: '/images/harrisburg-landmark-hero.jpg', width: 1200, height: 630, alt: 'Pennsylvania State Capitol and Harrisburg row homes — Sell Your House Fast in Harrisburg PA' }],
   },

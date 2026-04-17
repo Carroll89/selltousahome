@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   title: 'Contact Us | Get a Cash Offer — Harrisburg PA',
   description:
     'Contact USA Home Buyers to get a cash offer for your Harrisburg PA house. Call, text, or submit online. Written offer in 24 hours. We buy houses as-is, any condition.',
-  alternates: { canonical: 'https://selltousahome.com/contact' },
+  alternates: { canonical: 'https://www.selltousahome.com/contact' },
 };
 
 export default function ContactPage() {

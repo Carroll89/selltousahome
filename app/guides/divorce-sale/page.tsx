@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   title: 'Selling a House During Divorce in Pennsylvania — Guide',
   description:
     'How to sell a house during divorce in Pennsylvania. Equitable distribution explained, your options, and how a cash sale eliminates delays and friction.',
-  alternates: { canonical: 'https://selltousahome.com/guides/divorce-sale' },
+  alternates: { canonical: 'https://www.selltousahome.com/guides/divorce-sale' },
 };
 
 const FAQ_ITEMS = [
