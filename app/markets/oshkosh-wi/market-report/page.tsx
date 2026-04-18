@@ -73,7 +73,7 @@ export default function OshkoshWIMarketReportPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-sm text-gray-600 italic">Note: The gap between Zillow ZHVI ($250,967) and Redfin median sale ($211,000) reflects Zillow's index incorporating the full housing stock including premium Lake Shore Victorians and Sawyer Creek newer builds, while Redfin's transaction figure is skewed toward entry-level and investor-grade sales. For cash buyer offer-range calculations, the $211,000 Redfin figure is more relevant.</p>
+          <p className="text-sm text-gray-600 italic">Note: According to Zillow (April 2026), the Oshkosh typical home value (ZHVI) is $250,967. Per Redfin (March 2026), the median closed sale price is $211,000. The gap between these figures reflects Zillow's index incorporating the full housing stock including premium Lake Shore Victorians and Sawyer Creek newer builds, while Redfin's transaction figure is skewed toward entry-level and investor-grade sales. For cash buyer offer-range calculations, the $211,000 Redfin figure is more relevant.</p>
         </section>
 
         <section className="my-8">
@@ -105,7 +105,7 @@ export default function OshkoshWIMarketReportPage() {
         <section className="my-8">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">Foreclosure Data — Winnebago County WI</h2>
           <p className="text-gray-700 mb-4">
-            Wisconsin is a judicial foreclosure state under Wis. Stat. Ch. 846. All Winnebago County WI foreclosures are filed at Winnebago County Circuit Court, 415 Jackson Street, Oshkosh WI 54901. The redemption period under Wis. Stat. § 846.101 is 6 months from judgment for owner-occupied 1-4 family homes where the lender waives deficiency. Total first-missed-payment-to-sale timeline: 12-15 months.
+            According to Wis. Stat. Ch. 846 (Wisconsin Legislature), Wisconsin is a judicial foreclosure state. All Winnebago County WI foreclosures are filed at Winnebago County Circuit Court, 415 Jackson Street, Oshkosh WI 54901. The redemption period under Wis. Stat. § 846.101 is 6 months from judgment for owner-occupied 1-4 family homes where the lender waives deficiency. Total first-missed-payment-to-sale timeline: 12–15 months.
           </p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border-collapse">

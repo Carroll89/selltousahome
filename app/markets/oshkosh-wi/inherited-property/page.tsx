@@ -109,7 +109,7 @@ export default function OshkoshInheritedPropertyPage() {
             Wisconsin's informal probate process under Wis. Stat. Ch. 856 is available when: the decedent had a valid will, or the estate can be distributed to clear intestate heirs under the Wisconsin intestacy statutes; there is no will contest; and there are no significant creditor disputes requiring court resolution. In informal probate, the Register in Probate handles the administrative steps without requiring full court hearings at each stage. A personal representative (executor) is appointed, inventory is filed, creditors are notified, and after the claims period passes, the estate assets — including the Oshkosh real property — can be distributed or sold.
           </p>
           <p className="text-gray-700 mb-4">
-            Typical informal probate timeline in Winnebago County WI: 4-8 months from opening to final distribution. The personal representative must publish a notice to creditors in a local newspaper, and creditors have a limited window to file claims (typically 3 months after publication). Once the claims period closes and creditors are addressed, the personal representative can convey the real property.
+            According to Wis. Stat. Ch. 856 (Wisconsin Legislature), the typical informal probate timeline in Winnebago County WI is 4–8 months from opening to final distribution. The personal representative must publish a notice to creditors in a local newspaper, and creditors have a limited window to file claims (typically 3 months after publication). Once the claims period closes and creditors are addressed, the personal representative can convey the real property.
           </p>
 
           <h3 className="text-xl font-semibold text-brand-dark mb-3">Formal Probate — Wis. Stat. Ch. 857-879</h3>
@@ -192,7 +192,7 @@ export default function OshkoshInheritedPropertyPage() {
             <li className="flex items-start gap-2"><span className="text-brand-primary mt-1">•</span><div><strong>Recording (after probate):</strong> Deed recorded at Winnebago County Register of Deeds, 415 Jackson Street, (920) 232-3390 — $30 flat recording fee per document</div></li>
           </ul>
           <p className="text-gray-700 mb-4">
-            After probate closes and the personal representative executes a deed, the deed must be recorded with the Winnebago County Register of Deeds (separate office from the Register in Probate). The recording fee is $30 flat per document under Wisconsin Act 314. A Wisconsin Real Estate Transfer Return (RETR form) must accompany the deed — estate transfers may qualify for a fee exemption, but the RETR form is still required.
+            After probate closes and the personal representative executes a deed, the deed must be recorded with the Winnebago County Register of Deeds (separate office from the Register in Probate). According to the Winnebago County Register of Deeds fee schedule (winnebagocountywi.gov, 2026), the recording fee is $30 flat per document under Wisconsin Act 314. A Wisconsin Real Estate Transfer Return (RETR form) must accompany the deed — estate transfers may qualify for a fee exemption, but the RETR form is still required.
           </p>
         </section>
 

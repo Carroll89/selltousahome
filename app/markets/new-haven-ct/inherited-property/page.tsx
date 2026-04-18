@@ -139,7 +139,7 @@ export default function NewHavenInheritedPropertyPage() {
 
           <h2 className="text-2xl font-bold text-brand-dark mb-4 mt-8">CT Small Estate Threshold — When It Applies (and When It Doesn't)</h2>
           <p className="text-gray-700 mb-4">
-            Connecticut allows a simplified procedure for small estates under CT Gen Stat §45a-273 — but this only applies to estates with personal property below $40,000 and <strong>no real property</strong>. If the decedent owned a house, condo, or any real estate in Connecticut, the simplified small-estate procedure is unavailable. The property must go through full Probate Court administration.
+            According to CT Gen Stat §45a-273 (Connecticut General Assembly), Connecticut allows a simplified procedure for small estates — but this only applies to estates with personal property below $40,000 and <strong>no real property</strong>. If the decedent owned a house, condo, or any real estate in Connecticut, the simplified small-estate procedure is unavailable. The property must go through full Probate Court administration.
           </p>
           <p className="text-gray-700 mb-4">
             This surprises many families who assume a relatively modest estate — say, a Fair Haven triple-decker worth $220,000 — might qualify for streamlined administration. It doesn't. Any real estate triggers full probate, regardless of total value. The New Haven Probate Court filing fees vary by estate size (published at ctprobate.gov).
@@ -166,7 +166,7 @@ export default function NewHavenInheritedPropertyPage() {
             Connecticut records land records at the city/town clerk level — not at a county recorder, because Connecticut abolished county government functions in 1960. New Haven deeds, mortgages, and estate distributions are recorded at the <strong>New Haven City Clerk</strong>, 165 Church Street, New Haven CT 06510, phone (203) 946-8347. The executor files a Certificate of Devise or Distribution (essentially a probate deed) with the City Clerk after the Probate Court has authorized the transfer. Recording fees: $53 for the first page + $5 per additional page (per CT Gen Stat § 7-34a).
           </p>
           <p className="text-gray-700 mb-4">
-            For a sale to a cash buyer, the conveyance tax (1.25% for New Haven) is paid to the City Clerk at the time the deed is recorded. The OP-236 conveyance tax return form accompanies every deed recording. USA Home Buyers covers all closing costs including this tax.
+            For a sale to a cash buyer, According to CT General Statutes Chapter 223 (cga.ct.gov), the conveyance tax (1.25% for New Haven as a Targeted Investment municipality) is paid to the City Clerk at the time the deed is recorded. The OP-236 conveyance tax return form accompanies every deed recording. USA Home Buyers covers all closing costs including this tax.
           </p>
 
           <h2 className="text-2xl font-bold text-brand-dark mb-4 mt-8">What the Cash Offer Process Looks Like on an Inherited New Haven Property</h2>

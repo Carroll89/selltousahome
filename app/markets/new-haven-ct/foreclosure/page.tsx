@@ -146,7 +146,7 @@ export default function NewHavenForeclosurePage() {
             </table>
           </div>
           <p className="text-gray-700 mb-4">
-            The 5–9 month total timeline is significantly compressed compared to other states. Wisconsin's judicial foreclosure with redemption typically runs 12–15 months. Illinois runs 12–18 months in many counties. Connecticut's strict foreclosure system is one of the fastest in the country for lenders — which means the window for sellers to act is correspondingly narrow.
+            According to Nolo.com (June 2025) and CT General Statutes §§49-1 through 49-31, the 5–9 month total timeline in New Haven County is significantly compressed compared to other states. Wisconsin's judicial foreclosure with redemption typically runs 12–15 months. Illinois runs 12–18 months in many counties. Connecticut's strict foreclosure system is one of the fastest in the country for lenders — which means the window for sellers to act is correspondingly narrow.
           </p>
 
           <h2 className="text-2xl font-bold text-brand-dark mb-4 mt-8">Connecticut's Mandatory Mediation Program</h2>

@@ -114,7 +114,7 @@ export default function OshkoshTenantOccupiedPage() {
 
           <h3 className="text-xl font-semibold text-brand-dark mb-3">Month-to-Month vs. Fixed-Term Tenancies</h3>
           <p className="text-gray-700 mb-4">
-            Month-to-month tenancies in Oshkosh can be terminated by either party with proper notice. Under Wis. Stat. § 704.19, the required notice for termination of a month-to-month residential tenancy is 28 days. This means a new owner who purchases a month-to-month Oshkosh rental can serve a 28-day notice to terminate the tenancy after closing — a straightforward process compared to a full eviction.
+            Month-to-month tenancies in Oshkosh can be terminated by either party with proper notice. According to Wis. Stat. § 704.19 (Wisconsin Legislature), the required notice for termination of a month-to-month residential tenancy is 28 days. This means a new owner who purchases a month-to-month Oshkosh rental can serve a 28-day notice to terminate the tenancy after closing — a straightforward process compared to a full eviction.
           </p>
           <p className="text-gray-700 mb-4">
             Fixed-term leases — leases with a defined end date — cannot be terminated early except for cause. A tenant with a lease running through August 2026 has the right to occupy through that date even if the property sells in April 2026. USA Home Buyers purchases fixed-term leased properties knowing we're acquiring the tenancy along with the property.
@@ -173,7 +173,7 @@ export default function OshkoshTenantOccupiedPage() {
 
           <h2 className="text-2xl font-bold text-brand-dark mb-4 mt-8">Oshkosh Rental Market Context — Why Landlords Are Selling in 2026</h2>
           <p className="text-gray-700 mb-4">
-            The Oshkosh rental market is substantial — about 45% of city households are renter-occupied, driven by UW Oshkosh's student population, Fox Valley manufacturing workforce, and the significant portion of the housing stock that's better suited to rental than owner-occupation in its current condition. This creates a large pool of rental properties in Winnebago County — and a consistent flow of landlord exits.
+            According to U.S. Census Bureau American Community Survey data (census.gov), the Oshkosh rental market is substantial — about 45% of city households are renter-occupied, driven by UW Oshkosh's student population, Fox Valley manufacturing workforce, and the significant portion of the housing stock that's better suited to rental than owner-occupation in its current condition. This creates a large pool of rental properties in Winnebago County — and a consistent flow of landlord exits.
           </p>
           <p className="text-gray-700 mb-4">
             Landlords selling in 2026 cite several common drivers: accumulated deferred maintenance on older rental properties that would require significant capital investment; rising property insurance costs, particularly on pre-war construction with aging electrical systems; the exhaustion of managing student tenants through the annual UW Oshkosh academic cycle; tax liability considerations as depreciation schedules run out on older rental properties; and estate situations where inherited rental properties don't align with the heirs' investment goals.

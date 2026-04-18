@@ -44,7 +44,7 @@ export default function NewHavenMarketReportPage() {
         <section className="my-8">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">New Haven CT Home Prices — March 2026</h2>
           <p className="text-gray-700 mb-4">
-            New Haven's home price data shows a divergence between Zillow's stock-based index and Redfin's transaction-level median. Zillow's ZHVI for the city of New Haven is $323,843 (February 2026), reflecting a +4.3% year-over-year gain. Redfin's median closed sale price for March 2026 is $365,000, down 2.7% from March 2025 — a reflection of the transaction mix skewing toward higher-end East Rock and Westville sales in that month's closings.
+            New Haven's home price data shows a divergence between Zillow's stock-based index and Redfin's transaction-level median. According to Zillow (February 2026), the city's typical home value (ZHVI) is $323,843, reflecting a +4.3% year-over-year gain. Per Redfin (March 2026), the median closed sale price is $365,000, down 2.7% from March 2025 — a reflection of the transaction mix skewing toward higher-end East Rock and Westville sales in that month's closings.
           </p>
           <p className="text-gray-700 mb-4">
             For cash buyer offer-range context, the Zillow ZHVI ($323,843) is the more representative baseline for the typical New Haven home. The Redfin median is pulled upward by premium neighborhoods. A cash offer on an average-condition New Haven home runs 70–80% of ZHVI — roughly $227,000–$259,000 for a standard property.
@@ -146,7 +146,7 @@ export default function NewHavenMarketReportPage() {
             Connecticut's strict foreclosure process — where title transfers directly to the lender on Law Day without any public auction — creates unique dynamics in New Haven's foreclosure pipeline. The absence of a competitive bidding process means there's no "second chance" at the courthouse steps. Once a Law Day passes without the mortgage being paid, the lender owns the property.
           </p>
           <p className="text-gray-700 mb-4">
-            The total timeline from first missed payment to Law Day in New Haven County runs 5–9 months — faster than Wisconsin (12–15 months) or Illinois (12–18 months). For homeowners in pre-foreclosure, the window to sell and recover equity is compressed. The mandatory mediation program for owner-occupied primary residences (CT Gen Stat § 49-31l) adds 60–90 days of structured negotiation time, but only if pursued. Cash buyers operating in the New Haven market need to move quickly — and so do sellers in that situation.
+            According to Nolo.com (June 2025), the total timeline from first missed payment to Law Day in New Haven County runs 5–9 months — faster than Wisconsin (12–15 months) or Illinois (12–18 months). For homeowners in pre-foreclosure, the window to sell and recover equity is compressed. The mandatory mediation program for owner-occupied primary residences (CT Gen Stat § 49-31l) adds 60–90 days of structured negotiation time, but only if pursued. Cash buyers operating in the New Haven market need to move quickly — and so do sellers in that situation.
           </p>
         </section>
 

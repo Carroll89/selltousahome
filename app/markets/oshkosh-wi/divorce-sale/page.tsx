@@ -117,7 +117,7 @@ export default function OshkoshDivorceSalePage() {
             Divorce petitions in Winnebago County are filed with the Winnebago County Circuit Court, Family Court Division — 415 Jackson Street, Oshkosh WI 54901. Wisconsin imposes a mandatory 120-day waiting period from service of the divorce petition before a final judgment can be entered (Wis. Stat. § 767.335). This minimum is non-waivable.
           </p>
           <p className="text-gray-700 mb-4">
-            Uncontested divorces — where both parties agree on all issues including property division — can often be finalized within 4-6 months total (120-day wait plus processing time). Contested divorces in Winnebago County, especially those involving property division disputes, guardian ad litem appointments for children, or complex asset valuation, routinely run 12-24 months. The longer the divorce proceedings, the longer both parties carry the costs of maintaining the family home — mortgage, property taxes, insurance, utilities.
+            According to Wis. Stat. § 767.335 (Wisconsin Legislature), Wisconsin imposes a mandatory waiting period before a final divorce judgment can be entered. Uncontested divorces — where both parties agree on all issues including property division — can often be finalized within 4–6 months total (120-day wait plus processing time). Contested divorces in Winnebago County, especially those involving property division disputes, guardian ad litem appointments for children, or complex asset valuation, routinely run 12-24 months. The longer the divorce proceedings, the longer both parties carry the costs of maintaining the family home — mortgage, property taxes, insurance, utilities.
           </p>
           <p className="text-gray-700 mb-4">
             A cash sale that both parties agree to, executed before or during the divorce proceedings, can eliminate the ongoing house-carrying cost dispute and give both parties proceeds to establish separate housing sooner. Many Winnebago County divorce attorneys recommend early resolution of the family home as a way to simplify the remaining divorce proceedings.
@@ -151,7 +151,7 @@ export default function OshkoshDivorceSalePage() {
 
           <h3 className="text-xl font-semibold text-brand-dark mb-3">Algoma or Fair Acres Family Home</h3>
           <p className="text-gray-700 mb-4">
-            Established Oshkosh residential neighborhoods in Algoma and Fair Acres — mid-century ranches and colonials in the $190K-$260K range — are where many Oshkosh family homes sit. These properties typically have clean title, moderate condition, and equity above the mortgage. In a divorce, the equity needs to be liquidated and divided. A cash sale at 70-80% of FMV delivers net proceeds faster than a retail listing's 61-day median DOM plus closing contingencies.
+            Established Oshkosh residential neighborhoods in Algoma and Fair Acres — mid-century ranches and colonials in the $190K-$260K range — are where many Oshkosh family homes sit. These properties typically have clean title, moderate condition, and equity above the mortgage. In a divorce, the equity needs to be liquidated and divided. Per Redfin (March 2026), Oshkosh's median days on market is 61 days. A cash sale at 70–80% of FMV delivers net proceeds faster than a retail listing's 61-day median DOM plus closing contingencies.
           </p>
 
           <h3 className="text-xl font-semibold text-brand-dark mb-3">EAA Area Rental or STR Property</h3>

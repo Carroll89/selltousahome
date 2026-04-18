@@ -163,7 +163,7 @@ export default function NewHavenProbatePage() {
 
           <h2 className="text-2xl font-bold text-brand-dark mb-4 mt-8">Recording the Estate Transfer — New Haven City Clerk</h2>
           <p className="text-gray-700 mb-4">
-            Connecticut records land at the city/town clerk level — not at a county recorder. New Haven deeds are recorded at the New Haven City Clerk, 165 Church Street, New Haven CT 06510, phone (203) 946-8347. The executor files a Certificate of Devise or Distribution after Probate Court authorization. Recording fee: $53 first page + $5 per additional page (CT Gen Stat §7-34a). The conveyance tax (1.25%) is paid at the time the buyer's deed records. USA Home Buyers covers all recording fees and conveyance tax.
+            Connecticut records land at the city/town clerk level — not at a county recorder. New Haven deeds are recorded at the New Haven City Clerk, 165 Church Street, New Haven CT 06510, phone (203) 946-8347. The executor files a Certificate of Devise or Distribution after Probate Court authorization. According to CT Gen Stat §7-34a (Connecticut General Assembly), the recording fee is $53 for the first page + $5 per additional page. The conveyance tax (1.25%) is paid at the time the buyer's deed records. USA Home Buyers covers all recording fees and conveyance tax.
           </p>
 
           <h2 className="text-2xl font-bold text-brand-dark mb-4 mt-8">CT Probate Fees — What Estates Pay</h2>

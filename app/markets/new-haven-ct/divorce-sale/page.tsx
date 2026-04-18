@@ -107,7 +107,7 @@ export default function NewHavenDivorceSalePage() {
 
           <h2 className="text-2xl font-bold text-brand-dark mb-4 mt-8">Connecticut Divorce Timeline — Home Sale Timing</h2>
           <p className="text-gray-700 mb-4">
-            Connecticut has a 90-day minimum waiting period after the divorce complaint is returned to the court before a divorce can be finalized (the "return date" process). Uncontested divorces with complete property agreements — including an agreed home sale — typically finalize in 3–5 months from filing. Contested divorces where parties disagree on property division can run 9–18 months in New Haven Superior Court.
+            According to CT General Statutes §46b-67 (Connecticut General Assembly), Connecticut has a 90-day minimum waiting period after the divorce complaint is returned to the court before a divorce can be finalized (the "return date" process). Uncontested divorces with complete property agreements — including an agreed home sale — typically finalize in 3–5 months from filing. Contested divorces where parties disagree on property division can run 9–18 months in New Haven Superior Court.
           </p>
           <p className="text-gray-700 mb-4">
             Many New Haven couples choose to sell the home during the divorce proceedings rather than waiting for finalization. This removes the home from the contested asset pool, generates cash that can be distributed or held in escrow pending the final decree, and eliminates ongoing mortgage obligations and carrying costs during what may be a 9–12 month legal process.
@@ -137,7 +137,7 @@ export default function NewHavenDivorceSalePage() {
 
           <h2 className="text-2xl font-bold text-brand-dark mb-4 mt-8">CT Conveyance Tax on a Divorce Sale</h2>
           <p className="text-gray-700 mb-4">
-            New Haven divorce sale proceeds are subject to the standard 1.25% conveyance tax (CT state 0.75% + New Haven municipal 0.50% Targeted Investment rate). On a $365,000 home: $4,563 in conveyance tax. This is the seller's obligation — in a divorce, it typically reduces the gross proceeds before the split. When you sell to USA Home Buyers, we cover all closing costs including the conveyance tax, maximizing what both parties receive at closing.
+            According to CT General Statutes Chapter 223 (cga.ct.gov), New Haven divorce sale proceeds are subject to the 1.25% conveyance tax (CT state 0.75% + New Haven municipal 0.50% Targeted Investment rate). On a $365,000 home: $4,563 in conveyance tax. This is the seller's obligation — in a divorce, it typically reduces the gross proceeds before the split. When you sell to USA Home Buyers, we cover all closing costs including the conveyance tax, maximizing what both parties receive at closing.
           </p>
 
           <h2 className="text-2xl font-bold text-brand-dark mb-4 mt-8">Connecticut Is an Attorney-Close State — What That Means for Divorce Sellers</h2>

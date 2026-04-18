@@ -112,7 +112,7 @@ export default function OshkoshProbatePage() {
             The key milestone in informal probate is the creditor notice period. The personal representative must publish notice of the estate to creditors in a local newspaper. Creditors then have a defined window — typically 3 months from publication — to file claims against the estate. Once that window closes and valid claims are addressed, the estate can distribute assets including real property.
           </p>
           <p className="text-gray-700 mb-4">
-            Timeline for informal probate in Winnebago County WI: 4-8 months from opening to final distribution, assuming no complications. An experienced personal representative with competent legal counsel can move through the process efficiently. USA Home Buyers can execute a purchase agreement during this period and schedule the closing for after the estate has authority to convey title.
+            According to Wis. Stat. Ch. 856 (Wisconsin Legislature), the timeline for informal probate in Winnebago County WI is typically 4–8 months from opening to final distribution, assuming no complications. An experienced personal representative with competent legal counsel can move through the process efficiently. USA Home Buyers can execute a purchase agreement during this period and schedule the closing for after the estate has authority to convey title.
           </p>
 
           <h3 className="text-xl font-semibold text-brand-dark mb-3">Wisconsin Formal Probate — Wis. Stat. Ch. 857-879</h3>
@@ -139,7 +139,7 @@ export default function OshkoshProbatePage() {
             After the estate closes and the personal representative executes a deed conveying the Oshkosh property to the buyer, the deed must be recorded with the Winnebago County Register of Deeds — a separate office from the Register in Probate. The Register of Deeds is located at 415 Jackson Street, Oshkosh, WI 54901, (920) 232-3390. The recording fee is $30 flat per document under Wisconsin Act 314. A certified copy of the Letters Testamentary or Decree of Final Distribution is typically recorded alongside the deed to establish chain of title.
           </p>
           <p className="text-gray-700 mb-4">
-            A Wisconsin Real Estate Transfer Return (RETR form) must accompany any deed at recording. Estate transfers may qualify for exemption from the $3.00/$1,000 state transfer fee under Wis. Stat. § 77.22, but the RETR form must still be filed — showing a zero or exempt-basis valuation.
+            A Wisconsin Real Estate Transfer Return (RETR form) must accompany any deed at recording. According to Wis. Stat. § 77.22 and the Winnebago County Register of Deeds fee schedule (winnebagocountywi.gov, 2026), estate transfers may qualify for exemption from the $3.00/$1,000 state transfer fee, but the RETR form must still be filed — showing a zero or exempt-basis valuation.
           </p>
         </section>
 
