@@ -489,7 +489,7 @@
         "url": "https://www.selltousahome.com/markets/new-haven-ct",
         "medianHomeValue": "$323,843 (Zillow ZHVI Feb 2026)",
         "medianDaysOnMarket": "65 days (Redfin Mar 2026)",
-        "transferTax": "CT state 0.75% + New Haven municipal 1.0% (0.25% base + 0.25% Targeted Investment additional) = 1.25% total on residential sales \u2264$800K, seller pays. Per CT Gen Stat Ch. 223 + Public Act 11-6 (New Haven confirmed on 18-town distressed/targeted-investment list).",
+        "transferTax": "CT state 0.75% + New Haven municipal 0.50% (0.25% base + 0.25% Targeted Investment additional) = 1.25% total on residential sales \u2264$800K, seller pays. Per CT Gen Stat Ch. 223 + Public Act 11-6 (New Haven confirmed on 18-town distressed/targeted-investment list).",
         "foreclosureProcess": "Strict foreclosure (CT Gen Stat \u00a7\u00a749-1 through 49-31) \u00b7 typical timeline 5-9 months \u00b7 Law Day title-transfer, NO auction \u00b7 mandatory owner-occupied mediation 60-90 days",
         "surroundingAreas": [
           "Hamden",
