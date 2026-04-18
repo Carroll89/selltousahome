@@ -37,7 +37,7 @@ export default function SpringfieldILMarketReportPage() {
         <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-5 mb-8">
           <p className="text-sm font-semibold text-blue-800 mb-2">TL;DR — Springfield IL Market Snapshot</p>
           <p className="text-sm text-blue-900 leading-relaxed">
-            Springfield IL is the #10 hottest market in the US (Realtor.com, March 2026, score 93.979). Redfin median sale price: $187,000 (+23% YoY, March 2026). Zillow ZHVI: $163,198 (+8.2% YoY). Median days on market: 27 days (Redfin) / 31.5 days active listing (RDC). Compete score: 78/100 (Very Competitive). Sale-to-list ratio: 98.4%. 113 homes sold in March 2026. This is the best seller's market Springfield has seen in recent memory.
+            According to Realtor.com (March 2026), Springfield IL is the #10 hottest market in the US (score 93.979). Per Redfin (March 2026), median sale price: $187,000 (+23% YoY). Per Zillow (3/31/2026), ZHVI: $163,198 (+8.2% YoY). Median days on market: 27 days (Redfin) / 31.5 days active listing (RDC). Compete score: 78/100 (Very Competitive). Sale-to-list ratio: 98.4%. 113 homes sold in March 2026. This is the best seller's market Springfield has seen in recent memory.
           </p>
         </div>
 
@@ -84,7 +84,7 @@ export default function SpringfieldILMarketReportPage() {
             Realtor.com's Market Hotness Index ranks markets on two dimensions: demand (views per property, time on market) and supply (active inventory days on market). Springfield's 93.979 score and #10 national ranking as of March 2026 reflects a genuine supply-demand imbalance: the city has a historically large older housing stock with limited new construction, a stable employment base (state government), and increasing demand from buyers priced out of larger Illinois markets.
           </p>
           <p className="text-gray-700 mb-4">
-            The 23% year-over-year appreciation in Redfin's March 2026 median sale price is the headline number — but the 24.4% jump in price per square foot tells the fuller story. Price appreciation is broad-based across the market, not concentrated in high-end properties.
+            Per Redfin (March 2026), the 23% year-over-year appreciation in the median sale price is the headline number — but the 24.4% jump in price per square foot tells the fuller story. Price appreciation is broad-based across the market, not concentrated in high-end properties.
           </p>
           <p className="text-gray-700 mb-4">
             For sellers, this means the market will support a retail listing on a well-maintained property. The question is whether the property condition, your timeline, and the cost of the retail process (agent commission, repairs, carrying costs, potential fallthrough) make retail the right choice vs. a direct cash sale.
@@ -169,7 +169,7 @@ export default function SpringfieldILMarketReportPage() {
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          As of early 2026, Springfield is one of the hottest small markets in the country — ranked #10 nationally. The median sale price hit $187,000 in March 2026, up 23% year-over-year. Homes are selling in just 27 days average. If you're thinking about selling in Springfield or anywhere in Sangamon County, this is a strong time to act. USA Home Buyers offers cash for homes in any condition. Call 888-440-5250.
+          As of early 2026, Springfield is one of the hottest small markets in the country — ranked #10 nationally. Per Redfin (March 2026), the median sale price hit $187,000, up 23% year-over-year. Homes are selling in just 27 days average. If you're thinking about selling in Springfield or anywhere in Sangamon County, this is a strong time to act. USA Home Buyers offers cash for homes in any condition. Call 888-440-5250.
         </div>
       </details>
           <CashOfferForm variant="inline" headline="Get Your Springfield IL Cash Offer" subheadline="Written offer in 24 hours. We cover all closing costs." sourcePage="/markets/springfield-il/market-report" />

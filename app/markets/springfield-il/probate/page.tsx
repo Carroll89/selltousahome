@@ -183,7 +183,7 @@ export default function SpringfieldProbatePage() {
           <ol className="space-y-3 text-gray-700 mb-4">
             <li><strong>1. Title search:</strong> The title company conducts a full search of the Sangamon County title records to confirm the estate has clear title and identify any outstanding liens, judgments, or encumbrances on the property.</li>
             <li><strong>2. Lien payoffs:</strong> Outstanding mortgage balances, property tax arrears, and any estate-related liens are paid from the sale proceeds at closing.</li>
-            <li><strong>3. Transfer tax and recording:</strong> The executor signs the deed. Transfer tax stamps are purchased (state $0.50/$500 + Sangamon County $0.25/$500). Form PTAX-203 is filed with the Sangamon County Recorder (Frank J. Lesko, 217-535-3150). Recording fee: $64 for a standard document.</li>
+            <li><strong>3. Transfer tax and recording:</strong> The executor signs the deed. Transfer tax stamps are purchased (state $0.50/$500 + Sangamon County $0.25/$500). Form PTAX-203 is filed with the Sangamon County Recorder (Frank J. Lesko, 217-535-3150). Recording fee: $64 for a standard document — Source: Sangamon County Recorder, 2026.</li>
             <li><strong>4. Distribution:</strong> Net proceeds (after payoffs and closing costs) are held by the executor as estate assets and distributed to heirs per the will or Illinois intestacy law after the creditor claims period concludes.</li>
           </ol>
           <p className="text-gray-700 mb-4">
@@ -197,7 +197,7 @@ export default function SpringfieldProbatePage() {
             Springfield's older residential neighborhoods generate a significant volume of probate properties each year. The city's state-government employment history means many long-term homeowners are older adults whose children have moved to Chicago or other cities — creating estates where remote heirs must manage a Springfield property they have no capacity to maintain or renovate.
           </p>
           <p className="text-gray-700 mb-4">
-            Enos Park and Aristocracy Hill properties are particularly common probate inventory — Victorian-era homes built between 1880 and 1920 that have been in the same family for multiple generations, often with significant deferred maintenance. NeighborhoodScout puts the Enos Park median at $118,495, which reflects both the historic character and the renovation cost burden on buyers. Harvard Park bungalows (median $92,550) are similarly common probate transactions.
+            Enos Park and Aristocracy Hill properties are particularly common probate inventory — Victorian-era homes built between 1880 and 1920 that have been in the same family for multiple generations, often with significant deferred maintenance. According to NeighborhoodScout (2026), the Enos Park median is $118,495, reflecting both the historic character and the renovation cost burden on buyers. Harvard Park bungalows (median $92,550) are similarly common probate transactions.
           </p>
           <p className="text-gray-700 mb-4">
             These properties typically don't qualify for conventional or FHA financing in their current condition. The buyer pool is almost entirely cash investors. That's exactly who we are. We buy in any condition — no cleanout required, no repairs needed, no inspections that result in repair demands. You close, we handle everything after.
