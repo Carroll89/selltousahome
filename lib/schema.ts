@@ -1153,7 +1153,7 @@ export const readingFAQSchema = {
       name: '¿Compran casas en Reading PA? / Do you buy houses in Spanish in Reading PA?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Sí, hablamos español. We are bilingual and serve Reading\'s majority-Hispanic community. Call us to discuss your property in English or Spanish — (717) 576-8192.',
+        text: 'Sí, hablamos español. We are bilingual and serve Reading\'s majority-Hispanic community. Call us to discuss your property in English or Spanish — (888) 440-5250.',
       },
     },
   ],

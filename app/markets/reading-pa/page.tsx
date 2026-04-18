@@ -72,7 +72,7 @@ const FAQ_ITEMS = [
   },
   {
     question: '¿Hablan español? / Do you have Spanish-speaking staff?',
-    answer: 'Sí, hablamos español. We serve Reading\'s majority-Hispanic community and can handle the entire process in English or Spanish — from the initial call through closing. Call us at (717) 576-8192.',
+    answer: 'Sí, hablamos español. We serve Reading\'s majority-Hispanic community and can handle the entire process in English or Spanish — from the initial call through closing. Call us at (888) 440-5250.',
   },
   {
     question: 'How much will you pay for my Reading house?',
