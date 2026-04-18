@@ -11,7 +11,7 @@ export function Footer() {
           <div>
             <h3 className="text-white font-bold text-lg mb-3">USA Home Buyers</h3>
             <p className="text-sm mb-3">
-              We buy houses for cash across 8 states — Pennsylvania, Delaware, Ohio, Massachusetts, Wisconsin, New Hampshire, Connecticut, and New York. Any condition, any situation.
+              We buy houses for cash across 9 states — Pennsylvania, Delaware, Ohio, Massachusetts, Wisconsin, New Hampshire, Connecticut, New York, and Illinois. Any condition, any situation.
             </p>
             <p className="text-sm">
               <strong className="text-white">Phone:</strong>{' '}
@@ -62,6 +62,8 @@ export function Footer() {
               <li><Link href="/sell-house-fast-connecticut" className="hover:text-white">Sell House Fast Connecticut</Link></li>
               <li><Link href="/markets/rochester-ny" className="hover:text-white">Rochester, NY</Link></li>
               <li><Link href="/sell-house-fast-new-york" className="hover:text-white">Sell House Fast New York</Link></li>
+              <li><Link href="/markets/springfield-il" className="hover:text-white">Springfield, IL</Link></li>
+              <li><Link href="/sell-house-fast-illinois" className="hover:text-white">Sell House Fast Illinois</Link></li>
             </ul>
           </div>
 
@@ -74,6 +76,7 @@ export function Footer() {
               <li><Link href="/guides/sell-house-fast-worcester-ma-2026" className="hover:text-white">Worcester MA Guide</Link></li>
               <li><Link href="/guides/sell-house-fast-rochester-ny-2026" className="hover:text-white">Rochester NY Guide</Link></li>
               <li><Link href="/guides/sell-house-fast-racine-mount-pleasant-wi-2026" className="hover:text-white">Racine-Mount Pleasant WI Guide</Link></li>
+              <li><Link href="/guides/sell-house-fast-springfield-il-2026" className="hover:text-white">Springfield IL Guide</Link></li>
               <li><Link href="/guides/inherited-property" className="hover:text-white">Inherited Property</Link></li>
               <li><Link href="/guides/foreclosure" className="hover:text-white">Foreclosure</Link></li>
               <li><Link href="/guides/behind-on-payments" className="hover:text-white">Behind on Payments</Link></li>
@@ -100,10 +103,10 @@ export function Footer() {
 
         <div className="border-t border-gray-700 pt-6 text-sm text-gray-500">
           <p className="mb-2">
-            We buy houses across Pennsylvania, Delaware, Ohio, Massachusetts, Wisconsin, New Hampshire, Connecticut, and New York — Harrisburg, Allentown, Bethlehem, Lancaster, York, Erie, Reading, Wilmington DE, Youngstown OH, Springfield MA, Worcester MA, Kenosha WI, Racine-Mount Pleasant WI, Manchester NH, Bridgeport CT, Rochester NY, and surrounding communities.
+            We buy houses across Pennsylvania, Delaware, Ohio, Massachusetts, Wisconsin, New Hampshire, Connecticut, New York, and Illinois — Harrisburg, Allentown, Bethlehem, Lancaster, York, Erie, Reading, Wilmington DE, Youngstown OH, Springfield MA, Worcester MA, Kenosha WI, Racine-Mount Pleasant WI, Manchester NH, Bridgeport CT, Rochester NY, Springfield IL, and surrounding communities.
           </p>
           <p>
-            © {currentYear} USA Home Buyers LLC. All rights reserved. | Serving homeowners in PA, DE, OH, MA, WI, NH, CT, and NY
+            © {currentYear} USA Home Buyers LLC. All rights reserved. | Serving homeowners in PA, DE, OH, MA, WI, NH, CT, NY, and IL
           </p>
         </div>
       </div>

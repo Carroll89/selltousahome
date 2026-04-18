@@ -54,6 +54,10 @@ const marketsByState: { state: string; cities: { href: string; label: string }[]
     state: 'New York',
     cities: [{ href: '/markets/rochester-ny', label: 'Rochester' }],
   },
+  {
+    state: 'Illinois',
+    cities: [{ href: '/markets/springfield-il', label: 'Springfield' }],
+  },
 ];
 
 export function Header() {

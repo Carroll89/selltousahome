@@ -434,6 +434,30 @@
           "Waterford",
           "Rochester WI"
         ]
+      },
+      {
+        "city": "Springfield",
+        "state": "IL",
+        "county": "Sangamon County",
+        "url": "https://www.selltousahome.com/markets/springfield-il",
+        "medianHomeValue": "$163,198 (Zillow ZHVI Mar 2026, +8.2% YoY)",
+        "medianDaysOnMarket": "31.5 days (Realtor.com Mar 2026)",
+        "transferTax": "IL state + Sangamon County \u2014 $0.50/$500 state ($1.00/$1,000, 0.10%) + $0.25/$500 county ($0.50/$1,000, 0.05%) = $0.75/$500 total ($1.50/$1,000, 0.15%), seller pays. Per Sangamon County Recorder fee schedule; no City of Springfield municipal transfer tax (verified against City of Springfield tax rates document).",
+        "foreclosureProcess": "Judicial \u00b7 typical timeline 12-18 months \u00b7 735 ILCS 5/15-1101 et seq. \u00b7 3-month reinstatement (\u00a715-1602) + 7-month redemption (\u00a715-1603)",
+        "surroundingAreas": [
+          "Chatham",
+          "Rochester IL",
+          "Sherman",
+          "Riverton",
+          "Leland Grove",
+          "Jerome",
+          "Auburn",
+          "Pawnee",
+          "New Berlin",
+          "Pleasant Plains",
+          "Mechanicsburg",
+          "Petersburg"
+        ]
       }
     ],
     "regionalCoverage": "Central Pennsylvania, Lehigh Valley, Greater Philadelphia, Berks County, Centre County, Erie County, New Castle County DE, Mahoning County OH, Hampden County MA, Worcester County MA, Kenosha County WI, Racine County WI, Hillsborough County NH, Fairfield County CT, and Monroe County NY",
@@ -444,7 +468,8 @@
     "wisconsinCoverage": "Kenosha County (Kenosha, Pleasant Prairie, Somers, Bristol, Twin Lakes, Silver Lake) and Racine County (Racine, Mount Pleasant, Caledonia, Sturtevant, Union Grove, Burlington, Wind Point, Waterford)",
     "newHampshireCoverage": "Hillsborough County (Manchester, Nashua metro) \u2014 non-judicial foreclosure state, NH RETT $1.50/$100 split",
     "connecticutCoverage": "Fairfield County (Bridgeport, Stamford, Danbury) \u2014 strict foreclosure state (no auction), CT conveyance tax 1%",
-    "newYorkCoverage": "Monroe County (Rochester) \u2014 judicial foreclosure state, NYS RPTT $4/$1,000"
+    "newYorkCoverage": "Monroe County (Rochester) \u2014 judicial foreclosure state, NYS RPTT $4/$1,000",
+    "illinoisCoverage": "Sangamon County (Springfield, Chatham, Rochester, Sherman, Riverton, Leland Grove, Jerome, Auburn, Pawnee, New Berlin, Pleasant Plains, Mechanicsburg, Petersburg) \u2014 judicial foreclosure state, IL state + Sangamon County transfer tax $0.75/$500 total (0.15%)"
   },
   "customerService": {
     "phone": "888-440-5250",
@@ -540,7 +565,7 @@
   "mediaCoverage": {
     "pressPage": "https://www.selltousahome.com/press"
   },
-  "lastUpdated": "2026-04-17",
+  "lastUpdated": "2026-04-18",
   "content": {
     "blogPosts": 7,
     "blogTopics": [
