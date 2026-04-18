@@ -56,7 +56,10 @@ const marketsByState: { state: string; cities: { href: string; label: string }[]
   },
   {
     state: 'Illinois',
-    cities: [{ href: '/markets/springfield-il', label: 'Springfield' }],
+    cities: [
+      { href: '/markets/springfield-il', label: 'Springfield' },
+      { href: '/markets/rockford-il', label: 'Rockford' },
+    ],
   },
 ];
 

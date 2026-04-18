@@ -433,6 +433,30 @@ const CITY_CONFIGS: Record<string, CityConfig> = {
       { '@type': 'County', name: 'Racine County' },
     ],
   },
+  rockfordIL: {
+    city: 'Rockford',
+    region: 'IL',
+    postalCode: '61101',
+    lat: 42.2594,
+    lng: -89.0644,
+    description:
+      'Cash home buyers serving Rockford IL and Winnebago County. We buy houses as-is in any condition — no repairs, no agent fees, close in 7-14 days.',
+    areaServed: [
+      { '@type': 'City', name: 'Rockford', sameAs: 'https://en.wikipedia.org/wiki/Rockford,_Illinois' },
+      { '@type': 'City', name: 'Loves Park' },
+      { '@type': 'City', name: 'Machesney Park' },
+      { '@type': 'City', name: 'Rockton' },
+      { '@type': 'City', name: 'Roscoe' },
+      { '@type': 'City', name: 'Belvidere' },
+      { '@type': 'City', name: 'Winnebago' },
+      { '@type': 'City', name: 'New Milford' },
+      { '@type': 'City', name: 'Cherry Valley' },
+      { '@type': 'City', name: 'Byron' },
+      { '@type': 'City', name: 'Davis Junction' },
+      { '@type': 'City', name: 'Kirkland' },
+      { '@type': 'County', name: 'Winnebago County' },
+    ],
+  },
   springfieldIL: {
     city: 'Springfield',
     region: 'IL',
@@ -481,7 +505,7 @@ const CITY_CONFIGS: Record<string, CityConfig> = {
   },
 };
 
-export function localBusinessSchemaFor(cityKey: 'harrisburg' | 'allentown' | 'bethlehem' | 'kingOfPrussia' | 'reading' | 'stateCollege' | 'erie' | 'lancaster' | 'york' | 'wilmington' | 'youngstown' | 'springfield' | 'kenosha' | 'manchester' | 'bridgeport' | 'worcester' | 'rochester' | 'racineMountPleasant' | 'springfieldIL') {
+export function localBusinessSchemaFor(cityKey: 'harrisburg' | 'allentown' | 'bethlehem' | 'kingOfPrussia' | 'reading' | 'stateCollege' | 'erie' | 'lancaster' | 'york' | 'wilmington' | 'youngstown' | 'springfield' | 'kenosha' | 'manchester' | 'bridgeport' | 'worcester' | 'rochester' | 'racineMountPleasant' | 'springfieldIL' | 'rockfordIL') {
   const cfg = CITY_CONFIGS[cityKey];
   return {
     '@context': 'https://schema.org',
@@ -561,6 +585,9 @@ export const racineWILocalBusinessSchema = localBusinessSchemaFor('racineMountPl
 
 /** Pre-built Springfield IL LocalBusiness schema */
 export const springfieldILLocalBusinessSchema = localBusinessSchemaFor('springfieldIL');
+
+/** Pre-built Rockford IL LocalBusiness schema */
+export const rockfordILLocalBusinessSchema = localBusinessSchemaFor('rockfordIL');
 
 export const youngstownFAQSchema = {
   '@context': 'https://schema.org',
