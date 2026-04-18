@@ -20,11 +20,11 @@ export const metadata: Metadata = {
 const FAQ_ITEMS = [
   {
     question: "Is Wilmington DE a buyer's or seller's market in 2026?",
-    answer: "Wilmington DE is a somewhat competitive market. According to Redfin (March 2026), Wilmington has a Compete Score of 61/100. Homes are selling at 98.7% of list price with a median of 72 days on market. That 72-day DOM is significantly longer than most PA markets — reflecting a buyer pool that negotiates carefully on aging urban housing stock.",
+    answer: "Wilmington DE is a somewhat competitive market. According to Redfin (March 2026), Wilmington has a Compete Score of 59/100. Homes are selling at 98.7% of list price with a median of 61 days on market. That 61-day DOM is significantly longer than most PA markets — reflecting a buyer pool that negotiates carefully on aging urban housing stock.",
   },
   {
     question: 'What is the average home price in Wilmington DE?',
-    answer: "Wilmington's median sale price is $215,000 (Redfin, March 2026), down 4.4% year-over-year. The Zillow ZHVI for the broader area is $326,763 (+3.0% YoY). The price discrepancy reflects Redfin's city-limits transaction data versus Zillow's broader geographic index that includes surrounding suburbs at higher price points.",
+    answer: "Wilmington's median sale price is $251,200 (Redfin, March 2026), up 12.1% year-over-year. The Zillow ZHVI for the broader area is $326,763 (+3.0% YoY). The price discrepancy reflects Redfin's city-limits transaction data versus Zillow's broader geographic index that includes surrounding suburbs at higher price points.",
   },
   {
     question: 'What neighborhoods in Wilmington are most affordable?',
@@ -41,7 +41,7 @@ export default function WilmingtonMarketReportPage() {
     <>
       <SchemaMarkup schema={[
         wilmingtonLocalBusinessSchema,
-        articleSchema('Wilmington DE Housing Market Report 2026 — New Castle County', pageUrl, '2026-04-13', '2026-04-16'),
+        articleSchema('Wilmington DE Housing Market Report 2026 — New Castle County', pageUrl, '2026-04-13', '2026-04-18'),
         faqSchema(FAQ_ITEMS),
       ]} />
 
@@ -50,7 +50,7 @@ export default function WilmingtonMarketReportPage() {
         {/* TL;DR — GEO/AEO Quick Answer */}
         <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-10">
           <h2 className="text-lg font-bold text-brand-dark mb-2">Quick Answer: Wilmington DE Housing Market 2026</h2>
-          <p className="text-gray-700 text-sm leading-relaxed">According to Redfin (March 2026), Wilmington's median home sale price is $215,000 (-4.4% year-over-year), with a median 72 days on market and a Redfin Compete Score of 61/100 ('Somewhat Competitive'). The Zillow Home Value Index shows $326,763 (+3.0% year-over-year) — the gap between Redfin's sale price and Zillow's ZHVI reflects Wilmington's mix of city-limit and suburban New Castle County properties. Delaware's total transfer tax is 4% (2.5% state + 1.5% city of Wilmington). Cash buyers cover all closing costs and close in 7–14 days as-is.</p>
+          <p className="text-gray-700 text-sm leading-relaxed">According to Redfin (March 2026), Wilmington's median home sale price is $251,200 (+12.1% year-over-year), with a median 61 days on market and a Redfin Compete Score of 59/100 ('Somewhat Competitive'). The Zillow Home Value Index shows $326,763 (+3.0% year-over-year) — the gap between Redfin's sale price and Zillow's ZHVI reflects Wilmington's mix of city-limit and suburban New Castle County properties. Delaware's total transfer tax is 4% (2.5% state + 1.5% city of Wilmington). Cash buyers cover all closing costs and close in 7–14 days as-is.</p>
         </div>
 
         <nav className="text-sm text-gray-500 mb-6">
@@ -70,15 +70,15 @@ export default function WilmingtonMarketReportPage() {
             <table className="w-full text-sm border-collapse">
               <tbody>
                 {[
-                  ['Median sale price — Wilmington City', '$215,000', 'Redfin, Mar 2026'],
-                  ['YoY change — sale price', '-4.4%', 'Redfin, Mar 2026'],
+                  ['Median sale price — Wilmington City', '$251,200', 'Redfin, Mar 2026'],
+                  ['YoY change — sale price', '+12.1%', 'Redfin, Mar 2026'],
                   ['Median home value (Zillow ZHVI)', '$326,763', 'Zillow, Feb 2026'],
                   ['YoY change — ZHVI', '+3.0%', 'Zillow, Feb 2026'],
-                  ['Price per square foot', '$165/sqft', 'Redfin, Mar 2026'],
-                  ['YoY change — price/sqft', 'See Mar 2026 Redfin', 'Redfin, Mar 2026'],
-                  ['Median days on market', '72 days', 'Redfin, Mar 2026'],
+                  ['Price per square foot', '$169/sqft', 'Redfin, Mar 2026'],
+                  ['YoY change — price/sqft', '+5.6%', 'Redfin, Mar 2026'],
+                  ['Median days on market', '61 days', 'Redfin, Mar 2026'],
                   ['Sale-to-list ratio', '98.7%', 'Redfin, Mar 2026'],
-                  ['Redfin Compete Score', '61/100 — Somewhat Competitive', 'Redfin, Mar 2026'],
+                  ['Redfin Compete Score', '59/100 — Somewhat Competitive', 'Redfin, Mar 2026'],
                   ['Homes sold monthly', '53', 'Redfin, Feb 2026'],
                   ['Transfer tax — Wilmington', '4.0% total', 'DE Division of Revenue'],
                   ['Cash offer range', '65-75% of ARV', 'Market estimate, April 2026'],
@@ -149,8 +149,8 @@ export default function WilmingtonMarketReportPage() {
             <li><strong>Total: 4.0%</strong> — split 50/50 by convention (buyer and seller each pay 2%)</li>
           </ul>
           <p className="text-gray-700 mb-4">
-            On the Wilmington median sale price of $215,000, the total transfer tax is $8,600 — the seller's
-            conventional share is $4,300. When you sell to USA Home Buyers, we cover all closing costs including
+            On the Wilmington median sale price of $251,200, the total transfer tax is $10,048 — the seller's
+            conventional share is $5,024. When you sell to USA Home Buyers, we cover all closing costs including
             the full transfer tax.
           </p>
           <p className="text-sm text-gray-500">
