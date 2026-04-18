@@ -528,9 +528,33 @@ const CITY_CONFIGS: Record<string, CityConfig> = {
       { '@type': 'County', name: 'New Haven County' },
     ],
   },
+  oshkosh: {
+    city: 'Oshkosh',
+    region: 'WI',
+    postalCode: '54901',
+    lat: 44.0247,
+    lng: -88.5426,
+    description:
+      'Cash home buyers serving Oshkosh WI and Winnebago County. We buy houses as-is in any condition — no repairs, no agent fees, close in 7-14 days.',
+    areaServed: [
+      { '@type': 'City', name: 'Oshkosh', sameAs: 'https://en.wikipedia.org/wiki/Oshkosh,_Wisconsin' },
+      { '@type': 'City', name: 'Neenah' },
+      { '@type': 'City', name: 'Menasha' },
+      { '@type': 'City', name: 'Appleton' },
+      { '@type': 'City', name: 'Omro' },
+      { '@type': 'City', name: 'Winneconne' },
+      { '@type': 'City', name: 'Black Wolf' },
+      { '@type': 'City', name: 'Algoma' },
+      { '@type': 'City', name: 'Larsen' },
+      { '@type': 'City', name: 'Pickett' },
+      { '@type': 'City', name: 'Eureka' },
+      { '@type': 'City', name: 'Van Dyne' },
+      { '@type': 'County', name: 'Winnebago County' },
+    ],
+  },
 };
 
-export function localBusinessSchemaFor(cityKey: 'harrisburg' | 'allentown' | 'bethlehem' | 'kingOfPrussia' | 'reading' | 'stateCollege' | 'erie' | 'lancaster' | 'york' | 'wilmington' | 'youngstown' | 'springfield' | 'kenosha' | 'manchester' | 'bridgeport' | 'worcester' | 'rochester' | 'racineMountPleasant' | 'springfieldIL' | 'rockfordIL' | 'newHaven') {
+export function localBusinessSchemaFor(cityKey: 'harrisburg' | 'allentown' | 'bethlehem' | 'kingOfPrussia' | 'reading' | 'stateCollege' | 'erie' | 'lancaster' | 'york' | 'wilmington' | 'youngstown' | 'springfield' | 'kenosha' | 'manchester' | 'bridgeport' | 'worcester' | 'rochester' | 'racineMountPleasant' | 'springfieldIL' | 'rockfordIL' | 'newHaven' | 'oshkosh') {
   const cfg = CITY_CONFIGS[cityKey];
   return {
     '@context': 'https://schema.org',
@@ -616,6 +640,10 @@ export const rockfordILLocalBusinessSchema = localBusinessSchemaFor('rockfordIL'
 
 /** Pre-built New Haven CT LocalBusiness schema */
 export const newHavenLocalBusinessSchema = localBusinessSchemaFor('newHaven');
+
+/** Pre-built Oshkosh WI LocalBusiness schema */
+export const oshkoshLocalBusinessSchema = localBusinessSchemaFor('oshkosh');
+export const oshkoshWILocalBusinessSchema = localBusinessSchemaFor('oshkosh');
 
 export const youngstownFAQSchema = {
   '@context': 'https://schema.org',

@@ -11,7 +11,7 @@ export const revalidate = 86400;
 export const metadata: Metadata = {
   title: 'Sell My House Fast Wisconsin',
   description:
-    'We buy houses for cash across Wisconsin — Racine-Mount Pleasant and Kenosha counties. Written offer in 24 hours, close in 7 days. Any condition, no repairs.',
+    'We buy houses for cash across Wisconsin — Kenosha, Racine-Mount Pleasant, and Oshkosh (Winnebago County). Written offer in 24 hours, close in 7 days. Any condition, no repairs.',
   alternates: { canonical: `${SITE_URL}/sell-house-fast-wisconsin` },
 };
 
@@ -37,13 +37,13 @@ export default function SellHouseFastWisconsinPage() {
         <div className="bg-blue-50 border border-blue-100 rounded-xl p-5 mb-8">
           <p className="text-sm font-semibold text-blue-800 mb-2">TL;DR</p>
           <p className="text-sm text-blue-900 leading-relaxed">
-            USA Home Buyers purchases houses for cash across Wisconsin — currently serving Racine-Mount Pleasant and Kenosha. Written offer in 24 hours, close in 7–14 days, any condition, no repairs, no fees. Wisconsin realty transfer fee ($3 per $1,000, state-only, seller pays) covered by us on every deal. Call 888-440-5250.
+            USA Home Buyers purchases houses for cash across Wisconsin — currently serving Kenosha, Racine-Mount Pleasant, and Oshkosh (Winnebago County). Written offer in 24 hours, close in 7–14 days, any condition, no repairs, no fees. Wisconsin realty transfer fee ($3 per $1,000, state-only, seller pays) covered by us on every deal. Call 888-440-5250.
           </p>
         </div>
 
         <section className="mb-10">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">Wisconsin Markets We Serve</h2>
-          <div className="grid sm:grid-cols-2 gap-4">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
             <Link href="/markets/racine-mount-pleasant-wi" className="bg-white border border-gray-200 rounded-xl p-5 hover:border-brand-primary transition-colors group">
               <h3 className="font-bold text-brand-dark group-hover:text-brand-primary mb-1">Racine &amp; Mount Pleasant, WI</h3>
               <p className="text-sm text-gray-600">Racine County · Zillow ZHVI $171,496 (Racine city) / RDC metro $347,720 · 35 days avg DOM · Microsoft data center tailwind in Mount Pleasant</p>
@@ -53,6 +53,11 @@ export default function SellHouseFastWisconsinPage() {
               <h3 className="font-bold text-brand-dark group-hover:text-brand-primary mb-1">Kenosha, WI</h3>
               <p className="text-sm text-gray-600">Kenosha County · Zillow ZHVI $268,793 · 36 days avg DOM · Chicago-Milwaukee corridor growth</p>
               <p className="text-xs text-brand-primary mt-2">See Kenosha market →</p>
+            </Link>
+            <Link href="/markets/oshkosh-wi" className="bg-white border border-gray-200 rounded-xl p-5 hover:border-brand-primary transition-colors group">
+              <h3 className="font-bold text-brand-dark group-hover:text-brand-primary mb-1">Oshkosh, WI</h3>
+              <p className="text-sm text-gray-600">Winnebago County · Zillow ZHVI $250,967 · RDC hotness rank #13 (score 92.809) · 36 days avg DOM · EAA AirVenture city, UW Oshkosh anchor</p>
+              <p className="text-xs text-brand-primary mt-2">See Oshkosh market →</p>
             </Link>
           </div>
         </section>
@@ -92,7 +97,7 @@ export default function SellHouseFastWisconsinPage() {
         <section className="mb-10">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">Section 3: Wisconsin Foreclosure Process</h2>
           <p className="text-gray-700 mb-4">
-            Wisconsin is a <strong>judicial foreclosure state</strong>. Every foreclosure must be filed in the Circuit Court of the county where the property sits (Wis. Stat. Ch. 846). For Racine County properties, that's Racine County Circuit Court, 730 Wisconsin Avenue, Racine WI 53403, (262) 636-3333. For Kenosha County, it's Kenosha County Circuit Court, 912 56th Street, Kenosha WI 53140.
+            Wisconsin is a <strong>judicial foreclosure state</strong>. Every foreclosure must be filed in the Circuit Court of the county where the property sits (Wis. Stat. Ch. 846). For Racine County properties, that's Racine County Circuit Court, 730 Wisconsin Avenue, Racine WI 53403, (262) 636-3333. For Kenosha County, it's Kenosha County Circuit Court, 912 56th Street, Kenosha WI 53140. For Winnebago County (Oshkosh) properties, it's Winnebago County Circuit Court, 415 Jackson St, Oshkosh WI 54901, (920) 236-4848.
           </p>
           <p className="text-gray-700 mb-4">
             Typical timeline from first filing to confirmation of sheriff's sale: <strong>10–14 months</strong>. After the judgment of foreclosure is entered, a statutory redemption period begins. Under Wis. Stat. § 846.101, 1–4 family owner-occupied homes have a <strong>6-month redemption period when the lender waives the right to a deficiency judgment</strong> (the common path). If the lender preserves the deficiency right, the redemption is 12 months. Commercial and multifamily foreclosures are governed by § 846.103 with different timelines.
@@ -122,6 +127,7 @@ export default function SellHouseFastWisconsinPage() {
           <ul className="list-disc list-inside space-y-1 text-gray-700 text-sm mb-4">
             <li><strong>Racine County Circuit Court — Probate Division</strong>, 730 Wisconsin Avenue, 6th Floor, Racine WI 53403. Main: (262) 636-3333 · Register in Probate: (262) 636-3868</li>
             <li><strong>Kenosha County Circuit Court — Probate Division</strong>, 912 56th Street, Kenosha WI 53140. Phone: (262) 653-2678</li>
+            <li><strong>Winnebago County Circuit Court — Register in Probate</strong> (Oshkosh), 415 Jackson St, Room 242, Oshkosh WI 54901. Phone: (920) 236-4808</li>
           </ul>
           <p className="text-gray-700 mb-4">
             Source: <a href="https://docs.legis.wisconsin.gov/statutes/statutes/851" className="text-brand-primary hover:underline" target="_blank" rel="noopener">Wis. Stat. Ch. 851–882 (docs.legis.wisconsin.gov)</a>; <a href="https://wilawlibrary.gov/topics/wills/probate.php" className="text-brand-primary hover:underline" target="_blank" rel="noopener">Wisconsin State Law Library probate guide</a>.
@@ -131,7 +137,7 @@ export default function SellHouseFastWisconsinPage() {
         <section className="mb-10">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">Section 5: Wisconsin Market Snapshot</h2>
           <p className="text-gray-700 mb-4">
-            USA Home Buyers serves two Wisconsin counties in the Racine-Kenosha corridor south of Milwaukee. Both counties sit on Lake Michigan and have benefited from Chicago-metro buyers priced out of Illinois over the last three years.
+            USA Home Buyers serves three Wisconsin counties across two distinct regions. Kenosha and Racine counties anchor our southeast WI footprint in the Chicago-Milwaukee corridor on Lake Michigan. Winnebago County (Oshkosh) anchors our Fox Valley presence in central-northeast Wisconsin — a nationally hot market at RDC rank #13.
           </p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border-collapse">
@@ -139,7 +145,7 @@ export default function SellHouseFastWisconsinPage() {
                 <tr className="bg-brand-primary text-white">
                   <th className="text-left p-3">Market</th>
                   <th className="text-left p-3">County</th>
-                  <th className="text-left p-3">Zillow ZHVI (Feb 2026)</th>
+                  <th className="text-left p-3">Zillow ZHVI</th>
                   <th className="text-left p-3">Avg DOM</th>
                   <th className="text-left p-3">Distinctive</th>
                 </tr>
@@ -159,10 +165,17 @@ export default function SellHouseFastWisconsinPage() {
                   <td className="p-3">~36 days</td>
                   <td className="p-3 text-xs">Post-war bungalows, Chicago-commute growth, lakefront</td>
                 </tr>
+                <tr className="bg-white">
+                  <td className="p-3"><Link href="/markets/oshkosh-wi" className="text-brand-primary hover:underline">Oshkosh</Link></td>
+                  <td className="p-3">Winnebago County</td>
+                  <td className="p-3">$250,967 (Apr 2026)</td>
+                  <td className="p-3">36.0 days</td>
+                  <td className="p-3 text-xs">RDC hotness rank #13; EAA AirVenture city; UW Oshkosh anchor; Lake Winnebago waterfront premium</td>
+                </tr>
               </tbody>
             </table>
           </div>
-          <p className="mt-3 text-xs text-gray-500">Data: Zillow ZHVI (Feb 2026) and Redfin market statistics (Mar 2026). Racine-Mount Pleasant metro median $347,720 per Realtor.com Market Hotness Index (April 2026, rank #8).</p>
+          <p className="mt-3 text-xs text-gray-500">Data: Zillow ZHVI (Feb 2026 for Racine/Kenosha; Apr 2026 for Oshkosh) and Redfin/Realtor.com market statistics (Mar–Apr 2026). Racine-Mount Pleasant metro median $347,720 per Realtor.com Market Hotness Index (April 2026, rank #8). Oshkosh hotness rank #13 (score 92.809, RDC March 2026).</p>
         </section>
 
         <CashOfferForm variant="inline" headline="Get a Cash Offer for Your Wisconsin Home" subheadline="Written offer in 24 hours. We cover all closing costs." sourcePage="/sell-house-fast-wisconsin" />
