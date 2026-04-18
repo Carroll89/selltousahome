@@ -129,7 +129,7 @@ export default function RockfordFireDamagePage() {
 
           <h3 className="text-xl font-semibold text-brand-dark mb-3">Unfair Claims Settlement — 215 ILCS 5/154.5</h3>
           <p className="text-gray-700 mb-4">
-            Illinois law under 215 ILCS 5/154.5 prohibits insurers from engaging in unfair claims settlement practices, including: (1) failure to acknowledge and act promptly on claims; (2) failure to conduct reasonable investigation; (3) failure to affirm or deny coverage within a reasonable time; (4) not attempting to make a fair settlement when liability is reasonably clear; and (5) compelling policyholders to litigate valid claims by offering substantially less than due. If your insurer is engaging in any of these practices on your Rockford fire damage claim, you have the right to file a complaint with the Illinois Department of Insurance.
+            According to the Illinois Insurance Code (215 ILCS 5/154.5, 2026), Illinois law prohibits insurers from engaging in unfair claims settlement practices, including: (1) failure to acknowledge and act promptly on claims; (2) failure to conduct reasonable investigation; (3) failure to affirm or deny coverage within a reasonable time; (4) not attempting to make a fair settlement when liability is reasonably clear; and (5) compelling policyholders to litigate valid claims by offering substantially less than due. If your insurer is engaging in any of these practices on your Rockford fire damage claim, you have the right to file a complaint with the Illinois Department of Insurance.
           </p>
 
           <h3 className="text-xl font-semibold text-brand-dark mb-3">Illinois Department of Insurance — Consumer Resources</h3>
@@ -171,7 +171,7 @@ export default function RockfordFireDamagePage() {
             For properties in the Haight Village Historic District or other historic-district-designated areas of Rockford, additional historic preservation review may be required before rebuilding — the City of Rockford has preservation standards that apply to contributing structures in designated districts. Balloon-frame homes that were built in the late 19th century may have architectural features that must be preserved or replicated in any reconstruction.
           </p>
           <p className="text-gray-700 mb-4">
-            Permit timelines in Rockford typically run 4-8 weeks for residential projects, and contractor availability for fire restoration work adds additional time. For homeowners who want to exit the property rather than manage a 12-18 month rebuild, selling to USA Home Buyers is typically the faster and lower-stress path.
+            According to City of Rockford (2026), permit timelines typically run 4-8 weeks for residential projects, and contractor availability for fire restoration work adds additional time. For homeowners who want to exit the property rather than manage a 12-18 month rebuild, selling to USA Home Buyers is typically the faster and lower-stress path.
           </p>
           <p className="text-gray-700 mb-4">
             For City of Rockford permit information, contact the Community Development Department at rockfordil.gov or by phone. The U.S. Fire Administration (usfa.fema.gov) maintains resources on fire-damaged structure assessment and rebuilding considerations that are applicable to residential properties in Illinois.

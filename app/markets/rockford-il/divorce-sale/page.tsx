@@ -167,10 +167,10 @@ export default function RockfordDivorceSalePage() {
         <section className="my-8">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">Transfer Tax, Closing Costs, and Net Proceeds in a Rockford Divorce Sale</h2>
           <p className="text-gray-700 mb-4">
-            Sellers in a Rockford divorce transaction pay the same transfer taxes as any other sale: Illinois state $0.50/$500 + Winnebago County $0.25/$500 = $0.75/$500 combined (0.15% of sale price). No municipal RETT in Rockford. On a $170,000 sale, that's $255 in transfer taxes total. When you sell to USA Home Buyers, we cover all closing costs — transfer taxes, recording fees ($54 standard document at Winnebago County Recorder), title, and settlement. The net proceeds the estate receives are the agreed price with no deductions.
+            Sellers in a Rockford divorce transaction pay the same transfer taxes as any other sale: Illinois state $0.50/$500 + Winnebago County $0.25/$500 = $0.75/$500 combined (0.15% of sale price). No municipal RETT in Rockford. On a $170,000 sale, that's $255 in transfer taxes total. Source: 35 ILCS 200/31-10 and 55 ILCS 5/5-1031, 2026. When you sell to USA Home Buyers, we cover all closing costs — transfer taxes, recording fees ($54 standard document at Winnebago County Recorder), title, and settlement. The net proceeds the estate receives are the agreed price with no deductions.
           </p>
           <p className="text-gray-700 mb-4">
-            In contrast, a retail listing at the Redfin median of $170,000 generates $8,500-$10,200 in agent commissions (5-6%), plus closing costs, potential repair credits after inspection, and carrying costs during the listing period. On a $170,000 home, a 5.5% commission alone is $9,350. That's $9,350 the parties don't split — it comes off the top before either spouse sees a dollar. For Rockford homes at the lower end of the price range, commissions represent a significant percentage of total equity.
+            In contrast, Per Redfin (March 2026), a retail listing at the median of $170,000 generates $8,500-$10,200 in agent commissions (5-6%), plus closing costs, potential repair credits after inspection, and carrying costs during the listing period. On a $170,000 home, a 5.5% commission alone is $9,350. That's $9,350 the parties don't split — it comes off the top before either spouse sees a dollar. For Rockford homes at the lower end of the price range, commissions represent a significant percentage of total equity.
           </p>
         </section>
 

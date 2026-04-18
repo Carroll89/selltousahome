@@ -102,7 +102,7 @@ export default function RockfordForeclosurePage() {
         <section className="my-8">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">Winnebago County Foreclosure Timeline — The Real Numbers</h2>
           <p className="text-gray-700 mb-4">
-            Many Rockford homeowners in pre-foreclosure assume they're on Chicago's timeline. They're not. Cook County's extreme docket backlog produces 24-36 month foreclosure timelines. Winnebago County, served by the 17th Judicial Circuit at 400 West State Street, Rockford IL 61101, operates on a 14-20 month timeline — meaningfully different. Understanding exactly where you are in that timeline is critical to making the right decision.
+            Many Rockford homeowners in pre-foreclosure assume they're on Chicago's timeline. They're not. Cook County's extreme docket backlog produces 24-36 month foreclosure timelines. According to Vantage Group Legal (2026), Winnebago County's 17th Judicial Circuit (400 West State Street, Rockford IL 61101) operates on a 14-20 month foreclosure timeline — meaningfully different. Understanding exactly where you are in that timeline is critical to making the right decision.
           </p>
           <div className="overflow-x-auto mb-6">
             <table className="w-full text-sm border-collapse">
@@ -149,7 +149,7 @@ export default function RockfordForeclosurePage() {
             </table>
           </div>
           <p className="text-gray-700 mb-4">
-            For Rockford homeowners, the practical implication is this: you have more time than Chicago sellers in the same situation, but you're not on Chicago's extended timeline. The 14-20 month window is real, and the stages within it — particularly the reinstatement deadline and redemption expiration — create hard cutoffs that don't wait on your decision-making timeline.
+            For Rockford homeowners, the practical implication is this: you have more time than Chicago sellers in the same situation, but you're not on Chicago's extended timeline. According to Steven Grace Law (2024), the 14-20 month window is real, and the stages within it — particularly the reinstatement deadline and redemption expiration — create hard cutoffs that don't wait on your decision-making timeline.
           </p>
         </section>
 

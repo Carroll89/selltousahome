@@ -36,7 +36,7 @@ export default function RockfordILMarketReportPage() {
           <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
             <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
             <p className="text-white text-sm leading-relaxed">
-              Rockford IL Zillow ZHVI: $142,859 (+4.8% YoY, Feb 2026). Redfin median sale price: $170,000 (+17.2% YoY). Compete score 89/100. Median sold DOM: 14 days. RDC hotness rank #11. Transfer tax: $0.75/$500, no municipal RETT. Winnebago County foreclosure timeline 14-20 months. Cash offers 70-78% of FMV. USA Home Buyers: 888-440-5250.
+              According to Zillow (Feb 28, 2026), Rockford ZHVI: $142,859 (+4.8% YoY). Per Redfin (March 2026), median sale price: $170,000 (+17.2% YoY). Compete score 89/100. Median sold DOM: 14 days. RDC hotness rank #11. Transfer tax: $0.75/$500, no municipal RETT. Winnebago County foreclosure timeline 14-20 months. Cash offers 70-78% of FMV. USA Home Buyers: 888-440-5250.
             </p>
           </div>
         </div>
@@ -149,7 +149,7 @@ export default function RockfordILMarketReportPage() {
         <section className="my-8">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">Winnebago County Recorder & Closing Costs</h2>
           <p className="text-gray-700 mb-4">
-            The Winnebago County Clerk &amp; Recorder is Lori Gummow, located at 404 Elm Street, Room 104, Rockford IL 61101, phone (815) 319-4250. Website: wincoil.gov/departments/recorders-office. Recording fees (effective January 1, 2025, per Public Act 103-0884): standard documents (8.5×11", meets formatting requirements) = $54.00; non-standard documents = $66.00. Illinois MyDec (Real Estate Transfer Declaration) must be filed at closing via mytax.illinois.gov — no separate fee.
+            The Winnebago County Clerk &amp; Recorder is Lori Gummow, located at 404 Elm Street, Room 104, Rockford IL 61101, phone (815) 319-4250. Website: wincoil.gov/departments/recorders-office. According to Winnebago County Recorder (2025), recording fees: standard documents (8.5×11", meets formatting requirements) = $54.00; non-standard documents = $66.00. (Effective January 1, 2025, Public Act 103-0884.) Illinois MyDec (Real Estate Transfer Declaration) must be filed at closing via mytax.illinois.gov — no separate fee.
           </p>
         </section>
 
@@ -159,7 +159,7 @@ export default function RockfordILMarketReportPage() {
             Rockford's manufacturing heritage defines its housing market in ways that don't apply to Springfield or Chicago suburbs. The city was once the world's largest producer of machine screws and a major furniture manufacturing center — Illinois Tool Works, Rockford Chair &amp; Furniture, and dozens of related suppliers employed generations of working-class families who purchased modest homes in the neighborhoods around their factories. When those industries contracted in the 1980s and 1990s, Rockford's homeowner base aged in place on fixed incomes, and deferred maintenance accumulated across a housing stock that was already aging.
           </p>
           <p className="text-gray-700 mb-4">
-            The result: a city where the median sale price ($170,000) is 43% below the Illinois state median ($299,000), where 14-day sold DOM signals genuine demand from conventional buyers, but where a significant share of the available housing stock — the pre-1970 bungalows, two-flats, and ranches that constitute the majority of Rockford's residential inventory — requires renovations that sellers can't fund and buyers can't finance through conventional channels.
+            Per Redfin (March 2026), Rockford’s median sale price ($170,000) is 43% below the Illinois state median ($299,000), where 14-day sold DOM signals genuine demand from conventional buyers, but where a significant share of the available housing stock — the pre-1970 bungalows, two-flats, and ranches that constitute the majority of Rockford's residential inventory — requires renovations that sellers can't fund and buyers can't finance through conventional channels.
           </p>
           <p className="text-gray-700 mb-4">
             That gap between market demand and financeable supply is where cash buyers operate. USA Home Buyers serves Rockford sellers who need speed, certainty, and a buyer who doesn't require inspection-contingency repairs or conventional financing approval.
