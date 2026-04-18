@@ -2,6 +2,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
+import { VideoEmbed } from '@/components/VideoEmbed';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
 import { organizationSchema, articleSchema, faqSchema } from '@/lib/schema';
@@ -88,7 +89,22 @@ export default function SpringfieldCodeViolationsPage() {
             </a>
           </div>
           <div>
-            <CashOfferForm variant="hero" headline="Get Your Cash Offer" subheadline="Open violations, no problem. Written offer in 24 hours." sourcePage="/markets/springfield-il/code-violations" />
+  
+      <VideoEmbed
+        src="/videos/springfield-il/code-violations.mp4"
+        title="Sell a House With Code Violations in Springfield IL"
+        poster="/videos/springfield-il/code-violations-poster.jpg"
+        subtitle="Open violations, condemned notices — we buy as-is"
+      />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+          Does your Springfield property have code violations? Don't let that stop you from selling. At USA Home Buyers, we buy properties with open violations — as-is, for cash. Whether it's structural issues, electrical problems, or a condemned notice — we've seen it all. Call us at 888-440-5250 for a free, no-obligation cash offer.
+        </div>
+      </details>
+          <CashOfferForm variant="hero" headline="Get Your Cash Offer" subheadline="Open violations, no problem. Written offer in 24 hours." sourcePage="/markets/springfield-il/code-violations" />
           </div>
         </div>
       </section>

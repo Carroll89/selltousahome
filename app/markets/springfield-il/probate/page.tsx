@@ -2,6 +2,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
+import { VideoEmbed } from '@/components/VideoEmbed';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
 import { organizationSchema, articleSchema, faqSchema } from '@/lib/schema';
@@ -88,7 +89,22 @@ export default function SpringfieldProbatePage() {
             </a>
           </div>
           <div>
-            <CashOfferForm variant="hero" headline="Get Your Cash Offer" subheadline="We work around Sangamon County Circuit Court timelines. Written offer in 24 hours." sourcePage="/markets/springfield-il/probate" />
+  
+      <VideoEmbed
+        src="/videos/springfield-il/probate.mp4"
+        title="Selling Probate Property in Springfield IL"
+        poster="/videos/springfield-il/probate-poster.jpg"
+        subtitle="Working with executors and Sangamon County Circuit Court"
+      />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+          Is a Springfield property tied up in probate? We can help. Once the court grants authority, USA Home Buyers can close fast. We work with estate attorneys, administrators, and heirs throughout the Springfield area. No repairs. No showings. No waiting for retail buyers. We buy as-is, for cash. Call us at 888-440-5250.
+        </div>
+      </details>
+          <CashOfferForm variant="hero" headline="Get Your Cash Offer" subheadline="We work around Sangamon County Circuit Court timelines. Written offer in 24 hours." sourcePage="/markets/springfield-il/probate" />
           </div>
         </div>
       </section>

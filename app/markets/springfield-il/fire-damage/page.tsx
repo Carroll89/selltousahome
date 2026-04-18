@@ -2,6 +2,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
+import { VideoEmbed } from '@/components/VideoEmbed';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
 import { organizationSchema, articleSchema, faqSchema } from '@/lib/schema';
@@ -88,7 +89,22 @@ export default function SpringfieldFireDamagePage() {
             </a>
           </div>
           <div>
-            <CashOfferForm variant="hero" headline="Get Your Cash Offer" subheadline="Fire-damaged, smoke-damaged, any condition. Written offer in 24 hours." sourcePage="/markets/springfield-il/fire-damage" />
+  
+      <VideoEmbed
+        src="/videos/springfield-il/fire-damage.mp4"
+        title="Sell a Fire-Damaged House in Springfield IL"
+        poster="/videos/springfield-il/fire-damage-poster.jpg"
+        subtitle="No restoration required — we buy fire-damaged homes as-is"
+      />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+          Did your Springfield home suffer fire damage? USA Home Buyers purchases fire-damaged homes throughout Springfield and Sangamon County, exactly as they are. We make a cash offer based on current condition — no repairs, no cleanup required. If you have a fire-damaged property and want a fast, fair exit — call us at 888-440-5250.
+        </div>
+      </details>
+          <CashOfferForm variant="hero" headline="Get Your Cash Offer" subheadline="Fire-damaged, smoke-damaged, any condition. Written offer in 24 hours." sourcePage="/markets/springfield-il/fire-damage" />
           </div>
         </div>
       </section>

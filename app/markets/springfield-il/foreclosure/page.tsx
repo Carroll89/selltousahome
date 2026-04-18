@@ -2,6 +2,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
+import { VideoEmbed } from '@/components/VideoEmbed';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
 import { organizationSchema, articleSchema, faqSchema } from '@/lib/schema';
@@ -90,7 +91,22 @@ export default function SpringfieldForeclosurePage() {
             </a>
           </div>
           <div>
-            <CashOfferForm variant="hero" headline="Get Your Cash Offer" subheadline="We stop foreclosure by closing before the auction. Written offer in 24 hours." sourcePage="/markets/springfield-il/foreclosure" />
+  
+      <VideoEmbed
+        src="/videos/springfield-il/foreclosure.mp4"
+        title="Facing Foreclosure in Springfield IL?"
+        poster="/videos/springfield-il/foreclosure-poster.jpg"
+        subtitle="Sell before the court date — keep your equity, protect your credit"
+      />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+          Are you behind on your mortgage in Springfield, Illinois? Foreclosure doesn't have to be your ending. Illinois is a judicial foreclosure state — you may have more time than you think, but the clock is ticking. At USA Home Buyers, a fast cash sale can stop the process and protect your credit. Call us right now at 888-440-5250 for a free, confidential conversation.
+        </div>
+      </details>
+          <CashOfferForm variant="hero" headline="Get Your Cash Offer" subheadline="We stop foreclosure by closing before the auction. Written offer in 24 hours." sourcePage="/markets/springfield-il/foreclosure" />
           </div>
         </div>
       </section>

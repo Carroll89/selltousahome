@@ -2,6 +2,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
+import { VideoEmbed } from '@/components/VideoEmbed';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
 import { organizationSchema, articleSchema, faqSchema } from '@/lib/schema';
@@ -92,7 +93,22 @@ export default function SpringfieldInheritedPropertyPage() {
             </a>
           </div>
           <div>
-            <CashOfferForm variant="hero" headline="Get Your Cash Offer" subheadline="We work with estates and probate timelines. Written offer in 24 hours." sourcePage="/markets/springfield-il/inherited-property" />
+  
+      <VideoEmbed
+        src="/videos/springfield-il/inherited-property.mp4"
+        title="Sell Inherited House in Springfield IL"
+        poster="/videos/springfield-il/inherited-property-poster.jpg"
+        subtitle="We handle probate, as-is purchase, and fast close in Sangamon County"
+      />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+          Did you inherit a property in Springfield or somewhere in Sangamon County? At USA Home Buyers, we specialize in helping families sell inherited properties quickly and without the headache. We handle the paperwork, buy the house exactly as it is, and close fast. You don't have to clean it out, fix anything, or pay any commissions. Call us at 888-440-5250.
+        </div>
+      </details>
+          <CashOfferForm variant="hero" headline="Get Your Cash Offer" subheadline="We work with estates and probate timelines. Written offer in 24 hours." sourcePage="/markets/springfield-il/inherited-property" />
           </div>
         </div>
       </section>

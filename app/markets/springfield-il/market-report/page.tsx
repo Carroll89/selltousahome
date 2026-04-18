@@ -2,6 +2,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
+import { VideoEmbed } from '@/components/VideoEmbed';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { organizationSchema, articleSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
@@ -156,6 +157,21 @@ export default function SpringfieldILMarketReportPage() {
         </section>
 
         <div className="my-10">
+
+      <VideoEmbed
+        src="/videos/springfield-il/market-report.mp4"
+        title="Springfield IL Real Estate Market Report 2026"
+        poster="/videos/springfield-il/market-report-poster.jpg"
+        subtitle="Why now is a strong time to sell in Sangamon County"
+      />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+          As of early 2026, Springfield is one of the hottest small markets in the country — ranked #10 nationally. The median sale price hit $187,000 in March 2026, up 23% year-over-year. Homes are selling in just 27 days average. If you're thinking about selling in Springfield or anywhere in Sangamon County, this is a strong time to act. USA Home Buyers offers cash for homes in any condition. Call 888-440-5250.
+        </div>
+      </details>
           <CashOfferForm variant="inline" headline="Get Your Springfield IL Cash Offer" subheadline="Written offer in 24 hours. We cover all closing costs." sourcePage="/markets/springfield-il/market-report" />
         </div>
 

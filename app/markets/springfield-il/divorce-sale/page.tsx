@@ -2,6 +2,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
+import { VideoEmbed } from '@/components/VideoEmbed';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
 import { organizationSchema, articleSchema, faqSchema } from '@/lib/schema';
@@ -88,7 +89,22 @@ export default function SpringfieldDivorceSalePage() {
             </a>
           </div>
           <div>
-            <CashOfferForm variant="hero" headline="Get Your Cash Offer" subheadline="We close on the court's timeline. Written offer in 24 hours." sourcePage="/markets/springfield-il/divorce-sale" />
+  
+      <VideoEmbed
+        src="/videos/springfield-il/divorce-sale.mp4"
+        title="Selling a House During Divorce in Springfield IL"
+        poster="/videos/springfield-il/divorce-sale-poster.jpg"
+        subtitle="One offer, one closing, clean split of proceeds in Sangamon County"
+      />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+          Going through a divorce in Springfield? The family home doesn't have to become a battleground. At USA Home Buyers, we help couples in Sangamon County sell quickly and cleanly — so both parties can move on. We buy the house as-is, for cash, with no agents, no showings, and no delays. Call 888-440-5250 today for a free cash offer.
+        </div>
+      </details>
+          <CashOfferForm variant="hero" headline="Get Your Cash Offer" subheadline="We close on the court's timeline. Written offer in 24 hours." sourcePage="/markets/springfield-il/divorce-sale" />
           </div>
         </div>
       </section>

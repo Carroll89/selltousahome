@@ -2,6 +2,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
+import { VideoEmbed } from '@/components/VideoEmbed';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
 import { organizationSchema, articleSchema, faqSchema } from '@/lib/schema';
@@ -88,7 +89,22 @@ export default function SpringfieldTenantOccupiedPage() {
             </a>
           </div>
           <div>
-            <CashOfferForm variant="hero" headline="Get Your Cash Offer" subheadline="Tenants in place, no problem. Written offer in 24 hours." sourcePage="/markets/springfield-il/tenant-occupied" />
+  
+      <VideoEmbed
+        src="/videos/springfield-il/tenant-occupied.mp4"
+        title="Sell a Rental Property in Springfield IL"
+        poster="/videos/springfield-il/tenant-occupied-poster.jpg"
+        subtitle="Done with being a landlord? We buy tenant-occupied homes as-is"
+      />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+          Trying to sell a rental property in Springfield with tenants still living there? At USA Home Buyers, we purchase tenant-occupied properties throughout Sangamon County, as-is. You don't have to evict anyone or wait for a lease to expire. Ready to exit your rental? Call us at 888-440-5250.
+        </div>
+      </details>
+          <CashOfferForm variant="hero" headline="Get Your Cash Offer" subheadline="Tenants in place, no problem. Written offer in 24 hours." sourcePage="/markets/springfield-il/tenant-occupied" />
           </div>
         </div>
       </section>
