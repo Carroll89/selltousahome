@@ -59,6 +59,7 @@ export function Footer() {
               <li><Link href="/markets/manchester-nh" className="hover:text-white">Manchester, NH</Link></li>
               <li><Link href="/sell-house-fast-new-hampshire" className="hover:text-white">Sell House Fast New Hampshire</Link></li>
               <li><Link href="/markets/bridgeport-ct" className="hover:text-white">Bridgeport, CT</Link></li>
+              <li><Link href="/markets/new-haven-ct" className="hover:text-white">New Haven, CT</Link></li>
               <li><Link href="/sell-house-fast-connecticut" className="hover:text-white">Sell House Fast Connecticut</Link></li>
               <li><Link href="/markets/rochester-ny" className="hover:text-white">Rochester, NY</Link></li>
               <li><Link href="/sell-house-fast-new-york" className="hover:text-white">Sell House Fast New York</Link></li>
@@ -79,6 +80,7 @@ export function Footer() {
               <li><Link href="/guides/sell-house-fast-racine-mount-pleasant-wi-2026" className="hover:text-white">Racine-Mount Pleasant WI Guide</Link></li>
               <li><Link href="/guides/sell-house-fast-springfield-il-2026" className="hover:text-white">Springfield IL Guide</Link></li>
               <li><Link href="/guides/sell-house-fast-rockford-il-2026" className="hover:text-white">Rockford IL Guide</Link></li>
+              <li><Link href="/guides/sell-house-fast-new-haven-ct-2026" className="hover:text-white">New Haven CT Guide</Link></li>
               <li><Link href="/guides/inherited-property" className="hover:text-white">Inherited Property</Link></li>
               <li><Link href="/guides/foreclosure" className="hover:text-white">Foreclosure</Link></li>
               <li><Link href="/guides/behind-on-payments" className="hover:text-white">Behind on Payments</Link></li>
@@ -105,7 +107,7 @@ export function Footer() {
 
         <div className="border-t border-gray-700 pt-6 text-sm text-gray-500">
           <p className="mb-2">
-            We buy houses across Pennsylvania, Delaware, Ohio, Massachusetts, Wisconsin, New Hampshire, Connecticut, New York, and Illinois — Harrisburg, Allentown, Bethlehem, Lancaster, York, Erie, Reading, Wilmington DE, Youngstown OH, Springfield MA, Worcester MA, Kenosha WI, Racine-Mount Pleasant WI, Manchester NH, Bridgeport CT, Rochester NY, Springfield IL, Rockford IL, and surrounding communities.
+            We buy houses across Pennsylvania, Delaware, Ohio, Massachusetts, Wisconsin, New Hampshire, Connecticut, New York, and Illinois — Harrisburg, Allentown, Bethlehem, Lancaster, York, Erie, Reading, Wilmington DE, Youngstown OH, Springfield MA, Worcester MA, Kenosha WI, Racine-Mount Pleasant WI, Manchester NH, Bridgeport CT, New Haven CT, Rochester NY, Springfield IL, Rockford IL, and surrounding communities.
           </p>
           <p>
             © {currentYear} USA Home Buyers LLC. All rights reserved. | Serving homeowners in PA, DE, OH, MA, WI, NH, CT, NY, and IL

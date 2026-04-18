@@ -11,7 +11,7 @@ export const revalidate = 86400;
 export const metadata: Metadata = {
   title: 'Sell My House Fast Connecticut',
   description:
-    'We buy houses for cash throughout Connecticut — Bridgeport and surrounding areas. Written offer in 24 hours, close in 7 days.',
+    'We buy houses for cash throughout Connecticut — Bridgeport, New Haven, and surrounding areas. Written offer in 24 hours, close in 7 days.',
   alternates: { canonical: `${SITE_URL}/sell-house-fast-connecticut` },
 };
 
@@ -37,17 +37,22 @@ export default function SellHouseFastConnecticutPage() {
         <div className="bg-blue-50 border border-blue-100 rounded-xl p-5 mb-8">
           <p className="text-sm font-semibold text-blue-800 mb-2">TL;DR</p>
           <p className="text-sm text-blue-900 leading-relaxed">
-            USA Home Buyers purchases houses for cash throughout Connecticut — currently serving Bridgeport. Written offer in 24 hours, close in 7–14 days, any condition, no repairs, no fees. We cover all closing costs. Call 888-440-5250.
+            USA Home Buyers purchases houses for cash throughout Connecticut — currently serving Bridgeport and New Haven. Written offer in 24 hours, close in 7–14 days, any condition, no repairs, no fees. We cover all closing costs. Call 888-440-5250.
           </p>
         </div>
 
         <section className="mb-10">
-          <h2 className="text-2xl font-bold text-brand-dark mb-4">Connecticut Markets We Serve</h2>
+          <h2 className="text-2xl font-bold text-brand-dark mb-4">Our Connecticut Markets: Bridgeport + New Haven</h2>
           <div className="grid sm:grid-cols-2 gap-4">
-          <Link href="/markets/bridgeport-ct" className="bg-white border border-gray-200 rounded-xl p-5 hover:border-brand-primary transition-colors group">
+            <Link href="/markets/bridgeport-ct" className="bg-white border border-gray-200 rounded-xl p-5 hover:border-brand-primary transition-colors group">
               <h3 className="font-bold text-brand-dark group-hover:text-brand-primary mb-1">Bridgeport, CT</h3>
               <p className="text-sm text-gray-600">Fairfield County · Median $240,000 · 38 days avg DOM</p>
               <p className="text-xs text-brand-primary mt-2">See Bridgeport market →</p>
+            </Link>
+            <Link href="/markets/new-haven-ct" className="bg-white border border-gray-200 rounded-xl p-5 hover:border-brand-primary transition-colors group">
+              <h3 className="font-bold text-brand-dark group-hover:text-brand-primary mb-1">New Haven, CT</h3>
+              <p className="text-sm text-gray-600">New Haven County · Median $323,843 · 65 days avg DOM</p>
+              <p className="text-xs text-brand-primary mt-2">See New Haven market →</p>
             </Link>
           </div>
         </section>
@@ -65,13 +70,20 @@ export default function SellHouseFastConnecticutPage() {
 
         <section className="mb-10">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">Section 2: Connecticut Transfer Tax & Closing Costs</h2>
-          <p className="text-gray-700 mb-4">Connecticut has a Real Estate Conveyance Tax consisting of a state portion and a municipal portion — both paid by the seller. State rate: 0.75% on the first $800,000 of consideration ($7.50 per $1,000). Municipal rate: 0.25% ($2.50 per $1,000). Combined: 1.0% for properties under $800,000. Properties over $800,000: an additional 1.25% state surcharge applies to the amount over $800,000. On a $252,000 Bridgeport home: $2,520. Source: Connecticut Department of Revenue Services, CGS §12-494 (ct.gov/drs).</p>
+          <p className="text-gray-700 mb-4">Connecticut has a Real Estate Conveyance Tax consisting of a state portion and a municipal portion — both paid by the seller. State rate: 0.75% on the first $800,000 of consideration. Standard municipal rate: 0.25%. Combined: 1.0% for most CT properties under $800,000. Properties over $800,000: an additional 1.25% state surcharge applies to the amount over $800,000. Source: Connecticut Department of Revenue Services, CGS §12-494 (ct.gov/drs).</p>
+          <p className="text-gray-700 mb-4"><strong>Bridgeport (Fairfield County):</strong> 1.25% total — distressed municipality rate (0.75% state + 0.50% City of Bridgeport local). On a $240,000 Bridgeport home: $3,000.</p>
+          <p className="text-gray-700 mb-4"><strong>New Haven (New Haven County):</strong> 1.25% total — targeted-investment municipality rate (0.75% state + 0.25% base municipal + 0.25% Targeted Investment additional per Public Act 11-6). New Haven is confirmed on CT's 18-town distressed/targeted-investment list. On a $323,843 New Haven home: ~$4,048.</p>
           <p className="text-gray-700 mb-4">When you sell to USA Home Buyers, we cover all closing costs — you pay nothing at closing.</p>
         </section>
 
         <section className="mb-10">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">Section 3: Connecticut Foreclosure Process</h2>
-          <p className="text-gray-700 mb-4">Connecticut uses strict foreclosure — one of the most unusual foreclosure systems in the United States. When a lender files a foreclosure action in CT Superior Court, the court can grant "strict foreclosure" where no auction takes place. Instead, the court sets a "Law Day" — a specific date by which the homeowner must pay off the full debt or lose title directly to the lender. There is no redemption period after the Law Day passes. Title vests in the lender immediately when the Law Day expires without payment. Connecticut also uses "foreclosure by sale" (court-ordered auction) in some cases. Source: Connecticut General Statutes §49-1 et seq. (cga.ct.gov).</p>
+          <p className="text-gray-700 mb-4">Connecticut uses strict foreclosure — one of the most unusual foreclosure systems in the United States. When a lender files a foreclosure action in CT Superior Court, the court can grant "strict foreclosure" where no auction takes place. Instead, the court sets a "Law Day" — a specific date by which the homeowner must pay off the full debt or lose title directly to the lender. There is no redemption period after the Law Day passes. Title vests in the lender immediately when the Law Day expires without payment. Connecticut also uses "foreclosure by sale" (court-ordered auction) in some cases. Source: Connecticut General Statutes §49-1 through 49-31 (cga.ct.gov).</p>
+          <p className="text-gray-700 mb-4"><strong>For both our CT markets:</strong> CT's mandatory owner-occupied mediation program requires lenders to offer mediation before proceeding — typically adding 60-90 days before a Law Day is set. This window is critical for distressed sellers: a cash sale before Law Day preserves credit and avoids the lender taking title outright.</p>
+          <ul className="list-disc list-inside space-y-1 text-gray-700 text-sm mb-4">
+            <li><strong>Bridgeport (Fairfield County):</strong> Strict foreclosure or foreclosure by sale · Bridgeport Superior Court · typical timeline 5-9 months + 60-90 day mediation window</li>
+            <li><strong>New Haven (New Haven County):</strong> Strict foreclosure (CT Gen Stat §§49-1 through 49-31) · New Haven Superior Court · Law Day title-transfer, NO auction · typical timeline 5-9 months · mandatory owner-occupied mediation 60-90 days</li>
+          </ul>
         </section>
 
         <section className="mb-10">
@@ -80,6 +92,7 @@ export default function SellHouseFastConnecticutPage() {
           <p className="text-gray-700 mb-4"><strong>Probate courts for our Connecticut markets:</strong></p>
           <ul className="list-disc list-inside space-y-1 text-gray-700 text-sm mb-4">
             <li>Bridgeport Probate Court, 45 Lyon Terrace Room 121, Bridgeport CT 06604, Phone: (203) 576-7957</li>
+            <li>New Haven Probate Court, 200 Orange Street, New Haven CT 06510, Phone: (203) 946-4880</li>
           </ul>
         </section>
 
@@ -97,6 +110,7 @@ export default function SellHouseFastConnecticutPage() {
               </thead>
               <tbody className="divide-y divide-gray-200">
                 <tr className="bg-white"><td className="p-3"><Link href="/markets/bridgeport-ct" className="text-brand-primary hover:underline">Bridgeport</Link></td><td className="p-3">Fairfield County</td><td className="p-3">$240,000</td><td className="p-3">~38 days</td></tr>
+                <tr className="bg-gray-50"><td className="p-3"><Link href="/markets/new-haven-ct" className="text-brand-primary hover:underline">New Haven</Link></td><td className="p-3">New Haven County</td><td className="p-3">$323,843</td><td className="p-3">~65 days</td></tr>
               </tbody>
             </table>
           </div>
@@ -104,7 +118,7 @@ export default function SellHouseFastConnecticutPage() {
         </section>
 
         <div className="mb-8 p-4 bg-blue-50 rounded-xl">
-          <p className="text-sm text-blue-900"><strong>Hablamos español.</strong> Bridgeport has a 41% Hispanic community. We serve Connecticut sellers in English and Spanish. Llámenos al 888-440-5250.</p>
+          <p className="text-sm text-blue-900"><strong>Hablamos español.</strong> Bridgeport has a 41% Hispanic community; New Haven is 31% Hispanic. We serve Connecticut sellers in English and Spanish across both markets. Llámenos al 888-440-5250.</p>
         </div>
         <CashOfferForm variant="inline" headline="Get a Cash Offer for Your Connecticut Home" subheadline="Written offer in 24 hours. We cover all closing costs." sourcePage="/sell-house-fast-connecticut" />
       </div>

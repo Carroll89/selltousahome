@@ -48,7 +48,10 @@ const marketsByState: { state: string; cities: { href: string; label: string }[]
   },
   {
     state: 'Connecticut',
-    cities: [{ href: '/markets/bridgeport-ct', label: 'Bridgeport' }],
+    cities: [
+      { href: '/markets/bridgeport-ct', label: 'Bridgeport' },
+      { href: '/markets/new-haven-ct', label: 'New Haven' },
+    ],
   },
   {
     state: 'New York',

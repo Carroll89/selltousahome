@@ -503,9 +503,34 @@ const CITY_CONFIGS: Record<string, CityConfig> = {
       { '@type': 'County', name: 'Northampton County' },
     ],
   },
+  newHaven: {
+    city: 'New Haven',
+    region: 'CT',
+    postalCode: '06510',
+    lat: 41.3082,
+    lng: -72.9282,
+    description:
+      'Cash home buyers serving New Haven CT and New Haven County. We buy houses as-is in any condition — no repairs, no agent fees, close in 7-14 days. Hablamos español.',
+    areaServed: [
+      { '@type': 'City', name: 'New Haven', sameAs: 'https://en.wikipedia.org/wiki/New_Haven,_Connecticut' },
+      { '@type': 'City', name: 'Hamden' },
+      { '@type': 'City', name: 'West Haven' },
+      { '@type': 'City', name: 'East Haven' },
+      { '@type': 'City', name: 'North Haven' },
+      { '@type': 'City', name: 'Branford' },
+      { '@type': 'City', name: 'Milford' },
+      { '@type': 'City', name: 'Guilford' },
+      { '@type': 'City', name: 'Orange' },
+      { '@type': 'City', name: 'Woodbridge' },
+      { '@type': 'City', name: 'Bethany' },
+      { '@type': 'City', name: 'Madison' },
+      { '@type': 'City', name: 'Wallingford' },
+      { '@type': 'County', name: 'New Haven County' },
+    ],
+  },
 };
 
-export function localBusinessSchemaFor(cityKey: 'harrisburg' | 'allentown' | 'bethlehem' | 'kingOfPrussia' | 'reading' | 'stateCollege' | 'erie' | 'lancaster' | 'york' | 'wilmington' | 'youngstown' | 'springfield' | 'kenosha' | 'manchester' | 'bridgeport' | 'worcester' | 'rochester' | 'racineMountPleasant' | 'springfieldIL' | 'rockfordIL') {
+export function localBusinessSchemaFor(cityKey: 'harrisburg' | 'allentown' | 'bethlehem' | 'kingOfPrussia' | 'reading' | 'stateCollege' | 'erie' | 'lancaster' | 'york' | 'wilmington' | 'youngstown' | 'springfield' | 'kenosha' | 'manchester' | 'bridgeport' | 'worcester' | 'rochester' | 'racineMountPleasant' | 'springfieldIL' | 'rockfordIL' | 'newHaven') {
   const cfg = CITY_CONFIGS[cityKey];
   return {
     '@context': 'https://schema.org',
@@ -588,6 +613,9 @@ export const springfieldILLocalBusinessSchema = localBusinessSchemaFor('springfi
 
 /** Pre-built Rockford IL LocalBusiness schema */
 export const rockfordILLocalBusinessSchema = localBusinessSchemaFor('rockfordIL');
+
+/** Pre-built New Haven CT LocalBusiness schema */
+export const newHavenLocalBusinessSchema = localBusinessSchemaFor('newHaven');
 
 export const youngstownFAQSchema = {
   '@context': 'https://schema.org',
