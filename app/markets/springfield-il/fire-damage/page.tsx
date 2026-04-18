@@ -77,7 +77,7 @@ export default function SpringfieldFireDamagePage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                USA Home Buyers purchases fire-damaged and smoke-damaged properties in Springfield IL as-is — no cleanup, no repairs, no insurance requirements before closing. We make a written cash offer within 24 hours based on the land value, remaining structure, and local market. Springfield ZHVI $163,198 (Mar 2026). You decide: take the insurance money and sell as-is, or sell and assign the claim. Call 888-440-5250.
+                USA Home Buyers purchases fire-damaged properties in Springfield IL as-is — no cleanup, no repairs, no insurance requirements before closing. We make a written cash offer within 24 hours based on current market conditions. Springfield ZHVI $163,198 (Mar 2026). You decide: take the insurance money and sell as-is, or sell and assign the claim. Call 888-440-5250.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
@@ -141,6 +141,9 @@ export default function SpringfieldFireDamagePage() {
           <h2 className="text-2xl font-bold text-brand-dark mb-4">Illinois Insurance Claims and Property Sales — Key Points</h2>
           <p className="text-gray-700 mb-4">
             Illinois insurance law provides important protections for homeowners navigating fire claims. Your insurer must acknowledge a claim within 10 days and provide a coverage decision or request for more information within 30 days (215 ILCS 5/154.5 — Illinois Insurance Code). For total-loss claims, the insurer typically provides an advance payment within a defined period to cover immediate needs.
+          </p>
+          <p className="text-gray-700 mb-4">
+            Illinois sellers must also disclose known fire and smoke damage on the Illinois Residential Real Property Disclosure Report required at closing, under the Residential Real Property Disclosure Act (765 ILCS 77/). This applies to all residential sales — including as-is cash transactions. When you sell to USA Home Buyers, we handle this disclosure as part of the standard closing process.
           </p>
           <p className="text-gray-700 mb-4">
             If you have a mortgage, your lender is almost certainly listed as a loss payee on your homeowner's insurance policy. This means any insurance payout on a total or partial loss must be jointly endorsed by you and the lender. The lender may apply the insurance proceeds to the mortgage balance rather than releasing them for repair, depending on the mortgage agreement and the extent of damage. Understanding this dynamic before selling is important — work with your insurance agent and lender to clarify how proceeds will be handled in a sale scenario.

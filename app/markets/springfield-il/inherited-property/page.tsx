@@ -81,7 +81,7 @@ export default function SpringfieldInheritedPropertyPage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                USA Home Buyers purchases inherited properties in Springfield IL through Sangamon County Circuit Court Probate Division (200 S 9th St, 7th Floor, (217) 753-6674). Written cash offer in 24 hours, close after the executor has Letters of Office. Real property always requires formal probate in Illinois — the $150,000 small estate affidavit (755 ILCS 5/25-1, 2025 amendment) covers personal property only. Any condition, no repairs, no cleanout. Call 888-440-5250.
+                USA Home Buyers purchases inherited properties in Springfield IL through Sangamon County Circuit Court Probate Division. Written cash offer in 24 hours, close after the executor has Letters of Office. Real property always requires formal probate in Illinois — the small estate affidavit covers personal property only per Illinois law. Any condition, no repairs. Call 888-440-5250.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-6">

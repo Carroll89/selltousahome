@@ -93,7 +93,7 @@ export default function SellHouseFastSpringfieldILGuide() {
         <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-8">
           <p className="text-sm font-semibold text-blue-800 mb-2">TL;DR — Sell House Fast Springfield IL 2026</p>
           <p className="text-sm text-blue-900 leading-relaxed">
-            Springfield IL is the #10 hottest market in the US (Realtor.com, March 2026). Redfin median sale price: $187,000 (+23% YoY). Zillow ZHVI: $163,198 (+8.2%). Median DOM: 27 days. The fastest path for an as-is sale: USA Home Buyers — written offer in 24 hours, close in 7-14 days, all closing costs covered. Illinois state + Sangamon County transfer tax: $0.75/$500 ($280.50 on median) — we cover it. For retail: list with a local agent, expect 27 days on market + 30-45 days to close. iBuyers: not operating in Springfield. Call 888-440-5250.
+            Springfield IL is the #10 hottest market in the US (Realtor.com, March 2026). Redfin median sale price: $187,000 (+23% YoY). Zillow ZHVI: $163,198 (+8.2%). Median DOM: 27 days. The fastest path for an as-is sale: USA Home Buyers — written offer in 24 hours, close in 7-14 days, all closing costs covered. Illinois state + Sangamon County transfer tax: $0.75/$500 ($280.50 on median) — we cover it. Call 888-440-5250.
           </p>
         </div>
 

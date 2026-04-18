@@ -80,7 +80,7 @@ export default function SpringfieldForeclosurePage() {
             </h1>
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
-              <p className="text-white text-sm leading-relaxed">USA Home Buyers purchases houses in Springfield IL from homeowners facing foreclosure — before the Sangamon County Circuit Court auction. Written cash offer in 24 hours, close in 7-14 days. Illinois judicial foreclosure (735 ILCS 5/15-1101) typically runs 12-15 months in Sangamon County — you have a 3-month reinstatement period (§15-1602) and 7-month redemption period (§15-1603). Sell before the auction; walk away with your equity. Call 888-440-5250.</p>
+              <p className="text-white text-sm leading-relaxed">USA Home Buyers purchases houses in Springfield IL from homeowners facing foreclosure — before the Sangamon County Circuit Court auction. Written cash offer in 24 hours, close in 7-14 days. Illinois judicial foreclosure typically runs 12-15 months in Sangamon County — you have reinstatement and redemption rights under Illinois law. Sell before the auction; walk away with your equity. Call 888-440-5250.</p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
               Written cash offer in 24 hours. Close in 7–14 days. No repairs, no agent fees — sell before the auction and walk away with your equity.

@@ -77,7 +77,7 @@ export default function SpringfieldProbatePage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                USA Home Buyers purchases probate properties in Springfield through Sangamon County Circuit Court Probate Division (200 S 9th St, 7th Floor, (217) 753-6674). Written offer in 24 hours, close after Letters of Office are issued. Under independent administration (755 ILCS 5/28-1), the executor can sell real property without separate court approval. Real property always requires formal probate in IL — the small estate affidavit covers personal property only (threshold $150,000 under 755 ILCS 5/25-1, 2025 amendment). Call 888-440-5250.
+                USA Home Buyers purchases probate properties in Springfield through Sangamon County Circuit Court Probate Division. Written cash offer in 24 hours, close after Letters of Office are issued. Under independent administration, the executor can sell without separate court approval. Real property always requires formal probate in IL — the small estate affidavit covers personal property only. Call 888-440-5250.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
