@@ -66,6 +66,9 @@ export function Footer() {
               <li><Link href="/sell-house-fast-new-york" className="hover:text-white">Sell House Fast New York</Link></li>
               <li><Link href="/markets/springfield-il" className="hover:text-white">Springfield, IL</Link></li>
               <li><Link href="/markets/rockford-il" className="hover:text-white">Rockford, IL</Link></li>
+              <li><Link href="/markets/peoria-il" className="hover:text-white">Peoria, IL</Link></li>
+              <li><Link href="/markets/bloomington-il" className="hover:text-white">Bloomington, IL</Link></li>
+              <li><Link href="/markets/champaign-urbana-il" className="hover:text-white">Champaign-Urbana, IL</Link></li>
               <li><Link href="/sell-house-fast-illinois" className="hover:text-white">Sell House Fast Illinois</Link></li>
             </ul>
           </div>
@@ -81,6 +84,9 @@ export function Footer() {
               <li><Link href="/guides/sell-house-fast-racine-mount-pleasant-wi-2026" className="hover:text-white">Racine-Mount Pleasant WI Guide</Link></li>
               <li><Link href="/guides/sell-house-fast-springfield-il-2026" className="hover:text-white">Springfield IL Guide</Link></li>
               <li><Link href="/guides/sell-house-fast-rockford-il-2026" className="hover:text-white">Rockford IL Guide</Link></li>
+              <li><Link href="/guides/sell-house-fast-peoria-il-2026" className="hover:text-white">Peoria IL Guide</Link></li>
+              <li><Link href="/guides/sell-house-fast-bloomington-il-2026" className="hover:text-white">Bloomington IL Guide</Link></li>
+              <li><Link href="/guides/sell-house-fast-champaign-urbana-il-2026" className="hover:text-white">Champaign-Urbana IL Guide</Link></li>
               <li><Link href="/guides/sell-house-fast-new-haven-ct-2026" className="hover:text-white">New Haven CT Guide</Link></li>
               <li><Link href="/guides/sell-house-fast-oshkosh-wi-2026" className="hover:text-white">Oshkosh WI Guide</Link></li>
               <li><Link href="/guides/inherited-property" className="hover:text-white">Inherited Property</Link></li>
@@ -109,7 +115,7 @@ export function Footer() {
 
         <div className="border-t border-gray-700 pt-6 text-sm text-gray-500">
           <p className="mb-2">
-            We buy houses across Pennsylvania, Delaware, Ohio, Massachusetts, Wisconsin, New Hampshire, Connecticut, New York, and Illinois — Harrisburg, Allentown, Bethlehem, Lancaster, York, Erie, Reading, Wilmington DE, Youngstown OH, Springfield MA, Worcester MA, Kenosha WI, Racine-Mount Pleasant WI, Oshkosh WI, Manchester NH, Bridgeport CT, New Haven CT, Rochester NY, Springfield IL, Rockford IL, and surrounding communities.
+            We buy houses across Pennsylvania, Delaware, Ohio, Massachusetts, Wisconsin, New Hampshire, Connecticut, New York, and Illinois — Harrisburg, Allentown, Bethlehem, Lancaster, York, Erie, Reading, Wilmington DE, Youngstown OH, Springfield MA, Worcester MA, Kenosha WI, Racine-Mount Pleasant WI, Oshkosh WI, Manchester NH, Bridgeport CT, New Haven CT, Rochester NY, Springfield IL, Rockford IL, Peoria IL, Bloomington IL, Champaign-Urbana IL, and surrounding communities.
           </p>
           <p>
             © {currentYear} USA Home Buyers LLC. All rights reserved. | Serving homeowners in PA, DE, OH, MA, WI, NH, CT, NY, and IL

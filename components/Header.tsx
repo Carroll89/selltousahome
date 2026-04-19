@@ -63,6 +63,9 @@ const marketsByState: { state: string; cities: { href: string; label: string }[]
     cities: [
       { href: '/markets/springfield-il', label: 'Springfield' },
       { href: '/markets/rockford-il', label: 'Rockford' },
+      { href: '/markets/peoria-il', label: 'Peoria' },
+      { href: '/markets/bloomington-il', label: 'Bloomington' },
+      { href: '/markets/champaign-urbana-il', label: 'Champaign-Urbana' },
     ],
   },
 ];

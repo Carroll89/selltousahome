@@ -12,7 +12,7 @@ export const revalidate = 86400;
 export const metadata: Metadata = {
   title: 'Sell My House Fast Illinois | Cash Home Buyers',
   description:
-    'USA Home Buyers purchases homes for cash in Illinois — serving Springfield / Sangamon County and Rockford / Winnebago County. Written offer in 24 hours, close in 7-14 days. Call 888-440-5250.',
+    'USA Home Buyers purchases homes for cash in Illinois — serving Springfield, Rockford, Peoria, Bloomington, and Champaign-Urbana. Written offer in 24 hours, close in 7-14 days. Call 888-440-5250.',
   alternates: { canonical: `${SITE_URL}/sell-house-fast-illinois` },
 };
 
@@ -20,7 +20,7 @@ const FAQ_ITEMS = [
   {
     question: 'How fast can I sell my house in Illinois?',
     answer:
-      'With a cash buyer like USA Home Buyers, you can close in 7-14 days — compared to the 57-72 day traditional timeline in Springfield (27-day median DOM) or 34.5-day median active listing DOM in Rockford. Cash transactions skip mortgage underwriting; title companies handle Illinois closings without attorney involvement required by law. We deliver a written offer within 24 hours. We serve Springfield / Sangamon County and Rockford / Winnebago County, IL. Call 888-440-5250.',
+      'With a cash buyer like USA Home Buyers, you can close in 7-14 days — compared to typical downstate Illinois DOM ranges of 27-50 days. Cash transactions skip mortgage underwriting; title companies handle Illinois closings without attorney involvement required by law. We deliver a written offer within 24 hours. We serve Springfield (Sangamon County), Rockford (Winnebago County), Peoria (Peoria County), Bloomington (McLean County), and Champaign-Urbana (Champaign County) in Illinois. Call 888-440-5250.',
   },
   {
     question: 'Does Illinois require an attorney to sell a house?',
@@ -40,7 +40,7 @@ const FAQ_ITEMS = [
   {
     question: 'What Illinois markets does USA Home Buyers serve?',
     answer:
-      'We serve two Illinois markets: Springfield / Sangamon County (17th largest IL city, state capital, RDC hotness #10) and Rockford / Winnebago County (Illinois\'s third-largest city, RDC hotness #11). We do not operate in Chicago, the Chicago metro, Peoria, Champaign, or other Illinois markets. All statewide information on this page is educational. Call 888-440-5250 to discuss your specific property.',
+      'We serve five Illinois markets: Springfield / Sangamon County (state capital, RDC hotness #10), Rockford / Winnebago County (Illinois\'s third-largest city, RDC hotness #11), Peoria / Peoria County (RDC hotness #29, manufacturing legacy + OSF HealthCare anchor), Bloomington / McLean County (RDC hotness #27, State Farm world HQ + ISU), and Champaign-Urbana / Champaign County (RDC hotness #77, University of Illinois). We do not operate in Chicago or the Chicago metro. All statewide information on this page is educational. Call 888-440-5250 to discuss your specific property.',
   },
   {
     question: 'How does Illinois probate work when selling a house?',
@@ -72,7 +72,7 @@ export default function SellHouseFastIllinoisPage() {
         <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-8">
           <p className="text-sm font-semibold text-blue-800 mb-2">TL;DR — Sell Your House Fast in Illinois</p>
           <p className="text-sm text-blue-900 leading-relaxed">
-            USA Home Buyers purchases homes for cash in Illinois. Our active markets are <strong>Springfield / Sangamon County</strong> (RDC hotness #10) and <strong>Rockford / Winnebago County</strong> (RDC hotness #11) — call <strong>888-440-5250</strong> if you're elsewhere and we'll help or refer you. Written offer within 24 hours, close in 7-14 days, any condition, no repairs, no agent fees. We cover all closing costs. Illinois is NOT an attorney state — title companies handle closings. IL state + county transfer tax: $0.75/$500 (0.15%) in both markets — we cover it. Springfield Redfin median: $187,000 (+23% YoY, Mar 2026). Rockford ZHVI: $142,859 (Mar 2026).
+            USA Home Buyers purchases homes for cash in Illinois. Our five active markets are <strong>Springfield / Sangamon County</strong> (RDC #10), <strong>Rockford / Winnebago County</strong> (RDC #11), <strong>Peoria / Peoria County</strong> (RDC #29), <strong>Bloomington / McLean County</strong> (RDC #27), and <strong>Champaign-Urbana / Champaign County</strong> (RDC #77) — call <strong>888-440-5250</strong> if you're elsewhere and we'll help or refer you. Written offer within 24 hours, close in 7-14 days, any condition, no repairs, no agent fees. We cover all closing costs. Illinois is NOT an attorney state — title companies handle closings. Most downstate IL transfer tax stacks are $0.75/$500 (0.15%) — Peoria is the notable exception at $800 on $200K (0.40%) due to a confirmed city RETT effective 03/04/2025.
           </p>
         </div>
 
@@ -80,7 +80,7 @@ export default function SellHouseFastIllinoisPage() {
         <div className="bg-amber-50 border border-amber-200 rounded-xl p-4 mb-10">
           <p className="text-sm font-semibold text-amber-800">📍 Service Coverage</p>
           <p className="text-sm text-amber-700 mt-1">
-            We serve <strong>Springfield / Sangamon County</strong> and <strong>Rockford / Winnebago County</strong>, IL. We do not operate in Chicago, the Chicago metro, Peoria, Champaign-Urbana, or other Illinois markets. The information below is educational for any Illinois seller — wherever you are in the state.
+            We serve <strong>Springfield / Sangamon County</strong>, <strong>Rockford / Winnebago County</strong>, <strong>Peoria / Peoria County</strong>, <strong>Bloomington / McLean County</strong>, and <strong>Champaign-Urbana / Champaign County</strong>, IL. We do not operate in Chicago or the Chicago metro. The information below is educational for any Illinois seller — wherever you are in the state.
           </p>
         </div>
 

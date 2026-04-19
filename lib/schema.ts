@@ -457,6 +457,74 @@ const CITY_CONFIGS: Record<string, CityConfig> = {
       { '@type': 'County', name: 'Winnebago County' },
     ],
   },
+  bloomingtonIL: {
+    city: 'Bloomington',
+    region: 'IL',
+    postalCode: '61701',
+    lat: 40.4842,
+    lng: -88.9937,
+    description:
+      'Cash home buyers serving Bloomington IL and McLean County. We buy houses as-is in any condition — no repairs, no agent fees, close in 7–14 days.',
+    areaServed: [
+      { '@type': 'City', name: 'Bloomington', sameAs: 'https://en.wikipedia.org/wiki/Bloomington,_Illinois' },
+      { '@type': 'City', name: 'Normal' },
+      { '@type': 'City', name: 'Hudson' },
+      { '@type': 'City', name: 'Heyworth' },
+      { '@type': 'City', name: 'Le Roy' },
+      { '@type': 'City', name: 'Downs' },
+      { '@type': 'City', name: 'Towanda' },
+      { '@type': 'City', name: 'Stanford' },
+      { '@type': 'City', name: 'McLean' },
+      { '@type': 'City', name: 'Carlock' },
+      { '@type': 'County', name: 'McLean County' },
+    ],
+  },
+  champaignUrbanaIL: {
+    city: 'Champaign',
+    region: 'IL',
+    postalCode: '61820',
+    lat: 40.1164,
+    lng: -88.2434,
+    description:
+      'Cash home buyers serving Champaign and Urbana, IL and Champaign County. We buy houses as-is in any condition — no repairs, no agent fees, close in 7–14 days.',
+    areaServed: [
+      { '@type': 'City', name: 'Champaign', sameAs: 'https://en.wikipedia.org/wiki/Champaign,_Illinois' },
+      { '@type': 'City', name: 'Urbana', sameAs: 'https://en.wikipedia.org/wiki/Urbana,_Illinois' },
+      { '@type': 'City', name: 'Savoy' },
+      { '@type': 'City', name: 'Mahomet' },
+      { '@type': 'City', name: 'St. Joseph' },
+      { '@type': 'City', name: 'Tolono' },
+      { '@type': 'City', name: 'Rantoul' },
+      { '@type': 'City', name: 'Sidney' },
+      { '@type': 'City', name: 'Philo' },
+      { '@type': 'City', name: 'Ogden' },
+      { '@type': 'County', name: 'Champaign County' },
+    ],
+  },
+  peoriaIL: {
+    city: 'Peoria',
+    region: 'IL',
+    postalCode: '61602',
+    lat: 40.6936,
+    lng: -89.5890,
+    description:
+      'Cash home buyers serving Peoria IL and Peoria County. We buy houses as-is in any condition — no repairs, no agent fees, close in 7–14 days.',
+    areaServed: [
+      { '@type': 'City', name: 'Peoria', sameAs: 'https://en.wikipedia.org/wiki/Peoria,_Illinois' },
+      { '@type': 'City', name: 'Peoria Heights' },
+      { '@type': 'City', name: 'West Peoria' },
+      { '@type': 'City', name: 'Bartonville' },
+      { '@type': 'City', name: 'Bellevue' },
+      { '@type': 'City', name: 'Creve Coeur' },
+      { '@type': 'City', name: 'East Peoria' },
+      { '@type': 'City', name: 'Pekin' },
+      { '@type': 'City', name: 'Chillicothe' },
+      { '@type': 'City', name: 'Dunlap' },
+      { '@type': 'City', name: 'Morton' },
+      { '@type': 'City', name: 'Washington' },
+      { '@type': 'County', name: 'Peoria County' },
+    ],
+  },
   springfieldIL: {
     city: 'Springfield',
     region: 'IL',
@@ -554,7 +622,7 @@ const CITY_CONFIGS: Record<string, CityConfig> = {
   },
 };
 
-export function localBusinessSchemaFor(cityKey: 'harrisburg' | 'allentown' | 'bethlehem' | 'kingOfPrussia' | 'reading' | 'stateCollege' | 'erie' | 'lancaster' | 'york' | 'wilmington' | 'youngstown' | 'springfield' | 'kenosha' | 'manchester' | 'bridgeport' | 'worcester' | 'rochester' | 'racineMountPleasant' | 'springfieldIL' | 'rockfordIL' | 'newHaven' | 'oshkosh') {
+export function localBusinessSchemaFor(cityKey: 'harrisburg' | 'allentown' | 'bethlehem' | 'kingOfPrussia' | 'reading' | 'stateCollege' | 'erie' | 'lancaster' | 'york' | 'wilmington' | 'youngstown' | 'springfield' | 'kenosha' | 'manchester' | 'bridgeport' | 'worcester' | 'rochester' | 'racineMountPleasant' | 'springfieldIL' | 'rockfordIL' | 'newHaven' | 'oshkosh' | 'peoriaIL' | 'bloomingtonIL' | 'champaignUrbanaIL') {
   const cfg = CITY_CONFIGS[cityKey];
   return {
     '@context': 'https://schema.org',
@@ -644,6 +712,15 @@ export const newHavenLocalBusinessSchema = localBusinessSchemaFor('newHaven');
 /** Pre-built Oshkosh WI LocalBusiness schema */
 export const oshkoshLocalBusinessSchema = localBusinessSchemaFor('oshkosh');
 export const oshkoshWILocalBusinessSchema = localBusinessSchemaFor('oshkosh');
+
+/** Pre-built Peoria IL LocalBusiness schema */
+export const peoriaILLocalBusinessSchema = localBusinessSchemaFor('peoriaIL');
+
+/** Pre-built Bloomington IL LocalBusiness schema */
+export const bloomingtonILLocalBusinessSchema = localBusinessSchemaFor('bloomingtonIL');
+
+/** Pre-built Champaign-Urbana IL LocalBusiness schema */
+export const champaignUrbanaILLocalBusinessSchema = localBusinessSchemaFor('champaignUrbanaIL');
 
 export const youngstownFAQSchema = {
   '@context': 'https://schema.org',
