@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
-import { useState } from 'react';
+import { useState, useRef, useCallback } from 'react';
 import { PHONE } from '@/lib/utils';
 
 const marketsByState: { state: string; cities: { href: string; label: string }[] }[] = [
@@ -74,6 +74,16 @@ export function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [marketsOpen, setMarketsOpen] = useState(false);
   const [mobileMarketsOpen, setMobileMarketsOpen] = useState(false);
+  const closeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
+
+  const openMarkets = useCallback(() => {
+    if (closeTimer.current) { clearTimeout(closeTimer.current); closeTimer.current = null; }
+    setMarketsOpen(true);
+  }, []);
+
+  const closeMarkets = useCallback(() => {
+    closeTimer.current = setTimeout(() => setMarketsOpen(false), 150);
+  }, []);
 
   return (
     <header className="sticky top-0 z-40 bg-white border-b border-gray-200 shadow-sm">
@@ -96,8 +106,8 @@ export function Header() {
             {/* Markets dropdown */}
             <div
               className="relative"
-              onMouseEnter={() => setMarketsOpen(true)}
-              onMouseLeave={() => setMarketsOpen(false)}
+              onMouseEnter={openMarkets}
+              onMouseLeave={closeMarkets}
             >
               <button
                 onClick={() => setMarketsOpen(!marketsOpen)}
@@ -108,7 +118,7 @@ export function Header() {
                 Markets <span className="text-xs">▾</span>
               </button>
               {marketsOpen && (
-                <div className="absolute top-full left-0 pt-2 w-72 z-50">
+                <div className="absolute top-full left-0 pt-3 w-72 z-50">
                 <div className="bg-white border border-gray-200 rounded-xl shadow-xl p-5">
                   {marketsByState.map(({ state, cities }) => (
                     <div key={state} className="mb-4 last:mb-0">
