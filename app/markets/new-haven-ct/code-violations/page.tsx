@@ -2,6 +2,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
+import { VideoEmbed } from '@/components/VideoEmbed';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
 import { organizationSchema, articleSchema, faqSchema } from '@/lib/schema';
@@ -89,7 +90,22 @@ export default function NewHavenCodeViolationsPage() {
             </a>
           </div>
           <div>
-            <CashOfferForm variant="hero" headline="Get Your Cash Offer — Violations OK" subheadline="We buy with open LCI violations. No repairs required." sourcePage="/markets/new-haven-ct/code-violations" />
+  
+      <VideoEmbed
+        src="/videos/new-haven-ct/code-violations.mp4"
+        title="Sell a House With Code Violations in New Haven CT"
+        poster="/videos/new-haven-ct/code-violations-poster.jpg"
+        subtitle="Open violations, condemnation notices — we buy as-is in New Haven County"
+      />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+          Code violations on your New Haven property? USA Home Buyers purchases properties with open violations and condemnation notices as-is. No repairs, no permits. Fair cash offer and fast close. Call 888-440-5250.
+        </div>
+      </details>
+          <CashOfferForm variant="hero" headline="Get Your Cash Offer — Violations OK" subheadline="We buy with open LCI violations. No repairs required." sourcePage="/markets/new-haven-ct/code-violations" />
           </div>
         </div>
       </section>

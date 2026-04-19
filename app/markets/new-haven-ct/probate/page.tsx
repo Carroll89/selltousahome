@@ -2,6 +2,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
+import { VideoEmbed } from '@/components/VideoEmbed';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
 import { organizationSchema, articleSchema, faqSchema } from '@/lib/schema';
@@ -89,7 +90,22 @@ export default function NewHavenProbatePage() {
             </a>
           </div>
           <div>
-            <CashOfferForm variant="hero" headline="Get Your Probate Cash Offer" subheadline="We work with New Haven Probate Court cases. Written offer in 24 hours." sourcePage="/markets/new-haven-ct/probate" />
+  
+      <VideoEmbed
+        src="/videos/new-haven-ct/probate.mp4"
+        title="Selling Probate Property in New Haven CT"
+        poster="/videos/new-haven-ct/probate-poster.jpg"
+        subtitle="Working with executors and New Haven Probate Court — as-is, fast close"
+      />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+          New Haven property in Connecticut probate? USA Home Buyers works with executors through New Haven Probate Court at 200 Orange Street. We close once the court approves. As-is, any condition. Written cash offer in 24 hours. Call 888-440-5250.
+        </div>
+      </details>
+          <CashOfferForm variant="hero" headline="Get Your Probate Cash Offer" subheadline="We work with New Haven Probate Court cases. Written offer in 24 hours." sourcePage="/markets/new-haven-ct/probate" />
           </div>
         </div>
       </section>

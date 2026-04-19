@@ -2,6 +2,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
+import { VideoEmbed } from '@/components/VideoEmbed';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
 import { organizationSchema, articleSchema, faqSchema } from '@/lib/schema';
@@ -93,7 +94,22 @@ export default function NewHavenForeclosurePage() {
             </a>
           </div>
           <div>
-            <CashOfferForm variant="hero" headline="Stop Foreclosure — Get Your Cash Offer" subheadline="Written offer in 24 hours. Close before the Law Day." sourcePage="/markets/new-haven-ct/foreclosure" />
+  
+      <VideoEmbed
+        src="/videos/new-haven-ct/foreclosure.mp4"
+        title="Facing Foreclosure in New Haven CT?"
+        poster="/videos/new-haven-ct/foreclosure-poster.jpg"
+        subtitle="Sell before the auction — protect your equity and credit in New Haven County"
+      />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+          Foreclosure in New Haven? Connecticut is a judicial foreclosure state — you may have time, but don't wait. USA Home Buyers closes in 7 days, stops the process, and protects your credit. Call 888-440-5250 right now.
+        </div>
+      </details>
+          <CashOfferForm variant="hero" headline="Stop Foreclosure — Get Your Cash Offer" subheadline="Written offer in 24 hours. Close before the Law Day." sourcePage="/markets/new-haven-ct/foreclosure" />
           </div>
         </div>
       </section>

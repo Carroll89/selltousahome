@@ -2,6 +2,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
+import { VideoEmbed } from '@/components/VideoEmbed';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { organizationSchema, articleSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
@@ -165,6 +166,21 @@ export default function NewHavenMarketReportPage() {
           ))}
         </div>
 
+
+      <VideoEmbed
+        src="/videos/new-haven-ct/market-report.mp4"
+        title="New Haven CT Real Estate Market Report 2026"
+        poster="/videos/new-haven-ct/market-report-poster.jpg"
+        subtitle="Yale University anchor, healthcare growth, steady appreciation in New Haven County"
+      />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+          New Haven CT market 2026: Yale University and Yale New Haven Health anchor steady demand. Buyers priced out of Fairfield County discover New Haven affordability. Consistent appreciation. USA Home Buyers gives you a cash offer in 24 hours. Call 888-440-5250.
+        </div>
+      </details>
         <CashOfferForm variant="footer" headline="Ready to Sell Your New Haven CT Home?" sourcePage="/markets/new-haven-ct/market-report" />
       </div>
     </>

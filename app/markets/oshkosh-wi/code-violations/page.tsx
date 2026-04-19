@@ -2,6 +2,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
+import { VideoEmbed } from '@/components/VideoEmbed';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
 import { organizationSchema, articleSchema, faqSchema } from '@/lib/schema';
@@ -88,7 +89,22 @@ export default function OshkoshCodeViolationsPage() {
             </a>
           </div>
           <div>
-            <CashOfferForm variant="hero" headline="Get Your Oshkosh Code-Violation Property Offer" subheadline="Written offer in 24 hours. No repairs required before closing." sourcePage="/markets/oshkosh-wi/code-violations" />
+  
+      <VideoEmbed
+        src="/videos/oshkosh-wi/code-violations.mp4"
+        title="Sell a House With Code Violations in Oshkosh WI"
+        poster="/videos/oshkosh-wi/code-violations-poster.jpg"
+        subtitle="Open violations, failed inspections — we buy as-is in Winnebago County"
+      />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+          Got code violations on your Oshkosh property? Don't let the violation notices stop you. At USA Home Buyers, we purchase properties with open violations exactly as they are — no repairs, no permits. We handle it all after closing. Cash offer in 24 hours. Call 888-440-5250.
+        </div>
+      </details>
+          <CashOfferForm variant="hero" headline="Get Your Oshkosh Code-Violation Property Offer" subheadline="Written offer in 24 hours. No repairs required before closing." sourcePage="/markets/oshkosh-wi/code-violations" />
           </div>
         </div>
       </section>

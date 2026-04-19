@@ -2,6 +2,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
+import { VideoEmbed } from '@/components/VideoEmbed';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
 import { organizationSchema, articleSchema, faqSchema } from '@/lib/schema';
@@ -88,7 +89,22 @@ export default function OshkoshFireDamagePage() {
             </a>
           </div>
           <div>
-            <CashOfferForm variant="hero" headline="Get Your Fire-Damage Cash Offer" subheadline="Written offer in 24 hours. No repairs or cleanup required. Any condition." sourcePage="/markets/oshkosh-wi/fire-damage" />
+  
+      <VideoEmbed
+        src="/videos/oshkosh-wi/fire-damage.mp4"
+        title="Sell a Fire-Damaged House in Oshkosh WI"
+        poster="/videos/oshkosh-wi/fire-damage-poster.jpg"
+        subtitle="No restoration required — we buy fire-damaged homes as-is in Winnebago County"
+      />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+          Fire damage on your Oshkosh property? USA Home Buyers purchases fire-damaged homes in Winnebago County as-is. No contractor bids, no delays. Fair cash offer based on current condition. Call 888-440-5250.
+        </div>
+      </details>
+          <CashOfferForm variant="hero" headline="Get Your Fire-Damage Cash Offer" subheadline="Written offer in 24 hours. No repairs or cleanup required. Any condition." sourcePage="/markets/oshkosh-wi/fire-damage" />
           </div>
         </div>
       </section>

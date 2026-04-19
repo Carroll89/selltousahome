@@ -2,6 +2,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
+import { VideoEmbed } from '@/components/VideoEmbed';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { organizationSchema, articleSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
@@ -169,6 +170,21 @@ export default function OshkoshWIMarketReportPage() {
           </div>
         </section>
 
+
+      <VideoEmbed
+        src="/videos/oshkosh-wi/market-report.mp4"
+        title="Oshkosh WI Real Estate Market Report 2026"
+        poster="/videos/oshkosh-wi/market-report-poster.jpg"
+        subtitle="Fox Valley affordability, Lake Winnebago waterfront, steady appreciation"
+      />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+          The Oshkosh WI market in 2026 — steady appreciation, Lake Winnebago waterfront appeal, Fox Valley affordability. Strong manufacturing employment base. If you're thinking about selling, USA Home Buyers gives you a cash offer in 24 hours. Call 888-440-5250.
+        </div>
+      </details>
         <CashOfferForm variant="footer" headline="Ready to Sell Your Oshkosh WI Home?" sourcePage="/markets/oshkosh-wi/market-report" />
       </div>
     </>

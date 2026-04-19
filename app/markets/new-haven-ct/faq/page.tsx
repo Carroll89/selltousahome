@@ -2,6 +2,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
+import { VideoEmbed } from '@/components/VideoEmbed';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
 import { organizationSchema, faqSchema } from '@/lib/schema';
@@ -103,6 +104,21 @@ export default function NewHavenFAQPage() {
           </p>
         </div>
 
+
+      <VideoEmbed
+        src="/videos/new-haven-ct/faq.mp4"
+        title="New Haven CT Home Selling FAQ"
+        poster="/videos/new-haven-ct/faq-poster.jpg"
+        subtitle="Transfer tax, probate, code violations, closing speed — answered"
+      />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+          Questions about selling in New Haven CT? Connecticut transfer tax is 0.75% on most sales. Inherited property needs Probate Court approval. We buy with code violations, any neighborhood including Fair Haven and The Hill. Close in 7 days. Call 888-440-5250.
+        </div>
+      </details>
         <FAQSection items={FAQ_ITEMS} heading="All Questions — Selling Your New Haven CT Home for Cash" />
 
         <section className="my-8">
