@@ -108,7 +108,8 @@ export function Header() {
                 Markets <span className="text-xs">▾</span>
               </button>
               {marketsOpen && (
-                <div className="absolute top-full left-0 mt-2 bg-white border border-gray-200 rounded-xl shadow-xl z-50 w-72 p-5">
+                <div className="absolute top-full left-0 pt-2 w-72 z-50">
+                <div className="bg-white border border-gray-200 rounded-xl shadow-xl p-5">
                   {marketsByState.map(({ state, cities }) => (
                     <div key={state} className="mb-4 last:mb-0">
                       <p className="text-xs font-bold text-gray-400 uppercase tracking-wider mb-2">
@@ -128,6 +129,7 @@ export function Header() {
                       </div>
                     </div>
                   ))}
+                </div>
                 </div>
               )}
             </div>
