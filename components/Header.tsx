@@ -186,7 +186,7 @@ export function Header() {
 
         {/* Mobile menu */}
         {menuOpen && (
-          <nav className="md:hidden border-t border-gray-100 py-4 space-y-2">
+          <nav className="md:hidden border-t border-gray-100 py-4 space-y-2 max-h-[calc(100vh-5rem)] overflow-y-auto">
             {/* Mobile Markets accordion */}
             <div>
               <button
