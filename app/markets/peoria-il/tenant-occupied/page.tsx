@@ -2,6 +2,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
+import { VideoEmbed } from '@/components/VideoEmbed';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
 import { organizationSchema, articleSchema, faqSchema } from '@/lib/schema';
@@ -91,6 +92,21 @@ export default function PeoriaTenantOccupiedPage() {
               📞 Call Now — (888) 440-5250 (24/7)
             </a>
           </div>
+
+      <VideoEmbed
+        src="/videos/peoria-il/tenant-occupied.mp4"
+        title="Sell a Rental Property in Peoria IL"
+        poster="/videos/peoria-il/tenant-occupied-poster.jpg"
+        subtitle="Done with landlording? We buy tenant-occupied homes as-is in Peoria County"
+      />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+          Done being a landlord in Peoria? USA Home Buyers buys tenant-occupied properties — no eviction needed, no waiting for leases. We handle everything after closing. Call 888-440-5250 for a fast cash offer.
+        </div>
+      </details>
           <div>
             <CashOfferForm variant="hero" headline="Get Your Cash Offer Now" subheadline="We buy with tenants in place. No eviction required. Written offer in 24 hours." sourcePage="/markets/peoria-il/tenant-occupied" />
           </div>

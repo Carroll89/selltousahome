@@ -2,6 +2,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
+import { VideoEmbed } from '@/components/VideoEmbed';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
 import { organizationSchema, articleSchema, faqSchema } from '@/lib/schema';
@@ -88,6 +89,21 @@ export default function BloomingtonInheritedPropertyPage() {
               📞 (888) 440-5250 — 24/7
             </a>
           </div>
+
+      <VideoEmbed
+        src="/videos/bloomington-il/inherited-property.mp4"
+        title="Sell Inherited House in Bloomington IL"
+        poster="/videos/bloomington-il/inherited-property-poster.jpg"
+        subtitle="We work with McLean County probate timelines — as-is, any condition"
+      />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+          Inherit a property in Bloomington or McLean County? USA Home Buyers specializes in estate sales and works with Illinois probate timelines. Buy as-is, any condition. Written cash offer in 24 hours. Call 888-440-5250.
+        </div>
+      </details>
           <CashOfferForm
             variant="hero"
             headline="Get Your Inherited Property Cash Offer"

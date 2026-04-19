@@ -2,6 +2,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
+import { VideoEmbed } from '@/components/VideoEmbed';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
 import { organizationSchema, articleSchema, faqSchema } from '@/lib/schema';
@@ -91,6 +92,21 @@ Selling a Peoria IL home in divorce? According to 750 ILCS 5/503, Illinois is eq
               📞 Call Now — (888) 440-5250 (24/7)
             </a>
           </div>
+
+      <VideoEmbed
+        src="/videos/peoria-il/divorce-sale.mp4"
+        title="Selling a House During Divorce in Peoria IL"
+        poster="/videos/peoria-il/divorce-sale-poster.jpg"
+        subtitle="One offer, one closing, clean split of proceeds in Peoria County"
+      />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+          Divorce in Peoria and need to sell fast? One cash offer, both parties sign, close in 7-14 days. No agents, no open houses. Proceeds split at closing per your agreement. Call 888-440-5250.
+        </div>
+      </details>
           <div>
             <CashOfferForm variant="hero" headline="Get Your Cash Offer Now" subheadline="One offer, one closing. Written offer in 24 hours. We cover all closing costs." sourcePage="/markets/peoria-il/divorce-sale" />
           </div>

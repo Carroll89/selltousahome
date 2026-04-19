@@ -2,6 +2,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
+import { VideoEmbed } from '@/components/VideoEmbed';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { organizationSchema, articleSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
@@ -219,6 +220,21 @@ According to Zillow (February 2026), Peoria ZHVI: $115,649 (+3.7% YoY). Per Redf
           </div>
         </section>
 
+
+      <VideoEmbed
+        src="/videos/peoria-il/market-report.mp4"
+        title="Peoria IL Real Estate Market Report 2026"
+        poster="/videos/peoria-il/market-report-poster.jpg"
+        subtitle="Caterpillar headquarters, healthcare anchor, steady appreciation in Peoria County"
+      />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+          Peoria IL market 2026: Caterpillar headquarters and OSF HealthCare anchor steady demand. Illinois River waterfront appeal. Steady appreciation. USA Home Buyers gives you a cash offer in 24 hours. Call 888-440-5250.
+        </div>
+      </details>
         <CashOfferForm variant="footer" headline="Ready to Sell Your Peoria IL Home?" sourcePage="/markets/peoria-il/market-report" />
       </div>
     </>

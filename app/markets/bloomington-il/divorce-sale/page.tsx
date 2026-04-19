@@ -2,6 +2,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
+import { VideoEmbed } from '@/components/VideoEmbed';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
 import { organizationSchema, articleSchema, faqSchema } from '@/lib/schema';
@@ -88,6 +89,21 @@ export default function BloomingtonDivorceSalePage() {
               📞 (888) 440-5250 — 24/7
             </a>
           </div>
+
+      <VideoEmbed
+        src="/videos/bloomington-il/divorce-sale.mp4"
+        title="Selling a House During Divorce in Bloomington IL"
+        poster="/videos/bloomington-il/divorce-sale-poster.jpg"
+        subtitle="One offer, one closing, clean split of proceeds in McLean County"
+      />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+          Divorce in Bloomington IL and need to sell fast? One cash offer, both parties sign, close in 7-14 days. No agents, no open houses. Proceeds split at closing per your agreement. Call 888-440-5250.
+        </div>
+      </details>
           <CashOfferForm
             variant="hero"
             headline="Get Your Divorce Sale Cash Offer"

@@ -2,6 +2,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
+import { VideoEmbed } from '@/components/VideoEmbed';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
 import { organizationSchema, articleSchema, faqSchema } from '@/lib/schema';
@@ -88,6 +89,21 @@ export default function BloomingtonFireDamagePage() {
               📞 (888) 440-5250 — 24/7
             </a>
           </div>
+
+      <VideoEmbed
+        src="/videos/bloomington-il/fire-damage.mp4"
+        title="Sell a Fire-Damaged House in Bloomington IL"
+        poster="/videos/bloomington-il/fire-damage-poster.jpg"
+        subtitle="No restoration required — we buy fire-damaged homes as-is in McLean County"
+      />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+          Fire damage on your Bloomington IL property? USA Home Buyers purchases fire-damaged homes in McLean County as-is. No contractor estimates, no delays. Cash offer on current condition. Call 888-440-5250.
+        </div>
+      </details>
           <CashOfferForm
             variant="hero"
             headline="Get Your Fire-Damage Cash Offer"

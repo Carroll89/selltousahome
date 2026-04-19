@@ -2,6 +2,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
+import { VideoEmbed } from '@/components/VideoEmbed';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
 import { organizationSchema, articleSchema, faqSchema } from '@/lib/schema';
@@ -89,6 +90,20 @@ export default function ChampaignUrbanaProbatePage() {
               📞 Call (888) 440-5250 — 24/7
             </a>
           </div>
+      <VideoEmbed
+        src="/videos/champaign-urbana-il/probate.mp4"
+        title="Selling Probate Property in Champaign-Urbana IL"
+        poster="/videos/champaign-urbana-il/probate-poster.jpg"
+        subtitle="Working with personal representatives and Champaign County Circuit Court"
+      />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+          Champaign-Urbana property in Illinois probate? USA Home Buyers works with personal representatives through Champaign County's 6th Judicial Circuit. We buy as-is once the court grants authority. Cash offer in 24 hours. Call 888-440-5250.
+        </div>
+      </details>
           <div>
             <CashOfferForm
               variant="hero"

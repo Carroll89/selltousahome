@@ -2,6 +2,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
+import { VideoEmbed } from '@/components/VideoEmbed';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
 import { organizationSchema, articleSchema, faqSchema } from '@/lib/schema';
@@ -88,6 +89,21 @@ export default function BloomingtonTenantOccupiedPage() {
               📞 (888) 440-5250 — 24/7
             </a>
           </div>
+
+      <VideoEmbed
+        src="/videos/bloomington-il/tenant-occupied.mp4"
+        title="Sell a Rental Property in Bloomington IL"
+        poster="/videos/bloomington-il/tenant-occupied-poster.jpg"
+        subtitle="Done with landlording? We buy tenant-occupied homes as-is in McLean County"
+      />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+          Done being a landlord in Bloomington or Normal? USA Home Buyers buys tenant-occupied properties — student rentals, long-term leases, Section 8. No eviction needed. We handle everything after closing. Call 888-440-5250.
+        </div>
+      </details>
           <CashOfferForm
             variant="hero"
             headline="Get Your Rental Property Cash Offer"

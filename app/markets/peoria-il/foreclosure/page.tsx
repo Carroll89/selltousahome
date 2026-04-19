@@ -2,6 +2,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
+import { VideoEmbed } from '@/components/VideoEmbed';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
 import { organizationSchema, articleSchema, faqSchema } from '@/lib/schema';
@@ -91,6 +92,21 @@ Facing foreclosure in Peoria IL? Per the Peoria County Sheriff's Office, sales a
               📞 Call Now — (888) 440-5250 (24/7)
             </a>
           </div>
+
+      <VideoEmbed
+        src="/videos/peoria-il/foreclosure.mp4"
+        title="Facing Foreclosure in Peoria IL?"
+        poster="/videos/peoria-il/foreclosure-poster.jpg"
+        subtitle="Sell before the Peoria County auction — protect your equity and credit"
+      />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+          Facing foreclosure in Peoria IL? Illinois judicial foreclosure — the clock starts at judgment. USA Home Buyers closes in 7 days, stops the process, protects your credit. Call 888-440-5250 right now.
+        </div>
+      </details>
           <div>
             <CashOfferForm variant="hero" headline="Get Your Cash Offer Now" subheadline="We close in 7 days. Written offer in 24 hours. Any condition." sourcePage="/markets/peoria-il/foreclosure" />
           </div>

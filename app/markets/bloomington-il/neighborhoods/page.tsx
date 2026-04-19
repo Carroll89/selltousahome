@@ -2,6 +2,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
+import { VideoEmbed } from '@/components/VideoEmbed';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { organizationSchema, articleSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
@@ -166,6 +167,21 @@ export default function BloomingtonILNeighborhoodsPage() {
           <p className="text-sm text-gray-600 mt-3">Source: Old House Society Illinois historic district registry (oldhousesociety.org)</p>
         </section>
 
+
+      <VideoEmbed
+        src="/videos/bloomington-il/neighborhoods.mp4"
+        title="Bloomington IL Neighborhoods — We Buy Houses Everywhere"
+        poster="/videos/bloomington-il/neighborhoods-poster.jpg"
+        subtitle="Eastside to Towanda to Normal — any neighborhood, any condition"
+      />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+          Eastside Bloomington, Grove, Towanda, Normal — USA Home Buyers buys in every McLean County neighborhood. Bungalows, ranches, two-stories — any condition, any situation. Cash offer in 24 hours. Call 888-440-5250.
+        </div>
+      </details>
         <CashOfferForm variant="footer" headline="Get Your Bloomington IL Cash Offer — Any Neighborhood" sourcePage="/markets/bloomington-il/neighborhoods" />
       </div>
     </>

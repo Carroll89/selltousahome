@@ -2,6 +2,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
+import { VideoEmbed } from '@/components/VideoEmbed';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
 import { organizationSchema, articleSchema, faqSchema } from '@/lib/schema';
@@ -72,6 +73,21 @@ export default function PeoriaFAQPage() {
       </section>
 
       <div className="max-w-4xl mx-auto px-4 py-8">
+
+      <VideoEmbed
+        src="/videos/peoria-il/faq.mp4"
+        title="Peoria IL Home Selling FAQ"
+        poster="/videos/peoria-il/faq-poster.jpg"
+        subtitle="Foreclosure timelines, probate, code violations, city transfer tax — answered"
+      />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+          Questions about selling in Peoria IL? Illinois judicial foreclosure runs 12-16 months. City transfer tax — we handle it. Inherited property needs probate. We buy with code violations, any condition. Close in 7 days. Call 888-440-5250.
+        </div>
+      </details>
         <FAQSection items={FAQ_ITEMS} heading="Frequently Asked Questions — Peoria IL" />
 
         <section className="my-8">

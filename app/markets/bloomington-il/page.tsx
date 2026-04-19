@@ -1,5 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import type { Metadata } from 'next';
+import { VideoEmbed } from '@/components/VideoEmbed';
 import Link from 'next/link';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { HowItWorks } from '@/components/HowItWorks';
@@ -178,7 +179,21 @@ export default function BloomingtonILMarketPage() {
             </a>
           </div>
           <div>
-            <CashOfferForm
+      <VideoEmbed
+        src="/videos/bloomington-il/landing.mp4"
+        title="Sell My House Fast Bloomington IL — USA Home Buyers"
+        poster="/videos/bloomington-il/landing-poster.jpg"
+        subtitle="Cash offers for Bloomington, Normal, and McLean County homes — any condition"
+      />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+          Need to sell your house fast in Bloomington, Illinois? USA Home Buyers purchases homes as-is for cash throughout McLean County. No agents, no fees, no repairs. Written cash offer in 24 hours, close in 7 days. Call 888-440-5250.
+        </div>
+      </details>
+      <CashOfferForm
               variant="hero"
               headline="Get Your Bloomington IL Cash Offer"
               subheadline="Written offer in 24 hours. Close in 7 days. We cover all closing costs."

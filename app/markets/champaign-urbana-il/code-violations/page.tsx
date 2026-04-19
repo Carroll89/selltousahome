@@ -2,6 +2,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
+import { VideoEmbed } from '@/components/VideoEmbed';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
 import { organizationSchema, articleSchema, faqSchema } from '@/lib/schema';
@@ -85,6 +86,20 @@ export default function ChampaignUrbanaCodeViolationsPage() {
               📞 Call (888) 440-5250 — 24/7
             </a>
           </div>
+      <VideoEmbed
+        src="/videos/champaign-urbana-il/code-violations.mp4"
+        title="Sell a House With Code Violations in Champaign-Urbana IL"
+        poster="/videos/champaign-urbana-il/code-violations-poster.jpg"
+        subtitle="Open violations, failed inspections — we buy as-is in Champaign County"
+      />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+          Code violations on your Champaign-Urbana property? USA Home Buyers purchases properties with open violations as-is. No repairs, no permits. Cash offer in 24 hours. Call 888-440-5250.
+        </div>
+      </details>
           <div>
             <CashOfferForm
               variant="hero"

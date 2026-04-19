@@ -2,6 +2,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
+import { VideoEmbed } from '@/components/VideoEmbed';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { organizationSchema, articleSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
@@ -166,6 +167,21 @@ export default function PeoriaNeighborhoodsPage() {
           </div>
         </section>
 
+
+      <VideoEmbed
+        src="/videos/peoria-il/neighborhoods.mp4"
+        title="Peoria IL Neighborhoods — We Buy Houses Everywhere"
+        poster="/videos/peoria-il/neighborhoods-poster.jpg"
+        subtitle="Richwoods to Riverdale to Peoria Heights — any neighborhood, any condition"
+      />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+          Richwoods, Northwoods, Riverdale, Peoria Heights — USA Home Buyers buys in every Peoria IL neighborhood. Bungalows, Victorians, ranches — any condition, any situation. Cash offer in 24 hours. Call 888-440-5250.
+        </div>
+      </details>
         <CashOfferForm variant="footer" headline="Ready to Get Your Peoria IL Cash Offer?" sourcePage="/markets/peoria-il/neighborhoods" />
       </div>
     </>

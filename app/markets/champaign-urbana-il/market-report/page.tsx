@@ -2,6 +2,7 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
+import { VideoEmbed } from '@/components/VideoEmbed';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { organizationSchema, articleSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
@@ -234,6 +235,20 @@ export default function ChampaignUrbanaMarketReportPage() {
           </div>
         </section>
 
+      <VideoEmbed
+        src="/videos/champaign-urbana-il/market-report.mp4"
+        title="Champaign-Urbana IL Real Estate Market Report 2026"
+        poster="/videos/champaign-urbana-il/market-report-poster.jpg"
+        subtitle="University of Illinois anchor, tech sector growth, steady appreciation in Champaign County"
+      />
+      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+          📝 Video Transcript
+        </summary>
+        <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+          Champaign-Urbana IL market 2026: University of Illinois drives consistent demand and a strong rental market. Tech sector growth in Research Park. Steady appreciation while remaining affordable. USA Home Buyers gives you a cash offer in 24 hours. Call 888-440-5250.
+        </div>
+      </details>
         <CashOfferForm variant="footer" headline="Ready to Sell Your Champaign-Urbana Home?" sourcePage="/markets/champaign-urbana-il/market-report" />
       </div>
     </>
