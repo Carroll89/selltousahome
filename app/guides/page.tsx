@@ -6,11 +6,12 @@ import { SITE_URL } from '@/lib/utils';
 export const metadata: Metadata = {
   title: 'Free Seller Guides — Sell Your House Fast | USA Home Buyers',
   description:
-    'Free seller guides for homeowners in PA, DE, and OH. Learn how to sell your house fast for cash — by market or by your situation.',
+    'Free seller guides for homeowners across PA, DE, OH, MA, WI, NH, CT, NY, and IL. Learn how to sell your house fast for cash — by market or by your situation.',
   alternates: { canonical: `${SITE_URL}/guides` },
 };
 
 const marketGuides = [
+  // Pennsylvania
   { href: '/guides/sell-house-fast-harrisburg-pa-2026', label: 'Harrisburg, PA' },
   { href: '/guides/sell-house-fast-allentown-pa-2026', label: 'Allentown, PA' },
   { href: '/guides/sell-house-fast-bethlehem-pa-2026', label: 'Bethlehem, PA' },
@@ -18,8 +19,30 @@ const marketGuides = [
   { href: '/guides/sell-house-fast-lancaster-pa-2026', label: 'Lancaster, PA' },
   { href: '/guides/sell-house-fast-state-college-pa-2026', label: 'State College, PA' },
   { href: '/guides/sell-house-fast-york-pa-2026', label: 'York, PA' },
+  // Delaware
   { href: '/guides/sell-house-fast-wilmington-de-2026', label: 'Wilmington, DE' },
+  // Ohio
   { href: '/guides/sell-house-fast-youngstown-oh-2026', label: 'Youngstown, OH' },
+  // Massachusetts
+  { href: '/guides/sell-house-fast-springfield-ma-2026', label: 'Springfield, MA' },
+  { href: '/guides/sell-house-fast-worcester-ma-2026', label: 'Worcester, MA' },
+  // Wisconsin
+  { href: '/guides/sell-house-fast-kenosha-wi-2026', label: 'Kenosha, WI' },
+  { href: '/guides/sell-house-fast-racine-mount-pleasant-wi-2026', label: 'Racine & Mount Pleasant, WI' },
+  { href: '/guides/sell-house-fast-oshkosh-wi-2026', label: 'Oshkosh, WI' },
+  // New Hampshire
+  { href: '/guides/sell-house-fast-manchester-nh-2026', label: 'Manchester, NH' },
+  // Connecticut
+  { href: '/guides/sell-house-fast-bridgeport-ct-2026', label: 'Bridgeport, CT' },
+  { href: '/guides/sell-house-fast-new-haven-ct-2026', label: 'New Haven, CT' },
+  // New York
+  { href: '/guides/sell-house-fast-rochester-ny-2026', label: 'Rochester, NY' },
+  // Illinois
+  { href: '/guides/sell-house-fast-springfield-il-2026', label: 'Springfield, IL' },
+  { href: '/guides/sell-house-fast-rockford-il-2026', label: 'Rockford, IL' },
+  { href: '/guides/sell-house-fast-peoria-il-2026', label: 'Peoria, IL' },
+  { href: '/guides/sell-house-fast-bloomington-il-2026', label: 'Bloomington, IL' },
+  { href: '/guides/sell-house-fast-champaign-urbana-il-2026', label: 'Champaign-Urbana, IL' },
 ];
 
 const situationGuides = [
