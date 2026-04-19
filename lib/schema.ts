@@ -1390,6 +1390,19 @@ export const harrisburgFAQSchema = {
  * Generate a VideoObject schema for a self-hosted video.
  * Designed for use inside the VideoEmbed component or any page with a <video> element.
  */
+/**
+ * Normalize an uploadDate to ISO 8601 with timezone (required by Google's VideoObject structured data spec).
+ * Accepts either a date-only string ('2026-04-12') or a full ISO datetime.
+ * Date-only input is upgraded to midnight UTC, which is a valid ISO 8601 datetime with timezone.
+ */
+function normalizeUploadDate(value: string): string {
+  if (!value) return '2026-04-06T00:00:00Z';
+  // Already has time component (contains 'T' followed by time digits)?
+  if (/T\d{2}:\d{2}/.test(value)) return value;
+  // Date-only: upgrade to midnight UTC (valid ISO 8601 with timezone)
+  return `${value}T00:00:00Z`;
+}
+
 export function videoObjectSchema({
   name,
   description,
@@ -1409,7 +1422,7 @@ export function videoObjectSchema({
     name,
     description,
     contentUrl,
-    uploadDate,
+    uploadDate: normalizeUploadDate(uploadDate),
     ...(thumbnailUrl ? { thumbnailUrl } : {}),
     publisher: {
       '@type': 'Organization',
