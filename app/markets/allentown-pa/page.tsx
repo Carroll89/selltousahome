@@ -20,7 +20,7 @@ export const revalidate = 86400;
 export const metadata: Metadata = {
   title: 'Sell My House Fast Allentown PA | Cash Offer in 24 Hours',
   description:
-    'We buy houses in Allentown PA for cash, as-is, in any condition. Written offer in 24 hours, close in 7 days. No repairs, no fees. Serving all of Lehigh County.',
+    'We buy houses in Allentown PA for cash, as-is, in any condition. Written offer in 24 hours, close in 7 days. No repairs, no fees. Hablamos español. Serving all of Lehigh County.',
   alternates: { canonical: `${SITE_URL}/markets/allentown-pa` },
   openGraph: {
     images: [{ url: '/images/allentown-landmark-hero.jpg', width: 1200, height: 630, alt: 'Allentown Steel Stacks and Victorian row homes — Sell Your House Fast in Allentown PA' }],
@@ -93,6 +93,10 @@ const FAQ_ITEMS = [
   {
     question: 'What happens after I submit the form?',
     answer: 'We call you within hours during business hours. We\'ll ask about 5-10 questions about the property — condition, situation, what you need from a timeline. Within 24 hours, you receive a written cash offer. No high-pressure sales calls. The offer stands on its own.',
+  },
+  {
+    question: '¿Hablan español? / Do you have Spanish-speaking staff?',
+    answer: 'Sí, hablamos español. Allentown\'s Hispanic community makes up over 50% of the population — we serve the entire community and can handle the process in English or Spanish, from the first call through closing. Call us at (888) 440-5250.',
   },
 ];
 
