@@ -4,7 +4,7 @@ import { Inter } from 'next/font/google';
 import './globals.css';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
-import { MobileCallBar } from '@/components/MobileCallBar';
+import { StickyMobileCTA } from '@/components/StickyMobileCTA';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
 import { ExitIntentPopup } from '@/components/ExitIntentPopup';
 import { organizationSchema } from '@/lib/schema';
@@ -66,7 +66,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Header />
         <main>{children}</main>
         <Footer />
-        <MobileCallBar />
+        <StickyMobileCTA />
         <ExitIntentPopup />
       </body>
     </html>

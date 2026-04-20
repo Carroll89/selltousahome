@@ -144,36 +144,17 @@ export default function StateCollegeMarketPage() {
             </div>
             <a
               href={`tel:${PHONE}`}
-              className="inline-flex items-center gap-2 text-white bg-white/10 border border-white/30 rounded-lg px-5 py-3 hover:bg-white/20"
+              className="flex w-full md:w-auto items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white font-bold rounded-lg px-6 py-4 text-xl md:py-3 md:text-lg shadow-lg transition-colors ring-2 ring-green-400/50"
             >
-              📞 Call Now — We Answer 24/7
+              📞 Call 888-440-5250 — We Answer 24/7
             </a>
+            <p className="mt-3 text-blue-200 text-xs md:text-sm">BBB Accredited · 15+ Years Experience · Hundreds of Homes Purchased</p>
           </div>
           <div>
             <CashOfferForm variant="hero" sourcePage="/markets/state-college-pa" />
           </div>
         </div>
       </section>
-
-      <VideoEmbed
-        src="/videos/state-college-main.mp4"
-        title="Sell Your House Fast in State College, PA"
-        poster="/videos/state-college-main-poster.jpg"
-        subtitle="See how we help homeowners in State College and Centre County sell fast"
-      />
-      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
-        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
-          📝 Video Transcript
-        </summary>
-        <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          <p className="mb-3">If you&apos;re trying to sell a house in State College, there are a few things about this market that most sellers don&apos;t find out until it&apos;s too late. I&apos;m with USA Home Buyers, and we buy houses here in Centre County for cash — fast, as-is, no games.</p>
-          <p className="mb-3">First thing to know: State College Borough has a 3% realty transfer tax — not the standard 2% you&apos;d see in most of Pennsylvania. On a $400,000 sale that&apos;s $12,000 in transfer taxes versus $8,000 a few miles away in a township. We cover that when we buy your home. You don&apos;t pay it.</p>
-          <p className="mb-3">Second: this is one of the most renter-heavy markets in Pennsylvania. Nearly 74% of housing units are rentals — which means there are a lot of landlords who are tired of the annual Penn State lease cycle: find tenants in the spring, deal with move-out damage in May, start over. If that&apos;s your situation, we buy rental properties with tenants in place.</p>
-          <p className="mb-3">Third: the dominant housing stock here is 1970s and 1980s split-levels and colonials. Great bones, but they need updating. Traditional buyers will come in with inspectors and repair demands. We don&apos;t. We buy as-is.</p>
-          <p className="mb-3">The process is simple. You call us or fill out the form. We get back to you within hours, ask about 10 questions about the property, and give you a written cash offer within 24 hours. If you accept, we set a closing date — as fast as seven days, or whenever works for you.</p>
-          <p className="mb-3">We serve all of Centre County: State College Borough, Bellefonte, Boalsburg, Ferguson Township, Patton Township, Port Matilda, and beyond. Call USA Home Buyers at 888-440-5250.</p>
-        </div>
-      </details>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
@@ -182,6 +163,28 @@ export default function StateCollegeMarketPage() {
           <h2 className="text-xl md:text-2xl font-bold text-brand-dark mb-3">Quick Answer: Sell Your House Fast in State College, PA</h2>
           <p className="text-gray-700 leading-relaxed">USA Home Buyers purchases houses in State College, PA for cash — as-is, in any condition, with no repairs and no agent fees. According to the Zillow Home Value Index, the State College median home value is $408,500 (March 2026, +0.9% year-over-year); Redfin's median closed sale price is $450,000 with a Compete Score of 93/100 — among the most competitive in Pennsylvania. Homes go pending in 5 days on average. We close in 7–14 days, no inspections or financing contingencies. We serve all of State College and Centre County.</p>
         </section>
+
+        <VideoEmbed
+        src="/videos/state-college-main.mp4"
+        title="Sell Your House Fast in State College, PA"
+        poster="/videos/state-college-main-poster.jpg"
+        subtitle="See how we help homeowners in State College and Centre County sell fast"
+        />
+        <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+        📝 Video Transcript
+        </summary>
+        <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+        <p className="mb-3">If you&apos;re trying to sell a house in State College, there are a few things about this market that most sellers don&apos;t find out until it&apos;s too late. I&apos;m with USA Home Buyers, and we buy houses here in Centre County for cash — fast, as-is, no games.</p>
+        <p className="mb-3">First thing to know: State College Borough has a 3% realty transfer tax — not the standard 2% you&apos;d see in most of Pennsylvania. On a $400,000 sale that&apos;s $12,000 in transfer taxes versus $8,000 a few miles away in a township. We cover that when we buy your home. You don&apos;t pay it.</p>
+        <p className="mb-3">Second: this is one of the most renter-heavy markets in Pennsylvania. Nearly 74% of housing units are rentals — which means there are a lot of landlords who are tired of the annual Penn State lease cycle: find tenants in the spring, deal with move-out damage in May, start over. If that&apos;s your situation, we buy rental properties with tenants in place.</p>
+        <p className="mb-3">Third: the dominant housing stock here is 1970s and 1980s split-levels and colonials. Great bones, but they need updating. Traditional buyers will come in with inspectors and repair demands. We don&apos;t. We buy as-is.</p>
+        <p className="mb-3">The process is simple. You call us or fill out the form. We get back to you within hours, ask about 10 questions about the property, and give you a written cash offer within 24 hours. If you accept, we set a closing date — as fast as seven days, or whenever works for you.</p>
+        <p className="mb-3">We serve all of Centre County: State College Borough, Bellefonte, Boalsburg, Ferguson Township, Patton Township, Port Matilda, and beyond. Call USA Home Buyers at 888-440-5250.</p>
+        </div>
+        </details>
+
+
 
 
         {/* FAQ moved up — section order differs from Harrisburg/Allentown builds */}

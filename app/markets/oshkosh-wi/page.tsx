@@ -175,26 +175,13 @@ export default function OshkoshWIMarketPage() {
             </p>
             <a
               href="tel:+18884405250"
-              className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors"
+              className="flex w-full md:w-auto items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white font-bold rounded-lg px-6 py-4 text-xl md:py-3 md:text-lg shadow-lg transition-colors ring-2 ring-green-400/50"
             >
-              📞 Call Now — 888-440-5250 (24/7)
+              📞 Call 888-440-5250 — We Answer 24/7
             </a>
+            <p className="mt-3 text-blue-200 text-xs md:text-sm">BBB Accredited · 15+ Years Experience · Hundreds of Homes Purchased</p>
           </div>
           <div>
-            <VideoEmbed
-              src="/videos/oshkosh-wi/landing.mp4"
-              title="Sell My House Fast Oshkosh WI — USA Home Buyers"
-              poster="/videos/oshkosh-wi/landing-poster.jpg"
-              subtitle="Cash offers for Oshkosh and Winnebago County WI homes — any condition"
-            />
-            <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
-              <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
-                📝 Video Transcript
-              </summary>
-              <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-                If you need to sell your house fast in Oshkosh, Wisconsin — you've found the right team. We're USA Home Buyers, and we purchase houses as-is, for cash, throughout Winnebago County. No agents. No fees. No repairs needed. Written cash offer within 24 hours, close in as few as seven days. Call us at 888-440-5250.
-              </div>
-            </details>
             <CashOfferForm
               variant="hero"
               headline="Get Your Oshkosh WI Cash Offer"
@@ -204,6 +191,23 @@ export default function OshkoshWIMarketPage() {
           </div>
         </div>
       </section>
+
+        <VideoEmbed
+        src="/videos/oshkosh-wi/landing.mp4"
+        title="Sell My House Fast Oshkosh WI — USA Home Buyers"
+        poster="/videos/oshkosh-wi/landing-poster.jpg"
+        subtitle="Cash offers for Oshkosh and Winnebago County WI homes — any condition"
+        />
+        <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+        📝 Video Transcript
+        </summary>
+        <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+        If you need to sell your house fast in Oshkosh, Wisconsin — you've found the right team. We're USA Home Buyers, and we purchase houses as-is, for cash, throughout Winnebago County. No agents. No fees. No repairs needed. Written cash offer within 24 hours, close in as few as seven days. Call us at 888-440-5250.
+        </div>
+        </details>
+
+
 
       <div className="max-w-7xl mx-auto px-4 py-8">
         <HowItWorks />

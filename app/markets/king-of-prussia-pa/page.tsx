@@ -161,35 +161,17 @@ export default function KingOfPrussiaMarketPage() {
             </div>
             <a
               href={`tel:${PHONE}`}
-              className="inline-flex items-center gap-2 text-white bg-white/10 border border-white/30 rounded-lg px-5 py-3 hover:bg-white/20"
+              className="flex w-full md:w-auto items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white font-bold rounded-lg px-6 py-4 text-xl md:py-3 md:text-lg shadow-lg transition-colors ring-2 ring-green-400/50"
             >
-              📞 {PHONE}
+              📞 Call 888-440-5250 — We Answer 24/7
             </a>
+            <p className="mt-3 text-blue-200 text-xs md:text-sm">BBB Accredited · 15+ Years Experience · Hundreds of Homes Purchased</p>
           </div>
           <div>
             <CashOfferForm variant="hero" sourcePage="/markets/king-of-prussia-pa" />
           </div>
         </div>
       </section>
-
-      <VideoEmbed
-        src="https://v3b.fal.media/files/b/0a95decf/74Ql1wWuwS01CHQNHWto7_tmp_92t1iuy.mp4"
-        title="Sell Your House Fast in King of Prussia, PA"
-        poster="/images/video-posters/kop-main.jpg"
-        subtitle="Cash offer in 24 hours — no repairs, no agent fees"
-      />
-      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
-        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
-          📝 Video Transcript
-        </summary>
-        <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-            <p className="mb-3">If you&apos;re looking to sell your house fast in King of Prussia, PA, here&apos;s how we work. I&apos;m with USA Home Buyers. We buy homes in King of Prussia and throughout Montgomery County for cash, as-is, in any condition.</p>
-            <p className="mb-3">Here&apos;s the 2026 market reality in King of Prussia. Zillow puts the median home value at $453,560. Redfin&apos;s median sale price is $549,350. King of Prussia has a Redfin Compete Score of 82 out of 100. But the median home takes 34 days to go pending, then another 45 to 60 days to close. You&apos;re looking at three to four months from listing to cash in hand.</p>
-            <p className="mb-3">We close in 7 to 14 days. Written offer within 24 hours of your call. No repairs, no cleaning, no agent commissions. We cover all closing costs.</p>
-            <p className="mb-3">We serve all of Upper Merion Township and Montgomery County: Norristown, Conshohocken, Plymouth Meeting, Wayne, Collegeville, Valley Forge, Bryn Mawr, Bridgeport, and surrounding communities. Whether you&apos;re relocating, dealing with an inherited property, or facing a time-sensitive situation — we&apos;re the call to make.</p>
-            <p className="mb-3">Call USA Home Buyers at 888-440-5250. We&apos;ll ask a few questions, make a fair written offer within 24 hours, and close on your schedule.</p>
-        </div>
-      </details>
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
@@ -198,6 +180,27 @@ export default function KingOfPrussiaMarketPage() {
           <h2 className="text-xl md:text-2xl font-bold text-brand-dark mb-3">Quick Answer: Sell Your House Fast in King of Prussia, PA</h2>
           <p className="text-gray-700 leading-relaxed">USA Home Buyers purchases houses in King of Prussia, PA for cash — no repairs, no fees, close in your timeline. According to the Zillow Home Value Index, the King of Prussia median home value is $453,560 (February 2026, +5.9% year-over-year); Redfin's median closed sale price is $549,350. The typical KOP home takes 34 days to go pending and another 45–60 days to close — roughly 80–95 days total. We close in 7–14 days. No inspections, no appraisals, no financing contingencies. Montgomery County's standard 2% transfer tax applies; we cover all closing costs.</p>
         </section>
+
+        <VideoEmbed
+        src="https://v3b.fal.media/files/b/0a95decf/74Ql1wWuwS01CHQNHWto7_tmp_92t1iuy.mp4"
+        title="Sell Your House Fast in King of Prussia, PA"
+        poster="/images/video-posters/kop-main.jpg"
+        subtitle="Cash offer in 24 hours — no repairs, no agent fees"
+        />
+        <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+        📝 Video Transcript
+        </summary>
+        <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+        <p className="mb-3">If you&apos;re looking to sell your house fast in King of Prussia, PA, here&apos;s how we work. I&apos;m with USA Home Buyers. We buy homes in King of Prussia and throughout Montgomery County for cash, as-is, in any condition.</p>
+        <p className="mb-3">Here&apos;s the 2026 market reality in King of Prussia. Zillow puts the median home value at $453,560. Redfin&apos;s median sale price is $549,350. King of Prussia has a Redfin Compete Score of 82 out of 100. But the median home takes 34 days to go pending, then another 45 to 60 days to close. You&apos;re looking at three to four months from listing to cash in hand.</p>
+        <p className="mb-3">We close in 7 to 14 days. Written offer within 24 hours of your call. No repairs, no cleaning, no agent commissions. We cover all closing costs.</p>
+        <p className="mb-3">We serve all of Upper Merion Township and Montgomery County: Norristown, Conshohocken, Plymouth Meeting, Wayne, Collegeville, Valley Forge, Bryn Mawr, Bridgeport, and surrounding communities. Whether you&apos;re relocating, dealing with an inherited property, or facing a time-sensitive situation — we&apos;re the call to make.</p>
+        <p className="mb-3">Call USA Home Buyers at 888-440-5250. We&apos;ll ask a few questions, make a fair written offer within 24 hours, and close on your schedule.</p>
+        </div>
+        </details>
+
+
 
         {/* How It Works */}
         <HowItWorks heading="How Selling Your King of Prussia Home for Cash Works" />

@@ -155,10 +155,11 @@ export default function ChampaignUrbanaILMarketPage() {
             </h1>
             <a
               href="tel:+18884405250"
-              className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors"
+              className="flex w-full md:w-auto items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white font-bold rounded-lg px-6 py-4 text-xl md:py-3 md:text-lg shadow-lg transition-colors ring-2 ring-green-400/50"
             >
-              📞 Call Now — (888) 440-5250 (24/7)
+              📞 Call 888-440-5250 — We Answer 24/7
             </a>
+            <p className="mt-3 text-blue-200 text-xs md:text-sm">BBB Accredited · 15+ Years Experience · Hundreds of Homes Purchased</p>
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
@@ -169,20 +170,6 @@ export default function ChampaignUrbanaILMarketPage() {
               We buy houses throughout Champaign and Urbana — Campustown rentals, University District estates, Southwest Champaign faculty homes, Urbana working-class neighborhoods. Any condition, any situation.
             </p>
           </div>
-      <VideoEmbed
-        src="/videos/champaign-urbana-il/landing.mp4"
-        title="Sell My House Fast Champaign-Urbana IL — USA Home Buyers"
-        poster="/videos/champaign-urbana-il/landing-poster.jpg"
-        subtitle="Cash offers for Champaign, Urbana, and Champaign County homes — any condition"
-      />
-      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
-        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
-          📝 Video Transcript
-        </summary>
-        <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          Need to sell your house fast in Champaign-Urbana, Illinois? USA Home Buyers purchases homes as-is for cash throughout Champaign County. No agents, no fees, no repairs. Written cash offer in 24 hours, close in 7 days. Call 888-440-5250.
-        </div>
-      </details>
           <div>
             <CashOfferForm
               variant="hero"
@@ -193,6 +180,23 @@ export default function ChampaignUrbanaILMarketPage() {
           </div>
         </div>
       </section>
+
+        <VideoEmbed
+        src="/videos/champaign-urbana-il/landing.mp4"
+        title="Sell My House Fast Champaign-Urbana IL — USA Home Buyers"
+        poster="/videos/champaign-urbana-il/landing-poster.jpg"
+        subtitle="Cash offers for Champaign, Urbana, and Champaign County homes — any condition"
+        />
+        <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+        📝 Video Transcript
+        </summary>
+        <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+        Need to sell your house fast in Champaign-Urbana, Illinois? USA Home Buyers purchases homes as-is for cash throughout Champaign County. No agents, no fees, no repairs. Written cash offer in 24 hours, close in 7 days. Call 888-440-5250.
+        </div>
+        </details>
+
+
 
       <div className="max-w-7xl mx-auto px-4 py-8">
         <HowItWorks />

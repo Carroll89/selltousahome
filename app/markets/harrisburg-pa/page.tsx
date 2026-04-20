@@ -133,34 +133,16 @@ export default function HarrisburgMarketPage() {
               <span>✓ We pay closing costs</span>
               <span>✓ Close in 7 days</span>
             </div>
-            <a href={`tel:${PHONE}`} className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white font-bold rounded-lg px-6 py-3 text-lg shadow-lg transition-colors">
-              📞 Call Now — We Answer 24/7
+            <a href={`tel:${PHONE}`} className="flex w-full md:w-auto items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white font-bold rounded-lg px-6 py-4 text-xl md:py-3 md:text-lg shadow-lg transition-colors ring-2 ring-green-400/50">
+              📞 Call 888-440-5250 — We Answer 24/7
             </a>
+            <p className="mt-3 text-blue-200 text-xs md:text-sm">BBB Accredited · 15+ Years Experience · Hundreds of Homes Purchased</p>
           </div>
           <div>
             <CashOfferForm variant="hero" sourcePage="/markets/harrisburg-pa" />
           </div>
         </div>
       </section>
-      <VideoEmbed
-        src="https://v3b.fal.media/files/b/0a95c0fc/QS_oBfAsYUxtHMdVSx8CT_harrisburg-main.mp4"
-        title="Sell Your House Fast in Harrisburg, PA"
-        poster="/images/video-posters/harrisburg-main-poster.jpg"
-        subtitle="See how we help homeowners in Harrisburg sell fast for cash"
-      />
-      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
-        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
-          📝 Video Transcript
-        </summary>
-        <div className="px4 pb-4 text-sm text-gray-600 leading-relaxed">
-            <p className="mb-3">Hey, if you&apos;re looking to sell your house fast in Harrisburg, PA, we can help. I&apos;m with USA Home Buyers — we buy houses right here in Harrisburg and all of Dauphin County, and we do it fast.</p>
-            <p className="mb-3">Here&apos;s how it works. You call us or fill out our form online. We ask you maybe five or ten questions about the property — the condition, your situation, what kind of timeline you need. Within 24 hours, you get a written cash offer. No pressure, no obligation. If you accept, we set a closing date that works for you. We&apos;ve closed in as few as five days in the Harrisburg area.</p>
-            <p className="mb-3">Why go the cash route? The Harrisburg market has a median home value around $234,000, and the average days to pending is just five days — so it&apos;s a fast market. But once you go pending on the MLS, you&apos;re still looking at 45 to 60 more days for inspections, appraisals, and mortgage underwriting. That&apos;s two months of uncertainty. If the financing falls through, you start over.</p>
-            <p className="mb-3">We don&apos;t use financing. We pay cash. There&apos;s no appraisal contingency, no mortgage approval, no deal falling through at the last minute. No repairs, no cleaning, no agent commissions. We cover all closing costs.</p>
-            <p className="mb-3">We serve all of Harrisburg — Camp Hill, Mechanicsburg, Carlisle, Steelton, and surrounding Dauphin County communities. Whatever your situation, we&apos;ve handled it before.</p>
-            <p className="mb-3">Give us a call at 888-440-5250. We&apos;re here to make this as simple as possible.</p>
-        </div>
-      </details>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         {/* TL;DR — GEO/AEO Quick Answer */}
@@ -168,6 +150,28 @@ export default function HarrisburgMarketPage() {
           <h2 className="text-xl md:text-2xl font-bold text-brand-dark mb-3">Quick Answer: Sell Your House Fast in Harrisburg, PA</h2>
           <p className="text-gray-700 leading-relaxed">USA Home Buyers purchases houses in Harrisburg, PA for cash — as-is, in any condition, with no repairs and no agent fees. According to the Zillow Home Value Index, the Harrisburg area median home value is $234,569 (April 2026); within city limits, Redfin tracks a median closed sale price of approximately $145,000. The market goes pending in 5 days on average, but after that, financing and inspections add another 45–60 days. We close in 7–14 days — cash, no contingencies. We serve all of Harrisburg and Dauphin County.</p>
         </section>
+
+        <VideoEmbed
+        src="https://v3b.fal.media/files/b/0a95c0fc/QS_oBfAsYUxtHMdVSx8CT_harrisburg-main.mp4"
+        title="Sell Your House Fast in Harrisburg, PA"
+        poster="/images/video-posters/harrisburg-main-poster.jpg"
+        subtitle="See how we help homeowners in Harrisburg sell fast for cash"
+        />
+        <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+        📝 Video Transcript
+        </summary>
+        <div className="px4 pb-4 text-sm text-gray-600 leading-relaxed">
+        <p className="mb-3">Hey, if you&apos;re looking to sell your house fast in Harrisburg, PA, we can help. I&apos;m with USA Home Buyers — we buy houses right here in Harrisburg and all of Dauphin County, and we do it fast.</p>
+        <p className="mb-3">Here&apos;s how it works. You call us or fill out our form online. We ask you maybe five or ten questions about the property — the condition, your situation, what kind of timeline you need. Within 24 hours, you get a written cash offer. No pressure, no obligation. If you accept, we set a closing date that works for you. We&apos;ve closed in as few as five days in the Harrisburg area.</p>
+        <p className="mb-3">Why go the cash route? The Harrisburg market has a median home value around $234,000, and the average days to pending is just five days — so it&apos;s a fast market. But once you go pending on the MLS, you&apos;re still looking at 45 to 60 more days for inspections, appraisals, and mortgage underwriting. That&apos;s two months of uncertainty. If the financing falls through, you start over.</p>
+        <p className="mb-3">We don&apos;t use financing. We pay cash. There&apos;s no appraisal contingency, no mortgage approval, no deal falling through at the last minute. No repairs, no cleaning, no agent commissions. We cover all closing costs.</p>
+        <p className="mb-3">We serve all of Harrisburg — Camp Hill, Mechanicsburg, Carlisle, Steelton, and surrounding Dauphin County communities. Whatever your situation, we&apos;ve handled it before.</p>
+        <p className="mb-3">Give us a call at 888-440-5250. We&apos;re here to make this as simple as possible.</p>
+        </div>
+        </details>
+
+
 
         {/* How It Works */}
         <HowItWorks heading="How Selling Your Harrisburg House for Cash Works" />

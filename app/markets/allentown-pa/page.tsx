@@ -138,34 +138,16 @@ export default function AllentownMarketPage() {
               <span>✓ We pay closing costs</span>
               <span>✓ Close in 7 days</span>
             </div>
-            <a href={`tel:${PHONE}`} className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white font-bold rounded-lg px-6 py-3 text-lg shadow-lg transition-colors">
-              📞 Call Now — We Answer 24/7
+            <a href={`tel:${PHONE}`} className="flex w-full md:w-auto items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white font-bold rounded-lg px-6 py-4 text-xl md:py-3 md:text-lg shadow-lg transition-colors ring-2 ring-green-400/50">
+              📞 Call 888-440-5250 — We Answer 24/7
             </a>
+            <p className="mt-3 text-blue-200 text-xs md:text-sm">BBB Accredited · 15+ Years Experience · Hundreds of Homes Purchased</p>
           </div>
           <div>
             <CashOfferForm variant="hero" sourcePage="/markets/allentown-pa" />
           </div>
         </div>
       </section>
-      <VideoEmbed
-        src="https://v3b.fal.media/files/b/0a95c0f8/zLYouEqILs7_2R7GIM9GB_allentown-main.mp4"
-        title="Sell Your House Fast in Allentown, PA"
-        poster="/images/video-posters/allentown-main-poster.jpg"
-        subtitle="See how we help homeowners in Allentown sell fast for cash — no repairs, no fees"
-      />
-      <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
-        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
-          📝 Video Transcript
-        </summary>
-        <div className="px4 pb-4 text-sm text-gray-600 leading-relaxed">
-            <p className="mb-3">Hey, if you need to sell your house fast in Allentown, PA, I want to tell you exactly how we work. I&apos;m with USA Home Buyers. We buy houses in Allentown and all of Lehigh County and Northampton County for cash, as-is, with no repairs and no agent fees.</p>
-            <p className="mb-3">Here&apos;s the Allentown market right now in 2026. Median home value is around $267,000 per Zillow, with median sale prices on Redfin coming in around $245,000. Average days to pending is 29 days — it&apos;s an active market. But after you go pending, you&apos;re still 45 to 60 days from closing. That&apos;s two to three months from listing to keys changing hands.</p>
-            <p className="mb-3">We short-circuit all of that. You contact us, we ask a few questions about your property and situation, and within 24 hours you have a written cash offer. If you accept, you choose the closing date. Our fastest close in the Lehigh Valley was six days.</p>
-            <p className="mb-3">No repairs. No cleaning. No staging. No open houses. No agent commissions eating 5 to 6 percent of your sale price. We cover all closing costs.</p>
-            <p className="mb-3">We serve all of Allentown — the South Side, West End, Fountain Hill, Whitehall, Bethlehem, Easton, Northampton Borough, Emmaus, Catasauqua, and every corner of Lehigh and Northampton County. Whatever your situation — estate, divorce, foreclosure, bad condition, problem tenant — we&apos;ve handled it before.</p>
-            <p className="mb-3">Call 888-440-5250 to get your offer started. We&apos;re ready today.</p>
-        </div>
-      </details>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 
         {/* TL;DR — GEO/AEO Quick Answer */}
@@ -173,6 +155,28 @@ export default function AllentownMarketPage() {
           <h2 className="text-xl md:text-2xl font-bold text-brand-dark mb-3">Quick Answer: Sell Your House Fast in Allentown, PA</h2>
           <p className="text-gray-700 leading-relaxed">USA Home Buyers purchases houses in Allentown, PA for cash — as-is, in any condition, with no repairs and no agent fees. According to the Zillow Home Value Index, the typical Allentown home value is $267,465 (February 2026); Redfin's median closed sale price is $245,000, with homes averaging 29 days to pending. We skip the market process entirely — written offer within 24 hours, closing in as few as 7 days. We serve all of Allentown, Bethlehem, Easton, and Lehigh and Northampton Counties.</p>
         </section>
+
+        <VideoEmbed
+        src="https://v3b.fal.media/files/b/0a95c0f8/zLYouEqILs7_2R7GIM9GB_allentown-main.mp4"
+        title="Sell Your House Fast in Allentown, PA"
+        poster="/images/video-posters/allentown-main-poster.jpg"
+        subtitle="See how we help homeowners in Allentown sell fast for cash — no repairs, no fees"
+        />
+        <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+        📝 Video Transcript
+        </summary>
+        <div className="px4 pb-4 text-sm text-gray-600 leading-relaxed">
+        <p className="mb-3">Hey, if you need to sell your house fast in Allentown, PA, I want to tell you exactly how we work. I&apos;m with USA Home Buyers. We buy houses in Allentown and all of Lehigh County and Northampton County for cash, as-is, with no repairs and no agent fees.</p>
+        <p className="mb-3">Here&apos;s the Allentown market right now in 2026. Median home value is around $267,000 per Zillow, with median sale prices on Redfin coming in around $245,000. Average days to pending is 29 days — it&apos;s an active market. But after you go pending, you&apos;re still 45 to 60 days from closing. That&apos;s two to three months from listing to keys changing hands.</p>
+        <p className="mb-3">We short-circuit all of that. You contact us, we ask a few questions about your property and situation, and within 24 hours you have a written cash offer. If you accept, you choose the closing date. Our fastest close in the Lehigh Valley was six days.</p>
+        <p className="mb-3">No repairs. No cleaning. No staging. No open houses. No agent commissions eating 5 to 6 percent of your sale price. We cover all closing costs.</p>
+        <p className="mb-3">We serve all of Allentown — the South Side, West End, Fountain Hill, Whitehall, Bethlehem, Easton, Northampton Borough, Emmaus, Catasauqua, and every corner of Lehigh and Northampton County. Whatever your situation — estate, divorce, foreclosure, bad condition, problem tenant — we&apos;ve handled it before.</p>
+        <p className="mb-3">Call 888-440-5250 to get your offer started. We&apos;re ready today.</p>
+        </div>
+        </details>
+
+
 
         {/* How It Works */}
         <HowItWorks heading="How Selling Your Allentown House for Cash Works" />

@@ -135,9 +135,10 @@ export default function WilmingtonMarketPage() {
               <span>✓ Any condition</span>
               <span>✓ Delaware's 4% transfer tax — covered</span>
             </div>
-            <a href={`tel:${PHONE}`} className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white font-bold rounded-lg px-6 py-3 text-lg shadow-lg transition-colors mb-3">
-              📞 Call Now — We Answer 24/7
+            <a href={`tel:${PHONE}`} className="flex w-full md:w-auto items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white font-bold rounded-lg px-6 py-4 text-xl md:py-3 md:text-lg shadow-lg transition-colors ring-2 ring-green-400/50">
+              📞 Call 888-440-5250 — We Answer 24/7
             </a>
+            <p className="mt-3 text-blue-200 text-xs md:text-sm">BBB Accredited · 15+ Years Experience · Hundreds of Homes Purchased</p>
             <p className="text-blue-200 text-sm">
               Serving Wilmington · Newark · New Castle · Elsmere · Claymont · Bear · Middletown and all of New Castle County
             </p>

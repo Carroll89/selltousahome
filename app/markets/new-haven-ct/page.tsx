@@ -150,9 +150,10 @@ export default function NewHavenCTMarketPage() {
               <li>✓ We cover CT conveyance tax + all closing costs</li>
               <li>✓ Hablamos español</li>
             </ul>
-            <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
-              📞 Call Now — 888-440-5250 (24/7)
+            <a href="tel:+18884405250" className="flex w-full md:w-auto items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white font-bold rounded-lg px-6 py-4 text-xl md:py-3 md:text-lg shadow-lg transition-colors ring-2 ring-green-400/50">
+              📞 Call 888-440-5250 — We Answer 24/7
             </a>
+            <p className="mt-3 text-blue-200 text-xs md:text-sm">BBB Accredited · 15+ Years Experience · Hundreds of Homes Purchased</p>
             <p className="text-blue-100 text-xs mt-2">🇵🇷 Hablamos español — llámenos para ayuda en español</p>
           </div>
           <div>
