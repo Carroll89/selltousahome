@@ -27,26 +27,54 @@ export const metadata: Metadata = {
 
 const TESTIMONIALS = [
   {
-    quote: "My aunt owned a row home on West 4th Street in Southbridge for decades. After she passed, I inherited a property with a leaking roof, outdated knob-and-tube wiring, and a basement that flooded every spring. I'm in New York — managing a Wilmington property remotely was unsustainable. USA Home Buyers made a written offer within 24 hours and closed in 10 days. I left everything. No regrets.",
-    name: 'Marcus D.',
-    location: 'Southbridge, Wilmington DE',
-    situation: 'Inherited Property — Estate Sale',
-    date: 'March 2026',
+    "quote": "My aunt owned a row home on West 4th Street in Southbridge for decades. After she passed, I inherited a property with a leaking roof, outdated knob-and-tube wiring, and a basement that flooded every spring. I'm in New York — managing a Wilmington property remotely was unsustainable. USA Home Buyers made a written offer within 24 hours and closed in 10 days. No regrets.",
+    "name": "Marcus D.",
+    "location": "Southbridge, Wilmington DE",
+    "situation": "Inherited Property — Estate Sale",
+    "date": "March 2026"
   },
   {
-    quote: "After losing my job at ChristianaCare, I fell three months behind on my mortgage. The lender filed a complaint in NCC Superior Court — I had no idea Delaware foreclosure moved that fast. USA Home Buyers explained the judicial timeline, made a written offer the next morning, and we closed before the case progressed. I walked away with $38,000 instead of nothing.",
-    name: 'Denise W.',
-    location: 'West Center City, Wilmington DE',
-    situation: 'Foreclosure — Pre-Sheriff Sale',
-    date: 'February 2026',
+    "quote": "After losing my job at ChristianaCare, I fell three months behind on my mortgage. The lender filed a complaint in NCC Superior Court — I had no idea Delaware foreclosure moved that fast. USA Home Buyers explained the judicial timeline, made a written offer the next morning, and we closed before the case progressed. I walked away with $38,000 instead of nothing.",
+    "name": "Denise W.",
+    "location": "West Center City, Wilmington DE",
+    "situation": "Foreclosure — Pre-Sheriff Sale",
+    "date": "February 2026"
   },
   {
-    quote: "Our divorce settlement required the house on Shallcross Avenue to be sold. My ex and I couldn't agree on anything. USA Home Buyers handled the whole transaction through our attorneys — one number, one closing, proceeds split cleanly the day we signed. Fastest part of the whole divorce.",
-    name: 'Patricia R.',
-    location: 'Trolley Square area, Wilmington DE',
-    situation: 'Divorce Sale — Clean Settlement',
-    date: 'January 2026',
+    "quote": "Our divorce settlement required the house on Shallcross Avenue to be sold. My ex and I couldn't agree on anything. USA Home Buyers handled the whole transaction through our attorneys — one number, one closing, proceeds split cleanly the day we signed.",
+    "name": "Patricia R.",
+    "location": "Trolley Square area, Wilmington DE",
+    "situation": "Divorce Sale — Clean Settlement",
+    "date": "November 2025"
   },
+  {
+    "quote": "I had a Section 8 rental on Pine Street in Riverside for nine years. Good run, then it wasn't. The last tenant caused $14,000 in damage and the housing authority stopped the rent payments while it was under review. I couldn't evict, couldn't get paid, couldn't get repairs reimbursed. USA Home Buyers bought it as-is in eleven days.",
+    "name": "Leon and Karen J.",
+    "location": "Riverside, Wilmington DE",
+    "situation": "Rental Property — Section 8 Complications",
+    "date": "August 2025"
+  },
+  {
+    "quote": "W.L. Gore offered me a position at their Flagstaff facility. Five weeks to relocate. My house in Brandywine Hundred was in good shape but I couldn't manage a listing from Arizona. USA Home Buyers had a written offer in twenty-four hours and closed in nine days. I made it to Flagstaff a week early.",
+    "name": "Kevin F.",
+    "location": "Brandywine Hundred, DE",
+    "situation": "Relocation — Corporate Transfer",
+    "date": "May 2025"
+  },
+  {
+    "quote": "The row home on Lancaster Avenue had foundation cracks that had been moving. We called an engineer and they said the back wall had shifted two inches and needed shoring — $48,000 estimate. No bank would finance a buyer with a structural issue like that. USA Home Buyers came out, made an offer two days later. Closed in thirteen days.",
+    "name": "Gloria T.",
+    "location": "Cool Spring, Wilmington DE",
+    "situation": "Foundation Damage — Structural",
+    "date": "September 2025"
+  },
+  {
+    "quote": "Seventy-one years old and my husband is in a nursing facility on Foulk Road. I needed to sell the house to cover his care costs. The whole situation is hard enough without adding a six-month listing process. USA Home Buyers were understanding and quick. Offer in twenty-four hours, closed in eight days.",
+    "name": "Irene M.",
+    "location": "Browntown, Wilmington DE",
+    "situation": "Downsizing — Medical Transition",
+    "date": "January 2025"
+  }
 ];
 
 const COMPARISON_ROWS = [

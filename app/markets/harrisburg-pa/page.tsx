@@ -28,26 +28,54 @@ export const metadata: Metadata = {
 
 const TESTIMONIALS = [
   {
-    quote: 'After my mother passed, my brother and I inherited her house off Derry Street. Neither of us live in Harrisburg anymore, and the thought of cleaning it out and repairing it before listing felt impossible. USA Home Buyers made us a fair offer and closed in 12 days. We didn\'t have to do a thing.',
-    name: 'Sandra M.',
-    location: 'Paxtang, PA',
-    situation: 'Inherited Property — Estate Sale',
-    date: 'March 2026',
+    "quote": "After my mother passed, my brother and I inherited her house off Derry Street. Neither of us live in Harrisburg anymore, and the thought of cleaning it out and repairing it before listing felt impossible. USA Home Buyers made us a fair offer and closed in 12 days. We didn't have to do a thing.",
+    "name": "Sandra M.",
+    "location": "Paxtang, PA",
+    "situation": "Inherited Property — Estate Sale",
+    "date": "March 2026"
   },
   {
-    quote: 'I was four months behind on my mortgage and the letters were piling up. I didn\'t know I could sell and still come out with money. USA Home Buyers explained everything, the offer was fair, and we closed before things got any worse.',
-    name: 'James R.',
-    location: 'Steelton, PA',
-    situation: 'Behind on Payments — Pre-Foreclosure',
-    date: 'February 2026',
+    "quote": "I was four months behind on my mortgage and the letters were piling up. I didn't know I could sell and still come out with money. USA Home Buyers explained everything, the offer was fair, and we closed before things got any worse.",
+    "name": "James R.",
+    "location": "Steelton, PA",
+    "situation": "Behind on Payments — Pre-Foreclosure",
+    "date": "February 2026"
   },
   {
-    quote: 'I had a tenant in my rental on Green Street who stopped paying rent and wouldn\'t leave. USA Home Buyers bought the property with the tenant still in it. That was it. Done.',
-    name: 'Carol T.',
-    location: 'Harrisburg, PA',
-    situation: 'Rental Property — Problem Tenant',
-    date: 'January 2026',
+    "quote": "Our house in Midtown was the one thing me and my ex agreed had to go. Dauphin County proceedings, judge gave us ninety days. USA Home Buyers had a written offer in twenty-four hours — fair number, both of us agreed without argument. Closed in twelve days. The house was the easiest part of the whole process.",
+    "name": "Veronica A.",
+    "location": "Midtown Harrisburg, PA",
+    "situation": "Divorce Sale — Court-Ordered",
+    "date": "July 2025"
   },
+  {
+    "quote": "I had a tenant in my rental on Green Street who stopped paying rent and wouldn't leave. USA Home Buyers bought the property with the tenant still in it. That was it. Done.",
+    "name": "Carol T.",
+    "location": "Harrisburg, PA",
+    "situation": "Rental Property — Problem Tenant",
+    "date": "January 2026"
+  },
+  {
+    "quote": "Pennsylvania DGS transferred me to the Pittsburgh office. I had my Camp Hill house on the market for a month with an agent and got two showings. Couldn't wait. USA Home Buyers gave me a written offer in a day and we closed in ten days. I made it to Pittsburgh without doubling up on rent.",
+    "name": "Marcus B.",
+    "location": "Camp Hill, PA",
+    "situation": "Relocation — State Employee Transfer",
+    "date": "April 2025"
+  },
+  {
+    "quote": "The furnace died in December and the pipes froze on the north wall. Three rooms with water damage, and the insurance claim was disputed because I'd had a lapse in coverage for two months. I was looking at $27,000 in repairs with no insurance help. USA Home Buyers came out and had me a fair number the next day. Closed in seven days.",
+    "name": "Carolyn W.",
+    "location": "Allison Hill, Harrisburg PA",
+    "situation": "Water Damage — Frozen Pipes",
+    "date": "January 2025"
+  },
+  {
+    "quote": "Sixty-nine years old, my wife is in memory care on Jonestown Road, and I needed to liquidate the house to help cover her care. It wasn't a fun situation. USA Home Buyers were straightforward and decent about it. Offer in twenty-four hours, closed in ten days. I had the money I needed.",
+    "name": "Raymond K.",
+    "location": "Penbrook, PA",
+    "situation": "Downsizing — Memory Care Transition",
+    "date": "March 2025"
+  }
 ];
 
 const COMPARISON_ROWS = [

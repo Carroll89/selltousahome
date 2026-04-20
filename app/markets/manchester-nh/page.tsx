@@ -27,26 +27,54 @@ export const metadata: Metadata = {
 
 const TESTIMONIALS = [
   {
-    quote: "My parents owned a house near the Millyard for 40 years. After my mother passed, my brother and I needed to settle the estate quickly — we both have jobs and families, neither of us lives in Manchester. USA Home Buyers had a written offer the next day and we closed in 11 days. The whole process was straightforward.",
-    name: 'Kevin D.',
-    location: 'Amoskeag, Manchester NH',
-    situation: 'Inherited Property — Estate Sale',
-    date: 'March 2026',
+    "quote": "My parents owned a house near the Millyard for 40 years. After my mother passed, my brother and I needed to settle the estate quickly — we both have jobs and families, neither of us lives in Manchester. USA Home Buyers had a written offer the next day and we closed in 11 days. The whole process was straightforward.",
+    "name": "Kevin D.",
+    "location": "Amoskeag, Manchester NH",
+    "situation": "Inherited Property — Estate Sale",
+    "date": "March 2026"
   },
   {
-    quote: "I relocated to Boston for work and had my Manchester house on the market for three months with an agent — two failed offers, one buyer who couldn't get financing. USA Home Buyers gave me a written number the next morning and we closed before my lease on the new apartment ran out.",
-    name: 'Lisa F.',
-    location: 'North End, Manchester NH',
-    situation: 'Relocation — Carrying Two Properties',
-    date: 'February 2026',
+    "quote": "New Hampshire foreclosure doesn't use courts — the lender can foreclose by publication and it moves fast. I was three months behind and only found out how fast when I got the notice of sale in the mail. USA Home Buyers explained the NH non-judicial timeline, had a written offer within twenty-four hours, and we closed before the sale date. I walked out with $44,000 I almost lost.",
+    "name": "Nathaniel R.",
+    "location": "West Side, Manchester NH",
+    "situation": "Pre-Foreclosure — Non-Judicial",
+    "date": "July 2025"
   },
   {
-    quote: "I inherited a three-unit on Bridge Street that I had no interest in managing. Two of the units needed serious work. USA Home Buyers bought the whole thing as-is, tenants and all. That was it.",
-    name: 'Patricia M.',
-    location: 'Beech Hill, Manchester NH',
-    situation: 'Tenant-Occupied Multi-Family',
-    date: 'January 2026',
+    "quote": "Divorce decree in Hillsborough County, sale required. We'd owned the house on South Beech for eleven years, a lot of equity — but we couldn't stand to be in the same room. USA Home Buyers gave us a written offer both our attorneys approved. Closed in twelve days. Money split through escrow.",
+    "name": "Shannon and Greg V.",
+    "location": "South Beech Street, Manchester NH",
+    "situation": "Divorce Sale — Court Decree",
+    "date": "October 2025"
   },
+  {
+    "quote": "I inherited a three-unit on Bridge Street that I had no interest in managing. Two of the units needed serious work. USA Home Buyers bought the whole thing as-is, tenants and all. That was it.",
+    "name": "Patricia M.",
+    "location": "Beech Hill, Manchester NH",
+    "situation": "Tenant-Occupied Multi-Family — Estate",
+    "date": "January 2026"
+  },
+  {
+    "quote": "I relocated to Boston for work and had my Manchester house on the market for three months with an agent — two failed offers, one buyer who couldn't get financing. USA Home Buyers gave me a written number the next morning and we closed before my lease on the new apartment ran out.",
+    "name": "Lisa F.",
+    "location": "North End, Manchester NH",
+    "situation": "Relocation — Carrying Two Properties",
+    "date": "September 2025"
+  },
+  {
+    "quote": "The ice dam that winter ripped out the front gutter and when it melted, the water came in through the fascia and down the living room wall. Two rooms of water damage, some mold behind the drywall. Insurance covered removal but not reconstruction. USA Home Buyers came out two days after I called. Offer the next morning, closed in seven days.",
+    "name": "Peter J.",
+    "location": "Youngsville, Manchester NH",
+    "situation": "Water Damage — Ice Dam",
+    "date": "February 2025"
+  },
+  {
+    "quote": "Sixty-six years old, widowed, and the house had more property taxes than I wanted to keep paying — $5,800 a year in NH on a fixed income. My son in Boston had been after me to move south. USA Home Buyers gave me a fair number, no open houses, no strangers in my house. Closed in eight days. I was in Massachusetts before spring.",
+    "name": "Caroline F.",
+    "location": "Hooksett Road, Manchester NH",
+    "situation": "Downsizing — Fixed Income, Tax Relief",
+    "date": "November 2025"
+  }
 ];
 
 const COMPARISON_ROWS = [

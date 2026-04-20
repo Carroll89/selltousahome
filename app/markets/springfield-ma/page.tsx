@@ -27,26 +27,54 @@ export const metadata: Metadata = {
 
 const TESTIMONIALS = [
   {
-    quote: "My uncle left me a three-family on Oak Street — built in 1922, hadn't been updated since the 1970s. I'm in Florida and couldn't manage it from down here. USA Home Buyers sent a written offer the next day and we closed in 10 days. I didn't have to fly up, didn't have to clean a thing.",
-    name: 'Carmen R.',
-    location: 'Forest Park, Springfield MA',
-    situation: 'Inherited Property — Estate Sale',
-    date: 'March 2026',
+    "quote": "My uncle left me a three-family on Oak Street — built in 1922, hadn't been updated since the 1970s. I'm in Florida and couldn't manage it from down here. USA Home Buyers sent a written offer the next day and we closed in 10 days. I didn't have to fly up, didn't have to clean a thing.",
+    "name": "Carmen R.",
+    "location": "Forest Park, Springfield MA",
+    "situation": "Inherited Property — Estate Sale",
+    "date": "March 2026"
   },
   {
-    quote: "I got behind after losing my job at MassMutual. The mortgage servicer was already sending notices. USA Home Buyers explained the Massachusetts foreclosure process — it moves fast here — and we closed before it got to auction. I walked away with money I didn't know I could keep.",
-    name: 'Darnell W.',
-    location: 'Six Corners, Springfield MA',
-    situation: 'Pre-Foreclosure — Behind on Payments',
-    date: 'February 2026',
+    "quote": "I got behind after losing my job at MassMutual. The mortgage servicer was already sending notices. USA Home Buyers explained the Massachusetts foreclosure process — it moves fast here — and we closed before it got to auction. I walked away with money I didn't know I could keep.",
+    "name": "Darnell W.",
+    "location": "Six Corners, Springfield MA",
+    "situation": "Pre-Foreclosure — Behind on Payments",
+    "date": "February 2026"
   },
   {
-    quote: "I owned a two-family on Bay Street with a problem tenant who hadn't paid rent in four months. Under Massachusetts law, eviction can take months and is expensive. USA Home Buyers bought the property with the tenant still in it. The whole thing took 12 days from first call to closing.",
-    name: 'Rosa M.',
-    location: 'Pine Point, Springfield MA',
-    situation: 'Tenant-Occupied — Problem Tenant',
-    date: 'January 2026',
+    "quote": "Hampden County probate court said sell. Neither of us had the money to buy out the other and the back-and-forth about repairs was getting expensive. USA Home Buyers gave us one written number. Both of us said yes, separately, that same evening. Closed in fourteen days. Our attorneys handled the rest.",
+    "name": "Nicole and Jeff A.",
+    "location": "East Springfield, MA",
+    "situation": "Divorce Sale — Court-Ordered",
+    "date": "July 2025"
   },
+  {
+    "quote": "I owned a two-family on Bay Street with a problem tenant who hadn't paid rent in four months. Under Massachusetts law, eviction can take months and is expensive. USA Home Buyers bought the property with the tenant still in it. The whole thing took 12 days from first call to closing.",
+    "name": "Rosa M.",
+    "location": "Pine Point, Springfield MA",
+    "situation": "Rental Property — Problem Tenant",
+    "date": "January 2026"
+  },
+  {
+    "quote": "Big Y corporate transferred me to their Connecticut headquarters and gave me a month. My house in Sixteen Acres was a good property but I needed certainty, not a listing that might take three months. USA Home Buyers closed eight days after I accepted their offer. I made it to CT on time.",
+    "name": "Marcus L.",
+    "location": "Sixteen Acres, Springfield MA",
+    "situation": "Relocation — Corporate Transfer",
+    "date": "April 2025"
+  },
+  {
+    "quote": "The boiler in my three-decker failed in January 2025 and the pipes froze. Three units, two of them with water damage in the ceilings. My insurance deductible was $8,000 and the remaining repair quote was $44,000. I'm sixty-three and I can't carry that kind of project. USA Home Buyers bought the building as-is. Closed in eleven days.",
+    "name": "Elena R.",
+    "location": "Indian Orchard, Springfield MA",
+    "situation": "Water Damage — Frozen Pipes",
+    "date": "March 2025"
+  },
+  {
+    "quote": "Both retired, house too big, property taxes $5,200 a year. The house on Belmont Avenue had been good to us but it was time. Our financial advisor suggested we downsize and put the equity to work. USA Home Buyers were straightforward — offer, agreement, closing. Done in nine days. We moved to a condo in West Springfield.",
+    "name": "Bill and Mary C.",
+    "location": "Liberty Heights, Springfield MA",
+    "situation": "Downsizing — Retirement",
+    "date": "January 2026"
+  }
 ];
 
 const COMPARISON_ROWS = [

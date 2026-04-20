@@ -27,26 +27,54 @@ export const metadata: Metadata = {
 
 const TESTIMONIALS = [
   {
-    quote: "I inherited my aunt's house on the East Side — built in the 1920s, plaster walls, older electrical. I live in New York and couldn't manage it from a distance. The Bridgeport Probate Court process was easier than I expected, and USA Home Buyers closed the week after probate was settled. I didn't have to make a single repair.",
-    name: 'Isabella R.',
-    location: 'East Side, Bridgeport CT',
-    situation: 'Inherited Property — Estate Sale',
-    date: 'March 2026',
+    "quote": "I inherited my aunt's house on the East Side — built in the 1920s, plaster walls, older electrical. I live in New York and couldn't manage it from a distance. The Bridgeport Probate Court process was straightforward, and USA Home Buyers closed the week after probate was settled. I didn't have to make a single repair.",
+    "name": "Isabella R.",
+    "location": "East Side, Bridgeport CT",
+    "situation": "Inherited Property — Estate Sale",
+    "date": "March 2026"
   },
   {
-    quote: "I was three months behind and the bank had already filed in Superior Court. A friend told me Connecticut uses strict foreclosure — there's no auction, the bank can just take title on the law day. USA Home Buyers moved fast and we closed before the law day was set. I walked away with money instead of nothing.",
-    name: 'Marcus T.',
-    location: 'North End, Bridgeport CT',
-    situation: 'Pre-Foreclosure — Strict Foreclosure',
-    date: 'February 2026',
+    "quote": "I was three months behind and the bank had already filed in Superior Court. A friend told me Connecticut uses strict foreclosure — there's no auction, the bank can just take title on the law day. USA Home Buyers moved fast and we closed before the law day was set. I walked away with money instead of nothing.",
+    "name": "Marcus T.",
+    "location": "North End, Bridgeport CT",
+    "situation": "Pre-Foreclosure — Strict Foreclosure",
+    "date": "February 2026"
   },
   {
-    quote: "My divorce required selling the house in Black Rock. My ex and I couldn't agree on anything. USA Home Buyers gave one offer, one closing date, and the proceeds split through our attorneys. Three weeks from first call to cash in hand.",
-    name: 'Ana M.',
-    location: 'Black Rock, Bridgeport CT',
-    situation: 'Divorce Sale',
-    date: 'January 2026',
+    "quote": "My divorce required selling the house in Black Rock. My ex and I couldn't agree on anything. USA Home Buyers gave one offer, one closing date, and the proceeds split through our attorneys. Three weeks from first call to cash in hand.",
+    "name": "Ana M.",
+    "location": "Black Rock, Bridgeport CT",
+    "situation": "Divorce Sale",
+    "date": "November 2025"
   },
+  {
+    "quote": "I had a two-family on Howard Avenue for eleven years. The last tenant was three months behind and Connecticut eviction can drag on for six months or more. USA Home Buyers bought the property with the tenant still in it. Twelve days from first call to closing. I haven't thought about being a landlord since.",
+    "name": "Luis R.",
+    "location": "South End, Bridgeport CT",
+    "situation": "Rental Property — Problem Tenant",
+    "date": "July 2025"
+  },
+  {
+    "quote": "Got a management job at Pratt & Whitney in East Hartford and had to be there in five weeks. I'd been trying to sell my house in Stratfield for two months — no solid offers, one fell through on financing. USA Home Buyers had a written number in twenty-four hours and we closed before I had to be in Hartford.",
+    "name": "Stephanie W.",
+    "location": "Stratfield, Bridgeport CT",
+    "situation": "Relocation — Carrying Two Properties",
+    "date": "September 2025"
+  },
+  {
+    "quote": "The boiler on my West Side property failed mid-winter and the pipes froze. Three rooms had water damage and the plaster ceilings in two of them came down. Contractor said $41,000 minimum. I'm seventy and I'm not financing $41,000. USA Home Buyers bought it as-is. The whole thing took nine days.",
+    "name": "Antoine M.",
+    "location": "West Side, Bridgeport CT",
+    "situation": "Water Damage — Frozen Pipes",
+    "date": "January 2026"
+  },
+  {
+    "quote": "My husband passed in the spring of 2025. I'm sixty-eight, I don't drive, and the house was too much. I have two daughters in Stamford who kept asking me to move closer. USA Home Buyers made me a fair offer — didn't have to stage anything or have strangers walking through. Closed in eight days. I was in Stamford by the end of the month.",
+    "name": "Miriam K.",
+    "location": "Hollow, Bridgeport CT",
+    "situation": "Downsizing — Widowed, Relocating to Family",
+    "date": "October 2025"
+  }
 ];
 
 const COMPARISON_ROWS = [

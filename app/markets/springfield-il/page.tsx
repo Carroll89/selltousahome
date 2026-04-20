@@ -60,26 +60,54 @@ const springfieldILLocalBusinessSchema = {
 
 const TESTIMONIALS = [
   {
-    quote: "I inherited my dad's place in Enos Park after he passed — one of those 1900s frame houses on North 5th Street with the wraparound porch. The electrical hadn't been touched since the 60s, the roof was shot, and I live in Bloomington now, so managing it remotely wasn't happening. USA Home Buyers had a written cash offer in my inbox the next morning. We closed fourteen days later. No cleanout, no repairs, no arguing with contractors about a property I'd never live in. They handled everything.",
-    name: 'Karen M.',
-    location: 'Enos Park, Springfield IL',
-    situation: 'Inherited Estate — Victorian Frame House',
-    date: 'March 2026',
+    "quote": "I inherited my dad's place in Enos Park after he passed — one of those 1900s frame houses on North 5th Street with the wraparound porch. The electrical hadn't been touched since the 60s, the roof was shot, and I live in Bloomington now. USA Home Buyers had a written cash offer in my inbox the next morning. We closed fourteen days later. No cleanout, no repairs.",
+    "name": "Karen M.",
+    "location": "Enos Park, Springfield IL",
+    "situation": "Inherited Estate — Victorian Frame House",
+    "date": "March 2026"
   },
   {
-    quote: "I'm a state employee — when my position got transferred to Chicago, I had about six weeks to sort out my house on the south side of Springfield before I needed to be up there. I didn't have time for showings, inspections, or waiting on a buyer's mortgage. USA Home Buyers gave me a written offer within 24 hours and we closed in ten days. Exactly what I needed.",
-    name: 'James T.',
-    location: 'South Springfield, IL',
-    situation: 'State Employee Relocation',
-    date: 'February 2026',
+    "quote": "Got laid off from the Illinois Department of Central Management Services and couldn't stay current on the mortgage. The lender filed in Sangamon County. I had more equity than I realized. USA Home Buyers explained where I stood, gave me a written offer the next day. We closed in eleven days and the foreclosure case was dismissed. Walked away with $33,000.",
+    "name": "Rodney B.",
+    "location": "East Springfield, IL",
+    "situation": "Pre-Foreclosure — Behind on Payments",
+    "date": "May 2025"
   },
   {
-    quote: "Harvard Park bungalow, deferred maintenance for years, divorce situation making things complicated. My attorney told me we needed the house sold to finalize the decree. USA Home Buyers worked around the court timeline, gave us a single offer both parties agreed to, and closed the week after the judge signed off. One number, one closing, done.",
-    name: 'Linda R.',
-    location: 'Harvard Park, Springfield IL',
-    situation: 'Divorce Sale — Sangamon County',
-    date: 'January 2026',
+    "quote": "Harvard Park bungalow, deferred maintenance for years, divorce situation making things complicated. My attorney told me we needed the house sold to finalize the decree. USA Home Buyers worked around the court timeline, gave us a single offer both parties agreed to, and closed the week after the judge signed off.",
+    "name": "Linda R.",
+    "location": "Harvard Park, Springfield IL",
+    "situation": "Divorce Sale — Sangamon County",
+    "date": "January 2026"
   },
+  {
+    "quote": "I owned a rental on Maywood Drive for six years. Fine until the tenant stopped paying and started subletting to three other people I had never approved. Code enforcement showed up twice. USA Home Buyers bought it with the tenants still inside. I didn't have to do a single eviction filing. Nine days from first call to closing.",
+    "name": "Christine D.",
+    "location": "Grandview Drive area, Springfield IL",
+    "situation": "Rental Property — Unauthorized Occupants",
+    "date": "August 2025"
+  },
+  {
+    "quote": "I'm a state employee — when my position got transferred to Chicago, I had about six weeks to sort out my house on the south side of Springfield before I needed to be up there. I didn't have time for showings, inspections, or waiting on a buyer's mortgage. USA Home Buyers gave me a written offer within 24 hours and we closed in ten days.",
+    "name": "James T.",
+    "location": "South Springfield, IL",
+    "situation": "State Employee Relocation",
+    "date": "February 2026"
+  },
+  {
+    "quote": "Tornado did roof damage in June 2025 and we had water in two bedrooms for weeks before I could get a contractor out. By the time the contractor arrived, there was mold in the ceiling joists. Insurance covered removal but not full reconstruction. USA Home Buyers bought it as-is, no inspection contingency, closed in twelve days.",
+    "name": "Larry A.",
+    "location": "Clear Lake, Springfield IL",
+    "situation": "Storm Damage — Tornado",
+    "date": "July 2025"
+  },
+  {
+    "quote": "My husband retired from the Illinois State Library after thirty-one years. We'd talked about moving to Florida for years. The house in North Glenwood was fine — just bigger than we needed. USA Home Buyers gave us a fair offer. We closed in eight days and were in Sarasota before the weather turned cold.",
+    "name": "Alice and Ben W.",
+    "location": "North Glenwood, Springfield IL",
+    "situation": "Downsizing — Retirement Move",
+    "date": "November 2025"
+  }
 ];
 
 const COMPARISON_ROWS = [

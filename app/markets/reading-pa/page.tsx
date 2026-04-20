@@ -29,26 +29,54 @@ export const metadata: Metadata = {
 
 const TESTIMONIALS = [
   {
-    quote: 'My mother left us her house on Hampden Boulevard after she passed. It needed a new roof, the electrical was old, and none of us had the money to fix it up for the market. USA Home Buyers gave us a fair cash offer and closed in 10 days. We didn\'t touch a thing.',
-    name: 'Maria R.',
-    location: 'Hampden Heights, Reading PA',
-    situation: 'Inherited Property — Estate Sale',
-    date: 'March 2026',
+    "quote": "My mother left us her house on Hampden Boulevard after she passed. It needed a new roof, the electrical was old, and none of us had the money to fix it up for the market. USA Home Buyers gave us a fair cash offer and closed in 10 days. We didn't touch a thing.",
+    "name": "Maria R.",
+    "location": "Hampden Heights, Reading PA",
+    "situation": "Inherited Property — Estate Sale",
+    "date": "March 2026"
   },
   {
-    quote: 'I was three months behind on my mortgage on my row home in East Reading. I didn\'t know I could sell and still walk away with money. The process was explained in Spanish, which made a huge difference. We closed before anything got worse.',
-    name: 'Carlos V.',
-    location: 'East Reading, PA',
-    situation: 'Pre-Foreclosure — Behind on Mortgage',
-    date: 'February 2026',
+    "quote": "I was three months behind on my mortgage on my row home in East Reading. I didn't know I could sell and still walk away with money. The process was explained in Spanish, which made a huge difference. We closed before anything got worse.",
+    "name": "Carlos V.",
+    "location": "East Reading, PA",
+    "situation": "Pre-Foreclosure — Behind on Mortgage",
+    "date": "February 2026"
   },
   {
-    quote: 'I had a rental property near GoggleWorks with a tenant who hadn\'t paid rent in four months and wouldn\'t leave. USA Home Buyers bought it with the tenant still inside. Done. That was it.',
-    name: 'Patricia M.',
-    location: 'Reading, PA',
-    situation: 'Rental Property — Problem Tenant',
-    date: 'January 2026',
+    "quote": "The Berks County judge ordered the house on Perkiomen Avenue sold as part of the decree. Me and my ex-husband hadn't been living together for two years — we just needed someone to buy it without us having to agree on every little thing. USA Home Buyers gave us a written offer, both signed through our lawyers, closed in nine days.",
+    "name": "Luz and Ricardo F.",
+    "location": "Centre Park, Reading PA",
+    "situation": "Divorce Sale — Court Decree",
+    "date": "July 2025"
   },
+  {
+    "quote": "I had a rental property near GoggleWorks with a tenant who hadn't paid rent in four months and wouldn't leave. USA Home Buyers bought it with the tenant still inside. Done. That was it.",
+    "name": "Patricia M.",
+    "location": "Reading, PA",
+    "situation": "Rental Property — Problem Tenant",
+    "date": "January 2026"
+  },
+  {
+    "quote": "Carpenter Technology's Pittsburgh facility had an opening and I took it. My house in Wyomissing was in good shape but with relocation timing I didn't have six months to list it. USA Home Buyers had a written offer in eighteen hours. I accepted. Closed in eleven days. I started in Pittsburgh on time.",
+    "name": "Tom K.",
+    "location": "Wyomissing, PA",
+    "situation": "Relocation — Corporate Transfer",
+    "date": "April 2025"
+  },
+  {
+    "quote": "A pipe burst in the upstairs bathroom and I didn't catch it for two days. Came home to a wet ceiling in the dining room and mold already starting under the bathroom vanity. The remediation estimate was $24,000 and they said three weeks minimum of work. USA Home Buyers came out, saw the damage, had me a written offer the next day. Closed in eight days.",
+    "name": "Gloria E.",
+    "location": "Mount Penn, PA",
+    "situation": "Water Damage — Burst Pipe",
+    "date": "November 2025"
+  },
+  {
+    "quote": "My husband worked at Reading's old banking district for thirty years. He's been gone four years and I've been in a house with more rooms than I need and more stairs than my knees can manage. USA Home Buyers were straightforward, the offer was fair, and we closed in six days. I didn't have to do a thing to the house.",
+    "name": "Rose M.",
+    "location": "Hampden Heights, Reading PA",
+    "situation": "Downsizing — Widowed",
+    "date": "March 2025"
+  }
 ];
 
 const COMPARISON_ROWS = [

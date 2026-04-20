@@ -28,26 +28,54 @@ export const metadata: Metadata = {
 
 const TESTIMONIALS = [
   {
-    quote: "My dad's house on East 26th Street had been sitting empty for two years after he passed. Old knob-and-tube wiring, a leaky roof, and none of us lived in Erie anymore. USA Home Buyers gave us a fair cash offer and we closed in 11 days. We didn't touch a thing.",
-    name: 'Robert D.',
-    location: 'Glenwood, Erie PA',
-    situation: 'Inherited Property — Estate Sale',
-    date: 'March 2026',
+    "quote": "My dad's house on East 26th Street had been sitting empty for two years after he passed. Old knob-and-tube wiring, a leaky roof, and none of us lived in Erie anymore. USA Home Buyers gave us a fair cash offer and we closed in 11 days. We didn't touch a thing.",
+    "name": "Robert D.",
+    "location": "Glenwood, Erie PA",
+    "situation": "Inherited Property — Estate Sale",
+    "date": "March 2026"
   },
   {
-    quote: "I was behind on my mortgage with a sheriff sale looming. I didn't realize I still had equity or that I had options. USA Home Buyers explained everything clearly, the offer was fair, and we closed in 9 days — the foreclosure was dismissed at closing.",
-    name: 'Diane M.',
-    location: 'West Bayfront, Erie PA',
-    situation: 'Pre-Foreclosure — Behind on Mortgage',
-    date: 'February 2026',
+    "quote": "I was behind on my mortgage with a sheriff sale looming. I didn't realize I still had equity or that I had options. USA Home Buyers explained everything clearly, the offer was fair, and we closed in 9 days — the foreclosure was dismissed at closing.",
+    "name": "Diane M.",
+    "location": "West Bayfront, Erie PA",
+    "situation": "Pre-Foreclosure — Behind on Mortgage",
+    "date": "February 2026"
   },
   {
-    quote: "Had a rental near Little Italy that the tenant hadn't paid rent on in six months and wouldn't leave. USA Home Buyers bought it with the tenant in place. That was it — done.",
-    name: 'Gary S.',
-    location: 'Erie, PA',
-    situation: 'Rental Property — Problem Tenant',
-    date: 'January 2026',
+    "quote": "Lawrence Park house, divorce, court order to sell. We hadn't spoken in months except through lawyers. USA Home Buyers sent one offer — we both said yes, separately, through our attorneys — and closed in fourteen days. Didn't have to share a room with my ex once.",
+    "name": "Tamara N.",
+    "location": "Lawrence Park, Erie PA",
+    "situation": "Divorce Sale — Court-Ordered",
+    "date": "September 2025"
   },
+  {
+    "quote": "Had a rental near Little Italy that the tenant hadn't paid rent on in six months and wouldn't leave. USA Home Buyers bought it with the tenant in place. That was it — done.",
+    "name": "Gary S.",
+    "location": "Erie, PA",
+    "situation": "Rental Property — Problem Tenant",
+    "date": "January 2026"
+  },
+  {
+    "quote": "Wabtec called with an offer from their Pittsburgh headquarters. I had about six weeks before I needed to be there. My Millcreek house was fine — nothing wrong with it — but the timing meant I couldn't wait for a traditional buyer. USA Home Buyers closed in eleven days. Covered both situations for a total of eleven days. That's a bargain.",
+    "name": "Brian C.",
+    "location": "Millcreek Township, Erie PA",
+    "situation": "Relocation — Corporate Transfer",
+    "date": "April 2025"
+  },
+  {
+    "quote": "The upstairs bathroom had been leaking into the kitchen ceiling for longer than I want to admit. When the ceiling finally came down, we found black mold behind the joists. Remediation company said $38,000 and four weeks of work. I'm sixty-seven and I couldn't deal with that. USA Home Buyers made me a fair offer and closed in eight days.",
+    "name": "Helen G.",
+    "location": "East Side, Erie PA",
+    "situation": "Water Damage — Mold",
+    "date": "November 2025"
+  },
+  {
+    "quote": "We'd been in our Wesleyville place for thirty-one years. Raised three kids there. But the property taxes were $4,200 a year and the house had more rooms than we'd ever use again. USA Home Buyers gave us a clean, quick exit. Closed in nine days. We had our equity check before Christmas.",
+    "name": "John and Mary A.",
+    "location": "Wesleyville, Erie PA",
+    "situation": "Downsizing — Empty Nesters",
+    "date": "December 2025"
+  }
 ];
 
 const COMPARISON_ROWS = [

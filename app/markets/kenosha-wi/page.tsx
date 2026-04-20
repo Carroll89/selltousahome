@@ -27,26 +27,54 @@ export const metadata: Metadata = {
 
 const TESTIMONIALS = [
   {
-    quote: "My father worked at AMC for 30 years. When he passed, I inherited the house on 52nd Street — three bedrooms, built in 1948, needed a new roof and furnace. I live in Chicago and couldn't manage it remotely. USA Home Buyers made a written offer the next morning and we closed in 9 days. Never had to take a day off work.",
-    name: 'Michael T.',
-    location: 'Allendale, Kenosha WI',
-    situation: 'Inherited Property — Estate Sale',
-    date: 'March 2026',
+    "quote": "My father worked at AMC for 30 years. When he passed, I inherited the house on 52nd Street — three bedrooms, built in 1948, needed a new roof and furnace. I live in Chicago and couldn't manage it remotely. USA Home Buyers made a written offer the next morning and we closed in 9 days.",
+    "name": "Michael T.",
+    "location": "Allendale, Kenosha WI",
+    "situation": "Inherited Property — Estate Sale",
+    "date": "March 2026"
   },
   {
-    quote: "After my divorce, I needed to sell the house fast and split the proceeds cleanly. Wisconsin judicial foreclosure can drag on for a year — I didn't want it to come to that. USA Home Buyers gave us one written offer, one closing date, and the proceeds split through our attorneys the same day. Clean break.",
-    name: 'Sandra K.',
-    location: 'Lincoln Park, Kenosha WI',
-    situation: 'Divorce Sale — Clean Settlement',
-    date: 'February 2026',
+    "quote": "I worked at the Amazon distribution center in Kenosha and took a medical leave for six months. Fell behind on payments, the bank filed in Kenosha County Circuit Court — Wisconsin judicial foreclosure. USA Home Buyers explained exactly where the timeline was and moved fast. Written offer in twenty-four hours, closed in eleven days. Foreclosure dismissed.",
+    "name": "Darren W.",
+    "location": "Uptown, Kenosha WI",
+    "situation": "Pre-Foreclosure — Behind on Payments",
+    "date": "August 2025"
   },
   {
-    quote: "I had a rental on 22nd Avenue that I'd owned for 12 years. Problem tenant, code violations from the city, and I was done being a landlord. USA Home Buyers bought it as-is with the tenant still there. The city violations weren't my problem anymore the day we closed.",
-    name: 'Jim B.',
-    location: 'Downtown Kenosha, WI',
-    situation: 'Rental Property — Code Violations',
-    date: 'January 2026',
+    "quote": "After my divorce, I needed to sell the house fast and split the proceeds cleanly. Wisconsin judicial foreclosure can drag on for a year — I didn't want it to come to that. USA Home Buyers gave us one written offer, one closing date, and the proceeds split through our attorneys the same day.",
+    "name": "Sandra K.",
+    "location": "Lincoln Park, Kenosha WI",
+    "situation": "Divorce Sale — Clean Settlement",
+    "date": "February 2026"
   },
+  {
+    "quote": "I had a rental on 22nd Avenue that I'd owned for 12 years. Problem tenant, code violations from the city, and I was done being a landlord. USA Home Buyers bought it as-is with the tenant still there. The city violations weren't my problem anymore the day we closed.",
+    "name": "Jim B.",
+    "location": "Downtown Kenosha, WI",
+    "situation": "Rental Property — Code Violations",
+    "date": "January 2026"
+  },
+  {
+    "quote": "Snap-on promoted me to their Milwaukee division and I had four weeks to figure out the house in North Kenosha. I wasn't going to spend two months on a listing. USA Home Buyers made a fair offer the same day we talked. I closed eight days later and had a week to find an apartment in Milwaukee.",
+    "name": "Yvonne A.",
+    "location": "North Kenosha, WI",
+    "situation": "Relocation — Corporate Transfer",
+    "date": "June 2025"
+  },
+  {
+    "quote": "We had a grease fire in the kitchen that spread to the wall and the cabinet above the range before we got it out. Insurance gave us actual cash value — $19,000 on a kitchen that would cost $35,000 to rebuild. I wasn't going to fight that for six months. USA Home Buyers bought the house as-is in nine days.",
+    "name": "Anthony S.",
+    "location": "Southside, Kenosha WI",
+    "situation": "Fire Damage — Kitchen Fire",
+    "date": "February 2025"
+  },
+  {
+    "quote": "We owned our Lakeview property for twenty-six years and the property taxes hit $6,400 this year. Both retired, two incomes gone to one Social Security check. The house had too many stairs for my husband's knees anyway. USA Home Buyers gave us a fair number and closed in seven days. We moved to a one-floor condo in Waukegan.",
+    "name": "Eleanor and Frank M.",
+    "location": "Lakeview, Kenosha WI",
+    "situation": "Downsizing — Retirement",
+    "date": "October 2025"
+  }
 ];
 
 const COMPARISON_ROWS = [

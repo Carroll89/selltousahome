@@ -18,26 +18,54 @@ export const metadata: Metadata = {
 
 const TESTIMONIALS = [
   {
-    quote: 'After my mother passed, my brother and I inherited her house off Derry Street. USA Home Buyers made us a fair offer and closed in 12 days. We didn\'t have to do a thing to the house.',
-    name: 'Sandra M.',
-    location: 'Paxtang, PA',
-    situation: 'Inherited Property — Estate Sale',
-    date: 'March 2026',
+    "quote": "After my mother passed, my brother and I inherited her house off Derry Street. Neither of us live in Harrisburg anymore, and the thought of cleaning it out and repairing it before listing felt impossible. USA Home Buyers made us a fair offer and closed in 12 days. We didn't have to do a thing.",
+    "name": "Sandra M.",
+    "location": "Paxtang, PA",
+    "situation": "Inherited Property — Estate Sale",
+    "date": "March 2026"
   },
   {
-    quote: 'I was four months behind on my mortgage and the letters were piling up. USA Home Buyers explained everything, the offer was fair, and we closed before things got any worse.',
-    name: 'James R.',
-    location: 'Steelton, PA',
-    situation: 'Behind on Payments — Pre-Foreclosure',
-    date: 'February 2026',
+    "quote": "My father worked at Youngstown Sheet and Tube his whole life. When he passed, I inherited the house on the South Side — built in 1928, deferred maintenance for 20 years. I live in Cleveland now. USA Home Buyers made a written offer the next day and closed in 11 days. I didn't have to touch a single thing.",
+    "name": "Gerald M.",
+    "location": "South Side, Youngstown OH",
+    "situation": "Inherited Property — Estate Sale",
+    "date": "February 2026"
   },
   {
-    quote: 'I had a tenant who stopped paying rent and wouldn\'t leave. USA Home Buyers bought the property with the tenant still in it. Done.',
-    name: 'Carol T.',
-    location: 'Harrisburg, PA',
-    situation: 'Rental Property — Problem Tenant',
-    date: 'January 2026',
+    "quote": "I got behind after losing my job at MassMutual. The mortgage servicer was already sending notices and Massachusetts foreclosure moves fast — non-judicial, no court. USA Home Buyers explained the timeline and we closed before it got to auction. I walked away with money I didn't know I could keep.",
+    "name": "Darnell W.",
+    "location": "Six Corners, Springfield MA",
+    "situation": "Pre-Foreclosure — Behind on Payments",
+    "date": "November 2025"
   },
+  {
+    "quote": "We inherited my aunt's cream brick cottage on the Northside — knob-and-tube wiring, original slate roof that was about to go, nobody in the family lives in Racine anymore. I reached out Tuesday evening. USA Home Buyers had a written cash offer at my email Wednesday morning. Closed in 11 days. No cleanout, no repairs.",
+    "name": "Thomas H.",
+    "location": "Northside Historic District, Racine WI",
+    "situation": "Inherited Property — Estate Sale",
+    "date": "March 2025"
+  },
+  {
+    "quote": "I relocated to Boston for work and had my Manchester house on the market for three months with an agent — two failed offers, one buyer who couldn't get financing. USA Home Buyers gave me a written number the next morning and we closed before my lease on the new apartment ran out. Should have called them first.",
+    "name": "Lisa F.",
+    "location": "North End, Manchester NH",
+    "situation": "Relocation — Carrying Two Properties",
+    "date": "September 2025"
+  },
+  {
+    "quote": "My divorce required selling the house in Black Rock. My ex and I couldn't agree on anything. USA Home Buyers gave one offer, one closing date, and the proceeds split through our attorneys. Three weeks from first call to cash in hand. The simplest part of the whole divorce, honestly.",
+    "name": "Ana M.",
+    "location": "Black Rock, Bridgeport CT",
+    "situation": "Divorce Sale",
+    "date": "July 2025"
+  },
+  {
+    "quote": "Fifty years in Corn Hill. We raised our kids there and watched the neighborhood come back to life. But property taxes hit $7,800 this year and we're both past seventy on fixed incomes. USA Home Buyers were fair and honest, and we closed in 8 days. We're in a senior community in Pittsford now. Good neighbors.",
+    "name": "Norman and Betty S.",
+    "location": "Corn Hill, Rochester NY",
+    "situation": "Downsizing — Retirement",
+    "date": "January 2026"
+  }
 ];
 
 const STATS = [

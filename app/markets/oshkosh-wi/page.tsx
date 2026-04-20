@@ -57,26 +57,54 @@ const oshkoshWILocalBusinessSchema = {
 
 const TESTIMONIALS = [
   {
-    quote: "Dad worked at Oshkosh Corporation for 31 years — the house on the Far North Side was everything he saved for. After he passed, we were trying to handle the estate from Phoenix and the Winnebago County probate timeline was longer than any of us expected. USA Home Buyers made us an offer two days after we called and closed seventeen days later. They never once asked us to come back and deal with the cleanout. The simplest part of the whole estate process.",
-    name: 'Gary T.',
-    location: 'Far North Side, Oshkosh WI',
-    situation: 'Inherited Estate — Former Oshkosh Corporation Employee',
-    date: 'March 2026',
+    "quote": "Dad worked at Oshkosh Corporation for 31 years — the house on the Far North Side was everything he saved for. After he passed, we were trying to handle the estate from Phoenix and the Winnebago County probate timeline was longer than any of us expected. USA Home Buyers made us an offer two days after we called and closed seventeen days later. The simplest part of the whole estate process.",
+    "name": "Gary T.",
+    "location": "Far North Side, Oshkosh WI",
+    "situation": "Inherited Estate — Former Oshkosh Corporation Employee",
+    "date": "March 2026"
   },
   {
-    quote: "We had a brick bungalow in the Menominee Park neighborhood — solid house, but the roof needed replacing and the furnace was on its last season. Our neighbor's EAA AirVenture short-term rental next door had dragged our comparable values around a bit. We didn't want to pour another $20,000 into a home we were leaving anyway. USA Home Buyers gave us a real number the next morning. Closed in twelve days. No inspector parade, no repair credits.",
-    name: 'Susan L.',
-    location: 'Menominee Park, Oshkosh WI',
-    situation: 'As-Is Sale — Deferred Maintenance Bungalow',
-    date: 'February 2026',
+    "quote": "After the plant I worked at outside Oshkosh restructured and cut my position, I was behind on payments within three months. The lender filed in Winnebago County Circuit Court. By that point I had a judgment date looming. USA Home Buyers had a written offer in twenty-four hours and we closed in thirteen days. The judgment was dismissed.",
+    "name": "Brian M.",
+    "location": "Riverside, Oshkosh WI",
+    "situation": "Pre-Foreclosure — Behind on Payments",
+    "date": "May 2025"
   },
   {
-    quote: "Lake Winnebago flooding had gotten into our South Shore basement twice in four years. The flood insurance was expensive, the buyers who looked at it all walked once they found out the flood history. USA Home Buyers already knew the South Shore flood-plain dynamics — no surprises, no renegotiating after inspection. Written offer, fair number, closed on our schedule. That's what we needed.",
-    name: 'Karen and Tom R.',
-    location: 'South Shore, Oshkosh WI',
-    situation: 'Flood-Plain Property — Lake Winnebago Drainage Zone',
-    date: 'January 2026',
+    "quote": "The Winnebago County divorce required the house sold before settlement could be finalized. We'd lived in Menominee Park for sixteen years — good memories, but we needed to move on. One written offer from USA Home Buyers, both signed it in the same afternoon, closed in fourteen days.",
+    "name": "Dawn and Tim F.",
+    "location": "Menominee Park, Oshkosh WI",
+    "situation": "Divorce Sale — Court-Ordered",
+    "date": "August 2025"
   },
+  {
+    "quote": "We owned a rental near Aurora Medical Center for twelve years, renting to hospital staff. Last tenant left in terrible shape — appliances missing, damage to the kitchen and bathroom. The repair estimate was $18,500. We just didn't want to put more money in. USA Home Buyers bought it as-is in nine days.",
+    "name": "Steve and Lorraine K.",
+    "location": "Sawyer Creek, Oshkosh WI",
+    "situation": "Rental Property — Tenant Damage",
+    "date": "February 2026"
+  },
+  {
+    "quote": "Pierce Manufacturing transferred me to their Bradenton, Florida facility. I had eight weeks to get to Florida. My house on the Westside needed a few updates but I wasn't going to spend the summer on that. USA Home Buyers gave me a number in twenty-four hours. I said yes and closed in eleven days. I made it to Bradenton two weeks early.",
+    "name": "Angela D.",
+    "location": "Westside, Oshkosh WI",
+    "situation": "Relocation — Corporate Transfer",
+    "date": "November 2025"
+  },
+  {
+    "quote": "Lake Winnebago flooding had gotten into our South Shore basement twice in four years. The flood insurance was expensive, the buyers who looked at it all walked once they found out the flood history. USA Home Buyers already knew the South Shore flood-plain dynamics — no surprises, no renegotiating after inspection. Written offer, fair number, closed on our schedule.",
+    "name": "Karen and Tom R.",
+    "location": "South Shore, Oshkosh WI",
+    "situation": "Flood-Plain Property — Repeated Flooding",
+    "date": "January 2026"
+  },
+  {
+    "quote": "We were both past seventy and the property taxes on our Near North Side place were $4,100 a year. The house was paid off but that's still a lot of money on a fixed income. USA Home Buyers made a fair offer and closed in eight days. We moved to a smaller place in Neenah, half the taxes, half the upkeep.",
+    "name": "Harold and Irene T.",
+    "location": "Near North Side, Oshkosh WI",
+    "situation": "Downsizing — Fixed Income",
+    "date": "March 2026"
+  }
 ];
 
 const COMPARISON_ROWS = [

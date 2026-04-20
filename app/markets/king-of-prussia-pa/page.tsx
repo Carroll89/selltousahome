@@ -29,29 +29,54 @@ export const metadata: Metadata = {
 
 const TESTIMONIALS = [
   {
-    quote:
-      "My father had lived in his split-level off Henderson Road for 42 years. When he moved to memory care, my siblings and I were left managing a house none of us lived near. It needed a new roof, updated plumbing — the works. USA Home Buyers gave us a fair cash offer and closed in 11 days. We didn't have to lift a finger.",
-    name: 'Patricia W.',
-    location: 'Wayne, PA',
-    situation: 'Inherited Property — Estate Sale',
-    date: 'March 2026',
+    "quote": "My father had lived in his split-level off Henderson Road for 42 years. When he moved to memory care, my siblings and I were left managing a house none of us lived near. It needed a new roof, updated plumbing — the works. USA Home Buyers gave us a fair cash offer and closed in 11 days. We didn't have to lift a finger.",
+    "name": "Patricia W.",
+    "location": "Wayne, PA",
+    "situation": "Inherited Property — Estate Sale",
+    "date": "March 2026"
   },
   {
-    quote:
-      "I accepted a position at a pharma company in New Jersey and had 30 days to relocate. Listing on the MLS wasn't an option. USA Home Buyers made a written offer within 24 hours and we closed the week before I had to start. I walked away with cash in hand and zero stress.",
-    name: 'David K.',
-    location: 'King of Prussia, PA',
-    situation: 'Corporate Relocation — Pharma Corridor',
-    date: 'February 2026',
+    "quote": "Lost my position at a consulting firm and burned through savings faster than I expected. The lender filed in Montgomery County Common Pleas. My attorney said I had maybe three months before judgment. I had $83,000 in equity I was about to lose. USA Home Buyers had a written offer the next morning and we closed in twelve days. Case dismissed.",
+    "name": "Vincent R.",
+    "location": "Bridgeport, PA",
+    "situation": "Pre-Foreclosure — Court Filing",
+    "date": "May 2025"
   },
   {
-    quote:
-      "Our 1964 colonial needed $90,000 in updates to compete at retail — new kitchen, bathrooms, HVAC, the whole list. We had equity but not the time or energy to manage a full renovation. USA Home Buyers bought it as-is. The net difference wasn't worth the six months of work and uncertainty.",
-    name: 'Robert & Ellen M.',
-    location: 'Upper Merion Township, PA',
-    situation: 'Deferred Maintenance — Sold As-Is',
-    date: 'January 2026',
+    "quote": "Montgomery County divorce decree said the property had to be sold to finalize the estate division. The house in Swedeland was in both our names and both of us needed the money to move forward. One written offer, both signed it within an hour of receiving it. Closed in fifteen days.",
+    "name": "Theresa and Mark S.",
+    "location": "Swedeland, PA",
+    "situation": "Divorce Sale — Court-Ordered",
+    "date": "August 2025"
   },
+  {
+    "quote": "I owned a two-bedroom rental unit near the KOP Mall that I'd been leasing to a Section 8 tenant for six years. Housing Authority inspections, maintenance calls, always something. When the tenant gave notice I decided I was done. USA Home Buyers bought it vacant, as-is, in ten days.",
+    "name": "Gordon L.",
+    "location": "King of Prussia, PA",
+    "situation": "Rental Property — Landlord Exit",
+    "date": "March 2025"
+  },
+  {
+    "quote": "I accepted a position at a pharma company in New Jersey and had 30 days to relocate. Listing on the MLS wasn't an option. USA Home Buyers made a written offer within 24 hours and we closed the week before I had to start. Walked away with cash in hand and zero stress.",
+    "name": "David K.",
+    "location": "King of Prussia, PA",
+    "situation": "Corporate Relocation — Pharma Corridor",
+    "date": "February 2026"
+  },
+  {
+    "quote": "Our 1964 colonial needed $90,000 in updates to compete at retail — new kitchen, bathrooms, HVAC, the whole list. We had equity but not the time or energy to manage a full renovation. USA Home Buyers bought it as-is. The net difference wasn't worth the six months of work and uncertainty.",
+    "name": "Robert and Ellen M.",
+    "location": "Upper Merion Township, PA",
+    "situation": "Deferred Maintenance — Sold As-Is",
+    "date": "January 2026"
+  },
+  {
+    "quote": "I'm seventy-three and my doctor recommended I move closer to my family in New Jersey. The house in Upper Merion had appreciated enormously since we bought it in 1994 — I had equity, just not the energy to deal with a full listing. USA Home Buyers gave me a fair offer. I was in New Jersey in under two weeks.",
+    "name": "Barbara K.",
+    "location": "Upper Merion Township, PA",
+    "situation": "Downsizing — Moving Closer to Family",
+    "date": "September 2025"
+  }
 ];
 
 const COMPARISON_ROWS = [

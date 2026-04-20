@@ -27,26 +27,54 @@ export const metadata: Metadata = {
 
 const TESTIMONIALS = [
   {
-    quote: "My grandfather built that row home on East Market Street in 1952. After he passed, I inherited a property with a bad roof, outdated wiring, and a tenant who hadn't paid in months. I'm in New Jersey — managing a York property remotely was killing me. USA Home Buyers made a written offer in under 24 hours and closed in 9 days. I left the furniture. No regrets.",
-    name: 'Marcus T.',
-    location: 'Northeast York, PA',
-    situation: 'Inherited Property — Estate Sale',
-    date: 'March 2026',
+    "quote": "My grandfather built that row home on East Market Street in 1952. After he passed, I inherited a property with a bad roof, outdated wiring, and a tenant who hadn't paid in months. I'm in New Jersey — managing a York property remotely was killing me. USA Home Buyers made a written offer in under 24 hours and closed in 9 days. I left the furniture.",
+    "name": "Marcus T.",
+    "location": "Northeast York, PA",
+    "situation": "Inherited Property — Estate Sale",
+    "date": "March 2026"
   },
   {
-    quote: "Received an Act 91 notice in January. I had no idea I had maybe six months before a sheriff sale. USA Home Buyers explained everything — the timeline, the options — and had a written offer the next morning. We closed before any court filings. I walked away with $41,000 instead of nothing.",
-    name: 'Denise H.',
-    location: 'Southwest York, PA',
-    situation: 'Foreclosure — Pre-Sheriff Sale',
-    date: 'February 2026',
+    "quote": "Received an Act 91 notice in January. I had no idea I had maybe six months before a sheriff sale. USA Home Buyers explained everything — the timeline, the options — and had a written offer the next morning. We closed before any court filings. I walked away with $41,000 instead of nothing.",
+    "name": "Denise H.",
+    "location": "Southwest York, PA",
+    "situation": "Foreclosure — Pre-Sheriff Sale",
+    "date": "February 2026"
   },
   {
-    quote: "Divorce settlement required the house on King Street to be sold. My ex and I couldn't even be in the same room. USA Home Buyers handled everything through our attorneys. One number, one closing, proceeds split the day we signed. Cleanest part of the whole process.",
-    name: 'Carlos R.',
-    location: 'Downtown York, PA',
-    situation: 'Divorce Sale — Clean Split',
-    date: 'January 2026',
+    "quote": "Divorce settlement required the house on King Street to be sold. My ex and I couldn't even be in the same room. USA Home Buyers handled everything through our attorneys. One number, one closing, proceeds split the day we signed.",
+    "name": "Carlos R.",
+    "location": "Downtown York, PA",
+    "situation": "Divorce Sale — Clean Split",
+    "date": "November 2025"
   },
+  {
+    "quote": "I had a rental on East Princess Street for six years. The tenant stopped paying in February, wouldn't leave, and the York County eviction process takes months. USA Home Buyers bought the property with the tenant still in it. Nine days from my first call to having the money. I did not have to go to court once.",
+    "name": "Tamara G.",
+    "location": "Spring Garden Township, PA",
+    "situation": "Rental Property — Problem Tenant",
+    "date": "July 2025"
+  },
+  {
+    "quote": "WellSpan transferred me to their Chambersburg facility and I needed to be there in four weeks. My West York house was in good shape but I couldn't be in two places at once for a traditional sale. USA Home Buyers had a written offer the same morning I called. Closed in eight days. I made it to Chambersburg before my start date.",
+    "name": "Aaron W.",
+    "location": "West York, PA",
+    "situation": "Relocation — Healthcare Transfer",
+    "date": "October 2025"
+  },
+  {
+    "quote": "The kitchen fire didn't look serious when it started, but by the time the fire company left, the back of the house had smoke damage through three rooms and the kitchen was completely gone. Insurance gave me actual cash value — $34,000. Reconstruction would have been $65,000. USA Home Buyers closed in eleven days.",
+    "name": "Cheryl B.",
+    "location": "Mount Rose, York PA",
+    "situation": "Fire Damage — Kitchen Fire",
+    "date": "March 2025"
+  },
+  {
+    "quote": "We'd been in our Springettsbury Township house for thirty-four years. Property taxes, big yard, too many rooms. Phil had a health scare and we both decided it was time to simplify. USA Home Buyers made us a fair offer and closed in seven days. We're in a condo in York with a lot less to worry about.",
+    "name": "Phil and Marion K.",
+    "location": "Springettsbury Township, PA",
+    "situation": "Downsizing — Health Scare",
+    "date": "December 2025"
+  }
 ];
 
 const COMPARISON_ROWS = [

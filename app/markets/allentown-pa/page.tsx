@@ -29,26 +29,54 @@ export const metadata: Metadata = {
 
 const TESTIMONIALS = [
   {
-    quote: 'My uncle left me a row home on the South Side — I live in Philadelphia and had no way to manage it from there. USA Home Buyers made me a fair offer, closed in 11 days, and I never had to deal with the maintenance or the tenant situation. Incredibly easy process.',
-    name: 'Marcus D.',
-    location: 'Lehigh Valley, PA',
-    situation: 'Inherited Property — Out-of-State Heir',
-    date: 'March 2026',
+    "quote": "My uncle left me a row home on the South Side — built in the 1920s, plaster walls, older electrical. I live in Philadelphia and had no way to manage it from there. USA Home Buyers made a fair offer, closed in 11 days, and I never had to deal with the maintenance or the tenant situation.",
+    "name": "Marcus D.",
+    "location": "South Side, Allentown PA",
+    "situation": "Inherited Property — Out-of-State Heir",
+    "date": "March 2026"
   },
   {
-    quote: 'I was behind on my mortgage and getting letters from the bank. I didn\'t realize I could sell and still protect my credit and walk away with something. The offer was fair and we closed fast. I wish I had called sooner.',
-    name: 'Rosa V.',
-    location: 'Allentown, PA',
-    situation: 'Behind on Payments — Pre-Foreclosure',
-    date: 'February 2026',
+    "quote": "I was behind on my mortgage and getting letters from the bank. I didn't realize I could sell and still protect my credit and walk away with something. The offer was fair and we closed in 10 days. I wish I had called sooner.",
+    "name": "Rosa V.",
+    "location": "Allentown, PA",
+    "situation": "Behind on Payments — Pre-Foreclosure",
+    "date": "October 2025"
   },
   {
-    quote: 'I had a rental on the West End with a non-paying tenant and code violations piling up. I just wanted out. USA Home Buyers bought it tenant-occupied, violations and all. Done in two weeks.',
-    name: 'Thomas K.',
-    location: 'Allentown, PA',
-    situation: 'Rental Property — Code Violations',
-    date: 'January 2026',
+    "quote": "Me and my ex-husband couldn't be in the same house, let alone agree on repairs. The judge said we had ninety days to sell the property on Hamilton Boulevard or he'd appoint a commissioner. USA Home Buyers gave us a written offer the same week. My ex signed, I signed, we closed in thirteen days.",
+    "name": "Yolanda F.",
+    "location": "West Park, Allentown PA",
+    "situation": "Divorce Sale — Court-Ordered",
+    "date": "July 2025"
   },
+  {
+    "quote": "I had a rental on the West End with a non-paying tenant and code violations piling up. I just wanted out. USA Home Buyers bought it tenant-occupied, violations and all. Done in two weeks.",
+    "name": "Thomas K.",
+    "location": "West End, Allentown PA",
+    "situation": "Rental Property — Code Violations",
+    "date": "January 2026"
+  },
+  {
+    "quote": "Air Products transferred me to their Houston office and gave me four weeks to report. My wife and I had the house listed briefly but the market didn't move fast enough. USA Home Buyers made an offer we could live with. Closed ten days later and I started in Houston on time.",
+    "name": "Craig W.",
+    "location": "Trexlertown, PA",
+    "situation": "Relocation — Corporate Transfer",
+    "date": "June 2025"
+  },
+  {
+    "quote": "Jordan Creek flooded our basement twice in three years. The last time, water came up through the floor drain and destroyed the furnace and water heater. The remediation estimate was $34,000. USA Home Buyers came out, knew exactly what they were looking at, and had a written offer the next morning. Closed in eleven days.",
+    "name": "Brenda K.",
+    "location": "South Allentown, PA",
+    "situation": "Flood Damage — Repeated Basement Flooding",
+    "date": "November 2025"
+  },
+  {
+    "quote": "My wife passed and I was rattling around a three-bedroom house on Brodhead Avenue by myself. Seventy-four years old, arthritis, couldn't keep up with the yard or the repairs. USA Home Buyers closed in eight days. I moved into the senior community the following week.",
+    "name": "Frank D.",
+    "location": "Fountain Hill, PA",
+    "situation": "Downsizing — Widowed, Senior Transition",
+    "date": "February 2025"
+  }
 ];
 
 const COMPARISON_ROWS = [

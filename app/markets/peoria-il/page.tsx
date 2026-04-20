@@ -57,26 +57,54 @@ const peoriaILLocalBusinessSchema = {
 
 const TESTIMONIALS = [
   {
-    quote: "My father worked at Caterpillar for thirty-one years and owned his East Bluff home outright. When he passed, four of us siblings had to decide what to do with a house that needed a new roof, electrical updates, and had been sitting empty for eight months. USA Home Buyers gave us a written offer two days after we called. We closed in sixteen days. Each of us walked away with our share of the proceeds without any of us having to fly back to Peoria to manage repairs.",
-    name: 'Loretta B.',
-    location: 'East Bluff, Peoria IL',
-    situation: 'Inherited Estate — Caterpillar-Era Retiree',
-    date: 'March 2026',
+    "quote": "My father worked at Caterpillar for thirty-one years and owned his East Bluff home outright. When he passed, four of us siblings had to decide what to do with a house that needed a new roof, electrical updates, and had been sitting empty for eight months. USA Home Buyers gave us a written offer two days after we called. We closed in sixteen days.",
+    "name": "Loretta B.",
+    "location": "East Bluff, Peoria IL",
+    "situation": "Inherited Estate — Caterpillar-Era Retiree",
+    "date": "March 2026"
   },
   {
-    quote: "Balloon-frame construction from 1928. Kitchen fire spread to the back bedroom before they got it out. My insurance company was offering me actual cash value — forty-two thousand dollars on a house that was worth ninety before the fire. I didn't want to fight a six-month insurance battle while paying property taxes on a gutted building. USA Home Buyers bought it in as-is condition, closed in twelve days. I moved on.",
-    name: 'Marcus T.',
-    location: 'South Peoria, Peoria IL',
-    situation: 'Fire-Damaged Home — Pre-1940 Balloon Frame',
-    date: 'February 2026',
+    "quote": "I ran a food truck for five years and COVID basically ended that. The lender filed in Peoria County Circuit Court and I got a notice of the court date. USA Home Buyers explained where the timeline was and gave me a written offer in forty-eight hours. We closed in fifteen days before the judgment. I came out with $39,000.",
+    "name": "Darnell F.",
+    "location": "Peoria Heights, IL",
+    "situation": "Pre-Foreclosure — Court Filing",
+    "date": "April 2025"
   },
   {
-    quote: "We both worked at OSF Saint Francis. The divorce was final but neither of us could buy out the other and neither of us wanted to stay in the house. Our attorneys told us we'd need a standard listing and sixty to ninety days minimum. USA Home Buyers gave us one written number. We agreed in one phone call, closed in three weeks. The proceeds cleared the marital balance sheet. Done.",
-    name: 'Renee and David H.',
-    location: 'Richwoods, Peoria IL',
-    situation: 'Divorce Sale — Peoria County Family Division',
-    date: 'January 2026',
+    "quote": "We both worked at OSF Saint Francis. The divorce was final but neither of us could buy out the other and neither of us wanted to stay in the house. Our attorneys told us we'd need a standard listing and sixty to ninety days minimum. USA Home Buyers gave us one written number. We agreed in one phone call, closed in three weeks.",
+    "name": "Renee and David H.",
+    "location": "Richwoods, Peoria IL",
+    "situation": "Divorce Sale — Court-Ordered",
+    "date": "January 2026"
   },
+  {
+    "quote": "I owned a rental on McClure Avenue for nine years. The last tenants left six months ago and the city has cited me twice for exterior violations since — mowing, boarded window, the usual. I never planned to be a long-distance landlord from Iowa City. USA Home Buyers bought it as-is, violations and all. Eleven days.",
+    "name": "Maria V.",
+    "location": "Moss-Bradley, Peoria IL",
+    "situation": "Rental Property — Code Violations",
+    "date": "July 2025"
+  },
+  {
+    "quote": "Got a plant manager offer at a Caterpillar supplier in Nashville. I had five weeks. My North Peoria house was in decent shape but I couldn't do showings from Tennessee while I was starting a new job. USA Home Buyers closed ten days after I accepted the offer. I drove to Nashville with one less thing to think about.",
+    "name": "Kevin S.",
+    "location": "North Peoria, IL",
+    "situation": "Relocation — Manufacturing Transfer",
+    "date": "October 2025"
+  },
+  {
+    "quote": "Balloon-frame construction from 1928. Kitchen fire spread to the back bedroom before they got it out. Insurance was offering me actual cash value — forty-two thousand dollars on a house that was worth ninety before the fire. I didn't want to fight a six-month insurance battle while paying property taxes on a gutted building. USA Home Buyers bought it in as-is condition, closed in twelve days.",
+    "name": "Marcus T.",
+    "location": "South Peoria, Peoria IL",
+    "situation": "Fire-Damaged Home — Pre-1940 Balloon Frame",
+    "date": "February 2026"
+  },
+  {
+    "quote": "My husband retired from Methodist Medical Center and then his health declined fast. I needed the equity from the house to move both of us into continuing care. USA Home Buyers gave me a fair number and closed in eight days. We were both in care within a month.",
+    "name": "Frances L.",
+    "location": "Glen Oak, Peoria IL",
+    "situation": "Downsizing — Health Transition",
+    "date": "November 2025"
+  }
 ];
 
 const COMPARISON_ROWS = [

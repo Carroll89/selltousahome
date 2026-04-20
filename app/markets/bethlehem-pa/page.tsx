@@ -27,26 +27,54 @@ export const metadata: Metadata = {
 
 const TESTIMONIALS = [
   {
-    quote: "My grandmother's row home on Hayes Street sat vacant for three years after she passed. South Side, built in the 1920s, knob-and-tube wiring, boiler that hadn't run in two winters. The family was scattered — nobody wanted to manage it from out of state. USA Home Buyers made a fair cash offer and closed in 10 days. We left everything. They handled the rest.",
-    name: 'Patricia M.',
-    location: 'South Side, Bethlehem PA',
-    situation: 'Inherited Property — Estate Sale',
-    date: 'March 2026',
+    "quote": "My grandmother's row home on Hayes Street sat vacant for three years after she passed. South Side, built in the 1920s, knob-and-tube wiring, boiler that hadn't run in two winters. The family was scattered — nobody wanted to manage it from out of state. USA Home Buyers made a fair cash offer and closed in 10 days. We left everything. They handled the rest.",
+    "name": "Patricia M.",
+    "location": "South Side, Bethlehem PA",
+    "situation": "Inherited Property — Estate Sale",
+    "date": "March 2026"
   },
   {
-    quote: "I owned a rental on West 4th Street, tenant stopped paying during COVID and I never got fully caught up with the mortgage after. When I found out about the foreclosure timeline in Northampton County I knew I needed to move fast. Got a written offer in 20 hours, closed before the sheriff sale was scheduled.",
-    name: 'Marcus T.',
-    location: 'West Side, Bethlehem PA',
-    situation: 'Pre-Foreclosure — Behind on Mortgage',
-    date: 'February 2026',
+    "quote": "I owned a rental on West 4th Street, tenant stopped paying during COVID and I never got fully caught up with the mortgage after. When I found out about the foreclosure timeline in Northampton County I knew I needed to move fast. Got a written offer in 20 hours, closed before the sheriff sale was scheduled.",
+    "name": "Marcus T.",
+    "location": "West Side, Bethlehem PA",
+    "situation": "Pre-Foreclosure — Behind on Mortgage",
+    "date": "February 2026"
   },
   {
-    quote: "Going through a divorce, we needed to sell the house on Prospect Avenue quickly and split the money cleanly. No arguments about repairs, no real estate agent drama. USA Home Buyers gave us one written number, we both signed, and it was done in 12 days.",
-    name: 'Denise R.',
-    location: 'Central Bethlehem, PA',
-    situation: 'Divorce Sale — Splitting Assets',
-    date: 'January 2026',
+    "quote": "Going through a divorce, we needed to sell the house on Prospect Avenue quickly and split the money cleanly. No arguments about repairs, no real estate agent drama. USA Home Buyers gave us one written number, we both signed, and it was done in 12 days.",
+    "name": "Denise R.",
+    "location": "Central Bethlehem, PA",
+    "situation": "Divorce Sale — Splitting Assets",
+    "date": "November 2025"
   },
+  {
+    "quote": "I had two student rentals near Lehigh on Brodhead Avenue. The last set of tenants left the basement flooded with the pipes disconnected and the carpets destroyed. It would have cost $22,000 just to make it rentable again. USA Home Buyers bought both properties in one transaction, as-is. Closed in fifteen days.",
+    "name": "Kevin O.",
+    "location": "South Bethlehem, PA",
+    "situation": "Rental Property — Student Housing Exit",
+    "date": "August 2025"
+  },
+  {
+    "quote": "Got an offer from St. Luke's in their Phoenix satellite and had six weeks to move. I'd owned my house in Fountain Hill for nine years — good bones but the kitchen hadn't been touched since the nineties. USA Home Buyers had a number in twenty-four hours. We closed the day before I drove to Arizona.",
+    "name": "Anita S.",
+    "location": "Fountain Hill, PA",
+    "situation": "Relocation — Healthcare Transfer",
+    "date": "May 2025"
+  },
+  {
+    "quote": "A tree came down in the November windstorm and punched through the back of the roof over the master bedroom. Insurance covered the tree removal but disputed the interior damage claim. USA Home Buyers saw it, made an offer two days later, we closed in twelve days. Insurance fight became their problem, not mine.",
+    "name": "Jerome B.",
+    "location": "North Side, Bethlehem PA",
+    "situation": "Storm Damage — Roof Collapse",
+    "date": "January 2026"
+  },
+  {
+    "quote": "I'm seventy-one and I've been in my house on Heckewelder Street since 1994. My cardiologist told me the stairs weren't doing me any favors. USA Home Buyers made me a fair offer. I moved into a ground-floor apartment in seven days. Didn't have to stage a single room.",
+    "name": "Eleanor V.",
+    "location": "Historic District, Bethlehem PA",
+    "situation": "Downsizing — Health-Driven Move",
+    "date": "July 2025"
+  }
 ];
 
 const COMPARISON_ROWS = [

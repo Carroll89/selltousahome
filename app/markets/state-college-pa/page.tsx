@@ -27,26 +27,54 @@ export const metadata: Metadata = {
 
 const TESTIMONIALS = [
   {
-    quote: "My wife and I bought a house on Westerly Parkway back in '98 when she started at Penn State. After she retired and we moved to be near our grandkids, the house sat vacant for two years. I tried the MLS route — the buyer's financing fell through twice. USA Home Buyers made us a fair offer, we closed in 10 days, and I didn't have to fly back from Florida.",
-    name: 'Robert H.',
-    location: 'College Heights, State College',
-    situation: 'Faculty Relocation — Out-of-State Move',
-    date: 'February 2026',
+    "quote": "I inherited my dad's place in Holmes-Foster after he passed. It's a great neighborhood, but the house needed a new roof and the kitchen was from 1978. I didn't have the time or money to rehab it from out of state. USA Home Buyers bought it as-is. The probate piece was complicated and they worked around it with no drama.",
+    "name": "Michelle T.",
+    "location": "Holmes-Foster, State College PA",
+    "situation": "Inherited Property — Out-of-State Heir",
+    "date": "March 2026"
   },
   {
-    quote: "I inherited my dad's place in Holmes-Foster after he passed. It's a great neighborhood, but the house needed a new roof and the kitchen was from 1978. I didn't have the time or money to rehab it from out of state. USA Home Buyers bought it as-is. The probate piece was complicated and they worked around it with no drama.",
-    name: 'Michelle T.',
-    location: 'Holmes-Foster, State College',
-    situation: 'Inherited Property — Out-of-State Heir',
-    date: 'January 2026',
+    "quote": "I ran a restaurant near campus that closed during COVID. Never fully recovered. The lender filed in Centre County court and I realized I had equity I was about to lose. USA Home Buyers explained the Pennsylvania foreclosure timeline, gave me a written offer the next morning, and we closed in twelve days. The case was dismissed. I came out with $47,000.",
+    "name": "Ben T.",
+    "location": "Westover Hills, State College PA",
+    "situation": "Pre-Foreclosure — Behind on Payments",
+    "date": "June 2025"
   },
   {
-    quote: "Twelve years of renting to Penn State students was enough. I had good tenants and bad tenants, and honestly the good ones still left every May and I'd spend the summer chasing the next lease. I just wanted out. USA Home Buyers bought the property with the tenant still in place and I was done in two weeks.",
-    name: 'Gary M.',
-    location: 'State College Borough',
-    situation: 'Landlord Exit — Rental Property Sale',
-    date: 'March 2026',
+    "quote": "The divorce decree in Centre County required the house sold. We'd both been on the mortgage for seven years and neither of us could buy out the other on a single income. USA Home Buyers gave us a written offer both our attorneys approved. Closed in ten days. The proceeds let both of us move on.",
+    "name": "Lisa and Dan P.",
+    "location": "Highlands, State College PA",
+    "situation": "Divorce Sale — Court Decree",
+    "date": "September 2025"
   },
+  {
+    "quote": "Twelve years of renting to Penn State students was enough. I had good tenants and bad tenants, and honestly the good ones still left every May and I'd spend the summer chasing the next lease. I just wanted out. USA Home Buyers bought the property with the tenant still in place and I was done in two weeks.",
+    "name": "Gary M.",
+    "location": "State College Borough",
+    "situation": "Landlord Exit — Student Rental",
+    "date": "March 2026"
+  },
+  {
+    "quote": "My wife and I bought a house on Westerly Parkway back in '98 when she started at Penn State. After she retired and we moved to be near our grandkids, the house sat vacant for two years. I tried the MLS route — the buyer's financing fell through twice. USA Home Buyers made us a fair offer, we closed in 10 days, and I didn't have to fly back from Florida.",
+    "name": "Robert H.",
+    "location": "College Heights, State College PA",
+    "situation": "Faculty Relocation — Out-of-State Move",
+    "date": "February 2026"
+  },
+  {
+    "quote": "The basement had taken water twice from spring flooding near Spring Creek. Second time, the water heater and furnace were a complete loss and there was mold behind the drywall in two corners. The remediation quote was $26,000. I decided to sell instead. USA Home Buyers closed in twelve days.",
+    "name": "Phil K.",
+    "location": "College Township, PA",
+    "situation": "Flood Damage — Mold Remediation",
+    "date": "April 2025"
+  },
+  {
+    "quote": "We both retired from Penn State. The house in Houserville was beautiful but it was three bedrooms and we didn't need three bedrooms anymore. Our daughter pushed us to call USA Home Buyers. They came out, made us a fair offer, and we closed in seven days. We're in a one-bedroom near downtown now and life is simpler.",
+    "name": "Ruth and Carl B.",
+    "location": "Houserville, State College PA",
+    "situation": "Downsizing — Retirement",
+    "date": "October 2025"
+  }
 ];
 
 const COMPARISON_ROWS = [

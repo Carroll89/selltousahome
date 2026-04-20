@@ -27,26 +27,54 @@ export const metadata: Metadata = {
 
 const TESTIMONIALS = [
   {
-    quote: "My grandfather worked at Kodak his whole career. When he passed, I inherited the house in the 19th Ward — built in 1938, original kitchen, needed a new roof and furnace. I live in Albany and couldn't manage the property long-distance. USA Home Buyers had a written offer the next day and we closed in 10 days through Monroe County Surrogate's Court.",
-    name: 'Robert S.',
-    location: '19th Ward, Rochester NY',
-    situation: 'Inherited Property — Estate Sale',
-    date: 'March 2026',
+    "quote": "My grandfather worked at Kodak his whole career. When he passed, I inherited the house in the 19th Ward — built in 1938, original kitchen, needed a new roof and furnace. I live in Albany and couldn't manage the property long-distance. USA Home Buyers had a written offer the next day and we closed in 10 days through Monroe County Surrogate's Court.",
+    "name": "Robert S.",
+    "location": "19th Ward, Rochester NY",
+    "situation": "Inherited Property — Estate Sale",
+    "date": "March 2026"
   },
   {
-    quote: "I was behind on my mortgage after a medical situation. New York judicial foreclosure takes 12-24 months, but once the bank files in Monroe County Supreme Court, your options narrow fast. USA Home Buyers explained exactly where I stood and closed before the foreclosure judgment. I walked out with enough to start over.",
-    name: 'Diana W.',
-    location: 'South Wedge, Rochester NY',
-    situation: 'Pre-Foreclosure — Behind on Payments',
-    date: 'February 2026',
+    "quote": "I was behind on my mortgage after a medical situation. New York judicial foreclosure takes 12-24 months, but once the bank files in Monroe County Supreme Court, your options narrow fast. USA Home Buyers explained exactly where I stood and closed before the foreclosure judgment. I walked out with enough to start over.",
+    "name": "Diana W.",
+    "location": "South Wedge, Rochester NY",
+    "situation": "Pre-Foreclosure — Behind on Payments",
+    "date": "February 2026"
   },
   {
-    quote: "I owned a rental on Clifford Avenue for six years. Water damage from a burst pipe, a non-paying tenant, city notices — I was done. USA Home Buyers bought it as-is with the tenant still in it, handled everything, and I didn't have to go to court for eviction or fix the water damage.",
-    name: 'James K.',
-    location: 'Dutchtown, Rochester NY',
-    situation: 'Tenant-Occupied — Water Damage',
-    date: 'January 2026',
+    "quote": "Monroe County family court, sale required. Park Avenue condo, beautiful neighborhood, but neither of us could buy out the other and we both needed the money to start over. USA Home Buyers gave us a written offer the same week we called. Both attorneys said yes, closed in thirteen days.",
+    "name": "Angela and Paul D.",
+    "location": "Park Avenue, Rochester NY",
+    "situation": "Divorce Sale — Court-Ordered",
+    "date": "June 2025"
   },
+  {
+    "quote": "I owned a rental on Clifford Avenue for six years. Water damage from a burst pipe, a non-paying tenant, city notices — I was done. USA Home Buyers bought it as-is with the tenant still in it, handled everything, and I didn't have to go to court for eviction or fix the water damage.",
+    "name": "James K.",
+    "location": "Dutchtown, Rochester NY",
+    "situation": "Tenant-Occupied — Water Damage",
+    "date": "January 2026"
+  },
+  {
+    "quote": "Paychex offered me a position at their Scottsdale office and I had five weeks. My house in Irondequoit was fine but I couldn't do open houses and wait on financing. USA Home Buyers closed nine days after I accepted. I was in Arizona before my start date.",
+    "name": "Jason W.",
+    "location": "Irondequoit, NY",
+    "situation": "Relocation — Corporate Transfer",
+    "date": "October 2025"
+  },
+  {
+    "quote": "Lake Ontario flooding in the spring got into our basement on Lakeshore Boulevard twice. The second time killed the furnace and HVAC and left six inches of standing water. Our insurer totaled the contents but fought the structural claim. USA Home Buyers knew Charlotte's flood situation well — no surprises in the offer, no inspection drama. Closed in ten days.",
+    "name": "Eileen M.",
+    "location": "Charlotte, Rochester NY",
+    "situation": "Flood Damage — Lake Ontario Flooding",
+    "date": "May 2025"
+  },
+  {
+    "quote": "Fifty years in Corn Hill. We raised our kids there and watched the neighborhood come back to life. But property taxes hit $7,800 this year and we're both past seventy on fixed incomes. USA Home Buyers were fair and honest, and we closed in 8 days. We're in a senior community in Pittsford now.",
+    "name": "Norman and Betty S.",
+    "location": "Corn Hill, Rochester NY",
+    "situation": "Downsizing — Retirement",
+    "date": "January 2026"
+  }
 ];
 
 const COMPARISON_ROWS = [

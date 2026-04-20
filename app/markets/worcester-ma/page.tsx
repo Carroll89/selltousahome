@@ -27,26 +27,54 @@ export const metadata: Metadata = {
 
 const TESTIMONIALS = [
   {
-    quote: "My parents owned a three-decker on Chandler Street for over 30 years. After my father passed, we went through Hampden — I mean Worcester Probate and Family Court — and it took about four months. USA Home Buyers was ready to close the day after probate cleared. We didn't have to touch anything inside.",
-    name: 'Patrick F.',
-    location: 'Main South, Worcester MA',
-    situation: 'Inherited Property — Probate Sale',
-    date: 'March 2026',
+    "quote": "My parents owned a three-decker on Chandler Street for over 30 years. After my father passed, we went through Worcester Probate and Family Court — took about four months. USA Home Buyers was ready to close the day after probate cleared. We didn't have to touch anything inside.",
+    "name": "Patrick F.",
+    "location": "Main South, Worcester MA",
+    "situation": "Inherited Property — Probate Sale",
+    "date": "March 2026"
   },
   {
-    quote: "I had a rental on Grafton Street that I'd been managing for eight years. Problem tenant, lead paint issues, city notices piling up. I couldn't afford to fix it and didn't want to go through eviction. USA Home Buyers bought it as-is with the tenant still there. Done in 11 days.",
-    name: 'Marie T.',
-    location: 'Piedmont, Worcester MA',
-    situation: 'Tenant-Occupied — Lead Paint Issues',
-    date: 'February 2026',
+    "quote": "Massachusetts foreclosure is non-judicial — the lender can foreclose by advertisement without going to court, and it can happen in as little as three months. I was behind and didn't realize how fast it would move. USA Home Buyers explained the timeline and had a written offer the same day I called. Closed in eleven days. Foreclosure cancelled.",
+    "name": "Dwayne A.",
+    "location": "Great Brook Valley, Worcester MA",
+    "situation": "Pre-Foreclosure — Non-Judicial",
+    "date": "June 2025"
   },
   {
-    quote: "Relocating to Connecticut for a new job. Had the house listed for six weeks, two buyers fell through — one couldn't get financing, one backed out after inspection. USA Home Buyers closed 8 days after I accepted their written offer. I made it to my start date with two weeks to spare.",
-    name: 'Thomas C.',
-    location: 'Burncoat, Worcester MA',
-    situation: 'Relocation Sale',
-    date: 'January 2026',
+    "quote": "Worcester Probate and Family Court, sale required. The Tatnuck house had a lot of equity but we were not in a position to negotiate anything calmly. USA Home Buyers gave us a number and our attorneys both signed off. Closed in twelve days. Split proceeds through escrow.",
+    "name": "Sandra and Mike O.",
+    "location": "Tatnuck, Worcester MA",
+    "situation": "Divorce Sale — Court-Ordered",
+    "date": "September 2025"
   },
+  {
+    "quote": "I had a rental on Grafton Street that I'd been managing for eight years. Problem tenant, lead paint issues, city notices piling up. I couldn't afford to fix it and didn't want to go through eviction. USA Home Buyers bought it as-is with the tenant still there. Done in 11 days.",
+    "name": "Marie T.",
+    "location": "Piedmont, Worcester MA",
+    "situation": "Rental Property — Lead Paint Issues",
+    "date": "February 2026"
+  },
+  {
+    "quote": "Relocating to Connecticut for a new job. Had the house listed for six weeks, two buyers fell through — one couldn't get financing, one backed out after inspection. USA Home Buyers closed 8 days after I accepted their written offer. I made it to my start date with two weeks to spare.",
+    "name": "Thomas C.",
+    "location": "Burncoat, Worcester MA",
+    "situation": "Relocation Sale",
+    "date": "January 2026"
+  },
+  {
+    "quote": "The three-decker on Charlton Street had a chimney collapse in February — took out the back wall of the second floor. Structural damage, water intrusion from the open wall. My insurance company offered $37,000. Contractor said $61,000. I'm not fighting that battle. USA Home Buyers made a fair offer the next day. Closed in nine days.",
+    "name": "Bernard J.",
+    "location": "Bell Hill, Worcester MA",
+    "situation": "Structural Damage — Chimney Collapse",
+    "date": "February 2026"
+  },
+  {
+    "quote": "Arthur retired from Hanover Insurance and we decided we wanted to move to Florida. The house in Quinsigamond Village had been in the family for twenty years and we had a lot of equity. We didn't want to spend six months on a listing. USA Home Buyers closed eight days after we accepted their offer. We drove to Cape Coral in March.",
+    "name": "Rose and Arthur K.",
+    "location": "Quinsigamond Village, Worcester MA",
+    "situation": "Downsizing — Retirement Move",
+    "date": "March 2025"
+  }
 ];
 
 const COMPARISON_ROWS = [

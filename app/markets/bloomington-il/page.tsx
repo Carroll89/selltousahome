@@ -57,26 +57,54 @@ const bloomingtonILLocalBusinessSchema = {
 
 const TESTIMONIALS = [
   {
-    quote: "My father worked at State Farm for thirty-one years and bought his Founders' Grove home in 1974. When he passed, my siblings and I were scattered across four states — none of us wanted to manage a Victorian-era house with deferred maintenance from three states away. USA Home Buyers gave us a written number within a day, handled all the coordination with the McLean County probate attorney, and closed in eighteen days. The cleanout alone would have cost us a weekend and a dumpster rental. We never had to come back to Bloomington.",
-    name: 'Sandra M.',
-    location: "Founders' Grove, Bloomington IL",
-    situation: 'Inherited Estate — State Farm Retiree Property',
-    date: 'March 2026',
+    "quote": "My father worked at State Farm for thirty-one years and bought his Founders' Grove home in 1974. When he passed, my siblings and I were scattered across four states. USA Home Buyers gave us a written number within a day, handled all the coordination with the McLean County probate attorney, and closed in eighteen days. We never had to come back to Bloomington.",
+    "name": "Sandra M.",
+    "location": "Founders' Grove, Bloomington IL",
+    "situation": "Inherited Estate — State Farm Retiree Property",
+    "date": "March 2026"
   },
   {
-    quote: "I'd been an ISU adjunct for six years when a tenure-track offer came in from a university in Arizona. I had to be there in five weeks. My house in the Veterans Parkway corridor was tenant-occupied — the lease wasn't up for four months. USA Home Buyers bought it with the tenant in place. I didn't have to evict anyone, didn't miss the Arizona start date, and didn't lose six months to a listing process. Exactly what I needed.",
-    name: 'Robert A.',
-    location: 'Veterans Parkway, Bloomington IL',
-    situation: 'Faculty Relocation — Tenant-Occupied Property',
-    date: 'February 2026',
+    "quote": "After Rivian cut production shifts and my hours dropped, I fell behind on the mortgage. Four months behind, and the lender filed in McLean County Circuit Court. I didn't know I still had $47,000 in equity and could sell out from under the foreclosure. USA Home Buyers explained the options, had a written offer the next day, and we closed in fourteen days. The foreclosure was dismissed.",
+    "name": "Dwayne F.",
+    "location": "Oakland Park, Bloomington IL",
+    "situation": "Pre-Foreclosure — Behind on Payments",
+    "date": "October 2025"
   },
   {
-    quote: "Country Financial restructured my department and offered early retirement. At 58, with a home that needed a new roof and electrical updates, I wasn't going to find a conventional buyer who'd overlook those issues. USA Home Buyers came in, assessed the property, gave me a real number the next morning. I was at a title company signing papers within two weeks. No repairs, no agents, no waiting.",
-    name: 'Linda K.',
-    location: 'North Bloomington, Bloomington IL',
-    situation: 'Corporate Restructuring — Condition Sale',
-    date: 'January 2026',
+    "quote": "The judge ordered the house sold as part of the McLean County dissolution. We couldn't agree on a listing price, couldn't agree on an agent, couldn't agree on repairs. Our attorneys finally said get a cash offer and split it. USA Home Buyers came in, we got a number both of us could accept, and closed in sixteen days. That was the last thing we had to agree on.",
+    "name": "Christine and Dale W.",
+    "location": "Eastside, Bloomington IL",
+    "situation": "Divorce Sale — Court-Ordered",
+    "date": "March 2025"
   },
+  {
+    "quote": "I owned a rental on Willow Street in Normal for eight years, mostly ISU students. The last tenant left in April and took the back door handle. I'm not exaggerating — they took the handle. Also left the stove on and melted the backsplash. USA Home Buyers bought it as-is in ten days. Done being a landlord.",
+    "name": "Jerome T.",
+    "location": "Normal Heights, Normal IL",
+    "situation": "Rental Property — Tenant Damage",
+    "date": "June 2025"
+  },
+  {
+    "quote": "I'd been an ISU adjunct for six years when a tenure-track offer came in from a university in Arizona. I had to be there in five weeks. My house in the Veterans Parkway corridor was tenant-occupied — the lease wasn't up for four months. USA Home Buyers bought it with the tenant in place. I didn't have to evict anyone, didn't miss the Arizona start date.",
+    "name": "Robert A.",
+    "location": "Veterans Parkway, Bloomington IL",
+    "situation": "Faculty Relocation — Tenant-Occupied Property",
+    "date": "February 2026"
+  },
+  {
+    "quote": "The sump pump failed during the spring melt. We had four inches of water in the basement and mold grew behind the drywall before we even knew it was there. The remediation estimate was $29,000. My husband has COPD — we couldn't stay in the house while they worked on it anyway. USA Home Buyers bought it as-is, no inspection contingency. We were in our new place in eleven days.",
+    "name": "Patricia L.",
+    "location": "Washington Park, Bloomington IL",
+    "situation": "Flood Damage — Mold Remediation",
+    "date": "April 2025"
+  },
+  {
+    "quote": "Country Financial restructured my department and offered early retirement. At 58, with a home that needed a new roof and electrical updates, I wasn't going to find a conventional buyer who'd overlook those issues. USA Home Buyers gave me a real number the next morning. I was at a title company signing papers within two weeks. No repairs, no agents, no waiting.",
+    "name": "Linda K.",
+    "location": "North Bloomington, Bloomington IL",
+    "situation": "Downsizing — Early Retirement",
+    "date": "January 2026"
+  }
 ];
 
 const COMPARISON_ROWS = [

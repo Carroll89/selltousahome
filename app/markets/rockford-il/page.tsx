@@ -59,26 +59,54 @@ const rockfordILLocalBusinessSchema = {
 
 const TESTIMONIALS = [
   {
-    quote: "My mother's bungalow in Churchill Grove sat vacant for eight months after she passed. The knob-and-tube wiring alone would have cost $18,000 to bring up to code — before touching the kitchen or the roof. I called USA Home Buyers on a Tuesday, had a written number in my email Wednesday morning, and closed seventeen days later. They handled the cleanout. I never even had to come back to Rockford from Columbus. Couldn't have been simpler.",
-    name: 'Patricia K.',
-    location: 'Churchill Grove, Rockford IL',
-    situation: 'Inherited Estate — Pre-War Bungalow',
-    date: 'March 2026',
+    "quote": "My mother's bungalow in Churchill Grove sat vacant for eight months after she passed. The knob-and-tube wiring alone would have cost $18,000 to bring up to code. I called USA Home Buyers on a Tuesday, had a written number in my email Wednesday morning, and closed seventeen days later. They handled the cleanout. I never even had to come back to Rockford from Columbus.",
+    "name": "Patricia K.",
+    "location": "Churchill Grove, Rockford IL",
+    "situation": "Inherited Estate — Pre-War Bungalow",
+    "date": "March 2026"
   },
   {
-    quote: "I'd worked at the Chrysler supplier in Belvidere for nineteen years when the plant shut down. Then a job offer came in from a manufacturer in Indianapolis — good opportunity, but I had four weeks to figure out the house. No time for an agent, no time for inspections and back-and-forth. USA Home Buyers gave me a real number the next day. We closed in ten days. I made the Indianapolis start date with a week to spare.",
-    name: 'Dennis W.',
-    location: 'Midtown, Rockford IL',
-    situation: 'Manufacturing Relocation — Belvidere Plant Closure',
-    date: 'February 2026',
+    "quote": "After the Chrysler supplier closed, I was out of work for fourteen months and never really caught back up. The mortgage servicer filed in Winnebago County and I didn't know what to do. USA Home Buyers explained where the Illinois judicial timeline was, gave me a written offer in forty-eight hours, and we closed in twelve days before judgment. I came out with $28,000.",
+    "name": "Calvin R.",
+    "location": "Southeast Rockford, IL",
+    "situation": "Pre-Foreclosure — Behind on Payments",
+    "date": "June 2025"
   },
   {
-    quote: "Signal Hill house, divorce situation, both of us needing the proceeds to move forward. Our attorneys kept warning us that contested litigation over the house would drag on for months. We got a single written offer from USA Home Buyers. My ex and I agreed on the number in one phone call — didn't need a judge. Closed three weeks later. That one decision probably saved us six months of back-and-forth.",
-    name: 'Marlene O.',
-    location: 'Signal Hill, Rockford IL',
-    situation: 'Divorce Sale — Winnebago County',
-    date: 'January 2026',
+    "quote": "Signal Hill house, divorce situation, both of us needing the proceeds to move forward. Our attorneys kept warning us that contested litigation over the house would drag on for months. We got a single written offer from USA Home Buyers. My ex and I agreed on the number in one phone call — didn't need a judge. Closed three weeks later.",
+    "name": "Marlene O.",
+    "location": "Signal Hill, Rockford IL",
+    "situation": "Divorce Sale — Winnebago County",
+    "date": "January 2026"
   },
+  {
+    "quote": "I had a rental on Auburn Street for seven years. The last tenant called the city on me for code violations she had caused herself. I got three notices in six weeks. I wasn't going to fix a property for a tenant who was weaponizing the city against me. USA Home Buyers bought it as-is with the tenant still inside. Eleven days, done.",
+    "name": "LaShonda B.",
+    "location": "West Rockford, IL",
+    "situation": "Rental Property — Code Violations",
+    "date": "September 2025"
+  },
+  {
+    "quote": "I'd worked at the Chrysler supplier in Belvidere for nineteen years when the plant shut down. Then a job offer came in from a manufacturer in Indianapolis — good opportunity, but I had four weeks to figure out the house. USA Home Buyers gave me a real number the next day. We closed in ten days. I made the Indianapolis start date with a week to spare.",
+    "name": "Dennis W.",
+    "location": "Midtown, Rockford IL",
+    "situation": "Manufacturing Relocation — Plant Closure",
+    "date": "February 2026"
+  },
+  {
+    "quote": "The sewer line backed up into the basement twice in two years — the city said it was a main line issue they were working on. Second time we had four inches of sewage in the basement and the HVAC system was a complete loss. USA Home Buyers came out two days after I called. Fair number, closed in fourteen days.",
+    "name": "David N.",
+    "location": "East State Street, Rockford IL",
+    "situation": "Sewer Damage — HVAC Loss",
+    "date": "February 2026"
+  },
+  {
+    "quote": "Walter retired from OSF Saint Anthony after thirty-seven years in maintenance. Our Kishwaukee house was paid off but the upkeep was more than either of us wanted to manage anymore. Both kids are in Chicago. USA Home Buyers gave us a fair offer and closed in seven days. We moved to an apartment in Lincoln Park. Closer to the grandkids.",
+    "name": "Helen and Walter K.",
+    "location": "Kishwaukee, Rockford IL",
+    "situation": "Downsizing — Retirement",
+    "date": "October 2025"
+  }
 ];
 
 const COMPARISON_ROWS = [

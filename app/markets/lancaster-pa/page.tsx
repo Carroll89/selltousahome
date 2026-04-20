@@ -27,26 +27,54 @@ export const metadata: Metadata = {
 
 const TESTIMONIALS = [
   {
-    quote: "My father owned a row home on Dauphin Street in Cabbage Hill for 40 years. After he passed, I inherited a property with knob-and-tube wiring, a failed furnace, and a tenant who was months behind on rent. I live in Delaware — managing a Lancaster property from out of state was impossible. USA Home Buyers made a written offer within 24 hours and closed in 11 days. Left everything. Problem solved.",
-    name: 'Robert C.',
-    location: 'Cabbage Hill, Lancaster PA',
-    situation: 'Inherited Property — Estate Sale',
-    date: 'March 2026',
+    "quote": "My father owned a row home on Dauphin Street in Cabbage Hill for 40 years. After he passed, I inherited a property with knob-and-tube wiring, a failed furnace, and a tenant who was months behind on rent. I live in Delaware — managing a Lancaster property from out of state was impossible. USA Home Buyers made a written offer within 24 hours and closed in 11 days.",
+    "name": "Robert C.",
+    "location": "Cabbage Hill, Lancaster PA",
+    "situation": "Inherited Property — Estate Sale",
+    "date": "March 2026"
   },
   {
-    quote: "I got a Case Management Order from Lancaster County Court — the foreclosure diversion hold. I had maybe six weeks before the conciliation conference. USA Home Buyers knew exactly what that meant. They got me a written offer in 18 hours, we closed before the conference date, and I walked away with equity instead of a sheriff sale on my record.",
-    name: 'Angela M.',
-    location: 'West End, Lancaster PA',
-    situation: 'Foreclosure Diversion — Pre-Foreclosure Sale',
-    date: 'February 2026',
+    "quote": "I got a Case Management Order from Lancaster County Court — the foreclosure diversion hold. I had maybe six weeks before the conciliation conference. USA Home Buyers knew exactly what that meant. They got me a written offer in 18 hours, we closed before the conference date, and I walked away with equity instead of a sheriff sale on my record.",
+    "name": "Angela M.",
+    "location": "West End, Lancaster PA",
+    "situation": "Foreclosure Diversion — Pre-Foreclosure Sale",
+    "date": "February 2026"
   },
   {
-    quote: "Divorce sale on our house on Hershey Avenue. My ex and I couldn't agree on anything, but we both agreed we needed it done fast and clean. One written number, no repair arguments, closed in 9 days. The attorney handled the rest. Cleanest part of the whole divorce.",
-    name: 'Donna R.',
-    location: 'Southeast Lancaster, PA',
-    situation: 'Divorce Sale — Split Proceeds Quickly',
-    date: 'January 2026',
+    "quote": "Divorce sale on our house on Hershey Avenue. My ex and I couldn't agree on anything, but we both agreed we needed it done fast and clean. One written number, no repair arguments, closed in 9 days. The attorney handled the rest. Cleanest part of the whole divorce.",
+    "name": "Donna R.",
+    "location": "Southeast Lancaster, PA",
+    "situation": "Divorce Sale — Split Proceeds",
+    "date": "January 2026"
   },
+  {
+    "quote": "I had a rental row home on Beaver Street for seven years. Section 8, fine at first. Last two years, the city cited me four times for violations — exterior, plumbing, smoke detectors. I fixed everything twice and still got re-cited. USA Home Buyers bought it in eleven days, citations and all.",
+    "name": "Pedro A.",
+    "location": "Southeast Lancaster, PA",
+    "situation": "Rental Property — Code Violations",
+    "date": "June 2025"
+  },
+  {
+    "quote": "Armstrong called me about a position at their Florida office. I had five weeks. The house in Manheim Township was in good shape but I didn't have time for showings and waiting. USA Home Buyers gave me a written offer in eighteen hours. I accepted, we closed in nine days, and I drove to Florida with a clear head.",
+    "name": "Jennifer K.",
+    "location": "Manheim Township, PA",
+    "situation": "Relocation — Corporate Transfer",
+    "date": "September 2025"
+  },
+  {
+    "quote": "Our house on Lime Street had a slab crack that had been shifting for years. The structural engineer said the foundation needed $52,000 in repairs minimum, possibly more once they opened the walls. No conventional buyer would touch it. USA Home Buyers gave me a real offer the next day. Closed in thirteen days.",
+    "name": "Harold B.",
+    "location": "Conestoga Village, Lancaster PA",
+    "situation": "Foundation Damage — Structural",
+    "date": "November 2025"
+  },
+  {
+    "quote": "I'm sixty-eight, my husband passed, and I was in a four-bedroom house by myself on Fruitville Pike. Couldn't keep up with the yard, the exterior needed paint, and I just didn't want to deal with it. USA Home Buyers gave me a fair offer. I closed in ten days and moved into a smaller place near my daughter.",
+    "name": "Ruth M.",
+    "location": "Lancaster City, PA",
+    "situation": "Downsizing — Widowed",
+    "date": "January 2025"
+  }
 ];
 
 const COMPARISON_ROWS = [

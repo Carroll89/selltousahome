@@ -27,26 +27,54 @@ export const metadata: Metadata = {
 
 const TESTIMONIALS = [
   {
-    quote: "Mi abuela nos dejó su casa en Fair Haven — una triple-decker de los años 1920 con el techo viejo y la electricidad desactualizada. Ninguno de nosotros tenía el dinero para arreglarla. USA Home Buyers nos dio una oferta justa y cerramos en diez días. No tocamos nada. Hablaron con nosotros completamente en español.",
-    name: 'Rosa C.',
-    location: 'Fair Haven, New Haven CT',
-    situation: 'Inherited Property — Puerto Rican Estate Sale',
-    date: 'March 2026',
+    "quote": "Mi abuela nos dejó su casa en Fair Haven — una triple-decker de los años 1920 con el techo viejo y la electricidad desactualizada. Ninguno de nosotros tenía el dinero para arreglarla. USA Home Buyers nos dio una oferta justa y cerramos en diez días. No tocamos nada.",
+    "name": "Rosa C.",
+    "location": "Fair Haven, New Haven CT",
+    "situation": "Inherited Property — Estate Sale",
+    "date": "March 2026"
   },
   {
-    quote: "I owned a rental on Howe Street near Yale — grad students for 11 years, and by the time the last lease ended the place needed a new boiler, new floors, and a full kitchen. I didn't want to manage a $40,000 renovation at my age. USA Home Buyers bought it as-is. I had a check in two weeks.",
-    name: 'Gerald W.',
-    location: 'Dwight, New Haven CT',
-    situation: 'Yale-Adjacent Rental — Deferred Maintenance',
-    date: 'February 2026',
+    "quote": "Connecticut strict foreclosure moved faster than I thought. The bank filed in Superior Court and I didn't realize there was no auction — they just set a law day to take title. USA Home Buyers explained how it worked and moved fast. Written offer in twenty-four hours, closed before the law day. I walked away with $29,000 instead of losing everything.",
+    "name": "Antoine B.",
+    "location": "Dixwell, New Haven CT",
+    "situation": "Pre-Foreclosure — Strict Foreclosure",
+    "date": "June 2025"
   },
   {
-    quote: "My family bought in Newhallville after my father worked at Winchester. When he passed, the house had been sitting empty for two years. The neighborhood had changed and none of us lived close by. USA Home Buyers made it simple — one phone call, one offer, one closing. No cleanout, no repairs.",
-    name: 'Darnell H.',
-    location: 'Newhallville, New Haven CT',
-    situation: 'Post-Manufacturing Neighborhood — Estate Cash-Out',
-    date: 'January 2026',
+    "quote": "The New Haven family court ordered the Westville house sold as part of the divorce decree. We both agreed on exactly one thing: get it done fast. USA Home Buyers had a written offer the next day. We both signed, closed in eleven days, money split through our attorneys.",
+    "name": "Yolanda and Marcus S.",
+    "location": "Westville, New Haven CT",
+    "situation": "Divorce Sale — Court-Ordered",
+    "date": "September 2025"
   },
+  {
+    "quote": "I owned a rental on Howe Street near Yale — grad students for 11 years, and by the time the last lease ended the place needed a new boiler, new floors, and a full kitchen. I didn't want to manage a $40,000 renovation at my age. USA Home Buyers bought it as-is. I had a check in two weeks.",
+    "name": "Gerald W.",
+    "location": "Dwight, New Haven CT",
+    "situation": "Rental Property — Deferred Maintenance",
+    "date": "February 2026"
+  },
+  {
+    "quote": "Yale offered me a research position and my house in East Rock had been rented for three years. My tenant's lease was up but the place needed work. USA Home Buyers bought it vacant, as-is, in eight days. I came back to New Haven for work, not for a renovation project.",
+    "name": "Dr. Amara O.",
+    "location": "East Rock, New Haven CT",
+    "situation": "Relocation — Return to City",
+    "date": "April 2025"
+  },
+  {
+    "quote": "My family bought in Newhallville after my father worked at Winchester. When he passed, the house had been sitting empty for two years. None of us lived close by. USA Home Buyers made it simple — one phone call, one offer, one closing. No cleanout, no repairs.",
+    "name": "Darnell H.",
+    "location": "Newhallville, New Haven CT",
+    "situation": "Vacant Inherited Property — Post-Estate",
+    "date": "November 2025"
+  },
+  {
+    "quote": "Seventy years old, my husband had a stroke, and we needed the equity from the house to pay for his care at a rehab facility on Whalley Avenue. I couldn't take on a four-month listing process. USA Home Buyers gave me a fair offer and we closed in ten days. I got my husband into the right facility and I could breathe again.",
+    "name": "Frances W.",
+    "location": "Beaver Hills, New Haven CT",
+    "situation": "Downsizing — Medical Transition",
+    "date": "January 2026"
+  }
 ];
 
 const COMPARISON_ROWS = [

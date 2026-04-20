@@ -27,26 +27,54 @@ export const metadata: Metadata = {
 
 const TESTIMONIALS = [
   {
-    quote: "We inherited my aunt's cream brick cottage on the Northside — one of those 1890s workers' houses off Main Street. The wiring was still knob-and-tube, the roof was original slate that was about to go, and nobody in the family lived in Racine anymore. I reached out Tuesday evening. USA Home Buyers had a written cash offer at my email Wednesday morning. We closed in 11 days at the title company on Wisconsin Avenue. No cleanout, no repairs, no arguing with siblings over what it needed.",
-    name: 'Thomas H.',
-    location: 'Northside Historic District, Racine WI',
-    situation: 'Inherited Cream Brick Cottage — Estate Sale',
-    date: 'March 2026',
+    "quote": "We inherited my aunt's cream brick cottage on the Northside — one of those 1890s workers' houses off Main Street. The wiring was still knob-and-tube, the roof was original slate that was about to go, and nobody in the family lived in Racine anymore. I reached out Tuesday evening. USA Home Buyers had a written cash offer at my email Wednesday morning. We closed in 11 days at the title company on Wisconsin Avenue.",
+    "name": "Thomas H.",
+    "location": "Northside Historic District, Racine WI",
+    "situation": "Inherited Cream Brick Cottage — Estate Sale",
+    "date": "March 2026"
   },
   {
-    quote: "Foreclosure in Racine County moves slow — Wisconsin is judicial, so the bank has to go through Circuit Court. Mine was already 9 months in when I finally called USA Home Buyers. They put a written offer on my West Racine bungalow in 24 hours, closed before the sheriff's sale, and I walked away with enough equity to put a deposit on an apartment in Kenosha. Cleanest exit I could have hoped for.",
-    name: 'Jennifer M.',
-    location: 'West Racine, WI',
-    situation: 'Pre-Foreclosure Sale — Racine County Circuit Court',
-    date: 'February 2026',
+    "quote": "Foreclosure in Racine County moves slow — Wisconsin is judicial, so the bank has to go through Circuit Court. Mine was already 9 months in when I finally called USA Home Buyers. They put a written offer on my West Racine bungalow in 24 hours, closed before the sheriff's sale, and I walked away with enough equity to put a deposit on an apartment in Kenosha.",
+    "name": "Jennifer M.",
+    "location": "West Racine, WI",
+    "situation": "Pre-Foreclosure — Racine County Circuit Court",
+    "date": "February 2026"
   },
   {
-    quote: "My Mount Pleasant house was a split-level near the I-94 corridor, and with all the Microsoft data center news driving prices up, a wholesaler I knew tried to lowball me. I called USA Home Buyers for a second opinion. Their written offer was $28K higher and they closed on my timeline — three weeks because I was moving to Arizona and needed to pack. No agent fees, no staging, no showings.",
-    name: 'Robert K.',
-    location: 'Central Mount Pleasant, WI',
-    situation: 'Relocation — Suburban Sale',
-    date: 'January 2026',
+    "quote": "Racine County family court ordered the house sold. We bought it in 2017 and hadn't agreed on much since then. USA Home Buyers gave us one written number. Neither of us had to negotiate repairs or wait on inspections. Closed in twelve days. Split the proceeds through our attorneys and that was it.",
+    "name": "Sandra and Chris F.",
+    "location": "Downtown Racine, WI",
+    "situation": "Divorce Sale — Court-Ordered",
+    "date": "June 2025"
   },
+  {
+    "quote": "I had a two-unit rental on Case Avenue in Uptown for eight years. The downstairs tenant was fourteen months behind when I finally decided I was done. Wisconsin eviction is long — it can take three to five months minimum. USA Home Buyers bought the property with both tenants in place. From my first call to closing: ten days.",
+    "name": "Leon R.",
+    "location": "Uptown, Racine WI",
+    "situation": "Rental Property — Non-Paying Tenant",
+    "date": "September 2025"
+  },
+  {
+    "quote": "My Mount Pleasant house was a split-level near the I-94 corridor, and with all the Microsoft data center news driving prices up, a wholesaler I knew tried to lowball me. I called USA Home Buyers for a second opinion. Their written offer was $28K higher and they closed on my timeline — three weeks because I was moving to Arizona.",
+    "name": "Robert K.",
+    "location": "Central Mount Pleasant, WI",
+    "situation": "Relocation — Suburban Sale",
+    "date": "January 2026"
+  },
+  {
+    "quote": "Our Southside house had storm drain flooding in the basement two years running — Racine County has been working on the infrastructure but it wasn't fixed yet. The second time, we had mold in the walls and the furnace sat in standing water and died. Repair estimate was $31,000. USA Home Buyers bought it as-is, knew the local flood situation, no surprises. Closed in seven days.",
+    "name": "Diane W.",
+    "location": "Southside, Racine WI",
+    "situation": "Flood Damage — Basement Flooding",
+    "date": "October 2025"
+  },
+  {
+    "quote": "Seventy-two and seventy-four. We'd been happy in our house near the SC Johnson campus for twenty-eight years. But my wife's mobility isn't what it was and we needed one floor, no stairs. USA Home Buyers gave us a fair offer and closed in eight days. We're in a ranch in Caledonia now and it's exactly right.",
+    "name": "Arthur and Dolores K.",
+    "location": "Northside, Racine WI",
+    "situation": "Downsizing — Accessibility",
+    "date": "February 2025"
+  }
 ];
 
 const COMPARISON_ROWS = [

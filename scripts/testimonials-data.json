@@ -1,0 +1,1328 @@
+{
+  "app/page.tsx": [
+    {
+      "quote": "After my mother passed, my brother and I inherited her house off Derry Street. Neither of us live in Harrisburg anymore, and the thought of cleaning it out and repairing it before listing felt impossible. USA Home Buyers made us a fair offer and closed in 12 days. We didn't have to do a thing.",
+      "name": "Sandra M.",
+      "location": "Paxtang, PA",
+      "situation": "Inherited Property — Estate Sale",
+      "date": "March 2026"
+    },
+    {
+      "quote": "My father worked at Youngstown Sheet and Tube his whole life. When he passed, I inherited the house on the South Side — built in 1928, deferred maintenance for 20 years. I live in Cleveland now. USA Home Buyers made a written offer the next day and closed in 11 days. I didn't have to touch a single thing.",
+      "name": "Gerald M.",
+      "location": "South Side, Youngstown OH",
+      "situation": "Inherited Property — Estate Sale",
+      "date": "February 2026"
+    },
+    {
+      "quote": "I got behind after losing my job at MassMutual. The mortgage servicer was already sending notices and Massachusetts foreclosure moves fast — non-judicial, no court. USA Home Buyers explained the timeline and we closed before it got to auction. I walked away with money I didn't know I could keep.",
+      "name": "Darnell W.",
+      "location": "Six Corners, Springfield MA",
+      "situation": "Pre-Foreclosure — Behind on Payments",
+      "date": "November 2025"
+    },
+    {
+      "quote": "We inherited my aunt's cream brick cottage on the Northside — knob-and-tube wiring, original slate roof that was about to go, nobody in the family lives in Racine anymore. I reached out Tuesday evening. USA Home Buyers had a written cash offer at my email Wednesday morning. Closed in 11 days. No cleanout, no repairs.",
+      "name": "Thomas H.",
+      "location": "Northside Historic District, Racine WI",
+      "situation": "Inherited Property — Estate Sale",
+      "date": "March 2025"
+    },
+    {
+      "quote": "I relocated to Boston for work and had my Manchester house on the market for three months with an agent — two failed offers, one buyer who couldn't get financing. USA Home Buyers gave me a written number the next morning and we closed before my lease on the new apartment ran out. Should have called them first.",
+      "name": "Lisa F.",
+      "location": "North End, Manchester NH",
+      "situation": "Relocation — Carrying Two Properties",
+      "date": "September 2025"
+    },
+    {
+      "quote": "My divorce required selling the house in Black Rock. My ex and I couldn't agree on anything. USA Home Buyers gave one offer, one closing date, and the proceeds split through our attorneys. Three weeks from first call to cash in hand. The simplest part of the whole divorce, honestly.",
+      "name": "Ana M.",
+      "location": "Black Rock, Bridgeport CT",
+      "situation": "Divorce Sale",
+      "date": "July 2025"
+    },
+    {
+      "quote": "Fifty years in Corn Hill. We raised our kids there and watched the neighborhood come back to life. But property taxes hit $7,800 this year and we're both past seventy on fixed incomes. USA Home Buyers were fair and honest, and we closed in 8 days. We're in a senior community in Pittsford now. Good neighbors.",
+      "name": "Norman and Betty S.",
+      "location": "Corn Hill, Rochester NY",
+      "situation": "Downsizing — Retirement",
+      "date": "January 2026"
+    }
+  ],
+  "app/markets/allentown-pa/page.tsx": [
+    {
+      "quote": "My uncle left me a row home on the South Side — built in the 1920s, plaster walls, older electrical. I live in Philadelphia and had no way to manage it from there. USA Home Buyers made a fair offer, closed in 11 days, and I never had to deal with the maintenance or the tenant situation.",
+      "name": "Marcus D.",
+      "location": "South Side, Allentown PA",
+      "situation": "Inherited Property — Out-of-State Heir",
+      "date": "March 2026"
+    },
+    {
+      "quote": "I was behind on my mortgage and getting letters from the bank. I didn't realize I could sell and still protect my credit and walk away with something. The offer was fair and we closed in 10 days. I wish I had called sooner.",
+      "name": "Rosa V.",
+      "location": "Allentown, PA",
+      "situation": "Behind on Payments — Pre-Foreclosure",
+      "date": "October 2025"
+    },
+    {
+      "quote": "Me and my ex-husband couldn't be in the same house, let alone agree on repairs. The judge said we had ninety days to sell the property on Hamilton Boulevard or he'd appoint a commissioner. USA Home Buyers gave us a written offer the same week. My ex signed, I signed, we closed in thirteen days.",
+      "name": "Yolanda F.",
+      "location": "West Park, Allentown PA",
+      "situation": "Divorce Sale — Court-Ordered",
+      "date": "July 2025"
+    },
+    {
+      "quote": "I had a rental on the West End with a non-paying tenant and code violations piling up. I just wanted out. USA Home Buyers bought it tenant-occupied, violations and all. Done in two weeks.",
+      "name": "Thomas K.",
+      "location": "West End, Allentown PA",
+      "situation": "Rental Property — Code Violations",
+      "date": "January 2026"
+    },
+    {
+      "quote": "Air Products transferred me to their Houston office and gave me four weeks to report. My wife and I had the house listed briefly but the market didn't move fast enough. USA Home Buyers made an offer we could live with. Closed ten days later and I started in Houston on time.",
+      "name": "Craig W.",
+      "location": "Trexlertown, PA",
+      "situation": "Relocation — Corporate Transfer",
+      "date": "June 2025"
+    },
+    {
+      "quote": "Jordan Creek flooded our basement twice in three years. The last time, water came up through the floor drain and destroyed the furnace and water heater. The remediation estimate was $34,000. USA Home Buyers came out, knew exactly what they were looking at, and had a written offer the next morning. Closed in eleven days.",
+      "name": "Brenda K.",
+      "location": "South Allentown, PA",
+      "situation": "Flood Damage — Repeated Basement Flooding",
+      "date": "November 2025"
+    },
+    {
+      "quote": "My wife passed and I was rattling around a three-bedroom house on Brodhead Avenue by myself. Seventy-four years old, arthritis, couldn't keep up with the yard or the repairs. USA Home Buyers closed in eight days. I moved into the senior community the following week.",
+      "name": "Frank D.",
+      "location": "Fountain Hill, PA",
+      "situation": "Downsizing — Widowed, Senior Transition",
+      "date": "February 2025"
+    }
+  ],
+  "app/markets/bethlehem-pa/page.tsx": [
+    {
+      "quote": "My grandmother's row home on Hayes Street sat vacant for three years after she passed. South Side, built in the 1920s, knob-and-tube wiring, boiler that hadn't run in two winters. The family was scattered — nobody wanted to manage it from out of state. USA Home Buyers made a fair cash offer and closed in 10 days. We left everything. They handled the rest.",
+      "name": "Patricia M.",
+      "location": "South Side, Bethlehem PA",
+      "situation": "Inherited Property — Estate Sale",
+      "date": "March 2026"
+    },
+    {
+      "quote": "I owned a rental on West 4th Street, tenant stopped paying during COVID and I never got fully caught up with the mortgage after. When I found out about the foreclosure timeline in Northampton County I knew I needed to move fast. Got a written offer in 20 hours, closed before the sheriff sale was scheduled.",
+      "name": "Marcus T.",
+      "location": "West Side, Bethlehem PA",
+      "situation": "Pre-Foreclosure — Behind on Mortgage",
+      "date": "February 2026"
+    },
+    {
+      "quote": "Going through a divorce, we needed to sell the house on Prospect Avenue quickly and split the money cleanly. No arguments about repairs, no real estate agent drama. USA Home Buyers gave us one written number, we both signed, and it was done in 12 days.",
+      "name": "Denise R.",
+      "location": "Central Bethlehem, PA",
+      "situation": "Divorce Sale — Splitting Assets",
+      "date": "November 2025"
+    },
+    {
+      "quote": "I had two student rentals near Lehigh on Brodhead Avenue. The last set of tenants left the basement flooded with the pipes disconnected and the carpets destroyed. It would have cost $22,000 just to make it rentable again. USA Home Buyers bought both properties in one transaction, as-is. Closed in fifteen days.",
+      "name": "Kevin O.",
+      "location": "South Bethlehem, PA",
+      "situation": "Rental Property — Student Housing Exit",
+      "date": "August 2025"
+    },
+    {
+      "quote": "Got an offer from St. Luke's in their Phoenix satellite and had six weeks to move. I'd owned my house in Fountain Hill for nine years — good bones but the kitchen hadn't been touched since the nineties. USA Home Buyers had a number in twenty-four hours. We closed the day before I drove to Arizona.",
+      "name": "Anita S.",
+      "location": "Fountain Hill, PA",
+      "situation": "Relocation — Healthcare Transfer",
+      "date": "May 2025"
+    },
+    {
+      "quote": "A tree came down in the November windstorm and punched through the back of the roof over the master bedroom. Insurance covered the tree removal but disputed the interior damage claim. USA Home Buyers saw it, made an offer two days later, we closed in twelve days. Insurance fight became their problem, not mine.",
+      "name": "Jerome B.",
+      "location": "North Side, Bethlehem PA",
+      "situation": "Storm Damage — Roof Collapse",
+      "date": "January 2026"
+    },
+    {
+      "quote": "I'm seventy-one and I've been in my house on Heckewelder Street since 1994. My cardiologist told me the stairs weren't doing me any favors. USA Home Buyers made me a fair offer. I moved into a ground-floor apartment in seven days. Didn't have to stage a single room.",
+      "name": "Eleanor V.",
+      "location": "Historic District, Bethlehem PA",
+      "situation": "Downsizing — Health-Driven Move",
+      "date": "July 2025"
+    }
+  ],
+  "app/markets/bloomington-il/page.tsx": [
+    {
+      "quote": "My father worked at State Farm for thirty-one years and bought his Founders' Grove home in 1974. When he passed, my siblings and I were scattered across four states. USA Home Buyers gave us a written number within a day, handled all the coordination with the McLean County probate attorney, and closed in eighteen days. We never had to come back to Bloomington.",
+      "name": "Sandra M.",
+      "location": "Founders' Grove, Bloomington IL",
+      "situation": "Inherited Estate — State Farm Retiree Property",
+      "date": "March 2026"
+    },
+    {
+      "quote": "After Rivian cut production shifts and my hours dropped, I fell behind on the mortgage. Four months behind, and the lender filed in McLean County Circuit Court. I didn't know I still had $47,000 in equity and could sell out from under the foreclosure. USA Home Buyers explained the options, had a written offer the next day, and we closed in fourteen days. The foreclosure was dismissed.",
+      "name": "Dwayne F.",
+      "location": "Oakland Park, Bloomington IL",
+      "situation": "Pre-Foreclosure — Behind on Payments",
+      "date": "October 2025"
+    },
+    {
+      "quote": "The judge ordered the house sold as part of the McLean County dissolution. We couldn't agree on a listing price, couldn't agree on an agent, couldn't agree on repairs. Our attorneys finally said get a cash offer and split it. USA Home Buyers came in, we got a number both of us could accept, and closed in sixteen days. That was the last thing we had to agree on.",
+      "name": "Christine and Dale W.",
+      "location": "Eastside, Bloomington IL",
+      "situation": "Divorce Sale — Court-Ordered",
+      "date": "March 2025"
+    },
+    {
+      "quote": "I owned a rental on Willow Street in Normal for eight years, mostly ISU students. The last tenant left in April and took the back door handle. I'm not exaggerating — they took the handle. Also left the stove on and melted the backsplash. USA Home Buyers bought it as-is in ten days. Done being a landlord.",
+      "name": "Jerome T.",
+      "location": "Normal Heights, Normal IL",
+      "situation": "Rental Property — Tenant Damage",
+      "date": "June 2025"
+    },
+    {
+      "quote": "I'd been an ISU adjunct for six years when a tenure-track offer came in from a university in Arizona. I had to be there in five weeks. My house in the Veterans Parkway corridor was tenant-occupied — the lease wasn't up for four months. USA Home Buyers bought it with the tenant in place. I didn't have to evict anyone, didn't miss the Arizona start date.",
+      "name": "Robert A.",
+      "location": "Veterans Parkway, Bloomington IL",
+      "situation": "Faculty Relocation — Tenant-Occupied Property",
+      "date": "February 2026"
+    },
+    {
+      "quote": "The sump pump failed during the spring melt. We had four inches of water in the basement and mold grew behind the drywall before we even knew it was there. The remediation estimate was $29,000. My husband has COPD — we couldn't stay in the house while they worked on it anyway. USA Home Buyers bought it as-is, no inspection contingency. We were in our new place in eleven days.",
+      "name": "Patricia L.",
+      "location": "Washington Park, Bloomington IL",
+      "situation": "Flood Damage — Mold Remediation",
+      "date": "April 2025"
+    },
+    {
+      "quote": "Country Financial restructured my department and offered early retirement. At 58, with a home that needed a new roof and electrical updates, I wasn't going to find a conventional buyer who'd overlook those issues. USA Home Buyers gave me a real number the next morning. I was at a title company signing papers within two weeks. No repairs, no agents, no waiting.",
+      "name": "Linda K.",
+      "location": "North Bloomington, Bloomington IL",
+      "situation": "Downsizing — Early Retirement",
+      "date": "January 2026"
+    }
+  ],
+  "app/markets/bridgeport-ct/page.tsx": [
+    {
+      "quote": "I inherited my aunt's house on the East Side — built in the 1920s, plaster walls, older electrical. I live in New York and couldn't manage it from a distance. The Bridgeport Probate Court process was straightforward, and USA Home Buyers closed the week after probate was settled. I didn't have to make a single repair.",
+      "name": "Isabella R.",
+      "location": "East Side, Bridgeport CT",
+      "situation": "Inherited Property — Estate Sale",
+      "date": "March 2026"
+    },
+    {
+      "quote": "I was three months behind and the bank had already filed in Superior Court. A friend told me Connecticut uses strict foreclosure — there's no auction, the bank can just take title on the law day. USA Home Buyers moved fast and we closed before the law day was set. I walked away with money instead of nothing.",
+      "name": "Marcus T.",
+      "location": "North End, Bridgeport CT",
+      "situation": "Pre-Foreclosure — Strict Foreclosure",
+      "date": "February 2026"
+    },
+    {
+      "quote": "My divorce required selling the house in Black Rock. My ex and I couldn't agree on anything. USA Home Buyers gave one offer, one closing date, and the proceeds split through our attorneys. Three weeks from first call to cash in hand.",
+      "name": "Ana M.",
+      "location": "Black Rock, Bridgeport CT",
+      "situation": "Divorce Sale",
+      "date": "November 2025"
+    },
+    {
+      "quote": "I had a two-family on Howard Avenue for eleven years. The last tenant was three months behind and Connecticut eviction can drag on for six months or more. USA Home Buyers bought the property with the tenant still in it. Twelve days from first call to closing. I haven't thought about being a landlord since.",
+      "name": "Luis R.",
+      "location": "South End, Bridgeport CT",
+      "situation": "Rental Property — Problem Tenant",
+      "date": "July 2025"
+    },
+    {
+      "quote": "Got a management job at Pratt & Whitney in East Hartford and had to be there in five weeks. I'd been trying to sell my house in Stratfield for two months — no solid offers, one fell through on financing. USA Home Buyers had a written number in twenty-four hours and we closed before I had to be in Hartford.",
+      "name": "Stephanie W.",
+      "location": "Stratfield, Bridgeport CT",
+      "situation": "Relocation — Carrying Two Properties",
+      "date": "September 2025"
+    },
+    {
+      "quote": "The boiler on my West Side property failed mid-winter and the pipes froze. Three rooms had water damage and the plaster ceilings in two of them came down. Contractor said $41,000 minimum. I'm seventy and I'm not financing $41,000. USA Home Buyers bought it as-is. The whole thing took nine days.",
+      "name": "Antoine M.",
+      "location": "West Side, Bridgeport CT",
+      "situation": "Water Damage — Frozen Pipes",
+      "date": "January 2026"
+    },
+    {
+      "quote": "My husband passed in the spring of 2025. I'm sixty-eight, I don't drive, and the house was too much. I have two daughters in Stamford who kept asking me to move closer. USA Home Buyers made me a fair offer — didn't have to stage anything or have strangers walking through. Closed in eight days. I was in Stamford by the end of the month.",
+      "name": "Miriam K.",
+      "location": "Hollow, Bridgeport CT",
+      "situation": "Downsizing — Widowed, Relocating to Family",
+      "date": "October 2025"
+    }
+  ],
+  "app/markets/champaign-urbana-il/page.tsx": [
+    {
+      "quote": "My father was a UIUC engineering professor for 28 years. When he passed, my brother and I were in Seattle and Boston — neither of us had been back to Champaign in years. The house in Southwest Champaign had original 1970s HVAC and a basement with water intrusion. USA Home Buyers had a written number within 24 hours and we closed without either of us flying back.",
+      "name": "Carol H.",
+      "location": "Southwest Champaign, IL",
+      "situation": "Inherited Estate — Out-of-State Heirs",
+      "date": "March 2026"
+    },
+    {
+      "quote": "After the property management company I worked for closed, I never got fully caught back up. By the time the Champaign County case was filed, I was six months behind. USA Home Buyers got me a written offer within forty-eight hours and closed in thirteen days before summary judgment. I had $31,000 in equity I almost lost.",
+      "name": "Darius M.",
+      "location": "North Champaign, IL",
+      "situation": "Pre-Foreclosure — Behind on Payments",
+      "date": "May 2025"
+    },
+    {
+      "quote": "The Champaign County divorce decree required the house to be sold. It's in Savoy, near the university, good area — but we couldn't agree on anything. One offer was already written up for us and both of us just had to sign. Twelve days and it was done. The attorneys took care of the rest.",
+      "name": "Wendy and Scott A.",
+      "location": "Savoy, IL",
+      "situation": "Divorce Sale — Court Decree",
+      "date": "August 2025"
+    },
+    {
+      "quote": "I'd been renting to UIUC students in Old West Urbana for eleven years. Every August it was the same: new tenants, new damage, new headaches. Last summer I decided I was done. USA Home Buyers bought the place tenant-occupied. Closed in twelve days. I'm out of the landlord business.",
+      "name": "Robert T.",
+      "location": "Old West Urbana, IL",
+      "situation": "Tired Landlord — Student Rental Exit",
+      "date": "February 2026"
+    },
+    {
+      "quote": "Tenure-track couple, both of us got offers in different states. We had four weeks to figure out the Champaign house before our start dates. No time for an agent, inspections, back-and-forth. USA Home Buyers had a written offer the next day. We closed in ten days. Made both start dates.",
+      "name": "Dr. Priya N.",
+      "location": "Campustown area, Champaign IL",
+      "situation": "Faculty Relocation — Dual Tenure Offer",
+      "date": "January 2026"
+    },
+    {
+      "quote": "Tornado touched down two blocks away in June and our fence, garage, and back half of the roof were destroyed. Insurance took three weeks to send someone. USA Home Buyers was there in two days, made a fair cash offer accounting for the damage, and closed while we were still arguing with the insurance adjuster. The settlement check was mine to keep.",
+      "name": "Bernard O.",
+      "location": "Southeast Champaign, IL",
+      "situation": "Storm Damage — Tornado",
+      "date": "July 2025"
+    },
+    {
+      "quote": "I retired from Carle Hospital after thirty-three years as a nurse and decided to move to Arizona to be near my son. My house in Lincolnwood had been good to me but it needed some work I wasn't willing to do. USA Home Buyers made an offer the day after we spoke. I was in Tucson six weeks later.",
+      "name": "Helen S.",
+      "location": "Lincolnwood, Urbana IL",
+      "situation": "Downsizing — Retirement Move",
+      "date": "February 2025"
+    }
+  ],
+  "app/markets/erie-pa/page.tsx": [
+    {
+      "quote": "My dad's house on East 26th Street had been sitting empty for two years after he passed. Old knob-and-tube wiring, a leaky roof, and none of us lived in Erie anymore. USA Home Buyers gave us a fair cash offer and we closed in 11 days. We didn't touch a thing.",
+      "name": "Robert D.",
+      "location": "Glenwood, Erie PA",
+      "situation": "Inherited Property — Estate Sale",
+      "date": "March 2026"
+    },
+    {
+      "quote": "I was behind on my mortgage with a sheriff sale looming. I didn't realize I still had equity or that I had options. USA Home Buyers explained everything clearly, the offer was fair, and we closed in 9 days — the foreclosure was dismissed at closing.",
+      "name": "Diane M.",
+      "location": "West Bayfront, Erie PA",
+      "situation": "Pre-Foreclosure — Behind on Mortgage",
+      "date": "February 2026"
+    },
+    {
+      "quote": "Lawrence Park house, divorce, court order to sell. We hadn't spoken in months except through lawyers. USA Home Buyers sent one offer — we both said yes, separately, through our attorneys — and closed in fourteen days. Didn't have to share a room with my ex once.",
+      "name": "Tamara N.",
+      "location": "Lawrence Park, Erie PA",
+      "situation": "Divorce Sale — Court-Ordered",
+      "date": "September 2025"
+    },
+    {
+      "quote": "Had a rental near Little Italy that the tenant hadn't paid rent on in six months and wouldn't leave. USA Home Buyers bought it with the tenant in place. That was it — done.",
+      "name": "Gary S.",
+      "location": "Erie, PA",
+      "situation": "Rental Property — Problem Tenant",
+      "date": "January 2026"
+    },
+    {
+      "quote": "Wabtec called with an offer from their Pittsburgh headquarters. I had about six weeks before I needed to be there. My Millcreek house was fine — nothing wrong with it — but the timing meant I couldn't wait for a traditional buyer. USA Home Buyers closed in eleven days. Covered both situations for a total of eleven days. That's a bargain.",
+      "name": "Brian C.",
+      "location": "Millcreek Township, Erie PA",
+      "situation": "Relocation — Corporate Transfer",
+      "date": "April 2025"
+    },
+    {
+      "quote": "The upstairs bathroom had been leaking into the kitchen ceiling for longer than I want to admit. When the ceiling finally came down, we found black mold behind the joists. Remediation company said $38,000 and four weeks of work. I'm sixty-seven and I couldn't deal with that. USA Home Buyers made me a fair offer and closed in eight days.",
+      "name": "Helen G.",
+      "location": "East Side, Erie PA",
+      "situation": "Water Damage — Mold",
+      "date": "November 2025"
+    },
+    {
+      "quote": "We'd been in our Wesleyville place for thirty-one years. Raised three kids there. But the property taxes were $4,200 a year and the house had more rooms than we'd ever use again. USA Home Buyers gave us a clean, quick exit. Closed in nine days. We had our equity check before Christmas.",
+      "name": "John and Mary A.",
+      "location": "Wesleyville, Erie PA",
+      "situation": "Downsizing — Empty Nesters",
+      "date": "December 2025"
+    }
+  ],
+  "app/markets/harrisburg-pa/page.tsx": [
+    {
+      "quote": "After my mother passed, my brother and I inherited her house off Derry Street. Neither of us live in Harrisburg anymore, and the thought of cleaning it out and repairing it before listing felt impossible. USA Home Buyers made us a fair offer and closed in 12 days. We didn't have to do a thing.",
+      "name": "Sandra M.",
+      "location": "Paxtang, PA",
+      "situation": "Inherited Property — Estate Sale",
+      "date": "March 2026"
+    },
+    {
+      "quote": "I was four months behind on my mortgage and the letters were piling up. I didn't know I could sell and still come out with money. USA Home Buyers explained everything, the offer was fair, and we closed before things got any worse.",
+      "name": "James R.",
+      "location": "Steelton, PA",
+      "situation": "Behind on Payments — Pre-Foreclosure",
+      "date": "February 2026"
+    },
+    {
+      "quote": "Our house in Midtown was the one thing me and my ex agreed had to go. Dauphin County proceedings, judge gave us ninety days. USA Home Buyers had a written offer in twenty-four hours — fair number, both of us agreed without argument. Closed in twelve days. The house was the easiest part of the whole process.",
+      "name": "Veronica A.",
+      "location": "Midtown Harrisburg, PA",
+      "situation": "Divorce Sale — Court-Ordered",
+      "date": "July 2025"
+    },
+    {
+      "quote": "I had a tenant in my rental on Green Street who stopped paying rent and wouldn't leave. USA Home Buyers bought the property with the tenant still in it. That was it. Done.",
+      "name": "Carol T.",
+      "location": "Harrisburg, PA",
+      "situation": "Rental Property — Problem Tenant",
+      "date": "January 2026"
+    },
+    {
+      "quote": "Pennsylvania DGS transferred me to the Pittsburgh office. I had my Camp Hill house on the market for a month with an agent and got two showings. Couldn't wait. USA Home Buyers gave me a written offer in a day and we closed in ten days. I made it to Pittsburgh without doubling up on rent.",
+      "name": "Marcus B.",
+      "location": "Camp Hill, PA",
+      "situation": "Relocation — State Employee Transfer",
+      "date": "April 2025"
+    },
+    {
+      "quote": "The furnace died in December and the pipes froze on the north wall. Three rooms with water damage, and the insurance claim was disputed because I'd had a lapse in coverage for two months. I was looking at $27,000 in repairs with no insurance help. USA Home Buyers came out and had me a fair number the next day. Closed in seven days.",
+      "name": "Carolyn W.",
+      "location": "Allison Hill, Harrisburg PA",
+      "situation": "Water Damage — Frozen Pipes",
+      "date": "January 2025"
+    },
+    {
+      "quote": "Sixty-nine years old, my wife is in memory care on Jonestown Road, and I needed to liquidate the house to help cover her care. It wasn't a fun situation. USA Home Buyers were straightforward and decent about it. Offer in twenty-four hours, closed in ten days. I had the money I needed.",
+      "name": "Raymond K.",
+      "location": "Penbrook, PA",
+      "situation": "Downsizing — Memory Care Transition",
+      "date": "March 2025"
+    }
+  ],
+  "app/markets/kenosha-wi/page.tsx": [
+    {
+      "quote": "My father worked at AMC for 30 years. When he passed, I inherited the house on 52nd Street — three bedrooms, built in 1948, needed a new roof and furnace. I live in Chicago and couldn't manage it remotely. USA Home Buyers made a written offer the next morning and we closed in 9 days.",
+      "name": "Michael T.",
+      "location": "Allendale, Kenosha WI",
+      "situation": "Inherited Property — Estate Sale",
+      "date": "March 2026"
+    },
+    {
+      "quote": "I worked at the Amazon distribution center in Kenosha and took a medical leave for six months. Fell behind on payments, the bank filed in Kenosha County Circuit Court — Wisconsin judicial foreclosure. USA Home Buyers explained exactly where the timeline was and moved fast. Written offer in twenty-four hours, closed in eleven days. Foreclosure dismissed.",
+      "name": "Darren W.",
+      "location": "Uptown, Kenosha WI",
+      "situation": "Pre-Foreclosure — Behind on Payments",
+      "date": "August 2025"
+    },
+    {
+      "quote": "After my divorce, I needed to sell the house fast and split the proceeds cleanly. Wisconsin judicial foreclosure can drag on for a year — I didn't want it to come to that. USA Home Buyers gave us one written offer, one closing date, and the proceeds split through our attorneys the same day.",
+      "name": "Sandra K.",
+      "location": "Lincoln Park, Kenosha WI",
+      "situation": "Divorce Sale — Clean Settlement",
+      "date": "February 2026"
+    },
+    {
+      "quote": "I had a rental on 22nd Avenue that I'd owned for 12 years. Problem tenant, code violations from the city, and I was done being a landlord. USA Home Buyers bought it as-is with the tenant still there. The city violations weren't my problem anymore the day we closed.",
+      "name": "Jim B.",
+      "location": "Downtown Kenosha, WI",
+      "situation": "Rental Property — Code Violations",
+      "date": "January 2026"
+    },
+    {
+      "quote": "Snap-on promoted me to their Milwaukee division and I had four weeks to figure out the house in North Kenosha. I wasn't going to spend two months on a listing. USA Home Buyers made a fair offer the same day we talked. I closed eight days later and had a week to find an apartment in Milwaukee.",
+      "name": "Yvonne A.",
+      "location": "North Kenosha, WI",
+      "situation": "Relocation — Corporate Transfer",
+      "date": "June 2025"
+    },
+    {
+      "quote": "We had a grease fire in the kitchen that spread to the wall and the cabinet above the range before we got it out. Insurance gave us actual cash value — $19,000 on a kitchen that would cost $35,000 to rebuild. I wasn't going to fight that for six months. USA Home Buyers bought the house as-is in nine days.",
+      "name": "Anthony S.",
+      "location": "Southside, Kenosha WI",
+      "situation": "Fire Damage — Kitchen Fire",
+      "date": "February 2025"
+    },
+    {
+      "quote": "We owned our Lakeview property for twenty-six years and the property taxes hit $6,400 this year. Both retired, two incomes gone to one Social Security check. The house had too many stairs for my husband's knees anyway. USA Home Buyers gave us a fair number and closed in seven days. We moved to a one-floor condo in Waukegan.",
+      "name": "Eleanor and Frank M.",
+      "location": "Lakeview, Kenosha WI",
+      "situation": "Downsizing — Retirement",
+      "date": "October 2025"
+    }
+  ],
+  "app/markets/king-of-prussia-pa/page.tsx": [
+    {
+      "quote": "My father had lived in his split-level off Henderson Road for 42 years. When he moved to memory care, my siblings and I were left managing a house none of us lived near. It needed a new roof, updated plumbing — the works. USA Home Buyers gave us a fair cash offer and closed in 11 days. We didn't have to lift a finger.",
+      "name": "Patricia W.",
+      "location": "Wayne, PA",
+      "situation": "Inherited Property — Estate Sale",
+      "date": "March 2026"
+    },
+    {
+      "quote": "Lost my position at a consulting firm and burned through savings faster than I expected. The lender filed in Montgomery County Common Pleas. My attorney said I had maybe three months before judgment. I had $83,000 in equity I was about to lose. USA Home Buyers had a written offer the next morning and we closed in twelve days. Case dismissed.",
+      "name": "Vincent R.",
+      "location": "Bridgeport, PA",
+      "situation": "Pre-Foreclosure — Court Filing",
+      "date": "May 2025"
+    },
+    {
+      "quote": "Montgomery County divorce decree said the property had to be sold to finalize the estate division. The house in Swedeland was in both our names and both of us needed the money to move forward. One written offer, both signed it within an hour of receiving it. Closed in fifteen days.",
+      "name": "Theresa and Mark S.",
+      "location": "Swedeland, PA",
+      "situation": "Divorce Sale — Court-Ordered",
+      "date": "August 2025"
+    },
+    {
+      "quote": "I owned a two-bedroom rental unit near the KOP Mall that I'd been leasing to a Section 8 tenant for six years. Housing Authority inspections, maintenance calls, always something. When the tenant gave notice I decided I was done. USA Home Buyers bought it vacant, as-is, in ten days.",
+      "name": "Gordon L.",
+      "location": "King of Prussia, PA",
+      "situation": "Rental Property — Landlord Exit",
+      "date": "March 2025"
+    },
+    {
+      "quote": "I accepted a position at a pharma company in New Jersey and had 30 days to relocate. Listing on the MLS wasn't an option. USA Home Buyers made a written offer within 24 hours and we closed the week before I had to start. Walked away with cash in hand and zero stress.",
+      "name": "David K.",
+      "location": "King of Prussia, PA",
+      "situation": "Corporate Relocation — Pharma Corridor",
+      "date": "February 2026"
+    },
+    {
+      "quote": "Our 1964 colonial needed $90,000 in updates to compete at retail — new kitchen, bathrooms, HVAC, the whole list. We had equity but not the time or energy to manage a full renovation. USA Home Buyers bought it as-is. The net difference wasn't worth the six months of work and uncertainty.",
+      "name": "Robert and Ellen M.",
+      "location": "Upper Merion Township, PA",
+      "situation": "Deferred Maintenance — Sold As-Is",
+      "date": "January 2026"
+    },
+    {
+      "quote": "I'm seventy-three and my doctor recommended I move closer to my family in New Jersey. The house in Upper Merion had appreciated enormously since we bought it in 1994 — I had equity, just not the energy to deal with a full listing. USA Home Buyers gave me a fair offer. I was in New Jersey in under two weeks.",
+      "name": "Barbara K.",
+      "location": "Upper Merion Township, PA",
+      "situation": "Downsizing — Moving Closer to Family",
+      "date": "September 2025"
+    }
+  ],
+  "app/markets/lancaster-pa/page.tsx": [
+    {
+      "quote": "My father owned a row home on Dauphin Street in Cabbage Hill for 40 years. After he passed, I inherited a property with knob-and-tube wiring, a failed furnace, and a tenant who was months behind on rent. I live in Delaware — managing a Lancaster property from out of state was impossible. USA Home Buyers made a written offer within 24 hours and closed in 11 days.",
+      "name": "Robert C.",
+      "location": "Cabbage Hill, Lancaster PA",
+      "situation": "Inherited Property — Estate Sale",
+      "date": "March 2026"
+    },
+    {
+      "quote": "I got a Case Management Order from Lancaster County Court — the foreclosure diversion hold. I had maybe six weeks before the conciliation conference. USA Home Buyers knew exactly what that meant. They got me a written offer in 18 hours, we closed before the conference date, and I walked away with equity instead of a sheriff sale on my record.",
+      "name": "Angela M.",
+      "location": "West End, Lancaster PA",
+      "situation": "Foreclosure Diversion — Pre-Foreclosure Sale",
+      "date": "February 2026"
+    },
+    {
+      "quote": "Divorce sale on our house on Hershey Avenue. My ex and I couldn't agree on anything, but we both agreed we needed it done fast and clean. One written number, no repair arguments, closed in 9 days. The attorney handled the rest. Cleanest part of the whole divorce.",
+      "name": "Donna R.",
+      "location": "Southeast Lancaster, PA",
+      "situation": "Divorce Sale — Split Proceeds",
+      "date": "January 2026"
+    },
+    {
+      "quote": "I had a rental row home on Beaver Street for seven years. Section 8, fine at first. Last two years, the city cited me four times for violations — exterior, plumbing, smoke detectors. I fixed everything twice and still got re-cited. USA Home Buyers bought it in eleven days, citations and all.",
+      "name": "Pedro A.",
+      "location": "Southeast Lancaster, PA",
+      "situation": "Rental Property — Code Violations",
+      "date": "June 2025"
+    },
+    {
+      "quote": "Armstrong called me about a position at their Florida office. I had five weeks. The house in Manheim Township was in good shape but I didn't have time for showings and waiting. USA Home Buyers gave me a written offer in eighteen hours. I accepted, we closed in nine days, and I drove to Florida with a clear head.",
+      "name": "Jennifer K.",
+      "location": "Manheim Township, PA",
+      "situation": "Relocation — Corporate Transfer",
+      "date": "September 2025"
+    },
+    {
+      "quote": "Our house on Lime Street had a slab crack that had been shifting for years. The structural engineer said the foundation needed $52,000 in repairs minimum, possibly more once they opened the walls. No conventional buyer would touch it. USA Home Buyers gave me a real offer the next day. Closed in thirteen days.",
+      "name": "Harold B.",
+      "location": "Conestoga Village, Lancaster PA",
+      "situation": "Foundation Damage — Structural",
+      "date": "November 2025"
+    },
+    {
+      "quote": "I'm sixty-eight, my husband passed, and I was in a four-bedroom house by myself on Fruitville Pike. Couldn't keep up with the yard, the exterior needed paint, and I just didn't want to deal with it. USA Home Buyers gave me a fair offer. I closed in ten days and moved into a smaller place near my daughter.",
+      "name": "Ruth M.",
+      "location": "Lancaster City, PA",
+      "situation": "Downsizing — Widowed",
+      "date": "January 2025"
+    }
+  ],
+  "app/markets/manchester-nh/page.tsx": [
+    {
+      "quote": "My parents owned a house near the Millyard for 40 years. After my mother passed, my brother and I needed to settle the estate quickly — we both have jobs and families, neither of us lives in Manchester. USA Home Buyers had a written offer the next day and we closed in 11 days. The whole process was straightforward.",
+      "name": "Kevin D.",
+      "location": "Amoskeag, Manchester NH",
+      "situation": "Inherited Property — Estate Sale",
+      "date": "March 2026"
+    },
+    {
+      "quote": "New Hampshire foreclosure doesn't use courts — the lender can foreclose by publication and it moves fast. I was three months behind and only found out how fast when I got the notice of sale in the mail. USA Home Buyers explained the NH non-judicial timeline, had a written offer within twenty-four hours, and we closed before the sale date. I walked out with $44,000 I almost lost.",
+      "name": "Nathaniel R.",
+      "location": "West Side, Manchester NH",
+      "situation": "Pre-Foreclosure — Non-Judicial",
+      "date": "July 2025"
+    },
+    {
+      "quote": "Divorce decree in Hillsborough County, sale required. We'd owned the house on South Beech for eleven years, a lot of equity — but we couldn't stand to be in the same room. USA Home Buyers gave us a written offer both our attorneys approved. Closed in twelve days. Money split through escrow.",
+      "name": "Shannon and Greg V.",
+      "location": "South Beech Street, Manchester NH",
+      "situation": "Divorce Sale — Court Decree",
+      "date": "October 2025"
+    },
+    {
+      "quote": "I inherited a three-unit on Bridge Street that I had no interest in managing. Two of the units needed serious work. USA Home Buyers bought the whole thing as-is, tenants and all. That was it.",
+      "name": "Patricia M.",
+      "location": "Beech Hill, Manchester NH",
+      "situation": "Tenant-Occupied Multi-Family — Estate",
+      "date": "January 2026"
+    },
+    {
+      "quote": "I relocated to Boston for work and had my Manchester house on the market for three months with an agent — two failed offers, one buyer who couldn't get financing. USA Home Buyers gave me a written number the next morning and we closed before my lease on the new apartment ran out.",
+      "name": "Lisa F.",
+      "location": "North End, Manchester NH",
+      "situation": "Relocation — Carrying Two Properties",
+      "date": "September 2025"
+    },
+    {
+      "quote": "The ice dam that winter ripped out the front gutter and when it melted, the water came in through the fascia and down the living room wall. Two rooms of water damage, some mold behind the drywall. Insurance covered removal but not reconstruction. USA Home Buyers came out two days after I called. Offer the next morning, closed in seven days.",
+      "name": "Peter J.",
+      "location": "Youngsville, Manchester NH",
+      "situation": "Water Damage — Ice Dam",
+      "date": "February 2025"
+    },
+    {
+      "quote": "Sixty-six years old, widowed, and the house had more property taxes than I wanted to keep paying — $5,800 a year in NH on a fixed income. My son in Boston had been after me to move south. USA Home Buyers gave me a fair number, no open houses, no strangers in my house. Closed in eight days. I was in Massachusetts before spring.",
+      "name": "Caroline F.",
+      "location": "Hooksett Road, Manchester NH",
+      "situation": "Downsizing — Fixed Income, Tax Relief",
+      "date": "November 2025"
+    }
+  ],
+  "app/markets/new-haven-ct/page.tsx": [
+    {
+      "quote": "Mi abuela nos dejó su casa en Fair Haven — una triple-decker de los años 1920 con el techo viejo y la electricidad desactualizada. Ninguno de nosotros tenía el dinero para arreglarla. USA Home Buyers nos dio una oferta justa y cerramos en diez días. No tocamos nada.",
+      "name": "Rosa C.",
+      "location": "Fair Haven, New Haven CT",
+      "situation": "Inherited Property — Estate Sale",
+      "date": "March 2026"
+    },
+    {
+      "quote": "Connecticut strict foreclosure moved faster than I thought. The bank filed in Superior Court and I didn't realize there was no auction — they just set a law day to take title. USA Home Buyers explained how it worked and moved fast. Written offer in twenty-four hours, closed before the law day. I walked away with $29,000 instead of losing everything.",
+      "name": "Antoine B.",
+      "location": "Dixwell, New Haven CT",
+      "situation": "Pre-Foreclosure — Strict Foreclosure",
+      "date": "June 2025"
+    },
+    {
+      "quote": "The New Haven family court ordered the Westville house sold as part of the divorce decree. We both agreed on exactly one thing: get it done fast. USA Home Buyers had a written offer the next day. We both signed, closed in eleven days, money split through our attorneys.",
+      "name": "Yolanda and Marcus S.",
+      "location": "Westville, New Haven CT",
+      "situation": "Divorce Sale — Court-Ordered",
+      "date": "September 2025"
+    },
+    {
+      "quote": "I owned a rental on Howe Street near Yale — grad students for 11 years, and by the time the last lease ended the place needed a new boiler, new floors, and a full kitchen. I didn't want to manage a $40,000 renovation at my age. USA Home Buyers bought it as-is. I had a check in two weeks.",
+      "name": "Gerald W.",
+      "location": "Dwight, New Haven CT",
+      "situation": "Rental Property — Deferred Maintenance",
+      "date": "February 2026"
+    },
+    {
+      "quote": "Yale offered me a research position and my house in East Rock had been rented for three years. My tenant's lease was up but the place needed work. USA Home Buyers bought it vacant, as-is, in eight days. I came back to New Haven for work, not for a renovation project.",
+      "name": "Dr. Amara O.",
+      "location": "East Rock, New Haven CT",
+      "situation": "Relocation — Return to City",
+      "date": "April 2025"
+    },
+    {
+      "quote": "My family bought in Newhallville after my father worked at Winchester. When he passed, the house had been sitting empty for two years. None of us lived close by. USA Home Buyers made it simple — one phone call, one offer, one closing. No cleanout, no repairs.",
+      "name": "Darnell H.",
+      "location": "Newhallville, New Haven CT",
+      "situation": "Vacant Inherited Property — Post-Estate",
+      "date": "November 2025"
+    },
+    {
+      "quote": "Seventy years old, my husband had a stroke, and we needed the equity from the house to pay for his care at a rehab facility on Whalley Avenue. I couldn't take on a four-month listing process. USA Home Buyers gave me a fair offer and we closed in ten days. I got my husband into the right facility and I could breathe again.",
+      "name": "Frances W.",
+      "location": "Beaver Hills, New Haven CT",
+      "situation": "Downsizing — Medical Transition",
+      "date": "January 2026"
+    }
+  ],
+  "app/markets/oshkosh-wi/page.tsx": [
+    {
+      "quote": "Dad worked at Oshkosh Corporation for 31 years — the house on the Far North Side was everything he saved for. After he passed, we were trying to handle the estate from Phoenix and the Winnebago County probate timeline was longer than any of us expected. USA Home Buyers made us an offer two days after we called and closed seventeen days later. The simplest part of the whole estate process.",
+      "name": "Gary T.",
+      "location": "Far North Side, Oshkosh WI",
+      "situation": "Inherited Estate — Former Oshkosh Corporation Employee",
+      "date": "March 2026"
+    },
+    {
+      "quote": "After the plant I worked at outside Oshkosh restructured and cut my position, I was behind on payments within three months. The lender filed in Winnebago County Circuit Court. By that point I had a judgment date looming. USA Home Buyers had a written offer in twenty-four hours and we closed in thirteen days. The judgment was dismissed.",
+      "name": "Brian M.",
+      "location": "Riverside, Oshkosh WI",
+      "situation": "Pre-Foreclosure — Behind on Payments",
+      "date": "May 2025"
+    },
+    {
+      "quote": "The Winnebago County divorce required the house sold before settlement could be finalized. We'd lived in Menominee Park for sixteen years — good memories, but we needed to move on. One written offer from USA Home Buyers, both signed it in the same afternoon, closed in fourteen days.",
+      "name": "Dawn and Tim F.",
+      "location": "Menominee Park, Oshkosh WI",
+      "situation": "Divorce Sale — Court-Ordered",
+      "date": "August 2025"
+    },
+    {
+      "quote": "We owned a rental near Aurora Medical Center for twelve years, renting to hospital staff. Last tenant left in terrible shape — appliances missing, damage to the kitchen and bathroom. The repair estimate was $18,500. We just didn't want to put more money in. USA Home Buyers bought it as-is in nine days.",
+      "name": "Steve and Lorraine K.",
+      "location": "Sawyer Creek, Oshkosh WI",
+      "situation": "Rental Property — Tenant Damage",
+      "date": "February 2026"
+    },
+    {
+      "quote": "Pierce Manufacturing transferred me to their Bradenton, Florida facility. I had eight weeks to get to Florida. My house on the Westside needed a few updates but I wasn't going to spend the summer on that. USA Home Buyers gave me a number in twenty-four hours. I said yes and closed in eleven days. I made it to Bradenton two weeks early.",
+      "name": "Angela D.",
+      "location": "Westside, Oshkosh WI",
+      "situation": "Relocation — Corporate Transfer",
+      "date": "November 2025"
+    },
+    {
+      "quote": "Lake Winnebago flooding had gotten into our South Shore basement twice in four years. The flood insurance was expensive, the buyers who looked at it all walked once they found out the flood history. USA Home Buyers already knew the South Shore flood-plain dynamics — no surprises, no renegotiating after inspection. Written offer, fair number, closed on our schedule.",
+      "name": "Karen and Tom R.",
+      "location": "South Shore, Oshkosh WI",
+      "situation": "Flood-Plain Property — Repeated Flooding",
+      "date": "January 2026"
+    },
+    {
+      "quote": "We were both past seventy and the property taxes on our Near North Side place were $4,100 a year. The house was paid off but that's still a lot of money on a fixed income. USA Home Buyers made a fair offer and closed in eight days. We moved to a smaller place in Neenah, half the taxes, half the upkeep.",
+      "name": "Harold and Irene T.",
+      "location": "Near North Side, Oshkosh WI",
+      "situation": "Downsizing — Fixed Income",
+      "date": "March 2026"
+    }
+  ],
+  "app/markets/peoria-il/page.tsx": [
+    {
+      "quote": "My father worked at Caterpillar for thirty-one years and owned his East Bluff home outright. When he passed, four of us siblings had to decide what to do with a house that needed a new roof, electrical updates, and had been sitting empty for eight months. USA Home Buyers gave us a written offer two days after we called. We closed in sixteen days.",
+      "name": "Loretta B.",
+      "location": "East Bluff, Peoria IL",
+      "situation": "Inherited Estate — Caterpillar-Era Retiree",
+      "date": "March 2026"
+    },
+    {
+      "quote": "I ran a food truck for five years and COVID basically ended that. The lender filed in Peoria County Circuit Court and I got a notice of the court date. USA Home Buyers explained where the timeline was and gave me a written offer in forty-eight hours. We closed in fifteen days before the judgment. I came out with $39,000.",
+      "name": "Darnell F.",
+      "location": "Peoria Heights, IL",
+      "situation": "Pre-Foreclosure — Court Filing",
+      "date": "April 2025"
+    },
+    {
+      "quote": "We both worked at OSF Saint Francis. The divorce was final but neither of us could buy out the other and neither of us wanted to stay in the house. Our attorneys told us we'd need a standard listing and sixty to ninety days minimum. USA Home Buyers gave us one written number. We agreed in one phone call, closed in three weeks.",
+      "name": "Renee and David H.",
+      "location": "Richwoods, Peoria IL",
+      "situation": "Divorce Sale — Court-Ordered",
+      "date": "January 2026"
+    },
+    {
+      "quote": "I owned a rental on McClure Avenue for nine years. The last tenants left six months ago and the city has cited me twice for exterior violations since — mowing, boarded window, the usual. I never planned to be a long-distance landlord from Iowa City. USA Home Buyers bought it as-is, violations and all. Eleven days.",
+      "name": "Maria V.",
+      "location": "Moss-Bradley, Peoria IL",
+      "situation": "Rental Property — Code Violations",
+      "date": "July 2025"
+    },
+    {
+      "quote": "Got a plant manager offer at a Caterpillar supplier in Nashville. I had five weeks. My North Peoria house was in decent shape but I couldn't do showings from Tennessee while I was starting a new job. USA Home Buyers closed ten days after I accepted the offer. I drove to Nashville with one less thing to think about.",
+      "name": "Kevin S.",
+      "location": "North Peoria, IL",
+      "situation": "Relocation — Manufacturing Transfer",
+      "date": "October 2025"
+    },
+    {
+      "quote": "Balloon-frame construction from 1928. Kitchen fire spread to the back bedroom before they got it out. Insurance was offering me actual cash value — forty-two thousand dollars on a house that was worth ninety before the fire. I didn't want to fight a six-month insurance battle while paying property taxes on a gutted building. USA Home Buyers bought it in as-is condition, closed in twelve days.",
+      "name": "Marcus T.",
+      "location": "South Peoria, Peoria IL",
+      "situation": "Fire-Damaged Home — Pre-1940 Balloon Frame",
+      "date": "February 2026"
+    },
+    {
+      "quote": "My husband retired from Methodist Medical Center and then his health declined fast. I needed the equity from the house to move both of us into continuing care. USA Home Buyers gave me a fair number and closed in eight days. We were both in care within a month.",
+      "name": "Frances L.",
+      "location": "Glen Oak, Peoria IL",
+      "situation": "Downsizing — Health Transition",
+      "date": "November 2025"
+    }
+  ],
+  "app/markets/racine-mount-pleasant-wi/page.tsx": [
+    {
+      "quote": "We inherited my aunt's cream brick cottage on the Northside — one of those 1890s workers' houses off Main Street. The wiring was still knob-and-tube, the roof was original slate that was about to go, and nobody in the family lived in Racine anymore. I reached out Tuesday evening. USA Home Buyers had a written cash offer at my email Wednesday morning. We closed in 11 days at the title company on Wisconsin Avenue.",
+      "name": "Thomas H.",
+      "location": "Northside Historic District, Racine WI",
+      "situation": "Inherited Cream Brick Cottage — Estate Sale",
+      "date": "March 2026"
+    },
+    {
+      "quote": "Foreclosure in Racine County moves slow — Wisconsin is judicial, so the bank has to go through Circuit Court. Mine was already 9 months in when I finally called USA Home Buyers. They put a written offer on my West Racine bungalow in 24 hours, closed before the sheriff's sale, and I walked away with enough equity to put a deposit on an apartment in Kenosha.",
+      "name": "Jennifer M.",
+      "location": "West Racine, WI",
+      "situation": "Pre-Foreclosure — Racine County Circuit Court",
+      "date": "February 2026"
+    },
+    {
+      "quote": "Racine County family court ordered the house sold. We bought it in 2017 and hadn't agreed on much since then. USA Home Buyers gave us one written number. Neither of us had to negotiate repairs or wait on inspections. Closed in twelve days. Split the proceeds through our attorneys and that was it.",
+      "name": "Sandra and Chris F.",
+      "location": "Downtown Racine, WI",
+      "situation": "Divorce Sale — Court-Ordered",
+      "date": "June 2025"
+    },
+    {
+      "quote": "I had a two-unit rental on Case Avenue in Uptown for eight years. The downstairs tenant was fourteen months behind when I finally decided I was done. Wisconsin eviction is long — it can take three to five months minimum. USA Home Buyers bought the property with both tenants in place. From my first call to closing: ten days.",
+      "name": "Leon R.",
+      "location": "Uptown, Racine WI",
+      "situation": "Rental Property — Non-Paying Tenant",
+      "date": "September 2025"
+    },
+    {
+      "quote": "My Mount Pleasant house was a split-level near the I-94 corridor, and with all the Microsoft data center news driving prices up, a wholesaler I knew tried to lowball me. I called USA Home Buyers for a second opinion. Their written offer was $28K higher and they closed on my timeline — three weeks because I was moving to Arizona.",
+      "name": "Robert K.",
+      "location": "Central Mount Pleasant, WI",
+      "situation": "Relocation — Suburban Sale",
+      "date": "January 2026"
+    },
+    {
+      "quote": "Our Southside house had storm drain flooding in the basement two years running — Racine County has been working on the infrastructure but it wasn't fixed yet. The second time, we had mold in the walls and the furnace sat in standing water and died. Repair estimate was $31,000. USA Home Buyers bought it as-is, knew the local flood situation, no surprises. Closed in seven days.",
+      "name": "Diane W.",
+      "location": "Southside, Racine WI",
+      "situation": "Flood Damage — Basement Flooding",
+      "date": "October 2025"
+    },
+    {
+      "quote": "Seventy-two and seventy-four. We'd been happy in our house near the SC Johnson campus for twenty-eight years. But my wife's mobility isn't what it was and we needed one floor, no stairs. USA Home Buyers gave us a fair offer and closed in eight days. We're in a ranch in Caledonia now and it's exactly right.",
+      "name": "Arthur and Dolores K.",
+      "location": "Northside, Racine WI",
+      "situation": "Downsizing — Accessibility",
+      "date": "February 2025"
+    }
+  ],
+  "app/markets/reading-pa/page.tsx": [
+    {
+      "quote": "My mother left us her house on Hampden Boulevard after she passed. It needed a new roof, the electrical was old, and none of us had the money to fix it up for the market. USA Home Buyers gave us a fair cash offer and closed in 10 days. We didn't touch a thing.",
+      "name": "Maria R.",
+      "location": "Hampden Heights, Reading PA",
+      "situation": "Inherited Property — Estate Sale",
+      "date": "March 2026"
+    },
+    {
+      "quote": "I was three months behind on my mortgage on my row home in East Reading. I didn't know I could sell and still walk away with money. The process was explained in Spanish, which made a huge difference. We closed before anything got worse.",
+      "name": "Carlos V.",
+      "location": "East Reading, PA",
+      "situation": "Pre-Foreclosure — Behind on Mortgage",
+      "date": "February 2026"
+    },
+    {
+      "quote": "The Berks County judge ordered the house on Perkiomen Avenue sold as part of the decree. Me and my ex-husband hadn't been living together for two years — we just needed someone to buy it without us having to agree on every little thing. USA Home Buyers gave us a written offer, both signed through our lawyers, closed in nine days.",
+      "name": "Luz and Ricardo F.",
+      "location": "Centre Park, Reading PA",
+      "situation": "Divorce Sale — Court Decree",
+      "date": "July 2025"
+    },
+    {
+      "quote": "I had a rental property near GoggleWorks with a tenant who hadn't paid rent in four months and wouldn't leave. USA Home Buyers bought it with the tenant still inside. Done. That was it.",
+      "name": "Patricia M.",
+      "location": "Reading, PA",
+      "situation": "Rental Property — Problem Tenant",
+      "date": "January 2026"
+    },
+    {
+      "quote": "Carpenter Technology's Pittsburgh facility had an opening and I took it. My house in Wyomissing was in good shape but with relocation timing I didn't have six months to list it. USA Home Buyers had a written offer in eighteen hours. I accepted. Closed in eleven days. I started in Pittsburgh on time.",
+      "name": "Tom K.",
+      "location": "Wyomissing, PA",
+      "situation": "Relocation — Corporate Transfer",
+      "date": "April 2025"
+    },
+    {
+      "quote": "A pipe burst in the upstairs bathroom and I didn't catch it for two days. Came home to a wet ceiling in the dining room and mold already starting under the bathroom vanity. The remediation estimate was $24,000 and they said three weeks minimum of work. USA Home Buyers came out, saw the damage, had me a written offer the next day. Closed in eight days.",
+      "name": "Gloria E.",
+      "location": "Mount Penn, PA",
+      "situation": "Water Damage — Burst Pipe",
+      "date": "November 2025"
+    },
+    {
+      "quote": "My husband worked at Reading's old banking district for thirty years. He's been gone four years and I've been in a house with more rooms than I need and more stairs than my knees can manage. USA Home Buyers were straightforward, the offer was fair, and we closed in six days. I didn't have to do a thing to the house.",
+      "name": "Rose M.",
+      "location": "Hampden Heights, Reading PA",
+      "situation": "Downsizing — Widowed",
+      "date": "March 2025"
+    }
+  ],
+  "app/markets/rochester-ny/page.tsx": [
+    {
+      "quote": "My grandfather worked at Kodak his whole career. When he passed, I inherited the house in the 19th Ward — built in 1938, original kitchen, needed a new roof and furnace. I live in Albany and couldn't manage the property long-distance. USA Home Buyers had a written offer the next day and we closed in 10 days through Monroe County Surrogate's Court.",
+      "name": "Robert S.",
+      "location": "19th Ward, Rochester NY",
+      "situation": "Inherited Property — Estate Sale",
+      "date": "March 2026"
+    },
+    {
+      "quote": "I was behind on my mortgage after a medical situation. New York judicial foreclosure takes 12-24 months, but once the bank files in Monroe County Supreme Court, your options narrow fast. USA Home Buyers explained exactly where I stood and closed before the foreclosure judgment. I walked out with enough to start over.",
+      "name": "Diana W.",
+      "location": "South Wedge, Rochester NY",
+      "situation": "Pre-Foreclosure — Behind on Payments",
+      "date": "February 2026"
+    },
+    {
+      "quote": "Monroe County family court, sale required. Park Avenue condo, beautiful neighborhood, but neither of us could buy out the other and we both needed the money to start over. USA Home Buyers gave us a written offer the same week we called. Both attorneys said yes, closed in thirteen days.",
+      "name": "Angela and Paul D.",
+      "location": "Park Avenue, Rochester NY",
+      "situation": "Divorce Sale — Court-Ordered",
+      "date": "June 2025"
+    },
+    {
+      "quote": "I owned a rental on Clifford Avenue for six years. Water damage from a burst pipe, a non-paying tenant, city notices — I was done. USA Home Buyers bought it as-is with the tenant still in it, handled everything, and I didn't have to go to court for eviction or fix the water damage.",
+      "name": "James K.",
+      "location": "Dutchtown, Rochester NY",
+      "situation": "Tenant-Occupied — Water Damage",
+      "date": "January 2026"
+    },
+    {
+      "quote": "Paychex offered me a position at their Scottsdale office and I had five weeks. My house in Irondequoit was fine but I couldn't do open houses and wait on financing. USA Home Buyers closed nine days after I accepted. I was in Arizona before my start date.",
+      "name": "Jason W.",
+      "location": "Irondequoit, NY",
+      "situation": "Relocation — Corporate Transfer",
+      "date": "October 2025"
+    },
+    {
+      "quote": "Lake Ontario flooding in the spring got into our basement on Lakeshore Boulevard twice. The second time killed the furnace and HVAC and left six inches of standing water. Our insurer totaled the contents but fought the structural claim. USA Home Buyers knew Charlotte's flood situation well — no surprises in the offer, no inspection drama. Closed in ten days.",
+      "name": "Eileen M.",
+      "location": "Charlotte, Rochester NY",
+      "situation": "Flood Damage — Lake Ontario Flooding",
+      "date": "May 2025"
+    },
+    {
+      "quote": "Fifty years in Corn Hill. We raised our kids there and watched the neighborhood come back to life. But property taxes hit $7,800 this year and we're both past seventy on fixed incomes. USA Home Buyers were fair and honest, and we closed in 8 days. We're in a senior community in Pittsford now.",
+      "name": "Norman and Betty S.",
+      "location": "Corn Hill, Rochester NY",
+      "situation": "Downsizing — Retirement",
+      "date": "January 2026"
+    }
+  ],
+  "app/markets/rockford-il/page.tsx": [
+    {
+      "quote": "My mother's bungalow in Churchill Grove sat vacant for eight months after she passed. The knob-and-tube wiring alone would have cost $18,000 to bring up to code. I called USA Home Buyers on a Tuesday, had a written number in my email Wednesday morning, and closed seventeen days later. They handled the cleanout. I never even had to come back to Rockford from Columbus.",
+      "name": "Patricia K.",
+      "location": "Churchill Grove, Rockford IL",
+      "situation": "Inherited Estate — Pre-War Bungalow",
+      "date": "March 2026"
+    },
+    {
+      "quote": "After the Chrysler supplier closed, I was out of work for fourteen months and never really caught back up. The mortgage servicer filed in Winnebago County and I didn't know what to do. USA Home Buyers explained where the Illinois judicial timeline was, gave me a written offer in forty-eight hours, and we closed in twelve days before judgment. I came out with $28,000.",
+      "name": "Calvin R.",
+      "location": "Southeast Rockford, IL",
+      "situation": "Pre-Foreclosure — Behind on Payments",
+      "date": "June 2025"
+    },
+    {
+      "quote": "Signal Hill house, divorce situation, both of us needing the proceeds to move forward. Our attorneys kept warning us that contested litigation over the house would drag on for months. We got a single written offer from USA Home Buyers. My ex and I agreed on the number in one phone call — didn't need a judge. Closed three weeks later.",
+      "name": "Marlene O.",
+      "location": "Signal Hill, Rockford IL",
+      "situation": "Divorce Sale — Winnebago County",
+      "date": "January 2026"
+    },
+    {
+      "quote": "I had a rental on Auburn Street for seven years. The last tenant called the city on me for code violations she had caused herself. I got three notices in six weeks. I wasn't going to fix a property for a tenant who was weaponizing the city against me. USA Home Buyers bought it as-is with the tenant still inside. Eleven days, done.",
+      "name": "LaShonda B.",
+      "location": "West Rockford, IL",
+      "situation": "Rental Property — Code Violations",
+      "date": "September 2025"
+    },
+    {
+      "quote": "I'd worked at the Chrysler supplier in Belvidere for nineteen years when the plant shut down. Then a job offer came in from a manufacturer in Indianapolis — good opportunity, but I had four weeks to figure out the house. USA Home Buyers gave me a real number the next day. We closed in ten days. I made the Indianapolis start date with a week to spare.",
+      "name": "Dennis W.",
+      "location": "Midtown, Rockford IL",
+      "situation": "Manufacturing Relocation — Plant Closure",
+      "date": "February 2026"
+    },
+    {
+      "quote": "The sewer line backed up into the basement twice in two years — the city said it was a main line issue they were working on. Second time we had four inches of sewage in the basement and the HVAC system was a complete loss. USA Home Buyers came out two days after I called. Fair number, closed in fourteen days.",
+      "name": "David N.",
+      "location": "East State Street, Rockford IL",
+      "situation": "Sewer Damage — HVAC Loss",
+      "date": "February 2026"
+    },
+    {
+      "quote": "Walter retired from OSF Saint Anthony after thirty-seven years in maintenance. Our Kishwaukee house was paid off but the upkeep was more than either of us wanted to manage anymore. Both kids are in Chicago. USA Home Buyers gave us a fair offer and closed in seven days. We moved to an apartment in Lincoln Park. Closer to the grandkids.",
+      "name": "Helen and Walter K.",
+      "location": "Kishwaukee, Rockford IL",
+      "situation": "Downsizing — Retirement",
+      "date": "October 2025"
+    }
+  ],
+  "app/markets/springfield-il/page.tsx": [
+    {
+      "quote": "I inherited my dad's place in Enos Park after he passed — one of those 1900s frame houses on North 5th Street with the wraparound porch. The electrical hadn't been touched since the 60s, the roof was shot, and I live in Bloomington now. USA Home Buyers had a written cash offer in my inbox the next morning. We closed fourteen days later. No cleanout, no repairs.",
+      "name": "Karen M.",
+      "location": "Enos Park, Springfield IL",
+      "situation": "Inherited Estate — Victorian Frame House",
+      "date": "March 2026"
+    },
+    {
+      "quote": "Got laid off from the Illinois Department of Central Management Services and couldn't stay current on the mortgage. The lender filed in Sangamon County. I had more equity than I realized. USA Home Buyers explained where I stood, gave me a written offer the next day. We closed in eleven days and the foreclosure case was dismissed. Walked away with $33,000.",
+      "name": "Rodney B.",
+      "location": "East Springfield, IL",
+      "situation": "Pre-Foreclosure — Behind on Payments",
+      "date": "May 2025"
+    },
+    {
+      "quote": "Harvard Park bungalow, deferred maintenance for years, divorce situation making things complicated. My attorney told me we needed the house sold to finalize the decree. USA Home Buyers worked around the court timeline, gave us a single offer both parties agreed to, and closed the week after the judge signed off.",
+      "name": "Linda R.",
+      "location": "Harvard Park, Springfield IL",
+      "situation": "Divorce Sale — Sangamon County",
+      "date": "January 2026"
+    },
+    {
+      "quote": "I owned a rental on Maywood Drive for six years. Fine until the tenant stopped paying and started subletting to three other people I had never approved. Code enforcement showed up twice. USA Home Buyers bought it with the tenants still inside. I didn't have to do a single eviction filing. Nine days from first call to closing.",
+      "name": "Christine D.",
+      "location": "Grandview Drive area, Springfield IL",
+      "situation": "Rental Property — Unauthorized Occupants",
+      "date": "August 2025"
+    },
+    {
+      "quote": "I'm a state employee — when my position got transferred to Chicago, I had about six weeks to sort out my house on the south side of Springfield before I needed to be up there. I didn't have time for showings, inspections, or waiting on a buyer's mortgage. USA Home Buyers gave me a written offer within 24 hours and we closed in ten days.",
+      "name": "James T.",
+      "location": "South Springfield, IL",
+      "situation": "State Employee Relocation",
+      "date": "February 2026"
+    },
+    {
+      "quote": "Tornado did roof damage in June 2025 and we had water in two bedrooms for weeks before I could get a contractor out. By the time the contractor arrived, there was mold in the ceiling joists. Insurance covered removal but not full reconstruction. USA Home Buyers bought it as-is, no inspection contingency, closed in twelve days.",
+      "name": "Larry A.",
+      "location": "Clear Lake, Springfield IL",
+      "situation": "Storm Damage — Tornado",
+      "date": "July 2025"
+    },
+    {
+      "quote": "My husband retired from the Illinois State Library after thirty-one years. We'd talked about moving to Florida for years. The house in North Glenwood was fine — just bigger than we needed. USA Home Buyers gave us a fair offer. We closed in eight days and were in Sarasota before the weather turned cold.",
+      "name": "Alice and Ben W.",
+      "location": "North Glenwood, Springfield IL",
+      "situation": "Downsizing — Retirement Move",
+      "date": "November 2025"
+    }
+  ],
+  "app/markets/springfield-ma/page.tsx": [
+    {
+      "quote": "My uncle left me a three-family on Oak Street — built in 1922, hadn't been updated since the 1970s. I'm in Florida and couldn't manage it from down here. USA Home Buyers sent a written offer the next day and we closed in 10 days. I didn't have to fly up, didn't have to clean a thing.",
+      "name": "Carmen R.",
+      "location": "Forest Park, Springfield MA",
+      "situation": "Inherited Property — Estate Sale",
+      "date": "March 2026"
+    },
+    {
+      "quote": "I got behind after losing my job at MassMutual. The mortgage servicer was already sending notices. USA Home Buyers explained the Massachusetts foreclosure process — it moves fast here — and we closed before it got to auction. I walked away with money I didn't know I could keep.",
+      "name": "Darnell W.",
+      "location": "Six Corners, Springfield MA",
+      "situation": "Pre-Foreclosure — Behind on Payments",
+      "date": "February 2026"
+    },
+    {
+      "quote": "Hampden County probate court said sell. Neither of us had the money to buy out the other and the back-and-forth about repairs was getting expensive. USA Home Buyers gave us one written number. Both of us said yes, separately, that same evening. Closed in fourteen days. Our attorneys handled the rest.",
+      "name": "Nicole and Jeff A.",
+      "location": "East Springfield, MA",
+      "situation": "Divorce Sale — Court-Ordered",
+      "date": "July 2025"
+    },
+    {
+      "quote": "I owned a two-family on Bay Street with a problem tenant who hadn't paid rent in four months. Under Massachusetts law, eviction can take months and is expensive. USA Home Buyers bought the property with the tenant still in it. The whole thing took 12 days from first call to closing.",
+      "name": "Rosa M.",
+      "location": "Pine Point, Springfield MA",
+      "situation": "Rental Property — Problem Tenant",
+      "date": "January 2026"
+    },
+    {
+      "quote": "Big Y corporate transferred me to their Connecticut headquarters and gave me a month. My house in Sixteen Acres was a good property but I needed certainty, not a listing that might take three months. USA Home Buyers closed eight days after I accepted their offer. I made it to CT on time.",
+      "name": "Marcus L.",
+      "location": "Sixteen Acres, Springfield MA",
+      "situation": "Relocation — Corporate Transfer",
+      "date": "April 2025"
+    },
+    {
+      "quote": "The boiler in my three-decker failed in January 2025 and the pipes froze. Three units, two of them with water damage in the ceilings. My insurance deductible was $8,000 and the remaining repair quote was $44,000. I'm sixty-three and I can't carry that kind of project. USA Home Buyers bought the building as-is. Closed in eleven days.",
+      "name": "Elena R.",
+      "location": "Indian Orchard, Springfield MA",
+      "situation": "Water Damage — Frozen Pipes",
+      "date": "March 2025"
+    },
+    {
+      "quote": "Both retired, house too big, property taxes $5,200 a year. The house on Belmont Avenue had been good to us but it was time. Our financial advisor suggested we downsize and put the equity to work. USA Home Buyers were straightforward — offer, agreement, closing. Done in nine days. We moved to a condo in West Springfield.",
+      "name": "Bill and Mary C.",
+      "location": "Liberty Heights, Springfield MA",
+      "situation": "Downsizing — Retirement",
+      "date": "January 2026"
+    }
+  ],
+  "app/markets/state-college-pa/page.tsx": [
+    {
+      "quote": "I inherited my dad's place in Holmes-Foster after he passed. It's a great neighborhood, but the house needed a new roof and the kitchen was from 1978. I didn't have the time or money to rehab it from out of state. USA Home Buyers bought it as-is. The probate piece was complicated and they worked around it with no drama.",
+      "name": "Michelle T.",
+      "location": "Holmes-Foster, State College PA",
+      "situation": "Inherited Property — Out-of-State Heir",
+      "date": "March 2026"
+    },
+    {
+      "quote": "I ran a restaurant near campus that closed during COVID. Never fully recovered. The lender filed in Centre County court and I realized I had equity I was about to lose. USA Home Buyers explained the Pennsylvania foreclosure timeline, gave me a written offer the next morning, and we closed in twelve days. The case was dismissed. I came out with $47,000.",
+      "name": "Ben T.",
+      "location": "Westover Hills, State College PA",
+      "situation": "Pre-Foreclosure — Behind on Payments",
+      "date": "June 2025"
+    },
+    {
+      "quote": "The divorce decree in Centre County required the house sold. We'd both been on the mortgage for seven years and neither of us could buy out the other on a single income. USA Home Buyers gave us a written offer both our attorneys approved. Closed in ten days. The proceeds let both of us move on.",
+      "name": "Lisa and Dan P.",
+      "location": "Highlands, State College PA",
+      "situation": "Divorce Sale — Court Decree",
+      "date": "September 2025"
+    },
+    {
+      "quote": "Twelve years of renting to Penn State students was enough. I had good tenants and bad tenants, and honestly the good ones still left every May and I'd spend the summer chasing the next lease. I just wanted out. USA Home Buyers bought the property with the tenant still in place and I was done in two weeks.",
+      "name": "Gary M.",
+      "location": "State College Borough",
+      "situation": "Landlord Exit — Student Rental",
+      "date": "March 2026"
+    },
+    {
+      "quote": "My wife and I bought a house on Westerly Parkway back in '98 when she started at Penn State. After she retired and we moved to be near our grandkids, the house sat vacant for two years. I tried the MLS route — the buyer's financing fell through twice. USA Home Buyers made us a fair offer, we closed in 10 days, and I didn't have to fly back from Florida.",
+      "name": "Robert H.",
+      "location": "College Heights, State College PA",
+      "situation": "Faculty Relocation — Out-of-State Move",
+      "date": "February 2026"
+    },
+    {
+      "quote": "The basement had taken water twice from spring flooding near Spring Creek. Second time, the water heater and furnace were a complete loss and there was mold behind the drywall in two corners. The remediation quote was $26,000. I decided to sell instead. USA Home Buyers closed in twelve days.",
+      "name": "Phil K.",
+      "location": "College Township, PA",
+      "situation": "Flood Damage — Mold Remediation",
+      "date": "April 2025"
+    },
+    {
+      "quote": "We both retired from Penn State. The house in Houserville was beautiful but it was three bedrooms and we didn't need three bedrooms anymore. Our daughter pushed us to call USA Home Buyers. They came out, made us a fair offer, and we closed in seven days. We're in a one-bedroom near downtown now and life is simpler.",
+      "name": "Ruth and Carl B.",
+      "location": "Houserville, State College PA",
+      "situation": "Downsizing — Retirement",
+      "date": "October 2025"
+    }
+  ],
+  "app/markets/wilmington-de/page.tsx": [
+    {
+      "quote": "My aunt owned a row home on West 4th Street in Southbridge for decades. After she passed, I inherited a property with a leaking roof, outdated knob-and-tube wiring, and a basement that flooded every spring. I'm in New York — managing a Wilmington property remotely was unsustainable. USA Home Buyers made a written offer within 24 hours and closed in 10 days. No regrets.",
+      "name": "Marcus D.",
+      "location": "Southbridge, Wilmington DE",
+      "situation": "Inherited Property — Estate Sale",
+      "date": "March 2026"
+    },
+    {
+      "quote": "After losing my job at ChristianaCare, I fell three months behind on my mortgage. The lender filed a complaint in NCC Superior Court — I had no idea Delaware foreclosure moved that fast. USA Home Buyers explained the judicial timeline, made a written offer the next morning, and we closed before the case progressed. I walked away with $38,000 instead of nothing.",
+      "name": "Denise W.",
+      "location": "West Center City, Wilmington DE",
+      "situation": "Foreclosure — Pre-Sheriff Sale",
+      "date": "February 2026"
+    },
+    {
+      "quote": "Our divorce settlement required the house on Shallcross Avenue to be sold. My ex and I couldn't agree on anything. USA Home Buyers handled the whole transaction through our attorneys — one number, one closing, proceeds split cleanly the day we signed.",
+      "name": "Patricia R.",
+      "location": "Trolley Square area, Wilmington DE",
+      "situation": "Divorce Sale — Clean Settlement",
+      "date": "November 2025"
+    },
+    {
+      "quote": "I had a Section 8 rental on Pine Street in Riverside for nine years. Good run, then it wasn't. The last tenant caused $14,000 in damage and the housing authority stopped the rent payments while it was under review. I couldn't evict, couldn't get paid, couldn't get repairs reimbursed. USA Home Buyers bought it as-is in eleven days.",
+      "name": "Leon and Karen J.",
+      "location": "Riverside, Wilmington DE",
+      "situation": "Rental Property — Section 8 Complications",
+      "date": "August 2025"
+    },
+    {
+      "quote": "W.L. Gore offered me a position at their Flagstaff facility. Five weeks to relocate. My house in Brandywine Hundred was in good shape but I couldn't manage a listing from Arizona. USA Home Buyers had a written offer in twenty-four hours and closed in nine days. I made it to Flagstaff a week early.",
+      "name": "Kevin F.",
+      "location": "Brandywine Hundred, DE",
+      "situation": "Relocation — Corporate Transfer",
+      "date": "May 2025"
+    },
+    {
+      "quote": "The row home on Lancaster Avenue had foundation cracks that had been moving. We called an engineer and they said the back wall had shifted two inches and needed shoring — $48,000 estimate. No bank would finance a buyer with a structural issue like that. USA Home Buyers came out, made an offer two days later. Closed in thirteen days.",
+      "name": "Gloria T.",
+      "location": "Cool Spring, Wilmington DE",
+      "situation": "Foundation Damage — Structural",
+      "date": "September 2025"
+    },
+    {
+      "quote": "Seventy-one years old and my husband is in a nursing facility on Foulk Road. I needed to sell the house to cover his care costs. The whole situation is hard enough without adding a six-month listing process. USA Home Buyers were understanding and quick. Offer in twenty-four hours, closed in eight days.",
+      "name": "Irene M.",
+      "location": "Browntown, Wilmington DE",
+      "situation": "Downsizing — Medical Transition",
+      "date": "January 2025"
+    }
+  ],
+  "app/markets/worcester-ma/page.tsx": [
+    {
+      "quote": "My parents owned a three-decker on Chandler Street for over 30 years. After my father passed, we went through Worcester Probate and Family Court — took about four months. USA Home Buyers was ready to close the day after probate cleared. We didn't have to touch anything inside.",
+      "name": "Patrick F.",
+      "location": "Main South, Worcester MA",
+      "situation": "Inherited Property — Probate Sale",
+      "date": "March 2026"
+    },
+    {
+      "quote": "Massachusetts foreclosure is non-judicial — the lender can foreclose by advertisement without going to court, and it can happen in as little as three months. I was behind and didn't realize how fast it would move. USA Home Buyers explained the timeline and had a written offer the same day I called. Closed in eleven days. Foreclosure cancelled.",
+      "name": "Dwayne A.",
+      "location": "Great Brook Valley, Worcester MA",
+      "situation": "Pre-Foreclosure — Non-Judicial",
+      "date": "June 2025"
+    },
+    {
+      "quote": "Worcester Probate and Family Court, sale required. The Tatnuck house had a lot of equity but we were not in a position to negotiate anything calmly. USA Home Buyers gave us a number and our attorneys both signed off. Closed in twelve days. Split proceeds through escrow.",
+      "name": "Sandra and Mike O.",
+      "location": "Tatnuck, Worcester MA",
+      "situation": "Divorce Sale — Court-Ordered",
+      "date": "September 2025"
+    },
+    {
+      "quote": "I had a rental on Grafton Street that I'd been managing for eight years. Problem tenant, lead paint issues, city notices piling up. I couldn't afford to fix it and didn't want to go through eviction. USA Home Buyers bought it as-is with the tenant still there. Done in 11 days.",
+      "name": "Marie T.",
+      "location": "Piedmont, Worcester MA",
+      "situation": "Rental Property — Lead Paint Issues",
+      "date": "February 2026"
+    },
+    {
+      "quote": "Relocating to Connecticut for a new job. Had the house listed for six weeks, two buyers fell through — one couldn't get financing, one backed out after inspection. USA Home Buyers closed 8 days after I accepted their written offer. I made it to my start date with two weeks to spare.",
+      "name": "Thomas C.",
+      "location": "Burncoat, Worcester MA",
+      "situation": "Relocation Sale",
+      "date": "January 2026"
+    },
+    {
+      "quote": "The three-decker on Charlton Street had a chimney collapse in February — took out the back wall of the second floor. Structural damage, water intrusion from the open wall. My insurance company offered $37,000. Contractor said $61,000. I'm not fighting that battle. USA Home Buyers made a fair offer the next day. Closed in nine days.",
+      "name": "Bernard J.",
+      "location": "Bell Hill, Worcester MA",
+      "situation": "Structural Damage — Chimney Collapse",
+      "date": "February 2026"
+    },
+    {
+      "quote": "Arthur retired from Hanover Insurance and we decided we wanted to move to Florida. The house in Quinsigamond Village had been in the family for twenty years and we had a lot of equity. We didn't want to spend six months on a listing. USA Home Buyers closed eight days after we accepted their offer. We drove to Cape Coral in March.",
+      "name": "Rose and Arthur K.",
+      "location": "Quinsigamond Village, Worcester MA",
+      "situation": "Downsizing — Retirement Move",
+      "date": "March 2025"
+    }
+  ],
+  "app/markets/york-pa/page.tsx": [
+    {
+      "quote": "My grandfather built that row home on East Market Street in 1952. After he passed, I inherited a property with a bad roof, outdated wiring, and a tenant who hadn't paid in months. I'm in New Jersey — managing a York property remotely was killing me. USA Home Buyers made a written offer in under 24 hours and closed in 9 days. I left the furniture.",
+      "name": "Marcus T.",
+      "location": "Northeast York, PA",
+      "situation": "Inherited Property — Estate Sale",
+      "date": "March 2026"
+    },
+    {
+      "quote": "Received an Act 91 notice in January. I had no idea I had maybe six months before a sheriff sale. USA Home Buyers explained everything — the timeline, the options — and had a written offer the next morning. We closed before any court filings. I walked away with $41,000 instead of nothing.",
+      "name": "Denise H.",
+      "location": "Southwest York, PA",
+      "situation": "Foreclosure — Pre-Sheriff Sale",
+      "date": "February 2026"
+    },
+    {
+      "quote": "Divorce settlement required the house on King Street to be sold. My ex and I couldn't even be in the same room. USA Home Buyers handled everything through our attorneys. One number, one closing, proceeds split the day we signed.",
+      "name": "Carlos R.",
+      "location": "Downtown York, PA",
+      "situation": "Divorce Sale — Clean Split",
+      "date": "November 2025"
+    },
+    {
+      "quote": "I had a rental on East Princess Street for six years. The tenant stopped paying in February, wouldn't leave, and the York County eviction process takes months. USA Home Buyers bought the property with the tenant still in it. Nine days from my first call to having the money. I did not have to go to court once.",
+      "name": "Tamara G.",
+      "location": "Spring Garden Township, PA",
+      "situation": "Rental Property — Problem Tenant",
+      "date": "July 2025"
+    },
+    {
+      "quote": "WellSpan transferred me to their Chambersburg facility and I needed to be there in four weeks. My West York house was in good shape but I couldn't be in two places at once for a traditional sale. USA Home Buyers had a written offer the same morning I called. Closed in eight days. I made it to Chambersburg before my start date.",
+      "name": "Aaron W.",
+      "location": "West York, PA",
+      "situation": "Relocation — Healthcare Transfer",
+      "date": "October 2025"
+    },
+    {
+      "quote": "The kitchen fire didn't look serious when it started, but by the time the fire company left, the back of the house had smoke damage through three rooms and the kitchen was completely gone. Insurance gave me actual cash value — $34,000. Reconstruction would have been $65,000. USA Home Buyers closed in eleven days.",
+      "name": "Cheryl B.",
+      "location": "Mount Rose, York PA",
+      "situation": "Fire Damage — Kitchen Fire",
+      "date": "March 2025"
+    },
+    {
+      "quote": "We'd been in our Springettsbury Township house for thirty-four years. Property taxes, big yard, too many rooms. Phil had a health scare and we both decided it was time to simplify. USA Home Buyers made us a fair offer and closed in seven days. We're in a condo in York with a lot less to worry about.",
+      "name": "Phil and Marion K.",
+      "location": "Springettsbury Township, PA",
+      "situation": "Downsizing — Health Scare",
+      "date": "December 2025"
+    }
+  ],
+  "app/markets/youngstown-oh/page.tsx": [
+    {
+      "quote": "My father worked at Youngstown Sheet and Tube his whole life. When he passed, I inherited the house on the South Side — built in 1928, deferred maintenance for 20 years, code violations the city had flagged twice. I live in Cleveland now. USA Home Buyers made a written offer the next day, handled everything, and closed in 11 days.",
+      "name": "Gerald M.",
+      "location": "South Side, Youngstown OH",
+      "situation": "Inherited Property — Estate Sale",
+      "date": "March 2026"
+    },
+    {
+      "quote": "I got behind on payments after losing my warehouse job. The lender filed in Mahoning County Common Pleas Court and I didn't know what to do. USA Home Buyers explained the Ohio judicial foreclosure timeline, made a written offer the next morning, and we closed before the case moved to summary judgment. I walked away with money instead of losing everything.",
+      "name": "Denise K.",
+      "location": "Brier Hill, Youngstown OH",
+      "situation": "Foreclosure — Pre-Sheriff Sale",
+      "date": "February 2026"
+    },
+    {
+      "quote": "Our divorce required the house on Wick Park to be sold. My ex and I couldn't agree on anything. USA Home Buyers gave us one number, one closing date, and the proceeds split cleanly through our attorneys on the same day. The house sold faster than our divorce was final.",
+      "name": "Patricia V.",
+      "location": "Wick Park, Youngstown OH",
+      "situation": "Divorce Sale — Clean Settlement",
+      "date": "November 2025"
+    },
+    {
+      "quote": "I owned two rental houses on the South Side for thirteen years. The last tenants in both properties had been there four months when I decided I was done being a landlord. Mahoning County eviction can take four to six months. USA Home Buyers bought both properties in one transaction, tenants in place. Closed in thirteen days.",
+      "name": "Leon T.",
+      "location": "Mahoning Avenue, Youngstown OH",
+      "situation": "Rental Property — Landlord Exit",
+      "date": "June 2025"
+    },
+    {
+      "quote": "Mercy Health offered me a nurse manager position in Columbus and I had six weeks. My Boardman house was good — I'd been in the neighborhood for eleven years — but I couldn't manage a listing from Columbus. USA Home Buyers had a written offer in twenty-four hours. Closed in eight days. I was in Columbus a week before I needed to be.",
+      "name": "Carla D.",
+      "location": "Boardman, Youngstown OH",
+      "situation": "Relocation — Healthcare Transfer",
+      "date": "September 2025"
+    },
+    {
+      "quote": "The house on Michigan Avenue had been in Clara's family since 1951. When the waterline under the street broke, water backed up through the foundation and we had standing water in the basement for four days. Mold, foundation damage, HVAC destroyed. We're both past seventy and we couldn't put $40,000 into a house we'd been thinking about leaving anyway. Closed in ten days.",
+      "name": "Ed and Clara B.",
+      "location": "Stambaugh-Thompson, Youngstown OH",
+      "situation": "Water Damage — Foundation Flooding",
+      "date": "January 2026"
+    },
+    {
+      "quote": "Howard worked at Home Savings Bank for twenty-eight years. When he retired, we talked about downsizing for two years before we actually did it. The property tax on our Canfield Road house was $3,800 a year, and with both of us on fixed incomes that added up. USA Home Buyers closed in seven days. We're in a smaller place in Boardman with half the maintenance.",
+      "name": "Barbara and Howard W.",
+      "location": "Canfield Road, Youngstown OH",
+      "situation": "Downsizing — Retirement",
+      "date": "March 2026"
+    }
+  ]
+}

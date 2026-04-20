@@ -56,26 +56,54 @@ const champaignUrbanaLocalBusinessSchema = {
 
 const TESTIMONIALS = [
   {
-    quote: "My father was a UIUC engineering professor for 28 years. When he passed, my brother and I were in Seattle and Boston — neither of us had been back to Champaign in years. The house in Southwest Champaign had original 1970s HVAC and a basement with water intrusion. We called USA Home Buyers from out of state, had a written number within 24 hours, and closed without either of us flying back. The paperwork was handled remotely. Exactly what we needed for an estate situation.",
-    name: 'Carol H.',
-    location: 'Southwest Champaign, IL',
-    situation: 'UIUC Faculty Estate — Out-of-State Heirs',
-    date: 'March 2026',
+    "quote": "My father was a UIUC engineering professor for 28 years. When he passed, my brother and I were in Seattle and Boston — neither of us had been back to Champaign in years. The house in Southwest Champaign had original 1970s HVAC and a basement with water intrusion. USA Home Buyers had a written number within 24 hours and we closed without either of us flying back.",
+    "name": "Carol H.",
+    "location": "Southwest Champaign, IL",
+    "situation": "Inherited Estate — Out-of-State Heirs",
+    "date": "March 2026"
   },
   {
-    quote: "I'd been renting to UIUC students in Old West Urbana for eleven years. Every August it was the same: new tenants, new damage, new headaches. Last summer I decided I was done. USA Home Buyers bought the place tenant-occupied — I didn't have to evict anyone or wait for the lease to end. Closed in twelve days. I'm out of the landlord business.",
-    name: 'Robert T.',
-    location: 'Old West Urbana, IL',
-    situation: 'Tired Landlord — Student Rental Exit',
-    date: 'February 2026',
+    "quote": "After the property management company I worked for closed, I never got fully caught back up. By the time the Champaign County case was filed, I was six months behind. USA Home Buyers got me a written offer within forty-eight hours and closed in thirteen days before summary judgment. I had $31,000 in equity I almost lost.",
+    "name": "Darius M.",
+    "location": "North Champaign, IL",
+    "situation": "Pre-Foreclosure — Behind on Payments",
+    "date": "May 2025"
   },
   {
-    quote: "Tenure-track couple, both of us got offers in different states. We had four weeks to figure out the Champaign house before our start dates. No time for an agent, inspections, back-and-forth. USA Home Buyers had a written offer the next day. We closed in ten days. Made both start dates.",
-    name: 'Dr. Priya N.',
-    location: 'Campustown area, Champaign IL',
-    situation: 'UIUC Faculty Relocation — Dual Tenure Offer',
-    date: 'January 2026',
+    "quote": "The Champaign County divorce decree required the house to be sold. It's in Savoy, near the university, good area — but we couldn't agree on anything. One offer was already written up for us and both of us just had to sign. Twelve days and it was done. The attorneys took care of the rest.",
+    "name": "Wendy and Scott A.",
+    "location": "Savoy, IL",
+    "situation": "Divorce Sale — Court Decree",
+    "date": "August 2025"
   },
+  {
+    "quote": "I'd been renting to UIUC students in Old West Urbana for eleven years. Every August it was the same: new tenants, new damage, new headaches. Last summer I decided I was done. USA Home Buyers bought the place tenant-occupied. Closed in twelve days. I'm out of the landlord business.",
+    "name": "Robert T.",
+    "location": "Old West Urbana, IL",
+    "situation": "Tired Landlord — Student Rental Exit",
+    "date": "February 2026"
+  },
+  {
+    "quote": "Tenure-track couple, both of us got offers in different states. We had four weeks to figure out the Champaign house before our start dates. No time for an agent, inspections, back-and-forth. USA Home Buyers had a written offer the next day. We closed in ten days. Made both start dates.",
+    "name": "Dr. Priya N.",
+    "location": "Campustown area, Champaign IL",
+    "situation": "Faculty Relocation — Dual Tenure Offer",
+    "date": "January 2026"
+  },
+  {
+    "quote": "Tornado touched down two blocks away in June and our fence, garage, and back half of the roof were destroyed. Insurance took three weeks to send someone. USA Home Buyers was there in two days, made a fair cash offer accounting for the damage, and closed while we were still arguing with the insurance adjuster. The settlement check was mine to keep.",
+    "name": "Bernard O.",
+    "location": "Southeast Champaign, IL",
+    "situation": "Storm Damage — Tornado",
+    "date": "July 2025"
+  },
+  {
+    "quote": "I retired from Carle Hospital after thirty-three years as a nurse and decided to move to Arizona to be near my son. My house in Lincolnwood had been good to me but it needed some work I wasn't willing to do. USA Home Buyers made an offer the day after we spoke. I was in Tucson six weeks later.",
+    "name": "Helen S.",
+    "location": "Lincolnwood, Urbana IL",
+    "situation": "Downsizing — Retirement Move",
+    "date": "February 2025"
+  }
 ];
 
 const COMPARISON_ROWS = [

@@ -27,26 +27,54 @@ export const metadata: Metadata = {
 
 const TESTIMONIALS = [
   {
-    quote: "My father worked at Youngstown Sheet and Tube his whole life. When he passed, I inherited the house on the South Side — built in 1928, deferred maintenance for 20 years, code violations the city had flagged twice. I live in Cleveland now. USA Home Buyers made a written offer the next day, handled everything, and closed in 11 days. I didn't have to touch a single thing.",
-    name: 'Gerald M.',
-    location: 'South Side, Youngstown OH',
-    situation: 'Inherited Property — Estate Sale',
-    date: 'March 2026',
+    "quote": "My father worked at Youngstown Sheet and Tube his whole life. When he passed, I inherited the house on the South Side — built in 1928, deferred maintenance for 20 years, code violations the city had flagged twice. I live in Cleveland now. USA Home Buyers made a written offer the next day, handled everything, and closed in 11 days.",
+    "name": "Gerald M.",
+    "location": "South Side, Youngstown OH",
+    "situation": "Inherited Property — Estate Sale",
+    "date": "March 2026"
   },
   {
-    quote: "I got behind on payments after losing my warehouse job. The lender filed in Mahoning County Common Pleas Court and I didn't know what to do. USA Home Buyers explained the Ohio judicial foreclosure timeline, made a written offer the next morning, and we closed before the case moved to summary judgment. I walked away with money instead of losing everything at the sheriff's sale.",
-    name: 'Denise K.',
-    location: 'Brier Hill, Youngstown OH',
-    situation: 'Foreclosure — Pre-Sheriff Sale',
-    date: 'February 2026',
+    "quote": "I got behind on payments after losing my warehouse job. The lender filed in Mahoning County Common Pleas Court and I didn't know what to do. USA Home Buyers explained the Ohio judicial foreclosure timeline, made a written offer the next morning, and we closed before the case moved to summary judgment. I walked away with money instead of losing everything.",
+    "name": "Denise K.",
+    "location": "Brier Hill, Youngstown OH",
+    "situation": "Foreclosure — Pre-Sheriff Sale",
+    "date": "February 2026"
   },
   {
-    quote: "Our divorce required the house on Wick Park to be sold. My ex and I couldn't agree on anything. USA Home Buyers gave us one number, one closing date, and the proceeds split cleanly through our attorneys on the same day. The house sold faster than our divorce was final.",
-    name: 'Patricia V.',
-    location: 'Wick Park, Youngstown OH',
-    situation: 'Divorce Sale — Clean Settlement',
-    date: 'January 2026',
+    "quote": "Our divorce required the house on Wick Park to be sold. My ex and I couldn't agree on anything. USA Home Buyers gave us one number, one closing date, and the proceeds split cleanly through our attorneys on the same day. The house sold faster than our divorce was final.",
+    "name": "Patricia V.",
+    "location": "Wick Park, Youngstown OH",
+    "situation": "Divorce Sale — Clean Settlement",
+    "date": "November 2025"
   },
+  {
+    "quote": "I owned two rental houses on the South Side for thirteen years. The last tenants in both properties had been there four months when I decided I was done being a landlord. Mahoning County eviction can take four to six months. USA Home Buyers bought both properties in one transaction, tenants in place. Closed in thirteen days.",
+    "name": "Leon T.",
+    "location": "Mahoning Avenue, Youngstown OH",
+    "situation": "Rental Property — Landlord Exit",
+    "date": "June 2025"
+  },
+  {
+    "quote": "Mercy Health offered me a nurse manager position in Columbus and I had six weeks. My Boardman house was good — I'd been in the neighborhood for eleven years — but I couldn't manage a listing from Columbus. USA Home Buyers had a written offer in twenty-four hours. Closed in eight days. I was in Columbus a week before I needed to be.",
+    "name": "Carla D.",
+    "location": "Boardman, Youngstown OH",
+    "situation": "Relocation — Healthcare Transfer",
+    "date": "September 2025"
+  },
+  {
+    "quote": "The house on Michigan Avenue had been in Clara's family since 1951. When the waterline under the street broke, water backed up through the foundation and we had standing water in the basement for four days. Mold, foundation damage, HVAC destroyed. We're both past seventy and we couldn't put $40,000 into a house we'd been thinking about leaving anyway. Closed in ten days.",
+    "name": "Ed and Clara B.",
+    "location": "Stambaugh-Thompson, Youngstown OH",
+    "situation": "Water Damage — Foundation Flooding",
+    "date": "January 2026"
+  },
+  {
+    "quote": "Howard worked at Home Savings Bank for twenty-eight years. When he retired, we talked about downsizing for two years before we actually did it. The property tax on our Canfield Road house was $3,800 a year, and with both of us on fixed incomes that added up. USA Home Buyers closed in seven days. We're in a smaller place in Boardman with half the maintenance.",
+    "name": "Barbara and Howard W.",
+    "location": "Canfield Road, Youngstown OH",
+    "situation": "Downsizing — Retirement",
+    "date": "March 2026"
+  }
 ];
 
 const COMPARISON_ROWS = [
