@@ -12,6 +12,7 @@ import { bridgeportLocalBusinessSchema, faqSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
 import { BlogClusterLinks } from '@/components/BlogClusterLinks';
 import { MultiStepForm } from '@/components/MultiStepForm';
+import { VideoEmbed } from '@/components/VideoEmbed';
 
 export const revalidate = 86400;
 
@@ -181,6 +182,20 @@ export default function BridgeportCTMarketPage() {
           </div>
         </div>
       </section>
+
+        <VideoEmbed
+        src="/videos/bridgeport-ct/landing.mp4"
+        title="Sell My House Fast Bridgeport CT — USA Home Buyers"
+        subtitle="Cash offers for Bridgeport and Fairfield County homes — any condition"
+        />
+        <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+        📝 Video Transcript
+        </summary>
+        <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+        If you need to sell your house fast in Bridgeport, Connecticut — you've found the right team. We're USA Home Buyers, and we purchase houses as-is, for cash, throughout Fairfield County. Whether your home needs repairs, you're behind on payments, going through a divorce, or you've inherited a property you don't know what to do with — we make the process simple. No agents. No fees. No repairs needed. We buy Bridgeport homes in any condition — from Black Rock and North End to The Hollow and East Side. Written cash offer within 24 hours. Close in as few as seven days on your schedule. Call us now at 888-440-5250. That's 888-440-5250.
+        </div>
+        </details>
 
       <div className="max-w-7xl mx-auto px-4 py-8">
         <HowItWorks />
