@@ -351,8 +351,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/markets/champaign-urbana-il/fire-damage`, priority: 0.9, changeFrequency: 'monthly' as const },
     { url: `${baseUrl}/guides/sell-house-fast-champaign-urbana-il-2026`, priority: 0.8, changeFrequency: 'monthly' as const },
     { url: `${baseUrl}/blog/champaign-urbana-il-sell-house-fast-2026`, priority: 0.7, changeFrequency: 'monthly' as const },
-    { url: `${baseUrl}/privacy-policy`, priority: 0.3, changeFrequency: 'yearly' as const },
-    { url: `${baseUrl}/terms-of-service`, priority: 0.3, changeFrequency: 'yearly' as const },
+    // privacy-policy and terms-of-service removed — pages not yet built (404s flagged by GSC 2026-04-19)
+    // TODO: create actual pages then re-add to sitemap
   ];
 
   return pages.map((page) => ({
