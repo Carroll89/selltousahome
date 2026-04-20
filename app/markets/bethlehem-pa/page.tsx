@@ -2,6 +2,7 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { HowItWorks } from '@/components/HowItWorks';
+import { VideoEmbed } from '@/components/VideoEmbed';
 import { FAQSection } from '@/components/FAQSection';
 import { TestimonialBlock } from '@/components/TestimonialBlock';
 import { ComparisonTable } from '@/components/ComparisonTable';
@@ -227,6 +228,21 @@ export default function BethlehemMarketPage() {
             </Link>
           </p>
         </section>
+
+        <VideoEmbed
+          src="/videos/bethlehem-pa-main.mp4"
+          title="Sell Your House Fast in Bethlehem, PA"
+          poster="/videos/bethlehem-pa-main-poster.jpg"
+          subtitle="See how we help homeowners in Bethlehem sell fast for cash"
+        />
+        <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+          <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+            📝 Video Transcript
+          </summary>
+          <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+            <p>Video transcript coming soon.</p>
+          </div>
+        </details>
 
         {/* How It Works */}
         <HowItWorks heading="How Selling Your Bethlehem PA House for Cash Works" />
