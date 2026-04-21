@@ -59,6 +59,11 @@ export default function SellHouseFastWisconsinPage() {
               <p className="text-sm text-gray-600">Winnebago County · Zillow ZHVI $250,967 · RDC hotness rank #13 (score 92.809) · 36 days avg DOM · EAA AirVenture city, UW Oshkosh anchor</p>
               <p className="text-xs text-brand-primary mt-2">See Oshkosh market →</p>
             </Link>
+            <Link href="/markets/wausau-wi" className="bg-white border border-gray-200 rounded-xl p-5 hover:border-brand-primary transition-colors group">
+              <h3 className="font-bold text-brand-dark group-hover:text-brand-primary mb-1">Wausau, WI</h3>
+              <p className="text-sm text-gray-600">Marathon County · Median $366,000 metro · #18 Hottest Market</p>
+              <p className="text-xs text-brand-primary mt-2">See Wausau market →</p>
+            </Link>
           </div>
         </section>
 

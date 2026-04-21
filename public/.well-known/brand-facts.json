@@ -641,6 +641,27 @@
           "Malden",
           "Everett"
         ]
+      },
+      {
+        "city": "Wausau",
+        "state": "WI",
+        "county": "Marathon County",
+        "url": "https://www.selltousahome.com/markets/wausau-wi",
+        "medianHomeValue": "$366,000 metro median listing price (Realtor.com Mar 2026)",
+        "medianDaysOnMarket": "Hotness rank #18 nationally, score 89.3/100 (Realtor.com Mar 2026)",
+        "transferTax": "WI transfer fee: 0.3% ($3/$1,000, seller pays). Source: WI DOR (revenue.wi.gov)",
+        "foreclosureProcess": "Judicial foreclosure through Marathon County Circuit Court. 6-12 month redemption period after judgment, then sheriff sale. Total ~12 months. Source: WI Statutes Ch. 846",
+        "surroundingAreas": [
+          "Weston",
+          "Schofield",
+          "Rothschild",
+          "Rib Mountain",
+          "Marathon City",
+          "Mosinee",
+          "Kronenwetter",
+          "Edgar",
+          "Athens"
+        ]
       }
     ],
     "regionalCoverage": "Central Pennsylvania, Lehigh Valley, Greater Philadelphia, Berks County, Centre County, Erie County, New Castle County DE, Mahoning County OH, Hampden County MA, Worcester County MA, Kenosha County WI, Racine County WI, Hillsborough County NH, Fairfield County CT, and Monroe County NY",

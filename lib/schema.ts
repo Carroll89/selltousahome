@@ -645,6 +645,29 @@ const CITY_CONFIGS: Record<string, CityConfig> = {
       { '@type': 'County', name: 'Hartford County' },
     ],
   },
+  wausau: {
+    city: 'Wausau',
+    region: 'WI',
+    postalCode: '54401',
+    lat: 44.9591,
+    lng: -89.6301,
+    description:
+      'Cash home buyers serving Wausau WI and Marathon County. We buy houses as-is in any condition — no repairs, no agent fees, close in 7-14 days.',
+    areaServed: [
+      { '@type': 'City', name: 'Wausau', sameAs: 'https://en.wikipedia.org/wiki/Wausau,_Wisconsin' },
+      { '@type': 'City', name: 'Weston' },
+      { '@type': 'City', name: 'Schofield' },
+      { '@type': 'City', name: 'Rothschild' },
+      { '@type': 'City', name: 'Rib Mountain' },
+      { '@type': 'City', name: 'Marathon City' },
+      { '@type': 'City', name: 'Mosinee' },
+      { '@type': 'City', name: 'Kronenwetter' },
+      { '@type': 'City', name: 'Edgar' },
+      { '@type': 'City', name: 'Athens' },
+      { '@type': 'City', name: 'Spencer' },
+      { '@type': 'County', name: 'Marathon County' },
+    ],
+  },
   oshkosh: {
     city: 'Oshkosh',
     region: 'WI',
@@ -671,7 +694,7 @@ const CITY_CONFIGS: Record<string, CityConfig> = {
   },
 };
 
-export function localBusinessSchemaFor(cityKey: 'harrisburg' | 'allentown' | 'bethlehem' | 'kingOfPrussia' | 'reading' | 'stateCollege' | 'erie' | 'lancaster' | 'york' | 'wilmington' | 'youngstown' | 'springfield' | 'kenosha' | 'manchester' | 'bridgeport' | 'worcester' | 'rochester' | 'racineMountPleasant' | 'springfieldIL' | 'rockfordIL' | 'newHaven' | 'oshkosh' | 'peoriaIL' | 'bloomingtonIL' | 'champaignUrbanaIL' | 'boston' | 'hartford') {
+export function localBusinessSchemaFor(cityKey: 'harrisburg' | 'allentown' | 'bethlehem' | 'kingOfPrussia' | 'reading' | 'stateCollege' | 'erie' | 'lancaster' | 'york' | 'wilmington' | 'youngstown' | 'springfield' | 'kenosha' | 'manchester' | 'bridgeport' | 'worcester' | 'rochester' | 'racineMountPleasant' | 'springfieldIL' | 'rockfordIL' | 'newHaven' | 'oshkosh' | 'peoriaIL' | 'bloomingtonIL' | 'champaignUrbanaIL' | 'boston' | 'hartford' | 'wausau') {
   const cfg = CITY_CONFIGS[cityKey];
   return {
     '@context': 'https://schema.org',
@@ -745,6 +768,7 @@ export const worcesterLocalBusinessSchema = localBusinessSchemaFor('worcester');
 /** Pre-built Boston MA LocalBusiness schema */
 export const bostonLocalBusinessSchema = localBusinessSchemaFor('boston');
 export const hartfordLocalBusinessSchema = localBusinessSchemaFor('hartford');
+export const wausauLocalBusinessSchema = localBusinessSchemaFor('wausau');
 
 /** Pre-built Rochester NY LocalBusiness schema */
 export const rochesterLocalBusinessSchema = localBusinessSchemaFor('rochester');
