@@ -139,7 +139,21 @@ export default function HartfordCTMarketPage() {
       <SchemaMarkup schema={[hartfordLocalBusinessSchema, faqSchema(FAQ_ITEMS), howToSchema]} />
 
       <section className="relative text-white py-16 px-4 overflow-hidden">
-        <div className="absolute inset-0 bg-brand-dark" />
+        <picture className="absolute inset-0 w-full h-full">
+          <source
+            srcSet="/images/optimized/hartford-ct-hero-sm.jpg 640w, /images/optimized/hartford-ct-hero-md.jpg 768w, /images/optimized/hartford-ct-hero-lg.jpg 1024w, /images/optimized/hartford-ct-hero-xl.jpg 1280w"
+            type="image/jpeg"
+            sizes="100vw"
+          />
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/images/optimized/hartford-ct-hero-xl.jpg"
+            alt="Hartford CT homes — triple-deckers and Victorian houses"
+            fetchPriority="high"
+            className="object-cover object-center absolute inset-0 w-full h-full"
+          />
+        </picture>
+        <div className="absolute inset-0 bg-brand-dark/80" />
         <div className="relative z-10 max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-start">
           <div>
             <p className="text-blue-300 text-sm font-medium mb-2">Connecticut Cash Home Buyers</p>
@@ -149,7 +163,7 @@ export default function HartfordCTMarketPage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                USA Home Buyers purchases houses in Hartford CT and throughout Hartford County — Frog Hollow, Barry Square, West End, Blue Hills, Parkville, and the broader metro including West Hartford, East Hartford, and New Britain. Written cash offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no fees. Hartford metro median listing price is approximately $455,000. We cover all closing costs including CT conveyance tax. Call 888-440-5250. Hablamos español.
+                USA Home Buyers purchases houses in Hartford CT and throughout Hartford County — Frog Hollow, Barry Square, West End, Blue Hills, Parkville, and the broader metro including West Hartford, East Hartford, and New Britain. Written cash offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no fees. Hartford metro median listing price is $455,000 (Realtor.com, March 2026). We cover all closing costs including CT conveyance tax. Call 888-440-5250. Hablamos español.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
@@ -173,6 +187,7 @@ export default function HartfordCTMarketPage() {
       />
 
       <div className="max-w-7xl mx-auto px-4 py-8">
+        <p className="text-xs text-gray-400 text-right mb-2">Last Updated: April 2026</p>
         <HowItWorks />
 
         <section className="my-12">

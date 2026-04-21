@@ -85,7 +85,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How much will you pay for my Wausau home?',
-    answer: 'Cash offers typically range from 65-78% of fair market value. Wausau metro median listing price is approximately $366,000. We provide a written offer based on comparable sales and property condition. We cover all closing costs including Wisconsin\'s transfer fee.',
+    answer: 'Cash offers typically range from 65-78% of fair market value. Wausau metro median listing price is $366,000 (Realtor.com, March 2026). We provide a written offer based on comparable sales and property condition. We cover all closing costs including Wisconsin\'s transfer fee.',  
   },
   {
     question: 'What is the transfer fee when selling in Wausau WI?',
@@ -128,7 +128,21 @@ export default function WausauWIMarketPage() {
       <SchemaMarkup schema={[wausauLocalBusinessSchema, faqSchema(FAQ_ITEMS), howToSchema]} />
 
       <section className="relative text-white py-16 px-4 overflow-hidden">
-        <div className="absolute inset-0 bg-brand-dark" />
+        <picture className="absolute inset-0 w-full h-full">
+          <source
+            srcSet="/images/optimized/wausau-wi-hero-sm.jpg 640w, /images/optimized/wausau-wi-hero-md.jpg 768w, /images/optimized/wausau-wi-hero-lg.jpg 1024w, /images/optimized/wausau-wi-hero-xl.jpg 1280w"
+            type="image/jpeg"
+            sizes="100vw"
+          />
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/images/optimized/wausau-wi-hero-xl.jpg"
+            alt="Wausau WI homes — Craftsman bungalows and ranch houses"
+            fetchPriority="high"
+            className="object-cover object-center absolute inset-0 w-full h-full"
+          />
+        </picture>
+        <div className="absolute inset-0 bg-brand-dark/80" />
         <div className="relative z-10 max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-start">
           <div>
             <p className="text-blue-300 text-sm font-medium mb-2">Wisconsin Cash Home Buyers</p>
@@ -138,7 +152,7 @@ export default function WausauWIMarketPage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                USA Home Buyers purchases houses in Wausau WI and throughout Marathon County — downtown Wausau, Weston, Schofield, Rothschild, Rib Mountain, and the broader metro. Written cash offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no fees. Wausau metro median listing price is approximately $366,000. We cover all closing costs including WI transfer fee. Call 888-440-5250.
+                USA Home Buyers purchases houses in Wausau WI and throughout Marathon County — downtown Wausau, Weston, Schofield, Rothschild, Rib Mountain, and the broader metro. Written cash offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no fees. Wausau metro median listing price: $366,000 (Realtor.com, March 2026). We cover all closing costs including WI transfer fee. Call 888-440-5250.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
@@ -167,8 +181,12 @@ export default function WausauWIMarketPage() {
         <section className="my-12">
           <h2 className="text-2xl md:text-3xl font-bold text-brand-dark mb-6">Wausau WI Real Estate Market — What Sellers Need to Know</h2>
           <p className="text-gray-700 mb-4">
-            Wausau is the economic hub of central Wisconsin and the county seat of Marathon County — the largest county by area in the state. The city sits along the Wisconsin River and serves as the commercial center for a wide surrounding rural area. Housing stock ranges from early 1900s Victorians and Craftsman homes near downtown to post-war ranch homes and split-levels in the outer neighborhoods and surrounding communities of Weston, Schofield, and Rib Mountain.
+            Wausau is the economic hub of central Wisconsin and the county seat of Marathon County — the largest county by area in Wisconsin. The city sits along the Wisconsin River and is the commercial center for a wide surrounding rural area. Housing stock ranges from early 1900s Victorians and Craftsman homes near downtown to post-war ranch homes and split-levels in the outer neighborhoods and surrounding communities of Weston, Schofield, and Rib Mountain.
           </p>
+          <p className="text-gray-700 mb-4">
+            According to the <a href="https://revenue.wi.gov/Pages/FAQS/ise-reTransfer.aspx" className="text-brand-primary hover:underline" target="_blank" rel="noopener noreferrer">Wisconsin Department of Revenue</a>, Wisconsin sellers pay a real estate transfer fee of $3.00 per $1,000 of sale price (0.3%). On a $366,000 sale that's $1,098 — and when you sell to us, we cover it. According to <a href="https://docs.legis.wisconsin.gov/statutes/statutes/846" className="text-brand-primary hover:underline" target="_blank" rel="noopener noreferrer">Wisconsin Statutes Ch. 846</a>, Wisconsin uses judicial foreclosure, which runs through Marathon County Circuit Court and takes about 12 months from filing to sheriff's sale. For homeowners behind on payments, that's a long time to wait. According to the <a href="https://www.census.gov/quickfacts/fact/table/marathoncountywisconsin/PST045222" className="text-brand-primary hover:underline" target="_blank" rel="noopener noreferrer">U.S. Census Bureau</a>, Marathon County has over 137,000 residents — the housing market here is driven by real families in real situations, not just investors.
+          </p>
+          <p className="text-xs text-gray-400 mb-4">Last Updated: April 2026</p>
           <div className="overflow-x-auto mb-6">
             <table className="w-full text-sm border-collapse">
               <thead><tr className="bg-brand-primary text-white"><th className="text-left p-3">Metric</th><th className="text-left p-3">Wausau WI Metro</th><th className="text-left p-3">Source</th></tr></thead>
