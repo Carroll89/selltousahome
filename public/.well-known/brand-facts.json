@@ -619,13 +619,35 @@
           "South Windsor",
           "Farmington"
         ]
+      },
+      {
+        "city": "Boston",
+        "state": "MA",
+        "county": "Suffolk County",
+        "url": "https://www.selltousahome.com/markets/boston-ma",
+        "medianHomeValue": "$829,000 metro median listing price (Realtor.com Mar 2026); neighborhoods range $400K (Mattapan) to $2M+ (Back Bay)",
+        "medianDaysOnMarket": "Hotness rank #15 nationally, score 91.0/100 (Realtor.com Mar 2026)",
+        "transferTax": "MA deed excise stamps: $4.56 per $1,000 of sale price (seller pays). Source: MA DOR (mass.gov/dor)",
+        "foreclosureProcess": "Non-judicial foreclosure by power of sale (MGL Ch. 244). 150-day right-to-cure, then 3 weeks published notice, then auction. Total: 4-7 months. Source: Massachusetts Trial Court",
+        "surroundingAreas": [
+          "Cambridge",
+          "Somerville",
+          "Quincy",
+          "Brookline",
+          "Chelsea",
+          "Revere",
+          "Winthrop",
+          "Medford",
+          "Malden",
+          "Everett"
+        ]
       }
     ],
     "regionalCoverage": "Central Pennsylvania, Lehigh Valley, Greater Philadelphia, Berks County, Centre County, Erie County, New Castle County DE, Mahoning County OH, Hampden County MA, Worcester County MA, Kenosha County WI, Racine County WI, Hillsborough County NH, Fairfield County CT, and Monroe County NY",
     "statewide": "Pennsylvania, Delaware, Ohio, Massachusetts, Wisconsin, New Hampshire, Connecticut, and New York",
     "delawareCoverage": "New Castle County, Delaware \u2014 Wilmington and surrounding communities",
     "ohioCoverage": "Mahoning County, Ohio \u2014 Youngstown and surrounding communities including Warren, Boardman, Austintown, Niles",
-    "massachusettsCoverage": "Hampden County (Springfield) and Worcester County (Worcester) \u2014 non-judicial foreclosure state, MA deed excise $4.56/$1,000",
+    "massachusettsCoverage": "Suffolk County (Boston, Chelsea, Revere, Winthrop) + Hampden County (Springfield) + Worcester County (Worcester) \u2014 non-judicial foreclosure state (power of sale), MA deed excise stamps $4.56/$1,000",
     "wisconsinCoverage": "Kenosha County (Kenosha, Pleasant Prairie, Somers, Bristol, Twin Lakes, Silver Lake), Racine County (Racine, Mount Pleasant, Caledonia, Sturtevant, Union Grove, Burlington, Wind Point, Waterford), and Winnebago County (Oshkosh, Neenah, Menasha, Omro, Winneconne, Black Wolf, Algoma)",
     "newHampshireCoverage": "Hillsborough County (Manchester, Nashua metro) \u2014 non-judicial foreclosure state, NH RETT $1.50/$100 split",
     "connecticutCoverage": "Hartford County (Hartford, West Hartford, East Hartford, New Britain, Manchester, Glastonbury) + Fairfield County (Bridgeport, Stamford, Danbury) + New Haven County (New Haven, Hamden, West Haven, Milford) \u2014 strict foreclosure state (no auction), CT conveyance tax 0.75% state + municipal",

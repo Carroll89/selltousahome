@@ -55,6 +55,11 @@ export default function SellHouseFastMassachusettsPage() {
               <p className="text-sm text-gray-600">Worcester County · Median $310,000 · Central MA hub</p>
               <p className="text-xs text-brand-primary mt-2">See Worcester market →</p>
             </Link>
+            <Link href="/markets/boston-ma" className="bg-white border border-gray-200 rounded-xl p-5 hover:border-brand-primary transition-colors group">
+              <h3 className="font-bold text-brand-dark group-hover:text-brand-primary mb-1">Boston, MA</h3>
+              <p className="text-sm text-gray-600">Suffolk County · Median $829,000 metro · #15 Hottest Market</p>
+              <p className="text-xs text-brand-primary mt-2">See Boston market →</p>
+            </Link>
           </div>
         </section>
 
@@ -155,6 +160,7 @@ export default function SellHouseFastMassachusettsPage() {
               <tbody className="divide-y divide-gray-200">
                 <tr className="bg-white"><td className="p-3"><Link href="/markets/springfield-ma" className="text-brand-primary hover:underline">Springfield</Link></td><td className="p-3">Hampden County</td><td className="p-3">$178,000</td><td className="p-3">~32 days</td></tr>
                 <tr className="bg-gray-50"><td className="p-3"><Link href="/markets/worcester-ma" className="text-brand-primary hover:underline">Worcester</Link></td><td className="p-3">Worcester County</td><td className="p-3">$310,000</td><td className="p-3">~24 days</td></tr>
+                <tr className="bg-white"><td className="p-3"><Link href="/markets/boston-ma" className="text-brand-primary hover:underline">Boston</Link></td><td className="p-3">Suffolk County</td><td className="p-3">$829,000 (metro)</td><td className="p-3">#15 hottest</td></tr>
               </tbody>
             </table>
           </div>
