@@ -12,6 +12,7 @@ import { wausauLocalBusinessSchema, faqSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
 import { BlogClusterLinks } from '@/components/BlogClusterLinks';
 import { MultiStepForm } from '@/components/MultiStepForm';
+import { VideoEmbed } from '@/components/VideoEmbed';
 
 export const revalidate = 86400;
 
@@ -153,6 +154,12 @@ export default function WausauWIMarketPage() {
           </div>
         </div>
       </section>
+
+      <VideoEmbed
+        src="/videos/wausau-wi/landing.mp4"
+        title="Sell My House Fast Wausau WI — USA Home Buyers"
+        subtitle="Cash offers for Wausau and Marathon County homes — any condition"
+      />
 
       <div className="max-w-7xl mx-auto px-4 py-8">
         <HowItWorks />

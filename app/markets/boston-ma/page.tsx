@@ -12,6 +12,7 @@ import { bostonLocalBusinessSchema, faqSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
 import { BlogClusterLinks } from '@/components/BlogClusterLinks';
 import { MultiStepForm } from '@/components/MultiStepForm';
+import { VideoEmbed } from '@/components/VideoEmbed';
 
 export const revalidate = 86400;
 
@@ -164,6 +165,12 @@ export default function BostonMAMarketPage() {
           </div>
         </div>
       </section>
+
+      <VideoEmbed
+        src="/videos/boston-ma/landing.mp4"
+        title="Sell My House Fast Boston MA — USA Home Buyers"
+        subtitle="Cash offers for Boston and Greater Boston homes — any condition"
+      />
 
       <div className="max-w-7xl mx-auto px-4 py-8">
         <HowItWorks />

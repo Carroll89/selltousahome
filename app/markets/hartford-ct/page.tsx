@@ -12,6 +12,7 @@ import { hartfordLocalBusinessSchema, faqSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
 import { BlogClusterLinks } from '@/components/BlogClusterLinks';
 import { MultiStepForm } from '@/components/MultiStepForm';
+import { VideoEmbed } from '@/components/VideoEmbed';
 
 export const revalidate = 86400;
 
@@ -164,6 +165,12 @@ export default function HartfordCTMarketPage() {
           </div>
         </div>
       </section>
+
+      <VideoEmbed
+        src="/videos/hartford-ct/landing.mp4"
+        title="Sell My House Fast Hartford CT — USA Home Buyers"
+        subtitle="Cash offers for Hartford and Hartford County homes — any condition"
+      />
 
       <div className="max-w-7xl mx-auto px-4 py-8">
         <HowItWorks />
