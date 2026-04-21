@@ -596,6 +596,55 @@ const CITY_CONFIGS: Record<string, CityConfig> = {
       { '@type': 'County', name: 'New Haven County' },
     ],
   },
+  boston: {
+    city: 'Boston',
+    region: 'MA',
+    postalCode: '02101',
+    lat: 42.3601,
+    lng: -71.0589,
+    description:
+      'Cash home buyers serving Boston MA and Suffolk County. We buy houses as-is in any condition — triple-deckers, brownstones, multifamily — no repairs, no agent fees, close in 7-14 days.',
+    areaServed: [
+      { '@type': 'City', name: 'Boston', sameAs: 'https://en.wikipedia.org/wiki/Boston' },
+      { '@type': 'City', name: 'Cambridge' },
+      { '@type': 'City', name: 'Somerville' },
+      { '@type': 'City', name: 'Quincy' },
+      { '@type': 'City', name: 'Brookline' },
+      { '@type': 'City', name: 'Chelsea' },
+      { '@type': 'City', name: 'Revere' },
+      { '@type': 'City', name: 'Winthrop' },
+      { '@type': 'County', name: 'Suffolk County' },
+      { '@type': 'County', name: 'Middlesex County' },
+      { '@type': 'County', name: 'Norfolk County' },
+    ],
+  },
+  hartford: {
+    city: 'Hartford',
+    region: 'CT',
+    postalCode: '06103',
+    lat: 41.7658,
+    lng: -72.6734,
+    description:
+      'Cash home buyers serving Hartford CT and Hartford County. We buy houses as-is in any condition — triple-deckers, Victorians, multi-families — no repairs, no agent fees, close in 7-14 days. Hablamos español.',
+    areaServed: [
+      { '@type': 'City', name: 'Hartford', sameAs: 'https://en.wikipedia.org/wiki/Hartford,_Connecticut' },
+      { '@type': 'City', name: 'West Hartford' },
+      { '@type': 'City', name: 'East Hartford' },
+      { '@type': 'City', name: 'New Britain' },
+      { '@type': 'City', name: 'Manchester' },
+      { '@type': 'City', name: 'Glastonbury' },
+      { '@type': 'City', name: 'Wethersfield' },
+      { '@type': 'City', name: 'Newington' },
+      { '@type': 'City', name: 'Rocky Hill' },
+      { '@type': 'City', name: 'Cromwell' },
+      { '@type': 'City', name: 'Bristol' },
+      { '@type': 'City', name: 'Enfield' },
+      { '@type': 'City', name: 'Windsor' },
+      { '@type': 'City', name: 'South Windsor' },
+      { '@type': 'City', name: 'Farmington' },
+      { '@type': 'County', name: 'Hartford County' },
+    ],
+  },
   oshkosh: {
     city: 'Oshkosh',
     region: 'WI',
@@ -622,7 +671,7 @@ const CITY_CONFIGS: Record<string, CityConfig> = {
   },
 };
 
-export function localBusinessSchemaFor(cityKey: 'harrisburg' | 'allentown' | 'bethlehem' | 'kingOfPrussia' | 'reading' | 'stateCollege' | 'erie' | 'lancaster' | 'york' | 'wilmington' | 'youngstown' | 'springfield' | 'kenosha' | 'manchester' | 'bridgeport' | 'worcester' | 'rochester' | 'racineMountPleasant' | 'springfieldIL' | 'rockfordIL' | 'newHaven' | 'oshkosh' | 'peoriaIL' | 'bloomingtonIL' | 'champaignUrbanaIL') {
+export function localBusinessSchemaFor(cityKey: 'harrisburg' | 'allentown' | 'bethlehem' | 'kingOfPrussia' | 'reading' | 'stateCollege' | 'erie' | 'lancaster' | 'york' | 'wilmington' | 'youngstown' | 'springfield' | 'kenosha' | 'manchester' | 'bridgeport' | 'worcester' | 'rochester' | 'racineMountPleasant' | 'springfieldIL' | 'rockfordIL' | 'newHaven' | 'oshkosh' | 'peoriaIL' | 'bloomingtonIL' | 'champaignUrbanaIL' | 'boston' | 'hartford') {
   const cfg = CITY_CONFIGS[cityKey];
   return {
     '@context': 'https://schema.org',
@@ -692,6 +741,10 @@ export const bridgeportLocalBusinessSchema = localBusinessSchemaFor('bridgeport'
 
 /** Pre-built Worcester MA LocalBusiness schema */
 export const worcesterLocalBusinessSchema = localBusinessSchemaFor('worcester');
+
+/** Pre-built Boston MA LocalBusiness schema */
+export const bostonLocalBusinessSchema = localBusinessSchemaFor('boston');
+export const hartfordLocalBusinessSchema = localBusinessSchemaFor('hartford');
 
 /** Pre-built Rochester NY LocalBusiness schema */
 export const rochesterLocalBusinessSchema = localBusinessSchemaFor('rochester');

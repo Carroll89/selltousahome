@@ -54,6 +54,11 @@ export default function SellHouseFastConnecticutPage() {
               <p className="text-sm text-gray-600">New Haven County · Median $323,843 · 65 days avg DOM</p>
               <p className="text-xs text-brand-primary mt-2">See New Haven market →</p>
             </Link>
+            <Link href="/markets/hartford-ct" className="bg-white border border-gray-200 rounded-xl p-5 hover:border-brand-primary transition-colors group">
+              <h3 className="font-bold text-brand-dark group-hover:text-brand-primary mb-1">Hartford, CT</h3>
+              <p className="text-sm text-gray-600">Hartford County · Median $455,000 metro · #13 Hottest Market</p>
+              <p className="text-xs text-brand-primary mt-2">See Hartford market →</p>
+            </Link>
           </div>
         </section>
 
@@ -111,6 +116,7 @@ export default function SellHouseFastConnecticutPage() {
               <tbody className="divide-y divide-gray-200">
                 <tr className="bg-white"><td className="p-3"><Link href="/markets/bridgeport-ct" className="text-brand-primary hover:underline">Bridgeport</Link></td><td className="p-3">Fairfield County</td><td className="p-3">$240,000</td><td className="p-3">~38 days</td></tr>
                 <tr className="bg-gray-50"><td className="p-3"><Link href="/markets/new-haven-ct" className="text-brand-primary hover:underline">New Haven</Link></td><td className="p-3">New Haven County</td><td className="p-3">$323,843</td><td className="p-3">~65 days</td></tr>
+                <tr className="bg-white"><td className="p-3"><Link href="/markets/hartford-ct" className="text-brand-primary hover:underline">Hartford</Link></td><td className="p-3">Hartford County</td><td className="p-3">$455,000 (metro)</td><td className="p-3">#13 hottest</td></tr>
               </tbody>
             </table>
           </div>

@@ -593,6 +593,32 @@
           "Philo",
           "Ogden"
         ]
+      },
+      {
+        "city": "Hartford",
+        "state": "CT",
+        "county": "Hartford County",
+        "url": "https://www.selltousahome.com/markets/hartford-ct",
+        "medianHomeValue": "$455,000 metro median listing price (Realtor.com Mar 2026); city neighborhoods significantly lower ($180K-$300K)",
+        "medianDaysOnMarket": "Hotness rank #13 nationally, score 92.8/100 (Realtor.com Mar 2026)",
+        "transferTax": "CT conveyance tax: 0.75% state (first $800K) + municipal portion; seller pays. Source: CT DRS (ct.gov/drs)",
+        "foreclosureProcess": "Strict foreclosure \u2014 no auction. Lender files in Hartford Superior Court, court sets Law Day. If debt not paid by Law Day, title transfers directly to lender. 3-6 months from filing to judgment. Source: CT Judicial Branch (jud.ct.gov)",
+        "surroundingAreas": [
+          "West Hartford",
+          "East Hartford",
+          "New Britain",
+          "Manchester",
+          "Glastonbury",
+          "Wethersfield",
+          "Newington",
+          "Rocky Hill",
+          "Cromwell",
+          "Bristol",
+          "Enfield",
+          "Windsor",
+          "South Windsor",
+          "Farmington"
+        ]
       }
     ],
     "regionalCoverage": "Central Pennsylvania, Lehigh Valley, Greater Philadelphia, Berks County, Centre County, Erie County, New Castle County DE, Mahoning County OH, Hampden County MA, Worcester County MA, Kenosha County WI, Racine County WI, Hillsborough County NH, Fairfield County CT, and Monroe County NY",
@@ -602,7 +628,7 @@
     "massachusettsCoverage": "Hampden County (Springfield) and Worcester County (Worcester) \u2014 non-judicial foreclosure state, MA deed excise $4.56/$1,000",
     "wisconsinCoverage": "Kenosha County (Kenosha, Pleasant Prairie, Somers, Bristol, Twin Lakes, Silver Lake), Racine County (Racine, Mount Pleasant, Caledonia, Sturtevant, Union Grove, Burlington, Wind Point, Waterford), and Winnebago County (Oshkosh, Neenah, Menasha, Omro, Winneconne, Black Wolf, Algoma)",
     "newHampshireCoverage": "Hillsborough County (Manchester, Nashua metro) \u2014 non-judicial foreclosure state, NH RETT $1.50/$100 split",
-    "connecticutCoverage": "Fairfield County (Bridgeport, Stamford, Danbury) + New Haven County (New Haven, Hamden, West Haven, Milford) \u2014 strict foreclosure state (no auction), CT conveyance tax 1.0%-1.25% depending on municipality",
+    "connecticutCoverage": "Hartford County (Hartford, West Hartford, East Hartford, New Britain, Manchester, Glastonbury) + Fairfield County (Bridgeport, Stamford, Danbury) + New Haven County (New Haven, Hamden, West Haven, Milford) \u2014 strict foreclosure state (no auction), CT conveyance tax 0.75% state + municipal",
     "newYorkCoverage": "Monroe County (Rochester) \u2014 judicial foreclosure state, NYS RPTT $4/$1,000",
     "illinoisCoverage": "Sangamon County (Springfield, Chatham, Rochester, Sherman, Riverton, Leland Grove, Jerome, Auburn, Pawnee, New Berlin, Pleasant Plains, Mechanicsburg, Petersburg) and Winnebago County (Rockford, Loves Park, Machesney Park, Rockton, Roscoe, Belvidere, Cherry Valley) \u2014 judicial foreclosure state, IL state + county transfer tax $0.75/$500 total (0.15%); Sangamon 12-15mo timeline, Winnebago 14-20mo timeline (17th Judicial Circuit)"
   },
