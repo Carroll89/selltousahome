@@ -150,6 +150,12 @@ export default function LancasterMarketPage() {
             <h1 className="text-3xl md:text-4xl font-bold text-white mb-4 leading-tight">
               Sell Your House Fast in Lancaster, PA — Cash Offer in 24 Hours
             </h1>
+            <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
+              <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
+              <p className="text-white text-sm leading-relaxed">
+                USA Home Buyers purchases houses in Lancaster PA and throughout Lancaster County — Cabbage Hill, West End, Southeast Lancaster, downtown, and nearby Lititz, Ephrata, and Manheim. Written cash offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no fees. Lancaster City median home value is about $332,965, with rowhouses in key neighborhoods often around the $233,000 range. We cover all closing costs including Lancaster&apos;s 2% transfer tax. Call 888-440-5250. Hablamos español.
+              </p>
+            </div>
             <p className="text-lg text-blue-100 mb-4">
               USA Home Buyers purchases houses throughout Lancaster PA and Lancaster County for cash in any
               condition — Cabbage Hill rowhouses, rural farmsteads, suburban split-levels. No repairs, no cleaning,

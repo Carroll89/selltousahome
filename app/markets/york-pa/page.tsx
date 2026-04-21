@@ -150,6 +150,12 @@ export default function YorkMarketPage() {
             <h1 className="text-3xl md:text-4xl font-bold text-white mb-4 leading-tight">
               Sell Your House Fast in York, PA — Cash Offer in 24 Hours
             </h1>
+            <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
+              <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
+              <p className="text-white text-sm leading-relaxed">
+                USA Home Buyers purchases houses in York PA and throughout York County — Downtown, Northeast York, Southwest York, Springdale, East Side, and nearby West York, Hanover, and Red Lion. Written cash offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no fees. York City&apos;s median sale price is about $165,850. We cover all closing costs including York&apos;s 2% transfer tax. Call 888-440-5250. Hablamos español.
+              </p>
+            </div>
             <p className="text-lg text-blue-100 mb-4">
               USA Home Buyers purchases houses throughout York PA and York County for cash in any
               condition — Northeast York row homes, Downtown historic properties, Southwest York worker cottages.

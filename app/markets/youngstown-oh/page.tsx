@@ -150,6 +150,12 @@ export default function YoungstownMarketPage() {
             <h1 className="text-3xl md:text-4xl font-bold text-white mb-4 leading-tight">
               Sell Your House Fast in Youngstown, OH — Cash Offer in 24 Hours
             </h1>
+            <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
+              <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
+              <p className="text-white text-sm leading-relaxed">
+                USA Home Buyers purchases houses in Youngstown OH and throughout Mahoning County — South Side, Brier Hill, Wick Park, Belle Vista, and nearby Boardman, Austintown, and Campbell. Written cash offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no fees. Youngstown&apos;s median sale price is about $129,200. We cover all closing costs including the Ohio conveyance fee in Mahoning County. Call 888-440-5250.
+              </p>
+            </div>
             <p className="text-lg text-blue-100 mb-4">
               USA Home Buyers purchases houses throughout Youngstown OH and Mahoning County for cash
               in any condition — South Side bungalows, Wick Park Foursquares, Brier Hill workers'

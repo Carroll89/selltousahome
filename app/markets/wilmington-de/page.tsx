@@ -150,6 +150,12 @@ export default function WilmingtonMarketPage() {
             <h1 className="text-3xl md:text-4xl font-bold text-white mb-4 leading-tight">
               Sell Your House Fast in Wilmington, DE — Cash Offer in 24 Hours
             </h1>
+            <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
+              <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
+              <p className="text-white text-sm leading-relaxed">
+                USA Home Buyers purchases houses in Wilmington DE and throughout New Castle County — Southbridge, West Center City, West Side Wilmington, Brandywine Village, Quaker Hill, and nearby Newark and New Castle. Written cash offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no fees. Wilmington median sale price is about $210,000, with local Zillow values around $326,763. We cover all closing costs including Wilmington&apos;s 4% transfer tax. Call 888-440-5250.
+              </p>
+            </div>
             <p className="text-lg text-blue-100 mb-4">
               USA Home Buyers purchases houses throughout Wilmington DE and New Castle County for cash in any
               condition — Southbridge row homes, West Center City brick two-stories, Brandywine Village

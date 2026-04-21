@@ -150,6 +150,12 @@ export default function ErieMarketPage() {
             <h1 className="text-3xl md:text-4xl font-bold text-white mb-4 leading-tight">
               Sell Your House Fast in Erie, PA — Cash Offer in 24 Hours
             </h1>
+            <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
+              <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
+              <p className="text-white text-sm leading-relaxed">
+                USA Home Buyers purchases houses in Erie PA and throughout Erie County — West Bayfront, Glenwood, Little Italy, Southeast Erie, and the Millcreek corridor including Lawrence Park and Wesleyville. Written cash offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no fees. Erie urban-core home values are typically around $115,000 to $120,000, with suburban Millcreek homes often much higher. We cover all closing costs including Erie&apos;s 2% transfer tax. Call 888-440-5250.
+              </p>
+            </div>
             <p className="text-lg text-blue-100 mb-6">
               USA Home Buyers purchases houses throughout Erie PA and Erie County for cash in any condition —
               no repairs, no cleaning, no agent fees. Cape Cods, bungalows, and aging single-family homes.
