@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 const FAQ_ITEMS = [
   {
     question: 'How fast can I sell before foreclosure in Rochester NY?',
-    answer: 'We can close in as few as 7 days once you accept an offer. New York judicial foreclosure. Lender files in Monroe County Supreme Court (RPAPL §1301). Timeline from first missed payment to referee\'s sale: typically 12-24 months. NY requires a 90-day pre-foreclosure notice (RPAPL §1304) before filing. Source: NY Real Property Actions and Proceedings Law (nysenate.gov). Speed is critical in Rochester foreclosure situations — call 888-440-5250 immediately.',
+    answer: 'We can close in as few as 7 days once you accept an offer. New York judicial foreclosure. Lender files in Monroe County Supreme Court (RPAPL §1301). Timeline from first missed payment to referee\'s sale: typically 12-24 months. NY requires a 90-day pre-foreclosure notice (RPAPL §1304) before filing. Source: NY Real Property Actions and Proceedings Law (nysenate.gov). Speed is critical in Rochester foreclosure situations — call 888-274-5006 immediately.',
   },
   {
     question: 'What is the foreclosure process in Monroe County?',
@@ -72,13 +72,13 @@ export default function RochesterForeclosurePage() {
             </h1>
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
-              <p className="text-white text-sm leading-relaxed">USA Home Buyers purchases houses in Rochester NY from homeowners facing foreclosure — before the judicial. Written cash offer in 24 hours, close in 7-14 days. We cover all closing costs. Serving Monroe County and surrounding areas. Call 888-440-5250.</p>
+              <p className="text-white text-sm leading-relaxed">USA Home Buyers purchases houses in Rochester NY from homeowners facing foreclosure — before the judicial. Written cash offer in 24 hours, close in 7-14 days. We cover all closing costs. Serving Monroe County and surrounding areas. Call 888-274-5006.</p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
               Written cash offer in 24 hours. Close in 7–14 days. No repairs, no agent fees, no waiting.
             </p>
-            <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
-              📞 Call Now — 888-440-5250 (24/7)
+            <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
+              📞 Call Now — 888-274-5006 (24/7)
             </a>
           </div>
           <div>

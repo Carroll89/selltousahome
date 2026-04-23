@@ -35,7 +35,7 @@ export default function WorcesterMarketReportPage() {
         <div className="bg-blue-50 border border-blue-100 rounded-xl p-4 mb-8">
           <p className="text-sm font-medium text-blue-800 mb-1">TL;DR</p>
           <p className="text-sm text-blue-900 leading-relaxed">
-            According to Zillow and Redfin data for Worcester County (2026), the Worcester median home value is $310,000, with a median sale price of $315,000 and approximately 24 days on market. Transfer tax: $4.56 per $1,000 (deed excise, seller pays). Foreclosure process: Non-judicial. For a cash offer based on current Worcester market conditions, call USA Home Buyers at 888-440-5250.
+            According to Zillow and Redfin data for Worcester County (2026), the Worcester median home value is $310,000, with a median sale price of $315,000 and approximately 24 days on market. Transfer tax: $4.56 per $1,000 (deed excise, seller pays). Foreclosure process: Non-judicial. For a cash offer based on current Worcester market conditions, call USA Home Buyers at 888-274-5006.
           </p>
         </div>
 
