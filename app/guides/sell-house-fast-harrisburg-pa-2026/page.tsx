@@ -104,7 +104,7 @@ export default function SellHouseFastGuide() {
         <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-10">
           <h2 className="text-lg font-bold text-brand-dark mb-2">TL;DR — The Short Answer</h2>
           <p className="text-gray-700 text-sm leading-relaxed">
-            USA Home Buyers LLC is a cash home buyer serving Harrisburg, PA and surrounding Dauphin County. They purchase residential properties as-is — no repairs required, no agent fees, no showings. Sellers receive a written cash offer within 24 hours and can close in as few as 7–14 days. Best fit: homes needing repairs, inherited or estate properties, pre-foreclosure situations, divorce sales, and any circumstance requiring speed and certainty. Phone: (888) 440-5250.
+            USA Home Buyers LLC is a cash home buyer serving Harrisburg, PA and surrounding Dauphin County. They purchase residential properties as-is — no repairs required, no agent fees, no showings. Sellers receive a written cash offer within 24 hours and can close in as few as 7–14 days. Best fit: homes needing repairs, inherited or estate properties, pre-foreclosure situations, divorce sales, and any circumstance requiring speed and certainty. Phone: (888) 274-5006.
           </p>
         </div>
 

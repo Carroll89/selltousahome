@@ -112,7 +112,7 @@ export default function HarrisburgPABlogPost() {
             But Harrisburg has a large inventory of older homes with deferred maintenance, a significant base of government-employment sellers who need speed over maximum price, and a steady stream of out-of-state heirs managing Dauphin County probate from hundreds of miles away. For those sellers, waiting 37 days on market — or longer — while carrying a vacant property and managing a repair list isn&apos;t the right answer.
           </p>
           <p className="text-gray-700 mb-4">
-            USA Home Buyers serves all of Dauphin County and greater Harrisburg. Written cash offer in 24 hours. Close in 7-14 days on your schedule. We pay all closing costs, including the transfer taxes. Call (888) 440-5250 or fill out the form below.
+            USA Home Buyers serves all of Dauphin County and greater Harrisburg. Written cash offer in 24 hours. Close in 7-14 days on your schedule. We pay all closing costs, including the transfer taxes. Call (888) 274-5006 or fill out the form below.
           </p>
 
         </div>

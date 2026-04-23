@@ -162,7 +162,7 @@ export default function HarrisburgMarketPage() {
               <span>✓ Close in 7 days</span>
             </div>
             <a href={`tel:${PHONE}`} className="flex w-full md:w-auto items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white font-bold rounded-lg px-6 py-4 text-xl md:py-3 md:text-lg shadow-lg transition-colors ring-2 ring-green-400/50">
-              📞 Call 888-440-5250 — We Answer 24/7
+              📞 Call 888-274-5006 — We Answer 24/7
             </a>
             <p className="mt-3 text-blue-200 text-xs md:text-sm">BBB Accredited · 15+ Years Experience · Hundreds of Homes Purchased</p>
           </div>
@@ -195,7 +195,7 @@ export default function HarrisburgMarketPage() {
         <p className="mb-3">Why go the cash route? The Harrisburg market has a median home value around $234,000, and the average days to pending is just five days — so it&apos;s a fast market. But once you go pending on the MLS, you&apos;re still looking at 45 to 60 more days for inspections, appraisals, and mortgage underwriting. That&apos;s two months of uncertainty. If the financing falls through, you start over.</p>
         <p className="mb-3">We don&apos;t use financing. We pay cash. There&apos;s no appraisal contingency, no mortgage approval, no deal falling through at the last minute. No repairs, no cleaning, no agent commissions. We cover all closing costs.</p>
         <p className="mb-3">We serve all of Harrisburg — Camp Hill, Mechanicsburg, Carlisle, Steelton, and surrounding Dauphin County communities. Whatever your situation, we&apos;ve handled it before.</p>
-        <p className="mb-3">Give us a call at 888-440-5250. We&apos;re here to make this as simple as possible.</p>
+        <p className="mb-3">Give us a call at 888-274-5006. We&apos;re here to make this as simple as possible.</p>
         </div>
         </details>
 

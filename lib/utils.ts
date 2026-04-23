@@ -25,7 +25,7 @@ export function getSourceChannel(): string {
   return 'direct';
 }
 
-export const PHONE = process.env.NEXT_PUBLIC_PHONE || '888-440-5250';
+export const PHONE = process.env.NEXT_PUBLIC_PHONE || '888-274-5006';
 export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.selltousahome.com';
 export const GHL_WEBHOOK_URL = process.env.NEXT_PUBLIC_GHL_WEBHOOK_URL || 'https://rex-ghl-backend.onrender.com/webhooks/website-lead';
 
