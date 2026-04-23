@@ -40,7 +40,7 @@ export default function NewHavenNeighborhoodsPage() {
         </p>
 
         <div className="bg-blue-50 border border-blue-200 rounded-xl p-4 mb-8">
-          <p className="text-blue-700 text-sm font-medium">Hablamos español — We serve New Haven's Hispanic community (31% of the city, concentrated in Fair Haven and The Hill) in English and Spanish. Call 888-440-5250.</p>
+          <p className="text-blue-700 text-sm font-medium">Hablamos español — We serve New Haven's Hispanic community (31% of the city, concentrated in Fair Haven and The Hill) in English and Spanish. Call 888-274-5006.</p>
         </div>
 
         <section className="my-8">
@@ -141,7 +141,7 @@ export default function NewHavenNeighborhoodsPage() {
         <section className="my-8">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">Ready to Get a Cash Offer for Your New Haven Neighborhood Home?</h2>
           <p className="text-gray-700 mb-4">
-            Whatever neighborhood you're in — Fair Haven triple-decker or East Rock Victorian, Newhallville frame home or Wooster Square brownstone — USA Home Buyers will evaluate your property and provide a written cash offer within 24 hours. No commitment, no pressure. We cover all closing costs including Connecticut's conveyance tax. Call 888-440-5250 or submit the form below. Hablamos español.
+            Whatever neighborhood you're in — Fair Haven triple-decker or East Rock Victorian, Newhallville frame home or Wooster Square brownstone — USA Home Buyers will evaluate your property and provide a written cash offer within 24 hours. No commitment, no pressure. We cover all closing costs including Connecticut's conveyance tax. Call 888-274-5006 or submit the form below. Hablamos español.
           </p>
         </section>
 
@@ -172,7 +172,7 @@ export default function NewHavenNeighborhoodsPage() {
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          Fair Haven, The Hill, East Rock, Westville — USA Home Buyers buys in every New Haven neighborhood. Triple-deckers, Victorians, Colonials, two-families — any condition, any situation. Cash offer in 24 hours. Call 888-440-5250.
+          Fair Haven, The Hill, East Rock, Westville — USA Home Buyers buys in every New Haven neighborhood. Triple-deckers, Victorians, Colonials, two-families — any condition, any situation. Cash offer in 24 hours. Call 888-274-5006.
         </div>
       </details>
         <CashOfferForm variant="footer" headline="Get Your New Haven CT Cash Offer" sourcePage="/markets/new-haven-ct/neighborhoods" />

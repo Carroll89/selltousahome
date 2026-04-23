@@ -34,11 +34,11 @@ const FAQ_ITEMS = [
   },
   {
     question: 'What if the property has a condemnation order in New Haven?',
-    answer: 'We buy condemned and uninhabitable properties in New Haven. A condemnation order from LCI or the City of New Haven Building Official means the property has been declared unfit for occupancy — but it can still be sold. Cash buyers who purchase condemned properties assume all remediation obligations. Call 888-440-5250 to discuss your specific property.',
+    answer: 'We buy condemned and uninhabitable properties in New Haven. A condemnation order from LCI or the City of New Haven Building Official means the property has been declared unfit for occupancy — but it can still be sold. Cash buyers who purchase condemned properties assume all remediation obligations. Call 888-274-5006 to discuss your specific property.',
   },
   {
     question: '¿Compran casas con violaciones de código en New Haven? / Code violations in Spanish?',
-    answer: 'Sí, hablamos español. Compramos casas con violaciones de código LCI en New Haven — incluyendo Fair Haven, The Hill y Newhallville. No necesita reparar nada antes de vender. Llámenos: 888-440-5250.',
+    answer: 'Sí, hablamos español. Compramos casas con violaciones de código LCI en New Haven — incluyendo Fair Haven, The Hill y Newhallville. No necesita reparar nada antes de vender. Llámenos: 888-274-5006.',
   },
 ];
 
@@ -78,15 +78,15 @@ export default function NewHavenCodeViolationsPage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                New Haven's Livable City Initiative (LCI) actively enforces code violations on the city's pre-war housing stock. Lead paint, knob-and-tube wiring, structural issues, failed systems — USA Home Buyers buys New Haven properties with open LCI violations as-is. No repairs, no remediation, no waiting for reinspection. Written offer in 24 hours. Call 888-440-5250. Hablamos español.
+                New Haven's Livable City Initiative (LCI) actively enforces code violations on the city's pre-war housing stock. Lead paint, knob-and-tube wiring, structural issues, failed systems — USA Home Buyers buys New Haven properties with open LCI violations as-is. No repairs, no remediation, no waiting for reinspection. Written offer in 24 hours. Call 888-274-5006. Hablamos español.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-4">
               Open LCI violations, condemnation orders, blight notices — we buy anyway, as-is.
             </p>
-            <p className="text-blue-100 text-sm mb-4">Hablamos español — llamar para ayuda en español. 888-440-5250.</p>
-            <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
-              📞 Call Now — 888-440-5250 (24/7)
+            <p className="text-blue-100 text-sm mb-4">Hablamos español — llamar para ayuda en español. 888-274-5006.</p>
+            <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
+              📞 Call Now — 888-274-5006 (24/7)
             </a>
           </div>
           <div>
@@ -102,7 +102,7 @@ export default function NewHavenCodeViolationsPage() {
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          Code violations on your New Haven property? USA Home Buyers purchases properties with open violations and condemnation notices as-is. No repairs, no permits. Fair cash offer and fast close. Call 888-440-5250.
+          Code violations on your New Haven property? USA Home Buyers purchases properties with open violations and condemnation notices as-is. No repairs, no permits. Fair cash offer and fast close. Call 888-274-5006.
         </div>
       </details>
           <CashOfferForm variant="hero" headline="Get Your Cash Offer — Violations OK" subheadline="We buy with open LCI violations. No repairs required." sourcePage="/markets/new-haven-ct/code-violations" />
@@ -162,7 +162,7 @@ export default function NewHavenCodeViolationsPage() {
             New Haven properties are subject to both city (LCI) code enforcement and state housing code requirements. The CT Public Health Code (Sections 19-13-B1 through 19-13-B113) establishes minimum housing standards that apply statewide. The CT Building Code (based on the International Building Code with CT amendments) governs construction standards. LCI enforces both the city's local ordinances and applicable state standards.
           </p>
           <p className="text-gray-700 mb-4">
-            For sellers, the key point is simple: open violations don't prevent a cash sale. The violations are disclosed as part of the transaction, accounted for in the offer price, and assumed by the buyer at closing. USA Home Buyers has purchased properties under active condemnation orders, with multiple open LCI notices, with accumulated civil penalties, and in every category of distressed condition New Haven's housing stock produces. Call 888-440-5250.
+            For sellers, the key point is simple: open violations don't prevent a cash sale. The violations are disclosed as part of the transaction, accounted for in the offer price, and assumed by the buyer at closing. USA Home Buyers has purchased properties under active condemnation orders, with multiple open LCI notices, with accumulated civil penalties, and in every category of distressed condition New Haven's housing stock produces. Call 888-274-5006.
           </p>
 
           <h2 className="text-2xl font-bold text-brand-dark mb-4 mt-8">LCI Blight List — Properties on New Haven's Active Enforcement Radar</h2>
@@ -170,7 +170,7 @@ export default function NewHavenCodeViolationsPage() {
             New Haven's Livable City Initiative maintains active enforcement on properties identified as blighted — vacant, deteriorating, or creating neighborhood health and safety issues. Properties on the blight list face escalating enforcement: fines, liens, and ultimately condemnation and City-ordered demolition if the owner doesn't act. The City of New Haven has used its blight remediation program to demolish severely deteriorated properties at owner expense, creating a debt that survives through the estate if the owner is deceased.
           </p>
           <p className="text-gray-700 mb-4">
-            Selling before a property reaches advanced blight enforcement status is critical. Once the city has expended funds on emergency remediation or demolition, those costs become a lien that attaches to the property and reduces any sale proceeds. A cash sale while there are open LCI violations — but before the city has incurred remediation costs — preserves more equity for the seller. USA Home Buyers can close quickly to get ahead of escalating enforcement. Call 888-440-5250.
+            Selling before a property reaches advanced blight enforcement status is critical. Once the city has expended funds on emergency remediation or demolition, those costs become a lien that attaches to the property and reduces any sale proceeds. A cash sale while there are open LCI violations — but before the city has incurred remediation costs — preserves more equity for the seller. USA Home Buyers can close quickly to get ahead of escalating enforcement. Call 888-274-5006.
           </p>
 
           <h2 className="text-2xl font-bold text-brand-dark mb-4 mt-8">Lead Paint — New Haven's Most Pervasive Code Issue</h2>
@@ -183,7 +183,7 @@ export default function NewHavenCodeViolationsPage() {
 
           <h2 className="text-2xl font-bold text-brand-dark mb-4 mt-8">Selling a Code-Violating New Haven Home — Step by Step</h2>
           <p className="text-gray-700 mb-4">
-            The process for selling a New Haven property with open code violations to USA Home Buyers is straightforward: call 888-440-5250 or submit the form; describe the property and the known violations; we assess (photos or brief visit); receive a written cash offer within 24 hours; accept and set a closing date; close with a CT real estate attorney in 7–14 days. The violations are documented as known conditions; the deed transfers with the buyer taking responsibility for remediation. Hablamos español.
+            The process for selling a New Haven property with open code violations to USA Home Buyers is straightforward: call 888-274-5006 or submit the form; describe the property and the known violations; we assess (photos or brief visit); receive a written cash offer within 24 hours; accept and set a closing date; close with a CT real estate attorney in 7–14 days. The violations are documented as known conditions; the deed transfers with the buyer taking responsibility for remediation. Hablamos español.
           </p>
 
           <h2 className="text-2xl font-bold text-brand-dark mb-4 mt-8">Seller Disclosure of Code Violations in Connecticut</h2>
@@ -191,7 +191,7 @@ export default function NewHavenCodeViolationsPage() {
             According to CT Gen Stat §20-327b (Connecticut General Assembly), Connecticut's residential property condition disclosure statute requires sellers to disclose known material defects — which includes known code violations. When you sell to USA Home Buyers, we are a cash investor buyer who already knows properties of this type and age carry violations. The disclosure is a confirmation, not a surprise — and it doesn't reduce our offer below the written number. We price for the condition we can see, and we close.
           </p>
           <p className="text-gray-700 mb-4">
-            For sellers with code violations in Fair Haven, The Hill, Newhallville, Dixwell, or anywhere in New Haven County: USA Home Buyers buys as-is. No repairs. No remediation before closing. Written offer in 24 hours. Close in 7–14 days. We cover all closing costs including CT's 1.25% conveyance tax. Call 888-440-5250 — hablamos español, servimos a la comunidad hispana de New Haven.
+            For sellers with code violations in Fair Haven, The Hill, Newhallville, Dixwell, or anywhere in New Haven County: USA Home Buyers buys as-is. No repairs. No remediation before closing. Written offer in 24 hours. Close in 7–14 days. We cover all closing costs including CT's 1.25% conveyance tax. Call 888-274-5006 — hablamos español, servimos a la comunidad hispana de New Haven.
           </p>
         </section>
 

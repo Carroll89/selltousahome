@@ -34,11 +34,11 @@ const FAQ_ITEMS = [
   },
   {
     question: 'What if my spouse won\'t cooperate with the sale?',
-    answer: 'Connecticut courts have authority to order the sale of marital property under CT Gen Stat §46b-81. If one spouse refuses to cooperate, the other can petition the New Haven Superior Court family division for an order requiring the sale. A cash buyer\'s offer can be submitted to the court as documentation of available market value. Call 888-440-5250 to discuss your situation.',
+    answer: 'Connecticut courts have authority to order the sale of marital property under CT Gen Stat §46b-81. If one spouse refuses to cooperate, the other can petition the New Haven Superior Court family division for an order requiring the sale. A cash buyer\'s offer can be submitted to the court as documentation of available market value. Call 888-274-5006 to discuss your situation.',
   },
   {
     question: '¿Pueden ayudarnos a vender la casa durante el divorcio en New Haven? / Can you help with divorce sale in Spanish?',
-    answer: 'Sí, hablamos español. Si usted y su cónyuge necesitan vender la casa durante el divorcio en New Haven, podemos ayudar en español. Ofrecemos una oferta de efectivo, una fecha de cierre, y los fondos se distribuyen según el acuerdo de divorcio. Llámenos: 888-440-5250.',
+    answer: 'Sí, hablamos español. Si usted y su cónyuge necesitan vender la casa durante el divorcio en New Haven, podemos ayudar en español. Ofrecemos una oferta de efectivo, una fecha de cierre, y los fondos se distribuyen según el acuerdo de divorcio. Llámenos: 888-274-5006.',
   },
 ];
 
@@ -78,15 +78,15 @@ export default function NewHavenDivorceSalePage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                Divorcing in New Haven? Connecticut is equitable distribution (CT Gen Stat §46b-81). New Haven Superior Court family division handles home sale orders. USA Home Buyers gives one offer, one closing date — proceeds split through attorneys. Close in 7–14 days. No repairs, no agent, no delays. Call 888-440-5250. Hablamos español.
+                Divorcing in New Haven? Connecticut is equitable distribution (CT Gen Stat §46b-81). New Haven Superior Court family division handles home sale orders. USA Home Buyers gives one offer, one closing date — proceeds split through attorneys. Close in 7–14 days. No repairs, no agent, no delays. Call 888-274-5006. Hablamos español.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-4">
               One cash offer. One closing date. Proceeds split through your attorneys. Done.
             </p>
-            <p className="text-blue-100 text-sm mb-4">Hablamos español — llamar para ayuda en español. 888-440-5250.</p>
-            <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
-              📞 Call Now — 888-440-5250 (24/7)
+            <p className="text-blue-100 text-sm mb-4">Hablamos español — llamar para ayuda en español. 888-274-5006.</p>
+            <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
+              📞 Call Now — 888-274-5006 (24/7)
             </a>
           </div>
           <div>
@@ -102,7 +102,7 @@ export default function NewHavenDivorceSalePage() {
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          Divorce in New Haven and need to sell fast? One cash offer, both parties sign, close in 7-14 days. No agents, no open houses. Proceeds split at closing per your agreement. Call 888-440-5250.
+          Divorce in New Haven and need to sell fast? One cash offer, both parties sign, close in 7-14 days. No agents, no open houses. Proceeds split at closing per your agreement. Call 888-274-5006.
         </div>
       </details>
           <CashOfferForm variant="hero" headline="Get Your Divorce Sale Cash Offer" subheadline="One offer. One closing. Proceeds split at closing." sourcePage="/markets/new-haven-ct/divorce-sale" />
@@ -148,7 +148,7 @@ export default function NewHavenDivorceSalePage() {
             Divorce sales happen in every New Haven neighborhood. Westville's Victorian homes — often purchased during more financially stable years — generate some of the city's higher-value divorce sales. East Rock's single-family Victorians with equity accumulated over 15-20 years of ownership involve divorce sales where both parties have real equity to protect. Fair Haven's triple-deckers, Beaver Hills' Colonials, and Wooster Square's brownstones all have divorce situations with their own neighborhood-specific character.
           </p>
           <p className="text-gray-700 mb-4">
-            USA Home Buyers buys in every New Haven neighborhood. We don't require repairs, staging, or cleanout. Whether the home is occupied by one spouse, both, or neither — we can work around the living situation and close on a date that works for both parties. Call 888-440-5250.
+            USA Home Buyers buys in every New Haven neighborhood. We don't require repairs, staging, or cleanout. Whether the home is occupied by one spouse, both, or neither — we can work around the living situation and close on a date that works for both parties. Call 888-274-5006.
           </p>
 
           <h2 className="text-2xl font-bold text-brand-dark mb-4 mt-8">CT Conveyance Tax on a Divorce Sale</h2>
@@ -177,12 +177,12 @@ export default function NewHavenDivorceSalePage() {
             Divorce and pre-foreclosure frequently intersect in New Haven. A couple going through a contentious divorce misses mortgage payments during the proceedings — each party assumes the other is paying, or neither can afford the full payment on a single income, or communication has broken down to the point that routine financial management has stopped. Meanwhile, Connecticut's strict foreclosure timeline begins running: 5–9 months from first missed payment to Law Day.
           </p>
           <p className="text-gray-700 mb-4">
-            If your New Haven home is both in divorce proceedings and pre-foreclosure, speed is critical. USA Home Buyers can close in 7–14 days, stopping the foreclosure proceeding and extracting maximum equity before the Law Day arrives. Both spouses receive their shares at closing; the mortgage is paid off; the foreclosure action is dismissed. The divorce court still has to finalize the asset distribution, but the home is off the table. Call 888-440-5250 — this situation is exactly what we're built for.
+            If your New Haven home is both in divorce proceedings and pre-foreclosure, speed is critical. USA Home Buyers can close in 7–14 days, stopping the foreclosure proceeding and extracting maximum equity before the Law Day arrives. Both spouses receive their shares at closing; the mortgage is paid off; the foreclosure action is dismissed. The divorce court still has to finalize the asset distribution, but the home is off the table. Call 888-274-5006 — this situation is exactly what we're built for.
           </p>
 
           <h2 className="text-2xl font-bold text-brand-dark mb-4 mt-8">Serving New Haven's Hispanic Community During Divorce</h2>
           <p className="text-gray-700 mb-4">
-            New Haven is 31% Hispanic — the largest single demographic group in the city (U.S. Census Bureau, census.gov). For Fair Haven and Hill families navigating divorce, the combination of a stressful legal process and transacting in a second language creates real barriers. USA Home Buyers offers full Spanish-language service: the initial consultation, the offer discussion, and coordination with the estate and divorce attorneys can all be conducted in Spanish. Hablamos español. Call 888-440-5250 — Spanish service available.
+            New Haven is 31% Hispanic — the largest single demographic group in the city (U.S. Census Bureau, census.gov). For Fair Haven and Hill families navigating divorce, the combination of a stressful legal process and transacting in a second language creates real barriers. USA Home Buyers offers full Spanish-language service: the initial consultation, the offer discussion, and coordination with the estate and divorce attorneys can all be conducted in Spanish. Hablamos español. Call 888-274-5006 — Spanish service available.
           </p>
 
           <h2 className="text-2xl font-bold text-brand-dark mb-4 mt-8">New Haven Divorce Sale — Market Data Context</h2>
@@ -190,7 +190,7 @@ export default function NewHavenDivorceSalePage() {
             New Haven's median sale price is $365,000 (Redfin, March 2026), with a 65-day median DOM. On a Westville Victorian at $525,000, a 5-6% agent commission = $26,250–$31,500 off the top. Add Connecticut's 1.25% conveyance tax ($6,563), two sets of attorney fees ($1,500–$3,000 combined), and three-plus months of shared carrying costs during the listing period. The total transaction cost of a conventional listing in a divorce situation easily reaches $40,000–$50,000 on a mid-range New Haven home. A cash sale eliminates most of these costs and closes in weeks instead of months. The net difference between cash and listed is smaller than the headline cash-offer percentage suggests.
           </p>
           <p className="text-gray-700 mb-4">
-            New Haven also has a two-tier market: distressed properties in Fair Haven, The Hill, and Newhallville need cash buyers regardless, because conventional financing isn't available for homes with deferred maintenance, lead paint, and code violations. If your marital home falls into this category, a cash sale may be the only practical option for a quick resolution. Call 888-440-5250.
+            New Haven also has a two-tier market: distressed properties in Fair Haven, The Hill, and Newhallville need cash buyers regardless, because conventional financing isn't available for homes with deferred maintenance, lead paint, and code violations. If your marital home falls into this category, a cash sale may be the only practical option for a quick resolution. Call 888-274-5006.
           </p>
         </section>
 

@@ -38,7 +38,7 @@ const FAQ_ITEMS = [
   },
   {
     question: '¿Pueden comprar una propiedad en probate en New Haven? / Probate property in Spanish?',
-    answer: 'Sí, hablamos español. Trabajamos con familias hispanas en New Haven que están pasando por el proceso de Tribunal de Sucesiones. Podemos explicar el proceso de probate de Connecticut en español y coordinar con el abogado del patrimonio. Llámenos: 888-440-5250.',
+    answer: 'Sí, hablamos español. Trabajamos con familias hispanas en New Haven que están pasando por el proceso de Tribunal de Sucesiones. Podemos explicar el proceso de probate de Connecticut en español y coordinar con el abogado del patrimonio. Llámenos: 888-274-5006.',
   },
 ];
 
@@ -78,15 +78,15 @@ export default function NewHavenProbatePage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                Selling a New Haven probate property? Connecticut's unique Probate Court system requires court authorization before selling real estate. New Haven Probate Court: 200 Orange Street, (203) 946-4880, ctprobate.gov. USA Home Buyers closes after court approval — written offer in 24 hours, close in 7–14 days once authorized. As-is, any condition. Hablamos español. Call 888-440-5250.
+                Selling a New Haven probate property? Connecticut's unique Probate Court system requires court authorization before selling real estate. New Haven Probate Court: 200 Orange Street, (203) 946-4880, ctprobate.gov. USA Home Buyers closes after court approval — written offer in 24 hours, close in 7–14 days once authorized. As-is, any condition. Hablamos español. Call 888-274-5006.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-4">
               We buy New Haven probate properties as-is — we work within the CT Probate Court process.
             </p>
-            <p className="text-blue-100 text-sm mb-4">Hablamos español — llamar para ayuda en español. 888-440-5250.</p>
-            <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
-              📞 Call Now — 888-440-5250 (24/7)
+            <p className="text-blue-100 text-sm mb-4">Hablamos español — llamar para ayuda en español. 888-274-5006.</p>
+            <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
+              📞 Call Now — 888-274-5006 (24/7)
             </a>
           </div>
           <div>
@@ -102,7 +102,7 @@ export default function NewHavenProbatePage() {
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          New Haven property in Connecticut probate? USA Home Buyers works with executors through New Haven Probate Court at 200 Orange Street. We close once the court approves. As-is, any condition. Written cash offer in 24 hours. Call 888-440-5250.
+          New Haven property in Connecticut probate? USA Home Buyers works with executors through New Haven Probate Court at 200 Orange Street. We close once the court approves. As-is, any condition. Written cash offer in 24 hours. Call 888-274-5006.
         </div>
       </details>
           <CashOfferForm variant="hero" headline="Get Your Probate Cash Offer" subheadline="We work with New Haven Probate Court cases. Written offer in 24 hours." sourcePage="/markets/new-haven-ct/probate" />
@@ -174,7 +174,7 @@ export default function NewHavenProbatePage() {
             Listing on the MLS requires the estate to either fund repairs to make the home lender-financeable, or price it low enough that an investor will buy it conventionally — and then wait 65+ days for the listing to sell. A cash buyer eliminates the renovation cost, eliminates the agent commission, eliminates the carrying cost during the listing period, and closes in 7–14 days after court authorization. The estate's net proceeds are often comparable to a listed sale after costs.
           </p>
           <p className="text-gray-700 mb-4">
-            USA Home Buyers has a clear process for New Haven probate sales: we meet with the executor (in person or by phone), assess the property, submit a written offer, and coordinate with the estate attorney for the motion to sell hearing. Once the court issues its order, we close quickly. The estate is settled; the beneficiaries receive distributions. Call 888-440-5250.
+            USA Home Buyers has a clear process for New Haven probate sales: we meet with the executor (in person or by phone), assess the property, submit a written offer, and coordinate with the estate attorney for the motion to sell hearing. Once the court issues its order, we close quickly. The estate is settled; the beneficiaries receive distributions. Call 888-274-5006.
           </p>
 
           <h2 className="text-2xl font-bold text-brand-dark mb-4 mt-8">Recording the Estate Transfer — New Haven City Clerk</h2>
@@ -195,7 +195,7 @@ export default function NewHavenProbatePage() {
             Many New Haven probate situations involve executors who don't live in Connecticut. A daughter in New York City named executor of her mother's Fair Haven triple-decker. A son in Florida handling his father's Newhallville estate. A Puerto Rico-based family managing a Hill neighborhood property inherited from grandparents who settled in New Haven in the 1960s.
           </p>
           <p className="text-gray-700 mb-4">
-            Connecticut law requires that the executor be bondable (or waive the bond requirement in the will) and cooperate with the Probate Court. Out-of-state executors can manage the New Haven Probate process remotely with a good local real estate attorney — appearances at hearings can sometimes be handled by the attorney with Power of Attorney. USA Home Buyers works with out-of-state executors regularly. We handle the property assessment, coordinate with your local CT attorney, and keep the process moving without requiring you to fly to New Haven for every step. Call 888-440-5250 — hablamos español.
+            Connecticut law requires that the executor be bondable (or waive the bond requirement in the will) and cooperate with the Probate Court. Out-of-state executors can manage the New Haven Probate process remotely with a good local real estate attorney — appearances at hearings can sometimes be handled by the attorney with Power of Attorney. USA Home Buyers works with out-of-state executors regularly. We handle the property assessment, coordinate with your local CT attorney, and keep the process moving without requiring you to fly to New Haven for every step. Call 888-274-5006 — hablamos español.
           </p>
 
           <h2 className="text-2xl font-bold text-brand-dark mb-4 mt-8">New Haven Probate Real Estate — Market Value Context</h2>
@@ -203,7 +203,7 @@ export default function NewHavenProbatePage() {
             When an estate includes a New Haven property, the Probate Court requires an inventory value for the asset. The executor typically obtains a broker price opinion or certified appraisal to establish fair market value. For a Fair Haven triple-decker, that might come in at $210,000–$240,000 in as-is condition. For a Westville Victorian, $480,000–$540,000. These values inform the Probate Court's approval of any sale — the court will expect that a cash offer reasonably reflects market conditions.
           </p>
           <p className="text-gray-700 mb-4">
-            USA Home Buyers provides written offers that are defensible to the Probate Court. We're not offering $0.50 on the dollar with no explanation — we price based on the property's actual as-is market value, the cost of renovation required to bring the property to retail condition, and the risk we're absorbing. Many New Haven Probate Court judges have seen cash buyer offers before and understand this pricing framework. An offer in the 65–78% of appraised-value range with full written documentation is routinely approved. Call 888-440-5250.
+            USA Home Buyers provides written offers that are defensible to the Probate Court. We're not offering $0.50 on the dollar with no explanation — we price based on the property's actual as-is market value, the cost of renovation required to bring the property to retail condition, and the risk we're absorbing. Many New Haven Probate Court judges have seen cash buyer offers before and understand this pricing framework. An offer in the 65–78% of appraised-value range with full written documentation is routinely approved. Call 888-274-5006.
           </p>
 
           <h2 className="text-2xl font-bold text-brand-dark mb-4 mt-8">Probate vs. Trust — Does Your New Haven Property Have a Trust?</h2>

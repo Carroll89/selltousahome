@@ -72,14 +72,14 @@ export default function BridgeportProbatePage() {
             </h1>
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
-              <p className="text-white text-sm leading-relaxed">USA Home Buyers purchases probate properties in Bridgeport CT through Bridgeport Probate Court. Written cash offer in 24 hours, close after the court grants authority. Any condition, no repairs, no cleanout. Call 888-440-5250.</p>
+              <p className="text-white text-sm leading-relaxed">USA Home Buyers purchases probate properties in Bridgeport CT through Bridgeport Probate Court. Written cash offer in 24 hours, close after the court grants authority. Any condition, no repairs, no cleanout. Call 888-274-5006.</p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
               Written cash offer in 24 hours. Close in 7–14 days. No repairs, no agent fees, no waiting.
             </p>
           <p className="text-blue-100 text-sm">Hablamos español — servimos a la comunidad de habla hispana.</p>
-            <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
-              📞 Call Now — 888-440-5250 (24/7)
+            <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
+              📞 Call Now — 888-274-5006 (24/7)
             </a>
           </div>
           <div>
@@ -90,9 +90,12 @@ export default function BridgeportProbatePage() {
 
       <div className="max-w-7xl mx-auto px-4 py-8">
         <section className="my-8">
-          <h2 className="text-2xl font-bold text-brand-dark mb-4">Market Data: Bridgeport CT — $252,000 Median Price</h2>
+          <h2 className="text-2xl font-bold text-brand-dark mb-4">Probate in Connecticut — How the Bridgeport Process Works</h2>
           <p className="text-gray-700 mb-4">
-            According to Zillow and Redfin data for Fairfield County, the median home value in Bridgeport is approximately $252,000. Transfer tax: Connecticut real estate conveyance tax — 0.75% state + 0.25% municipal (City of Bridgeport) = 1.0% total for properties under $800,000. Seller pays both portions. On a $252,000 sale: $2,520. Source: Connecticut Department of Revenue Services (ct.gov/drs).
+            Connecticut probate is administered by the state's network of Probate Courts under CGS Chapter 802b. The Bridgeport Probate Court district (45 Lyon Terrace, Room 121) handles all estates for decedents owning real property within the City of Bridgeport. Connecticut offers a simplified "Small Estate" affidavit process for gross estates under the statutory limit, but most real-estate-bearing estates must go through formal probate. The personal representative must receive a Certificate of Appointment before they can execute a deed or purchase agreement binding on the estate. Source: <a href="https://www.ctprobate.gov" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:underline">Connecticut Probate Court (ctprobate.gov)</a>.
+          </p>
+          <p className="text-gray-700 mb-4">
+            According to Zillow and Redfin data for Fairfield County, the median home value in Bridgeport is $252,000. Transfer tax: Connecticut real estate conveyance tax — 0.75% state + 0.25% municipal = 1.0% for properties under $800,000. Seller pays both portions. On a $252,000 sale: $2,520. Source: <a href="https://portal.ct.gov/DRS/Real-Estate/Real-Estate-Conveyance-Tax" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:underline">Connecticut Department of Revenue Services (ct.gov)</a>. For federal capital gains stepped-up basis rules on inherited property, see <a href="https://www.irs.gov/publications/p551" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:underline">IRS Publication 551 (irs.gov)</a>.
           </p>
         </section>
 

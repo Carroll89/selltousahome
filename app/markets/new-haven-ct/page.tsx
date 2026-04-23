@@ -91,7 +91,7 @@ const COMPARISON_ROWS = [
 const FAQ_ITEMS = [
   {
     question: 'How fast can I sell my house for cash in New Haven CT?',
-    answer: 'USA Home Buyers can close in as few as 7 days in New Haven CT. We send a written cash offer within 24 hours. Connecticut uses strict foreclosure — a unique process where the lender petitions the Superior Court and the judge sets a "Law Day" by which you must pay off the debt or lose title entirely to the lender. There is no public auction. Once a Law Day is set, acting fast is critical. A direct cash sale before that date is often the only way to recover any equity. Call 888-440-5250.',
+    answer: 'USA Home Buyers can close in as few as 7 days in New Haven CT. We send a written cash offer within 24 hours. Connecticut uses strict foreclosure — a unique process where the lender petitions the Superior Court and the judge sets a "Law Day" by which you must pay off the debt or lose title entirely to the lender. There is no public auction. Once a Law Day is set, acting fast is critical. A direct cash sale before that date is often the only way to recover any equity. Call 888-274-5006.',
   },
   {
     question: 'How much will you pay for my New Haven CT house?',
@@ -107,11 +107,11 @@ const FAQ_ITEMS = [
   },
   {
     question: '¿Compran casas en New Haven CT? / Do you work with Spanish-speaking sellers?',
-    answer: 'Sí, hablamos español. New Haven tiene una comunidad hispana del 31% — la mayoría puertorriqueña y ecuatoriana en Fair Haven y The Hill. Podemos manejar todo el proceso en español o inglés, desde la llamada inicial hasta el cierre. We serve New Haven\'s majority-Hispanic community and can handle the entire transaction in English or Spanish. Call us at 888-440-5250.',
+    answer: 'Sí, hablamos español. New Haven tiene una comunidad hispana del 31% — la mayoría puertorriqueña y ecuatoriana en Fair Haven y The Hill. Podemos manejar todo el proceso en español o inglés, desde la llamada inicial hasta el cierre. We serve New Haven\'s majority-Hispanic community and can handle the entire transaction in English or Spanish. Call us at 888-274-5006.',
   },
   {
     question: 'What areas near New Haven do you buy in?',
-    answer: 'All of New Haven County. That includes West Haven, Hamden, East Haven, Milford, Shelton, Branford, North Haven, Orange, Guilford, Derby, Ansonia, Naugatuck, and Wallingford. We also cover New Haven County communities of Wooster Square, Edgewood, Beaver Hills, and beyond. Call 888-440-5250 if you\'re not sure we cover your area.',
+    answer: 'All of New Haven County. That includes West Haven, Hamden, East Haven, Milford, Shelton, Branford, North Haven, Orange, Guilford, Derby, Ansonia, Naugatuck, and Wallingford. We also cover New Haven County communities of Wooster Square, Edgewood, Beaver Hills, and beyond. Call 888-274-5006 if you\'re not sure we cover your area.',
   },
   {
     question: 'Do I need to make repairs before selling?',
@@ -166,7 +166,7 @@ export default function NewHavenCTMarketPage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                USA Home Buyers purchases houses in New Haven CT and throughout New Haven County — Fair Haven, East Rock, Westville, The Hill, Newhallville, Wooster Square, plus West Haven, Hamden, and East Haven. Written cash offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no fees. Zillow typical value: $323,843. We cover all closing costs including CT conveyance tax (1.25% Targeted Investment rate). Call 888-440-5250. Hablamos español — servimos a la comunidad hispana del 31% de New Haven.
+                USA Home Buyers purchases houses in New Haven CT and throughout New Haven County — Fair Haven, East Rock, Westville, The Hill, Newhallville, Wooster Square, plus West Haven, Hamden, and East Haven. Written cash offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no fees. Zillow typical value: $323,843. We cover all closing costs including CT conveyance tax (1.25% Targeted Investment rate). Call 888-274-5006. Hablamos español — servimos a la comunidad hispana del 31% de New Haven.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-4">
@@ -179,8 +179,8 @@ export default function NewHavenCTMarketPage() {
               <li>✓ We cover CT conveyance tax + all closing costs</li>
               <li>✓ Hablamos español</li>
             </ul>
-            <a href="tel:+18884405250" className="flex w-full md:w-auto items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white font-bold rounded-lg px-6 py-4 text-xl md:py-3 md:text-lg shadow-lg transition-colors ring-2 ring-green-400/50">
-              📞 Call 888-440-5250 — We Answer 24/7
+            <a href="tel:+18882745006" className="flex w-full md:w-auto items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white font-bold rounded-lg px-6 py-4 text-xl md:py-3 md:text-lg shadow-lg transition-colors ring-2 ring-green-400/50">
+              📞 Call 888-274-5006 — We Answer 24/7
             </a>
             <p className="mt-3 text-blue-200 text-xs md:text-sm">BBB Accredited · 15+ Years Experience · Hundreds of Homes Purchased</p>
             <p className="text-blue-100 text-xs mt-2">🇵🇷 Hablamos español — llámenos para ayuda en español</p>
@@ -195,13 +195,14 @@ export default function NewHavenCTMarketPage() {
         src="/videos/new-haven-ct/landing.mp4"
         title="Sell My House Fast New Haven CT — USA Home Buyers"
         subtitle="Cash offers for New Haven and New Haven County homes — any condition"
+        poster="/videos/new-haven-ct/landing-poster.jpg"
         />
         <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
         <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
         📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-        If you need to sell your house fast in New Haven, Connecticut — you've found the right team. We're USA Home Buyers, and we purchase houses as-is, for cash, throughout New Haven County. Whether your home needs repairs, you're behind on payments, going through a divorce, or you've inherited a property you don't know what to do with — we make the process simple. No agents. No fees. No repairs needed. We buy New Haven homes in any condition — from Fair Haven and The Hill to Newhallville and beyond. Written cash offer within 24 hours. Close in as few as seven days on your schedule. Call us now at 888-440-5250. That's 888-440-5250.
+        If you need to sell your house fast in New Haven, Connecticut — you've found the right team. We're USA Home Buyers, and we purchase houses as-is, for cash, throughout New Haven County. Whether your home needs repairs, you're behind on payments, going through a divorce, or you've inherited a property you don't know what to do with — we make the process simple. No agents. No fees. No repairs needed. We buy New Haven homes in any condition — from Fair Haven and The Hill to Newhallville and beyond. Written cash offer within 24 hours. Close in as few as seven days on your schedule. Call us now at 888-274-5006. That's 888-274-5006.
         </div>
         </details>
 
@@ -299,7 +300,7 @@ export default function NewHavenCTMarketPage() {
             New Haven tiene una comunidad hispana del 31% — una de las más altas de Connecticut. La mayoría vive en Fair Haven y The Hill, con raíces puertorriqueñas y ecuatorianas. Podemos manejar todo el proceso de venta en español: desde la oferta inicial hasta el cierre con el abogado de bienes raíces.
           </p>
           <p className="text-gray-700 text-sm">
-            <strong>Llámenos:</strong> 888-440-5250 — atención en español disponible.
+            <strong>Llámenos:</strong> 888-274-5006 — atención en español disponible.
           </p>
         </section>
 

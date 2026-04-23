@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 const FAQ_ITEMS = [
   {
     question: 'Do you buy fire-damaged houses in New Haven CT?',
-    answer: 'Yes — USA Home Buyers purchases fire-damaged properties in New Haven CT as-is. No cleanup, no repair requirement, no insurance claim required. We assess the property in its current condition, account for the fire damage in our offer, and close in 7–14 days. Call 888-440-5250.',
+    answer: 'Yes — USA Home Buyers purchases fire-damaged properties in New Haven CT as-is. No cleanup, no repair requirement, no insurance claim required. We assess the property in its current condition, account for the fire damage in our offer, and close in 7–14 days. Call 888-274-5006.',
   },
   {
     question: 'Do I have to disclose fire damage when selling a New Haven home?',
@@ -42,7 +42,7 @@ const FAQ_ITEMS = [
   },
   {
     question: '¿Compran casas con daños de fuego en New Haven? / Fire damage in Spanish?',
-    answer: 'Sí, hablamos español. Compramos casas con daños de fuego en New Haven — sin reparaciones, sin limpieza. Podemos ayudar en español. Llámenos: 888-440-5250.',
+    answer: 'Sí, hablamos español. Compramos casas con daños de fuego en New Haven — sin reparaciones, sin limpieza. Podemos ayudar en español. Llámenos: 888-274-5006.',
   },
 ];
 
@@ -82,15 +82,15 @@ export default function NewHavenFireDamagePage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                Own a fire-damaged property in New Haven CT? USA Home Buyers purchases fire and smoke-damaged homes as-is — no cleanup, no repairs. CT disclosure law (CT Gen Stat §20-327b) requires disclosing fire history; cash buyers price accordingly. CT insurer claim timing: CT Gen Stat §38a-307. Written offer in 24 hours. Call 888-440-5250. Hablamos español.
+                Own a fire-damaged property in New Haven CT? USA Home Buyers purchases fire and smoke-damaged homes as-is — no cleanup, no repairs. CT disclosure law (CT Gen Stat §20-327b) requires disclosing fire history; cash buyers price accordingly. CT insurer claim timing: CT Gen Stat §38a-307. Written offer in 24 hours. Call 888-274-5006. Hablamos español.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-4">
               Fire damage, smoke damage, water damage from firefighting — we buy the property as-is.
             </p>
-            <p className="text-blue-100 text-sm mb-4">Hablamos español — llamar para ayuda en español. 888-440-5250.</p>
-            <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
-              📞 Call Now — 888-440-5250 (24/7)
+            <p className="text-blue-100 text-sm mb-4">Hablamos español — llamar para ayuda en español. 888-274-5006.</p>
+            <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
+              📞 Call Now — 888-274-5006 (24/7)
             </a>
           </div>
           <div>
@@ -106,7 +106,7 @@ export default function NewHavenFireDamagePage() {
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          Fire damage on your New Haven property? USA Home Buyers buys fire-damaged homes in New Haven County as-is. No contractor estimates, no insurance delays. Fair cash offer on current condition. Call 888-440-5250.
+          Fire damage on your New Haven property? USA Home Buyers buys fire-damaged homes in New Haven County as-is. No contractor estimates, no insurance delays. Fair cash offer on current condition. Call 888-274-5006.
         </div>
       </details>
           <CashOfferForm variant="hero" headline="Get Your Cash Offer — Fire Damage OK" subheadline="No cleanup. No repairs. We buy fire-damaged properties as-is." sourcePage="/markets/new-haven-ct/fire-damage" />
@@ -133,7 +133,7 @@ export default function NewHavenFireDamagePage() {
             Selling a fire-damaged home while an insurance claim is pending is legally permissible — but the interaction between the sale and the claim requires attention. Options include: (1) settling the insurance claim before closing and retaining the proceeds, then selling the unrepaired property for a lower cash price; (2) assigning the insurance claim to the buyer as part of the sale, allowing the buyer to pursue the claim while you receive an agreed cash amount at closing; or (3) selling only after the claim is fully settled.
           </p>
           <p className="text-gray-700 mb-4">
-            Each path has different tax and financial implications. We recommend discussing with a CT real estate attorney before choosing. USA Home Buyers can work within any of these structures. Call 888-440-5250 to discuss your specific insurance situation. Source: CT Gen Stat §38a-307; Connecticut Insurance Department (portal.ct.gov/CID).
+            Each path has different tax and financial implications. We recommend discussing with a CT real estate attorney before choosing. USA Home Buyers can work within any of these structures. Call 888-274-5006 to discuss your specific insurance situation. Source: CT Gen Stat §38a-307; Connecticut Insurance Department (portal.ct.gov/CID).
           </p>
 
           <h2 className="text-2xl font-bold text-brand-dark mb-4 mt-8">Why New Haven's Pre-War Housing Stock Is Fire-Vulnerable</h2>
@@ -177,7 +177,7 @@ export default function NewHavenFireDamagePage() {
             For homeowners who are ready to move on, option 2 is the cleanest exit. A written cash offer in 24 hours. Closing in 7–14 days. No reconstruction project, no managing contractors, no multi-month insurance adjustment process while paying mortgage on an uninhabitable property. You walk away with cash; we take on the rehabilitation.
           </p>
           <p className="text-gray-700 mb-4">
-            We buy fire-damaged properties throughout New Haven: Fair Haven triple-deckers, Hill neighborhood row homes, Newhallville frame houses, Wooster Square brownstones, East Rock and Westville Victorians. Any neighborhood, any level of damage. Call 888-440-5250.
+            We buy fire-damaged properties throughout New Haven: Fair Haven triple-deckers, Hill neighborhood row homes, Newhallville frame houses, Wooster Square brownstones, East Rock and Westville Victorians. Any neighborhood, any level of damage. Call 888-274-5006.
           </p>
 
           <h2 className="text-2xl font-bold text-brand-dark mb-4 mt-8">Smoke and Water Damage — Often Worse Than the Fire Itself</h2>
@@ -193,7 +193,7 @@ export default function NewHavenFireDamagePage() {
             After a residential fire in New Haven, the New Haven Fire Department investigates origin and cause. If arson is suspected, the investigation can delay any property disposition for months. For accidental fires — the majority — the fire department clears the scene, and the city's Building Official assesses structural safety. The Building Inspection Division (City of New Haven, newhavenct.gov) issues occupancy status on fire-damaged structures.
           </p>
           <p className="text-gray-700 mb-4">
-            Before any repair or renovation work can begin, building permits must be pulled through the New Haven Building Official. Permits require licensed contractors; inspections at each stage. For a seller who has no intention of rehabbing the property, this permitting process is irrelevant — it becomes the cash buyer's responsibility after closing. USA Home Buyers manages all permit and inspection obligations post-purchase. You sell the property in whatever condition it's in on the day of closing. Call 888-440-5250 — hablamos español.
+            Before any repair or renovation work can begin, building permits must be pulled through the New Haven Building Official. Permits require licensed contractors; inspections at each stage. For a seller who has no intention of rehabbing the property, this permitting process is irrelevant — it becomes the cash buyer's responsibility after closing. USA Home Buyers manages all permit and inspection obligations post-purchase. You sell the property in whatever condition it's in on the day of closing. Call 888-274-5006 — hablamos español.
           </p>
         </section>
 

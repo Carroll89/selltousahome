@@ -77,15 +77,15 @@ export default function BridgeportInheritedPropertyPage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                USA Home Buyers purchases inherited properties in Bridgeport CT through Bridgeport Probate Court. Written cash offer in 24 hours, close after probate grants authority. Any condition, no repairs, no cleanout. Call 888-440-5250.
+                USA Home Buyers purchases inherited properties in Bridgeport CT through Bridgeport Probate Court. Written cash offer in 24 hours, close after probate grants authority. Any condition, no repairs, no cleanout. Call 888-274-5006.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
               Inherited a property through Bridgeport Probate Court? We buy inherited houses in any condition. We work around probate timelines.
             </p>
             <p className="text-blue-100 text-sm">Hablamos español — servimos a la comunidad de habla hispana.</p>
-            <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
-              📞 Call Now — 888-440-5250 (24/7)
+            <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
+              📞 Call Now — 888-274-5006 (24/7)
             </a>
           </div>
           <div>
@@ -101,7 +101,10 @@ export default function BridgeportInheritedPropertyPage() {
             The probate court for Fairfield County is located at Bridgeport Probate Court, 45 Lyon Terrace Room 121, Bridgeport CT 06604, (203) 576-7957. This court handles all probate proceedings for decedents who owned property in Fairfield County. Once the personal representative receives their Letters of Authority (or equivalent in Connecticut), they can execute a deed and complete the sale.
           </p>
           <p className="text-gray-700 mb-4">
-            We frequently work with estates throughout Fairfield County. We can have a written offer ready before you even file for probate, so you can close quickly once authority is granted. Transfer tax: Connecticut real estate conveyance tax — 0.75% state + 0.25% municipal (City of Bridgeport) = 1.0% total for properties under $800,000. Seller pays both portions. On a $252,000 sale: $2,520. Source: Connecticut Department of Revenue Services (ct.gov/drs).
+            We frequently work with estates throughout Fairfield County. We can have a written offer ready before you even file for probate, so you can close quickly once authority is granted. Transfer tax: Connecticut real estate conveyance tax — 0.75% state + 0.25% municipal (City of Bridgeport) = 1.0% total for properties under $800,000. Seller pays both portions. On a $252,000 sale: $2,520. Source: <a href="https://portal.ct.gov/DRS/Real-Estate/Real-Estate-Conveyance-Tax" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:underline">Connecticut Department of Revenue Services (ct.gov)</a>.
+          </p>
+          <p className="text-gray-700 mb-4">
+            Connecticut probate is governed by the Connecticut Probate Courts under CGS Chapter 802b. The Bridgeport Probate Court district covers the City of Bridgeport. Most residential real estate estates in Fairfield County qualify for the expedited decedent's estate process when the gross estate is below the filing threshold. The personal representative (executor or administrator) must receive a Court Certificate or Letters of Administration before conveying title. Source: <a href="https://www.ctprobate.gov" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:underline">Connecticut Probate Court (ctprobate.gov)</a>. For federal capital gains treatment of inherited property, see <a href="https://www.irs.gov/publications/p551" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:underline">IRS Publication 551 — Basis of Assets (irs.gov)</a>.
           </p>
         </section>
 

@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 const FAQ_ITEMS = [
   {
     question: 'How fast can I sell my house for cash in New Haven CT?',
-    answer: 'USA Home Buyers closes in as few as 7 days in New Haven CT. Once you accept a written offer, we coordinate with a New Haven real estate attorney (Connecticut requires attorney-conducted closings), and we can close on your timeline. We send the written cash offer within 24 hours of your inquiry. Call 888-440-5250.',
+    answer: 'USA Home Buyers closes in as few as 7 days in New Haven CT. Once you accept a written offer, we coordinate with a New Haven real estate attorney (Connecticut requires attorney-conducted closings), and we can close on your timeline. We send the written cash offer within 24 hours of your inquiry. Call 888-274-5006.',
   },
   {
     question: 'How much do cash home buyers pay for houses in New Haven CT?',
@@ -50,15 +50,15 @@ const FAQ_ITEMS = [
   },
   {
     question: 'What if my New Haven house has fire damage?',
-    answer: 'We buy fire-damaged properties in New Haven as-is. There is no cleanup, no repair requirement. We will account for the fire damage in our offer, but you walk away from the property in whatever condition it is in. Call 888-440-5250.',
+    answer: 'We buy fire-damaged properties in New Haven as-is. There is no cleanup, no repair requirement. We will account for the fire damage in our offer, but you walk away from the property in whatever condition it is in. Call 888-274-5006.',
   },
   {
     question: 'What areas in New Haven County do you serve?',
-    answer: 'All of New Haven County: New Haven city (Fair Haven, East Rock, Westville, The Hill, Newhallville, Wooster Square, Dixwell, Dwight, Edgewood, Beaver Hills), West Haven, Hamden, East Haven, Milford, Shelton, Branford, North Haven, Orange, Guilford, Derby, Ansonia, Naugatuck, and Wallingford. If you\'re not sure, call 888-440-5250.',
+    answer: 'All of New Haven County: New Haven city (Fair Haven, East Rock, Westville, The Hill, Newhallville, Wooster Square, Dixwell, Dwight, Edgewood, Beaver Hills), West Haven, Hamden, East Haven, Milford, Shelton, Branford, North Haven, Orange, Guilford, Derby, Ansonia, Naugatuck, and Wallingford. If you\'re not sure, call 888-274-5006.',
   },
   {
     question: '¿Hablan español? / Do you work with Spanish-speaking sellers?',
-    answer: 'Sí, hablamos español. New Haven tiene una comunidad hispana del 31% — una de las más altas en Connecticut. Podemos manejar todo el proceso de venta en español o inglés, desde la oferta inicial hasta el cierre. Sí hablamos español, podemos ayudar a su familia a vender su casa en New Haven. Llámenos: 888-440-5250. / We serve New Haven\'s majority-Hispanic community and can handle the entire process in English or Spanish — from the initial call through closing with the real estate attorney. Call us at 888-440-5250.',
+    answer: 'Sí, hablamos español. New Haven tiene una comunidad hispana del 31% — una de las más altas en Connecticut. Podemos manejar todo el proceso de venta en español o inglés, desde la oferta inicial hasta el cierre. Sí hablamos español, podemos ayudar a su familia a vender su casa en New Haven. Llámenos: 888-274-5006. / We serve New Haven\'s majority-Hispanic community and can handle the entire process in English or Spanish — from the initial call through closing with the real estate attorney. Call us at 888-274-5006.',
   },
   {
     question: 'Do I need to make repairs before selling?',
@@ -91,16 +91,16 @@ export default function NewHavenFAQPage() {
         <div className="bg-blue-50 border border-blue-200 rounded-xl p-4 mb-8">
           <p className="text-blue-800 text-sm font-medium mb-1">TL;DR — Quick Answer</p>
           <p className="text-blue-900 text-sm leading-relaxed">
-            USA Home Buyers buys houses in New Haven CT and New Haven County for cash — as-is, any condition, no repairs. Written offer in 24 hours, close in 7–14 days. CT strict foreclosure has no auction — Law Day 5-9 months. New Haven conveyance tax is 1.25% (we cover it). New Haven Probate Court: (203) 946-4880. Hablamos español — 31% of New Haven is Hispanic. Call 888-440-5250.
+            USA Home Buyers buys houses in New Haven CT and New Haven County for cash — as-is, any condition, no repairs. Written offer in 24 hours, close in 7–14 days. CT strict foreclosure has no auction — Law Day 5-9 months. New Haven conveyance tax is 1.25% (we cover it). New Haven Probate Court: (203) 946-4880. Hablamos español — 31% of New Haven is Hispanic. Call 888-274-5006.
           </p>
         </div>
 
         <div className="bg-blue-50 border border-blue-200 rounded-xl p-4 mb-8">
           <h2 className="text-lg font-bold text-brand-dark mb-2">🇵🇷 ¿Tiene preguntas en español?</h2>
           <p className="text-gray-700 text-sm">
-            Hablamos español. Podemos responder todas sus preguntas sobre la venta de su casa en New Haven CT en español. Llámenos al <strong>888-440-5250</strong> para hablar con alguien en español.
+            Hablamos español. Podemos responder todas sus preguntas sobre la venta de su casa en New Haven CT en español. Llámenos al <strong>888-274-5006</strong> para hablar con alguien en español.
             <br /><br />
-            <em>We speak Spanish. Call 888-440-5250 for Spanish-language service.</em>
+            <em>We speak Spanish. Call 888-274-5006 for Spanish-language service.</em>
           </p>
         </div>
 
@@ -116,7 +116,7 @@ export default function NewHavenFAQPage() {
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          Questions about selling in New Haven CT? Connecticut transfer tax is 0.75% on most sales. Inherited property needs Probate Court approval. We buy with code violations, any neighborhood including Fair Haven and The Hill. Close in 7 days. Call 888-440-5250.
+          Questions about selling in New Haven CT? Connecticut transfer tax is 0.75% on most sales. Inherited property needs Probate Court approval. We buy with code violations, any neighborhood including Fair Haven and The Hill. Close in 7 days. Call 888-274-5006.
         </div>
       </details>
         <FAQSection items={FAQ_ITEMS} heading="All Questions — Selling Your New Haven CT Home for Cash" />

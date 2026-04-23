@@ -8,7 +8,7 @@ import { TestimonialBlock } from '@/components/TestimonialBlock';
 import { ComparisonTable } from '@/components/ComparisonTable';
 import { SituationLinks } from '@/components/SituationLinks';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
-import { bridgeportLocalBusinessSchema, faqSchema } from '@/lib/schema';
+import { bridgeportLocalBusinessSchema, faqSchema, videoObjectSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
 import { BlogClusterLinks } from '@/components/BlogClusterLinks';
 import { MultiStepForm } from '@/components/MultiStepForm';
@@ -83,7 +83,7 @@ const COMPARISON_ROWS = [
   { label: 'Closing timeline', cashBuyer: '7-14 days', traditional: '45-60+ days' },
   { label: 'Repairs required', cashBuyer: 'None — we buy as-is', traditional: 'Usually required ($5K-$25K avg)' },
   { label: 'Agent commissions', cashBuyer: '$0', traditional: '5-6% (~$12,500-$15,000)' },
-  { label: 'CT conveyance tax', cashBuyer: 'We cover everything', traditional: '1% of sale price (seller pays state + municipal)' },
+  { label: 'CT conveyance tax', cashBuyer: 'We cover everything', traditional: '1.25% of sale price (seller pays — distressed municipality rate)' },
   { label: 'Sale certainty', cashBuyer: 'Guaranteed — written contract', traditional: '15-20% of listings fall through' },
   { label: 'Average net proceeds', cashBuyer: '70-80% of FMV', traditional: '85-92% after all costs' },
 ];
@@ -95,11 +95,11 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How much will you pay for my Bridgeport CT house?',
-    answer: 'Cash offers for Bridgeport homes typically range from 65-78% of fair market value. According to Zillow, the Bridgeport median home value is approximately $240,000. A typical cash offer on an East Side or North End two-family or single-family runs $156,000-$187,000. We cover all closing costs including Connecticut\'s conveyance tax (state 0.75% + municipal 0.25% = 1.0% — entirely seller-paid on traditional sales).',
+    answer: 'Cash offers for Bridgeport homes typically range from 65-78% of fair market value. According to Zillow, the Bridgeport median home value is $355,127 (Zillow ZHVI, Mar 2026, +5.5% YoY). A typical cash offer on an East Side or North End two-family or single-family runs $231,000-$277,000. We cover all closing costs including Connecticut\'s conveyance tax (state 0.75% + municipal 0.50% distressed rate = 1.25% — entirely seller-paid on traditional sales).',
   },
   {
     question: 'What is the conveyance tax when selling a house in Bridgeport CT?',
-    answer: 'Connecticut has a real estate conveyance tax consisting of a 0.75% state portion plus a 0.25% municipal portion — totaling 1.0% for properties under $800,000. The City of Bridgeport collects the municipal portion. The seller pays both. On a $240,000 home, the conveyance tax is $2,400. When you sell to USA Home Buyers, we cover all closing costs. Source: Connecticut Department of Revenue Services (ct.gov/drs).',
+    answer: 'Connecticut has a real estate conveyance tax consisting of a 0.75% state portion plus a 0.50% City of Bridgeport municipal portion — totaling 1.25% for Bridgeport properties under $800,000. Bridgeport is a designated distressed municipality under CT statute, which applies the higher 0.50% municipal rate (above the standard 0.25% CT cap). The seller pays both portions. On a $355,127 home, the conveyance tax is $4,439. When you sell to USA Home Buyers, we cover all closing costs. Source: Connecticut Department of Revenue Services (ct.gov/drs).',
   },
   {
     question: 'How does foreclosure work in Connecticut?',
@@ -107,11 +107,11 @@ const FAQ_ITEMS = [
   },
   {
     question: '¿Compran casas en Bridgeport CT? / Do you work with Spanish-speaking sellers?',
-    answer: 'Sí, hablamos español. According to the U.S. Census Bureau, approximately 41% of Bridgeport residents identify as Hispanic or Latino. We serve Bridgeport\'s diverse community in English and Spanish. Llámenos — entendemos el vecindario y el proceso.',
+    answer: 'Sí, hablamos español. According to the U.S. Census Bureau, 41% of Bridgeport residents identify as Hispanic or Latino (U.S. Census Bureau, 2020). We serve Bridgeport\'s diverse community in English and Spanish. Llámenos — entendemos el vecindario y el proceso.',
   },
   {
     question: 'What areas near Bridgeport do you buy in?',
-    answer: 'All of Fairfield County. That includes Stamford, Danbury, Stratford, Milford, Shelton, Trumbull, Fairfield, Derby, Ansonia, Naugatuck, and Westport. We also cover New Haven County communities to the east. Call 888-440-5250 if you\'re not sure we cover your area.',
+    answer: 'All of Fairfield County. That includes Stamford, Danbury, Stratford, Milford, Shelton, Trumbull, Fairfield, Derby, Ansonia, Naugatuck, and Westport. We also cover New Haven County communities to the east. Call 888-274-5006 if you\'re not sure we cover your area.',
   },
   {
     question: 'Do I need to make repairs before selling?',
@@ -137,9 +137,16 @@ export default function BridgeportCTMarketPage() {
     ],
   };
 
+  const landingVideoSchema = videoObjectSchema({
+    name: 'Sell My House Fast Bridgeport CT — USA Home Buyers',
+    description: 'Cash offers for Bridgeport and Fairfield County homes in any condition with a written offer in 24 hours.',
+    contentUrl: `${SITE_URL}/videos/bridgeport-ct/landing.mp4`,
+    uploadDate: '2026-04-22',
+  });
+
   return (
     <>
-      <SchemaMarkup schema={[bridgeportLocalBusinessSchema, faqSchema(FAQ_ITEMS), howToSchema]} />
+      <SchemaMarkup schema={[bridgeportLocalBusinessSchema, faqSchema(FAQ_ITEMS), howToSchema, landingVideoSchema]} />
 
       <section className="relative text-white py-16 px-4 overflow-hidden">
         <picture className="absolute inset-0 w-full h-full">
@@ -166,14 +173,14 @@ export default function BridgeportCTMarketPage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                USA Home Buyers purchases houses in Bridgeport CT and throughout Fairfield County — East Side, Black Rock, North End, South End, and the broader metro including Stamford and Danbury. Written cash offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no fees. According to Zillow, Bridgeport median home values are around $240,000. We cover all closing costs including CT conveyance tax. Call 888-440-5250. Hablamos español.
+                USA Home Buyers purchases houses in Bridgeport CT and throughout Fairfield County — East Side, Black Rock, North End, South End, and the broader metro including Stamford and Danbury. Written cash offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no fees. According to Zillow, Bridgeport median home values are around $355,127 (Zillow ZHVI, Mar 2026, +5.5% YoY). We cover all closing costs including CT conveyance tax (1.25% distressed municipality rate). Call 888-274-5006. Hablamos español.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
               We buy houses in Bridgeport CT and Fairfield County in any condition — two-families, Victorians, bungalows, multi-families, estates, foreclosures, tenant-occupied. No repairs, no agent fees.
             </p>
-            <a href="tel:+18884405250" className="flex w-full md:w-auto items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white font-bold rounded-lg px-6 py-4 text-xl md:py-3 md:text-lg shadow-lg transition-colors ring-2 ring-green-400/50">
-              📞 Call 888-440-5250 — We Answer 24/7
+            <a href="tel:+18882745006" className="flex w-full md:w-auto items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white font-bold rounded-lg px-6 py-4 text-xl md:py-3 md:text-lg shadow-lg transition-colors ring-2 ring-green-400/50">
+              📞 Call 888-274-5006 — We Answer 24/7
             </a>
             <p className="mt-3 text-blue-200 text-xs md:text-sm">BBB Accredited · 15+ Years Experience · Hundreds of Homes Purchased</p>
           </div>
@@ -187,17 +194,19 @@ export default function BridgeportCTMarketPage() {
         src="/videos/bridgeport-ct/landing.mp4"
         title="Sell My House Fast Bridgeport CT — USA Home Buyers"
         subtitle="Cash offers for Bridgeport and Fairfield County homes — any condition"
+        poster="/videos/bridgeport-ct/landing-poster.jpg"
         />
         <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
         <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
         📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-        If you need to sell your house fast in Bridgeport, Connecticut — you've found the right team. We're USA Home Buyers, and we purchase houses as-is, for cash, throughout Fairfield County. Whether your home needs repairs, you're behind on payments, going through a divorce, or you've inherited a property you don't know what to do with — we make the process simple. No agents. No fees. No repairs needed. We buy Bridgeport homes in any condition — from Black Rock and North End to The Hollow and East Side. Written cash offer within 24 hours. Close in as few as seven days on your schedule. Call us now at 888-440-5250. That's 888-440-5250.
+        If you need to sell your house fast in Bridgeport, Connecticut — you've found the right team. We're USA Home Buyers, and we purchase houses as-is, for cash, throughout Fairfield County. Whether your home needs repairs, you're behind on payments, going through a divorce, or you've inherited a property you don't know what to do with — we make the process simple. No agents. No fees. No repairs needed. We buy Bridgeport homes in any condition — from Black Rock and North End to The Hollow and East Side. Written cash offer within 24 hours. Close in as few as seven days on your schedule. Call us now at 888-274-5006. That's 888-274-5006.
         </div>
         </details>
 
       <div className="max-w-7xl mx-auto px-4 py-8">
+        <p className="text-sm text-gray-500 mb-6">Last Updated: April 22, 2026</p>
         <HowItWorks />
 
         <section className="my-12">
@@ -215,10 +224,10 @@ export default function BridgeportCTMarketPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200">
-                <tr className="bg-white"><td className="p-3 font-medium">Median home value</td><td className="p-3">$240,000</td><td className="p-3 text-gray-500">Zillow ZHVI (Mar 2026)</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Median home value</td><td className="p-3">$355,127</td><td className="p-3 text-gray-500">Zillow ZHVI (Mar 2026, +5.5% YoY)</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Median sale price</td><td className="p-3">$252,000</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Median days on market</td><td className="p-3">~38 days</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">Conveyance tax</td><td className="p-3">1.0% (0.75% state + 0.25% municipal, seller pays)</td><td className="p-3 text-gray-500">CT DRS (ct.gov/drs)</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Conveyance tax</td><td className="p-3">1.25% (0.75% CT state + 0.50% City of Bridgeport distressed rate, seller pays)</td><td className="p-3 text-gray-500">CT DRS (ct.gov/drs)</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Foreclosure type</td><td className="p-3">Strict foreclosure (unique — no auction, Law Day)</td><td className="p-3 text-gray-500">CT Judicial Branch</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Hispanic/Latino population</td><td className="p-3">~41% of city</td><td className="p-3 text-gray-500">U.S. Census Bureau ACS</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Primary county</td><td className="p-3">Fairfield County</td><td className="p-3 text-gray-500">—</td></tr>
@@ -245,7 +254,7 @@ export default function BridgeportCTMarketPage() {
           <h2 className="text-2xl md:text-3xl font-bold text-brand-dark mb-4">Cash Sale vs. Listing With an Agent in Bridgeport CT</h2>
           <ComparisonTable rows={COMPARISON_ROWS} />
           <p className="mt-4 text-sm text-gray-600">
-            On a $252,000 Bridgeport home, a 5-6% agent commission runs $12,600-$15,120. Add Connecticut's 1% conveyance tax (~$2,520), carrying costs during 38+ days on market, and repairs on pre-WWII housing stock. Many Bridgeport two-families have lead paint issues, old boilers, and outdated plumbing that conventional lenders require addressed before closing. That's a real cost that disappears with a direct cash sale.
+            On a $355,127 Bridgeport home, a 5-6% agent commission runs $17,756-$21,308. Add Connecticut's 1.25% conveyance tax (~$4,439 at the distressed municipality rate), carrying costs during 38+ days on market, and repairs on pre-WWII housing stock. Many Bridgeport two-families have lead paint issues, old boilers, and outdated plumbing that conventional lenders require addressed before closing. That's a real cost that disappears with a direct cash sale.
           </p>
         </section>
 

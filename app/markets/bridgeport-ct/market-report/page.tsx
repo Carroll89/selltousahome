@@ -35,7 +35,7 @@ export default function BridgeportMarketReportPage() {
         <div className="bg-blue-50 border border-blue-100 rounded-xl p-4 mb-8">
           <p className="text-sm font-medium text-blue-800 mb-1">TL;DR</p>
           <p className="text-sm text-blue-900 leading-relaxed">
-            According to Zillow and Redfin data for Fairfield County (2026), the Bridgeport median home value is $240,000, with a median sale price of $252,000 and approximately 38 days on market. Transfer tax: 1.0% (0.75% state + 0.25% municipal, seller pays). Foreclosure process: Strict foreclosure. For a cash offer based on current Bridgeport market conditions, call USA Home Buyers at 888-440-5250.
+            According to Zillow and Redfin data for Fairfield County (2026), the Bridgeport median home value is $240,000, with a median sale price of $252,000 and 38 days on market. Transfer tax: 1.0% (0.75% state + 0.25% municipal, seller pays). Foreclosure process: Strict foreclosure. For a cash offer based on current Bridgeport market conditions, call USA Home Buyers at 888-274-5006.
           </p>
         </div>
 

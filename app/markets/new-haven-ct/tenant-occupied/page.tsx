@@ -38,11 +38,11 @@ const FAQ_ITEMS = [
   },
   {
     question: 'What if my tenant has not paid rent in months?',
-    answer: "Non-paying tenants are common in New Haven's investor market. We buy properties with problem tenants — even if you've already served notice but haven't filed for eviction, even if the eviction is in process. We assess the property's value accounting for the tenant situation and close without requiring you to complete the eviction. Call 888-440-5250.",
+    answer: "Non-paying tenants are common in New Haven's investor market. We buy properties with problem tenants — even if you've already served notice but haven't filed for eviction, even if the eviction is in process. We assess the property's value accounting for the tenant situation and close without requiring you to complete the eviction. Call 888-274-5006.",
   },
   {
     question: '¿Compran propiedades con inquilinos en New Haven? / Tenant-occupied in Spanish?',
-    answer: 'Sí, hablamos español. Compramos propiedades con inquilinos — incluyendo triple-deckers en Fair Haven y The Hill. Podemos ayudar a propietarios hispanohablantes a vender sus propiedades con inquilinos en lugar. Llámenos: 888-440-5250.',
+    answer: 'Sí, hablamos español. Compramos propiedades con inquilinos — incluyendo triple-deckers en Fair Haven y The Hill. Podemos ayudar a propietarios hispanohablantes a vender sus propiedades con inquilinos en lugar. Llámenos: 888-274-5006.',
   },
 ];
 
@@ -82,15 +82,15 @@ export default function NewHavenTenantOccupiedPage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                Own a tenant-occupied rental in New Haven CT? We buy with tenants in place — no eviction required. CT Gen Stat Title 47a protects tenant rights through ownership change. New Haven has no rent control. USA Home Buyers closes in 7–14 days around your tenant situation. Triple-deckers, two-families, single-family rentals. Written offer in 24 hours. Call 888-440-5250. Hablamos español.
+                Own a tenant-occupied rental in New Haven CT? We buy with tenants in place — no eviction required. CT Gen Stat Title 47a protects tenant rights through ownership change. New Haven has no rent control. USA Home Buyers closes in 7–14 days around your tenant situation. Triple-deckers, two-families, single-family rentals. Written offer in 24 hours. Call 888-274-5006. Hablamos español.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-4">
               Triple-deckers, two-families, single-family rentals — we buy with tenants in place.
             </p>
-            <p className="text-blue-100 text-sm mb-4">Hablamos español — llamar para ayuda en español. 888-440-5250.</p>
-            <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
-              📞 Call Now — 888-440-5250 (24/7)
+            <p className="text-blue-100 text-sm mb-4">Hablamos español — llamar para ayuda en español. 888-274-5006.</p>
+            <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
+              📞 Call Now — 888-274-5006 (24/7)
             </a>
           </div>
           <div>
@@ -106,7 +106,7 @@ export default function NewHavenTenantOccupiedPage() {
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          Done being a landlord in New Haven? USA Home Buyers buys triple-deckers, duplexes, and single-families with tenants in place — no eviction, no waiting. We handle everything after closing. Call 888-440-5250.
+          Done being a landlord in New Haven? USA Home Buyers buys triple-deckers, duplexes, and single-families with tenants in place — no eviction, no waiting. We handle everything after closing. Call 888-274-5006.
         </div>
       </details>
           <CashOfferForm variant="hero" headline="Get Your Cash Offer — Tenants In Place OK" subheadline="We close with tenants in place. No eviction required." sourcePage="/markets/new-haven-ct/tenant-occupied" />
@@ -172,7 +172,7 @@ export default function NewHavenTenantOccupiedPage() {
             These properties are among the best candidates for a cash sale with tenants in place. They have active rental income (which we factor into our assessment), they're in a neighborhood with consistent demand, and they typically have deferred maintenance that makes conventional financing difficult. USA Home Buyers buys Fair Haven triple-deckers with all units occupied, partially occupied, or vacant. We close around the tenant situation, whatever it is.
           </p>
           <p className="text-gray-700 mb-4">
-            New Haven's Hispanic community in Fair Haven — 30%+ of the neighborhood is Hispanic — means many triple-decker owners are Puerto Rican or Ecuadorian families who speak Spanish. Hablamos español — we serve Fair Haven's community in both languages. Call 888-440-5250.
+            New Haven's Hispanic community in Fair Haven — 30%+ of the neighborhood is Hispanic — means many triple-decker owners are Puerto Rican or Ecuadorian families who speak Spanish. Hablamos español — we serve Fair Haven's community in both languages. Call 888-274-5006.
           </p>
 
           <h2 className="text-2xl font-bold text-brand-dark mb-4 mt-8">Section 8 and Subsidized Tenants in New Haven — What Landlords Face</h2>
@@ -188,7 +188,7 @@ export default function NewHavenTenantOccupiedPage() {
             New Haven's 70% renter concentration creates an enormous demand for rental housing — but managing that rental housing profitably has become more challenging. Property taxes have increased. Maintenance costs on pre-war stock have risen with construction labor prices. Insurance premiums on older New Haven properties have climbed as insurers price the city's fire risk and housing age into their underwriting. And Connecticut's landlord-tenant law provides meaningful tenant protections that make problem-tenant situations time-consuming and expensive to resolve.
           </p>
           <p className="text-gray-700 mb-4">
-            The combination of rising costs and tenant-protective law is driving more New Haven landlords to consider exit. For those who want to close quickly rather than manage a listing with tenants in place, USA Home Buyers provides the cleanest path. We close in 7–14 days, handle the tenant relationship ourselves post-closing, and pay cash at closing with no financing contingency. Call 888-440-5250.
+            The combination of rising costs and tenant-protective law is driving more New Haven landlords to consider exit. For those who want to close quickly rather than manage a listing with tenants in place, USA Home Buyers provides the cleanest path. We close in 7–14 days, handle the tenant relationship ourselves post-closing, and pay cash at closing with no financing contingency. Call 888-274-5006.
           </p>
 
           <h2 className="text-2xl font-bold text-brand-dark mb-4 mt-8">New Haven Rental Market Numbers — What Landlords Are Working With</h2>
@@ -196,7 +196,7 @@ export default function NewHavenTenantOccupiedPage() {
             According to U.S. Census Bureau American Community Survey (census.gov), New Haven's rental market serves a city where approximately 70% of residents rent and the median household income is $56,851. Rents in Fair Haven and The Hill for a three-bedroom unit typically run $1,400–$1,900 per month; higher in Wooster Square and East Rock. A Fair Haven triple-decker generating $4,200–$5,700 in monthly gross rent sounds attractive on paper — but subtract property taxes ($6,000–$10,000 per year), insurance ($3,000–$5,000 on an older structure), heat (many landlords pay for tenant heat in triple-deckers), and maintenance ($5,000–$15,000 in an average year with an older building), and the net cash flow is thinner than the gross rents suggest.
           </p>
           <p className="text-gray-700 mb-4">
-            Landlords who bought New Haven triple-deckers in the early 2000s for $120,000–$160,000 are sitting on significant appreciation — current values of $200,000–$280,000 for similar properties represent a 40–75% gain. For those who are ready to convert that equity to liquid capital and exit the landlord role, USA Home Buyers provides the mechanism: written cash offer in 24 hours, close in 7–14 days with tenants in place. Call 888-440-5250.
+            Landlords who bought New Haven triple-deckers in the early 2000s for $120,000–$160,000 are sitting on significant appreciation — current values of $200,000–$280,000 for similar properties represent a 40–75% gain. For those who are ready to convert that equity to liquid capital and exit the landlord role, USA Home Buyers provides the mechanism: written cash offer in 24 hours, close in 7–14 days with tenants in place. Call 888-274-5006.
           </p>
         </section>
 

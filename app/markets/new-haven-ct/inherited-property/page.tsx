@@ -26,7 +26,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'Can I sell an inherited New Haven property while it\'s still in probate?',
-    answer: 'Yes — but the sale requires Probate Court authorization. The executor or administrator files a motion to sell real property; the court can approve the sale before the estate is fully closed. USA Home Buyers has worked with many New Haven Probate Court cases. We can close after the court approves the sale, which typically adds 30–60 days to the timeline. Call 888-440-5250 to discuss your specific stage.',
+    answer: 'Yes — but the sale requires Probate Court authorization. The executor or administrator files a motion to sell real property; the court can approve the sale before the estate is fully closed. USA Home Buyers has worked with many New Haven Probate Court cases. We can close after the court approves the sale, which typically adds 30–60 days to the timeline. Call 888-274-5006 to discuss your specific stage.',
   },
   {
     question: 'What is CT\'s small estate threshold?',
@@ -38,7 +38,7 @@ const FAQ_ITEMS = [
   },
   {
     question: '¿Compran propiedades heredadas en New Haven? / Do you buy inherited properties in Spanish-speaking households?',
-    answer: 'Sí, hablamos español. Trabajamos con familias hispanas en Fair Haven y The Hill que heredaron propiedades de sus abuelos y padres. Podemos explicar el proceso de probate del Tribunal de Sucesiones en español. Llámenos al 888-440-5250.',
+    answer: 'Sí, hablamos español. Trabajamos con familias hispanas en Fair Haven y The Hill que heredaron propiedades de sus abuelos y padres. Podemos explicar el proceso de probate del Tribunal de Sucesiones en español. Llámenos al 888-274-5006.',
   },
 ];
 
@@ -78,15 +78,15 @@ export default function NewHavenInheritedPropertyPage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                Inherited a New Haven CT home? Connecticut Probate Court requires court authorization before selling — New Haven Probate Court is at 200 Orange St, (203) 946-4880. USA Home Buyers purchases inherited properties as-is, works within the CT Probate Court process, and closes after court authorization. Written offer in 24 hours. Call 888-440-5250. Hablamos español.
+                Inherited a New Haven CT home? Connecticut Probate Court requires court authorization before selling — New Haven Probate Court is at 200 Orange St, (203) 946-4880. USA Home Buyers purchases inherited properties as-is, works within the CT Probate Court process, and closes after court authorization. Written offer in 24 hours. Call 888-274-5006. Hablamos español.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-4">
               We buy inherited New Haven homes through the CT Probate process — as-is, no repairs, no cleanout.
             </p>
-            <p className="text-blue-100 text-sm mb-4">Hablamos español — servimos a familias hispanas en Fair Haven y The Hill. Call 888-440-5250.</p>
-            <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
-              📞 Call Now — 888-440-5250 (24/7)
+            <p className="text-blue-100 text-sm mb-4">Hablamos español — servimos a familias hispanas en Fair Haven y The Hill. Call 888-274-5006.</p>
+            <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
+              📞 Call Now — 888-274-5006 (24/7)
             </a>
           </div>
           <div>
@@ -102,7 +102,7 @@ export default function NewHavenInheritedPropertyPage() {
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          Inherit a property in New Haven? USA Home Buyers works with executors through New Haven Probate Court at 200 Orange Street. We buy triple-deckers, Victorians, Cape Cods — as-is, any condition. Written cash offer in 24 hours. Call 888-440-5250.
+          Inherit a property in New Haven? USA Home Buyers works with executors through New Haven Probate Court at 200 Orange Street. We buy triple-deckers, Victorians, Cape Cods — as-is, any condition. Written cash offer in 24 hours. Call 888-274-5006.
         </div>
       </details>
           <CashOfferForm variant="hero" headline="Get Your Cash Offer" subheadline="Written offer in 24 hours. We work within the CT Probate Court process." sourcePage="/markets/new-haven-ct/inherited-property" />
@@ -174,7 +174,7 @@ export default function NewHavenInheritedPropertyPage() {
             Fair Haven and The Hill have New Haven's highest concentrations of Puerto Rican and Ecuadorian homeowners — families who arrived in New Haven beginning in the 1950s and 1960s to work in manufacturing and service industries, bought modest triple-deckers and row homes, and built generational wealth in those properties. As the founding generation passes, their homes enter probate.
           </p>
           <p className="text-gray-700 mb-4">
-            These estate situations often involve multiple beneficiaries scattered across Connecticut, New York, and Puerto Rico. Coordination across time zones, language barriers in dealing with the Probate Court, and properties in need of significant renovation after decades of light maintenance — these are the characteristics of Fair Haven and Hill estate sales. USA Home Buyers handles the entire process in English or Spanish, coordinates with the estate attorney, and closes on the timeline the Probate Court sets. Hablamos español — call 888-440-5250.
+            These estate situations often involve multiple beneficiaries scattered across Connecticut, New York, and Puerto Rico. Coordination across time zones, language barriers in dealing with the Probate Court, and properties in need of significant renovation after decades of light maintenance — these are the characteristics of Fair Haven and Hill estate sales. USA Home Buyers handles the entire process in English or Spanish, coordinates with the estate attorney, and closes on the timeline the Probate Court sets. Hablamos español — call 888-274-5006.
           </p>
 
           <h2 className="text-2xl font-bold text-brand-dark mb-4 mt-8">Recording the Inherited Property — New Haven City Clerk</h2>
@@ -193,7 +193,7 @@ export default function NewHavenInheritedPropertyPage() {
             The offer is contingent on Probate Court authorization to sell (which the executor obtains). Once the court approves, we close quickly. The estate receives the net proceeds; the beneficiaries receive their distributions per the will or CT intestacy statute. No repairs, no staging, no MLS listing, no waiting for a retail buyer to get mortgage approval.
           </p>
           <p className="text-gray-700 mb-4">
-            We've worked with New Haven Probate Court cases in Fair Haven, Westville, East Rock, The Hill, Newhallville, Wooster Square, and throughout New Haven County. Call 888-440-5250 to start the conversation.
+            We've worked with New Haven Probate Court cases in Fair Haven, Westville, East Rock, The Hill, Newhallville, Wooster Square, and throughout New Haven County. Call 888-274-5006 to start the conversation.
           </p>
 
           <h2 className="text-2xl font-bold text-brand-dark mb-4 mt-8">Taxes on an Inherited New Haven Home — Step-Up in Basis</h2>

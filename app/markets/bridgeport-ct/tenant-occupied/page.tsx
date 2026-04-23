@@ -72,14 +72,14 @@ export default function BridgeportTenantOccupiedPage() {
             </h1>
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
-              <p className="text-white text-sm leading-relaxed">USA Home Buyers purchases tenant-occupied properties in Bridgeport CT — problem tenants, non-payers, holdovers. We buy with tenants in place. Written cash offer in 24 hours, close in 7-14 days. No eviction process required on your end. Call 888-440-5250.</p>
+              <p className="text-white text-sm leading-relaxed">USA Home Buyers purchases tenant-occupied properties in Bridgeport CT — problem tenants, non-payers, holdovers. We buy with tenants in place. Written cash offer in 24 hours, close in 7-14 days. No eviction process required on your end. Call 888-274-5006.</p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
               Written cash offer in 24 hours. Close in 7–14 days. No repairs, no agent fees, no waiting.
             </p>
           <p className="text-blue-100 text-sm">Hablamos español — servimos a la comunidad de habla hispana.</p>
-            <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
-              📞 Call Now — 888-440-5250 (24/7)
+            <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
+              📞 Call Now — 888-274-5006 (24/7)
             </a>
           </div>
           <div>
@@ -92,7 +92,7 @@ export default function BridgeportTenantOccupiedPage() {
         <section className="my-8">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">Market Data: Bridgeport CT — $252,000 Median Price</h2>
           <p className="text-gray-700 mb-4">
-            According to Zillow and Redfin data for Fairfield County, the median home value in Bridgeport is approximately $252,000. Transfer tax: Connecticut real estate conveyance tax — 0.75% state + 0.25% municipal (City of Bridgeport) = 1.0% total for properties under $800,000. Seller pays both portions. On a $252,000 sale: $2,520. Source: Connecticut Department of Revenue Services (ct.gov/drs).
+            According to Zillow and Redfin data for Fairfield County, the median home value in Bridgeport is $252,000. Transfer tax: Connecticut real estate conveyance tax — 0.75% state + 0.25% municipal (City of Bridgeport) = 1.0% total for properties under $800,000. Seller pays both portions. On a $252,000 sale: $2,520. Source: Connecticut Department of Revenue Services (ct.gov/drs).
           </p>
         </section>
 

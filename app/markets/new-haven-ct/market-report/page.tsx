@@ -38,7 +38,7 @@ export default function NewHavenMarketReportPage() {
         <div className="bg-blue-50 border border-blue-200 rounded-xl p-4 mb-8">
           <p className="text-blue-800 text-sm font-medium mb-1">TL;DR — Quick Answer</p>
           <p className="text-blue-900 text-sm leading-relaxed">
-            New Haven median sale price: $365,000 (Redfin, Mar 2026). Zillow typical value: $323,843. Days on market: 65 days, up 19 days year-over-year. RDC hotness rank #12 nationally. New Haven is a Targeted Investment municipality — conveyance tax 1.25% total (seller pays). Cash buyers close in 7–14 days vs. 65-day retail average. Call 888-440-5250.
+            New Haven median sale price: $365,000 (Redfin, Mar 2026). Zillow typical value: $323,843. Days on market: 65 days, up 19 days year-over-year. RDC hotness rank #12 nationally. New Haven is a Targeted Investment municipality — conveyance tax 1.25% total (seller pays). Cash buyers close in 7–14 days vs. 65-day retail average. Call 888-274-5006.
           </p>
         </div>
 
@@ -85,7 +85,7 @@ export default function NewHavenMarketReportPage() {
             The distressed inventory — triple-deckers in Fair Haven and The Hill with deferred maintenance, vacant inherited homes in Newhallville, pre-foreclosure properties anywhere in the city — sits much longer. These homes either require significant capital ($30,000–$60,000 for lead abatement, boiler replacement, roof, and electrical on a typical pre-1950 New Haven triple-decker) or attract only cash buyers. For sellers in that situation, the 65-day median DOM is irrelevant — their home will sit months longer unless priced aggressively or sold off-market.
           </p>
           <p className="text-gray-700 mb-4">
-            The cash buyer market exists precisely for this inventory. USA Home Buyers purchases New Haven properties in any condition, with no financing contingencies, no repair requirements, and a closing timeline as fast as 7 days. Call 888-440-5250.
+            The cash buyer market exists precisely for this inventory. USA Home Buyers purchases New Haven properties in any condition, with no financing contingencies, no repair requirements, and a closing timeline as fast as 7 days. Call 888-274-5006.
           </p>
         </section>
 
@@ -178,7 +178,7 @@ export default function NewHavenMarketReportPage() {
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          New Haven CT market 2026: Yale University and Yale New Haven Health anchor steady demand. Buyers priced out of Fairfield County discover New Haven affordability. Consistent appreciation. USA Home Buyers gives you a cash offer in 24 hours. Call 888-440-5250.
+          New Haven CT market 2026: Yale University and Yale New Haven Health anchor steady demand. Buyers priced out of Fairfield County discover New Haven affordability. Consistent appreciation. USA Home Buyers gives you a cash offer in 24 hours. Call 888-274-5006.
         </div>
       </details>
         <CashOfferForm variant="footer" headline="Ready to Sell Your New Haven CT Home?" sourcePage="/markets/new-haven-ct/market-report" />

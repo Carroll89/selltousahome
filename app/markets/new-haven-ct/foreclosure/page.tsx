@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 const FAQ_ITEMS = [
   {
     question: 'How fast can I sell before foreclosure in New Haven CT?',
-    answer: 'USA Home Buyers closes in as few as 7 days once you accept an offer. Connecticut uses strict foreclosure — the lender files in New Haven Superior Court (235 Church Street), and if the court grants foreclosure, it sets a "Law Day" by which you must pay the full debt or lose title directly to the lender. There is no auction. Once a Law Day is set, speed is critical. Total timeline from first missed payment to Law Day: 5–9 months. Source: CT Gen Stat §§49-1 through 49-31; CT Judicial Branch (jud.ct.gov). Call 888-440-5250 immediately.',
+    answer: 'USA Home Buyers closes in as few as 7 days once you accept an offer. Connecticut uses strict foreclosure — the lender files in New Haven Superior Court (235 Church Street), and if the court grants foreclosure, it sets a "Law Day" by which you must pay the full debt or lose title directly to the lender. There is no auction. Once a Law Day is set, speed is critical. Total timeline from first missed payment to Law Day: 5–9 months. Source: CT Gen Stat §§49-1 through 49-31; CT Judicial Branch (jud.ct.gov). Call 888-274-5006 immediately.',
   },
   {
     question: 'What is Connecticut strict foreclosure?',
@@ -38,11 +38,11 @@ const FAQ_ITEMS = [
   },
   {
     question: 'What if I owe more than my New Haven house is worth?',
-    answer: 'A short sale may be possible — the lender agrees to accept less than the full payoff to release the mortgage lien. Short sales require lender approval and typically take 60–120 days of negotiation, longer than a standard cash sale. We have experience with short sale situations in New Haven County. Call 888-440-5250 to discuss your specific situation.',
+    answer: 'A short sale may be possible — the lender agrees to accept less than the full payoff to release the mortgage lien. Short sales require lender approval and typically take 60–120 days of negotiation, longer than a standard cash sale. We have experience with short sale situations in New Haven County. Call 888-274-5006 to discuss your specific situation.',
   },
   {
     question: '¿Pueden ayudarme con la ejecución hipotecaria en New Haven? / Can you help with foreclosure in Spanish?',
-    answer: 'Sí, hablamos español. Si está enfrentando una ejecución hipotecaria en New Haven — el proceso de strict foreclosure de Connecticut puede ser confuso — podemos explicarle todo en español y ayudarle a vender su casa antes del Law Day. Llámenos: 888-440-5250.',
+    answer: 'Sí, hablamos español. Si está enfrentando una ejecución hipotecaria en New Haven — el proceso de strict foreclosure de Connecticut puede ser confuso — podemos explicarle todo en español y ayudarle a vender su casa antes del Law Day. Llámenos: 888-274-5006.',
   },
 ];
 
@@ -82,15 +82,15 @@ export default function NewHavenForeclosurePage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                Facing foreclosure in New Haven? CT strict foreclosure has no auction — title transfers directly to the lender on Law Day. Total timeline: 5–9 months. USA Home Buyers closes in 7–14 days, well within the window to protect your equity. Written offer in 24 hours. CT Gen Stat §§49-1 to 49-31. Call 888-440-5250. Hablamos español.
+                Facing foreclosure in New Haven? CT strict foreclosure has no auction — title transfers directly to the lender on Law Day. Total timeline: 5–9 months. USA Home Buyers closes in 7–14 days, well within the window to protect your equity. Written offer in 24 hours. CT Gen Stat §§49-1 to 49-31. Call 888-274-5006. Hablamos español.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-4">
               Written cash offer in 24 hours. Close in 7–14 days. No repairs, no agent fees, no waiting.
             </p>
             <p className="text-blue-100 text-sm mb-4">Hablamos español — llamar para ayuda en español.</p>
-            <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
-              📞 Call Now — 888-440-5250 (24/7)
+            <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
+              📞 Call Now — 888-274-5006 (24/7)
             </a>
           </div>
           <div>
@@ -106,7 +106,7 @@ export default function NewHavenForeclosurePage() {
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          Foreclosure in New Haven? Connecticut is a judicial foreclosure state — you may have time, but don't wait. USA Home Buyers closes in 7 days, stops the process, and protects your credit. Call 888-440-5250 right now.
+          Foreclosure in New Haven? Connecticut is a judicial foreclosure state — you may have time, but don't wait. USA Home Buyers closes in 7 days, stops the process, and protects your credit. Call 888-274-5006 right now.
         </div>
       </details>
           <CashOfferForm variant="hero" headline="Stop Foreclosure — Get Your Cash Offer" subheadline="Written offer in 24 hours. Close before the Law Day." sourcePage="/markets/new-haven-ct/foreclosure" />
@@ -173,7 +173,7 @@ export default function NewHavenForeclosurePage() {
             Mediation adds 60–90 days to the foreclosure timeline and creates a formal window for negotiating alternatives: loan modification, repayment plan, short sale, or deed-in-lieu of foreclosure. This structured time is also when cash buyers like USA Home Buyers can present offers — giving the seller a documented path to closing that can be presented to the mediator as a viable resolution.
           </p>
           <p className="text-gray-700 mb-4">
-            Mediation does not stop the foreclosure permanently. If no agreement is reached, the case proceeds to judgment and Law Day. But it provides New Haven homeowners with one of the few structured pauses in an otherwise fast-moving process. Call 888-440-5250 — we can present an offer during mediation.
+            Mediation does not stop the foreclosure permanently. If no agreement is reached, the case proceeds to judgment and Law Day. But it provides New Haven homeowners with one of the few structured pauses in an otherwise fast-moving process. Call 888-274-5006 — we can present an offer during mediation.
           </p>
 
           <h2 className="text-2xl font-bold text-brand-dark mb-4 mt-8">Decree of Sale vs. Strict Foreclosure</h2>
@@ -184,7 +184,7 @@ export default function NewHavenForeclosurePage() {
             In practice, most New Haven foreclosures on distressed properties — particularly in The Hill, Newhallville, and portions of Fair Haven — result in strict foreclosure, because the debt often equals or exceeds the property's as-is value. Homeowners in equity-positive situations (East Rock, Westville, Wooster Square) may face a Decree of Sale with an auction.
           </p>
           <p className="text-gray-700 mb-4">
-            Either way, selling before the court process reaches its conclusion preserves your options. A cash offer accepted before judgment is issued gives you control over the timeline, the terms, and the net proceeds. After judgment and Law Day, you have no options. Call 888-440-5250.
+            Either way, selling before the court process reaches its conclusion preserves your options. A cash offer accepted before judgment is issued gives you control over the timeline, the terms, and the net proceeds. After judgment and Law Day, you have no options. Call 888-274-5006.
           </p>
 
           <h2 className="text-2xl font-bold text-brand-dark mb-4 mt-8">New Haven Pre-Foreclosure Context — The Hill, Fair Haven, Newhallville</h2>
@@ -195,7 +195,7 @@ export default function NewHavenForeclosurePage() {
             The pre-war housing stock in these neighborhoods — triple-deckers in Fair Haven, brick row homes in The Hill, pre-1940 wood-frames throughout Newhallville — carries systemic maintenance challenges: lead paint common in all pre-1978 buildings, knob-and-tube wiring still present in some homes, aging oil-fired boilers, and foundation conditions from the 1920s and 1930s. A lender appraisal on one of these properties typically produces values well below what the owner might hope, making strict foreclosure (rather than an equity-preserving Decree of Sale) the likely court outcome.
           </p>
           <p className="text-gray-700 mb-4">
-            USA Home Buyers operates in these neighborhoods. We've purchased properties in every condition — active roof leaks, failed boilers, open LCI violations, properties with tenants in place. We're not looking for perfect houses. We're looking for situations where a cash sale solves a real problem quickly. If that's your situation, call 888-440-5250.
+            USA Home Buyers operates in these neighborhoods. We've purchased properties in every condition — active roof leaks, failed boilers, open LCI violations, properties with tenants in place. We're not looking for perfect houses. We're looking for situations where a cash sale solves a real problem quickly. If that's your situation, call 888-274-5006.
           </p>
 
           <h2 className="text-2xl font-bold text-brand-dark mb-4 mt-8">Connecticut Foreclosure Resources for New Haven Homeowners</h2>
@@ -203,7 +203,7 @@ export default function NewHavenForeclosurePage() {
             Connecticut has several resources for homeowners facing foreclosure. CT Housing Finance Authority (CHFA) administers the Connecticut Homeowner Assistance Fund — federal assistance for homeowners who fell behind due to pandemic-related hardship (chfa.org). Connecticut Fair Housing Center (ctfairhousing.org) provides housing counseling. Connecticut Legal Services (ctlegalservices.org) offers free legal help to income-qualifying homeowners facing foreclosure.
           </p>
           <p className="text-gray-700 mb-4">
-            These resources are worth pursuing if your goal is to keep the home. For homeowners who have decided to sell — or who have equity to preserve before Law Day — USA Home Buyers provides a direct alternative: written cash offer in 24 hours, closing in 7–14 days, all closing costs covered. Both paths are available. The key is acting before the Law Day. Call 888-440-5250.
+            These resources are worth pursuing if your goal is to keep the home. For homeowners who have decided to sell — or who have equity to preserve before Law Day — USA Home Buyers provides a direct alternative: written cash offer in 24 hours, closing in 7–14 days, all closing costs covered. Both paths are available. The key is acting before the Law Day. Call 888-274-5006.
           </p>
         </section>
 

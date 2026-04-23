@@ -41,11 +41,11 @@ const FAQ_ITEMS = [
   },
   {
     question: 'What areas near Bridgeport do you buy in?',
-    answer: 'All of Fairfield County and surrounding areas including Stamford, Danbury, Stratford, Milford, Shelton. Call 888-440-5250 if you\'re not sure whether your address is in our coverage area.',
+    answer: 'All of Fairfield County and surrounding areas including Stamford, Danbury, Stratford, Milford, Shelton. Call 888-274-5006 if you\'re not sure whether your address is in our coverage area.',
   },
   {
     question: 'Is USA Home Buyers a legitimate company?',
-    answer: 'We provide a written purchase agreement with price, terms, and closing date — no verbal promises. We have closed transactions throughout Connecticut. You can call us at 888-440-5250 to speak with someone directly.',
+    answer: 'We provide a written purchase agreement with price, terms, and closing date — no verbal promises. We have closed transactions throughout Connecticut. You can call us at 888-274-5006 to speak with someone directly.',
   },
   {
     question: 'What happens after I submit the form?',
@@ -73,7 +73,7 @@ export default function BridgeportFAQPage() {
         <h1 className="text-3xl font-bold text-brand-dark mb-4">Cash Home Buyers Bridgeport CT — Frequently Asked Questions</h1>
         <div className="bg-blue-50 border border-blue-100 rounded-xl p-4 mb-8">
           <p className="text-sm text-blue-900">
-            Common questions from Bridgeport homeowners about selling for cash. If your question isn't here, call 888-440-5250.
+            Common questions from Bridgeport homeowners about selling for cash. If your question isn't here, call 888-274-5006.
           </p>
         </div>
 
@@ -84,7 +84,19 @@ export default function BridgeportFAQPage() {
           <Link href="/markets/bridgeport-ct/market-report" className="bg-brand-light text-brand-primary px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-100">Bridgeport Market Report</Link>
         </div>
 
-        <div className="mt-10">
+        <div className="mt-10 mb-8">
+          <h2 className="text-xl font-bold text-brand-dark mb-4">External Resources for Bridgeport CT Sellers</h2>
+          <ul className="space-y-2 text-sm text-gray-700">
+            <li>• <a href="https://www.zillow.com/bridgeport-ct/home-values/" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:underline">Zillow — Bridgeport CT Home Values</a> — Current market data and median price trends for Fairfield County</li>
+            <li>• <a href="https://portal.ct.gov/DRS/Real-Estate/Real-Estate-Conveyance-Tax" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:underline">Connecticut DRS — Real Estate Conveyance Tax</a> — Official CT conveyance tax rates (0.75% state + 0.25% municipal Bridgeport)</li>
+            <li>• <a href="https://www.jud.ct.gov/faq/probate.html" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:underline">Connecticut Judicial Branch — Probate FAQ</a> — How strict foreclosure and probate proceedings work in CT courts</li>
+            <li>• <a href="https://www.hud.gov/topics/avoiding_foreclosure" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:underline">HUD — Avoiding Foreclosure</a> — Federal guidance on foreclosure alternatives, short sales, and seller options</li>
+            <li>• <a href="https://www.nar.realtor/research-and-statistics" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:underline">National Association of Realtors — Research &amp; Statistics</a> — National home sale benchmarks and seller cost comparisons</li>
+            <li>• <a href="https://www.census.gov/quickfacts/bridgeportcityconnecticut" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:underline">U.S. Census Bureau — Bridgeport CT Quick Facts</a> — Demographics and housing unit data for Bridgeport and Fairfield County</li>
+          </ul>
+        </div>
+
+        <div className="mt-6">
           <CashOfferForm variant="inline" headline="Ready to Get Started?" subheadline="Written offer in 24 hours. No obligation." sourcePage="/markets/bridgeport-ct/faq" />
         </div>
       </div>
