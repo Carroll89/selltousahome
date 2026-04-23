@@ -70,7 +70,7 @@ export default function LancasterGuide2026() {
             USA Home Buyers purchases houses throughout Lancaster PA and Lancaster County for cash — written offer within 24 hours,
             close in 7-14 days, as-is with no repairs or fees. Lancaster City's transfer tax is 2% total (1% PA + 1% local) — we cover
             all closing costs. Serving Cabbage Hill, West End, Lititz, Ephrata, Columbia, and all of Lancaster County.
-            Call 888-440-5250. Hablamos español. Se habla español — 40.6% of Lancaster City is Hispanic or Latino.
+            Call 888-274-5006. Hablamos español. Se habla español — 40.6% of Lancaster City is Hispanic or Latino.
           </p>
         </div>
 

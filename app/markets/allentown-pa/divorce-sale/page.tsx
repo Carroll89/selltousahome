@@ -107,7 +107,7 @@ export default function AllentownDivorceSalePage() {
             <p className="mb-3">A cash sale eliminates most of that. We make one written offer. Both parties review it. If you both accept, we set a closing date — as fast as 7 to 14 days. The proceeds come out of closing and get divided according to your divorce agreement or court order.</p>
             <p className="mb-3">We&apos;re a neutral third party. We have no relationship with either spouse. Our job is just to close the transaction efficiently so both of you can move on.</p>
             <p className="mb-3">Lehigh County Court of Common Pleas handles divorce proceedings in the Allentown area. Whether you&apos;re early in the process or have a court-ordered sale, we can work with your attorneys and timeline.</p>
-            <p className="mb-3">If you and your spouse need to sell a house in Allentown, call USA Home Buyers at 888-440-5250. We&apos;ll have a written offer to you within 24 hours.</p>
+            <p className="mb-3">If you and your spouse need to sell a house in Allentown, call USA Home Buyers at 888-274-5006. We&apos;ll have a written offer to you within 24 hours.</p>
         </div>
       </details>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">

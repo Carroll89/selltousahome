@@ -109,7 +109,7 @@ export default function AllentownTenantOccupiedPage() {
             <p className="mb-3">Pennsylvania landlord-tenant law also gives your tenants specific rights around showings and access. If your tenant isn&apos;t cooperative — which happens a lot when they know the property is being sold — getting the house shown and sold through the MLS can be a months-long ordeal.</p>
             <p className="mb-3">We buy tenant-occupied properties in Allentown as-is, with tenants in place. We don&apos;t require you to evict before closing. We make our offer based on the property and the situation, and we handle the tenant transition after closing.</p>
             <p className="mb-3">Allentown and the Lehigh Valley have a strong rental market. Whether you have a long-term tenant or a problem tenant situation you need to exit, we&apos;ve seen it.</p>
-            <p className="mb-3">Call USA Home Buyers at 888-440-5250. Cash offer in 24 hours, close in 7 to 14 days. No eviction required.</p>
+            <p className="mb-3">Call USA Home Buyers at 888-274-5006. Cash offer in 24 hours, close in 7 to 14 days. No eviction required.</p>
         </div>
       </details>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">

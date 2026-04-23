@@ -110,7 +110,7 @@ export default function AllentownCodeViolationsPage() {
             <p className="mb-3">We pay cash. No lender review, no appraiser flagging structural issues, no financing contingency that collapses when the buyer&apos;s bank finds out about the violations. We buy the property in its current condition.</p>
             <p className="mb-3">How do violations get handled at closing? The title search identifies all outstanding municipal liens and fines. They get paid directly from your closing proceeds — in most cases, you don&apos;t need to come up with that money upfront.</p>
             <p className="mb-3">We&apos;ve bought Allentown properties with multiple outstanding violations, properties that failed city inspection, properties with unpermitted work, and properties where violations had been accumulating for years.</p>
-            <p className="mb-3">If you have a code violation property in Allentown or anywhere in Lehigh County, call USA Home Buyers at 888-440-5250. Written cash offer within 24 hours.</p>
+            <p className="mb-3">If you have a code violation property in Allentown or anywhere in Lehigh County, call USA Home Buyers at 888-274-5006. Written cash offer within 24 hours.</p>
         </div>
       </details>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">

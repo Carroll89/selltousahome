@@ -124,7 +124,7 @@ const FAQ_ITEMS = [
   },
   {
     question: '¿Hablan español? / Do you have Spanish-speaking staff?',
-    answer: 'Sí, hablamos español. Allentown\'s Hispanic community makes up over 50% of the population — we serve the entire community and can handle the process in English or Spanish, from the first call through closing. Call us at (888) 440-5250.',
+    answer: 'Sí, hablamos español. Allentown\'s Hispanic community makes up over 50% of the population — we serve the entire community and can handle the process in English or Spanish, from the first call through closing. Call us at (888) 274-5006.',
   },
 ];
 
@@ -171,7 +171,7 @@ export default function AllentownMarketPage() {
               <span>✓ Close in 7 days</span>
             </div>
             <a href={`tel:${PHONE}`} className="flex w-full md:w-auto items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white font-bold rounded-lg px-6 py-4 text-xl md:py-3 md:text-lg shadow-lg transition-colors ring-2 ring-green-400/50">
-              📞 Call 888-440-5250 — We Answer 24/7
+              📞 Call 888-274-5006 — We Answer 24/7
             </a>
             <p className="mt-3 text-blue-200 text-xs md:text-sm">BBB Accredited · 15+ Years Experience · Hundreds of Homes Purchased</p>
           </div>
@@ -204,7 +204,7 @@ export default function AllentownMarketPage() {
         <p className="mb-3">We short-circuit all of that. You contact us, we ask a few questions about your property and situation, and within 24 hours you have a written cash offer. If you accept, you choose the closing date. Our fastest close in the Lehigh Valley was six days.</p>
         <p className="mb-3">No repairs. No cleaning. No staging. No open houses. No agent commissions eating 5 to 6 percent of your sale price. We cover all closing costs.</p>
         <p className="mb-3">We serve all of Allentown — the South Side, West End, Fountain Hill, Whitehall, Bethlehem, Easton, Northampton Borough, Emmaus, Catasauqua, and every corner of Lehigh and Northampton County. Whatever your situation — estate, divorce, foreclosure, bad condition, problem tenant — we&apos;ve handled it before.</p>
-        <p className="mb-3">Call 888-440-5250 to get your offer started. We&apos;re ready today.</p>
+        <p className="mb-3">Call 888-274-5006 to get your offer started. We&apos;re ready today.</p>
         </div>
         </details>
 

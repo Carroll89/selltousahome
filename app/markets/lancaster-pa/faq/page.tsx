@@ -39,7 +39,7 @@ const FAQ_ITEMS = [
   },
   {
     question: '¿Compran casas en Lancaster PA en español?',
-    answer: 'Sí, hablamos español. According to the U.S. Census Bureau ACS, 40.6% of Lancaster City residents are Hispanic or Latino — the highest proportion of any market we serve. We serve the Lancaster community in both English and Spanish. Llámenos al 888-440-5250.',
+    answer: 'Sí, hablamos español. According to the U.S. Census Bureau ACS, 40.6% of Lancaster City residents are Hispanic or Latino — the highest proportion of any market we serve. We serve the Lancaster community in both English and Spanish. Llámenos al 888-274-5006.',
   },
   {
     question: 'Is USA Home Buyers a legitimate company?',

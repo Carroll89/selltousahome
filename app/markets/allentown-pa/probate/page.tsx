@@ -109,7 +109,7 @@ export default function AllentownProbatePage() {
             <p className="mb-3">Simple estates in Lehigh County can open and get Letters issued in a matter of weeks. More complex situations — contested wills, multiple heirs, outstanding debts — can take longer. But the house can often be sold independently while the estate continues.</p>
             <p className="mb-3">We buy probate properties in Allentown and throughout Lehigh and Northampton County as-is. The executor signs the deed on behalf of the estate. Proceeds go into the estate account for distribution. The title company prepares all estate-specific documentation.</p>
             <p className="mb-3">No repairs. No cleanout. No open houses. We close in 7 to 14 days. The estate can move forward without a property sitting on the Allentown MLS for months.</p>
-            <p className="mb-3">Call USA Home Buyers at 888-440-5250. We&apos;ll give you a written cash offer within 24 hours and walk you through exactly how a probate sale works in Lehigh County.</p>
+            <p className="mb-3">Call USA Home Buyers at 888-274-5006. We&apos;ll give you a written cash offer within 24 hours and walk you through exactly how a probate sale works in Lehigh County.</p>
         </div>
       </details>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">

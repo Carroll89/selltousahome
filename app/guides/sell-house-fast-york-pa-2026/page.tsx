@@ -62,7 +62,7 @@ export default function YorkGuide2026Page() {
             USA Home Buyers purchases homes for cash in York, PA and throughout York County. We serve
             sellers citywide — Downtown, Northeast York, Southwest York, and all surrounding areas including
             Hanover, Red Lion, and Dallastown. Written cash offer in 24 hours, close in 7-14 days, any condition,
-            as-is. No repairs, no agent fees, we pay all closing costs. Call 888-440-5250 anytime.
+            as-is. No repairs, no agent fees, we pay all closing costs. Call 888-274-5006 anytime.
             Hablamos español.
           </p>
         </div>

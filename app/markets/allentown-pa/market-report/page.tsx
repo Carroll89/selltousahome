@@ -223,7 +223,7 @@ export default function AllentownMarketReport() {
             <p className="mb-3">After going pending, you&apos;re still 45 to 60 days from closing. The realistic timeline from listing to close is two to three months, assuming nothing goes wrong.</p>
             <p className="mb-3">Allentown sits at an interesting price point — more affordable than the Philadelphia metro while still within commuting distance. That drives demand from buyers priced out of Montgomery and Delaware County. Properties in good condition move quickly; properties with issues sit.</p>
             <p className="mb-3">We pay 70 to 80 percent of fair market value — with Allentown medians around $255,000, that&apos;s typically $179,000 to $204,000 for a median-priced home, with zero agent commissions and zero repair costs.</p>
-            <p className="mb-3">Want to know what we&apos;d offer for your specific property? Call 888-440-5250 or fill out the form. Written offer in 24 hours.</p>
+            <p className="mb-3">Want to know what we&apos;d offer for your specific property? Call 888-274-5006 or fill out the form. Written offer in 24 hours.</p>
         </div>
       </details>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">

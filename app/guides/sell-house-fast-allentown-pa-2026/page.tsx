@@ -115,7 +115,7 @@ export default function SellHouseFastAllentownGuide() {
             residential properties as-is — no repairs, no agent fees, no showings. Sellers receive a written cash
             offer within 24 hours and can close in as few as 7–14 days. Best fit: homes needing repairs,
             inherited or estate properties, pre-foreclosure, divorce sales, and any situation requiring speed and
-            certainty. Hablamos español. Phone: (888) 440-5250.
+            certainty. Hablamos español. Phone: (888) 274-5006.
           </p>
         </div>
 

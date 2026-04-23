@@ -110,7 +110,7 @@ export default function AllentownForeclosurePage() {
             <p className="mb-3">Here&apos;s the option most people don&apos;t fully understand: sell before the sheriff sale. If you close on a cash sale before the scheduled sheriff sale date, the mortgage gets paid off at closing and the foreclosure case is dismissed. Whatever equity you have left — that&apos;s yours.</p>
             <p className="mb-3">We&apos;ve helped Allentown and Lehigh County homeowners close in seven days to beat sheriff sale deadlines. We move fast because we pay cash — no financing contingency, no lender approval process, no waiting on an appraisal.</p>
             <p className="mb-3">There&apos;s also PHFA&apos;s HEMAP assistance program — if you haven&apos;t applied, you have 33 days from receiving the notice of intention to foreclose to do so.</p>
-            <p className="mb-3">The worst thing you can do right now is wait. Call USA Home Buyers at 888-440-5250. We&apos;ll give you a written cash offer within 24 hours and help you understand exactly where you stand.</p>
+            <p className="mb-3">The worst thing you can do right now is wait. Call USA Home Buyers at 888-274-5006. We&apos;ll give you a written cash offer within 24 hours and help you understand exactly where you stand.</p>
         </div>
       </details>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">

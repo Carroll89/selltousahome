@@ -100,7 +100,7 @@ const FAQ_ITEMS = [
   },
   {
     question: '¿Hablan español? / Do you have Spanish-speaking staff?',
-    answer: 'Sí, hablamos español. We serve Reading\'s majority-Hispanic community and can handle the entire process in English or Spanish — from the initial call through closing. Call us at (888) 440-5250.',
+    answer: 'Sí, hablamos español. We serve Reading\'s majority-Hispanic community and can handle the entire process in English or Spanish — from the initial call through closing. Call us at (888) 274-5006.',
   },
   {
     question: 'How much will you pay for my Reading house?',
@@ -174,7 +174,7 @@ export default function ReadingMarketPage() {
               <span>✓ Hablamos español</span>
             </div>
             <a href={`tel:${PHONE}`} className="flex w-full md:w-auto items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white font-bold rounded-lg px-6 py-4 text-xl md:py-3 md:text-lg shadow-lg transition-colors ring-2 ring-green-400/50">
-              📞 Call 888-440-5250 — We Answer 24/7
+              📞 Call 888-274-5006 — We Answer 24/7
             </a>
             <p className="mt-3 text-blue-200 text-xs md:text-sm">BBB Accredited · 15+ Years Experience · Hundreds of Homes Purchased</p>
           </div>

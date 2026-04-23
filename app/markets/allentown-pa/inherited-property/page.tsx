@@ -109,7 +109,7 @@ export default function AllentownInheritedPropertyPage() {
             <p className="mb-3">The most common thing we hear: they don&apos;t want to deal with it. The property needs work. There&apos;s furniture and belongings that need to go somewhere. Nobody wants to manage a Lehigh Valley property from another state. A traditional listing means repairs, cleanout, showings, waiting — on top of everything else you&apos;re already dealing with.</p>
             <p className="mb-3">We buy inherited Allentown properties as-is. Don&apos;t touch a thing. No cleanout, no repairs, no painting, no landscaping. We make a written cash offer within 24 hours and close in as few as seven days.</p>
             <p className="mb-3">If the property is going through probate, that&apos;s fine. Once the Lehigh County Register of Wills issues Letters Testamentary or Letters of Administration, the personal representative can authorize the sale. The house can be sold while other estate matters are still being wrapped up.</p>
-            <p className="mb-3">You don&apos;t have to spend months managing an Allentown property you didn&apos;t ask for. Call USA Home Buyers at 888-440-5250. Fair offer, fast close, no hassle.</p>
+            <p className="mb-3">You don&apos;t have to spend months managing an Allentown property you didn&apos;t ask for. Call USA Home Buyers at 888-274-5006. Fair offer, fast close, no hassle.</p>
         </div>
       </details>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
