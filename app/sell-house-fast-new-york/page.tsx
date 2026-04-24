@@ -12,7 +12,7 @@ export const revalidate = 86400;
 export const metadata: Metadata = {
   title: 'Sell My House Fast New York | Cash Home Buyers',
   description:
-    'USA Home Buyers purchases homes for cash in New York — currently serving Monroe County / Rochester. Written offer in 24 hours, close in 7–14 days, all closing costs covered. Call 888-440-5250.',
+    'USA Home Buyers purchases homes for cash in New York — currently serving Monroe County / Rochester. Written offer in 24 hours, close in 7–14 days, all closing costs covered. Call 888-274-5006.',
   alternates: { canonical: `${SITE_URL}/sell-house-fast-new-york` },
 };
 
@@ -20,7 +20,7 @@ const FAQ_ITEMS = [
   {
     question: 'How fast can I sell my house in New York?',
     answer:
-      'With a cash buyer like USA Home Buyers, you can close in 7–14 days — compared to the 60–90 day traditional timeline statewide. Cash transactions skip mortgage underwriting; attorney review still happens but compresses fast. We deliver a written offer within 24 hours. We currently serve Monroe County / Rochester, NY. Call 888-440-5250.',
+      'With a cash buyer like USA Home Buyers, you can close in 7–14 days — compared to the 60–90 day traditional timeline statewide. Cash transactions skip mortgage underwriting; attorney review still happens but compresses fast. We deliver a written offer within 24 hours. We currently serve Monroe County / Rochester, NY. Call 888-274-5006.',
   },
   {
     question: "What is New York's transfer tax?",
@@ -40,7 +40,7 @@ const FAQ_ITEMS = [
   {
     question: 'What New York markets does USA Home Buyers serve?',
     answer:
-      'We currently serve Monroe County / Rochester, NY only. We do not operate in New York City, Long Island, Buffalo, Syracuse, Albany, or any other NY market outside Monroe County. The legal and market information on this page is educational for sellers anywhere in New York. Call 888-440-5250 to discuss your situation.',
+      'We currently serve Monroe County / Rochester, NY only. We do not operate in New York City, Long Island, Buffalo, Syracuse, Albany, or any other NY market outside Monroe County. The legal and market information on this page is educational for sellers anywhere in New York. Call 888-274-5006 to discuss your situation.',
   },
   {
     question: "How does NY probate work when selling a house?",
@@ -81,7 +81,7 @@ export default function SellHouseFastNewYorkPage() {
           <p className="text-sm text-blue-900 leading-relaxed">
             USA Home Buyers purchases homes for cash throughout New York. Our active market is Monroe
             County / Rochester — call{' '}
-            <strong>888-440-5250</strong> if you&apos;re elsewhere and we&apos;ll help or refer you.
+            <strong>888-274-5006</strong> if you&apos;re elsewhere and we&apos;ll help or refer you.
             Written offer within 24 hours, close in 7–14 days, any condition, no repairs, no agent
             fees. We cover all closing costs. New York requires attorneys at closing — our process
             accounts for that. Monroe County&apos;s Redfin median is $160,000 with a 14-day median
@@ -801,7 +801,7 @@ export default function SellHouseFastNewYorkPage() {
         <CashOfferForm
           variant="inline"
           headline="Get a Cash Offer for Your New York Home"
-          subheadline="Written offer in 24 hours. We cover all closing costs. Call 888-440-5250."
+          subheadline="Written offer in 24 hours. We cover all closing costs. Call 888-274-5006."
           sourcePage="/sell-house-fast-new-york"
         />
 
