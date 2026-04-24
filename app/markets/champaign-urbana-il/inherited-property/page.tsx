@@ -15,7 +15,7 @@ const pageUrl = `${SITE_URL}/markets/champaign-urbana-il/inherited-property`;
 export const metadata: Metadata = {
   title: 'Sell Inherited House Champaign-Urbana IL',
   description:
-    'Inherited a house in Champaign or Urbana IL? We buy inherited properties as-is through Champaign County Circuit Court Probate. Written offer in 24 hours. Call 888-440-5250.',
+    'Inherited a house in Champaign or Urbana IL? We buy inherited properties as-is through Champaign County Circuit Court Probate. Written offer in 24 hours. Call 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
@@ -42,7 +42,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'What if there are multiple heirs on the Champaign-Urbana inherited property?',
-    answer: 'All heirs with an ownership interest must agree to the sale and sign the deed, or the executor must have Letters of Office authorizing the sale. If heirs can\'t agree, a partition action can be filed in Champaign County Circuit Court. A single written cash offer often resolves multi-heir impasses because every person sees the same specific number. We\'ve worked with estates where heirs are scattered across multiple states and countries — common with UIUC faculty estates whose families have dispersed globally. Call (888) 440-5250 to discuss your specific situation.',
+    answer: 'All heirs with an ownership interest must agree to the sale and sign the deed, or the executor must have Letters of Office authorizing the sale. If heirs can\'t agree, a partition action can be filed in Champaign County Circuit Court. A single written cash offer often resolves multi-heir impasses because every person sees the same specific number. We\'ve worked with estates where heirs are scattered across multiple states and countries — common with UIUC faculty estates whose families have dispersed globally. Call (888) 274-5006 to discuss your specific situation.',
   },
 ];
 
@@ -80,14 +80,14 @@ export default function ChampaignUrbanaInheritedPropertyPage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                USA Home Buyers purchases inherited properties in Champaign and Urbana IL through Champaign County Circuit Court Probate — 101 E. Main Street, Urbana IL 61802. Written offer in 24 hours, close as fast as probate allows. Under 755 ILCS 5, real estate always requires formal probate (small estate affidavit only covers personal property under $150K). We buy as-is — no repairs, no cleanout. Call (888) 440-5250.
+                USA Home Buyers purchases inherited properties in Champaign and Urbana IL through Champaign County Circuit Court Probate — 101 E. Main Street, Urbana IL 61802. Written offer in 24 hours, close as fast as probate allows. Under 755 ILCS 5, real estate always requires formal probate (small estate affidavit only covers personal property under $150K). We buy as-is — no repairs, no cleanout. Call (888) 274-5006.
               </p>
             </div>
             <a
-              href="tel:+18884405250"
+              href="tel:+18882745006"
               className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors"
             >
-              📞 Call (888) 440-5250 — 24/7
+              📞 Call (888) 274-5006 — 24/7
             </a>
           </div>
       <VideoEmbed
@@ -101,7 +101,7 @@ export default function ChampaignUrbanaInheritedPropertyPage() {
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          Inherit a property in Champaign-Urbana? USA Home Buyers specializes in estate sales — we work with Illinois probate through Champaign County's 6th Judicial Circuit. Buy as-is, any condition. Written cash offer in 24 hours. Call 888-440-5250.
+          Inherit a property in Champaign-Urbana? USA Home Buyers specializes in estate sales — we work with Illinois probate through Champaign County's 6th Judicial Circuit. Buy as-is, any condition. Written cash offer in 24 hours. Call 888-274-5006.
         </div>
       </details>
           <div>
@@ -205,7 +205,7 @@ export default function ChampaignUrbanaInheritedPropertyPage() {
         <section className="my-8">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">What to Expect When You Call USA Home Buyers</h2>
           <p className="text-gray-700 mb-4">
-            Call (888) 440-5250. Tell us the property address, your relationship to the estate (executor, heir, or attorney), and the current probate status. We'll tell you what we need and how the process works. We send a written offer within 24 hours. The offer is not contingent on inspections, financing, or repairs.
+            Call (888) 274-5006. Tell us the property address, your relationship to the estate (executor, heir, or attorney), and the current probate status. We'll tell you what we need and how the process works. We send a written offer within 24 hours. The offer is not contingent on inspections, financing, or repairs.
           </p>
           <p className="text-gray-700 mb-4">
             If probate hasn't been filed yet, we can give you a cash offer now that you can use as a reference point when you do file. Having a buyer committed at a specific price often makes the probate process more straightforward — the court sees a concrete transaction rather than an estate in limbo.

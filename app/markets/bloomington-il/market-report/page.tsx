@@ -14,7 +14,7 @@ const pageUrl = `${SITE_URL}/markets/bloomington-il/market-report`;
 export const metadata: Metadata = {
   title: 'Bloomington IL Housing Market Report 2026',
   description:
-    'Bloomington IL housing market data: $228,634 ZHVI (+7.5%), $300K median sale, 4-day pending pace. McLean County investor analysis for 2026. Cash buyers: 888-440-5250.',
+    'Bloomington IL housing market data: $228,634 ZHVI (+7.5%), $300K median sale, 4-day pending pace. McLean County investor analysis for 2026. Cash buyers: 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
@@ -37,7 +37,7 @@ export default function BloomingtonILMarketReportPage() {
           <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
             <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
             <p className="text-white text-sm leading-relaxed">
-              According to Zillow (February 2026), Bloomington ZHVI: $228,634 (+7.5% YoY) — homes pending in ~4 days. Per Redfin (March 2026), median sale price: $300,000 (+33% YoY); 83 homes sold; sale-to-list 99.2%. Source: Realtor.com — Bloomington-Normal MSA ranked #27 hottest nationally. Transfer tax: $300 on $200K sale (IL state + McLean County; no Bloomington municipal RETT). Insurance capital narrative: State Farm world HQ, Country Financial HQ, ISU. Call (888) 440-5250.
+              According to Zillow (February 2026), Bloomington ZHVI: $228,634 (+7.5% YoY) — homes pending in ~4 days. Per Redfin (March 2026), median sale price: $300,000 (+33% YoY); 83 homes sold; sale-to-list 99.2%. Source: Realtor.com — Bloomington-Normal MSA ranked #27 hottest nationally. Transfer tax: $300 on $200K sale (IL state + McLean County; no Bloomington municipal RETT). Insurance capital narrative: State Farm world HQ, Country Financial HQ, ISU. Call (888) 274-5006.
             </p>
           </div>
         </div>
@@ -234,7 +234,7 @@ export default function BloomingtonILMarketReportPage() {
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          Bloomington IL market 2026: State Farm headquarters and Illinois State University anchor steady demand. Strong appreciation, affordable vs. Chicago. USA Home Buyers gives you a cash offer in 24 hours. Call 888-440-5250.
+          Bloomington IL market 2026: State Farm headquarters and Illinois State University anchor steady demand. Strong appreciation, affordable vs. Chicago. USA Home Buyers gives you a cash offer in 24 hours. Call 888-274-5006.
         </div>
       </details>
         <CashOfferForm variant="footer" headline="Ready to Sell Your Bloomington IL Home?" sourcePage="/markets/bloomington-il/market-report" />

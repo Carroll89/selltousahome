@@ -15,7 +15,7 @@ const pageUrl = `${SITE_URL}/markets/champaign-urbana-il/probate`;
 export const metadata: Metadata = {
   title: 'Sell House in Probate Champaign-Urbana IL',
   description:
-    'Selling a house in probate in Champaign or Urbana IL? Champaign County Circuit Court Probate, 755 ILCS 5, 101 E. Main St. Urbana. Cash offer in 24 hours. 888-440-5250.',
+    'Selling a house in probate in Champaign or Urbana IL? Champaign County Circuit Court Probate, 755 ILCS 5, 101 E. Main St. Urbana. Cash offer in 24 hours. 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
@@ -34,7 +34,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'Can I receive a cash offer before probate is complete?',
-    answer: 'Yes. We can issue a written cash offer at any point — before probate is filed, while it\'s pending, or once Letters of Office are issued. A purchase agreement contingent on the executor receiving Letters of Office is standard practice in Illinois. Having a committed buyer at a specific price often makes the probate process more straightforward and can provide a reference for court valuation purposes. Call (888) 440-5250.',
+    answer: 'Yes. We can issue a written cash offer at any point — before probate is filed, while it\'s pending, or once Letters of Office are issued. A purchase agreement contingent on the executor receiving Letters of Office is standard practice in Illinois. Having a committed buyer at a specific price often makes the probate process more straightforward and can provide a reference for court valuation purposes. Call (888) 274-5006.',
   },
   {
     question: 'What is the difference between a personal representative and an executor?',
@@ -80,14 +80,14 @@ export default function ChampaignUrbanaProbatePage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                All Champaign County probate filings go to Champaign County Circuit Court at 101 E. Main Street, Urbana IL 61802 — the county seat is Urbana, not Champaign. Under 755 ILCS 5, real property always requires formal probate. Per the 2025 amendment to 755 ILCS 5/25-1, small estate affidavits cover personal property up to $150,000 — not real estate. Written cash offer in 24 hours; we work with the estate timeline. Call (888) 440-5250.
+                All Champaign County probate filings go to Champaign County Circuit Court at 101 E. Main Street, Urbana IL 61802 — the county seat is Urbana, not Champaign. Under 755 ILCS 5, real property always requires formal probate. Per the 2025 amendment to 755 ILCS 5/25-1, small estate affidavits cover personal property up to $150,000 — not real estate. Written cash offer in 24 hours; we work with the estate timeline. Call (888) 274-5006.
               </p>
             </div>
             <a
-              href="tel:+18884405250"
+              href="tel:+18882745006"
               className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors"
             >
-              📞 Call (888) 440-5250 — 24/7
+              📞 Call (888) 274-5006 — 24/7
             </a>
           </div>
       <VideoEmbed
@@ -101,7 +101,7 @@ export default function ChampaignUrbanaProbatePage() {
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          Champaign-Urbana property in Illinois probate? USA Home Buyers works with personal representatives through Champaign County's 6th Judicial Circuit. We buy as-is once the court grants authority. Cash offer in 24 hours. Call 888-440-5250.
+          Champaign-Urbana property in Illinois probate? USA Home Buyers works with personal representatives through Champaign County's 6th Judicial Circuit. We buy as-is once the court grants authority. Cash offer in 24 hours. Call 888-274-5006.
         </div>
       </details>
           <div>

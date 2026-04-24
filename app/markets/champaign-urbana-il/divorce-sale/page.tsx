@@ -15,7 +15,7 @@ const pageUrl = `${SITE_URL}/markets/champaign-urbana-il/divorce-sale`;
 export const metadata: Metadata = {
   title: 'Sell House During Divorce Champaign-Urbana IL',
   description:
-    'Selling a house during divorce in Champaign or Urbana IL? Equitable distribution under 750 ILCS 5, Champaign County Family Division. Cash offer in 24 hours. Call 888-440-5250.',
+    'Selling a house during divorce in Champaign or Urbana IL? Equitable distribution under 750 ILCS 5, Champaign County Family Division. Cash offer in 24 hours. Call 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
@@ -76,14 +76,14 @@ export default function ChampaignUrbanaDivorceSalePage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                Illinois uses equitable distribution under 750 ILCS 5/503. Champaign County Family Division: 101 E. Main St., Urbana IL 61802. A cash sale provides one concrete number both parties can divide — no listing delays, no showing conflicts, no buyer financing contingencies. Written offer in 24 hours. Close in 7-14 days. Call (888) 440-5250.
+                Illinois uses equitable distribution under 750 ILCS 5/503. Champaign County Family Division: 101 E. Main St., Urbana IL 61802. A cash sale provides one concrete number both parties can divide — no listing delays, no showing conflicts, no buyer financing contingencies. Written offer in 24 hours. Close in 7-14 days. Call (888) 274-5006.
               </p>
             </div>
             <a
-              href="tel:+18884405250"
+              href="tel:+18882745006"
               className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors"
             >
-              📞 Call (888) 440-5250 — 24/7
+              📞 Call (888) 274-5006 — 24/7
             </a>
           </div>
       <VideoEmbed
@@ -97,7 +97,7 @@ export default function ChampaignUrbanaDivorceSalePage() {
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          Divorce in Champaign-Urbana and need to sell fast? One cash offer, both parties sign, close in 7-14 days. No agents, no open houses. Proceeds split at closing per your agreement. Call 888-440-5250.
+          Divorce in Champaign-Urbana and need to sell fast? One cash offer, both parties sign, close in 7-14 days. No agents, no open houses. Proceeds split at closing per your agreement. Call 888-274-5006.
         </div>
       </details>
           <div>
@@ -241,7 +241,7 @@ export default function ChampaignUrbanaDivorceSalePage() {
             When minor children are involved in a Champaign-Urbana divorce, the Champaign County Family Division judge may consider awarding a deferred sale — keeping the family home occupied by the custodial parent until children reach a certain age, at which point the home is sold and proceeds divided. This is more common when a custodial parent needs housing stability and cannot immediately qualify for a mortgage on their own.
           </p>
           <p className="text-gray-700 mb-4">
-            A deferred sale is sometimes contested by the non-custodial spouse who needs the equity to establish a new household. If you're in a situation where a deferred sale is being proposed but you need the equity now, call (888) 440-5250 — we can discuss whether a structured transaction with a delayed payout could address both parties' needs.
+            A deferred sale is sometimes contested by the non-custodial spouse who needs the equity to establish a new household. If you're in a situation where a deferred sale is being proposed but you need the equity now, call (888) 274-5006 — we can discuss whether a structured transaction with a delayed payout could address both parties' needs.
           </p>
         </section>
 

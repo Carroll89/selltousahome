@@ -19,7 +19,7 @@ export const revalidate = 86400;
 export const metadata: Metadata = {
   title: 'Sell My House Fast Bloomington IL',
   description:
-    'We buy houses in Bloomington IL for cash, as-is. Written offer in 24 hours, close in 7 days. No repairs, no fees. Serving McLean County. Call 888-440-5250.',
+    'We buy houses in Bloomington IL for cash, as-is. Written offer in 24 hours, close in 7 days. No repairs, no fees. Serving McLean County. Call 888-274-5006.',
   alternates: { canonical: `${SITE_URL}/markets/bloomington-il` },
   openGraph: {
     images: [{ url: '/images/bloomington-il-hero.jpg', width: 1200, height: 630, alt: 'Bloomington IL home — Sell Your House Fast for Cash' }],
@@ -33,7 +33,7 @@ const bloomingtonILLocalBusinessSchema = {
   name: 'USA Home Buyers — Bloomington IL',
   description: 'Cash home buyers serving Bloomington IL and McLean County. We buy houses as-is in any condition — no repairs, no agent fees, close in 7-14 days.',
   url: `${SITE_URL}/markets/bloomington-il`,
-  telephone: '+18884405250',
+  telephone: '+18882745006',
   address: {
     '@type': 'PostalAddress',
     addressLocality: 'Bloomington',
@@ -120,7 +120,7 @@ const COMPARISON_ROWS = [
 const FAQ_ITEMS = [
   {
     question: 'How fast can I sell my house for cash in Bloomington IL?',
-    answer: "USA Home Buyers can close in as few as 7 days in Bloomington and throughout McLean County. We send a written cash offer within 24 hours of your inquiry. According to Zillow (February 2026), the typical Bloomington home goes pending in just 4 days — this is one of the fastest-moving markets in downstate Illinois. If you're facing foreclosure, Illinois is a judicial foreclosure state under 735 ILCS 5/15-1101 — once a lender files in McLean County Circuit Court at 104 W. Front Street, the process typically runs 12-16 months. Selling before the auction preserves your equity. Call (888) 440-5250.",
+    answer: "USA Home Buyers can close in as few as 7 days in Bloomington and throughout McLean County. We send a written cash offer within 24 hours of your inquiry. According to Zillow (February 2026), the typical Bloomington home goes pending in just 4 days — this is one of the fastest-moving markets in downstate Illinois. If you're facing foreclosure, Illinois is a judicial foreclosure state under 735 ILCS 5/15-1101 — once a lender files in McLean County Circuit Court at 104 W. Front Street, the process typically runs 12-16 months. Selling before the auction preserves your equity. Call (888) 274-5006.",
   },
   {
     question: 'How much will you pay for my Bloomington IL house?',
@@ -132,11 +132,11 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How does foreclosure work in McLean County IL?',
-    answer: "Illinois is a 100% judicial foreclosure state under the Illinois Mortgage Foreclosure Law, 735 ILCS 5/15-1101 et seq. Every foreclosure must go through McLean County Circuit Court — 11th Judicial Circuit, 104 W. Front Street, Room 303, Bloomington IL 61701, phone (309) 888-5301. The typical McLean County uncontested foreclosure timeline runs 12-16 months from first missed payment. Borrowers have a 3-month reinstatement right under 735 ILCS 5/15-1602 and a 7-month redemption period under 735 ILCS 5/15-1603. Don't confuse McLean County's timeline with Cook County's 24-36 months. Call (888) 440-5250 if you're behind on payments.",
+    answer: "Illinois is a 100% judicial foreclosure state under the Illinois Mortgage Foreclosure Law, 735 ILCS 5/15-1101 et seq. Every foreclosure must go through McLean County Circuit Court — 11th Judicial Circuit, 104 W. Front Street, Room 303, Bloomington IL 61701, phone (309) 888-5301. The typical McLean County uncontested foreclosure timeline runs 12-16 months from first missed payment. Borrowers have a 3-month reinstatement right under 735 ILCS 5/15-1602 and a 7-month redemption period under 735 ILCS 5/15-1603. Don't confuse McLean County's timeline with Cook County's 24-36 months. Call (888) 274-5006 if you're behind on payments.",
   },
   {
     question: 'What areas near Bloomington do you buy in?',
-    answer: "All of McLean County. That includes Bloomington proper — Founders' Grove, Downtown, Alton-Oakland, Holiday Knolls, Sherwood Forest, West Bloomington, Veterans Parkway Corridor, North Bloomington, Pepper Ridge, Indiana Ave Corridor — plus the Bloomington-Normal MSA including Normal (home of ISU), Heyworth, LeRoy, Lexington, Towanda, Hudson, and other McLean County communities. If you're unsure whether we serve your address, call (888) 440-5250.",
+    answer: "All of McLean County. That includes Bloomington proper — Founders' Grove, Downtown, Alton-Oakland, Holiday Knolls, Sherwood Forest, West Bloomington, Veterans Parkway Corridor, North Bloomington, Pepper Ridge, Indiana Ave Corridor — plus the Bloomington-Normal MSA including Normal (home of ISU), Heyworth, LeRoy, Lexington, Towanda, Hudson, and other McLean County communities. If you're unsure whether we serve your address, call (888) 274-5006.",
   },
   {
     question: 'Do I need to make repairs before selling to USA Home Buyers?',
@@ -193,17 +193,17 @@ export default function BloomingtonILMarketPage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                USA Home Buyers purchases houses in Bloomington IL and throughout McLean County — Founders&apos; Grove Victorians, North Bloomington colonials, ISU-area rentals, State Farm retiree estates, foreclosures, divorce situations. Written cash offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no agent fees. According to Zillow (February 2026), Bloomington ZHVI is $228,634 (+7.5% YoY) with homes pending in just 4 days — the fastest-appreciating downstate IL market in our Illinois portfolio. Transfer tax: $300 on a $200,000 sale (IL state + McLean County; no Bloomington municipal RETT). Call (888) 440-5250.
+                USA Home Buyers purchases houses in Bloomington IL and throughout McLean County — Founders&apos; Grove Victorians, North Bloomington colonials, ISU-area rentals, State Farm retiree estates, foreclosures, divorce situations. Written cash offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no agent fees. According to Zillow (February 2026), Bloomington ZHVI is $228,634 (+7.5% YoY) with homes pending in just 4 days — the fastest-appreciating downstate IL market in our Illinois portfolio. Transfer tax: $300 on a $200,000 sale (IL state + McLean County; no Bloomington municipal RETT). Call (888) 274-5006.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
               We buy houses in Bloomington, Normal, and all of McLean County — any condition, any situation. No repairs, no agent fees, no waiting.
             </p>
             <a
-              href="tel:+18884405250"
+              href="tel:+18882745006"
               className="flex w-full md:w-auto items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white font-bold rounded-lg px-6 py-4 text-xl md:py-3 md:text-lg shadow-lg transition-colors ring-2 ring-green-400/50"
             >
-              📞 Call 888-440-5250 — We Answer 24/7
+              📞 Call 888-274-5006 — We Answer 24/7
             </a>
             <p className="mt-3 text-blue-200 text-xs md:text-sm">BBB Accredited · 15+ Years Experience · Hundreds of Homes Purchased</p>
           </div>
@@ -229,7 +229,7 @@ export default function BloomingtonILMarketPage() {
         📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-        Need to sell your house fast in Bloomington, Illinois? USA Home Buyers purchases homes as-is for cash throughout McLean County. No agents, no fees, no repairs. Written cash offer in 24 hours, close in 7 days. Call 888-440-5250.
+        Need to sell your house fast in Bloomington, Illinois? USA Home Buyers purchases homes as-is for cash throughout McLean County. No agents, no fees, no repairs. Written cash offer in 24 hours, close in 7 days. Call 888-274-5006.
         </div>
         </details>
 

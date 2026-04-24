@@ -15,7 +15,7 @@ const pageUrl = `${SITE_URL}/markets/bloomington-il/inherited-property`;
 export const metadata: Metadata = {
   title: 'Sell Inherited House Bloomington IL',
   description:
-    "Inherited a house in Bloomington IL? We buy inherited properties as-is through McLean County Circuit Court Probate. State Farm retiree estates welcome. Call 888-440-5250.",
+    "Inherited a house in Bloomington IL? We buy inherited properties as-is through McLean County Circuit Court Probate. State Farm retiree estates welcome. Call 888-274-5006.",
   alternates: { canonical: pageUrl },
 };
 
@@ -26,7 +26,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'Can I sell an inherited Bloomington house before probate is complete?',
-    answer: "You can sign a purchase agreement contingent on the executor receiving Letters of Office. This is standard practice in McLean County and lets you lock in a buyer and price before the court grants authority. Under Illinois independent administration (755 ILCS 5/28-1 et seq.), the executor can sell real property without seeking additional court approval for each transaction — significantly faster than supervised administration. We can have a written cash offer ready today; you set the closing date once Letters of Office are issued. Call (888) 440-5250.",
+    answer: "You can sign a purchase agreement contingent on the executor receiving Letters of Office. This is standard practice in McLean County and lets you lock in a buyer and price before the court grants authority. Under Illinois independent administration (755 ILCS 5/28-1 et seq.), the executor can sell real property without seeking additional court approval for each transaction — significantly faster than supervised administration. We can have a written cash offer ready today; you set the closing date once Letters of Office are issued. Call (888) 274-5006.",
   },
   {
     question: 'Does the 2025 Illinois small estate affidavit amendment help with real estate?',
@@ -42,7 +42,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'What if there are multiple heirs on the Bloomington inherited property?',
-    answer: "All heirs with an ownership interest must agree to the sale and sign the deed, or the executor must have Letters of Office authorizing the sale. If heirs can't agree, a partition action can be filed in McLean County Circuit Court under Illinois law. Multi-heir coordination is one of the most common complications in Bloomington inherited-property sales — State Farm and Country Financial families frequently have adult children scattered across multiple states. A single written cash offer resolves the coordination challenge because every heir evaluates the same specific number. Call (888) 440-5250.",
+    answer: "All heirs with an ownership interest must agree to the sale and sign the deed, or the executor must have Letters of Office authorizing the sale. If heirs can't agree, a partition action can be filed in McLean County Circuit Court under Illinois law. Multi-heir coordination is one of the most common complications in Bloomington inherited-property sales — State Farm and Country Financial families frequently have adult children scattered across multiple states. A single written cash offer resolves the coordination challenge because every heir evaluates the same specific number. Call (888) 274-5006.",
   },
 ];
 
@@ -82,11 +82,11 @@ export default function BloomingtonInheritedPropertyPage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                Sell an inherited Bloomington IL house as-is through McLean County Circuit Court probate. Illinois requires formal probate for all real property (755 ILCS 5) — the 2025 small-estate amendment ($150K threshold) covers personal property only. McLean County Probate: 104 W. Front St., Room 404, (309) 888-5350. Under independent administration (755 ILCS 5/28-1), an executor can sell without per-transaction court approval. Written cash offer in 24 hours. Call (888) 440-5250.
+                Sell an inherited Bloomington IL house as-is through McLean County Circuit Court probate. Illinois requires formal probate for all real property (755 ILCS 5) — the 2025 small-estate amendment ($150K threshold) covers personal property only. McLean County Probate: 104 W. Front St., Room 404, (309) 888-5350. Under independent administration (755 ILCS 5/28-1), an executor can sell without per-transaction court approval. Written cash offer in 24 hours. Call (888) 274-5006.
               </p>
             </div>
-            <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
-              📞 (888) 440-5250 — 24/7
+            <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
+              📞 (888) 274-5006 — 24/7
             </a>
           </div>
 
@@ -101,7 +101,7 @@ export default function BloomingtonInheritedPropertyPage() {
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          Inherit a property in Bloomington or McLean County? USA Home Buyers specializes in estate sales and works with Illinois probate timelines. Buy as-is, any condition. Written cash offer in 24 hours. Call 888-440-5250.
+          Inherit a property in Bloomington or McLean County? USA Home Buyers specializes in estate sales and works with Illinois probate timelines. Buy as-is, any condition. Written cash offer in 24 hours. Call 888-274-5006.
         </div>
       </details>
           <CashOfferForm

@@ -15,14 +15,14 @@ const pageUrl = `${SITE_URL}/markets/bloomington-il/tenant-occupied`;
 export const metadata: Metadata = {
   title: 'Sell Tenant-Occupied House Bloomington IL',
   description:
-    'Sell a tenant-occupied property in Bloomington IL as-is. Illinois FED law (735 ILCS 5/9), ISU rental market, McLean County eviction timeline. Call 888-440-5250.',
+    'Sell a tenant-occupied property in Bloomington IL as-is. Illinois FED law (735 ILCS 5/9), ISU rental market, McLean County eviction timeline. Call 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
 const FAQ_ITEMS = [
   {
     question: 'Can I sell my Bloomington rental property with tenants still living there?',
-    answer: "Yes. Under Illinois law, a landlord can sell a tenant-occupied property at any time. The buyer takes the property subject to the existing lease. Tenants retain their lease rights after the sale — the new owner becomes the new landlord and is bound by the existing lease terms until it expires. USA Home Buyers purchases tenant-occupied properties throughout Bloomington and McLean County. We buy with tenants in place — no eviction required before closing. Call (888) 440-5250.",
+    answer: "Yes. Under Illinois law, a landlord can sell a tenant-occupied property at any time. The buyer takes the property subject to the existing lease. Tenants retain their lease rights after the sale — the new owner becomes the new landlord and is bound by the existing lease terms until it expires. USA Home Buyers purchases tenant-occupied properties throughout Bloomington and McLean County. We buy with tenants in place — no eviction required before closing. Call (888) 274-5006.",
   },
   {
     question: 'Do I need to evict my tenants before selling the Bloomington property?',
@@ -82,11 +82,11 @@ export default function BloomingtonTenantOccupiedPage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                Sell a tenant-occupied Bloomington IL property as-is with tenants in place. Illinois FED eviction process: 735 ILCS 5/9; McLean County Small Claims / Civil Division at 104 W. Front Street; uncontested FED typically 3-6 weeks. USA Home Buyers buys tenant-occupied ISU-area and Bloomington rentals without requiring eviction before closing. Per Redfin (March 2026), Bloomington median is $300,000 — rental properties in ISU corridors trade at investor values. Call (888) 440-5250.
+                Sell a tenant-occupied Bloomington IL property as-is with tenants in place. Illinois FED eviction process: 735 ILCS 5/9; McLean County Small Claims / Civil Division at 104 W. Front Street; uncontested FED typically 3-6 weeks. USA Home Buyers buys tenant-occupied ISU-area and Bloomington rentals without requiring eviction before closing. Per Redfin (March 2026), Bloomington median is $300,000 — rental properties in ISU corridors trade at investor values. Call (888) 274-5006.
               </p>
             </div>
-            <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
-              📞 (888) 440-5250 — 24/7
+            <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
+              📞 (888) 274-5006 — 24/7
             </a>
           </div>
 
@@ -101,7 +101,7 @@ export default function BloomingtonTenantOccupiedPage() {
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          Done being a landlord in Bloomington or Normal? USA Home Buyers buys tenant-occupied properties — student rentals, long-term leases, Section 8. No eviction needed. We handle everything after closing. Call 888-440-5250.
+          Done being a landlord in Bloomington or Normal? USA Home Buyers buys tenant-occupied properties — student rentals, long-term leases, Section 8. No eviction needed. We handle everything after closing. Call 888-274-5006.
         </div>
       </details>
           <CashOfferForm

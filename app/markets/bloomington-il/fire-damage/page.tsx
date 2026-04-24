@@ -15,18 +15,18 @@ const pageUrl = `${SITE_URL}/markets/bloomington-il/fire-damage`;
 export const metadata: Metadata = {
   title: 'Sell Fire-Damaged House Bloomington IL',
   description:
-    "Sell a fire-damaged house in Bloomington IL as-is. Founders' Grove balloon-frame, IL insurance law (215 ILCS 5), 765 ILCS 77 disclosure. State Farm city — unique insurance context. Call 888-440-5250.",
+    "Sell a fire-damaged house in Bloomington IL as-is. Founders' Grove balloon-frame, IL insurance law (215 ILCS 5), 765 ILCS 77 disclosure. State Farm city — unique insurance context. Call 888-274-5006.",
   alternates: { canonical: pageUrl },
 };
 
 const FAQ_ITEMS = [
   {
     question: 'Will you buy a fire-damaged house in Bloomington IL?',
-    answer: "Yes. USA Home Buyers purchases fire and smoke-damaged houses in Bloomington and throughout McLean County in any condition — partial damage, total loss, smoke-only damage, water damage from fire suppression. You don't need to clean up, board up, or make any repairs. We assess the property and make a written cash offer within 24 hours. Per Zillow (February 2026), the Bloomington ZHVI is $228,634 — even a significantly fire-damaged home retains land value and structural value that we can price. Call (888) 440-5250.",
+    answer: "Yes. USA Home Buyers purchases fire and smoke-damaged houses in Bloomington and throughout McLean County in any condition — partial damage, total loss, smoke-only damage, water damage from fire suppression. You don't need to clean up, board up, or make any repairs. We assess the property and make a written cash offer within 24 hours. Per Zillow (February 2026), the Bloomington ZHVI is $228,634 — even a significantly fire-damaged home retains land value and structural value that we can price. Call (888) 274-5006.",
   },
   {
     question: 'Does my fire insurance claim need to be resolved before I sell?',
-    answer: "No. You can sell the fire-damaged property before, during, or after the insurance claim process. Common approaches: (1) Sell as-is and assign any pending insurance proceeds to the buyer at closing. (2) Collect the insurance settlement first, then sell the partially or fully unrepaired property to a cash buyer. (3) Sell before any insurance claim is filed. Under Illinois insurance law (215 ILCS 5/), your policy benefits are a separate asset from the property itself. The Illinois Department of Insurance (insurance.illinois.gov) regulates insurer conduct under 215 ILCS 5/154.5 — unfair claims settlement practices including unreasonable delays are prohibited. Call (888) 440-5250.",
+    answer: "No. You can sell the fire-damaged property before, during, or after the insurance claim process. Common approaches: (1) Sell as-is and assign any pending insurance proceeds to the buyer at closing. (2) Collect the insurance settlement first, then sell the partially or fully unrepaired property to a cash buyer. (3) Sell before any insurance claim is filed. Under Illinois insurance law (215 ILCS 5/), your policy benefits are a separate asset from the property itself. The Illinois Department of Insurance (insurance.illinois.gov) regulates insurer conduct under 215 ILCS 5/154.5 — unfair claims settlement practices including unreasonable delays are prohibited. Call (888) 274-5006.",
   },
   {
     question: 'What must I disclose about fire damage when selling in Bloomington IL?',
@@ -82,11 +82,11 @@ export default function BloomingtonFireDamagePage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                Selling a fire-damaged home in Bloomington IL — the insurance capital of downstate Illinois — with full statutory context. Illinois requires disclosure under 765 ILCS 77/35; regulates insurer conduct under 215 ILCS 5/154.5 (Illinois Insurance Code); prohibits unfair claims practices under 215 ILCS 5/401 et seq. (Illinois Department of Insurance, insurance.illinois.gov). Founders&apos; Grove balloon-frame construction accelerates fire spread per NFPA guidance (nfpa.org). Pre-1978 lead paint protocols apply under EPA 40 CFR Part 745 (epa.gov/lead). USA Home Buyers purchases fire-damaged Bloomington properties as-is. Written offer in 24 hours. Call (888) 440-5250.
+                Selling a fire-damaged home in Bloomington IL — the insurance capital of downstate Illinois — with full statutory context. Illinois requires disclosure under 765 ILCS 77/35; regulates insurer conduct under 215 ILCS 5/154.5 (Illinois Insurance Code); prohibits unfair claims practices under 215 ILCS 5/401 et seq. (Illinois Department of Insurance, insurance.illinois.gov). Founders&apos; Grove balloon-frame construction accelerates fire spread per NFPA guidance (nfpa.org). Pre-1978 lead paint protocols apply under EPA 40 CFR Part 745 (epa.gov/lead). USA Home Buyers purchases fire-damaged Bloomington properties as-is. Written offer in 24 hours. Call (888) 274-5006.
               </p>
             </div>
-            <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
-              📞 (888) 440-5250 — 24/7
+            <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
+              📞 (888) 274-5006 — 24/7
             </a>
           </div>
 
@@ -101,7 +101,7 @@ export default function BloomingtonFireDamagePage() {
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          Fire damage on your Bloomington IL property? USA Home Buyers purchases fire-damaged homes in McLean County as-is. No contractor estimates, no delays. Cash offer on current condition. Call 888-440-5250.
+          Fire damage on your Bloomington IL property? USA Home Buyers purchases fire-damaged homes in McLean County as-is. No contractor estimates, no delays. Cash offer on current condition. Call 888-274-5006.
         </div>
       </details>
           <CashOfferForm

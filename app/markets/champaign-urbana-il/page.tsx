@@ -19,7 +19,7 @@ export const revalidate = 86400;
 export const metadata: Metadata = {
   title: 'Sell My House Fast Champaign-Urbana IL',
   description:
-    'We buy houses in Champaign-Urbana IL for cash, as-is. Written offer in 24 hours, close in 7 days. No repairs, no fees. Serving Champaign County. Call 888-440-5250.',
+    'We buy houses in Champaign-Urbana IL for cash, as-is. Written offer in 24 hours, close in 7 days. No repairs, no fees. Serving Champaign County. Call 888-274-5006.',
   alternates: { canonical: `${SITE_URL}/markets/champaign-urbana-il` },
   openGraph: {
     images: [{ url: '/images/champaign-urbana-il-hero.jpg', width: 1200, height: 630, alt: 'Champaign-Urbana IL home — Sell Your House Fast for Cash' }],
@@ -33,7 +33,7 @@ const champaignUrbanaLocalBusinessSchema = {
   name: 'USA Home Buyers — Champaign-Urbana IL',
   description: 'Cash home buyers serving Champaign-Urbana IL and Champaign County. We buy houses as-is in any condition — no repairs, no agent fees, close in 7-14 days.',
   url: `${SITE_URL}/markets/champaign-urbana-il`,
-  telephone: '+18884405250',
+  telephone: '+18882745006',
   address: {
     '@type': 'PostalAddress',
     addressLocality: 'Champaign',
@@ -119,7 +119,7 @@ const COMPARISON_ROWS = [
 const FAQ_ITEMS = [
   {
     question: 'How fast can I sell my house for cash in Champaign-Urbana IL?',
-    answer: 'USA Home Buyers can close in as few as 7 days in Champaign, Urbana, and throughout Champaign County. We send a written cash offer within 24 hours of your inquiry. Illinois uses judicial foreclosure under 735 ILCS 5/15-1101 — once a lender files in Champaign County Circuit Court at 101 E. Main Street, Urbana IL 61802 (the county seat is Urbana, not Champaign), the process typically runs 12-16 months. Selling before the auction preserves whatever equity remains. Call (888) 440-5250.',
+    answer: 'USA Home Buyers can close in as few as 7 days in Champaign, Urbana, and throughout Champaign County. We send a written cash offer within 24 hours of your inquiry. Illinois uses judicial foreclosure under 735 ILCS 5/15-1101 — once a lender files in Champaign County Circuit Court at 101 E. Main Street, Urbana IL 61802 (the county seat is Urbana, not Champaign), the process typically runs 12-16 months. Selling before the auction preserves whatever equity remains. Call (888) 274-5006.',
   },
   {
     question: 'How much will you pay for my Champaign-Urbana house?',
@@ -135,7 +135,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'What areas in Champaign County do you buy in?',
-    answer: 'All of Champaign County. In Champaign: Campustown, Southwest Champaign, Stone Creek/Savoy area, Robeson Woods, Presidents Neighborhoods, Country Fair/Neil Street corridor, Lincolnshire/Pheasant Ridge. In Urbana: University District, Old West Urbana, Lincoln Square/Downtown Urbana, Crystal Lake Park, Dodds Park/South Urbana, Busey Woods/Carle Hospital area. Also Savoy, Rantoul, Mahomet, Tolono, and all outlying Champaign County communities. Call (888) 440-5250 if unsure whether we serve your address.',
+    answer: 'All of Champaign County. In Champaign: Campustown, Southwest Champaign, Stone Creek/Savoy area, Robeson Woods, Presidents Neighborhoods, Country Fair/Neil Street corridor, Lincolnshire/Pheasant Ridge. In Urbana: University District, Old West Urbana, Lincoln Square/Downtown Urbana, Crystal Lake Park, Dodds Park/South Urbana, Busey Woods/Carle Hospital area. Also Savoy, Rantoul, Mahomet, Tolono, and all outlying Champaign County communities. Call (888) 274-5006 if unsure whether we serve your address.',
   },
   {
     question: 'Do I need to make repairs before selling to USA Home Buyers?',
@@ -182,16 +182,16 @@ export default function ChampaignUrbanaILMarketPage() {
               Sell My House Fast Champaign-Urbana IL — Cash Offer in 24 Hours
             </h1>
             <a
-              href="tel:+18884405250"
+              href="tel:+18882745006"
               className="flex w-full md:w-auto items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white font-bold rounded-lg px-6 py-4 text-xl md:py-3 md:text-lg shadow-lg transition-colors ring-2 ring-green-400/50"
             >
-              📞 Call 888-440-5250 — We Answer 24/7
+              📞 Call 888-274-5006 — We Answer 24/7
             </a>
             <p className="mt-3 text-blue-200 text-xs md:text-sm">BBB Accredited · 15+ Years Experience · Hundreds of Homes Purchased</p>
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                USA Home Buyers purchases houses in Champaign and Urbana IL — UIUC faculty relocations, tired student-rental landlords, inherited estates, foreclosure situations, divorce sales. Written cash offer in 24 hours, close in 7-14 days. According to Zillow (Feb 2026), Champaign-Urbana Metro ZHVI is $226,978 (+5.0% YoY); Champaign city $199,076; Urbana city $168,903. Per Redfin (Feb 2026), Champaign County median sale price is $230,000 (+4.3%). Transfer tax: $300 on $200K (0.15% combined state + county — no municipal RETT). We cover all closing costs. Call (888) 440-5250.
+                USA Home Buyers purchases houses in Champaign and Urbana IL — UIUC faculty relocations, tired student-rental landlords, inherited estates, foreclosure situations, divorce sales. Written cash offer in 24 hours, close in 7-14 days. According to Zillow (Feb 2026), Champaign-Urbana Metro ZHVI is $226,978 (+5.0% YoY); Champaign city $199,076; Urbana city $168,903. Per Redfin (Feb 2026), Champaign County median sale price is $230,000 (+4.3%). Transfer tax: $300 on $200K (0.15% combined state + county — no municipal RETT). We cover all closing costs. Call (888) 274-5006.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
@@ -220,7 +220,7 @@ export default function ChampaignUrbanaILMarketPage() {
         📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-        Need to sell your house fast in Champaign-Urbana, Illinois? USA Home Buyers purchases homes as-is for cash throughout Champaign County. No agents, no fees, no repairs. Written cash offer in 24 hours, close in 7 days. Call 888-440-5250.
+        Need to sell your house fast in Champaign-Urbana, Illinois? USA Home Buyers purchases homes as-is for cash throughout Champaign County. No agents, no fees, no repairs. Written cash offer in 24 hours, close in 7 days. Call 888-274-5006.
         </div>
         </details>
 
@@ -311,7 +311,7 @@ export default function ChampaignUrbanaILMarketPage() {
             In Urbana — the county seat where all legal proceedings are filed — we cover the University District adjacent to UIUC's east campus, Old West Urbana with its pre-war housing stock, Downtown Urbana and Lincoln Square, Crystal Lake Park, Dodds Park and South Urbana, and the Busey Woods and Carle Hospital corridor.
           </p>
           <p className="text-gray-700 mb-4">
-            Beyond the two cities, we serve Savoy, Rantoul, Mahomet, Tolono, St. Joseph, Ogden, and all Champaign County communities. Call (888) 440-5250 if you're unsure whether we serve your address.
+            Beyond the two cities, we serve Savoy, Rantoul, Mahomet, Tolono, St. Joseph, Ogden, and all Champaign County communities. Call (888) 274-5006 if you're unsure whether we serve your address.
           </p>
           <div className="flex flex-wrap gap-2 mt-4">
             {['Campustown', 'Southwest Champaign', 'Stone Creek', 'Robeson Woods', 'Presidents Neighborhoods', 'Country Fair', 'Lincolnshire', 'University District Urbana', 'Old West Urbana', 'Downtown Urbana', 'Crystal Lake Park', 'Dodds Park', 'South Urbana', 'Savoy', 'Rantoul', 'Mahomet'].map(n => (

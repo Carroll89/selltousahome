@@ -15,7 +15,7 @@ const pageUrl = `${SITE_URL}/markets/champaign-urbana-il/foreclosure`;
 export const metadata: Metadata = {
   title: 'Stop Foreclosure Champaign-Urbana IL — Sell Fast',
   description:
-    'Facing foreclosure in Champaign or Urbana IL? Sell before the sheriff\'s sale. Illinois judicial foreclosure (735 ILCS 5/15-1101), 12-16 month Champaign County timeline. Call 888-440-5250.',
+    'Facing foreclosure in Champaign or Urbana IL? Sell before the sheriff\'s sale. Illinois judicial foreclosure (735 ILCS 5/15-1101), 12-16 month Champaign County timeline. Call 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
@@ -38,7 +38,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'What if I owe more than the house is worth?',
-    answer: 'If you\'re underwater — the mortgage balance exceeds the home\'s value — a traditional sale still requires lender approval via short sale. We work with sellers in this situation. A short sale avoids foreclosure on your credit report (a critical difference) and typically results in a better settlement agreement with the lender than post-foreclosure collection. Call (888) 440-5250 immediately if you\'re in this position — timing matters.',
+    answer: 'If you\'re underwater — the mortgage balance exceeds the home\'s value — a traditional sale still requires lender approval via short sale. We work with sellers in this situation. A short sale avoids foreclosure on your credit report (a critical difference) and typically results in a better settlement agreement with the lender than post-foreclosure collection. Call (888) 274-5006 immediately if you\'re in this position — timing matters.',
   },
 ];
 
@@ -76,14 +76,14 @@ export default function ChampaignUrbanaForeclosurePage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                Illinois uses 100% judicial foreclosure under 735 ILCS 5/15-1101. Champaign County foreclosures are filed in Urbana (101 E. Main St.) — the county seat. Typical 12-16 month timeline. Borrowers have a 3-month reinstatement right (735 ILCS 5/15-1602) and 7-month redemption period (735 ILCS 5/15-1603). Selling before the auction preserves equity and avoids foreclosure on your credit. We close in 7-14 days. Call (888) 440-5250 immediately if you're behind on payments.
+                Illinois uses 100% judicial foreclosure under 735 ILCS 5/15-1101. Champaign County foreclosures are filed in Urbana (101 E. Main St.) — the county seat. Typical 12-16 month timeline. Borrowers have a 3-month reinstatement right (735 ILCS 5/15-1602) and 7-month redemption period (735 ILCS 5/15-1603). Selling before the auction preserves equity and avoids foreclosure on your credit. We close in 7-14 days. Call (888) 274-5006 immediately if you're behind on payments.
               </p>
             </div>
             <a
-              href="tel:+18884405250"
+              href="tel:+18882745006"
               className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors"
             >
-              📞 Call (888) 440-5250 — Act Now
+              📞 Call (888) 274-5006 — Act Now
             </a>
           </div>
       <VideoEmbed
@@ -97,7 +97,7 @@ export default function ChampaignUrbanaForeclosurePage() {
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          Facing foreclosure in Champaign-Urbana? Illinois judicial foreclosure — the clock starts at judgment. USA Home Buyers closes in 7 days, stops the process, protects your credit. Call 888-440-5250 right now.
+          Facing foreclosure in Champaign-Urbana? Illinois judicial foreclosure — the clock starts at judgment. USA Home Buyers closes in 7 days, stops the process, protects your credit. Call 888-274-5006 right now.
         </div>
       </details>
           <div>
@@ -231,7 +231,7 @@ export default function ChampaignUrbanaForeclosurePage() {
         <section className="my-8">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">What Information You Need Before Calling</h2>
           <p className="text-gray-700 mb-4">
-            When you call USA Home Buyers at (888) 440-5250, it helps to have this information available:
+            When you call USA Home Buyers at (888) 274-5006, it helps to have this information available:
           </p>
           <ul className="list-disc pl-6 text-gray-700 mb-4 space-y-2">
             <li>Property address (in Champaign or Urbana — we serve all of Champaign County)</li>
@@ -250,8 +250,8 @@ export default function ChampaignUrbanaForeclosurePage() {
         <section className="my-8 bg-red-50 border border-red-200 rounded-2xl p-6">
           <h2 className="text-xl font-bold text-red-900 mb-2">⏰ Act Before Time Runs Out</h2>
           <p className="text-red-800 text-sm mb-4">The foreclosure timeline in Champaign County runs 12-16 months from first missed payment. Every stage that passes narrows your options. Call us today — even if you're not sure whether selling makes sense.</p>
-          <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white font-bold px-5 py-2 rounded-xl text-sm transition-colors">
-            📞 Call (888) 440-5250 — Immediate Help
+          <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-red-600 hover:bg-red-700 text-white font-bold px-5 py-2 rounded-xl text-sm transition-colors">
+            📞 Call (888) 274-5006 — Immediate Help
           </a>
         </section>
 

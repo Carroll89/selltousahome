@@ -15,7 +15,7 @@ const pageUrl = `${SITE_URL}/markets/champaign-urbana-il/tenant-occupied`;
 export const metadata: Metadata = {
   title: 'Sell Tenant-Occupied House Champaign-Urbana IL',
   description:
-    'Sell your Champaign or Urbana IL rental property with tenants in place. UIUC student rentals, 735 ILCS 5/9 eviction law, Champaign County eviction timeline. 888-440-5250.',
+    'Sell your Champaign or Urbana IL rental property with tenants in place. UIUC student rentals, 735 ILCS 5/9 eviction law, Champaign County eviction timeline. 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
@@ -76,14 +76,14 @@ export default function ChampaignUrbanaTenantOccupiedPage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                USA Home Buyers purchases tenant-occupied rental properties in Champaign and Urbana IL — Campustown student rentals, Old West Urbana houses, University District multi-family, Section 8 Urbana properties. No eviction required. Per 765 ILCS 720, existing leases transfer to the new owner. Champaign County eviction (if needed post-closing): 735 ILCS 5/9 FED, 30-60 days typical. Written offer in 24 hours. Call (888) 440-5250.
+                USA Home Buyers purchases tenant-occupied rental properties in Champaign and Urbana IL — Campustown student rentals, Old West Urbana houses, University District multi-family, Section 8 Urbana properties. No eviction required. Per 765 ILCS 720, existing leases transfer to the new owner. Champaign County eviction (if needed post-closing): 735 ILCS 5/9 FED, 30-60 days typical. Written offer in 24 hours. Call (888) 274-5006.
               </p>
             </div>
             <a
-              href="tel:+18884405250"
+              href="tel:+18882745006"
               className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors"
             >
-              📞 Call (888) 440-5250 — 24/7
+              📞 Call (888) 274-5006 — 24/7
             </a>
           </div>
       <VideoEmbed
@@ -97,7 +97,7 @@ export default function ChampaignUrbanaTenantOccupiedPage() {
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          Done being a landlord near U of I? USA Home Buyers buys student rentals, duplexes, and single-families in Champaign-Urbana with tenants in place — no eviction, no waiting. We handle everything after closing. Call 888-440-5250.
+          Done being a landlord near U of I? USA Home Buyers buys student rentals, duplexes, and single-families in Champaign-Urbana with tenants in place — no eviction, no waiting. We handle everything after closing. Call 888-274-5006.
         </div>
       </details>
           <div>

@@ -15,7 +15,7 @@ const pageUrl = `${SITE_URL}/markets/champaign-urbana-il/code-violations`;
 export const metadata: Metadata = {
   title: 'Sell House With Code Violations Champaign-Urbana IL',
   description:
-    'Sell a Champaign or Urbana IL house with code violations as-is. Separate City of Champaign + City of Urbana enforcement. Historic district overlays. 888-440-5250.',
+    'Sell a Champaign or Urbana IL house with code violations as-is. Separate City of Champaign + City of Urbana enforcement. Historic district overlays. 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
@@ -76,14 +76,14 @@ export default function ChampaignUrbanaCodeViolationsPage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                USA Home Buyers purchases Champaign and Urbana IL properties with open code violations. Champaign and Urbana have separate code enforcement departments — not one city code. Per 765 ILCS 77, disclosure is required but repairs are not. We buy as-is; violations become our responsibility at closing. Written offer in 24 hours. Call (888) 440-5250.
+                USA Home Buyers purchases Champaign and Urbana IL properties with open code violations. Champaign and Urbana have separate code enforcement departments — not one city code. Per 765 ILCS 77, disclosure is required but repairs are not. We buy as-is; violations become our responsibility at closing. Written offer in 24 hours. Call (888) 274-5006.
               </p>
             </div>
             <a
-              href="tel:+18884405250"
+              href="tel:+18882745006"
               className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors"
             >
-              📞 Call (888) 440-5250 — 24/7
+              📞 Call (888) 274-5006 — 24/7
             </a>
           </div>
       <VideoEmbed
@@ -97,7 +97,7 @@ export default function ChampaignUrbanaCodeViolationsPage() {
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          Code violations on your Champaign-Urbana property? USA Home Buyers purchases properties with open violations as-is. No repairs, no permits. Cash offer in 24 hours. Call 888-440-5250.
+          Code violations on your Champaign-Urbana property? USA Home Buyers purchases properties with open violations as-is. No repairs, no permits. Cash offer in 24 hours. Call 888-274-5006.
         </div>
       </details>
           <div>
@@ -199,7 +199,7 @@ export default function ChampaignUrbanaCodeViolationsPage() {
             The title company handling the Champaign County closing will search for municipal liens as part of the title commitment process. Any liens discovered are shown as exceptions in the title commitment. USA Home Buyers works with the title company to identify and resolve open municipal liens as part of our standard purchase transaction. You don't need to clear violations before calling us — we handle that as part of the closing process.
           </p>
           <p className="text-gray-700 mb-4">
-            Demolition orders are a special case. If the City of Champaign or City of Urbana has issued a demolition order on a property — typically for structures deemed imminently dangerous — the timeline is more urgent. Demolition orders must be complied with within the stated deadline or the city may proceed with forced demolition and bill the property owner. If you've received a demolition order, call (888) 440-5250 immediately.
+            Demolition orders are a special case. If the City of Champaign or City of Urbana has issued a demolition order on a property — typically for structures deemed imminently dangerous — the timeline is more urgent. Demolition orders must be complied with within the stated deadline or the city may proceed with forced demolition and bill the property owner. If you've received a demolition order, call (888) 274-5006 immediately.
           </p>
         </section>
 

@@ -12,8 +12,8 @@ export const COUNTY = 'Champaign County';
 export const COUNTY_SEAT = 'Urbana';
 export const COUNTY_FIPS = '17019';
 export const JUDICIAL_CIRCUIT = '6th Judicial Circuit';
-export const PHONE = '(888) 440-5250';
-export const PHONE_HREF = 'tel:+18884405250';
+export const PHONE = '(888) 274-5006';
+export const PHONE_HREF = 'tel:+18882745006';
 
 // Courthouse & Recording Addresses
 export const CIRCUIT_COURT_ADDRESS = '101 E. Main Street, Urbana IL 61802';

@@ -15,14 +15,14 @@ const pageUrl = `${SITE_URL}/markets/bloomington-il/code-violations`;
 export const metadata: Metadata = {
   title: 'Sell House with Code Violations Bloomington IL',
   description:
-    'Selling a Bloomington IL house with code violations? City of Bloomington Code Enforcement, 765 ILCS 77 disclosure, as-is cash sale. No repairs required. Call 888-440-5250.',
+    'Selling a Bloomington IL house with code violations? City of Bloomington Code Enforcement, 765 ILCS 77 disclosure, as-is cash sale. No repairs required. Call 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
 const FAQ_ITEMS = [
   {
     question: 'Can I sell a Bloomington IL house with open code violations?',
-    answer: "Yes. Open code violations do not legally prevent the sale of a property in Illinois. You are required under the Illinois Residential Real Property Disclosure Act (765 ILCS 77/) to disclose known material defects and any known code violations on the mandatory disclosure form — but disclosure is not the same as remediation. An as-is cash sale allows you to sell the property without making any repairs. The buyer takes the property knowing about the violations and prices accordingly. USA Home Buyers purchases Bloomington homes with open code violations as-is — no repairs, no remediation, no compliance timeline required from you. Call (888) 440-5250.",
+    answer: "Yes. Open code violations do not legally prevent the sale of a property in Illinois. You are required under the Illinois Residential Real Property Disclosure Act (765 ILCS 77/) to disclose known material defects and any known code violations on the mandatory disclosure form — but disclosure is not the same as remediation. An as-is cash sale allows you to sell the property without making any repairs. The buyer takes the property knowing about the violations and prices accordingly. USA Home Buyers purchases Bloomington homes with open code violations as-is — no repairs, no remediation, no compliance timeline required from you. Call (888) 274-5006.",
   },
   {
     question: 'What is the City of Bloomington Code Enforcement process?',
@@ -82,11 +82,11 @@ export default function BloomingtonCodeViolationsPage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                Selling a Bloomington IL house with open code violations is legal. Per 765 ILCS 77/ (Illinois Residential Real Property Disclosure Act), you must disclose known violations — but disclosure is not remediation. City of Bloomington Code Enforcement and Neighborhood Services Division issue violations primarily in West Bloomington, Downtown, and Alton-Oakland pre-1950 stock. USA Home Buyers purchases code-violation properties as-is, handles lien payoffs at closing. Written offer in 24 hours. Call (888) 440-5250.
+                Selling a Bloomington IL house with open code violations is legal. Per 765 ILCS 77/ (Illinois Residential Real Property Disclosure Act), you must disclose known violations — but disclosure is not remediation. City of Bloomington Code Enforcement and Neighborhood Services Division issue violations primarily in West Bloomington, Downtown, and Alton-Oakland pre-1950 stock. USA Home Buyers purchases code-violation properties as-is, handles lien payoffs at closing. Written offer in 24 hours. Call (888) 274-5006.
               </p>
             </div>
-            <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
-              📞 (888) 440-5250 — 24/7
+            <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
+              📞 (888) 274-5006 — 24/7
             </a>
           </div>
 
@@ -101,7 +101,7 @@ export default function BloomingtonCodeViolationsPage() {
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          Code violations on your Bloomington IL property? USA Home Buyers purchases properties with open violations as-is. No repairs, no permits on your end. Cash offer in 24 hours. Call 888-440-5250.
+          Code violations on your Bloomington IL property? USA Home Buyers purchases properties with open violations as-is. No repairs, no permits on your end. Cash offer in 24 hours. Call 888-274-5006.
         </div>
       </details>
           <CashOfferForm
@@ -204,7 +204,7 @@ export default function BloomingtonCodeViolationsPage() {
             USA Home Buyers purchases condemned and severely code-violating properties. We evaluate the structure&apos;s land value, salvageable components, and rehabilitation cost to determine a cash offer. In some cases, the optimal buyer outcome on a condemned West Bloomington pre-war home is a land-value-plus acquisition where the structure is demolished and the lot redeveloped — and the offer reflects that use case. We are transparent about our analysis when that is the situation.
           </p>
           <p className="text-gray-700 mb-4">
-            If your Bloomington property has received a condemnation order or dangerous building notice from the City of Bloomington Building and Inspection Division, do not assume you cannot sell it. Call (888) 440-5250 for a no-obligation assessment. The condemnation order does not prevent a voluntary sale between willing parties; it restricts occupancy and use until the building department certifies remediation is complete. Selling as-is to USA Home Buyers transfers the remediation obligation, the compliance timeline, and the ongoing enforcement correspondence to a buyer who is equipped and willing to manage it. You receive your proceeds at closing and exit the property and the enforcement process simultaneously. We can close the transaction with violations in place and handle remediation or demolition as the new owner, entirely independent of the seller after closing.
+            If your Bloomington property has received a condemnation order or dangerous building notice from the City of Bloomington Building and Inspection Division, do not assume you cannot sell it. Call (888) 274-5006 for a no-obligation assessment. The condemnation order does not prevent a voluntary sale between willing parties; it restricts occupancy and use until the building department certifies remediation is complete. Selling as-is to USA Home Buyers transfers the remediation obligation, the compliance timeline, and the ongoing enforcement correspondence to a buyer who is equipped and willing to manage it. You receive your proceeds at closing and exit the property and the enforcement process simultaneously. We can close the transaction with violations in place and handle remediation or demolition as the new owner, entirely independent of the seller after closing.
           </p>
         </section>
 
@@ -212,7 +212,7 @@ export default function BloomingtonCodeViolationsPage() {
 
         <section className="my-6 bg-blue-50 border border-blue-100 rounded-2xl p-5">
           <p className="text-gray-700 text-sm">
-            <strong>Contact:</strong> City of Bloomington Neighborhood Services Division — for code enforcement status inquiries: <strong>bloomingtonil.gov</strong>. McLean County Recorder of Deeds for lien searches: 104 W. Front Street, Bloomington, IL 61701. USA Home Buyers for as-is cash offers on code-violation properties: <a href="tel:+18884405250" className="text-brand-primary font-medium">(888) 440-5250</a>.
+            <strong>Contact:</strong> City of Bloomington Neighborhood Services Division — for code enforcement status inquiries: <strong>bloomingtonil.gov</strong>. McLean County Recorder of Deeds for lien searches: 104 W. Front Street, Bloomington, IL 61701. USA Home Buyers for as-is cash offers on code-violation properties: <a href="tel:+18882745006" className="text-brand-primary font-medium">(888) 274-5006</a>.
           </p>
         </section>
 

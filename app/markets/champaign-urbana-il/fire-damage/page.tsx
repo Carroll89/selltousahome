@@ -15,14 +15,14 @@ const pageUrl = `${SITE_URL}/markets/champaign-urbana-il/fire-damage`;
 export const metadata: Metadata = {
   title: 'Sell Fire-Damaged House Champaign-Urbana IL',
   description:
-    'Sell a fire-damaged house in Champaign or Urbana IL as-is. Balloon-frame economics, IL insurance law (215 ILCS 5), UIUC rental fire risk, repair vs. sell decision. 888-440-5250.',
+    'Sell a fire-damaged house in Champaign or Urbana IL as-is. Balloon-frame economics, IL insurance law (215 ILCS 5), UIUC rental fire risk, repair vs. sell decision. 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
 const FAQ_ITEMS = [
   {
     question: 'Will you buy a fire-damaged house in Champaign-Urbana?',
-    answer: 'Yes. USA Home Buyers purchases fire and smoke-damaged houses in Champaign and Urbana in any condition — partial damage, total loss, smoke-only, water damage from fire suppression. You don\'t need to clean up, board up, or make any repairs. Written cash offer within 24 hours. Call (888) 440-5250.',
+    answer: 'Yes. USA Home Buyers purchases fire and smoke-damaged houses in Champaign and Urbana in any condition — partial damage, total loss, smoke-only, water damage from fire suppression. You don\'t need to clean up, board up, or make any repairs. Written cash offer within 24 hours. Call (888) 274-5006.',
   },
   {
     question: 'Do I need to resolve the insurance claim before selling?',
@@ -76,14 +76,14 @@ export default function ChampaignUrbanaFireDamagePage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                USA Home Buyers purchases fire-damaged houses in Champaign and Urbana IL — partial loss, total loss, smoke damage, water damage from suppression. IL insurance law: 215 ILCS 5/154.5 (unfair claims practices), IL DOI at insurance.illinois.gov. Disclosure required under 765 ILCS 77. Pre-1940 balloon-frame near UIUC campus: rebuild often exceeds post-rebuild value. No cleanup, no repairs, no insurance settlement required. Written offer in 24 hours. Call (888) 440-5250.
+                USA Home Buyers purchases fire-damaged houses in Champaign and Urbana IL — partial loss, total loss, smoke damage, water damage from suppression. IL insurance law: 215 ILCS 5/154.5 (unfair claims practices), IL DOI at insurance.illinois.gov. Disclosure required under 765 ILCS 77. Pre-1940 balloon-frame near UIUC campus: rebuild often exceeds post-rebuild value. No cleanup, no repairs, no insurance settlement required. Written offer in 24 hours. Call (888) 274-5006.
               </p>
             </div>
             <a
-              href="tel:+18884405250"
+              href="tel:+18882745006"
               className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors"
             >
-              📞 Call (888) 440-5250 — 24/7
+              📞 Call (888) 274-5006 — 24/7
             </a>
           </div>
       <VideoEmbed
@@ -97,7 +97,7 @@ export default function ChampaignUrbanaFireDamagePage() {
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          Fire damage on your Champaign-Urbana property? USA Home Buyers purchases fire-damaged homes in Champaign County as-is. No contractor estimates, no delays. Cash offer on current condition. Call 888-440-5250.
+          Fire damage on your Champaign-Urbana property? USA Home Buyers purchases fire-damaged homes in Champaign County as-is. No contractor estimates, no delays. Cash offer on current condition. Call 888-274-5006.
         </div>
       </details>
           <div>

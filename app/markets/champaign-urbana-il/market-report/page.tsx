@@ -14,7 +14,7 @@ const pageUrl = `${SITE_URL}/markets/champaign-urbana-il/market-report`;
 export const metadata: Metadata = {
   title: 'Champaign-Urbana IL Housing Market Report 2026',
   description:
-    'Champaign-Urbana IL housing market data: Metro ZHVI $226,978, Champaign city $199K, Urbana city $169K. Transfer tax clarification: 0.15% not 1.5%. Cash buyers: 888-440-5250.',
+    'Champaign-Urbana IL housing market data: Metro ZHVI $226,978, Champaign city $199K, Urbana city $169K. Transfer tax clarification: 0.15% not 1.5%. Cash buyers: 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
@@ -246,7 +246,7 @@ export default function ChampaignUrbanaMarketReportPage() {
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          Champaign-Urbana IL market 2026: University of Illinois drives consistent demand and a strong rental market. Tech sector growth in Research Park. Steady appreciation while remaining affordable. USA Home Buyers gives you a cash offer in 24 hours. Call 888-440-5250.
+          Champaign-Urbana IL market 2026: University of Illinois drives consistent demand and a strong rental market. Tech sector growth in Research Park. Steady appreciation while remaining affordable. USA Home Buyers gives you a cash offer in 24 hours. Call 888-274-5006.
         </div>
       </details>
         <CashOfferForm variant="footer" headline="Ready to Sell Your Champaign-Urbana Home?" sourcePage="/markets/champaign-urbana-il/market-report" />

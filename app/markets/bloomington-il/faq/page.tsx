@@ -15,14 +15,14 @@ const pageUrl = `${SITE_URL}/markets/bloomington-il/faq`;
 export const metadata: Metadata = {
   title: 'Bloomington IL Cash Home Buyer FAQ 2026',
   description:
-    'Answers to the most common questions from Bloomington IL home sellers. McLean County probate, transfer taxes, foreclosure timelines, ISU-area rentals. Call 888-440-5250.',
+    'Answers to the most common questions from Bloomington IL home sellers. McLean County probate, transfer taxes, foreclosure timelines, ISU-area rentals. Call 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
 const FAQ_ITEMS = [
   {
     question: 'How do I sell my house fast in Bloomington IL without making repairs?',
-    answer: "USA Home Buyers purchases Bloomington homes as-is — no repairs, no cleanout, no staging. We evaluate the property based on its current condition and location. Common situations we handle: Founders' Grove Victorians with deferred maintenance, West Bloomington pre-1950s homes with structural or mechanical issues, ISU-area rental properties with tenant wear, and North Bloomington homes facing estate or relocation pressure. We send a written cash offer within 24 hours of your inquiry. According to Zillow (February 2026), typical Bloomington homes go pending in just 4 days in the retail market — our cash process is faster than that. Call (888) 440-5250.",
+    answer: "USA Home Buyers purchases Bloomington homes as-is — no repairs, no cleanout, no staging. We evaluate the property based on its current condition and location. Common situations we handle: Founders' Grove Victorians with deferred maintenance, West Bloomington pre-1950s homes with structural or mechanical issues, ISU-area rental properties with tenant wear, and North Bloomington homes facing estate or relocation pressure. We send a written cash offer within 24 hours of your inquiry. According to Zillow (February 2026), typical Bloomington homes go pending in just 4 days in the retail market — our cash process is faster than that. Call (888) 274-5006.",
   },
   {
     question: 'How long does probate take at McLean County Circuit Court in Bloomington?',
@@ -69,7 +69,7 @@ export default function BloomingtonILFAQPage() {
 
         <section className="my-6 bg-brand-light rounded-xl p-5">
           <p className="text-gray-700 text-sm">
-            <strong>Quick answer:</strong> USA Home Buyers purchases houses in Bloomington IL and throughout McLean County — any condition, any situation, any neighborhood. Written cash offer in 24 hours. Close in 7-14 days. We cover all closing costs. Call <a href="tel:+18884405250" className="text-brand-primary font-medium">(888) 440-5250</a> or use the form below.
+            <strong>Quick answer:</strong> USA Home Buyers purchases houses in Bloomington IL and throughout McLean County — any condition, any situation, any neighborhood. Written cash offer in 24 hours. Close in 7-14 days. We cover all closing costs. Call <a href="tel:+18882745006" className="text-brand-primary font-medium">(888) 274-5006</a> or use the form below.
           </p>
         </section>
 
@@ -85,7 +85,7 @@ export default function BloomingtonILFAQPage() {
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          Questions about selling in Bloomington IL? Illinois judicial foreclosure runs 12-16 months in McLean County. Inherited property needs probate. We buy with code violations, tenant-occupied, any condition. Close in 7 days. Call 888-440-5250.
+          Questions about selling in Bloomington IL? Illinois judicial foreclosure runs 12-16 months in McLean County. Inherited property needs probate. We buy with code violations, tenant-occupied, any condition. Close in 7 days. Call 888-274-5006.
         </div>
       </details>
         <FAQSection items={FAQ_ITEMS} heading="Your Bloomington IL Selling Questions, Answered" />

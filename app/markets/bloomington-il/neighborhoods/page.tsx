@@ -101,10 +101,10 @@ export default function BloomingtonILNeighborhoodsPage() {
             From Founders&apos; Grove Victorians to ISU-area rentals to West Bloomington pre-war homes — we buy in every Bloomington neighborhood and throughout McLean County.
           </p>
           <a
-            href="tel:+18884405250"
+            href="tel:+18882745006"
             className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-5 py-2.5 rounded-xl text-base transition-colors"
           >
-            📞 (888) 440-5250 — 24/7
+            📞 (888) 274-5006 — 24/7
           </a>
         </div>
       </section>
@@ -150,7 +150,7 @@ export default function BloomingtonILNeighborhoodsPage() {
             ))}
           </div>
           <p className="text-gray-700 text-sm">
-            If you&apos;re unsure whether we serve your address, call (888) 440-5250. We cover all 1,183 square miles of McLean County.
+            If you&apos;re unsure whether we serve your address, call (888) 274-5006. We cover all 1,183 square miles of McLean County.
           </p>
         </section>
 
@@ -179,7 +179,7 @@ export default function BloomingtonILNeighborhoodsPage() {
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          Eastside Bloomington, Grove, Towanda, Normal — USA Home Buyers buys in every McLean County neighborhood. Bungalows, ranches, two-stories — any condition, any situation. Cash offer in 24 hours. Call 888-440-5250.
+          Eastside Bloomington, Grove, Towanda, Normal — USA Home Buyers buys in every McLean County neighborhood. Bungalows, ranches, two-stories — any condition, any situation. Cash offer in 24 hours. Call 888-274-5006.
         </div>
       </details>
         <CashOfferForm variant="footer" headline="Get Your Bloomington IL Cash Offer — Any Neighborhood" sourcePage="/markets/bloomington-il/neighborhoods" />

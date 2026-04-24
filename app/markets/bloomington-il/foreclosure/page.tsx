@@ -15,7 +15,7 @@ const pageUrl = `${SITE_URL}/markets/bloomington-il/foreclosure`;
 export const metadata: Metadata = {
   title: 'Sell Before Foreclosure Bloomington IL',
   description:
-    'Facing foreclosure in Bloomington IL? Illinois judicial foreclosure (735 ILCS 5/15-1101) runs 12-16 months in McLean County. Sell fast, preserve equity. Call 888-440-5250.',
+    'Facing foreclosure in Bloomington IL? Illinois judicial foreclosure (735 ILCS 5/15-1101) runs 12-16 months in McLean County. Sell fast, preserve equity. Call 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
@@ -34,7 +34,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'What is consent foreclosure and should I consider it?',
-    answer: "Consent foreclosure under 735 ILCS 5/15-1402 allows a borrower to consent to a judgment that vests absolute title in the lender. Upon entry of a consent foreclosure judgment, the borrower's reinstatement AND redemption rights are eliminated. In exchange, the debt is satisfied — the lender typically cannot pursue a personal deficiency judgment after consent foreclosure. Consent foreclosure is a tool for homeowners with no equity who want a clean exit without enduring the full foreclosure timeline. However, if you have equity in your Bloomington home, selling before the auction preserves that equity in a way consent foreclosure does not. Call (888) 440-5250 to evaluate your specific position.",
+    answer: "Consent foreclosure under 735 ILCS 5/15-1402 allows a borrower to consent to a judgment that vests absolute title in the lender. Upon entry of a consent foreclosure judgment, the borrower's reinstatement AND redemption rights are eliminated. In exchange, the debt is satisfied — the lender typically cannot pursue a personal deficiency judgment after consent foreclosure. Consent foreclosure is a tool for homeowners with no equity who want a clean exit without enduring the full foreclosure timeline. However, if you have equity in your Bloomington home, selling before the auction preserves that equity in a way consent foreclosure does not. Call (888) 274-5006 to evaluate your specific position.",
   },
   {
     question: 'Can I sell my Bloomington house after foreclosure has started?',
@@ -42,7 +42,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'Does State Farm workforce restructuring create more foreclosures in Bloomington?',
-    answer: "State Farm undertook significant workforce reductions in 2020-2023, transitioning many Bloomington-area employees to remote work or early retirement packages. Some employees who purchased homes at Bloomington's market peak in expectation of continued employment income found themselves managing mortgage payments on reduced or fixed income. This is a real dynamic in the Bloomington market — though it's less acute than the distress levels seen in manufacturing-dependent markets like Rockford or Peoria. If you're in mortgage distress following an employment change at State Farm or Country Financial, call (888) 440-5250.",
+    answer: "State Farm undertook significant workforce reductions in 2020-2023, transitioning many Bloomington-area employees to remote work or early retirement packages. Some employees who purchased homes at Bloomington's market peak in expectation of continued employment income found themselves managing mortgage payments on reduced or fixed income. This is a real dynamic in the Bloomington market — though it's less acute than the distress levels seen in manufacturing-dependent markets like Rockford or Peoria. If you're in mortgage distress following an employment change at State Farm or Country Financial, call (888) 274-5006.",
   },
 ];
 
@@ -82,11 +82,11 @@ export default function BloomingtonForeclosurePage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                Illinois is a 100% judicial foreclosure state under 735 ILCS 5/15-1101 et seq. McLean County foreclosures run 12-16 months from first missed payment — 11th Judicial Circuit, 104 W. Front Street, Bloomington. Borrowers have a 3-month reinstatement right (735 ILCS 5/15-1602) and a 7-month redemption period (735 ILCS 5/15-1603). Selling during the redemption window preserves equity. USA Home Buyers closes in 7-14 days. Call (888) 440-5250.
+                Illinois is a 100% judicial foreclosure state under 735 ILCS 5/15-1101 et seq. McLean County foreclosures run 12-16 months from first missed payment — 11th Judicial Circuit, 104 W. Front Street, Bloomington. Borrowers have a 3-month reinstatement right (735 ILCS 5/15-1602) and a 7-month redemption period (735 ILCS 5/15-1603). Selling during the redemption window preserves equity. USA Home Buyers closes in 7-14 days. Call (888) 274-5006.
               </p>
             </div>
-            <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
-              📞 (888) 440-5250 — 24/7
+            <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
+              📞 (888) 274-5006 — 24/7
             </a>
           </div>
 
@@ -101,7 +101,7 @@ export default function BloomingtonForeclosurePage() {
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          Facing foreclosure in Bloomington IL? Illinois judicial foreclosure — once judgment enters, the clock runs. USA Home Buyers closes in 7 days, stops the process, protects your credit. Call 888-440-5250 right now.
+          Facing foreclosure in Bloomington IL? Illinois judicial foreclosure — once judgment enters, the clock runs. USA Home Buyers closes in 7 days, stops the process, protects your credit. Call 888-274-5006 right now.
         </div>
       </details>
           <CashOfferForm
@@ -227,7 +227,7 @@ export default function BloomingtonForeclosurePage() {
           <ol className="list-decimal pl-6 text-gray-700 space-y-3 mb-4">
             <li><strong>Determine where you are in the process:</strong> Has the lender filed a complaint in McLean County Circuit Court? Have you been served with summons? The answers determine how much of the reinstatement and redemption windows remain. If you haven&apos;t been served yet, you&apos;re in the best position.</li>
             <li><strong>Calculate your equity:</strong> What is your property worth vs. your total mortgage payoff? Per Zillow (February 2026), the Bloomington ZHVI is $228,634. A cash offer in the 70-78% range would be $160,044-$178,335. If your payoff is below those numbers, you have equity worth preserving through a voluntary sale.</li>
-            <li><strong>Contact USA Home Buyers:</strong> Call (888) 440-5250 for a no-obligation assessment of your situation. We can tell you within 24 hours what a cash offer looks like for your specific property and help you evaluate whether a sale makes sense given your mortgage balance and the remaining redemption window.</li>
+            <li><strong>Contact USA Home Buyers:</strong> Call (888) 274-5006 for a no-obligation assessment of your situation. We can tell you within 24 hours what a cash offer looks like for your specific property and help you evaluate whether a sale makes sense given your mortgage balance and the remaining redemption window.</li>
           </ol>
         </section>
 

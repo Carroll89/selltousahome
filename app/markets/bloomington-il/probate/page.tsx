@@ -15,7 +15,7 @@ const pageUrl = `${SITE_URL}/markets/bloomington-il/probate`;
 export const metadata: Metadata = {
   title: 'Sell Probate Property Bloomington IL',
   description:
-    'Selling probate real estate in Bloomington IL? McLean County Circuit Court, 755 ILCS 5, independent administration. Written cash offer in 24 hours. Call 888-440-5250.',
+    'Selling probate real estate in Bloomington IL? McLean County Circuit Court, 755 ILCS 5, independent administration. Written cash offer in 24 hours. Call 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
@@ -82,11 +82,11 @@ export default function BloomingtonProbatePage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                Illinois probate is governed by 755 ILCS 5 (Illinois Probate Act). Real property always requires formal probate — the 2025 small-estate amendment ($150K) covers personal property only. McLean County Circuit Court, Civil Division: 104 W. Front St., Room 404, (309) 888-5350. Under independent administration (755 ILCS 5/28-1), executor can sell without per-transaction court approval. Typical timeline to Letters: 6-12 weeks. USA Home Buyers has written offer ready before you file. Call (888) 440-5250.
+                Illinois probate is governed by 755 ILCS 5 (Illinois Probate Act). Real property always requires formal probate — the 2025 small-estate amendment ($150K) covers personal property only. McLean County Circuit Court, Civil Division: 104 W. Front St., Room 404, (309) 888-5350. Under independent administration (755 ILCS 5/28-1), executor can sell without per-transaction court approval. Typical timeline to Letters: 6-12 weeks. USA Home Buyers has written offer ready before you file. Call (888) 274-5006.
               </p>
             </div>
-            <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
-              📞 (888) 440-5250 — 24/7
+            <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
+              📞 (888) 274-5006 — 24/7
             </a>
           </div>
 
@@ -101,7 +101,7 @@ export default function BloomingtonProbatePage() {
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          Bloomington property in Illinois probate? USA Home Buyers works with personal representatives through McLean County Circuit Court. We buy as-is once the court grants authority. Cash offer in 24 hours. Call 888-440-5250.
+          Bloomington property in Illinois probate? USA Home Buyers works with personal representatives through McLean County Circuit Court. We buy as-is once the court grants authority. Cash offer in 24 hours. Call 888-274-5006.
         </div>
       </details>
           <CashOfferForm

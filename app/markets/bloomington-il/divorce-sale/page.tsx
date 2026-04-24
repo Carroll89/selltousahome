@@ -15,7 +15,7 @@ const pageUrl = `${SITE_URL}/markets/bloomington-il/divorce-sale`;
 export const metadata: Metadata = {
   title: 'Sell House Fast Bloomington IL Divorce',
   description:
-    'Divorce home sale in Bloomington IL? Illinois equitable distribution (750 ILCS 5), McLean County Family Division. One cash offer, one closing. Call 888-440-5250.',
+    'Divorce home sale in Bloomington IL? Illinois equitable distribution (750 ILCS 5), McLean County Family Division. One cash offer, one closing. Call 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
@@ -34,7 +34,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'What if one spouse won\'t agree to sell the Bloomington house?',
-    answer: "If your spouse refuses to agree to a sale, the court can compel a sale as part of equitable distribution. Under 750 ILCS 5/503(d)(5), the court may order the sale of marital property and divide proceeds. A court-ordered sale may be required if the parties cannot agree on the disposition of the home. However, court-ordered sales typically take longer and give you less control over the outcome than a negotiated sale. A specific cash offer from USA Home Buyers often resolves the impasse by replacing an abstract negotiation with a concrete dollar amount. Call (888) 440-5250.",
+    answer: "If your spouse refuses to agree to a sale, the court can compel a sale as part of equitable distribution. Under 750 ILCS 5/503(d)(5), the court may order the sale of marital property and divide proceeds. A court-ordered sale may be required if the parties cannot agree on the disposition of the home. However, court-ordered sales typically take longer and give you less control over the outcome than a negotiated sale. A specific cash offer from USA Home Buyers often resolves the impasse by replacing an abstract negotiation with a concrete dollar amount. Call (888) 274-5006.",
   },
   {
     question: 'How does the Bloomington home value affect division in our divorce?',
@@ -82,11 +82,11 @@ export default function BloomingtonDivorceSalePage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                Illinois is an equitable distribution state (NOT community property) under 750 ILCS 5/503. McLean County Family Division handles dissolution proceedings at 104 W. Front Street, Bloomington. Per Redfin (March 2026), Bloomington median sale price is $300,000 — high-equity dual-income households are common in the insurance-professional community. USA Home Buyers provides one cash offer both spouses can evaluate. Written offer in 24 hours. Close in 7-14 days. Call (888) 440-5250.
+                Illinois is an equitable distribution state (NOT community property) under 750 ILCS 5/503. McLean County Family Division handles dissolution proceedings at 104 W. Front Street, Bloomington. Per Redfin (March 2026), Bloomington median sale price is $300,000 — high-equity dual-income households are common in the insurance-professional community. USA Home Buyers provides one cash offer both spouses can evaluate. Written offer in 24 hours. Close in 7-14 days. Call (888) 274-5006.
               </p>
             </div>
-            <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
-              📞 (888) 440-5250 — 24/7
+            <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
+              📞 (888) 274-5006 — 24/7
             </a>
           </div>
 
@@ -101,7 +101,7 @@ export default function BloomingtonDivorceSalePage() {
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          Divorce in Bloomington IL and need to sell fast? One cash offer, both parties sign, close in 7-14 days. No agents, no open houses. Proceeds split at closing per your agreement. Call 888-440-5250.
+          Divorce in Bloomington IL and need to sell fast? One cash offer, both parties sign, close in 7-14 days. No agents, no open houses. Proceeds split at closing per your agreement. Call 888-274-5006.
         </div>
       </details>
           <CashOfferForm

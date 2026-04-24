@@ -15,7 +15,7 @@ const pageUrl = `${SITE_URL}/markets/champaign-urbana-il/faq`;
 export const metadata: Metadata = {
   title: 'Champaign-Urbana IL Home Selling FAQ 2026',
   description:
-    'Answers to Champaign-Urbana IL home selling questions: county seat in Urbana, UIUC rental market, transfer tax 0.15% vs 1.5% clarification, probate, foreclosure. Call 888-440-5250.',
+    'Answers to Champaign-Urbana IL home selling questions: county seat in Urbana, UIUC rental market, transfer tax 0.15% vs 1.5% clarification, probate, foreclosure. Call 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
@@ -60,13 +60,13 @@ export default function ChampaignUrbanaFAQPage() {
             Champaign-Urbana IL Home Selling FAQ — Your Questions Answered
           </h1>
           <p className="text-blue-100 text-lg mb-6">
-            C-U-specific answers: county seat confusion, UIUC rental dynamics, transfer-tax clarification, probate, foreclosure. Call (888) 440-5250 for your situation.
+            C-U-specific answers: county seat confusion, UIUC rental dynamics, transfer-tax clarification, probate, foreclosure. Call (888) 274-5006 for your situation.
           </p>
           <a
-            href="tel:+18884405250"
+            href="tel:+18882745006"
             className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg transition-colors"
           >
-            📞 (888) 440-5250 — Get Answers Now
+            📞 (888) 274-5006 — Get Answers Now
           </a>
         </div>
       </section>
@@ -83,7 +83,7 @@ export default function ChampaignUrbanaFAQPage() {
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          Questions about selling in Champaign-Urbana? Illinois judicial foreclosure runs 12-16 months. We buy student rentals with tenants in place. Inherited property needs Champaign County probate. We buy as-is. Close in 7 days. Call 888-440-5250.
+          Questions about selling in Champaign-Urbana? Illinois judicial foreclosure runs 12-16 months. We buy student rentals with tenants in place. Inherited property needs Champaign County probate. We buy as-is. Close in 7 days. Call 888-274-5006.
         </div>
       </details>
         <FAQSection items={FAQ_ITEMS} heading="Frequently Asked Questions — Champaign-Urbana IL" />
@@ -91,8 +91,8 @@ export default function ChampaignUrbanaFAQPage() {
         <section className="my-8 bg-brand-light rounded-2xl p-6">
           <h2 className="text-xl font-bold text-brand-dark mb-2">Have a question not covered here?</h2>
           <p className="text-gray-700 text-sm mb-4">Every property situation is different. Call us and we'll answer honestly — no obligation, no pressure.</p>
-          <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-brand-primary hover:bg-brand-dark text-white font-bold px-5 py-2 rounded-xl text-sm transition-colors">
-            📞 Call (888) 440-5250
+          <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-brand-primary hover:bg-brand-dark text-white font-bold px-5 py-2 rounded-xl text-sm transition-colors">
+            📞 Call (888) 274-5006
           </a>
         </section>
 

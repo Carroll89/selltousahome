@@ -14,7 +14,7 @@ const pageUrl = `${SITE_URL}/markets/champaign-urbana-il/neighborhoods`;
 export const metadata: Metadata = {
   title: 'Champaign-Urbana IL Neighborhoods — Cash Home Buyers',
   description:
-    'Champaign and Urbana IL neighborhood guide for sellers: Campustown, Old West Urbana, Southwest Champaign, University District, Crystal Lake Park and more. Call 888-440-5250.',
+    'Champaign and Urbana IL neighborhood guide for sellers: Campustown, Old West Urbana, Southwest Champaign, University District, Crystal Lake Park and more. Call 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
@@ -104,10 +104,10 @@ export default function ChampaignUrbanaNeighborhoodsPage() {
             From Campustown student rentals to Southwest Champaign Research Park homes to Old West Urbana faculty estates — every neighborhood has its own price range and seller profile. We buy in all of them.
           </p>
           <a
-            href="tel:+18884405250"
+            href="tel:+18882745006"
             className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg transition-colors"
           >
-            📞 (888) 440-5250 — Get Your Neighborhood Offer
+            📞 (888) 274-5006 — Get Your Neighborhood Offer
           </a>
         </div>
       </section>
@@ -174,7 +174,7 @@ export default function ChampaignUrbanaNeighborhoodsPage() {
         <section className="my-8">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">How to Get a Cash Offer for Your Champaign-Urbana Home</h2>
           <p className="text-gray-700 mb-4">
-            Call (888) 440-5250 or fill out the form below. Tell us the address, the condition (be honest — we buy as-is), and your timeline. We'll send a written offer within 24 hours. No obligation, no games, no bait-and-switch.
+            Call (888) 274-5006 or fill out the form below. Tell us the address, the condition (be honest — we buy as-is), and your timeline. We'll send a written offer within 24 hours. No obligation, no games, no bait-and-switch.
           </p>
         </section>
 
@@ -189,7 +189,7 @@ export default function ChampaignUrbanaNeighborhoodsPage() {
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          Campustown, east Champaign, Urbana, Savoy — USA Home Buyers buys in every Champaign County neighborhood. Student rentals, brick ranches, Victorians — any condition, any situation. Cash offer in 24 hours. Call 888-440-5250.
+          Campustown, east Champaign, Urbana, Savoy — USA Home Buyers buys in every Champaign County neighborhood. Student rentals, brick ranches, Victorians — any condition, any situation. Cash offer in 24 hours. Call 888-274-5006.
         </div>
       </details>
         <CashOfferForm variant="footer" headline="Get Your Champaign-Urbana Neighborhood Cash Offer" sourcePage="/markets/champaign-urbana-il/neighborhoods" />
