@@ -104,10 +104,10 @@ export default function NewHavenCTBlogPost() {
           <div className="bg-blue-50 border border-blue-200 rounded-xl p-4 my-8">
             <p className="font-semibold text-brand-dark mb-2">Ready to Sell Your New Haven CT Home?</p>
             <p className="text-gray-700 text-sm mb-3">
-              Call 888-440-5250 or submit the form below. Written offer in 24 hours. Close in 7-14 days. Any condition. We cover all closing costs including CT's 1.25% conveyance tax. <strong>Hablamos español.</strong>
+              Call 888-274-5006 or submit the form below. Written offer in 24 hours. Close in 7-14 days. Any condition. We cover all closing costs including CT's 1.25% conveyance tax. <strong>Hablamos español.</strong>
             </p>
-            <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-4 py-2 rounded-lg text-sm transition-colors">
-              📞 Call 888-440-5250
+            <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-4 py-2 rounded-lg text-sm transition-colors">
+              📞 Call 888-274-5006
             </a>
           </div>
 

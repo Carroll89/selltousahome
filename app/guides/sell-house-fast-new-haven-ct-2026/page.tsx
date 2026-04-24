@@ -42,7 +42,7 @@ const FAQ_ITEMS = [
   },
   {
     question: '¿Cómo puedo vender mi casa rápido en New Haven CT?',
-    answer: 'Llame a USA Home Buyers al 888-440-5250. Hablamos español. Oferta por escrito en 24 horas, cierre en 7-14 días. Compramos en cualquier condición — sin reparaciones, sin comisiones. Servimos a la comunidad hispana del 31% de New Haven.',
+    answer: 'Llame a USA Home Buyers al 888-274-5006. Hablamos español. Oferta por escrito en 24 horas, cierre en 7-14 días. Compramos en cualquier condición — sin reparaciones, sin comisiones. Servimos a la comunidad hispana del 31% de New Haven.',
   },
 ];
 
@@ -80,7 +80,7 @@ export default function NewHavenGuide2026() {
         <div className="bg-blue-50 border border-blue-200 rounded-xl p-4 mb-8">
           <p className="text-blue-800 text-sm font-medium mb-1">TL;DR — Quick Answer</p>
           <p className="text-blue-900 text-sm leading-relaxed">
-            New Haven CT (RDC hotness #12, DOM 65 days, Zillow ZHVI $323,843) has a two-tier market: hot homes close in 28 days; distressed properties need cash buyers. CT strict foreclosure has no auction — Law Day 5-9 months. New Haven conveyance tax: 1.25% (Targeted Investment muni). CT Probate Court at 200 Orange St, (203) 946-4880. Cash buyers close in 7-14 days. 31% Hispanic — hablamos español. Call 888-440-5250.
+            New Haven CT (RDC hotness #12, DOM 65 days, Zillow ZHVI $323,843) has a two-tier market: hot homes close in 28 days; distressed properties need cash buyers. CT strict foreclosure has no auction — Law Day 5-9 months. New Haven conveyance tax: 1.25% (Targeted Investment muni). CT Probate Court at 200 Orange St, (203) 946-4880. Cash buyers close in 7-14 days. 31% Hispanic — hablamos español. Call 888-274-5006.
           </p>
         </div>
 
@@ -154,7 +154,7 @@ export default function NewHavenGuide2026() {
             According to the U.S. Census Bureau (census.gov), New Haven's Hispanic and Latino population is 31% of the city — one of the highest percentages in Connecticut. The community is concentrated in Fair Haven and The Hill, with significant Puerto Rican and Ecuadorian representation. Many Fair Haven homeowners are first- or second-generation immigrants whose families built equity through triple-decker ownership over decades.
           </p>
           <p className="text-gray-700 mb-4">
-            USA Home Buyers serves New Haven's Hispanic community in English and Spanish. We can handle the entire transaction in Spanish — from the initial phone call through the Probate Court process, through closing with the real estate attorney. Hablamos español. Call 888-440-5250.
+            USA Home Buyers serves New Haven's Hispanic community in English and Spanish. We can handle the entire transaction in Spanish — from the initial phone call through the Probate Court process, through closing with the real estate attorney. Hablamos español. Call 888-274-5006.
           </p>
 
           <h2 className="text-2xl font-bold text-brand-dark mt-8 mb-4">The 4 Ways to Sell a House in New Haven CT</h2>
@@ -187,7 +187,7 @@ export default function NewHavenGuide2026() {
 
           <h2 className="text-2xl font-bold text-brand-dark mt-8 mb-4">Ready to Sell Your New Haven CT Home?</h2>
           <p className="text-gray-700 mb-4">
-            USA Home Buyers purchases homes throughout New Haven city and New Haven County — Fair Haven, East Rock, Westville, The Hill, Newhallville, Wooster Square, Dixwell, Dwight, Edgewood, West Haven, Hamden, East Haven, Milford, Shelton, Branford, Derby, Ansonia, Naugatuck, and Wallingford. Any condition. Any situation. Written offer in 24 hours. Close in 7-14 days. Hablamos español. Call 888-440-5250.
+            USA Home Buyers purchases homes throughout New Haven city and New Haven County — Fair Haven, East Rock, Westville, The Hill, Newhallville, Wooster Square, Dixwell, Dwight, Edgewood, West Haven, Hamden, East Haven, Milford, Shelton, Branford, Derby, Ansonia, Naugatuck, and Wallingford. Any condition. Any situation. Written offer in 24 hours. Close in 7-14 days. Hablamos español. Call 888-274-5006.
           </p>
         </div>
 

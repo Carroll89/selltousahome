@@ -37,7 +37,7 @@ export default function SellHouseFastConnecticutPage() {
         <div className="bg-blue-50 border border-blue-100 rounded-xl p-5 mb-8">
           <p className="text-sm font-semibold text-blue-800 mb-2">TL;DR</p>
           <p className="text-sm text-blue-900 leading-relaxed">
-            USA Home Buyers purchases houses for cash throughout Connecticut — currently serving Bridgeport and New Haven. Written offer in 24 hours, close in 7–14 days, any condition, no repairs, no fees. We cover all closing costs. Call 888-440-5250.
+            USA Home Buyers purchases houses for cash throughout Connecticut — currently serving Bridgeport and New Haven. Written offer in 24 hours, close in 7–14 days, any condition, no repairs, no fees. We cover all closing costs. Call 888-274-5006.
           </p>
         </div>
 
@@ -124,7 +124,7 @@ export default function SellHouseFastConnecticutPage() {
         </section>
 
         <div className="mb-8 p-4 bg-blue-50 rounded-xl">
-          <p className="text-sm text-blue-900"><strong>Hablamos español.</strong> Bridgeport has a 41% Hispanic community; New Haven is 31% Hispanic. We serve Connecticut sellers in English and Spanish across both markets. Llámenos al 888-440-5250.</p>
+          <p className="text-sm text-blue-900"><strong>Hablamos español.</strong> Bridgeport has a 41% Hispanic community; New Haven is 31% Hispanic. We serve Connecticut sellers in English and Spanish across both markets. Llámenos al 888-274-5006.</p>
         </div>
         <CashOfferForm variant="inline" headline="Get a Cash Offer for Your Connecticut Home" subheadline="Written offer in 24 hours. We cover all closing costs." sourcePage="/sell-house-fast-connecticut" />
       </div>
