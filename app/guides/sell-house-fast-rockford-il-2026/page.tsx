@@ -15,7 +15,7 @@ const pageUrl = `${SITE_URL}/guides/sell-house-fast-rockford-il-2026`;
 export const metadata: Metadata = {
   title: 'Sell House Fast Rockford IL 2026 — Guide',
   description:
-    'Complete 2026 guide to selling your house fast in Rockford IL. Honest comparison of cash buyers, agents, and iBuyers with real Rockford market data. Call 888-440-5250.',
+    'Complete 2026 guide to selling your house fast in Rockford IL. Honest comparison of cash buyers, agents, and iBuyers with real Rockford market data. Call 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
@@ -73,14 +73,14 @@ export default function SellHouseFastRockfordILGuide() {
           <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
             <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
             <p className="text-white text-sm leading-relaxed">
-              Rockford IL is the #11 hottest housing market in the US (RDC March 2026, score 93.645). Redfin median sale price $170,000 (+17.2% YoY); Zillow ZHVI $142,859; compete score 89/100. Cash buyers offer 70-78% of FMV. iBuyers (Opendoor, Offerpad) do not operate in Rockford. Top local competitors: We Buy Ugly Houses (HomeVestors franchise), Simply Sold RE, Modern Times Homes. USA Home Buyers closes in 7-14 days, covers all closing costs including IL state + Winnebago County transfer tax ($0.75/$500). Call 888-440-5250.
+              Rockford IL is the #11 hottest housing market in the US (RDC March 2026, score 93.645). Redfin median sale price $170,000 (+17.2% YoY); Zillow ZHVI $142,859; compete score 89/100. Cash buyers offer 70-78% of FMV. iBuyers (Opendoor, Offerpad) do not operate in Rockford. Top local competitors: We Buy Ugly Houses (HomeVestors franchise), Simply Sold RE, Modern Times Homes. USA Home Buyers closes in 7-14 days, covers all closing costs including IL state + Winnebago County transfer tax ($0.75/$500). Call 888-274-5006.
             </p>
           </div>
           <p className="text-blue-100 text-lg mb-6">
             Everything a Rockford or Winnebago County seller needs to know to make an informed decision — cash buyers, retail listing, transfer taxes, foreclosure timelines, and the honest math.
           </p>
-          <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg transition-colors">
-            📞 Call Now — 888-440-5250 (24/7)
+          <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg transition-colors">
+            📞 Call Now — 888-274-5006 (24/7)
           </a>
         </div>
       </section>

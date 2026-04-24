@@ -29,7 +29,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How much is my Springfield house worth in 2026?',
-    answer: 'The Zillow ZHVI for Springfield is $163,198 (+8.2% YoY, March 2026). Redfin\'s March 2026 median sale price is $187,000 (+23% YoY). These are market averages — specific neighborhoods vary widely. Enos Park median is $118,495 (NeighborhoodScout); Harvard Park is $92,550 (homes.com 12-month). Well-maintained West Side ranches and Chatham suburban homes trade at or above the ZHVI average. For a cash offer specific to your property, call 888-440-5250.',
+    answer: 'The Zillow ZHVI for Springfield is $163,198 (+8.2% YoY, March 2026). Redfin\'s March 2026 median sale price is $187,000 (+23% YoY). These are market averages — specific neighborhoods vary widely. Enos Park median is $118,495 (NeighborhoodScout); Harvard Park is $92,550 (homes.com 12-month). Well-maintained West Side ranches and Chatham suburban homes trade at or above the ZHVI average. For a cash offer specific to your property, call 888-274-5006.',
   },
 ];
 
@@ -139,8 +139,8 @@ export default function SpringfieldILBlogPost() {
         <div className="bg-brand-light rounded-2xl p-6 mb-8">
           <h2 className="text-xl font-bold text-brand-dark mb-2">Thinking About Selling Your Springfield Home?</h2>
           <p className="text-gray-700 text-sm mb-4">USA Home Buyers purchases homes in Springfield and throughout Sangamon County. Written offer in 24 hours, close in 7-14 days, any condition, all closing costs covered.</p>
-          <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-brand-primary hover:bg-brand-dark text-white font-bold px-5 py-2.5 rounded-xl transition-colors">
-            📞 Call 888-440-5250
+          <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-brand-primary hover:bg-brand-dark text-white font-bold px-5 py-2.5 rounded-xl transition-colors">
+            📞 Call 888-274-5006
           </a>
         </div>
 

@@ -92,7 +92,7 @@ export default function RockfordILBlogPost() {
 
           <h2 className="text-2xl font-bold text-brand-dark mt-8 mb-4">The Short Version</h2>
           <p className="text-gray-700 mb-4">
-            Rockford in 2026 is a genuinely competitive market — 14 days to sell, 89/100 compete score, 17% price appreciation. If your home is retail-ready and you have the time, list it. If it has deferred maintenance issues, is in probate or foreclosure or divorce, or you simply need to close in 7 days, call USA Home Buyers at 888-440-5250. Written offer in 24 hours. No repairs, no commissions, no waiting.
+            Rockford in 2026 is a genuinely competitive market — 14 days to sell, 89/100 compete score, 17% price appreciation. If your home is retail-ready and you have the time, list it. If it has deferred maintenance issues, is in probate or foreclosure or divorce, or you simply need to close in 7 days, call USA Home Buyers at 888-274-5006. Written offer in 24 hours. No repairs, no commissions, no waiting.
           </p>
         </div>
 

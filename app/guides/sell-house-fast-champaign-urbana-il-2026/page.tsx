@@ -15,7 +15,7 @@ const pageUrl = `${SITE_URL}/guides/sell-house-fast-champaign-urbana-il-2026`;
 export const metadata: Metadata = {
   title: 'Sell House Fast Champaign-Urbana IL 2026 — Complete Guide',
   description:
-    'Complete 2026 guide to selling your house fast in Champaign or Urbana IL. Cash buyers, agents, transfer tax clarification (0.15% not 1.5%), county seat in Urbana, UIUC market context. Call 888-440-5250.',
+    'Complete 2026 guide to selling your house fast in Champaign or Urbana IL. Cash buyers, agents, transfer tax clarification (0.15% not 1.5%), county seat in Urbana, UIUC market context. Call 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
@@ -76,17 +76,17 @@ export default function SellHouseFastChampaignUrbanaILGuide() {
           <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
             <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
             <p className="text-white text-sm leading-relaxed">
-              Champaign-Urbana IL (#77 nationally, RDC 2026): Metro ZHVI $226,978 (+5.0%, Zillow Feb 2026); county median sale price $230,000 (+4.3%, Redfin Feb 2026). Cash buyers offer 68-76% of FMV, close 7-14 days. Transfer tax: 0.15% ($300 on $200K) — NOT 1.5% as the Champaign County Clerk site states (decimal-point typo confirmed). County seat is Urbana — all filings at 101 E. Main St., Urbana IL 61802. iBuyers not operating in C-U. Call (888) 440-5250.
+              Champaign-Urbana IL (#77 nationally, RDC 2026): Metro ZHVI $226,978 (+5.0%, Zillow Feb 2026); county median sale price $230,000 (+4.3%, Redfin Feb 2026). Cash buyers offer 68-76% of FMV, close 7-14 days. Transfer tax: 0.15% ($300 on $200K) — NOT 1.5% as the Champaign County Clerk site states (decimal-point typo confirmed). County seat is Urbana — all filings at 101 E. Main St., Urbana IL 61802. iBuyers not operating in C-U. Call (888) 274-5006.
             </p>
           </div>
           <p className="text-blue-100 text-lg mb-6">
             Everything a Champaign or Urbana seller needs to know in 2026 — cash buyers, retail listing, the county-seat quirk, transfer tax clarification, and the honest math.
           </p>
           <a
-            href="tel:+18884405250"
+            href="tel:+18882745006"
             className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg transition-colors"
           >
-            📞 (888) 440-5250 — Get Your Offer
+            📞 (888) 274-5006 — Get Your Offer
           </a>
         </div>
       </section>

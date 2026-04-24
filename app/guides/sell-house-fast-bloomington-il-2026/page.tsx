@@ -15,7 +15,7 @@ const pageUrl = `${SITE_URL}/guides/sell-house-fast-bloomington-il-2026`;
 export const metadata: Metadata = {
   title: 'Sell House Fast Bloomington IL 2026 — Complete Guide',
   description:
-    'Complete 2026 guide to selling your house fast in Bloomington IL. Real market data, transfer taxes, foreclosure timelines, cash buyer math. RDC #27. Call 888-440-5250.',
+    'Complete 2026 guide to selling your house fast in Bloomington IL. Real market data, transfer taxes, foreclosure timelines, cash buyer math. RDC #27. Call 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
@@ -42,7 +42,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'Who are the main cash home buyers in Bloomington IL?',
-    answer: "The primary cash buyers in Bloomington include We Buy Ugly Houses (HomeVestors national franchise), local and regional IL operators, and USA Home Buyers — which operates Bloomington as our third Illinois market following Springfield (Sangamon County) and Rockford (Winnebago County). Each operator offers different coverage, experience, and offer competitiveness. USA Home Buyers covers all of McLean County with same-day offer turnaround. Call (888) 440-5250 for a no-obligation written offer.",
+    answer: "The primary cash buyers in Bloomington include We Buy Ugly Houses (HomeVestors national franchise), local and regional IL operators, and USA Home Buyers — which operates Bloomington as our third Illinois market following Springfield (Sangamon County) and Rockford (Winnebago County). Each operator offers different coverage, experience, and offer competitiveness. USA Home Buyers covers all of McLean County with same-day offer turnaround. Call (888) 274-5006 for a no-obligation written offer.",
   },
 ];
 
@@ -73,7 +73,7 @@ export default function SellHouseFastBloomingtonILGuide() {
           <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
             <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
             <p className="text-white text-sm leading-relaxed">
-              Bloomington IL is the #27 hottest housing MSA in the US (Realtor.com, April 2026). According to Zillow (February 2026), ZHVI is $228,634 (+7.5% YoY) with homes pending in ~4 days. Per Redfin (March 2026), median sale price is $300,000 (+33% YoY). Cash buyers offer 70-78% of FMV; iBuyers (Opendoor, Offerpad) do not operate in Bloomington. Transfer tax: $300 on a $200K sale (IL state + McLean County; no municipal RETT). USA Home Buyers closes in 7-14 days, covers all closing costs. State Farm HQ, Country Financial HQ, ISU, IWU — insurance-capital market with distinct seller profile. Call (888) 440-5250.
+              Bloomington IL is the #27 hottest housing MSA in the US (Realtor.com, April 2026). According to Zillow (February 2026), ZHVI is $228,634 (+7.5% YoY) with homes pending in ~4 days. Per Redfin (March 2026), median sale price is $300,000 (+33% YoY). Cash buyers offer 70-78% of FMV; iBuyers (Opendoor, Offerpad) do not operate in Bloomington. Transfer tax: $300 on a $200K sale (IL state + McLean County; no municipal RETT). USA Home Buyers closes in 7-14 days, covers all closing costs. State Farm HQ, Country Financial HQ, ISU, IWU — insurance-capital market with distinct seller profile. Call (888) 274-5006.
             </p>
           </div>
           <p className="text-blue-100 text-lg mb-6">

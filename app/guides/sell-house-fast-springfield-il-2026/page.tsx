@@ -82,8 +82,8 @@ export default function SellHouseFastSpringfieldILGuide() {
             Sell House Fast Springfield IL 2026 — The Complete Guide
           </h1>
           <p className="text-lg text-blue-100 mb-4">Real market data. Honest comparison. Every Springfield seller option explained.</p>
-          <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
-            📞 Call 888-440-5250 — Get a Cash Offer in 24 Hours
+          <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
+            📞 Call 888-274-5006 — Get a Cash Offer in 24 Hours
           </a>
         </div>
       </section>
@@ -93,7 +93,7 @@ export default function SellHouseFastSpringfieldILGuide() {
         <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-8">
           <p className="text-sm font-semibold text-blue-800 mb-2">TL;DR — Sell House Fast Springfield IL 2026</p>
           <p className="text-sm text-blue-900 leading-relaxed">
-            Springfield IL is the #10 hottest market in the US (Realtor.com, March 2026). Redfin median sale price: $187,000 (+23% YoY). Zillow ZHVI: $163,198 (+8.2%). Median DOM: 27 days. The fastest path for an as-is sale: USA Home Buyers — written offer in 24 hours, close in 7-14 days, all closing costs covered. Illinois state + Sangamon County transfer tax: $0.75/$500 ($280.50 on median) — we cover it. Call 888-440-5250.
+            Springfield IL is the #10 hottest market in the US (Realtor.com, March 2026). Redfin median sale price: $187,000 (+23% YoY). Zillow ZHVI: $163,198 (+8.2%). Median DOM: 27 days. The fastest path for an as-is sale: USA Home Buyers — written offer in 24 hours, close in 7-14 days, all closing costs covered. Illinois state + Sangamon County transfer tax: $0.75/$500 ($280.50 on median) — we cover it. Call 888-274-5006.
           </p>
         </div>
 
@@ -139,7 +139,7 @@ export default function SellHouseFastSpringfieldILGuide() {
             Springfield's primary local cash investors are S and Z Property Brothers (sandzpropertybrothers.com, rated #1 Springfield cash buyer by listwithclever.com) and Simply Sold RE (simplysoldre.com, rated runner-up by both listwithclever.com and realestatewitch.com with a 4.6/5 average review). Both are active with Google Business Profile presence and published review history. USA Home Buyers is our entry into the Springfield market — we're newer to Illinois but operate with the same written-offer-in-24-hours, close-in-7-days model.
           </p>
           <p className="text-gray-700 mb-4">
-            Getting multiple cash offers is a reasonable strategy if time allows — the offers may vary, and the spread between competing cash buyers can be meaningful on a $163K-$187K home. Call 888-440-5250 to get our written offer.
+            Getting multiple cash offers is a reasonable strategy if time allows — the offers may vary, and the spread between competing cash buyers can be meaningful on a $163K-$187K home. Call 888-274-5006 to get our written offer.
           </p>
         </section>
 
