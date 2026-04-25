@@ -153,7 +153,7 @@ export default function ErieMarketPage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                USA Home Buyers purchases houses in Erie PA and throughout Erie County — West Bayfront, Glenwood, Little Italy, Southeast Erie, and the Millcreek corridor including Lawrence Park and Wesleyville. Written cash offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no fees. Erie urban-core home values are typically around $115,000 to $120,000, with suburban Millcreek homes often much higher. We cover all closing costs including Erie&apos;s 2% transfer tax. Call 888-440-5250.
+                USA Home Buyers purchases houses in Erie PA and throughout Erie County — West Bayfront, Glenwood, Little Italy, Southeast Erie, and the Millcreek corridor including Lawrence Park and Wesleyville. Written cash offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no fees. Erie urban-core home values are typically around $115,000 to $120,000, with suburban Millcreek homes often much higher. We cover all closing costs including Erie&apos;s 2% transfer tax. Call 888-274-5006.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
@@ -169,7 +169,7 @@ export default function ErieMarketPage() {
               <span>✓ Any condition</span>
             </div>
             <a href={`tel:${PHONE}`} className="flex w-full md:w-auto items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white font-bold rounded-lg px-6 py-4 text-xl md:py-3 md:text-lg shadow-lg transition-colors ring-2 ring-green-400/50">
-              📞 Call 888-440-5250 — We Answer 24/7
+              📞 Call 888-274-5006 — We Answer 24/7
             </a>
             <p className="mt-3 text-blue-200 text-xs md:text-sm">BBB Accredited · 15+ Years Experience · Hundreds of Homes Purchased</p>
           </div>

@@ -153,7 +153,7 @@ export default function YoungstownMarketPage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                USA Home Buyers purchases houses in Youngstown OH and throughout Mahoning County — South Side, Brier Hill, Wick Park, Belle Vista, and nearby Boardman, Austintown, and Campbell. Written cash offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no fees. Youngstown&apos;s median sale price is about $129,200. We cover all closing costs including the Ohio conveyance fee in Mahoning County. Call 888-440-5250.
+                USA Home Buyers purchases houses in Youngstown OH and throughout Mahoning County — South Side, Brier Hill, Wick Park, Belle Vista, and nearby Boardman, Austintown, and Campbell. Written cash offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no fees. Youngstown&apos;s median sale price is about $129,200. We cover all closing costs including the Ohio conveyance fee in Mahoning County. Call 888-274-5006.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-4">
@@ -171,7 +171,7 @@ export default function YoungstownMarketPage() {
               <span>✓ Ohio conveyance fee — covered</span>
             </div>
             <a href={`tel:${PHONE}`} className="flex w-full md:w-auto items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white font-bold rounded-lg px-6 py-4 text-xl md:py-3 md:text-lg shadow-lg transition-colors ring-2 ring-green-400/50">
-              📞 Call 888-440-5250 — We Answer 24/7
+              📞 Call 888-274-5006 — We Answer 24/7
             </a>
             <p className="mt-3 text-blue-200 text-xs md:text-sm">BBB Accredited · 15+ Years Experience · Hundreds of Homes Purchased</p>
             <p className="text-blue-200 text-sm">
@@ -194,7 +194,7 @@ export default function YoungstownMarketPage() {
         📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-        If you need to sell your house fast in Youngstown, Ohio — you've found the right team. We're USA Home Buyers, and we purchase houses as-is, for cash, throughout Mahoning County. Whether your home needs repairs, you're behind on payments, going through a divorce, or you've inherited a property you don't know what to do with — we make the process simple. No agents. No fees. No repairs needed. We buy Youngstown homes in any condition — steel-era bungalows, vacant properties, inherited homes — whatever the situation. Written cash offer within 24 hours. Close in as few as seven days on your schedule. Call us now at 888-440-5250. That's 888-440-5250.
+        If you need to sell your house fast in Youngstown, Ohio — you've found the right team. We're USA Home Buyers, and we purchase houses as-is, for cash, throughout Mahoning County. Whether your home needs repairs, you're behind on payments, going through a divorce, or you've inherited a property you don't know what to do with — we make the process simple. No agents. No fees. No repairs needed. We buy Youngstown homes in any condition — steel-era bungalows, vacant properties, inherited homes — whatever the situation. Written cash offer within 24 hours. Close in as few as seven days on your schedule. Call us now at 888-274-5006. That's 888-274-5006.
         </div>
         </details>
 

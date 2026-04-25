@@ -90,7 +90,7 @@ export default function WilmingtonInheritedPropertyPage() {
               purchase paperwork while probate is still pending.
             </p>
             <a
-              href="tel:+18884405250"
+              href="tel:+18882745006"
               className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white font-bold rounded-lg px-6 py-3 text-lg shadow-lg transition-colors mb-3"
             >
               📞 Call Now — We Answer 24/7
