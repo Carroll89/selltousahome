@@ -37,7 +37,7 @@ export default function SellHouseFastWisconsinPage() {
         <div className="bg-blue-50 border border-blue-100 rounded-xl p-5 mb-8">
           <p className="text-sm font-semibold text-blue-800 mb-2">TL;DR</p>
           <p className="text-sm text-blue-900 leading-relaxed">
-            USA Home Buyers purchases houses for cash across Wisconsin — currently serving Kenosha, Racine-Mount Pleasant, and Oshkosh (Winnebago County). Written offer in 24 hours, close in 7–14 days, any condition, no repairs, no fees. Wisconsin realty transfer fee ($3 per $1,000, state-only, seller pays) covered by us on every deal. Call 888-440-5250.
+            USA Home Buyers purchases houses for cash across Wisconsin — currently serving Kenosha, Racine-Mount Pleasant, and Oshkosh (Winnebago County). Written offer in 24 hours, close in 7–14 days, any condition, no repairs, no fees. Wisconsin realty transfer fee ($3 per $1,000, state-only, seller pays) covered by us on every deal. Call 888-274-5006.
           </p>
         </div>
 
