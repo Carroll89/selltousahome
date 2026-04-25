@@ -14,7 +14,7 @@ const pageUrl = `${SITE_URL}/markets/rockford-il/divorce-sale`;
 export const metadata: Metadata = {
   title: 'Sell House During Divorce Rockford IL',
   description:
-    'Selling a house during divorce in Rockford IL? One offer, one closing — equitable distribution without the delay. Winnebago County Family Law. Call 888-440-5250.',
+    'Selling a house during divorce in Rockford IL? One offer, one closing — equitable distribution without the delay. Winnebago County Family Law. Call 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
@@ -81,14 +81,14 @@ export default function RockfordDivorceSalePage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                Selling a house during divorce in Rockford IL? Illinois divides marital property under equitable distribution (750 ILCS 5/503). Winnebago County Family Law Division handles divorce proceedings. USA Home Buyers provides one written offer both spouses can accept — clean sale, clear proceeds, no retail showings. Close in 7–14 days. Call 888-440-5250.
+                Selling a house during divorce in Rockford IL? Illinois divides marital property under equitable distribution (750 ILCS 5/503). Winnebago County Family Law Division handles divorce proceedings. USA Home Buyers provides one written offer both spouses can accept — clean sale, clear proceeds, no retail showings. Close in 7–14 days. Call 888-274-5006.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
               Divorce in Winnebago County? One written offer. Both parties agree. One closing. We work around court timelines and attorney coordination.
             </p>
-            <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
-              📞 Call Now — 888-440-5250 (24/7)
+            <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
+              📞 Call Now — 888-274-5006 (24/7)
             </a>
           </div>
           <div>
@@ -189,7 +189,7 @@ export default function RockfordDivorceSalePage() {
 
           <h3 className="text-xl font-semibold text-brand-dark mb-3">Short Sale Situations in Rockford Divorce</h3>
           <p className="text-gray-700 mb-4">
-            If the outstanding mortgage balance exceeds the property's value, a short sale requires lender approval before proceeding. Short sales in divorce situations add complexity because the lender must agree to accept less than owed. This takes time — often 60-120 days for lender approval — and can delay the divorce finalization. If you're in this situation in Rockford, call 888-440-5250 to discuss the options; the approach depends on the specific lender, the loan type, and how far underwater the property is.
+            If the outstanding mortgage balance exceeds the property's value, a short sale requires lender approval before proceeding. Short sales in divorce situations add complexity because the lender must agree to accept less than owed. This takes time — often 60-120 days for lender approval — and can delay the divorce finalization. If you're in this situation in Rockford, call 888-274-5006 to discuss the options; the approach depends on the specific lender, the loan type, and how far underwater the property is.
           </p>
         </section>
 

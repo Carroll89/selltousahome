@@ -19,7 +19,7 @@ export const revalidate = 86400;
 export const metadata: Metadata = {
   title: 'Sell My House Fast Rockford IL',
   description:
-    'We buy houses in Rockford IL for cash, as-is. Written offer in 24 hours, close in 7 days. No repairs, no fees. Serving Winnebago County. Call 888-440-5250.',
+    'We buy houses in Rockford IL for cash, as-is. Written offer in 24 hours, close in 7 days. No repairs, no fees. Serving Winnebago County. Call 888-274-5006.',
   alternates: { canonical: `${SITE_URL}/markets/rockford-il` },
   openGraph: {
     images: [{ url: '/images/rockford-il-hero.jpg', width: 1200, height: 630, alt: 'Rockford IL home — Sell Your House Fast for Cash' }],
@@ -33,7 +33,7 @@ const rockfordILLocalBusinessSchema = {
   name: 'USA Home Buyers — Rockford IL',
   description: 'Cash home buyers serving Rockford IL and Winnebago County. We buy houses as-is in any condition — no repairs, no agent fees, close in 7-14 days.',
   url: `${SITE_URL}/markets/rockford-il`,
-  telephone: '+18884405250',
+  telephone: '+18882745006',
   address: {
     '@type': 'PostalAddress',
     addressLocality: 'Rockford',
@@ -122,7 +122,7 @@ const COMPARISON_ROWS = [
 const FAQ_ITEMS = [
   {
     question: 'How fast can I sell my house for cash in Rockford IL?',
-    answer: 'USA Home Buyers can close in as few as 7 days in Rockford and throughout Winnebago County. We send a written cash offer within 24 hours of your inquiry. Illinois is a judicial foreclosure state under 735 ILCS 5/15-1101 — once a lender files in Winnebago County Circuit Court at 400 West State Street, the process typically runs 14-20 months (not the 24-36 months you may have heard about from Cook County cases). If you\'re behind on payments, selling before the foreclosure auction preserves whatever equity remains. Call 888-440-5250.',
+    answer: 'USA Home Buyers can close in as few as 7 days in Rockford and throughout Winnebago County. We send a written cash offer within 24 hours of your inquiry. Illinois is a judicial foreclosure state under 735 ILCS 5/15-1101 — once a lender files in Winnebago County Circuit Court at 400 West State Street, the process typically runs 14-20 months (not the 24-36 months you may have heard about from Cook County cases). If you\'re behind on payments, selling before the foreclosure auction preserves whatever equity remains. Call 888-274-5006.',
   },
   {
     question: 'How much will you pay for my Rockford IL house?',
@@ -134,11 +134,11 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How does foreclosure work in Winnebago County IL?',
-    answer: 'Illinois is a 100% judicial foreclosure state under the Illinois Mortgage Foreclosure Law, 735 ILCS 5/15-1101 et seq. Every foreclosure must go through Winnebago County Circuit Court — 17th Judicial Circuit, 400 West State Street, Rockford IL 61101, phone 815-319-4500. The typical Winnebago County timeline from first missed payment to completed foreclosure sale is 14-20 months. That\'s longer than Springfield/Sangamon County (12-15 months) due to higher circuit volume, but far shorter than Cook County (24-36 months). Don\'t confuse Rockford\'s timeline with Chicago\'s. Borrowers have a 3-month reinstatement right (735 ILCS 5/15-1602) and a 7-month redemption period (735 ILCS 5/15-1603). Call 888-440-5250 immediately if you\'re behind on payments.',
+    answer: 'Illinois is a 100% judicial foreclosure state under the Illinois Mortgage Foreclosure Law, 735 ILCS 5/15-1101 et seq. Every foreclosure must go through Winnebago County Circuit Court — 17th Judicial Circuit, 400 West State Street, Rockford IL 61101, phone 815-319-4500. The typical Winnebago County timeline from first missed payment to completed foreclosure sale is 14-20 months. That\'s longer than Springfield/Sangamon County (12-15 months) due to higher circuit volume, but far shorter than Cook County (24-36 months). Don\'t confuse Rockford\'s timeline with Chicago\'s. Borrowers have a 3-month reinstatement right (735 ILCS 5/15-1602) and a 7-month redemption period (735 ILCS 5/15-1603). Call 888-274-5006 immediately if you\'re behind on payments.',
   },
   {
     question: 'What areas near Rockford do you buy in?',
-    answer: 'All of Winnebago County. That includes Rockford proper (Churchill Grove, Midtown, Signal Hill, Haight Historic District, Jackson Oaks, East Rockford, Northeast Rockford, West State corridor — ZIPs 61101 through 61109, 61112, 61114), Loves Park, Machesney Park, Roscoe, Rockton, Cherry Valley, New Milford, Winnebago Village, and Pecatonica. We also serve adjacent Boone County (Belvidere area) and southern Ogle County. If you\'re unsure whether we serve your address, call 888-440-5250.',
+    answer: 'All of Winnebago County. That includes Rockford proper (Churchill Grove, Midtown, Signal Hill, Haight Historic District, Jackson Oaks, East Rockford, Northeast Rockford, West State corridor — ZIPs 61101 through 61109, 61112, 61114), Loves Park, Machesney Park, Roscoe, Rockton, Cherry Valley, New Milford, Winnebago Village, and Pecatonica. We also serve adjacent Boone County (Belvidere area) and southern Ogle County. If you\'re unsure whether we serve your address, call 888-274-5006.',
   },
   {
     question: 'Do I need to make repairs before selling to USA Home Buyers?',
@@ -197,17 +197,17 @@ export default function RockfordILMarketPage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                USA Home Buyers purchases houses in Rockford IL and throughout Winnebago County — Midtown bungalows, Churchill Grove craftsmans, Signal Hill ranches, Haight Historic District Victorians, estate sales, foreclosures, divorce situations. Written cash offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no agent fees. Rockford Zillow ZHVI $142,859 (+4.8% YoY, Feb 2026); Redfin median sale price $170,000 (+17.2% YoY). We cover all closing costs — IL state transfer tax ($0.50/$500) plus Winnebago County ($0.25/$500), no municipal RETT. Call 888-440-5250.
+                USA Home Buyers purchases houses in Rockford IL and throughout Winnebago County — Midtown bungalows, Churchill Grove craftsmans, Signal Hill ranches, Haight Historic District Victorians, estate sales, foreclosures, divorce situations. Written cash offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no agent fees. Rockford Zillow ZHVI $142,859 (+4.8% YoY, Feb 2026); Redfin median sale price $170,000 (+17.2% YoY). We cover all closing costs — IL state transfer tax ($0.50/$500) plus Winnebago County ($0.25/$500), no municipal RETT. Call 888-274-5006.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
               We buy houses in Rockford IL, Loves Park, Machesney Park, and all of Winnebago County — any condition, any situation. No repairs, no agent fees, no waiting.
             </p>
             <a
-              href="tel:+18884405250"
+              href="tel:+18882745006"
               className="flex w-full md:w-auto items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white font-bold rounded-lg px-6 py-4 text-xl md:py-3 md:text-lg shadow-lg transition-colors ring-2 ring-green-400/50"
             >
-              📞 Call 888-440-5250 — We Answer 24/7
+              📞 Call 888-274-5006 — We Answer 24/7
             </a>
             <p className="mt-3 text-blue-200 text-xs md:text-sm">BBB Accredited · 15+ Years Experience · Hundreds of Homes Purchased</p>
           </div>
@@ -233,7 +233,7 @@ export default function RockfordILMarketPage() {
         📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-        If you need to sell your house fast in Rockford, Illinois — you've found the right team. We're USA Home Buyers, and we purchase houses as-is, for cash, throughout Winnebago County. No agents. No fees. No repairs needed. Written cash offer within 24 hours, close in as few as seven days. Call us at 888-440-5250.
+        If you need to sell your house fast in Rockford, Illinois — you've found the right team. We're USA Home Buyers, and we purchase houses as-is, for cash, throughout Winnebago County. No agents. No fees. No repairs needed. Written cash offer within 24 hours, close in as few as seven days. Call us at 888-274-5006.
         </div>
         </details>
 

@@ -14,18 +14,18 @@ const pageUrl = `${SITE_URL}/markets/rockford-il/fire-damage`;
 export const metadata: Metadata = {
   title: 'Sell Fire-Damaged House Rockford IL',
   description:
-    'Sell a fire-damaged house in Rockford IL as-is. We buy fire and smoke damaged properties without repairs or insurance settlements. IL 765 ILCS 77 disclosure. Call 888-440-5250.',
+    'Sell a fire-damaged house in Rockford IL as-is. We buy fire and smoke damaged properties without repairs or insurance settlements. IL 765 ILCS 77 disclosure. Call 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
 const FAQ_ITEMS = [
   {
     question: 'Will you buy a fire-damaged house in Rockford IL?',
-    answer: 'Yes. USA Home Buyers purchases fire and smoke-damaged houses in Rockford and throughout Winnebago County in any condition — partial damage, total loss, smoke-only damage, water damage from fire suppression. You don\'t need to clean up, board up, or make any repairs. We assess the property and make a written cash offer within 24 hours. Call 888-440-5250.',
+    answer: 'Yes. USA Home Buyers purchases fire and smoke-damaged houses in Rockford and throughout Winnebago County in any condition — partial damage, total loss, smoke-only damage, water damage from fire suppression. You don\'t need to clean up, board up, or make any repairs. We assess the property and make a written cash offer within 24 hours. Call 888-274-5006.',
   },
   {
     question: 'Do I need to resolve my insurance claim before selling the fire-damaged property?',
-    answer: 'No. You can sell the fire-damaged property before, during, or after the insurance claim process. Common approaches: (1) Sell the property as-is and assign any pending insurance proceeds to the buyer at closing — we can structure the transaction to accommodate an open claim. (2) Collect the insurance settlement first, then sell the partially or fully unrepaired property to a cash buyer. (3) Sell before any insurance claim is filed. Each approach has different financial implications depending on your coverage and the extent of damage. Call 888-440-5250 to discuss your specific situation.',
+    answer: 'No. You can sell the fire-damaged property before, during, or after the insurance claim process. Common approaches: (1) Sell the property as-is and assign any pending insurance proceeds to the buyer at closing — we can structure the transaction to accommodate an open claim. (2) Collect the insurance settlement first, then sell the partially or fully unrepaired property to a cash buyer. (3) Sell before any insurance claim is filed. Each approach has different financial implications depending on your coverage and the extent of damage. Call 888-274-5006 to discuss your specific situation.',
   },
   {
     question: 'What does Illinois law require me to disclose about fire damage when selling?',
@@ -77,14 +77,14 @@ export default function RockfordFireDamagePage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                Sell a fire-damaged house in Rockford IL as-is. Illinois law requires disclosure under 765 ILCS 77/35 and regulates insurer conduct under 215 ILCS 5/154.5. USA Home Buyers purchases fire and smoke-damaged Rockford properties — balloon-frame and pre-war housing stock included — without cleanup or repairs. Written offer in 24 hours. No insurance settlement required before close. Call 888-440-5250.
+                Sell a fire-damaged house in Rockford IL as-is. Illinois law requires disclosure under 765 ILCS 77/35 and regulates insurer conduct under 215 ILCS 5/154.5. USA Home Buyers purchases fire and smoke-damaged Rockford properties — balloon-frame and pre-war housing stock included — without cleanup or repairs. Written offer in 24 hours. No insurance settlement required before close. Call 888-274-5006.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
               Fire or smoke damage in your Rockford home? We buy as-is — balloon-frame, pre-war, partial or total loss. No cleanup, no repairs, no insurance settlement required first.
             </p>
-            <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
-              📞 Call Now — 888-440-5250 (24/7)
+            <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
+              📞 Call Now — 888-274-5006 (24/7)
             </a>
           </div>
           <div>
@@ -191,7 +191,7 @@ export default function RockfordFireDamagePage() {
             <li className="flex items-start gap-2"><span className="text-brand-primary mt-1">•</span><div><strong className="text-brand-dark">Insurance claim status:</strong> Open claim, settled claim, or no claim — this affects how we structure the transaction.</div></li>
           </ul>
           <p className="text-gray-700 mb-4">
-            We don't require an inspection or appraisal to make an offer — we assess the condition ourselves and make a written offer based on what we see. Call 888-440-5250 to start.
+            We don't require an inspection or appraisal to make an offer — we assess the condition ourselves and make a written offer based on what we see. Call 888-274-5006 to start.
           </p>
         </section>
 

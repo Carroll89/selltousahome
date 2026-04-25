@@ -14,7 +14,7 @@ const pageUrl = `${SITE_URL}/markets/rockford-il/tenant-occupied`;
 export const metadata: Metadata = {
   title: 'Sell Tenant-Occupied Property Rockford IL',
   description:
-    'Selling a tenant-occupied rental in Rockford IL? We buy with tenants in place - no eviction required before closing. IL Forcible Entry and Detainer law applies. Call 888-440-5250.',
+    'Selling a tenant-occupied rental in Rockford IL? We buy with tenants in place - no eviction required before closing. IL Forcible Entry and Detainer law applies. Call 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
@@ -81,14 +81,14 @@ export default function RockfordTenantOccupiedPage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                Selling a tenant-occupied property in Rockford IL? Illinois law under 735 ILCS 5/9-101 et seq. governs eviction. USA Home Buyers purchases tenant-occupied homes without requiring you to evict first. We close with tenants in place, handle the landlord-tenant relationship post-closing. No court filings, no repairs. Written offer in 24 hours. Serving all of Winnebago County. Call 888-440-5250.
+                Selling a tenant-occupied property in Rockford IL? Illinois law under 735 ILCS 5/9-101 et seq. governs eviction. USA Home Buyers purchases tenant-occupied homes without requiring you to evict first. We close with tenants in place, handle the landlord-tenant relationship post-closing. No court filings, no repairs. Written offer in 24 hours. Serving all of Winnebago County. Call 888-274-5006.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
               Want out of Rockford landlording without the eviction headache? We buy tenant-occupied properties as-is, with tenants in place.
             </p>
-            <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
-              📞 Call Now - 888-440-5250 (24/7)
+            <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
+              📞 Call Now - 888-274-5006 (24/7)
             </a>
           </div>
           <div>

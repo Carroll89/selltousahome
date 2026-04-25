@@ -14,14 +14,14 @@ const pageUrl = `${SITE_URL}/markets/rockford-il/foreclosure`;
 export const metadata: Metadata = {
   title: 'Stop Foreclosure Rockford IL',
   description:
-    'Facing foreclosure in Rockford IL? We buy before the Winnebago County auction. Written offer in 24 hours, close in 7 days. Call 888-440-5250.',
+    'Facing foreclosure in Rockford IL? We buy before the Winnebago County auction. Written offer in 24 hours, close in 7 days. Call 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
 const FAQ_ITEMS = [
   {
     question: 'How fast can I sell before foreclosure in Rockford IL?',
-    answer: 'USA Home Buyers closes in as few as 7 days once you accept an offer. Illinois is a 100% judicial foreclosure state under 735 ILCS 5/15-1101 et seq. Every Winnebago County foreclosure is filed at the Winnebago County Circuit Court, 17th Judicial Circuit, 400 West State Street, Rockford IL 61101, phone 815-319-4500. The typical timeline from first missed payment to completed foreclosure sale is 14-20 months in Winnebago County — not the 24-36 months you may have heard about from Cook County. Call 888-440-5250 the moment you receive foreclosure paperwork.',
+    answer: 'USA Home Buyers closes in as few as 7 days once you accept an offer. Illinois is a 100% judicial foreclosure state under 735 ILCS 5/15-1101 et seq. Every Winnebago County foreclosure is filed at the Winnebago County Circuit Court, 17th Judicial Circuit, 400 West State Street, Rockford IL 61101, phone 815-319-4500. The typical timeline from first missed payment to completed foreclosure sale is 14-20 months in Winnebago County — not the 24-36 months you may have heard about from Cook County. Call 888-274-5006 the moment you receive foreclosure paperwork.',
   },
   {
     question: 'What is the Illinois foreclosure process in Winnebago County?',
@@ -41,7 +41,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'What if I owe more than my Rockford house is worth?',
-    answer: 'A short sale may be possible — the lender agrees to accept less than the full payoff to release the mortgage lien. Short sales require lender approval and take longer than a standard cash sale, but they can eliminate or reduce a potential deficiency judgment. Deficiency judgments are permitted in most Illinois residential foreclosures under IMFL — if the foreclosure sale proceeds don\'t cover the full loan balance, the lender can pursue the remainder. A short sale negotiated with deficiency waiver language can eliminate that liability. Call 888-440-5250 to discuss your specific situation.',
+    answer: 'A short sale may be possible — the lender agrees to accept less than the full payoff to release the mortgage lien. Short sales require lender approval and take longer than a standard cash sale, but they can eliminate or reduce a potential deficiency judgment. Deficiency judgments are permitted in most Illinois residential foreclosures under IMFL — if the foreclosure sale proceeds don\'t cover the full loan balance, the lender can pursue the remainder. A short sale negotiated with deficiency waiver language can eliminate that liability. Call 888-274-5006 to discuss your specific situation.',
   },
 ];
 
@@ -81,14 +81,14 @@ export default function RockfordForeclosurePage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                Facing foreclosure in Rockford IL? Winnebago County's judicial process runs 14–20 months under 735 ILCS 5/15-1101 — not the 24-36 months of Cook County. Selling before the auction preserves your equity. USA Home Buyers closes in 7 days. Written offer in 24 hours. 3-month reinstatement right, 7-month redemption under Illinois law. Call 888-440-5250.
+                Facing foreclosure in Rockford IL? Winnebago County's judicial process runs 14–20 months under 735 ILCS 5/15-1101 — not the 24-36 months of Cook County. Selling before the auction preserves your equity. USA Home Buyers closes in 7 days. Written offer in 24 hours. 3-month reinstatement right, 7-month redemption under Illinois law. Call 888-274-5006.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
               Facing foreclosure in Winnebago County? We buy Rockford homes before the auction — written offer in 24 hours, close in 7 days.
             </p>
-            <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
-              📞 Call Now — 888-440-5250 (24/7)
+            <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
+              📞 Call Now — 888-274-5006 (24/7)
             </a>
           </div>
           <div>
@@ -161,7 +161,7 @@ export default function RockfordForeclosurePage() {
             The Illinois reinstatement right allows a borrower to cure the default by paying all past-due principal, interest, late charges, insurance premiums, property taxes, and attorney's fees — essentially catching the loan up as if the defaults never happened. The reinstatement period in Illinois runs for 3 months after the service of summons in the foreclosure proceeding, or until a later date specified in the judgment (if extended). Once this period expires, the option to reinstate is gone — you cannot simply catch up on missed payments to stop the foreclosure.
           </p>
           <p className="text-gray-700 mb-4">
-            For Rockford sellers who are deep into the foreclosure timeline, the reinstatement right may already have expired. If that's your situation, selling before the foreclosure auction is the remaining option that can preserve any equity in the property. Call 888-440-5250 immediately to discuss your specific stage.
+            For Rockford sellers who are deep into the foreclosure timeline, the reinstatement right may already have expired. If that's your situation, selling before the foreclosure auction is the remaining option that can preserve any equity in the property. Call 888-274-5006 immediately to discuss your specific stage.
           </p>
 
           <h3 className="text-xl font-semibold text-brand-dark mb-3">Redemption Period (735 ILCS 5/15-1603)</h3>
@@ -187,7 +187,7 @@ export default function RockfordForeclosurePage() {
             Deferred maintenance is a structural feature of Rockford's pre-foreclosure pipeline, not just an individual circumstance. A working-class family that bought a Signal Hill ranch in 1975 for $40,000 and has been managing declining factory income since 2001 is going to have deferred $80,000-$100,000 in major systems maintenance over that period — roof, HVAC, electrical, plumbing. By the time foreclosure proceedings start, the property needs significant work that the seller cannot fund from their position.
           </p>
           <p className="text-gray-700 mb-4">
-            This is exactly the situation USA Home Buyers is designed for. We buy pre-foreclosure Rockford homes in as-is condition, with no repair contingencies, and close fast enough to stop the foreclosure timeline in its tracks. Call 888-440-5250.
+            This is exactly the situation USA Home Buyers is designed for. We buy pre-foreclosure Rockford homes in as-is condition, with no repair contingencies, and close fast enough to stop the foreclosure timeline in its tracks. Call 888-274-5006.
           </p>
         </section>
 
@@ -197,7 +197,7 @@ export default function RockfordForeclosurePage() {
             The Illinois Attorney General's office offers the Homeowner Protection Program (HOP) — connecting distressed homeowners with HUD-approved housing counselors at no cost. Visit illinoisattorneygeneral.gov or call 1-866-544-7684. The Illinois Housing Development Authority (ihda.org) administers assistance programs including the Illinois Homeowner Assistance Fund. Illinois Legal Aid Online (illinoislegalaid.org) provides free legal information on the foreclosure process and referrals to legal aid attorneys in Rockford and Winnebago County.
           </p>
           <p className="text-gray-700 mb-4">
-            These resources are useful for homeowners who want to attempt a loan modification or reinstatement. For homeowners who have decided to sell and move on — or who can't qualify for assistance — USA Home Buyers provides a direct alternative: a written cash offer within 24 hours and a closing timeline fast enough to stop the foreclosure proceeding. Both options are available. Call 888-440-5250 to discuss which path fits your situation.
+            These resources are useful for homeowners who want to attempt a loan modification or reinstatement. For homeowners who have decided to sell and move on — or who can't qualify for assistance — USA Home Buyers provides a direct alternative: a written cash offer within 24 hours and a closing timeline fast enough to stop the foreclosure proceeding. Both options are available. Call 888-274-5006 to discuss which path fits your situation.
           </p>
         </section>
 
@@ -210,7 +210,7 @@ export default function RockfordForeclosurePage() {
             If the property sells for more than what's owed on the mortgage at the auction, you — as the former owner — are entitled to the surplus. But in practice, distressed Rockford properties with significant deferred maintenance often sell at or near the opening bid, leaving no surplus. Any equity that existed above the mortgage balance is effectively lost once the property goes to auction.
           </p>
           <p className="text-gray-700 mb-4">
-            Selling to USA Home Buyers before the auction preserves that equity by paying it directly to you at closing. The difference between a $120,000 cash offer today and a $0 surplus after a foreclosure auction is significant — and it's the core reason pre-foreclosure sellers contact us. Call 888-440-5250.
+            Selling to USA Home Buyers before the auction preserves that equity by paying it directly to you at closing. The difference between a $120,000 cash offer today and a $0 surplus after a foreclosure auction is significant — and it's the core reason pre-foreclosure sellers contact us. Call 888-274-5006.
           </p>
         </section>
 

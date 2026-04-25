@@ -14,7 +14,7 @@ const pageUrl = `${SITE_URL}/markets/rockford-il/probate`;
 export const metadata: Metadata = {
   title: 'Probate Home Sale Rockford IL',
   description:
-    'Selling a Rockford IL home through Winnebago County probate? We work with the 17th Judicial Circuit timeline. Written offer in 24 hours. Call 888-440-5250.',
+    'Selling a Rockford IL home through Winnebago County probate? We work with the 17th Judicial Circuit timeline. Written offer in 24 hours. Call 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
@@ -37,7 +37,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'What if the Rockford probate property has outstanding liens?',
-    answer: 'Outstanding liens - mortgages, tax liens, mechanic\'s liens - are typically satisfied from the sale proceeds at closing. The title company coordinates payoffs as part of the closing statement. If the liens exceed the sale proceeds, the estate may be insolvent, which requires a different legal approach. We\'ve worked through lien-heavy estate sales in Rockford before; call 888-440-5250 to discuss the specific situation.',
+    answer: 'Outstanding liens - mortgages, tax liens, mechanic\'s liens - are typically satisfied from the sale proceeds at closing. The title company coordinates payoffs as part of the closing statement. If the liens exceed the sale proceeds, the estate may be insolvent, which requires a different legal approach. We\'ve worked through lien-heavy estate sales in Rockford before; call 888-274-5006 to discuss the specific situation.',
   },
   {
     question: 'Do I need an attorney to sell an estate property in Rockford IL?',
@@ -81,14 +81,14 @@ export default function RockfordProbatePage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                Winnebago County probate for Rockford IL real estate runs through the 17th Judicial Circuit - 400 West State Street, 815-319-4500. Under independent administration (755 ILCS 5/28-1), the executor can sell without court approval on each transaction. USA Home Buyers has a written offer ready before you file. No repairs. Close in 7 days after Letters issue. Call 888-440-5250.
+                Winnebago County probate for Rockford IL real estate runs through the 17th Judicial Circuit - 400 West State Street, 815-319-4500. Under independent administration (755 ILCS 5/28-1), the executor can sell without court approval on each transaction. USA Home Buyers has a written offer ready before you file. No repairs. Close in 7 days after Letters issue. Call 888-274-5006.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
               We work with Winnebago County Circuit Court probate timelines - both independent and supervised administration. Written offer ready before you file.
             </p>
-            <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
-              📞 Call Now - 888-440-5250 (24/7)
+            <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
+              📞 Call Now - 888-274-5006 (24/7)
             </a>
           </div>
           <div>

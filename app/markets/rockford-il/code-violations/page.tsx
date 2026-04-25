@@ -14,14 +14,14 @@ const pageUrl = `${SITE_URL}/markets/rockford-il/code-violations`;
 export const metadata: Metadata = {
   title: 'Sell House With Code Violations Rockford IL',
   description:
-    'Rockford IL code violations - open citations, red-tagged properties, condemnation orders - we buy as-is. Pre-1970 housing stock, any condition. Call 888-440-5250.',
+    'Rockford IL code violations - open citations, red-tagged properties, condemnation orders - we buy as-is. Pre-1970 housing stock, any condition. Call 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
 const FAQ_ITEMS = [
   {
     question: 'Can I sell a house with code violations in Rockford IL?',
-    answer: 'Yes - Illinois does not prohibit the sale of a property with open code violations, though you must disclose known material defects under 765 ILCS 77/35. USA Home Buyers purchases Rockford properties with open City of Rockford code enforcement violations, red tags, and condemnation orders in as-is condition. We assess the violation status, account for it in our offer, and handle all remediation after closing. Call 888-440-5250.',
+    answer: 'Yes - Illinois does not prohibit the sale of a property with open code violations, though you must disclose known material defects under 765 ILCS 77/35. USA Home Buyers purchases Rockford properties with open City of Rockford code enforcement violations, red tags, and condemnation orders in as-is condition. We assess the violation status, account for it in our offer, and handle all remediation after closing. Call 888-274-5006.',
   },
   {
     question: 'What are the most common code violations in Rockford IL homes?',
@@ -33,7 +33,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'What happens if my Rockford property is condemned?',
-    answer: 'A condemned property in Rockford - one where the city has issued a condemnation order declaring the structure unfit for habitation - is still sellable to a cash buyer. Illinois does not void a property\'s title or prohibit sale due to condemnation status. The buyer takes the property subject to the condemnation order and the obligation to address it. USA Home Buyers has purchased condemned and red-tagged Rockford properties before. The condemnation status is reflected in our offer price. Call 888-440-5250.',
+    answer: 'A condemned property in Rockford - one where the city has issued a condemnation order declaring the structure unfit for habitation - is still sellable to a cash buyer. Illinois does not void a property\'s title or prohibit sale due to condemnation status. The buyer takes the property subject to the condemnation order and the obligation to address it. USA Home Buyers has purchased condemned and red-tagged Rockford properties before. The condemnation status is reflected in our offer price. Call 888-274-5006.',
   },
   {
     question: 'Do I need to disclose code violations when selling in Rockford IL?',
@@ -77,14 +77,14 @@ export default function RockfordCodeViolationsPage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                Rockford IL code violations don't stop USA Home Buyers. City of Rockford code enforcement issues open violations, red tags, and condemnation orders on older housing stock - pre-1970 construction with lead paint, knob-and-tube wiring, foundation issues. We buy as-is, any violation status. Written offer in 24 hours. No repairs required. Close in 7-14 days. Call 888-440-5250.
+                Rockford IL code violations don't stop USA Home Buyers. City of Rockford code enforcement issues open violations, red tags, and condemnation orders on older housing stock - pre-1970 construction with lead paint, knob-and-tube wiring, foundation issues. We buy as-is, any violation status. Written offer in 24 hours. No repairs required. Close in 7-14 days. Call 888-274-5006.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
               Open violations, red tags, or condemnation orders in Rockford? We buy as-is - any violation status, no repairs required.
             </p>
-            <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
-              📞 Call Now - 888-440-5250 (24/7)
+            <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
+              📞 Call Now - 888-274-5006 (24/7)
             </a>
           </div>
           <div>
@@ -165,7 +165,7 @@ export default function RockfordCodeViolationsPage() {
             </li>
           </ol>
           <p className="text-gray-700 mb-4">
-            USA Home Buyers can purchase a Rockford property at any of these stages - including properties under condemnation order and those facing demolition notice. We assess the situation accurately and make an offer that reflects the real cost. Call 888-440-5250.
+            USA Home Buyers can purchase a Rockford property at any of these stages - including properties under condemnation order and those facing demolition notice. We assess the situation accurately and make an offer that reflects the real cost. Call 888-274-5006.
           </p>
         </section>
 
@@ -188,7 +188,7 @@ export default function RockfordCodeViolationsPage() {
             For Rockford homes with open violations, this means the practical buyer pool collapses to cash buyers and hard-money investors. Per Redfin (March 2026), the compete score of 89/100 and 14-day median DOM applies to the retail-ready segment of Rockford’s inventory - not to the code-violation segment. In Jackson Oaks, Signal Hill, and the West State corridor, a significant share of available inventory falls into the code-violation category, and those homes move through the cash buyer market, not the retail listing market.
           </p>
           <p className="text-gray-700 mb-4">
-            USA Home Buyers prices violation-condition properties accurately. We assess the repair cost implied by the violation, factor it into our offer, and purchase as-is. You receive a specific written number within 24 hours. No inspection contingency, no repair list, no lender approval required. The path from your decision to closing can be 7 days in Rockford. Call 888-440-5250.
+            USA Home Buyers prices violation-condition properties accurately. We assess the repair cost implied by the violation, factor it into our offer, and purchase as-is. You receive a specific written number within 24 hours. No inspection contingency, no repair list, no lender approval required. The path from your decision to closing can be 7 days in Rockford. Call 888-274-5006.
           </p>
           <p className="text-gray-700 mb-4">
             For Rockford homeowners who have received a Notice of Violation from the City of Rockford Community Development Department and cannot fund the required remediation - or who simply want to exit the property rather than invest more into it - a direct sale to USA Home Buyers is the cleanest exit. We buy the property with the violation in place, notify the city of the change of ownership at closing, and handle all remediation afterward. Your slate is clean from closing day forward.

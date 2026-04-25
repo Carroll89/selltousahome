@@ -14,14 +14,14 @@ const pageUrl = `${SITE_URL}/markets/rockford-il/faq`;
 export const metadata: Metadata = {
   title: 'Sell House Fast Rockford IL — FAQ',
   description:
-    'Answers to common questions about selling your house fast for cash in Rockford IL. Transfer taxes, foreclosure timelines, probate, and more. Call 888-440-5250.',
+    'Answers to common questions about selling your house fast for cash in Rockford IL. Transfer taxes, foreclosure timelines, probate, and more. Call 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
 const FAQ_ITEMS = [
   {
     question: 'How fast can I sell my house for cash in Rockford IL?',
-    answer: 'USA Home Buyers closes in as few as 7 days in Rockford and throughout Winnebago County. We send a written cash offer within 24 hours of your inquiry. There are no financing contingencies, no appraisal delays, and no inspector repair lists. You pick the closing date — as fast as 7 days or as far out as your situation requires. Call 888-440-5250 to start.',
+    answer: 'USA Home Buyers closes in as few as 7 days in Rockford and throughout Winnebago County. We send a written cash offer within 24 hours of your inquiry. There are no financing contingencies, no appraisal delays, and no inspector repair lists. You pick the closing date — as fast as 7 days or as far out as your situation requires. Call 888-274-5006 to start.',
   },
   {
     question: 'What is the transfer tax when selling a house in Rockford IL?',
@@ -37,7 +37,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'Is Rockford\'s foreclosure timeline the same as Cook County\'s?',
-    answer: 'No — and this misconception affects many Rockford sellers. Cook County (Chicago) foreclosures take 24-36 months due to massive court backlog. Winnebago County is a mid-sized circuit — the 17th Judicial Circuit covers Winnebago and Boone counties — with a typical timeline of 14-20 months. That\'s meaningfully faster. The practical difference: Rockford sellers often have more time to make a decision than they expect, but less time than a Chicago comparison would suggest. If you\'re in pre-foreclosure in Rockford, call 888-440-5250 — the window is real.',
+    answer: 'No — and this misconception affects many Rockford sellers. Cook County (Chicago) foreclosures take 24-36 months due to massive court backlog. Winnebago County is a mid-sized circuit — the 17th Judicial Circuit covers Winnebago and Boone counties — with a typical timeline of 14-20 months. That\'s meaningfully faster. The practical difference: Rockford sellers often have more time to make a decision than they expect, but less time than a Chicago comparison would suggest. If you\'re in pre-foreclosure in Rockford, call 888-274-5006 — the window is real.',
   },
   {
     question: 'How does Illinois probate work for a Rockford inherited property?',
@@ -53,7 +53,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'What if my Rockford house has code violations or needs significant repairs?',
-    answer: 'We buy Rockford properties in any condition, including those with open City of Rockford code violations, condemned properties, and homes with significant structural or system deficiencies. Rockford\'s pre-1970 housing stock is where most violations originate — lead paint (pre-1978 construction), knob-and-tube wiring, foundation issues from Rock River alluvial soil settling, plumbing deficiencies. A code violation doesn\'t prevent a sale, but it requires disclosure under Illinois law. We\'ve seen it all. Call 888-440-5250.',
+    answer: 'We buy Rockford properties in any condition, including those with open City of Rockford code violations, condemned properties, and homes with significant structural or system deficiencies. Rockford\'s pre-1970 housing stock is where most violations originate — lead paint (pre-1978 construction), knob-and-tube wiring, foundation issues from Rock River alluvial soil settling, plumbing deficiencies. A code violation doesn\'t prevent a sale, but it requires disclosure under Illinois law. We\'ve seen it all. Call 888-274-5006.',
   },
 ];
 
@@ -73,8 +73,8 @@ export default function RockfordILFAQPage() {
           <p className="text-blue-100 text-lg mb-4">
             Honest answers to what Rockford and Winnebago County sellers ask most often — transfer taxes, foreclosure timelines, probate, and the cash-sale process.
           </p>
-          <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg transition-colors">
-            📞 Call Now — 888-440-5250 (24/7)
+          <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg transition-colors">
+            📞 Call Now — 888-274-5006 (24/7)
           </a>
         </div>
       </section>

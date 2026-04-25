@@ -13,7 +13,7 @@ const pageUrl = `${SITE_URL}/markets/rockford-il/market-report`;
 export const metadata: Metadata = {
   title: 'Rockford IL Housing Market Report 2026',
   description:
-    'Rockford IL housing market data: $170K median sale price, 14-day DOM, 89/100 compete score. Winnebago County investor analysis for 2026. Cash buyers: 888-440-5250.',
+    'Rockford IL housing market data: $170K median sale price, 14-day DOM, 89/100 compete score. Winnebago County investor analysis for 2026. Cash buyers: 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
@@ -36,7 +36,7 @@ export default function RockfordILMarketReportPage() {
           <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
             <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
             <p className="text-white text-sm leading-relaxed">
-              According to Zillow (Feb 28, 2026), Rockford ZHVI: $142,859 (+4.8% YoY). Per Redfin (March 2026), median sale price: $170,000 (+17.2% YoY). Compete score 89/100. Median sold DOM: 14 days. RDC hotness rank #11. Transfer tax: $0.75/$500, no municipal RETT. Winnebago County foreclosure timeline 14-20 months. Cash offers 70-78% of FMV. USA Home Buyers: 888-440-5250.
+              According to Zillow (Feb 28, 2026), Rockford ZHVI: $142,859 (+4.8% YoY). Per Redfin (March 2026), median sale price: $170,000 (+17.2% YoY). Compete score 89/100. Median sold DOM: 14 days. RDC hotness rank #11. Transfer tax: $0.75/$500, no municipal RETT. Winnebago County foreclosure timeline 14-20 months. Cash offers 70-78% of FMV. USA Home Buyers: 888-274-5006.
             </p>
           </div>
         </div>

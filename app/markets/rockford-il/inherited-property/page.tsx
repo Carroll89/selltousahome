@@ -14,7 +14,7 @@ const pageUrl = `${SITE_URL}/markets/rockford-il/inherited-property`;
 export const metadata: Metadata = {
   title: 'Sell Inherited House Rockford IL',
   description:
-    'Inherited a house in Rockford IL? We buy inherited properties as-is through Winnebago County Circuit Court Probate. Written offer in 24 hours. Call 888-440-5250.',
+    'Inherited a house in Rockford IL? We buy inherited properties as-is through Winnebago County Circuit Court Probate. Written offer in 24 hours. Call 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
@@ -41,7 +41,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'What if there are multiple heirs on the Rockford inherited property?',
-    answer: 'All heirs with an ownership interest must agree to the sale and sign the deed - or the executor must have Letters of Office authorizing the sale. If heirs can\'t agree, a partition action can be filed in Winnebago County Circuit Court under Illinois law. We\'ve worked through multi-heir transactions before. A single written cash offer often resolves the impasse because every heir sees the same specific number without the negotiation complexity of a retail listing. Call 888-440-5250 to discuss your situation.',
+    answer: 'All heirs with an ownership interest must agree to the sale and sign the deed - or the executor must have Letters of Office authorizing the sale. If heirs can\'t agree, a partition action can be filed in Winnebago County Circuit Court under Illinois law. We\'ve worked through multi-heir transactions before. A single written cash offer often resolves the impasse because every heir sees the same specific number without the negotiation complexity of a retail listing. Call 888-274-5006 to discuss your situation.',
   },
 ];
 
@@ -81,14 +81,14 @@ export default function RockfordInheritedPropertyPage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                USA Home Buyers purchases inherited properties in Rockford IL through Winnebago County Circuit Court Probate Division - 400 West State Street, 815-319-4500. Written cash offer in 24 hours, close after the executor receives Letters of Office. Real property always requires formal probate in Illinois - the small estate affidavit covers personal property only. Any condition, no repairs. Call 888-440-5250.
+                USA Home Buyers purchases inherited properties in Rockford IL through Winnebago County Circuit Court Probate Division - 400 West State Street, 815-319-4500. Written cash offer in 24 hours, close after the executor receives Letters of Office. Real property always requires formal probate in Illinois - the small estate affidavit covers personal property only. Any condition, no repairs. Call 888-274-5006.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
               Inherited a property through Winnebago County Circuit Court Probate Division? We buy inherited houses in any condition and work around Illinois probate timelines.
             </p>
-            <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
-              📞 Call Now - 888-440-5250 (24/7)
+            <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
+              📞 Call Now - 888-274-5006 (24/7)
             </a>
           </div>
           <div>
@@ -218,7 +218,7 @@ export default function RockfordInheritedPropertyPage() {
             We handle the out-of-state heir situation routinely. The executor can sign closing documents via remote online notarization (Illinois allows this under the Illinois Electronic Commerce Security Act), or by making a single trip to Rockford for the closing appointment at the title company. There's no need to be physically present for repairs, showings, cleanouts, or contractor bids - we take the property in its current condition and manage everything post-closing.
           </p>
           <p className="text-gray-700 mb-4">
-            If you're managing a Winnebago County estate from out of state, call 888-440-5250. We'll discuss the property, the probate stage you're at, and have a written offer ready before your next call with the probate attorney.
+            If you're managing a Winnebago County estate from out of state, call 888-274-5006. We'll discuss the property, the probate stage you're at, and have a written offer ready before your next call with the probate attorney.
           </p>
         </section>
 

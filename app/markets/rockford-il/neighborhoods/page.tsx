@@ -13,7 +13,7 @@ const pageUrl = `${SITE_URL}/markets/rockford-il/neighborhoods`;
 export const metadata: Metadata = {
   title: 'Rockford IL Neighborhoods — Cash Buyer Guide',
   description:
-    'Neighborhood-by-neighborhood home values in Rockford IL. Churchill Grove, Midtown, Signal Hill, Haight Historic District. We buy houses in all Rockford areas. Call 888-440-5250.',
+    'Neighborhood-by-neighborhood home values in Rockford IL. Churchill Grove, Midtown, Signal Hill, Haight Historic District. We buy houses in all Rockford areas. Call 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
@@ -103,8 +103,8 @@ export default function RockfordILNeighborhoodsPage() {
           <p className="text-blue-100 text-lg mb-4">
             Neighborhood-by-neighborhood price data across Rockford and Winnebago County. We buy houses in every area — any condition, any situation.
           </p>
-          <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg transition-colors">
-            📞 Call Now — 888-440-5250 (24/7)
+          <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg transition-colors">
+            📞 Call Now — 888-274-5006 (24/7)
           </a>
         </div>
       </section>
@@ -161,7 +161,7 @@ export default function RockfordILNeighborhoodsPage() {
           <div className="bg-brand-light rounded-xl p-6">
             <h2 className="text-xl font-bold text-brand-dark mb-3">We Buy Houses in Every Rockford Neighborhood</h2>
             <p className="text-gray-700 text-sm mb-4">
-              From a $51,970 ZHVI property in the Old Rockford College area to a $300,000 Haight Historic District Victorian — any neighborhood, any condition, any situation. Written cash offer in 24 hours. Call 888-440-5250 or fill out the form below.
+              From a $51,970 ZHVI property in the Old Rockford College area to a $300,000 Haight Historic District Victorian — any neighborhood, any condition, any situation. Written cash offer in 24 hours. Call 888-274-5006 or fill out the form below.
             </p>
           </div>
         </section>
