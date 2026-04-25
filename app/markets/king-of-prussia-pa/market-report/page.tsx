@@ -230,7 +230,7 @@ export default function KingOfPrussiaMarketReport() {
             <p className="mb-3">Here&apos;s the number that doesn&apos;t get enough attention: the median home takes 56 days to go pending. After that, inspections, appraisals, and mortgage processing add another 45 to 60 days. Total time from listing to close is roughly 80 to 95 days.</p>
             <p className="mb-3">We close in 7 to 14 days. No appraisal contingency. No financing that can fall through. No buyer getting cold feet after inspection.</p>
             <p className="mb-3">Year-over-year: ZHVI up 5.9 percent; Redfin median sale price down 3.9 percent per March 2026 data. Both signal continued strength, driven by suburban Philadelphia demand and limited new inventory in established neighborhoods near Valley Forge.</p>
-            <p className="mb-3">If you&apos;re trying to decide between listing and a cash sale in King of Prussia, the math depends on your timeline and how much certainty matters. Call USA Home Buyers at 888-440-5250 for a written offer within 24 hours.</p>
+            <p className="mb-3">If you&apos;re trying to decide between listing and a cash sale in King of Prussia, the math depends on your timeline and how much certainty matters. Call USA Home Buyers at 888-274-5006 for a written offer within 24 hours.</p>
         </div>
       </details>
 

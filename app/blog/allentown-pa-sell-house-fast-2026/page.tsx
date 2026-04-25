@@ -130,7 +130,7 @@ export default function AllentownPASellHouseFast2026() {
             But a substantial portion of Allentown&apos;s housing inventory is older stock that carries maintenance histories, financing obstacles, and the kind of deferred work that turns a fast market slow in a hurry. For those properties — and for sellers in foreclosure, probate, divorce, or relocation situations regardless of condition — the math on a cash sale is frequently closer than it looks, and the speed and certainty are unambiguous advantages.
           </p>
           <p className="text-gray-700 mb-4">
-            USA Home Buyers covers all of Lehigh County and the Allentown metro. Written cash offer within 24 hours of seeing the property. Typical close in 7-14 days. We handle all closing costs, including the Lehigh County transfer taxes. Call (888) 440-5250 or fill out the form below.
+            USA Home Buyers covers all of Lehigh County and the Allentown metro. Written cash offer within 24 hours of seeing the property. Typical close in 7-14 days. We handle all closing costs, including the Lehigh County transfer taxes. Call 888-274-5006 or fill out the form below.
           </p>
 
         </div>

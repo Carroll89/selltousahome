@@ -35,7 +35,7 @@ export default function KenoshaMarketReportPage() {
         <div className="bg-blue-50 border border-blue-100 rounded-xl p-4 mb-8">
           <p className="text-sm font-medium text-blue-800 mb-1">TL;DR</p>
           <p className="text-sm text-blue-900 leading-relaxed">
-            According to Zillow and Redfin data for Kenosha County (2026), the Kenosha median home value is $225,000, with a median sale price of $235,000 and approximately 35 days on market. Transfer tax: $3.00 per $1,000 (realty transfer fee, seller pays). Foreclosure process: Judicial. For a cash offer based on current Kenosha market conditions, call USA Home Buyers at 888-440-5250.
+            According to Zillow and Redfin data for Kenosha County (2026), the Kenosha median home value is $225,000, with a median sale price of $235,000 and approximately 35 days on market. Transfer tax: $3.00 per $1,000 (realty transfer fee, seller pays). Foreclosure process: Judicial. For a cash offer based on current Kenosha market conditions, call USA Home Buyers at 888-274-5006.
           </p>
         </div>
 

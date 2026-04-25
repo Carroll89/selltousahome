@@ -215,7 +215,7 @@ export default function HarrisburgMarketReport() {
             <p className="mb-3">Average days to pending in Harrisburg is five days. That&apos;s fast — it means when a well-priced home hits the MLS, it goes under contract quickly. But after going pending, you&apos;re still 45 to 60 days from closing. Inspections, appraisals, mortgage underwriting — all of that happens after the offer is accepted.</p>
             <p className="mb-3">That&apos;s why some sellers in Harrisburg choose a cash sale instead. We close in 7 to 14 days. There&apos;s no appraisal contingency, no financing that can fall through, no buyer getting cold feet after inspection.</p>
             <p className="mb-3">Harrisburg is also seeing year-over-year appreciation, driven by its status as the state capital, Penn State Harrisburg&apos;s presence, and relative affordability compared to Philadelphia and Pittsburgh.</p>
-            <p className="mb-3">Whether you decide to list traditionally or call us, understanding the market helps you make a better decision. If you&apos;d like a cash offer on your Harrisburg property, call USA Home Buyers at 888-440-5250.</p>
+            <p className="mb-3">Whether you decide to list traditionally or call us, understanding the market helps you make a better decision. If you&apos;d like a cash offer on your Harrisburg property, call USA Home Buyers at 888-274-5006.</p>
         </div>
       </details>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
