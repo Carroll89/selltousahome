@@ -15,14 +15,14 @@ const pageUrl = `${SITE_URL}/markets/oshkosh-wi/fire-damage`;
 export const metadata: Metadata = {
   title: 'Sell Fire-Damaged House Oshkosh WI',
   description:
-    'Sell a fire-damaged house in Oshkosh WI as-is. Wis. Stat. Ch. 709 disclosure, WI insurance law, Oshkosh balloon-frame fire risk. Written offer 24 hours. 888-440-5250.',
+    'Sell a fire-damaged house in Oshkosh WI as-is. Wis. Stat. Ch. 709 disclosure, WI insurance law, Oshkosh balloon-frame fire risk. Written offer 24 hours. 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
 const FAQ_ITEMS = [
   {
     question: 'Will you buy a fire-damaged house in Oshkosh WI?',
-    answer: 'Yes. USA Home Buyers purchases fire and smoke-damaged houses in Oshkosh and throughout Winnebago County in any condition — partial damage, total loss, smoke-only damage, water damage from fire suppression. You don\'t need to clean up, board up, or make any repairs. We assess the property and make a written cash offer within 24 hours. Call 888-440-5250.',
+    answer: 'Yes. USA Home Buyers purchases fire and smoke-damaged houses in Oshkosh and throughout Winnebago County in any condition — partial damage, total loss, smoke-only damage, water damage from fire suppression. You don\'t need to clean up, board up, or make any repairs. We assess the property and make a written cash offer within 24 hours. Call 888-274-5006.',
   },
   {
     question: 'What does Wisconsin law require me to disclose about fire damage when selling?',
@@ -30,7 +30,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'Do I need to resolve my Wisconsin insurance claim before selling?',
-    answer: 'No. You can sell before, during, or after the insurance claim process. Options: (1) Sell as-is and assign any pending insurance proceeds to us at closing; (2) Collect the insurance settlement first, then sell the unrepaired property to us; (3) Sell before filing a claim. Each has different financial implications. The Wisconsin Office of the Commissioner of Insurance (oci.wi.gov) handles insurer disputes — call 1-800-236-8517. We can structure the transaction around your insurance situation. Call 888-440-5250.',
+    answer: 'No. You can sell before, during, or after the insurance claim process. Options: (1) Sell as-is and assign any pending insurance proceeds to us at closing; (2) Collect the insurance settlement first, then sell the unrepaired property to us; (3) Sell before filing a claim. Each has different financial implications. The Wisconsin Office of the Commissioner of Insurance (oci.wi.gov) handles insurer disputes — call 1-800-236-8517. We can structure the transaction around your insurance situation. Call 888-274-5006.',
   },
   {
     question: 'Should I rebuild or sell my fire-damaged Oshkosh house?',
@@ -78,14 +78,14 @@ export default function OshkoshFireDamagePage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                Sell a fire-damaged house in Oshkosh WI as-is. Wisconsin law requires disclosure under Wis. Stat. Ch. 709 Real Estate Condition Report. Wisconsin Office of the Commissioner of Insurance (oci.wi.gov, 1-800-236-8517) regulates insurer conduct. USA Home Buyers purchases fire and smoke-damaged Oshkosh properties — balloon-frame Victorians, brick bungalows — without cleanup or repairs. Written offer in 24 hours. Call 888-440-5250.
+                Sell a fire-damaged house in Oshkosh WI as-is. Wisconsin law requires disclosure under Wis. Stat. Ch. 709 Real Estate Condition Report. Wisconsin Office of the Commissioner of Insurance (oci.wi.gov, 1-800-236-8517) regulates insurer conduct. USA Home Buyers purchases fire and smoke-damaged Oshkosh properties — balloon-frame Victorians, brick bungalows — without cleanup or repairs. Written offer in 24 hours. Call 888-274-5006.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
               Fire or smoke damage in your Oshkosh WI home? We buy as-is — pre-war balloon-frame, Lake Shore Victorian, brick bungalow, partial or total loss. No cleanup required.
             </p>
-            <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
-              📞 Call Now — 888-440-5250 (24/7)
+            <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
+              📞 Call Now — 888-274-5006 (24/7)
             </a>
           </div>
           <div>
@@ -101,7 +101,7 @@ export default function OshkoshFireDamagePage() {
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          Fire damage on your Oshkosh property? USA Home Buyers purchases fire-damaged homes in Winnebago County as-is. No contractor bids, no delays. Fair cash offer based on current condition. Call 888-440-5250.
+          Fire damage on your Oshkosh property? USA Home Buyers purchases fire-damaged homes in Winnebago County as-is. No contractor bids, no delays. Fair cash offer based on current condition. Call 888-274-5006.
         </div>
       </details>
           <CashOfferForm variant="hero" headline="Get Your Fire-Damage Cash Offer" subheadline="Written offer in 24 hours. No repairs or cleanup required. Any condition." sourcePage="/markets/oshkosh-wi/fire-damage" />
@@ -195,7 +195,7 @@ export default function OshkoshFireDamagePage() {
             <li className="flex items-start gap-2"><span className="text-brand-primary mt-1">•</span><div><strong>Wisconsin RECR disclosure:</strong> We review what you've disclosed on the RECR and incorporate it into our assessment.</div></li>
           </ul>
           <p className="text-gray-700 mb-4">
-            We don't require a separate inspection or appraisal. We assess the condition ourselves and provide a written offer within 24 hours. Call 888-440-5250 to start.
+            We don't require a separate inspection or appraisal. We assess the condition ourselves and provide a written offer within 24 hours. Call 888-274-5006 to start.
           </p>
         </section>
 

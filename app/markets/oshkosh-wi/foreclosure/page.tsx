@@ -15,14 +15,14 @@ const pageUrl = `${SITE_URL}/markets/oshkosh-wi/foreclosure`;
 export const metadata: Metadata = {
   title: 'Stop Foreclosure Oshkosh WI',
   description:
-    'Facing foreclosure in Oshkosh or Winnebago County WI? We buy before the sheriff\'s sale. Wis. Stat. Ch. 846 explained. Written offer in 24 hours. Call 888-440-5250.',
+    'Facing foreclosure in Oshkosh or Winnebago County WI? We buy before the sheriff\'s sale. Wis. Stat. Ch. 846 explained. Written offer in 24 hours. Call 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
 const FAQ_ITEMS = [
   {
     question: 'How fast can I sell before foreclosure in Oshkosh WI?',
-    answer: 'USA Home Buyers can close in as few as 7 days once you accept an offer. Wisconsin is a judicial foreclosure state under Wis. Stat. Ch. 846 — every Winnebago County foreclosure is filed at Winnebago County Circuit Court, 415 Jackson Street, Oshkosh WI 54901. Once judgment of foreclosure is entered, the statutory redemption period begins — 6 months for owner-occupied 1-4 family homes when the lender waives deficiency (Wis. Stat. § 846.101). Call 888-440-5250 the moment you receive foreclosure paperwork.',
+    answer: 'USA Home Buyers can close in as few as 7 days once you accept an offer. Wisconsin is a judicial foreclosure state under Wis. Stat. Ch. 846 — every Winnebago County foreclosure is filed at Winnebago County Circuit Court, 415 Jackson Street, Oshkosh WI 54901. Once judgment of foreclosure is entered, the statutory redemption period begins — 6 months for owner-occupied 1-4 family homes when the lender waives deficiency (Wis. Stat. § 846.101). Call 888-274-5006 the moment you receive foreclosure paperwork.',
   },
   {
     question: 'What is the foreclosure process in Winnebago County WI?',
@@ -34,7 +34,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'What if I owe more than my Oshkosh house is worth?',
-    answer: 'A short sale may be possible — the lender agrees to accept less than the full payoff to release the mortgage lien. Wisconsin allows deficiency judgments after foreclosure (unlike some states). A properly negotiated short sale with deficiency waiver language can eliminate that liability. We have experience with Winnebago County short sales and can help you understand whether the path works for your situation. Call 888-440-5250.',
+    answer: 'A short sale may be possible — the lender agrees to accept less than the full payoff to release the mortgage lien. Wisconsin allows deficiency judgments after foreclosure (unlike some states). A properly negotiated short sale with deficiency waiver language can eliminate that liability. We have experience with Winnebago County short sales and can help you understand whether the path works for your situation. Call 888-274-5006.',
   },
   {
     question: 'What resources does Wisconsin offer for homeowners facing foreclosure?',
@@ -78,14 +78,14 @@ export default function OshkoshForeclosurePage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                USA Home Buyers purchases Oshkosh WI homes from homeowners facing foreclosure — before the Winnebago County Circuit Court sheriff's sale. WI judicial foreclosure (Wis. Stat. Ch. 846): 6-month redemption from judgment (§ 846.101), ~12-15 months first-missed-payment to sale. Written cash offer in 24 hours, close in 7-14 days. Call 888-440-5250.
+                USA Home Buyers purchases Oshkosh WI homes from homeowners facing foreclosure — before the Winnebago County Circuit Court sheriff's sale. WI judicial foreclosure (Wis. Stat. Ch. 846): 6-month redemption from judgment (§ 846.101), ~12-15 months first-missed-payment to sale. Written cash offer in 24 hours, close in 7-14 days. Call 888-274-5006.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
               Written cash offer in 24 hours. Close in 7–14 days. No repairs, no agent fees, no waiting.
             </p>
-            <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
-              📞 Call Now — 888-440-5250 (24/7)
+            <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
+              📞 Call Now — 888-274-5006 (24/7)
             </a>
           </div>
           <div>
@@ -101,7 +101,7 @@ export default function OshkoshForeclosurePage() {
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          Facing foreclosure in Oshkosh? Wisconsin gives you a redemption period under Chapter 846, but don't wait. USA Home Buyers closes in 7 days, stops the process, and protects your credit. Call 888-440-5250 right now.
+          Facing foreclosure in Oshkosh? Wisconsin gives you a redemption period under Chapter 846, but don't wait. USA Home Buyers closes in 7 days, stops the process, and protects your credit. Call 888-274-5006 right now.
         </div>
       </details>
           <CashOfferForm variant="hero" headline="Get Your Cash Offer" subheadline="Written offer in 24 hours. We cover all closing costs." sourcePage="/markets/oshkosh-wi/foreclosure" />

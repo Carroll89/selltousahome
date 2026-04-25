@@ -117,7 +117,7 @@ export default function OshkoshWIBlogPost() {
             For the rest of Oshkosh's housing stock — the brick bungalows with aging systems, the estate properties in deferred-maintenance condition, the Lake Winnebago-adjacent homes with flood-plain complications, the EAA area investor properties no longer cash-flowing — the retail market is slower and the friction costs are real. Cash buyers serve that segment, and they serve it efficiently: written offer in 24 hours, close in 7-14 days, no repairs, no contingencies.
           </p>
           <p className="text-gray-700 mb-4">
-            Call USA Home Buyers at 888-440-5250. We've been buying houses in Wisconsin since our Kenosha (#9) and Racine (#10) market launches. Oshkosh is our third WI market and we understand the Winnebago County WI dynamics — the probate process, the foreclosure timeline, the housing stock, and the price points. We'll give you a written offer within 24 hours and let you decide.
+            Call USA Home Buyers at 888-274-5006. We've been buying houses in Wisconsin since our Kenosha (#9) and Racine (#10) market launches. Oshkosh is our third WI market and we understand the Winnebago County WI dynamics — the probate process, the foreclosure timeline, the housing stock, and the price points. We'll give you a written offer within 24 hours and let you decide.
           </p>
 
           <div className="bg-brand-light rounded-2xl p-6 my-8">
@@ -130,7 +130,7 @@ export default function OshkoshWIBlogPost() {
               <li>• <strong>WI Transfer Fee:</strong> $3.00/$1,000 — state only, no Winnebago County WI or City of Oshkosh add-on (Wis. Stat. § 77.22)</li>
               <li>• <strong>Foreclosure Timeline:</strong> 12-15 months (Wis. Stat. Ch. 846, § 846.101 6-month redemption)</li>
               <li>• <strong>Probate Court:</strong> Winnebago County Circuit Court Register in Probate, 415 Jackson St Room 242, (920) 236-4808</li>
-              <li>• <strong>USA Home Buyers:</strong> 888-440-5250 — written offer in 24 hours, close in 7-14 days</li>
+              <li>• <strong>USA Home Buyers:</strong> 888-274-5006 — written offer in 24 hours, close in 7-14 days</li>
             </ul>
           </div>
 

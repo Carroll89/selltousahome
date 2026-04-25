@@ -15,14 +15,14 @@ const pageUrl = `${SITE_URL}/markets/oshkosh-wi/inherited-property`;
 export const metadata: Metadata = {
   title: 'Sell Inherited House Oshkosh WI',
   description:
-    'Sell an inherited home in Oshkosh WI as-is. Winnebago County WI probate process explained. Wis. Stat. Ch. 856 informal & Ch. 857-879 formal. Call 888-440-5250.',
+    'Sell an inherited home in Oshkosh WI as-is. Winnebago County WI probate process explained. Wis. Stat. Ch. 856 informal & Ch. 857-879 formal. Call 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
 const FAQ_ITEMS = [
   {
     question: 'Can I sell an inherited house in Oshkosh before probate is complete?',
-    answer: 'Generally, no — Wisconsin requires that title be transferred properly through the probate process before the property can be sold to a third party. However, USA Home Buyers can make a written offer before probate is opened, allowing you to know your number as you start the process. In informal probate under Wis. Stat. Ch. 856, an appointed personal representative can often authorize a sale within 4-8 months. We\'ll work on your timeline. Call 888-440-5250.',
+    answer: 'Generally, no — Wisconsin requires that title be transferred properly through the probate process before the property can be sold to a third party. However, USA Home Buyers can make a written offer before probate is opened, allowing you to know your number as you start the process. In informal probate under Wis. Stat. Ch. 856, an appointed personal representative can often authorize a sale within 4-8 months. We\'ll work on your timeline. Call 888-274-5006.',
   },
   {
     question: 'What is informal probate vs. formal probate for an Oshkosh estate?',
@@ -30,7 +30,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'Do heirs all need to agree to sell the inherited Oshkosh property?',
-    answer: 'In most cases, yes. If multiple heirs inherited the property, all must agree on the sale unless the court-appointed personal representative has independent authority to sell under the will or probate order. Wisconsin allows a personal representative to sell estate real property to pay debts or facilitate distribution — but heir disputes can slow or block the sale. We\'ve worked with families navigating heir disagreements and can explain the options. Call 888-440-5250.',
+    answer: 'In most cases, yes. If multiple heirs inherited the property, all must agree on the sale unless the court-appointed personal representative has independent authority to sell under the will or probate order. Wisconsin allows a personal representative to sell estate real property to pay debts or facilitate distribution — but heir disputes can slow or block the sale. We\'ve worked with families navigating heir disagreements and can explain the options. Call 888-274-5006.',
   },
   {
     question: 'What is a step-up in basis and how does it affect an inherited Oshkosh home?',
@@ -78,14 +78,14 @@ export default function OshkoshInheritedPropertyPage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                Sell an inherited Oshkosh WI home as-is. Winnebago County WI probate: informal (Wis. Stat. Ch. 856) 4-8 months; formal (Ch. 857-879) 9-18 months. Register in Probate: 415 Jackson Street Room 242, (920) 236-4808. Real property always requires probate — small estate affidavit only for under $50K with no real estate. USA Home Buyers makes written offers before probate closes. Call 888-440-5250.
+                Sell an inherited Oshkosh WI home as-is. Winnebago County WI probate: informal (Wis. Stat. Ch. 856) 4-8 months; formal (Ch. 857-879) 9-18 months. Register in Probate: 415 Jackson Street Room 242, (920) 236-4808. Real property always requires probate — small estate affidavit only for under $50K with no real estate. USA Home Buyers makes written offers before probate closes. Call 888-274-5006.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
               Inherited a house in Oshkosh or Winnebago County WI? We buy estate properties as-is — Victorian lakefront homes, brick bungalows, mid-century ranches — and work with your probate timeline.
             </p>
-            <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
-              📞 Call Now — 888-440-5250 (24/7)
+            <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
+              📞 Call Now — 888-274-5006 (24/7)
             </a>
           </div>
           <div>
@@ -101,7 +101,7 @@ export default function OshkoshInheritedPropertyPage() {
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          Inherit a property in Oshkosh or Winnebago County? USA Home Buyers specializes in estate sales — we work with Wisconsin probate timelines. Buy as-is, any condition. Written cash offer in 24 hours. Call 888-440-5250.
+          Inherit a property in Oshkosh or Winnebago County? USA Home Buyers specializes in estate sales — we work with Wisconsin probate timelines. Buy as-is, any condition. Written cash offer in 24 hours. Call 888-274-5006.
         </div>
       </details>
           <CashOfferForm variant="hero" headline="Get Your Cash Offer on an Oshkosh Inherited Property" subheadline="Written offer in 24 hours. We work with Winnebago County WI probate timelines." sourcePage="/markets/oshkosh-wi/inherited-property" />

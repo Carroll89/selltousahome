@@ -14,7 +14,7 @@ const pageUrl = `${SITE_URL}/markets/oshkosh-wi/market-report`;
 export const metadata: Metadata = {
   title: 'Oshkosh WI Housing Market Report 2026',
   description:
-    'Oshkosh WI housing market data: $211K Redfin median, 61-day DOM, RDC hotness rank #13. Winnebago County WI investor analysis 2026. Cash buyers: 888-440-5250.',
+    'Oshkosh WI housing market data: $211K Redfin median, 61-day DOM, RDC hotness rank #13. Winnebago County WI investor analysis 2026. Cash buyers: 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
@@ -37,7 +37,7 @@ export default function OshkoshWIMarketReportPage() {
           <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
             <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
             <p className="text-white text-sm leading-relaxed">
-              Oshkosh WI Zillow ZHVI: $250,967 (+5.2% YoY). Redfin median sale: $211,000. Compete score 60/100. Median sold DOM: 61 days. RDC rank #13. WI transfer fee $3.00/$1,000 — no Winnebago County WI or City of Oshkosh add-on (Wis. Stat. § 77.22). WI foreclosure 12-15 months (Ch. 846). Cash offers 70-80% FMV. USA Home Buyers: 888-440-5250.
+              Oshkosh WI Zillow ZHVI: $250,967 (+5.2% YoY). Redfin median sale: $211,000. Compete score 60/100. Median sold DOM: 61 days. RDC rank #13. WI transfer fee $3.00/$1,000 — no Winnebago County WI or City of Oshkosh add-on (Wis. Stat. § 77.22). WI foreclosure 12-15 months (Ch. 846). Cash offers 70-80% FMV. USA Home Buyers: 888-274-5006.
             </p>
           </div>
         </div>
@@ -182,7 +182,7 @@ export default function OshkoshWIMarketReportPage() {
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          The Oshkosh WI market in 2026 — steady appreciation, Lake Winnebago waterfront appeal, Fox Valley affordability. Strong manufacturing employment base. If you're thinking about selling, USA Home Buyers gives you a cash offer in 24 hours. Call 888-440-5250.
+          The Oshkosh WI market in 2026 — steady appreciation, Lake Winnebago waterfront appeal, Fox Valley affordability. Strong manufacturing employment base. If you're thinking about selling, USA Home Buyers gives you a cash offer in 24 hours. Call 888-274-5006.
         </div>
       </details>
         <CashOfferForm variant="footer" headline="Ready to Sell Your Oshkosh WI Home?" sourcePage="/markets/oshkosh-wi/market-report" />

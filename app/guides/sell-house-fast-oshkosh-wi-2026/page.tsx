@@ -15,7 +15,7 @@ const pageUrl = `${SITE_URL}/guides/sell-house-fast-oshkosh-wi-2026`;
 export const metadata: Metadata = {
   title: 'Sell House Fast Oshkosh WI 2026 — Guide',
   description:
-    'Complete 2026 guide to selling your house fast in Oshkosh WI. Cash buyers vs. agents vs. iBuyers with real Winnebago County WI market data. Call 888-440-5250.',
+    'Complete 2026 guide to selling your house fast in Oshkosh WI. Cash buyers vs. agents vs. iBuyers with real Winnebago County WI market data. Call 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
@@ -84,7 +84,7 @@ export default function SellHouseFastOshkoshWIGuide() {
           <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
             <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
             <p className="text-white text-sm leading-relaxed">
-              Sell your Oshkosh WI house fast in 2026. Redfin median sale price $211,000; Zillow ZHVI $250,967 (+5.2% YoY). RDC hotness rank #13. Median sold DOM 61 days — hot homes pending in 42 days. WI transfer fee $3.00/$1,000 (state only; no Winnebago County WI or City of Oshkosh add-on). WI judicial foreclosure (Wis. Stat. Ch. 846) — 12-15 months. No iBuyer presence in Oshkosh-Neenah CBSA (~170K metro). USA Home Buyers: cash offer in 24 hours, close in 7-14 days. Call 888-440-5250.
+              Sell your Oshkosh WI house fast in 2026. Redfin median sale price $211,000; Zillow ZHVI $250,967 (+5.2% YoY). RDC hotness rank #13. Median sold DOM 61 days — hot homes pending in 42 days. WI transfer fee $3.00/$1,000 (state only; no Winnebago County WI or City of Oshkosh add-on). WI judicial foreclosure (Wis. Stat. Ch. 846) — 12-15 months. No iBuyer presence in Oshkosh-Neenah CBSA (~170K metro). USA Home Buyers: cash offer in 24 hours, close in 7-14 days. Call 888-274-5006.
             </p>
           </div>
           <p className="text-lg text-blue-100">
@@ -198,7 +198,7 @@ export default function SellHouseFastOshkoshWIGuide() {
             Ready to sell your Oshkosh WI house in 2026? Here's the path:
           </p>
           <ol className="space-y-3 text-gray-700 mb-6">
-            <li className="flex items-start gap-3"><span className="bg-brand-primary text-white w-7 h-7 rounded-full flex items-center justify-center font-bold text-sm shrink-0 mt-0.5">1</span><div>Call 888-440-5250 or fill out the form below — describe your property, condition, and timeline. Takes 2 minutes.</div></li>
+            <li className="flex items-start gap-3"><span className="bg-brand-primary text-white w-7 h-7 rounded-full flex items-center justify-center font-bold text-sm shrink-0 mt-0.5">1</span><div>Call 888-274-5006 or fill out the form below — describe your property, condition, and timeline. Takes 2 minutes.</div></li>
             <li className="flex items-start gap-3"><span className="bg-brand-primary text-white w-7 h-7 rounded-full flex items-center justify-center font-bold text-sm shrink-0 mt-0.5">2</span><div>We review your property and deliver a written cash offer within 24 hours — no obligation, no pressure.</div></li>
             <li className="flex items-start gap-3"><span className="bg-brand-primary text-white w-7 h-7 rounded-full flex items-center justify-center font-bold text-sm shrink-0 mt-0.5">3</span><div>Accept the offer and choose your closing date — as fast as 7 days or whenever works for your situation.</div></li>
             <li className="flex items-start gap-3"><span className="bg-brand-primary text-white w-7 h-7 rounded-full flex items-center justify-center font-bold text-sm shrink-0 mt-0.5">4</span><div>Sign at a Winnebago County WI title company. Walk away with your cash. No repairs, no cleanout.</div></li>

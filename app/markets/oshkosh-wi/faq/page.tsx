@@ -15,14 +15,14 @@ const pageUrl = `${SITE_URL}/markets/oshkosh-wi/faq`;
 export const metadata: Metadata = {
   title: 'Oshkosh WI Home Selling FAQ 2026',
   description:
-    'Answers to Oshkosh WI home selling questions: transfer tax, WI foreclosure law, probate, cash offers, Winnebago County. Call 888-440-5250.',
+    'Answers to Oshkosh WI home selling questions: transfer tax, WI foreclosure law, probate, cash offers, Winnebago County. Call 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
 const FAQ_ITEMS = [
   {
     question: 'How fast can I sell my house for cash in Oshkosh WI?',
-    answer: 'USA Home Buyers can close in as few as 7 days in Oshkosh and throughout Winnebago County WI. Written cash offer within 24 hours of your inquiry — no obligation. If you\'re in a time-sensitive situation (foreclosure, divorce, estate), we can move on your schedule. Call 888-440-5250.',
+    answer: 'USA Home Buyers can close in as few as 7 days in Oshkosh and throughout Winnebago County WI. Written cash offer within 24 hours of your inquiry — no obligation. If you\'re in a time-sensitive situation (foreclosure, divorce, estate), we can move on your schedule. Call 888-274-5006.',
   },
   {
     question: 'What is the Wisconsin real estate transfer fee in Oshkosh?',
@@ -30,7 +30,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How does Wisconsin foreclosure work in Winnebago County?',
-    answer: 'Wisconsin is a 100% judicial foreclosure state under Wis. Stat. Ch. 846 — no non-judicial/trustee-sale path for residential mortgages. Every Winnebago County foreclosure is filed at Winnebago County Circuit Court, 415 Jackson Street, Oshkosh WI 54901. Timeline: once the judgment of foreclosure is entered, a 6-month statutory redemption period begins for owner-occupied 1-4 family homes where the lender waives deficiency (Wis. Stat. § 846.101). Total first-missed-payment to sheriff\'s sale: 12-15 months. Call 888-440-5250 the moment you receive foreclosure paperwork.',
+    answer: 'Wisconsin is a 100% judicial foreclosure state under Wis. Stat. Ch. 846 — no non-judicial/trustee-sale path for residential mortgages. Every Winnebago County foreclosure is filed at Winnebago County Circuit Court, 415 Jackson Street, Oshkosh WI 54901. Timeline: once the judgment of foreclosure is entered, a 6-month statutory redemption period begins for owner-occupied 1-4 family homes where the lender waives deficiency (Wis. Stat. § 846.101). Total first-missed-payment to sheriff\'s sale: 12-15 months. Call 888-274-5006 the moment you receive foreclosure paperwork.',
   },
   {
     question: 'How does Oshkosh probate work for inherited homes?',
@@ -38,7 +38,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'Do you buy houses as-is in Oshkosh WI?',
-    answer: 'Yes. We buy Oshkosh homes in any condition — knob-and-tube wiring in brick bungalows, galvanized plumbing in pre-war homes, foundation moisture issues near Lake Winnebago drainage zones, fire damage, code violations, tenant-occupied properties. Oshkosh\'s pre-war housing stock frequently has issues that disqualify it from FHA and conventional financing. That\'s exactly the kind of property we buy. No repairs, no cleanout required. Call 888-440-5250.',
+    answer: 'Yes. We buy Oshkosh homes in any condition — knob-and-tube wiring in brick bungalows, galvanized plumbing in pre-war homes, foundation moisture issues near Lake Winnebago drainage zones, fire damage, code violations, tenant-occupied properties. Oshkosh\'s pre-war housing stock frequently has issues that disqualify it from FHA and conventional financing. That\'s exactly the kind of property we buy. No repairs, no cleanout required. Call 888-274-5006.',
   },
   {
     question: 'What neighborhoods in Oshkosh do you buy in?',
@@ -46,7 +46,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'Can you buy a house in Oshkosh WI during a divorce?',
-    answer: 'Yes — and a cash sale is often the cleanest exit from a jointly-owned property during divorce. Wisconsin is a marital property state under Wis. Stat. Ch. 766, with an equal-division presumption under § 767.61. A single cash offer gives both parties a concrete number to negotiate around — no inspector parade, no contingency risk, no deal falling apart after you\'ve both emotionally committed to moving on. Both owners sign at closing; proceeds are divided per the Winnebago County Family Court order or mutual agreement. Call 888-440-5250.',
+    answer: 'Yes — and a cash sale is often the cleanest exit from a jointly-owned property during divorce. Wisconsin is a marital property state under Wis. Stat. Ch. 766, with an equal-division presumption under § 767.61. A single cash offer gives both parties a concrete number to negotiate around — no inspector parade, no contingency risk, no deal falling apart after you\'ve both emotionally committed to moving on. Both owners sign at closing; proceeds are divided per the Winnebago County Family Court order or mutual agreement. Call 888-274-5006.',
   },
   {
     question: 'What is the Oshkosh WI housing market like in 2026?',
@@ -58,7 +58,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How does selling a tenant-occupied Oshkosh home work?',
-    answer: 'Wisconsin law (Wis. Stat. § 704.09) requires existing leases to survive a sale — the buyer steps into the landlord\'s shoes. Tenants cannot be evicted solely because the property sold. We buy tenant-occupied Oshkosh properties without requiring eviction first. We step in as the new landlord, handle the tenant relationship post-closing, and close on your schedule. Whether your tenant has a month-to-month or fixed-term lease, we can structure the transaction to work. Call 888-440-5250.',
+    answer: 'Wisconsin law (Wis. Stat. § 704.09) requires existing leases to survive a sale — the buyer steps into the landlord\'s shoes. Tenants cannot be evicted solely because the property sold. We buy tenant-occupied Oshkosh properties without requiring eviction first. We step in as the new landlord, handle the tenant relationship post-closing, and close on your schedule. Whether your tenant has a month-to-month or fixed-term lease, we can structure the transaction to work. Call 888-274-5006.',
   },
 ];
 
@@ -98,16 +98,16 @@ export default function OshkoshWIFAQPage() {
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          Questions about selling in Oshkosh WI? Wisconsin judicial foreclosure gives you a redemption period. Inherited property requires Winnebago County probate. We buy with code violations, tenant-occupied, any condition. Close in as little as 7 days. Call 888-440-5250.
+          Questions about selling in Oshkosh WI? Wisconsin judicial foreclosure gives you a redemption period. Inherited property requires Winnebago County probate. We buy with code violations, tenant-occupied, any condition. Close in as little as 7 days. Call 888-274-5006.
         </div>
       </details>
         <FAQSection items={FAQ_ITEMS} heading="Oshkosh WI Frequently Asked Questions" />
 
         <section className="my-8 bg-brand-light rounded-2xl p-6">
           <h2 className="text-xl font-bold text-brand-dark mb-2">Still have questions about your Oshkosh WI property?</h2>
-          <p className="text-gray-700 text-sm mb-3">Call us 24/7 at 888-440-5250 or fill out the form below. We'll respond within 24 hours with a written cash offer — no obligation.</p>
-          <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-5 py-2.5 rounded-xl text-base transition-colors">
-            📞 888-440-5250
+          <p className="text-gray-700 text-sm mb-3">Call us 24/7 at 888-274-5006 or fill out the form below. We'll respond within 24 hours with a written cash offer — no obligation.</p>
+          <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-5 py-2.5 rounded-xl text-base transition-colors">
+            📞 888-274-5006
           </a>
         </section>
 

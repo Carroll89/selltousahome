@@ -15,14 +15,14 @@ const pageUrl = `${SITE_URL}/markets/oshkosh-wi/tenant-occupied`;
 export const metadata: Metadata = {
   title: 'Sell Tenant-Occupied Home Oshkosh WI',
   description:
-    'Sell your tenant-occupied Oshkosh WI rental as-is. Wis. Stat. Ch. 704 lease survival on sale, § 704.09, WI FED via Ch. 799 at Winnebago County Court. 888-440-5250.',
+    'Sell your tenant-occupied Oshkosh WI rental as-is. Wis. Stat. Ch. 704 lease survival on sale, § 704.09, WI FED via Ch. 799 at Winnebago County Court. 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
 const FAQ_ITEMS = [
   {
     question: 'Can I sell my Oshkosh WI rental with tenants still in it?',
-    answer: 'Yes — Wisconsin law (Wis. Stat. § 704.09) requires existing leases to survive a sale of the property. The buyer steps into the landlord\'s shoes with the same lease obligations. USA Home Buyers purchases tenant-occupied Oshkosh properties without requiring eviction first. We close, take over the landlord role, and handle the tenant relationship from that point. Call 888-440-5250.',
+    answer: 'Yes — Wisconsin law (Wis. Stat. § 704.09) requires existing leases to survive a sale of the property. The buyer steps into the landlord\'s shoes with the same lease obligations. USA Home Buyers purchases tenant-occupied Oshkosh properties without requiring eviction first. We close, take over the landlord role, and handle the tenant relationship from that point. Call 888-274-5006.',
   },
   {
     question: 'Does a lease survive the sale of a Winnebago County rental property?',
@@ -78,14 +78,14 @@ export default function OshkoshTenantOccupiedPage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                Sell your Oshkosh WI rental with tenants in place — Wisconsin law (Wis. Stat. § 704.09) requires leases to survive sale; buyer becomes new landlord. FED process (Wis. Stat. Ch. 799) at Winnebago County Circuit Court if eviction needed post-sale. USA Home Buyers takes the property with tenants, handles lease transition. No eviction before closing. Call 888-440-5250.
+                Sell your Oshkosh WI rental with tenants in place — Wisconsin law (Wis. Stat. § 704.09) requires leases to survive sale; buyer becomes new landlord. FED process (Wis. Stat. Ch. 799) at Winnebago County Circuit Court if eviction needed post-sale. USA Home Buyers takes the property with tenants, handles lease transition. No eviction before closing. Call 888-274-5006.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
               No eviction required. We buy Oshkosh rental properties with tenants in place — near UW Oshkosh student rentals, EAA area STRs, and long-term tenancies.
             </p>
-            <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
-              📞 Call Now — 888-440-5250 (24/7)
+            <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
+              📞 Call Now — 888-274-5006 (24/7)
             </a>
           </div>
           <div>
@@ -101,7 +101,7 @@ export default function OshkoshTenantOccupiedPage() {
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          Done being a landlord in Oshkosh? USA Home Buyers buys tenant-occupied properties — no eviction needed, no waiting for leases. We handle everything after closing. Call 888-440-5250 for a fast cash offer.
+          Done being a landlord in Oshkosh? USA Home Buyers buys tenant-occupied properties — no eviction needed, no waiting for leases. We handle everything after closing. Call 888-274-5006 for a fast cash offer.
         </div>
       </details>
           <CashOfferForm variant="hero" headline="Get Your Oshkosh Rental Property Cash Offer" subheadline="Written offer in 24 hours. Tenants can stay until we close." sourcePage="/markets/oshkosh-wi/tenant-occupied" />

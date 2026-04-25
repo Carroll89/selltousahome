@@ -15,14 +15,14 @@ const pageUrl = `${SITE_URL}/markets/oshkosh-wi/probate`;
 export const metadata: Metadata = {
   title: 'Probate Home Sale Oshkosh WI',
   description:
-    'Sell a probate property in Oshkosh WI. Winnebago County Circuit Court Register in Probate. Wis. Stat. Ch. 856 informal + Ch. 857-879 formal. Call 888-440-5250.',
+    'Sell a probate property in Oshkosh WI. Winnebago County Circuit Court Register in Probate. Wis. Stat. Ch. 856 informal + Ch. 857-879 formal. Call 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
 const FAQ_ITEMS = [
   {
     question: 'Can USA Home Buyers purchase a home still in Oshkosh probate?',
-    answer: 'Yes. We make written offers on Oshkosh probate properties before the estate is closed. The personal representative (executor) can sign the purchase agreement once they have authority from the Winnebago County Register in Probate. We then coordinate the closing timeline to align with the estate\'s completion. Many families find it helpful to have a firm offer price in hand while working through probate proceedings. Call 888-440-5250.',
+    answer: 'Yes. We make written offers on Oshkosh probate properties before the estate is closed. The personal representative (executor) can sign the purchase agreement once they have authority from the Winnebago County Register in Probate. We then coordinate the closing timeline to align with the estate\'s completion. Many families find it helpful to have a firm offer price in hand while working through probate proceedings. Call 888-274-5006.',
   },
   {
     question: 'How long does Winnebago County WI probate take for a house sale?',
@@ -78,14 +78,14 @@ export default function OshkoshProbatePage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                Sell an Oshkosh WI probate property through Winnebago County Circuit Court Register in Probate, 415 Jackson Street Room 242, (920) 236-4808. Informal probate (Wis. Stat. Ch. 856): 4-8 months. Formal probate (Wis. Stat. Ch. 857-879): 9-18 months. USA Home Buyers makes offers before probate closes — personal representative signs. Call 888-440-5250.
+                Sell an Oshkosh WI probate property through Winnebago County Circuit Court Register in Probate, 415 Jackson Street Room 242, (920) 236-4808. Informal probate (Wis. Stat. Ch. 856): 4-8 months. Formal probate (Wis. Stat. Ch. 857-879): 9-18 months. USA Home Buyers makes offers before probate closes — personal representative signs. Call 888-274-5006.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
               We buy Oshkosh probate properties in any condition — before or after the estate closes. No repairs, no cleanout, work on the estate's timeline.
             </p>
-            <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
-              📞 Call Now — 888-440-5250 (24/7)
+            <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
+              📞 Call Now — 888-274-5006 (24/7)
             </a>
           </div>
           <div>
@@ -101,7 +101,7 @@ export default function OshkoshProbatePage() {
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          Oshkosh property in Wisconsin probate? USA Home Buyers works with personal representatives and estate attorneys in Winnebago County. We buy as-is once the court grants authority. Written cash offer in 24 hours. Call 888-440-5250.
+          Oshkosh property in Wisconsin probate? USA Home Buyers works with personal representatives and estate attorneys in Winnebago County. We buy as-is once the court grants authority. Written cash offer in 24 hours. Call 888-274-5006.
         </div>
       </details>
           <CashOfferForm variant="hero" headline="Get Your Oshkosh Probate Property Cash Offer" subheadline="Written offer in 24 hours. We work with Winnebago County WI probate timelines." sourcePage="/markets/oshkosh-wi/probate" />

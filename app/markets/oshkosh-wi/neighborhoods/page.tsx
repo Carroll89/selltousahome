@@ -14,7 +14,7 @@ const pageUrl = `${SITE_URL}/markets/oshkosh-wi/neighborhoods`;
 export const metadata: Metadata = {
   title: 'Oshkosh WI Neighborhoods — Sell Fast',
   description:
-    'Sell your house fast in any Oshkosh WI neighborhood — Lake Shore, Merritt, Algoma, Center City, Sawyer Creek, and all of Winnebago County. Cash offers: 888-440-5250.',
+    'Sell your house fast in any Oshkosh WI neighborhood — Lake Shore, Merritt, Algoma, Center City, Sawyer Creek, and all of Winnebago County. Cash offers: 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
@@ -156,7 +156,7 @@ export default function OshkoshWINeighborhoodsPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-sm text-gray-600">We serve all of Winnebago County WI (ZIPs 54901, 54902, 54904 and surrounding townships). Call 888-440-5250 if you're unsure whether we serve your address.</p>
+          <p className="text-sm text-gray-600">We serve all of Winnebago County WI (ZIPs 54901, 54902, 54904 and surrounding townships). Call 888-274-5006 if you're unsure whether we serve your address.</p>
         </section>
 
         <section className="my-8">
@@ -201,7 +201,7 @@ export default function OshkoshWINeighborhoodsPage() {
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          Lake Shore, Merritt, Algoma, Fair Acres — USA Home Buyers buys in every Oshkosh neighborhood. Brick bungalows, lakefront Victorians, ranch homes — any condition, any situation. Cash offer in 24 hours. Call 888-440-5250.
+          Lake Shore, Merritt, Algoma, Fair Acres — USA Home Buyers buys in every Oshkosh neighborhood. Brick bungalows, lakefront Victorians, ranch homes — any condition, any situation. Cash offer in 24 hours. Call 888-274-5006.
         </div>
       </details>
         <CashOfferForm variant="footer" headline="Ready to Sell Your Oshkosh WI Home?" sourcePage="/markets/oshkosh-wi/neighborhoods" />

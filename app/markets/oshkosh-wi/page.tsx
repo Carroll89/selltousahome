@@ -19,7 +19,7 @@ export const revalidate = 86400;
 export const metadata: Metadata = {
   title: 'Sell My House Fast Oshkosh WI',
   description:
-    'We buy houses in Oshkosh WI for cash, as-is. Written offer in 24 hours, close in 7 days. No repairs, no fees. Serving Winnebago County WI. Call 888-440-5250.',
+    'We buy houses in Oshkosh WI for cash, as-is. Written offer in 24 hours, close in 7 days. No repairs, no fees. Serving Winnebago County WI. Call 888-274-5006.',
   alternates: { canonical: `${SITE_URL}/markets/oshkosh-wi` },
   openGraph: {
     images: [{ url: '/images/oshkosh-wi-hero.jpg', width: 1200, height: 630, alt: 'Oshkosh WI home — Sell Your House Fast for Cash' }],
@@ -33,7 +33,7 @@ const oshkoshWILocalBusinessSchema = {
   name: 'USA Home Buyers — Oshkosh WI',
   description: 'Cash home buyers serving Oshkosh WI and Winnebago County. We buy houses as-is in any condition — no repairs, no agent fees, close in 7-14 days.',
   url: `${SITE_URL}/markets/oshkosh-wi`,
-  telephone: '+18884405250',
+  telephone: '+18882745006',
   address: {
     '@type': 'PostalAddress',
     addressLocality: 'Oshkosh',
@@ -120,7 +120,7 @@ const COMPARISON_ROWS = [
 const FAQ_ITEMS = [
   {
     question: 'How fast can I sell my house for cash in Oshkosh WI?',
-    answer: 'USA Home Buyers can close in as few as 7 days in Oshkosh and throughout Winnebago County WI. We send a written cash offer within 24 hours of your inquiry. Wisconsin is a judicial foreclosure state under Wis. Stat. Ch. 846 — once a lender files in Winnebago County Circuit Court, the process typically runs 12-15 months total. If you\'re behind on payments, selling before the sheriff\'s sale preserves whatever equity remains. Call 888-440-5250.',
+    answer: 'USA Home Buyers can close in as few as 7 days in Oshkosh and throughout Winnebago County WI. We send a written cash offer within 24 hours of your inquiry. Wisconsin is a judicial foreclosure state under Wis. Stat. Ch. 846 — once a lender files in Winnebago County Circuit Court, the process typically runs 12-15 months total. If you\'re behind on payments, selling before the sheriff\'s sale preserves whatever equity remains. Call 888-274-5006.',
   },
   {
     question: 'How much will you pay for my Oshkosh WI house?',
@@ -132,11 +132,11 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How does foreclosure work in Winnebago County WI?',
-    answer: 'Wisconsin is a 100% judicial foreclosure state under Wis. Stat. Ch. 846. Every foreclosure must go through Winnebago County Circuit Court — 415 Jackson Street, Oshkosh WI 54901. The typical Winnebago County WI timeline from first missed payment to completed foreclosure sale is 12-15 months. Under Wis. Stat. § 846.101, owner-occupied 1-4 family homes (where the lender waives deficiency) have a 6-month redemption period from judgment. Call 888-440-5250 immediately if you\'re behind on payments.',
+    answer: 'Wisconsin is a 100% judicial foreclosure state under Wis. Stat. Ch. 846. Every foreclosure must go through Winnebago County Circuit Court — 415 Jackson Street, Oshkosh WI 54901. The typical Winnebago County WI timeline from first missed payment to completed foreclosure sale is 12-15 months. Under Wis. Stat. § 846.101, owner-occupied 1-4 family homes (where the lender waives deficiency) have a 6-month redemption period from judgment. Call 888-274-5006 immediately if you\'re behind on payments.',
   },
   {
     question: 'What areas near Oshkosh do you buy in?',
-    answer: 'All of Winnebago County WI. That includes Oshkosh proper (Lake Shore, Merritt, Algoma, Center City/Downtown, Sawyer Creek, Southwest Oshkosh/Oakwood — ZIPs 54901, 54902, 54904), Neenah, Menasha, Winneconne, Omro, Oshkosh Township, and the Town of Black Wolf. We also cover adjacent areas including Fond du Lac County to the southwest (Fond du Lac city) and Fox Cities to the northeast. Call 888-440-5250 if you\'re unsure whether we serve your address.',
+    answer: 'All of Winnebago County WI. That includes Oshkosh proper (Lake Shore, Merritt, Algoma, Center City/Downtown, Sawyer Creek, Southwest Oshkosh/Oakwood — ZIPs 54901, 54902, 54904), Neenah, Menasha, Winneconne, Omro, Oshkosh Township, and the Town of Black Wolf. We also cover adjacent areas including Fond du Lac County to the southwest (Fond du Lac city) and Fox Cities to the northeast. Call 888-274-5006 if you\'re unsure whether we serve your address.',
   },
   {
     question: 'Do I need to make repairs before selling to USA Home Buyers?',
@@ -195,17 +195,17 @@ export default function OshkoshWIMarketPage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                USA Home Buyers purchases houses in Oshkosh WI and throughout Winnebago County — Lake Shore Victorians, Merritt brick bungalows, Algoma mid-century ranches, Center City urban-core homes, estate sales, foreclosures, divorce situations. Written cash offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no agent fees. Oshkosh Zillow ZHVI $250,967 (+5.2% YoY, Apr 2026); Redfin median sale $211,000. WI state transfer fee $3.00/$1,000 — no county or municipal add-on. Call 888-440-5250.
+                USA Home Buyers purchases houses in Oshkosh WI and throughout Winnebago County — Lake Shore Victorians, Merritt brick bungalows, Algoma mid-century ranches, Center City urban-core homes, estate sales, foreclosures, divorce situations. Written cash offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no agent fees. Oshkosh Zillow ZHVI $250,967 (+5.2% YoY, Apr 2026); Redfin median sale $211,000. WI state transfer fee $3.00/$1,000 — no county or municipal add-on. Call 888-274-5006.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
               We buy houses in Oshkosh WI, Neenah, Menasha, and all of Winnebago County — any condition, any situation. No repairs, no agent fees, no waiting.
             </p>
             <a
-              href="tel:+18884405250"
+              href="tel:+18882745006"
               className="flex w-full md:w-auto items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white font-bold rounded-lg px-6 py-4 text-xl md:py-3 md:text-lg shadow-lg transition-colors ring-2 ring-green-400/50"
             >
-              📞 Call 888-440-5250 — We Answer 24/7
+              📞 Call 888-274-5006 — We Answer 24/7
             </a>
             <p className="mt-3 text-blue-200 text-xs md:text-sm">BBB Accredited · 15+ Years Experience · Hundreds of Homes Purchased</p>
           </div>
@@ -231,7 +231,7 @@ export default function OshkoshWIMarketPage() {
         📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-        If you need to sell your house fast in Oshkosh, Wisconsin — you've found the right team. We're USA Home Buyers, and we purchase houses as-is, for cash, throughout Winnebago County. No agents. No fees. No repairs needed. Written cash offer within 24 hours, close in as few as seven days. Call us at 888-440-5250.
+        If you need to sell your house fast in Oshkosh, Wisconsin — you've found the right team. We're USA Home Buyers, and we purchase houses as-is, for cash, throughout Winnebago County. No agents. No fees. No repairs needed. Written cash offer within 24 hours, close in as few as seven days. Call us at 888-274-5006.
         </div>
         </details>
 

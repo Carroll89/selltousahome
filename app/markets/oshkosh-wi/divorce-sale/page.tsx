@@ -15,14 +15,14 @@ const pageUrl = `${SITE_URL}/markets/oshkosh-wi/divorce-sale`;
 export const metadata: Metadata = {
   title: 'Sell House During Divorce Oshkosh WI',
   description:
-    'Sell your Oshkosh WI house fast during divorce. WI marital property (Wis. Stat. Ch. 766), equal-division (§ 767.61), Winnebago County Family Court. Call 888-440-5250.',
+    'Sell your Oshkosh WI house fast during divorce. WI marital property (Wis. Stat. Ch. 766), equal-division (§ 767.61), Winnebago County Family Court. Call 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
 const FAQ_ITEMS = [
   {
     question: 'Can I sell my Oshkosh house while divorce is pending?',
-    answer: 'Yes, with both spouses\' agreement or a Winnebago County Family Court order authorizing the sale. Wisconsin is a marital property state (Wis. Stat. Ch. 766) — in most cases, the family home is marital property requiring both spouses to sign at closing. A voluntary sale agreement between both parties is the fastest path. If your spouse is refusing to cooperate, a Winnebago County Family Court judge can issue an order compelling the sale or authorizing one spouse to execute the transaction. Call 888-440-5250.',
+    answer: 'Yes, with both spouses\' agreement or a Winnebago County Family Court order authorizing the sale. Wisconsin is a marital property state (Wis. Stat. Ch. 766) — in most cases, the family home is marital property requiring both spouses to sign at closing. A voluntary sale agreement between both parties is the fastest path. If your spouse is refusing to cooperate, a Winnebago County Family Court judge can issue an order compelling the sale or authorizing one spouse to execute the transaction. Call 888-274-5006.',
   },
   {
     question: 'How does Wisconsin\'s marital property law affect a home sale during divorce?',
@@ -78,14 +78,14 @@ export default function OshkoshDivorceSalePage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                Sell an Oshkosh WI home during divorce — both spouses must agree or Winnebago County Family Court orders the sale. Wisconsin is a marital property state (Wis. Stat. Ch. 766); equal-division presumption under § 767.61. One cash offer gives both parties a concrete number, cuts negotiation, and closes in 7-14 days. No repairs, no agent fees. Call 888-440-5250.
+                Sell an Oshkosh WI home during divorce — both spouses must agree or Winnebago County Family Court orders the sale. Wisconsin is a marital property state (Wis. Stat. Ch. 766); equal-division presumption under § 767.61. One cash offer gives both parties a concrete number, cuts negotiation, and closes in 7-14 days. No repairs, no agent fees. Call 888-274-5006.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
               Dividing a Winnebago County home during divorce is cleaner with one cash offer, one closing, and proceeds split per your agreement or court order.
             </p>
-            <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
-              📞 Call Now — 888-440-5250 (24/7)
+            <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
+              📞 Call Now — 888-274-5006 (24/7)
             </a>
           </div>
           <div>
@@ -101,7 +101,7 @@ export default function OshkoshDivorceSalePage() {
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          Going through a divorce in Oshkosh and need to sell the house? One cash offer, both parties sign, we close in 7 to 14 days. No agents, no open houses. Proceeds split at closing per your agreement. Call 888-440-5250.
+          Going through a divorce in Oshkosh and need to sell the house? One cash offer, both parties sign, we close in 7 to 14 days. No agents, no open houses. Proceeds split at closing per your agreement. Call 888-274-5006.
         </div>
       </details>
           <CashOfferForm variant="hero" headline="Get Your Oshkosh Divorce Sale Cash Offer" subheadline="Written offer in 24 hours. We coordinate both-spouse closings." sourcePage="/markets/oshkosh-wi/divorce-sale" />

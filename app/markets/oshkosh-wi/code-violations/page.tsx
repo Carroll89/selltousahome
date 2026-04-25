@@ -15,14 +15,14 @@ const pageUrl = `${SITE_URL}/markets/oshkosh-wi/code-violations`;
 export const metadata: Metadata = {
   title: 'Sell House With Code Violations Oshkosh WI',
   description:
-    'Sell a house with code violations in Oshkosh WI as-is. City of Oshkosh enforcement, Wis. Stat. § 66.0413 raze orders. Written offer 24 hours. Call 888-440-5250.',
+    'Sell a house with code violations in Oshkosh WI as-is. City of Oshkosh enforcement, Wis. Stat. § 66.0413 raze orders. Written offer 24 hours. Call 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
 const FAQ_ITEMS = [
   {
     question: 'Will you buy a house with open code violations in Oshkosh WI?',
-    answer: 'Yes. USA Home Buyers purchases Oshkosh properties with open City of Oshkosh code violations — electrical, plumbing, structural, or exterior maintenance citations — without requiring you to resolve them first. Our offer reflects the as-is condition and the cost of bringing the property into compliance. Call 888-440-5250.',
+    answer: 'Yes. USA Home Buyers purchases Oshkosh properties with open City of Oshkosh code violations — electrical, plumbing, structural, or exterior maintenance citations — without requiring you to resolve them first. Our offer reflects the as-is condition and the cost of bringing the property into compliance. Call 888-274-5006.',
   },
   {
     question: 'What types of code violations are common in Oshkosh WI homes?',
@@ -78,14 +78,14 @@ export default function OshkoshCodeViolationsPage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                Sell an Oshkosh WI home with open City of Oshkosh code violations as-is. Wisconsin IPMC standards enforced; raze orders possible under Wis. Stat. § 66.0413. WI seller disclosure (Wis. Stat. Ch. 709 Real Estate Condition Report) required for known defects. USA Home Buyers buys regardless — no repairs, written offer in 24 hours. Call 888-440-5250.
+                Sell an Oshkosh WI home with open City of Oshkosh code violations as-is. Wisconsin IPMC standards enforced; raze orders possible under Wis. Stat. § 66.0413. WI seller disclosure (Wis. Stat. Ch. 709 Real Estate Condition Report) required for known defects. USA Home Buyers buys regardless — no repairs, written offer in 24 hours. Call 888-274-5006.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
               Open citations from City of Oshkosh Building Division? Raze order risk? We buy Oshkosh houses with code violations — as-is, no remediation required before closing.
             </p>
-            <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
-              📞 Call Now — 888-440-5250 (24/7)
+            <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
+              📞 Call Now — 888-274-5006 (24/7)
             </a>
           </div>
           <div>
@@ -101,7 +101,7 @@ export default function OshkoshCodeViolationsPage() {
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          Got code violations on your Oshkosh property? Don't let the violation notices stop you. At USA Home Buyers, we purchase properties with open violations exactly as they are — no repairs, no permits. We handle it all after closing. Cash offer in 24 hours. Call 888-440-5250.
+          Got code violations on your Oshkosh property? Don't let the violation notices stop you. At USA Home Buyers, we purchase properties with open violations exactly as they are — no repairs, no permits. We handle it all after closing. Cash offer in 24 hours. Call 888-274-5006.
         </div>
       </details>
           <CashOfferForm variant="hero" headline="Get Your Oshkosh Code-Violation Property Offer" subheadline="Written offer in 24 hours. No repairs required before closing." sourcePage="/markets/oshkosh-wi/code-violations" />
