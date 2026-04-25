@@ -20,7 +20,7 @@ We don't use financing. We pay cash. There's no appraisal contingency, no mortga
 
 We serve all of Harrisburg — Camp Hill, Mechanicsburg, Carlisle, Steelton, and surrounding Dauphin County communities. Whether your house needs work or you're dealing with a difficult situation, we've handled it before.
 
-Give us a call at 888-440-5250. We're here to make this as simple as possible.""",
+Give us a call at 888-274-5006. We're here to make this as simple as possible.""",
 
     "app/markets/harrisburg-pa/foreclosure/page.tsx": """If you're facing foreclosure in Harrisburg or Dauphin County, time matters more than almost anything right now. I'm with USA Home Buyers, and I want to walk you through what's actually happening and what you can do about it.
 
@@ -32,7 +32,7 @@ We've helped homeowners in Harrisburg close in seven days to beat sheriff sale d
 
 You also have options like PHFA's HEMAP assistance — you have 33 days from receiving the notice to apply. And Dauphin County's conciliation conference is actually an opportunity to buy time while you figure out your best path.
 
-If you're in foreclosure or think you might be headed there, call us now at 888-440-5250. We'll give you a cash offer within 24 hours and help you understand all your options. Protecting your equity starts with a phone call.""",
+If you're in foreclosure or think you might be headed there, call us now at 888-274-5006. We'll give you a cash offer within 24 hours and help you understand all your options. Protecting your equity starts with a phone call.""",
 
     "app/markets/harrisburg-pa/inherited-property/page.tsx": """Inheriting a house in Harrisburg can feel overwhelming, especially when you don't live nearby, the property needs work, or there are multiple family members involved. I'm with USA Home Buyers, and we help families in exactly this situation every day.
 
@@ -44,7 +44,7 @@ If the property is in probate, that's okay too. We work around estate timelines 
 
 We serve all of Harrisburg and Dauphin County. No repairs. No cleanout. No agent fees. Just a fair cash offer and a simple process.
 
-Call USA Home Buyers at 888-440-5250. We'll answer your questions and get you an offer fast.""",
+Call USA Home Buyers at 888-274-5006. We'll answer your questions and get you an offer fast.""",
 
     "app/markets/harrisburg-pa/probate/page.tsx": """If you're an executor or administrator handling an estate with property in Harrisburg, this video is for you. Probate real estate sales have their own rules, and I want to make sure you understand them.
 
@@ -56,7 +56,7 @@ We buy probate properties in Harrisburg and Dauphin County as-is. No repairs, no
 
 The executor signs the deed — not individual heirs — and the proceeds go into the estate account for distribution. A title company experienced with estate sales handles all the paperwork.
 
-If you're the personal representative of a Harrisburg estate and need to sell the home, call USA Home Buyers at 888-440-5250. We'll walk you through the process and get you a written cash offer within 24 hours.""",
+If you're the personal representative of a Harrisburg estate and need to sell the home, call USA Home Buyers at 888-274-5006. We'll walk you through the process and get you a written cash offer within 24 hours.""",
 
     "app/markets/harrisburg-pa/divorce-sale/page.tsx": """Selling a house during a divorce is one of the most stressful financial situations a homeowner can face. I'm with USA Home Buyers, and we've helped couples in Harrisburg and Dauphin County navigate this more times than I can count.
 
@@ -70,7 +70,7 @@ In Harrisburg, the Dauphin County Court of Common Pleas handles divorce proceedi
 
 No repairs. No showings. No open houses. Just a fair cash offer and a fast close.
 
-Call USA Home Buyers at 888-440-5250. We'll get you an offer within 24 hours and help you both move on.""",
+Call USA Home Buyers at 888-274-5006. We'll get you an offer within 24 hours and help you both move on.""",
 
     "app/markets/harrisburg-pa/tenant-occupied/page.tsx": """Selling a tenant-occupied rental property in Harrisburg comes with its own set of complications. I'm with USA Home Buyers, and I want to be straight with you about how we handle this.
 
@@ -82,7 +82,7 @@ This matters a lot if you have a difficult tenant situation — non-payment, a l
 
 The Harrisburg rental market has strong demand, particularly in the city core and neighborhoods near Penn State Harrisburg. We understand the local rental landscape and price accordingly.
 
-If you're a Harrisburg landlord ready to exit a property — whether you have a great tenant or a problem tenant — call USA Home Buyers at 888-440-5250. Written cash offer in 24 hours, close in 7 to 14 days. No eviction required.""",
+If you're a Harrisburg landlord ready to exit a property — whether you have a great tenant or a problem tenant — call USA Home Buyers at 888-274-5006. Written cash offer in 24 hours, close in 7 to 14 days. No eviction required.""",
 
     "app/markets/harrisburg-pa/code-violations/page.tsx": """If your Harrisburg property has code violations — outstanding city citations, failed inspections, unpermitted work — selling it the traditional way is a real challenge. Most buyers using financing can't touch it. I'm with USA Home Buyers, and this is exactly the kind of property we buy.
 
@@ -94,7 +94,7 @@ Here's how it actually works at closing: the code violation fines are identified
 
 We've bought Harrisburg properties with municipal liens, outstanding violations, structural issues, properties that failed city inspection — all of it. The condition doesn't disqualify you.
 
-If you have a property in Harrisburg or Dauphin County with code violations and you're not sure what to do with it, call USA Home Buyers at 888-440-5250. We'll give you a written cash offer within 24 hours and explain exactly how the violations get resolved at closing. No surprises.""",
+If you have a property in Harrisburg or Dauphin County with code violations and you're not sure what to do with it, call USA Home Buyers at 888-274-5006. We'll give you a written cash offer within 24 hours and explain exactly how the violations get resolved at closing. No surprises.""",
 
     "app/markets/harrisburg-pa/property-liens/page.tsx": """One of the biggest misconceptions I hear from Harrisburg homeowners is that liens mean they can't sell. That's not true. I'm with USA Home Buyers, and I want to explain how property liens actually work in a sale.
 
@@ -106,7 +106,7 @@ The problem with traditional buyers is that conventional financing lenders requi
 
 We've bought Harrisburg properties with tax liens, municipal liens, judgment liens, and mechanic's liens. As long as there's enough equity to cover the liens and our offer, we can close. If the liens exceed the home's value, we can help you understand your options, including negotiating reduced payoffs.
 
-Don't assume a lien means you're stuck. Call USA Home Buyers at 888-440-5250. We'll give you a cash offer within 24 hours and walk you through exactly how your specific liens get resolved.""",
+Don't assume a lien means you're stuck. Call USA Home Buyers at 888-274-5006. We'll give you a cash offer within 24 hours and walk you through exactly how your specific liens get resolved.""",
 
     "app/markets/harrisburg-pa/fire-damage/page.tsx": """Selling a fire-damaged home in Harrisburg is not something most real estate agents know how to handle. Insurance claims, structural damage, smoke and water remediation — it's a complicated situation. I'm with USA Home Buyers, and we buy fire-damaged properties in Harrisburg and Dauphin County as-is, for cash.
 
@@ -118,7 +118,7 @@ We move fast because we have to. Fire-damaged homes are often open to weather, a
 
 We make written cash offers within 24 hours. Once you accept, we can close in as few as 7 days. We handle all closing costs. No agent commissions, no repairs, no remediation required on your end.
 
-Whether it was a kitchen fire, electrical fire, or total loss, we've seen it and bought it. If you have a fire-damaged property anywhere in Harrisburg, Dauphin County, or surrounding areas, call USA Home Buyers right now at 888-440-5250. We'll get you an offer fast so you can move forward.""",
+Whether it was a kitchen fire, electrical fire, or total loss, we've seen it and bought it. If you have a fire-damaged property anywhere in Harrisburg, Dauphin County, or surrounding areas, call USA Home Buyers right now at 888-274-5006. We'll get you an offer fast so you can move forward.""",
 
     "app/markets/harrisburg-pa/neighborhoods/page.tsx": """Harrisburg has a lot of distinct neighborhoods, and where your house is located matters — whether you're selling traditionally or going the cash route. I'm with USA Home Buyers, and I want to give you a quick lay of the land.
 
@@ -128,7 +128,7 @@ Here's what we see in terms of market data for 2026: the Harrisburg metro area h
 
 We buy houses in every Harrisburg neighborhood — whether it's a row home on Derry Street, a split-level in Lawnton, or a Colonial in Paxtang. Condition doesn't matter. Neighborhood doesn't disqualify you.
 
-If you're a homeowner anywhere in the Harrisburg area looking for a fast, certain sale, call USA Home Buyers at 888-440-5250. Written offer within 24 hours, close in 7 to 14 days.""",
+If you're a homeowner anywhere in the Harrisburg area looking for a fast, certain sale, call USA Home Buyers at 888-274-5006. Written offer within 24 hours, close in 7 to 14 days.""",
 
     "app/markets/harrisburg-pa/faq/page.tsx": """I get a lot of the same questions from Harrisburg homeowners thinking about selling to a cash buyer, so let me just answer the most common ones right here. I'm with USA Home Buyers.
 
@@ -144,7 +144,7 @@ Is the offer pressure-free? Yes. We send a written offer. It stands on its own. 
 
 What areas do we serve? All of Harrisburg and Dauphin County — Camp Hill, Mechanicsburg, Carlisle, Steelton, Lower Paxton Township, Swatara Township, and surrounding communities.
 
-Any other questions? Call us at 888-440-5250. We're real people, we answer the phone, and we'll give you straight answers.""",
+Any other questions? Call us at 888-274-5006. We're real people, we answer the phone, and we'll give you straight answers.""",
 
     "app/markets/harrisburg-pa/market-report/page.tsx": """Let me give you the real numbers on the Harrisburg PA housing market in 2026. I'm with USA Home Buyers, and we look at this data every day.
 
@@ -156,7 +156,7 @@ That's why some sellers in Harrisburg choose a cash sale instead. We close in 7 
 
 Harrisburg is also seeing year-over-year appreciation, driven by its status as the state capital, Penn State Harrisburg's presence, and relative affordability compared to Philadelphia and Pittsburgh.
 
-Whether you decide to list traditionally or call us, understanding the market helps you make a better decision. If you'd like a cash offer on your Harrisburg property, call USA Home Buyers at 888-440-5250. Written offer in 24 hours.""",
+Whether you decide to list traditionally or call us, understanding the market helps you make a better decision. If you'd like a cash offer on your Harrisburg property, call USA Home Buyers at 888-274-5006. Written offer in 24 hours.""",
 
     # ALLENTOWN
     "app/markets/allentown-pa/page.tsx": """Hey, if you need to sell your house fast in Allentown, PA, I want to tell you exactly how we work. I'm with USA Home Buyers. We buy houses in Allentown and all of Lehigh County and Northampton County for cash, as-is, with no repairs and no agent fees.
@@ -171,7 +171,7 @@ We serve all of Allentown — the South Side, West End, Fountain Hill, Whitehall
 
 We pay 70 to 80 percent of fair market value. With Allentown median prices around $245,000, that's typically a cash offer of $172,000 to $196,000 for a median-priced home, minus zero agent fees and zero repair costs.
 
-Call 888-440-5250 to get your offer started. We're ready today.""",
+Call 888-274-5006 to get your offer started. We're ready today.""",
 
     "app/markets/allentown-pa/foreclosure/page.tsx": """If you're facing foreclosure in Allentown or anywhere in Lehigh County, I want to give you a clear picture of what's happening and what your options are. I'm with USA Home Buyers.
 
@@ -183,7 +183,7 @@ We've helped Allentown and Lehigh County homeowners close in seven days to beat 
 
 There's also PHFA's HEMAP assistance program — if you haven't applied, you have 33 days from receiving the notice of intention to foreclose to do so. And Lehigh County has its own court process that may offer a conciliation opportunity. Understanding your timeline is critical.
 
-The worst thing you can do right now is wait. Every day that passes is a day closer to losing any remaining equity. Call USA Home Buyers at 888-440-5250. We'll give you a written cash offer within 24 hours and help you understand exactly where you stand.""",
+The worst thing you can do right now is wait. Every day that passes is a day closer to losing any remaining equity. Call USA Home Buyers at 888-274-5006. We'll give you a written cash offer within 24 hours and help you understand exactly where you stand.""",
 
     "app/markets/allentown-pa/inherited-property/page.tsx": """Inheriting a house in Allentown is rarely straightforward. There's the emotional weight of it, the logistics of a property you may not live near, and often family members in different places with different opinions. I'm with USA Home Buyers, and we handle inherited properties in Allentown and Lehigh County every week.
 
@@ -195,7 +195,7 @@ If the property is going through probate, that's fine. Once the Lehigh County Re
 
 If there are multiple heirs, we work with whatever process you have in place. All parties review and sign — the title company handles the documentation correctly.
 
-You don't have to spend months managing an Allentown property you didn't ask for. Call USA Home Buyers at 888-440-5250. Fair offer, fast close, no hassle.""",
+You don't have to spend months managing an Allentown property you didn't ask for. Call USA Home Buyers at 888-274-5006. Fair offer, fast close, no hassle.""",
 
     "app/markets/allentown-pa/probate/page.tsx": """If you're the executor or personal representative of an estate with property in Allentown or Lehigh County, here's what you need to know about selling it. I'm with USA Home Buyers.
 
@@ -209,7 +209,7 @@ Why sell to us instead of listing? No repairs. No cleanout. No open houses or sh
 
 If there's a mortgage outstanding, unpaid taxes, or other liens, those typically get resolved at closing from proceeds. The process is cleaner than most executors expect.
 
-Call USA Home Buyers at 888-440-5250. We'll give you a written cash offer within 24 hours and walk you through exactly how a probate sale works in Lehigh County.""",
+Call USA Home Buyers at 888-274-5006. We'll give you a written cash offer within 24 hours and walk you through exactly how a probate sale works in Lehigh County.""",
 
     "app/markets/allentown-pa/market-report/page.tsx": """Here's a real look at the Allentown PA housing market in 2026. I'm with USA Home Buyers, and we track these numbers closely because they affect every offer we make.
 
@@ -223,7 +223,7 @@ If your Allentown property is in great shape and you're in no rush, a traditiona
 
 We pay 70 to 80 percent of fair market value — with Allentown medians around $245,000, that's typically $172,000 to $196,000 for a median-priced home, with zero agent commissions and zero repair costs deducted.
 
-Want to know what we'd offer for your specific property? Call 888-440-5250 or fill out the form. Written offer in 24 hours.""",
+Want to know what we'd offer for your specific property? Call 888-274-5006 or fill out the form. Written offer in 24 hours.""",
 
     "app/markets/allentown-pa/divorce-sale/page.tsx": """Selling a house during a divorce in Allentown is hard — not just logistically, but emotionally. I'm with USA Home Buyers, and I want to make the real estate part of this as simple as it can be.
 
@@ -237,7 +237,7 @@ Lehigh County Court of Common Pleas handles divorce proceedings in the Allentown
 
 No repairs, no showings, no open houses. Just a fast, clean closing.
 
-If you and your spouse need to sell a house in Allentown and want to get through it with as little friction as possible, call USA Home Buyers at 888-440-5250. We'll have a written offer to you within 24 hours.""",
+If you and your spouse need to sell a house in Allentown and want to get through it with as little friction as possible, call USA Home Buyers at 888-274-5006. We'll have a written offer to you within 24 hours.""",
 
     "app/markets/allentown-pa/tenant-occupied/page.tsx": """Selling a rental property in Allentown with tenants in place is one of the trickier real estate situations you can be in. I'm with USA Home Buyers, and we handle tenant-occupied properties all the time.
 
@@ -249,7 +249,7 @@ We buy tenant-occupied properties in Allentown as-is, with tenants in place. We 
 
 Allentown and the Lehigh Valley have a strong rental market. Whether you have a long-term tenant with a great track record or a problem tenant situation you need to exit, we've seen it.
 
-If you're a Lehigh Valley landlord ready to sell — call USA Home Buyers at 888-440-5250. Cash offer in 24 hours, close in 7 to 14 days. No eviction required.""",
+If you're a Lehigh Valley landlord ready to sell — call USA Home Buyers at 888-274-5006. Cash offer in 24 hours, close in 7 to 14 days. No eviction required.""",
 
     "app/markets/allentown-pa/code-violations/page.tsx": """If your Allentown property has code violations — city citations, failed inspections, unpermitted additions, structural deficiencies — you've got a real problem selling it the traditional way. I'm with USA Home Buyers, and this is exactly what we buy.
 
@@ -261,7 +261,7 @@ Here's how violations get handled at closing: the title search identifies all ou
 
 We've bought Allentown properties with multiple outstanding violations, properties that failed city inspection, properties with unpermitted work, and properties where the violations had been accumulating for years. The condition doesn't disqualify you — it just affects the offer price.
 
-If you have a code violation property in Allentown or anywhere in Lehigh County, call USA Home Buyers at 888-440-5250. Written cash offer within 24 hours. We'll explain exactly what the violations mean for the closing process before you decide anything.""",
+If you have a code violation property in Allentown or anywhere in Lehigh County, call USA Home Buyers at 888-274-5006. Written cash offer within 24 hours. We'll explain exactly what the violations mean for the closing process before you decide anything.""",
 
     # KING OF PRUSSIA
     "app/markets/king-of-prussia-pa/page.tsx": """If you're looking to sell your house fast in King of Prussia, PA, here's how we work. I'm with USA Home Buyers. We buy homes in King of Prussia and throughout Montgomery County for cash, as-is, in any condition.
@@ -274,7 +274,7 @@ We serve all of Upper Merion Township and Montgomery County: Norristown, Conshoh
 
 One of our recent Harrisburg-area clients closed in 11 days on an estate property that needed a new roof and updated plumbing. No repairs. No hassle.
 
-Call USA Home Buyers at 888-440-5250. We'll ask a few questions, make a fair written offer within 24 hours, and close on your schedule.""",
+Call USA Home Buyers at 888-274-5006. We'll ask a few questions, make a fair written offer within 24 hours, and close on your schedule.""",
 
     "app/markets/king-of-prussia-pa/foreclosure/page.tsx": """Facing foreclosure in Montgomery County is a stressful situation, but you have more options than you might think. I'm with USA Home Buyers, and I want to walk you through the most important one.
 
@@ -288,7 +288,7 @@ Montgomery County properties carry significant value — with median home prices
 
 PHFA's HEMAP program offers mortgage assistance — you have 33 days from receiving the foreclosure notice to apply. And there may be other conciliation opportunities through the Montgomery County Court of Common Pleas.
 
-But if your situation calls for a clean exit — sell before the sale, protect your equity, start fresh — call USA Home Buyers right now at 888-440-5250. We'll give you a written offer within 24 hours and get you to closing before the deadline.""",
+But if your situation calls for a clean exit — sell before the sale, protect your equity, start fresh — call USA Home Buyers right now at 888-274-5006. We'll give you a written offer within 24 hours and get you to closing before the deadline.""",
 
     "app/markets/king-of-prussia-pa/inherited-property/page.tsx": """Inheriting a home in King of Prussia or Montgomery County comes with complexity — and often, some real emotional weight. I'm with USA Home Buyers, and we handle estate properties in this area regularly.
 
@@ -302,7 +302,7 @@ If the property is in probate, we work with executors and the Montgomery County 
 
 No cleanout. No repairs. No agent fees. Fast, clean close.
 
-Call USA Home Buyers at 888-440-5250. We'll give you a fair offer and make the real estate part of this as easy as it can be.""",
+Call USA Home Buyers at 888-274-5006. We'll give you a fair offer and make the real estate part of this as easy as it can be.""",
 
     "app/markets/king-of-prussia-pa/probate/page.tsx": """If you're the executor of an estate with real property in King of Prussia or Montgomery County, here's what you need to know. I'm with USA Home Buyers.
 
@@ -316,7 +316,7 @@ With King of Prussia homes valued in the $453,000 to $549,000 range, estate prop
 
 If there are outstanding liens, back taxes, or other encumbrances, those get resolved at closing from proceeds — typically no cash upfront required.
 
-Call USA Home Buyers at 888-440-5250. Written cash offer in 24 hours. We work with executors and estate attorneys and understand the Montgomery County probate process.""",
+Call USA Home Buyers at 888-274-5006. Written cash offer in 24 hours. We work with executors and estate attorneys and understand the Montgomery County probate process.""",
 
     "app/markets/king-of-prussia-pa/market-report/page.tsx": """Let's look at the King of Prussia PA real estate market in 2026 — actual numbers, not hype. I'm with USA Home Buyers.
 
@@ -332,7 +332,7 @@ Year-over-year appreciation is up 5.9 percent on ZHVI and 3.7 percent per Redfin
 
 If you're trying to decide between listing and a cash sale in King of Prussia, the math depends on your timeline, your property's condition, and how much certainty matters to you. We're happy to talk it through — no pressure.
 
-Call USA Home Buyers at 888-440-5250 or fill out the form for a written offer within 24 hours.""",
+Call USA Home Buyers at 888-274-5006 or fill out the form for a written offer within 24 hours.""",
 
     "app/markets/king-of-prussia-pa/divorce-sale/page.tsx": """Selling a house during a divorce in King of Prussia is stressful under the best circumstances. I'm with USA Home Buyers, and I want to explain why a cash sale often makes the most sense in this situation.
 
@@ -346,7 +346,7 @@ We're a neutral third party. We don't have a stake in either side of the divorce
 
 Montgomery County Court of Common Pleas handles divorce proceedings. Whether you're early in the process or have a court-ordered sale, we can work with your attorneys and the court's timeline.
 
-Call USA Home Buyers at 888-440-5250. Fair offer, 24 hours, close in 7 to 14 days. Done.""",
+Call USA Home Buyers at 888-274-5006. Fair offer, 24 hours, close in 7 to 14 days. Done.""",
 
     "app/markets/king-of-prussia-pa/tenant-occupied/page.tsx": """Selling a rental property in King of Prussia or Montgomery County with tenants in place is one of the situations where a cash buyer makes the most sense. I'm with USA Home Buyers, and we buy tenant-occupied properties regularly.
 
@@ -360,7 +360,7 @@ Montgomery County's rental market is strong, particularly near the King of Pruss
 
 Whether you have a great long-term tenant you're happy to sell with or a problem tenant you desperately need to get out from under — we can close in 7 to 14 days without you having to evict anyone first.
 
-Call USA Home Buyers at 888-440-5250. Written cash offer in 24 hours. No eviction required.""",
+Call USA Home Buyers at 888-274-5006. Written cash offer in 24 hours. No eviction required.""",
 
     "app/markets/king-of-prussia-pa/code-violations/page.tsx": """If your King of Prussia or Montgomery County property has open code violations, you're in a situation where most traditional buyers can't help you. I'm with USA Home Buyers, and code violation properties are something we buy regularly.
 
@@ -372,7 +372,7 @@ How do violations get resolved at closing? They're treated like any other lien o
 
 We've bought Montgomery County properties with multiple open violations, properties cited for structural issues, properties with unpermitted construction, and properties where code enforcement had been active for years. It's not a disqualifier — it just affects the offer price.
 
-If you have a property in King of Prussia or anywhere in Montgomery County with code violations and you're not sure what to do with it, call USA Home Buyers at 888-440-5250. We'll make a written cash offer within 24 hours and explain exactly how the violation resolution works at closing. No surprises.""",
+If you have a property in King of Prussia or anywhere in Montgomery County with code violations and you're not sure what to do with it, call USA Home Buyers at 888-274-5006. We'll make a written cash offer within 24 hours and explain exactly how the violation resolution works at closing. No surprises.""",
 
     "app/markets/king-of-prussia-pa/fire-damage/page.tsx": """If you have a fire-damaged property in King of Prussia or Montgomery County, you're dealing with a situation that most real estate professionals aren't equipped to handle. I'm with USA Home Buyers, and we buy fire-damaged properties for cash, as-is.
 
@@ -384,7 +384,7 @@ With King of Prussia median home values in the $453,000 to $549,000 range, there
 
 Once you accept, we can close in as few as 7 days. We handle all closing costs. No agent commissions. We take on full responsibility for the property at closing — including all the cleanup, remediation, and structural work that comes after.
 
-Whether it was a kitchen fire, an electrical fire, or a more significant structural event, we've bought it before. If you have a fire-damaged property anywhere in Upper Merion Township or surrounding Montgomery County communities, call us right now at 888-440-5250. We'll get you a fair cash offer fast so you can move forward.""",
+Whether it was a kitchen fire, an electrical fire, or a more significant structural event, we've bought it before. If you have a fire-damaged property anywhere in Upper Merion Township or surrounding Montgomery County communities, call us right now at 888-274-5006. We'll get you a fair cash offer fast so you can move forward.""",
 
     # GUIDE
     "app/guides/sell-house-fast-king-of-prussia-pa-2026/page.tsx": """If you're trying to sell your house fast in King of Prussia in 2026, you've got a few real options — and I want to give you an honest comparison so you can decide what's right for your situation. I'm with USA Home Buyers.
@@ -397,7 +397,7 @@ Option three: a local cash buyer like USA Home Buyers. We buy in any condition �
 
 Which option is right for you depends on your timeline, your property's condition, and how much certainty matters. If you have time and a move-in-ready home, the MLS may serve you well. If you need speed, certainty, or if your property has complications, a cash sale is the move.
 
-Want to know what we'd offer for your specific King of Prussia property? Call 888-440-5250 or fill out the form. You'll have a written offer in 24 hours.""",
+Want to know what we'd offer for your specific King of Prussia property? Call 888-274-5006 or fill out the form. You'll have a written offer in 24 hours.""",
 }
 
 def add_transcript(filepath, transcript):

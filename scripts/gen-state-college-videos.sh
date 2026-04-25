@@ -17,7 +17,7 @@ echo "DONE inherited"
 echo "=== foreclosure ==="
 python3 "$SCRIPT_DIR/generate.py" \
   --image "$AVATAR" --voice-id "$VOICE" \
-  --script "If you're facing foreclosure in Centre County, time matters. We can make a cash offer and close before your sheriff sale date. No banks, no delays. You walk away with equity instead of losing the house. Call 888-440-5250 — we move fast when deadlines are tight." \
+  --script "If you're facing foreclosure in Centre County, time matters. We can make a cash offer and close before your sheriff sale date. No banks, no delays. You walk away with equity instead of losing the house. Call 888-274-5006 — we move fast when deadlines are tight." \
   --output "$OUT/state-college-foreclosure.mp4"
 ffmpeg -y -i "$OUT/state-college-foreclosure.mp4" -vframes 1 -q:v 2 "$OUT/state-college-foreclosure-poster.jpg"
 echo "DONE foreclosure"

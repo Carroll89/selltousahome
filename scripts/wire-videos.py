@@ -7,7 +7,7 @@ PAGES = {
         'slug': 'state-college-foreclosure',
         'title': 'Facing Foreclosure in State College PA?',
         'subtitle': 'How to sell before the sheriff sale in Centre County',
-        'transcript': "If you're facing foreclosure in Centre County, time matters. We can make a cash offer and close before your sheriff sale date. No banks, no delays. You walk away with equity instead of losing the house. Call 888-440-5250 — we move fast when deadlines are tight.",
+        'transcript': "If you're facing foreclosure in Centre County, time matters. We can make a cash offer and close before your sheriff sale date. No banks, no delays. You walk away with equity instead of losing the house. Call 888-274-5006 — we move fast when deadlines are tight.",
     },
     'app/markets/state-college-pa/divorce-sale/page.tsx': {
         'slug': 'state-college-divorce',

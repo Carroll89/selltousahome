@@ -22,7 +22,7 @@ MODEL_ID = "eleven_turbo_v2_5"
 VOICE_SETTINGS = {"stability": 0.5, "similarity_boost": 0.75, "style": 0.3}
 AVATAR = "/Users/agents/.openclaw/workspace/assets/video-avatar.png"
 VIDEO_ROOT = "/Users/agents/selltousahome/public/videos"
-PHONE = "888-440-5250"
+PHONE = "888-274-5006"
 
 VIDEOS = {
     # ── OSHKOSH WI ──────────────────────────────────────────────────────────

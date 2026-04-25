@@ -3,7 +3,7 @@
 Springfield IL — Remaining 5 Talking-Head Videos
 (tenant-occupied audio already exists; code-violations, fire-damage,
  market-report, faq, neighborhoods need full audio+video)
-Phone: 888-440-5250 | Voice: Eric (cjVigY5qzO86Huf0OWal)
+Phone: 888-274-5006 | Voice: Eric (cjVigY5qzO86Huf0OWal)
 """
 
 import json
@@ -17,7 +17,7 @@ MODEL_ID = "eleven_turbo_v2_5"
 AVATAR = "/Users/agents/.openclaw/workspace/assets/video-avatar.png"
 WORKSPACE_AUDIO = "/Users/agents/.openclaw/workspace/public/videos/springfield-il"
 OUTPUT_DIR = "/Users/agents/selltousahome/public/videos/springfield-il"
-PHONE = "888-440-5250"
+PHONE = "888-274-5006"
 
 VIDEOS = [
     {
