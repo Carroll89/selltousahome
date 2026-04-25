@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 };
 
 const FAQ_ITEMS = [
-  { question: 'How fast can I sell before foreclosure in Boston?', answer: 'We can close in as few as 7 days. Massachusetts non-judicial foreclosure (power of sale under MGL Ch. 244) allows lenders to foreclose without court action. After the 150-day right-to-cure period, the lender publishes sale notice for 3 weeks, then auctions. Total timeline: 4-7 months from default. Call 888-440-5250 immediately.' },
+  { question: 'How fast can I sell before foreclosure in Boston?', answer: 'We can close in as few as 7 days. Massachusetts non-judicial foreclosure (power of sale under MGL Ch. 244) allows lenders to foreclose without court action. After the 150-day right-to-cure period, the lender publishes sale notice for 3 weeks, then auctions. Total timeline: 4-7 months from default. Call 888-274-5006 immediately.' },
   { question: 'What is the foreclosure process in Suffolk County?', answer: 'Massachusetts uses non-judicial foreclosure by power of sale. The lender sends a right-to-cure notice (150 days), then publishes auction notice for 3 consecutive weeks. No court involvement unless the homeowner files to contest. Source: MGL Ch. 244; Massachusetts Trial Court (mass.gov/courts).' },
   { question: 'Will selling stop foreclosure?', answer: 'Yes — a completed sale satisfies the mortgage and ends foreclosure. Proceeds pay the outstanding balance. You keep remaining equity.' },
   { question: 'What if I owe more than the house is worth?', answer: 'A short sale may be possible — the lender agrees to accept less than payoff. We have experience with short sales in Suffolk County and can help you explore options.' },
@@ -35,9 +35,9 @@ export default function BostonForeclosurePage() {
             <h1 className="text-3xl md:text-4xl font-bold text-white mb-4 leading-tight">Stop Foreclosure in Boston MA — Sell Your House Before the Auction</h1>
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
-              <p className="text-white text-sm leading-relaxed">Massachusetts non-judicial foreclosure can complete in 4-7 months — no court required. USA Home Buyers purchases houses from Boston homeowners facing foreclosure. Written cash offer in 24 hours, close in 7-14 days. We cover all closing costs. Call 888-440-5250.</p>
+              <p className="text-white text-sm leading-relaxed">Massachusetts non-judicial foreclosure can complete in 4-7 months — no court required. USA Home Buyers purchases houses from Boston homeowners facing foreclosure. Written cash offer in 24 hours, close in 7-14 days. We cover all closing costs. Call 888-274-5006.</p>
             </div>
-            <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">📞 Call Now — 888-440-5250 (24/7)</a>
+            <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">📞 Call Now — 888-274-5006 (24/7)</a>
           </div>
           <div><CashOfferForm variant="hero" headline="Get Your Cash Offer" subheadline="Written offer in 24 hours." sourcePage="/markets/boston-ma/foreclosure" /></div>
         </div>

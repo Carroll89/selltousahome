@@ -35,9 +35,9 @@ export default function BostonProbatePage() {
             <h1 className="text-3xl md:text-4xl font-bold text-white mb-4 leading-tight">Sell a Probate Property in Boston MA — Cash Offer, Close Quickly</h1>
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
-              <p className="text-white text-sm leading-relaxed">Handling a Boston estate? USA Home Buyers purchases probate properties for cash, as-is. Once you have authority from Suffolk County Probate Court, we close in 7-14 days. No repairs, no cleanout. Call 888-440-5250.</p>
+              <p className="text-white text-sm leading-relaxed">Handling a Boston estate? USA Home Buyers purchases probate properties for cash, as-is. Once you have authority from Suffolk County Probate Court, we close in 7-14 days. No repairs, no cleanout. Call 888-274-5006.</p>
             </div>
-            <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">📞 Call Now — 888-440-5250 (24/7)</a>
+            <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">📞 Call Now — 888-274-5006 (24/7)</a>
           </div>
           <div><CashOfferForm variant="hero" headline="Get Your Cash Offer" subheadline="Probate property? Written offer in 24 hours." sourcePage="/markets/boston-ma/probate" /></div>
         </div>

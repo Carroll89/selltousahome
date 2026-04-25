@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 };
 
 const FAQ_ITEMS = [
-  { question: 'How does the cash buying process work in Boston?', answer: 'Submit your property info or call 888-440-5250. We review and send a written cash offer within 24 hours. You pick the closing date — as fast as 7 days. We cover all closing costs including MA deed excise stamps. Your attorney reviews everything at closing.' },
+  { question: 'How does the cash buying process work in Boston?', answer: 'Submit your property info or call 888-274-5006. We review and send a written cash offer within 24 hours. You pick the closing date — as fast as 7 days. We cover all closing costs including MA deed excise stamps. Your attorney reviews everything at closing.' },
   { question: 'How much do you pay for Boston homes?', answer: 'Cash offers typically range from 65-78% of fair market value. Boston neighborhoods vary enormously — Mattapan homes may list at $450K-$600K while Back Bay exceeds $1M. We provide written offers based on comparable sales and condition.' },
   { question: 'Do you really buy in any condition?', answer: 'Yes. Lead paint, old wiring, failed boilers, fire damage, code violations, foundation issues, mold, hoarding — we buy it all. Boston\'s housing stock ranges from 200+ year old row houses to early 1900s triple-deckers.' },
   { question: 'What closing costs do I pay?', answer: 'None. We cover everything including MA deed excise stamps ($4.56 per $1,000), title, recording, and attorney fees. On a traditional sale, the seller pays stamps plus 5-6% commission.' },

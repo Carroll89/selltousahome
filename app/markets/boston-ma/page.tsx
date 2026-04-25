@@ -88,7 +88,7 @@ const COMPARISON_ROWS = [
 const FAQ_ITEMS = [
   {
     question: 'How fast can I sell my house for cash in Boston MA?',
-    answer: 'USA Home Buyers can close in as few as 7 days in Boston. We send a written cash offer within 24 hours. Massachusetts uses non-judicial foreclosure by power of sale under MGL Ch. 244 — meaning lenders can foreclose without court action, and the process can complete in under four months. If you\'re facing foreclosure, speed matters. Call 888-440-5250 immediately.',
+    answer: 'USA Home Buyers can close in as few as 7 days in Boston. We send a written cash offer within 24 hours. Massachusetts uses non-judicial foreclosure by power of sale under MGL Ch. 244 — meaning lenders can foreclose without court action, and the process can complete in under four months. If you\'re facing foreclosure, speed matters. Call 888-274-5006 immediately.',
   },
   {
     question: 'How much will you pay for my Boston home?',
@@ -104,7 +104,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'What areas in Greater Boston do you buy in?',
-    answer: 'All of Suffolk County and the surrounding metro: Boston (every neighborhood), Cambridge, Somerville, Quincy, Brookline, Chelsea, Revere, Winthrop, and throughout Middlesex and Norfolk Counties. If you\'re in Greater Boston, we buy there. Call 888-440-5250.',
+    answer: 'All of Suffolk County and the surrounding metro: Boston (every neighborhood), Cambridge, Somerville, Quincy, Brookline, Chelsea, Revere, Winthrop, and throughout Middlesex and Norfolk Counties. If you\'re in Greater Boston, we buy there. Call 888-274-5006.',
   },
   {
     question: 'Do I need to make repairs before selling?',
@@ -149,14 +149,14 @@ export default function BostonMAMarketPage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                USA Home Buyers purchases houses in Boston MA and throughout Suffolk County — Dorchester, Roxbury, Mattapan, East Boston, South Boston, Jamaica Plain, and the broader metro including Cambridge, Somerville, and Quincy. Written cash offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no fees. Boston metro median listing is approximately $829,000. We cover all closing costs including MA deed excise stamps. Call 888-440-5250.
+                USA Home Buyers purchases houses in Boston MA and throughout Suffolk County — Dorchester, Roxbury, Mattapan, East Boston, South Boston, Jamaica Plain, and the broader metro including Cambridge, Somerville, and Quincy. Written cash offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no fees. Boston metro median listing is approximately $829,000. We cover all closing costs including MA deed excise stamps. Call 888-274-5006.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
               We buy houses in Boston and Greater Boston in any condition — triple-deckers, brownstones, condos, multi-families, estates, foreclosures, tenant-occupied. No repairs, no agent fees.
             </p>
-            <a href="tel:+18884405250" className="flex w-full md:w-auto items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white font-bold rounded-lg px-6 py-4 text-xl md:py-3 md:text-lg shadow-lg transition-colors ring-2 ring-green-400/50">
-              📞 Call 888-440-5250 — We Answer 24/7
+            <a href="tel:+18882745006" className="flex w-full md:w-auto items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white font-bold rounded-lg px-6 py-4 text-xl md:py-3 md:text-lg shadow-lg transition-colors ring-2 ring-green-400/50">
+              📞 Call 888-274-5006 — We Answer 24/7
             </a>
             <p className="mt-3 text-blue-200 text-xs md:text-sm">BBB Accredited · 15+ Years Experience · Hundreds of Homes Purchased</p>
           </div>
