@@ -15,7 +15,7 @@ const pageUrl = `${SITE_URL}/markets/springfield-il/tenant-occupied`;
 export const metadata: Metadata = {
   title: 'Sell Tenant-Occupied House Springfield IL',
   description:
-    'Selling a rental property with tenants in Springfield IL? We buy with tenants in place — no eviction required. Written offer in 24 hours. 888-440-5250.',
+    'Selling a rental property with tenants in Springfield IL? We buy with tenants in place — no eviction required. Written offer in 24 hours. 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
@@ -78,14 +78,14 @@ export default function SpringfieldTenantOccupiedPage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                USA Home Buyers purchases tenant-occupied rental properties in Springfield IL with tenants still in place — no eviction required before closing. Chicago's RLTO doesn't apply in Springfield; Illinois Forcible Entry and Detainer Act (735 ILCS 5/9-101) governs. We handle the tenant relationship after closing. Written offer in 24 hours, close in 7-14 days. Call 888-440-5250.
+                USA Home Buyers purchases tenant-occupied rental properties in Springfield IL with tenants still in place — no eviction required before closing. Chicago's RLTO doesn't apply in Springfield; Illinois Forcible Entry and Detainer Act (735 ILCS 5/9-101) governs. We handle the tenant relationship after closing. Written offer in 24 hours, close in 7-14 days. Call 888-274-5006.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
               Tenants in place? No problem. We buy rental properties with occupied units — no eviction required before closing. We inherit the tenant relationship.
             </p>
-            <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
-              📞 Call Now — 888-440-5250 (24/7)
+            <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
+              📞 Call Now — 888-274-5006 (24/7)
             </a>
           </div>
           <div>
@@ -101,7 +101,7 @@ export default function SpringfieldTenantOccupiedPage() {
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          Trying to sell a rental property in Springfield with tenants still living there? At USA Home Buyers, we purchase tenant-occupied properties throughout Sangamon County, as-is. You don't have to evict anyone or wait for a lease to expire. Ready to exit your rental? Call us at 888-440-5250.
+          Trying to sell a rental property in Springfield with tenants still living there? At USA Home Buyers, we purchase tenant-occupied properties throughout Sangamon County, as-is. You don't have to evict anyone or wait for a lease to expire. Ready to exit your rental? Call us at 888-274-5006.
         </div>
       </details>
           <CashOfferForm variant="hero" headline="Get Your Cash Offer" subheadline="Tenants in place, no problem. Written offer in 24 hours." sourcePage="/markets/springfield-il/tenant-occupied" />
@@ -204,7 +204,7 @@ export default function SpringfieldTenantOccupiedPage() {
             We purchase single-family rentals, duplexes, and small multi-family buildings (2-4 units) throughout Springfield and Sangamon County. Multi-family sales with multiple occupied units are more complex than single-family sales, but we handle them routinely. We need information on each unit — lease terms, rent amounts, any arrears, security deposits — and we price the property as an investment based on current occupancy and income.
           </p>
           <p className="text-gray-700 mb-4">
-            Many Springfield multi-family landlords are reluctant sellers who've inherited a building or have been managing a property for decades and are ready to exit. If that's your situation, call 888-440-5250. We'll walk through the specifics of your building, the tenancy situations, and make a written offer within 24 hours.
+            Many Springfield multi-family landlords are reluctant sellers who've inherited a building or have been managing a property for decades and are ready to exit. If that's your situation, call 888-274-5006. We'll walk through the specifics of your building, the tenancy situations, and make a written offer within 24 hours.
           </p>
           <p className="text-gray-700 mb-4">
             Springfield's Victorian-era multi-family stock — particularly the larger converted mansions in Enos Park and Aristocracy Hill that have been split into 2-4 unit buildings — is a specific category we deal with regularly. These buildings have the same age-related challenges as single-family Victorians (original electrical, aging plumbing, deferred exterior maintenance) plus the additional complexity of multiple tenants. We price these based on actual condition and income, not wishful renovation math.

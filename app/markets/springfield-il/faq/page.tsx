@@ -15,7 +15,7 @@ const pageUrl = `${SITE_URL}/markets/springfield-il/faq`;
 export const metadata: Metadata = {
   title: 'Springfield IL Home Selling FAQ',
   description:
-    'Frequently asked questions about selling your house fast in Springfield IL — transfer taxes, foreclosure, probate, as-is sales, and more. Call 888-440-5250.',
+    'Frequently asked questions about selling your house fast in Springfield IL — transfer taxes, foreclosure, probate, as-is sales, and more. Call 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
@@ -30,7 +30,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How does Illinois foreclosure work in Sangamon County?',
-    answer: 'Illinois is a 100% judicial foreclosure state under the Illinois Mortgage Foreclosure Law (735 ILCS 5/15-1101 et seq.). Every Sangamon County foreclosure is filed at the Sangamon County Circuit Court, 200 South 9th Street, Springfield IL 62701. Borrowers have a 3-month reinstatement period after judgment (§15-1602) and a 7-month redemption period from service of summons (§15-1603). Typical Sangamon County timeline: 12-15 months from first missed payment to completed sale. Call 888-440-5250 immediately if you\'ve received foreclosure paperwork.',
+    answer: 'Illinois is a 100% judicial foreclosure state under the Illinois Mortgage Foreclosure Law (735 ILCS 5/15-1101 et seq.). Every Sangamon County foreclosure is filed at the Sangamon County Circuit Court, 200 South 9th Street, Springfield IL 62701. Borrowers have a 3-month reinstatement period after judgment (§15-1602) and a 7-month redemption period from service of summons (§15-1603). Typical Sangamon County timeline: 12-15 months from first missed payment to completed sale. Call 888-274-5006 immediately if you\'ve received foreclosure paperwork.',
   },
   {
     question: 'What is Illinois\'s small estate affidavit threshold?',
@@ -50,7 +50,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How do I sell my house fast in Springfield without making repairs?',
-    answer: 'Contact USA Home Buyers. We buy Springfield homes as-is — no repairs, no staging, no inspections that result in repair demands. Fill out our form or call 888-440-5250. We ask 5-10 questions about the property, then send a written cash offer within 24 hours. If it works for you, pick a closing date. We close at a Springfield title company in 7-14 days. Leave whatever you don\'t want — we handle the cleanout after closing.',
+    answer: 'Contact USA Home Buyers. We buy Springfield homes as-is — no repairs, no staging, no inspections that result in repair demands. Fill out our form or call 888-274-5006. We ask 5-10 questions about the property, then send a written cash offer within 24 hours. If it works for you, pick a closing date. We close at a Springfield title company in 7-14 days. Leave whatever you don\'t want — we handle the cleanout after closing.',
   },
 ];
 
@@ -70,7 +70,7 @@ export default function SpringfieldFAQPage() {
         <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-5 mb-8">
           <p className="text-sm font-semibold text-blue-800 mb-2">Questions about selling your Springfield IL home?</p>
           <p className="text-sm text-blue-900 leading-relaxed">
-            We've answered the most common questions Springfield homeowners ask about cash sales, Illinois transfer tax, foreclosure, probate, and the as-is sale process. Can't find your answer? Call <strong>888-440-5250</strong> — we respond within business hours.
+            We've answered the most common questions Springfield homeowners ask about cash sales, Illinois transfer tax, foreclosure, probate, and the as-is sale process. Can't find your answer? Call <strong>888-274-5006</strong> — we respond within business hours.
           </p>
         </div>
 
@@ -81,8 +81,8 @@ export default function SpringfieldFAQPage() {
           <p className="text-gray-700 mb-4">
             The fastest way to get answers specific to your property and situation is to call us directly. One of our managers will walk through your specific circumstances, explain the process, and give you a real cash offer within 24 hours. No pressure, no obligation.
           </p>
-          <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-brand-primary hover:bg-brand-dark text-white font-bold px-6 py-3 rounded-xl text-lg transition-colors">
-            📞 Call 888-440-5250
+          <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-brand-primary hover:bg-brand-dark text-white font-bold px-6 py-3 rounded-xl text-lg transition-colors">
+            📞 Call 888-274-5006
           </a>
         </section>
 

@@ -169,7 +169,7 @@ export default function SpringfieldILMarketReportPage() {
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          As of early 2026, Springfield is one of the hottest small markets in the country — ranked #10 nationally. Per Redfin (March 2026), the median sale price hit $187,000, up 23% year-over-year. Homes are selling in just 27 days average. If you're thinking about selling in Springfield or anywhere in Sangamon County, this is a strong time to act. USA Home Buyers offers cash for homes in any condition. Call 888-440-5250.
+          As of early 2026, Springfield is one of the hottest small markets in the country — ranked #10 nationally. Per Redfin (March 2026), the median sale price hit $187,000, up 23% year-over-year. Homes are selling in just 27 days average. If you're thinking about selling in Springfield or anywhere in Sangamon County, this is a strong time to act. USA Home Buyers offers cash for homes in any condition. Call 888-274-5006.
         </div>
       </details>
           <CashOfferForm variant="inline" headline="Get Your Springfield IL Cash Offer" subheadline="Written offer in 24 hours. We cover all closing costs." sourcePage="/markets/springfield-il/market-report" />

@@ -15,7 +15,7 @@ const pageUrl = `${SITE_URL}/markets/springfield-il/inherited-property`;
 export const metadata: Metadata = {
   title: 'Sell Inherited House Springfield IL',
   description:
-    'Inherited a house in Springfield IL? We buy inherited properties as-is through Sangamon County Circuit Court Probate Division. Written offer in 24 hours. Call 888-440-5250.',
+    'Inherited a house in Springfield IL? We buy inherited properties as-is through Sangamon County Circuit Court Probate Division. Written offer in 24 hours. Call 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
@@ -42,7 +42,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'What if there are multiple heirs on the Springfield inherited property?',
-    answer: 'All heirs with an ownership interest must agree to the sale and sign the deed - or the executor must have Letters of Office authorizing the sale. If heirs can\'t agree, a partition action can be filed in Sangamon County Circuit Court under Illinois law. We\'ve worked through multi-heir transactions before. A single written cash offer often breaks the deadlock because every heir sees the same price without the negotiation complexity of a retail listing. Call 888-440-5250 to discuss your situation.',
+    answer: 'All heirs with an ownership interest must agree to the sale and sign the deed - or the executor must have Letters of Office authorizing the sale. If heirs can\'t agree, a partition action can be filed in Sangamon County Circuit Court under Illinois law. We\'ve worked through multi-heir transactions before. A single written cash offer often breaks the deadlock because every heir sees the same price without the negotiation complexity of a retail listing. Call 888-274-5006 to discuss your situation.',
   },
 ];
 
@@ -82,14 +82,14 @@ export default function SpringfieldInheritedPropertyPage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                USA Home Buyers purchases inherited properties in Springfield IL through Sangamon County Circuit Court Probate Division. Written cash offer in 24 hours, close after the executor has Letters of Office. Real property always requires formal probate in Illinois - the small estate affidavit covers personal property only per Illinois law. Any condition, no repairs. Call 888-440-5250.
+                USA Home Buyers purchases inherited properties in Springfield IL through Sangamon County Circuit Court Probate Division. Written cash offer in 24 hours, close after the executor has Letters of Office. Real property always requires formal probate in Illinois - the small estate affidavit covers personal property only per Illinois law. Any condition, no repairs. Call 888-274-5006.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
               Inherited a property through Sangamon County Circuit Court Probate Division? We buy inherited houses in any condition and work around Illinois probate timelines.
             </p>
-            <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
-              📞 Call Now - 888-440-5250 (24/7)
+            <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
+              📞 Call Now - 888-274-5006 (24/7)
             </a>
           </div>
           <div>
@@ -105,7 +105,7 @@ export default function SpringfieldInheritedPropertyPage() {
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          Did you inherit a property in Springfield or somewhere in Sangamon County? At USA Home Buyers, we specialize in helping families sell inherited properties quickly and without the headache. We handle the paperwork, buy the house exactly as it is, and close fast. You don't have to clean it out, fix anything, or pay any commissions. Call us at 888-440-5250.
+          Did you inherit a property in Springfield or somewhere in Sangamon County? At USA Home Buyers, we specialize in helping families sell inherited properties quickly and without the headache. We handle the paperwork, buy the house exactly as it is, and close fast. You don't have to clean it out, fix anything, or pay any commissions. Call us at 888-274-5006.
         </div>
       </details>
           <CashOfferForm variant="hero" headline="Get Your Cash Offer" subheadline="We work with estates and probate timelines. Written offer in 24 hours." sourcePage="/markets/springfield-il/inherited-property" />
@@ -227,7 +227,7 @@ export default function SpringfieldInheritedPropertyPage() {
             We handle the remote-heir situation routinely. The executor can sign closing documents via remote notarization (Illinois allows remote online notarization under the Illinois Electronic Commerce Security Act), or by traveling to Springfield for a single closing appointment at the title company. There's no need for the heirs to be physically present for repairs, showings, or cleanouts - we take the property in its current condition and manage everything post-closing.
           </p>
           <p className="text-gray-700 mb-4">
-            If you're managing a Springfield estate from out of state, call 888-440-5250. We can discuss the property condition, timing, and the probate stage you're at, and have a written offer ready before your next appointment with the probate attorney.
+            If you're managing a Springfield estate from out of state, call 888-274-5006. We can discuss the property condition, timing, and the probate stage you're at, and have a written offer ready before your next appointment with the probate attorney.
           </p>
         </section>
 

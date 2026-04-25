@@ -19,7 +19,7 @@ export const revalidate = 86400;
 export const metadata: Metadata = {
   title: 'Sell My House Fast Springfield IL',
   description:
-    'We buy houses in Springfield IL for cash, as-is. Written offer in 24 hours, close in 7 days. No repairs, no fees. Serving Sangamon County. Call 888-440-5250.',
+    'We buy houses in Springfield IL for cash, as-is. Written offer in 24 hours, close in 7 days. No repairs, no fees. Serving Sangamon County. Call 888-274-5006.',
   alternates: { canonical: `${SITE_URL}/markets/springfield-il` },
   openGraph: {
     images: [{ url: '/images/springfield-il-hero.jpg', width: 1200, height: 630, alt: 'Springfield IL home — Sell Your House Fast for Cash' }],
@@ -33,7 +33,7 @@ const springfieldILLocalBusinessSchema = {
   name: 'USA Home Buyers — Springfield IL',
   description: 'Cash home buyers serving Springfield IL and Sangamon County. We buy houses as-is in any condition — no repairs, no agent fees, close in 7-14 days.',
   url: `${SITE_URL}/markets/springfield-il`,
-  telephone: '+18884405250',
+  telephone: '+18882745006',
   address: {
     '@type': 'PostalAddress',
     addressLocality: 'Springfield',
@@ -123,7 +123,7 @@ const COMPARISON_ROWS = [
 const FAQ_ITEMS = [
   {
     question: 'How fast can I sell my house for cash in Springfield IL?',
-    answer: 'USA Home Buyers can close in as few as 7 days in Springfield and throughout Sangamon County. We send a written cash offer within 24 hours of your inquiry. Illinois is a judicial foreclosure state under 735 ILCS 5/15-1101 — once a lender files in Sangamon County Circuit Court at 200 South 9th Street, the process typically runs 12-15 months. If you\'re behind on payments, selling before the foreclosure auction is the cleanest path to walking away with whatever equity remains. Call 888-440-5250.',
+    answer: 'USA Home Buyers can close in as few as 7 days in Springfield and throughout Sangamon County. We send a written cash offer within 24 hours of your inquiry. Illinois is a judicial foreclosure state under 735 ILCS 5/15-1101 — once a lender files in Sangamon County Circuit Court at 200 South 9th Street, the process typically runs 12-15 months. If you\'re behind on payments, selling before the foreclosure auction is the cleanest path to walking away with whatever equity remains. Call 888-274-5006.',
   },
   {
     question: 'How much will you pay for my Springfield IL house?',
@@ -135,11 +135,11 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How does foreclosure work in Sangamon County IL?',
-    answer: 'Illinois is a 100% judicial foreclosure state under the Illinois Mortgage Foreclosure Law, 735 ILCS 5/15-1101 et seq. Every foreclosure must go through Sangamon County Circuit Court — 7th Judicial Circuit, 200 South 9th Street, Springfield IL 62701, (217) 753-6674. The typical Sangamon County timeline from first missed payment to completed foreclosure sale is 12-15 months uncontested. Borrowers have a 3-month reinstatement period (735 ILCS 5/15-1602) and a 7-month redemption period from service of summons (735 ILCS 5/15-1603). Selling to a cash buyer before the foreclosure auction preserves your equity — call 888-440-5250 immediately if you\'re behind.',
+    answer: 'Illinois is a 100% judicial foreclosure state under the Illinois Mortgage Foreclosure Law, 735 ILCS 5/15-1101 et seq. Every foreclosure must go through Sangamon County Circuit Court — 7th Judicial Circuit, 200 South 9th Street, Springfield IL 62701, (217) 753-6674. The typical Sangamon County timeline from first missed payment to completed foreclosure sale is 12-15 months uncontested. Borrowers have a 3-month reinstatement period (735 ILCS 5/15-1602) and a 7-month redemption period from service of summons (735 ILCS 5/15-1603). Selling to a cash buyer before the foreclosure auction preserves your equity — call 888-274-5006 immediately if you\'re behind.',
   },
   {
     question: 'What areas near Springfield do you buy in?',
-    answer: 'All of Sangamon County. That includes Springfield (Enos Park, Harvard Park, Aristocracy Hill, West Side, South Side, downtown 62701), Chatham, Rochester, Sherman, Riverton, Leland Grove, Jerome, Auburn, Pawnee, New Berlin, Pleasant Plains, and Mechanicsburg. We also cover properties in adjacent Menard County (Petersburg area) due to proximity. If you\'re not sure whether we serve your address, call 888-440-5250.',
+    answer: 'All of Sangamon County. That includes Springfield (Enos Park, Harvard Park, Aristocracy Hill, West Side, South Side, downtown 62701), Chatham, Rochester, Sherman, Riverton, Leland Grove, Jerome, Auburn, Pawnee, New Berlin, Pleasant Plains, and Mechanicsburg. We also cover properties in adjacent Menard County (Petersburg area) due to proximity. If you\'re not sure whether we serve your address, call 888-274-5006.',
   },
   {
     question: 'Do I need to make repairs before selling to USA Home Buyers?',
@@ -202,17 +202,17 @@ export default function SpringfieldILMarketPage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                USA Home Buyers purchases houses in Springfield IL and throughout Sangamon County — Enos Park Victorians, Harvard Park bungalows, West Side brick ranches, estate sales, foreclosures, divorce situations. Written cash offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no agent fees. Springfield's Zillow Home Value Index is $163,198 (+8.2% YoY, March 2026); Redfin median sale price $187,000 (+23% YoY). We cover all closing costs including Illinois state transfer tax ($0.50/$500) and Sangamon County transfer tax ($0.25/$500). Call 888-440-5250.
+                USA Home Buyers purchases houses in Springfield IL and throughout Sangamon County — Enos Park Victorians, Harvard Park bungalows, West Side brick ranches, estate sales, foreclosures, divorce situations. Written cash offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no agent fees. Springfield's Zillow Home Value Index is $163,198 (+8.2% YoY, March 2026); Redfin median sale price $187,000 (+23% YoY). We cover all closing costs including Illinois state transfer tax ($0.50/$500) and Sangamon County transfer tax ($0.25/$500). Call 888-274-5006.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
               We buy houses in Springfield IL, Chatham, Rochester, Sherman, and all of Sangamon County — any condition, any situation. No repairs, no agent fees, no waiting.
             </p>
             <a
-              href="tel:+18884405250"
+              href="tel:+18882745006"
               className="flex w-full md:w-auto items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white font-bold rounded-lg px-6 py-4 text-xl md:py-3 md:text-lg shadow-lg transition-colors ring-2 ring-green-400/50"
             >
-              📞 Call 888-440-5250 — We Answer 24/7
+              📞 Call 888-274-5006 — We Answer 24/7
             </a>
             <p className="mt-3 text-blue-200 text-xs md:text-sm">BBB Accredited · 15+ Years Experience · Hundreds of Homes Purchased</p>
           </div>

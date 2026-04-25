@@ -15,14 +15,14 @@ const pageUrl = `${SITE_URL}/markets/springfield-il/fire-damage`;
 export const metadata: Metadata = {
   title: 'Sell Fire-Damaged House Springfield IL',
   description:
-    'Sell a fire-damaged house in Springfield IL as-is. We buy fire and smoke damaged properties without repairs or insurance requirements. Call 888-440-5250.',
+    'Sell a fire-damaged house in Springfield IL as-is. We buy fire and smoke damaged properties without repairs or insurance requirements. Call 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
 const FAQ_ITEMS = [
   {
     question: 'Will you buy a fire-damaged house in Springfield IL?',
-    answer: 'Yes. We buy fire and smoke-damaged houses in Springfield and throughout Sangamon County in any condition - partial damage, total loss, smoke-only damage, water damage from fire suppression. You don\'t need to clean up, board up, or make any repairs. We assess the property and make a written cash offer within 24 hours. Call 888-440-5250.',
+    answer: 'Yes. We buy fire and smoke-damaged houses in Springfield and throughout Sangamon County in any condition - partial damage, total loss, smoke-only damage, water damage from fire suppression. You don\'t need to clean up, board up, or make any repairs. We assess the property and make a written cash offer within 24 hours. Call 888-274-5006.',
   },
   {
     question: 'Should I rebuild or sell my fire-damaged Springfield home?',
@@ -78,14 +78,14 @@ export default function SpringfieldFireDamagePage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                USA Home Buyers purchases fire-damaged properties in Springfield IL as-is - no cleanup, no repairs, no insurance requirements before closing. We make a written cash offer within 24 hours based on current market conditions. Springfield ZHVI $163,198 (Mar 2026). You decide: take the insurance money and sell as-is, or sell and assign the claim. Call 888-440-5250.
+                USA Home Buyers purchases fire-damaged properties in Springfield IL as-is - no cleanup, no repairs, no insurance requirements before closing. We make a written cash offer within 24 hours based on current market conditions. Springfield ZHVI $163,198 (Mar 2026). You decide: take the insurance money and sell as-is, or sell and assign the claim. Call 888-274-5006.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
               Fire-damaged, smoke-damaged, water-damaged from suppression - we buy as-is. No cleanup, no insurance hoops, no rebuild required.
             </p>
-            <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
-              📞 Call Now - 888-440-5250 (24/7)
+            <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
+              📞 Call Now - 888-274-5006 (24/7)
             </a>
           </div>
           <div>
@@ -101,7 +101,7 @@ export default function SpringfieldFireDamagePage() {
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          Did your Springfield home suffer fire damage? USA Home Buyers purchases fire-damaged homes throughout Springfield and Sangamon County, exactly as they are. We make a cash offer based on current condition - no repairs, no cleanup required. If you have a fire-damaged property and want a fast, fair exit - call us at 888-440-5250.
+          Did your Springfield home suffer fire damage? USA Home Buyers purchases fire-damaged homes throughout Springfield and Sangamon County, exactly as they are. We make a cash offer based on current condition - no repairs, no cleanup required. If you have a fire-damaged property and want a fast, fair exit - call us at 888-274-5006.
         </div>
       </details>
           <CashOfferForm variant="hero" headline="Get Your Cash Offer" subheadline="Fire-damaged, smoke-damaged, any condition. Written offer in 24 hours." sourcePage="/markets/springfield-il/fire-damage" />
@@ -165,7 +165,7 @@ export default function SpringfieldFireDamagePage() {
             If you have a mortgage, your lender is almost certainly listed as a loss payee on your homeowner's insurance policy. This means any insurance payout on a total or partial loss must be jointly endorsed by you and the lender. The lender may apply the insurance proceeds to the mortgage balance rather than releasing them for repair, depending on the mortgage agreement and the extent of damage. Understanding this dynamic before selling is important - work with your insurance agent and lender to clarify how proceeds will be handled in a sale scenario.
           </p>
           <p className="text-gray-700 mb-4">
-            We have experience structuring fire-damage transactions that satisfy both the insurance company and the mortgage lender. Call 888-440-5250 to discuss your specific situation - the structure of the transaction can vary significantly based on your insurance coverage and mortgage balance.
+            We have experience structuring fire-damage transactions that satisfy both the insurance company and the mortgage lender. Call 888-274-5006 to discuss your specific situation - the structure of the transaction can vary significantly based on your insurance coverage and mortgage balance.
           </p>
         </section>
 
@@ -178,7 +178,7 @@ export default function SpringfieldFireDamagePage() {
             <li className="flex gap-3"><span className="text-brand-primary font-bold">1.</span><span><strong>File the claim immediately.</strong> Contact your insurance company or agent within 24-48 hours of the fire. Delayed claims can complicate coverage. Photograph everything before any cleanup or boarding up.</span></li>
             <li className="flex gap-3"><span className="text-brand-primary font-bold">2.</span><span><strong>Document the loss thoroughly.</strong> The insurance adjuster will inspect the property, but your own documentation - photos, video walkthroughs, lists of personal property lost - protects you if the adjuster's assessment is lower than the actual loss.</span></li>
             <li className="flex gap-3"><span className="text-brand-primary font-bold">3.</span><span><strong>Get the adjuster's estimate in writing.</strong> The insurer's estimate of loss and the replacement cost or actual cash value figure are the basis for your claim. Review it carefully before signing any agreement.</span></li>
-            <li className="flex gap-3"><span className="text-brand-primary font-bold">4.</span><span><strong>Decide: rebuild or sell as-is.</strong> Once you have the insurance estimate, you have real numbers to work with. Compare the rebuild cost (contractor bids) against the post-rebuild value and any out-of-pocket gap between the insurance payout and actual rebuild cost. At the same time, call us at 888-440-5250 for a cash offer on the as-is property. Compare both numbers before committing.</span></li>
+            <li className="flex gap-3"><span className="text-brand-primary font-bold">4.</span><span><strong>Decide: rebuild or sell as-is.</strong> Once you have the insurance estimate, you have real numbers to work with. Compare the rebuild cost (contractor bids) against the post-rebuild value and any out-of-pocket gap between the insurance payout and actual rebuild cost. At the same time, call us at 888-274-5006 for a cash offer on the as-is property. Compare both numbers before committing.</span></li>
             <li className="flex gap-3"><span className="text-brand-primary font-bold">5.</span><span><strong>If selling as-is: coordinate the claim assignment at closing.</strong> The title company and your insurance company work together to ensure the mortgage lender (if any) is properly handled and the claim proceeds are correctly allocated.</span></li>
           </ol>
 
@@ -200,7 +200,7 @@ export default function SpringfieldFireDamagePage() {
             Springfield Building and Zoning Department permit intake: contact information and permit application procedures are available at springfield.il.us. Building permit review for residential projects typically takes 4-8 weeks. Construction can begin after permit approval. For a post-fire rebuild on a complex older structure, the permit-to-completion timeline is typically 6-18 months depending on scope.
           </p>
           <p className="text-gray-700 mb-4">
-            For many Springfield homeowners - particularly older adults who've lived in the home for decades and don't want to manage an 18-month construction project, or out-of-state heirs who can't easily supervise Springfield contractors - selling the damaged property as-is is simply the more practical choice. We make it straightforward. Call 888-440-5250.
+            For many Springfield homeowners - particularly older adults who've lived in the home for decades and don't want to manage an 18-month construction project, or out-of-state heirs who can't easily supervise Springfield contractors - selling the damaged property as-is is simply the more practical choice. We make it straightforward. Call 888-274-5006.
           </p>
         </section>
 

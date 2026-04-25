@@ -15,7 +15,7 @@ const pageUrl = `${SITE_URL}/markets/springfield-il/divorce-sale`;
 export const metadata: Metadata = {
   title: 'Sell House During Divorce Springfield IL',
   description:
-    'Selling a house during divorce in Springfield IL? One offer, one closing date - equitable distribution without the delay. Call 888-440-5250.',
+    'Selling a house during divorce in Springfield IL? One offer, one closing date - equitable distribution without the delay. Call 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
@@ -78,14 +78,14 @@ export default function SpringfieldDivorceSalePage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                USA Home Buyers purchases marital homes in Springfield IL during divorce proceedings - one offer, one closing, proceeds split per your divorce settlement. Illinois equitable distribution under 750 ILCS 5/503 handles property division in Sangamon County Circuit Court. A specific cash number in hand simplifies settlement negotiations. Written offer in 24 hours, close on the court's timeline. Call 888-440-5250.
+                USA Home Buyers purchases marital homes in Springfield IL during divorce proceedings - one offer, one closing, proceeds split per your divorce settlement. Illinois equitable distribution under 750 ILCS 5/503 handles property division in Sangamon County Circuit Court. A specific cash number in hand simplifies settlement negotiations. Written offer in 24 hours, close on the court's timeline. Call 888-274-5006.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
               One offer both parties can agree to. One closing date. Net proceeds split per your divorce decree - no staging, no showings, no contingencies to derail the settlement.
             </p>
-            <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
-              📞 Call Now - 888-440-5250 (24/7)
+            <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
+              📞 Call Now - 888-274-5006 (24/7)
             </a>
           </div>
           <div>
@@ -101,7 +101,7 @@ export default function SpringfieldDivorceSalePage() {
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          Going through a divorce in Springfield? The family home doesn't have to become a battleground. At USA Home Buyers, we help couples in Sangamon County sell quickly and cleanly - so both parties can move on. We buy the house as-is, for cash, with no agents, no showings, and no delays. Call 888-440-5250 today for a free cash offer.
+          Going through a divorce in Springfield? The family home doesn't have to become a battleground. At USA Home Buyers, we help couples in Sangamon County sell quickly and cleanly - so both parties can move on. We buy the house as-is, for cash, with no agents, no showings, and no delays. Call 888-274-5006 today for a free cash offer.
         </div>
       </details>
           <CashOfferForm variant="hero" headline="Get Your Cash Offer" subheadline="We close on the court's timeline. Written offer in 24 hours." sourcePage="/markets/springfield-il/divorce-sale" />
@@ -219,7 +219,7 @@ export default function SpringfieldDivorceSalePage() {
             <li className="flex gap-3"><span className="text-brand-primary font-bold">4.</span><span><strong>A closing timeline that fits the court schedule.</strong> If the decree is expected to be entered on a specific date, we can schedule closing for that day or within days after. We're flexible on timeline within reason.</span></li>
           </ol>
           <p className="text-gray-700 mb-4">
-            Call 888-440-5250. We'll walk through the specifics of your situation and have a written offer in your hands within 24 hours.
+            Call 888-274-5006. We'll walk through the specifics of your situation and have a written offer in your hands within 24 hours.
           </p>
         </section>
 

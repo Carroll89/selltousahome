@@ -15,14 +15,14 @@ const pageUrl = `${SITE_URL}/markets/springfield-il/foreclosure`;
 export const metadata: Metadata = {
   title: 'Stop Foreclosure Springfield IL',
   description:
-    'Facing foreclosure in Springfield IL? We buy before the Sangamon County auction. Written offer in 24 hours, close in 7 days. Call 888-440-5250.',
+    'Facing foreclosure in Springfield IL? We buy before the Sangamon County auction. Written offer in 24 hours, close in 7 days. Call 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
 const FAQ_ITEMS = [
   {
     question: 'How fast can I sell before foreclosure in Springfield IL?',
-    answer: 'We can close in as few as 7 days once you accept an offer. Illinois is a 100% judicial foreclosure state under 735 ILCS 5/15-1101 et seq. Every Sangamon County foreclosure is filed at the Sangamon County Circuit Court, 200 South 9th Street, Springfield IL 62701, (217) 753-6674. The typical timeline from first missed payment to completed foreclosure sale is 12-15 months uncontested. But once judgment is entered and the reinstatement period expires, events move quickly. Call 888-440-5250 the moment you receive foreclosure paperwork.',
+    answer: 'We can close in as few as 7 days once you accept an offer. Illinois is a 100% judicial foreclosure state under 735 ILCS 5/15-1101 et seq. Every Sangamon County foreclosure is filed at the Sangamon County Circuit Court, 200 South 9th Street, Springfield IL 62701, (217) 753-6674. The typical timeline from first missed payment to completed foreclosure sale is 12-15 months uncontested. But once judgment is entered and the reinstatement period expires, events move quickly. Call 888-274-5006 the moment you receive foreclosure paperwork.',
   },
   {
     question: 'What is the Illinois foreclosure process in Sangamon County?',
@@ -81,13 +81,13 @@ export default function SpringfieldForeclosurePage() {
             </h1>
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
-              <p className="text-white text-sm leading-relaxed">USA Home Buyers purchases houses in Springfield IL from homeowners facing foreclosure — before the Sangamon County Circuit Court auction. Written cash offer in 24 hours, close in 7-14 days. Illinois judicial foreclosure typically runs 12-15 months in Sangamon County — you have reinstatement and redemption rights under Illinois law. Sell before the auction; walk away with your equity. Call 888-440-5250.</p>
+              <p className="text-white text-sm leading-relaxed">USA Home Buyers purchases houses in Springfield IL from homeowners facing foreclosure — before the Sangamon County Circuit Court auction. Written cash offer in 24 hours, close in 7-14 days. Illinois judicial foreclosure typically runs 12-15 months in Sangamon County — you have reinstatement and redemption rights under Illinois law. Sell before the auction; walk away with your equity. Call 888-274-5006.</p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
               Written cash offer in 24 hours. Close in 7–14 days. No repairs, no agent fees — sell before the auction and walk away with your equity.
             </p>
-            <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
-              📞 Call Now — 888-440-5250 (24/7)
+            <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
+              📞 Call Now — 888-274-5006 (24/7)
             </a>
           </div>
           <div>
@@ -103,7 +103,7 @@ export default function SpringfieldForeclosurePage() {
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          Are you behind on your mortgage in Springfield, Illinois? Foreclosure doesn't have to be your ending. Illinois is a judicial foreclosure state — you may have more time than you think, but the clock is ticking. At USA Home Buyers, a fast cash sale can stop the process and protect your credit. Call us right now at 888-440-5250 for a free, confidential conversation.
+          Are you behind on your mortgage in Springfield, Illinois? Foreclosure doesn't have to be your ending. Illinois is a judicial foreclosure state — you may have more time than you think, but the clock is ticking. At USA Home Buyers, a fast cash sale can stop the process and protect your credit. Call us right now at 888-274-5006 for a free, confidential conversation.
         </div>
       </details>
           <CashOfferForm variant="hero" headline="Get Your Cash Offer" subheadline="We stop foreclosure by closing before the auction. Written offer in 24 hours." sourcePage="/markets/springfield-il/foreclosure" />
@@ -182,7 +182,7 @@ export default function SpringfieldForeclosurePage() {
             Foreclosure auctions in Sangamon County typically recover 60-75% of fair market value for the lender. Our cash offers for Springfield foreclosure properties run 65-75% of FMV, with the critical difference being that you — not the lender — receive the proceeds above the payoff. If your Springfield bungalow is worth $163,000 and you owe $130,000, selling to us at $122,000 nets you roughly $92,000 after paying off the loan (less closing costs, which we cover). Letting the auction happen means the lender collects, and if the auction price falls short, the lender can pursue a deficiency judgment for the difference.
           </p>
           <p className="text-gray-700 mb-4">
-            The math is straightforward: sell before the auction and protect your equity. Call 888-440-5250. We can have an offer in your inbox within 24 hours of your call.
+            The math is straightforward: sell before the auction and protect your equity. Call 888-274-5006. We can have an offer in your inbox within 24 hours of your call.
           </p>
         </section>
 
@@ -228,7 +228,7 @@ export default function SpringfieldForeclosurePage() {
             The foreclosure auction is a bad place to preserve that equity. Lenders aren't running charity sales — the auction is designed to recover the outstanding mortgage balance, not to maximize what you walk away with. Our cash offers for Springfield pre-foreclosure properties run 65-75% of FMV; the auction typically returns the lender's costs and stops there. If there's $30,000 of equity in your Springfield bungalow, selling to a cash buyer before the auction is almost always better than letting the court confirm the sale.
           </p>
           <p className="text-gray-700 mb-4">
-            If you don't know whether you have equity, start with a rough estimate: take your home's estimated current value (you can use Zillow's Zestimate as a starting point, but recognize it's an estimate), subtract your outstanding mortgage payoff amount (call your servicer for the payoff figure), and subtract any other liens on the property (judgment liens, tax liens, code violation liens). If there's a positive number after that calculation, you have equity worth protecting. Call us at 888-440-5250 — we'll give you a real number within 24 hours.
+            If you don't know whether you have equity, start with a rough estimate: take your home's estimated current value (you can use Zillow's Zestimate as a starting point, but recognize it's an estimate), subtract your outstanding mortgage payoff amount (call your servicer for the payoff figure), and subtract any other liens on the property (judgment liens, tax liens, code violation liens). If there's a positive number after that calculation, you have equity worth protecting. Call us at 888-274-5006 — we'll give you a real number within 24 hours.
           </p>
         </section>
 

@@ -19,6 +19,7 @@ declare global {
       };
     };
     initGooglePlaces?: () => void;
+    gtag?: (...args: unknown[]) => void;
   }
 }
 import { GHL_WEBHOOK_URL, SITUATION_OPTIONS, getUTMParam, getSourceChannel } from '@/lib/utils';

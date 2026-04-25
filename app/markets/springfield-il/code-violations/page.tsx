@@ -15,7 +15,7 @@ const pageUrl = `${SITE_URL}/markets/springfield-il/code-violations`;
 export const metadata: Metadata = {
   title: 'Sell House with Code Violations Springfield IL',
   description:
-    'Have open code violations in Springfield IL? We buy houses as-is with open violations, condemnation orders, or failed inspections. Call 888-440-5250.',
+    'Have open code violations in Springfield IL? We buy houses as-is with open violations, condemnation orders, or failed inspections. Call 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
@@ -30,7 +30,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'What happens if I get a demolition order in Springfield?',
-    answer: 'If the City of Springfield Building and Zoning Department issues a demolition order, you typically have a set time period to either remediate the violations or have the structure demolished. If you don\'t act, the city can demolish the structure and assess the cost against the property as a lien - which must be paid before the property can transfer clean title. If you\'re facing a demolition order, contact us immediately at 888-440-5250. We can often close before the demolition deadline, taking the property as-is and handling the city process after closing.',
+    answer: 'If the City of Springfield Building and Zoning Department issues a demolition order, you typically have a set time period to either remediate the violations or have the structure demolished. If you don\'t act, the city can demolish the structure and assess the cost against the property as a lien - which must be paid before the property can transfer clean title. If you\'re facing a demolition order, contact us immediately at 888-274-5006. We can often close before the demolition deadline, taking the property as-is and handling the city process after closing.',
   },
   {
     question: 'Can a Springfield house with code violations be sold?',
@@ -78,14 +78,14 @@ export default function SpringfieldCodeViolationsPage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                USA Home Buyers purchases Springfield IL houses with open City of Springfield code violations, condemnation orders, failed inspections, and outstanding fines. We assume responsibility for violations after closing. No repairs, no remediation before you get paid. Written offer in 24 hours. Call 888-440-5250.
+                USA Home Buyers purchases Springfield IL houses with open City of Springfield code violations, condemnation orders, failed inspections, and outstanding fines. We assume responsibility for violations after closing. No repairs, no remediation before you get paid. Written offer in 24 hours. Call 888-274-5006.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
               Open violations, condemnation, daily fines - we buy as-is. You don't touch a single thing before closing.
             </p>
-            <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
-              📞 Call Now - 888-440-5250 (24/7)
+            <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
+              📞 Call Now - 888-274-5006 (24/7)
             </a>
           </div>
           <div>
@@ -101,7 +101,7 @@ export default function SpringfieldCodeViolationsPage() {
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          Does your Springfield property have code violations? Don't let that stop you from selling. At USA Home Buyers, we buy properties with open violations - as-is, for cash. Whether it's structural issues, electrical problems, or a condemned notice - we've seen it all. Call us at 888-440-5250 for a free, no-obligation cash offer.
+          Does your Springfield property have code violations? Don't let that stop you from selling. At USA Home Buyers, we buy properties with open violations - as-is, for cash. Whether it's structural issues, electrical problems, or a condemned notice - we've seen it all. Call us at 888-274-5006 for a free, no-obligation cash offer.
         </div>
       </details>
           <CashOfferForm variant="hero" headline="Get Your Cash Offer" subheadline="Open violations, no problem. Written offer in 24 hours." sourcePage="/markets/springfield-il/code-violations" />
@@ -169,7 +169,7 @@ export default function SpringfieldCodeViolationsPage() {
             The timeline between a demolition order and city-initiated demolition varies - Springfield typically provides multiple notice opportunities before taking direct action. But once a demolition order is active, your window to sell the property with any value intact is closing. Once the city demolishes the structure, you're left with a vacant lot with a demolition cost lien - worth significantly less than an occupied structure.
           </p>
           <p className="text-gray-700 mb-4">
-            If you've received a demolition order, call 888-440-5250 immediately. In many cases we can close before the demolition deadline, preserving value for you and handling the property remediation on our own schedule.
+            If you've received a demolition order, call 888-274-5006 immediately. In many cases we can close before the demolition deadline, preserving value for you and handling the property remediation on our own schedule.
           </p>
         </section>
 

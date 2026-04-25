@@ -15,7 +15,7 @@ const pageUrl = `${SITE_URL}/markets/springfield-il/probate`;
 export const metadata: Metadata = {
   title: 'Sell Probate House Springfield IL',
   description:
-    'Selling a probate property in Springfield IL? We work with Sangamon County Circuit Court Probate Division timelines. Written offer in 24 hours. 888-440-5250.',
+    'Selling a probate property in Springfield IL? We work with Sangamon County Circuit Court Probate Division timelines. Written offer in 24 hours. 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
@@ -78,14 +78,14 @@ export default function SpringfieldProbatePage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                USA Home Buyers purchases probate properties in Springfield through Sangamon County Circuit Court Probate Division. Written cash offer in 24 hours, close after Letters of Office are issued. Under independent administration, the executor can sell without separate court approval. Real property always requires formal probate in IL — the small estate affidavit covers personal property only. Call 888-440-5250.
+                USA Home Buyers purchases probate properties in Springfield through Sangamon County Circuit Court Probate Division. Written cash offer in 24 hours, close after Letters of Office are issued. Under independent administration, the executor can sell without separate court approval. Real property always requires formal probate in IL — the small estate affidavit covers personal property only. Call 888-274-5006.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
               We work with Sangamon County Circuit Court Probate Division cases — formal administration, independent administration, contested and uncontested estates.
             </p>
-            <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
-              📞 Call Now — 888-440-5250 (24/7)
+            <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
+              📞 Call Now — 888-274-5006 (24/7)
             </a>
           </div>
           <div>
@@ -101,7 +101,7 @@ export default function SpringfieldProbatePage() {
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          Is a Springfield property tied up in probate? We can help. Once the court grants authority, USA Home Buyers can close fast. We work with estate attorneys, administrators, and heirs throughout the Springfield area. No repairs. No showings. No waiting for retail buyers. We buy as-is, for cash. Call us at 888-440-5250.
+          Is a Springfield property tied up in probate? We can help. Once the court grants authority, USA Home Buyers can close fast. We work with estate attorneys, administrators, and heirs throughout the Springfield area. No repairs. No showings. No waiting for retail buyers. We buy as-is, for cash. Call us at 888-274-5006.
         </div>
       </details>
           <CashOfferForm variant="hero" headline="Get Your Cash Offer" subheadline="We work around Sangamon County Circuit Court timelines. Written offer in 24 hours." sourcePage="/markets/springfield-il/probate" />
