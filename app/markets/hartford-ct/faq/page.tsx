@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 const FAQ_ITEMS = [
   {
     question: 'How does the cash home buying process work in Hartford CT?',
-    answer: 'You submit your property info through our form or call 888-440-5250. We review your Hartford property and send a written cash offer within 24 hours. If you accept, you pick the closing date — as fast as 7 days. We handle title, closing costs, and Connecticut conveyance tax. You sign at the title company and walk away with cash.',
+    answer: 'You submit your property info through our form or call 888-274-5006. We review your Hartford property and send a written cash offer within 24 hours. If you accept, you pick the closing date — as fast as 7 days. We handle title, closing costs, and Connecticut conveyance tax. You sign at the title company and walk away with cash.',
   },
   {
     question: 'How much do you pay for Hartford CT houses?',
@@ -41,7 +41,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'What areas in the Hartford metro do you cover?',
-    answer: 'All of Hartford County and the surrounding metro: Hartford, West Hartford, East Hartford, New Britain, Manchester, Glastonbury, Wethersfield, Newington, Rocky Hill, Cromwell, Bristol, Enfield, Windsor, South Windsor, and Farmington. If you\'re not sure, call 888-440-5250.',
+    answer: 'All of Hartford County and the surrounding metro: Hartford, West Hartford, East Hartford, New Britain, Manchester, Glastonbury, Wethersfield, Newington, Rocky Hill, Cromwell, Bristol, Enfield, Windsor, South Windsor, and Farmington. If you\'re not sure, call 888-274-5006.',
   },
   {
     question: 'Do you work with Spanish-speaking sellers?',

@@ -104,11 +104,11 @@ const FAQ_ITEMS = [
   },
   {
     question: '¿Compran casas en Hartford CT? / Do you work with Spanish-speaking sellers?',
-    answer: 'Sí, hablamos español. According to the U.S. Census Bureau, approximately 44% of Hartford residents identify as Hispanic or Latino — making Hartford one of the most Latino cities in New England. We serve Hartford\'s community in English and Spanish. Llámenos al 888-440-5250.',
+    answer: 'Sí, hablamos español. According to the U.S. Census Bureau, approximately 44% of Hartford residents identify as Hispanic or Latino — making Hartford one of the most Latino cities in New England. We serve Hartford\'s community in English and Spanish. Llámenos al 888-274-5006.',
   },
   {
     question: 'What areas near Hartford do you buy in?',
-    answer: 'The entire Hartford metro. That includes West Hartford, East Hartford, New Britain, Manchester, Glastonbury, Wethersfield, Newington, Rocky Hill, Cromwell, Bristol, Enfield, Windsor, South Windsor, and Farmington. If you\'re in Hartford County, we buy there. Call 888-440-5250.',
+    answer: 'The entire Hartford metro. That includes West Hartford, East Hartford, New Britain, Manchester, Glastonbury, Wethersfield, Newington, Rocky Hill, Cromwell, Bristol, Enfield, Windsor, South Windsor, and Farmington. If you\'re in Hartford County, we buy there. Call 888-274-5006.',
   },
   {
     question: 'Do I need to make repairs before selling?',
@@ -163,14 +163,14 @@ export default function HartfordCTMarketPage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                USA Home Buyers purchases houses in Hartford CT and throughout Hartford County — Frog Hollow, Barry Square, West End, Blue Hills, Parkville, and the broader metro including West Hartford, East Hartford, and New Britain. Written cash offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no fees. Hartford metro median listing price is $455,000 (Realtor.com, March 2026). We cover all closing costs including CT conveyance tax. Call 888-440-5250. Hablamos español.
+                USA Home Buyers purchases houses in Hartford CT and throughout Hartford County — Frog Hollow, Barry Square, West End, Blue Hills, Parkville, and the broader metro including West Hartford, East Hartford, and New Britain. Written cash offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no fees. Hartford metro median listing price is $455,000 (Realtor.com, March 2026). We cover all closing costs including CT conveyance tax. Call 888-274-5006. Hablamos español.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
               We buy houses in Hartford CT and Hartford County in any condition — triple-deckers, Victorians, multi-families, estates, foreclosures, tenant-occupied. No repairs, no agent fees.
             </p>
-            <a href="tel:+18884405250" className="flex w-full md:w-auto items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white font-bold rounded-lg px-6 py-4 text-xl md:py-3 md:text-lg shadow-lg transition-colors ring-2 ring-green-400/50">
-              📞 Call 888-440-5250 — We Answer 24/7
+            <a href="tel:+18882745006" className="flex w-full md:w-auto items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white font-bold rounded-lg px-6 py-4 text-xl md:py-3 md:text-lg shadow-lg transition-colors ring-2 ring-green-400/50">
+              📞 Call 888-274-5006 — We Answer 24/7
             </a>
             <p className="mt-3 text-blue-200 text-xs md:text-sm">BBB Accredited · 15+ Years Experience · Hundreds of Homes Purchased</p>
           </div>

@@ -58,13 +58,13 @@ export default function HartfordProbatePage() {
             </h1>
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
-              <p className="text-white text-sm leading-relaxed">Handling a Hartford estate? USA Home Buyers purchases probate properties for cash, as-is. Once you have your fiduciary appointment from Hartford Probate Court, we can close in 7-14 days. No repairs, no cleanout, no agent commissions. Call 888-440-5250.</p>
+              <p className="text-white text-sm leading-relaxed">Handling a Hartford estate? USA Home Buyers purchases probate properties for cash, as-is. Once you have your fiduciary appointment from Hartford Probate Court, we can close in 7-14 days. No repairs, no cleanout, no agent commissions. Call 888-274-5006.</p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
               Cash offer in 24 hours. Close in 7–14 days after probate appointment. No repairs, no cleanout.
             </p>
-            <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
-              📞 Call Now — 888-440-5250 (24/7)
+            <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
+              📞 Call Now — 888-274-5006 (24/7)
             </a>
           </div>
           <div>
