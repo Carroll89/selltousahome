@@ -35,7 +35,7 @@ export default function RacineMarketReportPage() {
         <div className="bg-blue-50 border border-blue-100 rounded-xl p-4 mb-8">
           <p className="text-sm font-medium text-blue-800 mb-1">TL;DR</p>
           <p className="text-sm text-blue-900 leading-relaxed">
-            According to the Zillow Home Value Index (February 2026), the typical Racine home value is $171,496, up 4.4% year over year. Redfin reports a March 2026 median sale price of $205,000 with 35 days on market and 8 offers per home. The Racine-Mount Pleasant metro area scored #8 on the April 2026 Realtor.com Market Hotness Index (median $347,720, 30 days on market). Wisconsin realty transfer fee is $3.00 per $1,000 (seller pays, state-only, no county surcharge). Foreclosure is judicial, filed at Racine County Circuit Court, 10-14 months typical. For a cash offer based on current Racine County conditions, call USA Home Buyers at 888-440-5250.
+            According to the Zillow Home Value Index (February 2026), the typical Racine home value is $171,496, up 4.4% year over year. Redfin reports a March 2026 median sale price of $205,000 with 35 days on market and 8 offers per home. The Racine-Mount Pleasant metro area scored #8 on the April 2026 Realtor.com Market Hotness Index (median $347,720, 30 days on market). Wisconsin realty transfer fee is $3.00 per $1,000 (seller pays, state-only, no county surcharge). Foreclosure is judicial, filed at Racine County Circuit Court, 10-14 months typical. For a cash offer based on current Racine County conditions, call USA Home Buyers at 888-274-5006.
           </p>
         </div>
 

@@ -80,13 +80,13 @@ export default function RacineCodeViolationsPage() {
             </h1>
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
-              <p className="text-white text-sm leading-relaxed">USA Home Buyers purchases Racine houses with open City of Racine building, housing, and health-code violations, with Raze Orders under Wis. Stat. § 66.0413, and with unpaid municipal charges. We factor the cost to cure into our written offer and handle remediation after closing. Call 888-440-5250.</p>
+              <p className="text-white text-sm leading-relaxed">USA Home Buyers purchases Racine houses with open City of Racine building, housing, and health-code violations, with Raze Orders under Wis. Stat. § 66.0413, and with unpaid municipal charges. We factor the cost to cure into our written offer and handle remediation after closing. Call 888-274-5006.</p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
               Open violations, Raze Orders, condemned properties — we buy them all. Written cash offer in 24 hours. Close in 7–14 days.
             </p>
-            <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
-              📞 Call Now — 888-440-5250 (24/7)
+            <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
+              📞 Call Now — 888-274-5006 (24/7)
             </a>
           </div>
           <div>

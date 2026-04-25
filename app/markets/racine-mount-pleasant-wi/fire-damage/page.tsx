@@ -84,13 +84,13 @@ export default function RacineFireDamagePage() {
             </h1>
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
-              <p className="text-white text-sm leading-relaxed">USA Home Buyers purchases fire-damaged, smoke-damaged, and partial-loss Racine properties regardless of insurance-claim status. We close as-is at a Racine title company, you keep your insurance proceeds, and the rebuild risk transfers to us. Written offer in 24 hours. Call 888-440-5250.</p>
+              <p className="text-white text-sm leading-relaxed">USA Home Buyers purchases fire-damaged, smoke-damaged, and partial-loss Racine properties regardless of insurance-claim status. We close as-is at a Racine title company, you keep your insurance proceeds, and the rebuild risk transfers to us. Written offer in 24 hours. Call 888-274-5006.</p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
               Partial loss, total loss, smoke-only damage — we buy all of it. Written cash offer in 24 hours. Close in 7–14 days.
             </p>
-            <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
-              📞 Call Now — 888-440-5250 (24/7)
+            <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
+              📞 Call Now — 888-274-5006 (24/7)
             </a>
           </div>
           <div>

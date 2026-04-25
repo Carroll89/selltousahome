@@ -52,7 +52,7 @@ export default function RacineNeighborhoodsPage() {
         </h1>
         <div className="bg-blue-50 border border-blue-100 rounded-xl p-4 mb-8">
           <p className="text-sm text-blue-900">
-            USA Home Buyers purchases properties in every Racine-Mount Pleasant neighborhood. Below are price ranges by area based on Zillow ZHVI (Feb 2026) and Redfin sales data (Mar 2026). Call 888-440-5250 for a property-specific offer.
+            USA Home Buyers purchases properties in every Racine-Mount Pleasant neighborhood. Below are price ranges by area based on Zillow ZHVI (Feb 2026) and Redfin sales data (Mar 2026). Call 888-274-5006 for a property-specific offer.
           </p>
         </div>
 

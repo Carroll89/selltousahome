@@ -84,13 +84,13 @@ export default function RacineDivorceSalePage() {
             </h1>
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
-              <p className="text-white text-sm leading-relaxed">Wisconsin is a marital property state (Wis. Stat. Ch. 766). Racine County Circuit Court Family Division divorces presume 50/50 division of marital property under Wis. Stat. § 767.61. USA Home Buyers gives one written cash offer, one closing date, and proceeds split at the title company per your Marital Settlement Agreement or court order. Written offer in 24 hours. Close in 7-14 days. Call 888-440-5250.</p>
+              <p className="text-white text-sm leading-relaxed">Wisconsin is a marital property state (Wis. Stat. Ch. 766). Racine County Circuit Court Family Division divorces presume 50/50 division of marital property under Wis. Stat. § 767.61. USA Home Buyers gives one written cash offer, one closing date, and proceeds split at the title company per your Marital Settlement Agreement or court order. Written offer in 24 hours. Close in 7-14 days. Call 888-274-5006.</p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
               One offer. One closing. One split. Written cash offer in 24 hours. Close in 7–14 days. No repairs, no agent fees, no arguments.
             </p>
-            <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
-              📞 Call Now — 888-440-5250 (24/7)
+            <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
+              📞 Call Now — 888-274-5006 (24/7)
             </a>
           </div>
           <div>

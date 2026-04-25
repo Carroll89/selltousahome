@@ -88,13 +88,13 @@ export default function RacineProbatePage() {
             </h1>
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
-              <p className="text-white text-sm leading-relaxed">USA Home Buyers purchases probate real estate filed with the Racine County Register in Probate. Wisconsin informal administration (Wis. Stat. Ch. 856) typically issues Domiciliary Letters in 4-8 weeks, authorizing the personal representative to sell under Wis. Stat. § 860.01. We give a written cash offer in 24 hours and can close once Letters issue. Any condition, no cleanout. Call 888-440-5250.</p>
+              <p className="text-white text-sm leading-relaxed">USA Home Buyers purchases probate real estate filed with the Racine County Register in Probate. Wisconsin informal administration (Wis. Stat. Ch. 856) typically issues Domiciliary Letters in 4-8 weeks, authorizing the personal representative to sell under Wis. Stat. § 860.01. We give a written cash offer in 24 hours and can close once Letters issue. Any condition, no cleanout. Call 888-274-5006.</p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
               Written cash offer in 24 hours. Close in 7–14 days after Letters issue. No repairs, no cleanout, no waiting for full probate discharge.
             </p>
-            <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
-              📞 Call Now — 888-440-5250 (24/7)
+            <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
+              📞 Call Now — 888-274-5006 (24/7)
             </a>
           </div>
           <div>
