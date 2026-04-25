@@ -102,7 +102,7 @@ export default function StateCollegeForeclosurePage() {
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          If you&apos;re facing foreclosure in Centre County, time matters. We can make a cash offer and close before your sheriff sale date. No banks, no delays. You walk away with equity instead of losing the house. Call 888-440-5250 — we move fast when deadlines are tight.
+          If you&apos;re facing foreclosure in Centre County, time matters. We can make a cash offer and close before your sheriff sale date. No banks, no delays. You walk away with equity instead of losing the house. Call 888-274-5006 — we move fast when deadlines are tight.
         </div>
       </details>
           <CashOfferForm variant="hero" sourcePage="/markets/state-college-pa/foreclosure" />

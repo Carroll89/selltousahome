@@ -110,7 +110,7 @@ export default function StateCollegeInheritedPropertyPage() {
           <p className="mb-3">I&apos;m with USA Home Buyers, and we work with families in exactly this situation throughout Centre County. The inherited house is often in decent shape but dated — 1970s kitchen, old HVAC, deferred maintenance. Traditional buyers will negotiate hard on all of that. We don&apos;t. We buy as-is.</p>
           <p className="mb-3">If the property is going through probate, that happens at the Centre County Register of Wills office in Bellefonte — at the Willowbank Office Building on Holmes Street. Once the executor has Letters Testamentary, they can sign the purchase agreement. We can coordinate our closing timeline around the estate process.</p>
           <p className="mb-3">You don&apos;t have to fly in to deal with the property. You don&apos;t have to clean it out. Take the things that matter to you and leave the rest — we handle everything after closing.</p>
-          <p className="mb-3">Call USA Home Buyers at 888-440-5250. We&apos;ll ask about 10 questions, give you a written cash offer within 24 hours, and take it from there.</p>
+          <p className="mb-3">Call USA Home Buyers at 888-274-5006. We&apos;ll ask about 10 questions, give you a written cash offer within 24 hours, and take it from there.</p>
         </div>
       </details>
 

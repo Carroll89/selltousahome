@@ -174,7 +174,7 @@ export default function StateCollegeMarketPage() {
               href={`tel:${PHONE}`}
               className="flex w-full md:w-auto items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white font-bold rounded-lg px-6 py-4 text-xl md:py-3 md:text-lg shadow-lg transition-colors ring-2 ring-green-400/50"
             >
-              📞 Call 888-440-5250 — We Answer 24/7
+              📞 Call 888-274-5006 — We Answer 24/7
             </a>
             <p className="mt-3 text-blue-200 text-xs md:text-sm">BBB Accredited · 15+ Years Experience · Hundreds of Homes Purchased</p>
           </div>
@@ -208,7 +208,7 @@ export default function StateCollegeMarketPage() {
         <p className="mb-3">Second: this is one of the most renter-heavy markets in Pennsylvania. Nearly 74% of housing units are rentals — which means there are a lot of landlords who are tired of the annual Penn State lease cycle: find tenants in the spring, deal with move-out damage in May, start over. If that&apos;s your situation, we buy rental properties with tenants in place.</p>
         <p className="mb-3">Third: the dominant housing stock here is 1970s and 1980s split-levels and colonials. Great bones, but they need updating. Traditional buyers will come in with inspectors and repair demands. We don&apos;t. We buy as-is.</p>
         <p className="mb-3">The process is simple. You call us or fill out the form. We get back to you within hours, ask about 10 questions about the property, and give you a written cash offer within 24 hours. If you accept, we set a closing date — as fast as seven days, or whenever works for you.</p>
-        <p className="mb-3">We serve all of Centre County: State College Borough, Bellefonte, Boalsburg, Ferguson Township, Patton Township, Port Matilda, and beyond. Call USA Home Buyers at 888-440-5250.</p>
+        <p className="mb-3">We serve all of Centre County: State College Borough, Bellefonte, Boalsburg, Ferguson Township, Patton Township, Port Matilda, and beyond. Call USA Home Buyers at 888-274-5006.</p>
         </div>
         </details>
 

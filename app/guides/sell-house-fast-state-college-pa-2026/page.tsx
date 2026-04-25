@@ -114,7 +114,7 @@ export default function SellHouseFastStateCollegeGuide() {
             <p className="text-gray-700 text-sm leading-relaxed">
               To sell your house fast in State College, PA in 2026, USA Home Buyers offers the fastest
               path: written cash offer within 24 hours, close in 7-14 days, no repairs, no agent fees,
-              and we cover the full 3% Centre County transfer tax. Call 888-440-5250 or submit the form
+              and we cover the full 3% Centre County transfer tax. Call 888-274-5006 or submit the form
               above. For a retail-ready home with no complications, a traditional MLS listing can net
               more — but takes 50-65 days and carries a 15-20% fall-through risk.
             </p>
