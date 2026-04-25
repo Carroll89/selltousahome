@@ -139,13 +139,16 @@ export function MultiStepForm({ sourcePage }: MultiStepFormProps) {
       // Continue to thank-you regardless
     }
 
-    if (typeof window !== 'undefined' && window.gtag) {
-      window.gtag('event', 'form_submit', {
-        situation,
-        timeline,
-        source_page: path,
-        form_type: 'multi_step_survey',
-      });
+    if (typeof window !== 'undefined') {
+      const analyticsWindow = window as Window & { gtag?: (...args: unknown[]) => void };
+      if (typeof analyticsWindow.gtag === 'function') {
+        analyticsWindow.gtag('event', 'form_submit', {
+          situation,
+          timeline,
+          source_page: path,
+          form_type: 'multi_step_survey',
+        });
+      }
     }
 
     window.location.href = `/thank-you?name=${encodeURIComponent(firstName)}`;

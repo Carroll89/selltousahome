@@ -19,7 +19,6 @@ declare global {
       };
     };
     initGooglePlaces?: () => void;
-    gtag?: (...args: unknown[]) => void;
   }
 }
 import { GHL_WEBHOOK_URL, SITUATION_OPTIONS, getUTMParam, getSourceChannel } from '@/lib/utils';
@@ -209,11 +208,14 @@ export function CashOfferForm({
       // Continue to thank-you regardless
     }
 
-    if (typeof window !== 'undefined' && window.gtag) {
-      window.gtag('event', 'form_submit', {
-        situation: form.situation,
-        source_page: typeof window !== 'undefined' ? window.location.pathname : '',
-      });
+    if (typeof window !== 'undefined') {
+      const analyticsWindow = window as Window & { gtag?: (...args: unknown[]) => void };
+      if (typeof analyticsWindow.gtag === 'function') {
+        analyticsWindow.gtag('event', 'form_submit', {
+          situation: form.situation,
+          source_page: window.location.pathname,
+        });
+      }
     }
 
     window.location.href = `/thank-you?name=${encodeURIComponent(firstName)}`;
