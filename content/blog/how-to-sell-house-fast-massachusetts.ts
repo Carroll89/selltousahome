@@ -82,7 +82,7 @@ const content: BlogPostContent = {
         'Step 4: Attorney closing. Our Massachusetts closing attorney handles the deed preparation, title examination, and deed excise stamp calculation. You sign. Proceeds disburse same day.',
         'For Springfield properties: [Get your Springfield MA cash offer](/markets/springfield-ma).',
         'For Worcester properties: [Get your Worcester MA cash offer](/markets/worcester-ma).',
-        'Or call us at 888-440-5250. We\'re available 24/7.',
+        'Or call us at 888-274-5006. We\'re available 24/7.',
       ],
     },
     {

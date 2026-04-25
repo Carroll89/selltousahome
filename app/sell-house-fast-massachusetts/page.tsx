@@ -37,7 +37,7 @@ export default function SellHouseFastMassachusettsPage() {
         <div className="bg-blue-50 border border-blue-100 rounded-xl p-5 mb-8">
           <p className="text-sm font-semibold text-blue-800 mb-2">TL;DR</p>
           <p className="text-sm text-blue-900 leading-relaxed">
-            USA Home Buyers purchases houses for cash throughout Massachusetts — currently serving Springfield (Hampden County) and Worcester (Worcester County), with expansion ongoing. Written offer in 24 hours, close in 7–14 days, any condition, no repairs, no fees. Massachusetts deed excise stamps ($4.56 per $1,000) covered by us. Non-judicial foreclosure state — process moves in 75-120 days. Hablamos español. Call 888-440-5250.
+            USA Home Buyers purchases houses for cash throughout Massachusetts — currently serving Springfield (Hampden County) and Worcester (Worcester County), with expansion ongoing. Written offer in 24 hours, close in 7–14 days, any condition, no repairs, no fees. Massachusetts deed excise stamps ($4.56 per $1,000) covered by us. Non-judicial foreclosure state — process moves in 75-120 days. Hablamos español. Call 888-274-5006.
           </p>
         </div>
 
@@ -168,7 +168,7 @@ export default function SellHouseFastMassachusettsPage() {
         </section>
 
         <div className="mb-8 p-4 bg-blue-50 rounded-xl">
-          <p className="text-sm text-blue-900"><strong>Hablamos español.</strong> Springfield has a 48% Hispanic community, primarily Puerto Rican. We serve Massachusetts sellers in English and Spanish. Llámenos al 888-440-5250.</p>
+          <p className="text-sm text-blue-900"><strong>Hablamos español.</strong> Springfield has a 48% Hispanic community, primarily Puerto Rican. We serve Massachusetts sellers in English and Spanish. Llámenos al 888-274-5006.</p>
         </div>
 
         <CashOfferForm variant="inline" headline="Get a Cash Offer for Your Massachusetts Home" subheadline="Written offer in 24 hours. We cover all closing costs including MA deed excise stamps." sourcePage="/sell-house-fast-massachusetts" />

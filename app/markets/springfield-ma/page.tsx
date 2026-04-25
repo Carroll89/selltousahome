@@ -107,7 +107,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'What areas near Springfield do you buy in?',
-    answer: 'All of Hampden County. That includes West Springfield, Agawam, Chicopee, Ludlow, Wilbraham, East Longmeadow, Longmeadow, Westfield, Holyoke, and Ware. If you\'re not sure whether we cover your area, call us at 888-440-5250.',
+    answer: 'All of Hampden County. That includes West Springfield, Agawam, Chicopee, Ludlow, Wilbraham, East Longmeadow, Longmeadow, Westfield, Holyoke, and Ware. If you\'re not sure whether we cover your area, call us at 888-274-5006.',
   },
   {
     question: 'Do I need to make repairs before selling?',
@@ -170,17 +170,17 @@ export default function SpringfieldMAMarketPage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                USA Home Buyers purchases houses in Springfield MA and throughout Hampden County — Forest Park, Pine Point, Six Corners, Hungry Hill, and surrounding towns. Written cash offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no fees. According to Zillow, Springfield median home values are around $178,000. We buy at fair value and cover all closing costs including Massachusetts deed excise stamps. Call 888-440-5250. Hablamos español.
+                USA Home Buyers purchases houses in Springfield MA and throughout Hampden County — Forest Park, Pine Point, Six Corners, Hungry Hill, and surrounding towns. Written cash offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no fees. According to Zillow, Springfield median home values are around $178,000. We buy at fair value and cover all closing costs including Massachusetts deed excise stamps. Call 888-274-5006. Hablamos español.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
               We buy houses in Springfield MA and Hampden County in any condition — triple-deckers, two-families, single-family homes, estates, foreclosures, tenant-occupied properties. No repairs, no agent fees, no waiting.
             </p>
             <a
-              href={`tel:+18884405250`}
+              href={`tel:+18882745006`}
               className="flex w-full md:w-auto items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white font-bold rounded-lg px-6 py-4 text-xl md:py-3 md:text-lg shadow-lg transition-colors ring-2 ring-green-400/50"
             >
-              📞 Call 888-440-5250 — We Answer 24/7
+              📞 Call 888-274-5006 — We Answer 24/7
             </a>
             <p className="mt-3 text-blue-200 text-xs md:text-sm">BBB Accredited · 15+ Years Experience · Hundreds of Homes Purchased</p>
           </div>
@@ -205,7 +205,7 @@ export default function SpringfieldMAMarketPage() {
         📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-        If you need to sell your house fast in Springfield, Massachusetts — you've found the right team. We're USA Home Buyers, and we purchase houses as-is, for cash, throughout Hampden County. Whether your home needs repairs, you're behind on payments, going through a divorce, or you've inherited a property you don't know what to do with — we make the process simple. No agents. No fees. No repairs needed. We buy Springfield homes in any condition — from Forest Park and Indian Orchard to the South End. Written cash offer within 24 hours. Close in as few as seven days on your schedule. Call us now at 888-440-5250. That's 888-440-5250.
+        If you need to sell your house fast in Springfield, Massachusetts — you've found the right team. We're USA Home Buyers, and we purchase houses as-is, for cash, throughout Hampden County. Whether your home needs repairs, you're behind on payments, going through a divorce, or you've inherited a property you don't know what to do with — we make the process simple. No agents. No fees. No repairs needed. We buy Springfield homes in any condition — from Forest Park and Indian Orchard to the South End. Written cash offer within 24 hours. Close in as few as seven days on your schedule. Call us now at 888-274-5006. That's 888-274-5006.
         </div>
         </details>
 

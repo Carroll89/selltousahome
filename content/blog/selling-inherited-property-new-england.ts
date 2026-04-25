@@ -106,7 +106,7 @@ const content: BlogPostContent = {
         'Step 3: Review with your probate attorney. We\'re happy to speak directly with the estate\'s attorney to coordinate closing timing with probate milestones.',
         'Step 4: Sign the purchase agreement. The agreement will specify a closing date that accommodates the probate timeline. There\'s no penalty for delays caused by probate — we build flexibility in.',
         'Step 5: Close on the agreed date. The closing attorney handles the deed excise stamps (MA) or conveyance tax (CT), title examination, and proceeds disbursement to the estate.',
-        'See market-specific pages: [Springfield MA](/markets/springfield-ma) · [Worcester MA](/markets/worcester-ma) · [Manchester NH](/markets/manchester-nh) · [Bridgeport CT](/markets/bridgeport-ct). Or call 888-440-5250.',
+        'See market-specific pages: [Springfield MA](/markets/springfield-ma) · [Worcester MA](/markets/worcester-ma) · [Manchester NH](/markets/manchester-nh) · [Bridgeport CT](/markets/bridgeport-ct). Or call 888-274-5006.',
       ],
     },
   ],
@@ -135,7 +135,7 @@ const content: BlogPostContent = {
     {
       question: 'What if the inherited property has a mortgage in default?',
       answer:
-        'An inherited property with a mortgage in default is still sellable — as long as the executor has legal authority and the sale closes before the lender forecloses. Massachusetts non-judicial foreclosure can move in 75–120 days from first notice. Connecticut strict foreclosure sets a Law Day after which title vests in the lender. If the property has more value than the outstanding mortgage, a cash sale pays off the loan at closing. If underwater, we can discuss short payoff options with the lender. Act fast — call 888-440-5250.',
+        'An inherited property with a mortgage in default is still sellable — as long as the executor has legal authority and the sale closes before the lender forecloses. Massachusetts non-judicial foreclosure can move in 75–120 days from first notice. Connecticut strict foreclosure sets a Law Day after which title vests in the lender. If the property has more value than the outstanding mortgage, a cash sale pays off the loan at closing. If underwater, we can discuss short payoff options with the lender. Act fast — call 888-274-5006.',
     },
     {
       question: 'Do I need to clean out the house before selling an inherited property?',

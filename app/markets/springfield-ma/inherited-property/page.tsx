@@ -62,14 +62,14 @@ export default function SpringfieldInheritedPropertyPage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                Inherited a house in Springfield MA? USA Home Buyers purchases inherited properties through Hampden County Probate Court — triple-deckers, two-families, single-family homes in Forest Park, Pine Point, Six Corners, or anywhere in Hampden County. Written cash offer in 24 hours, close in 7–14 days after probate clears. No repairs, no cleanout. Call 888-440-5250.
+                Inherited a house in Springfield MA? USA Home Buyers purchases inherited properties through Hampden County Probate Court — triple-deckers, two-families, single-family homes in Forest Park, Pine Point, Six Corners, or anywhere in Hampden County. Written cash offer in 24 hours, close in 7–14 days after probate clears. No repairs, no cleanout. Call 888-274-5006.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
               Inherited a property through Hampden County Probate Court? We buy inherited houses in Springfield MA in any condition — no repairs, no cleanout, no agent fees. We work around the probate timeline.
             </p>
-            <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
-              📞 Call Now — 888-440-5250
+            <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
+              📞 Call Now — 888-274-5006
             </a>
           </div>
           <div>

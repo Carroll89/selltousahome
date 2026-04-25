@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 const FAQ_ITEMS = [
   {
     question: 'How fast can I sell before foreclosure in Springfield MA?',
-    answer: 'We can close in as few as 7 days once you accept an offer. Massachusetts non-judicial foreclosure (power of sale). Lenders can foreclose without court action under MGL Ch. 183 §27. Timeline from default to auction: 75-120 days. Published notice in newspaper required for 3 consecutive weeks. Speed is critical in Springfield foreclosure situations — call 888-440-5250 immediately.',
+    answer: 'We can close in as few as 7 days once you accept an offer. Massachusetts non-judicial foreclosure (power of sale). Lenders can foreclose without court action under MGL Ch. 183 §27. Timeline from default to auction: 75-120 days. Published notice in newspaper required for 3 consecutive weeks. Speed is critical in Springfield foreclosure situations — call 888-274-5006 immediately.',
   },
   {
     question: 'What is the foreclosure process in Hampden County?',
@@ -72,14 +72,14 @@ export default function SpringfieldForeclosurePage() {
             </h1>
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
-              <p className="text-white text-sm leading-relaxed">USA Home Buyers purchases houses in Springfield MA from homeowners facing foreclosure — before the non-judicial. Written cash offer in 24 hours, close in 7-14 days. We cover all closing costs. Serving Hampden County and surrounding areas. Call 888-440-5250.</p>
+              <p className="text-white text-sm leading-relaxed">USA Home Buyers purchases houses in Springfield MA from homeowners facing foreclosure — before the non-judicial. Written cash offer in 24 hours, close in 7-14 days. We cover all closing costs. Serving Hampden County and surrounding areas. Call 888-274-5006.</p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
               Written cash offer in 24 hours. Close in 7–14 days. No repairs, no agent fees, no waiting.
             </p>
           <p className="text-blue-100 text-sm">Hablamos español — servimos a la comunidad de habla hispana.</p>
-            <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
-              📞 Call Now — 888-440-5250 (24/7)
+            <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
+              📞 Call Now — 888-274-5006 (24/7)
             </a>
           </div>
           <div>

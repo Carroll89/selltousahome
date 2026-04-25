@@ -41,11 +41,11 @@ const FAQ_ITEMS = [
   },
   {
     question: 'What areas near Springfield do you buy in?',
-    answer: 'All of Hampden County and surrounding areas including West Springfield, Agawam, Chicopee, Ludlow, Wilbraham. Call 888-440-5250 if you\'re not sure whether your address is in our coverage area.',
+    answer: 'All of Hampden County and surrounding areas including West Springfield, Agawam, Chicopee, Ludlow, Wilbraham. Call 888-274-5006 if you\'re not sure whether your address is in our coverage area.',
   },
   {
     question: 'Is USA Home Buyers a legitimate company?',
-    answer: 'We provide a written purchase agreement with price, terms, and closing date — no verbal promises. We have closed transactions throughout Massachusetts. You can call us at 888-440-5250 to speak with someone directly.',
+    answer: 'We provide a written purchase agreement with price, terms, and closing date — no verbal promises. We have closed transactions throughout Massachusetts. You can call us at 888-274-5006 to speak with someone directly.',
   },
   {
     question: 'What happens after I submit the form?',
@@ -73,7 +73,7 @@ export default function SpringfieldFAQPage() {
         <h1 className="text-3xl font-bold text-brand-dark mb-4">Cash Home Buyers Springfield MA — Frequently Asked Questions</h1>
         <div className="bg-blue-50 border border-blue-100 rounded-xl p-4 mb-8">
           <p className="text-sm text-blue-900">
-            Common questions from Springfield homeowners about selling for cash. If your question isn't here, call 888-440-5250.
+            Common questions from Springfield homeowners about selling for cash. If your question isn't here, call 888-274-5006.
           </p>
         </div>
 
