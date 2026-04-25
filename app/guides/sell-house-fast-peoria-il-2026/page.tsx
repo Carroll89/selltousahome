@@ -14,7 +14,7 @@ const pageUrl = `${SITE_URL}/guides/sell-house-fast-peoria-il-2026`;
 export const metadata: Metadata = {
   title: 'How to Sell Your House Fast in Peoria IL (2026 Guide)',
   description:
-    'Complete guide to selling your Peoria IL house fast in 2026. Transfer tax, probate, foreclosure, cash buyers vs. agents. Data from Zillow, Redfin, ILCS statutes. Call (888) 440-5250.',
+    'Complete guide to selling your Peoria IL house fast in 2026. Transfer tax, probate, foreclosure, cash buyers vs. agents. Data from Zillow, Redfin, ILCS statutes. Call 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
@@ -37,7 +37,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How do I avoid foreclosure in Peoria IL?',
-    answer: 'Contact USA Home Buyers immediately at (888) 440-5250 — we close in 7 days. According to the Illinois Mortgage Foreclosure Law (735 ILCS 5/15-1101), Peoria County\'s 10th Judicial Circuit processes foreclosures in 12-18 months. You have a 3-month reinstatement right (735 ILCS 5/15-1602) and 7-month redemption period (735 ILCS 5/15-1603). Selling before the sheriff\'s sale preserves whatever equity exists above the mortgage balance.',
+    answer: 'Contact USA Home Buyers immediately at 888-274-5006 — we close in 7 days. According to the Illinois Mortgage Foreclosure Law (735 ILCS 5/15-1101), Peoria County\'s 10th Judicial Circuit processes foreclosures in 12-18 months. You have a 3-month reinstatement right (735 ILCS 5/15-1602) and 7-month redemption period (735 ILCS 5/15-1603). Selling before the sheriff\'s sale preserves whatever equity exists above the mortgage balance.',
   },
 ];
 
@@ -61,7 +61,7 @@ export default function SellHouseFastPeoriaGuide2026() {
           <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
             <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
             <p className="text-white text-sm leading-relaxed">
-              Selling a house fast in Peoria IL in 2026 requires understanding the market's distinctive characteristics: According to Zillow (February 2026), Peoria ZHVI is $115,649 (+3.7% YoY). Per Redfin (January 2026), city median sale is $139,000. Peoria's three-layer transfer tax (state + county + city RETT) totals $800 on a $200,000 sale — one of the highest in downstate IL. Source: biggestuscities.com confirms 24.3% pre-1940 housing stock — higher than any IL market we serve. Cash buyers close in 7-14 days for as-is properties. USA Home Buyers: (888) 440-5250.
+              Selling a house fast in Peoria IL in 2026 requires understanding the market's distinctive characteristics: According to Zillow (February 2026), Peoria ZHVI is $115,649 (+3.7% YoY). Per Redfin (January 2026), city median sale is $139,000. Peoria's three-layer transfer tax (state + county + city RETT) totals $800 on a $200,000 sale — one of the highest in downstate IL. Source: biggestuscities.com confirms 24.3% pre-1940 housing stock — higher than any IL market we serve. Cash buyers close in 7-14 days for as-is properties. USA Home Buyers: 888-274-5006.
             </p>
           </div>
         </div>
@@ -174,7 +174,7 @@ export default function SellHouseFastPeoriaGuide2026() {
             <li><strong>Recording:</strong> The deed is recorded with the Peoria County Recorder of Deeds, 324 Main Street, Peoria, IL 61602.</li>
           </ol>
           <p className="text-gray-700 mb-4">
-            Total timeline from accepted offer to funded close: 7-14 days for a standard cash transaction. Call (888) 440-5250 to get started today.
+            Total timeline from accepted offer to funded close: 7-14 days for a standard cash transaction. Call 888-274-5006 to get started today.
           </p>
         </section>
 

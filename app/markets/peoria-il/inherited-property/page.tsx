@@ -15,7 +15,7 @@ const pageUrl = `${SITE_URL}/markets/peoria-il/inherited-property`;
 export const metadata: Metadata = {
   title: 'Sell Inherited House Peoria IL — Estate & Probate Cash Buyer',
   description:
-    'Inherited a house in Peoria IL? We buy inherited and estate properties as-is. IL probate (755 ILCS 5), Peoria County Circuit Court. Written offer in 24 hours. Call (888) 440-5250.',
+    'Inherited a house in Peoria IL? We buy inherited and estate properties as-is. IL probate (755 ILCS 5), Peoria County Circuit Court. Written offer in 24 hours. Call 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
@@ -82,14 +82,14 @@ export default function PeoriaInheritedPropertyPage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                Inherited a Peoria IL property? According to Illinois law (755 ILCS 5), real property always requires formal probate — the $150K small-estate affidavit does not apply to real estate. Per the Peoria County Circuit Court (324 Main St., Room G-04, 309-672-6000), independent administration takes 6-9 months total. We buy as-is, any condition. Written offer in 24 hours. Call (888) 440-5250.
+                Inherited a Peoria IL property? According to Illinois law (755 ILCS 5), real property always requires formal probate — the $150K small-estate affidavit does not apply to real estate. Per the Peoria County Circuit Court (324 Main St., Room G-04, 309-672-6000), independent administration takes 6-9 months total. We buy as-is, any condition. Written offer in 24 hours. Call 888-274-5006.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
               We buy inherited Peoria homes as-is — Caterpillar-era estates, South Side bungalows, East Bluff two-stories. No repairs, no cleanout. We work with your probate timeline.
             </p>
-            <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
-              📞 Call Now — (888) 440-5250 (24/7)
+            <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
+              📞 Call Now — 888-274-5006 (24/7)
             </a>
           </div>
 
@@ -104,7 +104,7 @@ export default function PeoriaInheritedPropertyPage() {
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          Inherit a property in Peoria or Peoria County? USA Home Buyers specializes in estate sales — we work with Illinois probate timelines through Peoria County Circuit Court. Buy as-is, any condition. Written cash offer in 24 hours. Call 888-440-5250.
+          Inherit a property in Peoria or Peoria County? USA Home Buyers specializes in estate sales — we work with Illinois probate timelines through Peoria County Circuit Court. Buy as-is, any condition. Written cash offer in 24 hours. Call 888-274-5006.
         </div>
       </details>
           <div>
@@ -236,7 +236,7 @@ export default function PeoriaInheritedPropertyPage() {
             This is particularly valuable for heirs with multiple properties, out-of-state heirs managing a Peoria estate remotely, and estates where disagreement among heirs makes a concrete offer number useful for breaking the impasse. A written offer from USA Home Buyers gives every heir a specific number to evaluate — not a range, not a "we'd need to inspect first," but a number in writing.
           </p>
           <p className="text-gray-700 mb-4">
-            Call (888) 440-5250 today. We serve Peoria city, Peoria Heights, and all of Peoria County. Any condition, any estate status, no repairs required.
+            Call 888-274-5006 today. We serve Peoria city, Peoria Heights, and all of Peoria County. Any condition, any estate status, no repairs required.
           </p>
         </section>
 

@@ -15,14 +15,14 @@ const pageUrl = `${SITE_URL}/markets/peoria-il/foreclosure`;
 export const metadata: Metadata = {
   title: 'Stop Foreclosure Peoria IL — Sell Before the Auction',
   description:
-    'Facing foreclosure in Peoria IL? We buy before the Peoria County sheriff\'s sale (Mon/Wed, Courtroom 203). Written offer in 24 hours, close in 7 days. Call (888) 440-5250.',
+    'Facing foreclosure in Peoria IL? We buy before the Peoria County sheriff\'s sale (Mon/Wed, Courtroom 203). Written offer in 24 hours, close in 7 days. Call 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
 const FAQ_ITEMS = [
   {
     question: 'How fast can I sell before foreclosure in Peoria IL?',
-    answer: 'USA Home Buyers closes in as few as 7 days once you accept an offer. Illinois is a 100% judicial foreclosure state under 735 ILCS 5/15-1101 et seq. Every Peoria County foreclosure is filed at the Peoria County Circuit Court, 10th Judicial Circuit, 324 Main Street, Peoria, IL 61602, phone 309-672-6000. The typical Peoria County timeline from first missed payment to completed sheriff\'s sale is 12-18 months. Call (888) 440-5250 the moment you receive foreclosure paperwork.',
+    answer: 'USA Home Buyers closes in as few as 7 days once you accept an offer. Illinois is a 100% judicial foreclosure state under 735 ILCS 5/15-1101 et seq. Every Peoria County foreclosure is filed at the Peoria County Circuit Court, 10th Judicial Circuit, 324 Main Street, Peoria, IL 61602, phone 309-672-6000. The typical Peoria County timeline from first missed payment to completed sheriff\'s sale is 12-18 months. Call 888-274-5006 the moment you receive foreclosure paperwork.',
   },
   {
     question: 'When does Peoria County hold foreclosure sales?',
@@ -38,7 +38,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'What if I owe more than my Peoria house is worth?',
-    answer: 'A short sale may be possible — the lender agrees to accept less than the full payoff to release the lien. Short sales require lender approval and take longer than a standard cash sale, but they can eliminate or reduce a potential deficiency judgment. Deficiency judgments are permitted in most Illinois residential foreclosures under the IMFL when the sale proceeds don\'t cover the full loan balance. A short sale negotiated with deficiency waiver language can eliminate that liability. Call (888) 440-5250 to discuss your situation.',
+    answer: 'A short sale may be possible — the lender agrees to accept less than the full payoff to release the lien. Short sales require lender approval and take longer than a standard cash sale, but they can eliminate or reduce a potential deficiency judgment. Deficiency judgments are permitted in most Illinois residential foreclosures under the IMFL when the sale proceeds don\'t cover the full loan balance. A short sale negotiated with deficiency waiver language can eliminate that liability. Call 888-274-5006 to discuss your situation.',
   },
   {
     question: 'What resources are available for Peoria homeowners facing foreclosure?',
@@ -82,14 +82,14 @@ export default function PeoriaForeclosurePage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-Facing foreclosure in Peoria IL? Per the Peoria County Sheriff's Office, sales are held Mon 8:30 AM and Wed 1:00 PM in Courtroom 203. According to 735 ILCS 5/15-1101, Peoria County's 10th Circuit runs 12-18 months. 3-month reinstatement, 7-month redemption. Sell before auction. Close in 7 days. Call (888) 440-5250.
+Facing foreclosure in Peoria IL? Per the Peoria County Sheriff's Office, sales are held Mon 8:30 AM and Wed 1:00 PM in Courtroom 203. According to 735 ILCS 5/15-1101, Peoria County's 10th Circuit runs 12-18 months. 3-month reinstatement, 7-month redemption. Sell before auction. Close in 7 days. Call 888-274-5006.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
               Facing foreclosure in Peoria County? We buy Peoria homes before the sheriff's sale — written offer in 24 hours, close in 7 days.
             </p>
-            <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
-              📞 Call Now — (888) 440-5250 (24/7)
+            <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
+              📞 Call Now — 888-274-5006 (24/7)
             </a>
           </div>
 
@@ -104,7 +104,7 @@ Facing foreclosure in Peoria IL? Per the Peoria County Sheriff's Office, sales a
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          Facing foreclosure in Peoria IL? Illinois judicial foreclosure — the clock starts at judgment. USA Home Buyers closes in 7 days, stops the process, protects your credit. Call 888-440-5250 right now.
+          Facing foreclosure in Peoria IL? Illinois judicial foreclosure — the clock starts at judgment. USA Home Buyers closes in 7 days, stops the process, protects your credit. Call 888-274-5006 right now.
         </div>
       </details>
           <div>
@@ -154,7 +154,7 @@ Facing foreclosure in Peoria IL? Per the Peoria County Sheriff's Office, sales a
             The Illinois reinstatement right allows a borrower to cure the default by paying all past-due principal, interest, late charges, insurance premiums, property taxes paid by the lender, and attorney's fees — catching the loan up as if the defaults never occurred. Under 735 ILCS 5/15-1602, the reinstatement period runs for 3 months after service of summons in the foreclosure proceeding, or until a later date specified in the judgment if extended by the court.
           </p>
           <p className="text-gray-700 mb-4">
-            Once the reinstatement period expires, you cannot simply pay your arrears to stop the foreclosure. The only remaining options are: pay off the full mortgage balance (redemption), sell the property before the sheriff's sale is confirmed, or proceed to a consent foreclosure. For most Peoria homeowners in pre-foreclosure, the practical choice is to sell before the reinstatement period expires — contact USA Home Buyers at (888) 440-5250 immediately.
+            Once the reinstatement period expires, you cannot simply pay your arrears to stop the foreclosure. The only remaining options are: pay off the full mortgage balance (redemption), sell the property before the sheriff's sale is confirmed, or proceed to a consent foreclosure. For most Peoria homeowners in pre-foreclosure, the practical choice is to sell before the reinstatement period expires — contact USA Home Buyers at 888-274-5006 immediately.
           </p>
 
           <h3 className="text-xl font-semibold text-brand-dark mb-3">Redemption Period (735 ILCS 5/15-1603)</h3>
@@ -225,7 +225,7 @@ Facing foreclosure in Peoria IL? Per the Peoria County Sheriff's Office, sales a
             <li><strong>Peoria County Circuit Court:</strong> Court self-help resources at 324 Main Street, Peoria, IL 61602, phone 309-672-6000.</li>
           </ul>
           <p className="text-gray-700 mb-4">
-            These are legitimate resources worth consulting. For homeowners who have decided to sell — or who cannot qualify for assistance — USA Home Buyers provides a direct cash offer within 24 hours and a closing timeline fast enough to stop the foreclosure clock. Call (888) 440-5250.
+            These are legitimate resources worth consulting. For homeowners who have decided to sell — or who cannot qualify for assistance — USA Home Buyers provides a direct cash offer within 24 hours and a closing timeline fast enough to stop the foreclosure clock. Call 888-274-5006.
           </p>
         </section>
 

@@ -14,7 +14,7 @@ const pageUrl = `${SITE_URL}/markets/peoria-il/market-report`;
 export const metadata: Metadata = {
   title: 'Peoria IL Housing Market Report 2026 — Peoria County Data',
   description:
-    'Peoria IL housing market data: $115,649 ZHVI, $139K Redfin median, $800 three-layer transfer tax. Peoria County investor analysis for 2026. Cash buyers: (888) 440-5250.',
+    'Peoria IL housing market data: $115,649 ZHVI, $139K Redfin median, $800 three-layer transfer tax. Peoria County investor analysis for 2026. Cash buyers: 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
@@ -37,7 +37,7 @@ export default function PeoriaILMarketReportPage() {
           <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
             <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
             <p className="text-white text-sm leading-relaxed">
-According to Zillow (February 2026), Peoria ZHVI: $115,649 (+3.7% YoY). Per Redfin (January 2026), city median: $139,000 (+8.2% YoY). Source: Peoria City Code §27-226 — Peoria's municipal RETT adds $500 on a $200K sale; $800 total three-layer stack. RDC rank #29. Cash offers 65-75% of FMV. Call (888) 440-5250.
+According to Zillow (February 2026), Peoria ZHVI: $115,649 (+3.7% YoY). Per Redfin (January 2026), city median: $139,000 (+8.2% YoY). Source: Peoria City Code §27-226 — Peoria's municipal RETT adds $500 on a $200K sale; $800 total three-layer stack. RDC rank #29. Cash offers 65-75% of FMV. Call 888-274-5006.
             </p>
           </div>
         </div>
@@ -232,7 +232,7 @@ According to Zillow (February 2026), Peoria ZHVI: $115,649 (+3.7% YoY). Per Redf
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          Peoria IL market 2026: Caterpillar headquarters and OSF HealthCare anchor steady demand. Illinois River waterfront appeal. Steady appreciation. USA Home Buyers gives you a cash offer in 24 hours. Call 888-440-5250.
+          Peoria IL market 2026: Caterpillar headquarters and OSF HealthCare anchor steady demand. Illinois River waterfront appeal. Steady appreciation. USA Home Buyers gives you a cash offer in 24 hours. Call 888-274-5006.
         </div>
       </details>
         <CashOfferForm variant="footer" headline="Ready to Sell Your Peoria IL Home?" sourcePage="/markets/peoria-il/market-report" />

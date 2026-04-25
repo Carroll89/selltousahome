@@ -15,18 +15,18 @@ const pageUrl = `${SITE_URL}/markets/peoria-il/fire-damage`;
 export const metadata: Metadata = {
   title: 'Sell Fire-Damaged House Peoria IL — As-Is, No Repairs',
   description:
-    'Sell a fire-damaged house in Peoria IL as-is. 24.3% pre-1940 balloon-frame stock. IL OCI insurance claims (215 ILCS 5), ILSFM, FEMA flood zone. Written offer 24 hrs. Call (888) 440-5250.',
+    'Sell a fire-damaged house in Peoria IL as-is. 24.3% pre-1940 balloon-frame stock. IL OCI insurance claims (215 ILCS 5), ILSFM, FEMA flood zone. Written offer 24 hrs. Call 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
 const FAQ_ITEMS = [
   {
     question: 'Will you buy a fire-damaged house in Peoria IL?',
-    answer: 'Yes. USA Home Buyers purchases fire and smoke-damaged houses in Peoria and throughout Peoria County — partial damage, total structural loss, smoke-only, or water damage from fire suppression. No cleanup, no repairs, no boarding-up required. We assess and issue a written cash offer within 24 hours. Call (888) 440-5250.',
+    answer: 'Yes. USA Home Buyers purchases fire and smoke-damaged houses in Peoria and throughout Peoria County — partial damage, total structural loss, smoke-only, or water damage from fire suppression. No cleanup, no repairs, no boarding-up required. We assess and issue a written cash offer within 24 hours. Call 888-274-5006.',
   },
   {
     question: 'Do I need to resolve my insurance claim before selling?',
-    answer: 'No. You can sell the property before, during, or after an insurance claim. Three common approaches: (1) Sell as-is and assign any pending insurance proceeds to the buyer at closing. (2) Collect the settlement first, then sell the unrepaired property. (3) Sell before filing any claim. Each has different financial implications depending on your coverage and damage extent. Call (888) 440-5250 to discuss your specific situation.',
+    answer: 'No. You can sell the property before, during, or after an insurance claim. Three common approaches: (1) Sell as-is and assign any pending insurance proceeds to the buyer at closing. (2) Collect the settlement first, then sell the unrepaired property. (3) Sell before filing any claim. Each has different financial implications depending on your coverage and damage extent. Call 888-274-5006 to discuss your specific situation.',
   },
   {
     question: 'What does Illinois law require me to disclose about fire damage?',
@@ -82,14 +82,14 @@ export default function PeoriaFireDamagePage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                Fire-damaged house in Peoria IL? Source: biggestuscities.com confirms 24.3% of Peoria homes are pre-1940 balloon-frame — highest concentration in downstate IL. Per 215 ILCS 5/154.5, insurers must settle claims fairly; file complaints at insurance.illinois.gov. According to 765 ILCS 77/35, sellers disclose known damage. USA Home Buyers buys as-is, any condition. Written offer in 24 hours. Call (888) 440-5250.
+                Fire-damaged house in Peoria IL? Source: biggestuscities.com confirms 24.3% of Peoria homes are pre-1940 balloon-frame — highest concentration in downstate IL. Per 215 ILCS 5/154.5, insurers must settle claims fairly; file complaints at insurance.illinois.gov. According to 765 ILCS 77/35, sellers disclose known damage. USA Home Buyers buys as-is, any condition. Written offer in 24 hours. Call 888-274-5006.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
               We buy fire and smoke-damaged homes in Peoria IL — balloon-frame, total loss, partial damage. No cleanup, no claims settlement required.
             </p>
-            <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
-              📞 Call Now — (888) 440-5250 (24/7)
+            <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
+              📞 Call Now — 888-274-5006 (24/7)
             </a>
           </div>
 
@@ -104,7 +104,7 @@ export default function PeoriaFireDamagePage() {
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          Fire damage on your Peoria IL property? USA Home Buyers purchases fire-damaged homes in Peoria County as-is. No contractor bids, no delays. Fair cash offer on current condition. Call 888-440-5250.
+          Fire damage on your Peoria IL property? USA Home Buyers purchases fire-damaged homes in Peoria County as-is. No contractor bids, no delays. Fair cash offer on current condition. Call 888-274-5006.
         </div>
       </details>
           <div>

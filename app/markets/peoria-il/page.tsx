@@ -19,7 +19,7 @@ export const revalidate = 86400;
 export const metadata: Metadata = {
   title: 'Sell My House Fast Peoria IL — Cash Offer in 24 Hours',
   description:
-    'We buy houses in Peoria IL for cash, as-is. Written offer in 24 hours, close in 7 days. No repairs, no fees. Serving Peoria County. Call (888) 440-5250.',
+    'We buy houses in Peoria IL for cash, as-is. Written offer in 24 hours, close in 7 days. No repairs, no fees. Serving Peoria County. Call 888-274-5006.',
   alternates: { canonical: `${SITE_URL}/markets/peoria-il` },
   openGraph: {
     images: [{ url: '/images/peoria-il-hero.jpg', width: 1200, height: 630, alt: 'Peoria IL home — Sell Your House Fast for Cash' }],
@@ -33,7 +33,7 @@ const peoriaILLocalBusinessSchema = {
   name: 'USA Home Buyers — Peoria IL',
   description: 'Cash home buyers serving Peoria IL and Peoria County. We buy houses as-is in any condition — no repairs, no agent fees, close in 7-14 days.',
   url: `${SITE_URL}/markets/peoria-il`,
-  telephone: '+18884405250',
+  telephone: '+18882745006',
   address: {
     '@type': 'PostalAddress',
     addressLocality: 'Peoria',
@@ -120,7 +120,7 @@ const COMPARISON_ROWS = [
 const FAQ_ITEMS = [
   {
     question: 'How fast can I sell my house for cash in Peoria IL?',
-    answer: 'USA Home Buyers closes in as few as 7 days in Peoria and throughout Peoria County. We send a written cash offer within 24 hours of your inquiry. According to Zillow (February 2026), homes in Peoria are pending in approximately 5 days in the entry-level segment — the cash-buyer market here is active. Call (888) 440-5250.',
+    answer: 'USA Home Buyers closes in as few as 7 days in Peoria and throughout Peoria County. We send a written cash offer within 24 hours of your inquiry. According to Zillow (February 2026), homes in Peoria are pending in approximately 5 days in the entry-level segment — the cash-buyer market here is active. Call 888-274-5006.',
   },
   {
     question: 'What transfer taxes will I pay when selling my Peoria house?',
@@ -128,7 +128,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How much will you pay for my Peoria IL house?',
-    answer: 'According to Zillow (February 2026), Peoria\'s Home Value Index is $115,649 (+3.7% YoY). Per Redfin (January 2026), the Peoria city median sale price is $139,000 (+8.2% YoY). Cash offers typically run 65-75% of fair market value depending on condition, location, and liens. Entry-level South Side and East Bluff homes — the segment with the highest distressed inventory — commonly receive offers in the $50,000-$95,000 range. We cover all closing costs including the $500 Peoria City transfer tax. Call (888) 440-5250.',
+    answer: 'According to Zillow (February 2026), Peoria\'s Home Value Index is $115,649 (+3.7% YoY). Per Redfin (January 2026), the Peoria city median sale price is $139,000 (+8.2% YoY). Cash offers typically run 65-75% of fair market value depending on condition, location, and liens. Entry-level South Side and East Bluff homes — the segment with the highest distressed inventory — commonly receive offers in the $50,000-$95,000 range. We cover all closing costs including the $500 Peoria City transfer tax. Call 888-274-5006.',
   },
   {
     question: 'Do I need to make repairs before selling to USA Home Buyers?',
@@ -140,7 +140,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How does foreclosure work in Peoria County IL?',
-    answer: 'Illinois is a 100% judicial foreclosure state under 735 ILCS 5/15-1101 et seq. Every Peoria County foreclosure is filed at the Peoria County Circuit Court, 10th Judicial Circuit, 324 Main Street, Peoria, IL 61602, phone 309-672-6000. The typical timeline from first missed payment to completed foreclosure sale is 12-18 months. Peoria County Sheriff conducts sales on Mondays at 8:30 AM and Wednesdays at 1:00 PM in Courtroom 203 at 324 Main Street. Borrowers have a 3-month reinstatement right under 735 ILCS 5/15-1602 and a 7-month redemption period under 735 ILCS 5/15-1603. Call (888) 440-5250 immediately if you\'re behind on payments.',
+    answer: 'Illinois is a 100% judicial foreclosure state under 735 ILCS 5/15-1101 et seq. Every Peoria County foreclosure is filed at the Peoria County Circuit Court, 10th Judicial Circuit, 324 Main Street, Peoria, IL 61602, phone 309-672-6000. The typical timeline from first missed payment to completed foreclosure sale is 12-18 months. Peoria County Sheriff conducts sales on Mondays at 8:30 AM and Wednesdays at 1:00 PM in Courtroom 203 at 324 Main Street. Borrowers have a 3-month reinstatement right under 735 ILCS 5/15-1602 and a 7-month redemption period under 735 ILCS 5/15-1603. Call 888-274-5006 immediately if you\'re behind on payments.',
   },
   {
     question: 'What is the probate process for inherited Peoria property?',
@@ -148,7 +148,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'What areas near Peoria do you buy in?',
-    answer: 'All of Peoria County. That includes Peoria city proper (Richwoods, South Peoria, East Bluff, Knoxville Ave Corridor, Bradley Park, Grand View Drive area), the independent village of Peoria Heights, Dunlap, Chillicothe, Washington, Morton, and all unincorporated Peoria County communities. Call (888) 440-5250 if unsure whether we serve your address.',
+    answer: 'All of Peoria County. That includes Peoria city proper (Richwoods, South Peoria, East Bluff, Knoxville Ave Corridor, Bradley Park, Grand View Drive area), the independent village of Peoria Heights, Dunlap, Chillicothe, Washington, Morton, and all unincorporated Peoria County communities. Call 888-274-5006 if unsure whether we serve your address.',
   },
 ];
 
@@ -195,17 +195,17 @@ export default function PeoriaILMarketPage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                USA Home Buyers purchases houses in Peoria IL and throughout Peoria County — South Side bungalows, East Bluff ranches, Richwoods estates, Grand View Drive historics, Caterpillar-era retiree homes, inherited property, foreclosures, fire damage, divorce sales. Written cash offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no fees. According to Zillow (February 2026), Peoria ZHVI is $115,649. We cover all closing costs including Peoria's three-layer $800 transfer tax stack. Call (888) 440-5250.
+                USA Home Buyers purchases houses in Peoria IL and throughout Peoria County — South Side bungalows, East Bluff ranches, Richwoods estates, Grand View Drive historics, Caterpillar-era retiree homes, inherited property, foreclosures, fire damage, divorce sales. Written cash offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no fees. According to Zillow (February 2026), Peoria ZHVI is $115,649. We cover all closing costs including Peoria's three-layer $800 transfer tax stack. Call 888-274-5006.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
               We buy houses in Peoria IL, Peoria Heights, and all of Peoria County — any condition, any situation. No repairs, no agent fees, no waiting.
             </p>
             <a
-              href="tel:+18884405250"
+              href="tel:+18882745006"
               className="flex w-full md:w-auto items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white font-bold rounded-lg px-6 py-4 text-xl md:py-3 md:text-lg shadow-lg transition-colors ring-2 ring-green-400/50"
             >
-              📞 Call 888-440-5250 — We Answer 24/7
+              📞 Call 888-274-5006 — We Answer 24/7
             </a>
             <p className="mt-3 text-blue-200 text-xs md:text-sm">BBB Accredited · 15+ Years Experience · Hundreds of Homes Purchased</p>
           </div>
@@ -231,7 +231,7 @@ export default function PeoriaILMarketPage() {
         📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-        Need to sell your house fast in Peoria, Illinois? USA Home Buyers purchases homes as-is for cash throughout Peoria County. No agents, no fees, no repairs. Written cash offer in 24 hours, close in 7 days. Call 888-440-5250.
+        Need to sell your house fast in Peoria, Illinois? USA Home Buyers purchases homes as-is for cash throughout Peoria County. No agents, no fees, no repairs. Written cash offer in 24 hours, close in 7 days. Call 888-274-5006.
         </div>
         </details>
 

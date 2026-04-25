@@ -15,7 +15,7 @@ const pageUrl = `${SITE_URL}/markets/peoria-il/divorce-sale`;
 export const metadata: Metadata = {
   title: 'Sell House During Divorce Peoria IL — Fast Cash Sale',
   description:
-    'Selling a house in a Peoria IL divorce? We buy as-is, one offer, fast close. IL equitable distribution (750 ILCS 5/503), Peoria County Family Division. Call (888) 440-5250.',
+    'Selling a house in a Peoria IL divorce? We buy as-is, one offer, fast close. IL equitable distribution (750 ILCS 5/503), Peoria County Family Division. Call 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
@@ -42,7 +42,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'What if we still owe a mortgage on the Peoria house?',
-    answer: 'The mortgage is paid off at closing from the sale proceeds. Whatever remains after the payoff is the net equity that the Peoria County Family Division or the parties\' settlement agreement will divide. If the mortgage balance exceeds the property value (underwater), a short sale may be needed — contact us at (888) 440-5250 to discuss your specific situation.',
+    answer: 'The mortgage is paid off at closing from the sale proceeds. Whatever remains after the payoff is the net equity that the Peoria County Family Division or the parties\' settlement agreement will divide. If the mortgage balance exceeds the property value (underwater), a short sale may be needed — contact us at 888-274-5006 to discuss your specific situation.',
   },
 ];
 
@@ -82,14 +82,14 @@ export default function PeoriaDivorceSalePage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-Selling a Peoria IL home in divorce? According to 750 ILCS 5/503, Illinois is equitable distribution — not community property. Per the Peoria County Family Division (324 Main St., 309-672-6000), contested disputes add months. One cash offer, one closing, proceeds divided by attorneys. Closes in 7 days. Call (888) 440-5250.
+Selling a Peoria IL home in divorce? According to 750 ILCS 5/503, Illinois is equitable distribution — not community property. Per the Peoria County Family Division (324 Main St., 309-672-6000), contested disputes add months. One cash offer, one closing, proceeds divided by attorneys. Closes in 7 days. Call 888-274-5006.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
               One offer, one closing, proceeds divided per your settlement. We buy Peoria houses during divorce — any condition, fast close.
             </p>
-            <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
-              📞 Call Now — (888) 440-5250 (24/7)
+            <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
+              📞 Call Now — 888-274-5006 (24/7)
             </a>
           </div>
 
@@ -104,7 +104,7 @@ Selling a Peoria IL home in divorce? According to 750 ILCS 5/503, Illinois is eq
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          Divorce in Peoria and need to sell fast? One cash offer, both parties sign, close in 7-14 days. No agents, no open houses. Proceeds split at closing per your agreement. Call 888-440-5250.
+          Divorce in Peoria and need to sell fast? One cash offer, both parties sign, close in 7-14 days. No agents, no open houses. Proceeds split at closing per your agreement. Call 888-274-5006.
         </div>
       </details>
           <div>
@@ -178,7 +178,7 @@ Selling a Peoria IL home in divorce? According to 750 ILCS 5/503, Illinois is eq
             When a court-ordered sale is necessary, the court typically sets a minimum acceptable price and a timeline for the sale. If the parties cannot find a buyer at or above the minimum price within the specified timeline, the court may order a reduced minimum or appoint a commissioner to conduct the sale. Court-ordered sales add legal fees, attorney time, and delay that a voluntary sale avoids.
           </p>
           <p className="text-gray-700 mb-4">
-            The fastest resolution — and the one that minimizes legal fees for both parties — is both spouses agreeing on a sale before the court orders one. A written cash offer from USA Home Buyers provides the concrete number both parties need to reach that agreement. Call (888) 440-5250.
+            The fastest resolution — and the one that minimizes legal fees for both parties — is both spouses agreeing on a sale before the court orders one. A written cash offer from USA Home Buyers provides the concrete number both parties need to reach that agreement. Call 888-274-5006.
           </p>
         </section>
 
@@ -205,7 +205,7 @@ Selling a Peoria IL home in divorce? According to 750 ILCS 5/503, Illinois is eq
             <li><strong>Proceeds distribution:</strong> The title company issues proceeds checks per the closing statement. How the net proceeds are divided is between you and your attorneys — we write the checks as directed by the settlement agreement.</li>
           </ol>
           <p className="text-gray-700 mb-4">
-            Call (888) 440-5250 today. We serve all of Peoria city and Peoria County, any condition, any divorce timeline.
+            Call 888-274-5006 today. We serve all of Peoria city and Peoria County, any condition, any divorce timeline.
           </p>
         </section>
 

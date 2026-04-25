@@ -14,7 +14,7 @@ const pageUrl = `${SITE_URL}/markets/peoria-il/neighborhoods`;
 export const metadata: Metadata = {
   title: 'Peoria IL Neighborhoods — Cash Home Buyers Serving All Areas',
   description:
-    'We buy houses in all Peoria IL neighborhoods — Richwoods, South Peoria, East Bluff, Knoxville Ave, Bradley Park, Grand View Drive. Cash offer in 24 hours. Call (888) 440-5250.',
+    'We buy houses in all Peoria IL neighborhoods — Richwoods, South Peoria, East Bluff, Knoxville Ave, Bradley Park, Grand View Drive. Cash offer in 24 hours. Call 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
@@ -110,8 +110,8 @@ export default function PeoriaNeighborhoodsPage() {
           <p className="text-blue-100 text-lg mb-6">
             From Richwoods ranch homes to South Peoria pre-war bungalows to Grand View Drive historics — we buy in every Peoria neighborhood, any condition.
           </p>
-          <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
-            📞 Call Now — (888) 440-5250 (24/7)
+          <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
+            📞 Call Now — 888-274-5006 (24/7)
           </a>
         </div>
       </section>
@@ -147,7 +147,7 @@ export default function PeoriaNeighborhoodsPage() {
           <p className="text-gray-700 text-sm mb-4">
             In addition to all Peoria city neighborhoods, we buy houses in Peoria County communities including Peoria Heights, Dunlap, Chillicothe, Washington, Morton, and all unincorporated areas.
           </p>
-          <a href="tel:+18884405250" className="text-brand-primary hover:underline font-medium text-sm">Call (888) 440-5250 to confirm service for your specific address →</a>
+          <a href="tel:+18882745006" className="text-brand-primary hover:underline font-medium text-sm">Call 888-274-5006 to confirm service for your specific address →</a>
         </section>
 
         <section className="my-8">
@@ -179,7 +179,7 @@ export default function PeoriaNeighborhoodsPage() {
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          Richwoods, Northwoods, Riverdale, Peoria Heights — USA Home Buyers buys in every Peoria IL neighborhood. Bungalows, Victorians, ranches — any condition, any situation. Cash offer in 24 hours. Call 888-440-5250.
+          Richwoods, Northwoods, Riverdale, Peoria Heights — USA Home Buyers buys in every Peoria IL neighborhood. Bungalows, Victorians, ranches — any condition, any situation. Cash offer in 24 hours. Call 888-274-5006.
         </div>
       </details>
         <CashOfferForm variant="footer" headline="Ready to Get Your Peoria IL Cash Offer?" sourcePage="/markets/peoria-il/neighborhoods" />

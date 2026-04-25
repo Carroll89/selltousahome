@@ -15,7 +15,7 @@ const pageUrl = `${SITE_URL}/markets/peoria-il/faq`;
 export const metadata: Metadata = {
   title: 'Peoria IL Cash Home Buyer FAQ — Common Questions Answered',
   description:
-    'Frequently asked questions about selling a house fast for cash in Peoria IL. Transfer tax, probate, foreclosure, sheriff sales. Call (888) 440-5250.',
+    'Frequently asked questions about selling a house fast for cash in Peoria IL. Transfer tax, probate, foreclosure, sheriff sales. Call 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
@@ -42,7 +42,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How fast can USA Home Buyers close on a Peoria IL house?',
-    answer: 'As fast as 7 days from accepted offer. For standard transactions — clear title, cooperative seller, no outstanding liens requiring payoff negotiation — we close in 7-14 days. Probate sales close within our 7-14 day window after the executor receives their letters of authority. Foreclosure sales can close in 7 days as long as we act before the redemption period expires. Call (888) 440-5250 for your specific timeline.',
+    answer: 'As fast as 7 days from accepted offer. For standard transactions — clear title, cooperative seller, no outstanding liens requiring payoff negotiation — we close in 7-14 days. Probate sales close within our 7-14 day window after the executor receives their letters of authority. Foreclosure sales can close in 7 days as long as we act before the redemption period expires. Call 888-274-5006 for your specific timeline.',
   },
 ];
 
@@ -66,8 +66,8 @@ export default function PeoriaFAQPage() {
           <p className="text-blue-100 text-lg mb-6">
             Common questions about selling a house fast for cash in Peoria IL and Peoria County.
           </p>
-          <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
-            📞 Call Now — (888) 440-5250 (24/7)
+          <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
+            📞 Call Now — 888-274-5006 (24/7)
           </a>
         </div>
       </section>
@@ -85,7 +85,7 @@ export default function PeoriaFAQPage() {
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          Questions about selling in Peoria IL? Illinois judicial foreclosure runs 12-16 months. City transfer tax — we handle it. Inherited property needs probate. We buy with code violations, any condition. Close in 7 days. Call 888-440-5250.
+          Questions about selling in Peoria IL? Illinois judicial foreclosure runs 12-16 months. City transfer tax — we handle it. Inherited property needs probate. We buy with code violations, any condition. Close in 7 days. Call 888-274-5006.
         </div>
       </details>
         <FAQSection items={FAQ_ITEMS} heading="Frequently Asked Questions — Peoria IL" />
@@ -93,7 +93,7 @@ export default function PeoriaFAQPage() {
         <section className="my-8">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">More Questions? Contact Us.</h2>
           <p className="text-gray-700 mb-4">
-            Call (888) 440-5250 any time — 24 hours a day, 7 days a week. We serve all of Peoria city and Peoria County. Written cash offer in 24 hours. Close in 7-14 days.
+            Call 888-274-5006 any time — 24 hours a day, 7 days a week. We serve all of Peoria city and Peoria County. Written cash offer in 24 hours. Close in 7-14 days.
           </p>
         </section>
 

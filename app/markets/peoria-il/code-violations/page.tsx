@@ -15,14 +15,14 @@ const pageUrl = `${SITE_URL}/markets/peoria-il/code-violations`;
 export const metadata: Metadata = {
   title: 'Sell House with Code Violations Peoria IL — Cash Buyer, As-Is',
   description:
-    'Sell a Peoria IL house with code violations or condemned status as-is. City of Peoria Code Enforcement, IL demolition ordinance. Written offer in 24 hours. Call (888) 440-5250.',
+    'Sell a Peoria IL house with code violations or condemned status as-is. City of Peoria Code Enforcement, IL demolition ordinance. Written offer in 24 hours. Call 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
 const FAQ_ITEMS = [
   {
     question: 'Will you buy a house with open code violations in Peoria IL?',
-    answer: 'Yes. USA Home Buyers purchases properties with open City of Peoria code violations, including structural, electrical, plumbing, and exterior violations. We buy as-is — the violations are factored into our offer price, not listed as conditions you must cure before closing. Call (888) 440-5250.',
+    answer: 'Yes. USA Home Buyers purchases properties with open City of Peoria code violations, including structural, electrical, plumbing, and exterior violations. We buy as-is — the violations are factored into our offer price, not listed as conditions you must cure before closing. Call 888-274-5006.',
   },
   {
     question: 'What happens if I don\'t address Peoria city code violations?',
@@ -82,14 +82,14 @@ export default function PeoriaCodeViolationsPage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                Open code violations in Peoria IL? According to 65 ILCS 5/11-31-1, Peoria can pursue demolition for dangerous structures. Per the City of Peoria Code Enforcement Division, unresolved violations lead to escalating fines, liens, and demolition proceedings. USA Home Buyers buys as-is, violations factored into offer, no cure required. Written offer in 24 hours. Call (888) 440-5250.
+                Open code violations in Peoria IL? According to 65 ILCS 5/11-31-1, Peoria can pursue demolition for dangerous structures. Per the City of Peoria Code Enforcement Division, unresolved violations lead to escalating fines, liens, and demolition proceedings. USA Home Buyers buys as-is, violations factored into offer, no cure required. Written offer in 24 hours. Call 888-274-5006.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
               We buy Peoria homes with open code violations — structural, electrical, plumbing, exterior. No repairs required. Violations factored into price.
             </p>
-            <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
-              📞 Call Now — (888) 440-5250 (24/7)
+            <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
+              📞 Call Now — 888-274-5006 (24/7)
             </a>
           </div>
 
@@ -104,7 +104,7 @@ export default function PeoriaCodeViolationsPage() {
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          Code violations on your Peoria IL property? USA Home Buyers purchases properties with open violations and condemnations as-is. No repairs, no permits. Fair cash offer, fast close. Call 888-440-5250.
+          Code violations on your Peoria IL property? USA Home Buyers purchases properties with open violations and condemnations as-is. No repairs, no permits. Fair cash offer, fast close. Call 888-274-5006.
         </div>
       </details>
           <div>
@@ -277,7 +277,7 @@ export default function PeoriaCodeViolationsPage() {
             <li><strong>Closing:</strong> We close on the agreed timeline. You receive net proceeds after lien clearance. We assume all post-closing compliance obligations.</li>
           </ol>
           <p className="text-gray-700 mb-4">
-            Call (888) 440-5250 today. We serve all of Peoria city and Peoria County, any violation status, any condition.
+            Call 888-274-5006 today. We serve all of Peoria city and Peoria County, any violation status, any condition.
           </p>
         </section>
 

@@ -15,7 +15,7 @@ const pageUrl = `${SITE_URL}/markets/peoria-il/probate`;
 export const metadata: Metadata = {
   title: 'Sell Probate House Peoria IL — Cash Buyer, Fast Close',
   description:
-    'Selling a house in Peoria IL probate? We buy probate properties as-is. IL Probate Act (755 ILCS 5), Peoria County Circuit Court. Written offer in 24 hours. Call (888) 440-5250.',
+    'Selling a house in Peoria IL probate? We buy probate properties as-is. IL Probate Act (755 ILCS 5), Peoria County Circuit Court. Written offer in 24 hours. Call 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
@@ -82,14 +82,14 @@ export default function PeoriaProbatePage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-Peoria IL probate sale? According to 755 ILCS 5, real property always requires formal probate. Per the Peoria County Circuit Court (324 Main St., Room G-04, 309-672-6000), independent administration allows sale once letters are issued. 2.5-month creditor notice period under 755 ILCS 5/18-3. We close when you have authority. Call (888) 440-5250.
+Peoria IL probate sale? According to 755 ILCS 5, real property always requires formal probate. Per the Peoria County Circuit Court (324 Main St., Room G-04, 309-672-6000), independent administration allows sale once letters are issued. 2.5-month creditor notice period under 755 ILCS 5/18-3. We close when you have authority. Call 888-274-5006.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
               We buy Peoria probate properties as-is — any condition, any estate status, any number of heirs.
             </p>
-            <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
-              📞 Call Now — (888) 440-5250 (24/7)
+            <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
+              📞 Call Now — 888-274-5006 (24/7)
             </a>
           </div>
 
@@ -104,7 +104,7 @@ Peoria IL probate sale? According to 755 ILCS 5, real property always requires f
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          Peoria property in Illinois probate? USA Home Buyers works with personal representatives through Peoria County Circuit Court. We buy as-is once the court grants authority. Cash offer in 24 hours. Call 888-440-5250.
+          Peoria property in Illinois probate? USA Home Buyers works with personal representatives through Peoria County Circuit Court. We buy as-is once the court grants authority. Cash offer in 24 hours. Call 888-274-5006.
         </div>
       </details>
           <div>
@@ -246,7 +246,7 @@ Peoria IL probate sale? According to 755 ILCS 5, real property always requires f
             <li>The property is in a neighborhood with active blight enforcement and the estate wants to avoid code violation citations</li>
           </ul>
           <p className="text-gray-700 mb-4">
-            Call (888) 440-5250 today. We serve all of Peoria city and Peoria County, any property condition, any probate status.
+            Call 888-274-5006 today. We serve all of Peoria city and Peoria County, any property condition, any probate status.
           </p>
         </section>
 

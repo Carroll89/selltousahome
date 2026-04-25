@@ -124,7 +124,7 @@ export default function PeoriaBlogPost2026() {
             Peoria's market in 2026 rewards sellers who understand their specific situation rather than following generic advice. If you have a retail-ready Richwoods ranch in excellent condition, a traditional listing makes sense — the market is active and the home will sell in days. If you have a pre-1940 South Side bungalow with deferred maintenance, a vacant estate in East Bluff, a fire-damaged balloon-frame structure, or a pre-foreclosure property approaching the Courtroom 203 deadline, a cash sale to USA Home Buyers eliminates the remediation cost, the listing risk, and the transfer tax complication.
           </p>
           <p className="text-gray-700 mb-4">
-            Call (888) 440-5250. Written offer in 24 hours. We cover all closing costs including Peoria's three-layer transfer tax. Close in 7-14 days.
+            Call 888-274-5006. Written offer in 24 hours. We cover all closing costs including Peoria's three-layer transfer tax. Close in 7-14 days.
           </p>
         </section>
 

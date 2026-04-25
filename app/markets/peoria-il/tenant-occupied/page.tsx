@@ -15,14 +15,14 @@ const pageUrl = `${SITE_URL}/markets/peoria-il/tenant-occupied`;
 export const metadata: Metadata = {
   title: 'Sell Tenant-Occupied House Peoria IL — Cash Buyer, No Eviction Required',
   description:
-    'Sell a tenant-occupied rental property in Peoria IL. We buy with tenants in place. IL eviction law (735 ILCS 5/9), Peoria County Circuit Court. Call (888) 440-5250.',
+    'Sell a tenant-occupied rental property in Peoria IL. We buy with tenants in place. IL eviction law (735 ILCS 5/9), Peoria County Circuit Court. Call 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
 const FAQ_ITEMS = [
   {
     question: 'Will you buy a tenant-occupied house in Peoria IL?',
-    answer: 'Yes. USA Home Buyers purchases tenant-occupied properties in Peoria and throughout Peoria County — with tenants in place, no eviction required before closing. We close on a mutually agreed timeline that respects any applicable lease terms. Call (888) 440-5250.',
+    answer: 'Yes. USA Home Buyers purchases tenant-occupied properties in Peoria and throughout Peoria County — with tenants in place, no eviction required before closing. We close on a mutually agreed timeline that respects any applicable lease terms. Call 888-274-5006.',
   },
   {
     question: 'Does the lease survive the sale when I sell a Peoria rental property?',
@@ -82,14 +82,14 @@ export default function PeoriaTenantOccupiedPage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                Selling a Peoria IL rental property? According to 735 ILCS 5/9 (Forcible Entry and Detainer), Illinois lease-survives-sale is the default. Per the Peoria County Circuit Court (324 Main St., 309-672-6000), uncontested evictions take 6-12 weeks when needed. USA Home Buyers buys with tenants in place — no eviction required before closing. Written offer in 24 hours. Call (888) 440-5250.
+                Selling a Peoria IL rental property? According to 735 ILCS 5/9 (Forcible Entry and Detainer), Illinois lease-survives-sale is the default. Per the Peoria County Circuit Court (324 Main St., 309-672-6000), uncontested evictions take 6-12 weeks when needed. USA Home Buyers buys with tenants in place — no eviction required before closing. Written offer in 24 hours. Call 888-274-5006.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
               We buy Peoria rental properties with tenants in place — Bradley University rentals, Section 8 properties, tired landlord exits. No eviction required.
             </p>
-            <a href="tel:+18884405250" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
-              📞 Call Now — (888) 440-5250 (24/7)
+            <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
+              📞 Call Now — 888-274-5006 (24/7)
             </a>
           </div>
 
@@ -104,7 +104,7 @@ export default function PeoriaTenantOccupiedPage() {
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          Done being a landlord in Peoria? USA Home Buyers buys tenant-occupied properties — no eviction needed, no waiting for leases. We handle everything after closing. Call 888-440-5250 for a fast cash offer.
+          Done being a landlord in Peoria? USA Home Buyers buys tenant-occupied properties — no eviction needed, no waiting for leases. We handle everything after closing. Call 888-274-5006 for a fast cash offer.
         </div>
       </details>
           <div>
@@ -147,7 +147,7 @@ export default function PeoriaTenantOccupiedPage() {
             For month-to-month tenants (no fixed lease term), either the landlord or tenant can terminate the tenancy on 30 days' written notice under 735 ILCS 5/9-207 for residential tenancies. If the seller wants to provide vacant possession to the buyer, the seller can serve 30-day notice to a month-to-month tenant at any time. The sale can be structured to close 30-45 days after notice, delivering vacant possession at closing.
           </p>
           <p className="text-gray-700 mb-4">
-            USA Home Buyers is flexible on both paths: we buy with tenants in place (they stay; we become the new landlord) or with vacant possession (seller serves notice before closing). Either approach works — call (888) 440-5250 to discuss which approach fits your specific property and tenant situation.
+            USA Home Buyers is flexible on both paths: we buy with tenants in place (they stay; we become the new landlord) or with vacant possession (seller serves notice before closing). Either approach works — call 888-274-5006 to discuss which approach fits your specific property and tenant situation.
           </p>
         </section>
 
@@ -209,7 +209,7 @@ export default function PeoriaTenantOccupiedPage() {
             The calculation changes when a major capital expenditure looms — a roof, an HVAC system, a plumbing overhaul on a pre-1940 balloon-frame building. At Peoria's ZHVI of $115,649, a $20,000 repair cost represents 17% of the typical home value. For a landlord nearing retirement, spending $20,000 on a rental that generates $700-$900/month in rent and requires ongoing management doesn't compute.
           </p>
           <p className="text-gray-700 mb-4">
-            USA Home Buyers provides the exit: a written cash offer within 24 hours, a closing timeline of 7-14 days, no repair requirements, and no eviction requirement. Call (888) 440-5250 to get started.
+            USA Home Buyers provides the exit: a written cash offer within 24 hours, a closing timeline of 7-14 days, no repair requirements, and no eviction requirement. Call 888-274-5006 to get started.
           </p>
         </section>
 
@@ -265,7 +265,7 @@ export default function PeoriaTenantOccupiedPage() {
             Peoria County's median effective property tax rate is approximately 2.1–2.4% — above the national median. For a rental property worth $80,000 at the ZHVI-adjacent range, the annual property tax bill may run $1,680–$1,920. On a property generating $700–$800 per month in rent, the property tax represents 18–23% of gross rental income — before maintenance, insurance, vacancy, and management costs. This tax burden, combined with the high pre-1940 maintenance demands and tenant management complexity, is the third leg of the tired-landlord calculation in Peoria.
           </p>
           <p className="text-gray-700 mb-4">
-            Per Redfin (January 2026), the Peoria city median sale price is $139,000. A landlord carrying a $90,000 rental property with $2,000 in annual taxes, aging systems, and a Section 8 or student tenant may find that a cash sale delivering $65,000–$75,000 in net proceeds — invested elsewhere — outperforms another decade of rental management. Call (888) 440-5250 for a written offer.
+            Per Redfin (January 2026), the Peoria city median sale price is $139,000. A landlord carrying a $90,000 rental property with $2,000 in annual taxes, aging systems, and a Section 8 or student tenant may find that a cash sale delivering $65,000–$75,000 in net proceeds — invested elsewhere — outperforms another decade of rental management. Call 888-274-5006 for a written offer.
           </p>
         </section>
 
