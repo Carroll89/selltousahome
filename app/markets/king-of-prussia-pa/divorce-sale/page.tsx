@@ -106,7 +106,7 @@ export default function KopDivorceSalePage() {
             <p className="mb-3">A cash sale cuts through that. We make one written offer to both parties within 24 hours. If you accept, we close in 7 to 14 days. The proceeds come out at closing and get divided per your divorce agreement or court order.</p>
             <p className="mb-3">With King of Prussia median home values in the $453,000 to $549,000 range, there&apos;s often significant equity at stake. Our goal is to get both parties a fair, fast outcome.</p>
             <p className="mb-3">We&apos;re a neutral third party. We don&apos;t have a stake in either side of the divorce. Our job is just to close the deal efficiently.</p>
-            <p className="mb-3">Montgomery County Court of Common Pleas handles divorce proceedings. Call USA Home Buyers at 888-440-5250. Fair offer, 24 hours, close in 7 to 14 days. Done.</p>
+            <p className="mb-3">Montgomery County Court of Common Pleas handles divorce proceedings. Call USA Home Buyers at 888-274-5006. Fair offer, 24 hours, close in 7 to 14 days. Done.</p>
         </div>
       </details>
 

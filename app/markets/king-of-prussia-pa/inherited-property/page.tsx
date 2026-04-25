@@ -111,7 +111,7 @@ export default function KopInheritedPropertyPage() {
             <p className="mb-3">We buy inherited Montgomery County properties as-is. You don&apos;t need to clean it out. Don&apos;t repair anything. Don&apos;t even take furniture you don&apos;t want — we&apos;ll handle all of it. We make a written cash offer within 24 hours and close in as few as 7 days.</p>
             <p className="mb-3">With King of Prussia median home values at $453,000 to $549,000, there&apos;s often significant equity in estate properties. And what we save you in carrying costs, repairs, agent commissions, and months of waiting more than offsets the difference from a retail listing price.</p>
             <p className="mb-3">If the property is in probate, we work with executors and the Montgomery County Register of Wills process. The personal representative signs for the sale once Letters Testamentary are issued.</p>
-            <p className="mb-3">Call USA Home Buyers at 888-440-5250. We&apos;ll give you a fair offer and make the real estate part of this as easy as it can be.</p>
+            <p className="mb-3">Call USA Home Buyers at 888-274-5006. We&apos;ll give you a fair offer and make the real estate part of this as easy as it can be.</p>
         </div>
       </details>
 

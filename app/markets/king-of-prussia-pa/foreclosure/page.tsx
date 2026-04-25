@@ -106,7 +106,7 @@ export default function KopForeclosurePage() {
             <p className="mb-3">Here&apos;s what most people don&apos;t realize: if you sell your home before the sheriff sale, the foreclosure stops. The mortgage gets paid off at closing. The case gets dismissed. Any remaining equity — after the mortgage and closing costs — goes to you. Not to the bank.</p>
             <p className="mb-3">We&apos;ve helped Montgomery County homeowners close in seven days to beat sheriff sale deadlines. Cash purchase means no lender approval, no appraisal contingency, no financing that can fall through.</p>
             <p className="mb-3">Montgomery County properties carry significant value — with median home prices in the $453,000 to $549,000 range, there&apos;s often meaningful equity worth protecting. Don&apos;t let the sheriff sale take that.</p>
-            <p className="mb-3">PHFA&apos;s HEMAP program offers mortgage assistance — you have 33 days from receiving the foreclosure notice to apply. Call USA Home Buyers right now at 888-440-5250. We&apos;ll give you a written offer within 24 hours.</p>
+            <p className="mb-3">PHFA&apos;s HEMAP program offers mortgage assistance — you have 33 days from receiving the foreclosure notice to apply. Call USA Home Buyers right now at 888-274-5006. We&apos;ll give you a written offer within 24 hours.</p>
         </div>
       </details>
 

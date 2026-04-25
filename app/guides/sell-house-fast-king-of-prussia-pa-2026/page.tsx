@@ -38,7 +38,7 @@ const FAQ_ITEMS = [
   {
     question: "What's the fastest way to sell a house in King of Prussia PA?",
     answer:
-      'Selling to a local cash buyer like USA Home Buyers. Written offer within 24 hours, close in 7–14 days — no repairs, no agent fees, no showings. Call 888-440-5250.',
+      'Selling to a local cash buyer like USA Home Buyers. Written offer within 24 hours, close in 7–14 days — no repairs, no agent fees, no showings. Call 888-274-5006.',
   },
   {
     question: 'Do cash buyers purchase King of Prussia homes that need repairs?',
@@ -130,7 +130,7 @@ export default function SellHouseFastKopGuide() {
             <p className="mb-3">Option two: iBuyers. Companies like Opendoor make instant offers on homes that fit their criteria — typically updated, well-maintained properties in certain price ranges. If your home qualifies, it can be convenient. But service fees often run 5 to 8 percent, and not all King of Prussia properties qualify.</p>
             <p className="mb-3">Option three: a local cash buyer like USA Home Buyers. We buy in any condition — no repairs, no staging, no showings. Written cash offer within 24 hours. Close in 7 to 14 days. We cover all closing costs. The trade-off is that we pay below full retail — typically 70 to 80 percent of market value. But with King of Prussia median values at $453,000 to $549,000, that&apos;s still a significant number.</p>
             <p className="mb-3">Which option is right for you depends on your timeline, your property&apos;s condition, and how much certainty matters. If you have time and a move-in-ready home, the MLS may serve you well. If you need speed, certainty, or if your property has complications, a cash sale is the move.</p>
-            <p className="mb-3">Want to know what we&apos;d offer for your specific King of Prussia property? Call 888-440-5250 or fill out the form. You&apos;ll have a written offer in 24 hours.</p>
+            <p className="mb-3">Want to know what we&apos;d offer for your specific King of Prussia property? Call 888-274-5006 or fill out the form. You&apos;ll have a written offer in 24 hours.</p>
         </div>
       </details>
 

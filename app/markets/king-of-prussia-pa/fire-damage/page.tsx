@@ -106,7 +106,7 @@ export default function KopFireDamagePage() {
             <p className="mb-3">We buy fire-damaged King of Prussia and Montgomery County properties for cash in their current condition. No remediation required. No structural repairs before closing. No smoke or water damage cleanup on your end. We assess the property in its current state and make a written cash offer within 24 hours.</p>
             <p className="mb-3">With King of Prussia median home values in the $453,000 to $549,000 range, there&apos;s often significant value in the land and structure even after fire damage.</p>
             <p className="mb-3">Once you accept, we can close in as few as 7 days. We handle all closing costs. No agent commissions. We take on full responsibility for the property at closing — including all the cleanup and remediation that comes after.</p>
-            <p className="mb-3">Call us right now at 888-440-5250. We&apos;ll get you a fair cash offer fast so you can move forward.</p>
+            <p className="mb-3">Call us right now at 888-274-5006. We&apos;ll get you a fair cash offer fast so you can move forward.</p>
         </div>
       </details>
 

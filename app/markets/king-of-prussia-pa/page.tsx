@@ -188,7 +188,7 @@ export default function KingOfPrussiaMarketPage() {
               href={`tel:${PHONE}`}
               className="flex w-full md:w-auto items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white font-bold rounded-lg px-6 py-4 text-xl md:py-3 md:text-lg shadow-lg transition-colors ring-2 ring-green-400/50"
             >
-              📞 Call 888-440-5250 — We Answer 24/7
+              📞 Call 888-274-5006 — We Answer 24/7
             </a>
             <p className="mt-3 text-blue-200 text-xs md:text-sm">BBB Accredited · 15+ Years Experience · Hundreds of Homes Purchased</p>
           </div>
@@ -221,7 +221,7 @@ export default function KingOfPrussiaMarketPage() {
         <p className="mb-3">Here&apos;s the 2026 market reality in King of Prussia. Zillow puts the median home value at $453,560. Redfin&apos;s median sale price is $549,350. King of Prussia has a Redfin Compete Score of 82 out of 100. But the median home takes 34 days to go pending, then another 45 to 60 days to close. You&apos;re looking at three to four months from listing to cash in hand.</p>
         <p className="mb-3">We close in 7 to 14 days. Written offer within 24 hours of your call. No repairs, no cleaning, no agent commissions. We cover all closing costs.</p>
         <p className="mb-3">We serve all of Upper Merion Township and Montgomery County: Norristown, Conshohocken, Plymouth Meeting, Wayne, Collegeville, Valley Forge, Bryn Mawr, Bridgeport, and surrounding communities. Whether you&apos;re relocating, dealing with an inherited property, or facing a time-sensitive situation — we&apos;re the call to make.</p>
-        <p className="mb-3">Call USA Home Buyers at 888-440-5250. We&apos;ll ask a few questions, make a fair written offer within 24 hours, and close on your schedule.</p>
+        <p className="mb-3">Call USA Home Buyers at 888-274-5006. We&apos;ll ask a few questions, make a fair written offer within 24 hours, and close on your schedule.</p>
         </div>
         </details>
 

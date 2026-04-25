@@ -106,7 +106,7 @@ export default function KopTenantOccupiedPage() {
             <p className="mb-3">Pennsylvania landlord-tenant law gives your tenants rights around showings and access. If your tenant isn&apos;t cooperative — which often happens when they realize the property is being sold — coordinating showings through the MLS can be a nightmare.</p>
             <p className="mb-3">We don&apos;t need showings. We buy tenant-occupied properties in King of Prussia as-is, with tenants in place. We take the property with the existing lease and handle the tenant transition ourselves after closing.</p>
             <p className="mb-3">Montgomery County&apos;s rental market is strong, particularly near the King of Prussia business corridor, Valley Forge, and communities along Route 202.</p>
-            <p className="mb-3">Call USA Home Buyers at 888-440-5250. Written cash offer in 24 hours. No eviction required.</p>
+            <p className="mb-3">Call USA Home Buyers at 888-274-5006. Written cash offer in 24 hours. No eviction required.</p>
         </div>
       </details>
 

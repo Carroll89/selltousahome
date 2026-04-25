@@ -106,7 +106,7 @@ export default function KopCodeViolationsPage() {
             <p className="mb-3">We don&apos;t use financing. We pay cash. There&apos;s no appraiser, no lender underwriting, no appraisal contingency. We buy the property in its current condition — violations, citations, and all.</p>
             <p className="mb-3">How do violations get resolved at closing? They&apos;re treated like any other lien or encumbrance. The title search identifies all outstanding fines and municipal liens. At closing, those get paid from your proceeds before the remainder goes to you.</p>
             <p className="mb-3">We&apos;ve bought Montgomery County properties with multiple open violations, properties cited for structural issues, properties with unpermitted construction, and properties where code enforcement had been active for years.</p>
-            <p className="mb-3">Call USA Home Buyers at 888-440-5250. We&apos;ll make a written cash offer within 24 hours and explain exactly how the violation resolution works at closing.</p>
+            <p className="mb-3">Call USA Home Buyers at 888-274-5006. We&apos;ll make a written cash offer within 24 hours and explain exactly how the violation resolution works at closing.</p>
         </div>
       </details>
 

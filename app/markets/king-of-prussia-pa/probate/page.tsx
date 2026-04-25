@@ -106,7 +106,7 @@ export default function KopProbatePage() {
             <p className="mb-3">Montgomery County estates vary widely in complexity. A straightforward estate can move through the opening process in weeks. Multi-heir situations or contested estates take longer. But the sale of the property itself can often proceed independently.</p>
             <p className="mb-3">We buy probate properties in King of Prussia and throughout Montgomery County as-is. The executor signs the deed on behalf of the estate. Closing proceeds go into the estate account. A title company with estate experience handles all documentation.</p>
             <p className="mb-3">With King of Prussia homes valued in the $453,000 to $549,000 range, estate properties here often carry significant equity. Getting a fast, clean sale can accelerate the estate&apos;s distribution to heirs significantly.</p>
-            <p className="mb-3">Call USA Home Buyers at 888-440-5250. Written cash offer in 24 hours. We work with executors and estate attorneys and understand the Montgomery County probate process.</p>
+            <p className="mb-3">Call USA Home Buyers at 888-274-5006. Written cash offer in 24 hours. We work with executors and estate attorneys and understand the Montgomery County probate process.</p>
         </div>
       </details>
 
