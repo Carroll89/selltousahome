@@ -107,7 +107,7 @@ export default function DivorceSalePage() {
             <p className="mb-3">A cash sale cuts through all of that. We make one written offer to both parties within 24 hours. You both review it. If you accept, we close in 7 to 14 days. The proceeds come out of closing and get divided per your divorce agreement or court order. Done.</p>
             <p className="mb-3">We&apos;re a neutral third party — we&apos;re not aligned with either spouse. Our only job is to make the transaction as fast and smooth as possible so both parties can move forward.</p>
             <p className="mb-3">In Harrisburg, the Dauphin County Court of Common Pleas handles divorce proceedings. Whether you&apos;re early in the process or the court has already ordered a sale, we can work with your attorneys and timeline.</p>
-            <p className="mb-3">Call USA Home Buyers at 888-440-5250. We&apos;ll get you an offer within 24 hours and help you both move on.</p>
+            <p className="mb-3">Call USA Home Buyers at 888-274-5006. We&apos;ll get you an offer within 24 hours and help you both move on.</p>
         </div>
       </details>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">

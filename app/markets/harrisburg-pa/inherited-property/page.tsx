@@ -104,7 +104,7 @@ export default function HarrisburgInheritedPropertyPage() {
             <p className="mb-3">We buy inherited properties as-is. That means you don&apos;t touch a thing. Don&apos;t clean it out, don&apos;t make repairs, don&apos;t even sweep the floor. We&apos;ll handle all of that. We make you a written cash offer within 24 hours of your call, and we can close in as few as seven days.</p>
             <p className="mb-3">If the property is in probate, that&apos;s okay. We work around estate timelines and can coordinate directly with executors and attorneys. The personal representative can sign for the sale once the Dauphin County Register of Wills issues Letters Testamentary.</p>
             <p className="mb-3">We serve all of Harrisburg and Dauphin County. No repairs. No cleanout. No agent fees. Just a fair cash offer and a simple process.</p>
-            <p className="mb-3">Call USA Home Buyers at 888-440-5250. We&apos;ll answer your questions and get you an offer fast.</p>
+            <p className="mb-3">Call USA Home Buyers at 888-274-5006. We&apos;ll answer your questions and get you an offer fast.</p>
         </div>
       </details>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">

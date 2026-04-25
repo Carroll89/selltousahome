@@ -115,7 +115,7 @@ export default function HarrisburgFireDamagePage() {
             <p className="mb-3">Fire-damaged homes are essentially unmarketable through traditional channels. Conventional financing won&apos;t appraise a structurally compromised home, and getting a mortgage on a gutted property isn&apos;t possible. Your buyer pool shrinks to all-cash investors — which is exactly what we are.</p>
             <p className="mb-3">We move fast because we have to. Fire-damaged homes are often open to weather, at risk of further deterioration, and creating ongoing insurance and liability headaches. The faster you can close and hand off responsibility, the better.</p>
             <p className="mb-3">We make written cash offers within 24 hours. Once you accept, we can close in as few as 7 days. We handle all closing costs. No agent commissions, no repairs, no remediation required on your end.</p>
-            <p className="mb-3">Call USA Home Buyers right now at 888-440-5250. Whether it was a kitchen fire or a total loss, we&apos;ll get you an offer fast so you can move forward.</p>
+            <p className="mb-3">Call USA Home Buyers right now at 888-274-5006. Whether it was a kitchen fire or a total loss, we&apos;ll get you an offer fast so you can move forward.</p>
         </div>
       </details>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">

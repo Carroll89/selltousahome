@@ -104,7 +104,7 @@ export default function HarrisburgForeclosurePage() {
             <p className="mb-3">Here&apos;s what most people don&apos;t know: if you sell your house before the sheriff sale, the foreclosure stops. The mortgage gets paid off at closing, the case gets dismissed, and you walk away with whatever equity you have left. That equity doesn&apos;t go to the bank — it goes to you.</p>
             <p className="mb-3">We&apos;ve helped Harrisburg homeowners close in seven days to beat sheriff sale deadlines. Once you accept our written cash offer, we move fast. No financing contingencies, no waiting on a bank.</p>
             <p className="mb-3">You also have options like PHFA&apos;s HEMAP assistance — you have 33 days from receiving the notice to apply. And Dauphin County&apos;s conciliation conference is actually an opportunity to buy time while you figure out your best path.</p>
-            <p className="mb-3">If you&apos;re in foreclosure or think you might be headed there, call us now at 888-440-5250. We&apos;ll give you a cash offer within 24 hours and help you understand all your options.</p>
+            <p className="mb-3">If you&apos;re in foreclosure or think you might be headed there, call us now at 888-274-5006. We&apos;ll give you a cash offer within 24 hours and help you understand all your options.</p>
         </div>
       </details>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">

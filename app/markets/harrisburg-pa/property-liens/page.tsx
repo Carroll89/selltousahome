@@ -116,7 +116,7 @@ export default function HarrisburgPropertyLiensPage() {
             <p className="mb-3">Here&apos;s the key thing to understand: liens don&apos;t block a sale. They have to be resolved at or before closing, but in almost all cases, they&apos;re paid directly from your sale proceeds. You typically don&apos;t need cash upfront. The title company runs a search, finds all the liens, and pays them off at closing.</p>
             <p className="mb-3">The problem with traditional buyers is that conventional financing lenders require clear title. A buyer using a mortgage can&apos;t close until liens are resolved. Cash buyers don&apos;t have that constraint.</p>
             <p className="mb-3">We&apos;ve bought Harrisburg properties with tax liens, municipal liens, judgment liens, and mechanic&apos;s liens. As long as there&apos;s enough equity to cover the liens and our offer, we can close.</p>
-            <p className="mb-3">Don&apos;t assume a lien means you&apos;re stuck. Call USA Home Buyers at 888-440-5250. We&apos;ll give you a cash offer within 24 hours and walk you through exactly how your specific liens get resolved.</p>
+            <p className="mb-3">Don&apos;t assume a lien means you&apos;re stuck. Call USA Home Buyers at 888-274-5006. We&apos;ll give you a cash offer within 24 hours and walk you through exactly how your specific liens get resolved.</p>
         </div>
       </details>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">

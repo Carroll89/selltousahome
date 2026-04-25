@@ -139,7 +139,7 @@ export default function HarrisburgFAQPage() {
             <p className="mb-3">Do we buy houses in bad condition? Yes. We buy as-is in any condition — fire-damaged, mold, structural issues, hoarding situations, tenant damage. Whatever condition your Harrisburg property is in, we&apos;ll make you an offer.</p>
             <p className="mb-3">What about liens or back taxes? Those get paid at closing from proceeds. You don&apos;t need cash upfront in most cases. The title company handles it.</p>
             <p className="mb-3">What areas do we serve? All of Harrisburg and Dauphin County — Camp Hill, Mechanicsburg, Carlisle, Steelton, Lower Paxton Township, Swatara Township, and surrounding communities.</p>
-            <p className="mb-3">Any other questions? Call us at 888-440-5250. We&apos;re real people, we answer the phone, and we&apos;ll give you straight answers.</p>
+            <p className="mb-3">Any other questions? Call us at 888-274-5006. We&apos;re real people, we answer the phone, and we&apos;ll give you straight answers.</p>
         </div>
       </details>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
