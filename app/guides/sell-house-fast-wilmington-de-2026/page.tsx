@@ -68,7 +68,7 @@ export default function WilmingtonGuidePage() {
             Written cash offer in 24 hours, close in 7-14 days, as-is condition — no repairs, no agent
             commissions, no closing costs to the seller. Delaware's 4% transfer tax in Wilmington (one of
             the highest on the East Coast) is fully covered. Cash offers typically run 65-75% of fair market
-            value. Call 888-440-5250 or submit the form below.
+            value. Call 888-274-5006 or submit the form below.
           </p>
         </div>
       </div>

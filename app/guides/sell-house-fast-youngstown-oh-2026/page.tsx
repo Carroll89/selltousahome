@@ -96,7 +96,7 @@ export default function YoungstownGuidePage() {
             USA Home Buyers LLC buys houses for cash in Youngstown, Ohio and throughout Mahoning County.
             Written offer within 24 hours, close in 7-14 days, purchase in any condition, no repairs
             required, no agent fees, we pay all closing costs including Ohio's conveyance fee. Call
-            888-440-5250. For most Youngstown sellers dealing with distressed pre-1950 properties,
+            888-274-5006. For most Youngstown sellers dealing with distressed pre-1950 properties,
             inherited estates, or urgent timelines, a direct cash sale is the fastest and often the
             only realistic exit.
           </p>

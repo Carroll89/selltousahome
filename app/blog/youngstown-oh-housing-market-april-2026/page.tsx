@@ -133,7 +133,7 @@ export default function YoungstownOHMarketUpdateApril2026() {
             Where you fall in that split determines your options. What doesn&apos;t change across either market: properties in poor condition, inherited homes, foreclosure situations, and landlords looking to exit don&apos;t benefit from the standard retail process regardless of location.
           </p>
           <p className="text-gray-700 mb-4">
-            USA Home Buyers serves all of Mahoning County — the city and the suburbs. Written cash offer within 24 hours of seeing the property. We buy as-is; you don&apos;t clean it out. Call (888) 440-5250.
+            USA Home Buyers serves all of Mahoning County — the city and the suburbs. Written cash offer within 24 hours of seeing the property. We buy as-is; you don&apos;t clean it out. Call 888-274-5006.
           </p>
 
         </div>

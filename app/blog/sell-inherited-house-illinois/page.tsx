@@ -131,7 +131,7 @@ export default function SellInheritedHouseIllinoisPage() {
             The challenges are the same everywhere: deferred maintenance, scattered heirs, a property that&apos;s been vacant or neglected, and a probate process that takes longer than anyone wants it to. A cash buyer addresses all of those directly — no repairs, no showings, no lender conditions, and a closing timeline that works around the probate schedule instead of fighting it.
           </p>
           <p className="text-gray-700 mb-4">
-            USA Home Buyers serves Springfield, Bloomington, and Peoria. We work with estate attorneys and executors regularly. Written cash offer within 24 hours of seeing the property — before your probate petition is filed, if that&apos;s where you are. Call (888) 440-5250.
+            USA Home Buyers serves Springfield, Bloomington, and Peoria. We work with estate attorneys and executors regularly. Written cash offer within 24 hours of seeing the property — before your probate petition is filed, if that&apos;s where you are. Call 888-274-5006.
           </p>
 
         </div>

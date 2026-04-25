@@ -165,7 +165,7 @@ export default function WhatHappensAfterCashOfferPage() {
             Things that slow closings: title issues that require curative work (getting a missing heir to sign off, resolving a judgment lien, obtaining a release from a defunct lender), properties in active probate where the court has to approve the sale, properties with multiple owners who need to sign and are geographically scattered, or seller scheduling constraints. None of these are insurmountable — they just take longer.
           </p>
           <p className="text-gray-700 mb-4">
-            USA Home Buyers works with sellers in Pennsylvania, Illinois, Ohio, Wisconsin, New York, New England, and across our market footprint. Written offer within 24 hours of seeing the property. Typical close in 7–14 days. Call (888) 440-5250 or fill out the form below — we&apos;ll walk you through exactly where you&apos;d stand.
+            USA Home Buyers works with sellers in Pennsylvania, Illinois, Ohio, Wisconsin, New York, New England, and across our market footprint. Written offer within 24 hours of seeing the property. Typical close in 7–14 days. Call 888-274-5006 or fill out the form below — we&apos;ll walk you through exactly where you&apos;d stand.
           </p>
 
         </div>

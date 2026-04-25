@@ -98,7 +98,7 @@ export default function BloomingtonILBlogPost() {
             But a significant portion of Bloomington&apos;s seller population is not in that position — they&apos;re managing out-of-state estates of State Farm retirees, navigating a divorce settlement that needs to close by a specific date, dealing with an ISU-area rental property they haven&apos;t visited in three years, or facing a code enforcement order on a West Bloomington pre-war home they can&apos;t fund the repairs on. For those sellers, a cash buyer is not a last resort. It&apos;s the most rational option.
           </p>
           <p className="text-gray-700 mb-4">
-            USA Home Buyers serves all of McLean County. Written cash offer in 24 hours. Close in 7-14 days. We cover all closing costs — that $300 transfer tax on a $200,000 sale comes out of our pocket, not yours. Call (888) 440-5250.
+            USA Home Buyers serves all of McLean County. Written cash offer in 24 hours. Close in 7-14 days. We cover all closing costs — that $300 transfer tax on a $200,000 sale comes out of our pocket, not yours. Call 888-274-5006.
           </p>
 
         </div>
