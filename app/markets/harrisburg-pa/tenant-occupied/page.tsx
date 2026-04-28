@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
-import { articleSchema, faqSchema, harrisburgLocalBusinessSchema } from '@/lib/schema';
+import { articleSchema, faqSchema, harrisburgLocalBusinessSchema, videoObjectSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
 import { VideoEmbed } from '@/components/VideoEmbed';
 
@@ -52,6 +52,13 @@ export default function HarrisburgTenantOccupiedPage() {
         harrisburgLocalBusinessSchema,
         articleSchema('Selling a Tenant-Occupied Property in Harrisburg, PA', pageUrl),
         faqSchema(FAQ_ITEMS),
+        videoObjectSchema({
+          name: 'Selling a Tenant-Occupied Property in Harrisburg',
+          description:
+            'See how we buy tenant-occupied properties in Harrisburg — no evictions required',
+          contentUrl: 'https://v3b.fal.media/files/b/0a95c0fd/HIBLHpdMne0FxlgRD-3fF_harrisburg-tenant-occupied.mp4',
+          thumbnailUrl: `${SITE_URL}/images/video-posters/harrisburg-tenant-occupied-poster.jpg`,
+        }),
       ]} />
 
       <section className="relative text-white py-16 px-4 overflow-hidden">
@@ -87,6 +94,7 @@ export default function HarrisburgTenantOccupiedPage() {
           </div>
         </div>
       </section>
+      {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
       <VideoEmbed
         src="https://v3b.fal.media/files/b/0a95c0fd/HIBLHpdMne0FxlgRD-3fF_harrisburg-tenant-occupied.mp4"
         title="Selling a Tenant-Occupied Property in Harrisburg"

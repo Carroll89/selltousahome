@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
-import { articleSchema, faqSchema, harrisburgLocalBusinessSchema } from '@/lib/schema';
+import { articleSchema, faqSchema, harrisburgLocalBusinessSchema, videoObjectSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
 import { VideoEmbed } from '@/components/VideoEmbed';
 
@@ -62,6 +62,13 @@ export default function HarrisburgCodeViolationsPage() {
         harrisburgLocalBusinessSchema,
         articleSchema('Selling a House with Code Violations in Harrisburg, PA', pageUrl),
         faqSchema(FAQ_ITEMS),
+        videoObjectSchema({
+          name: 'Selling a Home with Code Violations in Harrisburg',
+          description:
+            'See how we buy Harrisburg homes with code violations — as-is, no repairs needed',
+          contentUrl: 'https://v3b.fal.media/files/b/0a95c0fa/Rjgk-bPzVnANojDTcLEQp_harrisburg-code-violations.mp4',
+          thumbnailUrl: `${SITE_URL}/images/video-posters/harrisburg-code-violations-poster.jpg`,
+        }),
       ]} />
 
       <section className="relative text-white py-16 px-4 overflow-hidden">
@@ -99,6 +106,7 @@ export default function HarrisburgCodeViolationsPage() {
           </div>
         </div>
       </section>
+      {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
       <VideoEmbed
         src="https://v3b.fal.media/files/b/0a95c0fa/Rjgk-bPzVnANojDTcLEQp_harrisburg-code-violations.mp4"
         title="Selling a Home with Code Violations in Harrisburg"

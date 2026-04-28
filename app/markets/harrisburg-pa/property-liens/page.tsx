@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
-import { articleSchema, faqSchema, harrisburgLocalBusinessSchema } from '@/lib/schema';
+import { articleSchema, faqSchema, harrisburgLocalBusinessSchema, videoObjectSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
 import { VideoEmbed } from '@/components/VideoEmbed';
 
@@ -62,6 +62,13 @@ export default function HarrisburgPropertyLiensPage() {
         harrisburgLocalBusinessSchema,
         articleSchema('Selling a House with Property Liens in Harrisburg, PA', pageUrl),
         faqSchema(FAQ_ITEMS),
+        videoObjectSchema({
+          name: 'Selling a Home with Liens in Harrisburg',
+          description:
+            'See how we buy Harrisburg homes with liens — we handle the paperwork and payoff',
+          contentUrl: 'https://v3b.fal.media/files/b/0a95c0fd/Nc_adaeWMqrhab3b0C4zT_harrisburg-property-liens.mp4',
+          thumbnailUrl: `${SITE_URL}/images/video-posters/harrisburg-property-liens-poster.jpg`,
+        }),
       ]} />
 
       <section className="relative text-white py-16 px-4 overflow-hidden">
@@ -100,6 +107,7 @@ export default function HarrisburgPropertyLiensPage() {
           </div>
         </div>
       </section>
+      {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
       <VideoEmbed
         src="https://v3b.fal.media/files/b/0a95c0fd/Nc_adaeWMqrhab3b0C4zT_harrisburg-property-liens.mp4"
         title="Selling a Home with Liens in Harrisburg"

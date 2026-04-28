@@ -8,8 +8,8 @@ import { TestimonialBlock } from '@/components/TestimonialBlock';
 import { ComparisonTable } from '@/components/ComparisonTable';
 import { SituationLinks } from '@/components/SituationLinks';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
-import { harrisburgLocalBusinessSchema, harrisburgFAQSchema, howToSchema } from '@/lib/schema';
-import { PHONE } from '@/lib/utils';
+import { harrisburgLocalBusinessSchema, harrisburgFAQSchema, howToSchema, videoObjectSchema } from '@/lib/schema';
+import { PHONE, SITE_URL } from '@/lib/utils';
 import { VideoEmbed } from '@/components/VideoEmbed';
 import { BlogClusterLinks } from '@/components/BlogClusterLinks';
 import { MultiStepForm } from '@/components/MultiStepForm';
@@ -126,7 +126,18 @@ const FAQ_ITEMS = [
 export default function HarrisburgMarketPage() {
   return (
     <>
-      <SchemaMarkup schema={[harrisburgLocalBusinessSchema, harrisburgFAQSchema, howToSchema]} />
+      <SchemaMarkup schema={[
+        harrisburgLocalBusinessSchema,
+        harrisburgFAQSchema,
+        howToSchema,
+        videoObjectSchema({
+          name: 'Sell Your House Fast in Harrisburg, PA',
+          description:
+            'See how we help homeowners in Harrisburg sell fast for cash',
+          contentUrl: 'https://v3b.fal.media/files/b/0a95c0fc/QS_oBfAsYUxtHMdVSx8CT_harrisburg-main.mp4',
+          thumbnailUrl: `${SITE_URL}/images/video-posters/harrisburg-main-poster.jpg`,
+        }),
+      ]} />
 
       {/* Hero */}
       <section className="relative text-white py-8 md:py-16 px-4 overflow-hidden">
@@ -179,6 +190,7 @@ export default function HarrisburgMarketPage() {
           <p className="text-gray-700 leading-relaxed">USA Home Buyers purchases houses in Harrisburg, PA for cash — as-is, in any condition, with no repairs and no agent fees. According to the Zillow Home Value Index, the Harrisburg area median home value is $234,569 (April 2026); within city limits, Redfin tracks a median closed sale price of approximately $145,000. The market goes pending in 5 days on average, but after that, financing and inspections add another 45–60 days. We close in 7–14 days — cash, no contingencies. We serve all of Harrisburg and Dauphin County.</p>
         </section>
 
+      {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
         <VideoEmbed
         src="https://v3b.fal.media/files/b/0a95c0fc/QS_oBfAsYUxtHMdVSx8CT_harrisburg-main.mp4"
         title="Sell Your House Fast in Harrisburg, PA"

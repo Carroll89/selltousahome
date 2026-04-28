@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
-import { articleSchema, faqSchema, harrisburgLocalBusinessSchema } from '@/lib/schema';
+import { articleSchema, faqSchema, harrisburgLocalBusinessSchema, videoObjectSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
 import { VideoEmbed } from '@/components/VideoEmbed';
 
@@ -109,6 +109,13 @@ export default function HarrisburgNeighborhoodsPage() {
         harrisburgLocalBusinessSchema,
         articleSchema('Sell Your House in Any Harrisburg, PA Neighborhood', pageUrl),
         faqSchema(FAQ_ITEMS),
+        videoObjectSchema({
+          name: 'Harrisburg, PA Neighborhoods Guide',
+          description:
+            'See how we buy homes across all Harrisburg neighborhoods — any condition, any area',
+          contentUrl: 'https://v3b.fal.media/files/b/0a95c0fd/Qd9Kj8btMSOYmTT1Hwvjy_harrisburg-neighborhoods.mp4',
+          thumbnailUrl: `${SITE_URL}/images/video-posters/harrisburg-neighborhoods-poster.jpg`,
+        }),
       ]} />
 
       <section className="relative text-white py-16 px-4 overflow-hidden">
@@ -144,6 +151,7 @@ export default function HarrisburgNeighborhoodsPage() {
           </div>
         </div>
       </section>
+      {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
       <VideoEmbed
         src="https://v3b.fal.media/files/b/0a95c0fd/Qd9Kj8btMSOYmTT1Hwvjy_harrisburg-neighborhoods.mp4"
         title="Harrisburg, PA Neighborhoods Guide"

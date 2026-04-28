@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
-import { faqSchema, harrisburgLocalBusinessSchema } from '@/lib/schema';
+import { faqSchema, harrisburgLocalBusinessSchema, videoObjectSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
 import { VideoEmbed } from '@/components/VideoEmbed';
 
@@ -158,7 +158,19 @@ const articleSchema = {
 export default function HarrisburgMarketReport() {
   return (
     <>
-      <SchemaMarkup schema={[harrisburgLocalBusinessSchema, datasetSchema, articleSchema, faqSchema(FAQ_ITEMS)]} />
+      <SchemaMarkup schema={[
+        harrisburgLocalBusinessSchema,
+        datasetSchema,
+        articleSchema,
+        faqSchema(FAQ_ITEMS),
+        videoObjectSchema({
+          name: 'Harrisburg, PA Real Estate Market Report',
+          description:
+            'Get the latest insights on the Harrisburg PA real estate market from our local team',
+          contentUrl: 'https://v3b.fal.media/files/b/0a95c0fc/Z-XmF_o8FB2J9ON4IJWK2_harrisburg-market-report.mp4',
+          thumbnailUrl: `${SITE_URL}/images/video-posters/harrisburg-market-report-poster.jpg`,
+        }),
+      ]} />
 
       {/* Hero */}
       <section className="relative text-white py-16 px-4 overflow-hidden">
@@ -199,6 +211,7 @@ export default function HarrisburgMarketReport() {
           </div>
         </div>
       </section>
+      {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
       <VideoEmbed
         src="https://v3b.fal.media/files/b/0a95c0fc/Z-XmF_o8FB2J9ON4IJWK2_harrisburg-market-report.mp4"
         title="Harrisburg, PA Real Estate Market Report"
