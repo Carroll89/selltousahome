@@ -73,19 +73,47 @@ export default function ErieNeighborhoodsPage() {
         articleSchema('Erie PA Neighborhoods — Cash Home Buyers in Every Area', pageUrl),
       ]} />
 
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="mb-4 text-sm text-gray-500">
-          <Link href="/markets/erie-pa" className="text-brand-primary hover:underline">Erie PA</Link> › Neighborhoods
+      <section className="relative text-white py-16 px-4 overflow-hidden">
+        <picture className="absolute inset-0 w-full h-full">
+          <source
+            srcSet="/images/optimized/erie-pa-representative-hero-640.jpg 640w, /images/optimized/erie-pa-representative-hero-828.jpg 828w, /images/optimized/erie-pa-representative-hero-1080.jpg 1080w, /images/optimized/erie-pa-representative-hero-1200.jpg 1200w"
+            type="image/jpeg"
+            sizes="100vw"
+          />
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/images/optimized/erie-pa-representative-hero-1200.jpg"
+            alt="Representative Erie PA home near Lake Erie bayfront on a bright clear day"
+            fetchPriority="high"
+            className="object-cover object-center absolute inset-0 w-full h-full"
+          />
+        </picture>
+        <div className="absolute inset-0 bg-brand-dark/80" />
+        <div className="relative z-10 max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-start">
+          <div>
+            <p className="text-blue-300 text-sm font-medium mb-2">
+              <Link href="/markets/erie-pa" className="hover:text-white">Erie PA</Link> › Neighborhoods
+            </p>
+            <h1 className="text-3xl md:text-4xl font-bold text-white mb-4 leading-tight">
+              We Buy Houses in Every Erie PA Neighborhood
+            </h1>
+            <p className="text-lg text-blue-100 mb-4">
+              From the Millcreek corridor to Downtown Erie to the Glenwood neighborhood — we buy Cape Cods, bungalows, and single-family houses throughout Erie and Erie County. Cash offer in 24 hours.
+            </p>
+            <a
+              href={`tel:${PHONE}`}
+              className="inline-block bg-white text-brand-dark font-bold py-3 px-6 rounded-lg hover:bg-blue-50 transition-colors text-sm"
+            >
+              Call {PHONE} — Get a Cash Offer
+            </a>
+          </div>
+          <div>
+            <CashOfferForm variant="hero" sourcePage="/markets/erie-pa/neighborhoods" />
+          </div>
         </div>
+      </section>
 
-        <h1 className="text-3xl md:text-4xl font-bold text-brand-dark mb-4">
-          We Buy Houses in Every Erie PA Neighborhood
-        </h1>
-        <p className="text-gray-600 mb-2">
-          From the Millcreek corridor to Downtown Erie to the Glenwood neighborhood — we buy Cape Cods,
-          bungalows, and single-family houses throughout Erie and Erie County. Cash offer in 24 hours.
-        </p>
-
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="bg-blue-50 border border-blue-200 rounded-xl p-4 mb-8 text-sm">
           <p className="font-semibold text-brand-dark">Erie&apos;s Bifurcated Market</p>
           <p className="text-gray-700">The urban core (ZIPs 16501-16504) trades at $50K-$120K. The suburban Millcreek corridor (16505-16509) has moved to $200K-$400K+. Wherever your property is, we buy in any condition — the offer reflects current as-is value.</p>

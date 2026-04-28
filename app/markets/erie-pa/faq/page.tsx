@@ -4,7 +4,7 @@ import { FAQSection } from '@/components/FAQSection';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
 import { faqSchema, erieLocalBusinessSchema } from '@/lib/schema';
-import { SITE_URL } from '@/lib/utils';
+import { PHONE, SITE_URL } from '@/lib/utils';
 
 export const metadata: Metadata = {
   title: 'Erie PA Cash Home Buyers FAQ',
@@ -76,19 +76,47 @@ export default function ErieFAQPage() {
         faqSchema(FAQ_ITEMS),
       ]} />
 
-      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
-        <div className="mb-4 text-sm text-gray-500">
-          <Link href="/markets/erie-pa" className="text-brand-primary hover:underline">Erie PA</Link> › FAQ
+      <section className="relative text-white py-16 px-4 overflow-hidden">
+        <picture className="absolute inset-0 w-full h-full">
+          <source
+            srcSet="/images/optimized/erie-pa-representative-hero-640.jpg 640w, /images/optimized/erie-pa-representative-hero-828.jpg 828w, /images/optimized/erie-pa-representative-hero-1080.jpg 1080w, /images/optimized/erie-pa-representative-hero-1200.jpg 1200w"
+            type="image/jpeg"
+            sizes="100vw"
+          />
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/images/optimized/erie-pa-representative-hero-1200.jpg"
+            alt="Representative Erie PA home near Lake Erie bayfront on a bright clear day"
+            fetchPriority="high"
+            className="object-cover object-center absolute inset-0 w-full h-full"
+          />
+        </picture>
+        <div className="absolute inset-0 bg-brand-dark/80" />
+        <div className="relative z-10 max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-start">
+          <div>
+            <p className="text-blue-300 text-sm font-medium mb-2">
+              <Link href="/markets/erie-pa" className="hover:text-white">Erie PA</Link> › FAQ
+            </p>
+            <h1 className="text-3xl md:text-4xl font-bold text-white mb-4 leading-tight">
+              Erie PA Cash Home Buyer — Frequently Asked Questions
+            </h1>
+            <p className="text-lg text-blue-100 mb-4">
+              Everything you need to know about selling your Erie PA house for cash — transfer tax, timelines, prices, probate, foreclosure, tenant situations, and more.
+            </p>
+            <a
+              href={`tel:${PHONE}`}
+              className="inline-block bg-white text-brand-dark font-bold py-3 px-6 rounded-lg hover:bg-blue-50 transition-colors text-sm"
+            >
+              Still have questions? Call {PHONE}
+            </a>
+          </div>
+          <div>
+            <CashOfferForm variant="hero" sourcePage="/markets/erie-pa/faq" />
+          </div>
         </div>
+      </section>
 
-        <h1 className="text-3xl md:text-4xl font-bold text-brand-dark mb-4">
-          Erie PA Cash Home Buyer — Frequently Asked Questions
-        </h1>
-        <p className="text-gray-600 mb-2">
-          Everything you need to know about selling your Erie PA house for cash — transfer tax, timelines,
-          prices, probate, foreclosure, tenant situations, and more.
-        </p>
-
+      <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="bg-blue-50 border border-blue-200 rounded-xl p-4 mb-8">
           <p className="text-sm font-semibold text-brand-dark mb-1">Erie&apos;s 2% Transfer Tax — Standard PA Rate</p>
           <p className="text-sm text-gray-700">

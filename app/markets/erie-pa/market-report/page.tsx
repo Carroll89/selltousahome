@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
 import { articleSchema, erieLocalBusinessSchema } from '@/lib/schema';
-import { SITE_URL } from '@/lib/utils';
+import { PHONE, SITE_URL } from '@/lib/utils';
 
 export const revalidate = 86400;
 
@@ -25,6 +25,46 @@ export default function ErieMarketReportPage() {
         articleSchema('Erie PA Housing Market Report 2026', pageUrl, '2026-04-13', '2026-04-16'),
       ]} />
 
+      <section className="relative text-white py-16 px-4 overflow-hidden">
+        <picture className="absolute inset-0 w-full h-full">
+          <source
+            srcSet="/images/optimized/erie-pa-representative-hero-640.jpg 640w, /images/optimized/erie-pa-representative-hero-828.jpg 828w, /images/optimized/erie-pa-representative-hero-1080.jpg 1080w, /images/optimized/erie-pa-representative-hero-1200.jpg 1200w"
+            type="image/jpeg"
+            sizes="100vw"
+          />
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/images/optimized/erie-pa-representative-hero-1200.jpg"
+            alt="Representative Erie PA home near Lake Erie bayfront on a bright clear day"
+            fetchPriority="high"
+            className="object-cover object-center absolute inset-0 w-full h-full"
+          />
+        </picture>
+        <div className="absolute inset-0 bg-brand-dark/80" />
+        <div className="relative z-10 max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-start">
+          <div>
+            <p className="text-blue-300 text-sm font-medium mb-2">
+              <Link href="/markets/erie-pa" className="hover:text-white">Erie PA</Link> › Market Report
+            </p>
+            <h1 className="text-3xl md:text-4xl font-bold text-white mb-4 leading-tight">
+              Erie PA Housing Market Report — 2026
+            </h1>
+            <p className="text-lg text-blue-100 mb-4">
+              Data compiled April 2026. Sources: DataUSA, Redfin, NeighborhoodScout, PA Department of Revenue.
+            </p>
+            <a
+              href={`tel:${PHONE}`}
+              className="inline-block bg-white text-brand-dark font-bold py-3 px-6 rounded-lg hover:bg-blue-50 transition-colors text-sm"
+            >
+              Call {PHONE} — Talk to Someone Today
+            </a>
+          </div>
+          <div>
+            <CashOfferForm variant="hero" sourcePage="/markets/erie-pa/market-report" />
+          </div>
+        </div>
+      </section>
+
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
 
         {/* TL;DR — GEO/AEO Quick Answer */}
@@ -32,15 +72,6 @@ export default function ErieMarketReportPage() {
           <h2 className="text-lg font-bold text-brand-dark mb-2">Quick Answer: Erie PA Housing Market 2026</h2>
           <p className="text-gray-700 text-sm leading-relaxed">According to Redfin (March 2026), the City of Erie median sale price is $153,500, up 13.3% year-over-year, with a 97.7% sale-to-list ratio and median 28 days on market ($112/sqft). Suburban Erie (zip codes 16505/16509) commands $250,000–$300,000. Despite low price points, Erie's market is competitive — Redfin rates it 'Very Competitive' across most zip codes. Erie County charges the standard Pennsylvania transfer tax of 2% (split 1%/1% buyer/seller). Cash buyers offer 70–80% of FMV, closing in 7–14 days as-is.</p>
         </div>
-
-        <div className="mb-4 text-sm text-gray-500">
-          <Link href="/markets/erie-pa" className="text-brand-primary hover:underline">Erie PA</Link> › Market Report
-        </div>
-
-        <h1 className="text-3xl md:text-4xl font-bold text-brand-dark mb-4">
-          Erie PA Housing Market Report — 2026
-        </h1>
-        <p className="text-gray-600 mb-2">Data compiled April 2026. Sources: DataUSA, Redfin, NeighborhoodScout, PA Department of Revenue.</p>
 
         <div className="bg-blue-50 border border-blue-200 rounded-xl p-5 mb-10">
           <p className="font-bold text-brand-dark mb-1">Erie&apos;s Housing Reality</p>
