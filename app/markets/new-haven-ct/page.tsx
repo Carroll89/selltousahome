@@ -8,7 +8,7 @@ import { TestimonialBlock } from '@/components/TestimonialBlock';
 import { ComparisonTable } from '@/components/ComparisonTable';
 import { SituationLinks } from '@/components/SituationLinks';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
-import { organizationSchema, faqSchema } from '@/lib/schema';
+import { newHavenLocalBusinessSchema, faqSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
 import { BlogClusterLinks } from '@/components/BlogClusterLinks';
 import { MultiStepForm } from '@/components/MultiStepForm';
@@ -139,7 +139,7 @@ export default function NewHavenCTMarketPage() {
 
   return (
     <>
-      <SchemaMarkup schema={[organizationSchema, faqSchema(FAQ_ITEMS), howToSchema]} />
+      <SchemaMarkup schema={[newHavenLocalBusinessSchema, faqSchema(FAQ_ITEMS), howToSchema]} />
 
       <section className="relative text-white py-16 px-4 overflow-hidden">
         <picture className="absolute inset-0 w-full h-full">

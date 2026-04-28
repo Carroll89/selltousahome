@@ -1,6 +1,13 @@
+import { existsSync, readdirSync } from 'fs';
+import path from 'path';
 import { NextResponse } from 'next/server';
+import { BLOG_POSTS } from '@/lib/blog';
+
+export const dynamic = 'force-static';
 
 const BASE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.selltousahome.com';
+const PUBLIC_DIR = path.join(process.cwd(), 'public');
+const APP_DIR = path.join(process.cwd(), 'app');
 
 interface ImageEntry {
   pageUrl: string;
@@ -8,144 +15,148 @@ interface ImageEntry {
   title: string;
 }
 
-const IMAGE_ENTRIES: ImageEntry[] = [
-  // Market hero images
-  {
-    pageUrl: `${BASE_URL}/markets/harrisburg-pa`,
-    imageUrl: `${BASE_URL}/images/harrisburg-hero.jpg`,
-    title: 'Sell Your House Fast in Harrisburg PA',
-  },
-  {
-    pageUrl: `${BASE_URL}/markets/allentown-pa`,
-    imageUrl: `${BASE_URL}/images/allentown-hero.jpg`,
-    title: 'Sell Your House Fast in Allentown PA',
-  },
-  {
-    pageUrl: `${BASE_URL}/markets/king-of-prussia-pa`,
-    imageUrl: `${BASE_URL}/images/king-of-prussia-hero.jpg`,
-    title: 'Sell Your House Fast in King of Prussia PA',
-  },
-  // Guide pages (reuse market hero images)
-  {
-    pageUrl: `${BASE_URL}/guides/sell-house-fast-harrisburg-pa-2026`,
-    imageUrl: `${BASE_URL}/images/harrisburg-hero.jpg`,
-    title: 'How to Sell Your House Fast in Harrisburg PA — 2026 Guide',
-  },
-  {
-    pageUrl: `${BASE_URL}/guides/sell-house-fast-allentown-pa-2026`,
-    imageUrl: `${BASE_URL}/images/allentown-hero.jpg`,
-    title: 'How to Sell Your House Fast in Allentown PA — 2026 Guide',
-  },
-  {
-    pageUrl: `${BASE_URL}/guides/sell-house-fast-king-of-prussia-pa-2026`,
-    imageUrl: `${BASE_URL}/images/king-of-prussia-hero.jpg`,
-    title: 'How to Sell Your House Fast in King of Prussia PA — 2026 Guide',
-  },
-  // Market report pages
-  {
-    pageUrl: `${BASE_URL}/markets/harrisburg-pa/market-report`,
-    imageUrl: `${BASE_URL}/images/harrisburg-hero.jpg`,
-    title: 'Harrisburg PA Housing Market Report 2026',
-  },
-  {
-    pageUrl: `${BASE_URL}/markets/allentown-pa/market-report`,
-    imageUrl: `${BASE_URL}/images/allentown-hero.jpg`,
-    title: 'Allentown PA Housing Market Report 2026',
-  },
-  {
-    pageUrl: `${BASE_URL}/markets/king-of-prussia-pa/market-report`,
-    imageUrl: `${BASE_URL}/images/king-of-prussia-hero.jpg`,
-    title: 'King of Prussia PA Housing Market Report 2026',
-  },
-  // KOP situation pages — hero image
-  {
-    pageUrl: `${BASE_URL}/markets/king-of-prussia-pa/foreclosure`,
-    imageUrl: `${BASE_URL}/images/king-of-prussia-hero.jpg`,
-    title: 'Sell Before Foreclosure in King of Prussia PA',
-  },
-  {
-    pageUrl: `${BASE_URL}/markets/king-of-prussia-pa/code-violations`,
-    imageUrl: `${BASE_URL}/images/king-of-prussia-hero.jpg`,
-    title: 'Sell a Home with Code Violations in King of Prussia PA',
-  },
-  {
-    pageUrl: `${BASE_URL}/markets/king-of-prussia-pa/divorce-sale`,
-    imageUrl: `${BASE_URL}/images/king-of-prussia-hero.jpg`,
-    title: 'Sell Your Home During Divorce in King of Prussia PA',
-  },
-  {
-    pageUrl: `${BASE_URL}/markets/king-of-prussia-pa/fire-damage`,
-    imageUrl: `${BASE_URL}/images/king-of-prussia-hero.jpg`,
-    title: 'Sell a Fire-Damaged House in King of Prussia PA',
-  },
-  {
-    pageUrl: `${BASE_URL}/markets/king-of-prussia-pa/inherited-property`,
-    imageUrl: `${BASE_URL}/images/king-of-prussia-hero.jpg`,
-    title: 'Sell an Inherited Home in King of Prussia PA',
-  },
-  {
-    pageUrl: `${BASE_URL}/markets/king-of-prussia-pa/probate`,
-    imageUrl: `${BASE_URL}/images/king-of-prussia-hero.jpg`,
-    title: 'Sell a Probate Property in King of Prussia PA',
-  },
-  {
-    pageUrl: `${BASE_URL}/markets/king-of-prussia-pa/tenant-occupied`,
-    imageUrl: `${BASE_URL}/images/king-of-prussia-hero.jpg`,
-    title: 'Sell a Tenant-Occupied Property in King of Prussia PA',
-  },
-  // KOP situation pages — video poster images
-  {
-    pageUrl: `${BASE_URL}/markets/king-of-prussia-pa/foreclosure`,
-    imageUrl: `${BASE_URL}/images/video-posters/kop-foreclosure.jpg`,
-    title: 'Stop Foreclosure in King of Prussia PA — Video',
-  },
-  {
-    pageUrl: `${BASE_URL}/markets/king-of-prussia-pa/code-violations`,
-    imageUrl: `${BASE_URL}/images/video-posters/kop-code-violations.jpg`,
-    title: 'Sell a Home with Code Violations in King of Prussia PA — Video',
-  },
-  {
-    pageUrl: `${BASE_URL}/markets/king-of-prussia-pa/divorce-sale`,
-    imageUrl: `${BASE_URL}/images/video-posters/kop-divorce.jpg`,
-    title: 'Sell Your Home During Divorce in King of Prussia PA — Video',
-  },
-  {
-    pageUrl: `${BASE_URL}/markets/king-of-prussia-pa/fire-damage`,
-    imageUrl: `${BASE_URL}/images/video-posters/kop-fire-damage.jpg`,
-    title: 'Sell a Fire-Damaged House in King of Prussia PA — Video',
-  },
-  {
-    pageUrl: `${BASE_URL}/markets/king-of-prussia-pa/inherited-property`,
-    imageUrl: `${BASE_URL}/images/video-posters/kop-inherited.jpg`,
-    title: 'Sell an Inherited Home in King of Prussia PA — Video',
-  },
-  {
-    pageUrl: `${BASE_URL}/markets/king-of-prussia-pa/probate`,
-    imageUrl: `${BASE_URL}/images/video-posters/kop-probate.jpg`,
-    title: 'Sell a Probate Property in King of Prussia PA — Video',
-  },
-  {
-    pageUrl: `${BASE_URL}/markets/king-of-prussia-pa/tenant-occupied`,
-    imageUrl: `${BASE_URL}/images/video-posters/kop-tenant.jpg`,
-    title: 'Sell a Tenant-Occupied Property in King of Prussia PA — Video',
-  },
-  // Video poster images
-  {
-    pageUrl: `${BASE_URL}/markets/harrisburg-pa`,
-    imageUrl: `${BASE_URL}/images/video-posters/harrisburg-main.jpg`,
-    title: 'Sell Your House Fast in Harrisburg PA — Video',
-  },
-  {
-    pageUrl: `${BASE_URL}/markets/allentown-pa`,
-    imageUrl: `${BASE_URL}/images/video-posters/allentown-main.jpg`,
-    title: 'Sell Your House Fast in Allentown PA — Video',
-  },
-  {
-    pageUrl: `${BASE_URL}/markets/king-of-prussia-pa`,
-    imageUrl: `${BASE_URL}/images/video-posters/kop-guide.jpg`,
-    title: 'Sell Your House Fast in King of Prussia PA — Video',
-  },
-];
+type ImageCandidate = {
+  publicPath: string;
+  score: number;
+};
+
+function readRouteSlugs(parentDir: string): string[] {
+  const absoluteDir = path.join(APP_DIR, parentDir);
+  if (!existsSync(absoluteDir)) return [];
+
+  return readdirSync(absoluteDir, { withFileTypes: true })
+    .filter((entry) => entry.isDirectory() && existsSync(path.join(absoluteDir, entry.name, 'page.tsx')))
+    .map((entry) => entry.name)
+    .sort();
+}
+
+function readMarketSubpages(marketSlug: string): string[] {
+  const marketDir = path.join(APP_DIR, 'markets', marketSlug);
+  if (!existsSync(marketDir)) return [];
+
+  return readdirSync(marketDir, { withFileTypes: true })
+    .filter((entry) => entry.isDirectory() && existsSync(path.join(marketDir, entry.name, 'page.tsx')))
+    .map((entry) => entry.name)
+    .sort();
+}
+
+function stripStateSuffix(slug: string): string {
+  return slug.replace(/-(pa|de|oh|ma|wi|nh|ct|ny|il)$/, '');
+}
+
+function formatTitle(slug: string): string {
+  return slug
+    .split('-')
+    .map((part) => {
+      const upper = part.toUpperCase();
+      if (['PA', 'DE', 'OH', 'MA', 'WI', 'NH', 'CT', 'NY', 'IL'].includes(upper)) return upper;
+      return part.charAt(0).toUpperCase() + part.slice(1);
+    })
+    .join(' ')
+    .replace('Racine Mount Pleasant', 'Racine-Mount Pleasant')
+    .replace('Champaign Urbana', 'Champaign-Urbana');
+}
+
+function scoreImage(relativePath: string, keys: string[]): number | null {
+  const basename = path.basename(relativePath).toLowerCase();
+  const lowerPath = relativePath.toLowerCase();
+  const matchedKey = keys.find((key) => basename.startsWith(key));
+  if (!matchedKey) return null;
+  if (!/\.(jpg|jpeg|png|webp)$/.test(basename)) return null;
+  if (!basename.includes('hero')) return null;
+
+  let score = 0;
+  if (matchedKey === keys[0]) score += 50;
+  if (lowerPath.includes('/optimized/')) score += 30;
+  if (basename.includes('-1200')) score += 20;
+  if (basename.includes('-xl')) score += 18;
+  if (basename.includes('-1080')) score += 15;
+  if (basename.includes('landmark')) score += 8;
+  if (basename.endsWith('-hero.jpg')) score += 10;
+  return score;
+}
+
+function listImageFiles(dir: string, prefix = ''): string[] {
+  const absoluteDir = path.join(PUBLIC_DIR, dir);
+  if (!existsSync(absoluteDir)) return [];
+
+  return readdirSync(absoluteDir, { withFileTypes: true }).flatMap((entry) => {
+    const relative = path.join(prefix, entry.name);
+    if (entry.isDirectory()) return listImageFiles(path.join(dir, entry.name), relative);
+    if (entry.isFile()) return [`/${path.join(dir, relative).replace(/\\/g, '/')}`];
+    return [];
+  });
+}
+
+const IMAGE_FILES = listImageFiles('images');
+
+function marketHeroImage(slug: string): string | null {
+  const keys = [slug, stripStateSuffix(slug)];
+  const candidates: ImageCandidate[] = IMAGE_FILES
+    .map((publicPath) => {
+      const score = scoreImage(publicPath, keys);
+      return score === null ? null : { publicPath, score };
+    })
+    .filter((candidate): candidate is ImageCandidate => candidate !== null)
+    .sort((a, b) => b.score - a.score || a.publicPath.localeCompare(b.publicPath));
+
+  return candidates[0]?.publicPath ?? null;
+}
+
+function absolute(publicOrAbsolutePath: string): string {
+  if (publicOrAbsolutePath.startsWith('http')) return publicOrAbsolutePath;
+  return `${BASE_URL}${publicOrAbsolutePath.startsWith('/') ? publicOrAbsolutePath : `/${publicOrAbsolutePath}`}`;
+}
+
+function buildImageEntries(): ImageEntry[] {
+  const marketSlugs = readRouteSlugs('markets');
+  const guideSlugs = readRouteSlugs('guides').filter((slug) => slug.startsWith('sell-house-fast-'));
+
+  const entries: ImageEntry[] = [];
+
+  for (const slug of marketSlugs) {
+    const heroImage = marketHeroImage(slug);
+    if (!heroImage) continue;
+
+    const marketTitle = formatTitle(slug);
+    entries.push({
+      pageUrl: `${BASE_URL}/markets/${slug}`,
+      imageUrl: absolute(heroImage),
+      title: `Sell Your House Fast in ${marketTitle}`,
+    });
+
+    for (const subpage of readMarketSubpages(slug)) {
+      entries.push({
+        pageUrl: `${BASE_URL}/markets/${slug}/${subpage}`,
+        imageUrl: absolute(heroImage),
+        title: `${formatTitle(subpage)} in ${marketTitle}`,
+      });
+    }
+  }
+
+  for (const guideSlug of guideSlugs) {
+    const marketSlug = guideSlug.replace(/^sell-house-fast-/, '').replace(/-2026$/, '');
+    const heroImage = marketHeroImage(marketSlug);
+    if (!heroImage) continue;
+
+    entries.push({
+      pageUrl: `${BASE_URL}/guides/${guideSlug}`,
+      imageUrl: absolute(heroImage),
+      title: `How to Sell Your House Fast in ${formatTitle(marketSlug)} — 2026 Guide`,
+    });
+  }
+
+  for (const post of BLOG_POSTS) {
+    if (!post.heroImage) continue;
+    entries.push({
+      pageUrl: `${BASE_URL}/blog/${post.slug}`,
+      imageUrl: absolute(post.heroImage),
+      title: post.heroAlt || post.title,
+    });
+  }
+
+  return entries;
+}
 
 function escape(str: string): string {
   return str
@@ -157,14 +168,18 @@ function escape(str: string): string {
 }
 
 export async function GET() {
-  // Group entries by page URL
   const byPage = new Map<string, ImageEntry[]>();
-  for (const entry of IMAGE_ENTRIES) {
-    if (!byPage.has(entry.pageUrl)) byPage.set(entry.pageUrl, []);
-    byPage.get(entry.pageUrl)!.push(entry);
+
+  for (const entry of buildImageEntries()) {
+    const pageEntries = byPage.get(entry.pageUrl) ?? [];
+    if (!pageEntries.some((existing) => existing.imageUrl === entry.imageUrl)) {
+      pageEntries.push(entry);
+    }
+    byPage.set(entry.pageUrl, pageEntries);
   }
 
   const urlBlocks = Array.from(byPage.entries())
+    .sort(([a], [b]) => a.localeCompare(b))
     .map(([pageUrl, images]) => {
       const imageBlocks = images
         .map(
