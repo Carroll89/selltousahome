@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
-import { articleSchema, faqSchema, allentownLocalBusinessSchema } from '@/lib/schema';
+import { articleSchema, faqSchema, allentownLocalBusinessSchema, videoObjectSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
 import { VideoEmbed } from '@/components/VideoEmbed';
 
@@ -57,6 +57,14 @@ export default function AllentownProbatePage() {
         allentownLocalBusinessSchema,
         articleSchema('Selling a Probate Property in Allentown, PA', pageUrl),
         faqSchema(FAQ_ITEMS),
+        videoObjectSchema({
+          name: 'Selling a Probate Property in Allentown',
+          description:
+            'USA Home Buyers explains how executors and personal representatives can sell Allentown probate properties as-is once estate authority is in place.',
+          contentUrl: 'https://v3b.fal.media/files/b/0a95c0f9/sGkI0ze2QQXFYH2nOxhSa_allentown-probate.mp4',
+          thumbnailUrl: `${SITE_URL}/images/video-posters/allentown-probate-poster.jpg`,
+          uploadDate: '2026-04-06',
+        }),
       ]} />
 
       <section className="relative text-white py-16 px-4 overflow-hidden">
@@ -93,6 +101,7 @@ export default function AllentownProbatePage() {
           </div>
         </div>
       </section>
+      {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
       <VideoEmbed
         src="https://v3b.fal.media/files/b/0a95c0f9/sGkI0ze2QQXFYH2nOxhSa_allentown-probate.mp4"
         title="Selling a Probate Property in Allentown"

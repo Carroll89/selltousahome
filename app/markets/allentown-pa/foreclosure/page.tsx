@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
-import { articleSchema, faqSchema, allentownLocalBusinessSchema } from '@/lib/schema';
+import { articleSchema, faqSchema, allentownLocalBusinessSchema, videoObjectSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
 import { VideoEmbed } from '@/components/VideoEmbed';
 
@@ -57,6 +57,14 @@ export default function AllentownForeclosurePage() {
         allentownLocalBusinessSchema,
         articleSchema('Sell Before Foreclosure in Allentown, PA — Lehigh County', pageUrl),
         faqSchema(FAQ_ITEMS),
+        videoObjectSchema({
+          name: 'Selling Before Foreclosure in Allentown',
+          description:
+            'USA Home Buyers explains how Allentown and Lehigh County homeowners can sell before a sheriff sale, pay off the mortgage at closing, and protect remaining equity.',
+          contentUrl: 'https://v3b.fal.media/files/b/0a95c0f8/WDXLw4OFz0AB3MkMFsn3b_allentown-foreclosure.mp4',
+          thumbnailUrl: `${SITE_URL}/images/video-posters/allentown-foreclosure-poster.jpg`,
+          uploadDate: '2026-04-06',
+        }),
       ]} />
 
       <section className="relative text-white py-16 px-4 overflow-hidden">
@@ -94,6 +102,7 @@ export default function AllentownForeclosurePage() {
           </div>
         </div>
       </section>
+      {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
       <VideoEmbed
         src="https://v3b.fal.media/files/b/0a95c0f8/WDXLw4OFz0AB3MkMFsn3b_allentown-foreclosure.mp4"
         title="Selling Before Foreclosure in Allentown"

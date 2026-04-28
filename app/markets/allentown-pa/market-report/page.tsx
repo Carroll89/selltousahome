@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
-import { faqSchema, allentownLocalBusinessSchema } from '@/lib/schema';
+import { faqSchema, allentownLocalBusinessSchema, videoObjectSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
 import { VideoEmbed } from '@/components/VideoEmbed';
 
@@ -166,7 +166,20 @@ const articleSchemaObj = {
 export default function AllentownMarketReport() {
   return (
     <>
-      <SchemaMarkup schema={[allentownLocalBusinessSchema, datasetSchema, articleSchemaObj, faqSchema(FAQ_ITEMS)]} />
+      <SchemaMarkup schema={[
+        allentownLocalBusinessSchema,
+        datasetSchema,
+        articleSchemaObj,
+        faqSchema(FAQ_ITEMS),
+        videoObjectSchema({
+          name: 'Allentown, PA Real Estate Market Report',
+          description:
+            'USA Home Buyers summarizes the Allentown PA housing market, including median values, days to pending, seller timelines, and cash-offer context for local homeowners.',
+          contentUrl: 'https://v3b.fal.media/files/b/0a95c0f9/Xkj6xhxOG8RjUXMCfaw4H_allentown-market-report.mp4',
+          thumbnailUrl: `${SITE_URL}/images/video-posters/allentown-market-report-poster.jpg`,
+          uploadDate: '2026-04-06',
+        }),
+      ]} />
 
       {/* Hero */}
       <section className="relative text-white py-16 px-4 overflow-hidden">
@@ -207,6 +220,7 @@ export default function AllentownMarketReport() {
           </div>
         </div>
       </section>
+      {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
       <VideoEmbed
         src="https://v3b.fal.media/files/b/0a95c0f9/Xkj6xhxOG8RjUXMCfaw4H_allentown-market-report.mp4"
         title="Allentown, PA Real Estate Market Report"

@@ -9,7 +9,7 @@ import { TestimonialBlock } from '@/components/TestimonialBlock';
 import { ComparisonTable } from '@/components/ComparisonTable';
 import { SituationLinks } from '@/components/SituationLinks';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
-import { faqSchema, howToSchema, allentownLocalBusinessSchema } from '@/lib/schema';
+import { faqSchema, howToSchema, allentownLocalBusinessSchema, videoObjectSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
 import { VideoEmbed } from '@/components/VideoEmbed';
 import { BlogClusterLinks } from '@/components/BlogClusterLinks';
@@ -135,7 +135,19 @@ const allentownFAQSchema = faqSchema(
 export default function AllentownMarketPage() {
   return (
     <>
-      <SchemaMarkup schema={[allentownLocalBusinessSchema, allentownFAQSchema, howToSchema]} />
+      <SchemaMarkup schema={[
+        allentownLocalBusinessSchema,
+        allentownFAQSchema,
+        howToSchema,
+        videoObjectSchema({
+          name: 'Sell Your House Fast in Allentown, PA',
+          description:
+            'USA Home Buyers buys houses as-is for cash in Allentown and Lehigh County with written offers in 24 hours, no repairs, and no agent fees.',
+          contentUrl: 'https://v3b.fal.media/files/b/0a95c0f8/zLYouEqILs7_2R7GIM9GB_allentown-main.mp4',
+          thumbnailUrl: `${SITE_URL}/images/video-posters/allentown-main-poster.jpg`,
+          uploadDate: '2026-04-06',
+        }),
+      ]} />
 
       {/* Hero */}
       <section className="relative text-white py-8 md:py-16 px-4 overflow-hidden">
@@ -188,6 +200,7 @@ export default function AllentownMarketPage() {
           <p className="text-gray-700 leading-relaxed">USA Home Buyers purchases houses in Allentown, PA for cash — as-is, in any condition, with no repairs and no agent fees. According to the Zillow Home Value Index, the typical Allentown home value is $267,465 (February 2026); Redfin's median closed sale price is $245,000, with homes averaging 29 days to pending. We skip the market process entirely — written offer within 24 hours, closing in as few as 7 days. We serve all of Allentown, Bethlehem, Easton, and Lehigh and Northampton Counties.</p>
         </section>
 
+        {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
         <VideoEmbed
         src="https://v3b.fal.media/files/b/0a95c0f8/zLYouEqILs7_2R7GIM9GB_allentown-main.mp4"
         title="Sell Your House Fast in Allentown, PA"
