@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     'We buy houses in Youngstown OH for cash, as-is. Written offer in 24 hours, close in 7 days. No repairs, no fees. Serving all of Mahoning County.',
   alternates: { canonical: `${SITE_URL}/markets/youngstown-oh` },
   openGraph: {
-    images: [{ url: '/images/youngstown-oh-hero.jpg', width: 1200, height: 630, alt: 'Youngstown OH Rust Belt homes — Sell Your House Fast for Cash' }],
+    images: [{ url: '/images/youngstown-oh-representative-hero.jpg', width: 1200, height: 630, alt: 'Representative Youngstown OH early twentieth century home with civic industrial context' }],
   },
 };
 
@@ -132,14 +132,14 @@ export default function YoungstownMarketPage() {
       <section className="relative text-white py-8 md:py-16 px-4 overflow-hidden">
         <picture className="absolute inset-0 w-full h-full">
           <source
-            srcSet="/images/optimized/youngstown-oh-hero-640.jpg 640w, /images/optimized/youngstown-oh-hero-828.jpg 828w, /images/optimized/youngstown-oh-hero-1080.jpg 1080w, /images/optimized/youngstown-oh-hero-1200.jpg 1200w"
+            srcSet="/images/optimized/youngstown-oh-representative-hero-640.jpg 640w, /images/optimized/youngstown-oh-representative-hero-828.jpg 828w, /images/optimized/youngstown-oh-representative-hero-1080.jpg 1080w, /images/optimized/youngstown-oh-representative-hero-1200.jpg 1200w"
             type="image/jpeg"
             sizes="100vw"
           />
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/images/optimized/youngstown-oh-hero-1200.jpg"
-            alt="Youngstown OH Rust Belt residential street — sell your house fast for cash"
+            src="/images/optimized/youngstown-oh-representative-hero-1200.jpg"
+            alt="Representative Youngstown OH early twentieth century home with civic industrial context"
             fetchPriority="high"
             className="object-cover object-center absolute inset-0 w-full h-full"
           />

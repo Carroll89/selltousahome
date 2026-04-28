@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     'We buy houses in Erie PA for cash, as-is. Written offer in 24 hours, close in 7 days. No repairs, no fees. Serving Erie County — 77% pre-1970 homes, any condition.',
   alternates: { canonical: `${SITE_URL}/markets/erie-pa` },
   openGraph: {
-    images: [{ url: '/images/erie-pa-hero.jpg', width: 1200, height: 630, alt: 'Erie PA home — Sell Your House Fast in Erie PA' }],
+    images: [{ url: '/images/erie-pa-representative-hero.jpg', width: 1200, height: 630, alt: 'Representative Erie PA home near Lake Erie bayfront on a bright clear day' }],
   },
 };
 
@@ -144,14 +144,14 @@ export default function ErieMarketPage() {
       <section className="relative text-white py-8 md:py-16 px-4 overflow-hidden">
         <picture className="absolute inset-0 w-full h-full">
           <source
-            srcSet="/images/optimized/erie-pa-hero-640.jpg 640w, /images/optimized/erie-pa-hero-828.jpg 828w, /images/optimized/erie-pa-hero-1080.jpg 1080w, /images/optimized/erie-pa-hero-1200.jpg 1200w"
+            srcSet="/images/optimized/erie-pa-representative-hero-640.jpg 640w, /images/optimized/erie-pa-representative-hero-828.jpg 828w, /images/optimized/erie-pa-representative-hero-1080.jpg 1080w, /images/optimized/erie-pa-representative-hero-1200.jpg 1200w"
             type="image/jpeg"
             sizes="100vw"
           />
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/images/optimized/erie-pa-hero-1200.jpg"
-            alt="Erie PA home — we buy houses fast for cash"
+            src="/images/optimized/erie-pa-representative-hero-1200.jpg"
+            alt="Representative Erie PA home near Lake Erie bayfront on a bright clear day"
             fetchPriority="high"
             className="object-cover object-center absolute inset-0 w-full h-full"
           />

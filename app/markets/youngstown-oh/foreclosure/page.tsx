@@ -57,14 +57,14 @@ export default function YoungstownForeclosurePage() {
       <section className="relative text-white py-16 px-4 overflow-hidden">
         <picture className="absolute inset-0 w-full h-full">
           <source
-            srcSet="/images/optimized/youngstown-oh-hero-640.jpg 640w, /images/optimized/youngstown-oh-hero-828.jpg 828w, /images/optimized/youngstown-oh-hero-1080.jpg 1080w, /images/optimized/youngstown-oh-hero-1200.jpg 1200w"
+            srcSet="/images/optimized/youngstown-oh-representative-hero-640.jpg 640w, /images/optimized/youngstown-oh-representative-hero-828.jpg 828w, /images/optimized/youngstown-oh-representative-hero-1080.jpg 1080w, /images/optimized/youngstown-oh-representative-hero-1200.jpg 1200w"
             type="image/jpeg"
             sizes="100vw"
           />
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/images/optimized/youngstown-oh-hero-1200.jpg"
-            alt="Youngstown OH home — stop foreclosure with a cash sale"
+            src="/images/optimized/youngstown-oh-representative-hero-1200.jpg"
+            alt="Representative Youngstown OH early twentieth century home with civic industrial context"
             fetchPriority="high"
             className="object-cover object-center absolute inset-0 w-full h-full"
           />

@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     'We buy houses in Harrisburg PA for cash, as-is, in any condition. Written offer in 24 hours, close in 7 days. No repairs, no fees.',
   alternates: { canonical: 'https://www.selltousahome.com/markets/harrisburg-pa' },
   openGraph: {
-    images: [{ url: '/images/harrisburg-landmark-hero.jpg', width: 1200, height: 630, alt: 'Pennsylvania State Capitol and Harrisburg row homes — Sell Your House Fast in Harrisburg PA' }],
+    images: [{ url: '/images/harrisburg-pa-representative-hero.jpg', width: 1200, height: 630, alt: 'Representative Harrisburg PA brick row homes with Pennsylvania State Capitol context' }],
   },
 };
 
@@ -143,14 +143,14 @@ export default function HarrisburgMarketPage() {
       <section className="relative text-white py-8 md:py-16 px-4 overflow-hidden">
         <picture className="absolute inset-0 w-full h-full">
           <source
-            srcSet="/images/optimized/harrisburg-landmark-hero-640.jpg 640w, /images/optimized/harrisburg-landmark-hero-828.jpg 828w, /images/optimized/harrisburg-landmark-hero-1080.jpg 1080w, /images/optimized/harrisburg-landmark-hero-1200.jpg 1200w"
+            srcSet="/images/optimized/harrisburg-pa-representative-hero-640.jpg 640w, /images/optimized/harrisburg-pa-representative-hero-828.jpg 828w, /images/optimized/harrisburg-pa-representative-hero-1080.jpg 1080w, /images/optimized/harrisburg-pa-representative-hero-1200.jpg 1200w"
             type="image/jpeg"
             sizes="100vw"
           />
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/images/optimized/harrisburg-landmark-hero-1200.jpg"
-            alt="Harrisburg PA homes — we buy houses fast for cash"
+            src="/images/optimized/harrisburg-pa-representative-hero-1200.jpg"
+            alt="Representative Harrisburg PA brick row homes with Pennsylvania State Capitol context"
             fetchPriority="high"
             className="object-cover object-center absolute inset-0 w-full h-full"
           />

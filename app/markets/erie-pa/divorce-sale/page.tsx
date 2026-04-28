@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import Image from 'next/image';
 import Link from 'next/link';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
@@ -54,13 +53,20 @@ export default function ErieDivorceSalePage() {
       ]} />
 
       <section className="relative text-white py-16 px-4 overflow-hidden">
-        <Image
-          src="/images/erie-pa-hero.jpg"
-          alt="Erie PA home — sell during divorce fast for cash"
-          fill
-          className="object-cover object-center"
-          priority
-        />
+        <picture className="absolute inset-0 w-full h-full">
+          <source
+            srcSet="/images/optimized/erie-pa-representative-hero-640.jpg 640w, /images/optimized/erie-pa-representative-hero-828.jpg 828w, /images/optimized/erie-pa-representative-hero-1080.jpg 1080w, /images/optimized/erie-pa-representative-hero-1200.jpg 1200w"
+            type="image/jpeg"
+            sizes="100vw"
+          />
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/images/optimized/erie-pa-representative-hero-1200.jpg"
+            alt="Representative Erie PA home near Lake Erie bayfront on a bright clear day"
+            fetchPriority="high"
+            className="object-cover object-center absolute inset-0 w-full h-full"
+          />
+        </picture>
         <div className="absolute inset-0 bg-brand-dark/80" />
         <div className="relative z-10 max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-start">
           <div>
