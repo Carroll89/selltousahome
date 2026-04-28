@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
-import { articleSchema, faqSchema, kingOfPrussiaLocalBusinessSchema } from '@/lib/schema';
+import { articleSchema, faqSchema, kingOfPrussiaLocalBusinessSchema, videoObjectSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
 import { VideoEmbed } from '@/components/VideoEmbed';
 
@@ -53,6 +53,12 @@ export default function KopProbatePage() {
         kingOfPrussiaLocalBusinessSchema,
         articleSchema('Selling a Probate Property in King of Prussia, PA', pageUrl),
         faqSchema(FAQ_ITEMS),
+        videoObjectSchema({
+          name: 'Selling a Probate Property in Montgomery County PA',
+          description: 'We work with executors and the Register of Wills process',
+          contentUrl: 'https://v3b.fal.media/files/b/0a95df1c/KQo_XFArGldrHQEJk2zmF_tmpvn8hov_u.mp4',
+          thumbnailUrl: `${SITE_URL}/images/video-posters/kop-probate.jpg`,
+        }),
       ]} />
 
       <section className="relative text-white py-16 px-4 overflow-hidden">
@@ -90,6 +96,7 @@ export default function KopProbatePage() {
         </div>
       </section>
 
+      {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
       <VideoEmbed
         src="https://v3b.fal.media/files/b/0a95df1c/KQo_XFArGldrHQEJk2zmF_tmpvn8hov_u.mp4"
         title="Selling a Probate Property in Montgomery County PA"

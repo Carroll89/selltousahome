@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
-import { faqSchema, kingOfPrussiaLocalBusinessSchema } from '@/lib/schema';
+import { faqSchema, kingOfPrussiaLocalBusinessSchema, videoObjectSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
 import { VideoEmbed } from '@/components/VideoEmbed';
 
@@ -171,7 +171,18 @@ export default function KingOfPrussiaMarketReport() {
   return (
     <>
       <SchemaMarkup
-        schema={[kingOfPrussiaLocalBusinessSchema, datasetSchema, reportArticleSchema, faqSchema(FAQ_ITEMS)]}
+        schema={[
+          kingOfPrussiaLocalBusinessSchema,
+          datasetSchema,
+          reportArticleSchema,
+          faqSchema(FAQ_ITEMS),
+          videoObjectSchema({
+            name: 'King of Prussia PA Real Estate Market Report 2026',
+            description: '$453K median value — competitive market, but we buy in any condition',
+            contentUrl: 'https://v3b.fal.media/files/b/0a95dee2/wgOSCCLedS62biZT2idSa_tmpsnmzp1ou.mp4',
+            thumbnailUrl: `${SITE_URL}/images/video-posters/kop-market-report.jpg`,
+          }),
+        ]}
       />
 
       {/* Hero */}
@@ -214,6 +225,7 @@ export default function KingOfPrussiaMarketReport() {
         </div>
       </section>
 
+      {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
       <VideoEmbed
         src="https://v3b.fal.media/files/b/0a95dee2/wgOSCCLedS62biZT2idSa_tmpsnmzp1ou.mp4"
         title="King of Prussia PA Real Estate Market Report 2026"

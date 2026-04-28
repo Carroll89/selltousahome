@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
-import { articleSchema, faqSchema, kingOfPrussiaLocalBusinessSchema } from '@/lib/schema';
+import { articleSchema, faqSchema, kingOfPrussiaLocalBusinessSchema, videoObjectSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
 import { VideoEmbed } from '@/components/VideoEmbed';
 
@@ -53,6 +53,12 @@ export default function KopDivorceSalePage() {
         kingOfPrussiaLocalBusinessSchema,
         articleSchema('Selling a House During Divorce in King of Prussia, PA', pageUrl),
         faqSchema(FAQ_ITEMS),
+        videoObjectSchema({
+          name: 'Selling Your House During Divorce in King of Prussia',
+          description: 'Neutral third party — fair offer, fast close, done',
+          contentUrl: 'https://v3b.fal.media/files/b/0a95df0e/xq97s-oPWTHJKhDC2X5H-_tmprp6rudrp.mp4',
+          thumbnailUrl: `${SITE_URL}/images/video-posters/kop-divorce.jpg`,
+        }),
       ]} />
 
       <section className="relative text-white py-16 px-4 overflow-hidden">
@@ -90,6 +96,7 @@ export default function KopDivorceSalePage() {
         </div>
       </section>
 
+      {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
       <VideoEmbed
         src="https://v3b.fal.media/files/b/0a95df0e/xq97s-oPWTHJKhDC2X5H-_tmprp6rudrp.mp4"
         title="Selling Your House During Divorce in King of Prussia"

@@ -5,7 +5,7 @@ import { CashOfferForm } from '@/components/CashOfferForm';
 import { VideoEmbed } from '@/components/VideoEmbed';
 import { FAQSection } from '@/components/FAQSection';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
-import { articleSchema, faqSchema, kingOfPrussiaLocalBusinessSchema } from '@/lib/schema';
+import { articleSchema, faqSchema, kingOfPrussiaLocalBusinessSchema, videoObjectSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
 
 export const metadata: Metadata = {
@@ -53,6 +53,12 @@ export default function KopCodeViolationsPage() {
         kingOfPrussiaLocalBusinessSchema,
         articleSchema('Selling a Home with Code Violations in King of Prussia, PA', pageUrl),
         faqSchema(FAQ_ITEMS),
+        videoObjectSchema({
+          name: 'Selling a Home with Code Violations in King of Prussia',
+          description: 'As-is cash sale — violations handled after closing',
+          contentUrl: `${SITE_URL}/videos/kop/kop-code-violations.mp4`,
+          thumbnailUrl: `${SITE_URL}/images/video-posters/kop-code-violations.jpg`,
+        }),
       ]} />
 
       <section className="relative text-white py-16 px-4 overflow-hidden">
@@ -90,6 +96,7 @@ export default function KopCodeViolationsPage() {
         </div>
       </section>
 
+      {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
       <VideoEmbed
         src="/videos/kop/kop-code-violations.mp4"
         title="Selling a Home with Code Violations in King of Prussia"

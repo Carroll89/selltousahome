@@ -10,7 +10,7 @@ import { ComparisonTable } from '@/components/ComparisonTable';
 import { SituationLinks } from '@/components/SituationLinks';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
 import { VideoEmbed } from '@/components/VideoEmbed';
-import { kingOfPrussiaLocalBusinessSchema, faqSchema, howToSchema } from '@/lib/schema';
+import { kingOfPrussiaLocalBusinessSchema, faqSchema, howToSchema, videoObjectSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
 import { MultiStepForm } from '@/components/MultiStepForm';
 import { BlogClusterLinks } from '@/components/BlogClusterLinks';
@@ -149,7 +149,19 @@ const kopFAQSchema = faqSchema(FAQ_ITEMS);
 export default function KingOfPrussiaMarketPage() {
   return (
     <>
-      <SchemaMarkup schema={[kingOfPrussiaLocalBusinessSchema, kopFAQSchema, howToSchema]} />
+      <SchemaMarkup
+        schema={[
+          kingOfPrussiaLocalBusinessSchema,
+          kopFAQSchema,
+          howToSchema,
+          videoObjectSchema({
+            name: 'Sell Your House Fast in King of Prussia, PA',
+            description: 'Cash offer in 24 hours — no repairs, no agent fees',
+            contentUrl: 'https://v3b.fal.media/files/b/0a95decf/74Ql1wWuwS01CHQNHWto7_tmp_92t1iuy.mp4',
+            thumbnailUrl: `${SITE_URL}/images/video-posters/kop-main.jpg`,
+          }),
+        ]}
+      />
 
       {/* Hero */}
       <section className="relative text-white py-8 md:py-16 px-4 overflow-hidden">
@@ -206,11 +218,12 @@ export default function KingOfPrussiaMarketPage() {
           <p className="text-gray-700 leading-relaxed">USA Home Buyers purchases houses in King of Prussia, PA for cash — no repairs, no fees, close in your timeline. According to the Zillow Home Value Index, the King of Prussia median home value is $453,560 (February 2026, +5.9% year-over-year); Redfin's median closed sale price is $549,350. The typical KOP home takes 34 days to go pending and another 45–60 days to close — roughly 80–95 days total. We close in 7–14 days. No inspections, no appraisals, no financing contingencies. Montgomery County's standard 2% transfer tax applies; we cover all closing costs.</p>
         </section>
 
+        {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
         <VideoEmbed
-        src="https://v3b.fal.media/files/b/0a95decf/74Ql1wWuwS01CHQNHWto7_tmp_92t1iuy.mp4"
-        title="Sell Your House Fast in King of Prussia, PA"
-        poster="/images/video-posters/kop-main.jpg"
-        subtitle="Cash offer in 24 hours — no repairs, no agent fees"
+          src="https://v3b.fal.media/files/b/0a95decf/74Ql1wWuwS01CHQNHWto7_tmp_92t1iuy.mp4"
+          title="Sell Your House Fast in King of Prussia, PA"
+          poster="/images/video-posters/kop-main.jpg"
+          subtitle="Cash offer in 24 hours — no repairs, no agent fees"
         />
         <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
         <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">

@@ -6,7 +6,7 @@ import { VideoEmbed } from '@/components/VideoEmbed';
 import { FAQSection } from '@/components/FAQSection';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
 import { ComparisonTable } from '@/components/ComparisonTable';
-import { articleSchema, faqSchema, kingOfPrussiaLocalBusinessSchema } from '@/lib/schema';
+import { articleSchema, faqSchema, kingOfPrussiaLocalBusinessSchema, videoObjectSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
 
 export const metadata: Metadata = {
@@ -77,6 +77,12 @@ export default function SellHouseFastKopGuide() {
           articleSchema('Selling Your House Fast in King of Prussia, PA: The Complete 2026 Guide', pageUrl),
           faqSchema(FAQ_ITEMS),
           kingOfPrussiaLocalBusinessSchema,
+          videoObjectSchema({
+            name: 'How to Sell Your House Fast in King of Prussia (2026 Guide)',
+            description: 'Cash offers, agents, iBuyers — honest comparison',
+            contentUrl: `${SITE_URL}/videos/kop/kop-guide.mp4`,
+            thumbnailUrl: `${SITE_URL}/images/video-posters/kop-guide.jpg`,
+          }),
         ]}
       />
 
@@ -114,6 +120,7 @@ export default function SellHouseFastKopGuide() {
         </div>
       </section>
 
+      {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
       <VideoEmbed
         src="/videos/kop/kop-guide.mp4"
         title="How to Sell Your House Fast in King of Prussia (2026 Guide)"
