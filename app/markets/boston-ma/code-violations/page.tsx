@@ -45,8 +45,19 @@ export default function BostonCodeViolationsPage() {
       <div className="max-w-7xl mx-auto px-4 py-8">
         <section className="my-8">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">Code Violations in Boston — What Homeowners Face</h2>
-          <p className="text-gray-700 mb-4">Boston's Inspectional Services Department (ISD) enforces building, housing, sanitary, fire, and lead paint codes across the city. Massachusetts has some of the strictest lead paint laws in the country — MGL Ch. 111 §197A requires lead paint removal or encapsulation in any unit where a child under 6 resides. Deleading a Boston triple-decker can cost $8,000-$15,000 per unit.</p>
-          <p className="text-gray-700">The State Sanitary Code (105 CMR 410) sets minimum standards for all rental housing — heating, plumbing, electrical, structural, pest control. Violations can result in fines, rent withholding, and receivership. For many Boston landlords, the cost of compliance exceeds what they can finance. We buy these properties as-is.</p>
+          <p className="text-gray-700 mb-4">
+            Per Massachusetts General Laws Chapter 111, Section 197A, Massachusetts requires lead paint removal or
+            encapsulation in any residential unit where a child under 6 years old resides — and Boston's Inspectional
+            Services Department (ISD) actively enforces these orders citywide. Deleading a Boston triple-decker can run
+            roughly $8,000–$15,000 per unit as an operational repair estimate, but that range is not presented here as an
+            official source-backed cost benchmark.
+          </p>
+          <p className="text-gray-700">
+            According to the Massachusetts State Sanitary Code (105 CMR 410), all residential rental housing must meet
+            minimum standards covering heating, plumbing, electrical, structural integrity, and pest control. Violations
+            can result in fines from ISD, tenant rent-withholding rights, and in serious cases, receivership. For many
+            Boston landlords, the cost of compliance exceeds what they can finance. We buy these properties as-is.
+          </p>
         </section>
         <FAQSection items={FAQ_ITEMS} heading="FAQs — Code Violations in Boston MA" />
         <section className="my-8"><div className="grid grid-cols-2 md:grid-cols-3 gap-3">

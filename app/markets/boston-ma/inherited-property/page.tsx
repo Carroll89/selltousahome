@@ -45,9 +45,27 @@ export default function BostonInheritedPropertyPage() {
       <div className="max-w-7xl mx-auto px-4 py-8">
         <section className="my-8">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">Selling Inherited Property in Boston</h2>
-          <p className="text-gray-700 mb-4">Inheriting a house in Boston often means inheriting expensive problems. A Dorchester triple-decker with lead paint on every floor. A Roxbury Victorian with a failed boiler. Property taxes in Suffolk County averaging $10-$14 per $1,000 of assessed value — piling up while probate moves through Suffolk County Probate and Family Court.</p>
-          <p className="text-gray-700 mb-4">Massachusetts may require a license to sell real estate from an estate unless the will specifically grants that authority (MGL Ch. 202). Your probate attorney can advise. Once you have authority, we can close in as few as 7 days.</p>
-          <p className="text-gray-700">We buy estate properties across Greater Boston in any condition — from Mattapan multi-families to Charlestown row houses. Full of belongings, outdated systems, structural issues — we handle it all.</p>
+          <p className="text-gray-700 mb-4">
+            Inheriting a house in Boston often means inheriting expensive problems. A Dorchester triple-decker with lead paint
+            on every floor. A Roxbury Victorian with a failed boiler. Property taxes piling up while probate moves through
+            the court system.
+          </p>
+          <p className="text-gray-700 mb-4">
+            Per Massachusetts General Laws Chapter 202, selling real estate from an estate typically requires court authorization —
+            specifically, a license to sell from the probate court — unless the will explicitly grants that authority to the
+            personal representative. Suffolk County Probate and Family Court handles these proceedings for Boston estates.
+            Your probate attorney can advise on timeline and process.
+          </p>
+          <p className="text-gray-700 mb-4">
+            Standard estates in Suffolk County without complications typically take 3–8 months from filing
+            to full authorization — contested estates take longer. Suffolk County Probate and Family Court
+            (mass.gov/locations/suffolk-probate-and-family-court) handles these proceedings. Once you have authority to sell,
+            we can close in as few as 7 days.
+          </p>
+          <p className="text-gray-700">
+            We buy estate properties across Greater Boston in any condition — Mattapan multi-families, Charlestown row houses,
+            East Boston two-families. Full of belongings, outdated systems, structural issues — we handle it all.
+          </p>
         </section>
         <FAQSection items={FAQ_ITEMS} heading="FAQs — Inherited Property in Boston MA" />
         <section className="my-8"><div className="grid grid-cols-2 md:grid-cols-3 gap-3">

@@ -45,7 +45,17 @@ export default function BostonProbatePage() {
       <div className="max-w-7xl mx-auto px-4 py-8">
         <section className="my-8">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">Selling Estate Property Through Suffolk County Probate Court</h2>
-          <p className="text-gray-700 mb-4">Estate properties in Boston often sit vacant during probate — Suffolk County property taxes pile up ($10-$14 per $1,000 of assessed value), pipes freeze in winter, and the city's Inspectional Services Department may issue violations. A quick cash sale after appointment eliminates carrying costs and gets proceeds to heirs faster.</p>
+          <p className="text-gray-700 mb-4">
+            Per Massachusetts General Laws Chapter 202, selling real estate from an estate may require court authorization,
+            including a license to sell from the probate court, unless the will or ownership structure grants that authority.
+            Estate properties in Boston often sit vacant during that process — taxes, utilities, winterization risk, and
+            Inspectional Services Department notices can keep accumulating while heirs wait.
+          </p>
+          <p className="text-gray-700 mb-4">
+            According to the Suffolk County Probate and Family Court (mass.gov/locations/suffolk-probate-and-family-court),
+            Boston probate matters are handled through the Suffolk court system. Once the personal representative has authority
+            to sell, a quick cash sale can reduce carrying costs and get proceeds to heirs faster.
+          </p>
           <p className="text-gray-700">We buy estate properties in any condition across Greater Boston — from Dorchester triple-deckers to Jamaica Plain Victorians.</p>
         </section>
         <FAQSection items={FAQ_ITEMS} heading="FAQs — Probate Sales in Boston MA" />

@@ -45,8 +45,16 @@ export default function BostonDivorceSalePage() {
       <div className="max-w-7xl mx-auto px-4 py-8">
         <section className="my-8">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">Selling a House During Divorce in Boston</h2>
-          <p className="text-gray-700 mb-4">In Massachusetts, divorce cases go through Probate and Family Court — the same court that handles estate matters. When the court orders a property sale or both parties agree, a direct cash sale removes the biggest friction point. No repairs on a $800K+ property, no staging, no 6-month listing process while both parties carry the mortgage.</p>
-          <p className="text-gray-700">We handle Suffolk County divorce sales regularly. One written offer, both attorneys review, close on a date that works. Any property type — from South Boston row houses to Dorchester triple-deckers.</p>
+          <p className="text-gray-700 mb-4">
+            According to the Massachusetts Probate and Family Court system, divorce cases are handled in Probate and Family
+            Court — the same court division that handles estate matters. When the court orders a property sale or both parties
+            agree, a direct cash sale removes the biggest friction point: no repairs, no staging, no prolonged listing process
+            while both parties carry the mortgage.
+          </p>
+          <p className="text-gray-700">
+            We handle Suffolk County divorce sales regularly. One written offer, both attorneys review, close on a date that
+            works. Any property type — from South Boston row houses to Dorchester triple-deckers.
+          </p>
         </section>
         <FAQSection items={FAQ_ITEMS} heading="FAQs — Divorce Sale in Boston MA" />
         <section className="my-8"><div className="grid grid-cols-2 md:grid-cols-3 gap-3">

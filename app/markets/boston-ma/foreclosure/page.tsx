@@ -45,14 +45,21 @@ export default function BostonForeclosurePage() {
       <div className="max-w-7xl mx-auto px-4 py-8">
         <section className="my-8">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">How Non-Judicial Foreclosure Works in Massachusetts</h2>
-          <p className="text-gray-700 mb-4">Massachusetts foreclosure by power of sale (MGL Ch. 244) proceeds without court involvement:</p>
+          <p className="text-gray-700 mb-4">
+            Per Massachusetts General Laws Chapter 244, Massachusetts allows foreclosure by power of sale without court
+            involvement — one of the faster non-judicial processes in the Northeast:
+          </p>
           <ol className="list-decimal list-inside text-gray-700 space-y-2 mb-4">
             <li>Lender sends a right-to-cure notice — you have 150 days to cure the default.</li>
             <li>If not cured, lender publishes a notice of sale in a local newspaper for 3 consecutive weeks.</li>
             <li>Public auction is held at or near the property.</li>
             <li>If no bidder meets the minimum, the lender takes title.</li>
           </ol>
-          <p className="text-gray-700">Total timeline from default to auction: typically 4-7 months. A direct cash sale before the auction preserves your equity and avoids a foreclosure on your credit for seven years.</p>
+          <p className="text-gray-700 mb-4">
+            According to the Massachusetts Trial Court (mass.gov/courts), the total timeline from default to auction typically
+            runs 4–7 months. A direct cash sale before the auction preserves your equity and prevents a foreclosure record
+            from remaining on your credit for seven years.
+          </p>
         </section>
         <FAQSection items={FAQ_ITEMS} heading="FAQs — Foreclosure in Boston MA" />
         <section className="my-8">

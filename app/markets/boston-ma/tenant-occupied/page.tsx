@@ -45,8 +45,22 @@ export default function BostonTenantOccupiedPage() {
       <div className="max-w-7xl mx-auto px-4 py-8">
         <section className="my-8">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">Selling Rental Property in Boston</h2>
-          <p className="text-gray-700 mb-4">Boston is one of the most tenant-friendly cities in the country. Eviction through Boston Housing Court requires strict notice procedures, a court hearing, and potential appeals — the process routinely takes 3-6 months. For landlords with problem tenants, that timeline feels infinite when you're carrying a mortgage, insurance, and property taxes on a property that isn't generating income.</p>
-          <p className="text-gray-700">We buy triple-deckers, two-families, and multi-units across Boston with tenants in place. Dorchester, Roxbury, East Boston, Mattapan, Brighton — every neighborhood. You don't wait for an eviction to sell.</p>
+          <p className="text-gray-700 mb-4">
+            Per Massachusetts General Laws Chapter 186, tenants are protected by a range of statutory rights that govern
+            notice periods, lease enforcement, and summary process requirements — making Massachusetts one of the more
+            tenant-protective states in the country. Eviction through Boston Housing Court requires a formal notice to quit,
+            a court hearing, and a post-judgment appeal window.
+          </p>
+          <p className="text-gray-700 mb-4">
+            According to the Massachusetts Trial Court (mass.gov/courts), the eviction process starts with a notice period,
+            proceeds to a court date, and then includes an appeal window before enforcement — a timeline that often runs
+            multiple months or longer if contested. For landlords carrying mortgage, insurance, and taxes on a non-paying unit,
+            that wait isn't abstract.
+          </p>
+          <p className="text-gray-700">
+            We buy triple-deckers, two-families, and multi-units with tenants in place. Dorchester, Roxbury, East Boston,
+            Mattapan, Brighton — every neighborhood. You don't need to wait for eviction to close.
+          </p>
         </section>
         <FAQSection items={FAQ_ITEMS} heading="FAQs — Tenant-Occupied Property in Boston MA" />
         <section className="my-8"><div className="grid grid-cols-2 md:grid-cols-3 gap-3">

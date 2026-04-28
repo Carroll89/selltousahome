@@ -3,9 +3,20 @@ interface VideoEmbedProps {
   title: string;
   poster?: string;
   subtitle?: string;
+  captionsSrc?: string;
+  captionsLabel?: string;
+  captionsLang?: string;
 }
 
-export function VideoEmbed({ src, title, poster, subtitle }: VideoEmbedProps) {
+export function VideoEmbed({
+  src,
+  title,
+  poster,
+  subtitle,
+  captionsSrc,
+  captionsLabel,
+  captionsLang,
+}: VideoEmbedProps) {
   return (
     <section className="bg-brand-light py-10 px-4">
       <div className="max-w-2xl mx-auto text-center">
@@ -26,7 +37,17 @@ export function VideoEmbed({ src, title, poster, subtitle }: VideoEmbedProps) {
             preload="none"
             className="w-full rounded-xl"
             aria-label={title}
-          />
+          >
+            {captionsSrc && (
+              <track
+                kind="captions"
+                src={captionsSrc}
+                srcLang={captionsLang ?? 'en'}
+                label={captionsLabel ?? 'English captions'}
+                default
+              />
+            )}
+          </video>
         </div>
       </div>
     </section>

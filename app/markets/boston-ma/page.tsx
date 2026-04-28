@@ -8,7 +8,7 @@ import { TestimonialBlock } from '@/components/TestimonialBlock';
 import { ComparisonTable } from '@/components/ComparisonTable';
 import { SituationLinks } from '@/components/SituationLinks';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
-import { bostonLocalBusinessSchema, faqSchema } from '@/lib/schema';
+import { bostonLocalBusinessSchema, faqSchema, videoObjectSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
 import { BlogClusterLinks } from '@/components/BlogClusterLinks';
 import { MultiStepForm } from '@/components/MultiStepForm';
@@ -136,7 +136,18 @@ export default function BostonMAMarketPage() {
 
   return (
     <>
-      <SchemaMarkup schema={[bostonLocalBusinessSchema, faqSchema(FAQ_ITEMS), howToSchema]} />
+      <SchemaMarkup schema={[
+        bostonLocalBusinessSchema,
+        faqSchema(FAQ_ITEMS),
+        howToSchema,
+        videoObjectSchema({
+          name: 'Sell My House Fast Boston MA — USA Home Buyers',
+          description:
+            'USA Home Buyers purchases homes in Boston and Greater Boston for cash, as-is, in any condition. Call 888-274-5006 for a written offer in 24 hours.',
+          contentUrl: `${SITE_URL}/videos/boston-ma/landing.mp4`,
+          uploadDate: '2026-04-18',
+        }),
+      ]} />
 
       <section className="relative text-white py-16 px-4 overflow-hidden">
         <div className="absolute inset-0 bg-brand-dark" />
@@ -166,11 +177,20 @@ export default function BostonMAMarketPage() {
         </div>
       </section>
 
+      {/* VIDEO_CAPTION_EXCEPTION: 4.1s clip, audio pending human review — date:2026-04-28 approver:Dan */}
       <VideoEmbed
         src="/videos/boston-ma/landing.mp4"
         title="Sell My House Fast Boston MA — USA Home Buyers"
         subtitle="Cash offers for Boston and Greater Boston homes — any condition"
       />
+
+      {/* VIDEO_SUMMARY_PENDING_REVIEW: audio not yet human-verified — replace with real transcript after Lens review */}
+      <div className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <h3 className="px-4 pt-3 text-sm font-semibold text-gray-700">About This Video</h3>
+        <p className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+          USA Home Buyers purchases houses throughout Boston and Greater Boston for cash, including properties in Dorchester, Roxbury, Mattapan, East Boston, South Boston, Jamaica Plain, Cambridge, Somerville, and Quincy. Whether your home needs significant repairs, you're dealing with a foreclosure notice, managing an inherited property, navigating a divorce sale, or working through lead paint or code issues — we buy as-is, with no agent fees and no repairs required. We provide a written cash offer within 24 hours and close on a date that works for you. Call 888-274-5006.
+        </p>
+      </div>
 
       <div className="max-w-7xl mx-auto px-4 py-8">
         <HowItWorks />
@@ -178,7 +198,7 @@ export default function BostonMAMarketPage() {
         <section className="my-12">
           <h2 className="text-2xl md:text-3xl font-bold text-brand-dark mb-6">Boston MA Real Estate Market — What Sellers Need to Know</h2>
           <p className="text-gray-700 mb-4">
-            Boston is one of the most expensive housing markets in the country and the #15 hottest market nationally per Realtor.com's March 2026 Hotness Index. The metro median listing price sits around $829,000 — driven by limited supply, institutional demand, and the concentration of universities and hospitals. But Boston's market is deeply neighborhood-dependent: a Mattapan triple-decker and a Back Bay brownstone exist in entirely different price universes.
+            According to Realtor.com's March 2026 Hotness Index, Boston ranks #15 nationally out of 300+ metro areas — a function of constrained inventory, institutional and university-driven demand, and limited new construction. The metro median listing price sits around $829,000 (per the Realtor.com series via FRED, March 2026), though neighborhoods vary enormously: a Mattapan triple-decker and a Back Bay brownstone exist in entirely different price universes.
           </p>
           <p className="text-gray-700 mb-4">
             For homeowners with properties that need significant work — lead paint compliance, old systems, structural issues — the traditional listing process can be a dead end. Conventional lenders often won't finance homes that fail inspection, which narrows the buyer pool to cash investors and renovation loan holders. A direct cash sale cuts through that entirely.
@@ -222,7 +242,7 @@ export default function BostonMAMarketPage() {
           <h2 className="text-2xl md:text-3xl font-bold text-brand-dark mb-4">Cash Sale vs. Listing With an Agent in Boston MA</h2>
           <ComparisonTable rows={COMPARISON_ROWS} />
           <p className="mt-4 text-sm text-gray-600">
-            On an $829,000 Boston home, a 5-6% agent commission runs $41,450-$49,740. Add MA deed excise stamps ($3,780), carrying costs during 30+ days on market, and repairs on older housing. Many Boston triple-deckers require lead paint compliance under state law — deleading costs $8,000-$15,000 per unit. A direct cash sale eliminates those costs.
+            On an $829,000 home, a 5–6% agent commission runs $41,450–$49,740. Per the Massachusetts Department of Revenue (mass.gov/dor), Massachusetts deed excise stamps are $4.56 per $1,000 of sale price — approximately $3,780 on that median. Per Massachusetts General Laws Ch. 111 §197A, Boston properties where children under 6 reside require lead paint removal or encapsulation. Deleading a triple-decker can run roughly $8,000–$15,000 per unit as an operational repair estimate, not a source-backed public cost benchmark. A direct cash sale eliminates those costs.
           </p>
         </section>
 

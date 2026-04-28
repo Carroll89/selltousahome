@@ -64,12 +64,61 @@ export default function BostonMarketReportPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-gray-500 text-sm">Ranges approximate based on recent listing data. Actual values depend on condition, lot size, and specific location.</p>
+          <p className="text-gray-500 text-sm">
+            Ranges approximate based on recent listing activity as of March 2026. Actual values depend on condition, lot size,
+            and specific location. Neighborhood ranges are operational estimates, not source-measured median values.
+            Source data: Redfin (Boston, March 2026); Zillow ZHVI CSV (March 2026).
+          </p>
         </section>
         <section className="my-8">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">What This Means for Sellers</h2>
-          <p className="text-gray-700 mb-4">Boston's #15 hotness ranking means demand is strong across the metro. But for properties that need significant work — lead paint, old systems, structural issues — the buyer pool narrows dramatically. Conventional lenders won't finance homes failing inspection, which means only cash buyers and renovation loan holders can purchase.</p>
-          <p className="text-gray-700">At Boston's price points, the cost of carrying a property while it sits on the market is substantial. A 5-6% commission on an $829K home runs $41K-$50K. Add deed excise stamps ($3,780), attorney fees, and repairs — a direct cash sale often nets more for distressed properties after accounting for all traditional sale costs.</p>
+          <p className="text-gray-700 mb-4">
+            According to Realtor.com's March 2026 Hotness Index, Boston ranked #15 nationally out of 300+ metros
+            with a hotness score of 91.0 — reflecting strong demand and compressed supply across the metro.
+            But for properties that need significant work — lead paint, old systems, structural issues — the buyer pool
+            narrows sharply. Conventional lenders typically won't finance homes that fail inspection, which limits buyers
+            to cash investors and renovation loan holders.
+          </p>
+          <p className="text-gray-700 mb-4">
+            Per Redfin's March 2026 data, Boston's median sale price was $865,000 with homes averaging 33 days on market
+            — up 11 days from the prior year — and a sale-to-list ratio of 98.3%. Hot homes sold in about 17 days and
+            went 1% over list; typical homes sold about 2% under list in roughly 39 days. For properties that can't compete
+            on condition, that typical scenario is optimistic.
+          </p>
+          <p className="text-gray-700">
+            At Boston's price points, carrying costs add up fast. A 5–6% agent commission on the metro median listing
+            price of approximately $828,750 — per the Realtor.com series published by FRED (MEDLISPRI14460, March 2026) —
+            runs $41,400–$49,700. Add Massachusetts deed excise stamps at $4.56 per $1,000 of sale price
+            (per the Massachusetts Department of Revenue, mass.gov/dor), attorney fees, and repairs. For distressed or
+            time-pressured sellers, a direct cash sale often nets more after all traditional costs are counted.
+          </p>
+        </section>
+        <section className="my-8">
+          <h2 className="text-2xl font-bold text-brand-dark mb-4">Boston Market Velocity — March 2026</h2>
+          <p className="text-gray-500 text-xs mb-3">Source: Redfin Boston Housing Market (redfin.com/city/1826/MA/Boston/housing-market), March 2026 data</p>
+          <div className="overflow-x-auto mb-4">
+            <table className="w-full text-sm border-collapse">
+              <thead>
+                <tr className="bg-brand-primary text-white">
+                  <th className="text-left p-3">Metric</th>
+                  <th className="text-left p-3">Value</th>
+                  <th className="text-left p-3">YoY change</th>
+                </tr>
+              </thead>
+              <tbody className="divide-y divide-gray-200">
+                <tr className="bg-white"><td className="p-3 font-medium">Median sale price</td><td className="p-3">$865,000</td><td className="p-3 text-gray-500">+3.0%</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Median price per sq ft</td><td className="p-3">$683</td><td className="p-3 text-gray-500">−2.1%</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Median days on market</td><td className="p-3">33 days</td><td className="p-3 text-gray-500">+11 days (was 22)</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Homes sold</td><td className="p-3">336</td><td className="p-3 text-gray-500">+9 (327 → 336)</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Sale-to-list ratio</td><td className="p-3">98.3%</td><td className="p-3 text-gray-500">—</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Redfin Compete Score</td><td className="p-3">68/100 — Somewhat Competitive</td><td className="p-3 text-gray-500">—</td></tr>
+              </tbody>
+            </table>
+          </div>
+          <p className="text-gray-500 text-xs">
+            Note: Redfin city-level metrics cover Boston proper. The metro median listing price ($828,750 via Realtor.com/FRED)
+            covers the Boston-Cambridge-Newton CBSA and includes suburban markets. The two series measure different geographic areas.
+          </p>
         </section>
         <Link href="/markets/boston-ma" className="text-brand-primary hover:underline font-medium">← Back to Boston MA</Link>
         <div className="mt-8"><CashOfferForm variant="footer" headline="Get Your Boston Cash Offer" sourcePage="/markets/boston-ma/market-report" /></div>
