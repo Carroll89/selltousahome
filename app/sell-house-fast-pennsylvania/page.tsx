@@ -40,7 +40,7 @@ const FAQ_ITEMS = [
   {
     question: 'What areas of Pennsylvania does USA Home Buyers serve?',
     answer:
-      "We currently have active markets in Central Pennsylvania (Harrisburg and Dauphin County), the Lehigh Valley (Allentown, Bethlehem, Easton), Greater Philadelphia (King of Prussia, Montgomery County), and State College / Centre County. We're expanding across PA — call us if you're not sure whether we cover your area.",
+      "We currently have active Pennsylvania markets in Central PA (Harrisburg/Dauphin, Lancaster, York), the Lehigh Valley (Allentown/Bethlehem), Berks County (Reading), Northwest PA (Erie), Greater Philadelphia (King of Prussia/Montgomery County), and Centre County (State College).",
   },
 ];
 
@@ -69,6 +69,20 @@ const PA_MARKETS = [
     surrounding: 'Bethlehem, Easton, Whitehall, Northampton',
   },
   {
+    city: 'Bethlehem',
+    county: 'Lehigh/Northampton County',
+    slug: 'bethlehem-pa',
+    highlight: 'Lehigh Valley market with inherited-property and landlord exits',
+    surrounding: 'Easton, Fountain Hill, Hellertown, Freemansburg',
+  },
+  {
+    city: 'Erie',
+    county: 'Erie County',
+    slug: 'erie-pa',
+    highlight: 'Northwest PA legacy housing stock, tax liens, code issues, and as-is sales',
+    surrounding: 'Millcreek, Harborcreek, Lawrence Park, Fairview',
+  },
+  {
     city: 'King of Prussia',
     county: 'Montgomery County',
     slug: 'king-of-prussia-pa',
@@ -76,11 +90,32 @@ const PA_MARKETS = [
     surrounding: 'Norristown, Conshohocken, Wayne, Plymouth Meeting',
   },
   {
+    city: 'Lancaster',
+    county: 'Lancaster County',
+    slug: 'lancaster-pa',
+    highlight: 'South-central PA, probate and estate sales, 2% typical transfer tax',
+    surrounding: 'Manheim, Lititz, Ephrata, Mount Joy',
+  },
+  {
+    city: 'Reading',
+    county: 'Berks County',
+    slug: 'reading-pa',
+    highlight: 'Berks County market with tenant, tax, inherited-property, and code-violation issues',
+    surrounding: 'Wyomissing, West Reading, Muhlenberg, Shillington',
+  },
+  {
     city: 'State College',
     county: 'Centre County',
     slug: 'state-college-pa',
     highlight: 'Penn State market, 3% transfer tax (Borough), 73% renter-occupied, landlord exits',
     surrounding: 'Bellefonte, Boalsburg, Port Matilda, Philipsburg',
+  },
+  {
+    city: 'York',
+    county: 'York County',
+    slug: 'york-pa',
+    highlight: 'South-central PA, older housing stock, probate, tax liens, and as-is sales',
+    surrounding: 'Dover, Red Lion, Dallastown, Hanover',
   },
 ];
 
@@ -113,7 +148,7 @@ export default function SellHouseFastPennsylvaniaPage() {
         {/* TL;DR — GEO/AEO Quick Answer */}
         <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-10">
           <h2 className="text-lg font-bold text-brand-dark mb-2">Quick Answer: Sell Your House Fast in Pennsylvania</h2>
-          <p className="text-gray-700 text-sm leading-relaxed">USA Home Buyers purchases houses throughout Pennsylvania for cash — as-is, in any condition, with no repairs and no agent fees. We serve 11 markets across PA: Harrisburg, Allentown, Bethlehem, Lancaster, York, Reading, Erie, State College, and King of Prussia. According to the Zillow Home Value Index, Pennsylvania's statewide median home value is approximately $287,000 (early 2026). Pennsylvania charges a 2% transfer tax (1% state + 1% local) — we cover all closing costs. Written offer within 24 hours, closing in 7–14 days.</p>
+          <p className="text-gray-700 text-sm leading-relaxed">USA Home Buyers purchases houses throughout Pennsylvania for cash — as-is, in any condition, with no repairs and no agent fees. We serve 9 active Pennsylvania markets: Harrisburg, Allentown, Bethlehem, Lancaster, York, Reading, Erie, State College, and King of Prussia. According to the Zillow Home Value Index, Pennsylvania's statewide median home value is approximately $287,000 (early 2026). Pennsylvania charges a 2% transfer tax (1% state + 1% local) — we cover all closing costs. Written offer within 24 hours, closing in 7–14 days.</p>
         </div>
 
 
@@ -397,7 +432,15 @@ export default function SellHouseFastPennsylvaniaPage() {
         />
 
         {/* FAQ */}
-        <FAQSection items={FAQ_ITEMS} heading="Selling a House Fast in Pennsylvania — FAQ" />
+
+        <section className="mb-12">
+          <h2 className="text-2xl font-bold text-brand-dark mb-4">Related Seller Resources</h2>
+          <div className="grid sm:grid-cols-2 gap-3 text-sm">
+            <Link href="/blog" className="text-brand-primary hover:underline font-medium">Latest selling guides and market updates →</Link>
+            <Link href="/guides" className="text-brand-primary hover:underline font-medium">All seller guides →</Link>
+          </div>
+        </section>
+<FAQSection items={FAQ_ITEMS} heading="Selling a House Fast in Pennsylvania — FAQ" />
 
         <div className="mt-10 pt-6 border-t border-gray-200 text-sm text-gray-500">
           <p>

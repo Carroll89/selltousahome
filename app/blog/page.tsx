@@ -6,9 +6,9 @@ import { SITE_URL } from '@/lib/utils';
 import { getAllPosts } from '@/lib/blog';
 
 export const metadata: Metadata = {
-  title: 'Blog | Selling Your House in Pennsylvania',
+  title: 'Blog | Sell Your House Fast Resources',
   description:
-    'Guides, tips, and real talk for Pennsylvania homeowners selling in tough situations. Foreclosure, probate, inherited property, divorce, code violations — we cover it all.',
+    'Guides, market updates, and real talk for homeowners selling in tough situations across USA Home Buyers markets. Foreclosure, probate, inherited property, divorce, cash offers, and local housing data.',
   alternates: { canonical: `${SITE_URL}/blog` },
 };
 
@@ -16,7 +16,7 @@ const blogSchema = {
   '@context': 'https://schema.org',
   '@type': 'Blog',
   name: 'USA Home Buyers Blog',
-  description: 'Guides for Pennsylvania homeowners in tough selling situations.',
+  description: 'Guides for homeowners in tough selling situations across USA Home Buyers markets.',
   url: `${SITE_URL}/blog`,
   publisher: {
     '@type': 'Organization',
@@ -35,6 +35,8 @@ const CATEGORY_COLORS: Record<string, string> = {
   'Probate': 'bg-amber-100 text-amber-700',
   'Divorce': 'bg-pink-100 text-pink-700',
   'Market Report': 'bg-green-100 text-green-700',
+  'Market Guide': 'bg-emerald-100 text-emerald-700',
+  'Process': 'bg-indigo-100 text-indigo-700',
   'Education': 'bg-gray-100 text-gray-700',
 };
 
@@ -54,11 +56,11 @@ export default async function BlogIndexPage() {
         <div className="absolute inset-0 bg-brand-dark/80" />
         <div className="max-w-4xl mx-auto text-center">
           <h1 className="text-3xl md:text-4xl font-bold text-white mb-4 leading-tight">
-            Selling a House in Pennsylvania
+            Selling a House Fast — Market Guides & Seller Resources
           </h1>
           <p className="text-lg text-blue-100 max-w-2xl mx-auto">
-            Real information for homeowners in tough situations. No fluff, no generic advice — just practical 
-            guidance on what actually happens when you sell a Pennsylvania home under pressure.
+            Real information for homeowners in tough situations. No fluff, no generic advice — just practical
+            guidance on cash offers, local market conditions, probate, foreclosure, divorce, and as-is sales.
           </p>
         </div>
       </section>
@@ -140,7 +142,7 @@ export default async function BlogIndexPage() {
         <div className="mt-10 bg-blue-50 rounded-2xl p-6">
           <h2 className="text-lg font-bold text-brand-dark mb-3">Our Markets</h2>
           <p className="text-sm text-gray-600 mb-4">
-            We buy houses in Harrisburg PA, Allentown PA, and surrounding communities throughout Central PA and the Lehigh Valley.
+            We buy houses across 28 markets. Start with a local market page or read the latest seller guide for your city.
           </p>
           <div className="flex flex-wrap gap-3">
             <Link href="/markets/harrisburg-pa" className="text-sm font-medium text-brand-primary hover:underline">
@@ -148,6 +150,15 @@ export default async function BlogIndexPage() {
             </Link>
             <Link href="/markets/allentown-pa" className="text-sm font-medium text-brand-primary hover:underline">
               Allentown PA →
+            </Link>
+            <Link href="/markets/rochester-ny" className="text-sm font-medium text-brand-primary hover:underline">
+              Rochester NY →
+            </Link>
+            <Link href="/markets/springfield-il" className="text-sm font-medium text-brand-primary hover:underline">
+              Springfield IL →
+            </Link>
+            <Link href="/markets/kenosha-wi" className="text-sm font-medium text-brand-primary hover:underline">
+              Kenosha WI →
             </Link>
           </div>
         </div>

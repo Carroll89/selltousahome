@@ -251,7 +251,15 @@ export default function OhioHubPage() {
           />
         </section>
 
-        <FAQSection items={FAQ_ITEMS} heading="Frequently Asked Questions — Selling a House in Ohio" />
+
+        <section className="mb-12">
+          <h2 className="text-2xl font-bold text-brand-dark mb-4">Related Seller Resources</h2>
+          <div className="grid sm:grid-cols-2 gap-3 text-sm">
+            <Link href="/blog" className="text-brand-primary hover:underline font-medium">Latest selling guides and market updates →</Link>
+            <Link href="/guides" className="text-brand-primary hover:underline font-medium">All seller guides →</Link>
+          </div>
+        </section>
+<FAQSection items={FAQ_ITEMS} heading="Frequently Asked Questions — Selling a House in Ohio" />
 
         {/* ===== SECTION: Legal Overview ===== */}
         <section className="my-12" id="oh-legal-overview">

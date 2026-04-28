@@ -171,7 +171,15 @@ export default function SellHouseFastMassachusettsPage() {
           <p className="text-sm text-blue-900"><strong>Hablamos español.</strong> Springfield has a 48% Hispanic community, primarily Puerto Rican. We serve Massachusetts sellers in English and Spanish. Llámenos al 888-274-5006.</p>
         </div>
 
-        <CashOfferForm variant="inline" headline="Get a Cash Offer for Your Massachusetts Home" subheadline="Written offer in 24 hours. We cover all closing costs including MA deed excise stamps." sourcePage="/sell-house-fast-massachusetts" />
+
+        <section className="mb-12">
+          <h2 className="text-2xl font-bold text-brand-dark mb-4">Related Seller Resources</h2>
+          <div className="grid sm:grid-cols-2 gap-3 text-sm">
+            <Link href="/blog" className="text-brand-primary hover:underline font-medium">Latest selling guides and market updates →</Link>
+            <Link href="/guides" className="text-brand-primary hover:underline font-medium">All seller guides →</Link>
+          </div>
+        </section>
+<CashOfferForm variant="inline" headline="Get a Cash Offer for Your Massachusetts Home" subheadline="Written offer in 24 hours. We cover all closing costs including MA deed excise stamps." sourcePage="/sell-house-fast-massachusetts" />
       </div>
     </>
   );

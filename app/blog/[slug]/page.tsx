@@ -31,6 +31,10 @@ async function loadContent(slug: string): Promise<BlogPostContent | null> {
         return (await import('@/content/blog/property-taxes-pennsylvania-what-happens')).default;
       case 'destroyed-rental-property-case-study':
         return (await import('@/content/blog/destroyed-rental-property-case-study')).default;
+      case 'how-to-sell-house-fast-massachusetts':
+        return (await import('@/content/blog/how-to-sell-house-fast-massachusetts')).default;
+      case 'selling-inherited-property-new-england':
+        return (await import('@/content/blog/selling-inherited-property-new-england')).default;
       default:
         return null;
     }
@@ -66,6 +70,8 @@ const CATEGORY_COLORS: Record<string, string> = {
   Probate: 'bg-amber-100 text-amber-700',
   Divorce: 'bg-pink-100 text-pink-700',
   'Market Report': 'bg-green-100 text-green-700',
+  'Market Guide': 'bg-emerald-100 text-emerald-700',
+  Process: 'bg-indigo-100 text-indigo-700',
   Education: 'bg-gray-100 text-gray-700',
 };
 

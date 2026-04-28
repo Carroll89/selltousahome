@@ -86,7 +86,7 @@ export default function SellHouseFastIllinoisPage() {
 
         {/* Our Active IL Market */}
         <section className="mb-12">
-          <h2 className="text-2xl font-bold text-brand-dark mb-4">Our Illinois Markets: Springfield / Sangamon County &amp; Rockford / Winnebago County</h2>
+          <h2 className="text-2xl font-bold text-brand-dark mb-4">Our Illinois Markets: Springfield, Rockford, Peoria, Bloomington, and Champaign-Urbana</h2>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border border-gray-200 rounded-xl overflow-hidden">
               <thead className="bg-brand-dark text-white">
@@ -117,8 +117,15 @@ export default function SellHouseFastIllinoisPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-gray-700 text-sm mb-4">
-            Springfield is Illinois's state capital and Sangamon County seat — a city whose economy is anchored by state government employment, making it unusually recession-resistant compared to manufacturing-dependent downstate cities. The #10 national hotness ranking reflects tight supply, strong demand from buyers priced out of Chicago metro, and a large stock of pre-1970 homes that drive cash buyer demand. <Link href="/markets/springfield-il" className="text-brand-primary hover:underline">See our full Springfield market →</Link>
+          <div className="grid sm:grid-cols-2 gap-3 mt-4 text-sm">
+            <Link href="/markets/springfield-il" className="text-brand-primary hover:underline font-medium">Springfield IL market →</Link>
+            <Link href="/markets/rockford-il" className="text-brand-primary hover:underline font-medium">Rockford IL market →</Link>
+            <Link href="/markets/peoria-il" className="text-brand-primary hover:underline font-medium">Peoria IL market →</Link>
+            <Link href="/markets/bloomington-il" className="text-brand-primary hover:underline font-medium">Bloomington IL market →</Link>
+            <Link href="/markets/champaign-urbana-il" className="text-brand-primary hover:underline font-medium">Champaign-Urbana IL market →</Link>
+          </div>
+          <p className="text-gray-700 text-sm mt-4">
+            Springfield is Illinois's state capital and Sangamon County seat; Rockford, Peoria, Bloomington, and Champaign-Urbana each have their own local market pages, transfer-tax notes, and as-is sale guidance. Use the links above for market-specific help.
           </p>
         </section>
 
@@ -547,7 +554,15 @@ export default function SellHouseFastIllinoisPage() {
           />
         </div>
 
-        <FAQSection items={FAQ_ITEMS} heading="Illinois Home Selling FAQ" />
+
+        <section className="mb-12">
+          <h2 className="text-2xl font-bold text-brand-dark mb-4">Related Seller Resources</h2>
+          <div className="grid sm:grid-cols-2 gap-3 text-sm">
+            <Link href="/blog" className="text-brand-primary hover:underline font-medium">Latest selling guides and market updates →</Link>
+            <Link href="/guides" className="text-brand-primary hover:underline font-medium">All seller guides →</Link>
+          </div>
+        </section>
+<FAQSection items={FAQ_ITEMS} heading="Illinois Home Selling FAQ" />
 
         <section className="my-10">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">Our Illinois Markets — Detailed Guides</h2>

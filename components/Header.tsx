@@ -31,6 +31,7 @@ const marketsByState: { state: string; cities: { href: string; label: string }[]
   {
     state: 'Massachusetts',
     cities: [
+      { href: '/markets/boston-ma', label: 'Boston' },
       { href: '/markets/springfield-ma', label: 'Springfield' },
       { href: '/markets/worcester-ma', label: 'Worcester' },
     ],
@@ -41,6 +42,7 @@ const marketsByState: { state: string; cities: { href: string; label: string }[]
       { href: '/markets/kenosha-wi', label: 'Kenosha' },
       { href: '/markets/racine-mount-pleasant-wi', label: 'Racine & Mount Pleasant' },
       { href: '/markets/oshkosh-wi', label: 'Oshkosh' },
+      { href: '/markets/wausau-wi', label: 'Wausau' },
     ],
   },
   {
@@ -51,6 +53,7 @@ const marketsByState: { state: string; cities: { href: string; label: string }[]
     state: 'Connecticut',
     cities: [
       { href: '/markets/bridgeport-ct', label: 'Bridgeport' },
+      { href: '/markets/hartford-ct', label: 'Hartford' },
       { href: '/markets/new-haven-ct', label: 'New Haven' },
     ],
   },
@@ -147,6 +150,9 @@ export function Header() {
             <Link href="/guides" className="text-gray-600 hover:text-brand-primary whitespace-nowrap">
               Seller Guides
             </Link>
+            <Link href="/blog" className="text-gray-600 hover:text-brand-primary whitespace-nowrap">
+              Blog
+            </Link>
             <Link href="/resources/how-the-process-works" className="text-gray-600 hover:text-brand-primary whitespace-nowrap">
               How It Works
             </Link>
@@ -221,6 +227,7 @@ export function Header() {
 
             {[
               { href: '/guides', label: 'Seller Guides' },
+              { href: '/blog', label: 'Blog' },
               { href: '/resources/how-the-process-works', label: 'How It Works' },
               { href: '/reviews', label: 'Reviews' },
               { href: '/about', label: 'About' },

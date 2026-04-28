@@ -183,7 +183,15 @@ export default function SellHouseFastWisconsinPage() {
           <p className="mt-3 text-xs text-gray-500">Data: Zillow ZHVI (Feb 2026 for Racine/Kenosha; Apr 2026 for Oshkosh) and Redfin/Realtor.com market statistics (Mar–Apr 2026). Racine-Mount Pleasant metro median $347,720 per Realtor.com Market Hotness Index (April 2026, rank #8). Oshkosh hotness rank #13 (score 92.809, RDC March 2026).</p>
         </section>
 
-        <CashOfferForm variant="inline" headline="Get a Cash Offer for Your Wisconsin Home" subheadline="Written offer in 24 hours. We cover all closing costs." sourcePage="/sell-house-fast-wisconsin" />
+
+        <section className="mb-12">
+          <h2 className="text-2xl font-bold text-brand-dark mb-4">Related Seller Resources</h2>
+          <div className="grid sm:grid-cols-2 gap-3 text-sm">
+            <Link href="/blog" className="text-brand-primary hover:underline font-medium">Latest selling guides and market updates →</Link>
+            <Link href="/guides" className="text-brand-primary hover:underline font-medium">All seller guides →</Link>
+          </div>
+        </section>
+<CashOfferForm variant="inline" headline="Get a Cash Offer for Your Wisconsin Home" subheadline="Written offer in 24 hours. We cover all closing costs." sourcePage="/sell-house-fast-wisconsin" />
       </div>
     </>
   );

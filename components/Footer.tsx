@@ -50,16 +50,19 @@ export function Footer() {
               <li><Link href="/markets/youngstown-oh" className="hover:text-white">Youngstown, OH</Link></li>
               <li><Link href="/markets/youngstown-oh/market-report" className="hover:text-white">Youngstown Market Report</Link></li>
               <li><Link href="/sell-house-fast-ohio" className="hover:text-white">Sell House Fast Ohio</Link></li>
+              <li><Link href="/markets/boston-ma" className="hover:text-white">Boston, MA</Link></li>
               <li><Link href="/markets/springfield-ma" className="hover:text-white">Springfield, MA</Link></li>
               <li><Link href="/markets/worcester-ma" className="hover:text-white">Worcester, MA</Link></li>
               <li><Link href="/sell-house-fast-massachusetts" className="hover:text-white">Sell House Fast Massachusetts</Link></li>
               <li><Link href="/markets/kenosha-wi" className="hover:text-white">Kenosha, WI</Link></li>
               <li><Link href="/markets/racine-mount-pleasant-wi" className="hover:text-white">Racine &amp; Mount Pleasant, WI</Link></li>
               <li><Link href="/markets/oshkosh-wi" className="hover:text-white">Oshkosh, WI</Link></li>
+              <li><Link href="/markets/wausau-wi" className="hover:text-white">Wausau, WI</Link></li>
               <li><Link href="/sell-house-fast-wisconsin" className="hover:text-white">Sell House Fast Wisconsin</Link></li>
               <li><Link href="/markets/manchester-nh" className="hover:text-white">Manchester, NH</Link></li>
               <li><Link href="/sell-house-fast-new-hampshire" className="hover:text-white">Sell House Fast New Hampshire</Link></li>
               <li><Link href="/markets/bridgeport-ct" className="hover:text-white">Bridgeport, CT</Link></li>
+              <li><Link href="/markets/hartford-ct" className="hover:text-white">Hartford, CT</Link></li>
               <li><Link href="/markets/new-haven-ct" className="hover:text-white">New Haven, CT</Link></li>
               <li><Link href="/sell-house-fast-connecticut" className="hover:text-white">Sell House Fast Connecticut</Link></li>
               <li><Link href="/markets/rochester-ny" className="hover:text-white">Rochester, NY</Link></li>
@@ -104,6 +107,7 @@ export function Footer() {
             <h3 className="text-white font-semibold mb-3">Company</h3>
             <ul className="space-y-2 text-sm">
               <li><Link href="/about" className="hover:text-white">About Us</Link></li>
+              <li><Link href="/blog" className="hover:text-white">Blog</Link></li>
               <li><Link href="/reviews" className="hover:text-white">Reviews</Link></li>
               <li><Link href="/contact" className="hover:text-white">Contact</Link></li>
               <li><Link href="/brand-facts" className="hover:text-white">Brand Facts</Link></li>

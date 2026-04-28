@@ -324,7 +324,15 @@ export default function DelawareStatePage() {
           <p className="text-xs text-gray-500 mt-3">Sources: Redfin, Zillow Home Value Index, Delaware Superior Court, Delaware Division of Revenue. Data as of early 2026.</p>
         </section>
 
-        <CashOfferForm
+
+        <section className="mb-12">
+          <h2 className="text-2xl font-bold text-brand-dark mb-4">Related Seller Resources</h2>
+          <div className="grid sm:grid-cols-2 gap-3 text-sm">
+            <Link href="/blog" className="text-brand-primary hover:underline font-medium">Latest selling guides and market updates →</Link>
+            <Link href="/guides" className="text-brand-primary hover:underline font-medium">All seller guides →</Link>
+          </div>
+        </section>
+<CashOfferForm
           variant="inline"
           headline="Get a Delaware Cash Offer"
           subheadline="Written offer in 24 hours. We cover all closing costs including Delaware's transfer tax."
