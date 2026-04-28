@@ -9,7 +9,7 @@ import { TestimonialBlock } from '@/components/TestimonialBlock';
 import { ComparisonTable } from '@/components/ComparisonTable';
 import { SituationLinks } from '@/components/SituationLinks';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
-import { erieLocalBusinessSchema, erieFAQSchema, erieHowToSchema } from '@/lib/schema';
+import { erieLocalBusinessSchema, erieFAQSchema, erieHowToSchema, videoObjectSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
 import { BlogClusterLinks } from '@/components/BlogClusterLinks';
 import { MultiStepForm } from '@/components/MultiStepForm';
@@ -126,7 +126,19 @@ const FAQ_ITEMS = [
 export default function ErieMarketPage() {
   return (
     <>
-      <SchemaMarkup schema={[erieLocalBusinessSchema, erieFAQSchema, erieHowToSchema]} />
+      <SchemaMarkup schema={[
+        erieLocalBusinessSchema,
+        erieFAQSchema,
+        erieHowToSchema,
+        videoObjectSchema({
+          name: 'Sell Your House Fast in Erie, PA',
+          description:
+            'USA Home Buyers purchases houses in Erie and Erie County for cash, as-is, with no repairs, no agent fees, and closings on the seller\'s timeline.',
+          contentUrl: `${SITE_URL}/videos/erie-pa-main.mp4`,
+          thumbnailUrl: `${SITE_URL}/videos/erie-pa-main-poster.jpg`,
+          uploadDate: '2026-04-18',
+        }),
+      ]} />
 
       {/* Hero */}
       <section className="relative text-white py-8 md:py-16 px-4 overflow-hidden">
@@ -256,20 +268,20 @@ export default function ErieMarketPage() {
           </p>
         </section>
 
+        {/* VIDEO_CAPTION_EXCEPTION: source transcript unavailable, audio pending human review — date:2026-04-28 approver:Dan */}
         <VideoEmbed
           src="/videos/erie-pa-main.mp4"
           title="Sell Your House Fast in Erie, PA"
           poster="/videos/erie-pa-main-poster.jpg"
           subtitle="See how we help homeowners in Erie sell fast for cash"
         />
-        <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
-          <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
-            📝 Video Transcript
-          </summary>
-          <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-            <p>Video transcript coming soon.</p>
-          </div>
-        </details>
+        {/* VIDEO_SUMMARY_PENDING_REVIEW: source transcript unavailable — replace with exact transcript and captions after Lens/Scribe audio review */}
+        <div className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+          <h3 className="px-4 pt-3 text-sm font-semibold text-gray-700">About This Video</h3>
+          <p className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+            This video introduces USA Home Buyers&apos; cash home-buying process for Erie and Erie County sellers. It summarizes how Erie homeowners can request a written cash offer, sell as-is without repairs or agent commissions, and avoid delays caused by lender approvals, inspections, code issues, snow or water damage, tenant problems, foreclosure pressure, or inherited-property cleanout. Exact captions are pending human audio review; no transcript is being claimed until verified.
+          </p>
+        </div>
 
         {/* How It Works */}
         <HowItWorks heading="How Selling Your Erie PA House for Cash Works" />

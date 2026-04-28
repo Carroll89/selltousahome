@@ -9,7 +9,7 @@ import { TestimonialBlock } from '@/components/TestimonialBlock';
 import { ComparisonTable } from '@/components/ComparisonTable';
 import { SituationLinks } from '@/components/SituationLinks';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
-import { faqSchema } from '@/lib/schema';
+import { faqSchema, videoObjectSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
 import { BlogClusterLinks } from '@/components/BlogClusterLinks';
 import { MultiStepForm } from '@/components/MultiStepForm';
@@ -175,7 +175,19 @@ export default function SpringfieldILMarketPage() {
 
   return (
     <>
-      <SchemaMarkup schema={[springfieldILLocalBusinessSchema, faqSchema(FAQ_ITEMS), howToSchema]} />
+      <SchemaMarkup schema={[
+        springfieldILLocalBusinessSchema,
+        faqSchema(FAQ_ITEMS),
+        howToSchema,
+        videoObjectSchema({
+          name: 'Sell Your House Fast in Springfield, IL',
+          description:
+            'USA Home Buyers purchases houses in Springfield and Sangamon County for cash, as-is, with no repairs, no agent fees, and closings on the seller\'s timeline.',
+          contentUrl: `${SITE_URL}/videos/springfield-il/landing.mp4`,
+          thumbnailUrl: `${SITE_URL}/videos/springfield-il/landing-poster.jpg`,
+          uploadDate: '2026-04-18',
+        }),
+      ]} />
 
       <section className="relative text-white py-16 px-4 overflow-hidden">
         <picture className="absolute inset-0 w-full h-full">
@@ -228,20 +240,20 @@ export default function SpringfieldILMarketPage() {
       </section>
 
       <div className="max-w-7xl mx-auto px-4 py-8">
+        {/* VIDEO_CAPTION_EXCEPTION: draft VTT timing/phone copy pending human review — date:2026-04-28 approver:Dan */}
         <VideoEmbed
           src="/videos/springfield-il/landing.mp4"
           title="Sell Your House Fast in Springfield, IL"
           poster="/videos/springfield-il/landing-poster.jpg"
           subtitle="See how we help homeowners in Springfield sell fast for cash"
         />
-        <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
-          <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
-            📝 Video Transcript
-          </summary>
-          <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-            <p>Video transcript coming soon.</p>
-          </div>
-        </details>
+        {/* VIDEO_SUMMARY_PENDING_REVIEW: draft captions contain estimated timing and old phone copy — replace with exact transcript/captions after review */}
+        <div className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+          <h3 className="px-4 pt-3 text-sm font-semibold text-gray-700">About This Video</h3>
+          <p className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+            This video introduces USA Home Buyers' cash home-buying process for Springfield and Sangamon County sellers. It summarizes the as-is offer process for homeowners dealing with repairs, foreclosure, probate, divorce, relocation, tenant issues, storm damage, or older Springfield homes that may not qualify cleanly for traditional financing. Draft captions are intentionally not deployed because the available VTT timing is estimated and includes outdated phone copy; exact captions are pending human review.
+          </p>
+        </div>
 
         <HowItWorks />
 

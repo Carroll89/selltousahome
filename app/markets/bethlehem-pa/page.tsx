@@ -8,7 +8,7 @@ import { TestimonialBlock } from '@/components/TestimonialBlock';
 import { ComparisonTable } from '@/components/ComparisonTable';
 import { SituationLinks } from '@/components/SituationLinks';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
-import { bethlehemLocalBusinessSchema, bethlehemFAQSchema, bethlehemHowToSchema } from '@/lib/schema';
+import { bethlehemLocalBusinessSchema, bethlehemFAQSchema, bethlehemHowToSchema, videoObjectSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
 import { BlogClusterLinks } from '@/components/BlogClusterLinks';
 import { MultiStepForm } from '@/components/MultiStepForm';
@@ -125,7 +125,19 @@ const FAQ_ITEMS = [
 export default function BethlehemMarketPage() {
   return (
     <>
-      <SchemaMarkup schema={[bethlehemLocalBusinessSchema, bethlehemFAQSchema, bethlehemHowToSchema]} />
+      <SchemaMarkup schema={[
+        bethlehemLocalBusinessSchema,
+        bethlehemFAQSchema,
+        bethlehemHowToSchema,
+        videoObjectSchema({
+          name: 'Sell Your House Fast in Bethlehem, PA',
+          description:
+            'USA Home Buyers purchases houses in Bethlehem and Northampton County for cash, as-is, with no repairs, no agent fees, and closings on the seller\'s timeline.',
+          contentUrl: `${SITE_URL}/videos/bethlehem-pa-main.mp4`,
+          thumbnailUrl: `${SITE_URL}/videos/bethlehem-pa-main-poster.jpg`,
+          uploadDate: '2026-04-18',
+        }),
+      ]} />
 
       {/* Hero */}
       <section className="relative text-white py-8 md:py-16 px-4 overflow-hidden">
@@ -263,20 +275,20 @@ export default function BethlehemMarketPage() {
           </p>
         </section>
 
+        {/* VIDEO_CAPTION_EXCEPTION: source transcript unavailable, audio pending human review — date:2026-04-28 approver:Dan */}
         <VideoEmbed
           src="/videos/bethlehem-pa-main.mp4"
           title="Sell Your House Fast in Bethlehem, PA"
           poster="/videos/bethlehem-pa-main-poster.jpg"
           subtitle="See how we help homeowners in Bethlehem sell fast for cash"
         />
-        <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
-          <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
-            📝 Video Transcript
-          </summary>
-          <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-            <p>Video transcript coming soon.</p>
-          </div>
-        </details>
+        {/* VIDEO_SUMMARY_PENDING_REVIEW: source transcript unavailable — replace with exact transcript and captions after Lens/Scribe audio review */}
+        <div className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+          <h3 className="px-4 pt-3 text-sm font-semibold text-gray-700">About This Video</h3>
+          <p className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+            This video introduces USA Home Buyers&apos; cash home-buying process for Bethlehem and Northampton County sellers. It highlights fast written offers, as-is purchases with no repairs or agent commissions, and common Bethlehem situations such as inherited South Side row homes, foreclosure pressure, divorce sales, tenant-occupied properties, storm damage, and older homes with deferred maintenance. Exact captions are pending human audio review; no transcript is being claimed until verified.
+          </p>
+        </div>
 
         {/* How It Works */}
         <HowItWorks heading="How Selling Your Bethlehem PA House for Cash Works" />

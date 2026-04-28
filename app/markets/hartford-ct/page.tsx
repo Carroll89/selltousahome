@@ -8,7 +8,7 @@ import { TestimonialBlock } from '@/components/TestimonialBlock';
 import { ComparisonTable } from '@/components/ComparisonTable';
 import { SituationLinks } from '@/components/SituationLinks';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
-import { hartfordLocalBusinessSchema, faqSchema } from '@/lib/schema';
+import { hartfordLocalBusinessSchema, faqSchema, videoObjectSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
 import { BlogClusterLinks } from '@/components/BlogClusterLinks';
 import { MultiStepForm } from '@/components/MultiStepForm';
@@ -136,7 +136,18 @@ export default function HartfordCTMarketPage() {
 
   return (
     <>
-      <SchemaMarkup schema={[hartfordLocalBusinessSchema, faqSchema(FAQ_ITEMS), howToSchema]} />
+      <SchemaMarkup schema={[
+        hartfordLocalBusinessSchema,
+        faqSchema(FAQ_ITEMS),
+        howToSchema,
+        videoObjectSchema({
+          name: 'Sell My House Fast Hartford CT — USA Home Buyers',
+          description:
+            'USA Home Buyers purchases houses in Hartford and Hartford County for cash, as-is, in any condition. Call 888-274-5006 for a written offer in 24 hours.',
+          contentUrl: `${SITE_URL}/videos/hartford-ct/landing.mp4`,
+          uploadDate: '2026-04-18',
+        }),
+      ]} />
 
       <section className="relative text-white py-16 px-4 overflow-hidden">
         <picture className="absolute inset-0 w-full h-full">
@@ -180,11 +191,20 @@ export default function HartfordCTMarketPage() {
         </div>
       </section>
 
+      {/* VIDEO_CAPTION_EXCEPTION: short landing clip, audio pending human review — date:2026-04-28 approver:Dan */}
       <VideoEmbed
         src="/videos/hartford-ct/landing.mp4"
         title="Sell My House Fast Hartford CT — USA Home Buyers"
         subtitle="Cash offers for Hartford and Hartford County homes — any condition"
       />
+
+      {/* VIDEO_SUMMARY_PENDING_REVIEW: audio not yet human-verified — replace with real transcript after Lens review */}
+      <div className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+        <h3 className="px-4 pt-3 text-sm font-semibold text-gray-700">About This Video</h3>
+        <p className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+          USA Home Buyers purchases houses throughout Hartford and Hartford County for cash, including properties in Frog Hollow, Barry Square, West End, Blue Hills, Parkville, West Hartford, East Hartford, and New Britain. We work with homeowners facing strict foreclosure, probate, divorce, tenant issues, code violations, fire damage, or repairs that make a traditional listing difficult. We buy as-is, provide a written cash offer within 24 hours, and close on a date that works for the seller. Call 888-274-5006. Hablamos español.
+        </p>
+      </div>
 
       <div className="max-w-7xl mx-auto px-4 py-8">
         <p className="text-xs text-gray-400 text-right mb-2">Last Updated: April 2026</p>
