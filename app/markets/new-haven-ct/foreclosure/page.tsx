@@ -5,7 +5,7 @@ import { SchemaMarkup } from '@/components/SchemaMarkup';
 import { VideoEmbed } from '@/components/VideoEmbed';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
-import { organizationSchema, articleSchema, faqSchema } from '@/lib/schema';
+import { organizationSchema, articleSchema, faqSchema, videoObjectSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
 
 export const revalidate = 86400;
@@ -53,6 +53,12 @@ export default function NewHavenForeclosurePage() {
         organizationSchema,
         articleSchema('Stop Foreclosure in New Haven CT — Sell Before the Law Day', pageUrl, '2026-04-18'),
         faqSchema(FAQ_ITEMS),
+        videoObjectSchema({
+          name: 'Facing Foreclosure in New Haven CT?',
+          description: 'Sell before the auction — protect your equity and credit in New Haven County',
+          contentUrl: `${SITE_URL}/videos/new-haven-ct/foreclosure.mp4`,
+          thumbnailUrl: `${SITE_URL}/videos/new-haven-ct/foreclosure-poster.jpg`,
+        }),
       ]} />
 
       <section className="relative text-white py-16 px-4 overflow-hidden">
@@ -95,6 +101,7 @@ export default function NewHavenForeclosurePage() {
           </div>
           <div>
   
+      {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
       <VideoEmbed
         src="/videos/new-haven-ct/foreclosure.mp4"
         title="Facing Foreclosure in New Haven CT?"

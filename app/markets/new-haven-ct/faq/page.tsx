@@ -5,7 +5,7 @@ import { SchemaMarkup } from '@/components/SchemaMarkup';
 import { VideoEmbed } from '@/components/VideoEmbed';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
-import { organizationSchema, faqSchema } from '@/lib/schema';
+import { organizationSchema, faqSchema, videoObjectSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
 
 export const revalidate = 86400;
@@ -77,7 +77,16 @@ const FAQ_ITEMS = [
 export default function NewHavenFAQPage() {
   return (
     <>
-      <SchemaMarkup schema={[organizationSchema, faqSchema(FAQ_ITEMS)]} />
+      <SchemaMarkup schema={[
+        organizationSchema,
+        faqSchema(FAQ_ITEMS),
+        videoObjectSchema({
+          name: 'New Haven CT Home Selling FAQ',
+          description: 'Transfer tax, probate, code violations, closing speed — answered',
+          contentUrl: `${SITE_URL}/videos/new-haven-ct/faq.mp4`,
+          thumbnailUrl: `${SITE_URL}/videos/new-haven-ct/faq-poster.jpg`,
+        }),
+      ]} />
 
       <div className="max-w-4xl mx-auto px-4 py-12">
         <div className="mb-4 text-sm text-gray-500">
@@ -105,6 +114,7 @@ export default function NewHavenFAQPage() {
         </div>
 
 
+      {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
       <VideoEmbed
         src="/videos/new-haven-ct/faq.mp4"
         title="New Haven CT Home Selling FAQ"

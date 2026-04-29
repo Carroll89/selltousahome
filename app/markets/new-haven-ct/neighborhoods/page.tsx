@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
 import { VideoEmbed } from '@/components/VideoEmbed';
 import { CashOfferForm } from '@/components/CashOfferForm';
-import { organizationSchema, articleSchema } from '@/lib/schema';
+import { organizationSchema, articleSchema, videoObjectSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
 
 export const revalidate = 86400;
@@ -24,6 +24,12 @@ export default function NewHavenNeighborhoodsPage() {
       <SchemaMarkup schema={[
         organizationSchema,
         articleSchema('New Haven CT Neighborhoods — Cash Home Buyer Price Ranges and Seller Guide', pageUrl, '2026-04-18'),
+        videoObjectSchema({
+          name: 'New Haven CT Neighborhoods — We Buy Houses Everywhere',
+          description: 'Fair Haven to East Rock to Westville — any neighborhood, any condition',
+          contentUrl: `${SITE_URL}/videos/new-haven-ct/neighborhoods.mp4`,
+          thumbnailUrl: `${SITE_URL}/videos/new-haven-ct/neighborhoods-poster.jpg`,
+        }),
       ]} />
 
       <div className="max-w-4xl mx-auto px-4 py-12">
@@ -161,6 +167,7 @@ export default function NewHavenNeighborhoodsPage() {
         </div>
 
 
+      {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
       <VideoEmbed
         src="/videos/new-haven-ct/neighborhoods.mp4"
         title="New Haven CT Neighborhoods — We Buy Houses Everywhere"

@@ -5,7 +5,7 @@ import { SchemaMarkup } from '@/components/SchemaMarkup';
 import { VideoEmbed } from '@/components/VideoEmbed';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
-import { organizationSchema, articleSchema, faqSchema } from '@/lib/schema';
+import { organizationSchema, articleSchema, faqSchema, videoObjectSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
 
 export const revalidate = 86400;
@@ -49,6 +49,12 @@ export default function NewHavenCodeViolationsPage() {
         organizationSchema,
         articleSchema('Sell a New Haven CT Home With Code Violations — Cash Offer, No Repairs Required', pageUrl, '2026-04-18'),
         faqSchema(FAQ_ITEMS),
+        videoObjectSchema({
+          name: 'Sell a House With Code Violations in New Haven CT',
+          description: 'Open violations, condemnation notices — we buy as-is in New Haven County',
+          contentUrl: `${SITE_URL}/videos/new-haven-ct/code-violations.mp4`,
+          thumbnailUrl: `${SITE_URL}/videos/new-haven-ct/code-violations-poster.jpg`,
+        }),
       ]} />
 
       <section className="relative text-white py-16 px-4 overflow-hidden">
@@ -91,6 +97,7 @@ export default function NewHavenCodeViolationsPage() {
           </div>
           <div>
   
+      {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
       <VideoEmbed
         src="/videos/new-haven-ct/code-violations.mp4"
         title="Sell a House With Code Violations in New Haven CT"

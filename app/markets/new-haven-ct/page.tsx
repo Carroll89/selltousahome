@@ -8,7 +8,7 @@ import { TestimonialBlock } from '@/components/TestimonialBlock';
 import { ComparisonTable } from '@/components/ComparisonTable';
 import { SituationLinks } from '@/components/SituationLinks';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
-import { newHavenLocalBusinessSchema, faqSchema } from '@/lib/schema';
+import { newHavenLocalBusinessSchema, faqSchema, videoObjectSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
 import { BlogClusterLinks } from '@/components/BlogClusterLinks';
 import { MultiStepForm } from '@/components/MultiStepForm';
@@ -139,7 +139,17 @@ export default function NewHavenCTMarketPage() {
 
   return (
     <>
-      <SchemaMarkup schema={[newHavenLocalBusinessSchema, faqSchema(FAQ_ITEMS), howToSchema]} />
+      <SchemaMarkup schema={[
+        newHavenLocalBusinessSchema,
+        faqSchema(FAQ_ITEMS),
+        howToSchema,
+        videoObjectSchema({
+          name: 'Sell My House Fast New Haven CT — USA Home Buyers',
+          description: 'Cash offers for New Haven and New Haven County homes — any condition',
+          contentUrl: `${SITE_URL}/videos/new-haven-ct/landing.mp4`,
+          thumbnailUrl: `${SITE_URL}/videos/new-haven-ct/landing-poster.jpg`,
+        }),
+      ]} />
 
       <section className="relative text-white py-16 px-4 overflow-hidden">
         <picture className="absolute inset-0 w-full h-full">
@@ -191,6 +201,7 @@ export default function NewHavenCTMarketPage() {
         </div>
       </section>
 
+        {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
         <VideoEmbed
         src="/videos/new-haven-ct/landing.mp4"
         title="Sell My House Fast New Haven CT — USA Home Buyers"
