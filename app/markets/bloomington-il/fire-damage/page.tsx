@@ -5,7 +5,7 @@ import { SchemaMarkup } from '@/components/SchemaMarkup';
 import { VideoEmbed } from '@/components/VideoEmbed';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
-import { organizationSchema, articleSchema, faqSchema } from '@/lib/schema';
+import { organizationSchema, articleSchema, faqSchema, videoObjectSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
 
 export const revalidate = 86400;
@@ -53,7 +53,13 @@ export default function BloomingtonFireDamagePage() {
         organizationSchema,
         articleSchema("Selling a Fire-Damaged House in Bloomington IL — The Insurance-Capital Context", pageUrl, '2026-04-19'),
         faqSchema(FAQ_ITEMS),
-      ]} />
+
+        videoObjectSchema({
+          name: 'Sell a Fire-Damaged House in Bloomington IL',
+          description: 'No restoration required — we buy fire-damaged homes as-is in McLean County',
+          contentUrl: `${SITE_URL}/videos/bloomington-il/fire-damage.mp4`,
+          thumbnailUrl: `${SITE_URL}/videos/bloomington-il/fire-damage-poster.jpg`,
+        }),]} />
 
       <section className="relative text-white py-16 px-4 overflow-hidden">
         <div className="absolute inset-0 w-full h-full">
@@ -90,6 +96,7 @@ export default function BloomingtonFireDamagePage() {
             </a>
           </div>
 
+      {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
       <VideoEmbed
         src="/videos/bloomington-il/fire-damage.mp4"
         title="Sell a Fire-Damaged House in Bloomington IL"

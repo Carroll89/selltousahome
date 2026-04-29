@@ -5,7 +5,7 @@ import { SchemaMarkup } from '@/components/SchemaMarkup';
 import { VideoEmbed } from '@/components/VideoEmbed';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
-import { organizationSchema, articleSchema, faqSchema } from '@/lib/schema';
+import { organizationSchema, articleSchema, faqSchema, videoObjectSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
 
 export const revalidate = 86400;
@@ -53,7 +53,13 @@ export default function BloomingtonDivorceSalePage() {
         organizationSchema,
         articleSchema("Divorce Home Sale in Bloomington IL — McLean County Equitable Distribution Guide", pageUrl, '2026-04-19'),
         faqSchema(FAQ_ITEMS),
-      ]} />
+
+        videoObjectSchema({
+          name: 'Selling a House During Divorce in Bloomington IL',
+          description: 'One offer, one closing, clean split of proceeds in McLean County',
+          contentUrl: `${SITE_URL}/videos/bloomington-il/divorce-sale.mp4`,
+          thumbnailUrl: `${SITE_URL}/videos/bloomington-il/divorce-sale-poster.jpg`,
+        }),]} />
 
       <section className="relative text-white py-16 px-4 overflow-hidden">
         <div className="absolute inset-0 w-full h-full">
@@ -90,6 +96,7 @@ export default function BloomingtonDivorceSalePage() {
             </a>
           </div>
 
+      {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
       <VideoEmbed
         src="/videos/bloomington-il/divorce-sale.mp4"
         title="Selling a House During Divorce in Bloomington IL"

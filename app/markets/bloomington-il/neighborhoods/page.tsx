@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
 import { VideoEmbed } from '@/components/VideoEmbed';
 import { CashOfferForm } from '@/components/CashOfferForm';
-import { organizationSchema, articleSchema } from '@/lib/schema';
+import { organizationSchema, articleSchema, videoObjectSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
 
 export const revalidate = 86400;
@@ -87,7 +87,13 @@ export default function BloomingtonILNeighborhoodsPage() {
       <SchemaMarkup schema={[
         organizationSchema,
         articleSchema("Bloomington IL Neighborhoods — Cash Home Buyer Guide 2026", pageUrl, '2026-04-19'),
-      ]} />
+
+        videoObjectSchema({
+          name: 'Bloomington IL Neighborhoods — We Buy Houses Everywhere',
+          description: 'Eastside to Towanda to Normal — any neighborhood, any condition',
+          contentUrl: `${SITE_URL}/videos/bloomington-il/neighborhoods.mp4`,
+          thumbnailUrl: `${SITE_URL}/videos/bloomington-il/neighborhoods-poster.jpg`,
+        }),]} />
 
       <section className="relative text-white py-16 px-4 bg-brand-dark">
         <div className="relative z-10 max-w-4xl mx-auto">
@@ -168,6 +174,7 @@ export default function BloomingtonILNeighborhoodsPage() {
         </section>
 
 
+      {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
       <VideoEmbed
         src="/videos/bloomington-il/neighborhoods.mp4"
         title="Bloomington IL Neighborhoods — We Buy Houses Everywhere"

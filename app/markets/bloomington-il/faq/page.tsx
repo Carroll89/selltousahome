@@ -5,7 +5,7 @@ import { SchemaMarkup } from '@/components/SchemaMarkup';
 import { VideoEmbed } from '@/components/VideoEmbed';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
-import { organizationSchema, faqSchema } from '@/lib/schema';
+import { organizationSchema, faqSchema, videoObjectSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
 
 export const revalidate = 86400;
@@ -49,7 +49,13 @@ const FAQ_ITEMS = [
 export default function BloomingtonILFAQPage() {
   return (
     <>
-      <SchemaMarkup schema={[organizationSchema, faqSchema(FAQ_ITEMS)]} />
+      <SchemaMarkup schema={[organizationSchema, faqSchema(FAQ_ITEMS),
+        videoObjectSchema({
+          name: 'Bloomington IL Home Selling FAQ',
+          description: 'Foreclosure timelines, probate, code violations, closing speed — answered',
+          contentUrl: `${SITE_URL}/videos/bloomington-il/faq.mp4`,
+          thumbnailUrl: `${SITE_URL}/videos/bloomington-il/faq-poster.jpg`,
+        }),]} />
 
       <section className="relative text-white py-16 px-4 bg-brand-dark">
         <div className="relative z-10 max-w-4xl mx-auto">
@@ -74,6 +80,7 @@ export default function BloomingtonILFAQPage() {
         </section>
 
 
+      {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
       <VideoEmbed
         src="/videos/bloomington-il/faq.mp4"
         title="Bloomington IL Home Selling FAQ"
