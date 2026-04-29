@@ -10,7 +10,7 @@ import { VideoEmbed } from '@/components/VideoEmbed';
 export const metadata: Metadata = {
   title: 'Sell Inherited Property in Harrisburg PA',
   description:
-    'Inherited a house in Harrisburg or Dauphin County PA? We buy inherited properties as-is, handle estate complications, and close in 7-14 days. No cleanout, no repairs.',
+    'Inherited a house in Harrisburg or Dauphin County PA? We buy inherited properties as-is, handle estate complications, and close quickly once title is ready. No cleanout, no repairs.',
   alternates: { canonical: `${SITE_URL}/markets/harrisburg-pa/inherited-property` },
 };
 
@@ -87,7 +87,7 @@ export default function HarrisburgInheritedPropertyPage() {
             <p className="text-lg text-blue-100 mb-4">
               You inherited a property in Harrisburg or Dauphin County. Whether it&apos;s across town or across
               the country, you don&apos;t have to deal with repairs, cleanouts, or months on the market.
-              We buy inherited properties as-is and close in 7-14 days.
+              We buy inherited properties as-is and close quickly once title is ready.
             </p>
             <a
               href={`tel:${PHONE}`}
@@ -170,6 +170,9 @@ export default function HarrisburgInheritedPropertyPage() {
 
           <section className="mb-10">
             <h2 className="text-2xl font-bold text-brand-dark mb-4">Dauphin County Probate — The Basics</h2>
+            <p className="text-sm text-gray-700 mb-4">
+              The <a href="https://www.dauphincounty.gov/government/publicly-elected-officials/register-of-wills-clerk-of-orphans-court" className="text-brand-primary hover:underline" target="_blank" rel="noopener noreferrer">Dauphin County Register of Wills</a> probates wills, processes estates, and grants letters to personal representatives. Pennsylvania law separately provides that letters testamentary are granted by the register to the executor named in the will.
+            </p>
             <p className="text-gray-700 mb-4">
               If the property was titled solely in the deceased&apos;s name, it goes through probate at the
               Dauphin County Register of Wills. Here&apos;s what that typically looks like:
@@ -177,7 +180,7 @@ export default function HarrisburgInheritedPropertyPage() {
             <div className="space-y-3">
               {[
                 { step: '1', label: 'File for probate at Dauphin County Register of Wills', detail: '101 Market Street, Harrisburg PA 17101. The executor (personal representative) named in the will files for Letters Testamentary.' },
-                { step: '2', label: 'Letters Testamentary are issued', detail: 'Once issued, the executor has legal authority to manage and sell estate assets. This often happens within days to a couple of weeks.' },
+                { step: '2', label: 'Letters Testamentary are issued', detail: 'Once issued, the executor has legal authority to manage and sell estate assets. This often happens after the Register of Wills grants letters.' },
                 { step: '3', label: 'Executor signs the purchase agreement', detail: 'With Letters Testamentary in hand, the executor can sign a real estate contract. The estate sells the property, not the individual heirs.' },
                 { step: '4', label: 'Close with a title company', detail: 'Closing is handled by a PA title company. Proceeds go to the estate account for distribution to heirs according to the will or PA intestate law.' },
               ].map((item) => (

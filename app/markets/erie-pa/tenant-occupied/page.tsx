@@ -22,7 +22,7 @@ const FAQ_ITEMS = [
   {
     question: 'Do I need to give the tenant notice before selling in Pennsylvania?',
     answer:
-      "Pennsylvania tenants have certain rights when a property is sold. Generally, a valid lease survives the sale — the new buyer becomes the landlord. Month-to-month tenants are typically entitled to 15 days' notice to vacate from the new owner. We're familiar with PA landlord-tenant law and handle this after closing.",
+      "Pennsylvania tenants have certain rights when a property is sold. Generally, a valid lease survives the sale — the new buyer becomes the landlord. Month-to-month tenants are typically entitled to the notice required by Pennsylvania law and the lease. We're familiar with PA landlord-tenant law and handle this after closing.",
   },
   {
     question: 'What if the tenant hasn\'t paid rent in months?',
@@ -32,12 +32,12 @@ const FAQ_ITEMS = [
   {
     question: 'How much will you pay for a tenant-occupied Erie rental?',
     answer:
-      "Cash offers for tenant-occupied Erie rentals account for property condition, current rent (or lack thereof), the tenant situation, and exit costs. With a non-paying tenant, offers are typically toward the lower end of our 60-75% ARV range. With a paying tenant, we may offer closer to retail. Every situation is different.",
+      "Cash offers for tenant-occupied Erie rentals account for property condition, current rent (or lack thereof), the tenant situation, and exit costs. With a non-paying tenant, offers are typically more conservative because we inherit collection, possession, and carrying-cost risk. With a paying tenant, we may offer closer to retail. Every situation is different.",
   },
   {
     question: "Why are so many Erie landlords selling right now?",
     answer:
-      "Erie has a ~50% renter-occupied rate and a 77% pre-1970 housing stock. Many landlords in Erie are non-professional investors who bought one or two properties and are now dealing with deferred maintenance, aging systems, difficult tenants, and a market that's harder to manage than they expected. We buy in all these situations.",
+      "Erie has a large renter-occupied market and older housing stock. Many landlords in Erie are non-professional investors who bought one or two properties and are now dealing with deferred maintenance, aging systems, difficult tenants, and a market that's harder to manage than they expected. We buy in all these situations.",
   },
 ];
 
@@ -77,7 +77,7 @@ export default function ErieTenantOccupiedPage() {
               Selling a Tenant-Occupied Property in Erie PA
             </h1>
             <p className="text-lg text-blue-100 mb-4">
-              Erie has a ~50% renter-occupied rate — one of the highest in northwest Pennsylvania.
+              Erie has a large renter-occupied market — one of the highest in northwest Pennsylvania.
               If you&apos;re a tired landlord dealing with non-paying tenants, deferred maintenance on an aging property,
               or just ready to exit, we buy rental properties with tenants in place. No eviction needed.
             </p>
@@ -102,7 +102,7 @@ export default function ErieTenantOccupiedPage() {
             <ul className="space-y-1 text-sm text-gray-700">
               <li>• We buy <strong>tenant-occupied properties with tenants in place</strong> — paying or non-paying</li>
               <li>• <strong>No eviction required</strong> before you sell — we take on the tenant after closing</li>
-              <li>• Erie&apos;s ~50% renter rate means this is one of the most common situations we handle</li>
+              <li>• Erie&apos;s large renter market means this is one of the most common situations we handle</li>
               <li>• We cover all closing costs — no commissions, no fees, no surprise deductions</li>
             
             <li><Link href="/blog/destroyed-rental-property-case-study" className="text-brand-primary hover:underline">Case Study: He Sold His Destroyed Rental for $50K →</Link></li>
@@ -112,10 +112,9 @@ export default function ErieTenantOccupiedPage() {
           <section className="mb-10">
             <h2 className="text-2xl font-bold text-brand-dark mb-4">The Tired Erie Landlord Problem</h2>
             <p className="text-gray-700 mb-4">
-              Erie&apos;s rental market looks attractive on paper — cheap properties, ~50% renters, consistent demand.
-              But for non-professional landlords, the reality is different. Erie&apos;s housing stock is 77% pre-1970,
-              which means constant maintenance issues. The city&apos;s 23% poverty rate means tenant financial
-              instability is common. And lake-effect snow (104+ inches per year) accelerates property wear.
+              Erie&apos;s rental market looks attractive on paper — cheap properties, many renters, consistent demand.
+              But for non-professional landlords, the reality is different. Erie&apos;s housing stock is a large share of older homes,
+              which means constant maintenance issues. Tenant financial instability is common, and lake-effect snow adds to property wear.
             </p>
             <p className="text-gray-700 mb-4">
               Many Erie landlords reached out to us because they&apos;re dealing with one or more of these:
@@ -139,12 +138,15 @@ export default function ErieTenantOccupiedPage() {
 
           <section className="mb-10">
             <h2 className="text-2xl font-bold text-brand-dark mb-4">How a Tenant-Occupied Sale Works</h2>
+            <p className="text-sm text-gray-700 mb-4">
+              Pennsylvania&apos;s <a href="https://www.legis.state.pa.us/WU01/LI/LI/US/HTM/1951/0/0020..HTM" className="text-brand-primary hover:underline" target="_blank" rel="noopener noreferrer">Landlord and Tenant Act of 1951</a> includes rules for people acquiring title by purchase, notice to quit, recovery of possession, and escrow/security deposits. We do not require you to remove tenants before selling.
+            </p>
             <div className="space-y-3">
               {[
                 { step: '1', label: 'You contact us — no eviction required first', detail: "Tell us about the property and tenant situation. We don't require you to evict or remove tenants before we make an offer." },
                 { step: '2', label: 'We make a cash offer accounting for tenant situation', detail: "Offer considers property condition, rent rolls or non-payment, and exit complexity. Written offer in 24 hours." },
-                { step: '3', label: 'You sign, we coordinate with tenants for access', detail: "We'll contact the tenant to schedule a brief walkthrough per PA landlord-tenant law (24-hour notice required for entry)." },
-                { step: '4', label: 'Close in 7-14 days, tenant stays — we handle from here', detail: "You get paid. The tenant relationship transfers to us at closing. PA title company handles the paperwork." },
+                { step: '3', label: 'You sign, we coordinate with tenants for access', detail: "We'll contact the tenant to schedule a brief walkthrough per PA landlord-tenant law (reasonable notice when required by the lease or law)." },
+                { step: '4', label: 'Close quickly once title is ready, tenant stays — we handle from here', detail: "You get paid. The tenant relationship transfers to us at closing. PA title company handles the paperwork." },
               ].map((item) => (
                 <div key={item.step} className="flex gap-3 items-start border border-gray-200 rounded-lg p-4">
                   <div className="w-7 h-7 bg-brand-primary text-white rounded-full flex items-center justify-center text-sm font-bold shrink-0">

@@ -10,7 +10,7 @@ import { VideoEmbed } from '@/components/VideoEmbed';
 export const metadata: Metadata = {
   title: 'Sell with Code Violations — Harrisburg PA',
   description:
-    'Selling a house with code violations in Harrisburg PA? We buy properties with open violations, municipal liens, and city citations as-is. Cash offer in 24 hours, close in 7–14 days.',
+    'Selling a house with code violations in Harrisburg PA? We buy properties with open violations, municipal liens, and city citations as-is. Cash offer in 24 hours, close quickly once title is ready.',
   alternates: { canonical: `${SITE_URL}/markets/harrisburg-pa/code-violations` },
 };
 
@@ -48,7 +48,7 @@ const FAQ_ITEMS = [
   {
     question: 'How quickly can we close on a property with violations?',
     answer:
-      'Typically 7–14 days from accepted offer. The main timeline factor is the title search, which surfaces all liens and violations. Once that\'s clear, we can close quickly — faster if you have a fine deadline or a city-ordered timeline.',
+      'Typically quickly from accepted offer. The main timeline factor is the title search, which surfaces liens and violations. Once that\'s clear, we can close quickly — faster if you have a fine deadline or a city-ordered timeline.',
   },
 ];
 
@@ -125,7 +125,7 @@ export default function HarrisburgCodeViolationsPage() {
         </summary>
         <div className="px4 pb-4 text-sm text-gray-600 leading-relaxed">
             <p className="mb-3">If your Harrisburg property has code violations — outstanding city citations, failed inspections, unpermitted work — selling it the traditional way is a real challenge. Most buyers using financing can&apos;t touch it. I&apos;m with USA Home Buyers, and this is exactly the kind of property we buy.</p>
-            <p className="mb-3">The City of Harrisburg Bureau of Codes Enforcement is active. Violations accumulate fines. Unpermitted additions or structural issues can make a property unmortgageable, which cuts out 80 to 90 percent of your buyer pool immediately.</p>
+            <p className="mb-3">The City of Harrisburg Bureau of Codes Enforcement is active. Violations accumulate fines. Unpermitted additions or structural issues can make a property difficult or impossible to finance conventionally, which immediately narrows the buyer pool.</p>
             <p className="mb-3">We&apos;re not one of those buyers. We pay cash, so there&apos;s no lender review, no appraisal flagging issues, no financing contingency that falls apart when the inspector finds the unpermitted garage addition. We buy the property in its current condition.</p>
             <p className="mb-3">Here&apos;s how it works at closing: the code violation fines are identified during the title search. They get paid from closing proceeds, just like a lien or back taxes would. In most cases, you don&apos;t need cash upfront to resolve them. The title company handles the payoffs.</p>
             <p className="mb-3">If you have a property in Harrisburg or Dauphin County with code violations and you&apos;re not sure what to do with it, call USA Home Buyers at 888-274-5006. We&apos;ll give you a written cash offer within 24 hours and explain exactly how the violations get resolved at closing. No surprises.</p>
@@ -143,12 +143,15 @@ export default function HarrisburgCodeViolationsPage() {
               <li>✓ Cash buyers buy as-is; you don&apos;t repair anything</li>
               <li>✓ Municipal liens are resolved at closing from sale proceeds</li>
               <li>✓ Conventional buyers can&apos;t get financing on violation-heavy properties — cash is your best path</li>
-              <li>✓ We close in 7–14 days, before fines escalate further</li>
+              <li>✓ We close quickly once title is ready, before fines escalate further</li>
             </ul>
           </div>
 
           <section className="mb-10">
             <h2 className="text-2xl font-bold text-brand-dark mb-3">Why Code Violations Are Common in Harrisburg</h2>
+            <p className="text-sm text-gray-700 mb-4">
+              Harrisburg&apos;s <a href="https://harrisburgpa.gov/services/codes/index.php" className="text-brand-primary hover:underline" target="_blank" rel="noopener noreferrer">Bureau of Codes</a> is the city office for code-enforcement questions and forms. The <a href="https://www.dauphincounty.gov/government/support-services/property-taxes/tax-claim" className="text-brand-primary hover:underline" target="_blank" rel="noopener noreferrer">Dauphin County Tax Claim Bureau</a> collects delinquent real estate taxes and provides tax certifications showing unpaid delinquent taxes.
+            </p>
             <p className="text-gray-700 mb-4">
               Harrisburg&apos;s residential neighborhoods — Allison Hill, Uptown, Midtown, the South End — contain
               significant pre-WWII housing stock. Many of these homes haven&apos;t seen substantial investment in
@@ -261,7 +264,7 @@ export default function HarrisburgCodeViolationsPage() {
           <CashOfferForm
             variant="inline"
             headline="Get a Cash Offer — Violations and All"
-            subheadline="No repairs required. We handle violations after closing. Close in 7–14 days."
+            subheadline="No repairs required. We handle violations after closing. Close quickly once title is ready."
             sourcePage="/markets/harrisburg-pa/code-violations"
           />
 

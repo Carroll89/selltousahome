@@ -101,7 +101,7 @@ export default function EriePropertyLiensPage() {
             <h2 className="text-lg font-bold mb-3">TL;DR</h2>
             <ul className="space-y-1 text-sm text-gray-700">
               <li>• Most liens are <strong>paid at closing from the sale proceeds</strong> — you don&apos;t pay them upfront</li>
-              <li>• Erie&apos;s 23% poverty rate means back taxes and city liens are common — we&apos;ve handled many</li>
+              <li>• Back taxes and city liens are common in Erie — we&apos;ve handled many</li>
               <li>• We work with <strong>PA title companies</strong> experienced in Erie County lien clearance</li>
               <li>• Lien amounts <strong>reduce your net proceeds</strong> — we&apos;re transparent about what you walk away with</li>
             </ul>
@@ -109,6 +109,9 @@ export default function EriePropertyLiensPage() {
 
           <section className="mb-10">
             <h2 className="text-2xl font-bold text-brand-dark mb-4">How Liens Work in an Erie PA Sale</h2>
+            <p className="text-sm text-gray-700 mb-4">
+              The <a href="https://courts.eriecountypa.gov/index.php/departments/clerk-of-records/recorder-of-deeds/" className="text-brand-primary hover:underline" target="_blank" rel="noopener noreferrer">Erie County Recorder of Deeds</a> records and indexes real estate documents such as deeds, mortgages, satisfactions, leases, and UCC filings, and collects state and local realty transfer tax on transfers.
+            </p>
             <p className="text-gray-700 mb-4">
               When a property sells, the title company runs a full title search and identifies all recorded liens.
               Before a clear deed can transfer, those liens must be satisfied (paid off). In most cases:

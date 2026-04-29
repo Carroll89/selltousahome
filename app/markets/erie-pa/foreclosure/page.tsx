@@ -10,7 +10,7 @@ import { VideoEmbed } from '@/components/VideoEmbed';
 export const metadata: Metadata = {
   title: 'Stop Foreclosure Erie PA — Cash Sale',
   description:
-    'Facing foreclosure in Erie PA or Erie County? Sell before the sheriff sale and protect your equity. Cash offer in 24 hours, close in 7-14 days.',
+    'Facing foreclosure in Erie PA or Erie County? Sell before the sheriff sale and protect your equity. Cash offer in 24 hours, close quickly once title is ready.',
   alternates: { canonical: `${SITE_URL}/markets/erie-pa/foreclosure` },
 };
 
@@ -18,7 +18,7 @@ const FAQ_ITEMS = [
   {
     question: 'How long does foreclosure take in Erie County PA?',
     answer:
-      "Pennsylvania is a judicial foreclosure state. In Erie County, the full process typically takes 9-18 months from first missed payment to sheriff sale at the Erie County Courthouse, 140 West Sixth Street, Erie PA 16501. Erie County Sheriff Chris Campanelli's office handles sheriff sales. The lender must file a lawsuit in the Erie County Court of Common Pleas (President Judge: John J. Mead) and the homeowner has the right to contest.",
+      "Pennsylvania is a judicial foreclosure state. In Erie County, the full process typically takes months from first missed payment to sheriff sale at the Erie County Courthouse, 140 West Sixth Street, Erie PA 16501. Erie County Sheriff Chris Campanelli's office handles sheriff sales. The lender must file a lawsuit in the Erie County Court of Common Pleas (President Judge: John J. Mead) and the homeowner has the right to contest.",
   },
   {
     question: 'Where are Erie County sheriff sales held?',
@@ -28,22 +28,22 @@ const FAQ_ITEMS = [
   {
     question: 'Can I stop an Erie County sheriff sale by selling the property?',
     answer:
-      "Yes. If you close on a cash sale before the sheriff sale date, the mortgage is paid off at closing and the foreclosure is dismissed. We've helped Erie homeowners close in 7 days to beat sheriff sale deadlines. Call us immediately if you have a sale date scheduled.",
+      "Yes. If you close on a cash sale before the sheriff sale date, the mortgage is paid off at closing and the foreclosure is dismissed. We've helped Erie homeowners close quickly once title is ready to beat sheriff sale deadlines. Call us immediately if you have a sale date scheduled.",
   },
   {
     question: "What is Pennsylvania's Act 91 notice?",
     answer:
-      "Before filing foreclosure, your lender must send a state-mandated Act 91 notice. You have 30 days from receipt to apply for the Pennsylvania Housing Finance Agency's HEMAP (Homeowners Emergency Mortgage Assistance Program) assistance. The lender cannot file the foreclosure complaint until this period expires.",
+      "Before filing foreclosure, your lender generally must send an Act 91 notice for PHFA's HEMAP program. The Pennsylvania Bulletin form notice tells homeowners to meet with an approved counseling agency within 33 days of the notice date; confirm the exact deadline on your notice.",
   },
   {
     question: 'Do I have equity if I sell before foreclosure in Erie?',
     answer:
-      "If your home is worth more than you owe (mortgage balance plus arrears), yes — you keep the difference after the mortgage is paid off. For example: home sells for $100,000, you owe $65,000 including back payments, you walk away with $35,000 minus closing costs (which we cover). We absorb the 2% transfer tax entirely.",
+      "If your home is worth more than you owe (mortgage balance plus arrears), yes — you keep the difference after the mortgage is paid off. For example: home sells for $100,000, you owe $65,000 including back payments, you walk away with $35,000 minus closing costs (which we cover). We absorb the Pennsylvania and local realty transfer taxes entirely.",
   },
   {
     question: 'Is there a right of redemption after a sheriff sale in Pennsylvania?',
     answer:
-      "No. Pennsylvania has no statutory right of redemption after a sheriff sale. Once the sale occurs and the upset bid period (10 days) passes, the deed transfers to the buyer and the prior owner has no right to reclaim the property. Selling before the sale is the only way to protect your equity.",
+      "Pennsylvania sheriff-sale consequences move quickly after the sale. Because post-sale rights are limited and fact-specific, the safest path is to speak with counsel and resolve the mortgage before the scheduled sale whenever possible.",
   },
 ];
 
@@ -85,7 +85,7 @@ export default function ErieForeclosurePage() {
             </h1>
             <p className="text-lg text-blue-100 mb-4">
               Pennsylvania gives you more time and more options than most states. If you have equity in your
-              Erie home, selling before the sheriff sale protects it. We can close in 7 days.
+              Erie home, selling before the sheriff sale protects it. We can close quickly once title is ready.
             </p>
             <div className="bg-red-900/50 border border-red-500/30 rounded-lg p-4 mb-4 text-sm">
               <p className="font-semibold text-red-200 mb-1">Sheriff sale date scheduled?</p>
@@ -113,7 +113,7 @@ export default function ErieForeclosurePage() {
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          <p className="mb-3">Facing foreclosure in Erie? Pennsylvania&apos;s judicial foreclosure process can take nine to eighteen months, which means you have time to act. We work with homeowners in pre-foreclosure across Erie County to provide a fast cash sale before the sheriff&apos;s sale.</p>
+          <p className="mb-3">Facing foreclosure in Erie? Pennsylvania&apos;s judicial foreclosure process can take several months or longer, which means you have time to act. We work with homeowners in pre-foreclosure across Erie County to provide a fast cash sale before the sheriff&apos;s sale.</p>
           <p>You avoid the court process, protect your credit, and walk away with cash if you have equity.</p>
         </div>
       </details>
@@ -124,20 +124,20 @@ export default function ErieForeclosurePage() {
           <div className="bg-brand-light/20 p-6 rounded-xl mb-8">
             <h2 className="text-lg font-bold mb-3">TL;DR</h2>
             <ul className="space-y-1 text-sm text-gray-700">
-              <li>• Pennsylvania&apos;s judicial foreclosure takes <strong>9–18 months</strong> — you have more time to act than most homeowners realize</li>
+              <li>• Pennsylvania&apos;s judicial foreclosure takes <strong>months</strong> — you have more time to act than most homeowners realize</li>
               <li>• Selling before the <strong>Erie County sheriff sale</strong> at 140 West Sixth Street, Erie PA 16501 stops the foreclosure and protects your equity</li>
-              <li>• <strong>No right of redemption</strong> after the sheriff sale in PA — once it happens, the property is gone</li>
-              <li>• We can <strong>close in 7 days</strong> — fast enough to beat most sheriff sale deadlines</li>
+              <li>• After a sheriff sale, options narrow quickly — resolving the mortgage before sale is safer</li>
+              <li>• We can <strong>close quickly once title is ready</strong> — fast enough to beat most sheriff sale deadlines</li>
             </ul>
           </div>
 
           <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-10">
             <h2 className="text-lg font-bold text-brand-dark mb-2">What You Need to Know Right Now</h2>
             <p className="text-gray-700 text-sm">
-              Pennsylvania&apos;s judicial foreclosure process averages 9–18 months from first missed payment to
+              Pennsylvania&apos;s judicial foreclosure process averages months from first missed payment to
               sheriff&apos;s sale. You have more time than you think. If your Erie home is worth more than you owe,
               a cash sale pays off the mortgage, stops the foreclosure, and puts money in your pocket.
-              Erie&apos;s 23% poverty rate means foreclosure situations here are common — and we&apos;ve closed many of them.
+              Foreclosure situations are common in Erie, and we&apos;ve closed many of them.
               Erie County sheriff sales are listed at{' '}
               <a href="https://eriecountypa.gov/sheriff/sheriff-sales/" target="_blank" rel="noopener noreferrer" className="text-brand-primary underline">eriecountypa.gov/sheriff/sheriff-sales/</a>.
             </p>
@@ -145,12 +145,15 @@ export default function ErieForeclosurePage() {
 
           <section className="mb-10">
             <h2 className="text-2xl font-bold text-brand-dark mb-4">PA Foreclosure in Erie County: What Happens</h2>
+            <p className="text-sm text-gray-700 mb-4">
+              Pennsylvania Bulletin guidance for PHFA&apos;s HEMAP program says mortgage servicers must send an Act 91 notice before legal foreclosure action, and the notice gives homeowners a short window to meet with an approved counseling agency. Erie County publishes scheduled sheriff sales through the county sheriff&apos;s office.
+            </p>
             <div className="space-y-3">
               {[
-                { step: '1', label: 'Missed payments → Act 91 Notice', detail: "After missed payments, lender sends a state-mandated Act 91 notice. You have 30 days to apply for PHFA HEMAP assistance. Lender cannot file until this period expires." },
+                { step: '1', label: 'Missed payments → Act 91 Notice', detail: "After missed payments, the lender generally sends an Act 91 notice. The form notice tells homeowners to meet with an approved counseling agency within 33 days of the notice date." },
                 { step: '2', label: 'Foreclosure complaint filed in Erie County Court', detail: "Lender files in the Erie County Court of Common Pleas (President Judge: John J. Mead). You are served and have 20 days to respond." },
                 { step: '3', label: 'Judgment if no response or contest', detail: "If you don't respond or the court rules for the lender, a writ of execution is entered and a sheriff sale is scheduled by Sheriff Chris Campanelli's office." },
-                { step: '4', label: 'Sheriff sale at Erie County Courthouse', detail: "140 West Sixth Street, Erie PA 16501. 10-day upset bid period follows. No right of redemption in PA after the sheriff sale — once it happens, it's done." },
+                { step: '4', label: 'Sheriff sale at Erie County Courthouse', detail: "140 West Sixth Street, Erie PA 16501. After the sheriff sale, options narrow quickly, so resolving the mortgage before sale is safer." },
               ].map((item) => (
                 <div key={item.step} className="flex gap-3 items-start border border-gray-200 rounded-lg p-4">
                   <div className="w-7 h-7 bg-brand-primary text-white rounded-full flex items-center justify-center text-sm font-bold shrink-0">
@@ -179,7 +182,7 @@ export default function ErieForeclosurePage() {
                 },
                 {
                   title: "We cover all closing costs",
-                  desc: "Erie's standard 2% transfer tax and all other closing costs are covered by us. The offer we make is the number you walk away with — your equity is fully protected.",
+                  desc: "Pennsylvania and local realty transfer taxes and all other closing costs are covered by us. The offer we make is the number you walk away with — your equity is fully protected.",
                 },
               ].map((item, i) => (
                 <div key={i} className="bg-green-50 border border-green-100 rounded-xl p-5">
@@ -193,10 +196,7 @@ export default function ErieForeclosurePage() {
           <section className="mb-10">
             <h2 className="text-2xl font-bold text-brand-dark mb-4">Erie PA Foreclosure — Local Context</h2>
             <p className="text-gray-700 mb-4">
-              Erie has a poverty rate of 23% and a median household income of $46,000-$48,000. Pre-foreclosure
-              seller motivation here is consistent and real — this isn&apos;t a market where financial distress is
-              unusual. We buy Erie&apos;s aging Cape Cods and bungalows throughout the city: Little Italy, West
-              Bayfront, Glenwood, Southeast Erie, Downtown, and the Central Eastside.
+              Pre-foreclosure seller motivation here is real. We buy Erie&apos;s aging Cape Cods and bungalows throughout the city: Little Italy, West Bayfront, Glenwood, Southeast Erie, Downtown, and the Central Eastside.
             </p>
             <p className="text-gray-700">
               We work with experienced local Erie County title companies who understand PA foreclosure law and can
@@ -208,7 +208,7 @@ export default function ErieForeclosurePage() {
           <CashOfferForm
             variant="inline"
             headline="Get a Cash Offer Before Your Erie County Sheriff Sale"
-            subheadline="Written offer in 24 hours. Close in 7-14 days. We cover all closing costs."
+            subheadline="Written offer in 24 hours. Close quickly once title is ready. We cover all closing costs."
             sourcePage="/markets/erie-pa/foreclosure"
           />
 

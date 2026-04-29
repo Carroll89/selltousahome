@@ -9,7 +9,7 @@ import { PHONE, SITE_URL } from '@/lib/utils';
 export const metadata: Metadata = {
   title: 'Divorce Sale Erie PA — Cash Home Buyers',
   description:
-    'Selling a house during divorce in Erie PA? We buy as-is, close in 7-14 days, and split proceeds at closing. No repairs, no showings, no delay. Serving Erie County.',
+    'Selling a house during divorce in Erie PA? We buy as-is and coordinate around title, divorce agreements, and court orders. No repairs, no showings. Serving Erie County.',
   alternates: { canonical: `${SITE_URL}/markets/erie-pa/divorce-sale` },
 };
 
@@ -17,17 +17,17 @@ const FAQ_ITEMS = [
   {
     question: 'Can we sell the house before the divorce is finalized in Erie PA?',
     answer:
-      "Yes, in many cases. If both spouses agree to sell and are both on the title, you can sell during the divorce process. The proceeds are typically held in escrow or distributed per court order or mutual agreement. A PA family law attorney can advise on your specific situation.",
+      "Yes, in many cases, when the titled owners and any divorce agreement or court order allow it. Pennsylvania equitable-distribution law allows a court to direct the transfer or sale of marital property to enforce an order or agreement, so title and court documents need to be checked before closing.",
   },
   {
     question: 'What if one spouse wants to sell and the other doesn\'t?',
     answer:
-      "If both spouses are on the title and can't agree, a court may need to order a partition or sale through Erie County Court of Common Pleas. However, many couples find that a fast cash sale is the cleanest resolution — it removes the house from the dispute, creates liquid proceeds to divide, and lets both parties move on.",
+      "If titled owners cannot agree, the sale may need to wait for a divorce agreement or court direction. Many couples still use a cash sale because it removes the house from the dispute, creates liquid proceeds to divide, and lets both parties move on.",
   },
   {
     question: 'How fast can we close on a divorce sale in Erie PA?',
     answer:
-      "If both spouses can sign and there are no court holds on the property, we can close in 7-14 days. We handle the paperwork and coordinate with both parties. You don't need to be in the same room — we can accommodate remote signings.",
+      "If the titled owners can sign and there are no court holds or title issues, we can often close quickly. We handle the purchase paperwork and coordinate with both parties. You don't need to be in the same room — we can accommodate separate signing logistics.",
   },
   {
     question: 'Do we have to make repairs before selling during divorce?',
@@ -37,7 +37,7 @@ const FAQ_ITEMS = [
   {
     question: "What is the transfer tax on a divorce sale in Erie PA?",
     answer:
-      "Erie's standard 2% transfer tax applies (1% state + 1% local). On a $115,000 home that's $2,300 total. When you sell to USA Home Buyers, we cover all closing costs including the full transfer tax. The proceeds divided between the parties are net of all costs.",
+      "Pennsylvania realty transfer tax includes the Commonwealth's 1% share and often an additional local transfer tax collected by the county Recorder of Deeds. We can account for ordinary seller closing costs in the offer so the parties understand the net proceeds before signing.",
   },
 ];
 
@@ -78,7 +78,7 @@ export default function ErieDivorceSalePage() {
             </h1>
             <p className="text-lg text-blue-100 mb-4">
               Divorce is hard enough without months of showings, repairs, and negotiations with an agent.
-              We buy Erie homes as-is, close in 7-14 days, and split proceeds at closing.
+              We buy Erie homes as-is and coordinate around title, divorce agreements, and court orders.
               No joint decisions about paint colors. No repairs to coordinate. Just done.
             </p>
             <a
@@ -100,10 +100,10 @@ export default function ErieDivorceSalePage() {
           <div className="bg-brand-light/20 p-6 rounded-xl mb-8">
             <h2 className="text-lg font-bold mb-3">TL;DR</h2>
             <ul className="space-y-1 text-sm text-gray-700">
-              <li>• Both spouses must agree to sell (or a court must order it) — we coordinate with both parties</li>
+              <li>• The titled owners and any divorce order or agreement control sale authority — we coordinate with both parties</li>
               <li>• We buy as-is — <strong>no joint renovation decisions, no shared repair coordination</strong></li>
-              <li>• Proceeds are <strong>split at closing</strong> per your agreement or court order</li>
-              <li>• We cover all closing costs — Erie&apos;s 2% transfer tax, title fees, everything</li>
+              <li>• Proceeds are distributed under the deed, closing instructions, and any written agreement or court order</li>
+              <li>• Pennsylvania and local transfer taxes may apply; we account for closing costs in the offer</li>
             </ul>
           </div>
 
@@ -113,7 +113,7 @@ export default function ErieDivorceSalePage() {
               {[
                 {
                   title: 'Speed ends the shared ownership',
-                  desc: "Every month the house sits on the market is another month you're co-owners, sharing decisions and carrying costs. A 7-14 day cash close puts an end date on the shared obligation.",
+                  desc: "Every month the house sits on the market is another month you're co-owners, sharing decisions and carrying costs. A cash close can put an end date on the shared obligation once title and divorce documents are ready.",
                 },
                 {
                   title: 'No repairs to coordinate',
@@ -121,7 +121,7 @@ export default function ErieDivorceSalePage() {
                 },
                 {
                   title: 'Clean division at closing',
-                  desc: "Proceeds go directly to an escrow split or to each party per your agreement. The title company handles the distribution. No one has to trust the other to write a check.",
+                  desc: "Proceeds are distributed according to the deed, closing instructions, and any divorce agreement or court order. No one has to rely on an informal side promise.",
                 },
                 {
                   title: 'Confidential process',
@@ -138,12 +138,15 @@ export default function ErieDivorceSalePage() {
 
           <section className="mb-10">
             <h2 className="text-2xl font-bold text-brand-dark mb-4">How the Process Works</h2>
+            <p className="text-sm text-gray-700 mb-4">
+              Under <a href="https://www.legis.state.pa.us/WU01/LI/LI/CT/HTM/23/00.035.002.000..HTM" className="text-brand-primary hover:underline" target="_blank" rel="noopener noreferrer">23 Pa.C.S. § 3502</a>, Pennsylvania courts can divide marital property and may direct transfer or sale to enforce an equitable-distribution order or agreement. The <a href="https://www.pa.gov/agencies/revenue/resources/tax-types-and-information/realty-transfer-tax" className="text-brand-primary hover:underline" target="_blank" rel="noopener noreferrer">Pennsylvania Department of Revenue</a> explains that realty transfer tax includes the Commonwealth&apos;s 1% share and often local transfer tax.
+            </p>
             <div className="space-y-3">
               {[
                 { step: '1', label: 'One or both parties contacts us', detail: "Either spouse can initiate the conversation. We'll ask about the property condition, situation, and timeline. Confidential." },
                 { step: '2', label: 'Written cash offer within 24 hours', detail: "We send a formal written offer with price, terms, and proposed closing date. Both parties can review it independently." },
-                { step: '3', label: 'Both parties sign the purchase agreement', detail: "Both spouses on the title must sign. We can accommodate remote signing or separate signing appointments if needed." },
-                { step: '4', label: 'Close in 7-14 days, proceeds split at closing', detail: "The PA title company handles the closing and distributes proceeds per your agreement or court order. We cover all costs." },
+                { step: '3', label: 'Sale authority is confirmed', detail: "Titled owners and any required agreement or court order are reviewed before closing. We can accommodate separate signing logistics if needed." },
+                { step: '4', label: 'Close and distribute proceeds', detail: "Closing proceeds are distributed according to the deed, closing instructions, and any written agreement or court order." },
               ].map((item) => (
                 <div key={item.step} className="flex gap-3 items-start border border-gray-200 rounded-lg p-4">
                   <div className="w-7 h-7 bg-brand-primary text-white rounded-full flex items-center justify-center text-sm font-bold shrink-0">

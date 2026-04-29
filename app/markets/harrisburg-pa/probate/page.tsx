@@ -10,7 +10,7 @@ import { VideoEmbed } from '@/components/VideoEmbed';
 export const metadata: Metadata = {
   title: 'Probate Property Sale — Harrisburg PA',
   description:
-    'Need to sell a house in probate in Harrisburg or Dauphin County PA? We buy probate properties as-is, work around estate timelines, and close in 7-14 days.',
+    'Need to sell a house in probate in Harrisburg or Dauphin County PA? We buy probate properties as-is, work around estate timelines, and close quickly once title is ready.',
   alternates: { canonical: `${SITE_URL}/markets/harrisburg-pa/probate` },
 };
 
@@ -23,7 +23,7 @@ const FAQ_ITEMS = [
   {
     question: 'How long does probate take in Dauphin County?',
     answer:
-      'Simple estates in Dauphin County can move through probate in a few weeks to a few months. More complex situations — multiple heirs, contested wills, property with complications — can take 6-12 months or longer. The sale of real property doesn\'t have to wait until the entire estate is settled; it can often occur once the personal representative has Letters Testamentary.',
+      'Simple estates can move faster than contested or complex estates, but timing depends on the Register of Wills, heirs, creditors, and title issues. The sale of real property often does not have to wait until the entire estate is settled once the personal representative has Letters Testamentary or Letters of Administration.',
   },
   {
     question: 'Can I sell the house before probate is finished?',
@@ -114,8 +114,8 @@ export default function HarrisburgProbatePage() {
         <div className="px4 pb-4 text-sm text-gray-600 leading-relaxed">
             <p className="mb-3">If you&apos;re an executor or administrator handling an estate with property in Harrisburg, this video is for you. Probate real estate sales have their own rules, and I want to make sure you understand them.</p>
             <p className="mb-3">First, where does probate happen in Harrisburg? The Dauphin County Register of Wills, located at the county courthouse on Market Street. That&apos;s where Letters Testamentary or Letters of Administration get issued — and once you have those, you have the legal authority to sell the estate&apos;s real property.</p>
-            <p className="mb-3">Here&apos;s something that surprises a lot of executors: you don&apos;t have to wait until the entire estate is closed to sell the house. Once you have your Letters, you can move on the property. Simple estates in Dauphin County can move through the opening process in a few weeks.</p>
-            <p className="mb-3">We buy probate properties in Harrisburg and Dauphin County as-is. No repairs, no cleanout. We work around your timeline. If you need to close fast, we can do it in 7 to 14 days. If the estate needs more time, we can accommodate that too.</p>
+            <p className="mb-3">Here&apos;s something that surprises a lot of executors: you don&apos;t have to wait until the entire estate is closed to sell the house. Once you have your Letters, you can move on the property. Simple estates can move faster than contested estates, but timing depends on the Register of Wills, heirs, creditors, and title issues.</p>
+            <p className="mb-3">We buy probate properties in Harrisburg and Dauphin County as-is. No repairs, no cleanout. We work around your timeline. If you need to close quickly once title and estate authority are ready, we can work around that. If the estate needs more time, we can accommodate that too.</p>
             <p className="mb-3">The executor signs the deed — not individual heirs — and the proceeds go into the estate account for distribution. A title company experienced with estate sales handles all the paperwork.</p>
             <p className="mb-3">If you&apos;re the personal representative of a Harrisburg estate and need to sell the home, call USA Home Buyers at 888-274-5006. We&apos;ll walk you through the process and get you a written cash offer within 24 hours.</p>
         </div>
@@ -134,6 +134,9 @@ export default function HarrisburgProbatePage() {
           </div>
 
           <section className="mb-10">
+            <p className="text-sm text-gray-700 mb-4">
+              The <a href="https://www.dauphincounty.gov/government/publicly-elected-officials/register-of-wills-clerk-of-orphans-court" className="text-brand-primary hover:underline" target="_blank" rel="noopener noreferrer">Dauphin County Register of Wills</a> probates wills and grants Letters Testamentary or Letters of Administration to qualified personal representatives. Pennsylvania law also states that letters testamentary are granted by the register to the executor named in the will.
+            </p>
             <h2 className="text-2xl font-bold text-brand-dark mb-6">
               How a Probate Sale Works in Dauphin County
             </h2>
@@ -192,7 +195,7 @@ export default function HarrisburgProbatePage() {
                 },
                 {
                   title: 'Faster than the MLS',
-                  desc: 'The estate stops accumulating carrying costs as soon as you close. A cash sale can close in 7-14 days vs. 90+ days for a traditional sale.',
+                  desc: 'The estate stops accumulating carrying costs as soon as you close. A cash sale can close quickly once title is ready vs. 90+ days for a traditional sale.',
                 },
                 {
                   title: 'No cleanout required',

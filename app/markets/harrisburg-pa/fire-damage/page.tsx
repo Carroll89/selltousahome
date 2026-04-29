@@ -23,7 +23,7 @@ const FAQ_ITEMS = [
   {
     question: 'Should I repair the damage before selling?',
     answer:
-      'Not necessarily. Fire restoration is expensive — typically $30,000 to $150,000+ depending on severity, structural involvement, smoke and water damage, and code compliance requirements. If the repair cost exceeds the value it adds to the sale, or if you simply can\'t finance the restoration, selling as-is to a cash buyer may net you more money with far less hassle.',
+      'Not necessarily. Fire restoration can be expensive depending on severity, structural involvement, smoke and water damage, and code compliance requirements. If the repair cost exceeds the value it adds to the sale, or if you simply can\'t finance the restoration, selling as-is to a cash buyer may net you more money with far less hassle.',
   },
   {
     question: 'What happens to the insurance claim if I sell?',
@@ -95,7 +95,7 @@ export default function HarrisburgFireDamagePage() {
               Sell Your Fire-Damaged Home in Harrisburg, PA — As-Is, for Cash
             </h1>
             <p className="text-lg text-blue-100 mb-4">
-              Dealing with fire damage is already exhausting. Don&apos;t add months of restoration work and
+              Dealing with fire damage is already exhausting. Don&apos;t add restoration work and
               contractor negotiations on top of it. We buy fire-damaged properties throughout Harrisburg
               and Dauphin County — in any condition, no repairs required.
             </p>
@@ -128,7 +128,7 @@ export default function HarrisburgFireDamagePage() {
             <p className="mb-3">Here&apos;s what that means in practice. You don&apos;t need to repair anything. You don&apos;t need to remediate smoke or water damage. You don&apos;t need to bring the structure up to code before selling. We buy the property in whatever condition it&apos;s in right now.</p>
             <p className="mb-3">Fire-damaged homes are essentially unmarketable through traditional channels. Conventional financing won&apos;t appraise a structurally compromised home, and getting a mortgage on a gutted property isn&apos;t possible. Your buyer pool shrinks to all-cash investors — which is exactly what we are.</p>
             <p className="mb-3">We move fast because we have to. Fire-damaged homes are often open to weather, at risk of further deterioration, and creating ongoing insurance and liability headaches. The faster you can close and hand off responsibility, the better.</p>
-            <p className="mb-3">We make written cash offers within 24 hours. Once you accept, we can close in as few as 7 days. We handle all closing costs. No agent commissions, no repairs, no remediation required on your end.</p>
+            <p className="mb-3">We make written cash offers within 24 hours. Once you accept, we can close quickly when title and insurance details are ready. We handle all closing costs. No agent commissions, no repairs, no remediation required on your end.</p>
             <p className="mb-3">Call USA Home Buyers right now at 888-274-5006. Whether it was a kitchen fire or a total loss, we&apos;ll get you an offer fast so you can move forward.</p>
         </div>
       </details>
@@ -140,11 +140,11 @@ export default function HarrisburgFireDamagePage() {
             <p className="text-xs font-bold text-brand-primary uppercase tracking-wide mb-1">TL;DR</p>
             <h2 className="text-lg font-bold text-brand-dark mb-2">What You Need to Know</h2>
             <ul className="text-sm text-gray-700 space-y-1">
-              <li>✓ You can sell a fire-damaged home in PA — disclosure required, but no repairs required</li>
-              <li>✓ Cash buyers buy as-is; you skip the $50K–$150K+ restoration process</li>
+              <li>✓ You can sell a fire-damaged home in PA — covered residential transfers require disclosure of known material defects, but repairs are negotiable</li>
+              <li>✓ Cash buyers buy as-is; you skip a potentially expensive restoration process</li>
               <li>✓ Insurance payouts are yours to keep; pending claims can often be assigned to the buyer</li>
               <li>✓ City condemnation orders don&apos;t prevent a sale — they factor into the offer</li>
-              <li>✓ We close in 7–14 days from accepted offer</li>
+              <li>✓ We close quickly once title is ready from accepted offer</li>
             
             <li><Link href="/blog/destroyed-rental-property-case-study" className="text-brand-primary hover:underline">Case Study: He Sold His Destroyed Rental for $50K →</Link></li>
           </ul>
@@ -152,6 +152,9 @@ export default function HarrisburgFireDamagePage() {
 
           <section className="mb-10">
             <h2 className="text-2xl font-bold text-brand-dark mb-3">Your Options After a House Fire</h2>
+            <p className="text-sm text-gray-700 mb-4">
+              Pennsylvania&apos;s <a href="https://www.legis.state.pa.us/WU01/LI/LI/CT/HTM/68/00.073..HTM" className="text-brand-primary hover:underline" target="_blank" rel="noopener noreferrer">Real Estate Seller Disclosure Law</a> requires known material defects to be disclosed for covered residential transfers. Harrisburg&apos;s Bureau of Codes says the city follows the Pennsylvania Uniform Construction Code and local code ordinances, so any condemnation, unsafe-structure, or permit issue should be reviewed before closing.
+            </p>
             <p className="text-gray-700 mb-4">
               After a residential fire, homeowners typically face three paths. Understanding each helps you
               make the right decision for your situation.
@@ -161,7 +164,7 @@ export default function HarrisburgFireDamagePage() {
                 {
                   title: 'Restore and keep',
                   pros: 'You keep the property and may recover most of its value.',
-                  cons: 'Expensive ($30K–$150K+), time-consuming (6–18 months), requires managing contractors, ongoing insurance complications.',
+                  cons: 'Potentially expensive and time-consuming; requires managing contractors, permits, code compliance, and ongoing insurance complications.',
                   best: 'If restoration cost is well-covered by insurance and you want to stay.',
                 },
                 {
@@ -172,9 +175,9 @@ export default function HarrisburgFireDamagePage() {
                 },
                 {
                   title: 'Sell as-is to cash buyer',
-                  pros: 'No repairs, no contractors, close in 7–14 days. You get the insurance money AND the sale proceeds (minus fire damage discount).',
+                  pros: 'No repairs, no contractors, close quickly once title is ready. You get the insurance money AND the sale proceeds (minus fire damage discount).',
                   cons: 'Lower sale price than restored property.',
-                  best: 'If you want certainty, speed, and to move on without months of rebuilding.',
+                  best: 'If you want certainty, speed, and to move on without managing a rebuild.',
                 },
               ].map((item, i) => (
                 <div key={i} className="border border-gray-200 rounded-xl p-5">
@@ -291,7 +294,7 @@ export default function HarrisburgFireDamagePage() {
           <CashOfferForm
             variant="inline"
             headline="Get a Cash Offer on Your Fire-Damaged Property"
-            subheadline="No repairs. No contractors. No hassle. Close in 7–14 days."
+            subheadline="No repairs. No contractors. No hassle. Close quickly once title is ready."
             sourcePage="/markets/harrisburg-pa/fire-damage"
           />
 

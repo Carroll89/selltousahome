@@ -79,7 +79,7 @@ export default function ErieFireDamagePage() {
             <p className="text-lg text-blue-100 mb-4">
               You don&apos;t have to rebuild. You don&apos;t have to remediate. We buy fire-damaged properties in
               Erie and Erie County as-is for cash — smoke damage, partial damage, or total loss.
-              Written offer in 24 hours. Close in 7-14 days.
+              Written offer in 24 hours. Close quickly once title is ready.
             </p>
             <a
               href={`tel:${PHONE}`}
@@ -103,7 +103,7 @@ export default function ErieFireDamagePage() {
               <li>• We buy <strong>fire-damaged properties in Erie as-is</strong> — no remediation required before selling</li>
               <li>• <strong>Smoke damage, partial fire, or total loss</strong> — we buy all levels of damage</li>
               <li>• Insurance payout doesn&apos;t affect the sale — you <strong>keep both proceeds separately</strong></li>
-              <li>• We cover all closing costs — 2% transfer tax, title fees, everything</li>
+              <li>• We cover all closing costs — Pennsylvania and local realty transfer taxes, title fees, everything</li>
             
             <li><Link href="/blog/destroyed-rental-property-case-study" className="text-brand-primary hover:underline">Case Study: He Sold His Destroyed Rental for $50K →</Link></li>
           </ul>
@@ -111,6 +111,9 @@ export default function ErieFireDamagePage() {
 
           <section className="mb-10">
             <h2 className="text-2xl font-bold text-brand-dark mb-4">Types of Fire Damage We Buy</h2>
+            <p className="text-sm text-gray-700 mb-4">
+              Pennsylvania&apos;s <a href="https://www.legis.state.pa.us/WU01/LI/LI/CT/HTM/68/00.073..HTM" className="text-brand-primary hover:underline" target="_blank" rel="noopener noreferrer">Real Estate Seller Disclosure Law</a> requires known material defects to be disclosed for covered residential transfers. Fire damage should be handled openly in the sale documents; we buy with full knowledge of the damage.
+            </p>
             <div className="grid md:grid-cols-2 gap-4">
               {[
                 { title: 'Smoke and soot damage', desc: "Cosmetic but extensive — smoke penetrates walls, insulation, HVAC systems. Expensive to remediate. We buy it as-is." },

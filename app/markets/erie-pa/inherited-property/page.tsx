@@ -10,7 +10,7 @@ import { VideoEmbed } from '@/components/VideoEmbed';
 export const metadata: Metadata = {
   title: 'Inherited Property Erie PA — Cash Buyers',
   description:
-    'Inherited a house in Erie PA? We buy inherited properties as-is — no cleanout, no repairs needed. Cash offer in 24 hours, close in 7-14 days. Serving Erie County.',
+    'Inherited a house in Erie PA? We buy inherited properties as-is — no cleanout, no repairs needed. Cash offer in 24 hours, close quickly once title is ready. Serving Erie County.',
   alternates: { canonical: `${SITE_URL}/markets/erie-pa/inherited-property` },
 };
 
@@ -33,12 +33,12 @@ const FAQ_ITEMS = [
   {
     question: 'What if there are multiple heirs who need to agree?',
     answer:
-      "All beneficiaries with ownership interest must agree to the sale. If heirs disagree, the personal representative may need to petition the Erie County Orphans' Court. In practice, most families reach agreement when they understand the ongoing costs — Erie's property taxes, carrying costs on an aging pre-1970 home through a harsh winter, and deferred maintenance costs add up fast.",
+      "All beneficiaries with ownership interest must agree to the sale. If heirs disagree, the personal representative may need to petition the Erie County Orphans' Court. In practice, most families reach agreement when they understand the ongoing costs — Erie's property taxes, carrying costs on an older home through a harsh winter, and deferred maintenance costs add up fast.",
   },
   {
     question: "What is Erie's transfer tax on an inherited property sale?",
     answer:
-      "Erie PA has a standard 2% total transfer tax (1% PA state + 1% local). On a $115,000 inherited home, that's $2,300 total. By convention, buyer and seller each pay half (1% each = $1,150). When you sell to USA Home Buyers, we cover all closing costs including the full transfer tax — nothing comes out of your proceeds.",
+      "Pennsylvania realty transfer tax includes the Commonwealth's 1% share and often an additional local transfer tax collected by the county Recorder of Deeds. We account for ordinary closing costs in the offer so heirs can compare net proceeds clearly.",
   },
   {
     question: 'Do we have to clean out the house before selling?',
@@ -86,7 +86,7 @@ export default function ErieInheritedPropertyPage() {
             <p className="text-lg text-blue-100 mb-4">
               You inherited a property in Erie or Erie County. Whether it&apos;s across town or across
               the country, you don&apos;t have to deal with repairs, cleanouts, probate delays, or months on the market.
-              We buy inherited properties as-is and close in 7-14 days.
+              We buy inherited properties as-is and close quickly once title is ready.
             </p>
             <a
               href={`tel:${PHONE}`}
@@ -113,7 +113,7 @@ export default function ErieInheritedPropertyPage() {
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          <p className="mb-3">If you&apos;ve inherited a house in Erie, you&apos;re probably dealing with Erie County probate, property taxes piling up, and a house that needs work. Erie&apos;s housing stock is 77% pre-1970 — that means old systems, possible deferred maintenance, and a house that&apos;s harder to sell on the open market.</p>
+          <p className="mb-3">If you&apos;ve inherited a house in Erie, you&apos;re probably dealing with Erie County probate, property taxes piling up, and a house that needs work. Erie&apos;s housing stock is a large share of older homes — that means old systems, possible deferred maintenance, and a house that&apos;s harder to sell on the open market.</p>
           <p>We buy inherited properties as-is. No cleanouts, no repairs, no listing. We handle the paperwork and can close around your probate timeline.</p>
         </div>
       </details>
@@ -126,8 +126,8 @@ export default function ErieInheritedPropertyPage() {
             <ul className="space-y-1 text-sm text-gray-700">
               <li>• <strong>No cleanup, no repairs required</strong> — we buy Erie homes exactly as-is with all contents</li>
               <li>• Erie County probate is filed at the <strong>Register of Wills, 140 West Sixth Street, Erie PA 16501</strong></li>
-              <li>• Once <strong>Letters Testamentary are issued</strong>, we can close in 7–14 days — you don&apos;t wait for full estate settlement</li>
-              <li>• Erie&apos;s <strong>standard 2% transfer tax</strong> — we cover all closing costs so heirs keep more proceeds</li>
+              <li>• Once <strong>Letters Testamentary are issued</strong>, we can close quickly once title is ready — you don&apos;t wait for full estate settlement</li>
+              <li>• Erie&apos;s <strong>standard Pennsylvania and local realty transfer taxes</strong> — we cover all closing costs so heirs keep more proceeds</li>
             </ul>
           </div>
 
@@ -135,7 +135,7 @@ export default function ErieInheritedPropertyPage() {
             <h2 className="text-lg font-bold text-brand-dark mb-2">What Most Families Want to Know First</h2>
             <p className="text-gray-700 text-sm">
               You don&apos;t have to clean it out. You don&apos;t have to fix anything. Erie&apos;s aging housing stock —
-              77% pre-1970 — is exactly what we buy. The biggest questions are usually about probate, and most
+              a large share of older homes — is exactly what we buy. The biggest questions are usually about probate, and most
               are resolvable faster than people expect. The Erie County Register of Wills is part of the Clerk of Records
               office at the Erie County Courthouse, 140 West Sixth Street, Erie PA 16501. Once Letters Testamentary
               are issued, the executor has full legal authority to sell estate real estate — no need to wait for the
@@ -151,7 +151,7 @@ export default function ErieInheritedPropertyPage() {
               {[
                 {
                   title: 'Out-of-state heirs',
-                  desc: "You live outside PA and inherited an Erie home. Managing contractors, cleanouts, and showings from out of state on a 77%-pre-1970 housing stock is a logistical challenge. We handle everything locally. You can close remotely.",
+                  desc: "You live outside PA and inherited an Erie home. Managing contractors, cleanouts, and showings from out of state on a older housing stock is a logistical challenge. We handle everything locally. You can close remotely.",
                 },
                 {
                   title: 'Multiple heirs',
@@ -184,6 +184,9 @@ export default function ErieInheritedPropertyPage() {
 
           <section className="mb-10">
             <h2 className="text-2xl font-bold text-brand-dark mb-4">Erie County Probate — The Basics</h2>
+            <p className="text-sm text-gray-700 mb-4">
+              The <a href="https://courts.eriecountypa.gov/index.php/departments/clerk-of-records/register-of-wills/" className="text-brand-primary hover:underline" target="_blank" rel="noopener noreferrer">Erie County Register of Wills</a> probates wills, processes estates, and grants letters to personal representatives. Pennsylvania law separately provides that letters testamentary are granted by the register to the executor named in the will.
+            </p>
             <p className="text-gray-700 mb-4">
               If the property was titled solely in the deceased&apos;s name, it goes through probate at the
               Erie County Register of Wills. Here&apos;s what the process looks like:
@@ -198,7 +201,7 @@ export default function ErieInheritedPropertyPage() {
                 {
                   step: '2',
                   label: 'Letters Testamentary are issued',
-                  detail: 'Once issued, the executor has legal authority to manage and sell estate assets. This can happen within days to a few weeks of filing.',
+                  detail: 'Once issued, the executor has legal authority to manage and sell estate assets. Timing depends on the Register of Wills review and estate documents.',
                 },
                 {
                   step: '3',
@@ -232,7 +235,7 @@ export default function ErieInheritedPropertyPage() {
           <section className="mb-10">
             <h2 className="text-2xl font-bold text-brand-dark mb-4">Erie&apos;s Housing Stock: What You&apos;re Dealing With</h2>
             <p className="text-gray-700 mb-4">
-              77% of Erie&apos;s housing stock was built before 1970. That means the inherited property you&apos;re
+              Many Erie homes were built decades ago. That means the inherited property you&apos;re
               dealing with is likely a Cape Cod, bungalow, or simple two-story colonial with aging systems —
               knob-and-tube wiring, cast iron pipes, an older furnace, and a roof that&apos;s been through decades
               of Erie winters.
@@ -245,8 +248,8 @@ export default function ErieInheritedPropertyPage() {
             <p className="text-gray-700">
               According to the{' '}
               <a href="https://www.pa.gov/agencies/revenue/resources/tax-types-and-information/realty-transfer-tax" target="_blank" rel="noopener noreferrer" className="text-brand-primary underline">PA Department of Revenue (pa.gov)</a>,
-              Erie&apos;s combined transfer tax is 2% — standard for Pennsylvania. On a $115,000 sale, that&apos;s $2,300.
-              When you sell to us, we cover everything.
+              Pennsylvania realty transfer tax includes the Commonwealth&apos;s 1% share and often an additional local transfer tax.
+              We account for ordinary closing costs in the offer so heirs can compare net proceeds clearly.
             </p>
           </section>
 

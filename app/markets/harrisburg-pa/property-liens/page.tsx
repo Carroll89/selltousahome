@@ -151,6 +151,9 @@ export default function HarrisburgPropertyLiensPage() {
 
           <section className="mb-10">
             <h2 className="text-2xl font-bold text-brand-dark mb-3">What Is a Property Lien?</h2>
+            <p className="text-sm text-gray-700 mb-4">
+              The <a href="https://www.dauphincounty.gov/government/support-services/property-taxes/tax-claim" className="text-brand-primary hover:underline" target="_blank" rel="noopener noreferrer">Dauphin County Tax Claim Bureau</a> collects delinquent real property taxes, administers Upset and Judicial Tax Sales, and provides tax certifications showing whether delinquent real estate taxes are due on a parcel.
+            </p>
             <p className="text-gray-700 mb-4">
               A property lien is a legal claim against real estate, typically filed because money is owed —
               to the government, a contractor, a creditor, or a court judgment creditor. Liens attach to the
@@ -201,7 +204,7 @@ export default function HarrisburgPropertyLiensPage() {
                 {
                   type: 'IRS Federal Tax Liens',
                   color: 'gray',
-                  desc: 'Filed when a federal tax debt goes unpaid. Federal liens attach to all real property owned. The IRS has a 120-day right of redemption after sale. These require specific handling but do not prevent a sale.',
+                  desc: 'Filed when a federal tax debt goes unpaid. Federal liens attach to all real property owned. Federal tax liens require specific title-company handling and may affect post-sale procedures, but they do not automatically prevent a sale.',
                   action: 'Title company coordinates with IRS for payoff or discharge. IRS certificates of discharge are common in real estate transactions.',
                 },
               ].map((item, i) => (

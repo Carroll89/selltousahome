@@ -10,7 +10,7 @@ import { VideoEmbed } from '@/components/VideoEmbed';
 export const metadata: Metadata = {
   title: 'Sell Tenant-Occupied Rental in Harrisburg PA | Cash Offer',
   description:
-    'Selling a rental property with tenants in Harrisburg PA? We buy tenant-occupied properties as-is — no eviction required. Cash offer in 24 hours, close in 7-14 days.',
+    'Selling a rental property with tenants in Harrisburg PA? We buy tenant-occupied properties as-is — no eviction required. Cash offer in 24 hours, close quickly once title is ready.',
   alternates: { canonical: `${SITE_URL}/markets/harrisburg-pa/tenant-occupied` },
 };
 
@@ -23,7 +23,7 @@ const FAQ_ITEMS = [
   {
     question: 'Does my tenant have to be notified if I sell?',
     answer:
-      'Yes. Pennsylvania requires written notice to tenants before the property is sold. Lease terms and conditions remain in effect for the new owner. We handle the notification requirements and coordinate the transition.',
+      'Often, notice obligations depend on the lease, access needs, and Pennsylvania landlord-tenant rules. Lease terms and conditions generally remain in effect for the new owner. We help coordinate the transition so the sale can move forward without requiring you to evict first.',
   },
   {
     question: 'Do I need to evict the tenant before selling to you?',
@@ -38,7 +38,7 @@ const FAQ_ITEMS = [
   {
     question: 'What is the security deposit handled at closing?',
     answer:
-      'Any security deposit you\'re holding must be transferred to the buyer at closing. This is credited or debited on the closing statement. The title company handles the accounting.',
+      'Any security deposit you\'re holding should be accounted for at closing and handled according to the lease and Pennsylvania landlord-tenant rules. It is commonly shown as a credit or debit on the closing statement.',
   },
 ];
 
@@ -116,7 +116,7 @@ export default function HarrisburgTenantOccupiedPage() {
             <p className="mb-3">Pennsylvania landlord-tenant law gives tenants specific rights when a property is sold. You generally can&apos;t just show up and show the house — you need proper notice, and in most cases, you need to honor the lease term. If your tenant has a fixed-term lease, a buyer using conventional financing typically won&apos;t be interested.</p>
             <p className="mb-3">We buy tenant-occupied properties in Harrisburg as-is, lease and all. We don&apos;t require you to evict your tenant before closing. We&apos;ll take the property with the tenant in place and work out the transition ourselves.</p>
             <p className="mb-3">This matters if you have a difficult tenant situation — non-payment, a lease you can&apos;t easily break, a tenant who isn&apos;t cooperating with showings. A traditional listing in that situation can drag on for months. We skip all of that.</p>
-            <p className="mb-3">If you&apos;re a Harrisburg landlord ready to exit a property — whether you have a great tenant or a problem tenant — call USA Home Buyers at 888-274-5006. Written cash offer in 24 hours, close in 7 to 14 days. No eviction required.</p>
+            <p className="mb-3">If you&apos;re a Harrisburg landlord ready to exit a property — whether you have a great tenant or a problem tenant — call USA Home Buyers at 888-274-5006. Written cash offer in 24 hours, close quickly once title and lease details are ready. No eviction required.</p>
         </div>
       </details>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -162,6 +162,9 @@ export default function HarrisburgTenantOccupiedPage() {
 
           <section className="mb-10">
             <h2 className="text-2xl font-bold text-brand-dark mb-4">PA Tenant Rights — What This Means for Your Sale</h2>
+            <p className="text-sm text-gray-700 mb-4">
+              Pennsylvania&apos;s <a href="https://www.legis.state.pa.us/WU01/LI/LI/US/HTM/1951/0/0020..HTM" className="text-brand-primary hover:underline" target="_blank" rel="noopener noreferrer">Landlord and Tenant Act of 1951</a> includes rules for people acquiring title by purchase, notice to quit, recovery of possession, and escrow/security deposits. A sale does not automatically require the seller to evict tenants first.
+            </p>
             <p className="text-gray-700 mb-4">
               Pennsylvania has tenant protections that affect how a sale works, but they don&apos;t prevent the sale:
             </p>
@@ -177,22 +180,21 @@ export default function HarrisburgTenantOccupiedPage() {
               <div className="border border-blue-100 bg-blue-50 rounded-lg p-4">
                 <h3 className="font-semibold text-brand-dark text-sm mb-2">Month-to-month tenants</h3>
                 <p className="text-xs text-gray-600">
-                  Month-to-month tenants can be given written notice by the new owner (typically 15-30 days
-                  depending on rent schedule). This doesn&apos;t need to happen before your sale closes.
+                  Month-to-month tenant notice depends on the lease and Pennsylvania landlord-tenant rules.
+                  This doesn&apos;t need to happen before your sale closes.
                 </p>
               </div>
               <div className="border border-blue-100 bg-blue-50 rounded-lg p-4">
                 <h3 className="font-semibold text-brand-dark text-sm mb-2">Showing notice required</h3>
                 <p className="text-xs text-gray-600">
-                  PA law requires advance notice before entering the unit for inspections or showings —
-                  typically at least 24 hours. We comply with this. We don&apos;t need multiple showings;
-                  one walkthrough is typically enough for our evaluation.
+                  Access for inspections or showings should follow the lease and Pennsylvania landlord-tenant rules.
+                  We coordinate respectfully and don&apos;t need multiple showings; one walkthrough is typically enough for our evaluation.
                 </p>
               </div>
               <div className="border border-blue-100 bg-blue-50 rounded-lg p-4">
                 <h3 className="font-semibold text-brand-dark text-sm mb-2">Security deposit transfer</h3>
                 <p className="text-xs text-gray-600">
-                  Any security deposit you hold must be transferred to the buyer at closing. This is handled
+                  Any security deposit you hold should be accounted for at closing. This is handled
                   on the closing statement — no separate action needed from you.
                 </p>
               </div>

@@ -9,7 +9,7 @@ import { PHONE, SITE_URL } from '@/lib/utils';
 export const metadata: Metadata = {
   title: 'Probate Property Erie PA — Cash Sale',
   description:
-    'Selling a probate property in Erie PA? We buy estate homes as-is, work around Erie County probate timelines, and close in 7-14 days. No repairs, no cleanout required.',
+    'Selling a probate property in Erie PA? We buy estate homes as-is, work around Erie County probate timelines, and close quickly once title is ready. No repairs, no cleanout required.',
   alternates: { canonical: `${SITE_URL}/markets/erie-pa/probate` },
 };
 
@@ -27,7 +27,7 @@ const FAQ_ITEMS = [
   {
     question: 'How long does Erie County probate take?',
     answer:
-      "Pennsylvania estates typically take 6-18 months to fully settle, depending on complexity, number of heirs, and whether there are disputes. However, Letters Testamentary are often issued within days to a few weeks of filing — enabling a property sale much sooner than the full estate settlement.",
+      "Pennsylvania estates typically take several months or longer to fully settle, depending on complexity, number of heirs, and whether there are disputes. However, Letters Testamentary are issued after the Register of Wills reviews the estate filing and grants letters — enabling a property sale much sooner than the full estate settlement.",
   },
   {
     question: 'What if there is no will?',
@@ -78,7 +78,7 @@ export default function ErieProbatePage() {
             </h1>
             <p className="text-lg text-blue-100 mb-4">
               We buy probate and estate properties in Erie County as-is — no repairs, no cleanout required.
-              We work around your Erie County probate timeline and can close in 7-14 days once
+              We work around your Erie County probate timeline and can close quickly once title is ready and
               Letters Testamentary are issued.
             </p>
             <a
@@ -103,18 +103,21 @@ export default function ErieProbatePage() {
               <li>• File probate at <strong>Erie County Register of Wills, 140 West Sixth Street, Erie PA 16501</strong></li>
               <li>• Once <strong>Letters Testamentary or Letters of Administration are issued</strong>, you can sell</li>
               <li>• We buy as-is — no cleanout, no repairs, no staging required</li>
-              <li>• We cover all closing costs — <strong>Erie&apos;s 2% transfer tax, title fees, everything</strong></li>
+              <li>• We cover all closing costs — <strong>Pennsylvania and local realty transfer taxes, title fees, everything</strong></li>
             </ul>
           </div>
 
           <section className="mb-10">
             <h2 className="text-2xl font-bold text-brand-dark mb-4">Erie County Probate Property Sale — How It Works</h2>
+            <p className="text-sm text-gray-700 mb-4">
+              The <a href="https://courts.eriecountypa.gov/index.php/departments/clerk-of-records/register-of-wills/" className="text-brand-primary hover:underline" target="_blank" rel="noopener noreferrer">Erie County Register of Wills</a> probates wills and processes estates. Pennsylvania law also states that letters testamentary are granted by the register to the executor named in the will, while letters of administration may be granted when there is no executor.
+            </p>
             <div className="space-y-3">
               {[
                 { step: '1', label: 'File for probate at Erie County Register of Wills', detail: "Erie County Courthouse, 140 West Sixth Street, Erie PA 16501. The executor named in the will files for Letters Testamentary. No will? An administrator files for Letters of Administration." },
-                { step: '2', label: 'Letters Testamentary (or Administration) are issued', detail: "Once issued, the personal representative has legal authority to manage and sell estate real estate. This can happen within days to a few weeks of filing." },
+                { step: '2', label: 'Letters Testamentary (or Administration) are issued', detail: "Once issued, the personal representative has legal authority to manage and sell estate real estate. Timing depends on the Register of Wills review and estate documents." },
                 { step: '3', label: 'We enter a purchase agreement', detail: "With letters in hand, the personal representative signs a purchase agreement on behalf of the estate. We provide a written offer with price, terms, and closing date." },
-                { step: '4', label: 'Title company handles the closing', detail: "A PA title company with estate sales experience handles the closing. Proceeds go to the estate account for distribution. We cover all closing costs — transfer tax, title fees, recording fees." },
+                { step: '4', label: 'Title company handles the closing', detail: "A PA title company with estate sales experience handles the closing. Proceeds go to the estate account for distribution. We account for ordinary closing costs — transfer tax, title fees, and recording fees — in the offer." },
               ].map((item) => (
                 <div key={item.step} className="flex gap-3 items-start border border-gray-200 rounded-lg p-4">
                   <div className="w-7 h-7 bg-brand-primary text-white rounded-full flex items-center justify-center text-sm font-bold shrink-0">
@@ -133,7 +136,7 @@ export default function ErieProbatePage() {
             <h2 className="text-2xl font-bold text-brand-dark mb-4">Why Cash Buyers Work Well for Erie Probate Properties</h2>
             <p className="text-gray-700 mb-4">
               With an aging Erie population (median age 34.8 years, but significant older-homeowner concentration
-              in the city), probate properties are common here. Erie&apos;s housing stock is 77% pre-1970 —
+              in the city), probate properties are common here. Erie&apos;s housing stock is a large share of older homes —
               estate homes typically need significant work. Traditional buyers and lenders often avoid these properties.
               Cash buyers like us are frequently the most realistic path to a sale.
             </p>
@@ -142,7 +145,7 @@ export default function ErieProbatePage() {
                 { title: 'No repairs required', desc: "Estate homes in Erie are typically older, often with deferred maintenance. We buy in any condition — the executor doesn't need to fund a renovation." },
                 { title: 'No cleanout required', desc: "Leave all contents. Many estate properties in Erie have decades of belongings. We handle the cleanout after closing." },
                 { title: 'Works with probate timeline', desc: "We can enter a contract while probate is processing and close once letters are issued. No rushed decisions." },
-                { title: 'We cover all costs', desc: "Transfer tax (2%), title insurance, recording fees at Erie County — we pay everything. Estate proceeds go to the heirs, not to fees." },
+                { title: 'We cover all costs', desc: "Pennsylvania and local transfer taxes, title insurance, and recording fees at Erie County are accounted for in our offer. Estate proceeds go to the heirs, not to fees." },
               ].map((item, i) => (
                 <div key={i} className="border border-gray-200 rounded-xl p-4">
                   <h3 className="font-semibold text-brand-dark mb-2 text-sm">{item.title}</h3>
