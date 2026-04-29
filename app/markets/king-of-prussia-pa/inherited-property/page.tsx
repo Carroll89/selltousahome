@@ -20,7 +20,7 @@ const FAQ_ITEMS = [
   {
     question: 'Do I need to complete probate before selling an inherited King of Prussia property?',
     answer:
-      "In most cases, yes. If the property was titled solely in the deceased's name, it passes through the estate administration process at the Montgomery County Register of Wills, located at One Montgomery Plaza, 4th Floor, 425 Swede Street, Norristown PA 19401. Phone: 610-278-3400. If the property was jointly titled with right of survivorship, it transfers automatically without probate. A PA real estate attorney can clarify your specific situation quickly.",
+      "In many cases, yes. If the property was titled solely in the deceased's name, it usually passes through estate administration at the Montgomery County Register of Wills, located at One Montgomery Plaza, 4th Floor, 425 Swede Street, Norristown PA 19401. Phone: 610-278-3400. If the property was jointly titled with right of survivorship, it may transfer outside probate. A PA real estate attorney can clarify your specific situation quickly.",
   },
   {
     question: 'Where do I file for probate in Montgomery County PA?',
@@ -30,12 +30,12 @@ const FAQ_ITEMS = [
   {
     question: 'Can I enter a purchase agreement before probate is finished?',
     answer:
-      "Yes. Once Letters Testamentary or Letters of Administration are issued by the Montgomery County Register of Wills, the executor has legal authority to sign a real estate purchase agreement. We can enter a contract and then close once those letters are in hand — you don't need to wait for the entire estate to settle. For families with no other disputes, this process often takes weeks, not months.",
+      "Yes. Per Montgomery County Register of Wills resources, once Letters Testamentary or Letters of Administration are issued, the personal representative can act for the estate, which may include signing a real estate purchase agreement. We can enter a contract and then close once those letters are in hand — you don't need to wait for the entire estate to settle. Timing varies by estate complexity and county processing.",
   },
   {
     question: 'What if multiple heirs need to agree on the sale?',
     answer:
-      "All beneficiaries with ownership interest must consent. If heirs can't agree, the executor may need to petition the Orphans' Court. In practice, most families reach agreement when the alternative is ongoing property taxes, insurance, and maintenance on a home nobody wants to keep — especially on an older KOP split-level that needs work.",
+      "Beneficiary consent and court involvement depend on title, the will, and the executor's authority. If heirs can't agree, the executor may need legal guidance or Orphans' Court involvement. In practice, most families reach agreement when the alternative is ongoing property taxes, insurance, and maintenance on a home nobody wants to keep — especially on an older KOP split-level that needs work.",
   },
   {
     question: 'Do we have to clean out the house before selling?',
@@ -116,8 +116,8 @@ export default function KopInheritedPropertyPage() {
             <p className="mb-3">Inheriting a home in King of Prussia or Montgomery County comes with complexity — and often, some real emotional weight. I&apos;m with USA Home Buyers, and we handle estate properties in this area regularly.</p>
             <p className="mb-3">What we see most often: the family home has been in the family for decades. It needs work — maybe a new roof, outdated bathrooms, deferred maintenance that piled up over the years. The heirs don&apos;t live nearby. Nobody wants to coordinate repairs or manage showings from out of state while also handling everything else that comes with losing someone.</p>
             <p className="mb-3">We buy inherited Montgomery County properties as-is. You don&apos;t need to clean it out. Don&apos;t repair anything. Don&apos;t even take furniture you don&apos;t want — we&apos;ll handle all of it. We make a written cash offer within 24 hours and close in as few as 7 days.</p>
-            <p className="mb-3">With King of Prussia median home values at $453,000 to $549,000, there&apos;s often significant equity in estate properties. And what we save you in carrying costs, repairs, agent commissions, and months of waiting more than offsets the difference from a retail listing price.</p>
-            <p className="mb-3">If the property is in probate, we work with executors and the Montgomery County Register of Wills process. The personal representative signs for the sale once Letters Testamentary are issued.</p>
+            <p className="mb-3">In King of Prussia&apos;s higher-value housing market, estate properties may have meaningful equity. And what we save you in carrying costs, repairs, agent commissions, and months of waiting more than offsets the difference from a retail listing price.</p>
+            <p className="mb-3">Per Montgomery County Register of Wills resources, if the property is in probate, we work with executors and the county process. The personal representative signs for the sale once authority is issued.</p>
             <p className="mb-3">Call USA Home Buyers at 888-274-5006. We&apos;ll give you a fair offer and make the real estate part of this as easy as it can be.</p>
         </div>
       </details>
@@ -142,7 +142,7 @@ export default function KopInheritedPropertyPage() {
               {[
                 {
                   title: 'Aging split-level or colonial that needs work',
-                  desc: "KOP's established neighborhoods have significant 1950s–1970s housing stock. These homes often need a new roof, updated HVAC, kitchen and bath work — sometimes $60,000–$100,000 before they compete at retail prices. We buy as-is. No renovation required.",
+                  desc: "KOP's established neighborhoods include older homes that may need a roof, HVAC, kitchen, bath, or other updates before competing at retail prices. We buy as-is. No renovation required.",
                 },
                 {
                   title: 'Out-of-state heirs',
@@ -150,15 +150,15 @@ export default function KopInheritedPropertyPage() {
                 },
                 {
                   title: 'Multiple heirs who need to agree',
-                  desc: "You and siblings or other family members inherited the house together. Everyone has to sign off. We're experienced with multi-heir situations and work with estate attorneys to get everyone to the closing table efficiently.",
+                  desc: "You and siblings or other family members inherited the house together. The right signing parties depend on the deed, will, and estate authority. We're experienced with multi-heir situations and work with estate attorneys to get the required parties to the closing table efficiently.",
                 },
                 {
                   title: 'Estate still in probate',
-                  desc: 'We can enter a purchase agreement now and close once Letters Testamentary are issued by the Montgomery County Register of Wills. No need to wait for the full estate settlement — just the authority to sell.',
+                  desc: 'We can enter a purchase agreement now and close once Letters Testamentary are issued by the Montgomery County Register of Wills. No need to wait for the full estate settlement if the estate has authority to sell.',
                 },
                 {
                   title: 'Back taxes or liens on the property',
-                  desc: 'Back taxes and liens are paid at closing from proceeds. They don\'t prevent the sale. We work through the title company to clear any encumbrances before transfer.',
+                  desc: 'Back taxes and liens are often addressed at closing from proceeds. They may not prevent a sale if the title company can clear them before transfer.',
                 },
               ].map((item, i) => (
                 <div key={i} className="border border-gray-200 rounded-xl p-5">
@@ -172,7 +172,7 @@ export default function KopInheritedPropertyPage() {
           <section className="mb-10">
             <h2 className="text-2xl font-bold text-brand-dark mb-4">Montgomery County Probate — The Basics</h2>
             <p className="text-gray-700 mb-4">
-              If the property was titled solely in the deceased&apos;s name, it goes through probate at the
+              Per Montgomery County Register of Wills resources, if the property was titled solely in the deceased&apos;s name, it may need probate at the
               Montgomery County Register of Wills. Here&apos;s what the process typically looks like for
               a King of Prussia estate:
             </p>
@@ -181,12 +181,12 @@ export default function KopInheritedPropertyPage() {
                 {
                   step: '1',
                   label: 'File for probate at Montgomery County Register of Wills',
-                  detail: 'One Montgomery Plaza, 4th Floor, 425 Swede Street, Norristown PA 19401. Phone: 610-278-3400. The executor named in the will files for Letters Testamentary. An E-Filing portal is available at webapp.montcopa.org/ROWEFiling.',
+                  detail: 'One Montgomery Plaza, 4th Floor, 425 Swede Street, Norristown PA 19401. Phone: 610-278-3400. The executor named in the will may file for Letters Testamentary. An E-Filing portal is available at webapp.montcopa.org/ROWEFiling.',
                 },
                 {
                   step: '2',
                   label: 'Letters Testamentary are issued',
-                  detail: 'Once issued, the executor has legal authority to manage and sell estate property. This can happen in days to a few weeks depending on the complexity of the estate and court scheduling.',
+                  detail: 'Once issued, the executor has legal authority to manage and sell estate property. Timing depends on the completeness of the filing, estate complexity, and county processing.',
                 },
                 {
                   step: '3',
@@ -196,7 +196,7 @@ export default function KopInheritedPropertyPage() {
                 {
                   step: '4',
                   label: 'Close with a PA title company',
-                  detail: 'Closing is handled by a licensed Pennsylvania title company. Proceeds go to the estate account for distribution according to the will or PA intestate succession law.',
+                  detail: 'Closing is handled through a Pennsylvania title company. Proceeds go to the estate account for distribution according to the will or PA intestate succession law.',
                 },
               ].map((item) => (
                 <div key={item.step} className="flex gap-3 items-start border border-gray-200 rounded-lg p-4">

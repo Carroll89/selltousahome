@@ -20,27 +20,27 @@ const FAQ_ITEMS = [
   {
     question: 'How long does foreclosure take in Montgomery County, PA?',
     answer:
-      "Pennsylvania is a judicial foreclosure state. In Montgomery County, the process typically takes 12–18 months from the first missed payment to a completed sheriff sale. The lender must file a complaint in the Montgomery County Court of Common Pleas and serve you. Pennsylvania law also requires a mandatory conciliation conference in most foreclosure cases — a court-supervised meeting where lender and borrower attempt to reach a resolution. This often adds months.",
+      "Pennsylvania foreclosures go through court. Exact timing in Montgomery County depends on notices, court filings, borrower response, conferences, judgment, and sheriff sale scheduling. The lender must file a complaint in the Montgomery County Court of Common Pleas and serve you. Montgomery County cases may include court-supervised conferences or loss-mitigation steps where lender and borrower attempt to reach a resolution; that can add time.",
   },
   {
     question: 'Where are Montgomery County sheriff sales held?',
     answer:
-      "Montgomery County sheriff sales are conducted by the Montgomery County Sheriff's Office at One Montgomery Plaza, 425 Swede Street, Norristown PA 19401. Sales are published in local legal notices and on the sheriff's office website. They typically occur monthly. You can search scheduled sales through the county's online records.",
+      "Montgomery County sheriff sales are conducted by the Montgomery County Sheriff's Office at One Montgomery Plaza, 425 Swede Street, Norristown PA 19401. Sales are published in local legal notices and on the sheriff's office website. Scheduled sale information is published through county sheriff sale resources and legal notices.",
   },
   {
     question: 'Can I stop a Montgomery County sheriff sale by selling the property?',
     answer:
-      "Yes. If you close on a sale before the sheriff sale date, the mortgage gets paid off at closing and the foreclosure case is dismissed. We've helped homeowners close in 7 days to beat sheriff sale deadlines. If you have a scheduled sheriff sale date, call us immediately — every day matters.",
+      "Yes. If you close on a sale before the sheriff sale date, the mortgage gets paid off at closing and the foreclosure case is dismissed. We have helped homeowners close quickly to address sheriff sale deadlines. If you have a scheduled sheriff sale date, call us immediately — every day matters.",
   },
   {
     question: 'What is PA Act 6 and how does it apply to my foreclosure?',
     answer:
-      "Pennsylvania's Loan Interest and Protection Law (Act 6, 41 P.S. § 403) requires lenders to send you a 30-day notice before filing a foreclosure complaint. This notice informs you of your right to cure the default by paying the overdue amount. You also have a right to reinstate the loan by paying all overdue amounts plus costs up to one hour before the sheriff sale. Understanding these rights is critical — and selling before the sale is always cleaner than a reinstatement that falls through.",
+      "Pennsylvania's Loan Interest and Protection Law (Act 6, 41 P.S. § 403) requires lenders to send you a 30-day notice before filing a foreclosure complaint. This notice informs you of your right to cure the default by paying the overdue amount. A borrower may have reinstatement or cure rights depending on loan type and case status; confirm the current deadline with a foreclosure attorney or housing counselor. Understanding these rights is critical — and selling before the sale is always cleaner than a reinstatement that falls through.",
   },
   {
     question: 'Do I have equity if I sell before foreclosure in King of Prussia?',
     answer:
-      "Given King of Prussia's median home value of $453,560 and sale prices around $549,350, many KOP homeowners in foreclosure have significant equity. If your home is worth more than you owe (mortgage balance plus arrears), you keep the difference after the mortgage is paid off at closing. That equity disappears in a sheriff sale where the winning bid may be well below market value.",
+      "In King of Prussia's higher-value housing market, some homeowners in foreclosure still have equity. If your home is worth more than you owe (mortgage balance plus arrears), you keep the difference after the mortgage is paid off at closing. That equity disappears in a sheriff sale where the winning bid may be well below market value.",
   },
 ];
 
@@ -81,7 +81,7 @@ export default function KopForeclosurePage() {
             <p className="text-lg text-blue-100 mb-4">
               If your King of Prussia home is in foreclosure or pre-foreclosure, you may still have
               time — and equity — to walk away with cash instead of losing it all at the sheriff sale.
-              We close in 7–14 days and have beaten Montgomery County sheriff sale deadlines before.
+              We can close in 7–14 days and have helped address Montgomery County sheriff sale deadlines before.
             </p>
             <a
               href={`tel:${PHONE}`}
@@ -109,11 +109,11 @@ export default function KopForeclosurePage() {
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
             <p className="mb-3">Facing foreclosure in Montgomery County is a stressful situation, but you have more options than you might think. I&apos;m with USA Home Buyers, and I want to walk you through the most important one.</p>
-            <p className="mb-3">Pennsylvania requires judicial foreclosure — the lender goes through the courts. In Montgomery County, that process typically runs 12 to 18 months from first missed payment to sheriff sale. But once a sheriff sale date is scheduled, the window for action narrows fast.</p>
+            <p className="mb-3">Pennsylvania foreclosure is court-based; in Montgomery County, timing depends on notices, filings, conferences, judgment, and sheriff sale scheduling. But once a sheriff sale date is scheduled, the window for action narrows fast.</p>
             <p className="mb-3">Here&apos;s what most people don&apos;t realize: if you sell your home before the sheriff sale, the foreclosure stops. The mortgage gets paid off at closing. The case gets dismissed. Any remaining equity — after the mortgage and closing costs — goes to you. Not to the bank.</p>
-            <p className="mb-3">We&apos;ve helped Montgomery County homeowners close in seven days to beat sheriff sale deadlines. Cash purchase means no lender approval, no appraisal contingency, no financing that can fall through.</p>
-            <p className="mb-3">Montgomery County properties carry significant value — with median home prices in the $453,000 to $549,000 range, there&apos;s often meaningful equity worth protecting. Don&apos;t let the sheriff sale take that.</p>
-            <p className="mb-3">PHFA&apos;s HEMAP program offers mortgage assistance — you have 33 days from receiving the foreclosure notice to apply. Call USA Home Buyers right now at 888-274-5006. We&apos;ll give you a written offer within 24 hours.</p>
+            <p className="mb-3">We have helped Montgomery County homeowners close quickly to address sheriff sale deadlines. Cash purchase means no lender approval, no appraisal contingency, no financing that can fall through.</p>
+            <p className="mb-3">Montgomery County and King of Prussia properties can carry significant value, so there may be meaningful equity worth protecting. Don&apos;t let the sheriff sale take that.</p>
+            <p className="mb-3">PHFA&apos;s HEMAP program may offer mortgage assistance for eligible Pennsylvania homeowners; deadlines depend on the notice and program rules. Call USA Home Buyers right now at 888-274-5006. We&apos;ll give you a written offer within 24 hours.</p>
         </div>
       </details>
 
@@ -123,10 +123,10 @@ export default function KopForeclosurePage() {
           <div className="bg-amber-50 border-l-4 border-amber-400 rounded-r-xl p-6 mb-10">
             <h2 className="text-lg font-bold text-brand-dark mb-2">Why Time Is the Most Important Factor</h2>
             <p className="text-gray-700 text-sm">
-              A Montgomery County sheriff sale can happen as little as 12–18 months after your first missed payment.
+              A Montgomery County sheriff sale timeline depends on the court case, notices, judgment, and sheriff scheduling.
               Once a sale date is set, your options narrow. Selling before that date lets you control the outcome —
               pay off the mortgage, clear any arrears, and walk away with your remaining equity. After the sheriff
-              sale, any equity above the winning bid may be recoverable, but the process is complex and uncertain.
+              sale, any surplus above the winning bid may require a separate legal process to recover, and the outcome is uncertain.
             </p>
           </div>
 
@@ -139,22 +139,22 @@ export default function KopForeclosurePage() {
                 {
                   step: '1',
                   label: 'Missed payments → Pre-foreclosure notice (Act 6)',
-                  detail: "PA law requires lenders to send a 30-day notice before filing a foreclosure complaint. This notice under PA Act 6 (41 P.S. § 403) informs you of the right to cure the default. This is your earliest opportunity to sell — you have the most time and options.",
+                  detail: "Per PA Act 6 (41 P.S. § 403), many residential mortgage lenders must send a notice before filing a foreclosure complaint, including information about cure rights. This is your earliest opportunity to sell — you have the most time and options.",
                 },
                 {
                   step: '2',
                   label: 'Foreclosure complaint filed in Montgomery County Court',
-                  detail: 'The lender files a complaint in the Montgomery County Court of Common Pleas. You are served with a summons. You have 20 days to respond. At this point, you can still sell — the case can be dismissed if the mortgage is paid off before judgment.',
+                  detail: 'The lender files a complaint in the Montgomery County Court of Common Pleas. You are served with the foreclosure complaint and should review the response deadline on the court papers with an attorney or housing counselor. At this point, you can still sell — the case can be dismissed if the mortgage is paid off before judgment.',
                 },
                 {
                   step: '3',
                   label: 'Conciliation conference',
-                  detail: "Pennsylvania courts require a conciliation conference in many foreclosure cases. A court-appointed conciliator meets with you and the lender to explore alternatives. This can add months to the timeline — and is another window to arrange a sale.",
+                  detail: "Montgomery County foreclosure cases may include court-supervised conferences or loss-mitigation steps depending on local practice and case type. A court-appointed conciliator meets with you and the lender to explore alternatives. This can add months to the timeline — and is another window to arrange a sale.",
                 },
                 {
                   step: '4',
                   label: 'Judgment and sheriff sale scheduled',
-                  detail: "After judgment is entered, the Montgomery County Sheriff's Office schedules the sale. Once a sale date is set, you have until one hour before the sale to reinstate the loan under PA law — or close a sale and pay off the mortgage.",
+                  detail: "After judgment is entered, the Montgomery County Sheriff's Office schedules the sale. Once a sale date is set, ask counsel or your loan servicer to confirm any reinstatement, payoff, or sale deadline for your specific case.",
                 },
               ].map((item) => (
                 <div key={item.step} className="flex gap-3 items-start border border-gray-200 rounded-lg p-4">
@@ -194,8 +194,8 @@ export default function KopForeclosurePage() {
               Your Equity Is at Stake — King of Prussia Numbers
             </h2>
             <p className="text-gray-700 mb-4 text-sm">
-              King of Prussia homes have real equity. At a median value of $453,560–$549,350, even a home
-              with a significant mortgage balance may have $100,000 or more in equity that can be preserved
+              King of Prussia homes can have real equity. Even a home
+              with a significant mortgage balance may have equity that can be preserved
               through a pre-foreclosure sale but lost in a sheriff sale.
             </p>
             <div className="bg-brand-light rounded-xl p-5 text-sm">
@@ -204,10 +204,10 @@ export default function KopForeclosurePage() {
                 <div>
                   <p className="font-medium text-brand-primary mb-2">Sell Before Sheriff Sale</p>
                   <div className="space-y-1 text-xs text-gray-700">
-                    <div className="flex justify-between"><span>Cash offer</span><span className="font-bold">$350,000</span></div>
-                    <div className="flex justify-between"><span>Mortgage payoff</span><span>−$220,000</span></div>
-                    <div className="flex justify-between"><span>Closing costs (we pay)</span><span>$0</span></div>
-                    <div className="flex justify-between font-bold text-brand-dark border-t pt-1"><span>Net to you</span><span>$130,000</span></div>
+                    <div className="flex justify-between"><span>Cash offer</span><span className="font-bold">Offer amount</span></div>
+                    <div className="flex justify-between"><span>Mortgage payoff</span><span>Deducted</span></div>
+                    <div className="flex justify-between"><span>Closing costs</span><span>Reviewed at closing</span></div>
+                    <div className="flex justify-between font-bold text-brand-dark border-t pt-1"><span>Net to you</span><span>Remaining equity</span></div>
                   </div>
                 </div>
                 <div>
@@ -226,7 +226,7 @@ export default function KopForeclosurePage() {
           <CashOfferForm
             variant="inline"
             headline="Get a Cash Offer Before Your Sheriff Sale Date"
-            subheadline="We've closed in 7 days to beat sheriff sale deadlines. Call now."
+            subheadline="We can move quickly when sheriff sale deadlines are approaching. Call now."
             sourcePage="/markets/king-of-prussia-pa"
           />
 

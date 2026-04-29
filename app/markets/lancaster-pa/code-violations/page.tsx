@@ -25,19 +25,19 @@ const articleSch = articleSchema(
 const FAQ_ITEMS = [
   {
     question: 'Can I sell a Lancaster PA house with open code violations?',
-    answer: 'Yes. There is no Pennsylvania state law that prohibits the sale of a property with open code violations. The violations and any associated municipal fines or liens typically transfer with the property or get resolved at closing. USA Home Buyers buys properties with code violations as-is — we handle the remediation after closing.',
+    answer: 'Yes. There is not a statewide Pennsylvania rule that automatically prohibits selling a property with open code violations. Any municipal fines, liens, or orders should be reviewed by the title company and disclosed to the buyer before closing. USA Home Buyers buys properties with code violations as-is — we handle the remediation after closing.',
   },
   {
     question: 'What types of code violations do you buy in Lancaster?',
-    answer: 'All of them — structural issues, electrical (including knob-and-tube wiring common in pre-1940 Lancaster rowhouses), plumbing failures, HVAC non-compliance, exterior maintenance violations, roofing issues, fire code failures, and properties tagged as unsafe structures or ordered vacated by the City of Lancaster Code Enforcement Bureau.',
+    answer: 'All of them — structural issues, electrical concerns, plumbing failures, HVAC non-compliance, exterior maintenance violations, roofing issues, fire code failures, and properties tagged as unsafe structures or ordered vacated by the City of Lancaster code office.',
   },
   {
     question: 'Do code violation liens need to be paid off before I can sell?',
-    answer: 'Municipal liens for code violations are typically paid off at closing from the sale proceeds. They don\'t need to be paid before the sale can happen — they\'re settled when title transfers. The title company handles lien resolution at closing. This is standard practice in Lancaster County.',
+    answer: "Municipal liens or claims identified by the title company are commonly addressed at closing from sale proceeds. Whether they must be paid before transfer depends on the lien, the title requirements, and the buyer's agreement.",
   },
   {
     question: 'What is Lancaster City\'s code enforcement process?',
-    answer: 'The City of Lancaster\'s Bureau of Code Compliance and Licensing (cityoflancasterpa.gov) handles code enforcement. The bureau can issue violation notices, fines, and — in extreme cases — condemned or unsafe structure orders. Properties that have been ordered vacated or condemned can still be sold, though the buyer (us) takes on the remediation responsibility.',
+    answer: 'According to the City of Lancaster\'s official website, city code compliance and licensing resources are handled through cityoflancasterpa.gov. The bureau can issue violation notices, fines, and — in extreme cases — condemned or unsafe structure orders. Properties that have been ordered vacated or condemned may still be sold to a buyer who understands the order, with remediation responsibility addressed in the agreement.',
   },
   {
     question: 'Will code violations affect my sale price?',
@@ -55,7 +55,7 @@ export default function LancasterCodeViolationsPage() {
         {/* TL;DR — GEO/AEO Quick Answer */}
         <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-10">
           <h2 className="text-lg font-bold text-brand-dark mb-2">Quick Answer</h2>
-          <p className="text-gray-700 text-sm leading-relaxed">Yes, USA Home Buyers purchases houses with code violations in Lancaster, PA — as-is, with no repairs before closing. Lancaster City's older row home neighborhoods (Cabbage Hill, Southeast, Northwest Lancaster) frequently have City of Lancaster Bureau of Housing & Codes violations for deferred maintenance, exterior disrepair, or electrical updates. When we buy, violations transfer with the deed — you close without addressing them. Written cash offer in 24 hours.</p>
+          <p className="text-gray-700 text-sm leading-relaxed">Yes, USA Home Buyers purchases houses with code violations in Lancaster, PA — as-is, with no repairs before closing. According to City of Lancaster housing and code resources, older rowhouse neighborhoods can face deferred maintenance, exterior, or systems issues. When we buy, known violations and any title requirements are reviewed before closing — you do not have to make repairs for our as-is purchase. Written cash offer in 24 hours.</p>
         </div>
 
         <nav className="text-sm text-gray-500 mb-6">
@@ -70,8 +70,8 @@ export default function LancasterCodeViolationsPage() {
           Sell Your Lancaster PA House With Code Violations — As-Is, Any Condition
         </h1>
         <p className="text-gray-700 text-lg mb-6">
-          Lancaster City's pre-1940 rowhouse stock carries code issues that have accumulated over decades.
-          Knob-and-tube wiring, lead pipes, failing roofs, and structural deterioration are common in Cabbage Hill,
+          Lancaster City's older rowhouse stock can carry code issues that have accumulated over decades.
+          Knob-and-tube wiring, lead pipes, failing roofs, and structural deterioration can show up in Cabbage Hill,
           West End, and Southeast Lancaster. Open code violations don't disqualify a property from a cash sale.
           USA Home Buyers buys as-is, violation tags and all.
         </p>
@@ -81,16 +81,16 @@ export default function LancasterCodeViolationsPage() {
         <section className="my-10">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">Why Code Violations Are Common in Lancaster City</h2>
           <p className="text-gray-700 mb-4">
-            According to the City of Lancaster's 2021 CRA Housing Report (cityoflancasterpa.gov), the majority of
-            Lancaster City's housing stock is pre-1940 construction — single-family attached rowhouses and twins
-            built when electrical codes, plumbing standards, and structural requirements were completely different.
-            These buildings are solid. They were built to last. But they haven't been maintained to modern code —
+            According to the City of Lancaster's 2021 CRA Housing Report (cityoflancasterpa.gov), much of
+            Lancaster City's housing stock includes older single-family attached rowhouses and twins
+            built under earlier electrical, plumbing, and structural standards.
+            Some of these buildings have not been maintained to modern code,
             and many have passed through multiple owners without the investment needed to bring systems up to standard.
           </p>
           <p className="text-gray-700 mb-4">
-            The City of Lancaster's Bureau of Code Compliance actively enforces standards on the rental and
-            owner-occupied housing stock. Sellers who receive violation notices often face a choice: spend
-            $20,000-$50,000 to remediate before listing, or sell to a cash buyer who buys as-is.
+            Per City of Lancaster code resources, the city enforces property standards on rental and
+            owner-occupied housing stock. Sellers who receive violation notices often face a choice: remediate
+            before listing, or sell to a cash buyer who buys as-is.
           </p>
         </section>
 
@@ -103,7 +103,7 @@ export default function LancasterCodeViolationsPage() {
               'Deteriorated roofing and flashing',
               'Structural violations — sagging floors, failing walls',
               'Boiler and HVAC non-compliance',
-              'Condemned / unsafe structure orders',
+              'Condemned / unsafe structure orders reviewed through City of Lancaster code resources',
               'Exterior maintenance violations',
               'Open permits from prior work',
               'Fire code violations',

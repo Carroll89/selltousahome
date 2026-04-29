@@ -20,7 +20,7 @@ const FAQ_ITEMS = [
   {
     question: 'Can I sell a fire-damaged house in King of Prussia PA?',
     answer:
-      "Yes. You can sell a fire-damaged property in Pennsylvania — even one that is uninhabitable or has significant structural damage. The key is full disclosure to the buyer. Cash buyers specifically seek fire-damaged properties that traditional buyers and lenders can't or won't finance. We buy fire-damaged homes in any condition in King of Prussia and Montgomery County.",
+      "Yes. You can usually sell a fire-damaged property in Pennsylvania — even one that is uninhabitable or has significant structural damage — as long as the buyer understands the condition and any required disclosures or local orders are handled. Cash buyers specifically seek fire-damaged properties that traditional buyers and lenders can't or won't finance. We buy fire-damaged homes in any condition in King of Prussia and Montgomery County.",
   },
   {
     question: 'Do I need to make repairs before selling a fire-damaged home?',
@@ -30,7 +30,7 @@ const FAQ_ITEMS = [
   {
     question: 'What if the insurance company is still processing my claim?',
     answer:
-      "You can begin the sale process while an insurance claim is pending. The proceeds from the insurance claim typically belong to you and your mortgage lender (if there is one) — separate from the sale proceeds. We can work with your timeline and your insurance company's process. Having an accepted offer in place may actually help move the insurance process forward.",
+      "You can begin the sale process while an insurance claim is pending. Insurance proceeds may involve you, your mortgage lender, and your insurer, depending on the policy and mortgage documents; they are handled separately from the purchase price unless your closing team or insurer directs otherwise. We can work with your timeline and your insurance company's process. Having an accepted offer in place may actually help move the insurance process forward.",
   },
   {
     question: 'Does fire damage affect what I owe at closing?',
@@ -40,7 +40,7 @@ const FAQ_ITEMS = [
   {
     question: 'What if the property has been condemned after the fire?',
     answer:
-      "A condemned property can still be sold — and cash buyers specifically look for them. Condemnation means the property has been declared unfit for occupancy; it doesn't prevent ownership transfer. We buy condemned fire-damaged properties in King of Prussia and Upper Merion Township. The offer reflects the condition, but you can sell and move forward.",
+      "A condemned property may still be sold to a buyer who understands the local order. Condemnation means the property has been declared unfit for occupancy; a closing team should confirm any township requirements before transfer. We buy condemned fire-damaged properties in King of Prussia and Upper Merion Township. The offer reflects the condition, but you can sell and move forward.",
   },
 ];
 
@@ -111,7 +111,7 @@ export default function KopFireDamagePage() {
             <p className="mb-3">If you have a fire-damaged property in King of Prussia or Montgomery County, you&apos;re dealing with a situation that most real estate professionals aren&apos;t equipped to handle. I&apos;m with USA Home Buyers, and we buy fire-damaged properties for cash, as-is.</p>
             <p className="mb-3">Fire-damaged homes are effectively unmarketable through conventional channels. Conventional financing won&apos;t appraise a structurally compromised or gutted property. The longer a fire-damaged home sits — open to weather, at risk of further structural deterioration, creating liability — the worse the situation gets.</p>
             <p className="mb-3">We buy fire-damaged King of Prussia and Montgomery County properties for cash in their current condition. No remediation required. No structural repairs before closing. No smoke or water damage cleanup on your end. We assess the property in its current state and make a written cash offer within 24 hours.</p>
-            <p className="mb-3">With King of Prussia median home values in the $453,000 to $549,000 range, there&apos;s often significant value in the land and structure even after fire damage.</p>
+            <p className="mb-3">In King of Prussia&apos;s higher-value housing market, there may still be value in the land and structure even after fire damage.</p>
             <p className="mb-3">Once you accept, we can close in as few as 7 days. We handle all closing costs. No agent commissions. We take on full responsibility for the property at closing — including all the cleanup and remediation that comes after.</p>
             <p className="mb-3">Call us right now at 888-274-5006. We&apos;ll get you a fair cash offer fast so you can move forward.</p>
         </div>
@@ -147,11 +147,11 @@ export default function KopFireDamagePage() {
                 },
                 {
                   title: 'Condemned after fire',
-                  desc: "Upper Merion Township or the county may have condemned the property after the fire. That doesn't prevent a sale. We buy condemned properties and handle the code process after closing.",
+                  desc: "Upper Merion Township or the county may have condemned the property after the fire. That does not automatically prevent a sale, but the buyer should understand the township order. We buy condemned properties and handle the code process after closing.",
                 },
                 {
                   title: 'Insurance claim in process',
-                  desc: "You can sell while an insurance claim is pending. Insurance proceeds and sale proceeds are handled separately. We work around your claim timeline.",
+                  desc: "You may be able to sell while an insurance claim is pending. Insurance proceeds and sale proceeds are separate issues that should be coordinated with your insurer, lender, and closing team.",
                 },
                 {
                   title: 'Inherited fire-damaged property',
@@ -182,7 +182,7 @@ export default function KopFireDamagePage() {
                 <p className="font-semibold text-brand-dark">HUD — Housing and Urban Development</p>
                 <p className="text-gray-600">
                   <a href="https://www.hud.gov" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:underline">hud.gov</a>{' '}
-                  — Federal housing standards and resources for distressed and fire-damaged properties.
+                  — Source for housing habitability and repair standards that can affect financing of distressed properties.
                 </p>
               </div>
               <div className="border border-gray-200 rounded-lg p-4">

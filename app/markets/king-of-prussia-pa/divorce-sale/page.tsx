@@ -20,17 +20,17 @@ const FAQ_ITEMS = [
   {
     question: 'Can I sell my house during a divorce in Pennsylvania without court approval?',
     answer:
-      "It depends on how the divorce is structured. If both spouses agree and no court order prohibits the sale, you can sell during the divorce proceedings. If there's a court order, automatic temporary restraining orders (ATROs), or a dispute over the property's disposition, court approval may be required. Montgomery County Family Court handles these matters at One Montgomery Plaza, 425 Swede Street, Norristown PA 19401. A family law attorney can clarify your specific situation.",
+      "It depends on how the divorce is structured. If both spouses agree and no court order prohibits the sale, you may be able to sell during the divorce proceedings. If there is an existing court order or a dispute over the property's disposition, court approval may be required. Montgomery County Family Court handles these matters at One Montgomery Plaza, 425 Swede Street, Norristown PA 19401. A family law attorney can clarify your specific situation.",
   },
   {
     question: 'What if my spouse and I can\'t agree on selling the house?',
     answer:
-      "If one spouse wants to sell and the other doesn't, the dispute can be brought before the Montgomery County Court of Common Pleas under the Divorce Code (23 Pa.C.S. § 3502). The court can order the sale of the marital home and dictate how proceeds are divided. This process takes longer, but cash buyers can often close quickly once an order is issued.",
+      "If one spouse wants to sell and the other doesn't, the dispute may be brought before the Montgomery County Court of Common Pleas under Pennsylvania's Divorce Code. The court can address the disposition of marital property and how proceeds are divided. This process takes longer, but cash buyers can often close quickly once an order is issued.",
   },
   {
     question: 'How are proceeds split when selling a marital home in PA?',
     answer:
-      'Pennsylvania is an equitable distribution state — marital assets are divided fairly, not necessarily 50/50. Factors include the length of the marriage, each spouse\'s contributions to the property, and each party\'s financial situation. Your attorneys or a mediator will negotiate the split. The sale proceeds go to a title company escrow account and are distributed according to the agreement or court order.',
+      "Per Pennsylvania's Divorce Code, marital property is handled through equitable distribution — assets are divided fairly, not necessarily 50/50. Factors include the length of the marriage, each spouse's contributions to the property, and each party's financial situation. Your attorneys or a mediator will negotiate the split. The sale proceeds go to a title company escrow account and are distributed according to the agreement or court order.",
   },
   {
     question: 'Why is a cash sale better than listing during a divorce?',
@@ -111,7 +111,7 @@ export default function KopDivorceSalePage() {
             <p className="mb-3">Selling a house during a divorce in King of Prussia is stressful under the best circumstances. I&apos;m with USA Home Buyers, and I want to explain why a cash sale often makes the most sense in this situation.</p>
             <p className="mb-3">The traditional listing route requires agreement at every step — agent selection, list price, repairs and updates, which offers to accept. When two people in a divorce have to agree on all of that, it often drags on for months. Meanwhile, you&apos;re both carrying a shared asset and dealing with a house neither of you wants to be tied to anymore.</p>
             <p className="mb-3">A cash sale cuts through that. We make one written offer to both parties within 24 hours. If you accept, we close in 7 to 14 days. The proceeds come out at closing and get divided per your divorce agreement or court order.</p>
-            <p className="mb-3">With King of Prussia median home values in the $453,000 to $549,000 range, there&apos;s often significant equity at stake. Our goal is to get both parties a fair, fast outcome.</p>
+            <p className="mb-3">In King of Prussia&apos;s higher-value housing market, there may be significant equity at stake. Our goal is to get both parties a fair, fast outcome.</p>
             <p className="mb-3">We&apos;re a neutral third party. We don&apos;t have a stake in either side of the divorce. Our job is just to close the deal efficiently.</p>
             <p className="mb-3">Montgomery County Court of Common Pleas handles divorce proceedings. Call USA Home Buyers at 888-274-5006. Fair offer, 24 hours, close in 7 to 14 days. Done.</p>
         </div>
@@ -138,15 +138,15 @@ export default function KopDivorceSalePage() {
               {[
                 {
                   title: 'Speed and finality',
-                  desc: 'A traditional listing in KOP means 34 days to pending plus 45–60 more days to close. That\'s three months of ongoing joint ownership, shared decision-making, and uncertainty. A cash sale closes in 7–14 days. Both parties move on.',
+                  desc: 'A traditional listing can mean weeks of showings, negotiations, inspection issues, and lender timing before closing. A cash sale can close in 7–14 days after both authorized parties approve the agreement.',
                 },
                 {
                   title: 'Homes that need updates',
-                  desc: "Many KOP homes are 1960s–1970s vintage. Neither party may have the time, budget, or agreement to fund the $40,000–$80,000 in updates the house needs to compete at top retail prices. Cash buyers buy as-is.",
+                  desc: "Many KOP homes are established properties that may need updates. Neither party may have the time, budget, or agreement to fund repairs before listing. Cash buyers buy as-is.",
                 },
                 {
                   title: 'Equity that needs to be unlocked',
-                  desc: "Given KOP's median home values ($453K–$549K), there's often meaningful equity in the marital home. A cash sale unlocks that equity fast without the risk of a financed buyer's deal falling through.",
+                  desc: "Given King of Prussia's higher-value housing market, there may be meaningful equity in the marital home. A cash sale unlocks that equity fast without the risk of a financed buyer's deal falling through.",
                 },
                 {
                   title: 'Neutrality of the process',

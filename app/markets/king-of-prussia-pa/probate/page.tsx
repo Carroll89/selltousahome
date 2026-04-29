@@ -20,7 +20,7 @@ const FAQ_ITEMS = [
   {
     question: 'What is probate and does my King of Prussia property need to go through it?',
     answer:
-      "Probate is the legal process of administering a deceased person's estate under court supervision. In Pennsylvania, if the property was titled solely in the deceased's name (not jointly with right of survivorship), it must pass through probate before it can be sold. The Montgomery County Register of Wills handles this process. If the property was in a living trust, jointly titled, or had a transfer-on-death deed, it may avoid probate entirely.",
+      "Probate is the legal process of administering a deceased person's estate. In Pennsylvania, if the property was titled solely in the deceased's name and no non-probate transfer applies, it usually must pass through estate administration before it can be sold. The Montgomery County Register of Wills handles this process. If the property was in a living trust or jointly titled with survivorship rights, it may avoid probate; ask a Pennsylvania estate attorney to confirm the deed and estate facts.",
   },
   {
     question: 'Where do I file for probate for a King of Prussia property?',
@@ -30,17 +30,17 @@ const FAQ_ITEMS = [
   {
     question: 'Can I sell a King of Prussia property while probate is still open?',
     answer:
-      "Yes. Once the executor receives Letters Testamentary (or an administrator receives Letters of Administration) from the Montgomery County Register of Wills, they have legal authority to enter a real estate purchase agreement and sell the property. The estate doesn't have to be fully settled. Many families enter a purchase agreement early in the process and close once the letters are issued.",
+      "Yes. Per Montgomery County Register of Wills resources, once the executor receives Letters Testamentary (or an administrator receives Letters of Administration), they can act for the estate, which may include entering a real estate purchase agreement and selling the property. The estate may not have to be fully settled before real estate is sold, depending on authority and title guidance.",
   },
   {
     question: 'What are Pennsylvania inheritance tax rates for Montgomery County estates?',
     answer:
-      "Pennsylvania inheritance tax applies to most estate assets transferred to beneficiaries. Rates: 0% for surviving spouses; 0% for transfers to children/grandchildren under 21; 4.5% for children and lineal heirs; 12% for siblings; 15% for all others. The tax is paid by the estate from proceeds before distribution to heirs. This is separate from the realty transfer tax (2% for King of Prussia / Upper Merion Township). Source: PA Department of Revenue — revenue.pa.gov.",
+      "According to the Pennsylvania Department of Revenue, inheritance tax rates include 0% for transfers to a surviving spouse or from a child aged 21 or younger to a parent; 4.5% for direct descendants and lineal heirs; 12% for siblings; and 15% for other heirs, with exceptions for exempt entities. How tax is paid and whether realty transfer tax applies should be confirmed by the estate attorney or title company. Source: PA Department of Revenue — revenue.pa.gov.",
   },
   {
     question: 'How long does probate take in Montgomery County, PA?',
     answer:
-      'Simple Montgomery County estates with a clear will and cooperative heirs can be resolved in 3–6 months. More complex estates — multiple beneficiaries, contested will, significant assets, tax questions — can take 12–24 months. Selling the real property can happen before the estate fully closes, once the executor has authority to sell.',
+      'Probate timing varies by estate complexity, county processing, beneficiary issues, and tax questions. Selling the real property can happen before the estate fully closes, once the executor has authority to sell.',
   },
 ];
 
@@ -109,10 +109,10 @@ export default function KopProbatePage() {
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
             <p className="mb-3">If you&apos;re the executor of an estate with real property in King of Prussia or Montgomery County, here&apos;s what you need to know. I&apos;m with USA Home Buyers.</p>
-            <p className="mb-3">Probate in Montgomery County goes through the Montgomery County Register of Wills, located in Norristown. Once you have Letters Testamentary or Letters of Administration, you have the legal authority to sell estate real property. You don&apos;t need to wait for the entire estate to settle.</p>
-            <p className="mb-3">Montgomery County estates vary widely in complexity. A straightforward estate can move through the opening process in weeks. Multi-heir situations or contested estates take longer. But the sale of the property itself can often proceed independently.</p>
-            <p className="mb-3">We buy probate properties in King of Prussia and throughout Montgomery County as-is. The executor signs the deed on behalf of the estate. Closing proceeds go into the estate account. A title company with estate experience handles all documentation.</p>
-            <p className="mb-3">With King of Prussia homes valued in the $453,000 to $549,000 range, estate properties here often carry significant equity. Getting a fast, clean sale can accelerate the estate&apos;s distribution to heirs significantly.</p>
+            <p className="mb-3">Probate in Montgomery County goes through the Montgomery County Register of Wills, located in Norristown. Once Letters Testamentary or Letters of Administration are issued, the personal representative can act for the estate, which may include selling estate real property. You don&apos;t need to wait for the entire estate to settle.</p>
+            <p className="mb-3">Montgomery County estates vary widely in complexity. A straightforward estate may move through the opening process faster than a contested or incomplete filing. Multi-heir situations or contested estates take longer. But the sale of the property itself can often proceed independently.</p>
+            <p className="mb-3">We buy probate properties in King of Prussia and throughout Montgomery County as-is. The authorized personal representative signs sale documents on behalf of the estate. Closing proceeds go into the estate account. A title company with estate experience handles all documentation.</p>
+            <p className="mb-3">In King of Prussia&apos;s higher-value housing market, estate properties may carry meaningful equity. A clean sale can help the estate move toward distribution once legal and tax obligations are handled.</p>
             <p className="mb-3">Call USA Home Buyers at 888-274-5006. Written cash offer in 24 hours. We work with executors and estate attorneys and understand the Montgomery County probate process.</p>
         </div>
       </details>
@@ -139,12 +139,12 @@ export default function KopProbatePage() {
                 {
                   step: '1',
                   label: 'File for probate at the Montgomery County Register of Wills',
-                  detail: 'One Montgomery Plaza (4th Floor), 425 Swede Street, Norristown PA 19401. Phone: 610-278-3400. File the original will and pay the filing fee (based on estate value). E-Filing available at webapp.montcopa.org/ROWEFiling for eligible documents.',
+                  detail: 'One Montgomery Plaza (4th Floor), 425 Swede Street, Norristown PA 19401. Phone: 610-278-3400. File the original will and pay applicable filing fees. E-Filing available at webapp.montcopa.org/ROWEFiling for eligible documents.',
                 },
                 {
                   step: '2',
                   label: 'Receive Letters Testamentary or Letters of Administration',
-                  detail: 'These documents authorize the executor (or administrator if no will) to act on behalf of the estate — including selling real property. Timing varies by complexity, but many straightforward estates receive letters within days to a few weeks.',
+                  detail: 'These documents authorize the executor (or administrator if no will) to act on behalf of the estate — including selling real property. Timing varies by completeness of the filing, estate complexity, and county processing.',
                 },
                 {
                   step: '3',

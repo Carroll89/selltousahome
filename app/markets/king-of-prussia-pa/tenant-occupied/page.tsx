@@ -20,27 +20,27 @@ const FAQ_ITEMS = [
   {
     question: 'Can I sell my rental property in King of Prussia while tenants are living there?',
     answer:
-      "Yes. Pennsylvania law allows the sale of tenant-occupied properties. The lease transfers to the new owner — tenants keep their rights under the existing lease. As a cash buyer, we purchase the property with tenants in place. You don't need to wait for the lease to expire or go through an eviction.",
+      "Yes. Pennsylvania property can be sold while tenants are in place. Existing leases and tenant rights generally continue after transfer unless the lease or law provides otherwise. As a cash buyer, we purchase the property with tenants in place. You don't need to wait for the lease to expire or go through an eviction.",
   },
   {
     question: 'Do tenants have the right to buy the property before I sell?',
     answer:
-      "Pennsylvania does not have a statewide tenant right of first refusal law for residential properties. Tenants in King of Prussia and Upper Merion Township do not have a statutory right to purchase the property before you sell it, unless your specific lease agreement includes such a clause. Review your lease before proceeding.",
+      "Pennsylvania does not appear to provide a general statewide residential tenant right of first refusal, but your lease or local rules may add rights. Tenants in King of Prussia and Upper Merion Township generally do not have a statutory right to purchase the property before you sell it, unless your lease agreement or another applicable rule includes such a clause. Review your lease before proceeding.",
   },
   {
     question: 'How much notice do I need to give tenants before selling in Pennsylvania?',
     answer:
-      "Pennsylvania law (68 P.S. § 250.501) requires landlords to give tenants written notice before entering the property for showings. For periodic tenancies (month-to-month), the standard notice for entry is 24 hours. However, because we purchase properties as-is without requiring showings or inspections by retail buyers, tenant disruption is typically minimal — often just one walkthrough.",
+      "Pennsylvania's Landlord and Tenant Act governs landlord-tenant rights, and your lease may set entry-notice rules for showings. Use the lease and legal advice to confirm notice before entering. However, because we purchase properties as-is without requiring showings or inspections by retail buyers, tenant disruption is typically minimal — often just one walkthrough.",
   },
   {
     question: 'What if my tenant has stopped paying rent?',
     answer:
-      "We buy tenant-occupied properties regardless of payment status — including properties with non-paying tenants. You don't need to complete the eviction before selling. We take ownership of the tenant relationship and handle it from there. This is one of the most common reasons Montgomery County landlords sell to cash buyers.",
+      "We buy tenant-occupied properties regardless of payment status — including properties with non-paying tenants. You usually do not need to complete an eviction before selling to a buyer willing to take the property with tenants in place. We take ownership of the tenant relationship and handle it from there. This is one of the most common reasons Montgomery County landlords sell to cash buyers.",
   },
   {
     question: 'What happens to the security deposit when I sell?',
     answer:
-      "Under PA landlord-tenant law (68 P.S. § 250.512), security deposits must be transferred to the new owner at closing, or returned to the tenant. This is handled through the title company at closing — it's a standard step in any Pennsylvania tenant-occupied property transaction.",
+      "Security deposits should be accounted for at closing or handled according to the lease and Pennsylvania landlord-tenant rules. This is handled through the title company at closing — it's a standard step in any Pennsylvania tenant-occupied property transaction.",
   },
 ];
 
@@ -110,7 +110,7 @@ export default function KopTenantOccupiedPage() {
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
             <p className="mb-3">Selling a rental property in King of Prussia or Montgomery County with tenants in place is one of the situations where a cash buyer makes the most sense. I&apos;m with USA Home Buyers, and we buy tenant-occupied properties regularly.</p>
             <p className="mb-3">Most buyers using conventional financing don&apos;t want to purchase a tenant-occupied property. They either want to move in themselves or they&apos;re not set up to be landlords. Financing lenders get cautious. Your buyer pool shrinks significantly before you even list.</p>
-            <p className="mb-3">Pennsylvania landlord-tenant law gives your tenants rights around showings and access. If your tenant isn&apos;t cooperative — which often happens when they realize the property is being sold — coordinating showings through the MLS can be a nightmare.</p>
+            <p className="mb-3">Pennsylvania landlord-tenant rules and your lease give tenants rights around occupancy, showings, and access. If your tenant isn&apos;t cooperative — which often happens when they realize the property is being sold — coordinating showings through the MLS can be a nightmare.</p>
             <p className="mb-3">We don&apos;t need showings. We buy tenant-occupied properties in King of Prussia as-is, with tenants in place. We take the property with the existing lease and handle the tenant transition ourselves after closing.</p>
             <p className="mb-3">Montgomery County&apos;s rental market is strong, particularly near the King of Prussia business corridor, Valley Forge, and communities along Route 202.</p>
             <p className="mb-3">Call USA Home Buyers at 888-274-5006. Written cash offer in 24 hours. No eviction required.</p>
@@ -138,7 +138,7 @@ export default function KopTenantOccupiedPage() {
               {[
                 {
                   title: 'Non-paying tenant',
-                  desc: "You've started the eviction process or are considering it. Evictions in Pennsylvania take time and legal fees — typically 3–6 months from first missed payment to regaining possession. Selling now transfers that burden to us.",
+                  desc: "You've started the eviction process or are considering it. Evictions in Pennsylvania take time and legal fees, with timing depending on notice, magisterial district court scheduling, appeals, and tenant response. Selling now transfers that burden to us.",
                 },
                 {
                   title: 'Long-term tenant in a property you want to exit',
@@ -166,8 +166,8 @@ export default function KopTenantOccupiedPage() {
               Pennsylvania Landlord-Tenant Law — Key Points for Sellers
             </h2>
             <p className="text-gray-700 mb-4 text-sm">
-              Under Pennsylvania&apos;s Landlord and Tenant Act (68 P.S. § 250.101 et seq.), tenants have
-              defined rights that transfer to the new owner at closing. Here&apos;s what matters for a sale:
+              Per Pennsylvania&apos;s Landlord and Tenant Act (68 P.S. § 250.101 et seq.), tenants have
+              rights that a buyer should account for after closing. Here&apos;s what matters for a sale:
             </p>
             <div className="overflow-x-auto">
               <table className="w-full text-sm border-collapse">
@@ -179,11 +179,11 @@ export default function KopTenantOccupiedPage() {
                 </thead>
                 <tbody>
                   {[
-                    ['Lease transfer', 'Existing lease transfers to new owner at closing; tenant rights preserved'],
-                    ['Security deposit', 'Must be transferred to buyer at closing or returned to tenant (68 P.S. § 250.512)'],
-                    ['Notice of new ownership', 'New owner must notify tenant of purchase and address for notices'],
-                    ['Tenant entry notice', '24-hour written notice required for non-emergency entry (68 P.S. § 250.511)'],
-                    ['Eviction by new owner', 'New owner must follow PA eviction procedures if lease terminated after purchase'],
+                    ['Lease transfer', 'Existing lease rights generally continue after closing unless the lease or law provides otherwise'],
+                    ['Security deposit', 'Account for the deposit at closing or handle it according to the lease and PA landlord-tenant rules'],
+                    ['Notice of new ownership', 'New owner should provide purchase and notice-address information according to lease and PA rules'],
+                    ['Tenant entry notice', 'Confirm non-emergency entry notice in the lease and applicable PA landlord-tenant rules'],
+                    ['Eviction by new owner', 'New owner must follow applicable PA eviction procedures if a tenancy is terminated after purchase'],
                   ].map(([item, law], i) => (
                     <tr key={i} className={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
                       <td className="py-3 px-4 font-medium text-brand-dark border-b border-gray-100">{item}</td>

@@ -20,12 +20,12 @@ const FAQ_ITEMS = [
   {
     question: 'Can I sell a house with code violations in King of Prussia PA?',
     answer:
-      "Yes. Pennsylvania law doesn't prohibit selling a property with open code violations — the violations must be disclosed to the buyer, but the sale can proceed. Cash buyers like USA Home Buyers buy as-is, knowing violations exist. Retail buyers using traditional financing often cannot purchase a home with significant code violations because the lender requires the property to meet minimum habitability standards.",
+      "Yes. In Pennsylvania, there is not a statewide rule that automatically blocks a sale because a property has open code violations, but known condition issues should be disclosed to the buyer; a title company or local attorney can confirm how any municipal liens or orders are handled before closing. Cash buyers like USA Home Buyers buy as-is, knowing violations exist. Retail buyers using traditional financing often cannot purchase a home with significant code violations because the lender requires the property to meet minimum habitability standards.",
   },
   {
     question: 'Who enforces code violations in King of Prussia?',
     answer:
-      "King of Prussia is an unincorporated community within Upper Merion Township. Code enforcement is handled by the Upper Merion Township Building and Code Enforcement department. Complaints and violations are processed through Township offices. You can contact Upper Merion Township directly at 175 West Valley Forge Road, King of Prussia PA 19406, or at the township website (uppermerion.com) for information on open violations.",
+      "According to Upper Merion Township's official website, King of Prussia is served by township offices; local building and code questions are handled through Upper Merion's township departments. Complaints and violations are processed through Township offices. You can contact Upper Merion Township directly at 175 West Valley Forge Road, King of Prussia PA 19406, or at the township website (uppermerion.com) for information on open violations.",
   },
   {
     question: 'What kinds of code violations can you buy with?',
@@ -40,7 +40,7 @@ const FAQ_ITEMS = [
   {
     question: 'Can I sell if the property has been condemned or declared uninhabitable?',
     answer:
-      "Yes. A condemned status means the property has been determined unfit for occupancy — it doesn't mean it can't be sold. Cash buyers specifically seek condemned and uninhabitable properties that require significant renovation. We buy in any condition, regardless of habitability status. The sale price reflects the condition, but you can sell and move forward.",
+      "Yes. A condemned status generally means the property has been determined unfit for occupancy; it may still be transferable, but the buyer should understand the township order and repair obligations before closing. Cash buyers specifically seek condemned and uninhabitable properties that require significant renovation. We buy in any condition, regardless of habitability status. The sale price reflects the condition, but you can sell and move forward.",
   },
 ];
 
@@ -109,9 +109,9 @@ export default function KopCodeViolationsPage() {
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
             <p className="mb-3">If your King of Prussia or Montgomery County property has open code violations, you&apos;re in a situation where most traditional buyers can&apos;t help you. I&apos;m with USA Home Buyers, and code violation properties are something we buy regularly.</p>
-            <p className="mb-3">Montgomery County has active code enforcement. Violations — whether from unpermitted additions, structural deficiencies, health and safety citations, or deferred maintenance — make it nearly impossible to sell to a buyer using conventional financing.</p>
+            <p className="mb-3">Upper Merion Township publishes township code and permit resources for local properties. Violations — whether from unpermitted additions, structural deficiencies, health and safety citations, or deferred maintenance — can make financing and retail sale approvals harder.</p>
             <p className="mb-3">We don&apos;t use financing. We pay cash. There&apos;s no appraiser, no lender underwriting, no appraisal contingency. We buy the property in its current condition — violations, citations, and all.</p>
-            <p className="mb-3">How do violations get resolved at closing? They&apos;re treated like any other lien or encumbrance. The title search identifies all outstanding fines and municipal liens. At closing, those get paid from your proceeds before the remainder goes to you.</p>
+            <p className="mb-3">How do violations get resolved at closing? The title company searches for recorded liens and municipal claims, and any payoff required for clear title is addressed in the closing statement before the remainder goes to you.</p>
             <p className="mb-3">We&apos;ve bought Montgomery County properties with multiple open violations, properties cited for structural issues, properties with unpermitted construction, and properties where code enforcement had been active for years.</p>
             <p className="mb-3">Call USA Home Buyers at 888-274-5006. We&apos;ll make a written cash offer within 24 hours and explain exactly how the violation resolution works at closing.</p>
         </div>
@@ -123,9 +123,9 @@ export default function KopCodeViolationsPage() {
           <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-10">
             <h2 className="text-lg font-bold text-brand-dark mb-2">Why Code Violations Block Traditional Sales (But Not Cash Sales)</h2>
             <p className="text-gray-700 text-sm">
-              When a buyer finances a home with a conventional mortgage or FHA loan, the lender requires
+              When a buyer finances a home with a conventional mortgage or FHA loan, the lender may require
               the property to meet minimum standards. Code violations — especially structural, electrical,
-              or health-related — will fail a lender&apos;s appraisal inspection and kill the deal unless cured
+              or health-related — may fail a lender&apos;s appraisal inspection and derail the deal unless cured
               first. Cash buyers don&apos;t use lenders. There&apos;s no appraisal requirement. We evaluate the property
               in its current state and make an offer that reflects the condition.
             </p>
@@ -160,7 +160,7 @@ export default function KopCodeViolationsPage() {
             </h2>
             <p className="text-gray-700 mb-4 text-sm">
               King of Prussia is within Upper Merion Township, which manages building and code enforcement
-              for the area. Open violations appear on township records and must be disclosed in any sale.
+              for the area. Per Upper Merion Township&apos;s public code and permit resources, open issues may appear in township records; known condition issues should be disclosed in any sale.
               When you sell to us, we receive a full disclosure of all known violations and purchase with
               that knowledge — no renegotiation after the walkthrough.
             </p>
@@ -169,7 +169,7 @@ export default function KopCodeViolationsPage() {
               <div className="space-y-1 text-gray-700 text-xs">
                 <p>175 West Valley Forge Road, King of Prussia PA 19406</p>
                 <p>
-                  Township website:{' '}
+                  Official township source:{' '}
                   <a href="https://www.uppermerion.com" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:underline">
                     uppermerion.com
                   </a>

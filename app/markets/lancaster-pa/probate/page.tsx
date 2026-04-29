@@ -25,23 +25,23 @@ const articleSch = articleSchema(
 const FAQ_ITEMS = [
   {
     question: 'What is the probate process for selling a house in Lancaster County PA?',
-    answer: 'In Lancaster County, probate runs through the Register of Wills and Clerk of Orphans\' Court at 50 N. Duke St. (717-299-8243). The executor files for Letters Testamentary (with a will) or Letters of Administration (without a will). Once granted, the executor has legal authority to sell real property on behalf of the estate. According to the Lancaster County Register of Wills website (co.lancaster.pa.us/159/Register-of-Wills), a new fee bill took effect January 1, 2026.',
+    answer: 'According to the Lancaster County Register of Wills, that office provides probate of decedent estates and Clerk of Orphans\' Court services at the Lancaster County Courthouse. A personal representative may receive Letters Testamentary or Letters of Administration; once authority is granted, they can act for the estate, which may include selling real property. According to the Lancaster County Register of Wills website (co.lancaster.pa.us/159/Register-of-Wills), a new fee bill took effect January 1, 2026.',
   },
   {
     question: 'Can I sell a Lancaster house before probate is complete?',
-    answer: 'Not typically. Title cannot legally transfer until the executor has authority from the court. However, you can receive a written cash offer now and have a buyer ready to close the moment probate is granted. We work with Lancaster County estate attorneys and can coordinate timing to minimize delays.',
+    answer: 'Not typically. Title generally cannot transfer from an estate until the personal representative has authority and the title company is satisfied. However, you can receive a written cash offer now and have a buyer ready to close the moment probate is granted. We work with Lancaster County estate attorneys and can coordinate timing to minimize delays.',
   },
   {
     question: 'Do I need to fix or clean out the property before selling in probate?',
-    answer: 'No. Estate properties in Lancaster City often have decades of accumulated belongings, outdated systems, and deferred maintenance. We buy probate properties as-is — you don\'t need to clean out furniture, personal items, or decades of belongings. Leave what you don\'t want.',
+    answer: 'No. Estate properties in Lancaster City may have accumulated belongings, outdated systems, and deferred maintenance. We buy probate properties as-is — you don\'t need to clean out furniture, personal items, or decades of belongings. Leave what you don\'t want.',
   },
   {
     question: 'What if the estate has multiple beneficiaries?',
-    answer: 'All beneficiaries with an interest in the estate must ultimately consent to the sale, either directly or through the executor\'s authority granted by the court. We provide a clear written offer that makes it easy for all parties to review and agree. A single written number with a defined closing date often resolves family disagreements faster than an open market listing.',
+    answer: "Required consents depend on the deed, will, and personal representative's authority granted by the Register of Wills or Orphans' Court. We provide a clear written offer that makes it easy for all parties to review and agree. A single written number with a defined closing date can be easier for families to evaluate than an open market listing.",
   },
   {
     question: 'How long does it take to sell a Lancaster probate property?',
-    answer: 'Once the executor has Letters Testamentary or Letters of Administration, we can close in as few as 7-14 days. The probate process itself — from filing to letters being granted — can take anywhere from a few weeks for simple, uncontested estates to several months for complex ones. We\'re ready to move quickly once you have the authority.',
+    answer: 'Once the personal representative has Letters Testamentary or Letters of Administration, we can often close in 7-14 days if title is clear. Probate timing varies by filing completeness, estate complexity, disputes, and county processing. We\'re ready to move quickly once you have the authority.',
   },
 ];
 
@@ -55,7 +55,7 @@ export default function LancasterProbatePage() {
         {/* TL;DR — GEO/AEO Quick Answer */}
         <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-10">
           <h2 className="text-lg font-bold text-brand-dark mb-2">Quick Answer</h2>
-          <p className="text-gray-700 text-sm leading-relaxed">You can sell a house in probate in Lancaster, PA — once the executor has Letters Testamentary from the Lancaster County Register of Wills. Pennsylvania probate typically takes 9–18 months; Lancaster County typically runs 10–15 months due to higher volume. You can sign a purchase agreement now and close when ready. USA Home Buyers works with Lancaster County estate executors regularly.</p>
+          <p className="text-gray-700 text-sm leading-relaxed">You can sell a house in probate in Lancaster, PA — once the personal representative has authority from the Lancaster County Register of Wills. Probate timing varies by estate complexity, filing completeness, tax issues, and county processing. You can often sign a purchase agreement now and close once the estate has authority and title is ready. USA Home Buyers works with Lancaster County estate executors regularly.</p>
         </div>
 
         <nav className="text-sm text-gray-500 mb-6">
@@ -70,7 +70,7 @@ export default function LancasterProbatePage() {
           Selling a Probate Property in Lancaster PA
         </h1>
         <p className="text-gray-700 text-lg mb-6">
-          Probate real estate sales in Lancaster County follow a specific legal process through the Register of Wills.
+          Probate real estate sales in Lancaster County generally involve the Register of Wills process and title-company review.
           USA Home Buyers works with executors, estate attorneys, and heirs throughout Lancaster County and Lancaster City
           to provide a clean cash sale that fits the court timeline — no repairs, no cleanout, no open houses.
         </p>
@@ -81,12 +81,11 @@ export default function LancasterProbatePage() {
         <section className="my-10 bg-blue-50 rounded-2xl p-6">
           <h2 className="text-2xl font-bold text-brand-dark mb-3">Lancaster County Register of Wills</h2>
           <p className="text-gray-700 mb-4">
-            Lancaster County uses the standard Pennsylvania Register of Wills model — not Philadelphia's Orphans' Court
-            Division structure. The Register of Wills handles probate (Letters Testamentary, Letters of Administration,
-            guardianships). The Clerk of Orphans' Court (same office) handles formal Orphans' Court proceedings.
+            According to Lancaster County, the Register of Wills' Office and Clerk of the Orphans' Court Office provide probate of decedent estates, inheritance tax collection, marriage licenses, and estate-related records.
+            The Register of Wills handles probate-related filings; the Clerk of Orphans\' Court handles Orphans' Court filings and records.
           </p>
           <div className="bg-white rounded-xl border border-blue-100 p-4">
-            <p className="font-bold text-brand-dark">Lancaster County Register of Wills and Clerk of Orphans' Court</p>
+            <p className="font-bold text-brand-dark">Lancaster County Register of Wills and Clerk of Orphans\' Court</p>
             <p className="text-sm text-gray-700">Lancaster County Courthouse, 50 N. Duke St., P.O. Box 83480</p>
             <p className="text-sm text-gray-700">Lancaster, PA 17602</p>
             <p className="text-sm text-gray-700">Phone: (717) 299-8243</p>
@@ -105,16 +104,15 @@ export default function LancasterProbatePage() {
           <h2 className="text-2xl font-bold text-brand-dark mb-4">What Makes Lancaster Probate Properties Different</h2>
           <p className="text-gray-700 mb-4">
             Lancaster City's pre-1940 rowhouse stock — concentrated in Cabbage Hill, West End, and Southeast Lancaster —
-            is where many probate situations arise. These properties have often been in families for multiple generations,
-            passing from grandparents to parents to heirs who may live out of state. The city's 40.6% Hispanic population
-            (ACS 2024) also means many probate situations involve family members navigating a process in their second language.
+            is where many probate situations arise. These properties may have been in families for multiple generations,
+            passing from grandparents to parents to heirs who may live out of state. According to DataUSA\'s ACS-derived Lancaster profile, the city has a 40.6% Hispanic population, so some probate situations may involve family members navigating the process in their second language.
             We serve the Lancaster community in both English and Spanish.
           </p>
           <p className="text-gray-700 mb-4">
             Rural Lancaster County presents a different probate challenge: farmhouses, bank barns, and agricultural land
             that has been in Pennsylvania Dutch Country families for generations. These estates require a buyer who
             understands both the rural market and the estate process — and who won't demand cleanout of a property
-            that has served as a working farm for a century.
+            that may have served as a working farm for generations.
           </p>
         </section>
 
