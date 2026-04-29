@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
 import { VideoEmbed } from '@/components/VideoEmbed';
 import { CashOfferForm } from '@/components/CashOfferForm';
-import { organizationSchema, articleSchema } from '@/lib/schema';
+import { organizationSchema, articleSchema, videoObjectSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
 
 export const revalidate = 86400;
@@ -97,6 +97,12 @@ export default function PeoriaNeighborhoodsPage() {
       <SchemaMarkup schema={[
         organizationSchema,
         articleSchema('Peoria IL Neighborhoods — Cash Home Buyers Serving All Areas', pageUrl, '2026-04-18'),
+        videoObjectSchema({
+          name: 'Peoria IL Neighborhoods — We Buy Houses Everywhere',
+          description: 'Richwoods to Riverdale to Peoria Heights — any neighborhood, any condition',
+          contentUrl: `${SITE_URL}/videos/peoria-il/neighborhoods.mp4`,
+          thumbnailUrl: `${SITE_URL}/videos/peoria-il/neighborhoods-poster.jpg`,
+        }),
       ]} />
 
       <section className="relative text-white py-16 px-4 overflow-hidden bg-brand-dark">
@@ -168,6 +174,7 @@ export default function PeoriaNeighborhoodsPage() {
         </section>
 
 
+        {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
       <VideoEmbed
         src="/videos/peoria-il/neighborhoods.mp4"
         title="Peoria IL Neighborhoods — We Buy Houses Everywhere"

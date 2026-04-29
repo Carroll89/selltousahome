@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
 import { VideoEmbed } from '@/components/VideoEmbed';
 import { CashOfferForm } from '@/components/CashOfferForm';
-import { organizationSchema, articleSchema } from '@/lib/schema';
+import { organizationSchema, articleSchema, videoObjectSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
 
 export const revalidate = 86400;
@@ -24,6 +24,12 @@ export default function PeoriaILMarketReportPage() {
       <SchemaMarkup schema={[
         organizationSchema,
         articleSchema('Peoria IL Housing Market Report 2026 — Peoria County Data', pageUrl, '2026-04-18'),
+        videoObjectSchema({
+          name: 'Peoria IL Real Estate Market Report 2026',
+          description: 'Caterpillar headquarters, healthcare anchor, steady appreciation in Peoria County',
+          contentUrl: `${SITE_URL}/videos/peoria-il/market-report.mp4`,
+          thumbnailUrl: `${SITE_URL}/videos/peoria-il/market-report-poster.jpg`,
+        }),
       ]} />
 
       <section className="relative text-white py-16 px-4 overflow-hidden bg-brand-dark">
@@ -221,6 +227,7 @@ According to Zillow (February 2026), Peoria ZHVI: $115,649 (+3.7% YoY). Per Redf
         </section>
 
 
+        {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
       <VideoEmbed
         src="/videos/peoria-il/market-report.mp4"
         title="Peoria IL Real Estate Market Report 2026"
