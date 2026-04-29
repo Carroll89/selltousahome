@@ -5,7 +5,7 @@ import { SchemaMarkup } from '@/components/SchemaMarkup';
 import { VideoEmbed } from '@/components/VideoEmbed';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
-import { organizationSchema, articleSchema, faqSchema } from '@/lib/schema';
+import { organizationSchema, articleSchema, faqSchema, videoObjectSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
 
 export const revalidate = 86400;
@@ -49,6 +49,12 @@ export default function OshkoshCodeViolationsPage() {
         organizationSchema,
         articleSchema('Selling a House With Code Violations in Oshkosh WI — City of Oshkosh Enforcement Guide', pageUrl, '2026-04-18'),
         faqSchema(FAQ_ITEMS),
+        videoObjectSchema({
+          name: 'Sell a House With Code Violations in Oshkosh WI',
+          description: 'Open violations, failed inspections — we buy as-is in Winnebago County',
+          contentUrl: `${SITE_URL}/videos/oshkosh-wi/code-violations.mp4`,
+          thumbnailUrl: `${SITE_URL}/videos/oshkosh-wi/code-violations-poster.jpg`,
+        }),
       ]} />
 
       <section className="relative text-white py-16 px-4 overflow-hidden">
@@ -90,7 +96,8 @@ export default function OshkoshCodeViolationsPage() {
           </div>
           <div>
   
-      <VideoEmbed
+            {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
+<VideoEmbed
         src="/videos/oshkosh-wi/code-violations.mp4"
         title="Sell a House With Code Violations in Oshkosh WI"
         poster="/videos/oshkosh-wi/code-violations-poster.jpg"

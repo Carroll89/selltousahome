@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
 import { VideoEmbed } from '@/components/VideoEmbed';
 import { CashOfferForm } from '@/components/CashOfferForm';
-import { organizationSchema, articleSchema } from '@/lib/schema';
+import { organizationSchema, articleSchema, videoObjectSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
 
 export const revalidate = 86400;
@@ -24,6 +24,12 @@ export default function OshkoshWIMarketReportPage() {
       <SchemaMarkup schema={[
         organizationSchema,
         articleSchema('Oshkosh WI Housing Market Report 2026 — Winnebago County Data', pageUrl, '2026-04-18'),
+        videoObjectSchema({
+          name: 'Oshkosh WI Real Estate Market Report 2026',
+          description: 'Fox Valley affordability, Lake Winnebago waterfront, steady appreciation',
+          contentUrl: `${SITE_URL}/videos/oshkosh-wi/market-report.mp4`,
+          thumbnailUrl: `${SITE_URL}/videos/oshkosh-wi/market-report-poster.jpg`,
+        }),
       ]} />
 
       <section className="relative text-white py-16 px-4 overflow-hidden bg-brand-dark">
@@ -171,7 +177,8 @@ export default function OshkoshWIMarketReportPage() {
         </section>
 
 
-      <VideoEmbed
+            {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
+<VideoEmbed
         src="/videos/oshkosh-wi/market-report.mp4"
         title="Oshkosh WI Real Estate Market Report 2026"
         poster="/videos/oshkosh-wi/market-report-poster.jpg"

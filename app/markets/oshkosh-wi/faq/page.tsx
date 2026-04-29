@@ -5,7 +5,7 @@ import { SchemaMarkup } from '@/components/SchemaMarkup';
 import { VideoEmbed } from '@/components/VideoEmbed';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
-import { organizationSchema, articleSchema, faqSchema } from '@/lib/schema';
+import { organizationSchema, articleSchema, faqSchema, videoObjectSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
 
 export const revalidate = 86400;
@@ -69,6 +69,12 @@ export default function OshkoshWIFAQPage() {
         organizationSchema,
         articleSchema('Oshkosh WI Home Selling FAQ 2026 — Winnebago County Answers', pageUrl, '2026-04-18'),
         faqSchema(FAQ_ITEMS),
+        videoObjectSchema({
+          name: 'Oshkosh WI Home Selling FAQ',
+          description: 'Foreclosure timelines, probate, code violations, closing speed — answered',
+          contentUrl: `${SITE_URL}/videos/oshkosh-wi/faq.mp4`,
+          thumbnailUrl: `${SITE_URL}/videos/oshkosh-wi/faq-poster.jpg`,
+        }),
       ]} />
 
       <section className="relative text-white py-16 px-4 overflow-hidden bg-brand-dark">
@@ -87,7 +93,8 @@ export default function OshkoshWIFAQPage() {
 
       <div className="max-w-4xl mx-auto px-4 py-8">
 
-      <VideoEmbed
+            {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
+<VideoEmbed
         src="/videos/oshkosh-wi/faq.mp4"
         title="Oshkosh WI Home Selling FAQ"
         poster="/videos/oshkosh-wi/faq-poster.jpg"

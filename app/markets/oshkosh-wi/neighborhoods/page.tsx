@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
 import { VideoEmbed } from '@/components/VideoEmbed';
 import { CashOfferForm } from '@/components/CashOfferForm';
-import { organizationSchema, articleSchema } from '@/lib/schema';
+import { organizationSchema, articleSchema, videoObjectSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
 
 export const revalidate = 86400;
@@ -92,6 +92,12 @@ export default function OshkoshWINeighborhoodsPage() {
       <SchemaMarkup schema={[
         organizationSchema,
         articleSchema('Oshkosh WI Neighborhoods — Cash Home Buyers in Every Area', pageUrl, '2026-04-18'),
+        videoObjectSchema({
+          name: 'Oshkosh WI Neighborhoods — We Buy Houses Everywhere',
+          description: 'Lake Shore to Merritt to Algoma — any neighborhood, any condition',
+          contentUrl: `${SITE_URL}/videos/oshkosh-wi/neighborhoods.mp4`,
+          thumbnailUrl: `${SITE_URL}/videos/oshkosh-wi/neighborhoods-poster.jpg`,
+        }),
       ]} />
 
       <section className="relative text-white py-16 px-4 overflow-hidden bg-brand-dark">
@@ -190,7 +196,8 @@ export default function OshkoshWINeighborhoodsPage() {
         </section>
 
 
-      <VideoEmbed
+            {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
+<VideoEmbed
         src="/videos/oshkosh-wi/neighborhoods.mp4"
         title="Oshkosh WI Neighborhoods — We Buy Houses Everywhere"
         poster="/videos/oshkosh-wi/neighborhoods-poster.jpg"
