@@ -25,11 +25,11 @@ const FAQ_ITEMS = [
   },
   {
     question: 'What are Ohio tenant rights when a property is sold?',
-    answer: "Under Ohio law (ORC Chapter 5321), tenants have the right to remain in the property through the end of their lease term after a sale, regardless of who the new owner is. For month-to-month tenants, the new owner must provide proper notice under Ohio law before requiring them to vacate. The sale itself is not grounds for immediate eviction. Source: Ohio Revised Code § 5321.01 et seq. (Ohio Landlord-Tenant Law).",
+    answer: "Under Ohio landlord-tenant law (ORC Chapter 5321), existing lease terms and notice obligations still matter after a sale. For month-to-month tenants, termination generally requires proper written notice. Source: Ohio Revised Code § 5321.01 et seq. (Ohio Landlord-Tenant Law).",
   },
   {
     question: 'Do I need to tell tenants I\'m selling?',
-    answer: "Ohio law requires providing tenants reasonable notice before showing the property. If you're selling to us directly — no showings, no listing — tenant disruption is minimal. We do a private walkthrough with reasonable advance notice, and the tenants continue their lease with us as the new owner.",
+    answer: "Ohio landlord-tenant law and the lease may require reasonable notice before entry. If you're selling to us directly — no public showings, no listing — tenant disruption is minimal. We do a private walkthrough with reasonable advance notice, and we take over applicable landlord obligations after closing.",
   },
   {
     question: 'What if my Youngstown tenant is behind on rent?',
@@ -96,27 +96,23 @@ export default function YoungstownTenantOccupiedPage() {
         {/* TL;DR — GEO/AEO Quick Answer */}
         <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-10">
           <h2 className="text-lg font-bold text-brand-dark mb-2">Quick Answer</h2>
-          <p className="text-gray-700 text-sm leading-relaxed">Yes, USA Home Buyers buys tenant-occupied properties in Youngstown, OH. Under Ohio law (Ohio Revised Code § 5321), existing leases transfer with the property — the buyer assumes the landlord role at closing. Fixed-term leases must be honored through the lease term; month-to-month tenancies require 30 days written notice to terminate. We buy with the tenant in place — no eviction before closing. Written cash offer within 24 hours.</p>
+          <p className="text-gray-700 text-sm leading-relaxed">Yes, USA Home Buyers buys tenant-occupied properties in Youngstown, OH. Under Ohio landlord-tenant law (Ohio Revised Code Chapter 5321), existing lease terms and notice obligations still matter after a sale. We buy with the tenant in place — no eviction before closing. Written cash offer within 24 hours.</p>
         </div>
 
 
         <section className="mb-10">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">Youngstown Rental Market Context</h2>
           <p className="text-gray-700 mb-4">
-            Youngstown is a majority-renter city — an estimated 60% of occupied housing units are
-            renter-occupied, according to{' '}
-            <a href="https://www.ohio-demographics.com/youngstown-demographics" className="text-brand-primary hover:underline" target="_blank" rel="noopener noreferrer">Census ACS data</a>.
-            That reflects low home values, population decline, and a large stock of properties owned
-            by absentee landlords who purchased during the post-industrial price collapse of the 1980s
-            and 1990s. Many of those landlords are now looking to exit — they're aging, the properties
-            need significant capital investment, and the Youngstown rental market doesn't support rents
-            high enough to justify the work.
+            Youngstown has a large renter-occupied housing share, according to{' '}
+            <a href="https://www.ohio-demographics.com/youngstown-demographics" className="text-brand-primary hover:underline" target="_blank" rel="noopener noreferrer">Census ACS-style data</a>.
+            Some landlords are now looking to exit because properties
+            need significant capital investment and the local rental market may not support the work.
           </p>
           <p className="text-gray-700 mb-4">
             We buy from landlords who are done — whether the tenant is current, behind on rent,
-            or the property is vacant. We don't require you to go through the Mahoning County
+            or the property is vacant. You do not need to complete the Mahoning County
             Municipal Court eviction process before closing. We close on the property as-is and
-            handle the tenant relationship after.
+            handle the tenant relationship after under Ohio landlord-tenant law.
           </p>
         </section>
 

@@ -29,7 +29,7 @@ const FAQ_ITEMS = [
   {
     question: 'What happens to my insurance settlement if I sell a fire-damaged house?',
     answer:
-      'If you have a mortgage, your lender is typically listed as a co-payee on insurance proceeds. You should consult with your insurance company and lender before selling. In many cases, insurance proceeds are used to pay off the mortgage at closing, and any remaining equity goes to you. We can work through this scenario with your attorney or insurance adjuster.',
+      'If you have a mortgage, insurance proceeds may be controlled by your policy and loan documents. You should consult with your insurance company and lender before selling. We can work through this scenario with your attorney, insurance adjuster, and title company.',
   },
   {
     question: 'Reading row homes share walls — does fire damage affect neighboring properties?',
@@ -39,12 +39,12 @@ const FAQ_ITEMS = [
   {
     question: 'Does the 5% Reading transfer tax apply to fire-damaged properties?',
     answer:
-      'Yes, but we cover it. Reading has a 5% transfer tax (4% city + 1% state) on all real estate transfers. When you sell to USA Home Buyers, we pay all closing costs including the transfer tax. Your proceeds — after the mortgage is paid off if applicable — are yours.',
+      'Yes, but we cover it. According to the Berks County Recorder of Deeds fee schedule and PA Department of Revenue guidance, Reading transfers include local and state transfer tax. When you sell to USA Home Buyers, we pay all closing costs including the transfer tax.',
   },
   {
     question: 'How fast can you close on a fire-damaged house in Reading?',
     answer:
-      'Typically 7-14 days from accepted offer. If there are insurance complications or a mortgage payoff coordination needed, it may take slightly longer — but we move as fast as the title work allows. We\'ve closed fire-damage sales in Reading in as few as 8 days.',
+      'Typically 7-14 days from accepted offer when title is clear. If there are insurance complications or mortgage-payoff coordination issues, timing may take longer — but we move as fast as the title work allows.',
   },
 ];
 
@@ -80,7 +80,7 @@ export default function ReadingFireDamagePage() {
             <p className="text-lg text-blue-100 mb-4">
               Fire damage doesn&apos;t have to mean months of restoration before you can sell. We buy fire-damaged
               homes throughout Reading and Berks County exactly as they are. No restoration required.
-              Written cash offer within 24 hours. We cover all closing costs including Reading&apos;s 5% transfer tax.
+              Written cash offer within 24 hours. Per Berks County and PA Department of Revenue transfer-tax guidance, we cover applicable transfer tax and other closing costs.
             </p>
             <a
               href={`tel:${PHONE}`}
@@ -107,7 +107,7 @@ export default function ReadingFireDamagePage() {
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          <p className="mb-3">If your Reading home has fire damage, you might think it&apos;s unsellable. It&apos;s not. We buy fire-damaged properties across Berks County, as-is, for cash. No insurance claims to finalize, no contractor estimates to get.</p>
+          <p className="mb-3">If your Reading home has fire damage, you might think it&apos;s unsellable. It&apos;s not. We buy fire-damaged properties across Berks County, as-is, for cash. We can review open insurance-claim or contractor-estimate issues with the title company.</p>
           <p>Just a fair offer and a fast close.</p>
         </div>
       </details>
@@ -119,21 +119,20 @@ export default function ReadingFireDamagePage() {
             <h2 className="text-lg font-bold mb-3">TL;DR</h2>
             <ul className="space-y-1 text-sm text-gray-700">
               <li>• We buy <strong>fire-damaged Reading row homes as-is</strong> — no restoration or remediation required before the sale</li>
-              <li>• Reading&apos;s <strong>52% attached row home stock</strong> creates unique shared-wall fire complications traditional buyers can&apos;t finance</li>
-              <li>• Full gut-rehab on a pre-1939 Reading row home commonly runs <strong>$60K–$120K+</strong> — a cash sale avoids all of it</li>
-              <li>• Reading&apos;s <strong>5% transfer tax = $9,250</strong> on a $185K sale — we cover all closing costs</li>
-            
-            <li><Link href="/blog/destroyed-rental-property-case-study" className="text-brand-primary hover:underline">Case Study: He Sold His Destroyed Rental for $50K →</Link></li>
-          </ul>
+              <li>• Reading&apos;s attached row home stock can create shared-wall fire complications traditional buyers may struggle to finance</li>
+              <li>• Fire restoration in an older Reading row home can become expensive and scope-dependent — a cash sale avoids that repair project</li>
+              <li>• Per Berks County and PA Department of Revenue transfer-tax guidance, we cover applicable transfer tax and closing costs</li>
+              <li><Link href="/blog/destroyed-rental-property-case-study" className="text-brand-primary hover:underline">Case Study: He Sold His Destroyed Rental for $50K →</Link></li>
+            </ul>
           </div>
 
           <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-10">
             <h2 className="text-lg font-bold text-brand-dark mb-2">Fire Damage in Reading Row Homes</h2>
             <p className="text-gray-700 text-sm">
-              Reading&apos;s dense brick row homes — 52% of the city&apos;s housing stock is attached — create unique fire risk.
-              When one unit burns, adjacent units are affected through shared walls, the roof, and utility chases.
-              Old wood framing, lead paint, and aging electrical in pre-1939 construction make fires more
-              destructive and remediation more complex. Traditional buyers can&apos;t finance fire-damaged properties.
+              Reading&apos;s dense brick row homes can create unique fire risk.
+              When one unit burns, adjacent units may be affected through shared walls, the roof, and utility chases.
+              Old wood framing, lead paint, and aging electrical in pre-1940 construction can make fires
+              destructive and remediation more complex. Traditional buyers may struggle to finance fire-damaged properties.
               Cash buyers are the practical path forward. According to the{' '}
               <a href="https://www.berkspa.gov/departments/recorder-of-deeds/fee-schedule" target="_blank" rel="noopener noreferrer" className="text-brand-primary underline">Berks County Recorder of Deeds (berkspa.gov)</a>,
               Reading&apos;s 5% transfer tax (4% city + 1% state) applies to all transfers including fire-damaged properties —
@@ -163,19 +162,18 @@ export default function ReadingFireDamagePage() {
           <section className="mb-10">
             <h2 className="text-2xl font-bold text-brand-dark mb-4">Sell vs. Restore: The Calculation in Reading</h2>
             <p className="text-gray-700 mb-4">
-              Fire damage restoration in a pre-1939 Reading row home is not the same as in a newer suburban house.
-              Lead paint abatement requirements kick in during any renovation. Old framing and materials must meet
-              current code when replaced. A partial renovation can trigger a full code compliance review on a
-              building that hasn&apos;t seen a permit since 1962.
+              Fire damage restoration in an older Reading row home is not the same as in a newer suburban house.
+              Lead paint, old framing, and legacy materials can add compliance and permitting issues when repairs are made.
+              A partial renovation may trigger broader code review depending on the permit scope and city requirements.
             </p>
             <p className="text-gray-700 mb-4">
-              A full gut-rehab on a Reading row home after fire damage commonly runs $60,000-$120,000+. If the home&apos;s
-              after-repair value is $185,000-$220,000, the restoration economics are marginal — especially for
+              A full gut-rehab on a Reading row home after fire damage can be expensive and scope-dependent. If the home&apos;s
+              after-repair value is limited, the restoration economics can be marginal — especially for
               an owner who has already experienced a traumatic loss.
             </p>
             <p className="text-gray-700">
               Selling as-is to a cash buyer lets you move on immediately. No contractor coordination, no permit
-              fights with the city, no 6-month construction project. The offer is lower than ARV — that&apos;s the tradeoff.
+              fights with the city, no months-long construction project. The offer is lower than ARV — that&apos;s the tradeoff.
               But you get certainty, speed, and zero out-of-pocket cost.
             </p>
           </section>

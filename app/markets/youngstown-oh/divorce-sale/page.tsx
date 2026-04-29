@@ -14,7 +14,7 @@ const pageUrl = `${SITE_URL}/markets/youngstown-oh/divorce-sale`;
 export const metadata: Metadata = {
   title: 'Divorce Home Sale Youngstown OH',
   description:
-    'Need to sell your Youngstown OH house during divorce? We buy as-is, one offer, one closing. Fast, clean split. Mahoning County Court accepted.',
+    'Need to sell your Youngstown OH house during divorce? We buy as-is, one offer, one closing. Coordinate with your attorneys or Mahoning County court order.',
   alternates: { canonical: pageUrl },
 };
 
@@ -25,15 +25,15 @@ const FAQ_ITEMS = [
   },
   {
     question: 'Can we sell the house before the divorce is finalized?',
-    answer: "Yes, with both spouses' agreement. Both parties must sign the purchase agreement and the deed at closing. Many couples choose to sell before the divorce is finalized to get the financial separation done — the proceeds can be escrowed or split at closing per your attorney's direction.",
+    answer: "Yes, with both spouses' agreement or an applicable court order. Required signatures depend on title, marital rights, and court directives. Many couples choose to sell before the divorce is finalized to get the financial separation done — the proceeds can be escrowed or split at closing per your attorney's direction.",
   },
   {
     question: 'What if one spouse wants to sell and the other doesn\'t?',
-    answer: "If spouses can't agree, either party can petition the Mahoning County domestic relations court to order the sale. The court will typically order a sale if continued joint ownership is impractical and one party is seeking to separate the assets. A cash buyer can close quickly once the court order is in place.",
+    answer: "If spouses can't agree, either party can ask the Mahoning County domestic relations court for orders addressing the property. Whether a sale is ordered depends on the facts and the judge's order. A cash buyer can close quickly once the required authority is in place.",
   },
   {
     question: 'How does a cash sale help with a Youngstown divorce?',
-    answer: "Speed and certainty. A traditional listing in Youngstown takes a median 70 days on market (Redfin, Feb 2026) — during which both spouses are still co-owners, still paying taxes and insurance, still connected to each other through the property. A cash sale closes in 7-14 days, splits the proceeds cleanly, and severs the financial tie. For divorcing couples, that finality is often worth more than a marginally higher listing price.",
+    answer: "Speed and certainty. A traditional listing can take months once showings, inspection negotiations, and buyer financing are included — during which both spouses may still be co-owners, still paying taxes and insurance, and still connected through the property. A cash sale can close in 7-14 days when title is clear and attorneys/court orders allow, creating a clean proceeds split.",
   },
   {
     question: 'Are there tax implications when selling during divorce in Ohio?',
@@ -76,7 +76,7 @@ export default function YoungstownDivorceSalePage() {
             </h1>
             <p className="text-lg text-blue-100 mb-4">
               Divorcing in Mahoning County and need to sell the house fast? We make one cash offer,
-              coordinate with both attorneys, and close in 7-14 days. No open houses, no showings,
+              coordinate with both attorneys, and close in 7-14 days when title and any court approvals are clear. No open houses, no showings,
               no extended timeline while you're still financially tied together.
             </p>
             <a
@@ -97,16 +97,16 @@ export default function YoungstownDivorceSalePage() {
         {/* TL;DR — GEO/AEO Quick Answer */}
         <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-10">
           <h2 className="text-lg font-bold text-brand-dark mb-2">Quick Answer</h2>
-          <p className="text-gray-700 text-sm leading-relaxed">Yes, you can sell a house during or after a divorce in Youngstown, OH. Both spouses must agree to the sale, or a Mahoning County Domestic Relations Court order can compel it. A cash sale is often the fastest way to divide the home and finalize the settlement. USA Home Buyers buys divorce-sale properties in Youngstown as-is, closing in 7–14 days.</p>
+          <p className="text-gray-700 text-sm leading-relaxed">Yes, you can sell a house during or after a divorce in Youngstown, OH when the required owners agree or the court authorizes the sale. A cash sale can be a fast way to divide the home and finalize the settlement. USA Home Buyers buys divorce-sale properties in Youngstown as-is, often closing in 7–14 days when title and approvals are clear.</p>
         </div>
 
 
         <section className="mb-10">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">Why Divorcing Couples Choose a Cash Sale in Youngstown</h2>
           <p className="text-gray-700 mb-4">
-            A traditional listing in Youngstown carries a median 70-day market time — and that's before
-            inspections, repair negotiations, and the buyer's lender approval process. During those months,
-            both spouses remain co-owners, sharing responsibility for taxes, insurance, and maintenance
+            A traditional listing in Youngstown can take months once showings,
+            inspections, repair negotiations, and the buyer's lender approval process are included. During that time,
+            both spouses may remain co-owners, sharing responsibility for taxes, insurance, and maintenance
             on a property neither may want to keep. Arguments about staging, pricing, and showings can
             extend what's already a difficult process.
           </p>
@@ -117,12 +117,10 @@ export default function YoungstownDivorceSalePage() {
             through it — ends on a known date.
           </p>
           <p className="text-gray-700">
-            Divorce cases in Mahoning County are handled in the{' '}
+            According to Mahoning County court resources, divorce cases are handled by the{' '}
             <a href="https://www.mahoningcountyoh.gov/" className="text-brand-primary hover:underline" target="_blank" rel="noopener noreferrer">Mahoning County Court of Common Pleas</a>,
-            Domestic Relations Division, 120 Market Street, Youngstown, OH 44503.
-            Ohio is an equitable distribution state — not community property — meaning courts divide
-            marital assets "fairly" based on circumstances, which often means a 50/50 split of the
-            home sale proceeds unless the judge determines otherwise.
+            Domestic Relations Division. Under Ohio Revised Code Chapter 3105, Ohio is an equitable distribution state — not community property — meaning courts divide
+            marital assets fairly based on circumstances, not automatically 50/50.
           </p>
         </section>
 

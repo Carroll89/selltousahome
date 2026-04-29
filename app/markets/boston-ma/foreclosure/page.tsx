@@ -17,7 +17,7 @@ export const metadata: Metadata = {
 };
 
 const FAQ_ITEMS = [
-  { question: 'How fast can I sell before foreclosure in Boston?', answer: 'We can close in as few as 7 days. Massachusetts non-judicial foreclosure (power of sale under MGL Ch. 244) allows lenders to foreclose without court action. After the 150-day right-to-cure period, the lender publishes sale notice for 3 weeks, then auctions. Overall timing varies by notice, cure, publication, contest, and lender schedule. Call 888-274-5006 immediately.' },
+  { question: 'How fast can I sell before foreclosure in Boston?', answer: 'We can close in as few as 7 days when title is clear. Per Massachusetts General Laws Chapter 244, Massachusetts power-of-sale foreclosure includes statutory notice and sale-publication steps; overall timing varies by notice, cure, publication, contest, and lender schedule. Call 888-274-5006 immediately.' },
   { question: 'What is the foreclosure process in Suffolk County?', answer: 'Massachusetts uses non-judicial foreclosure by power of sale. The lender sends a right-to-cure notice (150 days), then publishes auction notice for 3 consecutive weeks. No court involvement unless the homeowner files to contest. Source: MGL Ch. 244; Massachusetts Trial Court (mass.gov/courts).' },
   { question: 'Will selling stop foreclosure?', answer: 'Yes — a completed sale satisfies the mortgage and ends foreclosure. Proceeds pay the outstanding balance. You keep remaining equity.' },
   { question: 'What if I owe more than the house is worth?', answer: 'A short sale may be possible — the lender agrees to accept less than payoff. We have experience with short sales in Suffolk County and can help you explore options.' },
@@ -35,7 +35,7 @@ export default function BostonForeclosurePage() {
             <h1 className="text-3xl md:text-4xl font-bold text-white mb-4 leading-tight">Stop Foreclosure in Boston MA — Sell Your House Before the Auction</h1>
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
-              <p className="text-white text-sm leading-relaxed">Massachusetts non-judicial foreclosure can move quickly once statutory notices and sale publication are underway — no court required. USA Home Buyers purchases houses from Boston homeowners facing foreclosure. Written cash offer in 24 hours, close in 7-14 days. We cover all closing costs. Call 888-274-5006.</p>
+              <p className="text-white text-sm leading-relaxed">Per Massachusetts General Laws Chapter 244, power-of-sale foreclosure can proceed through statutory notices and sale publication without a court case. USA Home Buyers purchases houses from Boston homeowners facing foreclosure. Written cash offer in 24 hours, close in 7-14 days when title is clear. We cover all closing costs. Call 888-274-5006.</p>
             </div>
             <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">📞 Call Now — 888-274-5006 (24/7)</a>
           </div>
@@ -50,16 +50,16 @@ export default function BostonForeclosurePage() {
             involvement — one of the faster non-judicial processes in the Northeast:
           </p>
           <ol className="list-decimal list-inside text-gray-700 space-y-2 mb-4">
-            <li>Lender sends a right-to-cure notice — you have 150 days to cure the default.</li>
-            <li>If not cured, lender publishes a notice of sale in a local newspaper for 3 consecutive weeks.</li>
+            <li>Under Chapter 244, the lender sends a right-to-cure notice before acceleration or foreclosure.</li>
+            <li>Per Chapter 244's sale-notice provisions, the lender publishes notice before the auction.</li>
             <li>Public auction is held at or near the property.</li>
             <li>If no bidder meets the minimum, the lender takes title.</li>
           </ol>
           <p className="text-gray-700 mb-4">
-            Massachusetts foreclosure timing varies by notice, cure, publication, contest, and lender schedule. MGL Chapter 244
-            governs the power-of-sale process, including right-to-cure and sale-notice requirements; many cases run several
-            months before auction. A direct cash sale before the auction preserves your equity and prevents a foreclosure
-            record from remaining on your credit for seven years.
+            Massachusetts foreclosure timing varies by notice, cure, publication, contest, and lender schedule. According to MGL Chapter 244,
+            the power-of-sale process includes right-to-cure and sale-notice requirements; many cases run several
+            months before auction. A completed direct sale before the auction can pay off the mortgage, preserve remaining equity,
+            and avoid a completed foreclosure sale record.
           </p>
         </section>
         <FAQSection items={FAQ_ITEMS} heading="FAQs — Foreclosure in Boston MA" />

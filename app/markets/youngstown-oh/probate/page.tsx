@@ -21,19 +21,19 @@ export const metadata: Metadata = {
 const FAQ_ITEMS = [
   {
     question: 'What is the Ohio probate process for selling real estate?',
-    answer: "In Ohio, when someone dies owning real property, the estate must go through Mahoning County Probate Court before that property can be transferred or sold. The court appoints a personal representative (executor if named in a will, administrator if not) who is authorized to sign deeds on behalf of the estate. Full probate is typically required in Ohio for estates over $35,000 in gross assets. The personal representative files an inventory, notifies creditors, pays estate debts, and then can petition the court for authority to sell real property. Source: Mahoning County Probate Court (mahoningcountyoh.gov/962).",
+    answer: "In Ohio, real property transfer after death depends on title, the will, and probate-court authority. Mahoning County Probate Court resources explain that the court may appoint a fiduciary for estate administration. The fiduciary may need to file inventory materials, address creditors, and obtain authority before selling estate real property. Source: Mahoning County Probate Court (mahoningcountyoh.gov/962).",
   },
   {
     question: 'Can I accept a cash offer on a Youngstown probate house?',
-    answer: "Yes. The personal representative can negotiate and sign a purchase agreement once appointed by the court. Closing typically requires either court approval of the sale or completion of the probate process — we structure our offers around your timeline and work with your probate attorney to coordinate.",
+    answer: "Yes, once the person signing has the necessary authority. Closing may require court approval, title-company clearance, or completion of probate steps — we structure our offers around your timeline and work with your probate attorney to coordinate.",
   },
   {
     question: 'How long does Ohio probate take?',
-    answer: "Ohio probate typically runs 6-12 months for a standard estate, though complex cases or disputes can take longer. Mahoning County Probate Court processes cases at 120 Market Street, Youngstown, OH 44503. We can often lock in a cash offer early in the process and close as soon as the court authorizes the sale.",
+    answer: "Ohio probate timing varies by estate, creditor issues, filings, and disputes. According to Mahoning County Probate Court resources, the court is located at 120 Market Street, Youngstown, OH 44503. We can often lock in a cash offer early in the process and close as soon as the court authorizes the sale.",
   },
   {
     question: 'Do I need a probate attorney to sell a house in Mahoning County?',
-    answer: "Ohio law doesn't require an attorney for probate, but it strongly recommends one given the complexity of the process — inventory filing, creditor notification, court petitions, deed preparation. The Mahoning County Probate Court clerk can provide procedural information but cannot give legal advice. Legal Aid Society of Mid-Ohio serves eligible residents at (330) 783-3110.",
+    answer: "Ohio probate can involve inventory filing, creditor notification, court petitions, and deed preparation. Mahoning County Probate Court can provide procedural information but not legal advice, so many estates use a probate attorney. Legal Aid Society of Mid-Ohio serves eligible residents at (330) 783-3110.",
   },
   {
     question: 'What if the probate house has code violations or is in bad condition?',
@@ -119,10 +119,7 @@ export default function YoungstownProbatePage() {
             estate administration, guardianships, and related matters in this county.
           </p>
           <p className="text-gray-700">
-            The Ohio Revised Code governs estate administration under Title 21 (Courts — Probate).
-            The personal representative must file an inventory within three months, notify known creditors,
-            and satisfy estate debts before distributing assets or selling real property. Real estate sales
-            require either authorization in the will or a court order.
+            According to Ohio Revised Code Title 21 and Mahoning County Probate Court resources, estate administration can involve inventory filing, creditor notice, and court authority before assets are distributed. Real estate sale authority depends on the will, deed/title posture, and any required court order.
           </p>
         </section>
 

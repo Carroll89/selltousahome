@@ -21,23 +21,23 @@ export const metadata: Metadata = {
 const FAQ_ITEMS = [
   {
     question: 'Can I sell a Youngstown house with code violations?',
-    answer: "Yes. We buy properties with open code violations, unpaid violation fines, demolition orders, and condemned status. Youngstown's City Inspections Division (youngstownohio.gov) is aggressive about citing pre-1950 properties that fall below minimum habitability standards — lead paint, structural issues, exterior deterioration, open foundations. These violations don't prevent a sale to a cash buyer. We factor the violation status into our offer and handle remediation or demolition after closing.",
+    answer: "Yes. We buy properties with open code violations, unpaid violation fines, demolition orders, and condemned status. According to the City of Youngstown's code-enforcement resources, the city inspects and cites properties that fall below code. We factor the violation status into our offer and handle remediation or demolition after closing.",
   },
   {
     question: 'What types of code violations are common in Youngstown OH?',
-    answer: "Youngstown's pre-1950 housing stock generates predictable violation categories: exterior deterioration (siding, roofing, foundation), structural compromise (porch collapse, sagging floors), electrical and plumbing (ungrounded wiring, unpermitted work), lead paint (universal in pre-1978 city housing), and delinquent property maintenance. Some North and South Side properties have received demolition orders from the city. We buy in all these conditions.",
+    answer: "Youngstown's older housing stock can generate predictable violation categories: exterior deterioration, structural compromise, electrical and plumbing issues, vacant-property registration issues, and illegal dumping. We buy in all these conditions.",
   },
   {
     question: 'Will I owe money for the violations at closing?',
-    answer: "Unpaid code violation fines become liens on the property in Ohio and must be satisfied at or before closing. The title company will identify all outstanding liens during the title search. We account for known violations and liens in our offer — you won't be surprised at the closing table.",
+    answer: "Unpaid code violation fines may become liens or title exceptions that need to be addressed at or before closing. The title company will identify recorded liens during the title search. We account for known violations and liens in our offer.",
   },
   {
     question: 'What is the Youngstown city code enforcement process?',
-    answer: "The City of Youngstown's Inspections Division (youngstownohio.gov) inspects properties and issues violation notices. Owners have a specified time to comply before fines accrue. Serious structural or safety violations can result in a demolition order, after which the city may demolish and assess the cost against the property. The Mahoning County Land Bank (youngstownlandbank.com) acquires many such properties when taxes and fines exceed the property value. Selling to us before that point preserves your equity.",
+    answer: "According to the City of Youngstown's Inspections Division resources, the city inspects properties and issues violation notices. Owners may receive a compliance period before fines accrue; serious structural or safety violations can result in condemnation or demolition orders.",
   },
   {
     question: 'Can I sell a condemned property in Youngstown?',
-    answer: "Yes. A condemnation order makes the property uninhabitable under city code but does not prevent a sale. We've purchased condemned properties throughout our service area. The transaction proceeds normally — the buyer (us) takes responsibility for addressing the condemnation after closing.",
+    answer: "Per local code-enforcement practice, a condemnation order generally means the property cannot be occupied until safety issues are corrected; it does not by itself prevent a sale. We've purchased condemned properties throughout our service area and take responsibility for remediation after closing.",
   },
 ];
 
@@ -103,20 +103,18 @@ export default function YoungstownCodeViolationsPage() {
         <section className="mb-10">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">Code Violations in Youngstown — A Market-Specific Reality</h2>
           <p className="text-gray-700 mb-4">
-            Youngstown has one of the highest rates of code-cited and condemned residential properties
-            of any city in Ohio. The pre-1950 housing stock — built for steelworkers who long since
-            left — deteriorates faster than the limited local renovation capacity can address.
+            Youngstown has a visible inventory of code-cited and vacant residential properties. Older housing stock
+            can deteriorate faster than limited local renovation capacity can address.
             According to the{' '}
             <a href="https://www.youngstownohio.gov" className="text-brand-primary hover:underline" target="_blank" rel="noopener noreferrer">City of Youngstown</a>,
-            thousands of properties have active violations at any given time.
+            the city maintains code-enforcement and property-maintenance programs for violation and nuisance-property issues.
           </p>
           <p className="text-gray-700 mb-4">
             The Mahoning County Land Bank (
             <a href="https://www.youngstownlandbank.com" className="text-brand-primary hover:underline" target="_blank" rel="noopener noreferrer">youngstownlandbank.com</a>
-            ) exists specifically to absorb these distressed properties after taxes and fines
-            accumulate beyond recovery. Once a property enters the land bank process, the owner
-            loses any remaining equity. Selling to a cash buyer before that point — even with
-            open violations — almost always yields a better outcome.
+            ) works with vacant and distressed properties in the county. If taxes, fines, or title problems
+            keep accumulating, owner options can narrow. Selling to a cash buyer before that point — even with
+            open violations — can preserve more flexibility.
           </p>
         </section>
 

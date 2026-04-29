@@ -25,11 +25,11 @@ const FAQ_ITEMS = [
   },
   {
     question: 'What if my insurance company already issued a settlement for the fire damage?',
-    answer: "A fire insurance settlement complicates the title picture — the settlement proceeds may need to be factored into the sale, particularly if there's a mortgage. We work through these situations with title companies and mortgage servicers. Call us to discuss your specific circumstances; these are solvable but require coordination.",
+    answer: "Per your insurance policy and mortgage documents, a fire settlement may need to be reviewed with your insurer, title company, and mortgage servicer. We work through these situations with title companies and mortgage servicers regularly.",
   },
   {
     question: 'Do I need to disclose fire damage when selling in Delaware?',
-    answer: "Delaware Code Title 6, §2572 requires sellers to complete a Seller's Disclosure of Real Property Condition form when selling to retail buyers. Known fire damage is a material fact that must be disclosed. However, in a cash as-is sale to an investor like USA Home Buyers, sellers typically execute a waiver acknowledging the as-is condition, and full disclosure is built into the purchase agreement structure.",
+    answer: "Per Delaware Code Title 6, §2572, sellers must complete a Seller's Disclosure of Real Property Condition form for covered residential sales. Known fire damage should be addressed in the sale paperwork; in a cash as-is sale to an investor, the purchase agreement acknowledges the condition and we waive repair demands.",
   },
   {
     question: 'What about smoke damage — do you buy smoke-only damage?',
@@ -37,7 +37,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How quickly can you close on a fire-damaged Wilmington property?',
-    answer: "We close in 7-14 days on fire-damaged properties, subject to clear title. If insurance claims are open or there are outstanding liens related to the damage, timeline may vary. We work through title complexities efficiently — call us to get a written offer and timeline specific to your property.",
+    answer: "We close in 7-14 days on fire-damaged properties when title is clear. If insurance claims are open or there are outstanding liens related to the damage, timeline may vary. We work through title complexities efficiently — call us to get a written offer and timeline specific to your property.",
   },
 ];
 
@@ -99,13 +99,12 @@ export default function WilmingtonFireDamagePage() {
           <p className="text-gray-700 mb-4">
             Wilmington's attached row homes create specific fire risk patterns. When one unit in a row burns,
             smoke, water (from firefighting), and structural damage can spread to neighboring units through
-            shared party walls, attic spaces, and basement connections. The City of Wilmington Fire Department
-            responds to residential fires throughout Southbridge, West Center City, and Brandywine Village regularly.
+            shared party walls, attic spaces, and basement connections. For incident-specific facts, use the City of Wilmington Fire Department report for the property.
           </p>
           <p className="text-gray-700 mb-4">
             Owners of fire-damaged row homes face compounding challenges: the property may be uninhabitable,
             the insurance claim may not cover full restoration, contractors may be unavailable or expensive,
-            and the City's code enforcement may issue condemnation notices on severely damaged structures.
+            and the City's code enforcement may issue notices on severely damaged structures.
           </p>
           <p className="text-gray-700 mb-4">
             We've purchased fire-damaged properties at every severity level — from kitchen fires with cosmetic
@@ -117,9 +116,8 @@ export default function WilmingtonFireDamagePage() {
             <h3 className="font-bold text-brand-dark mb-2">Delaware Disclosure Note</h3>
             <p className="text-gray-700 text-sm">
               Per Delaware Code Title 6, §2572, sellers must complete a Seller's Disclosure of Real Property
-              Condition form for retail sales. In an as-is cash sale to an investor, the purchase agreement
-              explicitly acknowledges the property's damaged condition — no retail-style disclosure form is
-              required. Our title company handles all required documentation.
+              Condition form for covered residential sales. In an as-is cash sale to an investor, the purchase agreement
+              explicitly acknowledges the property's damaged condition, and our title company handles the required documentation.
             </p>
           </div>
         </section>

@@ -25,19 +25,19 @@ const FAQ_ITEMS = [
   },
   {
     question: 'What happens with my homeowner\'s insurance claim?',
-    answer: "You can sell a fire-damaged property before, during, or after an insurance claim. If you've already received an insurance payout for the damage, you keep that money — it's separate from the sale proceeds. If a claim is pending, we can structure the closing around the claim timeline. Consult your insurance adjuster and attorney about the specifics of your situation.",
+    answer: "Per your insurance policy, lender, and title requirements, proceeds handling can vary if you sell before, during, or after a claim. If a claim is pending, we coordinate with the insurer, lender, and title company so the sale doesn't derail the claim.",
   },
   {
     question: 'Will the city condemn my Youngstown house after a fire?',
-    answer: "Significant structural fire damage often triggers a condemnation order from the City of Youngstown's Inspections Division. A condemn notice makes the property uninhabitable but doesn't prevent a sale. We buy condemned, fire-damaged properties. The condemnation transfers with the property and becomes the buyer's responsibility after closing.",
+    answer: "Significant structural fire damage may trigger a condemnation order from the City of Youngstown's Inspections Division. A condemnation notice generally makes the property uninhabitable until corrected, but doesn't by itself prevent a sale. We buy condemned, fire-damaged properties and handle remediation.",
   },
   {
     question: 'Do I need to disclose fire damage when selling in Ohio?',
-    answer: "Yes. Ohio's Residential Property Disclosure Form (ORC § 5302.30) requires sellers to disclose known material defects, including fire and smoke damage. When selling to us, the disclosure process is straightforward — we assess the damage directly during our walkthrough and factor it into our offer. No surprises at closing.",
+    answer: "Yes. Under Ohio Revised Code § 5302.30, covered residential transfers require a property disclosure form. Known fire and smoke damage should be addressed in the sale paperwork; when selling to us, we assess the damage directly.",
   },
   {
     question: 'How quickly can you close on a fire-damaged Youngstown property?',
-    answer: "Typically 7-14 days from accepted offer, assuming clear title. Fire-damaged properties may have insurance liens or outstanding claims that need coordination — we handle that as part of the process. Call us and we'll assess the specific situation.",
+    answer: "Typically 7-14 days from accepted offer when title is clear. Fire-damaged properties may have insurance issues, payoff coordination, or outstanding claims that need coordination — we handle that as part of the process.",
   },
 ];
 
@@ -104,20 +104,17 @@ export default function YoungstownFireDamagePage() {
         <section className="mb-10">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">Fire Damage in Youngstown — What You're Dealing With</h2>
           <p className="text-gray-700 mb-4">
-            Fire damage in Youngstown often compounds existing structural issues. The pre-1950 wood-frame
-            housing stock — knob-and-tube wiring, old insulation, balloon-frame construction — is
-            particularly vulnerable to electrical fires and fast spread. When a fire hits a property
-            that's already dealing with deferred maintenance and aging systems, the remediation math
-            rarely works out.
+            Fire damage in Youngstown often compounds existing structural issues. Older wood-frame
+            housing stock, aging wiring, old insulation, and balloon-frame construction can make remediation more complex. When a fire hits a property
+            that's already dealing with deferred maintenance and aging systems, the restoration math
+            may not work out.
           </p>
           <p className="text-gray-700 mb-4">
-            The typical path: structure fire → insurance claim → condemnation order from the City of
-            Youngstown → adjuster assessment → owner left trying to figure out what to do with a
-            condemned property worth less than the remediation cost. We buy at every point in that
+            A common path is: structure fire → insurance claim → possible city notice or condemnation review → adjuster assessment → owner deciding whether to restore or sell as-is. We buy at every point in that
             process. If you have a fire-damaged property in Youngstown and need to move on, call us.
           </p>
           <p className="text-gray-700">
-            Ohio law requires disclosure of fire damage under the{' '}
+            Under Ohio Revised Code § 5302.30, covered residential transfers require seller disclosure using the{' '}
             <a href="https://codes.ohio.gov/ohio-revised-code/section-5302.30" className="text-brand-primary hover:underline" target="_blank" rel="noopener noreferrer">Ohio Residential Property Disclosure Form (ORC § 5302.30)</a>.
             When selling to a cash buyer like us, disclosure is straightforward — we see the property directly.
           </p>

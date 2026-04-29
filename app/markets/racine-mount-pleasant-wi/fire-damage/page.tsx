@@ -21,23 +21,23 @@ export const metadata: Metadata = {
 const FAQ_ITEMS = [
   {
     question: 'Can I sell a fire-damaged house in Racine WI?',
-    answer: 'Yes. We buy fire-damaged, smoke-damaged, and partial-loss properties throughout Racine County. Conventional and FHA lenders will not finance a house with active fire damage, which shrinks the retail buyer pool to near zero — which is why fire-damaged properties usually trade cash-only at meaningful discounts to undamaged comps. A direct cash sale to a professional rehabber is typically the fastest path to cash out and move on.',
+    answer: 'Yes. We buy fire-damaged, smoke-damaged, and partial-loss properties throughout Racine County. Active fire damage often creates habitability and appraisal issues for conventional or FHA financing, which is why cash buyers are often the practical path. A direct cash sale to a professional rehabber is typically the fastest path to cash out and move on.',
   },
   {
     question: 'Should I rebuild or sell the Racine fire-damaged house?',
-    answer: 'It depends on your insurance proceeds, the extent of damage, and your timeline. Wisconsin is a replacement-cost-insurance state for most homeowner policies — your insurance company typically pays actual cash value first, then the remainder when you rebuild. If you take the cash and don\'t rebuild, you may forfeit the recoverable depreciation portion. Quick math: compare (a) net insurance proceeds if you walk away + our cash offer for the land/structure as-is, versus (b) full insurance rebuild + 6-12 months of displacement + the carrying costs and sweat equity of managing a rebuild. For many Racine owners — particularly out-of-state heirs, elderly owners, or those with time constraints — option (a) wins even though option (b) may look larger on paper.',
+    answer: 'It depends on your insurance proceeds, policy terms, lender requirements, damage extent, and timeline. Wisconsin fire claims are governed by the policy and regulated by the Wisconsin Office of the Commissioner of Insurance; many replacement-cost policies pay actual cash value first and release withheld depreciation after covered repairs are completed. Compare the net insurance position plus our cash offer against the cost, time, and risk of managing a rebuild.',
   },
   {
     question: 'What is the Wisconsin fire insurance claim process?',
-    answer: 'Wisconsin fire insurance claims are governed by your policy and regulated by the Wisconsin Office of the Commissioner of Insurance (OCI). The typical sequence: (1) call the fire department (Racine Fire Department emergency: 911; non-emergency (262) 635-7920); (2) notify your insurer within the policy-required window (often 24-72 hours); (3) secure the property (board-up, tarp); (4) meet the insurance adjuster on-site; (5) receive actual cash value advance; (6) submit proof of loss; (7) negotiate the scope and final settlement. Wisconsin\'s standard fire policy (modeled on the National Fire Protection Association language required by Wis. Stat. § 631.46) pays the insured value at a minimum in the event of total loss — not the policy limit, but the actual value — under the "valued policy" principles in Wis. Stat. § 632.05. Retain all receipts.',
+    answer: 'Wisconsin fire insurance claims are governed by your policy and regulated by the Wisconsin Office of the Commissioner of Insurance (OCI). A common sequence is: call the fire department, notify your insurer promptly, secure the property, document damage, schedule the adjuster inspection, then decide whether to rebuild or sell after reviewing the coverage position. Retain receipts and written claim communications.',
   },
   {
     question: 'Can I sell before the Racine insurance claim is settled?',
-    answer: 'Yes. We buy fire-damaged properties with open insurance claims. The property sells as-is; you retain the insurance proceeds from any completed claim payments as your own funds — they are not transferred to the buyer at closing. Future claim payments can generally still be made to you after the sale if the fire occurred before the sale and the claim was filed timely. Consult your insurance agent and a Wisconsin attorney for specifics on your policy.',
+    answer: 'Yes. We buy fire-damaged properties with open insurance claims. The property sells as-is, but insurance proceeds may be affected by your policy, mortgage, and lender requirements. We coordinate with the insurer, lender, and title company so the claim status is handled before closing. Consult your insurance agent and a Wisconsin attorney for specifics on your policy.',
   },
   {
     question: 'What about mortgage acceleration after a Racine fire?',
-    answer: 'Most Wisconsin mortgages contain a "hazard insurance proceeds" clause giving the lender first claim on insurance payouts to either pay down the loan or fund repairs. If the damage is substantial, some lenders elect to apply proceeds to the loan balance and then call the loan due. That doesn\'t prevent a sale — it just means the closing will pay off the mortgage first. If the insurance proceeds plus our cash offer cover the mortgage, you walk away clean. If not, a short-sale negotiation with the lender is possible; we\'ve coordinated those in Racine County.',
+    answer: 'Many mortgages include hazard-insurance-proceeds language that affects how claim payments are used after a major loss. Depending on the policy and loan documents, proceeds may need to fund repairs or reduce the loan balance. That coordination does not automatically prevent a sale, but title and payoff details need to be reviewed before closing.',
   },
   {
     question: 'Do you buy partial fire-damage in Racine — kitchen fires, electrical fires?',
@@ -45,7 +45,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'What\'s the Racine housing-stock factor in fire-damage pricing?',
-    answer: 'Much of Racine\'s older housing — the Northside cream brick cottages, Southside Victorians, turn-of-the-century two-family flats — was built with balloon framing, plaster-on-lath, and original knob-and-tube wiring. Fire in these structures often creates full-envelope damage in ways a modern platform-framed house doesn\'t, because flames race up the un-fire-blocked wall cavities. This means the typical Racine fire loss leans heavier toward tear-down/rebuild economics than a comparable fire in a newer Mount Pleasant split-level. Our pricing accounts for balloon-frame rehab economics specifically.',
+    answer: 'Much of Racine\'s older housing can include plaster-on-lath, older wiring, and legacy framing conditions that make fire remediation more complex than in newer construction. Our pricing accounts for those rehab risks after we inspect the property.',
   },
 ];
 
@@ -84,10 +84,10 @@ export default function RacineFireDamagePage() {
             </h1>
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
-              <p className="text-white text-sm leading-relaxed">USA Home Buyers purchases fire-damaged, smoke-damaged, and partial-loss Racine properties regardless of insurance-claim status. We close as-is at a Racine title company, you keep your insurance proceeds, and the rebuild risk transfers to us. Written offer in 24 hours. Call 888-274-5006.</p>
+              <p className="text-white text-sm leading-relaxed">USA Home Buyers purchases fire-damaged, smoke-damaged, and partial-loss Racine properties regardless of insurance-claim status. We close as-is at a Racine title company, coordinate any policy/lender/title issues, and take on the rebuild risk after closing. Written offer in 24 hours. Call 888-274-5006.</p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
-              Partial loss, total loss, smoke-only damage — we buy all of it. Written cash offer in 24 hours. Close in 7–14 days.
+              Partial loss, total loss, smoke-only damage — we buy all of it. Written cash offer in 24 hours. Close in 7–14 days when title is clear.
             </p>
             <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">
               📞 Call Now — 888-274-5006 (24/7)
@@ -103,7 +103,7 @@ export default function RacineFireDamagePage() {
         <section className="my-8">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">Rebuild vs. Sell — The Racine Math</h2>
           <p className="text-gray-700 mb-4">
-            After a fire, every Racine homeowner faces the same decision: take the insurance money and rebuild, or take the money and sell the land/structure as-is. The right answer depends on four variables: (1) the actual cash value of insurance proceeds you\'re eligible to receive, (2) the full-scope rebuild cost, (3) your time horizon and willingness to manage a 6-12 month displacement, and (4) the post-rebuild resale value in your specific Racine neighborhood.
+            After a fire, every Racine homeowner faces the same decision: take the insurance money and rebuild, or take the money and sell the land/structure as-is. The right answer depends on four variables: (1) the actual cash value of insurance proceeds you\'re eligible to receive, (2) the full-scope rebuild cost, (3) your time horizon and willingness to manage a months-long displacement, and (4) the post-rebuild resale value in your specific Racine neighborhood.
           </p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border-collapse">
@@ -115,10 +115,10 @@ export default function RacineFireDamagePage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200">
-                <tr className="bg-white"><td className="p-3 font-medium">Timeline to resolution</td><td className="p-3">6-14 months</td><td className="p-3">7-14 days to closing</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Timeline to resolution</td><td className="p-3">Often months, depending on claim scope and contractor schedule</td><td className="p-3">7-14 days to closing when title is clear</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Upfront capital needed</td><td className="p-3">Deductible + often out-of-pocket overage on scope</td><td className="p-3">$0 — we bring the cash</td></tr>
-                <tr className="bg-white"><td className="p-3 font-medium">Insurance proceeds</td><td className="p-3">Paid over rebuild in draws</td><td className="p-3">Retained by seller; not transferred to buyer</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">Displacement (ALE)</td><td className="p-3">6-14 months of rental / hotel</td><td className="p-3">None — you\'ve already left</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Insurance proceeds</td><td className="p-3">Handled under the policy and any lender requirements</td><td className="p-3">Coordinated with insurer, lender, and title company</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Displacement (ALE)</td><td className="p-3">Policy-limited rental / hotel coverage while repairs proceed</td><td className="p-3">No rebuild-related displacement after closing</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Risk of cost overrun</td><td className="p-3">High — rebuilding on older Racine housing often surfaces surprise issues (knob-and-tube, asbestos, lead)</td><td className="p-3">Zero — we absorb it</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Energy required</td><td className="p-3">Full-time project management</td><td className="p-3">One closing signature</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">End state</td><td className="p-3">Rebuilt home, same address</td><td className="p-3">Cash in hand, moved on</td></tr>
@@ -126,7 +126,7 @@ export default function RacineFireDamagePage() {
             </table>
           </div>
           <p className="text-sm text-gray-600 italic">
-            For out-of-state heirs, elderly owners, or owners with any significant life event in progress (divorce, job relocation, health issue), the sell-as-is math almost always wins even when the rebuild-plus-resell number looks bigger on paper — because the rebuild path compounds stress, time, and risk.
+            For out-of-state heirs, elderly owners, or owners with any significant life event in progress (divorce, job relocation, health issue), the sell-as-is option may be worth comparing even when the rebuild-plus-resell number looks bigger on paper — because the rebuild path compounds stress, time, and risk.
           </p>
         </section>
 
@@ -134,25 +134,25 @@ export default function RacineFireDamagePage() {
           <h2 className="text-2xl font-bold text-brand-dark mb-4">Wisconsin Fire Insurance Claim Process — What to Expect</h2>
           <ol className="list-decimal list-inside space-y-3 text-gray-700">
             <li><strong>Fire department response.</strong> The Racine Fire Department documents cause and origin; request a copy of the fire report. Emergency: 911. Non-emergency / report requests: (262) 635-7920.</li>
-            <li><strong>Notice to insurer.</strong> Most Wisconsin policies require prompt notice of loss — commonly 24-72 hours. Report the claim by phone and follow up in writing.</li>
-            <li><strong>Emergency mitigation.</strong> Board-up, tarp roof, and utility shutoff. These costs are typically reimbursable under the policy.</li>
+            <li><strong>Notice to insurer.</strong> Per OCI consumer guidance and policy conditions, report the loss promptly by phone and follow up in writing.</li>
+            <li><strong>Emergency mitigation.</strong> Board-up, tarp roof, and utility shutoff. Reimbursement depends on your policy and insurer approval.</li>
             <li><strong>Adjuster visit and scope.</strong> Your insurer\'s adjuster inspects. You may want your own public adjuster for substantial losses — Wisconsin licenses public adjusters under Wis. Stat. § 628.</li>
             <li><strong>Actual cash value (ACV) advance.</strong> Most policies pay ACV first — the depreciated value — with replacement-cost withheld until rebuild.</li>
-            <li><strong>Proof of loss.</strong> Typically 60 days to submit a sworn proof of loss (Wis. Stat. § 631.83 regulates timing). Keep all receipts.</li>
-            <li><strong>Settlement or dispute.</strong> Wisconsin allows appraisal clauses, mediation, and litigation for disputed claims. Your insurer must act in good faith under Wis. Stat. § 628.46 (interest on overdue payments) and bad-faith common law.</li>
+            <li><strong>Proof of loss.</strong> Submit any sworn proof of loss by the deadline stated in your policy or insurer request; keep all receipts and written communications.</li>
+            <li><strong>Settlement or dispute.</strong> Policy appraisal clauses, regulator complaints, or legal review may be options for disputed claims; review the policy and Wisconsin OCI guidance before deciding.</li>
           </ol>
         </section>
 
         <section className="my-8">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">Racine Housing Stock — Why Fire Loss Hits Harder</h2>
           <p className="text-gray-700 mb-4">
-            Roughly 45% of the City of Racine\'s housing stock was built before 1939 (U.S. Census ACS). Balloon-frame construction, plaster-on-lath interiors, and original knob-and-tube wiring are the norm in the Northside and Southside Historic Districts. Balloon framing lets fire race up un-fire-blocked wall cavities to the attic, which is why Racine fire losses in pre-1940 houses often extend far beyond the visible damage at the origin point. A kitchen fire in a 1910 cream brick cottage frequently becomes a full-envelope total-loss claim after the adjuster cuts into the walls and finds charred studs two stories up.
+            Public housing-stock datasets show many Racine homes are older structures. Older construction can include plaster-on-lath interiors, older wiring, and other materials that make fire remediation more complex.
           </p>
           <p className="text-gray-700 mb-4">
-            That housing-stock reality shapes insurance settlements and rebuild economics specifically in Racine. When insurers underestimate the scope at initial adjustment, the homeowner bears the gap during rebuild — or gets stuck in a year-long fight with the carrier. Selling as-is transfers that scope risk to us. We\'ve rebuilt Racine balloon-frame properties before and have budgeted for the realities of the housing stock.
+            That housing-stock reality can shape insurance settlements and rebuild economics. When an initial adjustment does not capture the full scope, the homeowner may face a gap during rebuild or a longer claim dispute. Selling as-is transfers that scope risk to us. We have rebuilt Racine properties before and budget for the realities of older housing stock.
           </p>
           <p className="text-gray-700 mb-4">
-            Transfer fee: Wisconsin realty transfer fee — $3.00 per $1,000 of consideration, paid by seller (Wis. Stat. § 77.22). We cover it. Source: Wisconsin Department of Revenue (revenue.wi.gov); Wisconsin Office of the Commissioner of Insurance (oci.wi.gov).
+            According to the Wisconsin Department of Revenue, Wisconsin's real estate transfer fee is $3.00 per $1,000 of consideration under Wis. Stat. § 77.22. We cover it. Insurance-claim questions should be reviewed against your policy and Wisconsin OCI guidance.
           </p>
         </section>
 

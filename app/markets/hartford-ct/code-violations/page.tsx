@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 const FAQ_ITEMS = [
   {
     question: 'Can I sell a house with code violations in Hartford CT?',
-    answer: 'Yes. We buy houses with open code violations from the City of Hartford Department of Development Services. Blight citations, structural issues, lead paint orders, fire code violations — we purchase as-is and handle compliance after closing.',
+    answer: 'Yes. We buy houses with open code violations from the City of Hartford Department of Development Services. Per city code-enforcement practice, blight citations, structural issues, lead paint orders, and fire code violations usually need compliance work or payoff handling; we purchase as-is and handle that after closing.',
   },
   {
     question: 'What are the most common violations in Hartford?',
@@ -58,7 +58,7 @@ export default function HartfordCodeViolationsPage() {
             </h1>
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
-              <p className="text-white text-sm leading-relaxed">Open code violations from the City of Hartford? USA Home Buyers purchases properties with violations for cash — blight, lead paint, structural, fire code. No repairs, no remediation before selling. Written offer in 24 hours. Close in 7-14 days. Call 888-274-5006.</p>
+              <p className="text-white text-sm leading-relaxed">Open code violations from the City of Hartford? USA Home Buyers purchases properties with violations for cash — blight, lead paint, structural, fire code. Per city code-enforcement practice, repairs or lien payoffs may be handled through closing; no remediation is required before selling to us. Written offer in 24 hours. Close in 7-14 days when title is clear. Call 888-274-5006.</p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
               Code violations don't stop us. We buy as-is, close fast, handle compliance after.
@@ -77,10 +77,10 @@ export default function HartfordCodeViolationsPage() {
         <section className="my-8">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">Code Violations in Hartford CT — What Homeowners Face</h2>
           <p className="text-gray-700 mb-4">
-            Hartford's housing stock is old — most of the city was built before 1940. That means lead paint in nearly every pre-1978 home, knob-and-tube wiring in many pre-1930 buildings, aging boilers, and multi-family structures that have been through decades of deferred maintenance. The City of Hartford Department of Development Services actively enforces housing and blight codes, and violations can escalate quickly.
+            Hartford's housing stock includes many older homes built before modern lead-paint and building-code standards. That can mean lead paint, older wiring, aging boilers, and multi-family structures that have been through decades of deferred maintenance. The City of Hartford Department of Development Services enforces housing and blight codes, and violations can escalate.
           </p>
           <p className="text-gray-700 mb-4">
-            Connecticut has some of the strictest lead paint laws in the country. Under CGS §47a-54f, landlords must provide lead-free certificates for units occupied by children under six. Lead abatement on a Hartford triple-decker can cost $15,000-$30,000 per unit. For many owners, that number is the breaking point.
+            According to CGS §47a-54f, Connecticut law sets lead-safety obligations for certain rental units occupied by children under six. Lead abatement on a Hartford triple-decker can be expensive and scope-dependent, so we treat open lead orders as a closing and remediation issue rather than requiring you to finish the work first.
           </p>
           <p className="text-gray-700">
             We buy properties with any type of code violation — and we handle compliance after closing. No remediation required from you. No fines to settle first (those are addressed at closing). No city inspections to pass before the sale.

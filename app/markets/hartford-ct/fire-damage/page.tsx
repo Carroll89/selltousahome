@@ -21,11 +21,11 @@ export const metadata: Metadata = {
 const FAQ_ITEMS = [
   {
     question: 'Can I sell a fire-damaged house in Hartford CT?',
-    answer: 'Yes. We buy fire-damaged houses in any condition — partial damage, total loss, smoke damage only. The Hartford Fire Department will issue a fire incident report, and your insurance company will make their assessment. Whether you settle with insurance or not, we can purchase the property as-is.',
+    answer: 'Yes. We buy fire-damaged houses in any condition — partial damage, total loss, smoke damage only. Per Connecticut insurance practice, claim steps vary by policy; we review the property and any available fire report or claim documents before making a cash offer.',
   },
   {
     question: 'What if insurance doesn\'t cover the full cost of repairs?',
-    answer: 'Insurance shortfalls are one of the most common reasons Hartford homeowners sell fire-damaged properties. If your insurer offers $30,000 and the contractor quotes $55,000, the gap makes restoration uneconomical. We buy the property as-is — you keep whatever insurance proceeds you receive, plus our purchase price.',
+    answer: 'Insurance shortfalls are one reason Hartford homeowners sell fire-damaged properties. If the insurer\'s scope is lower than contractor estimates, the gap can make restoration uneconomical. Your policy and lender may affect how proceeds are handled, but we buy the property as-is so you don\'t have to fund the difference.',
   },
   {
     question: 'Do I need to clean up before selling?',
@@ -58,7 +58,7 @@ export default function HartfordFireDamagePage() {
             </h1>
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
-              <p className="text-white text-sm leading-relaxed">Fire or smoke damage to your Hartford home? USA Home Buyers purchases fire-damaged properties for cash, as-is. No cleanup, no restoration, no insurance settlement required first. Written offer in 24 hours. Close in 7-14 days. Call 888-274-5006.</p>
+              <p className="text-white text-sm leading-relaxed">Fire or smoke damage to your Hartford home? USA Home Buyers purchases fire-damaged properties for cash, as-is. No cleanup or restoration required before selling, and we can review open insurance-claim situations with the title company. Written offer in 24 hours. Close in 7-14 days when title is clear. Call 888-274-5006.</p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
               Fire damage doesn't stop us. We buy as-is — no cleanup, no restoration required.
@@ -77,13 +77,13 @@ export default function HartfordFireDamagePage() {
         <section className="my-8">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">Fire-Damaged Properties in Hartford CT</h2>
           <p className="text-gray-700 mb-4">
-            Hartford's older housing stock — predominantly wood-frame triple-deckers and multi-families built before 1940 — is particularly vulnerable to fire. According to the <a href="https://www.usfa.fema.gov/statistics/residential-fires.html" className="text-brand-primary hover:underline" target="_blank" rel="noopener noreferrer">U.S. Fire Administration (USFA)</a>, residential fires cause an estimated $8.5 billion in property damage annually nationwide, with older housing stock disproportionately affected due to outdated electrical systems, aging heating equipment, and pre-code construction.
+            Hartford's older housing stock — including wood-frame triple-deckers and multi-families — can make fire remediation more complex. According to the <a href="https://www.usfa.fema.gov/statistics/residential-fires.html" className="text-brand-primary hover:underline" target="_blank" rel="noopener noreferrer">U.S. Fire Administration (USFA)</a>, residential fires cause significant property damage nationwide, and older electrical or heating systems can increase remediation concerns.
           </p>
           <p className="text-gray-700 mb-4">
             The Hartford Fire Department responds to residential fires throughout the year, with winter months seeing increased incidents due to heating equipment failures — space heaters, old boilers, and wood stoves in homes not designed for modern safety standards. The <a href="https://www.nfpa.org/education-and-research/research/nfpa-research/fire-statistical-reports" className="text-brand-primary hover:underline" target="_blank" rel="noopener noreferrer">National Fire Protection Association (NFPA)</a> reports that heating equipment is the second leading cause of home fires nationally.
           </p>
           <p className="text-gray-700">
-            Whether the damage is partial (kitchen fire, electrical fire in one room) or extensive (structural damage across multiple floors), we purchase the property as-is. You don't need to wait for insurance to settle, you don't need to hire a contractor, and you don't need to clean up debris. We handle everything after closing.
+            Whether the damage is partial (kitchen fire, electrical fire in one room) or extensive (structural damage across multiple floors), we purchase the property as-is. You don't need to wait for insurance to settle, you don\'t need to hire a contractor, and you don\'t need to clean up debris. We handle everything after closing.
           </p>
         </section>
 
