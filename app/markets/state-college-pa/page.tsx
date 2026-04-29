@@ -11,7 +11,7 @@ import { SituationLinks } from '@/components/SituationLinks';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
 import { BlogClusterLinks } from '@/components/BlogClusterLinks';
 import { MultiStepForm } from '@/components/MultiStepForm';
-import { stateCollegeLocalBusinessSchema, faqSchema, howToSchema } from '@/lib/schema';
+import { stateCollegeLocalBusinessSchema, faqSchema, howToSchema, videoObjectSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
 import { VideoEmbed } from '@/components/VideoEmbed';
 
@@ -135,7 +135,19 @@ const stateCollegeFAQSchema = faqSchema(FAQ_ITEMS);
 export default function StateCollegeMarketPage() {
   return (
     <>
-      <SchemaMarkup schema={[stateCollegeLocalBusinessSchema, stateCollegeFAQSchema, howToSchema]} />
+      <SchemaMarkup schema={[
+        stateCollegeLocalBusinessSchema,
+        stateCollegeFAQSchema,
+        howToSchema,
+        videoObjectSchema({
+          name: 'Sell Your House Fast in State College, PA',
+          description:
+            'See how we help homeowners in State College and Centre County sell fast',
+          contentUrl: `${SITE_URL}/videos/state-college-main.mp4`,
+          thumbnailUrl: `${SITE_URL}/videos/state-college-main-poster.jpg`,
+          uploadDate: '2026-04-12',
+        }),
+      ]} />
 
       {/* Hero — different layout: FAQ moved up, section order varies from Harrisburg/Allentown */}
       <section className="relative text-white py-16 px-4 overflow-hidden">
@@ -192,6 +204,7 @@ export default function StateCollegeMarketPage() {
           <p className="text-gray-700 leading-relaxed">USA Home Buyers purchases houses in State College, PA for cash — as-is, in any condition, with no repairs and no agent fees. According to the Zillow Home Value Index, the State College median home value is $408,500 (March 2026, +0.9% year-over-year); Redfin's median closed sale price is $450,000 with a Compete Score of 93/100 — among the most competitive in Pennsylvania. Homes go pending in 5 days on average. We close in 7–14 days, no inspections or financing contingencies. We serve all of State College and Centre County.</p>
         </section>
 
+        {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
         <VideoEmbed
         src="/videos/state-college-main.mp4"
         title="Sell Your House Fast in State College, PA"

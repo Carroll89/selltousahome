@@ -5,7 +5,7 @@ import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
 import { VideoEmbed } from '@/components/VideoEmbed';
-import { articleSchema, faqSchema, stateCollegeLocalBusinessSchema } from '@/lib/schema';
+import { articleSchema, faqSchema, stateCollegeLocalBusinessSchema, videoObjectSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
 
 export const metadata: Metadata = {
@@ -52,6 +52,14 @@ export default function StateCollegeForeclosurePage() {
         stateCollegeLocalBusinessSchema,
         articleSchema('Stop Foreclosure in State College, PA — Centre County', pageUrl, '2026-04-12'),
         faqSchema(FAQ_ITEMS),
+        videoObjectSchema({
+          name: 'Facing Foreclosure in State College PA?',
+          description:
+            'How to sell before the sheriff sale in Centre County',
+          contentUrl: `${SITE_URL}/videos/state-college-foreclosure.mp4`,
+          thumbnailUrl: `${SITE_URL}/videos/state-college-foreclosure-poster.jpg`,
+          uploadDate: '2026-04-12',
+        }),
       ]} />
 
       <section className="relative text-white py-16 px-4 overflow-hidden">
@@ -91,6 +99,7 @@ export default function StateCollegeForeclosurePage() {
           </div>
           <div>
   
+      {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
       <VideoEmbed
         src="/videos/state-college-foreclosure.mp4"
         title="Facing Foreclosure in State College PA?"

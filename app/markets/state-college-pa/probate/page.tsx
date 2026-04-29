@@ -5,7 +5,7 @@ import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
 import { VideoEmbed } from '@/components/VideoEmbed';
-import { articleSchema, faqSchema, stateCollegeLocalBusinessSchema } from '@/lib/schema';
+import { articleSchema, faqSchema, stateCollegeLocalBusinessSchema, videoObjectSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
 
 export const metadata: Metadata = {
@@ -57,6 +57,14 @@ export default function StateCollegeProbatePage() {
         stateCollegeLocalBusinessSchema,
         articleSchema('Selling a Probate Property in State College, PA', pageUrl, '2026-04-12'),
         faqSchema(FAQ_ITEMS),
+        videoObjectSchema({
+          name: 'Selling Probate Property in State College PA',
+          description:
+            'Working with executors and Centre County Register of Wills',
+          contentUrl: `${SITE_URL}/videos/state-college-probate.mp4`,
+          thumbnailUrl: `${SITE_URL}/videos/state-college-probate-poster.jpg`,
+          uploadDate: '2026-04-12',
+        }),
       ]} />
 
       <section className="relative text-white py-16 px-4 overflow-hidden">
@@ -90,6 +98,7 @@ export default function StateCollegeProbatePage() {
           </div>
           <div>
   
+      {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
       <VideoEmbed
         src="/videos/state-college-probate.mp4"
         title="Selling Probate Property in State College PA"
