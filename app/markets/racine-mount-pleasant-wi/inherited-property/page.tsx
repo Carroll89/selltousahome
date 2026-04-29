@@ -100,7 +100,7 @@ export default function RacineInheritedPropertyPage() {
             The probate court for Racine County is the Racine County Circuit Court, Probate Division, located at 730 Wisconsin Avenue, 6th Floor, Racine WI 53403. Main number is (262) 636-3333; the Register in Probate direct line is (262) 636-3868. This court handles all probate proceedings for decedents who owned property in Racine County — whether the home was a Northside cream brick cottage in the City of Racine, a split-level in Mount Pleasant, a farmhouse in Burlington, or a ranch in Caledonia. Once the personal representative receives Domiciliary Letters, they can execute a deed and complete the sale.
           </p>
           <p className="text-gray-700 mb-4">
-            We regularly work with estates throughout Racine County. We can have a written offer ready before you even file for probate, so you close quickly once authority is granted. Transfer tax: Wisconsin realty transfer fee — $3.00 per $1,000 of consideration, paid by seller (Wis. Stat. § 77.22). On a $205,000 Racine sale: $615. No county or city surcharge. Source: Wisconsin Department of Revenue (revenue.wi.gov).
+            We regularly work with estates throughout Racine County. We can have a written offer ready before you even file for probate, so you close once authority is granted; court process can vary. Transfer tax: Wisconsin realty transfer fee — $3.00 per $1,000 of consideration, paid by seller (Wis. Stat. § 77.22). On a $205,000 Racine sale: $615. No county or city surcharge. Source: Wisconsin Department of Revenue (revenue.wi.gov).
           </p>
         </section>
 

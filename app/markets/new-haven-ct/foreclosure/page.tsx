@@ -140,7 +140,7 @@ export default function NewHavenForeclosurePage() {
             A Law Day is a court-set deadline by which the borrower must pay off the entire mortgage debt in full. Not just catch up on missed payments — the full outstanding balance plus accrued interest, fees, and attorney costs. If you pay in full by the Law Day, you redeem the mortgage and keep the house. If you don't pay in full by the Law Day, title passes automatically and directly to the lender. No sale, no auction, no surplus calculation. The lender becomes the owner at midnight on the Law Day.
           </p>
           <p className="text-gray-700 mb-4">
-            Law Days are typically set 45–90 days after the Judgment of Strict Foreclosure. The court may set multiple Law Days for multiple lienholders, each with their own redemption opportunity. When the senior lienholder's Law Day passes, all junior interests are extinguished.
+            Law Days are set by the court; 45–90 days after the Judgment of Strict Foreclosure is planning context, not a guaranteed timeline. The court may set multiple Law Days for multiple lienholders, each with their own redemption opportunity. When the senior lienholder's Law Day passes, all junior interests are extinguished.
           </p>
           <p className="text-gray-700 mb-4">
             The practical implication for New Haven homeowners: there is no "second chance at the courthouse steps." Once the Law Day passes without full payoff, the property is gone. The window to sell — and recover any equity — is the period between the filing of the foreclosure complaint and the Law Day.

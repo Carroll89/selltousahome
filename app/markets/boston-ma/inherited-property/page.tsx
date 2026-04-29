@@ -54,7 +54,7 @@ export default function BostonInheritedPropertyPage() {
             Per Massachusetts General Laws Chapter 202, selling real estate from an estate typically requires court authorization —
             specifically, a license to sell from the probate court — unless the will explicitly grants that authority to the
             personal representative. Suffolk County Probate and Family Court handles these proceedings for Boston estates.
-            Your probate attorney can advise on timeline and process.
+            Court process can vary; your probate attorney can advise on timeline and process.
           </p>
           <p className="text-gray-700 mb-4">
             In our experience, standard estates in Suffolk County without complications often take several months from filing

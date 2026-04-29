@@ -100,7 +100,7 @@ export default function WorcesterInheritedPropertyPage() {
             The probate court for Worcester County is located at Worcester County Probate and Family Court, 225 Main Street, Worcester MA 01608, (508) 770-0825. This court handles all probate proceedings for decedents who owned property in Worcester County. Once the personal representative receives their Letters of Authority (or equivalent in Massachusetts), they can execute a deed and complete the sale.
           </p>
           <p className="text-gray-700 mb-4">
-            We frequently work with estates throughout Worcester County. We can have a written offer ready before you even file for probate, so you can close quickly once authority is granted. Transfer tax: Massachusetts deed excise stamps — $4.56 per $1,000 of consideration, paid by seller. On a $315,000 sale: ~$1,436. Source: Massachusetts DOR (mass.gov).
+            We frequently work with estates throughout Worcester County. We can have a written offer ready before you even file for probate, so you can close once authority is granted; court process can vary. Transfer tax: Massachusetts deed excise stamps — $4.56 per $1,000 of consideration, paid by seller. On a $315,000 sale: ~$1,436. Source: Massachusetts DOR (mass.gov).
           </p>
         </section>
 

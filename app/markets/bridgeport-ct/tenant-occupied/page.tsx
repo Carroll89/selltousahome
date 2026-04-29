@@ -25,7 +25,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'Do I need to notify my tenant I\'m selling?',
-    answer: 'Connecticut law requires specific notice to tenants when a property is being sold or shown. Requirements vary by lease type. We can work with you on timing and notification so the process is legally compliant and doesn\'t create additional tenant conflict.',
+    answer: 'Connecticut law requires specific notice to tenants when a property is being sold or shown, and local process can vary by lease type. We can work with you on timing and notification so the process is legally compliant and doesn\'t create additional tenant conflict.',
   },
   {
     question: 'What if my tenant has an active lease?',

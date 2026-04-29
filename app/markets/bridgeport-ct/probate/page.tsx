@@ -29,7 +29,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How long does probate take in Connecticut?',
-    answer: 'Connecticut probate timelines vary by complexity. Informal probate for straightforward estates can resolve in as little as 2-4 months. Contested estates requiring formal probate may take 12-24 months. The personal representative can often sell property before the estate is fully closed, once the court grants authority.',
+    answer: 'Connecticut probate timelines vary by complexity and Bridgeport Probate Court process. Informal probate for straightforward estates can resolve in as little as 2-4 months; treat this as planning context, not a guaranteed timeline. Contested estates requiring formal probate may take 12-24 months. The personal representative can often sell property before the estate is fully closed, once the court grants authority.',
   },
   {
     question: 'Do I need to clean out the house before selling?',

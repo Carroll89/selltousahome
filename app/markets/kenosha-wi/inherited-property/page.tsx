@@ -100,7 +100,7 @@ export default function KenoshaInheritedPropertyPage() {
             The probate court for Kenosha County is located at Kenosha County Circuit Court — Probate Division, 912 56th Street, Kenosha WI 53140, (262) 653-2444. This court handles all probate proceedings for decedents who owned property in Kenosha County. Once the personal representative receives their Letters of Authority (or equivalent in Wisconsin), they can execute a deed and complete the sale.
           </p>
           <p className="text-gray-700 mb-4">
-            We frequently work with estates throughout Kenosha County. We can have a written offer ready before you even file for probate, so you can close quickly once authority is granted. Transfer tax: Wisconsin realty transfer fee — $3.00 per $1,000 of consideration, paid by seller. On a $235,000 sale: $705. Source: Wisconsin Department of Revenue (revenue.wi.gov).
+            We frequently work with estates throughout Kenosha County. We can have a written offer ready before you even file for probate, so you can close once authority is granted; court process can vary. Transfer tax: Wisconsin realty transfer fee — $3.00 per $1,000 of consideration, paid by seller. On a $235,000 sale: $705. Source: Wisconsin Department of Revenue (revenue.wi.gov).
           </p>
         </section>
 

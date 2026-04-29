@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 const FAQ_ITEMS = [
   {
     question: 'How long does foreclosure take in Ohio?',
-    answer: "Ohio is a judicial foreclosure state. Every foreclosure must go through the Mahoning County Court of Common Pleas. The process typically runs 6-24 months from first missed payment to confirmation of the sheriff's sale — from complaint filing (after roughly 90-180 days of missed payments), through the 28-day answer deadline, summary judgment, sheriff's appraisal, the public auction (advertised 3 weeks in a local newspaper), and court confirmation. Ohio's HB 130 also requires mediation referral for residential foreclosures, which adds time but protects homeowners. Source: Ohio Legal Help (ohiolegalhelp.org/foreclosure_timeline).",
+    answer: "Ohio is a judicial foreclosure state. Every foreclosure must go through the Mahoning County Court of Common Pleas. The process can vary by court backlog and homeowner response; 6-24 months from first missed payment to confirmation of the sheriff's sale is planning context — from complaint filing (after roughly 90-180 days of missed payments), through the 28-day answer deadline, summary judgment, sheriff's appraisal, the public auction (advertised 3 weeks in a local newspaper), and court confirmation. Ohio's HB 130 also requires mediation referral for residential foreclosures, which adds time but protects homeowners. Source: Ohio Legal Help (ohiolegalhelp.org/foreclosure_timeline).",
   },
   {
     question: 'Can I sell my Youngstown house to stop foreclosure?',

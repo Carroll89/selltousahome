@@ -21,7 +21,7 @@ export const metadata: Metadata = {
 const FAQ_ITEMS = [
   {
     question: 'How fast can I sell before foreclosure in Bridgeport CT?',
-    answer: 'We can close in as few as 7 days once you accept an offer. Connecticut uses strict foreclosure — the lender files in Superior Court, and if the court grants foreclosure, it sets a "Law Day" by which you must pay the full debt or lose title directly to the lender. There is no auction, no bidding, no redemption period after the Law Day passes. Timeline from filing to judgment: typically 3-6 months. Source: CT Judicial Branch (jud.ct.gov). Speed is critical in Bridgeport foreclosure situations — call 888-274-5006 immediately.',
+    answer: 'We can close in as few as 7 days once you accept an offer. Connecticut uses strict foreclosure — the lender files in Superior Court, and if the court grants foreclosure, it sets a "Law Day" by which you must pay the full debt or lose title directly to the lender. There is no auction, no bidding, no redemption period after the Law Day passes. Timeline from filing to judgment can vary by Superior Court case, with 3-6 months used here as planning context. Source: CT Judicial Branch (jud.ct.gov). Speed is critical in Bridgeport foreclosure situations — call 888-274-5006 immediately.',
   },
   {
     question: 'What is the foreclosure process in Fairfield County?',

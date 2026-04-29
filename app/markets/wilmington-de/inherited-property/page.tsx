@@ -124,8 +124,8 @@ export default function WilmingtonInheritedPropertyPage() {
           </p>
           <p className="text-gray-700 mb-4">
             We work with executors and administrators at every stage. If probate is already complete, we can
-            close in 7 days. If it's still in progress, we can prepare purchase paperwork and close the moment
-            the deed is transferable.
+            close in 7 days. If it's still in progress, we can prepare purchase paperwork and close once
+            the deed is transferable; Register of Wills process can vary.
           </p>
         </section>
 
