@@ -8,7 +8,7 @@ import { TestimonialBlock } from '@/components/TestimonialBlock';
 import { ComparisonTable } from '@/components/ComparisonTable';
 import { SituationLinks } from '@/components/SituationLinks';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
-import { youngstownLocalBusinessSchema, youngstownFAQSchema, youngstownHowToSchema } from '@/lib/schema';
+import { youngstownLocalBusinessSchema, youngstownFAQSchema, youngstownHowToSchema, videoObjectSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
 import { BlogClusterLinks } from '@/components/BlogClusterLinks';
 import { MultiStepForm } from '@/components/MultiStepForm';
@@ -126,7 +126,7 @@ const FAQ_ITEMS = [
 export default function YoungstownMarketPage() {
   return (
     <>
-      <SchemaMarkup schema={[youngstownLocalBusinessSchema, youngstownFAQSchema, youngstownHowToSchema]} />
+      <SchemaMarkup schema={[youngstownLocalBusinessSchema, youngstownFAQSchema, youngstownHowToSchema, videoObjectSchema({ name: 'Sell My House Fast Youngstown OH — USA Home Buyers', description: 'Cash offers for Youngstown and Mahoning County homes — any condition', contentUrl: `${SITE_URL}/videos/youngstown-oh/landing.mp4`, uploadDate: '2026-04-28' })]} />
 
       {/* Hero */}
       <section className="relative text-white py-8 md:py-16 px-4 overflow-hidden">
@@ -184,7 +184,8 @@ export default function YoungstownMarketPage() {
         </div>
       </section>
 
-        <VideoEmbed
+        {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
+      <VideoEmbed
         src="/videos/youngstown-oh/landing.mp4"
         title="Sell My House Fast Youngstown OH — USA Home Buyers"
         subtitle="Cash offers for Youngstown and Mahoning County homes — any condition"

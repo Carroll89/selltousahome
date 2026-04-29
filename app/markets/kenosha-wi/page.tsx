@@ -8,7 +8,7 @@ import { TestimonialBlock } from '@/components/TestimonialBlock';
 import { ComparisonTable } from '@/components/ComparisonTable';
 import { SituationLinks } from '@/components/SituationLinks';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
-import { kenoshWILocalBusinessSchema, faqSchema } from '@/lib/schema';
+import { kenoshWILocalBusinessSchema, faqSchema, videoObjectSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
 import { BlogClusterLinks } from '@/components/BlogClusterLinks';
 import { MultiStepForm } from '@/components/MultiStepForm';
@@ -139,7 +139,7 @@ export default function KenosaWIMarketPage() {
 
   return (
     <>
-      <SchemaMarkup schema={[kenoshWILocalBusinessSchema, faqSchema(FAQ_ITEMS), howToSchema]} />
+      <SchemaMarkup schema={[kenoshWILocalBusinessSchema, faqSchema(FAQ_ITEMS), howToSchema, videoObjectSchema({ name: 'Sell My House Fast Kenosha WI — USA Home Buyers', description: 'Cash offers for Kenosha and Kenosha County homes — any condition', contentUrl: `${SITE_URL}/videos/kenosha-wi/landing.mp4`, uploadDate: '2026-04-28' })]} />
 
       <section className="relative text-white py-16 px-4 overflow-hidden">
         <picture className="absolute inset-0 w-full h-full">
@@ -191,7 +191,8 @@ export default function KenosaWIMarketPage() {
         </div>
       </section>
 
-        <VideoEmbed
+        {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
+      <VideoEmbed
         src="/videos/kenosha-wi/landing.mp4"
         title="Sell My House Fast Kenosha WI — USA Home Buyers"
         subtitle="Cash offers for Kenosha and Kenosha County homes — any condition"

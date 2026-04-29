@@ -101,6 +101,7 @@ export default function ErieForeclosurePage() {
         </div>
       </section>
 
+      {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
       <VideoEmbed
         src="/videos/erie-pa-foreclosure.mp4"
         title="Facing Foreclosure in Erie PA?"

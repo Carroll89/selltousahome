@@ -101,6 +101,7 @@ export default function ErieInheritedPropertyPage() {
         </div>
       </section>
 
+      {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
       <VideoEmbed
         src="/videos/erie-pa-inherited.mp4"
         title="Selling an Inherited House in Erie PA"

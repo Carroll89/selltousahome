@@ -190,7 +190,8 @@ export default function BridgeportCTMarketPage() {
         </div>
       </section>
 
-        <VideoEmbed
+        {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
+      <VideoEmbed
         src="/videos/bridgeport-ct/landing.mp4"
         title="Sell My House Fast Bridgeport CT — USA Home Buyers"
         subtitle="Cash offers for Bridgeport and Fairfield County homes — any condition"
