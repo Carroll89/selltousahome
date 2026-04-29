@@ -11,7 +11,7 @@ import { VideoEmbed } from '@/components/VideoEmbed';
 export const metadata: Metadata = {
   title: 'Sell Tenant-Occupied Rental in Allentown PA | Cash Offer',
   description:
-    'Selling a rental property with tenants in Allentown PA? We buy tenant-occupied properties as-is — no eviction required. Cash offer in 24 hours, close in 7-14 days. 58% renter market.',
+    'Selling a rental property with tenants in Allentown PA? We buy tenant-occupied properties as-is — no eviction required. Cash offer in 24 hours. Census ACS data shows a majority-renter market.',
   alternates: { canonical: `${SITE_URL}/markets/allentown-pa/tenant-occupied` },
 };
 
@@ -19,17 +19,17 @@ const FAQ_ITEMS = [
   {
     question: 'Can I sell a house with tenants still living in it in Pennsylvania?',
     answer:
-      'Yes. Pennsylvania law allows you to sell a property with tenants in place. The sale doesn\'t terminate the lease — the lease transfers to the new buyer along with the property. This is common in Allentown\'s investment property market, where 58% of residents are renters.',
+      'Yes. Pennsylvania landlord-tenant law and legal-aid guidance recognize that a building can be sold with tenants in place; the new owner generally takes the property subject to existing leases. Census ACS 5-year housing tenure data reports that about 57.7% of occupied Allentown housing units are renter-occupied, so tenant-occupied sales are a real local issue.',
   },
   {
     question: 'Does my tenant have to be notified if I sell?',
     answer:
-      'Yes. Pennsylvania requires written notice to tenants before the property is sold. Lease terms and conditions remain in effect for the new owner. We handle the notification requirements and coordinate the transition.',
+      'Lease terms, local rental-license rules, and access requirements still matter during a sale. We coordinate tenant communication with you and the title company, and we do not ask you to remove a tenant just because you want to sell.',
   },
   {
     question: 'Do I need to evict the tenant before selling to you?',
     answer:
-      'No. We buy tenant-occupied properties. You don\'t need to go through the eviction process before closing. We take ownership of the property — and the tenant relationship — at closing. This is especially valuable in Allentown, where Lehigh County eviction proceedings can be lengthy.',
+      'No. We buy tenant-occupied properties with the lease or tenancy in place. Per Pennsylvania legal-aid guidance, a new owner takes the property subject to existing leases, so you do not need to complete an eviction before we evaluate or buy the property.',
   },
   {
     question: 'What if my tenant is behind on rent or has damaged the property?',
@@ -39,12 +39,12 @@ const FAQ_ITEMS = [
   {
     question: 'What happens to the security deposit at closing?',
     answer:
-      'Any security deposit you\'re holding must be transferred to the buyer at closing. This is credited or debited on the closing statement. The title company handles the accounting.',
+      'Security-deposit handling should be shown on the closing statement and coordinated with the title company and lease records. Pennsylvania guidance says the new owner should receive tenant information, rental history, security deposits, and lease copies from the prior owner.',
   },
   {
     question: 'What are Allentown\'s rental market conditions?',
     answer:
-      'Allentown has one of the highest renter-occupied rates in Pennsylvania at approximately 58%. This means a large pool of long-term tenants and a robust investor market for rental properties. Properties in ZIPs 18102 and 18103 see strong demand from landlords looking to acquire cash-flowing rentals.',
+      'Census ACS 5-year housing tenure data reports that about 57.7% of occupied Allentown housing units are renter-occupied. Allentown also runs a rental unit registration and inspection program, so investors pay close attention to lease status, rental licensing, and property condition.',
   },
 ];
 
@@ -87,7 +87,7 @@ export default function AllentownTenantOccupiedPage() {
             <p className="text-lg text-blue-100 mb-4">
               You don&apos;t have to evict the tenant first. We buy rental properties in Allentown with tenants
               in place — non-paying, month-to-month, lease violations, or just time to be done landlording.
-              With 58% of Allentown residents renting, we know this market.
+              Census ACS housing tenure data reports that about 57.7% of occupied Allentown housing units are renter-occupied.
             </p>
             <a
               href={`tel:${PHONE}`}
@@ -118,7 +118,7 @@ export default function AllentownTenantOccupiedPage() {
             <p className="mb-3">Pennsylvania landlord-tenant law also gives your tenants specific rights around showings and access. If your tenant isn&apos;t cooperative — which happens a lot when they know the property is being sold — getting the house shown and sold through the MLS can be a months-long ordeal.</p>
             <p className="mb-3">We buy tenant-occupied properties in Allentown as-is, with tenants in place. We don&apos;t require you to evict before closing. We make our offer based on the property and the situation, and we handle the tenant transition after closing.</p>
             <p className="mb-3">Allentown and the Lehigh Valley have a strong rental market. Whether you have a long-term tenant or a problem tenant situation you need to exit, we&apos;ve seen it.</p>
-            <p className="mb-3">Call USA Home Buyers at 888-274-5006. Cash offer in 24 hours, close in 7 to 14 days. No eviction required.</p>
+            <p className="mb-3">Call USA Home Buyers at 888-274-5006. Cash offer in 24 hours, fast closing when title and tenant details are ready. No eviction required.</p>
         </div>
       </details>
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -127,10 +127,10 @@ export default function AllentownTenantOccupiedPage() {
           <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-10">
             <h2 className="text-lg font-bold text-brand-dark mb-2">The Short Answer</h2>
             <p className="text-gray-700 text-sm">
-              You can sell a tenant-occupied property in Pennsylvania without evicting first. The lease
-              transfers to the new buyer at closing. Allentown is a high-renter market (58% renter-occupied)
-              — we buy these regularly, including non-paying tenants, problem tenants, tenants with lease violations,
-              and tenants who won&apos;t allow showings. You sign the deed, we take it from there.
+              You can sell a tenant-occupied property in Pennsylvania without evicting first. Pennsylvania legal-aid
+              guidance says a new owner takes the property subject to existing leases, and Census ACS data reports
+              Allentown at about 57.7% renter-occupied housing units. We buy these regularly, including non-paying
+              tenants, problem tenants, tenants with lease violations, and tenants who won&apos;t allow showings.
             </p>
           </div>
 
@@ -140,11 +140,11 @@ export default function AllentownTenantOccupiedPage() {
               {[
                 {
                   title: 'Non-paying tenant',
-                  desc: 'Your tenant stopped paying rent but hasn\'t left. You\'re carrying the mortgage out of pocket every month and you\'re done. We buy it with the tenant in place — you don\'t need to go through Lehigh County Court of Common Pleas eviction process before closing.',
+                  desc: 'Your tenant stopped paying rent but hasn\'t left. You\'re carrying the mortgage out of pocket every month and you\'re done. We buy it with the tenant in place — you don\'t need to complete an eviction before we evaluate the property.',
                 },
                 {
                   title: 'Tenant won\'t allow showings',
-                  desc: 'A traditional sale requires the tenant to cooperate with showings. If they refuse, you\'re stuck. We don\'t need multiple showings — we\'ll do a brief inspection walk with advance notice per PA law and then buy as-is.',
+                  desc: 'A traditional sale often depends on tenant cooperation with showings. If they refuse, you\'re stuck. We typically need one coordinated walkthrough, using reasonable notice and whatever access terms your lease and Pennsylvania rules require.',
                 },
                 {
                   title: 'Lease violation / property damage',
@@ -170,37 +170,36 @@ export default function AllentownTenantOccupiedPage() {
           <section className="mb-10">
             <h2 className="text-2xl font-bold text-brand-dark mb-4">PA Tenant Rights — What This Means for Your Sale</h2>
             <p className="text-gray-700 mb-4">
-              Pennsylvania has tenant protections that affect how a sale works, but they don&apos;t prevent the sale:
+              Pennsylvania landlord-tenant rules and Allentown rental registration requirements affect how a sale works,
+              but they don&apos;t necessarily prevent the sale:
             </p>
             <div className="grid md:grid-cols-2 gap-4">
               <div className="border border-blue-100 bg-blue-50 rounded-lg p-4">
                 <h3 className="font-semibold text-brand-dark text-sm mb-2">Lease survives the sale</h3>
                 <p className="text-xs text-gray-600">
-                  If the tenant has a fixed-term lease, the lease terms transfer to the new buyer. The tenant
-                  keeps their right to occupy the unit until the lease expires. A cash buyer buying
-                  as-is accepts this condition.
+                  Pennsylvania legal-aid guidance says that when an owner sells the building, the new owner takes
+                  the property subject to the existing lease. A cash buyer buying as-is accepts that condition.
                 </p>
               </div>
               <div className="border border-blue-100 bg-blue-50 rounded-lg p-4">
                 <h3 className="font-semibold text-brand-dark text-sm mb-2">Month-to-month tenants</h3>
                 <p className="text-xs text-gray-600">
-                  Month-to-month tenants can be given written notice by the new owner (typically 15-30 days
-                  depending on rent schedule). This doesn&apos;t need to happen before your sale closes.
+                  Month-to-month notice requirements depend on the lease, payment schedule, and Pennsylvania rules.
+                  This usually does not need to be resolved before your sale closes to a buyer willing to take over the tenancy.
                 </p>
               </div>
               <div className="border border-blue-100 bg-blue-50 rounded-lg p-4">
                 <h3 className="font-semibold text-brand-dark text-sm mb-2">Showing notice required</h3>
                 <p className="text-xs text-gray-600">
-                  PA law requires advance notice before entering the unit for inspections or showings —
-                  typically at least 24 hours. We comply with this. We don&apos;t need multiple showings;
-                  one walkthrough is typically enough for our evaluation.
+                  Access for inspections or showings should follow the lease and Pennsylvania landlord-tenant rules.
+                  We coordinate with you for reasonable notice and usually need only one walkthrough for our evaluation.
                 </p>
               </div>
               <div className="border border-blue-100 bg-blue-50 rounded-lg p-4">
                 <h3 className="font-semibold text-brand-dark text-sm mb-2">Security deposit transfer</h3>
                 <p className="text-xs text-gray-600">
-                  Any security deposit you hold must be transferred to the buyer at closing. This is handled
-                  on the closing statement — no separate action needed from you.
+                  Pennsylvania legal-aid guidance says the new owner should receive tenant information, rental payment history,
+                  security deposits, and lease copies from the prior owner. The title company can reflect deposits on the closing statement.
                 </p>
               </div>
             </div>

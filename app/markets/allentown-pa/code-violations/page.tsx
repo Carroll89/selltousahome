@@ -11,7 +11,7 @@ import { VideoEmbed } from '@/components/VideoEmbed';
 export const metadata: Metadata = {
   title: 'Sell House with Code Violations in Allentown PA | Cash Offer',
   description:
-    'Selling a house with code violations in Allentown PA? We buy properties with open violations, liens, and city citations as-is. Cash offer in 24 hours, close in 7-14 days.',
+    'Selling a house with code violations in Allentown PA? We buy properties with open violations, liens, and city citations as-is. Cash offer in 24 hours. Fast closing when title allows.',
   alternates: { canonical: `${SITE_URL}/markets/allentown-pa/code-violations` },
 };
 
@@ -19,12 +19,12 @@ const FAQ_ITEMS = [
   {
     question: 'Can you sell a house with code violations in Allentown?',
     answer:
-      'Yes. There is no law in Pennsylvania that prevents you from selling a property with open code violations. The violations are disclosed and typically either paid off at closing or transferred to the buyer. Cash buyers like us buy properties with violations as-is — we price the cost of remediation into our offer.',
+      'Yes. Pennsylvania does not generally prohibit selling a property because it has open code violations. Per the City of Allentown Property Maintenance and Compliance office, the city inspects rentals, registers rentals, completes pre-sale inspections, and follows city ordinances to keep properties code-compliant. Open violations, fines, or liens are normally reviewed by the title company and addressed in the sale documents or at closing.',
   },
   {
     question: 'What are common code violations in Allentown, PA?',
     answer:
-      'Allentown\'s older housing stock — much of it Bethlehem Steel-era row homes — commonly generates violations for: failing roof systems, deteriorating facades, broken or boarded windows, electrical panel issues (especially older fuse boxes), plumbing failures, exterior maintenance requirements, and vacant property registration non-compliance. The City of Allentown Bureau of Housing Inspection actively enforces these.',
+      'According to the City of Allentown Property Maintenance and Compliance office, the city inspects rental properties, registers rentals, completes pre-sale inspections, and handles housing complaints, blight, and at-risk properties. Common issues include exterior maintenance, unsafe or deteriorated structures, vacant/at-risk property registration, and rental inspection items.',
   },
   {
     question: 'Will code violations prevent my house from being sold?',
@@ -34,12 +34,12 @@ const FAQ_ITEMS = [
   {
     question: 'Do code violations become liens on the property?',
     answer:
-      'In Allentown, unresolved code violations can result in municipal liens being placed on the property. These liens must be addressed at or before closing — either paid from proceeds or negotiated as part of the sale. We can work with the city on lien resolution as part of the closing process.',
+      'Unresolved municipal charges or enforcement costs can create title issues that must be addressed before a normal transfer. We review the title report and any city payoff information with the closing company so liens, fines, or municipal claims are handled in the sale paperwork rather than ignored.',
   },
   {
     question: 'What is Allentown\'s vacant property ordinance?',
     answer:
-      'Allentown requires vacant properties to be registered with the city and maintained to specific standards. Failure to register or maintain a vacant property generates fines and potential liens. If your property is vacant and unregistered, we can still buy it — the registration and any outstanding fines are handled at or after closing.',
+      'Per Allentown\'s At-Risk Property Registration and Property Maintenance pages, vacant or at-risk properties may need city registration and must be maintained under city ordinances. If your property is vacant, unregistered, or already cited, we can still review it and coordinate any known city requirements through the closing process.',
   },
   {
     question: 'Do I have to fix the violations before selling to you?',
@@ -92,8 +92,8 @@ export default function AllentownCodeViolationsPage() {
             <div className="bg-yellow-900/50 border border-yellow-500/30 rounded-lg p-4 mb-4 text-sm">
               <p className="font-semibold text-yellow-200 mb-1">Violations escalating?</p>
               <p className="text-yellow-100">
-                Daily fines accumulate fast. Call <a href={`tel:${PHONE}`} className="font-bold underline">{PHONE}</a>{' '}
-                — we can often close before additional penalties pile up.
+                City deadlines and reinspection requirements can add pressure. Call <a href={`tel:${PHONE}`} className="font-bold underline">{PHONE}</a>{' '}
+                — we can review the violation status and see whether a cash sale is realistic before the problem gets worse.
               </p>
             </div>
           </div>
@@ -117,7 +117,7 @@ export default function AllentownCodeViolationsPage() {
             <p className="mb-3">If your Allentown property has code violations — city citations, failed inspections, unpermitted additions, structural deficiencies — you&apos;ve got a real problem selling it the traditional way. I&apos;m with USA Home Buyers, and this is exactly what we buy.</p>
             <p className="mb-3">Allentown&apos;s Bureau of Housing Inspection and Neighborhood Services is active in enforcing code compliance. If you&apos;ve got open violations, accumulating fines, or a property that would fail inspection, conventional buyers using financing can&apos;t close on it. That takes out 80 to 90 percent of your potential buyer pool.</p>
             <p className="mb-3">We pay cash. No lender review, no appraiser flagging structural issues, no financing contingency that collapses when the buyer&apos;s bank finds out about the violations. We buy the property in its current condition.</p>
-            <p className="mb-3">How do violations get handled at closing? The title search identifies all outstanding municipal liens and fines. They get paid directly from your closing proceeds — in most cases, you don&apos;t need to come up with that money upfront.</p>
+            <p className="mb-3">How do violations get handled at closing? The title search identifies recorded liens and municipal claims, and known city payoff information can be coordinated through the closing company. When payoff is required, it is commonly handled from sale proceeds rather than paid upfront.</p>
             <p className="mb-3">We&apos;ve bought Allentown properties with multiple outstanding violations, properties that failed city inspection, properties with unpermitted work, and properties where violations had been accumulating for years.</p>
             <p className="mb-3">If you have a code violation property in Allentown or anywhere in Lehigh County, call USA Home Buyers at 888-274-5006. Written cash offer within 24 hours.</p>
         </div>
@@ -128,12 +128,12 @@ export default function AllentownCodeViolationsPage() {
           <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-10">
             <h2 className="text-lg font-bold text-brand-dark mb-2">Why Code Violations Are Common in Allentown</h2>
             <p className="text-gray-700 text-sm">
-              Allentown&apos;s housing stock includes many Bethlehem Steel-era row homes and older structures built
-              before modern building codes. With 58% of residents renting, many properties have experienced
-              deferred maintenance over decades. The City of Allentown Bureau of Housing Inspection actively
-              enforces exterior and structural standards — meaning violations can accumulate on properties that
-              haven&apos;t had recent investment. This doesn&apos;t make the property unsellable. It just means you need
-              a buyer who doesn&apos;t require conventional financing.
+              Allentown&apos;s housing stock includes many older row homes and industrial-era structures. According
+              to Census ACS 5-year housing tenure data, about 57.7% of occupied Allentown housing units are renter-occupied,
+              and the City of Allentown says its Property Maintenance and Compliance office inspects rental properties,
+              registers rentals, completes pre-sale inspections, and handles housing complaints. That combination can
+              surface deferred maintenance, rental-license, and pre-sale inspection issues. This doesn&apos;t make the
+              property unsellable — it means you need a buyer who doesn&apos;t require conventional financing.
             </p>
           </div>
 
@@ -163,7 +163,7 @@ export default function AllentownCodeViolationsPage() {
                 },
                 {
                   title: 'Municipal liens',
-                  desc: 'When violations go unresolved, Allentown can place liens on the property. These are typically resolved at closing from sale proceeds.',
+                  desc: 'When municipal charges, fines, or enforcement costs become title issues, the title company identifies them so they can be addressed in the sale paperwork or closing statement.',
                 },
               ].map((item, i) => (
                 <div key={i} className="bg-blue-50 border border-blue-100 rounded-xl p-5">
@@ -191,12 +191,12 @@ export default function AllentownCodeViolationsPage() {
                 {
                   step: '3',
                   title: 'Title search identifies all liens',
-                  detail: 'The title company runs a full search including city and municipal liens. Everything surfaces before closing.',
+                  detail: 'The title company runs a search for recorded liens and municipal claims. Known city payoffs or requirements are surfaced before closing.',
                 },
                 {
                   step: '4',
                   title: 'Liens are resolved at closing',
-                  detail: 'Outstanding municipal liens are typically paid from closing proceeds. The property transfers with clear title.',
+                  detail: 'Recorded liens or municipal claims are commonly paid, released, or otherwise resolved through closing instructions before the property transfers.',
                 },
                 {
                   step: '5',
@@ -234,7 +234,7 @@ export default function AllentownCodeViolationsPage() {
           <CashOfferForm
             variant="inline"
             headline="Get a Cash Offer — Violations and All"
-            subheadline="No repairs required. We handle violations after closing. Close in 7-14 days."
+            subheadline="No repairs required. We coordinate known violations and title issues through closing."
             sourcePage="/markets/allentown-pa/code-violations"
           />
 

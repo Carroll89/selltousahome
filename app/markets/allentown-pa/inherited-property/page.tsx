@@ -11,7 +11,7 @@ import { VideoEmbed } from '@/components/VideoEmbed';
 export const metadata: Metadata = {
   title: 'Sell Inherited Property in Allentown PA',
   description:
-    'Inherited a house in Allentown or Lehigh County PA? We buy inherited properties as-is, handle estate complications, and close in 7-14 days. No cleanout, no repairs. Bilingual service.',
+    'Inherited a house in Allentown or Lehigh County PA? We buy inherited properties as-is, handle estate complications, and can close quickly once title and estate authority are ready. No cleanout, no repairs. Bilingual service.',
   alternates: { canonical: `${SITE_URL}/markets/allentown-pa/inherited-property` },
 };
 
@@ -19,22 +19,22 @@ const FAQ_ITEMS = [
   {
     question: 'Do I need to complete probate before selling an inherited Allentown property?',
     answer:
-      'In most cases, yes. If the property was titled solely in the deceased\'s name, it must pass through the estate administration process through the Lehigh County Register of Wills, located at the Lehigh County Courthouse, 455 W Hamilton St, Allentown PA 18101. However, if the property was jointly titled with right of survivorship, it transfers automatically. An experienced PA real estate attorney can clarify your specific situation quickly.',
+      'Often, yes. According to the Lehigh County Register of Wills, that office probates estates and provides estate-administration forms; if the property was titled solely in the deceased owner\'s name, estate authority usually has to be opened before a deed can be signed. Joint title, beneficiary deeds, trusts, or other facts can change the answer, so a Pennsylvania estate attorney or title company should confirm your specific situation.',
   },
   {
     question: 'Where do I file for probate in Allentown?',
     answer:
-      'Probate for estates in Allentown is handled by the Lehigh County Register of Wills, located at the Lehigh County Courthouse at 455 W Hamilton St, Allentown PA 18101. If the deceased lived in a different county, probate is filed in that county\'s Register of Wills office.',
+      'Per Lehigh County, the Register of Wills is at the Lehigh County Courthouse, Room 122, 455 W Hamilton St, Allentown PA 18101. If the deceased was domiciled in another Pennsylvania county, the correct Register of Wills office may be different.',
   },
   {
     question: 'Can I sell before probate is complete?',
     answer:
-      'Often yes, with the right coordination. Once Letters Testamentary or Letters of Administration are issued by the Lehigh County Register of Wills, the personal representative (executor) has authority to sign the deed. A cash buyer experienced with estate sales can enter a purchase agreement and close once those letters are in hand — without waiting for the entire probate process to conclude.',
+      'Often yes, with the right coordination. Under Pennsylvania Title 20 § 3155, letters testamentary or letters of administration are granted by the register to the appropriate executor or administrator. Once estate authority is in place and title is clear, a purchase agreement and closing can often move forward while other estate tasks continue.',
   },
   {
     question: 'What if there are multiple heirs who need to agree?',
     answer:
-      'All beneficiaries with ownership interest must agree to the sale. If heirs are not in agreement, the personal representative may need to petition the court. In practice, most families reach agreement — especially when the alternative is ongoing carrying costs, maintenance, and taxes on a property no one wants to keep.',
+      'Who must consent depends on title, estate authority, the will, and any court orders. If heirs or beneficiaries disagree, the personal representative should get guidance from a Pennsylvania estate attorney before signing a contract. We can still make an offer, but closing has to follow the estate documents and title company requirements.',
   },
   {
     question: 'Do we have to clean out the house before selling?',
@@ -44,7 +44,7 @@ const FAQ_ITEMS = [
   {
     question: 'Do you work with Spanish-speaking families inheriting Allentown properties?',
     answer:
-      'Yes. With over 56% of Allentown\'s population being Hispanic, we regularly work with families where Spanish is the primary language. We can explain the entire process in Spanish and work with your family at every step. No language barrier should prevent you from understanding your options and rights.',
+      'Yes. We offer bilingual service for Allentown families who prefer to discuss an inherited-property sale in Spanish. We can explain the offer, title steps, and closing process clearly so language does not block your understanding of the sale.',
   },
 ];
 
@@ -87,7 +87,7 @@ export default function AllentownInheritedPropertyPage() {
             <p className="text-lg text-blue-100 mb-4">
               You inherited a property in Allentown or Lehigh County. Whether it&apos;s across town or across
               the country, you don&apos;t have to deal with repairs, cleanouts, or months on the market.
-              We buy inherited properties as-is and close in 7-14 days.
+              We buy inherited properties as-is and can close quickly once title and estate authority are ready.
               <strong className="block mt-2 text-white">Bilingual service — Hablamos español.</strong>
             </p>
             <a
@@ -117,7 +117,7 @@ export default function AllentownInheritedPropertyPage() {
             <p className="mb-3">Inheriting a house in Allentown is rarely straightforward. There&apos;s the emotional weight of it, the logistics of a property you may not live near, and often family members in different places with different opinions. I&apos;m with USA Home Buyers, and we handle inherited properties in Allentown and Lehigh County every week.</p>
             <p className="mb-3">The most common thing we hear: they don&apos;t want to deal with it. The property needs work. There&apos;s furniture and belongings that need to go somewhere. Nobody wants to manage a Lehigh Valley property from another state. A traditional listing means repairs, cleanout, showings, waiting — on top of everything else you&apos;re already dealing with.</p>
             <p className="mb-3">We buy inherited Allentown properties as-is. Don&apos;t touch a thing. No cleanout, no repairs, no painting, no landscaping. We make a written cash offer within 24 hours and close in as few as seven days.</p>
-            <p className="mb-3">If the property is going through probate, that&apos;s fine. Once the Lehigh County Register of Wills issues Letters Testamentary or Letters of Administration, the personal representative can authorize the sale. The house can be sold while other estate matters are still being wrapped up.</p>
+            <p className="mb-3">If the property is going through probate, that&apos;s fine. The Lehigh County Register of Wills says its office probates estates, and Pennsylvania Title 20 § 3155 explains who may receive letters. Once estate authority and title requirements are confirmed, the house can often be sold while other estate matters are still being wrapped up.</p>
             <p className="mb-3">You don&apos;t have to spend months managing an Allentown property you didn&apos;t ask for. Call USA Home Buyers at 888-274-5006. Fair offer, fast close, no hassle.</p>
         </div>
       </details>
@@ -128,8 +128,9 @@ export default function AllentownInheritedPropertyPage() {
             <h2 className="text-lg font-bold text-brand-dark mb-2">What Most Families Want to Know First</h2>
             <p className="text-gray-700 text-sm">
               You don&apos;t have to clean it out. You don&apos;t have to fix anything. You don&apos;t have to be in Allentown
-              to close. The biggest questions are usually about probate — and most of those are resolvable faster
-              than people expect with the right title company and a clear estate situation.
+              to close. The biggest questions are usually about probate. According to the Lehigh County Register
+              of Wills, estate administration can involve required filings and legal documents, so a title company
+              or Pennsylvania estate attorney should confirm authority before closing.
             </p>
           </div>
 
@@ -145,7 +146,7 @@ export default function AllentownInheritedPropertyPage() {
                 },
                 {
                   title: 'Multiple heirs',
-                  desc: 'You and your siblings, cousins, or other family members inherited the house together. Everyone needs to agree. We\'re experienced with multi-heir situations and can work with your estate attorney to get everyone to the closing table.',
+                  desc: 'You and your siblings, cousins, or other family members inherited the house together. Consent and signing authority depend on title, the will, letters, and court requirements. We can work with your estate attorney and title company to identify who has to sign.',
                 },
                 {
                   title: 'Property needs work',
@@ -153,11 +154,11 @@ export default function AllentownInheritedPropertyPage() {
                 },
                 {
                   title: 'Estate still in probate',
-                  desc: 'Probate in Lehigh County isn\'t finished yet, but you want to move forward. We can enter a purchase agreement and close once Letters Testamentary are issued from the Lehigh County Register of Wills. No need to wait for the full process to conclude.',
+                  desc: 'Probate in Lehigh County isn\'t finished yet, but you want to move forward. Per Pennsylvania Title 20 § 3155, the register grants letters to the appropriate personal representative; once that authority and title requirements are confirmed, the property sale can often proceed before every estate task is complete.',
                 },
                 {
                   title: 'Back taxes or liens',
-                  desc: 'The property has accumulated back taxes or there are liens from the estate. These are handled at closing — paid from proceeds. They don\'t prevent the sale.',
+                  desc: 'The property has accumulated back taxes or there are liens from the estate. The title company identifies recorded liens and payoff items so they can be addressed through the closing documents when a sale is feasible.',
                 },
               ].map((item, i) => (
                 <div key={i} className="border border-gray-200 rounded-xl p-5">
@@ -171,15 +172,17 @@ export default function AllentownInheritedPropertyPage() {
           <section className="mb-10">
             <h2 className="text-2xl font-bold text-brand-dark mb-4">Lehigh County Probate — The Basics</h2>
             <p className="text-gray-700 mb-4">
-              If the property was titled solely in the deceased&apos;s name, it goes through probate at the
-              Lehigh County Register of Wills. Here&apos;s what that typically looks like:
+              If the property was titled solely in the deceased&apos;s name, it usually has to be handled through
+              estate administration. The Lehigh County Register of Wills says its office probates estates and provides
+              estate-administration forms; Pennsylvania Title 20 § 3155 explains who may receive letters. Here&apos;s what
+              that process usually looks like:
             </p>
             <div className="space-y-3">
               {[
-                { step: '1', label: 'File for probate at Lehigh County Register of Wills', detail: '455 W Hamilton St, Allentown PA 18101 (Lehigh County Courthouse). The executor (personal representative) named in the will files for Letters Testamentary.' },
-                { step: '2', label: 'Letters Testamentary are issued', detail: 'Once issued, the executor has legal authority to manage and sell estate assets. This often happens within days to a couple of weeks.' },
-                { step: '3', label: 'Executor signs the purchase agreement', detail: 'With Letters Testamentary in hand, the executor can sign a real estate contract. The estate sells the property, not the individual heirs.' },
-                { step: '4', label: 'Close with a title company', detail: 'Closing is handled by a PA title company. Proceeds go to the estate account for distribution to heirs according to the will or PA intestate law.' },
+                { step: '1', label: 'File for probate at Lehigh County Register of Wills', detail: 'Lehigh County lists the Register of Wills at Room 122, 455 W Hamilton St, Allentown PA 18101. The office probates estates and provides administration forms.' },
+                { step: '2', label: 'Letters Testamentary are issued', detail: 'Once issued, the executor or administrator can act for the estate within the authority granted. Timing depends on the filings, estate facts, and Register of Wills requirements.' },
+                { step: '3', label: 'Executor signs the purchase agreement', detail: 'With confirmed letters and title authority, the personal representative can usually sign a real estate contract for the estate.' },
+                { step: '4', label: 'Close with a title company', detail: 'Closing is handled by a PA title company. Proceeds are paid according to the closing documents and estate requirements.' },
               ].map((item) => (
                 <div key={item.step} className="flex gap-3 items-start border border-gray-200 rounded-lg p-4">
                   <div className="w-7 h-7 bg-brand-primary text-white rounded-full flex items-center justify-center text-sm font-bold shrink-0">
