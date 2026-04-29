@@ -27,6 +27,74 @@ const blogSchema = {
 
 const POSTS = getAllPosts();
 
+const MARKET_GROUPS = [
+  {
+    state: 'Pennsylvania',
+    markets: [
+      { label: 'Allentown PA', href: '/markets/allentown-pa' },
+      { label: 'Bethlehem PA', href: '/markets/bethlehem-pa' },
+      { label: 'Erie PA', href: '/markets/erie-pa' },
+      { label: 'Harrisburg PA', href: '/markets/harrisburg-pa' },
+      { label: 'King of Prussia PA', href: '/markets/king-of-prussia-pa' },
+      { label: 'Lancaster PA', href: '/markets/lancaster-pa' },
+      { label: 'Reading PA', href: '/markets/reading-pa' },
+      { label: 'State College PA', href: '/markets/state-college-pa' },
+      { label: 'York PA', href: '/markets/york-pa' },
+    ],
+  },
+  {
+    state: 'Connecticut',
+    markets: [
+      { label: 'Bridgeport CT', href: '/markets/bridgeport-ct' },
+      { label: 'Hartford CT', href: '/markets/hartford-ct' },
+      { label: 'New Haven CT', href: '/markets/new-haven-ct' },
+    ],
+  },
+  {
+    state: 'Delaware',
+    markets: [{ label: 'Wilmington DE', href: '/markets/wilmington-de' }],
+  },
+  {
+    state: 'Illinois',
+    markets: [
+      { label: 'Bloomington IL', href: '/markets/bloomington-il' },
+      { label: 'Champaign-Urbana IL', href: '/markets/champaign-urbana-il' },
+      { label: 'Peoria IL', href: '/markets/peoria-il' },
+      { label: 'Rockford IL', href: '/markets/rockford-il' },
+      { label: 'Springfield IL', href: '/markets/springfield-il' },
+    ],
+  },
+  {
+    state: 'Massachusetts',
+    markets: [
+      { label: 'Boston MA', href: '/markets/boston-ma' },
+      { label: 'Springfield MA', href: '/markets/springfield-ma' },
+      { label: 'Worcester MA', href: '/markets/worcester-ma' },
+    ],
+  },
+  {
+    state: 'New Hampshire',
+    markets: [{ label: 'Manchester NH', href: '/markets/manchester-nh' }],
+  },
+  {
+    state: 'New York',
+    markets: [{ label: 'Rochester NY', href: '/markets/rochester-ny' }],
+  },
+  {
+    state: 'Ohio',
+    markets: [{ label: 'Youngstown OH', href: '/markets/youngstown-oh' }],
+  },
+  {
+    state: 'Wisconsin',
+    markets: [
+      { label: 'Kenosha WI', href: '/markets/kenosha-wi' },
+      { label: 'Oshkosh WI', href: '/markets/oshkosh-wi' },
+      { label: 'Racine / Mount Pleasant WI', href: '/markets/racine-mount-pleasant-wi' },
+      { label: 'Wausau WI', href: '/markets/wausau-wi' },
+    ],
+  },
+];
+
 const CATEGORY_COLORS: Record<string, string> = {
   'Inherited Property': 'bg-purple-100 text-purple-700',
   'Code Violations': 'bg-orange-100 text-orange-700',
@@ -141,25 +209,28 @@ export default async function BlogIndexPage() {
         {/* Market links */}
         <div className="mt-10 bg-blue-50 rounded-2xl p-6">
           <h2 className="text-lg font-bold text-brand-dark mb-3">Our Markets</h2>
-          <p className="text-sm text-gray-600 mb-4">
+          <p className="text-sm text-gray-600 mb-5">
             We buy houses across 28 markets. Start with a local market page or read the latest seller guide for your city.
           </p>
-          <div className="flex flex-wrap gap-3">
-            <Link href="/markets/harrisburg-pa" className="text-sm font-medium text-brand-primary hover:underline">
-              Harrisburg PA →
-            </Link>
-            <Link href="/markets/allentown-pa" className="text-sm font-medium text-brand-primary hover:underline">
-              Allentown PA →
-            </Link>
-            <Link href="/markets/rochester-ny" className="text-sm font-medium text-brand-primary hover:underline">
-              Rochester NY →
-            </Link>
-            <Link href="/markets/springfield-il" className="text-sm font-medium text-brand-primary hover:underline">
-              Springfield IL →
-            </Link>
-            <Link href="/markets/kenosha-wi" className="text-sm font-medium text-brand-primary hover:underline">
-              Kenosha WI →
-            </Link>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
+            {MARKET_GROUPS.map((group) => (
+              <div key={group.state}>
+                <h3 className="text-xs font-semibold uppercase tracking-wide text-gray-500 mb-2">
+                  {group.state}
+                </h3>
+                <div className="flex flex-col gap-2">
+                  {group.markets.map((market) => (
+                    <Link
+                      key={market.href}
+                      href={market.href}
+                      className="text-sm font-medium text-brand-primary hover:underline"
+                    >
+                      {market.label} →
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            ))}
           </div>
         </div>
 
