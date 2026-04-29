@@ -11,7 +11,7 @@ export const revalidate = 86400;
 export const metadata: Metadata = {
   title: 'Sell My House Fast Massachusetts',
   description:
-    'We buy houses for cash throughout Massachusetts — Springfield, Worcester, and surrounding Hampden and Worcester Counties. Written offer in 24 hours. Hablamos español.',
+    'We buy houses for cash throughout Massachusetts — Springfield, Worcester, Boston / Suffolk County, and surrounding markets. Written offer in 24 hours. Hablamos español.',
   alternates: { canonical: `${SITE_URL}/sell-house-fast-massachusetts` },
 };
 
@@ -37,7 +37,7 @@ export default function SellHouseFastMassachusettsPage() {
         <div className="bg-blue-50 border border-blue-100 rounded-xl p-5 mb-8">
           <p className="text-sm font-semibold text-blue-800 mb-2">TL;DR</p>
           <p className="text-sm text-blue-900 leading-relaxed">
-            USA Home Buyers purchases houses for cash throughout Massachusetts — currently serving Springfield (Hampden County) and Worcester (Worcester County), with expansion ongoing. Written offer in 24 hours, close in 7–14 days, any condition, no repairs, no fees. Massachusetts deed excise stamps ($4.56 per $1,000) covered by us. Non-judicial foreclosure state — process moves in 75-120 days. Hablamos español. Call 888-274-5006.
+            USA Home Buyers purchases houses for cash throughout Massachusetts — currently serving Springfield (Hampden County), Worcester (Worcester County), Boston (Suffolk County), and nearby communities. Written offer in 24 hours, close in 7–14 days, any condition, no repairs, no fees. Massachusetts deed excise stamps ($4.56 per $1,000) covered by us. Non-judicial foreclosure state — call before auction notices accelerate. Hablamos español. Call 888-274-5006.
           </p>
         </div>
 
@@ -83,6 +83,9 @@ export default function SellHouseFastMassachusettsPage() {
           <p className="text-gray-700 mb-4">
             Massachusetts uses deed excise stamps instead of a traditional real estate transfer tax. The rate is $4.56 per $1,000 of consideration (or fraction thereof), paid entirely by the seller. There is no buyer-side transfer tax.
           </p>
+          <p className="text-gray-700 mb-4">
+            The examples below use representative sale-price figures for our active Massachusetts markets; they are not an exclusive service-area list, and Boston / Suffolk County follows the same statewide deed-excise formula.
+          </p>
           <div className="overflow-x-auto mb-4">
             <table className="w-full text-sm border-collapse">
               <thead>
@@ -95,6 +98,7 @@ export default function SellHouseFastMassachusettsPage() {
               <tbody className="divide-y divide-gray-200">
                 <tr className="bg-white"><td className="p-3">$175,000 (Springfield)</td><td className="p-3">$4.56 × 175 = $798</td><td className="p-3">$798</td></tr>
                 <tr className="bg-gray-50"><td className="p-3">$310,000 (Worcester)</td><td className="p-3">$4.56 × 310 = $1,414</td><td className="p-3">$1,414</td></tr>
+                <tr className="bg-white"><td className="p-3">$829,000 (Boston metro)</td><td className="p-3">$4.56 × 829 = $3,780</td><td className="p-3">$3,780</td></tr>
               </tbody>
             </table>
           </div>
@@ -140,7 +144,7 @@ export default function SellHouseFastMassachusettsPage() {
             Massachusetts allows the personal representative to sell property under a License to Sell issued by the probate court. The small estate threshold (Voluntary Administration) is $25,000 in gross personal property — real estate generally requires full probate regardless. Source: MGL Ch. 190B (Uniform Probate Code) at malegislature.gov.
           </p>
           <p className="text-gray-700 mb-4">
-            <strong>Probate courts for our MA markets:</strong> Hampden County Probate and Family Court (50 State Street, Springfield, (413) 748-7776); Worcester County Probate and Family Court (225 Main Street, Worcester, (508) 770-0825).
+            <strong>Probate courts for our MA markets:</strong> Hampden County Probate and Family Court (50 State Street, Springfield, (413) 748-7776); Worcester County Probate and Family Court (225 Main Street, Worcester, (508) 770-0825); and Suffolk County Probate and Family Court for Boston / Suffolk County estate property questions.
           </p>
         </section>
 
@@ -168,7 +172,7 @@ export default function SellHouseFastMassachusettsPage() {
         </section>
 
         <div className="mb-8 p-4 bg-blue-50 rounded-xl">
-          <p className="text-sm text-blue-900"><strong>Hablamos español.</strong> Springfield has a 48% Hispanic community, primarily Puerto Rican. We serve Massachusetts sellers in English and Spanish. Llámenos al 888-274-5006.</p>
+          <p className="text-sm text-blue-900"><strong>Hablamos español.</strong> Springfield has a 48% Hispanic community, primarily Puerto Rican. We serve Massachusetts sellers in English and Spanish across Springfield, Worcester, Boston, and nearby communities. Llámenos al 888-274-5006.</p>
         </div>
 
 

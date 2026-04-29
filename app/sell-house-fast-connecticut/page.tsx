@@ -11,7 +11,7 @@ export const revalidate = 86400;
 export const metadata: Metadata = {
   title: 'Sell My House Fast Connecticut',
   description:
-    'We buy houses for cash throughout Connecticut — Bridgeport, New Haven, and surrounding areas. Written offer in 24 hours, close in 7 days.',
+    'We buy houses for cash throughout Connecticut — Bridgeport, New Haven, Hartford, and surrounding markets. Written offer in 24 hours, close in 7 days.',
   alternates: { canonical: `${SITE_URL}/sell-house-fast-connecticut` },
 };
 
@@ -37,12 +37,12 @@ export default function SellHouseFastConnecticutPage() {
         <div className="bg-blue-50 border border-blue-100 rounded-xl p-5 mb-8">
           <p className="text-sm font-semibold text-blue-800 mb-2">TL;DR</p>
           <p className="text-sm text-blue-900 leading-relaxed">
-            USA Home Buyers purchases houses for cash throughout Connecticut — currently serving Bridgeport and New Haven. Written offer in 24 hours, close in 7–14 days, any condition, no repairs, no fees. We cover all closing costs. Call 888-274-5006.
+            USA Home Buyers purchases houses for cash throughout Connecticut — currently serving Bridgeport, New Haven, Hartford, and nearby communities. Written offer in 24 hours, close in 7–14 days, any condition, no repairs, no fees. We cover all closing costs. Call 888-274-5006.
           </p>
         </div>
 
         <section className="mb-10">
-          <h2 className="text-2xl font-bold text-brand-dark mb-4">Our Connecticut Markets: Bridgeport + New Haven</h2>
+          <h2 className="text-2xl font-bold text-brand-dark mb-4">Connecticut Markets We Serve: Bridgeport, New Haven + Hartford</h2>
           <div className="grid sm:grid-cols-2 gap-4">
             <Link href="/markets/bridgeport-ct" className="bg-white border border-gray-200 rounded-xl p-5 hover:border-brand-primary transition-colors group">
               <h3 className="font-bold text-brand-dark group-hover:text-brand-primary mb-1">Bridgeport, CT</h3>
@@ -84,10 +84,11 @@ export default function SellHouseFastConnecticutPage() {
         <section className="mb-10">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">Section 3: Connecticut Foreclosure Process</h2>
           <p className="text-gray-700 mb-4">Connecticut uses strict foreclosure — one of the most unusual foreclosure systems in the United States. When a lender files a foreclosure action in CT Superior Court, the court can grant "strict foreclosure" where no auction takes place. Instead, the court sets a "Law Day" — a specific date by which the homeowner must pay off the full debt or lose title directly to the lender. There is no redemption period after the Law Day passes. Title vests in the lender immediately when the Law Day expires without payment. Connecticut also uses "foreclosure by sale" (court-ordered auction) in some cases. Source: Connecticut General Statutes §49-1 through 49-31 (cga.ct.gov).</p>
-          <p className="text-gray-700 mb-4"><strong>For both our CT markets:</strong> CT's mandatory owner-occupied mediation program requires lenders to offer mediation before proceeding — typically adding 60-90 days before a Law Day is set. This window is critical for distressed sellers: a cash sale before Law Day preserves credit and avoids the lender taking title outright.</p>
+          <p className="text-gray-700 mb-4"><strong>Across our Connecticut markets:</strong> CT's mandatory owner-occupied mediation program requires lenders to offer mediation before proceeding — typically adding 60-90 days before a Law Day is set. This window is critical for distressed sellers: a cash sale before Law Day preserves credit and avoids the lender taking title outright.</p>
           <ul className="list-disc list-inside space-y-1 text-gray-700 text-sm mb-4">
             <li><strong>Bridgeport (Fairfield County):</strong> Strict foreclosure or foreclosure by sale · Bridgeport Superior Court · typical timeline 5-9 months + 60-90 day mediation window</li>
             <li><strong>New Haven (New Haven County):</strong> Strict foreclosure (CT Gen Stat §§49-1 through 49-31) · New Haven Superior Court · Law Day title-transfer, NO auction · typical timeline 5-9 months · mandatory owner-occupied mediation 60-90 days</li>
+            <li><strong>Hartford (Hartford County):</strong> Strict foreclosure or foreclosure by sale · Hartford Judicial District / Superior Court context · Law Day risk and owner-occupied mediation window apply before title can transfer</li>
           </ul>
         </section>
 
@@ -98,6 +99,7 @@ export default function SellHouseFastConnecticutPage() {
           <ul className="list-disc list-inside space-y-1 text-gray-700 text-sm mb-4">
             <li>Bridgeport Probate Court, 45 Lyon Terrace Room 121, Bridgeport CT 06604, Phone: (203) 576-7957</li>
             <li>New Haven Probate Court, 200 Orange Street, New Haven CT 06510, Phone: (203) 946-4880</li>
+            <li>Hartford Probate Court / Hartford probate jurisdiction for Hartford County-area estate property questions</li>
           </ul>
         </section>
 
@@ -120,11 +122,11 @@ export default function SellHouseFastConnecticutPage() {
               </tbody>
             </table>
           </div>
-          <p className="mt-3 text-xs text-gray-500">Data: Zillow ZHVI and Redfin market statistics, March–April 2026.</p>
+          <p className="mt-3 text-xs text-gray-500">Data: Zillow ZHVI, Redfin market statistics, and source-backed market packages, March 2026 source data.</p>
         </section>
 
         <div className="mb-8 p-4 bg-blue-50 rounded-xl">
-          <p className="text-sm text-blue-900"><strong>Hablamos español.</strong> Bridgeport has a 41% Hispanic community; New Haven is 31% Hispanic. We serve Connecticut sellers in English and Spanish across both markets. Llámenos al 888-274-5006.</p>
+          <p className="text-sm text-blue-900"><strong>Hablamos español.</strong> Bridgeport has a 41% Hispanic community; New Haven is 31% Hispanic. We serve Connecticut sellers in English and Spanish across Bridgeport, New Haven, Hartford, and nearby communities. Llámenos al 888-274-5006.</p>
         </div>
 
         <section className="mb-12">
