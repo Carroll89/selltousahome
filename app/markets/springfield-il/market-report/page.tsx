@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
 import { VideoEmbed } from '@/components/VideoEmbed';
 import { CashOfferForm } from '@/components/CashOfferForm';
-import { organizationSchema, articleSchema } from '@/lib/schema';
+import { organizationSchema, articleSchema, videoObjectSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
 
 export const revalidate = 86400;
@@ -24,6 +24,12 @@ export default function SpringfieldILMarketReportPage() {
       <SchemaMarkup schema={[
         organizationSchema,
         articleSchema('Springfield IL Housing Market Report 2026 — Data for Sellers', pageUrl, '2026-04-18'),
+        videoObjectSchema({
+          name: 'Springfield IL Real Estate Market Report 2026',
+          description: 'Why now is a strong time to sell in Sangamon County',
+          contentUrl: `${SITE_URL}/videos/springfield-il/market-report.mp4`,
+          thumbnailUrl: `${SITE_URL}/videos/springfield-il/market-report-poster.jpg`,
+        }),
       ]} />
 
       <div className="max-w-4xl mx-auto px-4 py-12">
@@ -158,6 +164,7 @@ export default function SpringfieldILMarketReportPage() {
 
         <div className="my-10">
 
+      {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
       <VideoEmbed
         src="/videos/springfield-il/market-report.mp4"
         title="Springfield IL Real Estate Market Report 2026"

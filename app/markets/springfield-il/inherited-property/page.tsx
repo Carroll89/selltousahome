@@ -5,7 +5,7 @@ import { SchemaMarkup } from '@/components/SchemaMarkup';
 import { VideoEmbed } from '@/components/VideoEmbed';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
-import { organizationSchema, articleSchema, faqSchema } from '@/lib/schema';
+import { organizationSchema, articleSchema, faqSchema, videoObjectSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
 
 export const revalidate = 86400;
@@ -53,6 +53,12 @@ export default function SpringfieldInheritedPropertyPage() {
         organizationSchema,
         articleSchema('Selling an Inherited House in Springfield IL - Sangamon County Probate Guide', pageUrl, '2026-04-18'),
         faqSchema(FAQ_ITEMS),
+        videoObjectSchema({
+          name: 'Sell Inherited House in Springfield IL',
+          description: 'We handle probate, as-is purchase, and fast close in Sangamon County',
+          contentUrl: `${SITE_URL}/videos/springfield-il/inherited-property.mp4`,
+          thumbnailUrl: `${SITE_URL}/videos/springfield-il/inherited-property-poster.jpg`,
+        }),
       ]} />
 
       <section className="relative text-white py-16 px-4 overflow-hidden">
@@ -94,6 +100,7 @@ export default function SpringfieldInheritedPropertyPage() {
           </div>
           <div>
 
+      {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
       <VideoEmbed
         src="/videos/springfield-il/inherited-property.mp4"
         title="Sell Inherited House in Springfield IL"
