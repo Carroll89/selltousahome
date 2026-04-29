@@ -4,7 +4,7 @@ import Link from 'next/link';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
 import { VideoEmbed } from '@/components/VideoEmbed';
 import { CashOfferForm } from '@/components/CashOfferForm';
-import { organizationSchema, articleSchema } from '@/lib/schema';
+import { organizationSchema, articleSchema, videoObjectSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
 
 export const revalidate = 86400;
@@ -90,6 +90,13 @@ export default function ChampaignUrbanaNeighborhoodsPage() {
       <SchemaMarkup schema={[
         organizationSchema,
         articleSchema('Champaign-Urbana IL Neighborhoods — Cash Buyer Price Guide', pageUrl, '2026-04-18'),
+
+        videoObjectSchema({
+          name: 'Champaign-Urbana IL Neighborhoods — We Buy Houses Everywhere',
+          description: 'Campustown to Savoy to Philo Road — any neighborhood, any condition',
+          contentUrl: `${SITE_URL}/videos/champaign-urbana-il/neighborhoods.mp4`,
+          thumbnailUrl: `${SITE_URL}/videos/champaign-urbana-il/neighborhoods-poster.jpg`,
+        }),
       ]} />
 
       <section className="relative text-white py-16 px-4 overflow-hidden bg-brand-dark">
@@ -178,6 +185,7 @@ export default function ChampaignUrbanaNeighborhoodsPage() {
           </p>
         </section>
 
+      {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
       <VideoEmbed
         src="/videos/champaign-urbana-il/neighborhoods.mp4"
         title="Champaign-Urbana IL Neighborhoods — We Buy Houses Everywhere"

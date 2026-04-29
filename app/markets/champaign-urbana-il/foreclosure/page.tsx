@@ -5,7 +5,7 @@ import { SchemaMarkup } from '@/components/SchemaMarkup';
 import { VideoEmbed } from '@/components/VideoEmbed';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
-import { organizationSchema, articleSchema, faqSchema } from '@/lib/schema';
+import { organizationSchema, articleSchema, faqSchema, videoObjectSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
 
 export const revalidate = 86400;
@@ -49,6 +49,13 @@ export default function ChampaignUrbanaForeclosurePage() {
         organizationSchema,
         articleSchema('Stop Foreclosure in Champaign-Urbana IL — Sell Before the Sheriff\'s Sale', pageUrl, '2026-04-18'),
         faqSchema(FAQ_ITEMS),
+
+        videoObjectSchema({
+          name: 'Facing Foreclosure in Champaign-Urbana IL?',
+          description: 'Sell before the Champaign County auction — protect your equity and credit',
+          contentUrl: `${SITE_URL}/videos/champaign-urbana-il/foreclosure.mp4`,
+          thumbnailUrl: `${SITE_URL}/videos/champaign-urbana-il/foreclosure-poster.jpg`,
+        }),
       ]} />
 
       <section className="relative text-white py-16 px-4 overflow-hidden">
@@ -86,6 +93,7 @@ export default function ChampaignUrbanaForeclosurePage() {
               📞 Call (888) 274-5006 — Act Now
             </a>
           </div>
+      {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
       <VideoEmbed
         src="/videos/champaign-urbana-il/foreclosure.mp4"
         title="Facing Foreclosure in Champaign-Urbana IL?"
