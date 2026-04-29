@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 
 const FAQ_ITEMS = [
   { question: 'How do I sell an inherited house in Boston?', answer: 'If probate is required, you\'ll need appointment as personal representative from Suffolk County Probate and Family Court. Massachusetts requires a license to sell real estate from the estate unless the will grants specific authority. Once authorized, we can close in 7 days. Source: MGL Ch. 202.' },
-  { question: 'How long does probate take in Suffolk County?', answer: 'Suffolk County Probate and Family Court typically takes 3-8 months for standard estates. Contested estates take longer. Once you have authority to sell, we close fast.' },
+  { question: 'How long does probate take in Suffolk County?', answer: 'Standard Suffolk County estates often take several months, and contested estates take longer. Suffolk County Probate and Family Court handles Boston probate matters; your probate attorney can advise on the specific timeline and authority to sell. Once you have authority to sell, we close fast.' },
   { question: 'Do I need to clean out the house?', answer: 'No. We buy houses full of belongings, with deferred maintenance, outdated systems. Many inherited Boston homes have decades of accumulated contents. We handle everything.' },
   { question: 'What if there are multiple heirs?', answer: 'All heirs or the court-appointed personal representative must agree. We handle multi-heir sales regularly in Suffolk County.' },
 ];
@@ -57,7 +57,7 @@ export default function BostonInheritedPropertyPage() {
             Your probate attorney can advise on timeline and process.
           </p>
           <p className="text-gray-700 mb-4">
-            Standard estates in Suffolk County without complications typically take 3–8 months from filing
+            In our experience, standard estates in Suffolk County without complications often take several months from filing
             to full authorization — contested estates take longer. Suffolk County Probate and Family Court
             (mass.gov/locations/suffolk-probate-and-family-court) handles these proceedings. Once you have authority to sell,
             we can close in as few as 7 days.

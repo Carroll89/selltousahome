@@ -17,8 +17,8 @@ export const metadata: Metadata = {
 };
 
 const FAQ_ITEMS = [
-  { question: 'How does probate work in Boston?', answer: 'Estates go through Suffolk County Probate and Family Court. A personal representative is appointed (executor if named in will, administrator if no will). Massachusetts may require a license to sell real estate from the estate (MGL Ch. 202) unless the will grants specific authority. Source: Suffolk County Probate Court.' },
-  { question: 'How long does Suffolk County probate take?', answer: 'Typical timeline: 3-8 months for fiduciary appointment. Complex or contested estates take longer. Once authorized, we close in 7 days.' },
+  { question: 'How does probate work in Boston?', answer: 'Estates go through Suffolk County Probate and Family Court. A personal representative is appointed (executor if named in will, administrator if no will). Massachusetts may require a license to sell real estate from the estate (MGL Ch. 202) unless the will grants specific authority. Suffolk County Probate and Family Court is the venue for Boston probate matters.' },
+  { question: 'How long does Suffolk County probate take?', answer: 'Standard Suffolk County estates often take several months, and complex or contested estates take longer. Once authorized, we close in 7 days.' },
   { question: 'Can I sell before probate finishes?', answer: 'You need authority to sell before closing. We can evaluate and have an offer ready so you close immediately upon appointment.' },
   { question: 'What about liens or back taxes?', answer: 'We buy properties with liens and back taxes. Suffolk County property taxes, water/sewer liens, and mortgages are settled at closing from proceeds.' },
 ];

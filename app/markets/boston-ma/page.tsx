@@ -32,7 +32,7 @@ const TESTIMONIALS = [
     "date": "March 2026"
   },
   {
-    "quote": "Massachusetts foreclosure is non-judicial — the bank can foreclose by power of sale without going to court, and the whole process can move in under four months. I was behind three months and got a notice of default. USA Home Buyers had a written offer the same day I called. We closed in nine days. Foreclosure stopped.",
+    "quote": "Massachusetts foreclosure is non-judicial — the bank can foreclose by power of sale without going to court, and timing can move quickly once notices and sale publication are underway. I was behind three months and got a notice of default. USA Home Buyers had a written offer the same day I called. We closed in nine days. Foreclosure stopped.",
     "name": "James D.",
     "location": "Mattapan, Boston MA",
     "situation": "Pre-Foreclosure — Non-Judicial Power of Sale",
@@ -88,7 +88,7 @@ const COMPARISON_ROWS = [
 const FAQ_ITEMS = [
   {
     question: 'How fast can I sell my house for cash in Boston MA?',
-    answer: 'USA Home Buyers can close in as few as 7 days in Boston. We send a written cash offer within 24 hours. Massachusetts uses non-judicial foreclosure by power of sale under MGL Ch. 244 — meaning lenders can foreclose without court action, and the process can complete in under four months. If you\'re facing foreclosure, speed matters. Call 888-274-5006 immediately.',
+    answer: 'USA Home Buyers can close in as few as 7 days in Boston. We send a written cash offer within 24 hours. Massachusetts uses non-judicial foreclosure by power of sale under MGL Ch. 244 — meaning lenders can foreclose without court action, and timing can move quickly once statutory notices and sale publication are underway. If you\'re facing foreclosure, speed matters. Call 888-274-5006 immediately.',
   },
   {
     question: 'How much will you pay for my Boston home?',
@@ -100,7 +100,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How does foreclosure work in Massachusetts?',
-    answer: 'Massachusetts uses non-judicial foreclosure by power of sale under MGL Ch. 244. The lender can foreclose without going to court if the mortgage contains a power of sale clause (most do). The process requires a 150-day right-to-cure period, then publication of sale notice for 3 consecutive weeks. Total timeline: typically 4-7 months from default to auction. Source: Massachusetts Trial Court (mass.gov/courts).',
+    answer: 'Massachusetts uses non-judicial foreclosure by power of sale under MGL Ch. 244. The lender can foreclose without going to court if the mortgage contains a power of sale clause (most do). The process includes a 150-day right-to-cure period and publication of sale notice for 3 consecutive weeks; overall timing varies by notice, cure, publication, contest, and lender schedule. Source for process: MGL Ch. 244 and Massachusetts Trial Court materials.',
   },
   {
     question: 'What areas in Greater Boston do you buy in?',
