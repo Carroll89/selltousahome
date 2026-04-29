@@ -95,6 +95,7 @@ export default function ReadingInheritedPropertyPage() {
         </div>
       </section>
 
+      {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
       <VideoEmbed
         src="/videos/reading-pa-inherited.mp4"
         title="Selling an Inherited House in Reading PA"

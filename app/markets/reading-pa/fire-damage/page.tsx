@@ -95,6 +95,7 @@ export default function ReadingFireDamagePage() {
         </div>
       </section>
 
+      {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
       <VideoEmbed
         src="/videos/reading-pa-fire-damage.mp4"
         title="Sell Your Fire-Damaged Home in Reading PA"

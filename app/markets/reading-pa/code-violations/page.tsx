@@ -95,6 +95,7 @@ export default function ReadingCodeViolationsPage() {
         </div>
       </section>
 
+      {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
       <VideoEmbed
         src="/videos/reading-pa-code-violations.mp4"
         title="Reading PA Code Violations — Sell As-Is"

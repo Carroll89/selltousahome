@@ -95,6 +95,7 @@ export default function ReadingTenantOccupiedPage() {
         </div>
       </section>
 
+      {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
       <VideoEmbed
         src="/videos/reading-pa-tenant-occupied.mp4"
         title="Sell Your Reading PA Rental — No Eviction Needed"
