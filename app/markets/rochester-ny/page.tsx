@@ -95,11 +95,11 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How much will you pay for my Rochester NY house?',
-    answer: 'Cash offers for Rochester homes typically range from 65-78% of fair market value. According to Zillow, the Rochester median home value is approximately $155,000. A typical cash offer on a 19th Ward or South Wedge bungalow in the $130,000-$175,000 range runs $85,000-$137,000. We cover all closing costs including New York State\'s transfer tax ($4 per $1,000 — seller pays on traditional sales).',
+    answer: 'Cash offers for Rochester homes typically range from 65-78% of fair market value. According to Zillow Research, the Rochester City ZHVI is $235,784 (+3.0% YoY, March 2026); Redfin tracks the city median sale price at $160,000 (March 2026). A typical cash offer on a 19th Ward or South Wedge bungalow runs 65-78% of FMV. We cover all closing costs including New York State\'s transfer tax ($4 per $1,000 — seller pays on traditional sales).',
   },
   {
     question: 'What is the transfer tax when selling a house in Rochester NY?',
-    answer: 'New York State Real Property Transfer Tax is $4.00 per $1,000 of consideration (0.4%). In Monroe County, there is no additional county transfer tax beyond the state rate. The seller pays the NYS tax. On a $155,000 home, the transfer tax is $620. When you sell to USA Home Buyers, we cover all closing costs. Source: New York State Department of Taxation and Finance (tax.ny.gov).',
+    answer: 'New York State Real Property Transfer Tax is $4.00 per $1,000 of consideration (0.4%). In Monroe County, there is no additional county transfer tax beyond the state rate. The seller pays the NYS tax. On a $160,000 home, the transfer tax is $640. When you sell to USA Home Buyers, we cover all closing costs. Source: New York State Department of Taxation and Finance (tax.ny.gov).',
   },
   {
     question: 'How does foreclosure work in Rochester NY?',
@@ -166,7 +166,7 @@ export default function RochesterNYMarketPage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                USA Home Buyers purchases houses in Rochester NY and throughout Monroe County — 19th Ward, South Wedge, Park Avenue, Corn Hill, Maplewood, Charlotte, and surrounding communities including Greece, Irondequoit, and Brighton. Written cash offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no fees. According to Zillow, Rochester median home values are around $155,000. We cover all closing costs including NY transfer tax. Call 888-274-5006.
+                USA Home Buyers purchases houses in Rochester NY and throughout Monroe County — 19th Ward, South Wedge, Park Avenue, Corn Hill, Maplewood, Charlotte, and surrounding communities including Greece, Irondequoit, and Brighton. Written cash offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no fees. According to Zillow Research, Rochester City ZHVI is $235,784 (+3.0% YoY, March 2026). Redfin city median sale price: $160,000. We cover all closing costs including NY transfer tax. Call 888-274-5006.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
@@ -216,9 +216,9 @@ export default function RochesterNYMarketPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200">
-                <tr className="bg-white"><td className="p-3 font-medium">Median home value</td><td className="p-3">$155,000</td><td className="p-3 text-gray-500">Zillow ZHVI (Mar 2026)</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">Median sale price</td><td className="p-3">$162,000</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
-                <tr className="bg-white"><td className="p-3 font-medium">Median days on market</td><td className="p-3">~33 days</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Median home value (Zillow City ZHVI)</td><td className="p-3">$235,784 (+3.0% YoY)</td><td className="p-3 text-gray-500">Zillow Research City ZHVI (Mar 2026)</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Median sale price</td><td className="p-3">$160,000 (+6.0% YoY)</td><td className="p-3 text-gray-500">Redfin city (Mar 2026)</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Median days on market</td><td className="p-3">14 days</td><td className="p-3 text-gray-500">Redfin city (Mar 2026)</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Transfer tax</td><td className="p-3">$4.00 per $1,000 NYS (seller pays)</td><td className="p-3 text-gray-500">NY Tax Law §1402</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Foreclosure type</td><td className="p-3">Judicial (Monroe County Supreme Court, 12-24 months)</td><td className="p-3 text-gray-500">RPAPL §1301 et seq.</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Primary county</td><td className="p-3">Monroe County</td><td className="p-3 text-gray-500">—</td></tr>
@@ -245,7 +245,7 @@ export default function RochesterNYMarketPage() {
           <h2 className="text-2xl md:text-3xl font-bold text-brand-dark mb-4">Cash Sale vs. Listing With an Agent in Rochester NY</h2>
           <ComparisonTable rows={COMPARISON_ROWS} />
           <p className="mt-4 text-sm text-gray-600">
-            On a $162,000 Rochester home, a 5-6% agent commission runs $8,100-$9,720. Add NY State transfer tax (~$648), carrying costs during 33+ days on market, and repairs on post-war housing stock. Many Rochester bungalows and Capes have old knob-and-tube or aluminum wiring, aging oil-to-gas conversion systems, and asbestos insulation in pre-1980 homes — items that can disqualify buyers from FHA or conventional financing and shrink your effective buyer pool.
+            On a $160,000 Rochester home, a 5-6% agent commission runs $8,000-$9,600. Add NY State transfer tax (~$640), carrying costs during 14+ days on market, and repairs on post-war housing stock. Many Rochester bungalows and Capes have old knob-and-tube or aluminum wiring, aging oil-to-gas conversion systems, and asbestos insulation in pre-1980 homes — items that can disqualify buyers from FHA or conventional financing and shrink your effective buyer pool.
           </p>
         </section>
 

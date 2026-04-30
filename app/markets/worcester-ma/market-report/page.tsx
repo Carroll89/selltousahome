@@ -35,7 +35,7 @@ export default function WorcesterMarketReportPage() {
         <div className="bg-blue-50 border border-blue-100 rounded-xl p-4 mb-8">
           <p className="text-sm font-medium text-blue-800 mb-1">TL;DR</p>
           <p className="text-sm text-blue-900 leading-relaxed">
-            According to Zillow and Redfin data for Worcester County (2026), the Worcester median home value is $310,000, with a median sale price of $315,000 and approximately 24 days on market. Transfer tax: $4.56 per $1,000 (deed excise, seller pays). Foreclosure process: Non-judicial. For a cash offer based on current Worcester market conditions, call USA Home Buyers at 888-274-5006.
+According to Zillow Research and Redfin data for Worcester city (March 2026), the Worcester City ZHVI is $430,112 (+1.0% YoY); Redfin city median sale price is $499,250 (+12.2% YoY); median days on market: 26 days. Transfer tax: $4.56 per $1,000 (deed excise, seller pays). Foreclosure process: Non-judicial. For a cash offer based on current Worcester market conditions, call USA Home Buyers at 888-274-5006.
           </p>
         </div>
 
@@ -51,10 +51,10 @@ export default function WorcesterMarketReportPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200">
-                <tr className="bg-white"><td className="p-3 font-medium">Median home value</td><td className="p-3">$310,000</td><td className="p-3 text-gray-500">Zillow ZHVI (Mar 2026)</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">Median sale price</td><td className="p-3">$315,000</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
-                <tr className="bg-white"><td className="p-3 font-medium">Price per sq ft</td><td className="p-3">$205</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">Median days on market</td><td className="p-3">24 days</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Median home value (Zillow City ZHVI)</td><td className="p-3">$430,112 (+1.0% YoY)</td><td className="p-3 text-gray-500">Zillow Research City ZHVI (Mar 2026)</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Median sale price</td><td className="p-3">$499,250 (+12.2% YoY)</td><td className="p-3 text-gray-500">Redfin city (Mar 2026)</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Price per sq ft</td><td className="p-3">$265</td><td className="p-3 text-gray-500">Redfin city (Mar 2026)</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Median days on market</td><td className="p-3">26 days</td><td className="p-3 text-gray-500">Redfin city (Mar 2026)</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Typical cash offer range</td><td className="p-3">68-80% of FMV</td><td className="p-3 text-gray-500">Local investor norms</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Transfer tax</td><td className="p-3">$4.56 per $1,000 (deed excise, seller pays)</td><td className="p-3 text-gray-500">State revenue authority</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Foreclosure process</td><td className="p-3">Non-judicial (power of sale, ~75-120 days, MGL Ch. 183)</td><td className="p-3 text-gray-500">State statutes</td></tr>
@@ -98,7 +98,7 @@ export default function WorcesterMarketReportPage() {
         <section className="mb-10">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">What This Means for Worcester Sellers</h2>
           <p className="text-gray-700 mb-4">
-            With 24 median days on market, a traditional sale in Worcester still takes time — and that's before accounting for inspection contingencies, financing contingencies, and repair negotiations. Properties that need work often sit longer or require significant price reductions.
+            With 26 median days on market, a traditional sale in Worcester still takes time — and that's before accounting for inspection contingencies, financing contingencies, and repair negotiations. Properties that need work often sit longer or require significant price reductions.
           </p>
           <p className="text-gray-700 mb-4">
             A direct cash sale to USA Home Buyers closes in 7–14 days with no repairs required. We cover all closing costs including $4.56 per $1,000 (deed excise, seller pays). The trade-off: cash offers typically run 68-80% of fair market value.
@@ -108,7 +108,7 @@ export default function WorcesterMarketReportPage() {
         <CashOfferForm variant="inline" headline="Get a Cash Offer Based on Current Worcester Market Data" subheadline="Written offer in 24 hours based on current Worcester County comps. We cover all closing costs." sourcePage="/markets/worcester-ma/market-report" />
 
         <div className="mt-8 text-sm text-gray-500">
-          <p>Data sources: Zillow Home Value Index (ZHVI), Redfin market statistics, U.S. Census Bureau American Community Survey. Market data reflects conditions as of March–April 2026. Individual property values vary. Contact us for a property-specific assessment.</p>
+          <p>Data sources: Zillow Research City ZHVI, Redfin market statistics, U.S. Census Bureau American Community Survey. Market data reflects conditions as of March 2026. Individual property values vary. Contact us for a property-specific assessment.</p>
         </div>
       </div>
     </>

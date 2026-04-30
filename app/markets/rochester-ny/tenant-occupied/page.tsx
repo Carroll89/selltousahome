@@ -89,9 +89,9 @@ export default function RochesterTenantOccupiedPage() {
 
       <div className="max-w-7xl mx-auto px-4 py-8">
         <section className="my-8">
-          <h2 className="text-2xl font-bold text-brand-dark mb-4">Market Data: Rochester NY — $162,000 Median Price</h2>
+          <h2 className="text-2xl font-bold text-brand-dark mb-4">Market Data: Rochester NY — $160,000 Median Sale Price (Mar 2026)</h2>
           <p className="text-gray-700 mb-4">
-            According to Zillow and Redfin data for Monroe County, the median home value in Rochester is approximately $162,000. Transfer tax: New York State Real Property Transfer Tax — $4.00 per $1,000 of consideration (0.4%). Seller pays. Monroe County does not impose an additional county transfer tax. On a $162,000 sale: $648. Source: NY Department of Taxation and Finance (tax.ny.gov).
+            The Redfin city median sale price in Rochester is $160,000 (+6.0% YoY, March 2026); Zillow Research City ZHVI is $235,784 (+3.0% YoY, March 2026). Transfer tax: New York State Real Property Transfer Tax — $4.00 per $1,000 of consideration (0.4%). Seller pays. Monroe County does not impose an additional county transfer tax. On a $160,000 sale: $640. Source: NY Department of Taxation and Finance (tax.ny.gov).
           </p>
         </section>
 

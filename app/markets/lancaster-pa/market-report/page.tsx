@@ -25,11 +25,11 @@ const articleSch = articleSchema(
 const faqItems = [
   {
     question: 'Is Lancaster PA a buyer\'s or seller\'s market in 2026?',
-    answer: 'Lancaster is a seller\'s market in 2026. According to Redfin, Lancaster County homes sell at 100.8% of list price on average, and Lancaster City holds a Compete Score of 84/100 — rated Very Competitive. Most retail-ready homes receive multiple offers. The exception is distressed or repair-needed inventory, which tends to sit longer.',
+    answer: 'Lancaster is a seller\'s market in 2026. According to Redfin (March 2026), Lancaster County homes sell at 101.9% of list price on average, and Lancaster City is rated Very Competitive. Most retail-ready homes receive multiple offers. The exception is distressed or repair-needed inventory, which tends to sit longer.',
   },
   {
     question: 'What is the median home price in Lancaster PA?',
-    answer: 'According to Zillow, the median home value in Lancaster City is $332,965 (+6.8% year-over-year). Lancaster County\'s Zillow median is $332,414 (+6.3% YoY). Redfin tracks Lancaster County median sale price at $321,000 (March 2026).',
+    answer: 'According to Redfin (March 2026), the Lancaster City median sale price is $255,000 (−0.2% YoY, 63 sales). Lancaster County median sale price is $349,775 (+5.8% YoY, 366 sales). Lancaster County Zillow ZHVI is $381,587 (+4.49% YoY, March 2026) — county context only.',
   },
   {
     question: 'What are recording fees when selling in Lancaster County?',
@@ -47,7 +47,7 @@ export default function LancasterMarketReportPage() {
         {/* TL;DR — GEO/AEO Quick Answer */}
         <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-10">
           <h2 className="text-lg font-bold text-brand-dark mb-2">Quick Answer: Lancaster PA Housing Market 2026</h2>
-          <p className="text-gray-700 text-sm leading-relaxed">According to the Zillow Home Value Index, Lancaster City's typical home value is $332,965 (+6.8% year-over-year). Redfin tracks Lancaster County's median sale price at $321,000 (March 2026) — the city-only figure fluctuates due to small monthly sample size. The market is very tight: Redfin Compete Score is 84/100. Lancaster County charges the standard Pennsylvania 2% transfer tax. Cash buyers typically offer 70–80% of FMV, closing in 7–14 days without repairs or fees.</p>
+          <p className="text-gray-700 text-sm leading-relaxed">According to Redfin (March 2026), Lancaster City median sale price is $255,000 (−0.2% YoY, 63 sales); Lancaster County median sale price is $349,775 (+5.8% YoY, 366 sales). County sale-to-list ratio: 101.9%. Lancaster City is rated Very Competitive by Redfin. Lancaster County Zillow ZHVI: $381,587 (+4.49% YoY, March 2026) — county context only. Lancaster County charges the standard Pennsylvania 2% transfer tax. Cash buyers typically offer 70–80% of FMV, closing in 7–14 days without repairs or fees.</p>
         </div>
 
         <nav className="text-sm text-gray-500 mb-6">
@@ -80,14 +80,14 @@ export default function LancasterMarketReportPage() {
           <h2 className="text-2xl font-bold text-brand-dark mb-4">City vs. County: Two Different Markets</h2>
           <p className="text-gray-700 mb-4">
             Lancaster City and Lancaster County behave differently. The city is dense urban rowhouse stock — 57,719
-            residents, 48.6% homeownership rate, 40.6% Hispanic population, and a median home value that has risen
-            6.8% year-over-year to $332,965 (Zillow, February 2026). The county is a mix of suburban townships,
+            residents, 48.6% homeownership rate, 40.6% Hispanic population, and a Redfin city median sale price of
+            $255,000 (−0.2% YoY, March 2026; 63 sales). The county is a mix of suburban townships,
             small boroughs like Lititz and Ephrata, and genuine Pennsylvania Dutch Country rural land.
           </p>
           <p className="text-gray-700 mb-4">
             According to Redfin, Lancaster County closed sales in March 2026 at a median sale price of
-            $321,000. Price per square foot is $202 countywide, $178 in the city.
-            These aren't just different price points — they're different buyer pools, different inventory
+            $349,775 (366 sales, +5.8% YoY). Price per square foot is $203 countywide, $179 in the city.
+            These aren’t just different price points — they’re different buyer pools, different inventory
             challenges, and different reasons sellers need a fast exit.
           </p>
         </section>
@@ -106,14 +106,12 @@ export default function LancasterMarketReportPage() {
               </thead>
               <tbody>
                 {[
-                  ['Median Home Value (Zillow ZHVI)', '$332,965', '$332,414'],
-                  ['YoY Change (Zillow)', '+6.8%', '+6.3%'],
-                  ['Median Sale Price (Redfin)', '$225,000 (city — volatile)', '$321,000 (Mar 2026)'],
-                  ['YoY Sale Price Change', 'Volatile — small sample', 'See Redfin Mar 2026'],
-                  ['Price Per Sq Ft (Redfin)', '$178', '$202'],
-                  ['Median Days on Market', '19 days (hot: ~5 days)', '18 days'],
-                  ['Sale-to-List Ratio', '100.0%', '100.8%'],
-                  ['Compete Score', '84/100 — Very Competitive', 'N/A (county average)'],
+                  ['Median Sale Price (Redfin, Mar 2026)', '$255,000 (−0.2% YoY, 63 sales)', '$349,775 / ~$350K (+5.8% YoY, 366 sales)'],
+                  ['Price Per Sq Ft (Redfin, Mar 2026)', '$179', '$203'],
+                  ['Median Days on Market (Redfin, Mar 2026)', '22 days', '12 days'],
+                  ['Sale-to-List Ratio (Redfin, Mar 2026)', '99.2%', '101.9%'],
+                  ['Compete Score (Redfin)', 'Very Competitive', 'N/A (county average)'],
+                  ['County ZHVI (Zillow, Mar 2026)', 'City ZHVI: HOLD — no verified city row', '$381,587 (+4.49% YoY) — county context only'],
                   ['Transfer Tax', '2% total (1% PA + 1% local)', '2% total (standard PA rate)'],
                   ['Recording Fee (Deed)', '$71.25 (up to 4 pages)', 'Same — Lancaster Co. ROD'],
                 ].map(([metric, city, county], i) => (

@@ -82,7 +82,7 @@ const COMPARISON_ROWS = [
   { label: 'Offer timeline', cashBuyer: '24 hours', traditional: '14-60 days to get an offer' },
   { label: 'Closing timeline', cashBuyer: '7-14 days', traditional: '45-60+ days' },
   { label: 'Repairs required', cashBuyer: 'None — we buy as-is', traditional: 'Usually required ($5K-$25K avg)' },
-  { label: 'Agent commissions', cashBuyer: '$0', traditional: '5-6% (~$18,000-$19,000)' },
+  { label: 'Agent commissions', cashBuyer: '$0', traditional: '5-6% (~$25,000-$30,000)' },
   { label: 'MA deed excise stamps', cashBuyer: 'We cover everything', traditional: 'Seller pays $4.56 per $1,000' },
   { label: 'Sale certainty', cashBuyer: 'Guaranteed — written contract', traditional: '15-20% of listings fall through' },
   { label: 'Average net proceeds', cashBuyer: '70-80% of FMV', traditional: '85-92% after all costs' },
@@ -95,11 +95,11 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How much will you pay for my Worcester MA house?',
-    answer: 'Cash offers for Worcester homes typically range from 68-80% of fair market value. According to Zillow, the Worcester median home value is approximately $310,000. A typical cash offer on a Main South or Piedmont three-decker or two-family runs $217,000-$248,000. We cover all closing costs including Massachusetts deed excise stamps ($4.56 per $1,000 — seller pays on traditional sales).',
+    answer: 'Cash offers for Worcester homes typically range from 68-80% of fair market value. According to Zillow Research, the Worcester City ZHVI is $430,112 (+1.0% YoY, March 2026); Redfin tracks city median sale price at $499,250 (+12.2% YoY, March 2026). We cover all closing costs including Massachusetts deed excise stamps ($4.56 per $1,000 — seller pays on traditional sales).',
   },
   {
     question: 'What is the deed excise tax when selling a house in Worcester MA?',
-    answer: 'Massachusetts uses deed excise stamps instead of a transfer tax. The rate is $4.56 per $1,000 of consideration — entirely paid by the seller. On a $310,000 sale, the deed excise is approximately $1,414. When you sell to USA Home Buyers, we cover all closing costs including the excise stamps. Source: Massachusetts Department of Revenue (mass.gov).',
+    answer: 'Massachusetts uses deed excise stamps instead of a transfer tax. The rate is $4.56 per $1,000 of consideration — entirely paid by the seller. On a $499,250 sale, the deed excise is approximately $2,277. When you sell to USA Home Buyers, we cover all closing costs including the excise stamps. Source: Massachusetts Department of Revenue (mass.gov).',
   },
   {
     question: 'How does foreclosure work in Worcester MA?',
@@ -166,7 +166,7 @@ export default function WorcesterMAMarketPage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                USA Home Buyers purchases houses in Worcester MA and throughout Worcester County — Main South, Piedmont, Burncoat, Grafton Hill, Tatnuck, and surrounding towns including Shrewsbury, Auburn, and Millbury. Written cash offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no fees. According to Zillow, Worcester median home values are around $310,000. We cover all closing costs including Massachusetts deed excise stamps. Call 888-274-5006.
+                USA Home Buyers purchases houses in Worcester MA and throughout Worcester County — Main South, Piedmont, Burncoat, Grafton Hill, Tatnuck, and surrounding towns including Shrewsbury, Auburn, and Millbury. Written cash offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no fees. According to Zillow Research, Worcester City ZHVI is $430,112 (+1.0% YoY, March 2026). Redfin city median sale price: $499,250 (+12.2% YoY). We cover all closing costs including Massachusetts deed excise stamps. Call 888-274-5006.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
@@ -216,9 +216,9 @@ export default function WorcesterMAMarketPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200">
-                <tr className="bg-white"><td className="p-3 font-medium">Median home value</td><td className="p-3">$310,000</td><td className="p-3 text-gray-500">Zillow ZHVI (Mar 2026)</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">Median sale price</td><td className="p-3">$315,000</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
-                <tr className="bg-white"><td className="p-3 font-medium">Median days on market</td><td className="p-3">~24 days</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Median home value (Zillow City ZHVI)</td><td className="p-3">$430,112 (+1.0% YoY)</td><td className="p-3 text-gray-500">Zillow Research City ZHVI (Mar 2026)</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Median sale price</td><td className="p-3">$499,250 (+12.2% YoY)</td><td className="p-3 text-gray-500">Redfin city (Mar 2026)</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Median days on market</td><td className="p-3">26 days</td><td className="p-3 text-gray-500">Redfin city (Mar 2026)</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Transfer tax (deed excise)</td><td className="p-3">$4.56 per $1,000 (seller pays)</td><td className="p-3 text-gray-500">MA Dept. of Revenue</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Foreclosure type</td><td className="p-3">Non-judicial (power of sale, ~75-120 days)</td><td className="p-3 text-gray-500">MGL Ch. 183 §27</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Primary county</td><td className="p-3">Worcester County</td><td className="p-3 text-gray-500">—</td></tr>
@@ -245,7 +245,7 @@ export default function WorcesterMAMarketPage() {
           <h2 className="text-2xl md:text-3xl font-bold text-brand-dark mb-4">Cash Sale vs. Listing With an Agent in Worcester MA</h2>
           <ComparisonTable rows={COMPARISON_ROWS} />
           <p className="mt-4 text-sm text-gray-600">
-            On a $315,000 Worcester home, a 5-6% agent commission runs $15,750-$18,900. Add Massachusetts deed excise stamps (~$1,436), carrying costs during 24+ days on market, and lead paint compliance testing for pre-1978 rental properties. Massachusetts lead paint law (MGL Ch. 111 §197A) requires compliance inspections for properties with children under 6 — a real-cost item that disappears in a direct cash sale.
+            On a $499,250 Worcester home, a 5-6% agent commission runs $24,963-$29,955. Add Massachusetts deed excise stamps (~$2,277), carrying costs during 26+ days on market, and lead paint compliance testing for pre-1978 rental properties. Massachusetts lead paint law (MGL Ch. 111 §197A) requires compliance inspections for properties with children under 6 — a real-cost item that disappears in a direct cash sale.
           </p>
         </section>
 

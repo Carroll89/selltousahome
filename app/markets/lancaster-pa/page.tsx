@@ -82,8 +82,8 @@ const COMPARISON_ROWS = [
   { label: 'Offer timeline', cashBuyer: '24 hours', traditional: '14-60 days to get an offer' },
   { label: 'Closing timeline', cashBuyer: '7-14 days', traditional: '45-60+ days' },
   { label: 'Repairs required', cashBuyer: 'None — we buy as-is', traditional: 'Usually required ($8K-$22K avg)' },
-  { label: 'Agent commissions', cashBuyer: '$0', traditional: '5-6% (~$16,600-$19,900 on $332K home)' },
-  { label: 'Transfer tax (2%)', cashBuyer: 'We cover all closing costs', traditional: 'Seller pays ~1% local portion ($3,300)' },
+  { label: 'Agent commissions', cashBuyer: '$0', traditional: '5-6% (~$17,500-$21,000 on $350K county median)' },
+  { label: 'Transfer tax (2%)', cashBuyer: 'We cover all closing costs', traditional: 'Seller pays ~1% local portion (~$3,500 on $350K)' },
   { label: 'Sale certainty', cashBuyer: 'Guaranteed — written contract', traditional: '15-20% of listings fall through' },
   { label: 'Average net proceeds', cashBuyer: '70-80% of FMV (no deductions)', traditional: '85-90% FMV minus repairs, commissions, costs' },
 ];
@@ -91,7 +91,7 @@ const COMPARISON_ROWS = [
 const FAQ_ITEMS = [
   {
     question: 'How fast can I sell my house for cash in Lancaster PA?',
-    answer: "Once you accept a written offer, we close in 7-14 days. We send the written offer within 24 hours of your inquiry. According to Redfin, Lancaster City homes go pending in about 19 days on the open market — but that path requires showings, inspections, and waiting on mortgage lender approval. With a cash sale, there's no bank involved, no contingency period.",
+    answer: "Once you accept a written offer, we close in 7-14 days. We send the written offer within 24 hours of your inquiry. According to Redfin, Lancaster City median days on market is 22 days (March 2026) — but that path requires showings, inspections, and waiting on mortgage lender approval. With a cash sale, there's no bank involved, no contingency period.",
   },
   {
     question: 'What is the transfer tax when selling in Lancaster PA?',
@@ -99,7 +99,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How much will you pay for my Lancaster PA house?',
-    answer: "Cash offers for Lancaster homes typically range from 70-80% of fair market value. According to Zillow, Lancaster City's median home value is $332,965 (February 2026). Cabbage Hill and West End rowhouses near the $233,000 neighborhood median yield cash offers of approximately $163,000-$186,000. We cover all closing costs — no agent commissions, no fees deducted from your number.",
+    answer: "Cash offers for Lancaster homes typically range from 70-80% of fair market value. According to Redfin, the Lancaster City median sale price is $255,000 (March 2026). Cabbage Hill and West End rowhouses near the $233,000 neighborhood median yield cash offers of approximately $163,000-$186,000. We cover all closing costs — no agent commissions, no fees deducted from your number.",
   },
   {
     question: 'Do I need to make repairs before selling?',
@@ -153,7 +153,7 @@ export default function LancasterMarketPage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                USA Home Buyers purchases houses in Lancaster PA and throughout Lancaster County — Cabbage Hill, West End, Southeast Lancaster, downtown, and nearby Lititz, Ephrata, and Manheim. Written cash offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no fees. Lancaster City median home value is about $332,965, with rowhouses in key neighborhoods often around the $233,000 range. We cover all closing costs including Lancaster&apos;s 2% transfer tax. Call 888-274-5006. Hablamos español.
+                USA Home Buyers purchases houses in Lancaster PA and throughout Lancaster County — Cabbage Hill, West End, Southeast Lancaster, downtown, and nearby Lititz, Ephrata, and Manheim. Written cash offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no fees. Lancaster City Redfin median sale price: $255,000 (March 2026). Lancaster County Redfin median sale price: $349,775 (+5.8% YoY). We cover all closing costs including Lancaster’s 2% transfer tax. Call 888-274-5006. Hablamos español.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-4">
@@ -213,9 +213,9 @@ export default function LancasterMarketPage() {
           </p>
           <div className="grid md:grid-cols-3 gap-4 mb-4">
             {[
-              { label: 'Redfin Compete Score', value: '84/100', note: 'Very Competitive — Lancaster City (Feb 2026)' },
+              { label: 'Redfin Compete Score', value: 'Very Competitive', note: 'Lancaster City (Mar 2026) — Redfin' },
               { label: 'Hispanic residents', value: '40.6%', note: 'Highest of any market we serve — ACS 2024' },
-              { label: 'City median home value', value: '$332,965', note: 'Zillow ZHVI, +6.8% YoY (Feb 2026)' },
+              { label: 'City Redfin Sale Price', value: '$255,000', note: 'Median sale price, Mar 2026 — Redfin' },
             ].map((item, i) => (
               <div key={i} className="bg-white border border-blue-100 rounded-xl p-4 text-center">
                 <p className="text-xs text-gray-500 mb-1">{item.label}</p>
@@ -238,17 +238,16 @@ export default function LancasterMarketPage() {
             <table className="w-full text-sm">
               <tbody>
                 {[
-                  ['City median home value (Zillow ZHVI, Feb 2026)', '$332,965'],
-                  ['YoY change — city (Zillow)', '+6.8%'],
-                  ['County median home value (Zillow ZHVI, Feb 2026)', '$332,414'],
-                  ['YoY change — county (Zillow)', '+6.3%'],
-                  ['Median sale price — county (Redfin, Feb 2026)', '$347,838 (312 sales)'],
-                  ['YoY change — county sale price (Redfin)', '+3.8%'],
-                  ['Price per sq ft — city (Redfin)', '$178/sqft'],
-                  ['Price per sq ft — county (Redfin)', '$202/sqft'],
-                  ['Median days on market — city (Redfin)', '19 days (hot homes: ~5 days)'],
-                  ['Sale-to-list ratio — county (Redfin)', '100.8% — seller\'s market'],
-                  ['Redfin Compete Score — city', '84/100 — Very Competitive'],
+                  ['Median sale price — city (Redfin, Mar 2026)', '$255,000 (−0.2% YoY, 63 sales)'],
+                  ['Median sale price — county (Redfin, Mar 2026)', '$349,775 / ~$350K (+5.8% YoY, 366 sales)'],
+                  ['Price per sq ft — city (Redfin, Mar 2026)', '$179/sqft'],
+                  ['Price per sq ft — county (Redfin, Mar 2026)', '$203/sqft'],
+                  ['Median days on market — city (Redfin, Mar 2026)', '22 days'],
+                  ['Median days on market — county (Redfin, Mar 2026)', '12 days'],
+                  ['Sale-to-list ratio — city (Redfin, Mar 2026)', '99.2%'],
+                  ['Sale-to-list ratio — county (Redfin, Mar 2026)', '101.9% — seller\'s market'],
+                  ['Redfin Compete Score — city', 'Very Competitive'],
+                  ['Lancaster County ZHVI (Zillow, Mar 2026)', '$381,587 (+4.49% YoY) — county context only'],
                   ['Cabbage Hill median price (Redfin, Feb 2026)', '$233,000 (+17.1% YoY)'],
                   ['Cash offer range (typical)', '$233,000–$266,000 (70-80% of city median)'],
                   ['Cabbage Hill cash offer range', '$163,000–$186,000 (70-80% of $233K)'],
@@ -269,8 +268,7 @@ export default function LancasterMarketPage() {
           </div>
           <p className="mt-4 text-xs text-gray-400">Market data last updated: April 2026</p>
           <p className="mt-2 text-sm text-gray-600">
-            Lancaster County is a seller's market — homes sell at 100.8% of list price on average, and the city Compete Score
-            sits at 84/100. But "competitive" only applies to move-in-ready properties. Cabbage Hill and West End rowhouses with
+            Lancaster County is a seller’s market — city sale-to-list is 99.2% and county sale-to-list is 101.9%. But “competitive” only applies to move-in-ready properties. Cabbage Hill and West End rowhouses with
             deferred maintenance, code issues, or complicated ownership can sit for months. For those sellers, a cash offer
             is certainty the retail market won't provide.
           </p>
@@ -329,7 +327,7 @@ export default function LancasterMarketPage() {
           </h2>
           <ComparisonTable rows={COMPARISON_ROWS} />
           <p className="mt-4 text-sm text-gray-600">
-            On a $332,965 Lancaster City home, a 5-6% agent commission is $16,600-$19,900. Add inspection repairs on a
+            On a $349,775 Lancaster County median home, a 5-6% agent commission is $17,500-$21,000. Add inspection repairs on a
             pre-1940 Cabbage Hill rowhouse, 45-60 days of carrying costs, and transfer tax — the real gap between
             a cash offer and a traditional listing is narrower than most sellers expect, and the certainty is incomparable.
           </p>

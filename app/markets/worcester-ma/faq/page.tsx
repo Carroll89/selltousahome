@@ -25,7 +25,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How much will USA Home Buyers pay for my Worcester property?',
-    answer: 'Cash offers typically range from 68-80% of fair market value. According to Zillow, the Worcester median home value is $310,000. We cover all closing costs — the offer we make is what you walk away with. No deductions at the closing table.',
+    answer: 'Cash offers typically range from 68-80% of fair market value. According to Zillow Research, the Worcester City ZHVI is $430,112 (+1.0% YoY, March 2026); Redfin city median sale price is $499,250 (March 2026). We cover all closing costs — the offer we make is what you walk away with. No deductions at the closing table.',
   },
   {
     question: 'What is the transfer tax when selling a house in Worcester MA?',

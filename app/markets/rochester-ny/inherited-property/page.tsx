@@ -100,7 +100,7 @@ export default function RochesterInheritedPropertyPage() {
             The probate court for Monroe County is located at Monroe County Surrogate's Court, 99 Exchange Blvd, Rochester NY 14614 (Hall of Justice), (585) 371-3310. This court handles all probate proceedings for decedents who owned property in Monroe County. Once the personal representative receives their Letters of Authority (or equivalent in New York), they can execute a deed and complete the sale.
           </p>
           <p className="text-gray-700 mb-4">
-            We frequently work with estates throughout Monroe County. We can have a written offer ready before you even file for probate, so you can close once authority is granted; Surrogate's Court process can vary. Transfer tax: New York State Real Property Transfer Tax — $4.00 per $1,000 of consideration (0.4%). Seller pays. Monroe County does not impose an additional county transfer tax. On a $162,000 sale: $648. Source: NY Department of Taxation and Finance (tax.ny.gov).
+            We frequently work with estates throughout Monroe County. We can have a written offer ready before you even file for probate, so you can close once authority is granted; Surrogate's Court process can vary. Redfin city median sale price: $160,000 (+6.0% YoY, March 2026); Zillow Research City ZHVI: $235,784 (+3.0% YoY, March 2026). Transfer tax: New York State Real Property Transfer Tax — $4.00 per $1,000 of consideration (0.4%). Seller pays. Monroe County does not impose an additional county transfer tax. On a $160,000 sale: $640. Source: NY Department of Taxation and Finance (tax.ny.gov).
           </p>
         </section>
 

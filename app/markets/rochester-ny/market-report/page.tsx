@@ -35,7 +35,7 @@ export default function RochesterMarketReportPage() {
         <div className="bg-blue-50 border border-blue-100 rounded-xl p-4 mb-8">
           <p className="text-sm font-medium text-blue-800 mb-1">TL;DR</p>
           <p className="text-sm text-blue-900 leading-relaxed">
-            According to Zillow and Redfin data for Monroe County (2026), the Rochester median home value is $155,000, with a median sale price of $162,000 and approximately 33 days on market. Transfer tax: $4.00 per $1,000 NYS (0.4%, seller pays). Foreclosure process: Judicial. For a cash offer based on current Rochester market conditions, call USA Home Buyers at 888-274-5006.
+According to Zillow Research and Redfin data for Rochester NY (March 2026), the Rochester City ZHVI is $235,784 (+3.0% YoY); Redfin city median sale price is $160,000 (+6.0% YoY); median days on market: 14 days. Transfer tax: $4.00 per $1,000 NYS (0.4%, seller pays). Foreclosure process: Judicial. For a cash offer based on current Rochester market conditions, call USA Home Buyers at 888-274-5006.
           </p>
         </div>
 
@@ -51,10 +51,10 @@ export default function RochesterMarketReportPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200">
-                <tr className="bg-white"><td className="p-3 font-medium">Median home value</td><td className="p-3">$155,000</td><td className="p-3 text-gray-500">Zillow ZHVI (Mar 2026)</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">Median sale price</td><td className="p-3">$162,000</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
-                <tr className="bg-white"><td className="p-3 font-medium">Price per sq ft</td><td className="p-3">$108</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">Median days on market</td><td className="p-3">33 days</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Median home value (Zillow City ZHVI)</td><td className="p-3">$235,784 (+3.0% YoY)</td><td className="p-3 text-gray-500">Zillow Research City ZHVI (Mar 2026)</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Median sale price</td><td className="p-3">$160,000 (+6.0% YoY)</td><td className="p-3 text-gray-500">Redfin city (Mar 2026)</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Price per sq ft</td><td className="p-3">$104</td><td className="p-3 text-gray-500">Redfin city (Mar 2026)</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Median days on market</td><td className="p-3">14 days</td><td className="p-3 text-gray-500">Redfin city (Mar 2026)</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Typical cash offer range</td><td className="p-3">65-78% of FMV</td><td className="p-3 text-gray-500">Local investor norms</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Transfer tax</td><td className="p-3">$4.00 per $1,000 NYS (0.4%, seller pays)</td><td className="p-3 text-gray-500">State revenue authority</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Foreclosure process</td><td className="p-3">Judicial (Monroe County Supreme Court, 12-24 months, RPAPL §1301)</td><td className="p-3 text-gray-500">State statutes</td></tr>
@@ -98,7 +98,7 @@ export default function RochesterMarketReportPage() {
         <section className="mb-10">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">What This Means for Rochester Sellers</h2>
           <p className="text-gray-700 mb-4">
-            With 33 median days on market, a traditional sale in Rochester still takes time — and that's before accounting for inspection contingencies, financing contingencies, and repair negotiations. Properties that need work often sit longer or require significant price reductions.
+            With 14 median days on market, Rochester moves quickly for retail-ready properties — but that assumes no inspection contingencies, financing delays, or repair negotiations. Properties that need work often sit longer or require significant price reductions.
           </p>
           <p className="text-gray-700 mb-4">
             A direct cash sale to USA Home Buyers closes in 7–14 days with no repairs required. We cover all closing costs including $4.00 per $1,000 NYS (0.4%, seller pays). The trade-off: cash offers typically run 65-78% of fair market value.
@@ -108,7 +108,7 @@ export default function RochesterMarketReportPage() {
         <CashOfferForm variant="inline" headline="Get a Cash Offer Based on Current Rochester Market Data" subheadline="Written offer in 24 hours based on current Monroe County comps. We cover all closing costs." sourcePage="/markets/rochester-ny/market-report" />
 
         <div className="mt-8 text-sm text-gray-500">
-          <p>Data sources: Zillow Home Value Index (ZHVI), Redfin market statistics, U.S. Census Bureau American Community Survey. Market data reflects conditions as of March–April 2026. Individual property values vary. Contact us for a property-specific assessment.</p>
+          <p>Data sources: Zillow Research City ZHVI, Redfin market statistics, U.S. Census Bureau American Community Survey. Market data reflects conditions as of March 2026. Individual property values vary. Contact us for a property-specific assessment.</p>
         </div>
       </div>
     </>

@@ -19,11 +19,11 @@ export const metadata: Metadata = {
 const FAQ_ITEMS = [
   {
     question: 'How fast can I sell my house for cash in Lancaster PA?',
-    answer: 'We can close in as few as 7 days from an accepted offer. We send a written cash offer within 24 hours of learning about your property. According to Redfin, Lancaster City homes go pending in about 19 days on the open market — that path requires showings, inspections, and lender approval. With a cash sale, there\'s no bank, no contingency period, no waiting.',
+    answer: 'We can close in as few as 7 days from an accepted offer. We send a written cash offer within 24 hours of learning about your property. According to Redfin, Lancaster City median days on market is 22 days (March 2026) — that path requires showings, inspections, and lender approval. With a cash sale, there\'s no bank, no contingency period, no waiting.',
   },
   {
     question: 'How much will you pay for my Lancaster PA house?',
-    answer: 'Cash offers typically range from 70-80% of fair market value. According to Zillow, Lancaster City\'s median home value is $332,965 (February 2026). For a Cabbage Hill or West End rowhouse near the $233,000 neighborhood median, a cash offer is approximately $163,000-$186,000. We cover all closing costs — no agent commissions, no fees taken from your number.',
+    answer: 'Cash offers typically range from 70-80% of fair market value. According to Redfin, Lancaster City\'s median sale price is $255,000 (March 2026). For a Cabbage Hill or West End rowhouse near the $233,000 neighborhood median, a cash offer is approximately $163,000-$186,000. We cover all closing costs — no agent commissions, no fees taken from your number.',
   },
   {
     question: 'What is the real estate transfer tax in Lancaster PA?',

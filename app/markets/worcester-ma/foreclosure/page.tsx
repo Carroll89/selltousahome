@@ -89,9 +89,9 @@ export default function WorcesterForeclosurePage() {
 
       <div className="max-w-7xl mx-auto px-4 py-8">
         <section className="my-8">
-          <h2 className="text-2xl font-bold text-brand-dark mb-4">Market Data: Worcester MA — $315,000 Median Price</h2>
+          <h2 className="text-2xl font-bold text-brand-dark mb-4">Market Data: Worcester MA — $499,250 Median Sale Price (Mar 2026)</h2>
           <p className="text-gray-700 mb-4">
-            According to Zillow and Redfin data for Worcester County, the median home value in Worcester is approximately $315,000. Transfer tax: Massachusetts deed excise stamps — $4.56 per $1,000 of consideration, paid by seller. On a $315,000 sale: ~$1,436. Source: Massachusetts DOR (mass.gov).
+            The Redfin city median sale price in Worcester is $499,250 (+12.2% YoY, March 2026); Zillow Research City ZHVI is $430,112 (+1.0% YoY, March 2026). Transfer tax: Massachusetts deed excise stamps — $4.56 per $1,000 of consideration, paid by seller. On a $499,250 sale: ~$2,277. Source: Massachusetts DOR (mass.gov).
           </p>
         </section>
 
