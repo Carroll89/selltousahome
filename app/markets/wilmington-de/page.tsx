@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     'We buy houses in Wilmington DE for cash, as-is. Written offer in 24 hours, close in 7 days. No repairs, no fees. Serving all of New Castle County.',
   alternates: { canonical: `${SITE_URL}/markets/wilmington-de` },
   openGraph: {
-    images: [{ url: '/images/wilmington-de-hero.jpg', width: 1200, height: 630, alt: 'Wilmington DE brick row homes — Sell Your House Fast for Cash' }],
+    images: [{ url: '/images/wilmington-de-representative-hero.jpg', width: 1200, height: 630, alt: 'Representative Wilmington DE residential brick neighborhood — Sell Your House Fast for Cash' }],
   },
 };
 
@@ -132,14 +132,14 @@ export default function WilmingtonMarketPage() {
       <section className="relative text-white py-8 md:py-16 px-4 overflow-hidden">
         <picture className="absolute inset-0 w-full h-full">
           <source
-            srcSet="/images/optimized/wilmington-de-hero-640.jpg 640w, /images/optimized/wilmington-de-hero-828.jpg 828w, /images/optimized/wilmington-de-hero-1080.jpg 1080w, /images/optimized/wilmington-de-hero-1200.jpg 1200w"
+            srcSet="/images/optimized/wilmington-de-representative-hero-640.jpg 640w, /images/optimized/wilmington-de-representative-hero-828.jpg 828w, /images/optimized/wilmington-de-representative-hero-1080.jpg 1080w, /images/optimized/wilmington-de-representative-hero-1200.jpg 1200w"
             type="image/jpeg"
             sizes="100vw"
           />
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/images/optimized/wilmington-de-hero-1200.jpg"
-            alt="Wilmington DE brick row homes — sell your house fast for cash"
+            src="/images/optimized/wilmington-de-representative-hero-1200.jpg"
+            alt="Representative Wilmington DE residential brick neighborhood — Sell Your House Fast for Cash"
             fetchPriority="high"
             className="object-cover object-center absolute inset-0 w-full h-full"
           />

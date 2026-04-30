@@ -23,7 +23,7 @@ export const metadata: Metadata = {
     'We buy houses in Allentown PA for cash, as-is, in any condition. Written offer in 24 hours, close in 7 days. No repairs, no fees. Hablamos español. Serving all of Lehigh County.',
   alternates: { canonical: `${SITE_URL}/markets/allentown-pa` },
   openGraph: {
-    images: [{ url: '/images/allentown-landmark-hero.jpg', width: 1200, height: 630, alt: 'Allentown Steel Stacks and Victorian row homes — Sell Your House Fast in Allentown PA' }],
+    images: [{ url: '/images/allentown-pa-representative-hero.jpg', width: 1200, height: 630, alt: 'Representative Allentown PA brick rowhouses — Sell Your House Fast for Cash' }],
   },
 };
 
@@ -153,14 +153,14 @@ export default function AllentownMarketPage() {
       <section className="relative text-white py-8 md:py-16 px-4 overflow-hidden">
         <picture className="absolute inset-0 w-full h-full">
           <source
-            srcSet="/images/optimized/allentown-landmark-hero-640.jpg 640w, /images/optimized/allentown-landmark-hero-828.jpg 828w, /images/optimized/allentown-landmark-hero-1080.jpg 1080w, /images/optimized/allentown-landmark-hero-1200.jpg 1200w"
+            srcSet="/images/optimized/allentown-pa-representative-hero-640.jpg 640w, /images/optimized/allentown-pa-representative-hero-828.jpg 828w, /images/optimized/allentown-pa-representative-hero-1080.jpg 1080w, /images/optimized/allentown-pa-representative-hero-1200.jpg 1200w"
             type="image/jpeg"
             sizes="100vw"
           />
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/images/optimized/allentown-landmark-hero-1200.jpg"
-            alt="Allentown PA homes — we buy houses fast for cash"
+            src="/images/optimized/allentown-pa-representative-hero-1200.jpg"
+            alt="Representative Allentown PA brick rowhouses — Sell Your House Fast for Cash"
             fetchPriority="high"
             className="object-cover object-center absolute inset-0 w-full h-full"
           />

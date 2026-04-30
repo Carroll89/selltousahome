@@ -1,7 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import type { Metadata } from 'next';
 import Link from 'next/link';
-import { VideoEmbed } from '@/components/VideoEmbed';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { HowItWorks } from '@/components/HowItWorks';
 import { FAQSection } from '@/components/FAQSection';
@@ -9,7 +8,7 @@ import { TestimonialBlock } from '@/components/TestimonialBlock';
 import { ComparisonTable } from '@/components/ComparisonTable';
 import { SituationLinks } from '@/components/SituationLinks';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
-import { faqSchema, videoObjectSchema } from '@/lib/schema';
+import { faqSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
 import { BlogClusterLinks } from '@/components/BlogClusterLinks';
 import { MultiStepForm } from '@/components/MultiStepForm';
@@ -168,14 +167,7 @@ export default function OshkoshWIMarketPage() {
 
   return (
     <>
-      <SchemaMarkup schema={[oshkoshWILocalBusinessSchema, faqSchema(FAQ_ITEMS), howToSchema,
-        videoObjectSchema({
-          name: 'Sell My House Fast Oshkosh WI — USA Home Buyers',
-          description: 'Cash offers for Oshkosh and Winnebago County WI homes — any condition',
-          contentUrl: `${SITE_URL}/videos/oshkosh-wi/landing.mp4`,
-          thumbnailUrl: `${SITE_URL}/videos/oshkosh-wi/landing-poster.jpg`,
-        }),
-      ]} />
+      <SchemaMarkup schema={[oshkoshWILocalBusinessSchema, faqSchema(FAQ_ITEMS), howToSchema]} />
 
       <section className="relative text-white py-16 px-4 overflow-hidden">
         <picture className="absolute inset-0 w-full h-full">
@@ -227,21 +219,7 @@ export default function OshkoshWIMarketPage() {
         </div>
       </section>
 
-        {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
-        <VideoEmbed
-        src="/videos/oshkosh-wi/landing.mp4"
-        title="Sell My House Fast Oshkosh WI — USA Home Buyers"
-        poster="/videos/oshkosh-wi/landing-poster.jpg"
-        subtitle="Cash offers for Oshkosh and Winnebago County WI homes — any condition"
-        />
-        <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
-        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
-        📝 Video Transcript
-        </summary>
-        <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-        If you need to sell your house fast in Oshkosh, Wisconsin — you've found the right team. We're USA Home Buyers, and we purchase houses as-is, for cash, throughout Winnebago County. No agents. No fees. No repairs needed. Written cash offer within 24 hours, close in as few as seven days. Call us at 888-274-5006.
-        </div>
-        </details>
+
 
 
 

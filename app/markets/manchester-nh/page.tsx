@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     'We buy houses in Manchester NH for cash, as-is. Written offer in 24 hours, close in 7 days. No repairs, no fees. Serving Hillsborough County and the Manchester-Nashua metro.',
   alternates: { canonical: `${SITE_URL}/markets/manchester-nh` },
   openGraph: {
-    images: [{ url: '/images/manchester-nh-hero.jpg', width: 1200, height: 630, alt: 'Manchester NH mill district homes — Sell Your House Fast for Cash' }],
+    images: [{ url: '/images/manchester-nh-representative-hero.jpg', width: 1200, height: 630, alt: 'Representative Manchester NH mill city homes — Sell Your House Fast for Cash' }],
   },
 };
 
@@ -144,14 +144,14 @@ export default function ManchesterNHMarketPage() {
       <section className="relative text-white py-16 px-4 overflow-hidden">
         <picture className="absolute inset-0 w-full h-full">
           <source
-            srcSet="/images/optimized/manchester-nh-hero-640.jpg 640w, /images/optimized/manchester-nh-hero-828.jpg 828w, /images/optimized/manchester-nh-hero-1080.jpg 1080w, /images/optimized/manchester-nh-hero-1200.jpg 1200w"
+            srcSet="/images/optimized/manchester-nh-representative-hero-640.jpg 640w, /images/optimized/manchester-nh-representative-hero-828.jpg 828w, /images/optimized/manchester-nh-representative-hero-1080.jpg 1080w, /images/optimized/manchester-nh-representative-hero-1200.jpg 1200w"
             type="image/jpeg"
             sizes="100vw"
           />
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/images/optimized/manchester-nh-hero-1200.jpg"
-            alt="Manchester NH historic mill district and residential homes — Sell Your House Fast for Cash"
+            src="/images/optimized/manchester-nh-representative-hero-1200.jpg"
+            alt="Representative Manchester NH mill city residential homes — Sell Your House Fast for Cash"
             fetchPriority="high"
             className="object-cover object-center absolute inset-0 w-full h-full"
           />

@@ -21,6 +21,9 @@ export const metadata: Metadata = {
   description:
     'We buy houses in Hartford CT for cash, as-is. Written offer in 24 hours, close in 7 days. No repairs, no fees. Serving Hartford County. Hablamos español.',
   alternates: { canonical: `${SITE_URL}/markets/hartford-ct` },
+  openGraph: {
+    images: [{ url: '/images/hartford-ct-representative-hero.jpg', width: 1200, height: 630, alt: 'Representative Hartford CT Craftsman homes — Sell Your House Fast for Cash' }],
+  },
 };
 
 const TESTIMONIALS = [
@@ -152,14 +155,14 @@ export default function HartfordCTMarketPage() {
       <section className="relative text-white py-16 px-4 overflow-hidden">
         <picture className="absolute inset-0 w-full h-full">
           <source
-            srcSet="/images/optimized/hartford-ct-hero-sm.jpg 640w, /images/optimized/hartford-ct-hero-md.jpg 768w, /images/optimized/hartford-ct-hero-lg.jpg 1024w, /images/optimized/hartford-ct-hero-xl.jpg 1280w"
+            srcSet="/images/optimized/hartford-ct-representative-hero-640.jpg 640w, /images/optimized/hartford-ct-representative-hero-828.jpg 828w, /images/optimized/hartford-ct-representative-hero-1080.jpg 1080w, /images/optimized/hartford-ct-representative-hero-1200.jpg 1200w"
             type="image/jpeg"
             sizes="100vw"
           />
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/images/optimized/hartford-ct-hero-xl.jpg"
-            alt="Hartford CT homes — triple-deckers and Victorian houses"
+            src="/images/optimized/hartford-ct-representative-hero-1200.jpg"
+            alt="Representative Hartford CT Craftsman homes — Sell Your House Fast for Cash"
             fetchPriority="high"
             className="object-cover object-center absolute inset-0 w-full h-full"
           />

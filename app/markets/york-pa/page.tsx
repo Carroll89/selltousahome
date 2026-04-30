@@ -126,7 +126,7 @@ const FAQ_ITEMS = [
 export default function YorkMarketPage() {
   return (
     <>
-      <SchemaMarkup schema={[yorkLocalBusinessSchema, yorkFAQSchema, yorkHowToSchema, videoObjectSchema({ name: 'Sell My House Fast York PA — USA Home Buyers', description: 'Cash offers for York and York County homes — any condition', contentUrl: `${SITE_URL}/videos/york-pa/landing.mp4`, uploadDate: '2026-04-28' })]} />
+      <SchemaMarkup schema={[yorkLocalBusinessSchema, yorkFAQSchema, yorkHowToSchema, videoObjectSchema({ name: 'Sell My House Fast York PA — USA Home Buyers', description: 'Cash offers for York and York County homes — any condition', contentUrl: `${SITE_URL}/videos/york-pa/landing.mp4`, thumbnailUrl: `${SITE_URL}/images/video-posters/york-pa-main-poster.jpg`, uploadDate: '2026-04-28' })]} />
 
       {/* Hero */}
       <section className="relative text-white py-8 md:py-16 px-4 overflow-hidden">
@@ -186,6 +186,7 @@ export default function YorkMarketPage() {
         {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
       <VideoEmbed
         src="/videos/york-pa/landing.mp4"
+        poster="/images/video-posters/york-pa-main-poster.jpg"
         title="Sell My House Fast York PA — USA Home Buyers"
         subtitle="Cash offers for York and York County homes — any condition"
         />

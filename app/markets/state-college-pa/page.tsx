@@ -21,7 +21,7 @@ export const metadata: Metadata = {
     'We buy houses in State College PA for cash, as-is. Written offer in 24 hours, close in 7-14 days. No repairs, no fees. Serving all of Centre County.',
   alternates: { canonical: `${SITE_URL}/markets/state-college-pa` },
   openGraph: {
-    images: [{ url: '/images/state-college-hero.jpg', width: 1200, height: 630, alt: 'Sell Your House Fast in State College PA' }],
+    images: [{ url: '/images/state-college-pa-representative-hero.jpg', width: 1200, height: 630, alt: 'Representative State College PA residential homes — Sell Your House Fast for Cash' }],
   },
 };
 
@@ -153,14 +153,14 @@ export default function StateCollegeMarketPage() {
       <section className="relative text-white py-16 px-4 overflow-hidden">
         <picture className="absolute inset-0 w-full h-full">
           <source
-            srcSet="/images/optimized/state-college-hero-640.jpg 640w, /images/optimized/state-college-hero-828.jpg 828w, /images/optimized/state-college-hero-1080.jpg 1080w, /images/optimized/state-college-hero-1200.jpg 1200w"
+            srcSet="/images/optimized/state-college-pa-representative-hero-640.jpg 640w, /images/optimized/state-college-pa-representative-hero-828.jpg 828w, /images/optimized/state-college-pa-representative-hero-1080.jpg 1080w, /images/optimized/state-college-pa-representative-hero-1200.jpg 1200w"
             type="image/jpeg"
             sizes="100vw"
           />
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/images/optimized/state-college-hero-1200.jpg"
-            alt="State College PA residential street — we buy houses fast for cash"
+            src="/images/optimized/state-college-pa-representative-hero-1200.jpg"
+            alt="Representative State College PA colonial and ranch homes — Sell Your House Fast for Cash"
             fetchPriority="high"
             className="object-cover object-center absolute inset-0 w-full h-full"
           />

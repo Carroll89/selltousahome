@@ -21,6 +21,9 @@ export const metadata: Metadata = {
   description:
     'We buy houses in Boston MA for cash, as-is. Written offer in 24 hours, close in 7 days. No repairs, no fees. Serving Suffolk County and Greater Boston.',
   alternates: { canonical: `${SITE_URL}/markets/boston-ma` },
+  openGraph: {
+    images: [{ url: '/images/boston-ma-hero.jpg', width: 1200, height: 630, alt: 'Boston MA brownstones — Sell Your House Fast for Cash' }],
+  },
 };
 
 const TESTIMONIALS = [
@@ -145,12 +148,27 @@ export default function BostonMAMarketPage() {
           description:
             'USA Home Buyers purchases homes in Boston and Greater Boston for cash, as-is, in any condition. Call 888-274-5006 for a written offer in 24 hours.',
           contentUrl: `${SITE_URL}/videos/boston-ma/landing.mp4`,
+          thumbnailUrl: `${SITE_URL}/images/video-posters/boston-ma-main-poster.jpg`,
           uploadDate: '2026-04-18',
         }),
       ]} />
 
       <section className="relative text-white py-16 px-4 overflow-hidden">
-        <div className="absolute inset-0 bg-brand-dark" />
+        <picture className="absolute inset-0 w-full h-full">
+          <source
+            srcSet="/images/optimized/boston-ma-hero-640.jpg 640w, /images/optimized/boston-ma-hero-828.jpg 828w, /images/optimized/boston-ma-hero-1080.jpg 1080w, /images/optimized/boston-ma-hero-1200.jpg 1200w"
+            type="image/jpeg"
+            sizes="100vw"
+          />
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
+            src="/images/optimized/boston-ma-hero-1200.jpg"
+            alt="Representative Boston MA brownstone and row home neighborhood — Sell Your House Fast for Cash"
+            fetchPriority="high"
+            className="object-cover object-center absolute inset-0 w-full h-full"
+          />
+        </picture>
+        <div className="absolute inset-0 bg-brand-dark/80" />
         <div className="relative z-10 max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-start">
           <div>
             <p className="text-blue-300 text-sm font-medium mb-2">Massachusetts Cash Home Buyers</p>
@@ -180,6 +198,7 @@ export default function BostonMAMarketPage() {
       {/* VIDEO_CAPTION_EXCEPTION: 4.1s clip, audio pending human review — date:2026-04-28 approver:Dan */}
       <VideoEmbed
         src="/videos/boston-ma/landing.mp4"
+        poster="/images/video-posters/boston-ma-main-poster.jpg"
         title="Sell My House Fast Boston MA — USA Home Buyers"
         subtitle="Cash offers for Boston and Greater Boston homes — any condition"
       />

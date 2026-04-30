@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     'We buy houses in Lancaster PA for cash, as-is. Written offer in 24 hours, close in 7 days. No repairs, no agent fees. Lancaster County. Hablamos español.',
   alternates: { canonical: `${SITE_URL}/markets/lancaster-pa` },
   openGraph: {
-    images: [{ url: '/images/lancaster-pa-hero.jpg', width: 1200, height: 630, alt: 'Lancaster PA Cabbage Hill rowhouses — Sell Your House Fast for Cash' }],
+    images: [{ url: '/images/lancaster-pa-representative-hero.jpg', width: 1200, height: 630, alt: 'Representative Lancaster PA Cabbage Hill brick rowhouses — Sell Your House Fast for Cash' }],
   },
 };
 
@@ -126,20 +126,20 @@ const FAQ_ITEMS = [
 export default function LancasterMarketPage() {
   return (
     <>
-      <SchemaMarkup schema={[lancasterLocalBusinessSchema, lancasterFAQSchema, lancasterHowToSchema, videoObjectSchema({ name: 'Sell My House Fast Lancaster PA — USA Home Buyers', description: 'Cash offers for Lancaster and Lancaster County homes — any condition', contentUrl: `${SITE_URL}/videos/lancaster-pa/landing.mp4`, uploadDate: '2026-04-28' })]} />
+      <SchemaMarkup schema={[lancasterLocalBusinessSchema, lancasterFAQSchema, lancasterHowToSchema, videoObjectSchema({ name: 'Sell My House Fast Lancaster PA — USA Home Buyers', description: 'Cash offers for Lancaster and Lancaster County homes — any condition', contentUrl: `${SITE_URL}/videos/lancaster-pa/landing.mp4`, thumbnailUrl: `${SITE_URL}/images/video-posters/lancaster-pa-main-poster.jpg`, uploadDate: '2026-04-28' })]} />
 
       {/* Hero */}
       <section className="relative text-white py-8 md:py-16 px-4 overflow-hidden">
         <picture className="absolute inset-0 w-full h-full">
           <source
-            srcSet="/images/optimized/lancaster-pa-hero-640.jpg 640w, /images/optimized/lancaster-pa-hero-828.jpg 828w, /images/optimized/lancaster-pa-hero-1080.jpg 1080w, /images/optimized/lancaster-pa-hero-1200.jpg 1200w"
+            srcSet="/images/optimized/lancaster-pa-representative-hero-640.jpg 640w, /images/optimized/lancaster-pa-representative-hero-828.jpg 828w, /images/optimized/lancaster-pa-representative-hero-1080.jpg 1080w, /images/optimized/lancaster-pa-representative-hero-1200.jpg 1200w"
             type="image/jpeg"
             sizes="100vw"
           />
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/images/optimized/lancaster-pa-hero-1200.jpg"
-            alt="Lancaster PA Cabbage Hill brick rowhouses — sell your house fast for cash"
+            src="/images/optimized/lancaster-pa-representative-hero-1200.jpg"
+            alt="Representative Lancaster PA Cabbage Hill brick rowhouses — Sell Your House Fast for Cash"
             fetchPriority="high"
             className="object-cover object-center absolute inset-0 w-full h-full"
           />
@@ -186,6 +186,7 @@ export default function LancasterMarketPage() {
         {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
       <VideoEmbed
         src="/videos/lancaster-pa/landing.mp4"
+        poster="/images/video-posters/lancaster-pa-main-poster.jpg"
         title="Sell My House Fast Lancaster PA — USA Home Buyers"
         subtitle="Cash offers for Lancaster and Lancaster County homes — any condition"
         />
