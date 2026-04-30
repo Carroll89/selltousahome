@@ -90,3 +90,15 @@ Live audit initially caught stale Wilmington schema text inside shared `lib/sche
 ## Raw verification JSON
 
 Saved at `/Users/agents/selltousahome/artifacts/mds-019-batch-a-live-verify-2026-04-30.json`.
+
+## Final docs deploy spot-check — 2026-04-30 08:24 ET
+
+After evidence commit `55960f7` deployed (`dep-d7pkgv68bjmc73fmab60`, live at `2026-04-30T12:23:22Z`), MDS spot-checked representative Batch A live URLs again:
+
+- `/markets/wilmington-de` — HTTP 200, Last-Modified `Thu, 30 Apr 2026 12:23:12 UTC`, no `72 days` / `Redfin, Feb 2026` residue.
+- `/markets/wilmington-de/divorce-sale` — HTTP 200, no stale Wilmington DOM/source residue.
+- `/markets/oshkosh-wi` — HTTP 200, no unsupported `Zillow (Apr 2026)`, no `60/100`, no `$752.90`.
+- `/markets/springfield-il/market-report` — HTTP 200, no stale Springfield `$187,000` / `+23%` / `27 days` residue.
+- `/markets/champaign-urbana-il` — HTTP 200, no stale `FRED Listing Price (Sep 2025)` residue.
+
+IndexNow was re-pinged for `/markets/wilmington-de` after the schema-follow-up/docs deploy; HTTP 200.
