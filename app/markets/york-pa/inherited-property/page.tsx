@@ -121,7 +121,7 @@ export default function YorkInheritedPropertyPage() {
           </p>
           <p className="text-gray-700 mb-3">
             According to{' '}
-            <a href="https://www.redfin.com/city/21030/PA/York/housing-market" className="text-brand-primary hover:underline" target="_blank" rel="noopener noreferrer">Redfin (February 2026)</a>,
+            <a href="https://www.redfin.com/city/21030/PA/York/housing-market" className="text-brand-primary hover:underline" target="_blank" rel="noopener noreferrer">Redfin (March 2026)</a>,
             York City's median sale price is $172,500 (Redfin city, Mar 2026) — but Northeast York properties average closer to
             $120,000 and often require significant work before competing at retail. That math changes
             when a cash buyer purchases as-is: no repairs, no staging, no commission.
