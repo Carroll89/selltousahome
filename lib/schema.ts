@@ -883,7 +883,7 @@ export const wilmingtonFAQSchema = {
       name: 'How fast can I sell my house for cash in Wilmington DE?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'USA Home Buyers can close in as few as 7 days in Wilmington DE. We send a written cash offer within 24 hours of learning about your property. According to Redfin, Wilmington homes spend a median of 72 days on market when listed traditionally. A cash sale eliminates showings, inspections, and the bank approval wait entirely.',
+        text: 'USA Home Buyers can close in as few as 7 days in Wilmington DE. We send a written cash offer within 24 hours of learning about your property. According to Redfin (Wilmington city, Mar 2026), Wilmington homes spend a median of 61 sold days on market when listed traditionally. A cash sale eliminates showings, inspections, and the bank approval wait entirely.',
       },
     },
     {
@@ -891,7 +891,7 @@ export const wilmingtonFAQSchema = {
       name: 'How much will you pay for my Wilmington DE house?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Cash offers for Wilmington city homes typically range from 65\u201375% of fair market value. According to Redfin, the Wilmington median sale price is $210,000 (February 2026). We cover all closing costs including Delaware\u2019s 4% transfer tax \u2014 nothing comes out of your offer number.',
+        text: 'Cash offers for Wilmington city homes typically range from 65\u201375% of after-repair value. According to Redfin, Wilmington median sale price is $251,200 (Redfin Wilmington city, Mar 2026, +12.1% YoY). We cover all closing costs including Delaware\u2019s 4% transfer tax \u2014 nothing comes out of your offer number.',
       },
     },
     {
@@ -899,7 +899,7 @@ export const wilmingtonFAQSchema = {
       name: 'What is the transfer tax when selling a house in Wilmington DE?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Wilmington DE has a 4% total real estate transfer tax \u2014 2.5% Delaware state tax plus 1.5% City of Wilmington local tax. By convention this is split 50/50 between buyer and seller, with each paying 2%. On a $210,000 home the total is $8,400. When you sell to USA Home Buyers, we cover all closing costs. Source: Delaware Division of Revenue; New Castle County (newcastlede.gov).',
+        text: 'Wilmington DE has a 4% total real estate transfer tax \u2014 2.5% Delaware state tax plus 1.5% City of Wilmington local tax. By convention this is split 50/50 between buyer and seller, with each paying 2%. On a $251,200 home the total is $10,048. When you sell to USA Home Buyers, we cover all closing costs. Source: Delaware Division of Revenue; New Castle County (newcastlede.gov).',
       },
     },
     {
