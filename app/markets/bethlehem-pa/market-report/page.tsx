@@ -21,19 +21,19 @@ export const metadata: Metadata = {
 const FAQ_ITEMS = [
   {
     question: 'Is Bethlehem PA a good time to sell in 2026?',
-    answer: "Yes — according to Redfin, Bethlehem's Compete Score is 89/100 (Very Competitive) and homes are selling at 99.6% of list price in an average of 21 days. The median sale price rose 14.0% year-over-year to $313,500 as of March 2026. However, that performance is for move-in-ready homes. Properties with deferred maintenance, code issues, or complicated ownership often sit longer or require price reductions.",
+    answer: "Yes — according to Redfin, Bethlehem's Compete Score is 90/100 (Very Competitive) and homes are selling at 99.8% of list price in an average of 20 days. The median sale price rose 13.1% year-over-year to $311,000 as of March 2026. However, that performance is for move-in-ready homes. Properties with deferred maintenance, code issues, or complicated ownership often sit longer or require price reductions.",
   },
   {
     question: 'What is the median home price in Bethlehem PA?',
-    answer: "According to Redfin (March 2026), Bethlehem's median sale price is $313,500, up 14.0% year-over-year. Zillow's home value estimate (ZHVI) is $350,600, up 2.9% annually. South Bethlehem has a lower median near $245,000, reflecting the dense pre-war row home stock on the South Side.",
+    answer: "According to Redfin (March 2026), Bethlehem's median sale price is $311,000, up 13.1% year-over-year. Zillow's home value estimate (ZHVI) is $351,353, up 3.1% annually. South Bethlehem has a lower median near $245,000, reflecting the dense pre-war row home stock on the South Side.",
   },
   {
     question: 'What is the transfer tax in Bethlehem PA?',
-    answer: "Bethlehem charges the standard Pennsylvania rate — 2% total (1% PA state + 1% City of Bethlehem local tax). By convention this is split 50/50 between buyer and seller. On a $320,000 home, the total transfer tax is $6,400, with each party paying $3,200. Source: City of Bethlehem Ordinance Article 335.",
+    answer: "Bethlehem charges the standard Pennsylvania rate — 2% total (1% PA state + 1% City of Bethlehem local tax). By convention this is split 50/50 between buyer and seller. On a $311,000 home, the total transfer tax is $6,220, with each party paying $3,110. Source: City of Bethlehem Ordinance Article 335.",
   },
   {
     question: 'How does Bethlehem compare to the broader Lehigh Valley market?',
-    answer: "Bethlehem is one of the most competitive markets in the Lehigh Valley. Its Redfin Compete Score of 89/100 reflects strong demand from Philadelphia and NYC buyers priced out of those markets. Homes receive an average of 5 offers and hot homes go in about 6 days at roughly 4% above list price — tighter than most Lehigh Valley submarkets.",
+    answer: "Bethlehem is one of the most competitive markets in the Lehigh Valley. Its Redfin Compete Score of 90/100 reflects strong demand from Philadelphia and NYC buyers priced out of those markets. Homes receive an average of 5 offers and hot homes go in about 6 days at roughly 4% above list price — tighter than most Lehigh Valley submarkets.",
   },
 ];
 
@@ -51,7 +51,7 @@ export default function BethlehemMarketReportPage() {
         {/* TL;DR — GEO/AEO Quick Answer */}
         <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-10">
           <h2 className="text-lg font-bold text-brand-dark mb-2">Quick Answer: Bethlehem PA Housing Market 2026</h2>
-          <p className="text-gray-700 text-sm leading-relaxed">According to Redfin (March 2026), Bethlehem's median home sale price is $313,500, up 14.0% year-over-year. The Zillow Home Value Index (ZHVI) for Bethlehem is $350,600 (+2.9% annually). Homes go pending in ~21 days and sell near list price (99.6% sale-to-list ratio, per Redfin) — a very competitive seller's market. Cash buyers typically offer 70–80% of fair market value, closing in 7–14 days without repairs, showings, or agent commissions.</p>
+          <p className="text-gray-700 text-sm leading-relaxed">According to Redfin (March 2026), Bethlehem's median home sale price is $311,000, up 13.1% year-over-year. The Zillow Home Value Index (ZHVI) for Bethlehem is $351,353 (+3.1% annually). Homes go pending in ~20 days and sell near list price (99.8% sale-to-list ratio, per Redfin) — a very competitive seller's market. Cash buyers typically offer 70–80% of fair market value, closing in 7–14 days without repairs, showings, or agent commissions.</p>
         </div>
 
         <nav className="text-sm text-gray-500 mb-6">
@@ -77,17 +77,17 @@ export default function BethlehemMarketReportPage() {
             <table className="w-full text-sm">
               <tbody>
                 {[
-                  ['Avg home value (Zillow ZHVI)', '$350,600', 'April 2026'],
-                  ['YoY change (Zillow)', '+2.9%', 'April 2026'],
-                  ['Median sale price (Redfin)', '$313,500', 'March 2026'],
-                  ['YoY change (Redfin)', '+14.0%', 'March 2026'],
+                  ['Avg home value (Zillow ZHVI)', '$351,353', 'March 2026'],
+                  ['YoY change (Zillow)', '+3.1%', 'March 2026'],
+                  ['Median sale price (Redfin)', '$311,000', 'March 2026'],
+                  ['YoY change (Redfin)', '+13.1%', 'March 2026'],
                   ['Alternate median (Rocket Homes)', '$330,774', 'March 2025'],
-                  ['Price per sq ft', '$178', 'Redfin, Feb 2026'],
-                  ['Median days on market', '21 days', 'Redfin, Mar 2026'],
-                  ['Sale-to-list ratio', '99.6%', 'Redfin, Mar 2026'],
-                  ['Redfin Compete Score', '89/100 — Very Competitive', 'Feb 2026'],
-                  ['Avg offers per listing', '5 offers', 'Redfin, Feb 2026'],
-                  ['Hot homes sell in', '~6 days at ~4% above list', 'Redfin, Feb 2026'],
+                  ['Price per sq ft', '$177', 'Redfin, Mar 2026'],
+                  ['Median days on market', '20 days', 'Redfin, Mar 2026'],
+                  ['Sale-to-list ratio', '99.8%', 'Redfin, Mar 2026'],
+                  ['Redfin Compete Score', '90/100 — Very Competitive', 'Redfin, Mar 2026'],
+                  ['Avg offers per listing', '5 offers', 'Redfin, Mar 2026'],
+                  ['Hot homes sell in', '~6 days at ~4% above list', 'Redfin, Mar 2026'],
                   ['Transfer tax', '2.0% total (1% PA + 1% City)', 'City of Bethlehem Ordinance'],
                   ['Deed recording — first 4 pages', '$75.25', 'Northampton County Recorder'],
                   ['Owner-occupied rate', '~60.9%', 'Census data via BestNeighborhood.org'],
@@ -105,7 +105,7 @@ export default function BethlehemMarketReportPage() {
           <p className="mt-4 text-xs text-gray-400">
             Sources: Zillow (zillow.com/home-values/17008/bethlehem-pa/), Redfin (redfin.com/city/1616/PA/Bethlehem/housing-market),
             Rocket Homes, City of Bethlehem Ordinance Article 335, Northampton County Recorder of Deeds.
-            Market data last updated: April 2026.
+            Market data last updated: March 2026.
           </p>
         </section>
 
@@ -149,7 +149,7 @@ export default function BethlehemMarketReportPage() {
           </div>
           <p className="mt-3 text-xs text-gray-500">
             Sources: Redfin neighborhood pages (South Bethlehem, Central Bethlehem, Northeast Bethlehem);
-            Lehigh Valley Just Listed (Fountain Hill); BestNeighborhood.org. Data accessed April 2026.
+            Lehigh Valley Just Listed (Fountain Hill); BestNeighborhood.org. Data accessed March 2026.
           </p>
         </section>
 
@@ -159,7 +159,7 @@ export default function BethlehemMarketReportPage() {
             What the Data Means for Bethlehem Sellers
           </h2>
           <p className="text-gray-700 mb-3">
-            Bethlehem&apos;s 89/100 Compete Score and 21-day median DOM reflect strong demand — but that demand is
+            Bethlehem&apos;s 90/100 Compete Score and 20-day median DOM reflect strong demand — but that demand is
             concentrated in move-in-ready properties. According to the U.S. Census Bureau, 30.8% of Bethlehem&apos;s
             housing units are attached structures (row homes and twins), the majority built between 1890 and 1930
             for Bethlehem Steel workers.
@@ -171,7 +171,7 @@ export default function BethlehemMarketReportPage() {
             can&apos;t or don&apos;t want to front that cost, a cash sale at 70-80% of FMV is a rational choice.
           </p>
           <p className="text-gray-700 mb-3">
-            The 14.0% year-over-year price increase (Redfin, March 2026) is also worth context: it reflects the Lehigh Valley&apos;s
+            The 13.1% year-over-year price increase (Redfin, March 2026) is also worth context: it reflects the Lehigh Valley&apos;s
             continued attraction to buyers from Philadelphia and the New York metro. That buyer pool wants turnkey,
             not project homes. Sellers with older properties or complicated situations are often better served
             by a direct cash sale than by competing for a narrower slice of the retail market.
@@ -203,19 +203,19 @@ export default function BethlehemMarketReportPage() {
                   <td className="py-3 px-4">Pennsylvania State RTT</td>
                   <td className="py-3 px-4">1.0%</td>
                   <td className="py-3 px-4">Split 50/50</td>
-                  <td className="py-3 px-4">$3,135 total</td>
+                  <td className="py-3 px-4">$3,110 total</td>
                 </tr>
                 <tr className="bg-gray-50">
                   <td className="py-3 px-4">City of Bethlehem Local RTT</td>
                   <td className="py-3 px-4">1.0%</td>
                   <td className="py-3 px-4">Split 50/50</td>
-                  <td className="py-3 px-4">$3,135 total</td>
+                  <td className="py-3 px-4">$3,110 total</td>
                 </tr>
                 <tr className="bg-white font-bold">
                   <td className="py-3 px-4">TOTAL</td>
                   <td className="py-3 px-4">2.0%</td>
                   <td className="py-3 px-4">Seller pays 1%</td>
-                  <td className="py-3 px-4">$6,270 total ($3,135 seller)</td>
+                  <td className="py-3 px-4">$6,220 total ($3,110 seller)</td>
                 </tr>
               </tbody>
             </table>

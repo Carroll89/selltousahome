@@ -136,7 +136,7 @@ export default function ErieFAQPage() {
           sourcePage="/markets/erie-pa/faq"
         />
 
-        <p className="mt-4 text-xs text-gray-400">Market data last updated: April 2026</p>
+        <p className="mt-4 text-xs text-gray-400">Market data last updated: March 2026</p>
 
         <div className="mt-6 text-sm text-gray-500">
           Related:{' '}

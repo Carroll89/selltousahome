@@ -24,7 +24,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'What happens to the transfer tax when selling during divorce?',
-    answer: "Bethlehem PA has a 2% total transfer tax (1% PA state + 1% City of Bethlehem). On a $320,000 home, the seller's share is $3,200. When selling to USA Home Buyers, we cover all closing costs including the full transfer tax — the full offer price goes to be split between parties.",
+    answer: "Bethlehem PA has a 2% total transfer tax (1% PA state + 1% City of Bethlehem). On a $311,000 home, the seller's share is $3,110. When selling to USA Home Buyers, we cover all closing costs including the full transfer tax — the full offer price goes to be split between parties.",
   },
   {
     question: 'What if my spouse and I disagree on the sale price?',
@@ -122,7 +122,7 @@ export default function BethlehemDivorceSalePage() {
             per the divorce agreement at closing, often within 7-14 days.
           </p>
           <p className="text-gray-700 mb-4">
-            According to Redfin, Bethlehem homes sell at a 100.5% sale-to-list ratio with a median of 10 days
+            According to Redfin, Bethlehem homes sell at a 99.8% sale-to-list ratio with a median of 20 days
             on market — but that assumes a market-ready home. Properties with deferred maintenance, where
             neither party wants to manage repairs during a contentious period, often sit longer. Our as-is offer
             removes that barrier.
@@ -131,7 +131,7 @@ export default function BethlehemDivorceSalePage() {
             According to the{' '}
             <a href="https://www.pa.gov/agencies/revenue/resources/tax-types-and-information/realty-transfer-tax" className="text-brand-primary hover:underline" target="_blank" rel="noopener noreferrer">Pennsylvania Department of Revenue (pa.gov)</a>,
             a 2% total realty transfer tax applies to all PA property transfers, including divorce-related sales.
-            On a $320,000 Bethlehem home, that&apos;s $6,400 — customarily split 50/50. When you sell to us,
+            On a $311,000 Bethlehem home, that&apos;s $6,220 — customarily split 50/50. When you sell to us,
             we cover the full transfer tax as part of paying all closing costs.
           </p>
           <p className="text-gray-700 mb-4">

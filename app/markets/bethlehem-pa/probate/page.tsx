@@ -122,7 +122,7 @@ export default function BethlehemProbatePage() {
           <p className="text-gray-700 mb-4">
             Many Bethlehem probate properties are South Side row homes from the steel era — 1890s to 1930s
             construction, often with deferred maintenance and years of accumulated belongings. We buy them
-            exactly as they are. According to Redfin, Bethlehem&apos;s median sale price is $320,000 (February 2026),
+            exactly as they are. According to Redfin, Bethlehem&apos;s median sale price is $311,000 (Redfin, March 2026),
             with South Side properties averaging near $245,000.
           </p>
           <p className="text-gray-700 mb-3">

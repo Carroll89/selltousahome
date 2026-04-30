@@ -171,7 +171,7 @@ export default function ErieTenantOccupiedPage() {
           <FAQSection items={FAQ_ITEMS} heading="Tenant-Occupied Erie PA Rental — Common Questions" />
 
           <div className="mt-8 text-sm text-gray-500">
-            <p>Market data last updated: April 2026</p>
+            <p>Market data last updated: March 2026</p>
             <p className="mt-2">
               Related:{' '}
               <Link href="/markets/erie-pa" className="text-brand-primary hover:underline">Sell Your Erie House Fast</Link>{' '}

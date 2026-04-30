@@ -207,7 +207,7 @@ export default function HartfordCTMarketPage() {
       </div>
 
       <div className="max-w-7xl mx-auto px-4 py-8">
-        <p className="text-xs text-gray-400 text-right mb-2">Last Updated: April 2026</p>
+        <p className="text-xs text-gray-400 text-right mb-2">Last Updated: March 2026</p>
         <HowItWorks />
 
         <section className="my-12">
@@ -225,7 +225,11 @@ export default function HartfordCTMarketPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200">
-                <tr className="bg-white"><td className="p-3 font-medium">Median listing price (metro)</td><td className="p-3">$455,000</td><td className="p-3 text-gray-500">Realtor.com (Mar 2026)</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Median sale price (city)</td><td className="p-3">$324,000 (+17.2% YoY)</td><td className="p-3 text-gray-500">Redfin city (Mar 2026)</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Price per sq ft (city)</td><td className="p-3">$140 (+1.8% YoY)</td><td className="p-3 text-gray-500">Redfin city (Mar 2026)</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Median days on market (city)</td><td className="p-3">46 days</td><td className="p-3 text-gray-500">Redfin city (Mar 2026)</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Zillow city ZHVI</td><td className="p-3">$198,965 (+5.3% YoY)</td><td className="p-3 text-gray-500">Zillow Research City ZHVI CSV (2026-03-31)</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Median listing price (metro)</td><td className="p-3">$455,000</td><td className="p-3 text-gray-500">Realtor.com/FRED metro (Mar 2026)</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Hotness rank</td><td className="p-3">#13 nationally</td><td className="p-3 text-gray-500">Realtor.com Hotness Index</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Conveyance tax</td><td className="p-3">0.75% state (first $800K) + municipal</td><td className="p-3 text-gray-500">CT DRS (ct.gov/drs)</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Foreclosure type</td><td className="p-3">Strict foreclosure (no auction — Law Day)</td><td className="p-3 text-gray-500">CT Judicial Branch</td></tr>

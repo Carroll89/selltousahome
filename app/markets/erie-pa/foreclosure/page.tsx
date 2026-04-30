@@ -239,7 +239,7 @@ export default function ErieForeclosurePage() {
           </section>
 
           <div className="mt-8 text-sm text-gray-500">
-            <p>Market data last updated: April 2026</p>
+            <p>Market data last updated: March 2026</p>
             <p className="mt-2">
               Sources:{' '}
               <a href="https://www.nolo.com/legal-encyclopedia/pennsylvania-foreclosure-laws-procedures.html" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:underline">Nolo.com — PA Foreclosure Laws</a>

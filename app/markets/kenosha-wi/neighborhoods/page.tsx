@@ -56,12 +56,12 @@ export default function KenoshaNeighborhoodsPage() {
         </div>
         <div className="bg-white rounded-xl border border-gray-200 p-5">
           <h3 className="font-bold text-brand-dark mb-2">Lincoln Park</h3>
-          <p className="text-sm text-gray-700 mb-1">Median price range: <strong>$190,000-$235,000</strong></p>
+          <p className="text-sm text-gray-700 mb-1">Median price range: <strong>$190,000-$279,500</strong></p>
           <p className="text-sm text-gray-600">We buy in this neighborhood in any condition — inherited estates, rentals, pre-foreclosure, and direct seller situations.</p>
         </div>
         <div className="bg-white rounded-xl border border-gray-200 p-5">
           <h3 className="font-bold text-brand-dark mb-2">Pleasant Prairie (North)</h3>
-          <p className="text-sm text-gray-700 mb-1">Median price range: <strong>$250,000-$320,000</strong></p>
+          <p className="text-sm text-gray-700 mb-1">Median price range: <strong>$250,000-$310,000</strong></p>
           <p className="text-sm text-gray-600">We buy in this neighborhood in any condition — inherited estates, rentals, pre-foreclosure, and direct seller situations.</p>
         </div>
         <div className="bg-white rounded-xl border border-gray-200 p-5">

@@ -45,7 +45,7 @@ const NEIGHBORHOODS = [
   },
   {
     name: 'Central Eastside (16503)',
-    desc: "The inner-city east side. One of Erie's most affordable and most distressed neighborhoods. High vacancy, older housing stock, significant blight. Median sale price ~$81,000 (Redfin, Feb 2026, ZIP 16503). Cash-only market in many cases — lenders avoid the most distressed properties.",
+    desc: "The inner-city east side. One of Erie's most affordable and most distressed neighborhoods. High vacancy, older housing stock, significant blight. Median sale price ~$81,000 (Redfin, Mar 2026, ZIP 16503). Cash-only market in many cases — lenders avoid the most distressed properties.",
     medianPrice: '~$50K–$100K',
     notes: 'Highest volume of distressed inventory in Erie. Motivated sellers. Cash buyers frequently the only realistic option.',
   },
@@ -178,7 +178,7 @@ export default function ErieNeighborhoodsPage() {
           sourcePage="/markets/erie-pa/neighborhoods"
         />
 
-        <p className="mt-4 text-xs text-gray-400">Market data last updated: April 2026. Neighborhood price ranges extrapolated from Redfin ZIP code data (Feb 2026) and NeighborhoodScout distribution data.</p>
+        <p className="mt-4 text-xs text-gray-400">Market data last updated: March 2026. Neighborhood price ranges extrapolated from Redfin ZIP code data (Feb 2026; ZIP-level context) and NeighborhoodScout distribution data.</p>
 
         <div className="mt-6 text-sm text-gray-500">
           Related:{' '}

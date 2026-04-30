@@ -150,7 +150,7 @@ export default function ErieFireDamagePage() {
           <FAQSection items={FAQ_ITEMS} heading="Fire-Damaged House Erie PA — Common Questions" />
 
           <div className="mt-8 text-sm text-gray-500">
-            <p>Market data last updated: April 2026</p>
+            <p>Market data last updated: March 2026</p>
             <p className="mt-2">
               Related:{' '}
               <Link href="/markets/erie-pa/code-violations" className="text-brand-primary hover:underline">Code Violations Erie PA</Link>{' '}

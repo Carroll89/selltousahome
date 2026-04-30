@@ -37,7 +37,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How do you calculate the cash offer on a fire-damaged Bethlehem home?',
-    answer: "We estimate the after-repair value (ARV) — what the property would be worth fully restored — and subtract the cost of remediation and repair. On a $320,000 Bethlehem median home with significant fire damage, restoration might cost $80,000-$150,000. Our offer reflects a realistic investor return after those costs. According to Redfin, Bethlehem's market is active and well-priced, which helps even damaged properties hold underlying value.",
+    answer: "We estimate the after-repair value (ARV) — what the property would be worth fully restored — and subtract the cost of remediation and repair. On a $311,000 Bethlehem median home with significant fire damage, restoration might cost $80,000-$150,000. Our offer reflects a realistic investor return after those costs. According to Redfin, Bethlehem's market is active and well-priced, which helps even damaged properties hold underlying value.",
   },
   {
     question: 'How fast can you close on a fire-damaged Bethlehem property?',

@@ -35,7 +35,7 @@ export default function RacineMarketReportPage() {
         <div className="bg-blue-50 border border-blue-100 rounded-xl p-4 mb-8">
           <p className="text-sm font-medium text-blue-800 mb-1">TL;DR</p>
           <p className="text-sm text-blue-900 leading-relaxed">
-            According to the Zillow Home Value Index (February 2026), the typical Racine home value is $171,496, up 4.4% year over year. Redfin reports a March 2026 median sale price of $205,000 with 35 days on market and 8 offers per home. The Racine-Mount Pleasant metro area scored #8 on the April 2026 Realtor.com Market Hotness Index (median $347,720, 30 days on market). Wisconsin realty transfer fee is $3.00 per $1,000 (seller pays, state-only, no county surcharge). Foreclosure is judicial, filed at Racine County Circuit Court, 10-14 months typical. For a cash offer based on current Racine County conditions, call USA Home Buyers at 888-274-5006.
+            According to the Zillow Home Value Index (Zillow Research City ZHVI CSV, 2026-03-31), the typical Racine city home value is $208,908, up 4.9% year over year. Redfin reports a March 2026 median sale price of $219,000 with 37 days on market, and Redfin rates Racine 84/100 on its Compete Score. Mount Pleasant village is a separate higher-value market: Zillow Research City ZHVI CSV shows $336,759 as of 2026-03-31. Wisconsin realty transfer fee is $3.00 per $1,000 (seller pays, state-only, no county surcharge). Foreclosure is judicial, filed at Racine County Circuit Court, 10-14 months typical. For a cash offer based on current Racine County conditions, call USA Home Buyers at 888-274-5006.
           </p>
         </div>
 
@@ -51,13 +51,13 @@ export default function RacineMarketReportPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200">
-                <tr className="bg-white"><td className="p-3 font-medium">Racine typical home value (ZHVI)</td><td className="p-3">$171,496 (+4.4% YoY)</td><td className="p-3 text-gray-500">Zillow (Feb 2026)</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">Racine median sale price</td><td className="p-3">$205,000</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
-                <tr className="bg-white"><td className="p-3 font-medium">Mount Pleasant median $/sqft</td><td className="p-3">$174 (+6.7% YoY)</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Racine typical home value (ZHVI)</td><td className="p-3">$208,908 (+4.9% YoY)</td><td className="p-3 text-gray-500">Zillow Research City ZHVI CSV (2026-03-31)</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Racine median sale price</td><td className="p-3">$219,000</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Mount Pleasant median $/sqft</td><td className="p-3">$207 (+6.7% YoY)</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Racine County median $/sqft</td><td className="p-3">$184 (+9.2% YoY)</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
-                <tr className="bg-white"><td className="p-3 font-medium">Metro hotness median (RDC)</td><td className="p-3">$347,720</td><td className="p-3 text-gray-500">Realtor.com (Apr 2026)</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">Median days on market (Racine city)</td><td className="p-3">35 days</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
-                <tr className="bg-white"><td className="p-3 font-medium">Average offers per home</td><td className="p-3">8 offers</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Mount Pleasant village ZHVI</td><td className="p-3">$336,759</td><td className="p-3 text-gray-500">Zillow Research City ZHVI CSV, 2026-03-31</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Median days on market (Racine city)</td><td className="p-3">37 days</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Redfin Compete Score</td><td className="p-3">84/100</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Redfin compete score</td><td className="p-3">82 / 100 (Very Competitive)</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Typical cash offer range</td><td className="p-3">68-80% of FMV</td><td className="p-3 text-gray-500">Local investor norms</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Wisconsin realty transfer fee</td><td className="p-3">$3.00 per $1,000 (seller pays)</td><td className="p-3 text-gray-500">Wis. Stat. § 77.22</td></tr>
@@ -133,7 +133,7 @@ export default function RacineMarketReportPage() {
         <section className="mb-10">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">What This Means for Racine-Mount Pleasant Sellers</h2>
           <p className="text-gray-700 mb-4">
-            With 35 median days on market and 8 offers per home (Redfin, March 2026), Racine is a technically competitive market — but that velocity hides a bifurcation. Move-in-ready Mount Pleasant suburban homes in the I-94 corridor move fast at full asking. Pre-1940 Racine city homes in the historic districts often sit longer or see deeper price cuts because their buyer pool is limited to cash investors, FHA 203(k) renovation buyers, or conventional loans with major contingencies.
+            With 37 median days on market and Redfin rating Racine 84/100 on its Compete Score (Redfin, March 2026), Racine is a technically competitive market — but that velocity hides a bifurcation. Move-in-ready Mount Pleasant suburban homes in the I-94 corridor move fast at full asking. Pre-1940 Racine city homes in the historic districts often sit longer or see deeper price cuts because their buyer pool is limited to cash investors, FHA 203(k) renovation buyers, or conventional loans with major contingencies.
           </p>
           <p className="text-gray-700 mb-4">
             A direct cash sale to USA Home Buyers closes in 7–14 days with no repairs required. We cover all closing costs including the Wisconsin realty transfer fee. Cash offers typically run 68–80% of fair market value — but on pre-war Racine inventory where conventional financing is already a non-starter, the implied discount is much smaller than the headline number suggests.
@@ -143,7 +143,7 @@ export default function RacineMarketReportPage() {
         <CashOfferForm variant="inline" headline="Get a Cash Offer Based on Current Racine Market Data" subheadline="Written offer in 24 hours based on current Racine County comps. We cover all closing costs." sourcePage="/markets/racine-mount-pleasant-wi/market-report" />
 
         <div className="mt-8 text-sm text-gray-500">
-          <p>Data sources: Zillow Home Value Index (ZHVI), Redfin market statistics, U.S. Census Bureau American Community Survey, Realtor.com Market Hotness Index, Racine County Eye, WPR. Market data reflects conditions as of March–April 2026. Individual property values vary. Contact us for a property-specific assessment.</p>
+          <p>Data sources: Zillow Home Value Index (ZHVI), Redfin market statistics, U.S. Census Bureau American Community Survey, Racine County Eye, WPR. Market data reflects conditions as of March 2026. Individual property values vary. Contact us for a property-specific assessment.</p>
         </div>
       </div>
     </>

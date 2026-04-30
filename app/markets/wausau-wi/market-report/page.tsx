@@ -33,7 +33,11 @@ export default function WausauMarketReportPage() {
             <table className="w-full text-sm border-collapse">
               <thead><tr className="bg-brand-primary text-white"><th className="text-left p-3">Metric</th><th className="text-left p-3">Value</th><th className="text-left p-3">Source</th></tr></thead>
               <tbody className="divide-y divide-gray-200">
-                <tr className="bg-white"><td className="p-3 font-medium">Median listing price (metro)</td><td className="p-3">$366,000</td><td className="p-3 text-gray-500">Realtor.com (Mar 2026)</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Median sale price (city)</td><td className="p-3">$225,000 (+33.9% YoY)</td><td className="p-3 text-gray-500">Redfin city (Mar 2026)</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Price per sq ft (city)</td><td className="p-3">$140 (+22.3% YoY)</td><td className="p-3 text-gray-500">Redfin city (Mar 2026)</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Median days on market (city)</td><td className="p-3">40 days</td><td className="p-3 text-gray-500">Redfin city (Mar 2026)</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Zillow city ZHVI</td><td className="p-3">$240,743 (+8.6% YoY)</td><td className="p-3 text-gray-500">Zillow Research City ZHVI CSV (2026-03-31)</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Median listing price (metro)</td><td className="p-3">$366,000</td><td className="p-3 text-gray-500">Realtor.com/FRED metro (Mar 2026)</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Hotness rank</td><td className="p-3">#18 of 300+ metros</td><td className="p-3 text-gray-500">Realtor.com Hotness Index</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Hotness score</td><td className="p-3">89.3 / 100</td><td className="p-3 text-gray-500">Realtor.com (Mar 2026)</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Transfer fee</td><td className="p-3">0.3% ($3/$1,000, seller pays)</td><td className="p-3 text-gray-500">WI DOR (revenue.wi.gov)</td></tr>

@@ -50,7 +50,7 @@ export default function ErieMarketReportPage() {
               Erie PA Housing Market Report — 2026
             </h1>
             <p className="text-lg text-blue-100 mb-4">
-              Data compiled April 2026. Sources: DataUSA, Redfin, NeighborhoodScout, PA Department of Revenue.
+              Data compiled March 2026. Sources: DataUSA, Redfin, NeighborhoodScout, PA Department of Revenue.
             </p>
             <a
               href={`tel:${PHONE}`}
@@ -96,6 +96,7 @@ export default function ErieMarketReportPage() {
               </thead>
               <tbody>
                 {[
+                  ['City ZHVI', '$198,492 (+5.2% YoY)', 'Zillow Research City ZHVI CSV, RegionID 11335, 2026-03-31'],
                   ['Median Home Value (DataUSA ACS 2024)', '$115,200', 'DataUSA.io — 5-year ACS estimate'],
                   ['Median Home Value (City-Data ACS 2024)', '$135,200', 'City-Data.com — 1-year ACS estimate'],
                   ['Median Home Value (NeighborhoodScout)', '$118,479', 'NeighborhoodScout — repeat-sales methodology'],
@@ -104,21 +105,21 @@ export default function ErieMarketReportPage() {
                   ['Median Days on Market — City', '28 days', 'Redfin, Mar 2026'],
                   ['Sale-to-List Ratio — City', '97.7%', 'Redfin, Mar 2026'],
                   ['Price Per Sq Ft — City', '$112', 'Redfin, Mar 2026'],
-                  ['Median Sale Price — ZIP 16503 (inner city)', '$81,000', 'Redfin, Feb 2026'],
-                  ['Median Sale Price — ZIP 16505 (west/Millcreek)', '$300,000', 'Redfin, Feb 2026'],
-                  ['Median Sale Price — ZIP 16509 (Millcreek south)', '$245,000', 'Redfin, Feb 2026'],
-                  ['YoY Price Change (16503)', '+70.5%', 'Redfin Feb 2026 (small base effect)'],
-                  ['YoY Price Change (16505)', '+15.8%', 'Redfin Feb 2026'],
-                  ['YoY Price Change (16509)', '+27.1%', 'Redfin Feb 2026'],
-                  ['Median Days on Market (16503)', '42 days', 'Redfin Feb 2026'],
-                  ['Median Days on Market (16505)', '20 days', 'Redfin Feb 2026 — hottest segment'],
-                  ['Median Days on Market (16509)', '31 days', 'Redfin Feb 2026'],
+                  ['Median Sale Price — ZIP 16503 (inner city)', '$81,000', 'Redfin, Mar 2026'],
+                  ['Median Sale Price — ZIP 16505 (west/Millcreek)', '$300,000', 'Redfin, Mar 2026'],
+                  ['Median Sale Price — ZIP 16509 (Millcreek south)', '$245,000', 'Redfin, Mar 2026'],
+                  ['YoY Price Change (16503)', '+70.5%', 'Redfin Mar 2026 (small base effect)'],
+                  ['YoY Price Change (16505)', '+15.8%', 'Redfin Mar 2026'],
+                  ['YoY Price Change (16509)', '+27.1%', 'Redfin Mar 2026'],
+                  ['Median Days on Market (16503)', '42 days', 'Redfin Mar 2026'],
+                  ['Median Days on Market (16505)', '20 days', 'Redfin Mar 2026 — hottest segment'],
+                  ['Median Days on Market (16509)', '31 days', 'Redfin Mar 2026'],
                   ['Compete Score (16503)', '71/100 — Very Competitive', 'Redfin'],
                   ['Compete Score (16505)', '81/100 — Very Competitive', 'Redfin'],
                   ['Compete Score (16509)', '73/100 — Very Competitive', 'Redfin'],
-                  ['Sale-to-List Ratio (16503)', '95.6%', 'Redfin Feb 2026'],
-                  ['Sale-to-List Ratio (16505)', '97.8%', 'Redfin Feb 2026'],
-                  ['Sale-to-List Ratio (16509)', '98.1%', 'Redfin Feb 2026'],
+                  ['Sale-to-List Ratio (16503)', '95.6%', 'Redfin Mar 2026'],
+                  ['Sale-to-List Ratio (16505)', '97.8%', 'Redfin Mar 2026'],
+                  ['Sale-to-List Ratio (16509)', '98.1%', 'Redfin Mar 2026'],
                   ['NeighborhoodScout 12-mo appreciation', '-0.86%', 'NeighborhoodScout Q2-Q3 2025'],
                   ['NeighborhoodScout latest quarter (annualized)', '+14.91%', 'NeighborhoodScout Q3 2025'],
                   ['Cash offer range (urban Erie, ~$115K)', '$70,000–$90,000', 'USA Home Buyers estimate — 60-75% of ARV'],
@@ -138,7 +139,7 @@ export default function ErieMarketReportPage() {
               </tbody>
             </table>
           </div>
-          <p className="mt-2 text-xs text-gray-400">Market data last updated: April 2026</p>
+          <p className="mt-2 text-xs text-gray-400">Market data last updated: March 2026</p>
         </section>
 
         <section className="mb-10">
@@ -162,7 +163,7 @@ export default function ErieMarketReportPage() {
                 {[
                   ['Urban core / inner city', '16501, 16502, 16503, 16504', '$50K–$120K', '$32–$45', '30-50 days'],
                   ['West Erie / Millcreek corridor', '16505, 16506', '$250K–$400K+', '$129', '15-25 days'],
-                  ['Millcreek South / suburban', '16509', '$200K–$280K', '$124', '25-35 days'],
+                  ['Millcreek South / suburban', '16509', '$200K–$280K', '$124', '25-37 days'],
                 ].map(([seg, zips, price, sqft, dom], i) => (
                   <tr key={i} className={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
                     <td className="py-3 px-4 font-medium text-brand-dark">{seg}</td>
@@ -176,7 +177,7 @@ export default function ErieMarketReportPage() {
             </table>
           </div>
           <p className="mt-2 text-xs text-gray-400">
-            Source: Redfin ZIP code market pages (16503, 16505, 16509), Feb 2026. Price per sqft data from Redfin Feb 2026.
+            Source: Redfin ZIP code market pages (16503, 16505, 16509), Feb 2026 ZIP-level context. City price per sqft data from Redfin Mar 2026.
           </p>
         </section>
 

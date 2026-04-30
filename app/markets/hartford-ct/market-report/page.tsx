@@ -51,7 +51,11 @@ export default function HartfordMarketReportPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200">
-                <tr className="bg-white"><td className="p-3 font-medium">Median listing price (metro)</td><td className="p-3">$455,000</td><td className="p-3 text-gray-500">Realtor.com (Mar 2026)</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Median sale price (city)</td><td className="p-3">$324,000 (+17.2% YoY)</td><td className="p-3 text-gray-500">Redfin city (Mar 2026)</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Price per sq ft (city)</td><td className="p-3">$140 (+1.8% YoY)</td><td className="p-3 text-gray-500">Redfin city (Mar 2026)</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Median days on market (city)</td><td className="p-3">46 days</td><td className="p-3 text-gray-500">Redfin city (Mar 2026)</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Zillow city ZHVI</td><td className="p-3">$198,965 (+5.3% YoY)</td><td className="p-3 text-gray-500">Zillow Research City ZHVI CSV (2026-03-31)</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Median listing price (metro)</td><td className="p-3">$455,000</td><td className="p-3 text-gray-500">Realtor.com/FRED metro (Mar 2026)</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Hotness rank</td><td className="p-3">#13 of 300+ metros</td><td className="p-3 text-gray-500">Realtor.com Hotness Index</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Hotness score</td><td className="p-3">92.8 / 100</td><td className="p-3 text-gray-500">Realtor.com (Mar 2026)</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Conveyance tax</td><td className="p-3">0.75% state (first $800K) + municipal</td><td className="p-3 text-gray-500">CT DRS (ct.gov/drs)</td></tr>
@@ -86,7 +90,7 @@ export default function HartfordMarketReportPage() {
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Behind the Rocks</td><td className="p-3">$150,000-$240,000</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">West Hartford (suburb)</td><td className="p-3">$350,000-$550,000+</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Glastonbury (suburb)</td><td className="p-3">$400,000-$600,000+</td></tr>
-                <tr className="bg-white"><td className="p-3 font-medium">East Hartford</td><td className="p-3">$200,000-$320,000</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">East Hartford</td><td className="p-3">$200,000-$311,000</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">New Britain</td><td className="p-3">$180,000-$280,000</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Manchester</td><td className="p-3">$250,000-$380,000</td></tr>
               </tbody>

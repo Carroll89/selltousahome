@@ -58,7 +58,7 @@ export default function BostonMarketReportPage() {
                 <tr className="bg-white"><td className="p-3 font-medium">Dorchester</td><td className="p-3">$500,000-$650,000</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Roxbury</td><td className="p-3">$400,000-$600,000</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Mattapan</td><td className="p-3">$400,000-$550,000</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">Hyde Park</td><td className="p-3">$450,000-$600,000</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Hyde Park</td><td className="p-3">$500,000-$600,000</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Cambridge (metro)</td><td className="p-3">$700,000-$1,200,000+</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Quincy (metro)</td><td className="p-3">$400,000-$600,000</td></tr>
               </tbody>
@@ -107,7 +107,7 @@ export default function BostonMarketReportPage() {
               </thead>
               <tbody className="divide-y divide-gray-200">
                 <tr className="bg-white"><td className="p-3 font-medium">Median sale price</td><td className="p-3">$865,000</td><td className="p-3 text-gray-500">+3.0%</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">Median price per sq ft</td><td className="p-3">$683</td><td className="p-3 text-gray-500">−2.1%</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Median price per sq ft</td><td className="p-3">$686</td><td className="p-3 text-gray-500">−1.6%</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Median days on market</td><td className="p-3">33 days</td><td className="p-3 text-gray-500">+11 days (was 22)</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Homes sold</td><td className="p-3">336</td><td className="p-3 text-gray-500">+9 (327 → 336)</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Sale-to-list ratio</td><td className="p-3">98.3%</td><td className="p-3 text-gray-500">—</td></tr>

@@ -92,7 +92,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How much will you pay for my Boston home?',
-    answer: 'Cash offers typically range from 65-78% of fair market value. Boston metro median listing price is approximately $829,000, though neighborhoods vary enormously — Mattapan and Dorchester homes may list at $450,000-$600,000 while Back Bay condos exceed $1M. We provide a written offer based on comparable sales and property condition.',
+    answer: 'Cash offers typically range from 65-78% of fair market value. Boston metro median listing price is approximately $829,000, though neighborhoods vary enormously — Mattapan and Dorchester homes may list at $500,000-$600,000 while Back Bay condos exceed $1M. We provide a written offer based on comparable sales and property condition.',
   },
   {
     question: 'What are the transfer taxes when selling in Boston?',

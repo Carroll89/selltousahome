@@ -204,10 +204,14 @@ export default function ErieMarketPage() {
             <table className="w-full text-sm">
               <tbody>
                 {[
+                  ['City ZHVI — Zillow Research CSV (2026-03-31)', '$198,492 (+5.2% YoY)'],
+                  ['Median sale price — Redfin city (Mar 2026)', '$153,500 (+13.3% YoY)'],
+                  ['Price per sq ft — Redfin city (Mar 2026)', '$112'],
+                  ['Median days on market — Redfin city (Mar 2026)', '28 days'],
                   ['Median home value — DataUSA ACS', '$115,000–$120,000'],
-                  ['Median sale price — Redfin (Feb 2026, 16503)', '$81,000'],
-                  ['Median sale price — Redfin (Feb 2026, 16505)', '$300,000'],
-                  ['Median sale price — Redfin (Feb 2026, 16509)', '$245,000'],
+                  ['Median sale price — Redfin (Feb 2026 ZIP 16503 context)', '$81,000'],
+                  ['Median sale price — Redfin (Feb 2026 ZIP 16505 context)', '$300,000'],
+                  ['Median sale price — Redfin (Feb 2026 ZIP 16509 context)', '$245,000'],
                   ['Median days on market (urban core)', '42 days'],
                   ['Median days on market (Millcreek/west, 16505)', '20 days'],
                   ['Compete Score (Redfin)', '71-81/100 — Very Competitive'],
@@ -227,7 +231,7 @@ export default function ErieMarketPage() {
               </tbody>
             </table>
           </div>
-          <p className="mt-4 text-xs text-gray-400">Market data last updated: April 2026</p>
+          <p className="mt-4 text-xs text-gray-400">Market data last updated: March 2026</p>
           <p className="mt-2 text-sm text-gray-600">
             Erie&apos;s market is bifurcated — the urban core has affordable but often distressed housing, while the Millcreek corridor has moved to mid-market prices. For sellers with older homes in any condition, cash buyers offer speed and certainty that the traditional market can&apos;t match.
           </p>

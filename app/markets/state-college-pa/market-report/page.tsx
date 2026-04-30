@@ -9,8 +9,8 @@ import { faqSchema, stateCollegeLocalBusinessSchema, articleSchema } from '@/lib
 import { SITE_URL } from '@/lib/utils';
 
 const REPORT_DATA = {
-  lastUpdated: 'April 2026',
-  medianHomeValueZHVI: '$380,550',
+  lastUpdated: 'March 2026',
+  medianHomeValueZHVI: '$408,500',
   medianSalePriceRedfin: '$480,500',
   yoyZHVI: '+0.9%',
   yoyRedfin: '+11.1%',
@@ -18,7 +18,7 @@ const REPORT_DATA = {
   pricePerSqftYoY: '+6.2%',
   daysToPending: 5,
   saleToListRatio: '100.8%',
-  redfinCompeteScore: '93/100',
+  redfinCompeteScore: '91/100',
   cashOfferRangeLow: '$286,000',
   cashOfferRangeHigh: '$327,000',
   transferTaxBorough: '3.00%',
@@ -42,7 +42,7 @@ const NEIGHBORHOODS = [
   {
     name: 'State College South',
     medianPrice: '$490,000–$519,000',
-    notes: '+5.9% to +25.6% YoY range (Redfin). Mix of 1960s-1980s homes. Strong owner-occupant demand.',
+    notes: '+3.1% to +25.6% YoY range (Redfin). Mix of 1960s-1980s homes. Strong owner-occupant demand.',
   },
   {
     name: 'Holmes-Foster Historic District',
@@ -65,12 +65,12 @@ const FAQ_ITEMS = [
   {
     question: 'What is the median home price in State College PA in 2026?',
     answer:
-      "According to Zillow's ZHVI, the median home value in State College is $380,550 as of March 2026. Redfin's median sale price (March 2026) is $480,500, up 11.1% year-over-year. The difference reflects the distinction between estimated value and actual closed sale data — Redfin's figure skews higher because it captures what homes actually sold for, including above-ask deals.",
+      "According to Zillow's ZHVI, the median home value in State College is $408,500 as of March 2026. Redfin's median sale price (March 2026) is $480,500, up 11.1% year-over-year. The difference reflects the distinction between estimated value and actual closed sale data — Redfin's figure skews higher because it captures what homes actually sold for, including above-ask deals.",
   },
   {
     question: 'How fast do homes sell in State College PA?',
     answer:
-      "The median days on market is 5 days — meaning competitive homes go pending in less than a week. Redfin's Compete Score of 93/100 rates State College as 'Most Competitive.' The sale-to-list ratio of 100.8% confirms homes frequently sell above asking price. However, non-standard properties (student rentals, deferred maintenance, estate sales) typically take longer and sell at steeper discounts.",
+      "The median days on market is 5 days — meaning competitive homes go pending in less than a week. Redfin's Compete Score of 91/100 rates State College as 'Most Competitive.' The sale-to-list ratio of 100.8% confirms homes frequently sell above asking price. However, non-standard properties (student rentals, deferred maintenance, estate sales) typically take longer and sell at steeper discounts.",
   },
   {
     question: "Is State College a buyer's or seller's market in 2026?",
@@ -80,7 +80,7 @@ const FAQ_ITEMS = [
   {
     question: 'What is the transfer tax rate in State College Borough?',
     answer:
-      "State College Borough charges 3.00% total realty transfer tax: 1.00% state, 1.50% borough, 0.50% school district. Most other Centre County municipalities charge 2.00% total. The higher borough rate is a meaningful cost difference — $13,500 on a $450,000 sale versus $9,000 in a nearby township. Source: Centre County RTT Rates (centrecountypa.gov).",
+      "State College Borough charges 3.00% total realty transfer tax: 1.00% state, 1.50% borough, 0.50% school district. Most other Centre County municipalities charge 2.00% total. The higher borough rate is a meaningful cost difference — $14,415 on a $480,500 sale versus $9,000 in a nearby township. Source: Centre County RTT Rates (centrecountypa.gov).",
   },
   {
     question: 'How does Penn State affect the State College housing market?',
@@ -94,7 +94,7 @@ const pageUrl = `${SITE_URL}/markets/state-college-pa/market-report`;
 export const metadata: Metadata = {
   title: 'State College PA Housing Market 2026',
   description:
-    'State College PA housing market data for 2026: median prices, days on market, transfer tax rates, and neighborhood breakdown. Updated April 2026.',
+    'State College PA housing market data for 2026: median prices, days on market, transfer tax rates, and neighborhood breakdown. Updated March 2026.',
   alternates: { canonical: pageUrl },
 };
 
@@ -135,7 +135,7 @@ export default function StateCollegeMarketReport() {
         {/* TL;DR — GEO/AEO Quick Answer */}
         <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-10">
           <h2 className="text-lg font-bold text-brand-dark mb-2">Quick Answer: State College PA Housing Market 2026</h2>
-          <p className="text-gray-700 text-sm leading-relaxed">According to Redfin (March 2026), State College's median home sale price is $480,500 (+11.1% year-over-year) with a Compete Score of 93/100 — one of the most competitive markets in Pennsylvania. The Zillow Home Value Index for State College is $380,550 (March 2026). Homes average 5 days to pending. Centre County charges the standard Pennsylvania 2% transfer tax. Cash buyers offer 70–80% of FMV, closing in 7–14 days without repairs, contingencies, or agent commissions.</p>
+          <p className="text-gray-700 text-sm leading-relaxed">According to Redfin (March 2026), State College's median home sale price is $480,500 (+11.1% year-over-year) with a Compete Score of 91/100 — one of the most competitive markets in Pennsylvania. The Zillow Home Value Index for State College is $408,500 (March 2026). Homes average 5 days to pending. State College Borough charges a 3.00% total transfer tax (1% PA state + 2% local). Most other Centre County municipalities charge the standard 2.00%. Cash buyers offer 70–80% of FMV, closing in 7–14 days without repairs, contingencies, or agent commissions.</p>
         </div>
 
 
@@ -153,12 +153,12 @@ export default function StateCollegeMarketReport() {
               </thead>
               <tbody>
                 {[
-                  ['Median home value (Zillow ZHVI)', `${REPORT_DATA.medianHomeValueZHVI} (${REPORT_DATA.yoyZHVI} YoY)`, 'Zillow, March 2026'],
-                  ['Median sale price', `${REPORT_DATA.medianSalePriceRedfin} (${REPORT_DATA.yoyRedfin} YoY)`, 'Redfin, Feb 2026'],
-                  ['Median sale price per sq ft', `${REPORT_DATA.pricePerSqft} (${REPORT_DATA.pricePerSqftYoY} YoY)`, 'Redfin, Feb 2026'],
-                  ['Median days on market', `${REPORT_DATA.daysToPending} days`, 'Redfin, Feb 2026'],
-                  ['Sale-to-list ratio', REPORT_DATA.saleToListRatio, 'Redfin, Feb 2026'],
-                  ['Redfin Compete Score', REPORT_DATA.redfinCompeteScore, 'Redfin, Feb 2026'],
+                  ['Median home value (Zillow ZHVI)', `${REPORT_DATA.medianHomeValueZHVI} (${REPORT_DATA.yoyZHVI} YoY)`, 'Zillow Research City ZHVI CSV, 2026-03-31'],
+                  ['Median sale price', `${REPORT_DATA.medianSalePriceRedfin} (${REPORT_DATA.yoyRedfin} YoY)`, 'Redfin, Mar 2026'],
+                  ['Median sale price per sq ft', `${REPORT_DATA.pricePerSqft} (${REPORT_DATA.pricePerSqftYoY} YoY)`, 'Redfin, Mar 2026'],
+                  ['Median days on market', `${REPORT_DATA.daysToPending} days`, 'Redfin, Mar 2026'],
+                  ['Sale-to-list ratio', REPORT_DATA.saleToListRatio, 'Redfin, Mar 2026'],
+                  ['Redfin Compete Score', REPORT_DATA.redfinCompeteScore, 'Redfin, Mar 2026'],
                   ['Typical cash offer range', `${REPORT_DATA.cashOfferRangeLow}–${REPORT_DATA.cashOfferRangeHigh}`, '70-80% of Zillow ZHVI'],
                   ['Transfer tax — State College Borough', REPORT_DATA.transferTaxBorough, 'Centre County RTT Table'],
                   ['Transfer tax — most Centre County townships', REPORT_DATA.transferTaxMostTownships, 'Centre County RTT Table'],

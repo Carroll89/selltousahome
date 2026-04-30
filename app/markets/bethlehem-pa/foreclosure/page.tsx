@@ -36,7 +36,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How much will I net from selling before a Bethlehem foreclosure?',
-    answer: "According to Redfin, Bethlehem's median sale price is $320,000 as of February 2026. Cash offers typically run 70-80% of fair market value — $224,000-$256,000 on a $320,000 home. From that, your mortgage payoff, any liens, and closing costs are paid at closing. We cover transfer tax and all closing costs — nothing extra out of your pocket.",
+    answer: "According to Redfin, Bethlehem's median sale price is $311,000 as of March 2026. Cash offers typically run 70-80% of fair market value — $218,000-$249,000 on a $311,000 home. From that, your mortgage payoff, any liens, and closing costs are paid at closing. We cover transfer tax and all closing costs — nothing extra out of your pocket.",
   },
   {
     question: 'Does a pre-foreclosure sale affect my credit?',

@@ -49,7 +49,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'What about the transfer fee and estate tax on a Racine probate sale?',
-    answer: 'Wisconsin has no state estate tax or inheritance tax. Federal estate tax only applies to estates over $13.61 million (2026 exemption). The Wisconsin realty transfer fee under Wis. Stat. § 77.22 applies to probate sales — $3.00 per $1,000 of consideration (0.30%), paid by the seller estate. On a $205,000 Racine sale: $615. Racine County adds no surcharge. Wisconsin Real Estate Transfer Return (RETR) must be filed at recording. When you sell to USA Home Buyers we cover all closing costs.',
+    answer: 'Wisconsin has no state estate tax or inheritance tax. Federal estate tax only applies to estates over $13.61 million (2026 exemption). The Wisconsin realty transfer fee under Wis. Stat. § 77.22 applies to probate sales — $3.00 per $1,000 of consideration (0.30%), paid by the seller estate. On a $219,000 Racine sale: $657. Racine County adds no surcharge. Wisconsin Real Estate Transfer Return (RETR) must be filed at recording. When you sell to USA Home Buyers we cover all closing costs.',
   },
 ];
 
@@ -147,7 +147,7 @@ export default function RacineProbatePage() {
         <section className="my-8">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">Racine Market Data for Probate Sales</h2>
           <p className="text-gray-700 mb-4">
-            Per the Zillow Home Value Index (February 2026): typical Racine home value is $171,496, up 4.4% YoY. Per Redfin (March 2026): Racine median sale price is $205,000, 35 days on market, 8 offers per listing average. Per Realtor.com (April 2026): Racine-Mount Pleasant metro hotness median is $347,720. The Wisconsin realty transfer fee is $3.00 per $1,000 (Wis. Stat. § 77.22) — $615 on a $205,000 sale. Wisconsin has no state estate tax or inheritance tax.
+            Per Zillow Research City ZHVI CSV (2026-03-31), typical Racine city home value is $208,908, up 4.9% YoY, while Mount Pleasant village ZHVI is $336,759. Per Redfin (March 2026), Racine median sale price is $219,000, 37 days on market, with an 84/100 Redfin Compete Score. The Wisconsin realty transfer fee is $3.00 per $1,000 (Wis. Stat. § 77.22) — $657 on a $219,000 sale. Wisconsin has no state estate tax or inheritance tax.
           </p>
           <p className="text-gray-700 mb-4">
             Most probate properties in Racine are older — the Northside and Southside Historic Districts are full of 1890s-1920s cream brick workers\' cottages, Victorians, and early-20th-century bungalows. Knob-and-tube wiring, galvanized plumbing, lead paint, and original slate or asbestos-shingle roofs are the norm, not the exception. These properties rarely qualify for conventional or FHA financing, which means the true buyer pool for a traditional listing is small and cash-heavy anyway. A direct cash sale to a professional buyer compresses the timeline and eliminates the risk of a financing-contingent offer falling through mid-probate.

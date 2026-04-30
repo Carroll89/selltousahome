@@ -20,15 +20,15 @@ export const metadata: Metadata = {
 const FAQ_ITEMS = [
   {
     question: 'How fast can I sell my house for cash in Bethlehem PA?',
-    answer: "Once you accept a written offer from USA Home Buyers, we typically close in 7-14 days. We send the written offer within 24 hours of learning about your property. According to Redfin, Bethlehem homes sell in about 10 days on the open market — but that path requires showings, inspections, and waiting on lender approval. With a cash sale, none of that applies.",
+    answer: "Once you accept a written offer from USA Home Buyers, we typically close in 7-14 days. We send the written offer within 24 hours of learning about your property. According to Redfin, Bethlehem homes sell in about 20 days on the open market — but that path requires showings, inspections, and waiting on lender approval. With a cash sale, none of that applies.",
   },
   {
     question: 'How much will you pay for my Bethlehem PA house?',
-    answer: "Cash offers for Bethlehem homes typically range from 70-80% of fair market value, depending on condition and location. According to Redfin (February 2026), Bethlehem's median sale price is $320,000 — a cash offer on a median home would be approximately $224,000-$256,000. South Side row homes near $245,000 median yield offers of roughly $172,000-$196,000. We cover all closing costs — no agent commissions or fees come out of your number.",
+    answer: "Cash offers for Bethlehem homes typically range from 70-80% of fair market value, depending on condition and location. According to Redfin (March 2026), Bethlehem's median sale price is $311,000 — a cash offer on a median home would be approximately $218,000-$249,000. South Side row homes near $245,000 median yield offers of roughly $172,000-$196,000. We cover all closing costs — no agent commissions or fees come out of your number.",
   },
   {
     question: 'What is Bethlehem PA\'s transfer tax?',
-    answer: "Bethlehem PA has a standard 2% total real estate transfer tax — 1% Pennsylvania state tax plus 1% City of Bethlehem local tax. By convention, buyer and seller split this 50/50. On a $320,000 home, the total is $6,400 with each party paying $3,200. When you sell to USA Home Buyers, we cover all closing costs including the full transfer tax. Source: City of Bethlehem Ordinance Article 335.",
+    answer: "Bethlehem PA has a standard 2% total real estate transfer tax — 1% Pennsylvania state tax plus 1% City of Bethlehem local tax. By convention, buyer and seller split this 50/50. On a $311,000 home, the total is $6,220 with each party paying $3,110. When you sell to USA Home Buyers, we cover all closing costs including the full transfer tax. Source: City of Bethlehem Ordinance Article 335.",
   },
   {
     question: 'Do I need to make repairs before selling to you?',

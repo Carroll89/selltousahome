@@ -228,7 +228,7 @@ export default function ErieInheritedPropertyPage() {
             <div className="mt-4 text-xs text-gray-400 space-y-1">
               <p>Erie County Courthouse: 140 West Sixth Street, Erie PA 16501 | (814) 451-6000</p>
               <p>eriecountypa.gov — navigate: Row Offices → Register of Wills</p>
-              <p>Market data last updated: April 2026</p>
+              <p>Market data last updated: March 2026</p>
             </div>
           </section>
 
@@ -263,7 +263,7 @@ export default function ErieInheritedPropertyPage() {
           <FAQSection items={FAQ_ITEMS} heading="Frequently Asked Questions — Inherited Property in Erie County" />
 
           <div className="mt-8 text-sm text-gray-500">
-            <p>Market data last updated: April 2026</p>
+            <p>Market data last updated: March 2026</p>
             <p className="mt-2">
               Related:{' '}
               <Link href="/guides/inherited-property" className="text-brand-primary hover:underline">Inherited Property Guide (PA)</Link>{' '}

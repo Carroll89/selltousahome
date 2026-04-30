@@ -11,18 +11,18 @@ import { VideoEmbed } from '@/components/VideoEmbed';
 export const revalidate = 86400;
 
 const REPORT_DATA = {
-  lastUpdated: 'April 2026',
-  medianHomeValueZHVI: '$453,560',
-  medianSalePrice: '$528,000',
-  daysToPending: 56,
-  yoyZHVI: '+5.9%',
-  yoySalePrice: '-3.9%',
-  pricePerSqft: '$269',
-  saleToList: '98.9%',
-  competeScore: '82/100',
+  lastUpdated: 'March 2026',
+  medianHomeValueZHVI: '$498,174',
+  medianSalePrice: '$540,620',
+  daysToPending: 25,
+  yoyZHVI: '+3.1%',
+  yoySalePrice: '+11.5%',
+  pricePerSqft: '$267',
+  saleToList: '101.4%',
+  competeScore: '80/100',
   competeLabel: 'Very Competitive',
-  cashOfferRangeLow: '$350,000',
-  cashOfferRangeHigh: '$400,000',
+  cashOfferRangeLow: '$349,000',
+  cashOfferRangeHigh: '$399,000',
   cashOfferBasis: '$500K home',
   paTransferTax: '2% (1% buyer / 1% seller)',
   realtorCommission: '5–6%',
@@ -31,8 +31,8 @@ const REPORT_DATA = {
 const NEIGHBORHOODS = [
   {
     name: 'King of Prussia (19406 core)',
-    medianPrice: '$453K–$549K',
-    dom: '34 days (to pending)',
+    medianPrice: '$453K–$541K',
+    dom: '25 days (to pending)',
     notes: 'Split-levels, ranches, colonials from 1950s–1970s. Aging stock with equity. Main target for cash buyers.',
   },
   {
@@ -68,7 +68,7 @@ const NEIGHBORHOODS = [
   {
     name: 'Collegeville',
     medianPrice: '~$523K',
-    dom: '~25–35 days',
+    dom: '~25–37 days',
     notes: 'Pharma corridor suburb. Growing demand, less investor-saturated than core KOP.',
   },
   {
@@ -83,27 +83,27 @@ const FAQ_ITEMS = [
   {
     question: 'What is the median home price in King of Prussia PA in 2026?',
     answer:
-      'The Zillow Home Value Index (ZHVI) for King of Prussia is $453,560 as of February 2026, up 5.9% year-over-year. Redfin reports the median sale price at $528,000 (March 2026) — a gap that reflects the mix of condos and apartments vs. detached single-family homes in the 19406 market.',
+      'The Zillow Home Value Index (ZHVI) for King of Prussia is $498,174 as of 2026-03-31, up 3.1% year-over-year. Redfin reports the median sale price at $540,620 (March 2026) — a gap that reflects the mix of condos and apartments vs. detached single-family homes in the 19406 market.',
   },
   {
     question: 'How long does it take to sell a house in King of Prussia PA?',
     answer:
-      "The median time to pending in King of Prussia is 56 days — meaning it takes nearly two months to receive and accept an offer. After going pending, inspections, appraisals, and mortgage processing add another 45–60 days. Total time from listing to close: roughly 100–115 days. Cash buyers close in 7–14 days.",
+      "The median time to pending in King of Prussia is 25 days. After going pending, inspections, appraisals, and mortgage processing add another 45–60 days. Total time from listing to close: roughly 70–85 days. Cash buyers close in 7–14 days.",
   },
   {
     question: "Is King of Prussia a buyer's or seller's market in 2026?",
     answer:
-      "King of Prussia is a competitive market with a Redfin Compete Score of 82 out of 100. Homes receive offers and the sale-to-list ratio of 98.9% means sellers are getting very close to asking price. Hot homes go pending in around 14 days.",
+      "King of Prussia is a competitive market with a Redfin Compete Score of 80 out of 100. Homes receive offers and the sale-to-list ratio of 101.4% means sellers are getting very close to asking price. Hot homes go pending in around 14 days.",
   },
   {
     question: 'What are home prices doing year-over-year in King of Prussia?',
     answer:
-      'The Zillow ZHVI is up 5.9% year-over-year as of February 2026. Redfin reports the median sale price down 3.9% YoY (March 2026) — reflecting some cooling in high-end transaction volume while the underlying ZHVI index holds steady, driven by suburban Philadelphia demand and limited new inventory.',
+      'The Zillow ZHVI is up 3.1% year-over-year as of 2026-03-31. Redfin reports the median sale price up 11.5% YoY (March 2026) — reflecting some cooling in high-end transaction volume while the underlying ZHVI index holds steady, driven by suburban Philadelphia demand and limited new inventory.',
   },
   {
     question: 'How much do cash buyers pay for King of Prussia homes?',
     answer:
-      "Cash buyers typically offer 70–75% of fair market value in KOP's higher-end market. On a home with a $500,000 after-repair value, the cash offer range is $350,000–$400,000. The seller keeps more because there are no agent commissions (typically $27,500–$33,000 on a $550K sale), no closing costs (we cover all of them), and no repair costs.",
+      "Cash buyers typically offer 70–80% of fair market value in KOP's higher-end market. On a home with a $500,000 after-repair value, the cash offer range is $349,000–$399,000. The seller keeps more because there are no agent commissions (typically $27,500–$33,000 on a $550K sale), no closing costs (we cover all of them), and no repair costs.",
   },
   {
     question: 'What is the transfer tax on a King of Prussia home sale?',
@@ -117,7 +117,7 @@ const PAGE_URL = `${SITE_URL}/markets/king-of-prussia-pa/market-report`;
 export const metadata: Metadata = {
   title: 'King of Prussia PA Housing Market 2026',
   description:
-    'King of Prussia PA housing market 2026: median home value $453,560, median sale $528,000, 56 days to pending, -3.9% YoY sale price. Cash buyer ranges. Updated April 2026.',
+    'King of Prussia PA housing market 2026: median home value $498,174, median sale $540,620, 25 days to pending, +11.5% YoY sale price. Cash buyer ranges. Updated March 2026.',
   alternates: { canonical: PAGE_URL },
   openGraph: {
     title: 'King of Prussia PA Housing Market Report 2026',
@@ -132,30 +132,30 @@ export const metadata: Metadata = {
 const datasetSchema = {
   '@context': 'https://schema.org',
   '@type': 'Dataset',
-  name: 'King of Prussia PA Housing Market Data — April 2026',
+  name: 'King of Prussia PA Housing Market Data — March 2026',
   description:
     'Monthly housing market statistics for King of Prussia, Pennsylvania including median home value, sale price, days on market, year-over-year price change, and neighborhood-level data.',
   url: PAGE_URL,
   creator: { '@type': 'Organization', name: 'USA Home Buyers', url: SITE_URL },
-  temporalCoverage: '2026-04',
+  temporalCoverage: '2026-03',
   spatialCoverage: {
     '@type': 'Place',
     name: 'King of Prussia, Pennsylvania',
     geo: { '@type': 'GeoCoordinates', latitude: 40.0892, longitude: -75.3961 },
   },
   variableMeasured: [
-    { '@type': 'PropertyValue', name: 'Median Home Value (ZHVI)', value: '$453,560' },
-    { '@type': 'PropertyValue', name: 'Median Sale Price', value: '$528,000' },
-    { '@type': 'PropertyValue', name: 'Median Days to Pending', value: '56' },
-    { '@type': 'PropertyValue', name: 'Year-over-Year Price Change (ZHVI)', value: '+5.9%' },
-    { '@type': 'PropertyValue', name: 'Price Per Square Foot', value: '$269' },
+    { '@type': 'PropertyValue', name: 'Median Home Value (ZHVI)', value: '$498,174' },
+    { '@type': 'PropertyValue', name: 'Median Sale Price', value: '$540,620' },
+    { '@type': 'PropertyValue', name: 'Median Days to Pending', value: '25' },
+    { '@type': 'PropertyValue', name: 'Year-over-Year Price Change (ZHVI)', value: '+3.1%' },
+    { '@type': 'PropertyValue', name: 'Price Per Square Foot', value: '$267' },
   ],
 };
 
 const reportArticleSchema = {
   '@context': 'https://schema.org',
   '@type': 'Article',
-  headline: 'King of Prussia PA Housing Market Report — April 2026',
+  headline: 'King of Prussia PA Housing Market Report — March 2026',
   datePublished: '2026-04-11',
   dateModified: '2026-04-16',
   author: { '@type': 'Organization', name: 'USA Home Buyers', url: SITE_URL },
@@ -178,7 +178,7 @@ export default function KingOfPrussiaMarketReport() {
           faqSchema(FAQ_ITEMS),
           videoObjectSchema({
             name: 'King of Prussia PA Real Estate Market Report 2026',
-            description: '$453K median value — competitive market, but we buy in any condition',
+            description: '$498K ZHVI — competitive market, but we buy in any condition',
             contentUrl: 'https://v3b.fal.media/files/b/0a95dee2/wgOSCCLedS62biZT2idSa_tmpsnmzp1ou.mp4',
             thumbnailUrl: `${SITE_URL}/images/video-posters/kop-market-report.jpg`,
           }),
@@ -230,7 +230,7 @@ export default function KingOfPrussiaMarketReport() {
         src="https://v3b.fal.media/files/b/0a95dee2/wgOSCCLedS62biZT2idSa_tmpsnmzp1ou.mp4"
         title="King of Prussia PA Real Estate Market Report 2026"
         poster="/images/video-posters/kop-market-report.jpg"
-        subtitle="$453K median value — competitive market, but we buy in any condition"
+        subtitle="$498K ZHVI — competitive market, but we buy in any condition"
       />
       <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
         <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
@@ -238,10 +238,10 @@ export default function KingOfPrussiaMarketReport() {
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
             <p className="mb-3">Let&apos;s look at the King of Prussia PA real estate market in 2026 — actual numbers, not hype. I&apos;m with USA Home Buyers.</p>
-            <p className="mb-3">The Zillow Home Value Index for King of Prussia is $453,560 as of February 2026, up 5.9 percent year-over-year. Redfin reports the median sale price at $528,000 (March 2026), down 3.9 percent year-over-year. King of Prussia has a Redfin Compete Score of 82 out of 100, classified as Very Competitive. The sale-to-list ratio is 98.9 percent.</p>
-            <p className="mb-3">Here&apos;s the number that doesn&apos;t get enough attention: the median home takes 56 days to go pending. After that, inspections, appraisals, and mortgage processing add another 45 to 60 days. Total time from listing to close is roughly 80 to 95 days.</p>
+            <p className="mb-3">The Zillow Home Value Index for King of Prussia is $498,174 as of 2026-03-31, up 3.1 percent year-over-year. Redfin reports the median sale price at $540,620 (March 2026), up 11.5 percent year-over-year. King of Prussia has a Redfin Compete Score of 80 out of 100, classified as Very Competitive. The sale-to-list ratio is 101.4 percent.</p>
+            <p className="mb-3">Here&apos;s the number that doesn&apos;t get enough attention: the median home takes 25 days to go pending. After that, inspections, appraisals, and mortgage processing add another 45 to 60 days. Total time from listing to close is roughly 70 to 85 days.</p>
             <p className="mb-3">We close in 7 to 14 days. No appraisal contingency. No financing that can fall through. No buyer getting cold feet after inspection.</p>
-            <p className="mb-3">Year-over-year: ZHVI up 5.9 percent; Redfin median sale price down 3.9 percent per March 2026 data. Both signal continued strength, driven by suburban Philadelphia demand and limited new inventory in established neighborhoods near Valley Forge.</p>
+            <p className="mb-3">Year-over-year: ZHVI up 3.1 percent; Redfin median sale price up 11.5 percent per March 2026 data. Both signal continued strength, driven by suburban Philadelphia demand and limited new inventory in established neighborhoods near Valley Forge.</p>
             <p className="mb-3">If you&apos;re trying to decide between listing and a cash sale in King of Prussia, the math depends on your timeline and how much certainty matters. Call USA Home Buyers at 888-274-5006 for a written offer within 24 hours.</p>
         </div>
       </details>
@@ -287,7 +287,7 @@ export default function KingOfPrussiaMarketReport() {
               { label: 'Median Value (ZHVI)', value: REPORT_DATA.medianHomeValueZHVI, note: `${REPORT_DATA.yoyZHVI} YoY` },
               { label: 'Median Sale Price', value: REPORT_DATA.medianSalePrice, note: `${REPORT_DATA.yoySalePrice} YoY` },
               { label: 'Days to Pending', value: `${REPORT_DATA.daysToPending} days`, note: 'After active marketing' },
-              { label: 'Price Per Sq Ft', value: REPORT_DATA.pricePerSqft, note: 'Redfin Feb 2026' },
+              { label: 'Price Per Sq Ft', value: REPORT_DATA.pricePerSqft, note: 'Redfin Mar 2026' },
               { label: 'Sale-to-List Ratio', value: REPORT_DATA.saleToList, note: '~1% below ask avg' },
               { label: 'Compete Score', value: REPORT_DATA.competeScore, note: REPORT_DATA.competeLabel },
             ].map((stat) => (
@@ -347,7 +347,7 @@ export default function KingOfPrussiaMarketReport() {
             </p>
             <p>
               The spread between the ZHVI (<strong>{REPORT_DATA.medianHomeValueZHVI}</strong>) and the Redfin
-              median sale price (<strong>{REPORT_DATA.medianSalePrice}</strong>) — roughly $96,000 — reflects the
+              median sale price (<strong>{REPORT_DATA.medianSalePrice}</strong>) — roughly about $42,000 — reflects the
               market composition. KOP&apos;s large apartment and condo population (it crossed 50% renter-occupied
               in 2022) pulls the ZHVI down, while detached single-family home sales in the $500K–$600K range
               drive the Redfin median up.
@@ -359,7 +359,7 @@ export default function KingOfPrussiaMarketReport() {
               Bryn Mawr higher) reflects KOP&apos;s older 1950s–1970s housing stock.
             </p>
             <p>
-              According to Redfin market data, the <strong>98.9% sale-to-list ratio</strong> means most homes sell very close to asking — not at the
+              According to Redfin market data, the <strong>101.4% sale-to-list ratio</strong> means most homes sell very close to asking — not at the
               deep discounts of a soft market. Hot homes in the most desirable sub-neighborhoods sell 4% above
               list. If your home is priced right and in good condition, the market will reward it — eventually.
             </p>

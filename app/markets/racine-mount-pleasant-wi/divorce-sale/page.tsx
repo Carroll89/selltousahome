@@ -45,7 +45,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'What about property tax and transfer fee at closing?',
-    answer: 'Wisconsin charges a state realty transfer fee of $3.00 per $1,000 of consideration (0.30%) under Wis. Stat. § 77.22, paid by the seller. Racine County does not add a surcharge. On a $205,000 Racine home, that\'s $615. A Wisconsin Real Estate Transfer Return (RETR) must be filed electronically with the Wisconsin Department of Revenue at the time of recording — both spouses typically sign unless one has power of attorney. When you sell to USA Home Buyers we cover all closing costs.',
+    answer: 'Wisconsin charges a state realty transfer fee of $3.00 per $1,000 of consideration (0.30%) under Wis. Stat. § 77.22, paid by the seller. Racine County does not add a surcharge. On a $219,000 Racine home, that\'s $657. A Wisconsin Real Estate Transfer Return (RETR) must be filed electronically with the Wisconsin Department of Revenue at the time of recording — both spouses typically sign unless one has power of attorney. When you sell to USA Home Buyers we cover all closing costs.',
   },
 ];
 
@@ -166,10 +166,10 @@ export default function RacineDivorceSalePage() {
         <section className="my-8">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">Racine-Mount Pleasant Market Data — Divorce Sale Context</h2>
           <p className="text-gray-700 mb-4">
-            Per the Zillow Home Value Index (February 2026), the typical home value in Racine is $171,496, up 4.4% year over year. Per Redfin (March 2026), the Racine median sale price is $205,000, with homes receiving 8 offers on average and selling in around 35 days. Per Realtor.com (April 2026), the Racine-Mount Pleasant metro hotness index median is $347,720 — Mount Pleasant\'s newer stock near the I-94 / Microsoft corridor pulls the metro median up. The Wisconsin realty transfer fee under Wis. Stat. § 77.22 is $3.00 per $1,000 ($615 on a $205,000 sale); Racine County does not add a surcharge.
+            Per Zillow Research City ZHVI CSV (2026-03-31), Racine city ZHVI is $208,908, up 4.9% year over year, while Mount Pleasant village ZHVI is $336,759. Per Redfin (March 2026), the Racine median sale price is $219,000, with an 84/100 Redfin Compete Score and around 37 days on market. The Wisconsin realty transfer fee under Wis. Stat. § 77.22 is $3.00 per $1,000 ($657 on a $219,000 sale); Racine County does not add a surcharge.
           </p>
           <p className="text-gray-700 mb-4">
-            In a divorce context, the 35-day median days on market is best-case — most divorcing sellers add weeks of coordination with the other spouse, the attorneys, and Racine County family court calendars. A cash sale compresses that to 7-14 days and eliminates the risk of a listing falling through mid-divorce (roughly 15-20% of traditional listings fall through).
+            In a divorce context, the 37-day median days on market is best-case — most divorcing sellers add weeks of coordination with the other spouse, the attorneys, and Racine County family court calendars. A cash sale compresses that to 7-14 days and eliminates the risk of a listing falling through mid-divorce (roughly 15-20% of traditional listings fall through).
           </p>
         </section>
 

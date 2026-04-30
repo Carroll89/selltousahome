@@ -81,8 +81,8 @@ const COMPARISON_ROWS = [
   { label: 'Offer timeline', cashBuyer: '24 hours', traditional: '14-60 days to get an offer' },
   { label: 'Closing timeline', cashBuyer: '7-14 days', traditional: '45-60+ days' },
   { label: 'Repairs required', cashBuyer: 'None — we buy as-is', traditional: 'Usually required ($8K-$25K avg)' },
-  { label: 'Agent commissions', cashBuyer: '$0', traditional: '5-6% (~$16,000-$19,200 on $320K home)' },
-  { label: 'Transfer tax (2%)', cashBuyer: 'We cover all closing costs', traditional: 'Seller pays ~1% local portion ($3,200)' },
+  { label: 'Agent commissions', cashBuyer: '$0', traditional: '5-6% (~$15,550-$18,660 on $311K home)' },
+  { label: 'Transfer tax (2%)', cashBuyer: 'We cover all closing costs', traditional: 'Seller pays ~1% local portion ($3,110)' },
   { label: 'Sale certainty', cashBuyer: 'Guaranteed — written contract', traditional: '15-20% of listings fall through' },
   { label: 'Average net proceeds', cashBuyer: '70-80% of FMV (no deductions)', traditional: '85-90% FMV minus repairs, commissions, costs' },
 ];
@@ -90,15 +90,15 @@ const COMPARISON_ROWS = [
 const FAQ_ITEMS = [
   {
     question: 'How fast can I sell my house for cash in Bethlehem PA?',
-    answer: "Once you accept a written offer, we typically close in 7-14 days. We send the written offer within 24 hours of your inquiry. According to Redfin, Bethlehem homes sell in about 10 days on the open market — but that path requires showings, inspections, and waiting on mortgage lender approval. With a cash sale, there's no bank involved, no contingency waiting period.",
+    answer: "Once you accept a written offer, we typically close in 7-14 days. We send the written offer within 24 hours of your inquiry. According to Redfin, Bethlehem homes sell in about 20 days on the open market — but that path requires showings, inspections, and waiting on mortgage lender approval. With a cash sale, there's no bank involved, no contingency waiting period.",
   },
   {
     question: 'What is the transfer tax when selling in Bethlehem PA?',
-    answer: "Bethlehem PA has a 2% total real estate transfer tax — 1% Pennsylvania state tax plus 1% City of Bethlehem local tax. By convention, buyer and seller each pay half (1% each). On a $320,000 home, the total is $6,400 — seller's share is $3,200. When you sell to us, we cover all closing costs including the full transfer tax. Source: City of Bethlehem Ordinance Article 335.",
+    answer: "Bethlehem PA has a 2% total real estate transfer tax — 1% Pennsylvania state tax plus 1% City of Bethlehem local tax. By convention, buyer and seller each pay half (1% each). On a $311,000 home, the total is $6,220 — seller's share is $3,110. When you sell to us, we cover all closing costs including the full transfer tax. Source: City of Bethlehem Ordinance Article 335.",
   },
   {
     question: 'How much will you pay for my Bethlehem house?',
-    answer: "Cash offers for Bethlehem homes typically range from 70-80% of fair market value. According to Redfin, Bethlehem's median sale price is $320,000 (February 2026), with a Zillow home value of $350,600. For a South Side row home near the $245,000 median, a cash offer is approximately $172,000-$196,000. We cover all closing costs — no agent commissions, no fees deducted from your number.",
+    answer: "Cash offers for Bethlehem homes typically range from 70-80% of fair market value. According to Redfin, Bethlehem's median sale price is $311,000 (Redfin, March 2026), with a Zillow home value of $351,353. For a South Side row home near the $245,000 median, a cash offer is approximately $172,000-$196,000. We cover all closing costs — no agent commissions, no fees deducted from your number.",
   },
   {
     question: 'Do I need to make repairs before selling?',
@@ -164,7 +164,7 @@ export default function BethlehemMarketPage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                USA Home Buyers purchases houses in Bethlehem PA and throughout Northampton County — South Side, West Side, Central Bethlehem, the Historic North Side, and nearby Fountain Hill and Hellertown. Written cash offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no fees. Bethlehem&apos;s median sale price is about $320,000, with Zillow home values around $350,600. We cover all closing costs including Bethlehem&apos;s 2% transfer tax. Call 888-274-5006. Hablamos español.
+                USA Home Buyers purchases houses in Bethlehem PA and throughout Northampton County — South Side, West Side, Central Bethlehem, the Historic North Side, and nearby Fountain Hill and Hellertown. Written cash offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no fees. Bethlehem&apos;s median sale price is about $311,000, with Zillow home values around $351,353. We cover all closing costs including Bethlehem&apos;s 2% transfer tax. Call 888-274-5006. Hablamos español.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-4">
@@ -210,7 +210,7 @@ export default function BethlehemMarketPage() {
           <div className="grid md:grid-cols-3 gap-4 mb-4">
             {[
               { label: 'Attached row homes', value: '30.8%', note: 'Of all housing units — Census 2020' },
-              { label: 'Compete Score (Redfin)', value: '89/100', note: 'Very competitive seller\'s market' },
+              { label: 'Compete Score (Redfin)', value: '90/100', note: 'Very competitive seller\'s market' },
               { label: 'Hispanic residents', value: '31.3%', note: 'Hablamos español — ACS 2024' },
             ].map((item, i) => (
               <div key={i} className="bg-white border border-blue-100 rounded-xl p-4 text-center">
@@ -236,20 +236,20 @@ export default function BethlehemMarketPage() {
             <table className="w-full text-sm">
               <tbody>
                 {[
-                  ['Avg home value (Zillow ZHVI, April 2026)', '$350,600'],
-                  ['YoY change (Zillow)', '+2.9%'],
-                  ['Median sale price (Redfin, Feb 2026)', '$320,000'],
-                  ['YoY change (Redfin)', '+16.6%'],
-                  ['Price per sq ft (Redfin)', '$178'],
-                  ['Median days on market (Redfin)', '10 days'],
-                  ['Sale-to-list ratio (Redfin)', '100.5%'],
-                  ['Redfin Compete Score', '89/100 — Very Competitive'],
+                  ['Avg home value (Zillow ZHVI, March 2026)', '$351,353'],
+                  ['YoY change (Zillow)', '+3.1%'],
+                  ['Median sale price (Redfin, Mar 2026)', '$311,000'],
+                  ['YoY change (Redfin)', '+13.1%'],
+                  ['Price per sq ft (Redfin)', '$177'],
+                  ['Median days on market (Redfin)', '20 days'],
+                  ['Sale-to-list ratio (Redfin)', '99.8%'],
+                  ['Redfin Compete Score', '90/100 — Very Competitive'],
                   ['Avg offers per home (Redfin)', '5 offers'],
                   ['Hot homes sell in', '~6 days, ~4% above list'],
-                  ['Cash offer range (typical)', '$224,000–$256,000 (70-80% of $320K median)'],
+                  ['Cash offer range (typical)', '$218,000–$249,000 (70-80% of $311K median)'],
                   ['South Side row home range', '$172,000–$196,000 (70-80% of ~$245K)'],
                   ['Transfer tax', '2% total (1% PA state + 1% City of Bethlehem)'],
-                  ['Typical realtor commission', '5–6% (~$16,000-$19,200 on $320K home)'],
+                  ['Typical realtor commission', '5–6% (~$15,550-$18,660 on $311K home)'],
                   ['Housing composition', '30.8% attached row homes — Census 2020'],
                   ['Hispanic population', '31.3% — ACS 2024'],
                 ].map(([metric, value], i) => (
@@ -261,9 +261,9 @@ export default function BethlehemMarketPage() {
               </tbody>
             </table>
           </div>
-          <p className="mt-4 text-xs text-gray-400">Market data last updated: April 2026</p>
+          <p className="mt-4 text-xs text-gray-400">Market data last updated: March 2026</p>
           <p className="mt-2 text-sm text-gray-600">
-            Bethlehem&apos;s market is highly competitive — homes receive an average of 5 offers and sell at 100.5% of list price.
+            Bethlehem&apos;s market is highly competitive — homes receive an average of 5 offers and sell at 99.8% of list price.
             But that&apos;s only for move-in-ready properties. South Side row homes with deferred maintenance, code issues,
             or complicated ownership situations sit longer. For those sellers, a cash offer provides certainty the retail
             market can&apos;t match.
@@ -319,7 +319,7 @@ export default function BethlehemMarketPage() {
           </h2>
           <ComparisonTable rows={COMPARISON_ROWS} />
           <p className="mt-4 text-sm text-gray-600">
-            On a $320,000 Bethlehem home, a 5-6% agent commission is $16,000-$19,200. Add inspection repairs on a
+            On a $311,000 Bethlehem home, a 5-6% agent commission is $15,550-$18,660. Add inspection repairs on a
             100-year-old South Side row home, 45-60 days of carrying costs, and transfer tax — the real gap between
             a cash offer and a traditional listing is smaller than most sellers expect, and the certainty is incomparable.
           </p>

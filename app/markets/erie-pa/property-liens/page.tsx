@@ -160,7 +160,7 @@ export default function EriePropertyLiensPage() {
           <FAQSection items={FAQ_ITEMS} heading="Property Liens in Erie PA — Common Questions" />
 
           <div className="mt-8 text-sm text-gray-500">
-            <p>Market data last updated: April 2026</p>
+            <p>Market data last updated: March 2026</p>
             <p className="mt-2">
               Related:{' '}
               <Link href="/guides/back-taxes" className="text-brand-primary hover:underline">Back Taxes Guide (PA)</Link>{' '}

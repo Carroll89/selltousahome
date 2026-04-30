@@ -118,7 +118,7 @@ export default function BethlehemInheritedPropertyPage() {
             member passes, an estate sale is often the practical outcome.
           </p>
           <p className="text-gray-700 mb-3">
-            According to Redfin, Bethlehem&apos;s median sale price is $320,000 as of February 2026 — but South Side
+            According to Redfin, Bethlehem&apos;s median sale price is $311,000 as of March 2026 — but South Side
             row homes average closer to $245,000 and often require significant work before they compete at retail.
             That math changes when a cash buyer purchases as-is: no repairs, no staging, no commission.
           </p>

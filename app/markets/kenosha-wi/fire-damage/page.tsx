@@ -89,9 +89,9 @@ export default function KenoshaFireDamagePage() {
 
       <div className="max-w-7xl mx-auto px-4 py-8">
         <section className="my-8">
-          <h2 className="text-2xl font-bold text-brand-dark mb-4">Market Data: Kenosha WI — $235,000 Median Price</h2>
+          <h2 className="text-2xl font-bold text-brand-dark mb-4">Market Data: Kenosha WI — $279,500 Median Price</h2>
           <p className="text-gray-700 mb-4">
-            According to Zillow and Redfin data for Kenosha County, the median home value in Kenosha is approximately $235,000. Transfer tax: Wisconsin realty transfer fee — $3.00 per $1,000 of consideration, paid by seller. On a $235,000 sale: $705. Source: Wisconsin Department of Revenue (revenue.wi.gov).
+            According to Redfin (March 2026), the median sale price in Kenosha is approximately $279,500. The Zillow Home Value Index for Kenosha city is $273,053 (Zillow Research City ZHVI CSV, 2026-03-31). Transfer tax: Wisconsin realty transfer fee — $3.00 per $1,000 of consideration, paid by seller. On a $279,500 sale: $839. Source: Wisconsin Department of Revenue (revenue.wi.gov).
           </p>
         </section>
 

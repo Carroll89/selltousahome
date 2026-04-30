@@ -171,7 +171,7 @@ export default function ErieDivorceSalePage() {
           <FAQSection items={FAQ_ITEMS} heading="Divorce Sale in Erie PA — Common Questions" />
 
           <div className="mt-8 text-sm text-gray-500">
-            <p>Market data last updated: April 2026</p>
+            <p>Market data last updated: March 2026</p>
             <p className="mt-2">
               Related:{' '}
               <Link href="/guides/divorce-sale" className="text-brand-primary hover:underline">Divorce Sale Guide (PA)</Link>{' '}

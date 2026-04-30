@@ -167,7 +167,7 @@ export default function ErieProbatePage() {
           <div className="mt-8 text-sm text-gray-500">
             <p>Erie County Register of Wills: Erie County Courthouse, 140 West Sixth Street, Erie PA 16501 | (814) 451-6000</p>
             <p className="mt-1">eriecountypa.gov — Row Offices → Register of Wills</p>
-            <p className="mt-2">Market data last updated: April 2026</p>
+            <p className="mt-2">Market data last updated: March 2026</p>
             <p className="mt-2">
               Related:{' '}
               <Link href="/markets/erie-pa/inherited-property" className="text-brand-primary hover:underline">Inherited Property Erie PA</Link>{' '}

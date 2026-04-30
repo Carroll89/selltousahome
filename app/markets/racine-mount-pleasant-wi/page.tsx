@@ -82,7 +82,7 @@ const COMPARISON_ROWS = [
   { label: 'Offer timeline', cashBuyer: '24 hours', traditional: '14-60 days to get an offer' },
   { label: 'Closing timeline', cashBuyer: '7-14 days', traditional: '45-60+ days' },
   { label: 'Repairs required', cashBuyer: 'None — we buy as-is', traditional: 'Usually required ($5K-$20K avg)' },
-  { label: 'Agent commissions', cashBuyer: '$0', traditional: '5-6% (~$10,250-$12,300 on Racine median)' },
+  { label: 'Agent commissions', cashBuyer: '$0', traditional: '5-6% (~$10,950-$13,140 on Racine median)' },
   { label: 'WI realty transfer fee', cashBuyer: 'We cover everything', traditional: 'Seller pays $3 per $1,000' },
   { label: 'Sale certainty', cashBuyer: 'Guaranteed — written contract', traditional: '15-20% of listings fall through' },
   { label: 'Average net proceeds', cashBuyer: '70-80% of FMV', traditional: '85-92% after all costs' },
@@ -95,11 +95,11 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How much will you pay for my Racine WI house?',
-    answer: 'Cash offers for Racine homes typically range from 68-80% of fair market value. According to the Zillow Home Value Index (February 2026), the typical home value in Racine is $171,496, up 4.4% year over year. A typical cash offer on a Northside cream brick cottage or a West Racine bungalow runs $117,000-$137,000. Mount Pleasant suburban homes closer to the I-94 / Microsoft corridor see higher numbers — the Realtor.com hotness index pegs the Racine-Mount Pleasant metro median at $347,720 (April 2026), with cash offers in the $236K-$278K range. We cover all closing costs including the Wisconsin realty transfer fee.',
+    answer: 'Cash offers for Racine homes typically range from 68-80% of fair market value. According to Zillow Research City ZHVI CSV (2026-03-31), Racine city ZHVI is $208,908, up 4.9% year over year. A typical cash offer on a Northside cream brick cottage or a West Racine bungalow runs $142,000-$167,000. Mount Pleasant suburban homes closer to the I-94 / Microsoft corridor use a separate village ZHVI of $336,759 (Zillow Research City ZHVI CSV, 2026-03-31), with cash offers in the $231K-$264K range. We cover all closing costs including the Wisconsin realty transfer fee.',
   },
   {
     question: 'What is the realty transfer fee when selling a house in Racine WI?',
-    answer: 'Wisconsin charges a state real estate transfer fee of $3.00 per $1,000 of consideration (0.30%) on every real estate sale. This is set by Wis. Stat. § 77.22. Racine County does not add a local surcharge — neither does the City of Racine or the Village of Mount Pleasant. Entirely paid by the seller (grantor). On a $205,000 Racine home: $615. On a $347,720 Mount Pleasant sale: $1,043. A Wisconsin Real Estate Transfer Return (RETR) form must accompany the deed at recording. When you sell to USA Home Buyers, we cover all closing costs. Source: Wisconsin Department of Revenue (revenue.wi.gov).',
+    answer: 'Wisconsin charges a state real estate transfer fee of $3.00 per $1,000 of consideration (0.30%) on every real estate sale. This is set by Wis. Stat. § 77.22. Racine County does not add a local surcharge — neither does the City of Racine or the Village of Mount Pleasant. Entirely paid by the seller (grantor). On a $219,000 Racine home: $657. On a $336,759 Mount Pleasant sale: $1,043. A Wisconsin Real Estate Transfer Return (RETR) form must accompany the deed at recording. When you sell to USA Home Buyers, we cover all closing costs. Source: Wisconsin Department of Revenue (revenue.wi.gov).',
   },
   {
     question: 'How does foreclosure work in Racine County WI?',
@@ -166,7 +166,7 @@ export default function RacineMountPleasantWIMarketPage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                USA Home Buyers purchases houses in Racine, Mount Pleasant, and throughout Racine County — from Northside cream brick cottages to Mount Pleasant suburban splits near the I-94 Microsoft corridor. Written cash offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no fees. According to the Zillow Home Value Index (February 2026), the typical Racine home value is $171,496, up 4.4% YoY. We cover all closing costs including Wisconsin's realty transfer fee ($3 per $1,000). Call 888-274-5006.
+                USA Home Buyers purchases houses in Racine, Mount Pleasant, and throughout Racine County — from Northside cream brick cottages to Mount Pleasant suburban splits near the I-94 Microsoft corridor. Written cash offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no fees. According to the Zillow Home Value Index (Zillow Research City ZHVI CSV, 2026-03-31), the typical Racine city home value is $208,908, up 4.9% YoY. We cover all closing costs including Wisconsin's realty transfer fee ($3 per $1,000). Call 888-274-5006.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
@@ -229,12 +229,12 @@ export default function RacineMountPleasantWIMarketPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200">
-                <tr className="bg-white"><td className="p-3 font-medium">Racine typical home value (ZHVI)</td><td className="p-3">$171,496 (+4.4% YoY)</td><td className="p-3 text-gray-500">Zillow (Feb 2026)</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">Racine median sale price</td><td className="p-3">$205,000</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
-                <tr className="bg-white"><td className="p-3 font-medium">Mount Pleasant median $/sqft</td><td className="p-3">$174 (+6.7% YoY)</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">Racine-Mount Pleasant metro hotness median</td><td className="p-3">$347,720</td><td className="p-3 text-gray-500">Realtor.com (Apr 2026)</td></tr>
-                <tr className="bg-white"><td className="p-3 font-medium">Median days on market (Racine)</td><td className="p-3">~35 days (8 offers avg)</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">Redfin compete score</td><td className="p-3">82/100 — very competitive</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Racine typical home value (ZHVI)</td><td className="p-3">$208,908 (+4.9% YoY)</td><td className="p-3 text-gray-500">Zillow Research City ZHVI CSV (2026-03-31)</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Racine median sale price</td><td className="p-3">$219,000</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Mount Pleasant median $/sqft</td><td className="p-3">$207 (+6.7% YoY)</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Mount Pleasant village ZHVI</td><td className="p-3">$336,759 (+4.9% YoY)</td><td className="p-3 text-gray-500">Zillow Research City ZHVI CSV (2026-03-31)</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Median days on market (Racine)</td><td className="p-3">~37 days; Redfin rates Racine 84/100 on its Compete Score</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Redfin compete score</td><td className="p-3">84/100 — very competitive</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Realty transfer fee</td><td className="p-3">$3.00 per $1,000 (seller pays, state only)</td><td className="p-3 text-gray-500">Wis. Stat. § 77.22</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Foreclosure type</td><td className="p-3">Judicial (Racine Co. Circuit Court, 10-14 months)</td><td className="p-3 text-gray-500">Wis. Stats. Ch. 846</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Probate court</td><td className="p-3">Racine Co. Circuit Court, 730 Wisconsin Ave, 6th Fl.</td><td className="p-3 text-gray-500">Wis. Stat. Ch. 851</td></tr>
@@ -264,7 +264,7 @@ export default function RacineMountPleasantWIMarketPage() {
           </h2>
           <ComparisonTable rows={COMPARISON_ROWS} />
           <p className="mt-4 text-sm text-gray-600">
-            On a $205,000 Racine home, a 5-6% agent commission runs $10,250-$12,300. Add Wisconsin's realty transfer fee (~$615), carrying costs during 35+ days on market, and potential repairs on century-old housing stock. Many Racine cream brick cottages and Northside Victorians have original knob-and-tube wiring, galvanized plumbing, or lead paint — conventional and FHA lenders won't touch them, limiting your buyer pool to cash buyers regardless. On a $347,720 Mount Pleasant split-level, the commission hit alone is $17,000-$21,000 before closing costs and repairs. A direct cash offer eliminates that entire calculation.
+            On a $219,000 Racine home, a 5-6% agent commission runs $10,950-$13,140. Add Wisconsin's realty transfer fee (~$657), carrying costs during 37+ days on market, and potential repairs on century-old housing stock. Many Racine cream brick cottages and Northside Victorians have original knob-and-tube wiring, galvanized plumbing, or lead paint — conventional and FHA lenders won't touch them, limiting your buyer pool to cash buyers regardless. On a $336,759 Mount Pleasant split-level, the commission hit alone is $17,000-$21,000 before closing costs and repairs. A direct cash offer eliminates that entire calculation.
           </p>
         </section>
 

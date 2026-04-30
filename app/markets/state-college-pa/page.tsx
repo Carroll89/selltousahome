@@ -82,7 +82,7 @@ const COMPARISON_ROWS = [
   { label: 'Closing timeline', cashBuyer: '7-14 days', traditional: '45-60+ days after pending' },
   { label: 'Repairs required', cashBuyer: 'None — buy as-is', traditional: 'Usually required ($8K-$25K avg)' },
   { label: 'Agent commissions', cashBuyer: '$0', traditional: '5-6% (~$22,500-$27,000 on median)' },
-  { label: 'Transfer tax (State College Borough)', cashBuyer: 'We cover everything', traditional: '3.00% total — $13,500 on $450K sale' },
+  { label: 'Transfer tax (State College Borough)', cashBuyer: 'We cover everything', traditional: '3.00% total — $14,415 on $480,500 sale' },
   { label: 'Sale certainty', cashBuyer: 'Guaranteed written contract', traditional: '15-20% fall-through rate' },
   { label: 'Average net proceeds', cashBuyer: '70-80% of FMV', traditional: '85-90% of FMV (after all costs)' },
 ];
@@ -96,7 +96,7 @@ const FAQ_ITEMS = [
   {
     question: 'How much will you pay for my State College house?',
     answer:
-      "Cash offers run 70-80% of fair market value. Zillow's ZHVI for State College is $408,500 — so a typical offer lands between $286,000 and $327,000. On the Redfin median sale price of $450,000, that's $315,000-$360,000. There are no agent commissions (saving 5-6%) and we pay all closing costs including the State College Borough's 3% transfer tax. The offer we make is what you walk away with.",
+      "Cash offers run 70-80% of fair market value. Zillow's ZHVI for State College is $408,500 — so a typical offer lands between $286,000 and $327,000. On the Redfin median sale price of $480,500, that's $336,000-$384,000. There are no agent commissions (saving 5-6%) and we pay all closing costs including the State College Borough's 3% transfer tax. The offer we make is what you walk away with.",
   },
   {
     question: 'What makes State College different for cash buyers?',
@@ -201,7 +201,7 @@ export default function StateCollegeMarketPage() {
         {/* TL;DR — GEO/AEO Quick Answer */}
         <section className="my-10 bg-blue-50 border-l-4 border-brand-primary rounded-r-2xl p-6 md:p-8">
           <h2 className="text-xl md:text-2xl font-bold text-brand-dark mb-3">Quick Answer: Sell Your House Fast in State College, PA</h2>
-          <p className="text-gray-700 leading-relaxed">USA Home Buyers purchases houses in State College, PA for cash — as-is, in any condition, with no repairs and no agent fees. According to the Zillow Home Value Index, the State College median home value is $408,500 (March 2026, +0.9% year-over-year); Redfin's median closed sale price is $450,000 with a Compete Score of 93/100 — among the most competitive in Pennsylvania. Homes go pending in 5 days on average. We close in 7–14 days, no inspections or financing contingencies. We serve all of State College and Centre County.</p>
+          <p className="text-gray-700 leading-relaxed">USA Home Buyers purchases houses in State College, PA for cash — as-is, in any condition, with no repairs and no agent fees. According to the Zillow Home Value Index, the State College median home value is $408,500 (March 2026, +0.9% year-over-year); Redfin's median closed sale price is $480,500 with a Compete Score of 91/100 — among the most competitive in Pennsylvania. Homes go pending in 5 days on average. We close in 7–14 days, no inspections or financing contingencies. We serve all of State College and Centre County.</p>
         </section>
 
         {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
@@ -237,19 +237,19 @@ export default function StateCollegeMarketPage() {
             State College Housing Market — 2026 Numbers
           </h2>
           <p className="text-gray-600 text-sm mb-6">
-            According to Redfin and Zillow (February–March 2026), State College is one of Pennsylvania&apos;s
-            most competitive markets — a 93/100 Redfin Compete Score with homes going pending in 5 days.
+            According to Redfin city (March 2026) and Zillow Research City ZHVI CSV (2026-03-31), State College is one of Pennsylvania&apos;s
+            most competitive markets — a 91/100 Redfin Compete Score with homes going pending in 5 days.
           </p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm">
               <tbody>
                 {[
                   ['Median home value (Zillow ZHVI)', '$408,500 (+0.9% YoY)'],
-                  ['Median sale price (Redfin, Feb 2026)', '$450,000'],
+                  ['Median sale price (Redfin, Mar 2026)', '$480,500'],
                   ['Median sale price per sq ft', '$256 (+6.2% YoY)'],
                   ['Median days on market', '5 days'],
                   ['Sale-to-list ratio', '100.3% (homes sell above asking)'],
-                  ['Redfin Compete Score', '93/100 — Most Competitive'],
+                  ['Redfin Compete Score', '91/100 — Most Competitive'],
                   ['Typical cash offer range (ZHVI basis)', '$286,000–$327,000'],
                   ['Transfer tax — State College Borough', '3.00% total (vs. 2.00% in most Centre County townships)'],
                   ['Owner-occupied housing', '26.1% — small, motivated seller pool'],
@@ -312,7 +312,7 @@ export default function StateCollegeMarketPage() {
             <strong className="text-amber-800">Transfer tax note:</strong>{' '}
             <span className="text-amber-900">
               State College Borough charges 3.00% total realty transfer tax — the highest in Centre County.
-              That&apos;s $13,500 on a $450,000 sale. When you sell to us, we cover the full transfer tax.
+              That&apos;s $14,415 on a $480,500 sale. When you sell to us, we cover the full transfer tax.
               Source:{' '}
               <a href="https://centrecountypa.gov/420/Realty-Transfer-Tax-Rates" target="_blank" rel="noopener noreferrer" className="underline">
                 Centre County RTT Rates
@@ -337,7 +337,7 @@ export default function StateCollegeMarketPage() {
           </h2>
           <ComparisonTable rows={COMPARISON_ROWS} />
           <p className="mt-4 text-sm text-gray-600">
-            State College&apos;s 93/100 Compete Score means retail-ready homes do well on the MLS. But
+            State College&apos;s 91/100 Compete Score means retail-ready homes do well on the MLS. But
             factor in the 3% transfer tax, agent commissions, repairs on older 1970s stock, and carrying
             costs during a 60-day escrow — and the gap between cash and traditional narrows significantly.
           </p>
@@ -400,7 +400,7 @@ export default function StateCollegeMarketPage() {
         {/* Blog cluster links */}
         <BlogClusterLinks marketSlug="state-college-pa" cityName="State College" />
 
-        <p className="text-sm text-gray-500 mt-8">Market data last updated: April 2026</p>
+        <p className="text-sm text-gray-500 mt-8">Market data last updated: March 2026</p>
 
         {/* Bottom CTA */}
         <section className="my-12">

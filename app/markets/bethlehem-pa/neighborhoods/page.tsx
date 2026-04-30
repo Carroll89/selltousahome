@@ -43,7 +43,7 @@ const NEIGHBORHOODS = [
   },
   {
     name: 'Historic District / North Side',
-    medianPrice: '$380,000–$450,000+',
+    medianPrice: '$380,000–$440,000+',
     stock: '18th and 19th century stone and brick homes, including rare Moravian fieldstone construction on Church Street dating to the 1740s. National Historic Landmark District designation.',
     investorActivity: 'Low-Medium',
     notes: 'Highest-value residential area in the city. Low distress rate — these homes are well-maintained and sell at premium prices. Renovation activity driven by historic preservation requirements. Historic District guidelines restrict exterior modifications.',
@@ -102,9 +102,9 @@ export default function BethlehemNeighborhoodsPage() {
             Bethlehem&apos;s investor purchase activity.
           </p>
           <p className="text-gray-700">
-            According to Redfin (February 2026), Bethlehem&apos;s citywide median sale price is $320,000,
-            with a Compete Score of 89/100. But that number obscures significant variation by neighborhood —
-            from $228,000 in Fountain Hill to $450,000+ in the Historic District.
+            According to Redfin (March 2026), Bethlehem&apos;s citywide median sale price is $311,000,
+            with a Compete Score of 90/100. But that number obscures significant variation by neighborhood —
+            from $228,000 in Fountain Hill to $440,000+ in the Historic District.
           </p>
         </section>
 

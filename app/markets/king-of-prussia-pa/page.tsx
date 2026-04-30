@@ -86,7 +86,7 @@ const COMPARISON_ROWS = [
   { label: 'Agent commissions', cashBuyer: '$0', traditional: '5–6% (~$27K–$33K on $550K home)' },
   { label: 'Seller closing costs', cashBuyer: 'We cover everything', traditional: '~1–3% + 1% PA transfer tax (seller share)' },
   { label: 'Sale certainty', cashBuyer: 'Guaranteed written contract', traditional: '15–20% of listings fall through' },
-  { label: 'Net proceeds (typical)', cashBuyer: '70–75% of FMV', traditional: '85–90% of FMV after all costs' },
+  { label: 'Net proceeds (typical)', cashBuyer: '70–80% of FMV', traditional: '85–90% of FMV after all costs' },
 ];
 
 const KOP_SITUATIONS = [
@@ -105,12 +105,12 @@ const FAQ_ITEMS = [
   {
     question: 'How fast can I sell my house in King of Prussia PA?',
     answer:
-      "Once you accept a written offer, we close in 7–14 days. We send the written offer within 24 hours of your inquiry. Because we pay cash — no lender, no mortgage contingency — there's no waiting on bank approval. On the open market, the median home in King of Prussia sits 79 days before going pending, then another 45–60 days to close.",
+      "Once you accept a written offer, we close in 7–14 days. We send the written offer within 24 hours of your inquiry. Because we pay cash — no lender, no mortgage contingency — there's no waiting on bank approval. On the open market, the median home in King of Prussia sits 25 days before going pending, then another 45–60 days to close.",
   },
   {
     question: 'How much will you pay for my King of Prussia home?',
     answer:
-      'We pay 70–75% of fair market value. On a King of Prussia home in the $450K–$550K range, that typically means a cash offer of $315,000–$412,000. There are no agent commissions (saving 5–6%), no closing costs (we cover all of them), and no repair costs.',
+      'We pay 70–80% of fair market value. Using the Zillow city ZHVI benchmark of $498,174, that typically means a cash offer of $349,000–$399,000. There are no agent commissions (saving 5–6%), no closing costs (we cover all of them), and no repair costs.',
   },
   {
     question: 'Do I need to make repairs before selling?',
@@ -130,7 +130,7 @@ const FAQ_ITEMS = [
   {
     question: 'Is this a good time to sell in King of Prussia?',
     answer:
-      "King of Prussia's Redfin Compete Score is 82 out of 100 — classified as Very Competitive. But the median home sits 79 days before going pending, and then another 45–60 days to close. That's over four months of carrying costs, agent fees, and uncertainty. A cash sale closes in two weeks with no risk of a deal falling through.",
+      "King of Prussia's Redfin Compete Score is 80 out of 100 — classified as Very Competitive. But the median home sits 25 days before going pending, and then another 45–60 days to close. That's approximately two to three months of carrying costs, agent fees, and uncertainty. A cash sale closes in two weeks with no risk of a deal falling through.",
   },
   {
     question: 'What closing costs do I pay when selling to a cash buyer?',
@@ -215,7 +215,7 @@ export default function KingOfPrussiaMarketPage() {
         {/* TL;DR — GEO/AEO Quick Answer */}
         <section className="my-10 bg-blue-50 border-l-4 border-brand-primary rounded-r-2xl p-6 md:p-8">
           <h2 className="text-xl md:text-2xl font-bold text-brand-dark mb-3">Quick Answer: Sell Your House Fast in King of Prussia, PA</h2>
-          <p className="text-gray-700 leading-relaxed">USA Home Buyers purchases houses in King of Prussia, PA for cash — no repairs, no fees, close in your timeline. According to the Zillow Home Value Index, the King of Prussia median home value is $453,560 (February 2026, +5.9% year-over-year); Redfin's median closed sale price is $549,350. The typical KOP home takes 34 days to go pending and another 45–60 days to close — roughly 80–95 days total. We close in 7–14 days. No inspections, no appraisals, no financing contingencies. Montgomery County's standard 2% transfer tax applies; we cover all closing costs.</p>
+          <p className="text-gray-700 leading-relaxed">USA Home Buyers purchases houses in King of Prussia, PA for cash — no repairs, no fees, close in your timeline. According to the Zillow Home Value Index, the King of Prussia median home value is $498,174 (2026-03-31, +3.1% year-over-year); Redfin's median closed sale price is $540,620. The typical KOP home takes 25 days to go pending and another 45–60 days to close — roughly 70–85 days total. We close in 7–14 days. No inspections, no appraisals, no financing contingencies. Montgomery County's standard 2% transfer tax applies; we cover all closing costs.</p>
         </section>
 
         {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
@@ -231,7 +231,7 @@ export default function KingOfPrussiaMarketPage() {
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
         <p className="mb-3">If you&apos;re looking to sell your house fast in King of Prussia, PA, here&apos;s how we work. I&apos;m with USA Home Buyers. We buy homes in King of Prussia and throughout Montgomery County for cash, as-is, in any condition.</p>
-        <p className="mb-3">Here&apos;s the 2026 market reality in King of Prussia. Zillow puts the median home value at $453,560. Redfin&apos;s median sale price is $549,350. King of Prussia has a Redfin Compete Score of 82 out of 100. But the median home takes 34 days to go pending, then another 45 to 60 days to close. You&apos;re looking at three to four months from listing to cash in hand.</p>
+        <p className="mb-3">Here&apos;s the 2026 market reality in King of Prussia. Zillow puts the median home value at $498,174. Redfin&apos;s median sale price is $540,620. King of Prussia has a Redfin Compete Score of 80 out of 100. But the median home takes 25 days to go pending, then another 45 to 60 days to close. You&apos;re looking at approximately two to three months from listing to cash in hand.</p>
         <p className="mb-3">We close in 7 to 14 days. Written offer within 24 hours of your call. No repairs, no cleaning, no agent commissions. We cover all closing costs.</p>
         <p className="mb-3">We serve all of Upper Merion Township and Montgomery County: Norristown, Conshohocken, Plymouth Meeting, Wayne, Collegeville, Valley Forge, Bryn Mawr, Bridgeport, and surrounding communities. Whether you&apos;re relocating, dealing with an inherited property, or facing a time-sensitive situation — we&apos;re the call to make.</p>
         <p className="mb-3">Call USA Home Buyers at 888-274-5006. We&apos;ll ask a few questions, make a fair written offer within 24 hours, and close on your schedule.</p>
@@ -255,14 +255,14 @@ export default function KingOfPrussiaMarketPage() {
             <table className="w-full text-sm">
               <tbody>
                 {[
-                  ['Median home value (Zillow ZHVI)', '$453,560'],
-                  ['Median sale price (Redfin, Feb 2026)', '$549,350'],
-                  ['Price per square foot', '$266'],
-                  ['Average days to pending', '34 days'],
+                  ['Median home value (Zillow ZHVI)', '$498,174'],
+                  ['Median sale price (Redfin, Mar 2026)', '$540,620'],
+                  ['Price per square foot', '$267'],
+                  ['Average days to pending', '25 days'],
                   ['Total market time (list to close)', '79+ days'],
-                  ['Cash offer range (on $500K home)', '$350,000–$400,000'],
+                  ['Cash offer range (on $500K home)', '$349,000–$399,000'],
                   ['PA transfer tax (Upper Merion Township)', '2% total (1% buyer / 1% seller)'],
-                  ['Redfin Compete Score', '82/100 — Very Competitive'],
+                  ['Redfin Compete Score', '80/100 — Very Competitive'],
                   ['Typical realtor commission', '5–6%'],
                 ].map(([metric, value], i) => (
                   <tr key={i} className={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
@@ -272,10 +272,10 @@ export default function KingOfPrussiaMarketPage() {
                 ))}
               </tbody>
             </table>
-            <p className="mt-4 text-xs text-gray-400">Market data last updated: April 2026</p>
+            <p className="mt-4 text-xs text-gray-400">Market data last updated: March 2026</p>
           </div>
           <p className="mt-4 text-sm text-gray-600">
-            KOP is competitive — but &quot;competitive&quot; means your home sits 34 days before an offer, then
+            KOP is competitive — but &quot;competitive&quot; means your home sits 25 days before an offer, then
             another 45–60 days before closing. That&apos;s over three months of carrying costs, showings, and
             uncertainty, plus agent fees north of $27,000 on a $500K sale.
           </p>

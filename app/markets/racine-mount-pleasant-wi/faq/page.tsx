@@ -25,11 +25,11 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How much will USA Home Buyers pay for my Racine property?',
-    answer: 'Cash offers typically range from 68-80% of fair market value. According to the Zillow Home Value Index (February 2026), the typical Racine home value is $171,496, up 4.4% year over year. Redfin reports a March 2026 median sale price of $205,000 in Racine. Mount Pleasant homes run higher — the Realtor.com metro hotness median is $347,720. We cover all closing costs — the offer we make is what you walk away with. No deductions at the closing table.',
+    answer: 'Cash offers typically range from 68-80% of fair market value. According to the Zillow Home Value Index (Zillow Research City ZHVI CSV, 2026-03-31), the typical Racine city home value is $208,908, up 4.9% year over year. Redfin reports a March 2026 median sale price of $219,000 in Racine. Mount Pleasant homes run higher — Zillow Research City ZHVI CSV shows Mount Pleasant village ZHVI at $336,759 (2026-03-31). We cover all closing costs — the offer we make is what you walk away with. No deductions at the closing table.',
   },
   {
     question: 'What is the transfer tax when selling a house in Racine WI?',
-    answer: 'Wisconsin realty transfer fee is $3.00 per $1,000 of consideration (0.30%), set by Wis. Stat. § 77.22. This is a state-only fee — Racine County does not add a local surcharge, and neither does the City of Racine or the Village of Mount Pleasant. Seller (grantor) pays. On a $205,000 Racine sale: $615. On a $347,720 Mount Pleasant sale: $1,043. When you sell to USA Home Buyers, we cover all closing costs.',
+    answer: 'Wisconsin realty transfer fee is $3.00 per $1,000 of consideration (0.30%), set by Wis. Stat. § 77.22. This is a state-only fee — Racine County does not add a local surcharge, and neither does the City of Racine or the Village of Mount Pleasant. Seller (grantor) pays. On a $219,000 Racine sale: $657. On a $336,759 Mount Pleasant sale: $1,043. When you sell to USA Home Buyers, we cover all closing costs.',
   },
   {
     question: 'How does foreclosure work in Wisconsin?',

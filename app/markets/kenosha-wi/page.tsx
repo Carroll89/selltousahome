@@ -70,7 +70,7 @@ const TESTIMONIALS = [
     "date": "February 2025"
   },
   {
-    "quote": "We owned our Lakeview property for twenty-six years and the property taxes hit $6,400 this year. Both retired, two incomes gone to one Social Security check. The house had too many stairs for my husband's knees anyway. USA Home Buyers gave us a fair number and closed in seven days. We moved to a one-floor condo in Waukegan.",
+    "quote": "We owned our Lakeview property for twenty-six years and the property taxes hit $6,220 this year. Both retired, two incomes gone to one Social Security check. The house had too many stairs for my husband's knees anyway. USA Home Buyers gave us a fair number and closed in seven days. We moved to a one-floor condo in Waukegan.",
     "name": "Eleanor and Frank M.",
     "location": "Lakeview, Kenosha WI",
     "situation": "Downsizing — Retirement",
@@ -95,11 +95,11 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How much will you pay for my Kenosha WI house?',
-    answer: 'Cash offers for Kenosha homes typically range from 68-80% of fair market value. According to Zillow, the Kenosha median home value is approximately $225,000. A typical cash offer on a post-war bungalow or brick ranch on the north or south side runs $157,000-$180,000. We cover all closing costs including Wisconsin\'s realty transfer fee ($3 per $1,000 — seller pays on traditional sales).',
+    answer: 'Cash offers for Kenosha homes typically range from 70-80% of fair market value. According to Zillow, the Kenosha median home value is approximately $273,053. A typical cash offer on a post-war bungalow or brick ranch on the north or south side runs $191,000-$218,000. We cover all closing costs including Wisconsin\'s realty transfer fee ($3 per $1,000 — seller pays on traditional sales).',
   },
   {
     question: 'What is the realty transfer fee when selling a house in Kenosha WI?',
-    answer: 'Wisconsin charges a realty transfer fee of $3.00 per $1,000 of consideration on all real estate sales. This is a state fee — Kenosha County does not add a local surcharge. Entirely paid by the seller. On a $225,000 home, the fee is $675. When you sell to USA Home Buyers, we cover all closing costs. Source: Wisconsin Department of Revenue (revenue.wi.gov).',
+    answer: 'Wisconsin charges a realty transfer fee of $3.00 per $1,000 of consideration on all real estate sales. This is a state fee — Kenosha County does not add a local surcharge. Entirely paid by the seller. On a $273,053 home, the fee is $819. When you sell to USA Home Buyers, we cover all closing costs. Source: Wisconsin Department of Revenue (revenue.wi.gov).',
   },
   {
     question: 'How does foreclosure work in Kenosha WI?',
@@ -166,7 +166,7 @@ export default function KenosaWIMarketPage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                USA Home Buyers purchases houses in Kenosha WI and throughout Kenosha County — Downtown Kenosha, Allendale, Lincoln Park, and surrounding communities in Racine County. Written cash offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no fees. According to Zillow, Kenosha median home values are around $225,000. We cover all closing costs including Wisconsin's realty transfer fee. Call 888-274-5006.
+                USA Home Buyers purchases houses in Kenosha WI and throughout Kenosha County — Downtown Kenosha, Allendale, Lincoln Park, and surrounding communities in Racine County. Written cash offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no fees. According to Zillow, Kenosha median home values are around $273,053. We cover all closing costs including Wisconsin's realty transfer fee. Call 888-274-5006.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
@@ -226,9 +226,9 @@ export default function KenosaWIMarketPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200">
-                <tr className="bg-white"><td className="p-3 font-medium">Median home value</td><td className="p-3">$225,000</td><td className="p-3 text-gray-500">Zillow ZHVI (Mar 2026)</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">Median sale price</td><td className="p-3">$235,000</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
-                <tr className="bg-white"><td className="p-3 font-medium">Median days on market</td><td className="p-3">~35 days</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Median home value</td><td className="p-3">$273,053</td><td className="p-3 text-gray-500">Zillow Research City ZHVI CSV (2026-03-31)</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Median sale price</td><td className="p-3">$279,500</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Median days on market</td><td className="p-3">35 days</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Realty transfer fee</td><td className="p-3">$3.00 per $1,000 (seller pays)</td><td className="p-3 text-gray-500">WI Dept. of Revenue</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Foreclosure type</td><td className="p-3">Judicial (court action required, 10-14 months)</td><td className="p-3 text-gray-500">Wis. Stats. Ch. 846</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Primary county</td><td className="p-3">Kenosha County</td><td className="p-3 text-gray-500">—</td></tr>
@@ -257,7 +257,7 @@ export default function KenosaWIMarketPage() {
           </h2>
           <ComparisonTable rows={COMPARISON_ROWS} />
           <p className="mt-4 text-sm text-gray-600">
-            On a $235,000 Kenosha home, a 5-6% agent commission runs $11,750-$14,100. Add Wisconsin's realty transfer fee (~$705), carrying costs during 35+ days on market, and potential repairs on post-war housing stock. Many Kenosha bungalows have knob-and-tube or aluminum wiring that conventional lenders won't accept — limiting your buyer pool to cash buyers regardless. A direct cash offer from us eliminates that entire calculation.
+            On a $279,500 Kenosha home, a 5-6% agent commission runs $13,975-$16,770. Add Wisconsin's realty transfer fee (~$839), carrying costs during 35+ days on market, and potential repairs on post-war housing stock. Many Kenosha bungalows have knob-and-tube or aluminum wiring that conventional lenders won't accept — limiting your buyer pool to cash buyers regardless. A direct cash offer from us eliminates that entire calculation.
           </p>
         </section>
 

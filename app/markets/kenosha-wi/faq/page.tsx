@@ -25,7 +25,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How much will USA Home Buyers pay for my Kenosha property?',
-    answer: 'Cash offers typically range from 68-80% of fair market value. According to Zillow, the Kenosha median home value is $225,000. We cover all closing costs — the offer we make is what you walk away with. No deductions at the closing table.',
+    answer: 'Cash offers typically range from 70-80% of fair market value. According to Zillow Research (City ZHVI CSV, 2026-03-31), the Kenosha city median home value is $273,053. We cover all closing costs — the offer we make is what you walk away with. No deductions at the closing table.',
   },
   {
     question: 'What is the transfer tax when selling a house in Kenosha WI?',

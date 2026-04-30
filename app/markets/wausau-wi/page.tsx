@@ -206,12 +206,14 @@ export default function WausauWIMarketPage() {
           <p className="text-gray-700 mb-4">
             According to the <a href="https://revenue.wi.gov/Pages/FAQS/ise-reTransfer.aspx" className="text-brand-primary hover:underline" target="_blank" rel="noopener noreferrer">Wisconsin Department of Revenue</a>, Wisconsin sellers pay a real estate transfer fee of $3.00 per $1,000 of sale price (0.3%). On a $366,000 sale that's $1,098 — and when you sell to us, we cover it. According to <a href="https://docs.legis.wisconsin.gov/statutes/statutes/846" className="text-brand-primary hover:underline" target="_blank" rel="noopener noreferrer">Wisconsin Statutes Ch. 846</a>, Wisconsin uses judicial foreclosure, which runs through Marathon County Circuit Court and takes about 12 months from filing to sheriff's sale. For homeowners behind on payments, that's a long time to wait. According to the <a href="https://www.census.gov/quickfacts/fact/table/marathoncountywisconsin/PST045222" className="text-brand-primary hover:underline" target="_blank" rel="noopener noreferrer">U.S. Census Bureau</a>, Marathon County has over 137,000 residents — the housing market here is driven by real families in real situations, not just investors.
           </p>
-          <p className="text-xs text-gray-400 mb-4">Last Updated: April 2026</p>
+          <p className="text-xs text-gray-400 mb-4">Last Updated: March 2026</p>
           <div className="overflow-x-auto mb-6">
             <table className="w-full text-sm border-collapse">
               <thead><tr className="bg-brand-primary text-white"><th className="text-left p-3">Metric</th><th className="text-left p-3">Wausau WI Metro</th><th className="text-left p-3">Source</th></tr></thead>
               <tbody className="divide-y divide-gray-200">
-                <tr className="bg-white"><td className="p-3 font-medium">Median listing price (metro)</td><td className="p-3">$366,000</td><td className="p-3 text-gray-500">Realtor.com (Mar 2026)</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Median sale price (city)</td><td className="p-3">$225,000 (+33.9% YoY)</td><td className="p-3 text-gray-500">Redfin city (Mar 2026)</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Zillow city ZHVI</td><td className="p-3">$240,743 (+8.6% YoY)</td><td className="p-3 text-gray-500">Zillow Research City ZHVI CSV (2026-03-31)</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Median listing price (metro)</td><td className="p-3">$366,000</td><td className="p-3 text-gray-500">Realtor.com/FRED metro (Mar 2026)</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Hotness rank</td><td className="p-3">#18 nationally</td><td className="p-3 text-gray-500">Realtor.com Hotness Index</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Transfer fee</td><td className="p-3">0.3% ($3/$1,000, seller pays)</td><td className="p-3 text-gray-500">WI DOR (revenue.wi.gov)</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Foreclosure type</td><td className="p-3">Judicial (12-month process, sheriff's sale)</td><td className="p-3 text-gray-500">WI Statutes Ch. 846</td></tr>
@@ -239,7 +241,7 @@ export default function WausauWIMarketPage() {
           <h2 className="text-2xl md:text-3xl font-bold text-brand-dark mb-4">Cash Sale vs. Listing With an Agent in Wausau WI</h2>
           <ComparisonTable rows={COMPARISON_ROWS} />
           <p className="mt-4 text-sm text-gray-600">
-            On a $366,000 Wausau home, a 5-6% agent commission runs $18,300-$21,960. Add Wisconsin's 0.3% transfer fee ($1,098), carrying costs during 30+ days on market, and repairs. Central Wisconsin winters are hard on homes — aging furnaces, ice dam damage, and basement moisture are common issues that conventional buyers demand fixed before closing. A direct cash sale eliminates those costs.
+            On a $225,000 Wausau city median-sale home, a 5-6% agent commission runs $11,250-$13,500. Add Wisconsin's 0.3% transfer fee ($675), carrying costs during 30+ days on market, and repairs. Central Wisconsin winters are hard on homes — aging furnaces, ice dam damage, and basement moisture are common issues that conventional buyers demand fixed before closing. A direct cash sale eliminates those costs.
           </p>
         </section>
 
