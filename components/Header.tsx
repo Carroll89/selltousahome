@@ -76,7 +76,11 @@ const marketsByState: { state: string; cities: { href: string; label: string }[]
 
 export function Header() {
   const pathname = usePathname();
-  const isAllentownContext = pathname?.startsWith('/markets/allentown-pa') ?? false;
+  const isAllentownContext =
+    pathname?.startsWith('/markets/allentown-pa') ||
+    pathname === '/guides/sell-house-fast-allentown-pa-2026' ||
+    pathname === '/blog/allentown-pa-sell-house-fast-2026' ||
+    false;
   const sellerGuidesHref = isAllentownContext ? '/guides/sell-house-fast-allentown-pa-2026' : '/guides';
   const sellerGuidesLabel = isAllentownContext ? 'Allentown Guide' : 'Seller Guides';
   const blogHref = isAllentownContext ? '/markets/allentown-pa/resources' : '/blog';
