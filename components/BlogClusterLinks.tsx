@@ -24,7 +24,10 @@ interface BlogClusterLinksProps {
 }
 
 export function BlogClusterLinks({ marketSlug, cityName }: BlogClusterLinksProps) {
-  const posts = getPostsForMarket(marketSlug).slice(0, 4);
+  const allPosts = getPostsForMarket(marketSlug);
+  const cityFirst = allPosts.filter((p) => p.markets[0] === marketSlug);
+  const others = allPosts.filter((p) => p.markets[0] !== marketSlug);
+  const posts = [...cityFirst, ...others].slice(0, 4);
   const stateHub = getStateHub(marketSlug);
   if (posts.length === 0 && !stateHub) return null;
 

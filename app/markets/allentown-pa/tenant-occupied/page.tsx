@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
+import { BlogClusterLinks } from '@/components/BlogClusterLinks';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
 import { articleSchema, faqSchema, allentownLocalBusinessSchema, videoObjectSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
@@ -213,6 +214,8 @@ export default function AllentownTenantOccupiedPage() {
           />
 
           <FAQSection items={FAQ_ITEMS} heading="Selling an Allentown Rental — Common Questions" />
+
+          <BlogClusterLinks marketSlug="allentown-pa" cityName="Allentown" />
 
           <div className="mt-8 text-sm text-gray-500">
             <p>

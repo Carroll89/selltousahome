@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
+import { BlogClusterLinks } from '@/components/BlogClusterLinks';
 import { ComparisonTable } from '@/components/ComparisonTable';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
 import { articleSchema, faqSchema, allentownLocalBusinessSchema, videoObjectSchema } from '@/lib/schema';
@@ -252,6 +253,8 @@ export default function AllentownDivorceSalePage() {
           </section>
 
           <FAQSection items={FAQ_ITEMS} heading="Frequently Asked Questions — Divorce Home Sale in Allentown, PA" />
+
+          <BlogClusterLinks marketSlug="allentown-pa" cityName="Allentown" />
 
           <section className="my-10">
             <h2 className="text-xl font-bold text-brand-dark mb-4">Related Pages</h2>

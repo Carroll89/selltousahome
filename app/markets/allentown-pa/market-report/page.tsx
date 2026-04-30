@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
+import { BlogClusterLinks } from '@/components/BlogClusterLinks';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
 import { faqSchema, allentownLocalBusinessSchema, videoObjectSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
@@ -412,6 +413,8 @@ export default function AllentownMarketReport() {
           items={FAQ_ITEMS}
           heading="Allentown Housing Market — Frequently Asked Questions"
         />
+
+          <BlogClusterLinks marketSlug="allentown-pa" cityName="Allentown" />
 
         {/* Related Links */}
         <div className="mt-10 pt-6 border-t border-gray-200 text-sm text-gray-500">

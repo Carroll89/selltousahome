@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
+import { BlogClusterLinks } from '@/components/BlogClusterLinks';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
 import { articleSchema, faqSchema, allentownLocalBusinessSchema, videoObjectSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
@@ -226,6 +227,8 @@ export default function AllentownForeclosurePage() {
           />
 
           <FAQSection items={FAQ_ITEMS} heading="Lehigh County Foreclosure — Common Questions" />
+
+          <BlogClusterLinks marketSlug="allentown-pa" cityName="Allentown" />
 
           <section className="mt-10">
             <h2 className="text-xl font-bold text-brand-dark mb-4">PA Foreclosure Resources</h2>

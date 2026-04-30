@@ -3,6 +3,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { FAQSection } from '@/components/FAQSection';
+import { BlogClusterLinks } from '@/components/BlogClusterLinks';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
 import { articleSchema, faqSchema, allentownLocalBusinessSchema, videoObjectSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
@@ -239,6 +240,8 @@ export default function AllentownCodeViolationsPage() {
           />
 
           <FAQSection items={FAQ_ITEMS} heading="Allentown Code Violations — Common Questions" />
+
+          <BlogClusterLinks marketSlug="allentown-pa" cityName="Allentown" />
 
           <section className="mt-10">
             <h2 className="text-xl font-bold text-brand-dark mb-4">Allentown Code Enforcement Resources</h2>
