@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import Image from 'next/image';
+import { usePathname } from 'next/navigation';
 import { useState, useRef, useCallback } from 'react';
 import { PHONE } from '@/lib/utils';
 
@@ -74,6 +75,13 @@ const marketsByState: { state: string; cities: { href: string; label: string }[]
 ];
 
 export function Header() {
+  const pathname = usePathname();
+  const isAllentownContext = pathname?.startsWith('/markets/allentown-pa') ?? false;
+  const sellerGuidesHref = isAllentownContext ? '/guides/sell-house-fast-allentown-pa-2026' : '/guides';
+  const sellerGuidesLabel = isAllentownContext ? 'Allentown Guide' : 'Seller Guides';
+  const blogHref = isAllentownContext ? '/markets/allentown-pa/resources' : '/blog';
+  const blogLabel = isAllentownContext ? 'Allentown Blog' : 'Blog';
+
   const [menuOpen, setMenuOpen] = useState(false);
   const [marketsOpen, setMarketsOpen] = useState(false);
   const [mobileMarketsOpen, setMobileMarketsOpen] = useState(false);
@@ -147,11 +155,11 @@ export function Header() {
               )}
             </div>
 
-            <Link href="/guides" className="text-gray-600 hover:text-brand-primary whitespace-nowrap">
-              Seller Guides
+            <Link href={sellerGuidesHref} className="text-gray-600 hover:text-brand-primary whitespace-nowrap">
+              {sellerGuidesLabel}
             </Link>
-            <Link href="/blog" className="text-gray-600 hover:text-brand-primary whitespace-nowrap">
-              Blog
+            <Link href={blogHref} className="text-gray-600 hover:text-brand-primary whitespace-nowrap">
+              {blogLabel}
             </Link>
             <Link href="/resources/how-the-process-works" className="text-gray-600 hover:text-brand-primary whitespace-nowrap">
               How It Works
@@ -226,8 +234,8 @@ export function Header() {
             </div>
 
             {[
-              { href: '/guides', label: 'Seller Guides' },
-              { href: '/blog', label: 'Blog' },
+              { href: sellerGuidesHref, label: sellerGuidesLabel },
+              { href: blogHref, label: blogLabel },
               { href: '/resources/how-the-process-works', label: 'How It Works' },
               { href: '/reviews', label: 'Reviews' },
               { href: '/about', label: 'About' },

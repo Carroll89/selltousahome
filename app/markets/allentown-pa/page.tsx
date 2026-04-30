@@ -337,6 +337,37 @@ export default function AllentownMarketPage() {
           </div>
         </section>
 
+        {/* Allentown Seller Resources Hub */}
+        <section className="my-12 bg-blue-50 border border-blue-200 rounded-2xl p-8">
+          <h2 className="text-2xl font-bold text-brand-dark mb-2">Allentown Seller Resources</h2>
+          <p className="text-gray-600 mb-6">
+            Guides, market data, and situation-specific help for Allentown and Lehigh County homeowners — no content from other markets.
+          </p>
+          <div className="grid sm:grid-cols-2 gap-3 mb-6">
+            {[
+              { href: '/markets/allentown-pa/resources', label: 'All Allentown Seller Resources →', primary: true },
+              { href: '/guides/sell-house-fast-allentown-pa-2026', label: 'Allentown Seller Guide 2026', primary: false },
+              { href: '/markets/allentown-pa/market-report', label: 'Allentown Market Report', primary: false },
+              { href: '/blog/allentown-pa-sell-house-fast-2026', label: 'Allentown 2026 Market Article', primary: false },
+            ].map((item) => (
+              <Link
+                key={item.href}
+                href={item.href}
+                className={`block rounded-xl px-4 py-3 font-medium transition text-sm ${
+                  item.primary
+                    ? 'bg-brand-primary text-white hover:bg-brand-dark col-span-full text-center text-base py-4'
+                    : 'bg-white border border-gray-200 text-brand-primary hover:border-brand-primary hover:shadow-sm'
+                }`}
+              >
+                {item.label}
+              </Link>
+            ))}
+          </div>
+          <p className="text-xs text-gray-500">
+            All links above go to Allentown-specific content. The resources hub also lists foreclosure, divorce, probate, code violations, inherited, and tenant-occupied guides for Allentown.
+          </p>
+        </section>
+
         {/* Blog Cluster Links */}
         <BlogClusterLinks marketSlug="allentown-pa" cityName="Allentown" />
 
