@@ -13,7 +13,7 @@ const pageUrl = `${SITE_URL}/markets/rockford-il/market-report`;
 export const metadata: Metadata = {
   title: 'Rockford IL Housing Market Report 2026',
   description:
-    'Rockford IL housing market data: $170K median sale price, 14-day DOM, 89/100 compete score. Winnebago County investor analysis for 2026. Cash buyers: 888-274-5006.',
+    'Rockford IL housing market data: $170K median sale price, 14-day DOM, 90/100 compete score. Winnebago County investor analysis for 2026. Cash buyers: 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
@@ -36,7 +36,7 @@ export default function RockfordILMarketReportPage() {
           <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
             <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
             <p className="text-white text-sm leading-relaxed">
-              According to Zillow (Feb 28, 2026), Rockford ZHVI: $142,859 (+4.8% YoY). Per Redfin (March 2026), median sale price: $170,000 (+17.2% YoY). Compete score 89/100. Median sold DOM: 14 days. RDC hotness rank #11. Transfer tax: $0.75/$500, no municipal RETT. Winnebago County foreclosure timeline 14-20 months. Cash offers 70-78% of FMV. USA Home Buyers: 888-274-5006.
+              According to Zillow Research City ZHVI CSV (2026-03-31), Rockford ZHVI: $177,225 (+9.9% YoY). Per Redfin (March 2026), median sale price: $170,000 (+17.2% YoY). Compete score 90/100. Median sold DOM: 14 days. RDC hotness rank #11. Transfer tax: $0.75/$500, no municipal RETT. Winnebago County foreclosure timeline 14-20 months. Cash offers 70-78% of FMV. USA Home Buyers: 888-274-5006.
             </p>
           </div>
         </div>
@@ -57,13 +57,13 @@ export default function RockfordILMarketReportPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200">
-                <tr className="bg-white"><td className="p-3 font-medium">Zillow ZHVI (avg home value)</td><td className="p-3">$142,859</td><td className="p-3 text-green-700">+4.8%</td><td className="p-3 text-gray-500">Zillow (Feb 28, 2026)</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Zillow ZHVI (avg home value)</td><td className="p-3">$177,225</td><td className="p-3 text-green-700">+4.8%</td><td className="p-3 text-gray-500">Zillow (Feb 28, 2026)</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Redfin Median Sale Price</td><td className="p-3">$170,000</td><td className="p-3 text-green-700">+17.2%</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Price per Square Foot</td><td className="p-3">$109</td><td className="p-3 text-green-700">+10.1%</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Median DOM (sold homes)</td><td className="p-3">14 days</td><td className="p-3">—</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">RDC Active Listing DOM</td><td className="p-3">34.5 days</td><td className="p-3">—</td><td className="p-3 text-gray-500">Realtor.com (Mar 2026)</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">RDC Hotness Score</td><td className="p-3">93.645 — Rank #11 nationally</td><td className="p-3">—</td><td className="p-3 text-gray-500">Realtor.com (Mar 2026)</td></tr>
-                <tr className="bg-white"><td className="p-3 font-medium">Redfin Compete Score</td><td className="p-3">89/100 — Very Competitive</td><td className="p-3">—</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Redfin Compete Score</td><td className="p-3">90/100 — Very Competitive</td><td className="p-3">—</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Sale-to-List Ratio</td><td className="p-3">100.2%</td><td className="p-3 text-green-700">+2.6 pts</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Homes Sold (March 2026)</td><td className="p-3">109</td><td className="p-3">—</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">IL State Median Home Price</td><td className="p-3">$299,000</td><td className="p-3">—</td><td className="p-3 text-gray-500">WIFR/Statewide (Feb 2026)</td></tr>
@@ -91,7 +91,7 @@ export default function RockfordILMarketReportPage() {
               </thead>
               <tbody className="divide-y divide-gray-200">
                 <tr className="bg-white"><td className="p-3">$83,093 (Jackson Oaks ZHVI)</td><td className="p-3">$83.09</td><td className="p-3">$41.55</td><td className="p-3">$0</td><td className="p-3 font-medium">$124.64</td></tr>
-                <tr className="bg-gray-50"><td className="p-3">$142,859 (ZHVI average)</td><td className="p-3">$142.86</td><td className="p-3">$71.43</td><td className="p-3">$0</td><td className="p-3 font-medium">$214.29</td></tr>
+                <tr className="bg-gray-50"><td className="p-3">$177,225 (ZHVI average)</td><td className="p-3">$142.86</td><td className="p-3">$71.43</td><td className="p-3">$0</td><td className="p-3 font-medium">$214.29</td></tr>
                 <tr className="bg-white"><td className="p-3">$157,396 (Churchill Grove ZHVI)</td><td className="p-3">$157.40</td><td className="p-3">$78.70</td><td className="p-3">$0</td><td className="p-3 font-medium">$236.09</td></tr>
                 <tr className="bg-gray-50"><td className="p-3">$170,000 (Redfin median)</td><td className="p-3">$170.00</td><td className="p-3">$85.00</td><td className="p-3">$0</td><td className="p-3 font-medium">$255.00</td></tr>
               </tbody>
@@ -115,8 +115,8 @@ export default function RockfordILMarketReportPage() {
                 <tr className="bg-white"><td className="p-3 font-medium">Population</td><td className="p-3">147,521</td><td className="p-3">113,330</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">RDC Hotness Rank (Mar 2026)</td><td className="p-3">#11 (93.645)</td><td className="p-3">#10 (93.979)</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Redfin Median Sale Price</td><td className="p-3">$170,000 (+17.2% YoY)</td><td className="p-3">$187,000 (+23% YoY)</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">Zillow ZHVI</td><td className="p-3">$142,859</td><td className="p-3">$163,198</td></tr>
-                <tr className="bg-white"><td className="p-3 font-medium">Compete Score</td><td className="p-3">89/100</td><td className="p-3">78/100</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Zillow ZHVI</td><td className="p-3">$177,225</td><td className="p-3">$163,198</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Compete Score</td><td className="p-3">90/100</td><td className="p-3">64/100</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Dominant Economy</td><td className="p-3">Manufacturing/diversified</td><td className="p-3">State government</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Foreclosure Timeline</td><td className="p-3">14–20 months</td><td className="p-3">12–15 months</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Municipal Transfer Tax</td><td className="p-3">$0 (none)</td><td className="p-3">$0 (none)</td></tr>
@@ -139,11 +139,11 @@ export default function RockfordILMarketReportPage() {
               <tbody className="divide-y divide-gray-200">
                 <tr className="bg-white"><td className="p-3 font-medium">Standard cash offer</td><td className="p-3">70–78% of FMV</td><td className="p-3">Standard IL investor range; Rockford's lower price point makes this accessible</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Distressed / major repairs needed</td><td className="p-3">60–70% of FMV</td><td className="p-3">Common in pre-1970 Rockford stock with deferred maintenance</td></tr>
-                <tr className="bg-white"><td className="p-3 font-medium">Competitive (multiple bidders)</td><td className="p-3">75–82% of FMV</td><td className="p-3">89/100 Redfin score drives competitive cash above typical range</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Competitive (multiple bidders)</td><td className="p-3">75–82% of FMV</td><td className="p-3">90/100 Redfin score drives competitive cash above typical range</td></tr>
               </tbody>
             </table>
           </div>
-          <p className="text-gray-700 text-sm mt-2">On the $142,859 ZHVI, a 70-78% range = $100,001-$111,430. On the $170,000 Redfin median, that's $119,000-$132,600. Actual offer depends on condition, neighborhood, and liens.</p>
+          <p className="text-gray-700 text-sm mt-2">On the $177,225 ZHVI, a 70-78% range = $100,001-$111,430. On the $170,000 Redfin median, that's $119,000-$132,600. Actual offer depends on condition, neighborhood, and liens.</p>
         </section>
 
         <section className="my-8">

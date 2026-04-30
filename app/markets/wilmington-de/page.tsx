@@ -39,7 +39,7 @@ const TESTIMONIALS = [
     "name": "Denise W.",
     "location": "West Center City, Wilmington DE",
     "situation": "Foreclosure — Pre-Sheriff Sale",
-    "date": "February 2026"
+    "date": "March 2026"
   },
   {
     "quote": "Our divorce settlement required the house on Shallcross Avenue to be sold. My ex and I couldn't agree on anything. USA Home Buyers handled the whole transaction through our attorneys — one number, one closing, proceeds split cleanly the day we signed.",
@@ -82,8 +82,8 @@ const COMPARISON_ROWS = [
   { label: 'Offer timeline', cashBuyer: '24 hours', traditional: '14-60 days to get an offer' },
   { label: 'Closing timeline', cashBuyer: '7-14 days', traditional: '45-60+ days' },
   { label: 'Repairs required', cashBuyer: 'None — we buy as-is', traditional: 'Usually required ($8K-$20K avg)' },
-  { label: 'Agent commissions', cashBuyer: '$0', traditional: '5-6% (~$10,500-$12,600 on $210K home)' },
-  { label: 'Transfer tax (4% total in Wilmington)', cashBuyer: 'We cover all closing costs', traditional: 'Seller pays ~2% of sale price ($4,200)' },
+  { label: 'Agent commissions', cashBuyer: '$0', traditional: '5-6% (~$12,560-$15,072 on $251K home)' },
+  { label: 'Transfer tax (4% total in Wilmington)', cashBuyer: 'We cover all closing costs', traditional: 'Seller pays ~2% of sale price ($5,024)' },
   { label: 'Sale certainty', cashBuyer: 'Guaranteed — written contract', traditional: '15-20% of listings fall through' },
   { label: 'Average net proceeds', cashBuyer: '65-75% of ARV (no deductions)', traditional: '85-90% FMV minus repairs, commissions, tax' },
 ];
@@ -91,15 +91,15 @@ const COMPARISON_ROWS = [
 const FAQ_ITEMS = [
   {
     question: 'How fast can I sell my house for cash in Wilmington DE?',
-    answer: "Once you accept a written offer, we close in 7-14 days. We send the written offer within 24 hours of your inquiry. According to Redfin, Wilmington homes spend a median of 72 days on market when listed — that path requires showings, inspections, and waiting on mortgage lender approval. A cash sale eliminates the bank wait, the inspection contingency, and the showing calendar entirely.",
+    answer: "Once you accept a written offer, we close in 7-14 days. We send the written offer within 24 hours of your inquiry. According to Redfin (Wilmington city, Mar 2026), Wilmington homes spend a median of 61 sold days on market — that path requires showings, inspections, and waiting on mortgage lender approval. A cash sale eliminates the bank wait, the inspection contingency, and the showing calendar entirely.",
   },
   {
     question: 'What is the transfer tax when selling in Wilmington DE?',
-    answer: "Wilmington has one of the higher transfer tax rates on the East Coast — 4% total. The breakdown: 2.5% Delaware state tax (Delaware Code Title 30, Ch. 54) plus 1.5% City of Wilmington local tax. By custom, buyer and seller split it 50/50 — each paying 2%. On a $210,000 home, the total is $8,400. When you sell to us, we cover all closing costs including the full transfer tax. Source: Delaware Division of Revenue (financefiles.delaware.gov); New Castle County (newcastlede.gov/138).",
+    answer: "Wilmington has one of the higher transfer tax rates on the East Coast — 4% total. The breakdown: 2.5% Delaware state tax (Delaware Code Title 30, Ch. 54) plus 1.5% City of Wilmington local tax. By custom, buyer and seller split it 50/50 — each paying 2%. On a $251,200 home, the total is $10,048. When you sell to us, we cover all closing costs including the full transfer tax. Source: Delaware Division of Revenue (financefiles.delaware.gov); New Castle County (newcastlede.gov/138).",
   },
   {
     question: 'How much will you pay for my Wilmington DE house?',
-    answer: "Cash offers for Wilmington city homes typically range from 65-75% of after-repair value. According to Redfin, Wilmington's median sale price is $210,000 (February 2026, down 6.7% YoY). The Zillow ZHVI for the area is $326,763. Row homes in Southbridge and West Side often yield offers in the $130,000-$165,000 range when we cover all closing costs — nothing deducted from your number.",
+    answer: "Cash offers for Wilmington city homes typically range from 65-75% of after-repair value. According to Redfin, Wilmington's median sale price is $251,200 (Redfin Wilmington city, Mar 2026, +12.1% YoY). The Zillow Research City ZHVI is $325,758 (2026-03-31, +2.5% YoY). Row homes in Southbridge and West Side often yield offers in the $130,000-$165,000 range when we cover all closing costs — nothing deducted from your number.",
   },
   {
     question: 'Do I need to make repairs before selling?',
@@ -153,7 +153,7 @@ export default function WilmingtonMarketPage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                USA Home Buyers purchases houses in Wilmington DE and throughout New Castle County — Southbridge, West Center City, West Side Wilmington, Brandywine Village, Quaker Hill, and nearby Newark and New Castle. Written cash offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no fees. Wilmington median sale price is about $210,000, with local Zillow values around $326,763. We cover all closing costs including Wilmington&apos;s 4% transfer tax. Call 888-274-5006.
+                USA Home Buyers purchases houses in Wilmington DE and throughout New Castle County — Southbridge, West Center City, West Side Wilmington, Brandywine Village, Quaker Hill, and nearby Newark and New Castle. Written cash offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no fees. Wilmington city median sale price is $251,200 (Redfin, Mar 2026), with Zillow Research city ZHVI at $325,758 (2026-03-31). We cover all closing costs including Wilmington&apos;s 4% transfer tax. Call 888-274-5006.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-4">
@@ -226,8 +226,8 @@ export default function WilmingtonMarketPage() {
           </p>
           <div className="grid md:grid-cols-3 gap-4 mb-4">
             {[
-              { label: 'Median sale price', value: '$210,000', note: 'Redfin, February 2026' },
-              { label: 'Median days on market', value: '72 days', note: 'Redfin, February 2026' },
+              { label: 'Median sale price', value: '$251,200', note: 'Redfin Wilmington city, Mar 2026' },
+              { label: 'Median sold DOM', value: '61 days', note: 'Redfin Wilmington city, Mar 2026' },
               { label: 'Transfer tax (Wilmington)', value: '4% total', note: '2.5% DE state + 1.5% city' },
             ].map((item, i) => (
               <div key={i} className="bg-white border border-blue-100 rounded-xl p-4 text-center">
@@ -239,8 +239,8 @@ export default function WilmingtonMarketPage() {
           </div>
           <p className="text-gray-700 text-sm">
             The Wilmington Riverfront redevelopment and Trolley Square's restaurant corridor draw younger
-            residents and rising prices in select pockets. But the city's overall median sale price of $210,000
-            — down 6.7% year-over-year as of February 2026 — reflects a market where many sellers face genuine
+            residents and rising prices in select pockets. The city's March 2026 median sale price of $251,200
+            — up 12.1% year-over-year per Redfin Wilmington city data — still reflects a market where many sellers face genuine
             urgency, and where a cash buyer's certainty of close is more valuable than holding out for retail.
           </p>
         </section>
@@ -254,21 +254,19 @@ export default function WilmingtonMarketPage() {
             <table className="w-full text-sm">
               <tbody>
                 {[
-                  ['Median sale price — Wilmington City (Redfin, Feb 2026)', '$210,000'],
-                  ['YoY change — city sale price (Redfin)', '-6.7%'],
-                  ['Median home value (Zillow ZHVI, Feb 2026)', '$326,763'],
-                  ['YoY change — ZHVI (Zillow)', '+3.0%'],
-                  ['Price per square foot (Redfin, Feb 2026)', '$170/sqft'],
-                  ['YoY change — price/sqft (Redfin)', '+6.3%'],
-                  ['Median days on market (Redfin, Feb 2026)', '72 days'],
-                  ['Sale-to-list ratio (Redfin, Feb 2026)', '98.7% (+0.5 pt YoY)'],
-                  ['Redfin Compete Score', '61/100 — Somewhat Competitive'],
-                  ['Homes sold monthly (Feb 2026)', '53 homes'],
-                  ['Average offers per home', '2'],
+                  ['Median sale price — Wilmington city (Redfin, Mar 2026)', '$251,200 (+12.1% YoY)'],
+                  ['Price per square foot (Redfin Wilmington city, Mar 2026)', '$170/sqft (+6.3% YoY)'],
+                  ['Median home value (Zillow Research City ZHVI, 2026-03-31)', '$325,758'],
+                  ['YoY change — city ZHVI (Zillow Research CSV)', '+2.5%'],
+                  ['Homes sold monthly (Redfin Wilmington city, Mar 2026)', '64 homes'],
+                  ['Sale-to-list ratio (Redfin Wilmington city, Mar 2026)', '98.3%'],
+                  ['Median sold DOM (Redfin Wilmington city, Mar 2026)', '61 days'],
+                  ['Redfin Compete Score', '57/100 — Somewhat Competitive'],
                   ['Cash offer range (Wilmington city)', '65-75% of after-repair value (ARV)'],
+                  ['Average offers per home', '2'],
                   ['Transfer tax — Wilmington DE', '4.0% total (2.5% DE state + 1.5% City of Wilmington)'],
                   ['Transfer tax — typical split', 'Buyer and seller each pay 2%'],
-                  ['Example — $210,000 sale', 'Total tax: $8,400 (seller pays $4,200)'],
+                  ['Example — $251,200 sale', 'Total tax: $10,048 (seller pays $5,024)'],
                   ['Agent commission (typical)', '5-6% (~$10,500-$12,600 on $210K home)'],
                   ['Owner vs. renter', '~45% owner / ~55% renter'],
                   ['Population — City of Wilmington', '~70,655 (2024 est., U.S. Census Bureau)'],
@@ -282,11 +280,11 @@ export default function WilmingtonMarketPage() {
               </tbody>
             </table>
           </div>
-          <p className="mt-4 text-xs text-gray-400">Market data last updated: April 2026</p>
+          <p className="mt-4 text-xs text-gray-400">Market data compiled April 2026 from March 2026 source data</p>
           <p className="mt-2 text-sm text-gray-600">
-            Wilmington's 72-day median DOM is significantly longer than surrounding suburbs — reflecting a
+            Wilmington's 61-day median sold DOM is significantly longer than surrounding suburbs — reflecting a
             buyer pool that moves carefully on aging city stock. For sellers who need speed, the gap between
-            a cash offer's 7-day close and a traditional listing's 72+ day pending period is the difference
+            a cash offer's 7-day close and a traditional listing's 61+ day sold-market timeline is the difference
             between resolution and months of carrying costs, showings, and uncertainty.
           </p>
           <p className="mt-2 text-sm">
@@ -323,8 +321,8 @@ export default function WilmingtonMarketPage() {
           </h2>
           <ComparisonTable rows={COMPARISON_ROWS} />
           <p className="mt-4 text-sm text-gray-600">
-            On a $210,000 Wilmington home, a 5-6% agent commission runs $10,500-$12,600. Add Delaware's 4%
-            transfer tax (seller's 2% share = $4,200), inspection repairs on a pre-1940 Southbridge row home,
+            On a $251,200 Wilmington home, a 5-6% agent commission runs $12,560-$15,072. Add Delaware's 4%
+            transfer tax (seller's 2% share = $5,024), inspection repairs on a pre-1940 Southbridge row home,
             72+ days of carrying costs, and potential listing price reductions — the real gap between a cash
             offer and a traditional listing is narrower than sellers expect. And the certainty of a cash close
             is worth more than the math suggests when your situation requires resolution.

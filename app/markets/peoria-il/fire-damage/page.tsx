@@ -134,7 +134,7 @@ export default function PeoriaFireDamagePage() {
             The National Fire Protection Association (NFPA, nfpa.org) has documented that balloon-frame structures present dramatically higher fire spread rates than platform-frame buildings. What appears as a contained kitchen fire in a pre-1940 Peoria bungalow frequently involves the attic by the time the fire department arrives — because the flame traveled up through wall voids the homeowner couldn't see. This explains why fire damage assessments on pre-1940 Peoria homes almost always reveal more structural involvement than the initial visible damage suggests.
           </p>
           <p className="text-gray-700 mb-4">
-            For homeowners trying to decide between rebuilding and selling, the balloon-frame assessment problem is critical. Per Zillow (February 2026), the Peoria city ZHVI is $115,649. A fire-damaged pre-1940 South Peoria bungalow with apparent moderate damage may require $60,000–$120,000 in full structural remediation — exceeding the pre-fire value of the home. A cash sale captures land value and salvageable structure without the rebuild risk.
+            For homeowners trying to decide between rebuilding and selling, the balloon-frame assessment problem is critical. Per the Zillow Research City ZHVI CSV (Peoria city, 2026-03-31), the Peoria city ZHVI is $128,838. A fire-damaged pre-1940 South Peoria bungalow with apparent moderate damage may require $60,000–$120,000 in full structural remediation — exceeding the pre-fire value of the home. A cash sale captures land value and salvageable structure without the rebuild risk.
           </p>
         </section>
 
@@ -253,7 +253,7 @@ export default function PeoriaFireDamagePage() {
             </table>
           </div>
           <p className="text-gray-700 mb-4">
-            According to Zillow (February 2026), Peoria's ZHVI is $115,649. For a South Side or East Bluff pre-1940 property with $70,000–$100,000 in fire remediation costs, rebuilding to deliver a home worth $70,000–$90,000 on the open market is rarely the right financial decision. A cash sale delivers certainty, speed, and proceeds — without the rebuild gamble.
+            According to the Zillow Research City ZHVI CSV (Peoria city, 2026-03-31), Peoria's ZHVI is $128,838. For a South Side or East Bluff pre-1940 property with $70,000–$100,000 in fire remediation costs, rebuilding to deliver a home worth $70,000–$90,000 on the open market is rarely the right financial decision. A cash sale delivers certainty, speed, and proceeds — without the rebuild gamble.
           </p>
         </section>
 

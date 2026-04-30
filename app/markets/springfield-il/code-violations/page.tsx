@@ -183,7 +183,7 @@ export default function SpringfieldCodeViolationsPage() {
         <section className="my-8">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">Market Context - Why Springfield Code-Violation Properties Sell</h2>
           <p className="text-gray-700 mb-4">
-            According to Realtor.com (March 2026), Springfield’s hotness ranking of #10 nationally means there’s genuine investor demand for renovation properties. At a Zillow ZHVI of $163,198 and a Redfin median sale price of $187,000, the post-renovation value on a properly rehabilitated Springfield home is real - investors can make the math work even on deeply distressed properties.
+            According to Realtor.com (March 2026), Springfield’s hotness ranking of #10 nationally means there’s genuine investor demand for renovation properties. At a Zillow ZHVI of $163,198 and a Redfin median sale price of $186,000, the post-renovation value on a properly rehabilitated Springfield home is real - investors can make the math work even on deeply distressed properties.
           </p>
           <p className="text-gray-700 mb-4">
             That investor demand is what allows us to pay a fair cash price for code-violation properties. We're not buying them to leave them as-is - we're buying them to renovate and return to productive use. That's good for the seller (you get cash today), good for the neighborhood, and good for Springfield's housing stock.

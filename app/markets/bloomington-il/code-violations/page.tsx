@@ -125,7 +125,7 @@ export default function BloomingtonCodeViolationsPage() {
         <section className="my-8">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">Code Violations in Bloomington — Why They're More Common Than You Think</h2>
           <p className="text-gray-700 mb-4">
-            According to Zillow (February 2026), the Bloomington Home Value Index stands at $228,634 — but underlying that figure is a housing stock with a significant share of pre-1950 construction concentrated in the western and downtown portions of the city. West Bloomington, Sunset Hills, Downtown Bloomington, and the Alton-Oakland area contain homes built in the 1920s-1940s with electrical systems, plumbing, and structural elements that were code-compliant at the time of construction but are decades behind current standards.
+            According to the Zillow Research City ZHVI CSV (2026-03-31), the Bloomington Home Value Index stands at $261,269 — but underlying that figure is a housing stock with a significant share of pre-1950 construction concentrated in the western and downtown portions of the city. West Bloomington, Sunset Hills, Downtown Bloomington, and the Alton-Oakland area contain homes built in the 1920s-1940s with electrical systems, plumbing, and structural elements that were code-compliant at the time of construction but are decades behind current standards.
           </p>
           <p className="text-gray-700 mb-4">
             The City of Bloomington's Code Enforcement Division, operating through the Neighborhood Services Division (bloomingtonil.gov), actively enforces the International Property Maintenance Code in these neighborhoods. Common code violations in Bloomington's older housing stock:

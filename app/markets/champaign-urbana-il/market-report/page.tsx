@@ -14,7 +14,7 @@ const pageUrl = `${SITE_URL}/markets/champaign-urbana-il/market-report`;
 export const metadata: Metadata = {
   title: 'Champaign-Urbana IL Housing Market Report 2026',
   description:
-    'Champaign-Urbana IL housing market data: Metro ZHVI $226,978, Champaign city $199K, Urbana city $169K. Transfer tax clarification: 0.15% not 1.5%. Cash buyers: 888-274-5006.',
+    'Champaign-Urbana IL housing market data: Champaign city ZHVI $231,273, Urbana city $199,534, Champaign metro ZHVI $229,687. Transfer tax clarification: 0.15% not 1.5%. Cash buyers: 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
@@ -44,7 +44,7 @@ export default function ChampaignUrbanaMarketReportPage() {
           <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
             <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
             <p className="text-white text-sm leading-relaxed">
-              According to Zillow (Feb 2026), Champaign-Urbana Metro ZHVI is $226,978 (+5.0% YoY); Champaign city $199,076 (+3.3%); Urbana city $168,903 (+4.8%). Per Redfin (Feb 2026), Champaign County median sale price is $230,000 (+4.3%). Transfer tax: 0.15% combined — $300 on $200K. Note: the Champaign County Clerk's website shows "1.5%" — that is a decimal-point typo; the correct rate is 0.15% per 35 ILCS 200/31-10 + 55 ILCS 5/5-1031.
+              According to Zillow Research (2026-03-31), Champaign city ZHVI is $231,273 (+5.7% YoY), Urbana city is $199,534 (+7.2%), Champaign County is $231,346 (+6.9%), and Champaign metro is $229,687 (+6.8%). Per Redfin (Mar 2026), Champaign County median sale price is $228,000 (-3.8%). Transfer tax: 0.15% combined — $300 on $200K. Note: the Champaign County Clerk's website shows "1.5%" — that is a decimal-point typo; the correct rate is 0.15% per 35 ILCS 200/31-10 + 55 ILCS 5/5-1031.
             </p>
           </div>
         </div>
@@ -53,9 +53,9 @@ export default function ChampaignUrbanaMarketReportPage() {
       <div className="max-w-4xl mx-auto px-4 py-8">
 
         <section className="my-8">
-          <h2 className="text-2xl font-bold text-brand-dark mb-4">Champaign-Urbana Key Market Metrics (Feb 2026)</h2>
+          <h2 className="text-2xl font-bold text-brand-dark mb-4">Champaign-Urbana Key Market Metrics (March 2026 source data)</h2>
           <p className="text-gray-700 mb-4">
-            The Champaign-Urbana MSA is a single-county metropolitan area anchored by the University of Illinois Urbana-Champaign. According to Zillow (Feb 2026), the metro-level ZHVI — the broadest measure of typical home values — stands at $226,978, up 5.0% year over year. This metro figure includes suburban Savoy, newer Research Park-adjacent construction, and communities across Champaign County that collectively sit above both cities' individual averages.
+            The Champaign-Urbana MSA is a single-county metropolitan area anchored by the University of Illinois Urbana-Champaign. According to Zillow Research (2026-03-31), the Champaign metro ZHVI — the broadest measure of typical home values — stands at $229,687, up 6.8% year over year. This metro figure includes suburban Savoy, newer Research Park-adjacent construction, and communities across Champaign County that collectively sit above both cities' individual averages.
           </p>
           <div className="overflow-x-auto mb-6">
             <table className="w-full text-sm border-collapse">
@@ -68,19 +68,19 @@ export default function ChampaignUrbanaMarketReportPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200">
-                <tr className="bg-white"><td className="p-3 font-medium">Zillow ZHVI</td><td className="p-3">$199,076 (+3.3%)</td><td className="p-3">$168,903 (+4.8%)</td><td className="p-3">$226,978 (+5.0%)</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">Redfin Median Sale Price</td><td className="p-3">$243,000 (+2.9%)</td><td className="p-3">$175,000 ⚠️</td><td className="p-3">$230,000 (+4.3%)</td></tr>
-                <tr className="bg-white"><td className="p-3 font-medium">Pending Timeline</td><td className="p-3">—</td><td className="p-3">~5 days</td><td className="p-3">~8 days</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Zillow ZHVI (Research CSV, 2026-03-31)</td><td className="p-3">$231,273 (+5.7%)</td><td className="p-3">$199,534 (+7.2%)</td><td className="p-3">$229,687 (+6.8% metro) / $231,346 (+6.9% county)</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Redfin Median Sale Price (Mar 2026)</td><td className="p-3">$222,500 (-2.6%)</td><td className="p-3">$212,000 (-1.4%)</td><td className="p-3">$228,000 (-3.8% county)</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Sold DOM / sale-to-list</td><td className="p-3">58 days / 98.6%</td><td className="p-3">62 days / 98.2%</td><td className="p-3">58 days / 98.3% county</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">RDC Hotness Rank</td><td className="p-3">—</td><td className="p-3">—</td><td className="p-3">#77 nationally</td></tr>
-                <tr className="bg-white"><td className="p-3 font-medium">FRED Listing Price (Sep 2025)</td><td className="p-3">—</td><td className="p-3">—</td><td className="p-3">$272,450</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">FRED/Realtor CBSA listing support (Mar 2026)</td><td className="p-3">—</td><td className="p-3">—</td><td className="p-3">$276,675 listing price / 45.75 active-listing DOM</td></tr>
               </tbody>
             </table>
           </div>
           <p className="text-sm text-gray-600 italic mb-4">
-            ⚠️ Urbana's Redfin figure (-30.0% YoY) reflects a thin sample market with high month-to-month volatility. Per Zillow (Feb 2026), Urbana's ZHVI trend (+4.8% YoY) is the more reliable indicator of actual price direction. Do not interpret the Redfin Urbana figure as a 30% price collapse.
+            Urbana's current Redfin figure (-1.4% YoY) reflects normal thin-sample volatility, while Zillow Research shows Urbana city ZHVI up +7.2% YoY. Keep Urbana city metrics separate from Champaign city, Champaign County, and metro context.
           </p>
           <p className="text-sm text-gray-600 italic">
-            Note: ZHVI (Zillow Home Value Index) is a smoothed estimate of typical home values — it is NOT a median sale price. Redfin reports actual transaction medians. Use county-level Redfin ($230,000) as the primary transaction benchmark and metro ZHVI ($226,978) as the trend indicator. Per Redfin (Feb 2026) and Zillow (Feb 2026), these figures are from the same data vintage.
+            Note: ZHVI (Zillow Home Value Index) is a smoothed estimate of typical home values — it is NOT a median sale price. Redfin reports actual transaction medians. Use county-level Redfin ($228,000) as the primary transaction benchmark and metro ZHVI ($229,687) as the trend indicator. Redfin closed-sale metrics are March 2026; Zillow Research values use the 2026-03-31 CSV vintage.
           </p>
         </section>
 
@@ -102,7 +102,7 @@ export default function ChampaignUrbanaMarketReportPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200">
-                <tr className="bg-white"><td className="p-3 font-medium">ZHVI (Feb 2026)</td><td className="p-3">$199,076</td><td className="p-3">$168,903</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">ZHVI (Zillow Research CSV, 2026-03-31)</td><td className="p-3">$231,273</td><td className="p-3">$199,534</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Population</td><td className="p-3">89,996 (2024 ACS)</td><td className="p-3">~39,831 (2024 ACS)</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Pre-1939 Housing %</td><td className="p-3">~11.29%</td><td className="p-3">Higher (University District)</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">County Seat / Courts</td><td className="p-3">No</td><td className="p-3">Yes — 101 E. Main St.</td></tr>
@@ -145,11 +145,11 @@ export default function ChampaignUrbanaMarketReportPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200">
-                <tr className="bg-white"><td className="p-3">$168,903 (Urbana ZHVI)</td><td className="p-3">$168.90</td><td className="p-3">$84.45</td><td className="p-3">$0</td><td className="p-3 font-medium">$253.35</td></tr>
-                <tr className="bg-gray-50"><td className="p-3">$199,076 (Champaign ZHVI)</td><td className="p-3">$199.08</td><td className="p-3">$99.54</td><td className="p-3">$0</td><td className="p-3 font-medium">$298.61</td></tr>
+                <tr className="bg-white"><td className="p-3">$199,534 (Urbana ZHVI)</td><td className="p-3">$199.53</td><td className="p-3">$99.77</td><td className="p-3">$0</td><td className="p-3 font-medium">$299.30</td></tr>
+                <tr className="bg-gray-50"><td className="p-3">$231,273 (Champaign ZHVI)</td><td className="p-3">$231.27</td><td className="p-3">$115.64</td><td className="p-3">$0</td><td className="p-3 font-medium">$346.91</td></tr>
                 <tr className="bg-white"><td className="p-3">$200,000 (round example)</td><td className="p-3">$200.00</td><td className="p-3">$100.00</td><td className="p-3">$0</td><td className="p-3 font-bold">$300.00</td></tr>
-                <tr className="bg-gray-50"><td className="p-3">$230,000 (county Redfin median)</td><td className="p-3">$230.00</td><td className="p-3">$115.00</td><td className="p-3">$0</td><td className="p-3 font-medium">$345.00</td></tr>
-                <tr className="bg-white"><td className="p-3">$243,000 (Champaign Redfin median)</td><td className="p-3">$243.00</td><td className="p-3">$121.50</td><td className="p-3">$0</td><td className="p-3 font-medium">$364.50</td></tr>
+                <tr className="bg-gray-50"><td className="p-3">$228,000 (county Redfin median)</td><td className="p-3">$228.00</td><td className="p-3">$114.00</td><td className="p-3">$0</td><td className="p-3 font-medium">$342.00</td></tr>
+                <tr className="bg-white"><td className="p-3">$222,500 (Champaign city Redfin median)</td><td className="p-3">$222.50</td><td className="p-3">$111.25</td><td className="p-3">$0</td><td className="p-3 font-medium">$333.75</td></tr>
               </tbody>
             </table>
           </div>
@@ -169,8 +169,8 @@ export default function ChampaignUrbanaMarketReportPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200">
-                <tr className="bg-white"><td className="p-3 font-medium">Metro ZHVI</td><td className="p-3">$226,978</td><td className="p-3">$163,198</td><td className="p-3">$142,859</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">County Median Sale</td><td className="p-3">$230,000 (+4.3%)</td><td className="p-3">$187,000 (+23%)</td><td className="p-3">$170,000 (+17.2%)</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Metro ZHVI</td><td className="p-3">$229,687</td><td className="p-3">$163,198</td><td className="p-3">$142,859</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">County Median Sale</td><td className="p-3">$228,000 (-3.8%)</td><td className="p-3">$187,000 (+23%)</td><td className="p-3">$170,000 (+17.2%)</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">RDC Hotness Rank</td><td className="p-3">#77</td><td className="p-3">#10</td><td className="p-3">#11</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Economy Driver</td><td className="p-3">UIUC + Research Park</td><td className="p-3">State government</td><td className="p-3">Manufacturing/diversified</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Foreclosure Timeline</td><td className="p-3">12-16 months</td><td className="p-3">12-15 months</td><td className="p-3">14-20 months</td></tr>
@@ -211,7 +211,7 @@ export default function ChampaignUrbanaMarketReportPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-gray-700 text-sm mt-2">On the $230,000 county Redfin median, a 68-76% range = $156,400-$174,800. On the Champaign ZHVI of $199,076, that's $135,372-$151,298. Actual offer depends on condition, neighborhood, and liens. We cover all closing costs — zero deductions at closing.</p>
+          <p className="text-gray-700 text-sm mt-2">On the $228,000 county Redfin median, a 68-76% range = $155,040-$173,280. On the Champaign city ZHVI of $231,273, that's $157,266-$175,767. Actual offer depends on condition, neighborhood, and liens. We cover all closing costs — zero deductions at closing.</p>
         </section>
 
         <section className="my-8">
@@ -219,9 +219,9 @@ export default function ChampaignUrbanaMarketReportPage() {
             <div className="bg-brand-light rounded-xl p-4">
               <h3 className="font-semibold text-brand-dark mb-2">Data Sources</h3>
               <ul className="text-sm text-gray-700 space-y-1">
-                <li>• Zillow ZHVI — Champaign city, Urbana city, Metro (Feb 2026)</li>
-                <li>• Redfin — Champaign city, Urbana city, Champaign County (Feb 2026)</li>
-                <li>• FRED MEDLISPRI16580 (Sep 2025 listing price)</li>
+                <li>• Zillow Research ZHVI — Champaign city, Urbana city, County, Metro (2026-03-31)</li>
+                <li>• Redfin — Champaign city, Urbana city, Champaign County (Mar 2026)</li>
+                <li>• FRED MEDLISPRI16580 / MEDAONMAMSA16580, 2026-03-01 (CBSA listing price and active-listing DOM)</li>
                 <li>• Champaign-Urbana Association of REALTORS / misturat.com (2025 annual)</li>
                 <li>• ATG tax-ordinance directory (municipal transfer tax verification)</li>
                 <li>• Champaign County Clerk / Recorder (1776 E. Washington, Urbana)</li>

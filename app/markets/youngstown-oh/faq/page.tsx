@@ -29,7 +29,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How much will you pay for my Youngstown OH house?',
-    answer: "Cash offers for Youngstown city homes typically run 65-75% of after-repair value. According to Redfin, the Youngstown median sale price is $129,200 (February 2026). City-core properties receive offers in the $35,000-$90,000 range depending on neighborhood and condition; Boardman and Austintown area properties are higher. We cover all closing costs — nothing deducted from your number.",
+    answer: "Cash offers for Youngstown city homes typically run 65-75% of after-repair value. According to Redfin (Youngstown city, Mar 2026), the Youngstown median sale price is $90,000 (-3.2% YoY). City-core properties receive offers in the $35,000-$90,000 range depending on neighborhood and condition; Boardman and Austintown area properties are higher. We cover all closing costs — nothing deducted from your number.",
   },
   {
     question: 'Do I need to make repairs before selling to USA Home Buyers?',

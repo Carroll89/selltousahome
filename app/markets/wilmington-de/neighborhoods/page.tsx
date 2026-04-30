@@ -109,7 +109,7 @@ export default function WilmingtonNeighborhoodsPage() {
         </p>
         <p className="text-gray-600 mb-8 text-sm">
           Data sources: Redfin neighborhood data, Ark7 Wilmington investment guide, homes.com neighborhood
-          guides. Market data last updated: April 2026.
+          guides. Market data compiled April 2026 from March 2026 source data.
         </p>
 
         <div className="space-y-8 mb-12">

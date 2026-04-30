@@ -126,7 +126,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How much will you pay for my Rockford IL house?',
-    answer: 'Cash offers for Rockford homes typically run 70-78% of fair market value, depending on condition, location, and any liens. Zillow\'s Home Value Index for Rockford is $142,859 (+4.8% YoY, February 2026). Redfin puts the March 2026 median sale price at $170,000 (+17.2% YoY). A typical cash offer on a Churchill Grove craftsman or Signal Hill ranch runs $99,000-$111,000 on a home at ZHVI. We cover all closing costs including Illinois state transfer tax and Winnebago County transfer tax — total $0.75/$500 combined (no municipal RETT in Rockford).',
+    answer: 'Cash offers for Rockford homes typically run 70-78% of fair market value, depending on condition, location, and any liens. Zillow\'s Home Value Index for Rockford is $177,225 (+9.9% YoY, Zillow Research City ZHVI CSV, 2026-03-31). Redfin puts the March 2026 median sale price at $170,000 (+17.2% YoY). A typical cash offer on a Churchill Grove craftsman or Signal Hill ranch runs $99,000-$111,000 on a home at ZHVI. We cover all closing costs including Illinois state transfer tax and Winnebago County transfer tax — total $0.75/$500 combined (no municipal RETT in Rockford).',
   },
   {
     question: 'What is the transfer tax when selling a house in Rockford IL?',
@@ -197,7 +197,7 @@ export default function RockfordILMarketPage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                USA Home Buyers purchases houses in Rockford IL and throughout Winnebago County — Midtown bungalows, Churchill Grove craftsmans, Signal Hill ranches, Haight Historic District Victorians, estate sales, foreclosures, divorce situations. Written cash offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no agent fees. Rockford Zillow ZHVI $142,859 (+4.8% YoY, Feb 2026); Redfin median sale price $170,000 (+17.2% YoY). We cover all closing costs — IL state transfer tax ($0.50/$500) plus Winnebago County ($0.25/$500), no municipal RETT. Call 888-274-5006.
+                USA Home Buyers purchases houses in Rockford IL and throughout Winnebago County — Midtown bungalows, Churchill Grove craftsmans, Signal Hill ranches, Haight Historic District Victorians, estate sales, foreclosures, divorce situations. Written cash offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no agent fees. Rockford Zillow Research city ZHVI $177,225 (+9.9% YoY, 2026-03-31); Redfin median sale price $170,000 (+17.2% YoY). We cover all closing costs — IL state transfer tax ($0.50/$500) plus Winnebago County ($0.25/$500), no municipal RETT. Call 888-274-5006.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
@@ -254,7 +254,7 @@ export default function RockfordILMarketPage() {
             Rockford built its economy on precision manufacturing — the city was once known as the screw capital of the world, with Illinois Tool Works and dozens of fastener, furniture, and machine-tool companies employing generations of working-class families. That industrial heritage created a distinctive housing stock: pre-war Craftsman bungalows in Churchill Grove and Midtown, working-class two-flats along West State Street, modest post-war ranches in Signal Hill and Jackson Oaks, and Victorian-era homes in the Haight Village Historic District dating back to the 1840s. The majority of Rockford's residential stock was built before 1970.
           </p>
           <p className="text-gray-700 mb-4">
-            That housing stock is what drives the cash-buyer market here. Pre-1970 construction frequently carries original knob-and-tube wiring, galvanized plumbing, and foundation issues from Rock River alluvial soil settling — all red flags for FHA and conventional lenders. The Redfin compete score of 89/100 tells you that retail-ready homes move fast (median 14 days on market for sold homes), but the operative phrase is "retail-ready." Many Rockford homes aren't, and those require a cash buyer who doesn't need financing contingencies.
+            That housing stock is what drives the cash-buyer market here. Pre-1970 construction frequently carries original knob-and-tube wiring, galvanized plumbing, and foundation issues from Rock River alluvial soil settling — all red flags for FHA and conventional lenders. The Redfin compete score of 90/100 tells you that retail-ready homes move fast (median 14 days on market for sold homes), but the operative phrase is "retail-ready." Many Rockford homes aren't, and those require a cash buyer who doesn't need financing contingencies.
           </p>
           <p className="text-gray-700 mb-4">
             The manufacturing closure cycle also creates a steady distressed-seller pipeline that's distinct from Springfield's government-worker dynamics. When a supplier to the former Chrysler FCA plant in adjacent Belvidere closes, or a factory worker on a fixed union pension faces a major repair bill on a 1940s bungalow they inherited from their parents, the decision to sell for cash rather than fund a renovation they can't afford is straightforward. USA Home Buyers serves exactly this seller profile.
@@ -269,20 +269,20 @@ export default function RockfordILMarketPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200">
-                <tr className="bg-white"><td className="p-3 font-medium">Zillow Home Value Index (ZHVI)</td><td className="p-3">$142,859 (+4.8% YoY)</td><td className="p-3 text-gray-500">Zillow (Feb 2026)</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Zillow Home Value Index (ZHVI)</td><td className="p-3">$177,225 (+9.9% YoY)</td><td className="p-3 text-gray-500">Zillow Research City CSV, 2026-03-31</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Redfin Median Sale Price</td><td className="p-3">$170,000 (+17.2% YoY)</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Price per Square Foot</td><td className="p-3">$109 (+10.1% YoY)</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Median Days on Market (sold)</td><td className="p-3">14 days</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">RDC Active Listing DOM</td><td className="p-3">34.5 days (Rank #11 nationally)</td><td className="p-3 text-gray-500">Realtor.com (Mar 2026)</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">Redfin Compete Score</td><td className="p-3">89/100 — Very Competitive</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
-                <tr className="bg-white"><td className="p-3 font-medium">Sale-to-List Ratio</td><td className="p-3">100.2% (+2.6 pt YoY)</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Redfin Compete Score</td><td className="p-3">90/100 — Very Competitive</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Sale-to-List Ratio</td><td className="p-3">100.3% (+2.6 pt YoY)</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">IL Transfer Tax (state + county)</td><td className="p-3">$0.75 per $500 (0.15%) — seller pays; no municipal RETT</td><td className="p-3 text-gray-500">35 ILCS 200/31-10; 55 ILCS 5/5-1031</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Foreclosure type</td><td className="p-3">Judicial — 735 ILCS 5/15-1101 (14-20 mos typical)</td><td className="p-3 text-gray-500">Illinois Mortgage Foreclosure Law</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Probate court</td><td className="p-3">Winnebago Co. Circuit Court, 400 W State St, 815-319-4500</td><td className="p-3 text-gray-500">17th Judicial Circuit</td></tr>
               </tbody>
             </table>
           </div>
-          <p className="text-sm text-gray-600 italic">What this means for Rockford sellers: the market is genuinely competitive — 14-day median DOM means the right retail listing moves fast. But older Rockford housing stock frequently doesn't qualify for FHA or conventional financing, which narrows the retail buyer pool significantly. A 5-6% agent commission on a $170,000 median home runs $8,500-$10,200 before closing costs and repair requests. On a $142,859 ZHVI home, every dollar saved on commissions and repairs is a meaningful portion of the sale price.</p>
+          <p className="text-sm text-gray-600 italic">What this means for Rockford sellers: the market is genuinely competitive — 14-day median DOM means the right retail listing moves fast. But older Rockford housing stock frequently doesn't qualify for FHA or conventional financing, which narrows the retail buyer pool significantly. A 5-6% agent commission on a $170,000 median home runs $8,500-$10,200 before closing costs and repair requests. On a $177,225 ZHVI home, every dollar saved on commissions and repairs is a meaningful portion of the sale price.</p>
         </section>
 
         <SituationLinks
@@ -305,7 +305,7 @@ export default function RockfordILMarketPage() {
           </h2>
           <ComparisonTable rows={COMPARISON_ROWS} />
           <p className="mt-4 text-sm text-gray-600">
-            On a $170,000 Rockford home, a 5-6% agent commission runs $8,500-$10,200. Add Illinois's combined transfer tax (~$255), carrying costs during 14+ days on market, and repair requests on pre-1970 Rust Belt housing stock. Churchill Grove craftsmen and Midtown bungalows frequently have deferred-maintenance issues — original wiring, galvanized plumbing, Rock River alluvial soil foundation settling — that conventional lenders flag and require remediation. A cash offer eliminates the inspection contingency and repair negotiation entirely. At $142,859 ZHVI average, every dollar of commission and repair cost is significant relative to the sale price.
+            On a $170,000 Rockford home, a 5-6% agent commission runs $8,500-$10,200. Add Illinois's combined transfer tax (~$255), carrying costs during 14+ days on market, and repair requests on pre-1970 Rust Belt housing stock. Churchill Grove craftsmen and Midtown bungalows frequently have deferred-maintenance issues — original wiring, galvanized plumbing, Rock River alluvial soil foundation settling — that conventional lenders flag and require remediation. A cash offer eliminates the inspection contingency and repair negotiation entirely. At $177,225 ZHVI average, every dollar of commission and repair cost is significant relative to the sale price.
           </p>
         </section>
 

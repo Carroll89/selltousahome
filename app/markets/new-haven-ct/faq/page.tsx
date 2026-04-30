@@ -26,7 +26,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How much do cash home buyers pay for houses in New Haven CT?',
-    answer: "Cash offers for New Haven homes typically range from 65–80% of fair market value. Zillow's typical home value for New Haven is $323,843 (Feb 2026); Redfin's median sale price is $365,000 (Mar 2026). A typical cash offer on a Fair Haven triple-decker or Hill neighborhood property runs $208,000–$259,000. We cover all closing costs including Connecticut's conveyance tax of 1.25% for New Haven (state 0.75% + municipal 0.50% Targeted Investment rate). On a $365,000 home that's $4,563 in taxes we absorb.",
+    answer: "Cash offers for New Haven homes typically range from 65–80% of fair market value. Zillow Research City ZHVI for New Haven is $326,440 (+5.7% YoY, 2026-03-31); Redfin's median sale price is $365,000 (Mar 2026). A typical cash offer on a Fair Haven triple-decker or Hill neighborhood property runs $228,000–$261,000. We cover all closing costs including Connecticut's conveyance tax of 1.25% for New Haven (state 0.75% + municipal 0.50% Targeted Investment rate). On a $365,000 home that's $4,563 in taxes we absorb.",
   },
   {
     question: 'What is Connecticut strict foreclosure and how does it affect New Haven sellers?',

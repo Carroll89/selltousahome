@@ -20,11 +20,11 @@ export const metadata: Metadata = {
 const FAQ_ITEMS = [
   {
     question: "Is Wilmington DE a buyer's or seller's market in 2026?",
-    answer: "Wilmington DE is a somewhat competitive market. According to Redfin (March 2026), Wilmington has a Compete Score of 59/100. Homes are selling at 98.7% of list price with a median of 61 days on market. That 61-day DOM is significantly longer than most PA markets — reflecting a buyer pool that negotiates carefully on aging urban housing stock.",
+    answer: "Wilmington DE is a somewhat competitive market. According to Redfin (March 2026), Wilmington has a Compete Score of 57/100. Homes are selling at 98.3% of list price with a median of 61 days on market. That 61-day DOM is significantly longer than most PA markets — reflecting a buyer pool that negotiates carefully on aging urban housing stock.",
   },
   {
     question: 'What is the average home price in Wilmington DE?',
-    answer: "Wilmington's median sale price is $251,200 (Redfin, March 2026), up 12.1% year-over-year. The Zillow ZHVI for the broader area is $326,763 (+3.0% YoY). The price discrepancy reflects Redfin's city-limits transaction data versus Zillow's broader geographic index that includes surrounding suburbs at higher price points.",
+    answer: "Wilmington's median sale price is $251,200 (Redfin, March 2026), up 12.1% year-over-year. The Zillow Research City ZHVI for Wilmington is $325,758 (+2.5% YoY, 2026-03-31). The price discrepancy reflects Redfin closed-sale medians versus Zillow's stock-based city value index, not a county/suburban blend.",
   },
   {
     question: 'What neighborhoods in Wilmington are most affordable?',
@@ -32,7 +32,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'What is the real estate transfer tax in Wilmington DE?',
-    answer: "Wilmington DE has a 4% total transfer tax — 2.5% Delaware state tax plus 1.5% City of Wilmington local tax. By convention, buyer and seller split it 50/50, each paying 2%. On a $210,000 home, the total is $8,400. This is the highest transfer tax rate in Delaware (New Castle County overall = 4%; Kent County = 3%; Sussex County = 3.5%). Source: Delaware Division of Revenue (financefiles.delaware.gov); newcastlede.gov/138.",
+    answer: "Wilmington DE has a 4% total transfer tax — 2.5% Delaware state tax plus 1.5% City of Wilmington local tax. By convention, buyer and seller split it 50/50, each paying 2%. On a $251,200 home, the total is $10,048. This is the highest transfer tax rate in Delaware (New Castle County overall = 4%; Kent County = 3%; Sussex County = 3.5%). Source: Delaware Division of Revenue (financefiles.delaware.gov); newcastlede.gov/138.",
   },
 ];
 
@@ -50,7 +50,7 @@ export default function WilmingtonMarketReportPage() {
         {/* TL;DR — GEO/AEO Quick Answer */}
         <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-10">
           <h2 className="text-lg font-bold text-brand-dark mb-2">Quick Answer: Wilmington DE Housing Market 2026</h2>
-          <p className="text-gray-700 text-sm leading-relaxed">According to Redfin (March 2026), Wilmington's median home sale price is $251,200 (+12.1% year-over-year), with a median 61 days on market and a Redfin Compete Score of 59/100 ('Somewhat Competitive'). The Zillow Home Value Index shows $326,763 (+3.0% year-over-year) — the gap between Redfin's sale price and Zillow's ZHVI reflects Wilmington's mix of city-limit and suburban New Castle County properties. Delaware's total transfer tax is 4% (2.5% state + 1.5% city of Wilmington). Cash buyers cover all closing costs and close in 7–14 days as-is.</p>
+          <p className="text-gray-700 text-sm leading-relaxed">According to Redfin (March 2026), Wilmington's median home sale price is $251,200 (+12.1% year-over-year), with a median 61 sold days on market and a Redfin Compete Score of 57/100 ('Somewhat Competitive'). The Zillow Research City ZHVI shows $325,758 (+2.5% year-over-year, 2026-03-31) — the gap reflects Redfin closed-sale medians versus Zillow's stock-based Wilmington city value index. Delaware's total transfer tax is 4% (2.5% state + 1.5% city of Wilmington). Cash buyers cover all closing costs and close in 7–14 days as-is.</p>
         </div>
 
         <nav className="text-sm text-gray-500 mb-6">
@@ -62,7 +62,7 @@ export default function WilmingtonMarketReportPage() {
         <h1 className="text-3xl md:text-4xl font-bold text-brand-dark mb-4">
           Wilmington DE Housing Market Report — 2026
         </h1>
-        <p className="text-gray-600 text-sm mb-8">Market data last updated: April 2026</p>
+        <p className="text-gray-600 text-sm mb-8">Market data compiled April 2026 from March 2026 source data</p>
 
         <section className="mb-10">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">Key Market Stats</h2>
@@ -72,16 +72,16 @@ export default function WilmingtonMarketReportPage() {
                 {[
                   ['Median sale price — Wilmington City', '$251,200', 'Redfin, Mar 2026'],
                   ['YoY change — sale price', '+12.1%', 'Redfin, Mar 2026'],
-                  ['Median home value (Zillow ZHVI)', '$326,763', 'Zillow, Feb 2026'],
-                  ['YoY change — ZHVI', '+3.0%', 'Zillow, Feb 2026'],
+                  ['Median home value (Zillow Research City ZHVI)', '$325,758 (+2.5% YoY)', 'Zillow Research City CSV, 2026-03-31'],
+                  ['YoY change — city ZHVI', '+2.5%', 'Zillow Research City CSV, 2026-03-31'],
                   ['Price per square foot', '$169/sqft', 'Redfin, Mar 2026'],
                   ['YoY change — price/sqft', '+5.6%', 'Redfin, Mar 2026'],
                   ['Median days on market', '61 days', 'Redfin, Mar 2026'],
-                  ['Sale-to-list ratio', '98.7%', 'Redfin, Mar 2026'],
-                  ['Redfin Compete Score', '59/100 — Somewhat Competitive', 'Redfin, Mar 2026'],
-                  ['Homes sold monthly', '53', 'Redfin, Feb 2026'],
+                  ['Sale-to-list ratio', '98.3%', 'Redfin Wilmington city, Mar 2026'],
+                  ['Redfin Compete Score', '57/100 — Somewhat Competitive', 'Redfin, Mar 2026'],
+                  ['Homes sold monthly', '64', 'Redfin Wilmington city, Mar 2026'],
                   ['Transfer tax — Wilmington', '4.0% total', 'DE Division of Revenue'],
-                  ['Cash offer range', '65-75% of ARV', 'Market estimate, April 2026'],
+                  ['Cash offer range', '65-75% of ARV', 'Market estimate, compiled Apr 2026'],
                 ].map(([metric, value, source], i) => (
                   <tr key={i} className={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
                     <td className="py-3 px-4 font-medium text-brand-dark border border-gray-100">{metric}</td>

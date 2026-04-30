@@ -99,7 +99,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How much will you pay for my Youngstown OH house?',
-    answer: "Cash offers for Youngstown homes typically run 65-75% of after-repair value. According to Redfin, the Youngstown median sale price is $129,200 (February 2026). The Zillow ZHVI for the city sits at $51,815 — reflecting the large stock of vacant and distressed properties. Most city-core homes receive offers in the $35,000-$90,000 range depending on neighborhood and condition; Boardman and Austintown properties are higher. We cover all closing costs — nothing deducted from your number.",
+    answer: "Cash offers for Youngstown homes typically run 65-75% of after-repair value. According to Redfin (Youngstown city, Mar 2026), the Youngstown median sale price is $90,000 (-3.2% YoY). The Zillow Research City ZHVI is $70,004 (2026-03-31) — reflecting the large stock of vacant and distressed properties. Most city-core homes receive offers in the $35,000-$90,000 range depending on neighborhood and condition; Boardman and Austintown properties are higher. We cover all closing costs — nothing deducted from your number.",
   },
   {
     question: 'Do I need to make repairs before selling?',
@@ -217,8 +217,8 @@ export default function YoungstownMarketPage() {
           </p>
           <p className="text-gray-700 mb-4">
             What that history leaves behind is a housing market defined by extraordinary affordability and
-            extraordinary complexity. The median sale price of $129,200 (Redfin, February 2026) reflects
-            genuine transactions — but the Zillow ZHVI of $51,815 for the city captures what most of the
+            extraordinary complexity. The median sale price of $90,000 (Redfin Youngstown city, Mar 2026) reflects
+            genuine transactions — but the Zillow Research city ZHVI of $70,004 (2026-03-31) captures what most of the
             housing stock is actually worth across all parcels, including the vast pool of distressed and
             vacant properties. Many homes don't qualify for conventional mortgage financing at all — which
             makes cash buyers not just an option, but often the only realistic one.
@@ -232,8 +232,8 @@ export default function YoungstownMarketPage() {
           </p>
           <div className="grid md:grid-cols-3 gap-4 mb-4">
             {[
-              { label: 'Median sale price', value: '$129,200', note: 'Redfin, February 2026' },
-              { label: 'Median days on market', value: '70 days', note: 'Redfin, February 2026' },
+              { label: 'Median sale price', value: '$90,000', note: 'Redfin Youngstown city, Mar 2026' },
+              { label: 'Median sold DOM', value: '31 days', note: 'Redfin Youngstown city, Mar 2026' },
               { label: 'Ohio conveyance fee', value: '$4/1,000', note: 'Seller pays — Mahoning County Auditor' },
             ].map((item, i) => (
               <div key={i} className="bg-white border border-blue-100 rounded-xl p-4 text-center">
@@ -262,17 +262,17 @@ export default function YoungstownMarketPage() {
             <table className="w-full text-sm">
               <tbody>
                 {[
-                  ['Median sale price — Youngstown (Redfin, Feb 2026)', '$129,200'],
-                  ['YoY change — sale price (Redfin)', '+57.6% (small sample, 30 sales)'],
-                  ['Median home value (Zillow ZHVI, city, 2025)', '$51,815'],
-                  ['YoY change — city ZHVI (Zillow)', '-2.2%'],
-                  ['Median home value (Zillow ZHVI, Mahoning County, 2025)', '$149,008'],
-                  ['YoY change — county ZHVI (Zillow)', '+4.5%'],
-                  ['Price per square foot (Redfin, Feb 2026)', '$73/sqft'],
-                  ['Median days on market (Redfin, Feb 2026)', '70 days'],
-                  ['Sale-to-list ratio (Redfin, Feb 2026)', '97.0% (+2.7 pts YoY)'],
-                  ['Redfin Compete Score', '69/100 — Somewhat Competitive'],
-                  ['Homes sold monthly (Feb 2026)', '30 homes'],
+                  ['Median sale price — Youngstown city (Redfin, Mar 2026)', '$90,000'],
+                  ['YoY change — sale price (Redfin)', '-3.2%'],
+                  ['Median home value (Zillow Research City ZHVI, 2026-03-31)', '$70,004'],
+                  ['YoY change — city ZHVI (Zillow Research CSV)', '+6.3%'],
+                  ['Median home value (Zillow Research Mahoning County context, 2026-03-31)', '$170,915'],
+                  ['Youngstown metro ZHVI context (Zillow Research, 2026-03-31)', '$168,082 (+5.7%)'],
+                  ['Price per square foot (Redfin Youngstown city, Mar 2026)', '$68/sqft (-19.9% YoY)'],
+                  ['Median sold DOM (Redfin Youngstown city, Mar 2026)', '31 days'],
+                  ['Sale-to-list ratio (Redfin Youngstown city, Mar 2026)', '94.6%'],
+                  ['Redfin Compete Score', '68/100 — Somewhat Competitive'],
+                  ['Homes sold monthly (Redfin Youngstown city, Mar 2026)', '44 homes'],
                   ['Cash offer range (Youngstown city)', '65-75% of after-repair value (ARV)'],
                   ['Ohio conveyance fee — Mahoning County', '$4.00/1,000 (state $1 + county $3) + $0.50/parcel'],
                   ['Who pays conveyance fee', 'Seller pays — standard throughout Ohio'],
@@ -291,12 +291,9 @@ export default function YoungstownMarketPage() {
               </tbody>
             </table>
           </div>
-          <p className="mt-4 text-xs text-gray-400">Market data last updated: April 2026</p>
+          <p className="mt-4 text-xs text-gray-400">Market data compiled April 2026 from March 2026 source data</p>
           <p className="mt-2 text-sm text-gray-600">
-            The 57.6% YoY price jump reflects statistical volatility on a small sample of 30 transactions —
-            not a genuine market surge. For context, neighboring Boardman and Austintown transact at
-            $140,000-$160,000 median, which is closer to the true regional baseline. City-core
-            Youngstown properties in working condition typically sell in the $70,000-$120,000 range.
+            The March 2026 Redfin city median is $90,000 on 44 closed sales, while Zillow Research separates the much lower Youngstown city ZHVI ($70,004) from Mahoning County ($170,915) and metro ($168,082) context. City-core Youngstown properties in working condition typically sell below the surrounding county baseline.
           </p>
           <p className="mt-2 text-sm">
             <Link href="/markets/youngstown-oh/market-report" className="text-brand-primary hover:underline">

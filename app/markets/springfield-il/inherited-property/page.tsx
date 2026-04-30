@@ -216,7 +216,7 @@ export default function SpringfieldInheritedPropertyPage() {
                 <tr className="bg-white"><td className="p-3">$92,550 (Harvard Park median)</td><td className="p-3">$92.55</td><td className="p-3">$46.28</td><td className="p-3 font-medium">$138.83</td></tr>
                 <tr className="bg-gray-50"><td className="p-3">$118,495 (Enos Park median)</td><td className="p-3">$118.50</td><td className="p-3">$59.25</td><td className="p-3 font-medium">$177.74</td></tr>
                 <tr className="bg-white"><td className="p-3">$163,198 (ZHVI avg)</td><td className="p-3">$163.20</td><td className="p-3">$81.60</td><td className="p-3 font-medium">$244.80</td></tr>
-                <tr className="bg-gray-50"><td className="p-3">$187,000 (Redfin median)</td><td className="p-3">$187.00</td><td className="p-3">$93.50</td><td className="p-3 font-medium">$280.50</td></tr>
+                <tr className="bg-gray-50"><td className="p-3">$186,000 (Redfin median)</td><td className="p-3">$186.00</td><td className="p-3">$93.00</td><td className="p-3 font-medium">$279.00</td></tr>
               </tbody>
             </table>
           </div>

@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 const FAQ_ITEMS = [
   {
     question: 'How do I sell my house fast in Bloomington IL without making repairs?',
-    answer: "USA Home Buyers purchases Bloomington homes as-is — no repairs, no cleanout, no staging. We evaluate the property based on its current condition and location. Common situations we handle: Founders' Grove Victorians with deferred maintenance, West Bloomington pre-1950s homes with structural or mechanical issues, ISU-area rental properties with tenant wear, and North Bloomington homes facing estate or relocation pressure. We send a written cash offer within 24 hours of your inquiry. According to Zillow (February 2026), typical Bloomington homes go pending in just 4 days in the retail market — our cash process is faster than that. Call (888) 274-5006.",
+    answer: "USA Home Buyers purchases Bloomington homes as-is — no repairs, no cleanout, no staging. We evaluate the property based on its current condition and location. Common situations we handle: Founders' Grove Victorians with deferred maintenance, West Bloomington pre-1950s homes with structural or mechanical issues, ISU-area rental properties with tenant wear, and North Bloomington homes facing estate or relocation pressure. We send a written cash offer within 24 hours of your inquiry. Per Redfin (Bloomington city, Mar 2026), Bloomington shows 50 sold days on market; our cash process can still close faster for as-is sellers. Call (888) 274-5006.",
   },
   {
     question: 'How long does probate take at McLean County Circuit Court in Bloomington?',
@@ -30,7 +30,7 @@ const FAQ_ITEMS = [
   },
   {
     question: "What makes Bloomington's housing market different from Chicago's?",
-    answer: "Almost everything. Bloomington is 135 miles south of Chicago and operates as a completely independent housing market. The Bloomington-Normal MSA (CBSA 14010) is anchored by State Farm Insurance world headquarters, Country Financial headquarters, Illinois State University, and Illinois Wesleyan University — not Chicago's finance, tech, or commodity-trading sectors. Per Zillow (February 2026), the Bloomington ZHVI is $228,634, while greater Chicago metro values often run $300,000-$500,000+. Foreclosure timelines are 12-16 months in McLean County vs. 24-36 months in Cook County. Transfer taxes are $0.75/$500 combined (no Bloomington municipal RETT) vs. Chicago's $5.50/$500 combined stack. Don't apply Chicago assumptions to a Bloomington sale.",
+    answer: "Almost everything. Bloomington is 135 miles south of Chicago and operates as a completely independent housing market. The Bloomington-Normal MSA (CBSA 14010) is anchored by State Farm Insurance world headquarters, Country Financial headquarters, Illinois State University, and Illinois Wesleyan University — not Chicago's finance, tech, or commodity-trading sectors. Per Zillow Research City ZHVI CSV (2026-03-31), the Bloomington ZHVI is $261,269, while greater Chicago metro values often run $300,000-$500,000+. Foreclosure timelines are 12-16 months in McLean County vs. 24-36 months in Cook County. Transfer taxes are $0.75/$500 combined (no Bloomington municipal RETT) vs. Chicago's $5.50/$500 combined stack. Don't apply Chicago assumptions to a Bloomington sale.",
   },
   {
     question: 'How does the ISU rental market affect Bloomington home values?',
@@ -42,7 +42,7 @@ const FAQ_ITEMS = [
   },
   {
     question: "What is McLean County's property tax rate and how does it affect motivated sellers?",
-    answer: "According to Ownwell (April 2026), McLean County's median effective property tax rate is 2.62% of assessed value — significantly above the national median of approximately 1.02%. On a $228,634 ZHVI home, that's approximately $5,990 per year in property taxes. For fixed-income homeowners — particularly State Farm retirees and older residents — a $5,000-$6,000 annual property tax burden on a fully paid-off home creates real financial pressure. This is one driver of the motivated-seller pipeline in North Bloomington and Founders' Grove, where long-tenured homeowners with high-equity, low-mortgage situations face a property tax burden their retirement income can't comfortably absorb. A cash sale eliminates the ongoing tax exposure.",
+    answer: "According to Ownwell (April 2026), McLean County's median effective property tax rate is 2.62% of assessed value — significantly above the national median of approximately 1.02%. On a $261,269 Zillow Research city ZHVI home, that's approximately $5,990 per year in property taxes. For fixed-income homeowners — particularly State Farm retirees and older residents — a $5,000-$6,000 annual property tax burden on a fully paid-off home creates real financial pressure. This is one driver of the motivated-seller pipeline in North Bloomington and Founders' Grove, where long-tenured homeowners with high-equity, low-mortgage situations face a property tax burden their retirement income can't comfortably absorb. A cash sale eliminates the ongoing tax exposure.",
   },
 ];
 

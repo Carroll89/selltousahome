@@ -34,7 +34,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'What is Peoria\'s housing market like in 2026?',
-    answer: 'According to Zillow (February 2026), Peoria\'s Home Value Index (ZHVI) is $115,649 (+3.7% YoY) — the lowest of any major Illinois metro and less than half the state median. Per Redfin (January 2026), the city median sale price is $139,000 (+8.2% YoY). The Peoria MSA has a Realtor.com hotness rank of #29 nationally. Per biggestuscities.com, 24.3% of Peoria homes were built before 1940 — creating high cash-buyer activity for distressed and pre-war properties. Entry-level homes in South Peoria and East Bluff are the most active segment for cash buyers.',
+    answer: 'According to Zillow Research City CSV (2026-03-31), Peoria\'s Home Value Index (ZHVI) is $128,838 (+7.4% YoY) — the lowest of any major Illinois metro and less than half the state median. Per Redfin (Peoria city, Mar 2026), the city median sale price is $145,900 (+8.2% YoY). The Peoria MSA has a Realtor.com hotness rank of #29 nationally. Per biggestuscities.com, 24.3% of Peoria homes were built before 1940 — creating high cash-buyer activity for distressed and pre-war properties. Entry-level homes in South Peoria and East Bluff are the most active segment for cash buyers.',
   },
   {
     question: 'Do I need to probate a Peoria IL house before selling it?',

@@ -154,7 +154,7 @@ export default function SpringfieldDivorceSalePage() {
               </thead>
               <tbody className="divide-y divide-gray-200">
                 <tr className="bg-white"><td className="p-3 font-medium">Time to close</td><td className="p-3">7-14 days from accepted offer</td><td className="p-3">45-90+ days</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">Agent commission</td><td className="p-3">$0</td><td className="p-3">5-6% (~$9,350-$11,220 on median)</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Agent commission</td><td className="p-3">$0</td><td className="p-3">5-6% (~$9,300-$11,160 on median)</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Repairs required</td><td className="p-3">None</td><td className="p-3">Often $5K-$20K+ requested</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Price certainty</td><td className="p-3">Firm written contract price</td><td className="p-3">Variable - offer, counter-offer, inspection reduction</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Points of spouse disagreement</td><td className="p-3">One: accept/reject the offer</td><td className="p-3">Many: list price, showing schedule, offers, repair terms</td></tr>
@@ -189,14 +189,14 @@ export default function SpringfieldDivorceSalePage() {
             Illinois state transfer tax: $0.50 per $500 (35 ILCS 200/31-10). Sangamon County transfer tax: $0.25 per $500 (35 ILCS 200/31-55). Combined: $0.75 per $500 ($1.50/$1,000), seller pays. No Springfield municipal transfer tax. Recording fee: $64 per standard document at the Sangamon County Recorder's office.
           </p>
           <p className="text-gray-700 mb-4">
-            When you sell to USA Home Buyers, we cover all closing costs including transfer taxes and recording fees. The agreed purchase price is what both spouses receive - no deductions at closing. At the Redfin March 2026 median of $187,000, on a 50/50 split, each spouse receives roughly $93,500 before the mortgage payoff. If the outstanding mortgage is $120,000, the net equity of $67,000 splits to roughly $33,500 each - clean, definite, done.
+            When you sell to USA Home Buyers, we cover all closing costs including transfer taxes and recording fees. The agreed purchase price is what both spouses receive - no deductions at closing. At the Redfin March 2026 median of $186,000, on a 50/50 split, each spouse receives $93,000 before the mortgage payoff. If the outstanding mortgage is $120,000, the net equity of $67,000 splits to roughly $33,500 each - clean, definite, done.
           </p>
         </section>
 
         <section className="my-8">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">Springfield Market Context - Equity in a Hot Market</h2>
           <p className="text-gray-700 mb-4">
-            Springfield's housing market appreciation makes the divorce home sale conversation more consequential than it was a few years ago. Per Redfin (March 2026), the median sale price of $187,000 — up 23% year over year — means that many Springfield couples who bought before 2022 are sitting on substantially more equity than when they purchased. On a home bought in 2018 or 2019 at $130,000 with a remaining balance of $100,000, current market value around $163,000-$187,000 creates $63,000-$87,000 in equity to divide.
+            Springfield's housing market appreciation makes the divorce home sale conversation more consequential than it was a few years ago. Per Redfin (March 2026), the median sale price of $186,000 — up 22.4% year over year — means that many Springfield couples who bought before 2022 are sitting on substantially more equity than when they purchased. On a home bought in 2018 or 2019 at $130,000 with a remaining balance of $100,000, current market value around $163,000-$186,000 creates $63,000-$86,000 in equity to divide.
           </p>
           <p className="text-gray-700 mb-4">
             That equity is meaningful for both parties - it represents a financial foundation for the next chapter. The faster and more cleanly the home sells, the sooner both spouses can access their share and move on. A cash sale closes that chapter in 7-14 days from accepted offer. A contested retail listing can drag on for months while both parties continue paying a mortgage on a home neither is living in.

@@ -123,7 +123,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How much will you pay for my Champaign-Urbana house?',
-    answer: 'According to Zillow (Feb 2026), the Champaign-Urbana Metro ZHVI is $226,978 (+5.0% YoY); Champaign city ZHVI is $199,076 (+3.3%); Urbana city ZHVI is $168,903 (+4.8%). Per Redfin (Feb 2026), the Champaign County median sale price is $230,000 (+4.3% YoY). Cash offers typically run 68-76% of fair market value depending on condition, location, and liens. We cover all closing costs — Illinois state transfer tax ($0.50/$500) plus Champaign County transfer tax ($0.25/$500), no municipal RETT in either city.',
+    answer: 'According to Zillow Research (2026-03-31), Champaign metro ZHVI is $229,687 (+6.8% YoY), Champaign city ZHVI is $231,273 (+5.7%), Urbana city ZHVI is $199,534 (+7.2%), and Champaign County ZHVI is $231,346 (+6.9%). Per Redfin (Mar 2026), the Champaign County median sale price is $228,000 (-3.8% YoY). Cash offers typically run 68-76% of fair market value depending on condition, location, and liens. We cover all closing costs — Illinois state transfer tax ($0.50/$500) plus Champaign County transfer tax ($0.25/$500), no municipal RETT in either city.',
   },
   {
     question: 'What is the real estate transfer tax when selling in Champaign-Urbana?',
@@ -198,7 +198,7 @@ export default function ChampaignUrbanaILMarketPage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                USA Home Buyers purchases houses in Champaign and Urbana IL — UIUC faculty relocations, tired student-rental landlords, inherited estates, foreclosure situations, divorce sales. Written cash offer in 24 hours, close in 7-14 days. According to Zillow (Feb 2026), Champaign-Urbana Metro ZHVI is $226,978 (+5.0% YoY); Champaign city $199,076; Urbana city $168,903. Per Redfin (Feb 2026), Champaign County median sale price is $230,000 (+4.3%). Transfer tax: $300 on $200K (0.15% combined state + county — no municipal RETT). We cover all closing costs. Call (888) 274-5006.
+                USA Home Buyers purchases houses in Champaign and Urbana IL — UIUC faculty relocations, tired student-rental landlords, inherited estates, foreclosure situations, divorce sales. Written cash offer in 24 hours, close in 7-14 days. According to Zillow Research (2026-03-31), Champaign metro ZHVI is $229,687 (+6.8% YoY), Champaign city $231,273 (+5.7%), and Urbana city $199,534 (+7.2%). Per Redfin (Mar 2026), Champaign County median sale price is $228,000 (-3.8%). Transfer tax: $300 on $200K (0.15% combined state + county — no municipal RETT). We cover all closing costs. Call (888) 274-5006.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
@@ -248,7 +248,7 @@ export default function ChampaignUrbanaILMarketPage() {
             This creates a housing market with two distinct buyer-seller profiles that don't exist anywhere else in Illinois. On one end: UIUC faculty selling tenure-era homes to move to new academic positions, Research Park tech workers whose funding ended, and grad-student couples who finished their PhDs and need to move fast. On the other end: tired landlords exiting student-rental portfolios in Campustown and Old West Urbana, Urbana working-class homeowners facing distress in South Urbana and Dodds Park, and out-of-state heirs managing UIUC faculty estates from across the country.
           </p>
           <p className="text-gray-700 mb-4">
-            The dual-city geography matters for sellers to understand. Champaign and Urbana are separate incorporated cities sharing the UIUC campus and a unified housing market. Per Redfin (Feb 2026), Champaign city median sale price is $243,000 while Urbana city is $175,000 — reflecting fundamentally different housing stocks and demand profiles within the same metro. Critically: the county seat is Urbana. All probate filings, foreclosure proceedings, deed recording, and county-level legal matters go to the Champaign County Courthouse at 101 E. Main Street, Urbana IL 61802. Not Champaign.
+            The dual-city geography matters for sellers to understand. Champaign and Urbana are separate incorporated cities sharing the UIUC campus and a unified housing market. Per Redfin (Mar 2026), Champaign city median sale price is $222,500 while Urbana city is $212,000 — reflecting fundamentally different housing stocks and demand profiles within the same metro. Critically: the county seat is Urbana. All probate filings, foreclosure proceedings, deed recording, and county-level legal matters go to the Champaign County Courthouse at 101 E. Main Street, Urbana IL 61802. Not Champaign.
           </p>
           <div className="overflow-x-auto mb-6">
             <table className="w-full text-sm border-collapse">
@@ -260,20 +260,20 @@ export default function ChampaignUrbanaILMarketPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200">
-                <tr className="bg-white"><td className="p-3 font-medium">Metro ZHVI (Champaign-Urbana MSA)</td><td className="p-3">$226,978 (+5.0% YoY)</td><td className="p-3 text-gray-500">Zillow (Feb 2026)</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">Champaign city ZHVI</td><td className="p-3">$199,076 (+3.3% YoY)</td><td className="p-3 text-gray-500">Zillow (Feb 2026)</td></tr>
-                <tr className="bg-white"><td className="p-3 font-medium">Urbana city ZHVI</td><td className="p-3">$168,903 (+4.8% YoY)</td><td className="p-3 text-gray-500">Zillow (Feb 2026)</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">Champaign County Median Sale Price</td><td className="p-3">$230,000 (+4.3% YoY)</td><td className="p-3 text-gray-500">Redfin (Feb 2026)</td></tr>
-                <tr className="bg-white"><td className="p-3 font-medium">Champaign city Median Sale Price</td><td className="p-3">$243,000 (+2.9% YoY)</td><td className="p-3 text-gray-500">Redfin (Feb 2026)</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Metro ZHVI (Champaign-Urbana MSA)</td><td className="p-3">$229,687 (+6.8% YoY)</td><td className="p-3 text-gray-500">Zillow Research Metro CSV, 2026-03-31</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Champaign city ZHVI</td><td className="p-3">$231,273 (+5.7% YoY)</td><td className="p-3 text-gray-500">Zillow Research City CSV, 2026-03-31</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Urbana city ZHVI</td><td className="p-3">$199,534 (+7.2% YoY)</td><td className="p-3 text-gray-500">Zillow Research City CSV, 2026-03-31</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Champaign County Median Sale Price</td><td className="p-3">$228,000 (-3.8% YoY)</td><td className="p-3 text-gray-500">Redfin Champaign County, Mar 2026</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Champaign city Median Sale Price</td><td className="p-3">$222,500 (-2.6% YoY)</td><td className="p-3 text-gray-500">Redfin Champaign city, Mar 2026</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">RDC Hotness Rank</td><td className="p-3">#77 nationally (Champaign-Urbana MSA)</td><td className="p-3 text-gray-500">Realtor.com (2026)</td></tr>
-                <tr className="bg-white"><td className="p-3 font-medium">FRED Listing Price (Sep 2025)</td><td className="p-3">$272,450</td><td className="p-3 text-gray-500">FRED MEDLISPRI16580</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">FRED/Realtor CBSA Listing Price (Mar 2026)</td><td className="p-3">$276,675</td><td className="p-3 text-gray-500">FRED MEDLISPRI16580 / MEDAONMAMSA16580, 2026-03-01</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Transfer tax (state + county)</td><td className="p-3">$300 on $200K sale (0.15%) — no municipal RETT</td><td className="p-3 text-gray-500">35 ILCS 200/31-10; 55 ILCS 5/5-1031</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Foreclosure type</td><td className="p-3">Judicial — 735 ILCS 5/15-1101 (12-16 mos typical)</td><td className="p-3 text-gray-500">IL Mortgage Foreclosure Law</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Probate court</td><td className="p-3">Champaign Co. Circuit Court, 101 E. Main St., Urbana IL 61802</td><td className="p-3 text-gray-500">6th Judicial Circuit</td></tr>
               </tbody>
             </table>
           </div>
-          <p className="text-sm text-gray-600 italic">What this means for C-U sellers: the market is healthy and modestly appreciating. But a significant share of the housing stock — UIUC-adjacent homes built in the 1920s-1940s, student rental properties in Campustown, Urbana working-class neighborhoods — has deferred maintenance or condition issues that conventional lenders flag. A 5-6% agent commission on a $230,000 county median runs $11,500-$13,800. On lower-priced Urbana stock, that's a meaningful portion of the sale price.</p>
+          <p className="text-sm text-gray-600 italic">What this means for C-U sellers: the market is healthy and modestly appreciating. But a significant share of the housing stock — UIUC-adjacent homes built in the 1920s-1940s, student rental properties in Campustown, Urbana working-class neighborhoods — has deferred maintenance or condition issues that conventional lenders flag. A 5-6% agent commission on a $228,000 county median runs $11,500-$13,800. On lower-priced Urbana stock, that's a meaningful portion of the sale price.</p>
         </section>
 
         <SituationLinks

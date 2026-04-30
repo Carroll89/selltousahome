@@ -194,7 +194,7 @@ export default function PeoriaInheritedPropertyPage() {
             <li>Multiple heirs with different financial needs and timelines</li>
           </ul>
           <p className="text-gray-700 mb-4">
-            According to Zillow (February 2026), Peoria's ZHVI is $115,649. A well-maintained Kellar Heights ranch from the 1960s might be worth $130,000–$150,000. A deferred-maintenance East Bluff bungalow from the 1930s might be worth $55,000–$80,000 in as-is condition. USA Home Buyers will give you a written offer for exactly what we'll pay — no range, no hedging.
+            According to the Zillow Research City ZHVI CSV (Peoria city, 2026-03-31), Peoria's ZHVI is $128,838. A well-maintained Kellar Heights ranch from the 1960s might be worth $130,000–$150,000. A deferred-maintenance East Bluff bungalow from the 1930s might be worth $55,000–$80,000 in as-is condition. USA Home Buyers will give you a written offer for exactly what we'll pay — no range, no hedging.
           </p>
         </section>
 
@@ -227,7 +227,7 @@ export default function PeoriaInheritedPropertyPage() {
         <section className="my-8">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">Title Insurance and Transfer Tax on Inherited Peoria Properties</h2>
           <p className="text-gray-700 mb-4">
-            Estate sales in Illinois require the same transfer tax compliance as any other sale. On an inherited Peoria property, the estate (as seller) must pay all three layers of the transfer tax: the Illinois state tax, the Peoria County tax, and the Peoria City municipal RETT. Per ATG (Attorneys' Title Guaranty Fund) and peoriagov.org, on a $139,000 sale (city median per Redfin, January 2026), the transfer tax stack totals approximately $556 — $139 state + $69.50 county + $347.50 city. When USA Home Buyers purchases an inherited Peoria property, we cover all three layers of the transfer tax.
+            Estate sales in Illinois require the same transfer tax compliance as any other sale. On an inherited Peoria property, the estate (as seller) must pay all three layers of the transfer tax: the Illinois state tax, the Peoria County tax, and the Peoria City municipal RETT. Per ATG (Attorneys' Title Guaranty Fund) and peoriagov.org, on a $145,900 sale (city median per Redfin, Mar 2026), the transfer tax stack totals approximately $584 — $145.90 state + $72.95 county + $364.75 city. When USA Home Buyers purchases an inherited Peoria property, we cover all three layers of the transfer tax.
           </p>
           <p className="text-gray-700 mb-4">
             Title insurance is standard on all Illinois real estate transactions, including estate sales. An estate sale requires a thorough title search to identify any liens that may have attached during the decedent's lifetime: unpaid property taxes, IRS tax liens, mechanics liens, judgment liens from creditors. The title company's job in a probate sale is to clear all these items from the proceeds at closing. USA Home Buyers works with experienced Peoria title companies who handle estate sales efficiently.

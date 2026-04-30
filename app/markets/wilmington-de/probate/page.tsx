@@ -33,7 +33,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How does the transfer tax work on a probate sale in Wilmington?',
-    answer: "Wilmington has a 4% total transfer tax (2.5% Delaware state + 1.5% City of Wilmington), typically split 50/50 between buyer and seller. On a $210,000 sale, the total is $8,400. When you sell to USA Home Buyers, we cover all closing costs — nothing comes out of the estate's proceeds.",
+    answer: "Wilmington has a 4% total transfer tax (2.5% Delaware state + 1.5% City of Wilmington), typically split 50/50 between buyer and seller. On a $251,200 sale, the total is $10,048. When you sell to USA Home Buyers, we cover all closing costs — nothing comes out of the estate's proceeds.",
   },
   {
     question: 'How quickly can the estate sell after probate is granted?',

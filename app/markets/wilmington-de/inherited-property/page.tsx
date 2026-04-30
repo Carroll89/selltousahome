@@ -35,7 +35,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'What is the transfer tax on an inherited property sale in Wilmington DE?',
-    answer: "Wilmington has a 4% total transfer tax (2.5% Delaware state + 1.5% City of Wilmington). By convention, buyer and seller each pay 2%. On a $210,000 inherited home, the total is $8,400. When you sell to USA Home Buyers, we cover all closing costs including the full transfer tax — nothing comes out of your number.",
+    answer: "Wilmington has a 4% total transfer tax (2.5% Delaware state + 1.5% City of Wilmington). By convention, buyer and seller each pay 2%. On a $251,200 inherited home, the total is $10,048. When you sell to USA Home Buyers, we cover all closing costs including the full transfer tax — nothing comes out of your number.",
   },
   {
     question: 'Can I sell an inherited Wilmington house as-is without repairs?',

@@ -37,7 +37,7 @@ export default function SpringfieldNeighborhoodsPage() {
         <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-5 mb-8">
           <p className="text-sm font-semibold text-blue-800 mb-2">TL;DR</p>
           <p className="text-sm text-blue-900 leading-relaxed">
-            USA Home Buyers purchases homes in every Springfield neighborhood and throughout Sangamon County — from Enos Park Victorians ($118,495 median) to Harvard Park bungalows ($92,550 median) to West Side brick ranches to suburban Chatham and Rochester. Zillow ZHVI $163,198, Redfin median $187,000 (March 2026). We buy any condition, any neighborhood. Call 888-274-5006.
+            USA Home Buyers purchases homes in every Springfield neighborhood and throughout Sangamon County — from Enos Park Victorians ($118,495 median) to Harvard Park bungalows ($92,550 median) to West Side brick ranches to suburban Chatham and Rochester. Zillow ZHVI $163,198, Redfin median $186,000 (March 2026). We buy any condition, any neighborhood. Call 888-274-5006.
           </p>
         </div>
 

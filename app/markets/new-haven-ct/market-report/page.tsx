@@ -44,17 +44,17 @@ export default function NewHavenMarketReportPage() {
         <div className="bg-blue-50 border border-blue-200 rounded-xl p-4 mb-8">
           <p className="text-blue-800 text-sm font-medium mb-1">TL;DR — Quick Answer</p>
           <p className="text-blue-900 text-sm leading-relaxed">
-            New Haven median sale price: $365,000 (Redfin, Mar 2026). Zillow typical value: $323,843. Days on market: 65 days, up 19 days year-over-year. RDC hotness rank #12 nationally. New Haven is a Targeted Investment municipality — conveyance tax 1.25% total (seller pays). Cash buyers close in 7–14 days vs. 65-day retail average. Call 888-274-5006.
+            New Haven median sale price: $365,000 (Redfin, Mar 2026). Zillow Research city ZHVI: $326,440 (2026-03-31). Days on market: 65 days, up 19 days year-over-year. RDC hotness rank #12 nationally. New Haven is a Targeted Investment municipality — conveyance tax 1.25% total (seller pays). Cash buyers close in 7–14 days vs. 65-day retail average. Call 888-274-5006.
           </p>
         </div>
 
         <section className="my-8">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">New Haven CT Home Prices — March 2026</h2>
           <p className="text-gray-700 mb-4">
-            New Haven's home price data shows a divergence between Zillow's stock-based index and Redfin's transaction-level median. According to Zillow (February 2026), the city's typical home value (ZHVI) is $323,843, reflecting a +4.3% year-over-year gain. Per Redfin (March 2026), the median closed sale price is $365,000, down 2.7% from March 2025 — a reflection of the transaction mix skewing toward higher-end East Rock and Westville sales in that month's closings.
+            New Haven's home price data shows a divergence between Zillow's stock-based index and Redfin's transaction-level median. According to the Zillow Research City ZHVI CSV (New Haven city, 2026-03-31), the city's typical home value (ZHVI) is $326,440, reflecting a +5.7% year-over-year gain. Per Redfin (March 2026), the median closed sale price is $365,000, down 2.7% from March 2025 — a reflection of the transaction mix skewing toward higher-end East Rock and Westville sales in that month's closings.
           </p>
           <p className="text-gray-700 mb-4">
-            For cash buyer offer-range context, the Zillow ZHVI ($323,843) is the more representative baseline for the typical New Haven home. The Redfin median is pulled upward by premium neighborhoods. A cash offer on an average-condition New Haven home runs 70–80% of ZHVI — roughly $227,000–$259,000 for a standard property.
+            For cash buyer offer-range context, the Zillow city ZHVI ($326,440) is the more representative baseline for the typical New Haven home. The Redfin median is pulled upward by premium neighborhoods. A cash offer on an average-condition New Haven home runs 70–80% of ZHVI — roughly $228,000–$261,000 for a standard property.
           </p>
           <div className="overflow-x-auto mb-6">
             <table className="w-full text-sm border-collapse">
@@ -66,17 +66,17 @@ export default function NewHavenMarketReportPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200">
-                <tr className="bg-white"><td className="p-3 font-medium">Zillow ZHVI (city)</td><td className="p-3">$323,843 (+4.3% YoY)</td><td className="p-3 text-gray-500">Zillow, Feb 2026</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">Zillow ZHVI (county)</td><td className="p-3">$395,478 (+3.9% YoY)</td><td className="p-3 text-gray-500">Zillow, Feb 2026</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Zillow ZHVI (city)</td><td className="p-3">$326,440 (+5.7% YoY)</td><td className="p-3 text-gray-500">Zillow Research City CSV, 2026-03-31</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Zillow ZHVI (New Haven County context)</td><td className="p-3">$397,334 (+4.6% YoY)</td><td className="p-3 text-gray-500">Zillow Research County CSV, 2026-03-31</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Redfin median sale price</td><td className="p-3">$365,000 (-2.7% YoY)</td><td className="p-3 text-gray-500">Redfin, Mar 2026</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Median price per sq ft</td><td className="p-3">$207 (+10.4% YoY)</td><td className="p-3 text-gray-500">Redfin, Mar 2026</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Median days on market</td><td className="p-3">65 days (+19 days YoY)</td><td className="p-3 text-gray-500">Redfin, Mar 2026</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Sale-to-list ratio</td><td className="p-3">101.5% (+0.9 pt YoY)</td><td className="p-3 text-gray-500">Redfin, Mar 2026</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Homes sold (Mar 2026)</td><td className="p-3">45 (up from 43, Mar 2025)</td><td className="p-3 text-gray-500">Redfin, Mar 2026</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Avg offers per home</td><td className="p-3">3 offers</td><td className="p-3 text-gray-500">Redfin, Mar 2026</td></tr>
-                <tr className="bg-white"><td className="p-3 font-medium">Hot homes DOM</td><td className="p-3">~28 days</td><td className="p-3 text-gray-500">Redfin, Mar 2026</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Hot-home pending timeline</td><td className="p-3">~24 days</td><td className="p-3 text-gray-500">Redfin New Haven city, Mar 2026</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">RDC hotness rank</td><td className="p-3">#12 (score 93.645)</td><td className="p-3 text-gray-500">Realtor.com, Mar 2026</td></tr>
-                <tr className="bg-white"><td className="p-3 font-medium">Redfin compete score</td><td className="p-3">51 / 100 (Somewhat Competitive)</td><td className="p-3 text-gray-500">Redfin, Mar 2026</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Redfin compete score</td><td className="p-3">56 / 100 (Somewhat Competitive)</td><td className="p-3 text-gray-500">Redfin New Haven city, Mar 2026</td></tr>
               </tbody>
             </table>
           </div>
@@ -85,7 +85,7 @@ export default function NewHavenMarketReportPage() {
         <section className="my-8">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">Two-Tier Market: Hot Homes vs. Distressed Inventory</h2>
           <p className="text-gray-700 mb-4">
-            New Haven's market data tells a two-tier story. Hot homes — move-in-ready properties in East Rock, Westville, and Wooster Square — are still moving in 28 days at 6% above list price. These are the homes that appear in the 101.5% sale-to-list ratio and 3-average-offers figures.
+            New Haven's market data tells a two-tier story. Hot homes — move-in-ready properties in East Rock, Westville, and Wooster Square — are still going pending in about 24 days at 6% above list price. These are the homes that appear in the 101.5% sale-to-list ratio and 3-average-offers figures.
           </p>
           <p className="text-gray-700 mb-4">
             The distressed inventory — triple-deckers in Fair Haven and The Hill with deferred maintenance, vacant inherited homes in Newhallville, pre-foreclosure properties anywhere in the city — sits much longer. These homes either require significant capital ($30,000–$60,000 for lead abatement, boiler replacement, roof, and electrical on a typical pre-1950 New Haven triple-decker) or attract only cash buyers. For sellers in that situation, the 65-day median DOM is irrelevant — their home will sit months longer unless priced aggressively or sold off-market.

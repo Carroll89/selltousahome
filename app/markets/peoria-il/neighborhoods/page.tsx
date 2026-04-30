@@ -126,7 +126,7 @@ export default function PeoriaNeighborhoodsPage() {
 
         <section className="my-8">
           <p className="text-gray-700 mb-6">
-            According to Zillow (February 2026), Peoria's Home Value Index is $115,649 — but that citywide number masks dramatic variation across neighborhoods. Richwoods homes regularly sell at $175,000–$250,000. South Peoria and East Bluff distressed inventory starts at $25,000. The neighborhood determines the price; the condition determines whether you can sell conventionally or need a cash buyer.
+            According to the Zillow Research City ZHVI CSV (Peoria city, 2026-03-31), Peoria's Home Value Index is $128,838 — but that citywide number masks dramatic variation across neighborhoods. Richwoods homes regularly sell at $175,000–$250,000. South Peoria and East Bluff distressed inventory starts at $25,000. The neighborhood determines the price; the condition determines whether you can sell conventionally or need a cash buyer.
           </p>
 
           <div className="space-y-6">

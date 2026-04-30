@@ -131,10 +131,10 @@ export default function PeoriaTenantOccupiedPage() {
             Bradley University (approximately 5,000 students) anchors rental demand along the Knoxville Avenue corridor and in the Bradley Park and Northmoor neighborhoods adjacent to campus. Landlords in these areas often find that student-rental management — high turnover, end-of-lease damage, noise complaints, absentee coordination — has worn them down over years of ownership. The "tired landlord" profile is common in this sub-market.
           </p>
           <p className="text-gray-700 mb-4">
-            Healthcare worker housing near the University Avenue/OSF corridor represents a more stable tenant base, but these properties are often 1960s–1980s construction with increasing maintenance demands. According to Zillow (February 2026), Peoria's ZHVI is $115,649 — at these price levels, rental yields can be thin, and major capital expenditure requirements make continued ownership less attractive.
+            Healthcare worker housing near the University Avenue/OSF corridor represents a more stable tenant base, but these properties are often 1960s–1980s construction with increasing maintenance demands. According to the Zillow Research City ZHVI CSV (Peoria city, 2026-03-31), Peoria's ZHVI is $128,838 — at these price levels, rental yields can be thin, and major capital expenditure requirements make continued ownership less attractive.
           </p>
           <p className="text-gray-700 mb-4">
-            The Section 8 / HUD-assisted tenant segment in South Peoria and East Bluff represents the highest complexity. HAP contract obligations, housing authority inspection requirements, and the pre-1940 housing stock (24.3% per biggestuscities.com) create a maintenance burden that many landlords in their 60s and 70s are no longer willing to carry. Per Redfin (January 2026), Peoria city's median sale price is $139,000 (+8.2% YoY) — but Section 8 properties in the southern neighborhoods are often priced $40,000–$80,000 in as-is condition.
+            The Section 8 / HUD-assisted tenant segment in South Peoria and East Bluff represents the highest complexity. HAP contract obligations, housing authority inspection requirements, and the pre-1940 housing stock (24.3% per biggestuscities.com) create a maintenance burden that many landlords in their 60s and 70s are no longer willing to carry. Per Redfin (Peoria city, Mar 2026), Peoria city's median sale price is $145,900 (+8.2% YoY) — but Section 8 properties in the southern neighborhoods are often priced $40,000–$80,000 in as-is condition.
           </p>
         </section>
 
@@ -213,7 +213,7 @@ export default function PeoriaTenantOccupiedPage() {
             The most common reason Peoria landlords contact USA Home Buyers is exhaustion. After 10-20 years of managing rental properties in a market with a 14.1% family poverty rate (2024 ACS), high pre-1940 maintenance demands, and tenant turnover driven by healthcare employment cycles and university schedules, the economics and energy of continued ownership tip the wrong direction.
           </p>
           <p className="text-gray-700 mb-4">
-            The calculation changes when a major capital expenditure looms — a roof, an HVAC system, a plumbing overhaul on a pre-1940 balloon-frame building. At Peoria's ZHVI of $115,649, a $20,000 repair cost represents 17% of the typical home value. For a landlord nearing retirement, spending $20,000 on a rental that generates $700-$900/month in rent and requires ongoing management doesn't compute.
+            The calculation changes when a major capital expenditure looms — a roof, an HVAC system, a plumbing overhaul on a pre-1940 balloon-frame building. At Peoria's Zillow Research city ZHVI of $128,838, a $20,000 repair cost represents 17% of the typical home value. For a landlord nearing retirement, spending $20,000 on a rental that generates $700-$900/month in rent and requires ongoing management doesn't compute.
           </p>
           <p className="text-gray-700 mb-4">
             USA Home Buyers provides the exit: a written cash offer within 24 hours, a closing timeline of 7-14 days, no repair requirements, and no eviction requirement. Call 888-274-5006 to get started.
@@ -272,7 +272,7 @@ export default function PeoriaTenantOccupiedPage() {
             Peoria County's median effective property tax rate is approximately 2.1–2.4% — above the national median. For a rental property worth $80,000 at the ZHVI-adjacent range, the annual property tax bill may run $1,680–$1,920. On a property generating $700–$800 per month in rent, the property tax represents 18–23% of gross rental income — before maintenance, insurance, vacancy, and management costs. This tax burden, combined with the high pre-1940 maintenance demands and tenant management complexity, is the third leg of the tired-landlord calculation in Peoria.
           </p>
           <p className="text-gray-700 mb-4">
-            Per Redfin (January 2026), the Peoria city median sale price is $139,000. A landlord carrying a $90,000 rental property with $2,000 in annual taxes, aging systems, and a Section 8 or student tenant may find that a cash sale delivering $65,000–$75,000 in net proceeds — invested elsewhere — outperforms another decade of rental management. Call 888-274-5006 for a written offer.
+            Per Redfin (Peoria city, Mar 2026), the Peoria city median sale price is $145,900. A landlord carrying a $90,000 rental property with $2,000 in annual taxes, aging systems, and a Section 8 or student tenant may find that a cash sale delivering $65,000–$75,000 in net proceeds — invested elsewhere — outperforms another decade of rental management. Call 888-274-5006 for a written offer.
           </p>
         </section>
 

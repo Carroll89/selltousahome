@@ -127,7 +127,7 @@ export default function SpringfieldFireDamagePage() {
             For Springfield homeowners, the rebuild math often doesn't favor full reconstruction - particularly for older Enos Park Victorians or Harvard Park bungalows. Construction costs in central Illinois have risen substantially since 2020. A full rebuild on a 1,400 sq ft Springfield bungalow can run $175,000-$225,000 in 2026 construction costs, not counting the land. If the pre-fire home was worth $130,000 and the post-rebuild value would be $185,000, the economic case for rebuilding is marginal even with full insurance coverage. If the insurance payout doesn't cover full replacement cost (under-insured policies are common in older homes), the rebuild gap can be unworkable.
           </p>
           <p className="text-gray-700 mb-4">
-            Selling the damaged property as-is captures the land value (which persists regardless of structural condition) plus whatever value remains in the damaged structure. In Springfield’s current market — Per Redfin (March 2026), median sale price $187,000, up 23% year-over-year — land values in established neighborhoods are meaningful. A vacant fire-damaged lot in Harvard Park or Enos Park has real value to a builder or investor.
+            Selling the damaged property as-is captures the land value (which persists regardless of structural condition) plus whatever value remains in the damaged structure. In Springfield’s current market — Per Redfin (March 2026), median sale price $186,000, up 22.4% year-over-year — land values in established neighborhoods are meaningful. A vacant fire-damaged lot in Harvard Park or Enos Park has real value to a builder or investor.
           </p>
         </section>
 

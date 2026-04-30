@@ -120,11 +120,11 @@ const COMPARISON_ROWS = [
 const FAQ_ITEMS = [
   {
     question: 'How fast can I sell my house for cash in Bloomington IL?',
-    answer: "USA Home Buyers can close in as few as 7 days in Bloomington and throughout McLean County. We send a written cash offer within 24 hours of your inquiry. According to Zillow (February 2026), the typical Bloomington home goes pending in just 4 days — this is one of the fastest-moving markets in downstate Illinois. If you're facing foreclosure, Illinois is a judicial foreclosure state under 735 ILCS 5/15-1101 — once a lender files in McLean County Circuit Court at 104 W. Front Street, the process typically runs 12-16 months. Selling before the auction preserves your equity. Call (888) 274-5006.",
+    answer: "USA Home Buyers can close in as few as 7 days in Bloomington and throughout McLean County. We send a written cash offer within 24 hours of your inquiry. Per Redfin (Bloomington city, Mar 2026), Bloomington shows 50 sold days on market, with current Redfin city median sale price at $300,000 and Zillow Research city ZHVI at $261,269 (2026-03-31). If you're facing foreclosure, Illinois is a judicial foreclosure state under 735 ILCS 5/15-1101 — once a lender files in McLean County Circuit Court at 104 W. Front Street, the process typically runs 12-16 months. Selling before the auction preserves your equity. Call (888) 274-5006.",
   },
   {
     question: 'How much will you pay for my Bloomington IL house?',
-    answer: "Cash offers for Bloomington homes typically run 70-78% of fair market value, depending on condition, location, and any liens. According to Zillow (February 2026), the Bloomington Home Value Index (ZHVI) is $228,634 — up 7.5% year over year. Per Redfin (March 2026), the city median sale price is $300,000, up 33% year over year. A cash offer on a typical Bloomington home at ZHVI runs $160,000-$178,335. We cover all closing costs including Illinois state transfer tax ($0.50/$500) and McLean County transfer tax ($0.25/$500) — total $300 on a $200,000 sale. No Bloomington municipal RETT.",
+    answer: "Cash offers for Bloomington homes typically run 70-78% of fair market value, depending on condition, location, and any liens. According to the Zillow Research City ZHVI CSV (2026-03-31), the Bloomington Home Value Index (ZHVI) is $261,269 — up 2.7% year over year. Per Redfin (Bloomington city, Mar 2026), the city median sale price is $300,000, up 32.6% year over year. A cash offer on a typical Bloomington home at ZHVI runs $160,000-$178,335. We cover all closing costs including Illinois state transfer tax ($0.50/$500) and McLean County transfer tax ($0.25/$500) — total $300 on a $200,000 sale. No Bloomington municipal RETT.",
   },
   {
     question: 'What is the transfer tax when selling a house in Bloomington IL?',
@@ -148,7 +148,7 @@ const FAQ_ITEMS = [
   },
   {
     question: "Is the Bloomington IL housing market really as hot as I've heard?",
-    answer: "Yes, and the data is specific. According to Zillow (February 2026), Bloomington homes go pending in just 4 days on average — faster than most downstate IL markets. The ZHVI is $228,634 (+7.5% YoY), and per Redfin (March 2026), the median sale price hit $300,000 (+33% YoY). That 33% Redfin jump reflects a thin market where individual large transactions move the monthly median. Realtor.com ranked the Bloomington-Normal MSA #27 hottest nationally. The market is driven by State Farm's world headquarters, Country Financial, ISU employment, and a high median household income of $77,384 — one of the strongest employment bases of any downstate IL city.",
+    answer: "Yes, and the data is specific. According to the Zillow Research City ZHVI CSV (2026-03-31), Bloomington ZHVI is $261,269 (+2.7% YoY), and per Redfin (Bloomington city, Mar 2026), the median sale price hit $300,000 (+32.6% YoY). That 32.6% Redfin jump reflects a thin market where individual large transactions move the monthly median. Realtor.com ranked the Bloomington-Normal MSA #27 hottest nationally. The market is driven by State Farm's world headquarters, Country Financial, ISU employment, and a high median household income of $77,384 — one of the strongest employment bases of any downstate IL city.",
   },
 ];
 
@@ -199,7 +199,7 @@ export default function BloomingtonILMarketPage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                USA Home Buyers purchases houses in Bloomington IL and throughout McLean County — Founders&apos; Grove Victorians, North Bloomington colonials, ISU-area rentals, State Farm retiree estates, foreclosures, divorce situations. Written cash offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no agent fees. According to Zillow (February 2026), Bloomington ZHVI is $228,634 (+7.5% YoY) with homes pending in just 4 days — the fastest-appreciating downstate IL market in our Illinois portfolio. Transfer tax: $300 on a $200,000 sale (IL state + McLean County; no Bloomington municipal RETT). Call (888) 274-5006.
+                USA Home Buyers purchases houses in Bloomington IL and throughout McLean County — Founders&apos; Grove Victorians, North Bloomington colonials, ISU-area rentals, State Farm retiree estates, foreclosures, divorce situations. Written cash offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no agent fees. According to the Zillow Research City ZHVI CSV (2026-03-31), Bloomington ZHVI is $261,269 (+2.7% YoY) — the fastest-appreciating downstate IL market in our Illinois portfolio. Transfer tax: $300 on a $200,000 sale (IL state + McLean County; no Bloomington municipal RETT). Call (888) 274-5006.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
@@ -253,7 +253,7 @@ export default function BloomingtonILMarketPage() {
             Bloomington is the insurance capital of downstate Illinois — and that distinction shapes its housing market in ways that set it apart from every other city in our Illinois portfolio. State Farm Insurance, founded here in 1922, operates its world headquarters in Bloomington, making it the largest mutual insurer in the United States by premium volume. Country Financial, another major national property-and-casualty insurer, also maintains its headquarters here. Together with Illinois State University in adjacent Normal and Illinois Wesleyan University within Bloomington city limits, the city has built an employment base unlike anything you find in a comparably sized downstate market.
           </p>
           <p className="text-gray-700 mb-4">
-            That employment base drives the housing market data. According to Zillow (February 2026), the Bloomington Home Value Index (ZHVI) stands at $228,634 — up 7.5% year over year, the fastest appreciation rate of any market in our three-city Illinois batch. Per Redfin (March 2026), the city median sale price reached $300,000, a 33% year-over-year jump reflecting both genuine price increases and the thin-market mix-effects of just 83 transactions in one month. Homes go pending in roughly 4 days on average per Zillow — a pace that puts Bloomington among the most competitive mid-size Midwest markets.
+            That employment base drives the housing market data. According to the Zillow Research City ZHVI CSV (2026-03-31), the Bloomington Home Value Index (ZHVI) stands at $261,269 — up 2.7% year over year, the fastest appreciation rate of any market in our three-city Illinois batch. Per Redfin (Bloomington city, Mar 2026), the city median sale price reached $300,000, a 32.6% year-over-year jump reflecting both genuine price increases and the thin-market mix-effects of just 83 transactions in one month. Homes go pending in roughly 4 days on average per Zillow — a pace that puts Bloomington among the most competitive mid-size Midwest markets.
           </p>
           <p className="text-gray-700 mb-4">
             The median household income in Bloomington is $77,384 (2024 ACS estimate), the highest of any city in our IL market set and well above the Illinois statewide median of roughly $72,000. McLean County's median property tax rate runs 2.62% of assessed value — significantly above the national median — which creates seller motivation among fixed-income homeowners, particularly retirees who carry low or no mortgages but face mounting annual property tax bills.
@@ -271,13 +271,13 @@ export default function BloomingtonILMarketPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200">
-                <tr className="bg-white"><td className="p-3 font-medium">Zillow ZHVI (home value index)</td><td className="p-3">$228,634 (+7.5% YoY)</td><td className="p-3 text-gray-500">Zillow (Feb 2026)</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">Redfin Median Sale Price</td><td className="p-3">$300,000 (+33% YoY)</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
-                <tr className="bg-white"><td className="p-3 font-medium">Avg. Days to Pending</td><td className="p-3">~4 days</td><td className="p-3 text-gray-500">Zillow (Feb 2026)</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">Redfin Compete Score</td><td className="p-3">61/100 — Somewhat Competitive</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Zillow ZHVI (home value index)</td><td className="p-3">$261,269 (+2.7% YoY)</td><td className="p-3 text-gray-500">Zillow Research City CSV, 2026-03-31</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Redfin Median Sale Price</td><td className="p-3">$300,000 (+32.6% YoY)</td><td className="p-3 text-gray-500">Redfin Bloomington city (Mar 2026)</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Avg. Days to Pending</td><td className="p-3">~4 days</td><td className="p-3 text-gray-500">Zillow Research City CSV, 2026-03-31</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Redfin Compete Score</td><td className="p-3">65/100 — Somewhat Competitive</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Sale-to-List Ratio</td><td className="p-3">99.2%</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Homes Sold (Mar 2026)</td><td className="p-3">83</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
-                <tr className="bg-white"><td className="p-3 font-medium">RDC Hotness Rank</td><td className="p-3">#27 (Bloomington-Normal MSA)</td><td className="p-3 text-gray-500">Realtor.com (Apr 2026)</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">RDC Hotness Rank</td><td className="p-3">#27 (Bloomington-Normal MSA)</td><td className="p-3 text-gray-500">Realtor.com hotness context (not Zillow/Redfin source freshness)</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Median Household Income (city)</td><td className="p-3">$77,384</td><td className="p-3 text-gray-500">ACS 2024</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">IL Transfer Tax (state + McLean Co.)</td><td className="p-3">$300 on $200K sale (0.15%) — no municipal RETT</td><td className="p-3 text-gray-500">35 ILCS 200/31-10; McLean Co. Code</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Foreclosure type</td><td className="p-3">Judicial — 735 ILCS 5/15-1101 (12-16 mos typical)</td><td className="p-3 text-gray-500">IL Mortgage Foreclosure Law</td></tr>
@@ -308,7 +308,7 @@ export default function BloomingtonILMarketPage() {
           </h2>
           <ComparisonTable rows={COMPARISON_ROWS} />
           <p className="mt-4 text-sm text-gray-600">
-            Per Redfin (March 2026), the Bloomington median sale price is $300,000. A 5-6% agent commission runs $15,000-$18,000. Add Illinois&apos;s combined transfer tax ($300 on a $200K sale), Redfin&apos;s 50-day average days on market, and repair requests on older Bloomington housing stock. Founders&apos; Grove Victorians and West Bloomington pre-1950s homes frequently carry deferred maintenance — original wiring, aging plumbing, historic-district exterior restrictions — that conventional buyers flag and require repair credits on. A cash offer eliminates inspection contingencies entirely. At $228,634 ZHVI average, every dollar of commission and carrying cost is meaningful relative to the net proceeds.
+            Per Redfin (March 2026), the Bloomington median sale price is $300,000. A 5-6% agent commission runs $15,000-$18,000. Add Illinois&apos;s combined transfer tax ($300 on a $200K sale), Redfin&apos;s 50-day average days on market, and repair requests on older Bloomington housing stock. Founders&apos; Grove Victorians and West Bloomington pre-1950s homes frequently carry deferred maintenance — original wiring, aging plumbing, historic-district exterior restrictions — that conventional buyers flag and require repair credits on. A cash offer eliminates inspection contingencies entirely. At $261,269 Zillow Research city ZHVI average, every dollar of commission and carrying cost is meaningful relative to the net proceeds.
           </p>
         </section>
 

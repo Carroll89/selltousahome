@@ -14,7 +14,7 @@ const pageUrl = `${SITE_URL}/markets/bloomington-il/market-report`;
 export const metadata: Metadata = {
   title: 'Bloomington IL Housing Market Report 2026',
   description:
-    'Bloomington IL housing market data: $228,634 ZHVI (+7.5%), $300K median sale, 4-day pending pace. McLean County investor analysis for 2026. Cash buyers: 888-274-5006.',
+    'Bloomington IL housing market data: $261,269 Zillow Research city ZHVI (+2.7%), $300K median sale, 4-day pending pace. McLean County investor analysis for 2026. Cash buyers: 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
@@ -43,7 +43,7 @@ export default function BloomingtonILMarketReportPage() {
           <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
             <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
             <p className="text-white text-sm leading-relaxed">
-              According to Zillow (February 2026), Bloomington ZHVI: $228,634 (+7.5% YoY) — homes pending in ~4 days. Per Redfin (March 2026), median sale price: $300,000 (+33% YoY); 83 homes sold; sale-to-list 99.2%. Source: Realtor.com — Bloomington-Normal MSA ranked #27 hottest nationally. Transfer tax: $300 on $200K sale (IL state + McLean County; no Bloomington municipal RETT). Insurance capital narrative: State Farm world HQ, Country Financial HQ, ISU. Call (888) 274-5006.
+              According to Zillow Research City CSV (2026-03-31), Bloomington ZHVI: $261,269 (+2.7% YoY). Per Redfin (Bloomington city, Mar 2026), median sale price: $300,000 (+32.6% YoY); 83 homes sold; sale-to-list 99.2%. Source: Realtor.com — Bloomington-Normal MSA ranked #27 hottest nationally. Transfer tax: $300 on $200K sale (IL state + McLean County; no Bloomington municipal RETT). Insurance capital narrative: State Farm world HQ, Country Financial HQ, ISU. Call (888) 274-5006.
             </p>
           </div>
         </div>
@@ -54,7 +54,7 @@ export default function BloomingtonILMarketReportPage() {
         <section className="my-8">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">Bloomington IL Key Market Metrics (March 2026)</h2>
           <p className="text-gray-700 mb-4">
-            Two data sources tell the Bloomington story, and they need to be read together. According to Zillow (February 2026), the Bloomington Home Value Index (ZHVI) — a smoothed measure of the 50th percentile home value — stands at $228,634, up 7.5% year over year. Per Redfin (March 2026), the median sale price for Bloomington city hit $300,000, up 33% year over year based on 83 transactions. These figures measure different things: ZHVI is a methodologically stable index of typical home value across the full housing stock; the Redfin median reflects only homes that actually sold in a given month and is more volatile in a thin market with 83 monthly transactions.
+            Two data sources tell the Bloomington story, and they need to be read together. According to the Zillow Research City ZHVI CSV (2026-03-31), the Bloomington Home Value Index (ZHVI) — a smoothed measure of the 50th percentile home value — stands at $261,269, up 2.7% year over year. Per Redfin (Bloomington city, Mar 2026), the median sale price hit $300,000, up 32.6% year over year based on 83 transactions. These figures measure different things: ZHVI is a methodologically stable index of typical home value across the full housing stock; the Redfin median reflects only homes that actually sold in a given month and is more volatile in a thin market with 83 monthly transactions.
           </p>
           <p className="text-gray-700 mb-4">
             The most operationally significant Zillow data point for sellers is the pending timeline: homes in Bloomington go pending in roughly 4 days on average — a pace that signals genuine, strong demand from qualified buyers. This is not a soft market.
@@ -70,23 +70,23 @@ export default function BloomingtonILMarketReportPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200">
-                <tr className="bg-white"><td className="p-3 font-medium">Zillow ZHVI (typical home value)</td><td className="p-3">$228,634</td><td className="p-3 text-green-700">+7.5%</td><td className="p-3 text-gray-500">Zillow (Feb 2026)</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">Redfin Median Sale Price</td><td className="p-3">$300,000</td><td className="p-3 text-green-700">+33.0%</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
-                <tr className="bg-white"><td className="p-3 font-medium">Avg. Days to Pending</td><td className="p-3">~4 days</td><td className="p-3">—</td><td className="p-3 text-gray-500">Zillow (Feb 2026)</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Zillow ZHVI (typical home value)</td><td className="p-3">$261,269</td><td className="p-3 text-green-700">+2.7%</td><td className="p-3 text-gray-500">Zillow Research City CSV, 2026-03-31</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Redfin Median Sale Price</td><td className="p-3">$300,000</td><td className="p-3 text-green-700">+32.6%</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Avg. Days to Pending</td><td className="p-3">~4 days</td><td className="p-3">—</td><td className="p-3 text-gray-500">Zillow Research City CSV, 2026-03-31</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Redfin Days on Market</td><td className="p-3">50 days</td><td className="p-3">—</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
-                <tr className="bg-white"><td className="p-3 font-medium">Redfin Compete Score</td><td className="p-3">61/100 — Somewhat Competitive</td><td className="p-3">—</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Redfin Compete Score</td><td className="p-3">65/100 — Somewhat Competitive</td><td className="p-3">—</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Sale-to-List Ratio</td><td className="p-3">99.2%</td><td className="p-3">—</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Homes Sold (March 2026)</td><td className="p-3">83</td><td className="p-3">—</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">RDC Hotness Rank</td><td className="p-3">#27 (Bloomington-Normal MSA)</td><td className="p-3">—</td><td className="p-3 text-gray-500">Realtor.com (Apr 2026)</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">RDC Hotness Rank</td><td className="p-3">#27 (Bloomington-Normal MSA)</td><td className="p-3">—</td><td className="p-3 text-gray-500">Realtor.com hotness context (not Zillow/Redfin source freshness)</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Median Household Income (city)</td><td className="p-3">$77,384</td><td className="p-3">—</td><td className="p-3 text-gray-500">ACS 2024</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Bloomington City Population</td><td className="p-3">78,907</td><td className="p-3">—</td><td className="p-3 text-gray-500">ACS 2024</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">McLean County Population</td><td className="p-3">171,556</td><td className="p-3">—</td><td className="p-3 text-gray-500">ACS 2024</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">IL Statewide ZHVI (comparison)</td><td className="p-3">$282,909 (+3.8%)</td><td className="p-3">—</td><td className="p-3 text-gray-500">Zillow (Feb 2026)</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">IL Statewide ZHVI (comparison)</td><td className="p-3">$282,909 (+3.8%)</td><td className="p-3">—</td><td className="p-3 text-gray-500">Zillow Research City CSV, 2026-03-31</td></tr>
               </tbody>
             </table>
           </div>
           <p className="text-sm text-gray-600 italic mb-4">
-            Note on ZHVI vs. Redfin median: these are different measurements. ZHVI ($228,634) is a stable, algorithmically smoothed index of the typical home across all of Bloomington. The Redfin median sale price ($300,000) reflects only homes that closed in March 2026 — in a market of 83 monthly transactions, a few high-value sales can significantly move the monthly median. Use ZHVI as the primary "what is a typical Bloomington home worth" figure; use Redfin median for "what have homes been selling for recently."
+            Note on ZHVI vs. Redfin median: these are different measurements. ZHVI ($261,269) is a stable, algorithmically smoothed index of the typical home across all of Bloomington. The Redfin median sale price ($300,000) reflects only homes that closed in March 2026 — in a market of 83 monthly transactions, a few high-value sales can significantly move the monthly median. Use ZHVI as the primary "what is a typical Bloomington home worth" figure; use Redfin median for "what have homes been selling for recently."
           </p>
         </section>
 
@@ -122,7 +122,7 @@ export default function BloomingtonILMarketReportPage() {
               <tbody className="divide-y divide-gray-200">
                 <tr className="bg-white"><td className="p-3">$150,000</td><td className="p-3">$150.00</td><td className="p-3">$75.00</td><td className="p-3">$0</td><td className="p-3 font-medium">$225.00</td></tr>
                 <tr className="bg-gray-50"><td className="p-3">$200,000</td><td className="p-3">$200.00</td><td className="p-3">$100.00</td><td className="p-3">$0</td><td className="p-3 font-medium">$300.00</td></tr>
-                <tr className="bg-white"><td className="p-3">$228,634 (ZHVI)</td><td className="p-3">$228.63</td><td className="p-3">$114.32</td><td className="p-3">$0</td><td className="p-3 font-medium">$342.95</td></tr>
+                <tr className="bg-white"><td className="p-3">$261,269 (ZHVI)</td><td className="p-3">$228.63</td><td className="p-3">$114.32</td><td className="p-3">$0</td><td className="p-3 font-medium">$342.95</td></tr>
                 <tr className="bg-gray-50"><td className="p-3">$300,000 (Redfin median)</td><td className="p-3">$300.00</td><td className="p-3">$150.00</td><td className="p-3">$0</td><td className="p-3 font-medium">$450.00</td></tr>
               </tbody>
             </table>
@@ -143,8 +143,8 @@ export default function BloomingtonILMarketReportPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200">
-                <tr className="bg-white"><td className="p-3 font-medium">Zillow ZHVI</td><td className="p-3">$228,634</td><td className="p-3">$142,859</td><td className="p-3">$163,198</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">ZHVI YoY Change</td><td className="p-3 text-green-700 font-medium">+7.5%</td><td className="p-3">+4.8%</td><td className="p-3">+8.2%</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Zillow ZHVI</td><td className="p-3">$261,269</td><td className="p-3">$142,859</td><td className="p-3">$163,198</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">ZHVI YoY Change</td><td className="p-3 text-green-700 font-medium">+2.7%</td><td className="p-3">+4.8%</td><td className="p-3">+8.2%</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Redfin Median Sale</td><td className="p-3">$300,000</td><td className="p-3">$170,000</td><td className="p-3">$187,000</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Avg. Days to Pending</td><td className="p-3 text-green-700 font-medium">~4 days</td><td className="p-3">~14 days</td><td className="p-3">~27 days</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Median HH Income</td><td className="p-3 text-green-700 font-medium">$77,384</td><td className="p-3">~$48,000</td><td className="p-3">$66,064</td></tr>
@@ -174,7 +174,7 @@ export default function BloomingtonILMarketReportPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-gray-700 text-sm mt-2">On the $228,634 ZHVI, a 70-78% range = $160,044-$178,335. On the $300,000 Redfin median, that's $210,000-$234,000. Actual offer depends on condition, neighborhood, and liens.</p>
+          <p className="text-gray-700 text-sm mt-2">On the $261,269 Zillow Research city ZHVI, a 70-78% range = $160,044-$178,335. On the $300,000 Redfin median, that's $210,000-$234,000. Actual offer depends on condition, neighborhood, and liens.</p>
         </section>
 
         <section className="my-8">
@@ -205,9 +205,9 @@ export default function BloomingtonILMarketReportPage() {
             <div className="bg-brand-light rounded-xl p-4">
               <h3 className="font-semibold text-brand-dark mb-2">Data Sources</h3>
               <ul className="text-sm text-gray-700 space-y-1">
-                <li>• Zillow Bloomington ZHVI (Feb 2026)</li>
+                <li>• Zillow Research Bloomington city ZHVI CSV (2026-03-31)</li>
                 <li>• Redfin Bloomington market page (Mar 2026)</li>
-                <li>• Realtor.com Market Hotness Index (Apr 2026)</li>
+                <li>• Realtor.com Market Hotness Index (separate hotness context)</li>
                 <li>• Illinois-demographics.com (ACS 2024)</li>
                 <li>• ATG tax-ordinance directory (transfer tax)</li>
                 <li>• McLean County Code, ecode360.com (county RETT)</li>

@@ -50,7 +50,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'What is the Oshkosh WI housing market like in 2026?',
-    answer: 'Realtor.com ranked Oshkosh #13 hottest housing market nationally in March 2026 (hotness score 92.809, active listing DOM 36.0 days). Zillow ZHVI: $250,967 (+5.2% YoY). Redfin median sale: $211,000. Redfin compete score 60/100. Median sold DOM: 61 days (hot homes go pending in 42 days). The gap between active-listing DOM (36.0 days) and sold-home DOM (61 days) reflects a two-speed market: move-in-ready homes move quickly; older, deferred-maintenance homes sit longer and often sell to cash buyers.',
+    answer: 'Realtor.com ranked Oshkosh #13 hottest housing market nationally in March 2026 (hotness score 92.809, active listing DOM 36.0 days). Zillow ZHVI: $253,810 (+5.4% YoY). Redfin median sale: $211,000. Redfin compete score 61/100. Median sold DOM: 61 days (hot homes go pending in 42 days). The gap between active-listing DOM (36.0 days) and sold-home DOM (61 days) reflects a two-speed market: move-in-ready homes move quickly; older, deferred-maintenance homes sit longer and often sell to cash buyers.',
   },
   {
     question: 'Does EAA AirVenture affect Oshkosh real estate values?',

@@ -22,7 +22,7 @@ export const metadata: Metadata = {
 const FAQ_ITEMS = [
   {
     question: 'What is the transfer tax when selling a house in Springfield IL?',
-    answer: 'Illinois state transfer tax is $0.50 per $500 of consideration (35 ILCS 200/31-10). Sangamon County adds $0.25 per $500 (35 ILCS 200/31-55). Combined: $0.75 per $500 ($1.50 per $1,000 = 0.15%), paid by the seller. The City of Springfield does NOT impose a municipal real estate transfer tax — confirmed from the City of Springfield\'s official tax rate document. On the Redfin March 2026 median of $187,000, total transfer tax = $280.50. When you sell to USA Home Buyers, we cover all closing costs including transfer taxes.',
+    answer: 'Illinois state transfer tax is $0.50 per $500 of consideration (35 ILCS 200/31-10). Sangamon County adds $0.25 per $500 (35 ILCS 200/31-55). Combined: $0.75 per $500 ($1.50 per $1,000 = 0.15%), paid by the seller. The City of Springfield does NOT impose a municipal real estate transfer tax — confirmed from the City of Springfield\'s official tax rate document. On the Redfin March 2026 median of $186,000, total transfer tax = $279.00. When you sell to USA Home Buyers, we cover all closing costs including transfer taxes.',
   },
   {
     question: 'Does Illinois require an attorney to sell a house?',
@@ -42,7 +42,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'What is the cash offer range for Springfield IL homes?',
-    answer: 'Cash offers for Springfield homes typically run 65-75% of fair market value depending on condition, location, and any liens. On the Zillow ZHVI of $163,198, that\'s roughly $106,000-$122,400. On the Redfin median of $187,000, roughly $121,550-$140,250. Distressed properties (major repairs needed, code violations, fire damage) price lower; well-maintained properties in strong neighborhoods price toward the top of the range. We cover all closing costs — the offer is the net you receive.',
+    answer: 'Cash offers for Springfield homes typically run 65-75% of fair market value depending on condition, location, and any liens. On the Zillow ZHVI of $163,198, that\'s roughly $106,000-$122,400. On the Redfin median of $186,000, roughly $120,900-$139,500. Distressed properties (major repairs needed, code violations, fire damage) price lower; well-maintained properties in strong neighborhoods price toward the top of the range. We cover all closing costs — the offer is the net you receive.',
   },
   {
     question: 'Does the City of Springfield have a local landlord-tenant ordinance?',

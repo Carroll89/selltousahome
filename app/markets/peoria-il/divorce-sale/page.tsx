@@ -30,7 +30,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How quickly can we sell the house during a Peoria IL divorce?',
-    answer: 'USA Home Buyers can close in as few as 7 days once both parties agree on the sale. The primary variable is how quickly both spouses can sign the contract and agree on distribution. A cash sale eliminates the inspection-repair negotiation cycle, the financing contingency, and the 44-59 day financed close timeline. Per Redfin (January 2026), the Peoria city median sale price is $139,000 (+8.2% YoY) — a concrete reference point for both parties\' attorneys.',
+    answer: 'USA Home Buyers can close in as few as 7 days once both parties agree on the sale. The primary variable is how quickly both spouses can sign the contract and agree on distribution. A cash sale eliminates the inspection-repair negotiation cycle, the financing contingency, and the 44-59 day financed close timeline. Per Redfin (Peoria city, Mar 2026), the Peoria city median sale price is $145,900 (+8.2% YoY) — a concrete reference point for both parties\' attorneys.',
   },
   {
     question: 'What is the transfer tax on a divorce sale in Peoria?',
@@ -150,7 +150,7 @@ Selling a Peoria IL home in divorce? According to 750 ILCS 5/503, Illinois is eq
             A cash sale to USA Home Buyers eliminates every one of these friction points. We make one written offer. Both spouses review the same number. If both agree, we sign a contract, choose a closing date, and pay at closing. No repairs. No showings. No financing risk. No inspection negotiation. The attorneys divide the net proceeds per the settlement agreement.
           </p>
           <p className="text-gray-700 mb-4">
-            According to Zillow (February 2026), Peoria's ZHVI is $115,649. On a home at that price point, 5-6% agent commission represents $5,782–$6,939 — a meaningful sum that reduces the net proceeds both parties share. USA Home Buyers charges no commission and covers all closing costs including Peoria's $800 transfer tax stack.
+            According to the Zillow Research City ZHVI CSV (Peoria city, 2026-03-31), Peoria's ZHVI is $128,838. On a home at that price point, 5-6% agent commission represents $5,782–$6,939 — a meaningful sum that reduces the net proceeds both parties share. USA Home Buyers charges no commission and covers all closing costs including Peoria's $800 transfer tax stack.
           </p>
         </section>
 

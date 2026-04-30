@@ -14,7 +14,7 @@ const pageUrl = `${SITE_URL}/markets/peoria-il/market-report`;
 export const metadata: Metadata = {
   title: 'Peoria IL Housing Market Report 2026 — Peoria County Data',
   description:
-    'Peoria IL housing market data: $115,649 ZHVI, $139K Redfin median, $800 three-layer transfer tax. Peoria County investor analysis for 2026. Cash buyers: 888-274-5006.',
+    'Peoria IL housing market data: $128,838 ZHVI, $139K Redfin median, $800 three-layer transfer tax. Peoria County investor analysis for 2026. Cash buyers: 888-274-5006.',
   alternates: { canonical: pageUrl },
 };
 
@@ -43,7 +43,7 @@ export default function PeoriaILMarketReportPage() {
           <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
             <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
             <p className="text-white text-sm leading-relaxed">
-According to Zillow (February 2026), Peoria ZHVI: $115,649 (+3.7% YoY). Per Redfin (January 2026), city median: $139,000 (+8.2% YoY). Source: Peoria City Code §27-226 — Peoria's municipal RETT adds $500 on a $200K sale; $800 total three-layer stack. RDC rank #29. Cash offers 65-75% of FMV. Call 888-274-5006.
+According to Zillow Research City CSV (Peoria city, 2026-03-31), Peoria ZHVI: $128,838 (+7.4% YoY). Per Redfin (Peoria city, Mar 2026), city median: $145,900 (+8.2% YoY). Source: Peoria City Code §27-226 — Peoria's municipal RETT adds $500 on a $200K sale; $800 total three-layer stack. RDC rank #29. Cash offers 65-75% of FMV. Call 888-274-5006.
             </p>
           </div>
         </div>
@@ -63,14 +63,14 @@ According to Zillow (February 2026), Peoria ZHVI: $115,649 (+3.7% YoY). Per Redf
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200">
-                <tr className="bg-white"><td className="p-3 font-medium">Zillow Home Value Index (ZHVI)</td><td className="p-3">$115,649</td><td className="p-3 text-gray-500">Zillow (Feb 2026)</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">ZHVI YoY Change</td><td className="p-3">+3.7%</td><td className="p-3 text-gray-500">Zillow (Feb 2026)</td></tr>
-                <tr className="bg-white"><td className="p-3 font-medium">Redfin Median Sale Price (city)</td><td className="p-3">$139,000</td><td className="p-3 text-gray-500">Redfin (Jan 2026)</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">Redfin Median Sale YoY (city)</td><td className="p-3">+8.2%</td><td className="p-3 text-gray-500">Redfin (Jan 2026)</td></tr>
-                <tr className="bg-white"><td className="p-3 font-medium">Redfin Median Sale Price (county)</td><td className="p-3">$163,000</td><td className="p-3 text-gray-500">Redfin (Jan 2026)</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">Redfin Median Sale YoY (county)</td><td className="p-3">-1.4%</td><td className="p-3 text-gray-500">Redfin (Jan 2026)</td></tr>
-                <tr className="bg-white"><td className="p-3 font-medium">FRED Listing Price per Sq Ft</td><td className="p-3">$104/sq ft</td><td className="p-3 text-gray-500">FRED (Feb 2026)</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">Avg. Pending Timeline</td><td className="p-3">~5 days (entry-level segment)</td><td className="p-3 text-gray-500">Zillow (Feb 2026)</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Zillow Home Value Index (ZHVI)</td><td className="p-3">$128,838</td><td className="p-3 text-gray-500">Zillow Research City CSV, 2026-03-31</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">ZHVI YoY Change</td><td className="p-3">+3.7%</td><td className="p-3 text-gray-500">Zillow Research City CSV, 2026-03-31</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Redfin Median Sale Price (city)</td><td className="p-3">$145,900 (+8.2% YoY)</td><td className="p-3 text-gray-500">Redfin Peoria city, Mar 2026</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Redfin Median Sale YoY (city)</td><td className="p-3">+8.2%</td><td className="p-3 text-gray-500">Redfin Peoria city, Mar 2026</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Redfin Median Sale Price (county)</td><td className="p-3">$163,000</td><td className="p-3 text-gray-500">Redfin Peoria city, Mar 2026</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Redfin Median Sale YoY (county)</td><td className="p-3">-1.4%</td><td className="p-3 text-gray-500">Redfin Peoria city, Mar 2026</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">FRED/Realtor CBSA median listing price</td><td className="p-3">$177,450</td><td className="p-3 text-gray-500">FRED/Realtor Peoria CBSA, 2026-03-01</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Redfin sold DOM / FRED active-listing DOM</td><td className="p-3">25 sold days / 43.00 active-listing days</td><td className="p-3 text-gray-500">Redfin Peoria city Mar 2026; FRED/Realtor Peoria CBSA, 2026-03-01</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">RDC Hotness Rank</td><td className="p-3">#29 (Peoria MSA)</td><td className="p-3 text-gray-500">Realtor.com</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">IL State Transfer Tax</td><td className="p-3">$0.50/$500 (0.10%) — seller pays</td><td className="p-3 text-gray-500">35 ILCS 200/31-10</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Peoria County Transfer Tax</td><td className="p-3">$0.25/$500 (0.05%) — seller pays</td><td className="p-3 text-gray-500">55 ILCS 5/5-1031</td></tr>
@@ -92,16 +92,16 @@ According to Zillow (February 2026), Peoria ZHVI: $115,649 (+3.7% YoY). Per Redf
             Peoria shows a notable divergence between the Zillow Home Value Index and the Redfin median sale price — and understanding why matters for accurate seller expectations.
           </p>
           <p className="text-gray-700 mb-4">
-            According to Zillow (February 2026), the Peoria city ZHVI is $115,649. The ZHVI is a smoothed estimate of the typical home value across the full distribution of homes in the city — including the large volume of sub-$80,000 entry-level and distressed inventory concentrated in South Peoria and East Bluff.
+            According to the Zillow Research City ZHVI CSV (Peoria city, 2026-03-31), the Peoria city ZHVI is $128,838. The ZHVI is a smoothed estimate of the typical home value across the full distribution of homes in the city — including the large volume of sub-$80,000 entry-level and distressed inventory concentrated in South Peoria and East Bluff.
           </p>
           <p className="text-gray-700 mb-4">
-            Per Redfin (January 2026), the Peoria city median sale price is $139,000. The Redfin median reflects only homes that actually sold in the reporting period — which skews toward retail-ready properties that successfully completed transactions. Distressed homes that sold off-market, properties that were sold directly to investors without MLS exposure, and vacant lots don't always appear in Redfin's sold dataset.
+            Per Redfin (Peoria city, Mar 2026), the median sale price is $145,900. The Redfin median reflects only homes that actually sold in the reporting period — which skews toward retail-ready properties that successfully completed transactions. Distressed homes that sold off-market, properties that were sold directly to investors without MLS exposure, and vacant lots don't always appear in Redfin's sold dataset.
           </p>
           <p className="text-gray-700 mb-4">
             The $23,351 gap between ZHVI and Redfin median tells you something specific: Peoria has a large inventory of low-value homes that pull down the overall value index, while the homes that sell on-market tend to be in better condition and command higher prices. For cash buyers, the ZHVI range is the relevant benchmark — it captures the typical home in Peoria, not just the ones that listed successfully.
           </p>
           <p className="text-gray-700 mb-4">
-            The county comparison adds another layer. Per Redfin (January 2026), the Peoria County median sale price is $163,000 — $24,000 above the city median. Peoria County suburban communities (Dunlap, Peoria Heights, Chillicothe, Washington) have better-maintained housing stock and higher price points than Peoria city proper. When evaluating a Peoria city property, use city-level data, not county-level data.
+            The active-listing comparison adds another layer. FRED/Realtor Peoria CBSA support shows a $177,450 median listing price and 43.00 active-listing DOM as of 2026-03-01; those are CBSA listing metrics, not Redfin city closed-sale metrics. Peoria County suburban communities (Dunlap, Peoria Heights, Chillicothe, Washington) can have higher price points than Peoria city proper. When evaluating a Peoria city property, use city-level data, not county-level data.
           </p>
         </section>
 
@@ -182,9 +182,9 @@ According to Zillow (February 2026), Peoria ZHVI: $115,649 (+3.7% YoY). Per Redf
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200">
-                <tr className="bg-white"><td className="p-3 font-medium">ZHVI</td><td className="p-3">$115,649</td><td className="p-3">$282,909</td><td className="p-3 text-gray-500">Zillow (Feb 2026)</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">Redfin Median (city/state)</td><td className="p-3">$139,000</td><td className="p-3">~$280,000</td><td className="p-3 text-gray-500">Redfin (Jan 2026)</td></tr>
-                <tr className="bg-white"><td className="p-3 font-medium">ZHVI YoY Change</td><td className="p-3">+3.7%</td><td className="p-3">+3.8%</td><td className="p-3 text-gray-500">Zillow (Feb 2026)</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">ZHVI</td><td className="p-3">$128,838</td><td className="p-3">$282,909</td><td className="p-3 text-gray-500">Zillow Research City CSV, 2026-03-31</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Redfin Median (city/state)</td><td className="p-3">$145,900</td><td className="p-3">~$280,000</td><td className="p-3 text-gray-500">Redfin Peoria city, Mar 2026</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">ZHVI YoY Change</td><td className="p-3">+3.7%</td><td className="p-3">+3.8%</td><td className="p-3 text-gray-500">Zillow Research City CSV, 2026-03-31</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Median HH Income</td><td className="p-3">$59,410</td><td className="p-3">~$72,000</td><td className="p-3 text-gray-500">2024 ACS</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Poverty Rate</td><td className="p-3">14.1%</td><td className="p-3">~11%</td><td className="p-3 text-gray-500">2024 ACS</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Pre-1940 Housing Stock</td><td className="p-3">24.3%</td><td className="p-3">~14%</td><td className="p-3 text-gray-500">biggestuscities.com</td></tr>

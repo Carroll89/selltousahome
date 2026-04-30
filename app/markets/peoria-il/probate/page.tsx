@@ -199,7 +199,7 @@ Peoria IL probate sale? According to 755 ILCS 5, real property always requires f
 
           <h3 className="text-xl font-semibold text-brand-dark mb-3">Caterpillar-Era Manufacturing Worker Estates</h3>
           <p className="text-gray-700 mb-4">
-            The classic Peoria probate property: a home bought in the 1950s–1970s during peak Caterpillar employment, paid off in full, left to multiple adult children who are now geographically dispersed. According to Zillow (February 2026), the Peoria ZHVI is $115,649 — but many of these estates involve homes in South Peoria and East Bluff worth $50,000–$90,000 in as-is condition after 30-50 years of aging-owner maintenance.
+            The classic Peoria probate property: a home bought in the 1950s–1970s during peak Caterpillar employment, paid off in full, left to multiple adult children who are now geographically dispersed. According to Zillow Research City CSV (2026-03-31), the Peoria ZHVI is $128,838 — but many of these estates involve homes in South Peoria and East Bluff worth $50,000–$90,000 in as-is condition after 30-50 years of aging-owner maintenance.
           </p>
           <p className="text-gray-700 mb-4">
             The heirs typically include 2-5 adult children spread across Illinois, Indiana, and other states — people who left Peoria as manufacturing employment contracted. None wants to inherit the property, maintain it, or pay property taxes on it. The consensus is to sell, but coordinating multiple out-of-state heirs adds friction. A written cash offer from USA Home Buyers — a single specific number — often resolves the coordination problem faster than any alternative.

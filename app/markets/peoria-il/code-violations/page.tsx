@@ -199,7 +199,7 @@ export default function PeoriaCodeViolationsPage() {
             At closing, these liens are typically paid from the sale proceeds before the seller receives their net proceeds. If the total of all liens (mortgage, tax, municipal) exceeds the sale price, a short payoff negotiation may be required. USA Home Buyers works with experienced Peoria title companies who handle code violation lien clearance routinely.
           </p>
           <p className="text-gray-700 mb-4">
-            According to Zillow (February 2026), Peoria's ZHVI is $115,649. On a South Side property valued at $55,000 with a $12,000 accumulated code violation lien, a $50,000 cash offer would net $38,000 after lien clearance — still better than the alternative of facing a $30,000-$50,000 demolition cost on a property worth nothing to the city once demolished.
+            According to the Zillow Research City ZHVI CSV (Peoria city, 2026-03-31), Peoria's ZHVI is $128,838. On a South Side property valued at $55,000 with a $12,000 accumulated code violation lien, a $50,000 cash offer would net $38,000 after lien clearance — still better than the alternative of facing a $30,000-$50,000 demolition cost on a property worth nothing to the city once demolished.
           </p>
         </section>
 
@@ -251,7 +251,7 @@ export default function PeoriaCodeViolationsPage() {
             Over three to five years of vacancy with open violations, the accumulated carrying cost can exceed the property's distressed-sale value. This creates a compounding problem: the longer the owner waits, the more the property's net equity erodes, and the fewer options remain. Selling to USA Home Buyers immediately stops the carrying cost clock and delivers whatever equity remains above the lien stack.
           </p>
           <p className="text-gray-700 mb-4">
-            According to Zillow (February 2026), the Peoria city ZHVI is $115,649. On a distressed South Side property worth $45,000 in as-is condition with $8,000 in accumulated code violation liens and $4,000 in delinquent property taxes, a $40,000 cash offer would deliver approximately $28,000 in net proceeds after clearing all encumbrances. That's $28,000 more than letting the property sit until the city demolishes it for $0 — or negative equity after the demolition cost lien is recorded.
+            According to the Zillow Research City ZHVI CSV (Peoria city, 2026-03-31), the Peoria city ZHVI is $128,838. On a distressed South Side property worth $45,000 in as-is condition with $8,000 in accumulated code violation liens and $4,000 in delinquent property taxes, a $40,000 cash offer would deliver approximately $28,000 in net proceeds after clearing all encumbrances. That's $28,000 more than letting the property sit until the city demolishes it for $0 — or negative equity after the demolition cost lien is recorded.
           </p>
 
           <h2 className="text-2xl font-bold text-brand-dark mb-4">Neighborhood-Specific Code Enforcement Patterns</h2>
@@ -269,7 +269,7 @@ export default function PeoriaCodeViolationsPage() {
             The Bradley Park and Knoxville Avenue corridor neighborhoods are subject to a different code violation profile: student-rental damage complaints from neighbors and occasional interior-condition citations. These violations are typically less severe than structural issues but can accumulate if a landlord is managing multiple properties or has reduced involvement in the property.
           </p>
           <p className="text-gray-700 mb-4">
-            For landlords in these areas with open violation notices and code-condition issues from years of student rental occupancy, USA Home Buyers purchases the property as-is. We factor the violation status into the offer and handle all post-closing compliance. Per Redfin (January 2026), the Peoria city median sale price is $139,000 — and for a code-impaired rental property, a cash sale at 65–75% of value in today's rising market may net more than waiting through a remediation and re-list cycle.
+            For landlords in these areas with open violation notices and code-condition issues from years of student rental occupancy, USA Home Buyers purchases the property as-is. We factor the violation status into the offer and handle all post-closing compliance. Per Redfin (Peoria city, Mar 2026), the Peoria city median sale price is $145,900 — and for a code-impaired rental property, a cash sale at 65–75% of value in today's rising market may net more than waiting through a remediation and re-list cycle.
           </p>
 
           <h2 className="text-2xl font-bold text-brand-dark mb-4">How USA Home Buyers Handles Code Violation Properties</h2>

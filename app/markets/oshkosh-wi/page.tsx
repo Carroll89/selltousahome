@@ -124,7 +124,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How much will you pay for my Oshkosh WI house?',
-    answer: 'Cash offers for Oshkosh homes typically run 70-80% of fair market value, depending on condition, location, and any liens. Zillow\'s Home Value Index for Oshkosh is $250,967 (+5.2% YoY, April 2026). Redfin puts the March 2026 median sale price at $211,000. A typical cash offer on a Merritt area bungalow or Algoma mid-century ranch runs in the $148K-$169K range on a home at median condition. We cover all closing costs including Wisconsin state real estate transfer fee ($3.00/$1,000 under Wis. Stat. § 77.22) — no additional Winnebago County WI or City of Oshkosh transfer tax.',
+    answer: 'Cash offers for Oshkosh homes typically run 70-80% of fair market value, depending on condition, location, and any liens. Zillow\'s Home Value Index for Oshkosh is $253,810 (+5.4% YoY, Zillow Research City ZHVI CSV, 2026-03-31). Redfin puts the March 2026 median sale price at $211,000. A typical cash offer on a Merritt area bungalow or Algoma mid-century ranch runs in the $148K-$169K range on a home at median condition. We cover all closing costs including Wisconsin state real estate transfer fee ($3.00/$1,000 under Wis. Stat. § 77.22) — no additional Winnebago County WI or City of Oshkosh transfer tax.',
   },
   {
     question: 'What is the transfer tax when selling a house in Oshkosh WI?',
@@ -148,7 +148,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'Is Oshkosh a good market to sell a home quickly?',
-    answer: 'Yes. Realtor.com ranked Oshkosh #13 hottest housing market nationally in March 2026 (hotness score 92.809, median active listing DOM 36.0 days). Redfin compete score is 60/100 (somewhat competitive). Median sold DOM is 61 days. The hot-home segment goes pending in 42 days. Cash sales cut through that competition entirely — no mortgage contingency, no inspection renegotiation, no waiting for the buyer\'s loan to clear. For sellers in time-sensitive situations, cash is faster and more certain than retail.',
+    answer: 'Yes. Realtor.com ranked Oshkosh #13 hottest housing market nationally in March 2026 (hotness score 92.809, median active listing DOM 36.0 days). Redfin compete score is 61/100 (somewhat competitive). Median sold DOM is 61 days. The hot-home segment goes pending in 42 days. Cash sales cut through that competition entirely — no mortgage contingency, no inspection renegotiation, no waiting for the buyer\'s loan to clear. For sellers in time-sensitive situations, cash is faster and more certain than retail.',
   },
 ];
 
@@ -202,7 +202,7 @@ export default function OshkoshWIMarketPage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                USA Home Buyers purchases houses in Oshkosh WI and throughout Winnebago County — Lake Shore Victorians, Merritt brick bungalows, Algoma mid-century ranches, Center City urban-core homes, estate sales, foreclosures, divorce situations. Written cash offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no agent fees. Oshkosh Zillow ZHVI $250,967 (+5.2% YoY, Apr 2026); Redfin median sale $211,000. WI state transfer fee $3.00/$1,000 — no county or municipal add-on. Call 888-274-5006.
+                USA Home Buyers purchases houses in Oshkosh WI and throughout Winnebago County — Lake Shore Victorians, Merritt brick bungalows, Algoma mid-century ranches, Center City urban-core homes, estate sales, foreclosures, divorce situations. Written cash offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no agent fees. Oshkosh Zillow ZHVI $253,810 (+5.4% YoY, Zillow Research City ZHVI CSV, 2026-03-31); Redfin median sale $211,000. WI state transfer fee $3.00/$1,000 — no county or municipal add-on. Call 888-274-5006.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
@@ -259,7 +259,7 @@ export default function OshkoshWIMarketPage() {
             Oshkosh built its identity on manufacturing, lake commerce, and education. The housing stock that grew from that history is visually distinctive and structurally specific: Victorian-era wood-frame homes on the Lake Winnebago waterfront dating to the 1880s, early-20th-century brick bungalows in the Merritt and Algoma neighborhoods near UW Oshkosh, mid-century Cape Cods and ranches scattered across the southwest and southeast sides, and the historic two-story frame homes of Center City and Downtown. The dominant theme is pre-war construction — and pre-war construction is where the cash buyer opportunity lives.
           </p>
           <p className="text-gray-700 mb-4">
-            Oshkosh's housing stock regularly presents the conditions that keep conventional and FHA financing off the table: original knob-and-tube wiring in brick bungalows, galvanized plumbing in pre-war homes, basement moisture issues tied to Lake Winnebago's flood-plain drainage zones, and deferred maintenance on roofs and mechanicals that owners — particularly retirees and estate heirs — don't want to fund. A Redfin compete score of 60/100 tells you that retail-ready homes move (median 61 days on market, with hot homes going pending in 42 days), but the key is "retail-ready." Many of Oshkosh's most interesting homes aren't, and they need a cash buyer.
+            Oshkosh's housing stock regularly presents the conditions that keep conventional and FHA financing off the table: original knob-and-tube wiring in brick bungalows, galvanized plumbing in pre-war homes, basement moisture issues tied to Lake Winnebago's flood-plain drainage zones, and deferred maintenance on roofs and mechanicals that owners — particularly retirees and estate heirs — don't want to fund. A Redfin compete score of 61/100 tells you that retail-ready homes move (median 61 days on market, with hot homes going pending in 42 days), but the key is "retail-ready." Many of Oshkosh's most interesting homes aren't, and they need a cash buyer.
           </p>
           <p className="text-gray-700 mb-4">
             The Fox Valley manufacturing cycle and UW Oshkosh faculty retirement pipeline produce a steady distressed-seller profile unique to this market. When a former Kimberly-Clark or Oshkosh Corporation employee on a fixed pension faces a major repair bill on a 1940s brick bungalow they've owned for decades, or when adult children in Arizona manage an estate that includes a Lake Winnebago-adjacent Victorian, the decision to sell for cash rather than fund a renovation they can't supervise is straightforward. USA Home Buyers serves exactly these sellers.
@@ -274,13 +274,13 @@ export default function OshkoshWIMarketPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200">
-                <tr className="bg-white"><td className="p-3 font-medium">Zillow Home Value Index (ZHVI)</td><td className="p-3">$250,967 (+5.2% YoY)</td><td className="p-3 text-gray-500">Zillow (Apr 2026)</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Zillow Home Value Index (ZHVI)</td><td className="p-3">$253,810 (+5.4% YoY)</td><td className="p-3 text-gray-500">Zillow Research City CSV (2026-03-31)</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Redfin Median Sale Price</td><td className="p-3">$211,000 (-1.1% YoY)</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Price per Square Foot</td><td className="p-3">$137 (-2.8% YoY)</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Median Days on Market (sold)</td><td className="p-3">61 days</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Hot Homes Pending</td><td className="p-3">~42 days</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">RDC Active Listing DOM</td><td className="p-3">36.0 days (Rank #13 nationally)</td><td className="p-3 text-gray-500">Realtor.com (Mar 2026)</td></tr>
-                <tr className="bg-white"><td className="p-3 font-medium">Redfin Compete Score</td><td className="p-3">60/100 — Somewhat Competitive</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Redfin Compete Score</td><td className="p-3">61/100 — Somewhat Competitive</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Sale-to-List Price Ratio</td><td className="p-3">99.5% (+0.2 pt YoY)</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Homes Sold (Mar 2026)</td><td className="p-3">53 (up from 52 Mar 2025)</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">WI Transfer Fee (state only)</td><td className="p-3">$3.00/$1,000 (0.30%) — no county or municipal add-on</td><td className="p-3 text-gray-500">Wis. Stat. § 77.22</td></tr>
@@ -313,7 +313,7 @@ export default function OshkoshWIMarketPage() {
           </h2>
           <ComparisonTable rows={COMPARISON_ROWS} />
           <p className="mt-4 text-sm text-gray-600">
-            On a $211,000 Oshkosh home, a 5-6% agent commission runs $10,550-$12,660. Add Wisconsin's transfer fee (~$633), carrying costs during 61-day median DOM, and repair requests on pre-war housing stock. Oshkosh brick bungalows and Lake Shore Victorians frequently have deferred-maintenance issues — knob-and-tube wiring, galvanized plumbing, foundation moisture near Lake Winnebago drainage zones — that conventional lenders flag. A cash offer eliminates the inspection contingency and repair negotiation entirely. At $250,967 ZHVI, every commission dollar matters.
+            On a $211,000 Oshkosh home, a 5-6% agent commission runs $10,550-$12,660. Add Wisconsin's transfer fee (~$633), carrying costs during 61-day median DOM, and repair requests on pre-war housing stock. Oshkosh brick bungalows and Lake Shore Victorians frequently have deferred-maintenance issues — knob-and-tube wiring, galvanized plumbing, foundation moisture near Lake Winnebago drainage zones — that conventional lenders flag. A cash offer eliminates the inspection contingency and repair negotiation entirely. At $253,810 ZHVI, every commission dollar matters.
           </p>
         </section>
 

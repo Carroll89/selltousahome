@@ -119,7 +119,7 @@ export default function BloomingtonILNeighborhoodsPage() {
 
         <section className="my-8">
           <p className="text-gray-700 mb-4">
-            According to Zillow (February 2026), the Bloomington Home Value Index (ZHVI) is $228,634 — but that city-wide figure masks meaningful variation across Bloomington's distinct neighborhoods. A home in Founders&apos; Grove Historic District commands a different value than a 1960s ranch in Holiday Knolls or a rental-conversion in the Veterans Parkway corridor. Per Redfin (March 2026), the city median sale price is $300,000, driven partly by high-value transactions in North Bloomington and newer-construction areas.
+            According to the Zillow Research City ZHVI CSV (2026-03-31), the Bloomington Home Value Index (ZHVI) is $261,269 — but that city-wide figure masks meaningful variation across Bloomington's distinct neighborhoods. A home in Founders&apos; Grove Historic District commands a different value than a 1960s ranch in Holiday Knolls or a rental-conversion in the Veterans Parkway corridor. Per Redfin (March 2026), the city median sale price is $300,000, driven partly by high-value transactions in North Bloomington and newer-construction areas.
           </p>
           <p className="text-gray-700 mb-4">
             USA Home Buyers evaluates each property based on its specific neighborhood, condition, and comps — not a single city-wide formula. Below is our neighborhood-by-neighborhood breakdown of what sellers in each area need to know.

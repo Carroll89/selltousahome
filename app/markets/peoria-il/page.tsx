@@ -120,7 +120,7 @@ const COMPARISON_ROWS = [
 const FAQ_ITEMS = [
   {
     question: 'How fast can I sell my house for cash in Peoria IL?',
-    answer: 'USA Home Buyers closes in as few as 7 days in Peoria and throughout Peoria County. We send a written cash offer within 24 hours of your inquiry. According to Zillow (February 2026), homes in Peoria are pending in approximately 5 days in the entry-level segment — the cash-buyer market here is active. Call 888-274-5006.',
+    answer: 'USA Home Buyers closes in as few as 7 days in Peoria and throughout Peoria County. We send a written cash offer within 24 hours of your inquiry. Redfin Peoria city data for Mar 2026 shows 25 sold days on market, while FRED/Realtor Peoria CBSA active-listing DOM is 43.00 days as of 2026-03-01 — the cash-buyer market remains active for as-is properties. Call 888-274-5006.',
   },
   {
     question: 'What transfer taxes will I pay when selling my Peoria house?',
@@ -128,7 +128,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How much will you pay for my Peoria IL house?',
-    answer: 'According to Zillow (February 2026), Peoria\'s Home Value Index is $115,649 (+3.7% YoY). Per Redfin (January 2026), the Peoria city median sale price is $139,000 (+8.2% YoY). Cash offers typically run 65-75% of fair market value depending on condition, location, and liens. Entry-level South Side and East Bluff homes — the segment with the highest distressed inventory — commonly receive offers in the $50,000-$95,000 range. We cover all closing costs including the $500 Peoria City transfer tax. Call 888-274-5006.',
+    answer: 'According to Zillow Research City CSV (2026-03-31), Peoria\'s Home Value Index is $128,838 (+7.4% YoY). Per Redfin (Peoria city, Mar 2026), the median sale price is $145,900 (+8.2% YoY). Cash offers typically run 65-75% of fair market value depending on condition, location, and liens. Entry-level South Side and East Bluff homes — the segment with the highest distressed inventory — commonly receive offers in the $50,000-$95,000 range. We cover all closing costs including the $500 Peoria City transfer tax. Call 888-274-5006.',
   },
   {
     question: 'Do I need to make repairs before selling to USA Home Buyers?',
@@ -202,7 +202,7 @@ export default function PeoriaILMarketPage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                USA Home Buyers purchases houses in Peoria IL and throughout Peoria County — South Side bungalows, East Bluff ranches, Richwoods estates, Grand View Drive historics, Caterpillar-era retiree homes, inherited property, foreclosures, fire damage, divorce sales. Written cash offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no fees. According to Zillow (February 2026), Peoria ZHVI is $115,649. We cover all closing costs including Peoria's three-layer $800 transfer tax stack. Call 888-274-5006.
+                USA Home Buyers purchases houses in Peoria IL and throughout Peoria County — South Side bungalows, East Bluff ranches, Richwoods estates, Grand View Drive historics, Caterpillar-era retiree homes, inherited property, foreclosures, fire damage, divorce sales. Written cash offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no fees. According to the Zillow Research City ZHVI CSV (Peoria city, 2026-03-31), Peoria ZHVI is $128,838. We cover all closing costs including Peoria's three-layer $800 transfer tax stack. Call 888-274-5006.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
@@ -256,7 +256,7 @@ export default function PeoriaILMarketPage() {
             Peoria is the county seat of Peoria County and the largest city on the Illinois River, with a population of 112,169 (2024 ACS estimate). Once the largest city in Illinois in the mid-20th century, Peoria's economy pivoted from heavy Caterpillar-anchored manufacturing toward a healthcare-education-logistics hybrid — a transition that shaped both the city's demographics and its housing market in ways that directly affect sellers today.
           </p>
           <p className="text-gray-700 mb-4">
-            According to Zillow (February 2026), Peoria's Home Value Index is $115,649 — among the lowest for any major Illinois metro, and less than half the statewide ZHVI of $282,909. Per Redfin (January 2026), the median sale price for Peoria city is $139,000, up 8.2% year-over-year despite a city population decline of approximately 1.2% since 2019. That combination — rising values despite population contraction — reflects strong investor and cash-buyer demand for Peoria's entry-level inventory.
+            According to the Zillow Research City ZHVI CSV (Peoria city, 2026-03-31), Peoria's Home Value Index is $128,838 — among the lowest for any major Illinois metro, and less than half the statewide ZHVI of $282,909. Per Redfin (Peoria city, Mar 2026), the median sale price for Peoria city is $145,900, up 8.2% year-over-year despite a city population decline of approximately 1.2% since 2019. That combination — rising values despite population contraction — reflects strong investor and cash-buyer demand for Peoria's entry-level inventory.
           </p>
           <p className="text-gray-700 mb-4">
             The housing stock itself defines the market. Source: biggestuscities.com confirms that 24.3% of all Peoria housing units were built before 1940 — the highest percentage of any of the three Illinois markets in USA Home Buyers' portfolio. South Peoria, East Bluff, and the Manual area contain the densest concentrations of pre-war balloon-frame construction: 1910s–1930s workers' bungalows and two-stories originally built for Caterpillar and industrial employees. Many of these homes have deferred $60,000–$100,000 in maintenance over decades. They don't qualify for FHA or conventional financing. They need a cash buyer.
@@ -277,11 +277,11 @@ export default function PeoriaILMarketPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200">
-                <tr className="bg-white"><td className="p-3 font-medium">Zillow Home Value Index (ZHVI)</td><td className="p-3">$115,649 (+3.7% YoY)</td><td className="p-3 text-gray-500">Zillow (Feb 2026)</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">Redfin Median Sale Price (city)</td><td className="p-3">$139,000 (+8.2% YoY)</td><td className="p-3 text-gray-500">Redfin (Jan 2026)</td></tr>
-                <tr className="bg-white"><td className="p-3 font-medium">Redfin Median Sale Price (county)</td><td className="p-3">$163,000 (-1.4% YoY)</td><td className="p-3 text-gray-500">Redfin (Jan 2026)</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">FRED Listing Price/Sq Ft</td><td className="p-3">$104/sq ft</td><td className="p-3 text-gray-500">FRED (Feb 2026)</td></tr>
-                <tr className="bg-white"><td className="p-3 font-medium">Avg. Pending Timeline</td><td className="p-3">~5 days (entry-level segment)</td><td className="p-3 text-gray-500">Zillow (Feb 2026)</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Zillow Home Value Index (ZHVI)</td><td className="p-3">$128,838 (+7.4% YoY)</td><td className="p-3 text-gray-500">Zillow Research City CSV, 2026-03-31</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Redfin Median Sale Price (city)</td><td className="p-3">$145,900 (+8.2% YoY)</td><td className="p-3 text-gray-500">Redfin Peoria city, Mar 2026</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">FRED/Realtor CBSA median listing price</td><td className="p-3">$177,450</td><td className="p-3 text-gray-500">FRED/Realtor Peoria CBSA, 2026-03-01</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Redfin price per square foot</td><td className="p-3">$92/sq ft (+7.6% YoY)</td><td className="p-3 text-gray-500">Redfin Peoria city, Mar 2026</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Redfin sold DOM / FRED active-listing DOM</td><td className="p-3">25 sold days / 43.00 active-listing days</td><td className="p-3 text-gray-500">Redfin Peoria city Mar 2026; FRED/Realtor Peoria CBSA, 2026-03-01</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Pre-1940 Housing Stock</td><td className="p-3">24.3%</td><td className="p-3 text-gray-500">biggestuscities.com</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">RDC Hotness Rank</td><td className="p-3">#29 (Peoria MSA)</td><td className="p-3 text-gray-500">Realtor.com</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Transfer Tax (state + county + city)</td><td className="p-3">$800 total on $200K sale (0.40%)</td><td className="p-3 text-gray-500">35 ILCS 200/31-10; Peoria City Code §27-226</td></tr>
@@ -291,7 +291,7 @@ export default function PeoriaILMarketPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-sm text-gray-600 italic">What this means for Peoria sellers: entry-level homes move fast (~5-day pending timeline), but the large volume of distressed inventory and the three-layer transfer tax create friction for conventional buyers. On a $139,000 city median home, a 5-6% agent commission runs $6,950-$8,340 before closing costs, the $800 transfer tax stack, and repair requests. At $115,649 ZHVI average, those costs represent a significant share of the sale price.</p>
+          <p className="text-sm text-gray-600 italic">What this means for Peoria sellers: Redfin city sold DOM is 25 days while CBSA active-listing DOM is 43.00 days; the large volume of distressed inventory and the three-layer transfer tax create friction for conventional buyers. On a $145,900 city median home, a 5-6% agent commission runs $7,295-$8,754 before closing costs, the $800 transfer tax stack, and repair requests. At $128,838 ZHVI average, those costs represent a significant share of the sale price.</p>
         </section>
 
         <section className="my-12 bg-amber-50 border border-amber-200 rounded-2xl p-6">
@@ -323,7 +323,7 @@ export default function PeoriaILMarketPage() {
           </h2>
           <ComparisonTable rows={COMPARISON_ROWS} />
           <p className="mt-4 text-sm text-gray-600">
-            On the $139,000 Peoria city median, a 5-6% agent commission runs $6,950-$8,340. Add Peoria's three-layer transfer tax ($800 on a $200K sale), carrying costs during marketing, and repair requests on 24.3% pre-1940 housing stock. Balloon-frame construction, knob-and-tube wiring, and galvanized plumbing are common in South Peoria and East Bluff homes — exactly the conditions that flag FHA and conventional lenders. A cash offer eliminates the inspection contingency and repair negotiation entirely.
+            On the $145,900 Peoria city median, a 5-6% agent commission runs $7,295-$8,754. Add Peoria's three-layer transfer tax ($800 on a $200K sale), carrying costs during marketing, and repair requests on 24.3% pre-1940 housing stock. Balloon-frame construction, knob-and-tube wiring, and galvanized plumbing are common in South Peoria and East Bluff homes — exactly the conditions that flag FHA and conventional lenders. A cash offer eliminates the inspection contingency and repair negotiation entirely.
           </p>
         </section>
 

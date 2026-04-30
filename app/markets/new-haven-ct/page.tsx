@@ -95,7 +95,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How much will you pay for my New Haven CT house?',
-    answer: "Cash offers for New Haven homes typically range from 65-80% of fair market value. According to Zillow, the typical New Haven home value is $323,843 (Feb 2026). Redfin's median sale price is $365,000 (Mar 2026). A typical cash offer on a Fair Haven triple-decker or Hill neighborhood row home runs $208,000–$259,000. We cover all closing costs including Connecticut's conveyance tax — 1.25% total (state 0.75% + municipal 0.50% for New Haven's Targeted Investment status). Source: Connecticut DRS (ct.gov/drs).",
+    answer: "Cash offers for New Haven homes typically range from 65-80% of fair market value. According to the Zillow Research City ZHVI CSV (New Haven city, 2026-03-31), the typical New Haven home value is $326,440 (+5.7% YoY). Redfin's median sale price is $365,000 (Mar 2026). A typical cash offer on a Fair Haven triple-decker or Hill neighborhood row home runs $228,000–$261,000. We cover all closing costs including Connecticut's conveyance tax — 1.25% total (state 0.75% + municipal 0.50% for New Haven's Targeted Investment status). Source: Connecticut DRS (ct.gov/drs).",
   },
   {
     question: 'What is the conveyance tax when selling a house in New Haven CT?',
@@ -176,7 +176,7 @@ export default function NewHavenCTMarketPage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                USA Home Buyers purchases houses in New Haven CT and throughout New Haven County — Fair Haven, East Rock, Westville, The Hill, Newhallville, Wooster Square, plus West Haven, Hamden, and East Haven. Written cash offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no fees. Zillow typical value: $323,843. We cover all closing costs including CT conveyance tax (1.25% Targeted Investment rate). Call 888-274-5006. Hablamos español — servimos a la comunidad hispana del 31% de New Haven.
+                USA Home Buyers purchases houses in New Haven CT and throughout New Haven County — Fair Haven, East Rock, Westville, The Hill, Newhallville, Wooster Square, plus West Haven, Hamden, and East Haven. Written cash offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no fees. Zillow Research city ZHVI: $326,440 (2026-03-31). We cover all closing costs including CT conveyance tax (1.25% Targeted Investment rate). Call 888-274-5006. Hablamos español — servimos a la comunidad hispana del 31% de New Haven.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-4">
@@ -226,7 +226,7 @@ export default function NewHavenCTMarketPage() {
             New Haven is the Elm City — Connecticut's second-largest city and home to Yale University, but the neighborhoods where motivated sellers live are far from Yale's Gothic spires. Fair Haven's triple-deckers, The Hill's dense urban blocks, and Newhallville's pre-war wood-frame homes tell a different story: a city where 70% of residents rent, median household income is $56,851, and housing stock that hasn't seen meaningful capital investment since the 1950s dominates the market.
           </p>
           <p className="text-gray-700 mb-4">
-            Realtor.com ranks New Haven-Milford MSA #12 nationally for hotness (score 93.645, March 2026). That hotness signal is real — but it doesn't apply equally across every neighborhood or every home condition. The city's median days on market is 65 days (up 19 days year-over-year per Redfin March 2026 data), meaning listed homes are sitting longer than last year. Hot homes still close in 28 days at 6% above list. Distressed properties in Newhallville, The Hill, and West River sit much longer — and are exactly what cash buyers are built for.
+            Realtor.com ranks New Haven-Milford MSA #12 nationally for hotness (score 93.645, March 2026). That hotness signal is real — but it doesn't apply equally across every neighborhood or every home condition. The city's median days on market is 65 days (up 19 days year-over-year per Redfin March 2026 data), meaning listed homes are sitting longer than last year. Hot homes still go pending in about 24 days at roughly 6% above list. Distressed properties in Newhallville, The Hill, and West River sit much longer — and are exactly what cash buyers are built for.
           </p>
           <div className="overflow-x-auto mb-6">
             <table className="w-full text-sm border-collapse">
@@ -238,10 +238,10 @@ export default function NewHavenCTMarketPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200">
-                <tr className="bg-white"><td className="p-3 font-medium">Zillow typical home value</td><td className="p-3">$323,843</td><td className="p-3 text-gray-500">Zillow ZHVI (Feb 2026)</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Zillow typical home value</td><td className="p-3">$326,440 (+5.7% YoY)</td><td className="p-3 text-gray-500">Zillow Research City ZHVI CSV (2026-03-31)</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Redfin median sale price</td><td className="p-3">$365,000</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Median days on market</td><td className="p-3">65 days (+19 YoY)</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">Redfin compete score</td><td className="p-3">51 / 100 (Somewhat Competitive)</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Redfin compete score</td><td className="p-3">56 / 100 (Somewhat Competitive)</td><td className="p-3 text-gray-500">Redfin New Haven city (Mar 2026)</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Conveyance tax</td><td className="p-3">1.25% total (seller pays) — Targeted Investment muni</td><td className="p-3 text-gray-500">CT Gen Stat Ch. 223 (ct.gov)</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Foreclosure type</td><td className="p-3">Strict foreclosure — no auction, Law Day</td><td className="p-3 text-gray-500">CT Gen Stat §§49-1 to 49-31</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Hispanic/Latino population</td><td className="p-3">31% of city</td><td className="p-3 text-gray-500">U.S. Census ACS (census.gov)</td></tr>

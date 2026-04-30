@@ -29,7 +29,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'What is the transfer tax on a divorce property sale in Wilmington?',
-    answer: "Wilmington has a 4% total transfer tax (2.5% Delaware state + 1.5% City of Wilmington). By convention, buyer and seller split it 50/50 (each pays 2%). On a $210,000 home, the total is $8,400. When you sell to USA Home Buyers, we cover all closing costs including the full transfer tax.",
+    answer: "Wilmington has a 4% total transfer tax (2.5% Delaware state + 1.5% City of Wilmington). By convention, buyer and seller split it 50/50 (each pays 2%). On a $251,200 home, the total is $10,048. When you sell to USA Home Buyers, we cover all closing costs including the full transfer tax.",
   },
   {
     question: 'Can you buy a house that has both spouses on the title?',
@@ -37,7 +37,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How long does a cash sale take vs. listing during a divorce?',
-    answer: "A cash sale closes in 7-14 days. A traditionally listed Wilmington home spends a median of 72 days on market (Redfin, Feb 2026) — and that's before the 30-45 day lender processing period. Divorce proceedings are already stressful enough. A cash sale ends the shared financial obligation in days, not months.",
+    answer: "A cash sale closes in 7-14 days. A traditionally listed Wilmington home spends a median of 61 days on market (Redfin Wilmington city, Mar 2026) — and that's before the 30-45 day lender processing period. Divorce proceedings are already stressful enough. A cash sale ends the shared financial obligation in days, not months.",
   },
 ];
 
@@ -102,7 +102,7 @@ export default function WilmingtonDivorceSalePage() {
             proceedings are ongoing. Every delay extends the time both parties remain financially tied together.
           </p>
           <p className="text-gray-700 mb-4">
-            According to Redfin, Wilmington homes spend a median of 72 days on market. Add 30-45 days for
+            According to Redfin, Wilmington homes spend a median of 61 days on market as of March 2026. Add 30-45 days for
             lender approval on a financed buyer, and you're looking at 3-4 months before closing. A cash sale
             with USA Home Buyers closes in 7-14 days. Both parties sign, proceeds are distributed at the title
             company, and that chapter is closed.

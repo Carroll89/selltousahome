@@ -43,7 +43,7 @@ export default function SpringfieldILMarketReportPage() {
         <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-5 mb-8">
           <p className="text-sm font-semibold text-blue-800 mb-2">TL;DR — Springfield IL Market Snapshot</p>
           <p className="text-sm text-blue-900 leading-relaxed">
-            According to Realtor.com (March 2026), Springfield IL is the #10 hottest market in the US (score 93.979). Per Redfin (March 2026), median sale price: $187,000 (+23% YoY). Per Zillow (3/31/2026), ZHVI: $163,198 (+8.2% YoY). Median days on market: 27 days (Redfin) / 31.5 days active listing (RDC). Compete score: 78/100 (Very Competitive). Sale-to-list ratio: 98.4%. 113 homes sold in March 2026. This is the best seller's market Springfield has seen in recent memory.
+            According to Realtor.com (March 2026), Springfield IL is the #10 hottest market in the US (score 93.979). Per Redfin (March 2026), median sale price: $186,000 (+22.4% YoY). Per Zillow (3/31/2026), ZHVI: $163,198 (+8.2% YoY). Median sold DOM: 28 days (Redfin) / 31.50 days active listing (FRED/Realtor). Compete score: 64/100 (Somewhat Competitive), with fast pending timelines for well-positioned homes. Sale-to-list ratio: 98.4%. 114 homes sold in March 2026. This is the best seller's market Springfield has seen in recent memory.
           </p>
         </div>
 
@@ -62,14 +62,14 @@ export default function SpringfieldILMarketReportPage() {
               <tbody>
                 {[
                   ['Zillow Home Value Index (ZHVI)', '$163,198', '+8.2%', 'Zillow (3/31/2026)'],
-                  ['Redfin Median Sale Price', '$187,000', '+23.0%', 'Redfin (Mar 2026)'],
+                  ['Redfin Median Sale Price', '$186,000', '+22.4%', 'Redfin (Mar 2026)'],
                   ['Price per Sq Ft', '$112', '+24.4%', 'Redfin (Mar 2026)'],
-                  ['Median Days on Market (sold)', '27 days', 'Not disclosed', 'Redfin (Mar 2026)'],
+                  ['Median Days on Market (sold)', '28 days', 'Not disclosed', 'Redfin (Mar 2026)'],
                   ['RDC Active Listing DOM', '31.5 days', 'N/A', 'Realtor.com (Mar 2026)'],
                   ['RDC Hotness Score', '93.979 (Rank #10)', 'N/A', 'Realtor.com (Mar 2026)'],
-                  ['Compete Score', '78/100 — Very Competitive', '+varies', 'Redfin (Mar 2026)'],
+                  ['Compete Score', '64/100 — Somewhat Competitive', '+varies', 'Redfin Springfield city (Mar 2026)'],
                   ['Sale-to-List Ratio', '98.4%', '+1.0 pt', 'Redfin (Mar 2026)'],
-                  ['Homes Sold', '113', 'N/A', 'Redfin (Mar 2026)'],
+                  ['Homes Sold', '114', 'N/A', 'Redfin (Mar 2026)'],
                 ].map(([metric, value, yoy, source], i) => (
                   <tr key={i} className={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
                     <td className="py-2 px-4 font-medium">{metric}</td>
@@ -81,7 +81,7 @@ export default function SpringfieldILMarketReportPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-xs text-gray-500 mt-2">Note: Zillow ZHVI is an average home value index, not a sale price median. Redfin median sale price ($187K) reflects actual closed transactions. The divergence reflects different measurement methodologies, not data error. Use Redfin for transaction comps; use ZHVI for market trend context.</p>
+          <p className="text-xs text-gray-500 mt-2">Note: Zillow ZHVI is an average home value index, not a sale price median. Redfin median sale price ($186K) reflects actual closed transactions. The divergence reflects different measurement methodologies, not data error. Use Redfin for transaction comps; use ZHVI for market trend context.</p>
         </section>
 
         <section className="mb-10">
@@ -90,7 +90,7 @@ export default function SpringfieldILMarketReportPage() {
             Realtor.com's Market Hotness Index ranks markets on two dimensions: demand (views per property, time on market) and supply (active inventory days on market). Springfield's 93.979 score and #10 national ranking as of March 2026 reflects a genuine supply-demand imbalance: the city has a historically large older housing stock with limited new construction, a stable employment base (state government), and increasing demand from buyers priced out of larger Illinois markets.
           </p>
           <p className="text-gray-700 mb-4">
-            Per Redfin (March 2026), the 23% year-over-year appreciation in the median sale price is the headline number — but the 24.4% jump in price per square foot tells the fuller story. Price appreciation is broad-based across the market, not concentrated in high-end properties.
+            Per Redfin (March 2026), the 22.4% year-over-year appreciation in the median sale price is the headline number — but the 24.4% jump in price per square foot tells the fuller story. Price appreciation is broad-based across the market, not concentrated in high-end properties.
           </p>
           <p className="text-gray-700 mb-4">
             For sellers, this means the market will support a retail listing on a well-maintained property. The question is whether the property condition, your timeline, and the cost of the retail process (agent commission, repairs, carrying costs, potential fallthrough) make retail the right choice vs. a direct cash sale.
@@ -112,8 +112,8 @@ export default function SpringfieldILMarketReportPage() {
                 {[
                   ['Zillow ZHVI', '$163,198', '$282,909'],
                   ['ZHVI YoY Growth', '+8.2%', '+3.8%'],
-                  ['Redfin Median Sale Price', '$187,000 (+23%)', '~$295,000'],
-                  ['Median Days on Market', '27 days', '51 days'],
+                  ['Redfin Median Sale Price', '$186,000 (+22.4%)', '~$295,000'],
+                  ['Median Days on Market', '28 days', '51 days'],
                   ['Hotness Rank', '#10 nationally', 'N/A'],
                 ].map(([metric, spfld, il], i) => (
                   <tr key={i} className={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
@@ -147,7 +147,7 @@ export default function SpringfieldILMarketReportPage() {
                 {[
                   ['$130,000', '$130', '$65', '$195'],
                   ['$163,198 (ZHVI)', '$163', '$81.60', '$244.80'],
-                  ['$187,000 (Redfin median)', '$187', '$93.50', '$280.50'],
+                  ['$186,000 (Redfin median)', '$186.00', '$93.00', '$279.00'],
                   ['$250,000', '$250', '$125', '$375'],
                 ].map(([price, state, county, total], i) => (
                   <tr key={i} className={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
@@ -176,7 +176,7 @@ export default function SpringfieldILMarketReportPage() {
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          As of early 2026, Springfield is one of the hottest small markets in the country — ranked #10 nationally. Per Redfin (March 2026), the median sale price hit $187,000, up 23% year-over-year. Homes are selling in just 27 days average. If you're thinking about selling in Springfield or anywhere in Sangamon County, this is a strong time to act. USA Home Buyers offers cash for homes in any condition. Call 888-274-5006.
+          As of early 2026, Springfield is one of the hottest small markets in the country — ranked #10 nationally. Per Redfin (March 2026), the median sale price hit $186,000, up 22.4% year-over-year. Homes are selling in 28 days median. If you're thinking about selling in Springfield or anywhere in Sangamon County, this is a strong time to act. USA Home Buyers offers cash for homes in any condition. Call 888-274-5006.
         </div>
       </details>
           <CashOfferForm variant="inline" headline="Get Your Springfield IL Cash Offer" subheadline="Written offer in 24 hours. We cover all closing costs." sourcePage="/markets/springfield-il/market-report" />

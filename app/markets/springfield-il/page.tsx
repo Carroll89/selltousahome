@@ -114,7 +114,7 @@ const COMPARISON_ROWS = [
   { label: 'Offer timeline', cashBuyer: '24 hours', traditional: '14-60 days to get an offer' },
   { label: 'Closing timeline', cashBuyer: '7-14 days', traditional: '45-60+ days' },
   { label: 'Repairs required', cashBuyer: 'None — we buy as-is', traditional: 'Usually required ($5K-$20K avg)' },
-  { label: 'Agent commissions', cashBuyer: '$0', traditional: '5-6% (~$9,350-$11,220 on Springfield median)' },
+  { label: 'Agent commissions', cashBuyer: '$0', traditional: '5-6% (~$9,300-$11,160 on Springfield median)' },
   { label: 'IL transfer tax (state + county)', cashBuyer: 'We cover everything', traditional: '$0.75/$500 combined — seller pays ~$280 on median' },
   { label: 'Sale certainty', cashBuyer: 'Guaranteed — written contract', traditional: '15-20% of listings fall through' },
   { label: 'Average net proceeds', cashBuyer: '65-75% of FMV', traditional: '85-92% after all costs' },
@@ -127,11 +127,11 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How much will you pay for my Springfield IL house?',
-    answer: 'Cash offers for Springfield homes typically run 65-75% of fair market value, depending on condition, location, and any liens. According to Zillow (March 2026), the Springfield IL Zillow Home Value Index is $163,198, up 8.2% year over year. Redfin puts the March 2026 median sale price at $187,000, up 23% YoY. A typical cash offer on a Harvard Park bungalow or Enos Park Victorian runs $106,000-$122,000 on a home at ZHVI. We cover all closing costs including Illinois state and Sangamon County transfer taxes ($0.75 per $500 of consideration).',
+    answer: 'Cash offers for Springfield homes typically run 65-75% of fair market value, depending on condition, location, and any liens. According to Zillow (March 2026), the Springfield IL Zillow Home Value Index is $163,198, up 8.2% year over year. Redfin puts the March 2026 median sale price at $186,000, up 22.4% YoY. A typical cash offer on a Harvard Park bungalow or Enos Park Victorian runs $106,000-$122,000 on a home at ZHVI. We cover all closing costs including Illinois state and Sangamon County transfer taxes ($0.75 per $500 of consideration).',
   },
   {
     question: 'What is the transfer tax when selling a house in Springfield IL?',
-    answer: 'Illinois charges a state real estate transfer tax of $0.50 per $500 of consideration under 35 ILCS 200/31-10. Sangamon County adds $0.25 per $500 under 35 ILCS 200/31-55. Combined: $0.75 per $500 ($1.50 per $1,000 = 0.15% of sale price), seller pays. The City of Springfield does NOT impose a municipal real estate transfer tax — confirmed from Springfield\'s official tax rate document. On the $187,000 Redfin median: $280.50 total. When you sell to USA Home Buyers, we cover all closing costs — you pay nothing at closing.',
+    answer: 'Illinois charges a state real estate transfer tax of $0.50 per $500 of consideration under 35 ILCS 200/31-10. Sangamon County adds $0.25 per $500 under 35 ILCS 200/31-55. Combined: $0.75 per $500 ($1.50 per $1,000 = 0.15% of sale price), seller pays. The City of Springfield does NOT impose a municipal real estate transfer tax — confirmed from Springfield\'s official tax rate document. On the $186,000 Redfin median: $279.00 total. When you sell to USA Home Buyers, we cover all closing costs — you pay nothing at closing.',
   },
   {
     question: 'How does foreclosure work in Sangamon County IL?',
@@ -214,7 +214,7 @@ export default function SpringfieldILMarketPage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                USA Home Buyers purchases houses in Springfield IL and throughout Sangamon County — Enos Park Victorians, Harvard Park bungalows, West Side brick ranches, estate sales, foreclosures, divorce situations. Written cash offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no agent fees. Springfield's Zillow Home Value Index is $163,198 (+8.2% YoY, March 2026); Redfin median sale price $187,000 (+23% YoY). We cover all closing costs including Illinois state transfer tax ($0.50/$500) and Sangamon County transfer tax ($0.25/$500). Call 888-274-5006.
+                USA Home Buyers purchases houses in Springfield IL and throughout Sangamon County — Enos Park Victorians, Harvard Park bungalows, West Side brick ranches, estate sales, foreclosures, divorce situations. Written cash offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no agent fees. Springfield's Zillow Home Value Index is $163,198 (+8.2% YoY, March 2026); Redfin median sale price $186,000 (+22.4% YoY). We cover all closing costs including Illinois state transfer tax ($0.50/$500) and Sangamon County transfer tax ($0.25/$500). Call 888-274-5006.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
@@ -268,7 +268,7 @@ export default function SpringfieldILMarketPage() {
             That heat comes from a specific combination: affordable entry prices, a stable government employment base (Illinois state government is Springfield's largest employer), and a significant volume of older housing stock in need of renovation that conventional buyers can't easily finance. Enos Park's Victorian-era cottages — some pre-dating 1900 — frequently have original knob-and-tube wiring, galvanized plumbing, and plaster walls that rule out FHA and conventional financing entirely. Harvard Park bungalows from the 1940s and '50s often carry the same limitations. That's where cash buyers operate.
           </p>
           <p className="text-gray-700 mb-4">
-            State-capital dynamics add another seller motivation that's unique to Springfield: government employees subject to workforce reductions, inter-agency transfers, and pension-related financial stress need to move fast. When a position gets transferred to Chicago or downstate budget cuts result in layoffs, the time from decision to departure is short — and listing retail, staging, and waiting 27-45 days for a conventional buyer isn't practical.
+            State-capital dynamics add another seller motivation that's unique to Springfield: government employees subject to workforce reductions, inter-agency transfers, and pension-related financial stress need to move fast. When a position gets transferred to Chicago or downstate budget cuts result in layoffs, the time from decision to departure is short — and listing retail, staging, and waiting 28-45 days for a conventional buyer isn't practical.
           </p>
           <div className="overflow-x-auto mb-6">
             <table className="w-full text-sm border-collapse">
@@ -281,11 +281,11 @@ export default function SpringfieldILMarketPage() {
               </thead>
               <tbody className="divide-y divide-gray-200">
                 <tr className="bg-white"><td className="p-3 font-medium">Zillow Home Value Index (ZHVI)</td><td className="p-3">$163,198 (+8.2% YoY)</td><td className="p-3 text-gray-500">Zillow (Mar 2026)</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">Redfin Median Sale Price</td><td className="p-3">$187,000 (+23.0% YoY)</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Redfin Median Sale Price</td><td className="p-3">$186,000 (+22.4% YoY)</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Price per Square Foot</td><td className="p-3">$112 (+24.4% YoY)</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">Median Days on Market (sold)</td><td className="p-3">27 days</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Median Days on Market (sold)</td><td className="p-3">28 days</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">RDC Active Listing DOM</td><td className="p-3">31.5 days (Rank #10 nationally)</td><td className="p-3 text-gray-500">Realtor.com (Mar 2026)</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">Redfin Compete Score</td><td className="p-3">78/100 — Very Competitive</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Redfin Compete Score</td><td className="p-3">64/100 — Somewhat Competitive</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Sale-to-List Ratio</td><td className="p-3">98.4% (+1.0 pt YoY)</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">IL Transfer Tax (state + county)</td><td className="p-3">$0.75 per $500 (0.15%) — seller pays</td><td className="p-3 text-gray-500">35 ILCS 200/31-10; Sangamon Recorder</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Foreclosure type</td><td className="p-3">Judicial — 735 ILCS 5/15-1101 (12-15 mos typical)</td><td className="p-3 text-gray-500">Illinois Mortgage Foreclosure Law</td></tr>
@@ -293,7 +293,7 @@ export default function SpringfieldILMarketPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-sm text-gray-600 italic">What this means for Springfield sellers: the market is genuinely hot — a 27-day median DOM means the right retail listing moves fast. But "right retail listing" excludes most of Springfield's older housing stock. If your home needs significant work, has title complications (estate, foreclosure, divorce), or you simply need speed without the hassle of showings and contingencies, a direct cash offer is the practical path. The 5-6% agent commission on a $187,000 median home runs $9,350-$11,220 before closing costs and repair requests.</p>
+          <p className="text-sm text-gray-600 italic">What this means for Springfield sellers: the market is genuinely hot — a 28-day median DOM means the right retail listing moves fast. But "right retail listing" excludes most of Springfield's older housing stock. If your home needs significant work, has title complications (estate, foreclosure, divorce), or you simply need speed without the hassle of showings and contingencies, a direct cash offer is the practical path. The 5-6% agent commission on a $186,000 median home runs $9,300-$11,160 before closing costs and repair requests.</p>
         </section>
 
         <SituationLinks
@@ -316,7 +316,7 @@ export default function SpringfieldILMarketPage() {
           </h2>
           <ComparisonTable rows={COMPARISON_ROWS} />
           <p className="mt-4 text-sm text-gray-600">
-            On a $187,000 Springfield home, a 5-6% agent commission runs $9,350-$11,220. Add Illinois's combined transfer tax (~$280.50), carrying costs during 27+ days on market, and repair requests on pre-1970 housing stock. Enos Park Victorians and Harvard Park bungalows frequently have deferred-maintenance issues — original wiring, galvanized plumbing, cracked foundations — that conventional lenders flag and require remediation before closing. A cash offer eliminates the inspection contingency and the repair negotiation entirely. At $163,198 average home value, every dollar of commission and repair cost is significant.
+            On a $186,000 Springfield home, a 5-6% agent commission runs $9,300-$11,160. Add Illinois's combined transfer tax ($279.00), carrying costs during 28+ days on market, and repair requests on pre-1970 housing stock. Enos Park Victorians and Harvard Park bungalows frequently have deferred-maintenance issues — original wiring, galvanized plumbing, cracked foundations — that conventional lenders flag and require remediation before closing. A cash offer eliminates the inspection contingency and the repair negotiation entirely. At $163,198 average home value, every dollar of commission and repair cost is significant.
           </p>
         </section>
 

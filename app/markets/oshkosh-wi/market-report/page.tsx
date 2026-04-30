@@ -43,7 +43,7 @@ export default function OshkoshWIMarketReportPage() {
           <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
             <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
             <p className="text-white text-sm leading-relaxed">
-              Oshkosh WI Zillow ZHVI: $250,967 (+5.2% YoY). Redfin median sale: $211,000. Compete score 60/100. Median sold DOM: 61 days. RDC rank #13. WI transfer fee $3.00/$1,000 — no Winnebago County WI or City of Oshkosh add-on (Wis. Stat. § 77.22). WI foreclosure 12-15 months (Ch. 846). Cash offers 70-80% FMV. USA Home Buyers: 888-274-5006.
+              Oshkosh WI Zillow ZHVI: $253,810 (+5.4% YoY). Redfin median sale: $211,000. Compete score 61/100. Median sold DOM: 61 days. RDC rank #13. WI transfer fee $3.00/$1,000 — no Winnebago County WI or City of Oshkosh add-on (Wis. Stat. § 77.22). WI foreclosure 12-15 months (Ch. 846). Cash offers 70-80% FMV. USA Home Buyers: 888-274-5006.
             </p>
           </div>
         </div>
@@ -64,7 +64,7 @@ export default function OshkoshWIMarketReportPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200">
-                <tr className="bg-white"><td className="p-3 font-medium">Zillow ZHVI (typical home value)</td><td className="p-3">$250,967</td><td className="p-3 text-green-700">+5.2%</td><td className="p-3 text-gray-500">Zillow (Apr 2026)</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Zillow ZHVI (typical home value)</td><td className="p-3">$253,810</td><td className="p-3 text-green-700">+5.4%</td><td className="p-3 text-gray-500">Zillow Research City CSV (2026-03-31)</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Redfin Median Sale Price</td><td className="p-3">$211,000</td><td className="p-3 text-red-600">-1.1%</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Price per Square Foot (city)</td><td className="p-3">$137</td><td className="p-3 text-red-600">-2.8%</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Price/Sqft Winnebago County WI</td><td className="p-3">$167</td><td className="p-3 text-green-700">+14.4%</td><td className="p-3 text-gray-500">Redfin County (Mar 2026)</td></tr>
@@ -72,7 +72,7 @@ export default function OshkoshWIMarketReportPage() {
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Hot Homes Pending</td><td className="p-3">~42 days</td><td className="p-3">—</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">RDC Active Listing DOM</td><td className="p-3">36.0 days</td><td className="p-3">—</td><td className="p-3 text-gray-500">Realtor.com (Mar 2026)</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">RDC Hotness Score</td><td className="p-3">92.809 — Rank #13 nationally</td><td className="p-3">—</td><td className="p-3 text-gray-500">Realtor.com (Mar 2026)</td></tr>
-                <tr className="bg-white"><td className="p-3 font-medium">Redfin Compete Score</td><td className="p-3">60/100 — Somewhat Competitive</td><td className="p-3">—</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Redfin Compete Score</td><td className="p-3">61/100 — Somewhat Competitive</td><td className="p-3">—</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Sale-to-List Ratio</td><td className="p-3">99.5%</td><td className="p-3 text-green-700">+0.2 pt</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Homes Sold (Mar 2026)</td><td className="p-3">53</td><td className="p-3 text-green-700">+1 YoY</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">WI State Median Home Price</td><td className="p-3">~$307,000</td><td className="p-3">—</td><td className="p-3 text-gray-500">Statewide (2026)</td></tr>
@@ -80,7 +80,7 @@ export default function OshkoshWIMarketReportPage() {
               </tbody>
             </table>
           </div>
-          <p className="text-sm text-gray-600 italic">Note: According to Zillow (April 2026), the Oshkosh typical home value (ZHVI) is $250,967. Per Redfin (March 2026), the median closed sale price is $211,000. The gap between these figures reflects Zillow's index incorporating the full housing stock including premium Lake Shore Victorians and Sawyer Creek newer builds, while Redfin's transaction figure is skewed toward entry-level and investor-grade sales. For cash buyer offer-range calculations, the $211,000 Redfin figure is more relevant.</p>
+          <p className="text-sm text-gray-600 italic">Note: According to the Zillow Research City ZHVI CSV (2026-03-31), the Oshkosh typical home value (ZHVI) is $253,810. Per Redfin (March 2026), the median closed sale price is $211,000. The gap between these figures reflects Zillow's index incorporating the full housing stock including premium Lake Shore Victorians and Sawyer Creek newer builds, while Redfin's transaction figure is skewed toward entry-level and investor-grade sales. For cash buyer offer-range calculations, the $211,000 Redfin figure is more relevant.</p>
         </section>
 
         <section className="my-8">
@@ -102,7 +102,7 @@ export default function OshkoshWIMarketReportPage() {
               <tbody className="divide-y divide-gray-200">
                 <tr className="bg-white"><td className="p-3">$148,000 (cash offer floor, median)</td><td className="p-3">$444.00</td><td className="p-3">$0</td><td className="p-3">$0</td><td className="p-3 font-medium">$444.00</td></tr>
                 <tr className="bg-gray-50"><td className="p-3">$211,000 (Redfin median)</td><td className="p-3">$633.00</td><td className="p-3">$0</td><td className="p-3">$0</td><td className="p-3 font-medium">$633.00</td></tr>
-                <tr className="bg-white"><td className="p-3">$250,967 (Zillow ZHVI)</td><td className="p-3">$752.90</td><td className="p-3">$0</td><td className="p-3">$0</td><td className="p-3 font-medium">$752.90</td></tr>
+                <tr className="bg-white"><td className="p-3">$253,810 (Zillow ZHVI)</td><td className="p-3">$761.43</td><td className="p-3">$0</td><td className="p-3">$0</td><td className="p-3 font-medium">$761.43</td></tr>
               </tbody>
             </table>
           </div>
