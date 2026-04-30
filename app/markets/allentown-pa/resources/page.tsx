@@ -78,6 +78,12 @@ const RESOURCE_LINKS = [
     desc: 'Side-by-side numbers for Allentown: what you net with a cash buyer vs. listing with an agent after commissions, repairs, and closing costs.',
     badge: 'Comparison',
   },
+  {
+    href: '/blog/sell-flood-damaged-house-allentown-pa',
+    label: 'Selling a Flood-Damaged House in Allentown PA',
+    desc: 'Jordan Creek and Little Lehigh flood zones, PA disclosure requirements, FEMA lookup, and why cash buyers can simplify the sale.',
+    badge: 'Article',
+  },
 ];
 
 export default function AllentownResourcesPage() {
