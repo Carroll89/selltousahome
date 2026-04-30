@@ -80,11 +80,19 @@ export function Header() {
     pathname?.startsWith('/markets/allentown-pa') ||
     pathname === '/guides/sell-house-fast-allentown-pa-2026' ||
     pathname === '/blog/allentown-pa-sell-house-fast-2026' ||
+    pathname === '/resources/how-the-process-works/allentown-pa' ||
+    pathname === '/reviews/allentown-pa' ||
+    pathname === '/about/allentown-pa' ||
     false;
+  const homeHref = isAllentownContext ? '/markets/allentown-pa' : '/';
   const sellerGuidesHref = isAllentownContext ? '/guides/sell-house-fast-allentown-pa-2026' : '/guides';
   const sellerGuidesLabel = isAllentownContext ? 'Allentown Guide' : 'Seller Guides';
   const blogHref = isAllentownContext ? '/markets/allentown-pa/resources' : '/blog';
   const blogLabel = isAllentownContext ? 'Allentown Blog' : 'Blog';
+  const howItWorksHref = isAllentownContext ? '/resources/how-the-process-works/allentown-pa' : '/resources/how-the-process-works';
+  const reviewsHref = isAllentownContext ? '/reviews/allentown-pa' : '/reviews';
+  const aboutHref = isAllentownContext ? '/about/allentown-pa' : '/about';
+  const cashOfferHref = isAllentownContext ? '/markets/allentown-pa#lead-form' : '/#lead-form';
 
   const [menuOpen, setMenuOpen] = useState(false);
   const [marketsOpen, setMarketsOpen] = useState(false);
@@ -105,7 +113,7 @@ export function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2 flex-shrink-0">
+          <Link href={homeHref} className="flex items-center gap-2 flex-shrink-0">
             <Image
               src="/logo.png"
               alt="USA Home Buyers"
@@ -165,13 +173,13 @@ export function Header() {
             <Link href={blogHref} className="text-gray-600 hover:text-brand-primary whitespace-nowrap">
               {blogLabel}
             </Link>
-            <Link href="/resources/how-the-process-works" className="text-gray-600 hover:text-brand-primary whitespace-nowrap">
+            <Link href={howItWorksHref} className="text-gray-600 hover:text-brand-primary whitespace-nowrap">
               How It Works
             </Link>
-            <Link href="/reviews" className="text-gray-600 hover:text-brand-primary">
+            <Link href={reviewsHref} className="text-gray-600 hover:text-brand-primary">
               Reviews
             </Link>
-            <Link href="/about" className="text-gray-600 hover:text-brand-primary">
+            <Link href={aboutHref} className="text-gray-600 hover:text-brand-primary">
               About
             </Link>
             <a href={`tel:${PHONE}`} className="flex flex-col items-end text-brand-primary hover:text-blue-700 transition-colors whitespace-nowrap">
@@ -179,7 +187,7 @@ export function Header() {
               <span className="text-xs text-gray-500 font-normal">We Answer 24/7</span>
             </a>
             <Link
-              href="/#lead-form"
+              href={cashOfferHref}
               className="bg-brand-primary text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition-colors whitespace-nowrap"
             >
               Get Cash Offer
@@ -240,9 +248,9 @@ export function Header() {
             {[
               { href: sellerGuidesHref, label: sellerGuidesLabel },
               { href: blogHref, label: blogLabel },
-              { href: '/resources/how-the-process-works', label: 'How It Works' },
-              { href: '/reviews', label: 'Reviews' },
-              { href: '/about', label: 'About' },
+              { href: howItWorksHref, label: 'How It Works' },
+              { href: reviewsHref, label: 'Reviews' },
+              { href: aboutHref, label: 'About' },
             ].map((link) => (
               <Link
                 key={link.href}
@@ -260,7 +268,7 @@ export function Header() {
               📞 {PHONE}
             </a>
             <Link
-              href="/#lead-form"
+              href={cashOfferHref}
               className="block text-center bg-brand-primary text-white px-4 py-3 rounded-lg font-semibold"
               onClick={() => setMenuOpen(false)}
             >
