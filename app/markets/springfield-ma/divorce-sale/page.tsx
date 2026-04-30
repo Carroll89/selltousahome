@@ -90,9 +90,9 @@ export default function SpringfieldDivorceSalePage() {
 
       <div className="max-w-7xl mx-auto px-4 py-8">
         <section className="my-8">
-          <h2 className="text-2xl font-bold text-brand-dark mb-4">Market Data: Springfield MA — $185,000 Median Price</h2>
+          <h2 className="text-2xl font-bold text-brand-dark mb-4">Market Data: Springfield MA — $303,000 Median Sale</h2>
           <p className="text-gray-700 mb-4">
-            According to Zillow and Redfin data for Hampden County, the median home value in Springfield is approximately $185,000. Transfer tax: Massachusetts deed excise stamps — $4.56 per $1,000 of consideration, paid by seller. On a $185,000 sale: ~$844. Source: Massachusetts DOR (mass.gov).
+            According to Zillow Research city ZHVI (Springfield MA, 2026-03-31), the typical Springfield home value is $294,613; Redfin city housing-market data for March 2026 shows a $303,000 median sale price. Transfer tax: Massachusetts deed excise stamps — $4.56 per $1,000 of consideration, paid by seller. On a $185,000 sale: ~$844. Source: Massachusetts DOR (mass.gov).
           </p>
         </section>
 

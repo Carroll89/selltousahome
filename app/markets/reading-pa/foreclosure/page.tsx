@@ -168,7 +168,7 @@ export default function ReadingForeclosurePage() {
               {[
                 {
                   title: 'You keep your equity',
-                  desc: 'Any amount above your mortgage payoff comes directly to you at closing. Reading\'s median home value is $227,041 (Zillow). If you owe $130,000, a cash sale can put $90,000+ in your pocket instead of losing it at auction.',
+                  desc: 'Any amount above your mortgage payoff comes directly to you at closing. Reading\'s typical home value is $260,654 (Zillow Research city ZHVI, 2026-03-31). If you owe $130,000, a cash sale can put $90,000+ in your pocket instead of losing it at auction.',
                 },
                 {
                   title: 'Credit damage is limited',
@@ -240,7 +240,7 @@ export default function ReadingForeclosurePage() {
           </section>
 
           <div className="mt-8 text-sm text-gray-500">
-            <p>Market data last updated: April 2026</p>
+            <p>Provider data: Redfin city March 2026; Zillow Research city ZHVI 2026-03-31</p>
             <p className="mt-2">
               Sources:{' '}
               <a href="https://www.nolo.com/legal-encyclopedia/pennsylvania-foreclosure-laws-procedures.html" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:underline">Nolo.com — PA Foreclosure Laws</a>

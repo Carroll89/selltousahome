@@ -95,7 +95,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How much will you pay for my Manchester NH house?',
-    answer: 'Cash offers for Manchester homes typically range from 68-80% of fair market value. According to Zillow, the Manchester median home value is approximately $310,000. A typical cash offer on an Amoskeag or North End multi-family or single-family ranges from $217,000-$248,000. We cover all closing costs including New Hampshire\'s real estate transfer tax (each party pays $0.75 per $100 of consideration on traditional sales).',
+    answer: 'Cash offers for Manchester homes typically range from 68-80% of fair market value. According to Zillow Research city ZHVI (2026-03-31), the Manchester typical home value is $435,334. A typical cash offer on an Amoskeag or North End multi-family or single-family ranges from $217,000-$248,000. We cover all closing costs including New Hampshire\'s real estate transfer tax (each party pays $0.75 per $100 of consideration on traditional sales).',
   },
   {
     question: 'What is the transfer tax when selling a house in Manchester NH?',
@@ -216,9 +216,9 @@ export default function ManchesterNHMarketPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200">
-                <tr className="bg-white"><td className="p-3 font-medium">Median home value</td><td className="p-3">$310,000</td><td className="p-3 text-gray-500">Zillow ZHVI (Mar 2026)</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">Median sale price</td><td className="p-3">$315,000</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
-                <tr className="bg-white"><td className="p-3 font-medium">Median days on market</td><td className="p-3">~25 days</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Median home value</td><td className="p-3">$435,334</td><td className="p-3 text-gray-500">Zillow Research city ZHVI (Manchester, 2026-03-31, +1.5% YoY)</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Median sale price</td><td className="p-3">$446,000</td><td className="p-3 text-gray-500">Redfin city housing-market data (Manchester, Mar 2026, -7.1% YoY)</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Median days on market</td><td className="p-3">~38 days</td><td className="p-3 text-gray-500">Redfin city housing-market data (Manchester, Mar 2026)</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Transfer tax</td><td className="p-3">$1.50 per $100 (split: each party pays $0.75 per $100)</td><td className="p-3 text-gray-500">NH DRA (revenue.nh.gov)</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Foreclosure type</td><td className="p-3">Non-judicial (power of sale, ~60-90 days)</td><td className="p-3 text-gray-500">NH RSA 479:25</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Primary county</td><td className="p-3">Hillsborough County</td><td className="p-3 text-gray-500">—</td></tr>
@@ -245,7 +245,7 @@ export default function ManchesterNHMarketPage() {
           <h2 className="text-2xl md:text-3xl font-bold text-brand-dark mb-4">Cash Sale vs. Listing With an Agent in Manchester NH</h2>
           <ComparisonTable rows={COMPARISON_ROWS} />
           <p className="mt-4 text-sm text-gray-600">
-            On a $315,000 Manchester home, a 5-6% agent commission runs $15,750-$18,900. Add NH transfer tax (~$2,363 seller portion), carrying costs during 25+ days on market, and any repairs on mill-era multi-family stock. With low inventory in Manchester, the market can move quickly — but only for properties in good condition. Multi-families with deferred maintenance often sit or require significant price cuts.
+            On a $446,000 Manchester home, a 5-6% agent commission runs $22,300-$26,760. Add NH transfer tax (~$3,345 seller portion), carrying costs during 38+ days on market, and any repairs on mill-era multi-family stock. With low inventory in Manchester, the market can move quickly — but only for properties in good condition. Multi-families with deferred maintenance often sit or require significant price cuts.
           </p>
         </section>
 

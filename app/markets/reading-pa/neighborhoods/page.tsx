@@ -146,7 +146,7 @@ export default function ReadingNeighborhoodsPage() {
           sourcePage="/markets/reading-pa/neighborhoods"
         />
 
-        <p className="mt-4 text-xs text-gray-400">Market data last updated: April 2026</p>
+        <p className="mt-4 text-xs text-gray-400">Provider data: Redfin city March 2026; Zillow Research city ZHVI 2026-03-31</p>
 
         <div className="mt-6 text-sm text-gray-500">
           Related:{' '}

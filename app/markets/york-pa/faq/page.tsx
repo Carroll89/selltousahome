@@ -20,7 +20,7 @@ export const metadata: Metadata = {
 const FAQ_ITEMS = [
   {
     question: 'How fast can I sell my house for cash in York PA?',
-    answer: "We send a written cash offer within 24 hours of learning about your property. Once you accept, you can close in as few as 7 days — or on whatever timeline works for your situation. According to Redfin (February 2026), the standard York City market takes about 31 days just to go pending, plus another 30-45 days for lender processing. A cash sale cuts that to 7-14 days total.",
+    answer: "We send a written cash offer within 24 hours of learning about your property. Once you accept, you can close in as few as 7 days — or on whatever timeline works for your situation. According to Redfin city housing-market data (March 2026), York homes show 27 median days on market, plus another 30-45 days for lender processing. A cash sale cuts that to 7-14 days total.",
   },
   {
     question: 'What is the real estate transfer tax in York PA?',
@@ -28,7 +28,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How much will you pay for my York house?',
-    answer: "Cash offers for York City homes typically range from 65-75% of after-repair value. According to Redfin, York City's median sale price is $165,850 (February 2026). Northeast York properties near the $120,000 level can still generate fair cash offers when we cover all closing costs — no commissions, no fees. We give you a specific written number within 24 hours.",
+    answer: "Cash offers for York City homes typically range from 65-75% of after-repair value. According to Redfin city housing-market data, York City's median sale price is $172,500 (March 2026). Northeast York properties near the $120,000 level can still generate fair cash offers when we cover all closing costs — no commissions, no fees. We give you a specific written number within 24 hours.",
   },
   {
     question: 'Do I need to make repairs before selling?',

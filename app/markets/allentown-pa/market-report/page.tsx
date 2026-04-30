@@ -12,18 +12,18 @@ export const revalidate = 86400;
 
 // ─── Update these numbers each month ─────────────────────────────────────────
 const REPORT_DATA = {
-  lastUpdated: 'April 2026',
-  medianHomeValue: '$255,000',
-  medianSalePriceCity: '~$195,000',
-  daysToPending: 15,
+  lastUpdated: 'compiled April 2026 from March source data',
+  medianHomeValue: '$309,699',
+  medianSalePriceCity: '$255,000',
+  medianDaysOnMarket: 15,
   daysToClose: '45–60',
   totalSaleTimeline: '52–67',
-  yoyPriceChange: '+5.2%',
+  yoyPriceChange: '+3.8% Zillow city / +5.2% Redfin city',
   pricePerSqft: '$167',
   activeListings: 'Low (seller\'s market)',
   listToSaleRatio: '100.4%',
-  cashOfferRangeLow: '$136,000',
-  cashOfferRangeHigh: '$196,000',
+  cashOfferRangeLow: '$178,500',
+  cashOfferRangeHigh: '$204,000',
   paTransferTax: '2% (1% buyer / 1% seller)',
   realtorCommission: '5–6%',
   renterOccupied: '58%',
@@ -73,7 +73,7 @@ const FAQ_ITEMS = [
   {
     question: 'What is the median home price in Allentown PA in 2026?',
     answer:
-      'The median home value in Allentown is approximately $255,000 as of April 2026. Within specific neighborhoods like the South Side and Center City, values range from $130,000–$200,000. West End and surrounding areas command higher prices in the $200,000–$280,000 range.',
+      'The Zillow Research city ZHVI for Allentown is $309,699 as of 2026-03-31; Redfin city housing-market data shows a $255,000 March 2026 median sale price. Within specific neighborhoods like the South Side and Center City, values range from $130,000–$200,000. West End and surrounding areas command higher prices in the $200,000–$280,000 range.',
   },
   {
     question: 'How long does it take to sell a house in Allentown PA?',
@@ -83,17 +83,17 @@ const FAQ_ITEMS = [
   {
     question: 'Is Allentown PA a buyer\'s or seller\'s market in 2026?',
     answer:
-      'According to Redfin and local MLS data, Allentown is a seller\'s market in 2026. Active inventory is low, homes are going pending quickly, and the list-to-sale price ratio is approximately 100.4%, meaning sellers are getting at or above their asking price. The Lehigh Valley has seen sustained demand from buyers priced out of the Philadelphia metro.',
+      'According to Redfin and local Redfin city March 2026, Allentown is a seller\'s market in 2026. Active inventory is low, homes are going pending quickly, and the list-to-sale price ratio is approximately 100.4%, meaning sellers are getting at or above their asking price. The Lehigh Valley has seen sustained demand from buyers priced out of the Philadelphia metro.',
   },
   {
     question: 'What are home prices doing in Allentown year-over-year?',
     answer:
-      'According to Redfin March 2026 data, Allentown area home values are up approximately 5.2% year-over-year as of April 2026. This is driven by continued demand from Philadelphia-area buyers, limited new construction in the Lehigh Valley, and Allentown\'s relative affordability compared to other PA metros.',
+      'According to Redfin city housing-market data, Allentown median sale prices were up 5.2% year-over-year in March 2026; Zillow Research city ZHVI was up 3.8% YoY as of 2026-03-31. This is driven by continued demand from Philadelphia-area buyers, limited new construction in the Lehigh Valley, and Allentown\'s relative affordability compared to other PA metros.',
   },
   {
     question: 'How much do cash buyers pay for Allentown homes?',
     answer:
-      'Cash buyers typically offer 70–80% of fair market value. On an Allentown home in the $195,000–$255,000 range, that means a cash offer of $136,000–$196,000. The trade-off: no agent commissions (5–6%), no closing costs (the buyer covers), no repairs, and closing in 7–14 days instead of 60–75.',
+      'Cash buyers typically offer 70–80% of fair market value. On an Allentown home around the $255,000 Redfin city median sale price, that typically means roughly $178,500–$204,000 before property-specific adjustments. The trade-off: no agent commissions (5–6%), no closing costs (the buyer covers), no repairs, and closing in 7–14 days instead of 60–75.',
   },
   {
     question: 'What makes Allentown\'s housing market unique?',
@@ -107,12 +107,12 @@ const PAGE_URL = `${SITE_URL}/markets/allentown-pa/market-report`;
 export const metadata: Metadata = {
   title: 'Allentown PA Housing Market 2026',
   description:
-    'Current Allentown PA housing market data for 2026: median home value $255K, 15 days on market, 5.2% YoY appreciation. Updated April 2026 with neighborhood breakdown.',
+    'Current Allentown PA housing market data: Zillow Research city ZHVI $309,699 (2026-03-31), Redfin city median sale $255K, 15 days on market, March 2026 source data with neighborhood breakdown.',
   alternates: { canonical: PAGE_URL },
   openGraph: {
     title: 'Allentown PA Housing Market Report 2026',
     description:
-      'Current data on Allentown PA home prices, days on market, inventory, and what it means if you\'re selling. Updated April 2026.',
+      'Current data on Allentown PA home prices, days on market, inventory, and what it means if you\'re selling. Compiled from March 2026 source data.',
     url: PAGE_URL,
     type: 'article',
   },
@@ -121,7 +121,7 @@ export const metadata: Metadata = {
 const datasetSchema = {
   '@context': 'https://schema.org',
   '@type': 'Dataset',
-  name: 'Allentown PA Housing Market Data — April 2026',
+  name: 'Allentown PA Housing Market Data — March 2026 Source Data',
   description:
     'Monthly housing market statistics for Allentown, Pennsylvania including median home value, days on market, year-over-year price change, and neighborhood-level data.',
   url: PAGE_URL,
@@ -130,7 +130,7 @@ const datasetSchema = {
     name: 'USA Home Buyers',
     url: SITE_URL,
   },
-  temporalCoverage: '2026-04',
+  temporalCoverage: '2026-03',
   spatialCoverage: {
     '@type': 'Place',
     name: 'Allentown, Pennsylvania',
@@ -141,17 +141,17 @@ const datasetSchema = {
     },
   },
   variableMeasured: [
-    { '@type': 'PropertyValue', name: 'Median Home Value', value: '$245,000' },
-    { '@type': 'PropertyValue', name: 'Median Days to Pending', value: '7' },
-    { '@type': 'PropertyValue', name: 'Year-over-Year Price Change', value: '+5.1%' },
-    { '@type': 'PropertyValue', name: 'Price Per Square Foot', value: '$148' },
+    { '@type': 'PropertyValue', name: 'Median Home Value (Zillow Research city ZHVI, 2026-03-31)', value: '$309,699' },
+    { '@type': 'PropertyValue', name: 'Median Days on Market (Redfin city, Mar 2026)', value: '15' },
+    { '@type': 'PropertyValue', name: 'Year-over-Year Price Change', value: '+3.8% Zillow city / +5.2% Redfin city' },
+    { '@type': 'PropertyValue', name: 'Price Per Square Foot', value: '$167' },
   ],
 };
 
 const articleSchemaObj = {
   '@context': 'https://schema.org',
   '@type': 'Article',
-  headline: 'Allentown PA Housing Market Report — April 2026',
+  headline: 'Allentown PA Housing Market Report — March 2026 Source Data',
   datePublished: '2026-04-01',
   dateModified: '2026-04-16',
   author: { '@type': 'Organization', name: 'USA Home Buyers', url: SITE_URL },
@@ -206,7 +206,7 @@ export default function AllentownMarketReport() {
             </p>
             <p className="text-blue-300 text-sm mb-6">
               Last updated: <strong className="text-white">{REPORT_DATA.lastUpdated}</strong>
-              {' '}· Data sources: Zillow, Redfin, local MLS
+              {' '}· Data sources: Redfin city March 2026; Zillow Research city ZHVI 2026-03-31; local MLS context
             </p>
             <a
               href={`tel:${PHONE}`}
@@ -233,7 +233,7 @@ export default function AllentownMarketReport() {
         </summary>
         <div className="px4 pb-4 text-sm text-gray-600 leading-relaxed">
             <p className="mb-3">Here&apos;s a real look at the Allentown PA housing market in 2026. I&apos;m with USA Home Buyers, and we track these numbers closely because they affect every offer we make.</p>
-            <p className="mb-3">Median home value in the Allentown area per Zillow is $267,465. According to Redfin (March 2026), the median sale price for the city is around $255,000. Days to pending is running about 15 days — the Lehigh Valley market is active and moving faster than this time last year.</p>
+            <p className="mb-3">Zillow Research city ZHVI for Allentown is $309,699 as of 2026-03-31. According to Redfin city housing-market data (March 2026), the median sale price for the city is around $255,000 and median days on market is about 15 days — the Lehigh Valley market is active and moving faster than this time last year.</p>
             <p className="mb-3">After going pending, you&apos;re still 45 to 60 days from closing. The realistic timeline from listing to close is two to three months, assuming nothing goes wrong.</p>
             <p className="mb-3">Allentown sits at an interesting price point — more affordable than the Philadelphia metro while still within commuting distance. That drives demand from buyers priced out of Montgomery and Delaware County. Properties in good condition move quickly; properties with issues sit.</p>
             <p className="mb-3">We pay 70 to 80 percent of fair market value — with Allentown medians around $255,000, that&apos;s typically $179,000 to $204,000 for a median-priced home, with zero agent commissions and zero repair costs.</p>
@@ -251,7 +251,7 @@ export default function AllentownMarketReport() {
               up {REPORT_DATA.yoyPriceChange} year-over-year.
             </li>
             <li>
-              <strong>Days to pending:</strong> ~{REPORT_DATA.daysToPending} days. But full closing
+              <strong>Median days on market:</strong> ~{REPORT_DATA.medianDaysOnMarket} days. But full closing
               takes {REPORT_DATA.daysToClose} days after that.
             </li>
             <li>
@@ -276,9 +276,9 @@ export default function AllentownMarketReport() {
           </h2>
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-6">
             {[
-              { label: 'Median Home Value', value: REPORT_DATA.medianHomeValue, note: 'Lehigh Valley' },
-              { label: 'City Median Sale Price', value: REPORT_DATA.medianSalePriceCity, note: 'MLS data' },
-              { label: 'Days to Pending', value: `${REPORT_DATA.daysToPending} days`, note: 'Active market' },
+              { label: 'Median Home Value (Zillow Research city ZHVI, 2026-03-31)', value: REPORT_DATA.medianHomeValue, note: 'Allentown city' },
+              { label: 'City Median Sale Price', value: REPORT_DATA.medianSalePriceCity, note: 'Redfin city March 2026' },
+              { label: 'Median Days on Market', value: `${REPORT_DATA.medianDaysOnMarket} days`, note: 'Redfin city DOM, Mar 2026' },
               { label: 'Offer to Close', value: `${REPORT_DATA.daysToClose} days`, note: 'After going pending' },
               { label: 'YoY Price Change', value: REPORT_DATA.yoyPriceChange, note: 'Year-over-year' },
               { label: 'Price Per Sq Ft', value: REPORT_DATA.pricePerSqft, note: 'City average' },
@@ -303,7 +303,7 @@ export default function AllentownMarketReport() {
                 {[
                   ['Median home value', REPORT_DATA.medianHomeValue],
                   ['City median sale price', REPORT_DATA.medianSalePriceCity],
-                  ['Days to pending (median)', `${REPORT_DATA.daysToPending} days`],
+                  ['Median days on market (Redfin city, Mar 2026)', `${REPORT_DATA.medianDaysOnMarket} days`],
                   ['Full sale timeline (list to close)', `${REPORT_DATA.totalSaleTimeline} days`],
                   ['Year-over-year price change', REPORT_DATA.yoyPriceChange],
                   ['Price per square foot', REPORT_DATA.pricePerSqft],
@@ -324,7 +324,7 @@ export default function AllentownMarketReport() {
             </table>
           </div>
           <p className="text-xs text-gray-500 mt-3">
-            Sources: Zillow, Redfin, local MLS data. Last updated: {REPORT_DATA.lastUpdated}.
+            Sources: Zillow, Redfin, local Redfin city March 2026. Last updated: {REPORT_DATA.lastUpdated}.
           </p>
         </section>
 
@@ -375,7 +375,7 @@ export default function AllentownMarketReport() {
                 <tr className="bg-brand-dark text-white">
                   <th className="px-4 py-3 text-left">Neighborhood</th>
                   <th className="px-4 py-3 text-left">Median Price Range</th>
-                  <th className="px-4 py-3 text-left">Avg Days to Pending</th>
+                  <th className="px-4 py-3 text-left">Avg Days on Market</th>
                   <th className="px-4 py-3 text-left">Market Notes</th>
                 </tr>
               </thead>
@@ -430,7 +430,7 @@ export default function AllentownMarketReport() {
             </Link>
           </p>
           <p className="mt-4 text-xs text-gray-400">
-            Market data sourced from Zillow, Redfin, and local MLS. Updated {REPORT_DATA.lastUpdated}.
+            Market data sourced from Redfin city March 2026 and Zillow Research city ZHVI 2026-03-31. Compiled {REPORT_DATA.lastUpdated}.
             Individual home values vary based on condition, location, and market timing.
             This page is for informational purposes — contact a licensed real estate professional for personalized advice.
           </p>

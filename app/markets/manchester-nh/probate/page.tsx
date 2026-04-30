@@ -89,9 +89,9 @@ export default function ManchesterProbatePage() {
 
       <div className="max-w-7xl mx-auto px-4 py-8">
         <section className="my-8">
-          <h2 className="text-2xl font-bold text-brand-dark mb-4">Market Data: Manchester NH — $315,000 Median Price</h2>
+          <h2 className="text-2xl font-bold text-brand-dark mb-4">Market Data: Manchester NH — $446,000 Median Sale</h2>
           <p className="text-gray-700 mb-4">
-            According to Zillow and Redfin data for Hillsborough County, the median home value in Manchester is approximately $315,000. Transfer tax: New Hampshire Real Estate Transfer Tax — $1.50 per $100 of consideration total (buyer pays $0.75 per $100, seller pays $0.75 per $100). On a $315,000 sale: $4,725 total ($2,363 seller portion). Source: NH Department of Revenue Administration (revenue.nh.gov).
+            According to Zillow Research city ZHVI (Manchester, 2026-03-31), the typical Manchester home value is $435,334; Redfin city housing-market data for March 2026 shows a $446,000 median sale price. Transfer tax: New Hampshire Real Estate Transfer Tax — $1.50 per $100 of consideration total (buyer pays $0.75 per $100, seller pays $0.75 per $100). On a $446,000 sale: $6,690 total ($3,345 seller portion). Source: NH Department of Revenue Administration (revenue.nh.gov).
           </p>
         </section>
 

@@ -30,7 +30,7 @@ export default function ReadingMarketReportPage() {
         {/* TL;DR — GEO/AEO Quick Answer */}
         <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-10">
           <h2 className="text-lg font-bold text-brand-dark mb-2">Quick Answer: Reading PA Housing Market 2026</h2>
-          <p className="text-gray-700 text-sm leading-relaxed">According to Redfin (March 2026), Reading's median home sale price is $185,000 (-1.1% year-over-year); the Zillow Home Value Index puts the typical home value at $227,041 (+7.8%). Homes average 24 days on market. Critical note: Reading has a 5% total transfer tax (4% City of Reading + 1% PA State) — one of the highest in Pennsylvania. Cash buyers cover all closing costs including the full transfer tax, and close in 7–14 days as-is.</p>
+          <p className="text-gray-700 text-sm leading-relaxed">According to Redfin city housing-market data (March 2026), Reading's median home sale price is $185,000 (+2.8% year-over-year), $120 per square foot, with 40 median days on market and a 99.6% sale-to-list ratio. Zillow Research city ZHVI puts the typical home value at $260,654 as of 2026-03-31 (+2.5% YoY). Critical note: Reading has a 5% total transfer tax (4% City of Reading + 1% PA State) — one of the highest in Pennsylvania. Cash buyers cover all closing costs including the full transfer tax, and close in 7–14 days as-is.</p>
         </div>
 
         <div className="mb-4 text-sm text-gray-500">
@@ -40,7 +40,7 @@ export default function ReadingMarketReportPage() {
         <h1 className="text-3xl md:text-4xl font-bold text-brand-dark mb-4">
           Reading PA Housing Market Report — 2026
         </h1>
-        <p className="text-gray-600 mb-2">Data compiled April 2026. Sources: Zillow, Redfin, NeighborhoodScout, Berks County Recorder of Deeds.</p>
+        <p className="text-gray-600 mb-2">Data compiled April 2026 from March source data. Sources: Redfin city housing-market data (Mar 2026), Zillow Research city ZHVI (2026-03-31), NeighborhoodScout, Berks County Recorder of Deeds.</p>
 
         <div className="bg-yellow-50 border border-yellow-300 rounded-xl p-5 mb-10">
           <p className="font-bold text-brand-dark mb-1">⚠️ Reading&apos;s 5% Transfer Tax — Critical Context</p>
@@ -64,15 +64,15 @@ export default function ReadingMarketReportPage() {
               </thead>
               <tbody>
                 {[
-                  ['Typical Home Value (Zillow ZHVI)', '$227,041', 'Zillow, early 2026 — all homes'],
-                  ['Median Sale Price', '$185,000', 'Redfin, Mar 2026 — closed transactions'],
-                  ['YoY Price Change', '-1.1%', 'Redfin Mar 2026'],
-                  ['Median Price Per Sq Ft', '$125', 'Redfin Mar 2026'],
-                  ['Median Days on Market', '24 days', 'Redfin Mar 2026'],
-                  ['Sale-to-List Ratio', '96.6%', 'Redfin Mar 2026'],
-                  ['Homes Sold (month)', '47', 'Redfin Feb 2026'],
-                  ['Average Offers Per Home', '6', 'Redfin'],
-                  ['Compete Score', '80/100 — Very Competitive', 'Redfin'],
+                  ['Typical Home Value (Zillow Research city ZHVI)', '$260,654', 'Zillow Research, 2026-03-31 — Reading city, +2.5% YoY'],
+                  ['Median Sale Price', '$185,000', 'Redfin city, Mar 2026 — closed transactions, +2.8% YoY'],
+                  ['YoY Price Change', '+2.8%', 'Redfin city Mar 2026'],
+                  ['Median Price Per Sq Ft', '$120', 'Redfin city Mar 2026'],
+                  ['Median Days on Market', '40 days', 'Redfin city Mar 2026'],
+                  ['Sale-to-List Ratio', '99.6%', 'Redfin city Mar 2026'],
+                  ['Homes Sold (month)', '65', 'Redfin city Mar 2026'],
+                  ['Average Offers Per Home', '6', 'Redfin city March 2026 context'],
+                  ['Compete Score', '85/100 — Very Competitive', 'Redfin city Mar 2026'],
                   ['10-Year Appreciation', '135.05% (+8.92%/yr)', 'NeighborhoodScout'],
                   ['5-Year Appreciation', '87.90% (+13.45%/yr)', 'NeighborhoodScout'],
                   ['Latest Quarter (annualized)', '+15.30%', 'NeighborhoodScout'],
@@ -87,7 +87,7 @@ export default function ReadingMarketReportPage() {
               </tbody>
             </table>
           </div>
-          <p className="mt-2 text-xs text-gray-400">Market data last updated: April 2026</p>
+          <p className="mt-2 text-xs text-gray-400">Provider data: Redfin city March 2026; Zillow Research city ZHVI 2026-03-31</p>
         </section>
 
         <section className="mb-10">
@@ -229,7 +229,7 @@ export default function ReadingMarketReportPage() {
             </tbody>
           </table>
           <p className="mt-2 text-xs text-gray-400">Source: NeighborhoodScout. Reading is in the top 10% nationally for 10-year appreciation.</p>
-          <p className="mt-1 text-xs text-gray-400">Market data last updated: April 2026</p>
+          <p className="mt-1 text-xs text-gray-400">Provider data: Redfin city March 2026; Zillow Research city ZHVI 2026-03-31</p>
         </section>
 
         <CashOfferForm

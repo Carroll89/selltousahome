@@ -220,7 +220,7 @@ export default function ReadingInheritedPropertyPage() {
             <div className="mt-4 text-xs text-gray-400 space-y-1">
               <p>Berks County Register of Wills: <a href="https://www.berkspa.gov/departments/register-of-wills" target="_blank" rel="noopener noreferrer" className="underline">berkspa.gov/departments/register-of-wills</a></p>
               <p>Online estate search: <a href="http://rwills.co.berks.pa.us/geneology/RegMain.htm" target="_blank" rel="noopener noreferrer" className="underline">rwills.co.berks.pa.us</a></p>
-              <p>Market data last updated: April 2026</p>
+              <p>Provider data: Redfin city March 2026; Zillow Research city ZHVI 2026-03-31</p>
             </div>
           </section>
 
@@ -257,7 +257,7 @@ export default function ReadingInheritedPropertyPage() {
           <FAQSection items={FAQ_ITEMS} heading="Frequently Asked Questions — Inherited Property in Berks County" />
 
           <div className="mt-8 text-sm text-gray-500">
-            <p>Market data last updated: April 2026</p>
+            <p>Provider data: Redfin city March 2026; Zillow Research city ZHVI 2026-03-31</p>
             <p className="mt-2">
               Related:{' '}
               <Link href="/guides/inherited-property" className="text-brand-primary hover:underline">Inherited Property Guide (PA)</Link>{' '}

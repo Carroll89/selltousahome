@@ -162,7 +162,7 @@ export default function ReadingDivorceSalePage() {
           <section className="mb-10">
             <h2 className="text-2xl font-bold text-brand-dark mb-4">Reading PA Divorce Home Sale: The Numbers</h2>
             <p className="text-gray-700 mb-4">
-              Reading&apos;s median home sale price is $185,000 (Redfin, Feb 2026) with a Zillow ZHVI of $227,041.
+              Reading&apos;s median home sale price is $185,000 (Redfin city, Mar 2026) with a Zillow Research city ZHVI of $260,654 (2026-03-31).
               In a traditional sale, a Reading seller faces: 5% transfer tax (4% local = $7,400), agent commissions
               (5-6% = $9,250-$11,100), and potential repair costs on pre-1939 housing stock. Total friction costs
               of $17,000-$25,000+ are common. According to the{' '}
@@ -210,7 +210,7 @@ export default function ReadingDivorceSalePage() {
           <FAQSection items={FAQ_ITEMS} heading="Reading PA Divorce Home Sale — Common Questions" />
 
           <div className="mt-8 text-sm text-gray-500">
-            <p>Market data last updated: April 2026</p>
+            <p>Provider data: Redfin city March 2026; Zillow Research city ZHVI 2026-03-31</p>
             <p className="mt-2">
               Related:{' '}
               <Link href="/markets/reading-pa" className="text-brand-primary hover:underline">Sell Your Reading House Fast</Link>{' '}

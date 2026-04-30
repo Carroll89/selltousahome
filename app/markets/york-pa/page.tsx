@@ -91,7 +91,7 @@ const COMPARISON_ROWS = [
 const FAQ_ITEMS = [
   {
     question: 'How fast can I sell my house for cash in York PA?',
-    answer: "Once you accept a written offer, we close in 7-14 days. We send the written offer within 24 hours of your inquiry. According to Redfin, York City homes go pending in about 31 days on the open market — that path requires showings, inspections, and waiting on mortgage lender approval. With a cash sale, there's no bank involved, no contingency period, no repair demands.",
+    answer: "Once you accept a written offer, we close in 7-14 days. We send the written offer within 24 hours of your inquiry. According to Redfin city housing-market data (March 2026), York homes show 27 median days on market — that path requires showings, inspections, and waiting on mortgage lender approval. With a cash sale, there's no bank involved, no contingency period, no repair demands.",
   },
   {
     question: 'What is the transfer tax when selling in York PA?',
@@ -99,7 +99,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How much will you pay for my York PA house?',
-    answer: "Cash offers for York City homes typically range from 65-75% of after-repair value. According to Redfin, York City's median sale price is $165,850 (February 2026, +10.6% YoY). Northeast York properties under the $120,000 range can still get fair offers — we cover all closing costs, so nothing comes out of your number.",
+    answer: "Cash offers for York City homes typically range from 65-75% of after-repair value. According to Redfin city housing-market data, York's median sale price is $172,500 (March 2026, -2.5% YoY). Northeast York properties under the $120,000 range can still get fair offers — we cover all closing costs, so nothing comes out of your number.",
   },
   {
     question: 'Do I need to make repairs before selling?',
@@ -153,7 +153,7 @@ export default function YorkMarketPage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                USA Home Buyers purchases houses in York PA and throughout York County — Downtown, Northeast York, Southwest York, Springdale, East Side, and nearby West York, Hanover, and Red Lion. Written cash offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no fees. York City&apos;s median sale price is about $165,850. We cover all closing costs including York&apos;s 2% transfer tax. Call 888-274-5006. Hablamos español.
+                USA Home Buyers purchases houses in York PA and throughout York County — Downtown, Northeast York, Southwest York, Springdale, East Side, and nearby West York, Hanover, and Red Lion. Written cash offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no fees. York City&apos;s median sale price is $172,500 (Redfin city, Mar 2026). We cover all closing costs including York&apos;s 2% transfer tax. Call 888-274-5006. Hablamos español.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-4">
@@ -223,9 +223,9 @@ export default function YorkMarketPage() {
           </p>
           <div className="grid md:grid-cols-3 gap-4 mb-4">
             {[
-              { label: 'Redfin Compete Score', value: '86/100', note: 'Very Competitive — York City (Feb 2026)' },
+              { label: 'Redfin Compete Score', value: '84/100', note: 'Very Competitive — Redfin city, Mar 2026' },
               { label: 'Hispanic residents', value: '36.6%', note: 'Second-highest of any market we serve — ACS 2024' },
-              { label: 'City median sale price', value: '$165,850', note: 'Redfin, +10.6% YoY (Feb 2026)' },
+              { label: 'City median sale price', value: '$172,500', note: 'Redfin city, -2.5% YoY (Mar 2026)' },
             ].map((item, i) => (
               <div key={i} className="bg-white border border-blue-100 rounded-xl p-4 text-center">
                 <p className="text-xs text-gray-500 mb-1">{item.label}</p>
@@ -250,19 +250,19 @@ export default function YorkMarketPage() {
             <table className="w-full text-sm">
               <tbody>
                 {[
-                  ['City median home value (Zillow ZHVI, Feb 2026)', '$246,248'],
-                  ['YoY change — city area (Zillow)', '+6.6%'],
-                  ['York County median home value (Zillow, Feb 2026)', '$303,399'],
-                  ['York County YoY change (Zillow)', '+5.1%'],
-                  ['Median sale price — York City (Redfin, Feb 2026)', '$165,850'],
-                  ['YoY change — city sale price (Redfin)', '+10.6%'],
+                  ['City median home value (Zillow Research ZHVI, 2026-03-31)', '$275,648'],
+                  ['YoY change — city area (Zillow)', '+4.0%'],
+                  ['York County median home value (Zillow Research, 2026-03-31)', '$305,195'],
+                  ['York County YoY change (Zillow)', '+3.7%'],
+                  ['Median sale price — York City (Redfin city, Mar 2026)', '$172,500'],
+                  ['YoY change — city sale price (Redfin)', '-2.5%'],
                   ['ACS median property value (city residents, 2024)', '$119,700'],
                   ['Price per sq ft — York City (Redfin)', '$99/sqft'],
                   ['Price per sq ft — York County (Redfin)', '$158/sqft'],
-                  ['Median days on market — avg (Redfin Feb 2026)', '31 days (hot homes: ~5 days)'],
-                  ['Sale-to-list ratio (Redfin Feb 2026)', '96.9% — seller\'s market'],
-                  ['Redfin Compete Score', '86/100 — Very Competitive'],
-                  ['Homes sold Feb 2026', '49 (+19.5% YoY)'],
+                  ['Median days on market (Redfin city, Mar 2026)', '27 days'],
+                  ['Sale-to-list ratio (Redfin city, Mar 2026)', '98.9%'],
+                  ['Redfin Compete Score', '84/100 — Very Competitive'],
+                  ['Homes sold Mar 2026', '34'],
                   ['Cash offer range (typical York City)', '65-75% of ARV (after repair value)'],
                   ['Transfer tax', '2% total (1% PA state + 0.5% City of York + 0.5% York City School District)'],
                   ['Transfer tax — typical split', 'Buyer and seller each pay 1%'],
@@ -279,9 +279,9 @@ export default function YorkMarketPage() {
               </tbody>
             </table>
           </div>
-          <p className="mt-4 text-xs text-gray-400">Market data last updated: April 2026</p>
+          <p className="mt-4 text-xs text-gray-400">Provider data: Redfin city March 2026; Zillow Research city/county ZHVI 2026-03-31</p>
           <p className="mt-2 text-sm text-gray-600">
-            York City's $165,850 median sale price is 59% lower than the national average according to Redfin —
+            York City's $172,500 median sale price is 59% lower than the national average according to Redfin —
             making it one of the most accessible cash buyer markets in Pennsylvania. But "accessible" cuts both ways:
             aging housing stock, high investor activity in Northeast York, and a 21.1% poverty rate mean many sellers
             are in situations where certainty matters more than squeezing every dollar from a retail listing.
@@ -341,8 +341,8 @@ export default function YorkMarketPage() {
           </h2>
           <ComparisonTable rows={COMPARISON_ROWS} />
           <p className="mt-4 text-sm text-gray-600">
-            On a $165,850 York City home, a 5-6% agent commission is $8,300-$9,900. Add inspection repairs on
-            a pre-1940 Northeast York row home, 31 days of carrying costs, and transfer tax — the real gap
+            On a $172,500 York City home, a 5-6% agent commission is $8,625-$10,350. Add inspection repairs on
+            a pre-1940 Northeast York row home, 27 days of carrying costs, and transfer tax — the real gap
             between a cash offer and a traditional listing is much narrower than sellers expect, and the
             certainty of a cash close is incomparable.
           </p>

@@ -96,7 +96,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How much will you pay for my Allentown house?',
-    answer: 'We pay 70-80% of fair market value. With Allentown median sale prices around $245,000, that typically means a cash offer of $172,000-$196,000 for a median-priced home. There are no agent commissions (saving 5-6%), no closing costs (we cover everything), and no repair expenses.',
+    answer: 'We pay 70-80% of fair market value. With Allentown median sale prices around $255,000, that typically means a cash offer of roughly $178,500-$204,000 for a median-priced home before property-specific adjustments. There are no agent commissions (saving 5-6%), no closing costs (we cover everything), and no repair expenses.',
   },
   {
     question: 'Do I need to make repairs before selling?',
@@ -197,7 +197,7 @@ export default function AllentownMarketPage() {
         {/* TL;DR — GEO/AEO Quick Answer */}
         <section className="my-10 bg-blue-50 border-l-4 border-brand-primary rounded-r-2xl p-6 md:p-8">
           <h2 className="text-xl md:text-2xl font-bold text-brand-dark mb-3">Quick Answer: Sell Your House Fast in Allentown, PA</h2>
-          <p className="text-gray-700 leading-relaxed">USA Home Buyers purchases houses in Allentown, PA for cash — as-is, in any condition, with no repairs and no agent fees. According to the Zillow Home Value Index, the typical Allentown home value is $267,465 (February 2026); Redfin's median closed sale price is $245,000, with homes averaging 29 days to pending. We skip the market process entirely — written offer within 24 hours, closing in as few as 7 days. We serve all of Allentown, Bethlehem, Easton, and Lehigh and Northampton Counties.</p>
+          <p className="text-gray-700 leading-relaxed">USA Home Buyers purchases houses in Allentown, PA for cash — as-is, in any condition, with no repairs and no agent fees. According to Zillow Research city ZHVI (2026-03-31), the typical Allentown home value is $309,699 (+3.8% YoY); Redfin city housing-market data for March 2026 shows a $255,000 median sale price (+5.2% YoY), $167 per square foot, and 15 median days on market. We skip the market process entirely — written offer within 24 hours, closing in as few as 7 days. We serve all of Allentown, Bethlehem, Easton, and Lehigh and Northampton Counties.</p>
         </section>
 
         {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
@@ -213,7 +213,7 @@ export default function AllentownMarketPage() {
         </summary>
         <div className="px4 pb-4 text-sm text-gray-600 leading-relaxed">
         <p className="mb-3">Hey, if you need to sell your house fast in Allentown, PA, I want to tell you exactly how we work. I&apos;m with USA Home Buyers. We buy houses in Allentown and all of Lehigh County and Northampton County for cash, as-is, with no repairs and no agent fees.</p>
-        <p className="mb-3">Here&apos;s the Allentown market right now in 2026. Median home value is around $267,000 per Zillow, with median sale prices on Redfin coming in around $245,000. Average days to pending is 29 days — it&apos;s an active market. But after you go pending, you&apos;re still 45 to 60 days from closing. That&apos;s two to three months from listing to keys changing hands.</p>
+        <p className="mb-3">Here&apos;s the Allentown market right now in 2026. Zillow Research city ZHVI is $309,699 as of 2026-03-31, with Redfin March 2026 city median sale prices at $255,000 and 15 median days on market — it&apos;s an active market. But after you go pending, you&apos;re still 45 to 60 days from closing. That&apos;s two to three months from listing to keys changing hands.</p>
         <p className="mb-3">We short-circuit all of that. You contact us, we ask a few questions about your property and situation, and within 24 hours you have a written cash offer. If you accept, you choose the closing date. Our fastest close in the Lehigh Valley was six days.</p>
         <p className="mb-3">No repairs. No cleaning. No staging. No open houses. No agent commissions eating 5 to 6 percent of your sale price. We cover all closing costs.</p>
         <p className="mb-3">We serve all of Allentown — the South Side, West End, Fountain Hill, Whitehall, Bethlehem, Easton, Northampton Borough, Emmaus, Catasauqua, and every corner of Lehigh and Northampton County. Whatever your situation — estate, divorce, foreclosure, bad condition, problem tenant — we&apos;ve handled it before.</p>
@@ -258,13 +258,13 @@ export default function AllentownMarketPage() {
             <table className="w-full text-sm">
               <tbody>
                 {[
-                  ['Median home value (Zillow ZHVI)', '$267,465'],
-                  ['Median sale price (Redfin)', '$245,000'],
-                  ['Year-over-year price change', '+7.0% (Zillow) / +2.1% (Redfin)'],
-                  ['Average days on market', '29 days'],
+                  ['Median home value (Zillow ZHVI)', '$309,699'],
+                  ['Median sale price (Redfin)', '$255,000'],
+                  ['Year-over-year price change', '+3.8% (Zillow city ZHVI, 2026-03-31) / +5.2% (Redfin city, Mar 2026)'],
+                  ['Average days on market', '15 days'],
                   ['Redfin Compete Score', '88/100 — Very Competitive'],
                   ['Active distress listings', '783+ (ForeclosureListings.com, April 2026)'],
-                  ['Cash offer range (typical Allentown home)', '$172,000–$196,000'],
+                  ['Cash offer range (typical Allentown home)', '$178,500–$204,000'],
                   ['PA transfer tax', '2% (split buyer/seller — 1% each)'],
                   ['Typical realtor commission', '5–6%'],
                 ].map(([metric, value], i) => (
@@ -276,9 +276,9 @@ export default function AllentownMarketPage() {
               </tbody>
             </table>
           </div>
-          <p className="mt-4 text-xs text-gray-400">Market data last updated: April 2026</p>
+          <p className="mt-4 text-xs text-gray-400">Provider data: Redfin city March 2026; Zillow Research city ZHVI 2026-03-31. Distress listing count is April 2026 source-specific.</p>
           <p className="mt-2 text-sm text-gray-600">
-            Allentown is a competitive seller&apos;s market — 88/100 Redfin Compete Score, averaging 6 offers per home. But competitive doesn&apos;t mean easy: 29 days on market, then 30-45 days for financing contingency. A cash sale closes the whole thing in 7-14 days.
+            Allentown is a competitive seller&apos;s market — 88/100 Redfin Compete Score, averaging 6 offers per home. But competitive doesn&apos;t mean easy: 15 days on market, then 30-45 days for financing contingency. A cash sale closes the whole thing in 7-14 days.
           </p>
           <p className="mt-2 text-sm">
             <Link href="/markets/allentown-pa/market-report" className="text-brand-primary hover:underline">

@@ -100,7 +100,7 @@ export default function ManchesterInheritedPropertyPage() {
             The probate court for Hillsborough County is located at Hillsborough County Probate Court, 300 Chestnut Street, Manchester NH 03101, (603) 669-7410. This court handles all probate proceedings for decedents who owned property in Hillsborough County. Once the personal representative receives their Letters of Authority (or equivalent in New Hampshire), they can execute a deed and complete the sale.
           </p>
           <p className="text-gray-700 mb-4">
-            We frequently work with estates throughout Hillsborough County. We can have a written offer ready before you even file for probate, so you can close quickly once authority is granted. Transfer tax: New Hampshire Real Estate Transfer Tax — $1.50 per $100 of consideration total (buyer pays $0.75 per $100, seller pays $0.75 per $100). On a $315,000 sale: $4,725 total ($2,363 seller portion). Source: NH Department of Revenue Administration (revenue.nh.gov).
+            We frequently work with estates throughout Hillsborough County. We can have a written offer ready before you even file for probate, so you can close quickly once authority is granted. Transfer tax: New Hampshire Real Estate Transfer Tax — $1.50 per $100 of consideration total (buyer pays $0.75 per $100, seller pays $0.75 per $100). On a $446,000 sale: $6,690 total ($3,345 seller portion). Source: NH Department of Revenue Administration (revenue.nh.gov).
           </p>
         </section>
 

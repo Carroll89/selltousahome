@@ -90,7 +90,7 @@ export default function YorkNeighborhoodsPage() {
           Data from Redfin neighborhood market pages (February–November 2025/2026). Cash offer ranges reflect
           65-75% of ARV typical for York City's older housing stock.
         </p>
-        <p className="text-gray-600 text-sm mb-8">Last updated: April 2026</p>
+        <p className="text-gray-600 text-sm mb-8">Provider data: Redfin neighborhood pages and March 2026 city data; Zillow Research ZHVI 2026-03-31</p>
 
         <div className="space-y-6 mb-12">
           {NEIGHBORHOODS.map((n, i) => (

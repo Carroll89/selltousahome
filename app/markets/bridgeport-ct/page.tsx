@@ -226,8 +226,8 @@ export default function BridgeportCTMarketPage() {
               </thead>
               <tbody className="divide-y divide-gray-200">
                 <tr className="bg-white"><td className="p-3 font-medium">Median home value</td><td className="p-3">$355,127</td><td className="p-3 text-gray-500">Zillow ZHVI (Mar 2026, +5.5% YoY)</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">Median sale price</td><td className="p-3">$252,000</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
-                <tr className="bg-white"><td className="p-3 font-medium">Median days on market</td><td className="p-3">~38 days</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Median sale price</td><td className="p-3">$375,000</td><td className="p-3 text-gray-500">Redfin city housing-market data (Bridgeport, Mar 2026, +3.6% YoY)</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Median days on market</td><td className="p-3">72 days</td><td className="p-3 text-gray-500">Redfin city housing-market data (Bridgeport, Mar 2026)</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Conveyance tax</td><td className="p-3">1.25% (0.75% CT state + 0.50% City of Bridgeport distressed rate, seller pays)</td><td className="p-3 text-gray-500">CT DRS (ct.gov/drs)</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Foreclosure type</td><td className="p-3">Strict foreclosure (unique — no auction, Law Day)</td><td className="p-3 text-gray-500">CT Judicial Branch</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Hispanic/Latino population</td><td className="p-3">~41% of city</td><td className="p-3 text-gray-500">U.S. Census Bureau ACS</td></tr>
@@ -255,7 +255,7 @@ export default function BridgeportCTMarketPage() {
           <h2 className="text-2xl md:text-3xl font-bold text-brand-dark mb-4">Cash Sale vs. Listing With an Agent in Bridgeport CT</h2>
           <ComparisonTable rows={COMPARISON_ROWS} />
           <p className="mt-4 text-sm text-gray-600">
-            On a $355,127 Bridgeport home, a 5-6% agent commission runs $17,756-$21,308. Add Connecticut's 1.25% conveyance tax (~$4,439 at the distressed municipality rate), carrying costs during 38+ days on market, and repairs on pre-WWII housing stock. Many Bridgeport two-families have lead paint issues, old boilers, and outdated plumbing that conventional lenders require addressed before closing. That's a real cost that disappears with a direct cash sale.
+            On a $355,127 Bridgeport home, a 5-6% agent commission runs $17,756-$21,308. Add Connecticut's 1.25% conveyance tax (~$4,439 at the distressed municipality rate), carrying costs during 72+ days on market, and repairs on pre-WWII housing stock. Many Bridgeport two-families have lead paint issues, old boilers, and outdated plumbing that conventional lenders require addressed before closing. That's a real cost that disappears with a direct cash sale.
           </p>
         </section>
 

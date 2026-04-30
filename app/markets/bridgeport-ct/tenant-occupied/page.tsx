@@ -90,9 +90,9 @@ export default function BridgeportTenantOccupiedPage() {
 
       <div className="max-w-7xl mx-auto px-4 py-8">
         <section className="my-8">
-          <h2 className="text-2xl font-bold text-brand-dark mb-4">Market Data: Bridgeport CT — $252,000 Median Price</h2>
+          <h2 className="text-2xl font-bold text-brand-dark mb-4">Market Data: Bridgeport CT — $375,000 Median Sale</h2>
           <p className="text-gray-700 mb-4">
-            According to Zillow and Redfin data for Fairfield County, the median home value in Bridgeport is $252,000. Transfer tax: Connecticut real estate conveyance tax — 0.75% state + 0.25% municipal (City of Bridgeport) = 1.0% total for properties under $800,000. Seller pays both portions. On a $252,000 sale: $2,520. Source: Connecticut Department of Revenue Services (ct.gov/drs).
+            According to Zillow Research city ZHVI (Bridgeport, 2026-03-31), the typical Bridgeport home value is $355,127; Redfin city housing-market data for March 2026 shows a $375,000 median sale price. Transfer tax: Connecticut real estate conveyance tax — 0.75% state + 0.25% municipal (City of Bridgeport) = 1.0% total for properties under $800,000. Seller pays both portions. On a $375,000 sale: $3,750. Source: Connecticut Department of Revenue Services (ct.gov/drs).
           </p>
         </section>
 

@@ -28,7 +28,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How much will you pay for my Reading PA house?',
-    answer: 'We pay 70-80% of fair market value. Reading\'s Zillow ZHVI is $227,041 and the Redfin median sale price is $185,000 (Feb 2026). Cash offers for typical Reading homes typically range from $130,000-$182,000 depending on condition, neighborhood, and exit strategy. High-end properties in College Heights can yield offers up to $200K+. There are no agent commissions, no closing costs, and no repair expenses from your side.',
+    answer: 'We pay 70-80% of fair market value. Reading\'s Zillow Research city ZHVI is $260,654 (2026-03-31, +2.5% YoY) and the Redfin city median sale price is $185,000 (Mar 2026, +2.8% YoY). Cash offers for typical Reading homes typically range from $130,000-$182,000 depending on condition, neighborhood, and exit strategy. High-end properties in College Heights can yield offers up to $200K+. There are no agent commissions, no closing costs, and no repair expenses from your side.',
   },
   {
     question: 'Do I need to make repairs before selling?',
@@ -113,7 +113,7 @@ export default function ReadingFAQPage() {
           sourcePage="/markets/reading-pa/faq"
         />
 
-        <p className="mt-4 text-xs text-gray-400">Market data last updated: April 2026</p>
+        <p className="mt-4 text-xs text-gray-400">Provider data: Redfin city March 2026; Zillow Research city ZHVI 2026-03-31</p>
 
         <div className="mt-6 text-sm text-gray-500">
           Related:{' '}

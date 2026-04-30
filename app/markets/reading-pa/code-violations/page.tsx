@@ -190,7 +190,7 @@ export default function ReadingCodeViolationsPage() {
           <FAQSection items={FAQ_ITEMS} heading="Reading PA Code Violations — FAQ" />
 
           <div className="mt-8 text-sm text-gray-500">
-            <p>Market data last updated: April 2026</p>
+            <p>Provider data: Redfin city March 2026; Zillow Research city ZHVI 2026-03-31</p>
             <p className="mt-2">
               Related:{' '}
               <Link href="/blog/sell-house-with-code-violations-pa" className="text-brand-primary hover:underline">Selling a House With Code Violations in PA</Link>{' '}

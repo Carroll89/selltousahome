@@ -95,11 +95,11 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How much will you pay for my Springfield MA house?',
-    answer: 'Cash offers for Springfield homes typically range from 65-78% of fair market value. According to Zillow, the Springfield median home value is approximately $178,000. A typical cash offer on a Forest Park or Pine Point triple-decker near the $160,000-$200,000 range runs $112,000-$156,000. We cover all closing costs including Massachusetts deed excise stamps ($4.56 per $1,000 — seller pays on traditional sales).',
+    answer: 'Cash offers for Springfield homes typically range from 65-78% of fair market value. According to Zillow Research city ZHVI (2026-03-31), the Springfield typical home value is $294,613. A typical cash offer on a Forest Park or Pine Point triple-decker near the $160,000-$200,000 range runs $112,000-$156,000. We cover all closing costs including Massachusetts deed excise stamps ($4.56 per $1,000 — seller pays on traditional sales).',
   },
   {
     question: 'What is the deed excise tax when selling a house in Springfield MA?',
-    answer: 'Massachusetts uses deed excise stamps instead of a transfer tax. The rate is $4.56 per $1,000 of consideration — entirely paid by the seller. On a $178,000 sale, the deed excise is approximately $812. When you sell to USA Home Buyers, we cover all closing costs including the excise stamps. Source: Massachusetts Department of Revenue (mass.gov).',
+    answer: 'Massachusetts uses deed excise stamps instead of a transfer tax. The rate is $4.56 per $1,000 of consideration — entirely paid by the seller. On a $294,613 sale, the deed excise is approximately $1,343. When you sell to USA Home Buyers, we cover all closing costs including the excise stamps. Source: Massachusetts Department of Revenue (mass.gov).',
   },
   {
     question: '¿Compran casas en Springfield MA? / Do you work with Spanish-speaking sellers?',
@@ -171,7 +171,7 @@ export default function SpringfieldMAMarketPage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                USA Home Buyers purchases houses in Springfield MA and throughout Hampden County — Forest Park, Pine Point, Six Corners, Hungry Hill, and surrounding towns. Written cash offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no fees. According to Zillow, Springfield median home values are around $178,000. We buy at fair value and cover all closing costs including Massachusetts deed excise stamps. Call 888-274-5006. Hablamos español.
+                USA Home Buyers purchases houses in Springfield MA and throughout Hampden County — Forest Park, Pine Point, Six Corners, Hungry Hill, and surrounding towns. Written cash offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no fees. According to Zillow Research city ZHVI (2026-03-31), Springfield typical home value is $294,613. We buy at fair value and cover all closing costs including Massachusetts deed excise stamps. Call 888-274-5006. Hablamos español.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-6">
@@ -233,9 +233,9 @@ export default function SpringfieldMAMarketPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200">
-                <tr className="bg-white"><td className="p-3 font-medium">Median home value</td><td className="p-3">$178,000</td><td className="p-3 text-gray-500">Zillow ZHVI (Mar 2026)</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">Median sale price</td><td className="p-3">$185,000</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
-                <tr className="bg-white"><td className="p-3 font-medium">Median days on market</td><td className="p-3">~32 days</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Median home value</td><td className="p-3">$294,613</td><td className="p-3 text-gray-500">Zillow Research city ZHVI (Springfield MA, 2026-03-31, +3.5% YoY)</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Median sale price</td><td className="p-3">$303,000</td><td className="p-3 text-gray-500">Redfin city housing-market data (Springfield MA, Mar 2026, +5.4% YoY)</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Median days on market</td><td className="p-3">~43 days</td><td className="p-3 text-gray-500">Redfin city housing-market data (Springfield MA, Mar 2026)</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Transfer tax (deed excise)</td><td className="p-3">$4.56 per $1,000 (seller pays)</td><td className="p-3 text-gray-500">MA Dept. of Revenue</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Foreclosure type</td><td className="p-3">Non-judicial (power of sale, ~75-90 days)</td><td className="p-3 text-gray-500">MA General Laws Ch. 183</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Hispanic/Latino population</td><td className="p-3">~48% of city</td><td className="p-3 text-gray-500">U.S. Census Bureau ACS</td></tr>
@@ -272,7 +272,7 @@ export default function SpringfieldMAMarketPage() {
           </h2>
           <ComparisonTable rows={COMPARISON_ROWS} />
           <p className="mt-4 text-sm text-gray-600">
-            On a $185,000 Springfield home, a 5-6% agent commission runs $9,250-$11,100. Add Massachusetts deed excise stamps (~$844), any required repairs on pre-1950 triple-decker stock, carrying costs during 32+ days on market, and potential price cuts if the property needs work. Most Springfield triple-deckers require lead paint compliance testing and often remediation under Massachusetts lead paint law (MGL Ch. 111 §197A) before traditional sale. That's an expense that disappears with a direct cash sale.
+            On a $303,000 Springfield home, a 5-6% agent commission runs $15,150-$18,180. Add Massachusetts deed excise stamps (~$1,382), any required repairs on pre-1950 triple-decker stock, carrying costs during 43+ days on market, and potential price cuts if the property needs work. Most Springfield triple-deckers require lead paint compliance testing and often remediation under Massachusetts lead paint law (MGL Ch. 111 §197A) before traditional sale. That's an expense that disappears with a direct cash sale.
           </p>
         </section>
 

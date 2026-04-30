@@ -25,7 +25,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How much will USA Home Buyers pay for my Manchester property?',
-    answer: 'Cash offers typically range from 68-80% of fair market value. According to Zillow, the Manchester median home value is $310,000. We cover all closing costs — the offer we make is what you walk away with. No deductions at the closing table.',
+    answer: 'Cash offers typically range from 68-80% of fair market value. According to Zillow Research city ZHVI (2026-03-31), the Manchester typical home value is $435,334. We cover all closing costs — the offer we make is what you walk away with. No deductions at the closing table.',
   },
   {
     question: 'What is the transfer tax when selling a house in Manchester NH?',

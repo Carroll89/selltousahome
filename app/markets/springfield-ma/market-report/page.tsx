@@ -35,7 +35,7 @@ export default function SpringfieldMarketReportPage() {
         <div className="bg-blue-50 border border-blue-100 rounded-xl p-4 mb-8">
           <p className="text-sm font-medium text-blue-800 mb-1">TL;DR</p>
           <p className="text-sm text-blue-900 leading-relaxed">
-            According to Zillow and Redfin data for Hampden County (2026), the Springfield median home value is $178,000, with a median sale price of $185,000 and approximately 32 days on market. Transfer tax: $4.56 per $1,000 (deed excise, seller pays). Foreclosure process: Non-judicial. For a cash offer based on current Springfield market conditions, call USA Home Buyers at 888-274-5006.
+            According to Zillow Research city ZHVI (Springfield MA, 2026-03-31), the typical Springfield home value is $294,613; Redfin city housing-market data for March 2026 shows a $303,000 median sale price, $204 per square foot, and 43 median days on market. Transfer tax: $4.56 per $1,000 (deed excise, seller pays). Foreclosure process: Non-judicial. For a cash offer based on current Springfield market conditions, call USA Home Buyers at 888-274-5006.
           </p>
         </div>
 
@@ -51,10 +51,10 @@ export default function SpringfieldMarketReportPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200">
-                <tr className="bg-white"><td className="p-3 font-medium">Median home value</td><td className="p-3">$178,000</td><td className="p-3 text-gray-500">Zillow ZHVI (Mar 2026)</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">Median sale price</td><td className="p-3">$185,000</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
-                <tr className="bg-white"><td className="p-3 font-medium">Price per sq ft</td><td className="p-3">$122</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">Median days on market</td><td className="p-3">32 days</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Median home value</td><td className="p-3">$294,613</td><td className="p-3 text-gray-500">Zillow Research city ZHVI (Springfield MA, 2026-03-31, +3.5% YoY)</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Median sale price</td><td className="p-3">$303,000</td><td className="p-3 text-gray-500">Redfin city housing-market data (Springfield MA, Mar 2026, +5.4% YoY)</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Price per sq ft</td><td className="p-3">$204</td><td className="p-3 text-gray-500">Redfin city housing-market data (Springfield MA, Mar 2026, +2.5% YoY)</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Median days on market</td><td className="p-3">43 days</td><td className="p-3 text-gray-500">Redfin city housing-market data (Springfield MA, Mar 2026)</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Typical cash offer range</td><td className="p-3">65-78% of FMV</td><td className="p-3 text-gray-500">Local investor norms</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Transfer tax</td><td className="p-3">$4.56 per $1,000 (deed excise, seller pays)</td><td className="p-3 text-gray-500">State revenue authority</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Foreclosure process</td><td className="p-3">Non-judicial (power of sale, ~75-120 days, MGL Ch. 183)</td><td className="p-3 text-gray-500">State statutes</td></tr>
@@ -99,7 +99,7 @@ export default function SpringfieldMarketReportPage() {
         <section className="mb-10">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">What This Means for Springfield Sellers</h2>
           <p className="text-gray-700 mb-4">
-            With 32 median days on market, a traditional sale in Springfield still takes time — and that's before accounting for inspection contingencies, financing contingencies, and repair negotiations. Properties that need work often sit longer or require significant price reductions.
+            With 43 median days on market, a traditional sale in Springfield still takes time — and that's before accounting for inspection contingencies, financing contingencies, and repair negotiations. Properties that need work often sit longer or require significant price reductions.
           </p>
           <p className="text-gray-700 mb-4">
             A direct cash sale to USA Home Buyers closes in 7–14 days with no repairs required. We cover all closing costs including $4.56 per $1,000 (deed excise, seller pays). The trade-off: cash offers typically run 65-78% of fair market value.
@@ -109,7 +109,7 @@ export default function SpringfieldMarketReportPage() {
         <CashOfferForm variant="inline" headline="Get a Cash Offer Based on Current Springfield Market Data" subheadline="Written offer in 24 hours based on current Hampden County comps. We cover all closing costs." sourcePage="/markets/springfield-ma/market-report" />
 
         <div className="mt-8 text-sm text-gray-500">
-          <p>Data sources: Zillow Home Value Index (ZHVI), Redfin market statistics, U.S. Census Bureau American Community Survey. Market data reflects conditions as of March–April 2026. Individual property values vary. Contact us for a property-specific assessment.</p>
+          <p>Data sources: Zillow Home Value Index (ZHVI), Redfin market statistics, U.S. Census Bureau American Community Survey. Provider market data reflects March 2026 Redfin city metrics and Zillow Research city ZHVI dated 2026-03-31. Individual property values vary. Contact us for a property-specific assessment.</p>
         </div>
       </div>
     </>

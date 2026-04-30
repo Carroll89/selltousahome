@@ -35,7 +35,7 @@ export default function BridgeportMarketReportPage() {
         <div className="bg-blue-50 border border-blue-100 rounded-xl p-4 mb-8">
           <p className="text-sm font-medium text-blue-800 mb-1">TL;DR</p>
           <p className="text-sm text-blue-900 leading-relaxed">
-            According to Zillow and Redfin data for Fairfield County (2026), the Bridgeport median home value is $240,000, with a median sale price of $252,000 and 38 days on market. Transfer tax: 1.0% (0.75% state + 0.25% municipal, seller pays). Foreclosure process: Strict foreclosure. For a cash offer based on current Bridgeport market conditions, call USA Home Buyers at 888-274-5006.
+            According to Zillow Research city ZHVI (Bridgeport, 2026-03-31), the typical Bridgeport home value is $355,127; Redfin city housing-market data for March 2026 shows a $375,000 median sale price, $251 per square foot, and 72 median days on market. Transfer tax: 1.0% (0.75% state + 0.25% municipal, seller pays). Foreclosure process: Strict foreclosure. For a cash offer based on current Bridgeport market conditions, call USA Home Buyers at 888-274-5006.
           </p>
         </div>
 
@@ -51,10 +51,10 @@ export default function BridgeportMarketReportPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200">
-                <tr className="bg-white"><td className="p-3 font-medium">Median home value</td><td className="p-3">$240,000</td><td className="p-3 text-gray-500">Zillow ZHVI (Mar 2026)</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">Median sale price</td><td className="p-3">$252,000</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
-                <tr className="bg-white"><td className="p-3 font-medium">Price per sq ft</td><td className="p-3">$162</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">Median days on market</td><td className="p-3">38 days</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Median home value</td><td className="p-3">$355,127</td><td className="p-3 text-gray-500">Zillow Research city ZHVI (Bridgeport, 2026-03-31, +5.5% YoY)</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Median sale price</td><td className="p-3">$375,000</td><td className="p-3 text-gray-500">Redfin city housing-market data (Bridgeport, Mar 2026, +3.6% YoY)</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Price per sq ft</td><td className="p-3">$251</td><td className="p-3 text-gray-500">Redfin city housing-market data (Bridgeport, Mar 2026, +17.8% YoY)</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Median days on market</td><td className="p-3">72 days</td><td className="p-3 text-gray-500">Redfin city housing-market data (Bridgeport, Mar 2026)</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Typical cash offer range</td><td className="p-3">65-78% of FMV</td><td className="p-3 text-gray-500">Local investor norms</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Transfer tax</td><td className="p-3">1.0% (0.75% state + 0.25% municipal, seller pays)</td><td className="p-3 text-gray-500">State revenue authority</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Foreclosure process</td><td className="p-3">Strict foreclosure (Superior Court, Law Day, no auction — unique to CT)</td><td className="p-3 text-gray-500">State statutes</td></tr>
@@ -99,7 +99,7 @@ export default function BridgeportMarketReportPage() {
         <section className="mb-10">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">What This Means for Bridgeport Sellers</h2>
           <p className="text-gray-700 mb-4">
-            With 38 median days on market, a traditional sale in Bridgeport still takes time — and that's before accounting for inspection contingencies, financing contingencies, and repair negotiations. Properties that need work often sit longer or require significant price reductions.
+            With 72 median days on market, a traditional sale in Bridgeport still takes time — and that's before accounting for inspection contingencies, financing contingencies, and repair negotiations. Properties that need work often sit longer or require significant price reductions.
           </p>
           <p className="text-gray-700 mb-4">
             A direct cash sale to USA Home Buyers closes in 7–14 days with no repairs required. We cover all closing costs including 1.0% (0.75% state + 0.25% municipal, seller pays). The trade-off: cash offers typically run 65-78% of fair market value.
@@ -109,7 +109,7 @@ export default function BridgeportMarketReportPage() {
         <CashOfferForm variant="inline" headline="Get a Cash Offer Based on Current Bridgeport Market Data" subheadline="Written offer in 24 hours based on current Fairfield County comps. We cover all closing costs." sourcePage="/markets/bridgeport-ct/market-report" />
 
         <div className="mt-8 text-sm text-gray-500">
-          <p>Data sources: Zillow Home Value Index (ZHVI), Redfin market statistics, U.S. Census Bureau American Community Survey. Market data reflects conditions as of March–April 2026. Individual property values vary. Contact us for a property-specific assessment.</p>
+          <p>Data sources: Zillow Home Value Index (ZHVI), Redfin market statistics, U.S. Census Bureau American Community Survey. Provider market data reflects March 2026 Redfin city metrics and Zillow Research city ZHVI dated 2026-03-31. Individual property values vary. Contact us for a property-specific assessment.</p>
         </div>
       </div>
     </>

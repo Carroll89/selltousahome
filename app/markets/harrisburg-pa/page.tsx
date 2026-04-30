@@ -95,7 +95,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How much will you pay for my Harrisburg house?',
-    answer: 'We pay 70-80% of fair market value. For a Harrisburg home in the $145,000-$234,000 range, that typically means a cash offer of $100,000-$187,000. There are no agent commissions (saving 5-6%), no closing costs (we cover everything), and no repair expenses.',
+    answer: 'We pay 70-80% of fair market value. For a Harrisburg home anchored to current city sale-price and ZHVI data, that typically means a cash offer of roughly $100,000-$210,700 before property-specific adjustments. There are no agent commissions (saving 5-6%), no closing costs (we cover everything), and no repair expenses.',
   },
   {
     question: 'Do I need to make repairs before selling?',
@@ -187,7 +187,7 @@ export default function HarrisburgMarketPage() {
         {/* TL;DR — GEO/AEO Quick Answer */}
         <section className="my-10 bg-blue-50 border-l-4 border-brand-primary rounded-r-2xl p-6 md:p-8">
           <h2 className="text-xl md:text-2xl font-bold text-brand-dark mb-3">Quick Answer: Sell Your House Fast in Harrisburg, PA</h2>
-          <p className="text-gray-700 leading-relaxed">USA Home Buyers purchases houses in Harrisburg, PA for cash — as-is, in any condition, with no repairs and no agent fees. According to the Zillow Home Value Index, the Harrisburg area median home value is $234,569 (April 2026); within city limits, Redfin tracks a median closed sale price of approximately $145,000. The market goes pending in 5 days on average, but after that, financing and inspections add another 45–60 days. We close in 7–14 days — cash, no contingencies. We serve all of Harrisburg and Dauphin County.</p>
+          <p className="text-gray-700 leading-relaxed">USA Home Buyers purchases houses in Harrisburg, PA for cash — as-is, in any condition, with no repairs and no agent fees. According to the Zillow Home Value Index, the Harrisburg city ZHVI is $263,369 (Zillow Research city ZHVI, 2026-03-31); Redfin city housing-market data for March 2026 shows a $152,500 median sale price and 24 median days on market. After that, financing and inspections can add another 45–60 days. We close in 7–14 days — cash, no contingencies. We serve all of Harrisburg and Dauphin County.</p>
         </section>
 
       {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
@@ -204,7 +204,7 @@ export default function HarrisburgMarketPage() {
         <div className="px4 pb-4 text-sm text-gray-600 leading-relaxed">
         <p className="mb-3">Hey, if you&apos;re looking to sell your house fast in Harrisburg, PA, we can help. I&apos;m with USA Home Buyers — we buy houses right here in Harrisburg and all of Dauphin County, and we do it fast.</p>
         <p className="mb-3">Here&apos;s how it works. You call us or fill out our form online. We ask you maybe five or ten questions about the property — the condition, your situation, what kind of timeline you need. Within 24 hours, you get a written cash offer. No pressure, no obligation. If you accept, we set a closing date that works for you. We&apos;ve closed in as few as five days in the Harrisburg area.</p>
-        <p className="mb-3">Why go the cash route? The Harrisburg market has a median home value around $234,000, and the average days to pending is just five days — so it&apos;s a fast market. But once you go pending on the MLS, you&apos;re still looking at 45 to 60 more days for inspections, appraisals, and mortgage underwriting. That&apos;s two months of uncertainty. If the financing falls through, you start over.</p>
+        <p className="mb-3">Why go the cash route? The Harrisburg city ZHVI is $263,369 (Zillow Research, 2026-03-31), and Redfin city housing-market data shows 24 median days on market in March 2026 — so it&apos;s a fast market. But once you go pending on the MLS, you&apos;re still looking at 45 to 60 more days for inspections, appraisals, and mortgage underwriting. That&apos;s two months of uncertainty. If the financing falls through, you start over.</p>
         <p className="mb-3">We don&apos;t use financing. We pay cash. There&apos;s no appraisal contingency, no mortgage approval, no deal falling through at the last minute. No repairs, no cleaning, no agent commissions. We cover all closing costs.</p>
         <p className="mb-3">We serve all of Harrisburg — Camp Hill, Mechanicsburg, Carlisle, Steelton, and surrounding Dauphin County communities. Whatever your situation, we&apos;ve handled it before.</p>
         <p className="mb-3">Give us a call at 888-274-5006. We&apos;re here to make this as simple as possible.</p>
@@ -228,11 +228,11 @@ export default function HarrisburgMarketPage() {
             <table className="w-full text-sm">
               <tbody>
                 {[
-                  ['Median home value (Zillow ZHVI)', '$234,569'],
-                  ['Median sale price — city limits (Redfin)', '~$145,000'],
-                  ['Average days to pending', '5 days'],
+                  ['Median home value (Zillow Research city ZHVI, 2026-03-31)', '$263,369'],
+                  ['Median sale price — city limits (Redfin, Mar 2026)', '$152,500'],
+                  ['Median days on market (Redfin city, Mar 2026)', '24 days'],
                   ['Traditional sale timeline (offer to close)', '45-60 days'],
-                  ['Cash offer range (typical Harrisburg home)', '$100,000–$190,000'],
+                  ['Cash offer range (typical Harrisburg home)', '$100,000–$210,700'],
                   ['PA transfer tax', '2% (split buyer/seller — 1% each)'],
                   ['Typical realtor commission', '5–6%'],
                 ].map(([metric, value], i) => (
@@ -244,9 +244,9 @@ export default function HarrisburgMarketPage() {
               </tbody>
             </table>
           </div>
-          <p className="mt-4 text-xs text-gray-400">Market data last updated: April 2026</p>
+          <p className="mt-4 text-xs text-gray-400">Provider data: Redfin city March 2026; Zillow Research city ZHVI 2026-03-31</p>
           <p className="mt-2 text-sm text-gray-600">
-            The Harrisburg market is fast — five days to pending is quick. But &quot;pending&quot; and &quot;closed&quot; are different.
+            The Harrisburg market is moving, but 24 median days on market plus 45–60 days of financing and closing time is still materially slower than a cash close.
             After an offer gets accepted, inspections, appraisals, and financing still take 45-60 days.
           </p>
           <p className="mt-2 text-sm">

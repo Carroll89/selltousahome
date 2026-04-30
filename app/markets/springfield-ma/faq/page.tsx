@@ -25,7 +25,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How much will USA Home Buyers pay for my Springfield property?',
-    answer: 'Cash offers typically range from 65-78% of fair market value. According to Zillow, the Springfield median home value is $178,000. We cover all closing costs — the offer we make is what you walk away with. No deductions at the closing table.',
+    answer: 'Cash offers typically range from 65-78% of fair market value. According to Zillow Research city ZHVI (2026-03-31), the Springfield typical home value is $294,613. We cover all closing costs — the offer we make is what you walk away with. No deductions at the closing table.',
   },
   {
     question: 'What is the transfer tax when selling a house in Springfield MA?',

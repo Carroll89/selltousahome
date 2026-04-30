@@ -204,7 +204,7 @@ export default function ReadingTenantOccupiedPage() {
           <FAQSection items={FAQ_ITEMS} heading="Reading PA Tenant-Occupied Properties — FAQ" />
 
           <div className="mt-8 text-sm text-gray-500">
-            <p>Market data last updated: April 2026</p>
+            <p>Provider data: Redfin city March 2026; Zillow Research city ZHVI 2026-03-31</p>
             <p className="mt-2">
               Related:{' '}
               <Link href="/markets/reading-pa/code-violations" className="text-brand-primary hover:underline">Code Violations in Reading</Link>{' '}

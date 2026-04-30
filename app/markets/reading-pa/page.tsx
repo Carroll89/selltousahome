@@ -104,7 +104,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How much will you pay for my Reading house?',
-    answer: 'We pay 70-80% of fair market value. Reading\'s Zillow ZHVI is $227,041 and the Redfin median sale price is $185,000 (Feb 2026). Cash offers for typical Reading homes typically range from $130,000-$182,000. There are no agent commissions, no closing costs, and no repair expenses — we cover all of that.',
+    answer: 'We pay 70-80% of fair market value. Reading\'s Zillow Research city ZHVI is $260,654 (2026-03-31, +2.5% YoY) and the Redfin city median sale price is $185,000 (Mar 2026, +2.8% YoY). Cash offers for typical Reading homes typically range from $130,000-$182,000. There are no agent commissions, no closing costs, and no repair expenses — we cover all of that.',
   },
   {
     question: 'Do I need to make repairs before selling?',
@@ -189,7 +189,7 @@ export default function ReadingMarketPage() {
         {/* TL;DR — GEO/AEO Quick Answer */}
         <section className="my-10 bg-blue-50 border-l-4 border-brand-primary rounded-r-2xl p-6 md:p-8">
           <h2 className="text-xl md:text-2xl font-bold text-brand-dark mb-3">Quick Answer: Sell Your House Fast in Reading, PA</h2>
-          <p className="text-gray-700 leading-relaxed">USA Home Buyers purchases houses in Reading, PA for cash — as-is, any condition, no repairs. According to the Zillow Home Value Index, the typical Reading home value is $227,041 (early 2026, +7.8% year-over-year); Redfin's median closed sale price is $185,000. Important: Reading has one of Pennsylvania's highest transfer tax rates — 5% total (4% City + 1% State). We cover all closing costs, including the full transfer tax. Written offer within 24 hours, closing in as few as 7 days. Hablamos español — 70.8% of Reading is Hispanic.</p>
+          <p className="text-gray-700 leading-relaxed">USA Home Buyers purchases houses in Reading, PA for cash — as-is, any condition, no repairs. According to the Zillow Home Value Index, the typical Reading home value is $260,654 (Zillow Research city ZHVI, 2026-03-31, +2.5% YoY); Redfin city housing-market data shows a $185,000 March 2026 median sale price (+2.8% YoY). Important: Reading has one of Pennsylvania's highest transfer tax rates — 5% total (4% City + 1% State). We cover all closing costs, including the full transfer tax. Written offer within 24 hours, closing in as few as 7 days. Hablamos español — 70.8% of Reading is Hispanic.</p>
         </section>
 
         {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
@@ -265,12 +265,12 @@ export default function ReadingMarketPage() {
             <table className="w-full text-sm">
               <tbody>
                 {[
-                  ['Median home value — Zillow ZHVI', '$227,041'],
-                  ['Median sale price — Redfin (Feb 2026)', '$185,000'],
-                  ['Year-over-year price change', '-1.1% (Redfin)'],
-                  ['Median days on market', '24 days'],
-                  ['Sale-to-list ratio', '96.6%'],
-                  ['Compete Score (Redfin)', '80/100 — Very Competitive'],
+                  ['Median home value — Zillow Research city ZHVI (2026-03-31)', '$260,654'],
+                  ['Median sale price — Redfin city (Mar 2026)', '$185,000'],
+                  ['Year-over-year price change', '+2.5% (Zillow city) / +2.8% (Redfin city)'],
+                  ['Median days on market', '40 days'],
+                  ['Sale-to-list ratio (Redfin city, Mar 2026)', '99.6%'],
+                  ['Compete Score (Redfin city)', '85/100 — Very Competitive'],
                   ['Average offers per home', '6'],
                   ['Cash offer range (typical home)', '$130,000–$182,000'],
                   ['Reading PA transfer tax', '5% total (4% city + 1% state) — vs. 2% in rest of Berks County'],
@@ -286,9 +286,9 @@ export default function ReadingMarketPage() {
               </tbody>
             </table>
           </div>
-          <p className="mt-4 text-xs text-gray-400">Market data last updated: April 2026</p>
+          <p className="mt-4 text-xs text-gray-400">Provider data: Redfin city March 2026; Zillow Research city ZHVI 2026-03-31</p>
           <p className="mt-2 text-sm text-gray-600">
-            Reading is a competitive market — homes average 24 days on market and sell at 96.6% of list price.
+            Reading is a competitive market — homes show a 40-day median days on market and sell at 99.6% of list price in Redfin city March 2026 data.
             But the 5% transfer tax, high percentage of distressed older stock, and long traditional closing timelines
             make cash buyers especially valuable here.
           </p>

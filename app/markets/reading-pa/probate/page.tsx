@@ -195,7 +195,7 @@ export default function ReadingProbatePage() {
           <FAQSection items={FAQ_ITEMS} heading="Berks County Probate Property — FAQ" />
 
           <div className="mt-8 text-sm text-gray-500">
-            <p>Market data last updated: April 2026</p>
+            <p>Provider data: Redfin city March 2026; Zillow Research city ZHVI 2026-03-31</p>
             <p className="mt-1">
               Sources:{' '}
               <a href="https://www.berkspa.gov/departments/register-of-wills" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:underline">Berks County Register of Wills</a>
