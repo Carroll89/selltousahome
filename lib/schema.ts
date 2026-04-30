@@ -1041,7 +1041,7 @@ export const yorkFAQSchema = {
       name: 'How much will you pay for my York PA house?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Cash offers for York homes typically range from 65–75% of after-repair value. According to Redfin, the York City median sale price is $165,850 (February 2026), with Northeast York properties often under $120,000. We cover all closing costs — no agent commissions, no fees deducted from your number.',
+        text: 'Cash offers for York homes typically range from 65–75% of after-repair value. According to Redfin city housing-market data (March 2026), the York City median sale price is $172,500, with Northeast York properties often under $120,000. We cover all closing costs — no agent commissions, no fees deducted from your number.',
       },
     },
     {
