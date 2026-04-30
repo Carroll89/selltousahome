@@ -468,6 +468,21 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     markets: ['rochester-ny'],
     isStatic: true,
   },
+  {
+    slug: 'sell-flood-damaged-house-allentown-pa',
+    title: 'Selling a Flood-Damaged House in Allentown PA — Jordan Creek, Little Lehigh, and What Sellers Can Do',
+    excerpt: "If you own a house near Jordan Creek, Little Lehigh Creek, or Allentown's low-lying creek corridors, flood damage can stop a normal sale fast. Here's what to do.",
+    date: 'April 30, 2026',
+    datePublished: '2026-04-30',
+    category: 'Situation Deep-Dive',
+    readTime: '7 min',
+    heroImage: '/images/allentown-hero.jpg',
+    heroAlt: 'Allentown PA flood-damaged house near Jordan Creek',
+    description: 'Selling a flood-damaged house in Allentown PA? Jordan Creek and Little Lehigh flood zones, PA disclosure law, FEMA lookup, and why cash buyers can simplify the sale.',
+    primaryKeyword: 'sell flood damaged house Allentown PA',
+    markets: ['allentown-pa'],
+    isStatic: true,
+  },
 ];
 
 /** Get all posts sorted by date (newest first) */
