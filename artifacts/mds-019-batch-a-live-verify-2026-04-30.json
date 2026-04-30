@@ -1,0 +1,481 @@
+{
+  "commit": "ce84f1301edbd128f2da1a3c811b260f71155050",
+  "checkedAt": "2026-04-30T12:17:06Z",
+  "url_count": 49,
+  "failures": [],
+  "positive_failures": [],
+  "results": [
+    {
+      "url": "https://www.selltousahome.com/markets/bloomington-il",
+      "status": 200,
+      "bytes": 166955,
+      "cf": "MISS",
+      "lastModified": "Thu, 30 Apr 2026 12:16:03 UTC",
+      "bad": []
+    },
+    {
+      "url": "https://www.selltousahome.com/markets/bloomington-il/code-violations",
+      "status": 200,
+      "bytes": 97909,
+      "cf": "MISS",
+      "lastModified": "Thu, 30 Apr 2026 12:16:03 UTC",
+      "bad": []
+    },
+    {
+      "url": "https://www.selltousahome.com/markets/bloomington-il/faq",
+      "status": 200,
+      "bytes": 78312,
+      "cf": "MISS",
+      "lastModified": "Thu, 30 Apr 2026 12:16:03 UTC",
+      "bad": []
+    },
+    {
+      "url": "https://www.selltousahome.com/markets/bloomington-il/market-report",
+      "status": 200,
+      "bytes": 97459,
+      "cf": "MISS",
+      "lastModified": "Thu, 30 Apr 2026 12:16:03 UTC",
+      "bad": []
+    },
+    {
+      "url": "https://www.selltousahome.com/markets/bloomington-il/neighborhoods",
+      "status": 200,
+      "bytes": 87616,
+      "cf": null,
+      "lastModified": "Thu, 30 Apr 2026 12:16:03 UTC",
+      "bad": []
+    },
+    {
+      "url": "https://www.selltousahome.com/markets/champaign-urbana-il",
+      "status": 200,
+      "bytes": 156380,
+      "cf": null,
+      "lastModified": "Thu, 30 Apr 2026 12:16:04 UTC",
+      "bad": []
+    },
+    {
+      "url": "https://www.selltousahome.com/markets/champaign-urbana-il/market-report",
+      "status": 200,
+      "bytes": 92593,
+      "cf": null,
+      "lastModified": "Thu, 30 Apr 2026 12:16:04 UTC",
+      "bad": []
+    },
+    {
+      "url": "https://www.selltousahome.com/markets/new-haven-ct",
+      "status": 200,
+      "bytes": 157983,
+      "cf": null,
+      "lastModified": "Thu, 30 Apr 2026 12:16:05 UTC",
+      "bad": []
+    },
+    {
+      "url": "https://www.selltousahome.com/markets/new-haven-ct/faq",
+      "status": 200,
+      "bytes": 83733,
+      "cf": null,
+      "lastModified": "Thu, 30 Apr 2026 12:16:04 UTC",
+      "bad": []
+    },
+    {
+      "url": "https://www.selltousahome.com/markets/new-haven-ct/inherited-property",
+      "status": 200,
+      "bytes": 100180,
+      "cf": null,
+      "lastModified": "Thu, 30 Apr 2026 12:16:04 UTC",
+      "bad": []
+    },
+    {
+      "url": "https://www.selltousahome.com/markets/new-haven-ct/market-report",
+      "status": 200,
+      "bytes": 79966,
+      "cf": null,
+      "lastModified": "Thu, 30 Apr 2026 12:16:04 UTC",
+      "bad": []
+    },
+    {
+      "url": "https://www.selltousahome.com/markets/oshkosh-wi",
+      "status": 200,
+      "bytes": 162810,
+      "cf": null,
+      "lastModified": "Thu, 30 Apr 2026 12:16:05 UTC",
+      "bad": []
+    },
+    {
+      "url": "https://www.selltousahome.com/markets/oshkosh-wi/faq",
+      "status": 200,
+      "bytes": 82729,
+      "cf": null,
+      "lastModified": "Thu, 30 Apr 2026 12:16:05 UTC",
+      "bad": []
+    },
+    {
+      "url": "https://www.selltousahome.com/markets/oshkosh-wi/market-report",
+      "status": 200,
+      "bytes": 82693,
+      "cf": null,
+      "lastModified": "Thu, 30 Apr 2026 12:16:05 UTC",
+      "bad": []
+    },
+    {
+      "url": "https://www.selltousahome.com/markets/peoria-il",
+      "status": 200,
+      "bytes": 163917,
+      "cf": null,
+      "lastModified": "Thu, 30 Apr 2026 12:16:05 UTC",
+      "bad": []
+    },
+    {
+      "url": "https://www.selltousahome.com/markets/peoria-il/code-violations",
+      "status": 200,
+      "bytes": 108193,
+      "cf": null,
+      "lastModified": "Thu, 30 Apr 2026 12:16:05 UTC",
+      "bad": []
+    },
+    {
+      "url": "https://www.selltousahome.com/markets/peoria-il/divorce-sale",
+      "status": 200,
+      "bytes": 95773,
+      "cf": null,
+      "lastModified": "Thu, 30 Apr 2026 12:16:05 UTC",
+      "bad": []
+    },
+    {
+      "url": "https://www.selltousahome.com/markets/peoria-il/faq",
+      "status": 200,
+      "bytes": 71374,
+      "cf": null,
+      "lastModified": "Thu, 30 Apr 2026 12:16:05 UTC",
+      "bad": []
+    },
+    {
+      "url": "https://www.selltousahome.com/markets/peoria-il/fire-damage",
+      "status": 200,
+      "bytes": 113247,
+      "cf": null,
+      "lastModified": "Thu, 30 Apr 2026 12:16:05 UTC",
+      "bad": []
+    },
+    {
+      "url": "https://www.selltousahome.com/markets/peoria-il/foreclosure",
+      "status": 200,
+      "bytes": 103105,
+      "cf": "MISS",
+      "lastModified": "Thu, 30 Apr 2026 12:16:05 UTC",
+      "bad": []
+    },
+    {
+      "url": "https://www.selltousahome.com/markets/peoria-il/inherited-property",
+      "status": 200,
+      "bytes": 105716,
+      "cf": null,
+      "lastModified": "Thu, 30 Apr 2026 12:16:05 UTC",
+      "bad": []
+    },
+    {
+      "url": "https://www.selltousahome.com/markets/peoria-il/market-report",
+      "status": 200,
+      "bytes": 94062,
+      "cf": null,
+      "lastModified": "Thu, 30 Apr 2026 12:16:05 UTC",
+      "bad": []
+    },
+    {
+      "url": "https://www.selltousahome.com/markets/peoria-il/neighborhoods",
+      "status": 200,
+      "bytes": 79851,
+      "cf": "MISS",
+      "lastModified": "Thu, 30 Apr 2026 12:16:05 UTC",
+      "bad": []
+    },
+    {
+      "url": "https://www.selltousahome.com/markets/peoria-il/probate",
+      "status": 200,
+      "bytes": 103197,
+      "cf": null,
+      "lastModified": "Thu, 30 Apr 2026 12:16:05 UTC",
+      "bad": []
+    },
+    {
+      "url": "https://www.selltousahome.com/markets/peoria-il/tenant-occupied",
+      "status": 200,
+      "bytes": 103765,
+      "cf": null,
+      "lastModified": "Thu, 30 Apr 2026 12:16:05 UTC",
+      "bad": []
+    },
+    {
+      "url": "https://www.selltousahome.com/markets/rockford-il",
+      "status": 200,
+      "bytes": 163963,
+      "cf": null,
+      "lastModified": "Thu, 30 Apr 2026 12:16:05 UTC",
+      "bad": []
+    },
+    {
+      "url": "https://www.selltousahome.com/markets/rockford-il/code-violations",
+      "status": 200,
+      "bytes": 96661,
+      "cf": null,
+      "lastModified": "Thu, 30 Apr 2026 12:16:05 UTC",
+      "bad": []
+    },
+    {
+      "url": "https://www.selltousahome.com/markets/rockford-il/market-report",
+      "status": 200,
+      "bytes": 79629,
+      "cf": null,
+      "lastModified": "Thu, 30 Apr 2026 12:16:05 UTC",
+      "bad": []
+    },
+    {
+      "url": "https://www.selltousahome.com/markets/springfield-il",
+      "status": 200,
+      "bytes": 163902,
+      "cf": null,
+      "lastModified": "Thu, 30 Apr 2026 12:16:05 UTC",
+      "bad": []
+    },
+    {
+      "url": "https://www.selltousahome.com/markets/springfield-il/code-violations",
+      "status": 200,
+      "bytes": 98310,
+      "cf": null,
+      "lastModified": "Thu, 30 Apr 2026 12:16:05 UTC",
+      "bad": []
+    },
+    {
+      "url": "https://www.selltousahome.com/markets/springfield-il/divorce-sale",
+      "status": 200,
+      "bytes": 102256,
+      "cf": null,
+      "lastModified": "Thu, 30 Apr 2026 12:16:05 UTC",
+      "bad": []
+    },
+    {
+      "url": "https://www.selltousahome.com/markets/springfield-il/faq",
+      "status": 200,
+      "bytes": 68999,
+      "cf": null,
+      "lastModified": "Thu, 30 Apr 2026 12:16:05 UTC",
+      "bad": []
+    },
+    {
+      "url": "https://www.selltousahome.com/markets/springfield-il/fire-damage",
+      "status": 200,
+      "bytes": 101638,
+      "cf": null,
+      "lastModified": "Thu, 30 Apr 2026 12:16:05 UTC",
+      "bad": []
+    },
+    {
+      "url": "https://www.selltousahome.com/markets/springfield-il/foreclosure",
+      "status": 200,
+      "bytes": 105580,
+      "cf": null,
+      "lastModified": "Thu, 30 Apr 2026 12:16:05 UTC",
+      "bad": []
+    },
+    {
+      "url": "https://www.selltousahome.com/markets/springfield-il/inherited-property",
+      "status": 200,
+      "bytes": 111347,
+      "cf": null,
+      "lastModified": "Thu, 30 Apr 2026 12:16:05 UTC",
+      "bad": []
+    },
+    {
+      "url": "https://www.selltousahome.com/markets/springfield-il/market-report",
+      "status": 200,
+      "bytes": 81838,
+      "cf": null,
+      "lastModified": "Thu, 30 Apr 2026 12:16:05 UTC",
+      "bad": []
+    },
+    {
+      "url": "https://www.selltousahome.com/markets/springfield-il/neighborhoods",
+      "status": 200,
+      "bytes": 70894,
+      "cf": null,
+      "lastModified": "Thu, 30 Apr 2026 12:16:05 UTC",
+      "bad": []
+    },
+    {
+      "url": "https://www.selltousahome.com/markets/springfield-il/tenant-occupied",
+      "status": 200,
+      "bytes": 98509,
+      "cf": null,
+      "lastModified": "Thu, 30 Apr 2026 12:16:05 UTC",
+      "bad": []
+    },
+    {
+      "url": "https://www.selltousahome.com/markets/wilmington-de",
+      "status": 200,
+      "bytes": 160231,
+      "cf": "MISS",
+      "lastModified": "Thu, 30 Apr 2026 12:16:06 UTC",
+      "bad": []
+    },
+    {
+      "url": "https://www.selltousahome.com/markets/wilmington-de/divorce-sale",
+      "status": 200,
+      "bytes": 71506,
+      "cf": null,
+      "lastModified": "Thu, 30 Apr 2026 12:16:06 UTC",
+      "bad": []
+    },
+    {
+      "url": "https://www.selltousahome.com/markets/wilmington-de/faq",
+      "status": 200,
+      "bytes": 67381,
+      "cf": null,
+      "lastModified": "Thu, 30 Apr 2026 12:16:06 UTC",
+      "bad": []
+    },
+    {
+      "url": "https://www.selltousahome.com/markets/wilmington-de/foreclosure",
+      "status": 200,
+      "bytes": 81575,
+      "cf": "MISS",
+      "lastModified": "Thu, 30 Apr 2026 12:16:06 UTC",
+      "bad": []
+    },
+    {
+      "url": "https://www.selltousahome.com/markets/wilmington-de/inherited-property",
+      "status": 200,
+      "bytes": 76546,
+      "cf": "MISS",
+      "lastModified": "Thu, 30 Apr 2026 12:16:06 UTC",
+      "bad": []
+    },
+    {
+      "url": "https://www.selltousahome.com/markets/wilmington-de/market-report",
+      "status": 200,
+      "bytes": 87061,
+      "cf": null,
+      "lastModified": "Thu, 30 Apr 2026 12:16:06 UTC",
+      "bad": []
+    },
+    {
+      "url": "https://www.selltousahome.com/markets/wilmington-de/neighborhoods",
+      "status": 200,
+      "bytes": 77345,
+      "cf": null,
+      "lastModified": "Thu, 30 Apr 2026 12:16:06 UTC",
+      "bad": []
+    },
+    {
+      "url": "https://www.selltousahome.com/markets/wilmington-de/probate",
+      "status": 200,
+      "bytes": 71545,
+      "cf": null,
+      "lastModified": "Thu, 30 Apr 2026 12:16:06 UTC",
+      "bad": []
+    },
+    {
+      "url": "https://www.selltousahome.com/markets/youngstown-oh",
+      "status": 200,
+      "bytes": 163426,
+      "cf": "MISS",
+      "lastModified": "Thu, 30 Apr 2026 12:16:06 UTC",
+      "bad": []
+    },
+    {
+      "url": "https://www.selltousahome.com/markets/youngstown-oh/faq",
+      "status": 200,
+      "bytes": 69476,
+      "cf": null,
+      "lastModified": "Thu, 30 Apr 2026 12:16:06 UTC",
+      "bad": []
+    },
+    {
+      "url": "https://www.selltousahome.com/markets/youngstown-oh/market-report",
+      "status": 200,
+      "bytes": 96279,
+      "cf": null,
+      "lastModified": "Thu, 30 Apr 2026 12:16:06 UTC",
+      "bad": []
+    }
+  ],
+  "positive": [
+    {
+      "name": "wilmington_dom",
+      "url": "https://www.selltousahome.com/markets/wilmington-de/divorce-sale",
+      "status": 200,
+      "cf": null,
+      "lastModified": "Thu, 30 Apr 2026 12:16:06 UTC",
+      "found": {
+        "61 days on market": true,
+        "Redfin Wilmington city, Mar 2026": true
+      }
+    },
+    {
+      "name": "wilmington_schema_page",
+      "url": "https://www.selltousahome.com/markets/wilmington-de",
+      "status": 200,
+      "cf": null,
+      "lastModified": "Thu, 30 Apr 2026 12:16:06 UTC",
+      "found": {
+        "61 sold days": true,
+        "Redfin Wilmington city, Mar 2026": true,
+        "$251,200": true,
+        "On a $251,200 home the total is $10,048": true
+      }
+    },
+    {
+      "name": "oshkosh_score_main",
+      "url": "https://www.selltousahome.com/markets/oshkosh-wi",
+      "status": 200,
+      "cf": null,
+      "lastModified": "Thu, 30 Apr 2026 12:16:05 UTC",
+      "found": {
+        "61/100": true
+      }
+    },
+    {
+      "name": "oshkosh_score_report",
+      "url": "https://www.selltousahome.com/markets/oshkosh-wi/market-report",
+      "status": 200,
+      "cf": null,
+      "lastModified": "Thu, 30 Apr 2026 12:16:05 UTC",
+      "found": {
+        "61/100": true,
+        "$761.43": true
+      }
+    },
+    {
+      "name": "springfield_report",
+      "url": "https://www.selltousahome.com/markets/springfield-il/market-report",
+      "status": 200,
+      "cf": null,
+      "lastModified": "Thu, 30 Apr 2026 12:16:05 UTC",
+      "found": {
+        "$186,000": true,
+        "+22.4%": true,
+        "28 days": true,
+        "114 homes sold": true
+      }
+    },
+    {
+      "name": "champaign_main",
+      "url": "https://www.selltousahome.com/markets/champaign-urbana-il",
+      "status": 200,
+      "cf": "MISS",
+      "lastModified": "Thu, 30 Apr 2026 12:16:04 UTC",
+      "found": {
+        "FRED/Realtor CBSA Listing Price (Mar 2026)": true
+      }
+    },
+    {
+      "name": "champaign_report",
+      "url": "https://www.selltousahome.com/markets/champaign-urbana-il/market-report",
+      "status": 200,
+      "cf": null,
+      "lastModified": "Thu, 30 Apr 2026 12:16:04 UTC",
+      "found": {
+        "$228,000 (-3.8%)": true
+      }
+    }
+  ]
+}
