@@ -139,7 +139,7 @@ export default function WorcesterMAMarketPage() {
 
   return (
     <>
-      <SchemaMarkup schema={[worcesterLocalBusinessSchema, faqSchema(FAQ_ITEMS), howToSchema, videoObjectSchema({ name: 'Sell My House Fast Worcester MA — USA Home Buyers', description: 'Cash offers for Worcester and Worcester County homes — any condition', contentUrl: `${SITE_URL}/videos/worcester-ma/landing.mp4`, uploadDate: '2026-04-28' })]} />
+      <SchemaMarkup schema={[worcesterLocalBusinessSchema, faqSchema(FAQ_ITEMS), howToSchema, videoObjectSchema({ name: 'Sell My House Fast Worcester MA — USA Home Buyers', description: 'Cash offers for Worcester and Worcester County homes — any condition', contentUrl: `${SITE_URL}/videos/worcester-ma/landing.mp4`, thumbnailUrl: `${SITE_URL}/images/video-posters/worcester-ma-main-poster.jpg`, uploadDate: '2026-04-28' })]} />
 
       <section className="relative text-white py-16 px-4 overflow-hidden">
         <picture className="absolute inset-0 w-full h-full">
@@ -188,6 +188,7 @@ export default function WorcesterMAMarketPage() {
         src="/videos/worcester-ma/landing.mp4"
         title="Sell My House Fast Worcester MA — USA Home Buyers"
         subtitle="Cash offers for Worcester and Worcester County homes — any condition"
+        poster="/images/video-posters/worcester-ma-main-poster.jpg"
         />
         <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
         <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">

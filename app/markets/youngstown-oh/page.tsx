@@ -126,7 +126,7 @@ const FAQ_ITEMS = [
 export default function YoungstownMarketPage() {
   return (
     <>
-      <SchemaMarkup schema={[youngstownLocalBusinessSchema, youngstownFAQSchema, youngstownHowToSchema, videoObjectSchema({ name: 'Sell My House Fast Youngstown OH — USA Home Buyers', description: 'Cash offers for Youngstown and Mahoning County homes — any condition', contentUrl: `${SITE_URL}/videos/youngstown-oh/landing.mp4`, uploadDate: '2026-04-28' })]} />
+      <SchemaMarkup schema={[youngstownLocalBusinessSchema, youngstownFAQSchema, youngstownHowToSchema, videoObjectSchema({ name: 'Sell My House Fast Youngstown OH — USA Home Buyers', description: 'Cash offers for Youngstown and Mahoning County homes — any condition', contentUrl: `${SITE_URL}/videos/youngstown-oh/landing.mp4`, thumbnailUrl: `${SITE_URL}/images/video-posters/youngstown-oh-main-poster.jpg`, uploadDate: '2026-04-28' })]} />
 
       {/* Hero */}
       <section className="relative text-white py-8 md:py-16 px-4 overflow-hidden">
@@ -189,6 +189,7 @@ export default function YoungstownMarketPage() {
         src="/videos/youngstown-oh/landing.mp4"
         title="Sell My House Fast Youngstown OH — USA Home Buyers"
         subtitle="Cash offers for Youngstown and Mahoning County homes — any condition"
+        poster="/images/video-posters/youngstown-oh-main-poster.jpg"
         />
         <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
         <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">

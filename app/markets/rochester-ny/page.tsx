@@ -139,7 +139,7 @@ export default function RochesterNYMarketPage() {
 
   return (
     <>
-      <SchemaMarkup schema={[rochesterLocalBusinessSchema, faqSchema(FAQ_ITEMS), howToSchema, videoObjectSchema({ name: 'Sell My House Fast Rochester NY — USA Home Buyers', description: 'Cash offers for Rochester and Monroe County homes — any condition', contentUrl: `${SITE_URL}/videos/rochester-ny/landing.mp4`, uploadDate: '2026-04-28' })]} />
+      <SchemaMarkup schema={[rochesterLocalBusinessSchema, faqSchema(FAQ_ITEMS), howToSchema, videoObjectSchema({ name: 'Sell My House Fast Rochester NY — USA Home Buyers', description: 'Cash offers for Rochester and Monroe County homes — any condition', contentUrl: `${SITE_URL}/videos/rochester-ny/landing.mp4`, thumbnailUrl: `${SITE_URL}/images/video-posters/rochester-ny-main-poster.jpg`, uploadDate: '2026-04-28' })]} />
 
       <section className="relative text-white py-16 px-4 overflow-hidden">
         <picture className="absolute inset-0 w-full h-full">
@@ -188,6 +188,7 @@ export default function RochesterNYMarketPage() {
         src="/videos/rochester-ny/landing.mp4"
         title="Sell My House Fast Rochester NY — USA Home Buyers"
         subtitle="Cash offers for Rochester and Monroe County homes — any condition"
+        poster="/images/video-posters/rochester-ny-main-poster.jpg"
         />
         <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
         <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">

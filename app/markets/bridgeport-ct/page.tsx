@@ -141,6 +141,7 @@ export default function BridgeportCTMarketPage() {
     name: 'Sell My House Fast Bridgeport CT — USA Home Buyers',
     description: 'Cash offers for Bridgeport and Fairfield County homes in any condition with a written offer in 24 hours.',
     contentUrl: `${SITE_URL}/videos/bridgeport-ct/landing.mp4`,
+    thumbnailUrl: `${SITE_URL}/videos/bridgeport-ct/landing-poster.jpg`,
     uploadDate: '2026-04-22',
   });
 

@@ -143,7 +143,7 @@ export default function SpringfieldMAMarketPage() {
         springfieldLocalBusinessSchema,
         faqSchema(FAQ_ITEMS),
         howToSchema,
-        videoObjectSchema({ name: 'Sell My House Fast Springfield MA — USA Home Buyers', description: 'Cash offers for Springfield and Hampden County homes — any condition', contentUrl: `${SITE_URL}/videos/springfield-ma/landing.mp4`, uploadDate: '2026-04-28' }),
+        videoObjectSchema({ name: 'Sell My House Fast Springfield MA — USA Home Buyers', description: 'Cash offers for Springfield and Hampden County homes — any condition', contentUrl: `${SITE_URL}/videos/springfield-ma/landing.mp4`, thumbnailUrl: `${SITE_URL}/images/video-posters/springfield-ma-main-poster.jpg`, uploadDate: '2026-04-28' }),
       ]} />
 
       <section className="relative text-white py-16 px-4 overflow-hidden">
@@ -201,6 +201,7 @@ export default function SpringfieldMAMarketPage() {
         src="/videos/springfield-ma/landing.mp4"
         title="Sell My House Fast Springfield MA — USA Home Buyers"
         subtitle="Cash offers for Springfield and Hampden County homes — any condition"
+        poster="/images/video-posters/springfield-ma-main-poster.jpg"
         />
         <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
         <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
