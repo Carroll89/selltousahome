@@ -49,11 +49,11 @@ const marketSlugs = [
   // --- Wave 2+ (add each slug here ONLY after its route is deployed and verified 200) ---
   "green-bay-wi",
   "binghamton-ny",     // Wave 3 — routes live as of MFF-006
-  // "appleton-wi",       // routes not yet built
-  // "canton-oh",         // routes not yet built
-  // "milwaukee-wi",      // routes not yet built
-  // "akron-oh",          // routes not yet built
-  // "concord-nh",        // routes not yet built
+  "appleton-wi",
+  "canton-oh",
+  "milwaukee-wi",
+  "akron-oh",
+  "concord-nh",
   // "norwich-ct",        // routes not yet built
   // "northampton-ma",    // routes not yet built
   // "eau-claire-wi",     // routes not yet built
@@ -134,11 +134,11 @@ const cityGuideSlugs = [
   // --- Wave 2+ guides (add ONLY after app/guides/{slug}/page.tsx is deployed and verified 200) ---
   "sell-house-fast-green-bay-wi-2026",
   "sell-house-fast-binghamton-ny-2026",  // Wave 3 — guide live as of MFF-006
-  // "sell-house-fast-appleton-wi-2026",
-  // "sell-house-fast-canton-oh-2026",
-  // "sell-house-fast-milwaukee-wi-2026",
-  // "sell-house-fast-akron-oh-2026",
-  // "sell-house-fast-concord-nh-2026",
+  "sell-house-fast-appleton-wi-2026",
+  "sell-house-fast-canton-oh-2026",
+  "sell-house-fast-milwaukee-wi-2026",
+  "sell-house-fast-akron-oh-2026",
+  "sell-house-fast-concord-nh-2026",
   // "sell-house-fast-norwich-ct-2026",
   // "sell-house-fast-northampton-ma-2026",
   // "sell-house-fast-eau-claire-wi-2026",

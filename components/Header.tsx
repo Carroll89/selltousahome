@@ -31,7 +31,11 @@ const marketsByState: {
   },
   {
     state: "Ohio",
-    cities: [{ href: "/markets/youngstown-oh", label: "Youngstown" }],
+    cities: [
+      { href: "/markets/youngstown-oh", label: "Youngstown" },
+      { href: "/markets/canton-oh", label: "Canton" },
+      { href: "/markets/akron-oh", label: "Akron" },
+    ],
   },
   {
     state: "Massachusetts",
@@ -53,12 +57,16 @@ const marketsByState: {
       { href: "/markets/wausau-wi", label: "Wausau" },
       { href: "/markets/madison-wi", label: "Madison" },
       { href: "/markets/green-bay-wi", label: "Green Bay" },
-      { href: "/markets/green-bay-wi", label: "Green Bay" },
+      { href: "/markets/appleton-wi", label: "Appleton" },
+      { href: "/markets/milwaukee-wi", label: "Milwaukee" },
     ],
   },
   {
     state: "New Hampshire",
-    cities: [{ href: "/markets/manchester-nh", label: "Manchester" }],
+    cities: [
+      { href: "/markets/manchester-nh", label: "Manchester" },
+      { href: "/markets/concord-nh", label: "Concord" },
+    ],
   },
   {
     state: "Connecticut",

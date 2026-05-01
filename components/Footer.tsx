@@ -49,7 +49,8 @@ export function Footer() {
               <li><Link href="/markets/chambersburg-pa" className="hover:text-white">Chambersburg, PA</Link></li>
               <li><Link href="/markets/wilmington-de" className="hover:text-white">Wilmington, DE</Link></li>
               <li><Link href="/markets/youngstown-oh" className="hover:text-white">Youngstown, OH</Link></li>
-              <li><Link href="/markets/youngstown-oh/market-report" className="hover:text-white">Youngstown Market Report</Link></li>
+              <li><Link href="/markets/canton-oh" className="hover:text-white">Canton, OH</Link></li>
+              <li><Link href="/markets/akron-oh" className="hover:text-white">Akron, OH</Link></li>
               <li><Link href="/sell-house-fast-ohio" className="hover:text-white">Sell House Fast Ohio</Link></li>
               <li><Link href="/markets/boston-ma" className="hover:text-white">Boston, MA</Link></li>
               <li><Link href="/markets/springfield-ma" className="hover:text-white">Springfield, MA</Link></li>
@@ -61,8 +62,11 @@ export function Footer() {
               <li><Link href="/markets/wausau-wi" className="hover:text-white">Wausau, WI</Link></li>
               <li><Link href="/markets/madison-wi" className="hover:text-white">Madison, WI</Link></li>
               <li><Link href="/markets/green-bay-wi" className="hover:text-white">Green Bay, WI</Link></li>
+              <li><Link href="/markets/appleton-wi" className="hover:text-white">Appleton, WI</Link></li>
+              <li><Link href="/markets/milwaukee-wi" className="hover:text-white">Milwaukee, WI</Link></li>
               <li><Link href="/sell-house-fast-wisconsin" className="hover:text-white">Sell House Fast Wisconsin</Link></li>
               <li><Link href="/markets/manchester-nh" className="hover:text-white">Manchester, NH</Link></li>
+              <li><Link href="/markets/concord-nh" className="hover:text-white">Concord, NH</Link></li>
               <li><Link href="/sell-house-fast-new-hampshire" className="hover:text-white">Sell House Fast New Hampshire</Link></li>
               <li><Link href="/markets/bridgeport-ct" className="hover:text-white">Bridgeport, CT</Link></li>
               <li><Link href="/markets/hartford-ct" className="hover:text-white">Hartford, CT</Link></li>

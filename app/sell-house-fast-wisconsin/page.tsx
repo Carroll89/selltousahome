@@ -79,6 +79,16 @@ export default function SellHouseFastWisconsinPage() {
               <p className="text-sm text-gray-600">Brown County · Median $260,000 (+4.0% YoY) · Compete Score 70 · ~42% below national avg · Wisconsin's third-largest city</p>
               <p className="text-xs text-brand-primary mt-2">See Green Bay market →</p>
             </Link>
+            <Link href="/markets/appleton-wi" className="bg-white border border-gray-200 rounded-xl p-5 hover:border-brand-primary transition-colors group">
+              <h3 className="font-bold text-brand-dark group-hover:text-brand-primary mb-1">Appleton, WI</h3>
+              <p className="text-sm text-gray-600">Outagamie County · Median $285,000 (+5.6% YoY) · Compete Score 77 · Fox Cities anchor · County seat</p>
+              <p className="text-xs text-brand-primary mt-2">See Appleton market →</p>
+            </Link>
+            <Link href="/markets/milwaukee-wi" className="bg-white border border-gray-200 rounded-xl p-5 hover:border-brand-primary transition-colors group">
+              <h3 className="font-bold text-brand-dark group-hover:text-brand-primary mb-1">Milwaukee, WI</h3>
+              <p className="text-sm text-gray-600">Milwaukee County · Median $235,000 (+14.6% YoY) · Compete Score 72 · Wisconsin's largest city · Older duplex stock</p>
+              <p className="text-xs text-brand-primary mt-2">See Milwaukee market →</p>
+            </Link>
           </div>
         </section>
 
@@ -205,6 +215,20 @@ export default function SellHouseFastWisconsinPage() {
                   <td className="p-3">$260,000 median (+4.0% YoY)</td>
                   <td className="p-3">51 days</td>
                   <td className="p-3 text-xs">Compete Score 70; ~42% below national avg; manufacturing heritage; Brown County ROD 305 E. Walnut St.</td>
+                </tr>
+                <tr className="bg-gray-50">
+                  <td className="p-3"><Link href="/markets/appleton-wi" className="text-brand-primary hover:underline">Appleton</Link></td>
+                  <td className="p-3">Outagamie County</td>
+                  <td className="p-3">$285,000 median (+5.6% YoY)</td>
+                  <td className="p-3">45 days</td>
+                  <td className="p-3 text-xs">Compete Score 77; Fox Cities anchor; spans 3 counties; Outagamie ROD 320 S. Walnut St.</td>
+                </tr>
+                <tr className="bg-white">
+                  <td className="p-3"><Link href="/markets/milwaukee-wi" className="text-brand-primary hover:underline">Milwaukee</Link></td>
+                  <td className="p-3">Milwaukee County</td>
+                  <td className="p-3">$235,000 city median (+14.6% YoY)</td>
+                  <td className="p-3">44 days</td>
+                  <td className="p-3 text-xs">Compete Score 72; largest WI city; 44.8% pre-1950 stock; Milwaukee County ROD 901 N. 9th St.</td>
                 </tr>
               </tbody>
             </table>

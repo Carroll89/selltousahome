@@ -37,7 +37,7 @@ export default function SellHouseFastNewHampshirePage() {
         <div className="bg-blue-50 border border-blue-100 rounded-xl p-5 mb-8">
           <p className="text-sm font-semibold text-blue-800 mb-2">TL;DR</p>
           <p className="text-sm text-blue-900 leading-relaxed">
-            USA Home Buyers purchases houses for cash throughout New Hampshire — currently serving Manchester. Written offer in 24 hours, close in 7–14 days, any condition, no repairs, no fees. We cover all closing costs. Call 888-274-5006.
+            USA Home Buyers purchases houses for cash throughout New Hampshire — currently serving Manchester and Concord. Written offer in 24 hours, close in 7–14 days, any condition, no repairs, no fees. We cover all closing costs. Call 888-274-5006.
           </p>
         </div>
 
@@ -48,6 +48,11 @@ export default function SellHouseFastNewHampshirePage() {
               <h3 className="font-bold text-brand-dark group-hover:text-brand-primary mb-1">Manchester, NH</h3>
               <p className="text-sm text-gray-600">Hillsborough County · Median $310,000 · 25 days avg DOM</p>
               <p className="text-xs text-brand-primary mt-2">See Manchester market →</p>
+            </Link>
+            <Link href="/markets/concord-nh" className="bg-white border border-gray-200 rounded-xl p-5 hover:border-brand-primary transition-colors group">
+              <h3 className="font-bold text-brand-dark group-hover:text-brand-primary mb-1">Concord, NH</h3>
+              <p className="text-sm text-gray-600">Merrimack County · Median $419,500 (+1.1% YoY) · Compete Score 86 · State capital · 33% pre-1940 housing</p>
+              <p className="text-xs text-brand-primary mt-2">See Concord market →</p>
             </Link>
           </div>
         </section>
@@ -97,6 +102,7 @@ export default function SellHouseFastNewHampshirePage() {
               </thead>
               <tbody className="divide-y divide-gray-200">
                 <tr className="bg-white"><td className="p-3"><Link href="/markets/manchester-nh" className="text-brand-primary hover:underline">Manchester</Link></td><td className="p-3">Hillsborough County</td><td className="p-3">$310,000</td><td className="p-3">~25 days</td></tr>
+                <tr className="bg-gray-50"><td className="p-3"><Link href="/markets/concord-nh" className="text-brand-primary hover:underline">Concord</Link></td><td className="p-3">Merrimack County</td><td className="p-3">$419,500 (+1.1% YoY)</td><td className="p-3">34 days</td></tr>
               </tbody>
             </table>
           </div>

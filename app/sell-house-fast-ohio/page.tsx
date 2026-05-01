@@ -122,17 +122,33 @@ export default function OhioHubPage() {
                 Sell Your Youngstown Home →
               </Link>
             </div>
-            <div className="bg-gray-50 border border-gray-200 rounded-2xl p-6 opacity-75">
-              <h3 className="text-xl font-bold text-gray-500 mb-2">More Ohio Markets</h3>
-              <p className="text-gray-500 text-sm mb-3">
-                We're expanding our Ohio coverage. Additional markets coming soon.
+            <div className="bg-blue-50 border border-blue-100 rounded-2xl p-6">
+              <h3 className="text-xl font-bold text-brand-dark mb-2">Canton, OH</h3>
+              <p className="text-gray-700 text-sm mb-3">
+                Stark County. Pro Football Hall of Fame city. 41.5% of housing units built in 1939 or earlier. Median sale price $127,000 (+5.8% YoY). Compete Score 75. Online Realauction sheriff sales every Monday.
               </p>
-              <p className="text-gray-500 text-sm">
-                Already in your area and need to sell? Call us — we evaluate properties throughout Ohio.
+              <ul className="text-sm text-gray-600 space-y-1 mb-4">
+                <li>→ Conveyance fee: $4.00/1,000 + $0.50/parcel (Stark County Auditor)</li>
+                <li>→ DOM: 45 days median</li>
+                <li>→ Probate Court: 110 Central Plaza South, Suite 501, Canton OH 44702</li>
+              </ul>
+              <Link href="/markets/canton-oh" className="inline-block bg-brand-primary text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors">
+                Sell Your Canton Home →
+              </Link>
+            </div>
+            <div className="bg-blue-50 border border-blue-100 rounded-2xl p-6">
+              <h3 className="text-xl font-bold text-brand-dark mb-2">Akron, OH</h3>
+              <p className="text-gray-700 text-sm mb-3">
+                Summit County. Former rubber capital. 34.1% of housing units built in 1939 or earlier. Median sale price $151,750 (+21.4% YoY). Compete Score 73. Online RealAuction sheriff sales Fridays.
               </p>
-              <a href={`tel:${PHONE}`} className="inline-block mt-4 bg-gray-200 text-gray-700 px-4 py-2 rounded-lg text-sm font-medium">
-                Call to Discuss Your Property
-              </a>
+              <ul className="text-sm text-gray-600 space-y-1 mb-4">
+                <li>→ Conveyance fee: $4.00/1,000 + $0.50/lot (Summit County Fiscal Office)</li>
+                <li>→ DOM: 42 days median</li>
+                <li>→ Probate Court: 209 South High Street, Akron OH 44308</li>
+              </ul>
+              <Link href="/markets/akron-oh" className="inline-block bg-brand-primary text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors">
+                Sell Your Akron Home →
+              </Link>
             </div>
           </div>
         </section>

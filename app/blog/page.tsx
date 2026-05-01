@@ -76,7 +76,10 @@ const MARKET_GROUPS = [
   },
   {
     state: 'New Hampshire',
-    markets: [{ label: 'Manchester NH', href: '/markets/manchester-nh' }],
+    markets: [
+      { label: 'Manchester NH', href: '/markets/manchester-nh' },
+      { label: 'Concord NH', href: '/markets/concord-nh' },
+    ],
   },
   {
     state: 'New York',
@@ -84,7 +87,11 @@ const MARKET_GROUPS = [
   },
   {
     state: 'Ohio',
-    markets: [{ label: 'Youngstown OH', href: '/markets/youngstown-oh' }],
+    markets: [
+      { label: 'Youngstown OH', href: '/markets/youngstown-oh' },
+      { label: 'Canton OH', href: '/markets/canton-oh' },
+      { label: 'Akron OH', href: '/markets/akron-oh' },
+    ],
   },
   {
     state: 'Wisconsin',
@@ -95,6 +102,8 @@ const MARKET_GROUPS = [
       { label: 'Wausau WI', href: '/markets/wausau-wi' },
       { label: 'Madison WI', href: '/markets/madison-wi' },
       { label: 'Green Bay WI', href: '/markets/green-bay-wi' },
+      { label: 'Appleton WI', href: '/markets/appleton-wi' },
+      { label: 'Milwaukee WI', href: '/markets/milwaukee-wi' },
     ],
   },
 ];

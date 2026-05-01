@@ -24,6 +24,8 @@ const marketGuides = [
   { href: '/guides/sell-house-fast-wilmington-de-2026', label: 'Wilmington, DE' },
   // Ohio
   { href: '/guides/sell-house-fast-youngstown-oh-2026', label: 'Youngstown, OH' },
+  { href: '/guides/sell-house-fast-canton-oh-2026', label: 'Canton, OH' },
+  { href: '/guides/sell-house-fast-akron-oh-2026', label: 'Akron, OH' },
   // Massachusetts
   { href: '/guides/sell-house-fast-springfield-ma-2026', label: 'Springfield, MA' },
   { href: '/guides/sell-house-fast-worcester-ma-2026', label: 'Worcester, MA' },
@@ -33,8 +35,11 @@ const marketGuides = [
   { href: '/guides/sell-house-fast-oshkosh-wi-2026', label: 'Oshkosh, WI' },
   { href: '/guides/sell-house-fast-madison-wi-2026', label: 'Madison, WI' },
   { href: '/guides/sell-house-fast-green-bay-wi-2026', label: 'Green Bay, WI' },
+  { href: '/guides/sell-house-fast-appleton-wi-2026', label: 'Appleton, WI' },
+  { href: '/guides/sell-house-fast-milwaukee-wi-2026', label: 'Milwaukee, WI' },
   // New Hampshire
   { href: '/guides/sell-house-fast-manchester-nh-2026', label: 'Manchester, NH' },
+  { href: '/guides/sell-house-fast-concord-nh-2026', label: 'Concord, NH' },
   // Connecticut
   { href: '/guides/sell-house-fast-bridgeport-ct-2026', label: 'Bridgeport, CT' },
   { href: '/guides/sell-house-fast-new-haven-ct-2026', label: 'New Haven, CT' },
