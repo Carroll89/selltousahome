@@ -390,7 +390,41 @@ export default function WilmingtonMarketPage() {
         <BlogClusterLinks marketSlug="wilmington-de" cityName="Wilmington" />
 
         {/* Guided Survey Form */}
-        <section className="my-12 bg-brand-light rounded-2xl p-8" id="survey-form">
+
+      {/* Local resources hub */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div className="bg-blue-50 border border-blue-100 rounded-2xl p-6 md:p-8 flex flex-col lg:flex-row lg:items-center lg:justify-between gap-5">
+          <div>
+            <p className="text-sm font-semibold text-brand-primary mb-2">
+              Wilmington mini-site
+            </p>
+            <h2 className="text-2xl font-bold text-brand-dark mb-2">
+              Seller resources for Wilmington homeowners
+            </h2>
+            <p className="text-gray-700 max-w-3xl">
+              Stay in the Wilmington section for local market data, situation
+              pages, seller guides, and articles before you decide whether a
+              cash offer or listing makes more sense.
+            </p>
+          </div>
+          <div className="flex flex-col sm:flex-row gap-3 shrink-0">
+            <Link
+              href="/markets/wilmington-de/resources"
+              className="bg-brand-primary hover:bg-blue-700 text-white font-semibold rounded-lg px-5 py-3 text-center transition-colors"
+            >
+              Wilmington Resources
+            </Link>
+            <Link
+              href="/guides/sell-house-fast-wilmington-de-2026"
+              className="bg-white hover:bg-gray-50 text-brand-primary font-semibold rounded-lg px-5 py-3 text-center border border-blue-200 transition-colors"
+            >
+              Local Guide
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      <section className="my-12 bg-brand-light rounded-2xl p-8" id="survey-form">
           <div className="text-center mb-8">
             <h2 className="text-2xl md:text-3xl font-bold text-brand-dark mb-2">
               Not sure where to start? Let us guide you.

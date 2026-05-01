@@ -61,6 +61,213 @@ const BASE_SITUATIONS = [
   },
 ] as const;
 
+const maStateResources: ResourceLink[] = [
+  {
+    href: "/blog/how-to-sell-house-fast-massachusetts",
+    label: "How to Sell Your House Fast in Massachusetts",
+    desc: "Massachusetts deed excise, right-of-first-refusal rules, and cash-sale timelines across the state.",
+    badge: "Article",
+  },
+  {
+    href: "/blog/selling-inherited-property-new-england",
+    label: "Selling Inherited Property in New England",
+    desc: "Estate sales, probate timing, out-of-state heirs, and as-is sales across Massachusetts and New England.",
+    badge: "Article",
+  },
+  {
+    href: "/blog/what-happens-after-accepting-cash-offer",
+    label: "What Happens After You Accept a Cash Offer?",
+    desc: "A plain-English walkthrough from accepted offer to title, closing day, and cash in hand.",
+    badge: "Process",
+  },
+  {
+    href: "/resources/cash-offer-vs-listing",
+    label: "Cash Offer vs. Listing — Full Comparison",
+    desc: "How cash sale certainty compares with listing, showings, inspections, financing, and repairs.",
+    badge: "Comparison",
+  },
+  {
+    href: "/resources/how-the-process-works",
+    label: "How the Cash Home Sale Process Works",
+    desc: "Step-by-step process from first contact to written offer, title company, and closing.",
+    badge: "Process",
+  },
+];
+
+const nhStateResources: ResourceLink[] = [
+  {
+    href: "/blog/selling-inherited-property-new-england",
+    label: "Selling Inherited Property in New England",
+    desc: "Estate sales, probate timing, out-of-state heirs, and as-is sales across New Hampshire and New England.",
+    badge: "Article",
+  },
+  {
+    href: "/blog/what-happens-after-accepting-cash-offer",
+    label: "What Happens After You Accept a Cash Offer?",
+    desc: "A plain-English walkthrough from accepted offer to title, closing day, and cash in hand.",
+    badge: "Process",
+  },
+  {
+    href: "/resources/cash-offer-vs-listing",
+    label: "Cash Offer vs. Listing — Full Comparison",
+    desc: "How cash sale certainty compares with listing, showings, inspections, financing, and repairs.",
+    badge: "Comparison",
+  },
+  {
+    href: "/resources/how-the-process-works",
+    label: "How the Cash Home Sale Process Works",
+    desc: "Step-by-step process from first contact to written offer, title company, and closing.",
+    badge: "Process",
+  },
+];
+
+const ctStateResources: ResourceLink[] = [
+  {
+    href: "/blog/new-haven-ct-sell-house-fast-2026",
+    label: "New Haven CT Seller\u2019s Guide 2026",
+    desc: "Connecticut cash-buyer context, strict foreclosure vs. foreclosure-by-sale law, and local transfer tax.",
+    badge: "Article",
+  },
+  {
+    href: "/blog/connecticut-foreclosure-strict-vs-sale",
+    label: "Connecticut Foreclosure: Strict vs. Foreclosure by Sale",
+    desc: "How Connecticut\u2019s two foreclosure tracks work and what each means for sellers facing the timeline.",
+    badge: "Article",
+  },
+  {
+    href: "/blog/selling-inherited-property-new-england",
+    label: "Selling Inherited Property in New England",
+    desc: "Estate sales, probate timing, out-of-state heirs, and as-is sales across Connecticut and New England.",
+    badge: "Article",
+  },
+  {
+    href: "/resources/cash-offer-vs-listing",
+    label: "Cash Offer vs. Listing — Full Comparison",
+    desc: "How cash sale certainty compares with listing, showings, inspections, financing, and repairs.",
+    badge: "Comparison",
+  },
+  {
+    href: "/resources/how-the-process-works",
+    label: "How the Cash Home Sale Process Works",
+    desc: "Step-by-step process from first contact to written offer, title company, and closing.",
+    badge: "Process",
+  },
+];
+
+const wiStateResources: ResourceLink[] = [
+  {
+    href: "/blog/kenosha-vs-racine-housing-market-2026",
+    label: "Kenosha vs. Racine Housing Market 2026",
+    desc: "A market-by-market comparison for Wisconsin sellers weighing cash offers vs. traditional listings.",
+    badge: "Market Data",
+  },
+  {
+    href: "/blog/oshkosh-wi-sell-house-fast-2026",
+    label: "Sell Your House Fast in Oshkosh WI 2026",
+    desc: "Wisconsin transfer tax, Winnebago County context, and cash-sale options for Oshkosh and Wausau sellers.",
+    badge: "Article",
+  },
+  {
+    href: "/blog/what-happens-after-accepting-cash-offer",
+    label: "What Happens After You Accept a Cash Offer?",
+    desc: "A plain-English walkthrough from accepted offer to title, closing day, and cash in hand.",
+    badge: "Process",
+  },
+  {
+    href: "/resources/cash-offer-vs-listing",
+    label: "Cash Offer vs. Listing — Full Comparison",
+    desc: "How cash sale certainty compares with listing, showings, inspections, financing, and repairs.",
+    badge: "Comparison",
+  },
+  {
+    href: "/resources/how-the-process-works",
+    label: "How the Cash Home Sale Process Works",
+    desc: "Step-by-step process from first contact to written offer, title company, and closing.",
+    badge: "Process",
+  },
+];
+
+const nyStateResources: ResourceLink[] = [
+  {
+    href: "/blog/rochester-ny-sell-house-fast-2026",
+    label: "Sell Your House Fast in Rochester NY 2026",
+    desc: "Monroe County probate, Kodak-era estate sales, pre-foreclosure timelines, and cash-buyer options.",
+    badge: "Article",
+  },
+  {
+    href: "/blog/what-happens-after-accepting-cash-offer",
+    label: "What Happens After You Accept a Cash Offer?",
+    desc: "A plain-English walkthrough from accepted offer to title, closing day, and cash in hand.",
+    badge: "Process",
+  },
+  {
+    href: "/resources/cash-offer-vs-listing",
+    label: "Cash Offer vs. Listing — Full Comparison",
+    desc: "How cash sale certainty compares with listing, showings, inspections, financing, and repairs.",
+    badge: "Comparison",
+  },
+  {
+    href: "/resources/how-the-process-works",
+    label: "How the Cash Home Sale Process Works",
+    desc: "Step-by-step process from first contact to written offer, title company, and closing.",
+    badge: "Process",
+  },
+];
+
+const ohStateResources: ResourceLink[] = [
+  {
+    href: "/blog/youngstown-oh-housing-market-april-2026",
+    label: "Youngstown OH Housing Market \u2014 April 2026",
+    desc: "City vs. suburban market breakdown for Youngstown sellers \u2014 Boardman, Austintown, and Canfield context.",
+    badge: "Market Data",
+  },
+  {
+    href: "/blog/what-happens-after-accepting-cash-offer",
+    label: "What Happens After You Accept a Cash Offer?",
+    desc: "A plain-English walkthrough from accepted offer to title, closing day, and cash in hand.",
+    badge: "Process",
+  },
+  {
+    href: "/resources/cash-offer-vs-listing",
+    label: "Cash Offer vs. Listing — Full Comparison",
+    desc: "How cash sale certainty compares with listing, showings, inspections, financing, and repairs.",
+    badge: "Comparison",
+  },
+  {
+    href: "/resources/how-the-process-works",
+    label: "How the Cash Home Sale Process Works",
+    desc: "Step-by-step process from first contact to written offer, title company, and closing.",
+    badge: "Process",
+  },
+];
+
+const deStateResources: ResourceLink[] = [
+  {
+    href: "/blog/wilmington-de-sell-house-fast-2026",
+    label: "Sell Your House Fast in Wilmington DE 2026",
+    desc: "New Castle County neighborhoods, Delaware probate, pre-foreclosure sheriff sale timelines, and cash-buyer options.",
+    badge: "Article",
+  },
+  {
+    href: "/blog/what-happens-after-accepting-cash-offer",
+    label: "What Happens After You Accept a Cash Offer?",
+    desc: "A plain-English walkthrough from accepted offer to title, closing day, and cash in hand.",
+    badge: "Process",
+  },
+  {
+    href: "/resources/cash-offer-vs-listing",
+    label: "Cash Offer vs. Listing — Full Comparison",
+    desc: "How cash sale certainty compares with listing, showings, inspections, financing, and repairs.",
+    badge: "Comparison",
+  },
+  {
+    href: "/resources/how-the-process-works",
+    label: "How the Cash Home Sale Process Works",
+    desc: "Step-by-step process from first contact to written offer, title company, and closing.",
+    badge: "Process",
+  },
+];
+
 const paStateResources: ResourceLink[] = [
   {
     href: "/blog/sell-inherited-house-pennsylvania",
@@ -345,6 +552,254 @@ export const MINI_SITE_MARKETS: MiniSiteMarket[] = [
       },
     ],
   },
+  // Wave A — Northeast / highest-value
+  {
+    slug: "springfield-ma",
+    cityName: "Springfield MA",
+    regionName: "Hampden County",
+    guideSlug: "sell-house-fast-springfield-ma-2026",
+    intro:
+      "Springfield and Hampden County seller resources for triple-deckers, two-families, inherited property, foreclosure, tenant issues, code violations, and fast cash sale options.",
+    hasFaq: true,
+    hasNeighborhoods: true,
+    resourceLinks: [
+      {
+        href: "/blog/how-to-sell-house-fast-massachusetts",
+        label: "How to Sell Your House Fast in Massachusetts",
+        desc: "Massachusetts deed excise, right-of-first-refusal rules, and cash-sale timelines across the state.",
+        badge: "Article",
+      },
+    ],
+  },
+  {
+    slug: "worcester-ma",
+    cityName: "Worcester MA",
+    regionName: "Worcester County",
+    guideSlug: "sell-house-fast-worcester-ma-2026",
+    intro:
+      "Worcester and Worcester County seller resources for as-is cash sales, inherited property, foreclosure, tenant exits, repairs, and fast closing timelines.",
+    hasFaq: true,
+    hasNeighborhoods: true,
+    resourceLinks: [
+      {
+        href: "/blog/how-to-sell-house-fast-massachusetts",
+        label: "How to Sell Your House Fast in Massachusetts",
+        desc: "Massachusetts deed excise, right-of-first-refusal rules, and cash-sale timelines across the state.",
+        badge: "Article",
+      },
+    ],
+  },
+  {
+    slug: "boston-ma",
+    cityName: "Boston MA",
+    regionName: "Suffolk County",
+    guideSlug: "sell-house-fast-boston-ma-2026",
+    intro:
+      "Boston and Suffolk County seller resources for condos, triple-deckers, inherited property, probate, tenant situations, and fast as-is cash sales.",
+    hasFaq: true,
+    hasNeighborhoods: true,
+    resourceLinks: [
+      {
+        href: "/blog/how-to-sell-house-fast-massachusetts",
+        label: "How to Sell Your House Fast in Massachusetts",
+        desc: "Massachusetts deed excise, right-of-first-refusal rules, and cash-sale timelines across the state.",
+        badge: "Article",
+      },
+    ],
+  },
+  {
+    slug: "manchester-nh",
+    cityName: "Manchester NH",
+    regionName: "Hillsborough County",
+    guideSlug: "sell-house-fast-manchester-nh-2026",
+    intro:
+      "Manchester and Hillsborough County seller resources for as-is cash sales, inherited property, probate, tenant situations, code violations, and fast closing options.",
+    hasFaq: true,
+    hasNeighborhoods: true,
+    resourceLinks: [
+      {
+        href: "/blog/selling-inherited-property-new-england",
+        label: "Selling Inherited Property in New England",
+        desc: "Estate sales, probate timing, out-of-state heirs, and as-is sales across New Hampshire and New England.",
+        badge: "Article",
+      },
+    ],
+  },
+  {
+    slug: "bridgeport-ct",
+    cityName: "Bridgeport CT",
+    regionName: "Fairfield County",
+    guideSlug: "sell-house-fast-bridgeport-ct-2026",
+    intro:
+      "Bridgeport and Fairfield County seller resources for as-is cash sales, Connecticut foreclosure law, inherited property, tenant situations, and fast closings.",
+    hasFaq: true,
+    hasNeighborhoods: true,
+    resourceLinks: [
+      {
+        href: "/blog/new-haven-ct-sell-house-fast-2026",
+        label: "New Haven CT Seller\u2019s Guide 2026",
+        desc: "Connecticut cash-buyer context, strict foreclosure law, and local transfer tax \u2014 same state framework as Bridgeport.",
+        badge: "Article",
+      },
+    ],
+  },
+  {
+    slug: "new-haven-ct",
+    cityName: "New Haven CT",
+    regionName: "New Haven County",
+    guideSlug: "sell-house-fast-new-haven-ct-2026",
+    intro:
+      "New Haven and New Haven County seller resources for as-is cash sales, Connecticut foreclosure law, probate, inherited property, tenants, and fast closings.",
+    hasFaq: true,
+    hasNeighborhoods: true,
+    resourceLinks: [
+      {
+        href: "/blog/new-haven-ct-sell-house-fast-2026",
+        label: "New Haven CT Seller\u2019s Guide 2026",
+        desc: "New Haven-specific guide: cash buyers vs. agents, Connecticut strict foreclosure, transfer tax, and what to expect at closing.",
+        badge: "Article",
+      },
+    ],
+  },
+  {
+    slug: "hartford-ct",
+    cityName: "Hartford CT",
+    regionName: "Hartford County",
+    guideSlug: "sell-house-fast-hartford-ct-2026",
+    intro:
+      "Hartford and Hartford County seller resources for cash sales, Connecticut foreclosure law, inherited property, tenant-occupied properties, and fast closings.",
+    hasFaq: true,
+    hasNeighborhoods: true,
+    resourceLinks: [],
+  },
+  // Wave B — Wisconsin cluster
+  {
+    slug: "kenosha-wi",
+    cityName: "Kenosha WI",
+    regionName: "Kenosha County",
+    guideSlug: "sell-house-fast-kenosha-wi-2026",
+    intro:
+      "Kenosha and Kenosha County seller resources for as-is cash sales, Wisconsin transfer tax, inherited property, foreclosure, tenants, and fast closings.",
+    hasFaq: true,
+    hasNeighborhoods: true,
+    resourceLinks: [
+      {
+        href: "/blog/kenosha-vs-racine-housing-market-2026",
+        label: "Kenosha vs. Racine Housing Market 2026",
+        desc: "A market-by-market comparison for Wisconsin sellers weighing cash offers vs. traditional listings.",
+        badge: "Market Data",
+      },
+    ],
+  },
+  {
+    slug: "racine-mount-pleasant-wi",
+    cityName: "Racine / Mount Pleasant WI",
+    regionName: "Racine County",
+    guideSlug: "sell-house-fast-racine-mount-pleasant-wi-2026",
+    intro:
+      "Racine and Mount Pleasant seller resources for as-is cash sales, Wisconsin transfer tax, inherited property, foreclosure, tenant situations, and fast closings.",
+    hasFaq: true,
+    hasNeighborhoods: true,
+    resourceLinks: [
+      {
+        href: "/blog/kenosha-vs-racine-housing-market-2026",
+        label: "Kenosha vs. Racine Housing Market 2026",
+        desc: "A market-by-market comparison for Wisconsin sellers weighing cash offers vs. traditional listings.",
+        badge: "Market Data",
+      },
+    ],
+  },
+  {
+    slug: "oshkosh-wi",
+    cityName: "Oshkosh WI",
+    regionName: "Winnebago County",
+    guideSlug: "sell-house-fast-oshkosh-wi-2026",
+    intro:
+      "Oshkosh and Winnebago County seller resources for as-is cash sales, Wisconsin transfer tax, inherited property, foreclosure, tenant situations, and fast closings.",
+    hasFaq: true,
+    hasNeighborhoods: true,
+    resourceLinks: [
+      {
+        href: "/blog/oshkosh-wi-sell-house-fast-2026",
+        label: "Sell Your House Fast in Oshkosh WI 2026",
+        desc: "Oshkosh-specific guide covering Wisconsin transfer tax, cash-buyer advantages, and local sale timelines.",
+        badge: "Article",
+      },
+    ],
+  },
+  {
+    slug: "wausau-wi",
+    cityName: "Wausau WI",
+    regionName: "Marathon County",
+    guideSlug: "sell-house-fast-wausau-wi-2026",
+    intro:
+      "Wausau and Marathon County seller resources for as-is cash sales, Wisconsin transfer tax, inherited property, foreclosure, tenant situations, and fast closings.",
+    hasFaq: true,
+    hasNeighborhoods: true,
+    resourceLinks: [
+      {
+        href: "/blog/oshkosh-wi-sell-house-fast-2026",
+        label: "Sell Your House Fast in Oshkosh / Winnebago WI 2026",
+        desc: "Wisconsin cash-buyer context for the Oshkosh/Wausau corridor \u2014 same state legal framework.",
+        badge: "Article",
+      },
+    ],
+  },
+  // Wave C — Remaining strategic
+  {
+    slug: "rochester-ny",
+    cityName: "Rochester NY",
+    regionName: "Monroe County",
+    guideSlug: "sell-house-fast-rochester-ny-2026",
+    intro:
+      "Rochester and Monroe County seller resources for as-is cash sales, inherited property, Monroe County Surrogate\u2019s Court probate, foreclosure, tenant situations, and fast closings.",
+    hasFaq: true,
+    hasNeighborhoods: true,
+    resourceLinks: [
+      {
+        href: "/blog/rochester-ny-sell-house-fast-2026",
+        label: "Sell Your House Fast in Rochester NY 2026",
+        desc: "Monroe County probate, Kodak-era estate sales, pre-foreclosure timelines, and cash-buyer options.",
+        badge: "Article",
+      },
+    ],
+  },
+  {
+    slug: "youngstown-oh",
+    cityName: "Youngstown OH",
+    regionName: "Mahoning County",
+    guideSlug: "sell-house-fast-youngstown-oh-2026",
+    intro:
+      "Youngstown and Mahoning County seller resources for cash sales, city-to-suburb market context, inherited property, foreclosure, and as-is sale options.",
+    hasFaq: true,
+    hasNeighborhoods: true,
+    resourceLinks: [
+      {
+        href: "/blog/youngstown-oh-housing-market-april-2026",
+        label: "Youngstown OH Housing Market \u2014 April 2026",
+        desc: "City vs. suburban market breakdown for Youngstown sellers \u2014 Boardman, Austintown, and Canfield context.",
+        badge: "Market Data",
+      },
+    ],
+  },
+  {
+    slug: "wilmington-de",
+    cityName: "Wilmington DE",
+    regionName: "New Castle County",
+    guideSlug: "sell-house-fast-wilmington-de-2026",
+    intro:
+      "Wilmington and New Castle County seller resources for as-is cash sales, inherited property, Delaware probate, foreclosure, tenant situations, and fast closings.",
+    hasFaq: true,
+    hasNeighborhoods: true,
+    resourceLinks: [
+      {
+        href: "/blog/wilmington-de-sell-house-fast-2026",
+        label: "Sell Your House Fast in Wilmington DE 2026",
+        desc: "New Castle County neighborhoods, Delaware probate, pre-foreclosure sheriff sale timelines, and cash-buyer options.",
+        badge: "Article",
+      },
+    ],
+  },
 ];
 
 export function getMiniSiteMarket(slug: string): MiniSiteMarket {
@@ -353,10 +808,21 @@ export function getMiniSiteMarket(slug: string): MiniSiteMarket {
   return market;
 }
 
+function getStateResources(slug: string): ResourceLink[] {
+  if (slug.endsWith("-il")) return ilStateResources;
+  if (slug.endsWith("-pa")) return paStateResources;
+  if (slug.endsWith("-ma")) return maStateResources;
+  if (slug.endsWith("-nh")) return nhStateResources;
+  if (slug.endsWith("-ct")) return ctStateResources;
+  if (slug.endsWith("-wi")) return wiStateResources;
+  if (slug.endsWith("-ny")) return nyStateResources;
+  if (slug.endsWith("-oh")) return ohStateResources;
+  if (slug.endsWith("-de")) return deStateResources;
+  return [];
+}
+
 export function buildResourceLinks(market: MiniSiteMarket): ResourceLink[] {
-  const stateResources = market.slug.endsWith("-il")
-    ? ilStateResources
-    : paStateResources;
+  const stateResources = getStateResources(market.slug);
   return [
     {
       href: `/guides/${market.guideSlug}`,
