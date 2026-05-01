@@ -7,9 +7,9 @@ import { organizationSchema } from '@/lib/schema';
 import { PHONE } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'About Us | We Buy Houses for Cash in Harrisburg PA',
+  title: 'About USA Home Buyers | We Buy Houses for Cash',
   description:
-    'USA Home Buyers LLC is a local cash home buying company serving Harrisburg and Central Pennsylvania. We buy houses as-is, in any condition. No repairs, no fees, close in 7-14 days.',
+    'USA Home Buyers LLC is a direct cash home buyer purchasing properties as-is across the Northeast, Midwest, and Mid-Atlantic. No repairs, no fees, written offer in 24 hours, close in 7-14 days.',
   alternates: { canonical: 'https://www.selltousahome.com/about' },
 };
 
@@ -21,7 +21,7 @@ export default function AboutPage() {
       <section className="relative text-white py-16 px-4 overflow-hidden">
         <Image
           src="/images/harrisburg-hero.jpg"
-          alt="Pennsylvania home — sell your house fast for cash"
+          alt="American home — sell your house fast for cash"
           fill
           className="object-cover object-center"
           priority
@@ -33,7 +33,7 @@ export default function AboutPage() {
               About USA Home Buyers
             </h1>
             <p className="text-lg text-blue-100 mb-4">
-              We&apos;re a local company that buys houses in Harrisburg and Central Pennsylvania — for cash, as-is,
+              We buy houses across markets in the Northeast, Midwest, and Mid-Atlantic — for cash, as-is,
               with no repairs, no agent fees, and no surprises. We close in 7-14 days.
             </p>
             <p className="text-blue-200 mb-6">
@@ -64,8 +64,10 @@ export default function AboutPage() {
             closing date. We pay all standard closing costs. You walk away with cash.
           </p>
           <p className="text-gray-700 mb-4">
-            We work primarily in Harrisburg, Steelton, Hershey, Carlisle, Mechanicsburg, and the surrounding
-            Dauphin and Cumberland County area. If you&apos;re in Central Pennsylvania, we can likely help.
+            We serve markets across Pennsylvania, Ohio, Wisconsin, Connecticut, Massachusetts, New Hampshire,
+            New York, Delaware, and Illinois — and we&apos;re growing. Visit your{' '}
+            <a href="/markets" className="text-brand-primary hover:underline">local market page</a>{' '}
+            to see current coverage, or call us and we&apos;ll tell you in 30 seconds if we can help.
           </p>
           <p className="text-gray-700">
             Our offer will typically be below full retail market value — that&apos;s the trade-off for speed,

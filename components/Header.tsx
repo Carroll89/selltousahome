@@ -22,6 +22,7 @@ const marketsByState: {
       { href: "/markets/bethlehem-pa", label: "Bethlehem" },
       { href: "/markets/lancaster-pa", label: "Lancaster" },
       { href: "/markets/york-pa", label: "York" },
+      { href: "/markets/chambersburg-pa", label: "Chambersburg" },
     ],
   },
   {
@@ -50,6 +51,7 @@ const marketsByState: {
       },
       { href: "/markets/oshkosh-wi", label: "Oshkosh" },
       { href: "/markets/wausau-wi", label: "Wausau" },
+      { href: "/markets/madison-wi", label: "Madison" },
     ],
   },
   {
@@ -62,6 +64,7 @@ const marketsByState: {
       { href: "/markets/bridgeport-ct", label: "Bridgeport" },
       { href: "/markets/hartford-ct", label: "Hartford" },
       { href: "/markets/new-haven-ct", label: "New Haven" },
+      { href: "/markets/waterbury-ct", label: "Waterbury" },
     ],
   },
   {

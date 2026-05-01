@@ -11,7 +11,7 @@ export function Footer() {
           <div>
             <h3 className="text-white font-bold text-lg mb-3">USA Home Buyers</h3>
             <p className="text-sm mb-3">
-              We buy houses for cash across 9 states — Pennsylvania, Delaware, Ohio, Massachusetts, Wisconsin, New Hampshire, Connecticut, New York, and Illinois. Any condition, any situation.
+              We buy houses for cash across markets in the Northeast, Midwest, and Mid-Atlantic — Pennsylvania, Delaware, Ohio, Massachusetts, Wisconsin, New Hampshire, Connecticut, New York, Illinois, and growing. Any condition, any situation.
             </p>
             <p className="text-sm">
               <strong className="text-white">Phone:</strong>{' '}
@@ -46,6 +46,7 @@ export function Footer() {
               <li><Link href="/markets/lancaster-pa/market-report" className="hover:text-white">Lancaster Market Report</Link></li>
               <li><Link href="/markets/york-pa" className="hover:text-white">York, PA</Link></li>
               <li><Link href="/markets/york-pa/market-report" className="hover:text-white">York Market Report</Link></li>
+              <li><Link href="/markets/chambersburg-pa" className="hover:text-white">Chambersburg, PA</Link></li>
               <li><Link href="/markets/wilmington-de" className="hover:text-white">Wilmington, DE</Link></li>
               <li><Link href="/markets/youngstown-oh" className="hover:text-white">Youngstown, OH</Link></li>
               <li><Link href="/markets/youngstown-oh/market-report" className="hover:text-white">Youngstown Market Report</Link></li>
@@ -58,11 +59,13 @@ export function Footer() {
               <li><Link href="/markets/racine-mount-pleasant-wi" className="hover:text-white">Racine &amp; Mount Pleasant, WI</Link></li>
               <li><Link href="/markets/oshkosh-wi" className="hover:text-white">Oshkosh, WI</Link></li>
               <li><Link href="/markets/wausau-wi" className="hover:text-white">Wausau, WI</Link></li>
+              <li><Link href="/markets/madison-wi" className="hover:text-white">Madison, WI</Link></li>
               <li><Link href="/sell-house-fast-wisconsin" className="hover:text-white">Sell House Fast Wisconsin</Link></li>
               <li><Link href="/markets/manchester-nh" className="hover:text-white">Manchester, NH</Link></li>
               <li><Link href="/sell-house-fast-new-hampshire" className="hover:text-white">Sell House Fast New Hampshire</Link></li>
               <li><Link href="/markets/bridgeport-ct" className="hover:text-white">Bridgeport, CT</Link></li>
               <li><Link href="/markets/hartford-ct" className="hover:text-white">Hartford, CT</Link></li>
+              <li><Link href="/markets/waterbury-ct" className="hover:text-white">Waterbury, CT</Link></li>
               <li><Link href="/markets/new-haven-ct" className="hover:text-white">New Haven, CT</Link></li>
               <li><Link href="/sell-house-fast-connecticut" className="hover:text-white">Sell House Fast Connecticut</Link></li>
               <li><Link href="/markets/rochester-ny" className="hover:text-white">Rochester, NY</Link></li>
@@ -119,7 +122,7 @@ export function Footer() {
 
         <div className="border-t border-gray-700 pt-6 text-sm text-gray-500">
           <p className="mb-2">
-            We buy houses across Pennsylvania, Delaware, Ohio, Massachusetts, Wisconsin, New Hampshire, Connecticut, New York, and Illinois — Harrisburg, Allentown, Bethlehem, Lancaster, York, Erie, Reading, Wilmington DE, Youngstown OH, Springfield MA, Worcester MA, Kenosha WI, Racine-Mount Pleasant WI, Oshkosh WI, Manchester NH, Bridgeport CT, New Haven CT, Rochester NY, Springfield IL, Rockford IL, Peoria IL, Bloomington IL, Champaign-Urbana IL, and surrounding communities.
+            We buy houses across Pennsylvania, Delaware, Ohio, Massachusetts, Wisconsin, New Hampshire, Connecticut, New York, and Illinois — Harrisburg, Allentown, Bethlehem, Lancaster, York, Chambersburg, Erie, Reading, Wilmington DE, Youngstown OH, Springfield MA, Worcester MA, Northampton MA, Kenosha WI, Racine-Mount Pleasant WI, Oshkosh WI, Wausau WI, Madison WI, Manchester NH, Concord NH, Bridgeport CT, New Haven CT, Hartford CT, Waterbury CT, Norwich CT, Rochester NY, Binghamton NY, Springfield IL, Rockford IL, Peoria IL, Bloomington IL, Champaign-Urbana IL, and surrounding communities.
           </p>
           <p>
             © {currentYear} USA Home Buyers LLC. All rights reserved. | Serving homeowners in PA, DE, OH, MA, WI, NH, CT, NY, and IL

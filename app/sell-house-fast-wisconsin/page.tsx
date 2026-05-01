@@ -64,6 +64,11 @@ export default function SellHouseFastWisconsinPage() {
               <p className="text-sm text-gray-600">Marathon County · Median $366,000 metro · #18 Hottest Market</p>
               <p className="text-xs text-brand-primary mt-2">See Wausau market →</p>
             </Link>
+            <Link href="/markets/madison-wi" className="bg-white border border-gray-200 rounded-xl p-5 hover:border-brand-primary transition-colors group">
+              <h3 className="font-bold text-brand-dark group-hover:text-brand-primary mb-1">Madison, WI</h3>
+              <p className="text-sm text-gray-600">Dane County · Median $453,500 (+5.8% YoY) · Compete Score 74 · State capital + UW-Madison</p>
+              <p className="text-xs text-brand-primary mt-2">See Madison market →</p>
+            </Link>
           </div>
         </section>
 

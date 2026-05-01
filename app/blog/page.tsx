@@ -40,6 +40,7 @@ const MARKET_GROUPS = [
       { label: 'Reading PA', href: '/markets/reading-pa' },
       { label: 'State College PA', href: '/markets/state-college-pa' },
       { label: 'York PA', href: '/markets/york-pa' },
+      { label: 'Chambersburg PA', href: '/markets/chambersburg-pa' },
     ],
   },
   {
@@ -48,6 +49,7 @@ const MARKET_GROUPS = [
       { label: 'Bridgeport CT', href: '/markets/bridgeport-ct' },
       { label: 'Hartford CT', href: '/markets/hartford-ct' },
       { label: 'New Haven CT', href: '/markets/new-haven-ct' },
+      { label: 'Waterbury CT', href: '/markets/waterbury-ct' },
     ],
   },
   {
@@ -91,6 +93,7 @@ const MARKET_GROUPS = [
       { label: 'Oshkosh WI', href: '/markets/oshkosh-wi' },
       { label: 'Racine / Mount Pleasant WI', href: '/markets/racine-mount-pleasant-wi' },
       { label: 'Wausau WI', href: '/markets/wausau-wi' },
+      { label: 'Madison WI', href: '/markets/madison-wi' },
     ],
   },
 ];
@@ -210,7 +213,7 @@ export default async function BlogIndexPage() {
         <div className="mt-10 bg-blue-50 rounded-2xl p-6">
           <h2 className="text-lg font-bold text-brand-dark mb-3">Our Markets</h2>
           <p className="text-sm text-gray-600 mb-5">
-            We buy houses across 28 markets. Start with a local market page or read the latest seller guide for your city.
+            We buy houses across a growing list of local markets throughout the Northeast, Midwest, and Mid-Atlantic. Start with a local market page or read the latest seller guide for your city.
           </p>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
             {MARKET_GROUPS.map((group) => (

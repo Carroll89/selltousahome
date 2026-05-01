@@ -59,6 +59,11 @@ export default function SellHouseFastConnecticutPage() {
               <p className="text-sm text-gray-600">Hartford County · Median $455,000 metro · #13 Hottest Market</p>
               <p className="text-xs text-brand-primary mt-2">See Hartford market →</p>
             </Link>
+            <Link href="/markets/waterbury-ct" className="bg-white border border-gray-200 rounded-xl p-5 hover:border-brand-primary transition-colors group">
+              <h3 className="font-bold text-brand-dark group-hover:text-brand-primary mb-1">Waterbury, CT</h3>
+              <p className="text-sm text-gray-600">New Haven County · Median home value $276,344 (Zillow, Mar 2026) · 6 avg offers · TIC designation · Brass City working-class inventory</p>
+              <p className="text-xs text-brand-primary mt-2">See Waterbury market →</p>
+            </Link>
           </div>
         </section>
 

@@ -6,9 +6,9 @@ import { localBusinessSchema } from '@/lib/schema';
 import { PHONE } from '@/lib/utils';
 
 export const metadata: Metadata = {
-  title: 'Contact Us | Get a Cash Offer — Harrisburg PA',
+  title: 'Contact Us | Get a Cash Offer for Your Home',
   description:
-    'Contact USA Home Buyers to get a cash offer for your Harrisburg PA house. Call, text, or submit online. Written offer in 24 hours. We buy houses as-is, any condition.',
+    'Contact USA Home Buyers to get a cash offer for your house. Call, text, or submit online. Written offer in 24 hours. We buy houses as-is, any condition, across the Northeast, Midwest, and Mid-Atlantic.',
   alternates: { canonical: 'https://www.selltousahome.com/contact' },
 };
 
@@ -20,7 +20,7 @@ export default function ContactPage() {
       <section className="relative text-white py-16 px-4 overflow-hidden">
         <Image
           src="/images/harrisburg-hero.jpg"
-          alt="Pennsylvania home — sell your house fast for cash"
+          alt="American home — sell your house fast for cash"
           fill
           className="object-cover object-center"
           priority
@@ -57,8 +57,8 @@ export default function ContactPage() {
                 <div>
                   <p className="text-blue-200 text-sm mb-0.5">Service Area</p>
                   <p className="text-white text-sm">
-                    Harrisburg, Steelton, Camp Hill, Mechanicsburg, Carlisle,<br />
-                    Hershey, Lemoyne, and surrounding Dauphin & Cumberland Counties
+                    Markets across the Northeast, Midwest, and Mid-Atlantic &mdash;
+                    PA, OH, WI, CT, MA, NH, NY, DE, and IL.
                   </p>
                 </div>
               </div>

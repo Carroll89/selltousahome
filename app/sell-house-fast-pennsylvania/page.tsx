@@ -117,6 +117,13 @@ const PA_MARKETS = [
     highlight: 'South-central PA, older housing stock, probate, tax liens, and as-is sales',
     surrounding: 'Dover, Red Lion, Dallastown, Hanover',
   },
+  {
+    city: 'Chambersburg',
+    county: 'Franklin County',
+    slug: 'chambersburg-pa',
+    highlight: 'Cumberland Valley county seat, Compete Score 79, hot homes 5 days, Maryland-border migration hub',
+    surrounding: 'Waynesboro, Greencastle, Mercersburg, Shippensburg',
+  },
 ];
 
 export default function SellHouseFastPennsylvaniaPage() {

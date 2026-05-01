@@ -19,6 +19,7 @@ const marketGuides = [
   { href: '/guides/sell-house-fast-lancaster-pa-2026', label: 'Lancaster, PA' },
   { href: '/guides/sell-house-fast-state-college-pa-2026', label: 'State College, PA' },
   { href: '/guides/sell-house-fast-york-pa-2026', label: 'York, PA' },
+  { href: '/guides/sell-house-fast-chambersburg-pa-2026', label: 'Chambersburg, PA' },
   // Delaware
   { href: '/guides/sell-house-fast-wilmington-de-2026', label: 'Wilmington, DE' },
   // Ohio
@@ -30,11 +31,13 @@ const marketGuides = [
   { href: '/guides/sell-house-fast-kenosha-wi-2026', label: 'Kenosha, WI' },
   { href: '/guides/sell-house-fast-racine-mount-pleasant-wi-2026', label: 'Racine & Mount Pleasant, WI' },
   { href: '/guides/sell-house-fast-oshkosh-wi-2026', label: 'Oshkosh, WI' },
+  { href: '/guides/sell-house-fast-madison-wi-2026', label: 'Madison, WI' },
   // New Hampshire
   { href: '/guides/sell-house-fast-manchester-nh-2026', label: 'Manchester, NH' },
   // Connecticut
   { href: '/guides/sell-house-fast-bridgeport-ct-2026', label: 'Bridgeport, CT' },
   { href: '/guides/sell-house-fast-new-haven-ct-2026', label: 'New Haven, CT' },
+  { href: '/guides/sell-house-fast-waterbury-ct-2026', label: 'Waterbury, CT' },
   // New York
   { href: '/guides/sell-house-fast-rochester-ny-2026', label: 'Rochester, NY' },
   // Illinois

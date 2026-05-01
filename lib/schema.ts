@@ -692,9 +692,328 @@ const CITY_CONFIGS: Record<string, CityConfig> = {
       { '@type': 'County', name: 'Winnebago County' },
     ],
   },
+  // ── Batch 001 (authorized 2026-05-01) ──────────────────────────────────────
+  appleton: {
+    city: 'Appleton',
+    region: 'WI',
+    postalCode: '54911',
+    lat: 44.2619,
+    lng: -88.4154,
+    description:
+      'Cash home buyers serving Appleton WI and Outagamie County. We buy houses as-is in any condition — no repairs, no agent fees, close in 7-14 days.',
+    areaServed: [
+      { '@type': 'City', name: 'Appleton', sameAs: 'https://en.wikipedia.org/wiki/Appleton,_Wisconsin' },
+      { '@type': 'City', name: 'Grand Chute' },
+      { '@type': 'City', name: 'Neenah' },
+      { '@type': 'City', name: 'Menasha' },
+      { '@type': 'City', name: 'Kaukauna' },
+      { '@type': 'City', name: 'Combined Locks' },
+      { '@type': 'City', name: 'Little Chute' },
+      { '@type': 'City', name: 'Kimberly' },
+      { '@type': 'City', name: 'Greenville' },
+      { '@type': 'County', name: 'Outagamie County' },
+      { '@type': 'County', name: 'Calumet County' },
+    ],
+  },
+  canton: {
+    city: 'Canton',
+    region: 'OH',
+    postalCode: '44702',
+    lat: 40.7989,
+    lng: -81.3784,
+    description:
+      'Cash home buyers serving Canton OH and Stark County. We buy houses as-is in any condition — no repairs, no agent fees, close in 7-14 days.',
+    areaServed: [
+      { '@type': 'City', name: 'Canton', sameAs: 'https://en.wikipedia.org/wiki/Canton,_Ohio' },
+      { '@type': 'City', name: 'Massillon' },
+      { '@type': 'City', name: 'North Canton' },
+      { '@type': 'City', name: 'Alliance' },
+      { '@type': 'City', name: 'Louisville' },
+      { '@type': 'City', name: 'Perry Township' },
+      { '@type': 'City', name: 'Jackson Township' },
+      { '@type': 'City', name: 'Plain Township' },
+      { '@type': 'City', name: 'Minerva' },
+      { '@type': 'County', name: 'Stark County' },
+    ],
+  },
+  milwaukee: {
+    city: 'Milwaukee',
+    region: 'WI',
+    postalCode: '53202',
+    lat: 43.0389,
+    lng: -87.9065,
+    description:
+      'Cash home buyers serving Milwaukee WI and Milwaukee County. We buy houses as-is in any condition — no repairs, no agent fees, close in 7-14 days.',
+    areaServed: [
+      { '@type': 'City', name: 'Milwaukee', sameAs: 'https://en.wikipedia.org/wiki/Milwaukee' },
+      { '@type': 'City', name: 'West Allis' },
+      { '@type': 'City', name: 'Wauwatosa' },
+      { '@type': 'City', name: 'Greenfield' },
+      { '@type': 'City', name: 'South Milwaukee' },
+      { '@type': 'City', name: 'Cudahy' },
+      { '@type': 'City', name: 'Oak Creek' },
+      { '@type': 'City', name: 'Glendale' },
+      { '@type': 'City', name: 'Shorewood' },
+      { '@type': 'City', name: 'Bay View' },
+      { '@type': 'County', name: 'Milwaukee County' },
+    ],
+  },
+  akron: {
+    city: 'Akron',
+    region: 'OH',
+    postalCode: '44308',
+    lat: 41.0814,
+    lng: -81.5190,
+    description:
+      'Cash home buyers serving Akron OH and Summit County. We buy houses as-is in any condition — no repairs, no agent fees, close in 7-14 days.',
+    areaServed: [
+      { '@type': 'City', name: 'Akron', sameAs: 'https://en.wikipedia.org/wiki/Akron,_Ohio' },
+      { '@type': 'City', name: 'Barberton' },
+      { '@type': 'City', name: 'Cuyahoga Falls' },
+      { '@type': 'City', name: 'Green' },
+      { '@type': 'City', name: 'Stow' },
+      { '@type': 'City', name: 'Hudson' },
+      { '@type': 'City', name: 'Tallmadge' },
+      { '@type': 'City', name: 'Norton' },
+      { '@type': 'City', name: 'Mogadore' },
+      { '@type': 'County', name: 'Summit County' },
+    ],
+  },
+  concord: {
+    city: 'Concord',
+    region: 'NH',
+    postalCode: '03301',
+    lat: 43.2081,
+    lng: -71.5376,
+    description:
+      'Cash home buyers serving Concord NH and Merrimack County. We buy houses as-is in any condition — no repairs, no agent fees, close in 7-14 days.',
+    areaServed: [
+      { '@type': 'City', name: 'Concord', sameAs: 'https://en.wikipedia.org/wiki/Concord,_New_Hampshire' },
+      { '@type': 'City', name: 'Bow' },
+      { '@type': 'City', name: 'Pembroke' },
+      { '@type': 'City', name: 'Hooksett' },
+      { '@type': 'City', name: 'Canterbury' },
+      { '@type': 'City', name: 'Dunbarton' },
+      { '@type': 'City', name: 'Hopkinton' },
+      { '@type': 'City', name: 'Loudon' },
+      { '@type': 'County', name: 'Merrimack County' },
+    ],
+  },
+  // ── Batch 002 (authorized 2026-05-01) ──────────────────────────────────────
+  norwich: {
+    city: 'Norwich',
+    region: 'CT',
+    postalCode: '06360',
+    lat: 41.5243,
+    lng: -72.0759,
+    description:
+      'Cash home buyers serving Norwich CT and New London County. We buy houses as-is in any condition — no repairs, no agent fees, close in 7-14 days.',
+    areaServed: [
+      { '@type': 'City', name: 'Norwich', sameAs: 'https://en.wikipedia.org/wiki/Norwich,_Connecticut' },
+      { '@type': 'City', name: 'Montville' },
+      { '@type': 'City', name: 'Bozrah' },
+      { '@type': 'City', name: 'Lisbon' },
+      { '@type': 'City', name: 'Franklin' },
+      { '@type': 'City', name: 'Sprague' },
+      { '@type': 'City', name: 'Voluntown' },
+      { '@type': 'City', name: 'Griswold' },
+      { '@type': 'City', name: 'Preston' },
+      { '@type': 'County', name: 'New London County' },
+    ],
+  },
+  northampton: {
+    city: 'Northampton',
+    region: 'MA',
+    postalCode: '01060',
+    lat: 42.3251,
+    lng: -72.6412,
+    description:
+      'Cash home buyers serving Northampton MA and Hampshire County. We buy houses as-is in any condition — no repairs, no agent fees, close in 7-14 days.',
+    areaServed: [
+      { '@type': 'City', name: 'Northampton', sameAs: 'https://en.wikipedia.org/wiki/Northampton,_Massachusetts' },
+      { '@type': 'City', name: 'Florence' },
+      { '@type': 'City', name: 'Leeds' },
+      { '@type': 'City', name: 'Easthampton' },
+      { '@type': 'City', name: 'Southampton' },
+      { '@type': 'City', name: 'Amherst' },
+      { '@type': 'City', name: 'Hadley' },
+      { '@type': 'City', name: 'South Hadley' },
+      { '@type': 'City', name: 'Hatfield' },
+      { '@type': 'County', name: 'Hampshire County' },
+    ],
+  },
+  eauClaire: {
+    city: 'Eau Claire',
+    region: 'WI',
+    postalCode: '54701',
+    lat: 44.8113,
+    lng: -91.4985,
+    description:
+      'Cash home buyers serving Eau Claire WI and Eau Claire County. We buy houses as-is in any condition — no repairs, no agent fees, close in 7-14 days.',
+    areaServed: [
+      { '@type': 'City', name: 'Eau Claire', sameAs: 'https://en.wikipedia.org/wiki/Eau_Claire,_Wisconsin' },
+      { '@type': 'City', name: 'Altoona' },
+      { '@type': 'City', name: 'Fall Creek' },
+      { '@type': 'City', name: 'Osseo' },
+      { '@type': 'City', name: 'Chippewa Falls' },
+      { '@type': 'City', name: 'Elk Mound' },
+      { '@type': 'City', name: 'Regis' },
+      { '@type': 'City', name: 'Mondovi' },
+      { '@type': 'County', name: 'Eau Claire County' },
+      { '@type': 'County', name: 'Chippewa County' },
+    ],
+  },
+  janesville: {
+    city: 'Janesville',
+    region: 'WI',
+    postalCode: '53545',
+    lat: 42.6828,
+    lng: -89.0187,
+    description:
+      'Cash home buyers serving Janesville WI and Rock County. We buy houses as-is in any condition — no repairs, no agent fees, close in 7-14 days.',
+    areaServed: [
+      { '@type': 'City', name: 'Janesville', sameAs: 'https://en.wikipedia.org/wiki/Janesville,_Wisconsin' },
+      { '@type': 'City', name: 'Beloit' },
+      { '@type': 'City', name: 'Edgerton' },
+      { '@type': 'City', name: 'Milton' },
+      { '@type': 'City', name: 'Evansville' },
+      { '@type': 'City', name: 'Clinton' },
+      { '@type': 'City', name: 'Whitewater' },
+      { '@type': 'City', name: 'Afton' },
+      { '@type': 'County', name: 'Rock County' },
+    ],
+  },
+  columbus: {
+    city: 'Columbus',
+    region: 'OH',
+    postalCode: '43215',
+    lat: 39.9612,
+    lng: -82.9988,
+    description:
+      'Cash home buyers serving Columbus OH and Franklin County. We buy houses as-is in any condition — no repairs, no agent fees, close in 7-14 days.',
+    areaServed: [
+      { '@type': 'City', name: 'Columbus', sameAs: 'https://en.wikipedia.org/wiki/Columbus,_Ohio' },
+      { '@type': 'City', name: 'Westerville' },
+      { '@type': 'City', name: 'Dublin' },
+      { '@type': 'City', name: 'Hilliard' },
+      { '@type': 'City', name: 'Grove City' },
+      { '@type': 'City', name: 'Gahanna' },
+      { '@type': 'City', name: 'Worthington' },
+      { '@type': 'City', name: 'Upper Arlington' },
+      { '@type': 'City', name: 'Reynoldsburg' },
+      { '@type': 'City', name: 'Pickerington' },
+      { '@type': 'County', name: 'Franklin County' },
+    ],
+  },
+  // ── Batch 003 (authorized 2026-05-01) ──────────────────────────────────────
+  madison: {
+    city: 'Madison',
+    region: 'WI',
+    postalCode: '53703',
+    lat: 43.0731,
+    lng: -89.4012,
+    description:
+      'Cash home buyers serving Madison WI and Dane County. We buy houses as-is in any condition — no repairs, no agent fees, close in 7-14 days.',
+    areaServed: [
+      { '@type': 'City', name: 'Madison', sameAs: 'https://en.wikipedia.org/wiki/Madison,_Wisconsin' },
+      { '@type': 'City', name: 'Fitchburg' },
+      { '@type': 'City', name: 'Middleton' },
+      { '@type': 'City', name: 'Sun Prairie' },
+      { '@type': 'City', name: 'Monona' },
+      { '@type': 'City', name: 'Verona' },
+      { '@type': 'City', name: 'Stoughton' },
+      { '@type': 'City', name: 'DeForest' },
+      { '@type': 'City', name: 'McFarland' },
+      { '@type': 'City', name: 'Cottage Grove' },
+      { '@type': 'County', name: 'Dane County' },
+    ],
+  },
+  chambersburg: {
+    city: 'Chambersburg',
+    region: 'PA',
+    postalCode: '17201',
+    lat: 39.9376,
+    lng: -77.6611,
+    description:
+      'Cash home buyers serving Chambersburg PA and Franklin County. We buy houses as-is in any condition — no repairs, no agent fees, close in 7-14 days.',
+    areaServed: [
+      { '@type': 'City', name: 'Chambersburg', sameAs: 'https://en.wikipedia.org/wiki/Chambersburg,_Pennsylvania' },
+      { '@type': 'City', name: 'Waynesboro' },
+      { '@type': 'City', name: 'Greencastle' },
+      { '@type': 'City', name: 'Mercersburg' },
+      { '@type': 'City', name: 'Shippensburg' },
+      { '@type': 'City', name: 'Carlisle' },
+      { '@type': 'City', name: 'Fayetteville' },
+      { '@type': 'City', name: 'Guilford Township' },
+      { '@type': 'County', name: 'Franklin County' },
+      { '@type': 'County', name: 'Cumberland County' },
+    ],
+  },
+  greenBay: {
+    city: 'Green Bay',
+    region: 'WI',
+    postalCode: '54301',
+    lat: 44.5133,
+    lng: -88.0133,
+    description:
+      'Cash home buyers serving Green Bay WI and Brown County. We buy houses as-is in any condition — no repairs, no agent fees, close in 7-14 days.',
+    areaServed: [
+      { '@type': 'City', name: 'Green Bay', sameAs: 'https://en.wikipedia.org/wiki/Green_Bay,_Wisconsin' },
+      { '@type': 'City', name: 'Howard' },
+      { '@type': 'City', name: 'Bellevue' },
+      { '@type': 'City', name: 'Allouez' },
+      { '@type': 'City', name: 'Ashwaubenon' },
+      { '@type': 'City', name: 'De Pere' },
+      { '@type': 'City', name: 'Suamico' },
+      { '@type': 'City', name: 'Pulaski' },
+      { '@type': 'City', name: 'Wrightstown' },
+      { '@type': 'County', name: 'Brown County' },
+    ],
+  },
+  waterbury: {
+    city: 'Waterbury',
+    region: 'CT',
+    postalCode: '06702',
+    lat: 41.5582,
+    lng: -73.0515,
+    description:
+      'Cash home buyers serving Waterbury CT and New Haven County. We buy houses as-is in any condition — no repairs, no agent fees, close in 7-14 days.',
+    areaServed: [
+      { '@type': 'City', name: 'Waterbury', sameAs: 'https://en.wikipedia.org/wiki/Waterbury,_Connecticut' },
+      { '@type': 'City', name: 'Naugatuck' },
+      { '@type': 'City', name: 'Wolcott' },
+      { '@type': 'City', name: 'Cheshire' },
+      { '@type': 'City', name: 'Prospect' },
+      { '@type': 'City', name: 'Middlebury' },
+      { '@type': 'City', name: 'Oakville' },
+      { '@type': 'City', name: 'Ansonia' },
+      { '@type': 'City', name: 'Shelton' },
+      { '@type': 'County', name: 'New Haven County' },
+    ],
+  },
+  binghamton: {
+    city: 'Binghamton',
+    region: 'NY',
+    postalCode: '13901',
+    lat: 42.0987,
+    lng: -75.9179,
+    description:
+      'Cash home buyers serving Binghamton NY and Broome County. We buy houses as-is in any condition — no repairs, no agent fees, close in 7-14 days.',
+    areaServed: [
+      { '@type': 'City', name: 'Binghamton', sameAs: 'https://en.wikipedia.org/wiki/Binghamton,_New_York' },
+      { '@type': 'City', name: 'Vestal' },
+      { '@type': 'City', name: 'Endicott' },
+      { '@type': 'City', name: 'Johnson City' },
+      { '@type': 'City', name: 'Kirkwood' },
+      { '@type': 'City', name: 'Conklin' },
+      { '@type': 'City', name: 'Port Dickinson' },
+      { '@type': 'City', name: 'Chenango Bridge' },
+      { '@type': 'County', name: 'Broome County' },
+    ],
+  },
 };
 
-export function localBusinessSchemaFor(cityKey: 'harrisburg' | 'allentown' | 'bethlehem' | 'kingOfPrussia' | 'reading' | 'stateCollege' | 'erie' | 'lancaster' | 'york' | 'wilmington' | 'youngstown' | 'springfield' | 'kenosha' | 'manchester' | 'bridgeport' | 'worcester' | 'rochester' | 'racineMountPleasant' | 'springfieldIL' | 'rockfordIL' | 'newHaven' | 'oshkosh' | 'peoriaIL' | 'bloomingtonIL' | 'champaignUrbanaIL' | 'boston' | 'hartford' | 'wausau') {
+export function localBusinessSchemaFor(cityKey: 'harrisburg' | 'allentown' | 'bethlehem' | 'kingOfPrussia' | 'reading' | 'stateCollege' | 'erie' | 'lancaster' | 'york' | 'wilmington' | 'youngstown' | 'springfield' | 'kenosha' | 'manchester' | 'bridgeport' | 'worcester' | 'rochester' | 'racineMountPleasant' | 'springfieldIL' | 'rockfordIL' | 'newHaven' | 'oshkosh' | 'peoriaIL' | 'bloomingtonIL' | 'champaignUrbanaIL' | 'boston' | 'hartford' | 'wausau' | 'appleton' | 'canton' | 'milwaukee' | 'akron' | 'concord' | 'norwich' | 'northampton' | 'eauClaire' | 'janesville' | 'columbus' | 'madison' | 'chambersburg' | 'greenBay' | 'waterbury' | 'binghamton') {
   const cfg = CITY_CONFIGS[cityKey];
   return {
     '@context': 'https://schema.org',
@@ -1188,6 +1507,69 @@ export const stateCollegeLocalBusinessSchema = localBusinessSchemaFor('stateColl
 
 /** Pre-built Erie LocalBusiness schema */
 export const erieLocalBusinessSchema = localBusinessSchemaFor('erie');
+
+// ── Batch 001 exports (authorized 2026-05-01) ──────────────────────────────────
+/** Pre-built Appleton WI LocalBusiness schema */
+export const appletonLocalBusinessSchema = localBusinessSchemaFor('appleton');
+export const appletonWILocalBusinessSchema = localBusinessSchemaFor('appleton');
+
+/** Pre-built Canton OH LocalBusiness schema */
+export const cantonLocalBusinessSchema = localBusinessSchemaFor('canton');
+export const cantonOHLocalBusinessSchema = localBusinessSchemaFor('canton');
+
+/** Pre-built Milwaukee WI LocalBusiness schema */
+export const milwaukeeLocalBusinessSchema = localBusinessSchemaFor('milwaukee');
+export const milwaukeeWILocalBusinessSchema = localBusinessSchemaFor('milwaukee');
+
+/** Pre-built Akron OH LocalBusiness schema */
+export const akronLocalBusinessSchema = localBusinessSchemaFor('akron');
+export const akronOHLocalBusinessSchema = localBusinessSchemaFor('akron');
+
+/** Pre-built Concord NH LocalBusiness schema */
+export const concordLocalBusinessSchema = localBusinessSchemaFor('concord');
+export const concordNHLocalBusinessSchema = localBusinessSchemaFor('concord');
+
+// ── Batch 002 exports (authorized 2026-05-01) ──────────────────────────────────
+/** Pre-built Norwich CT LocalBusiness schema */
+export const norwichLocalBusinessSchema = localBusinessSchemaFor('norwich');
+export const norwichCTLocalBusinessSchema = localBusinessSchemaFor('norwich');
+
+/** Pre-built Northampton MA LocalBusiness schema */
+export const northamptonLocalBusinessSchema = localBusinessSchemaFor('northampton');
+export const northamptonMALocalBusinessSchema = localBusinessSchemaFor('northampton');
+
+/** Pre-built Eau Claire WI LocalBusiness schema */
+export const eauClaireLocalBusinessSchema = localBusinessSchemaFor('eauClaire');
+export const eauClaireWILocalBusinessSchema = localBusinessSchemaFor('eauClaire');
+
+/** Pre-built Janesville WI LocalBusiness schema */
+export const janesvilleLocalBusinessSchema = localBusinessSchemaFor('janesville');
+export const janesvilleWILocalBusinessSchema = localBusinessSchemaFor('janesville');
+
+/** Pre-built Columbus OH LocalBusiness schema */
+export const columbusLocalBusinessSchema = localBusinessSchemaFor('columbus');
+export const columbusOHLocalBusinessSchema = localBusinessSchemaFor('columbus');
+
+// ── Batch 003 exports (authorized 2026-05-01) ──────────────────────────────────
+/** Pre-built Madison WI LocalBusiness schema */
+export const madisonLocalBusinessSchema = localBusinessSchemaFor('madison');
+export const madisonWILocalBusinessSchema = localBusinessSchemaFor('madison');
+
+/** Pre-built Chambersburg PA LocalBusiness schema */
+export const chambersburgLocalBusinessSchema = localBusinessSchemaFor('chambersburg');
+export const chambersburgPALocalBusinessSchema = localBusinessSchemaFor('chambersburg');
+
+/** Pre-built Green Bay WI LocalBusiness schema */
+export const greenBayLocalBusinessSchema = localBusinessSchemaFor('greenBay');
+export const greenBayWILocalBusinessSchema = localBusinessSchemaFor('greenBay');
+
+/** Pre-built Waterbury CT LocalBusiness schema */
+export const waterburyLocalBusinessSchema = localBusinessSchemaFor('waterbury');
+export const waterburyCTLocalBusinessSchema = localBusinessSchemaFor('waterbury');
+
+/** Pre-built Binghamton NY LocalBusiness schema */
+export const binghamtonLocalBusinessSchema = localBusinessSchemaFor('binghamton');
+export const binghamtonNYLocalBusinessSchema = localBusinessSchemaFor('binghamton');
 
 export const erieFAQSchema = {
   '@context': 'https://schema.org',
