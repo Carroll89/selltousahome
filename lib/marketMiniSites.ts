@@ -800,6 +800,157 @@ export const MINI_SITE_MARKETS: MiniSiteMarket[] = [
       },
     ],
   },
+  // LCF-007 — May 1 Tron-built markets
+  {
+    slug: "madison-wi",
+    cityName: "Madison WI",
+    regionName: "Dane County",
+    guideSlug: "sell-house-fast-madison-wi-2026",
+    intro:
+      "Madison and Dane County seller resources for as-is cash sales, inherited property, Wisconsin probate, foreclosure, tenant situations, and fast closings.",
+    hasFaq: true,
+    hasNeighborhoods: true,
+  },
+  {
+    slug: "chambersburg-pa",
+    cityName: "Chambersburg PA",
+    regionName: "Franklin County",
+    guideSlug: "sell-house-fast-chambersburg-pa-2026",
+    intro:
+      "Chambersburg and Franklin County seller resources for as-is cash sales, inherited property, Pennsylvania probate, foreclosure, tenant situations, and fast closings.",
+    hasFaq: true,
+    hasNeighborhoods: true,
+  },
+  {
+    slug: "waterbury-ct",
+    cityName: "Waterbury CT",
+    regionName: "New Haven County",
+    guideSlug: "sell-house-fast-waterbury-ct-2026",
+    intro:
+      "Waterbury and New Haven County seller resources for as-is cash sales, Connecticut strict foreclosure, inherited property, tenant situations, and fast closings.",
+    hasFaq: true,
+    hasNeighborhoods: false,
+  },
+  {
+    slug: "green-bay-wi",
+    cityName: "Green Bay WI",
+    regionName: "Brown County",
+    guideSlug: "sell-house-fast-green-bay-wi-2026",
+    intro:
+      "Green Bay and Brown County seller resources for as-is cash sales, inherited property, Wisconsin probate, foreclosure, tenant situations, and fast closings.",
+    hasFaq: true,
+    hasNeighborhoods: true,
+  },
+  {
+    slug: "binghamton-ny",
+    cityName: "Binghamton NY",
+    regionName: "Broome County",
+    guideSlug: "sell-house-fast-binghamton-ny-2026",
+    intro:
+      "Binghamton and Broome County seller resources for as-is cash sales, inherited property, New York probate, foreclosure, tenant situations, and fast closings.",
+    hasFaq: true,
+    hasNeighborhoods: true,
+  },
+  {
+    slug: "appleton-wi",
+    cityName: "Appleton WI",
+    regionName: "Outagamie County",
+    guideSlug: "sell-house-fast-appleton-wi-2026",
+    intro:
+      "Appleton and Outagamie County seller resources for as-is cash sales, inherited property, Wisconsin probate, foreclosure, tenant situations, and fast closings.",
+    hasFaq: true,
+    hasNeighborhoods: true,
+  },
+  {
+    slug: "canton-oh",
+    cityName: "Canton OH",
+    regionName: "Stark County",
+    guideSlug: "sell-house-fast-canton-oh-2026",
+    intro:
+      "Canton and Stark County seller resources for as-is cash sales, inherited property, Ohio probate, foreclosure, tenant situations, and fast closings.",
+    hasFaq: true,
+    hasNeighborhoods: true,
+  },
+  {
+    slug: "milwaukee-wi",
+    cityName: "Milwaukee WI",
+    regionName: "Milwaukee County",
+    guideSlug: "sell-house-fast-milwaukee-wi-2026",
+    intro:
+      "Milwaukee and Milwaukee County seller resources for as-is cash sales, inherited property, Wisconsin probate, foreclosure, tenant situations, and fast closings.",
+    hasFaq: true,
+    hasNeighborhoods: true,
+  },
+  {
+    slug: "akron-oh",
+    cityName: "Akron OH",
+    regionName: "Summit County",
+    guideSlug: "sell-house-fast-akron-oh-2026",
+    intro:
+      "Akron and Summit County seller resources for as-is cash sales, inherited property, Ohio probate, foreclosure, tenant situations, and fast closings.",
+    hasFaq: true,
+    hasNeighborhoods: true,
+  },
+  {
+    slug: "concord-nh",
+    cityName: "Concord NH",
+    regionName: "Merrimack County",
+    guideSlug: "sell-house-fast-concord-nh-2026",
+    intro:
+      "Concord and Merrimack County seller resources for as-is cash sales, inherited property, New Hampshire probate, foreclosure, tenant situations, and fast closings.",
+    hasFaq: true,
+    hasNeighborhoods: true,
+  },
+  {
+    slug: "norwich-ct",
+    cityName: "Norwich CT",
+    regionName: "New London County",
+    guideSlug: "sell-house-fast-norwich-ct-2026",
+    intro:
+      "Norwich and New London County seller resources for as-is cash sales, Connecticut strict foreclosure, inherited property, tenant situations, and fast closings.",
+    hasFaq: true,
+    hasNeighborhoods: true,
+  },
+  {
+    slug: "northampton-ma",
+    cityName: "Northampton MA",
+    regionName: "Hampshire County",
+    guideSlug: "sell-house-fast-northampton-ma-2026",
+    intro:
+      "Northampton and Hampshire County seller resources for as-is cash sales, inherited property, Massachusetts probate, foreclosure, tenant situations, and fast closings.",
+    hasFaq: true,
+    hasNeighborhoods: true,
+  },
+  {
+    slug: "eau-claire-wi",
+    cityName: "Eau Claire WI",
+    regionName: "Eau Claire County",
+    guideSlug: "sell-house-fast-eau-claire-wi-2026",
+    intro:
+      "Eau Claire and Eau Claire County seller resources for as-is cash sales, inherited property, Wisconsin probate, foreclosure, tenant situations, and fast closings.",
+    hasFaq: true,
+    hasNeighborhoods: true,
+  },
+  {
+    slug: "janesville-wi",
+    cityName: "Janesville WI",
+    regionName: "Rock County",
+    guideSlug: "sell-house-fast-janesville-wi-2026",
+    intro:
+      "Janesville and Rock County seller resources for as-is cash sales, inherited property, Wisconsin probate, foreclosure, tenant situations, and fast closings.",
+    hasFaq: true,
+    hasNeighborhoods: true,
+  },
+  {
+    slug: "columbus-oh",
+    cityName: "Columbus OH",
+    regionName: "Franklin County",
+    guideSlug: "sell-house-fast-columbus-oh-2026",
+    intro:
+      "Columbus and Franklin County seller resources for as-is cash sales, inherited property, Ohio probate, foreclosure, tenant situations, and fast closings.",
+    hasFaq: true,
+    hasNeighborhoods: true,
+  },
 ];
 
 export function getMiniSiteMarket(slug: string): MiniSiteMarket {

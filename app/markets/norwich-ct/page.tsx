@@ -9,6 +9,7 @@ import { SchemaMarkup } from '@/components/SchemaMarkup';
 import { norwichLocalBusinessSchema, faqSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
 import { BlogClusterLinks } from '@/components/BlogClusterLinks';
+import Link from 'next/link';
 
 export const revalidate = 86400;
 
@@ -221,6 +222,39 @@ export default function NorwichCTMarketPage() {
         <FAQSection items={FAQ_ITEMS} heading="FAQs — Selling a House in Norwich CT" />
 
         <BlogClusterLinks marketSlug="norwich-ct" cityName="Norwich CT" />
+
+      {/* Local resources hub */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div className="bg-blue-50 border border-blue-100 rounded-2xl p-6 md:p-8 flex flex-col lg:flex-row lg:items-center lg:justify-between gap-5">
+          <div>
+            <p className="text-sm font-semibold text-brand-primary mb-2">
+              Norwich CT mini-site
+            </p>
+            <h2 className="text-2xl font-bold text-brand-dark mb-2">
+              Seller resources for Norwich CT homeowners
+            </h2>
+            <p className="text-gray-700 max-w-3xl">
+              Stay in the Norwich CT section for local market data, situation
+              pages, seller guides, and articles before you decide whether a
+              cash offer or listing makes more sense.
+            </p>
+          </div>
+          <div className="flex flex-col sm:flex-row gap-3 shrink-0">
+            <Link
+              href="/markets/norwich-ct/resources"
+              className="bg-brand-primary hover:bg-blue-700 text-white font-semibold rounded-lg px-5 py-3 text-center transition-colors"
+            >
+              Norwich CT Resources
+            </Link>
+            <Link
+              href="/guides/sell-house-fast-norwich-ct-2026"
+              className="bg-white hover:bg-gray-50 text-brand-primary font-semibold rounded-lg px-5 py-3 text-center border border-blue-200 transition-colors"
+            >
+              Local Guide
+            </Link>
+          </div>
+        </div>
+      </section>
 
         <CashOfferForm
           variant="footer"
