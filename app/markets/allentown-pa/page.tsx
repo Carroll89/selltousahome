@@ -166,15 +166,28 @@ export default function AllentownMarketPage() {
           />
         </picture>
         <div className="absolute inset-0 bg-brand-dark/80" />
-        <div className="relative z-10 max-w-7xl mx-auto grid lg:grid-cols-[minmax(0,1fr)_430px] gap-6 lg:gap-10 items-start">
-          <div>
+        <div className="relative z-10 max-w-7xl mx-auto grid lg:grid-cols-[minmax(0,1fr)_430px] gap-5 lg:gap-10 items-start">
+          <div className="order-1 lg:col-start-1 lg:row-start-1">
             <p className="inline-flex items-center rounded-full bg-white/10 px-3 py-1 text-xs font-semibold text-blue-100 ring-1 ring-white/20 mb-3">
               Allentown cash home buyer · Written offer in 24 hours
             </p>
             <h1 className="text-3xl md:text-4xl font-bold text-white mb-3 leading-tight">
               Sell Your House Fast in Allentown, PA — Cash Offer in 24 Hours
             </h1>
-            <p className="text-base md:text-lg text-blue-100 mb-4">
+            <p className="text-base md:text-lg text-blue-100 lg:hidden">
+              Get a written cash offer for your Allentown house in any condition — no repairs, no cleaning, no agent fees.
+            </p>
+          </div>
+          <div className="order-2 w-full lg:col-start-2 lg:row-start-1 lg:row-span-2 lg:sticky lg:top-24">
+            <CashOfferForm
+              variant="hero"
+              headline="Get Your Allentown Cash Offer"
+              subheadline="Tell us where the property is. We’ll call quickly and send a written offer within 24 hours."
+              sourcePage="/markets/allentown-pa"
+            />
+          </div>
+          <div className="order-3 lg:col-start-1 lg:row-start-2">
+            <p className="hidden lg:block text-base md:text-lg text-blue-100 mb-4">
               Get a written cash offer for your Allentown house in any condition — no repairs, no cleaning, no agent fees.
               Serving Lehigh County and Northampton County, including Bethlehem, Easton, Whitehall, and Fountain Hill.
             </p>
@@ -188,14 +201,6 @@ export default function AllentownMarketPage() {
               📞 Call 888-274-5006 — We Answer 24/7
             </a>
             <p className="mt-3 text-blue-200 text-xs md:text-sm">BBB Accredited · 15+ Years Experience · Hundreds of Homes Purchased</p>
-          </div>
-          <div className="w-full lg:sticky lg:top-24">
-            <CashOfferForm
-              variant="hero"
-              headline="Get Your Allentown Cash Offer"
-              subheadline="Tell us where the property is. We’ll call quickly and send a written offer within 24 hours."
-              sourcePage="/markets/allentown-pa"
-            />
           </div>
         </div>
       </section>
