@@ -483,6 +483,21 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     markets: ['allentown-pa'],
     isStatic: true,
   },
+  {
+    slug: 'sell-house-code-violations-allentown-pa',
+    title: "Allentown PA Code Violations: What the City Can — and Can't — Do to Your Sale",
+    excerpt: "Allentown requires a Pre-Sale Inspection and Certificate of Compliance before you can sell. Here's how the city's property maintenance process actually works — and where cash buyers fit.",
+    date: 'April 30, 2026',
+    datePublished: '2026-04-30',
+    category: 'Code Violations',
+    readTime: '7 min',
+    heroImage: '/images/allentown-hero.jpg',
+    heroAlt: 'Allentown PA home with code violations — selling options',
+    description: "Selling a house with code violations in Allentown PA? Learn how the city's Pre-Sale Inspection, Certificate of Compliance, and buyer acceptance process actually work — and where cash buyers fit.",
+    primaryKeyword: 'sell house code violations Allentown PA',
+    markets: ['allentown-pa'],
+    isStatic: true,
+  },
 ];
 
 /** Get all posts sorted by date (newest first) */

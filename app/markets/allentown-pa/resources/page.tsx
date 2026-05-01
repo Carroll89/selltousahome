@@ -84,6 +84,12 @@ const RESOURCE_LINKS = [
     desc: 'Jordan Creek and Little Lehigh flood zones, PA disclosure requirements, FEMA lookup, and why cash buyers can simplify the sale.',
     badge: 'Article',
   },
+  {
+    href: '/blog/sell-house-code-violations-allentown-pa',
+    label: "Allentown PA Code Violations: What the City Can — and Can't — Do to Your Sale",
+    desc: "How the Pre-Sale Inspection, Certificate of Compliance, and buyer acceptance process work — and where cash buyers fit when violations exist.",
+    badge: 'Article',
+  },
 ];
 
 export default function AllentownResourcesPage() {
