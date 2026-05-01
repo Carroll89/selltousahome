@@ -12,7 +12,7 @@ export const revalidate = 86400;
 export const metadata: Metadata = {
   title: 'Sell My House Fast New York | Cash Home Buyers',
   description:
-    'USA Home Buyers purchases homes for cash in New York — currently serving Monroe County / Rochester. Written offer in 24 hours, close in 7–14 days, all closing costs covered. Call 888-274-5006.',
+    'USA Home Buyers purchases homes for cash in New York — serving Rochester (Monroe County) and Binghamton (Broome County). Written offer in 24 hours, close in 7–14 days. Call 888-274-5006.',
   alternates: { canonical: `${SITE_URL}/sell-house-fast-new-york` },
 };
 
@@ -20,7 +20,7 @@ const FAQ_ITEMS = [
   {
     question: 'How fast can I sell my house in New York?',
     answer:
-      'With a cash buyer like USA Home Buyers, you can close in 7–14 days — compared to the 60–90 day traditional timeline statewide. Cash transactions skip mortgage underwriting; attorney review still happens but compresses fast. We deliver a written offer within 24 hours. We currently serve Monroe County / Rochester, NY. Call 888-274-5006.',
+      'With a cash buyer like USA Home Buyers, you can close in 7–14 days — compared to the 60–90 day traditional timeline statewide. Cash transactions skip mortgage underwriting; attorney review still happens but compresses fast. We deliver a written offer within 24 hours. We serve Monroe County / Rochester and Broome County / Binghamton. Call 888-274-5006.',
   },
   {
     question: "What is New York's transfer tax?",
@@ -40,7 +40,7 @@ const FAQ_ITEMS = [
   {
     question: 'What New York markets does USA Home Buyers serve?',
     answer:
-      'We currently serve Monroe County / Rochester, NY only. We do not operate in New York City, Long Island, Buffalo, Syracuse, Albany, or any other NY market outside Monroe County. The legal and market information on this page is educational for sellers anywhere in New York. Call 888-274-5006 to discuss your situation.',
+      'We serve Monroe County / Rochester and Broome County / Binghamton. We do not operate in New York City, Long Island, Buffalo, Syracuse, or Albany. The legal and market information on this page is educational for sellers anywhere in New York. Call 888-274-5006 to discuss your situation.',
   },
   {
     question: "How does NY probate work when selling a house?",
@@ -786,9 +786,27 @@ export default function SellHouseFastNewYorkPage() {
                   86/100 compete score · avg 8 offers per home · 108% sale-to-list
                 </p>
               </Link>
+              <Link
+                href="/markets/binghamton-ny"
+                className="block border border-gray-200 rounded-xl p-5 hover:border-brand-primary hover:shadow-sm transition-all"
+              >
+                <div className="flex items-start justify-between mb-2">
+                  <div>
+                    <h4 className="font-bold text-brand-dark">Binghamton, NY</h4>
+                    <p className="text-xs text-gray-500">Broome County · Active market</p>
+                  </div>
+                  <span className="text-brand-primary text-sm">→</span>
+                </div>
+                <p className="text-xs text-gray-600 mb-1">
+                  Redfin median $175K · 70 days avg DOM · Compete Score 72
+                </p>
+                <p className="text-xs text-gray-400">
+                  101.1% sale-to-list · NY attorney closing state · Broome County transfer tax $5/$1K
+                </p>
+              </Link>
             </div>
             <p className="mt-3 text-sm text-gray-600">
-              Not in Rochester?{' '}
+              Not in Rochester or Binghamton?{' '}
               <a href={`tel:${PHONE}`} className="text-brand-primary underline">
                 Call {PHONE}
               </a>{' '}
@@ -820,6 +838,10 @@ export default function SellHouseFastNewYorkPage() {
           <p>
             <Link href="/markets/rochester-ny" className="text-brand-primary hover:underline">
               Rochester, NY
+            </Link>
+            {' '}·{' '}
+            <Link href="/markets/binghamton-ny" className="text-brand-primary hover:underline">
+              Binghamton, NY
             </Link>
             {' '}·{' '}
             <Link
