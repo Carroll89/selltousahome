@@ -85,6 +85,7 @@ export default function SellHouseFastNewHampshirePage() {
           <p className="text-gray-700 mb-4"><strong>Probate courts for our New Hampshire markets:</strong></p>
           <ul className="list-disc list-inside space-y-1 text-gray-700 text-sm mb-4">
             <li>Hillsborough County Probate Court, 300 Chestnut Street, Manchester NH 03101, Phone: (603) 669-7410</li>
+            <li>Merrimack County Circuit Court — Probate Division, 163 North Main Street, Concord NH 03301, Phone: (603) 271-6400</li>
           </ul>
         </section>
 
@@ -102,6 +103,7 @@ export default function SellHouseFastNewHampshirePage() {
               </thead>
               <tbody className="divide-y divide-gray-200">
                 <tr className="bg-white"><td className="p-3"><Link href="/markets/manchester-nh" className="text-brand-primary hover:underline">Manchester</Link></td><td className="p-3">Hillsborough County</td><td className="p-3">$310,000</td><td className="p-3">~25 days</td></tr>
+                <tr className="bg-gray-50"><td className="p-3"><Link href="/markets/concord-nh" className="text-brand-primary hover:underline">Concord</Link></td><td className="p-3">Merrimack County</td><td className="p-3">~$270,000</td><td className="p-3">~30 days</td></tr>
                 <tr className="bg-gray-50"><td className="p-3"><Link href="/markets/concord-nh" className="text-brand-primary hover:underline">Concord</Link></td><td className="p-3">Merrimack County</td><td className="p-3">$419,500 (+1.1% YoY)</td><td className="p-3">34 days</td></tr>
               </tbody>
             </table>

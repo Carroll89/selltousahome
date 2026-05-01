@@ -407,6 +407,8 @@ export default function OhioHubPage() {
               <h3 className="font-bold text-brand-dark mb-1">Ohio Probate Courts — Our Markets</h3>
               <ul className="text-sm text-gray-700 space-y-1">
                 <li>• <strong>Mahoning County (Youngstown):</strong> 120 Market St., Youngstown OH 44503 | (330) 740-2310</li>
+                <li>• <strong>Stark County (Canton):</strong> 110 Central Plaza South, Suite 501, Canton OH 44702 | (330) 451-7755</li>
+                <li>• <strong>Summit County (Akron):</strong> 209 South High Street, Akron OH 44308 | (330) 643-2350</li>
               </ul>
             </div>
             <p className="text-sm text-gray-500">According to <a href="https://codes.ohio.gov/ohio-revised-code/section-2113.03" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:underline">ORC § 2113.03</a> and the <a href="https://www.mahoningcountyoh.gov" target="_blank" rel="noopener noreferrer" className="text-brand-primary hover:underline">Mahoning County Probate Court</a>.</p>
@@ -421,7 +423,7 @@ export default function OhioHubPage() {
         <section className="my-12" id="oh-market-snapshot">
           <div className="bg-amber-50 border-l-4 border-amber-400 rounded-r-xl p-4 mb-6">
             <p className="text-sm font-semibold text-amber-800">TL;DR — Ohio Market</p>
-            <p className="text-sm text-amber-700 mt-1">We currently serve Youngstown, OH (Mahoning County). Youngstown is a Rust Belt market: median sale price ~$129,200, 70 days median DOM, pre-1950 housing stock dominates. Many properties don&apos;t qualify for conventional financing — strong cash buyer demand. Ohio conveyance fee: $4.00/1,000 in Mahoning County.</p>
+            <p className="text-sm text-amber-700 mt-1">We serve Youngstown (Mahoning County), Canton (Stark County), and Akron (Summit County). Ohio judicial foreclosure through county Common Pleas Court. Conveyance fee $4.00/$1,000 in all three counties. No attorney required at closing (title company state).</p>
           </div>
           <h2 className="text-2xl font-bold text-brand-dark mb-4">Ohio Market Snapshot — Youngstown</h2>
           <div className="overflow-x-auto">

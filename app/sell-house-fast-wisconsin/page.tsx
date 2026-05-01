@@ -37,7 +37,7 @@ export default function SellHouseFastWisconsinPage() {
         <div className="bg-blue-50 border border-blue-100 rounded-xl p-5 mb-8">
           <p className="text-sm font-semibold text-blue-800 mb-2">TL;DR</p>
           <p className="text-sm text-blue-900 leading-relaxed">
-            USA Home Buyers purchases houses for cash across Wisconsin — currently serving Kenosha, Racine-Mount Pleasant, and Oshkosh (Winnebago County). Written offer in 24 hours, close in 7–14 days, any condition, no repairs, no fees. Wisconsin realty transfer fee ($3 per $1,000, state-only, seller pays) covered by us on every deal. Call 888-274-5006.
+            USA Home Buyers purchases houses for cash across Wisconsin — currently serving Kenosha, Racine-Mount Pleasant, Oshkosh (Winnebago County), Madison (Dane County), Green Bay (Brown County), Appleton (Outagamie County), and Milwaukee. Written offer in 24 hours, close in 7–14 days, any condition, no repairs, no fees. Wisconsin realty transfer fee ($3 per $1,000, state-only, seller pays) covered by us on every deal. Call 888-274-5006.
           </p>
         </div>
 
@@ -158,6 +158,8 @@ export default function SellHouseFastWisconsinPage() {
             <li><strong>Racine County Circuit Court — Probate Division</strong>, 730 Wisconsin Avenue, 6th Floor, Racine WI 53403. Main: (262) 636-3333 · Register in Probate: (262) 636-3868</li>
             <li><strong>Kenosha County Circuit Court — Probate Division</strong>, 912 56th Street, Kenosha WI 53140. Phone: (262) 653-2678</li>
             <li><strong>Winnebago County Circuit Court — Register in Probate</strong> (Oshkosh), 415 Jackson St, Room 242, Oshkosh WI 54901. Phone: (920) 236-4808</li>
+            <li><strong>Outagamie County Circuit Court — Register in Probate</strong> (Appleton), 320 S. Walnut St., Appleton WI 54911. Phone: (920) 832-5131</li>
+            <li><strong>Milwaukee County Circuit Court — Register in Probate</strong>, 901 N. 9th St., Milwaukee WI 53233. Phone: (414) 278-4444</li>
           </ul>
           <p className="text-gray-700 mb-4">
             Source: <a href="https://docs.legis.wisconsin.gov/statutes/statutes/851" className="text-brand-primary hover:underline" target="_blank" rel="noopener">Wis. Stat. Ch. 851–882 (docs.legis.wisconsin.gov)</a>; <a href="https://wilawlibrary.gov/topics/wills/probate.php" className="text-brand-primary hover:underline" target="_blank" rel="noopener">Wisconsin State Law Library probate guide</a>.

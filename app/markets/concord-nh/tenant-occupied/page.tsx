@@ -11,52 +11,159 @@ export const revalidate = 86400;
 const pageUrl = `${SITE_URL}/markets/concord-nh/tenant-occupied`;
 
 export const metadata: Metadata = {
-  title: 'Sell Tenant-Occupied House Concord NH — Cash, No Eviction Needed',
-  description: 'Need to sell a rental property in Concord NH with tenants in place? We buy tenant-occupied houses and multifamily as-is, for cash. No eviction required. Serving Merrimack County.',
+  title: 'Sell Tenant-Occupied House Concord NH — We Buy With Tenants In Place',
+  description:
+    'Need to sell a rental property in Concord NH with tenants in place? USA Home Buyers purchases tenant-occupied homes as-is in Merrimack County — cash offer in 24 hours, no eviction required.',
   alternates: { canonical: pageUrl },
 };
 
 const FAQ_ITEMS = [
-  { question: 'Can I sell a house with tenants still living in it in New Hampshire?', answer: "Yes. NH allows the sale of tenant-occupied properties. Tenants retain their lease rights — the lease transfers with the property. USA Home Buyers buys with tenants in place. You don't need to evict anyone before selling to us." },
-  { question: 'What if the tenant is not paying rent?', answer: "We still buy. Non-paying tenant situations in Concord — where NH eviction proceedings take time — are exactly where a cash sale makes sense. We take on the occupancy issue after closing." },
-  { question: 'What types of tenant-occupied properties do you buy in Concord?', answer: "Single-family rentals, duplexes, small multifamily buildings, and properties with month-to-month or fixed-term leases. Penacook multifamily, Abbott-Downing rentals, West Concord and Concord Heights properties all qualify." },
-  { question: 'Do I need to notify tenants before selling to you?', answer: "NH law has specific tenant notification requirements. Requirements vary by lease type and situation. We work within the legal framework — consult a NH landlord-tenant attorney if you have specific questions about your tenant's rights and required notices." },
+  {
+    question: 'Will you buy my Concord rental with tenants still living there?',
+    answer:
+      "Yes. We purchase tenant-occupied properties with tenants in place — month-to-month tenants, lease tenants, and non-paying tenants. No eviction required before sale. We handle the tenant situation as the new owner after closing. Call 888-274-5006.",
+  },
+  {
+    question: 'What are my notice obligations to tenants in New Hampshire?',
+    answer:
+      "New Hampshire requires reasonable advance notice for landlord entry. NH RSA 540-A governs landlord-tenant relationships, including entry rights and notice requirements. We typically minimize disruption to tenants — we can often make an offer based on exterior inspection and available information without requiring interior showings. Consult an NH-licensed attorney for notice requirements specific to your lease.",
+  },
+  {
+    question: 'What if my tenant is behind on rent or I have begun eviction?',
+    answer:
+      "We buy in all situations — current tenants, month-to-month tenants, tenants behind on rent, and properties with active NH Circuit Court eviction cases. We price the offer to account for tenant risk and take that burden ourselves after closing. Call 888-274-5006.",
+  },
+  {
+    question: 'How does the security deposit transfer work in New Hampshire?',
+    answer:
+      "Under NH RSA 540-A, when a property is sold, the security deposit obligation transfers to the new owner. At closing, security deposit obligations transfer to us and we manage that relationship going forward. This is standard and your title company will handle the mechanics.",
+  },
+  {
+    question: 'What areas near Concord do you buy tenant-occupied rentals?',
+    answer:
+      "All of Merrimack County: Concord, Bow, Pembroke, Hooksett, Canterbury, Dunbarton, Hopkinton, Loudon, and surrounding communities. Call 888-274-5006.",
+  },
+];
+
+const LINKS = [
+  { href: '/markets/concord-nh/inherited-property', label: 'Inherited Property' },
+  { href: '/markets/concord-nh/foreclosure', label: 'Foreclosure' },
+  { href: '/markets/concord-nh/probate', label: 'Probate' },
+  { href: '/markets/concord-nh/divorce-sale', label: 'Divorce Sale' },
+  { href: '/markets/concord-nh/code-violations', label: 'Code Violations' },
+  { href: '/markets/concord-nh/fire-damage', label: 'Fire Damage' },
+  { href: '/markets/concord-nh', label: '← Back to Concord NH' },
 ];
 
 export default function ConcordTenantOccupiedPage() {
   return (
     <>
-      <SchemaMarkup schema={[concordLocalBusinessSchema, articleSchema('Sell a Tenant-Occupied House in Concord NH', pageUrl, '2026-05-01'), faqSchema(FAQ_ITEMS)]} />
+      <SchemaMarkup
+        schema={[
+          concordLocalBusinessSchema,
+          articleSchema('Sell a Tenant-Occupied Rental in Concord NH', pageUrl, '2026-05-01'),
+          faqSchema(FAQ_ITEMS),
+        ]}
+      />
+
       <section className="relative text-white py-16 px-4 overflow-hidden">
         <div className="absolute inset-0 bg-brand-dark" />
         <div className="relative z-10 max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-start">
           <div>
-            <p className="text-blue-300 text-sm font-medium mb-2"><Link href="/markets/concord-nh" className="hover:text-white">Concord NH</Link> › Tenant-Occupied</p>
-            <h1 className="text-3xl md:text-4xl font-bold text-white mb-4 leading-tight">Sell Your Tenant-Occupied Concord NH Property — Cash, No Eviction Needed</h1>
+            <p className="text-blue-300 text-sm font-medium mb-2">
+              <Link href="/markets/concord-nh" className="hover:text-white">Concord NH</Link>{' '}
+              › Tenant-Occupied
+            </p>
+            <h1 className="text-3xl md:text-4xl font-bold text-white mb-4 leading-tight">
+              Sell a Tenant-Occupied Rental in Concord NH — We Buy With Tenants In Place
+            </h1>
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
-              <p className="text-white text-sm leading-relaxed">USA Home Buyers purchases tenant-occupied rental properties in Concord NH and Merrimack County — duplexes, multifamily, single-family — as-is, with tenants in place. No eviction required before closing. Written offer in 24 hours. Call 888-274-5006.</p>
+              <p className="text-white text-sm leading-relaxed">
+                USA Home Buyers purchases tenant-occupied rental properties throughout Concord and
+                Merrimack County — paying tenants, month-to-month tenants, or non-paying tenants.
+                No eviction required before closing. Written cash offer in 24 hours. Close in
+                7–14 days. Call 888-274-5006.
+              </p>
             </div>
-            <a href="tel:+18882745006" className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors">📞 Call Now — 888-274-5006 (24/7)</a>
+            <a
+              href="tel:+18882745006"
+              className="inline-flex items-center gap-2 bg-green-500 hover:bg-green-400 text-white font-bold px-6 py-3 rounded-xl text-lg mb-4 transition-colors"
+            >
+              📞 Call Now — 888-274-5006 (24/7)
+            </a>
           </div>
-          <div><CashOfferForm variant="hero" headline="Get Your Cash Offer" subheadline="Written offer in 24 hours." sourcePage="/markets/concord-nh/tenant-occupied" /></div>
+          <div>
+            <CashOfferForm
+              variant="hero"
+              headline="Get Your Cash Offer"
+              subheadline="Tenant-occupied specialists — close in 7–14 days."
+              sourcePage="/markets/concord-nh/tenant-occupied"
+            />
+          </div>
         </div>
       </section>
+
+      {/* Sticky mobile CTA */}
+      <div className="fixed bottom-0 left-0 right-0 z-50 lg:hidden bg-green-600 text-white p-3 flex items-center justify-center gap-3 shadow-lg">
+        <a href="tel:+18882745006" className="font-bold text-base">
+          📞 Call 888-274-5006 — Get Cash Offer
+        </a>
+      </div>
+
       <div className="max-w-7xl mx-auto px-4 py-8">
         <section className="my-8">
-          <h2 className="text-2xl font-bold text-brand-dark mb-4">Selling a Rental in Concord NH When Tenants Are in Place</h2>
-          <p className="text-gray-700 mb-4">Concord has a 43.2% renter-occupied housing share. The city's older housing stock — multifamily properties in Penacook, older duplexes near downtown Concord, and rental houses in West Concord and Concord Heights — means many landlords find themselves managing tenant-occupied properties they want to exit. Showing a tenant-occupied property through a traditional agent requires tenant cooperation, advance notice, and coordinated showings.</p>
-          <p className="text-gray-700 mb-4">A cash sale to USA Home Buyers eliminates the showings problem. We make one visit, evaluate the property with tenants in place, and make a written offer within 24 hours. You don't need the tenant out before closing. We handle the occupancy transition after the sale is complete.</p>
+          <h2 className="text-2xl font-bold text-brand-dark mb-4">
+            Selling a Rental Property With Tenants in Concord NH
+          </h2>
+          <p className="text-gray-700 mb-4">
+            Selling a tenant-occupied property through the retail market is difficult: most
+            retail buyers are owner-occupants who require vacant possession, and NH notice
+            requirements, tenant coordination for showings, and the uncertainty of tenant
+            cooperation all extend the timeline. NH Circuit Court eviction cases can take
+            several months to complete.
+          </p>
+          <p className="text-gray-700 mb-4">
+            USA Home Buyers purchases tenant-occupied properties without requiring vacant
+            possession. We typically don't require interior showings that disrupt your tenant.
+            We make an offer based on exterior inspection, photos, and available property
+            information. You close, we become the new landlord — and the tenant situation
+            transfers to us to manage.
+          </p>
+
+          <div className="border-l-4 border-blue-400 pl-4 mb-6">
+            <h3 className="font-semibold text-brand-dark mb-1">Non-paying tenants and eviction situations</h3>
+            <p className="text-sm text-gray-700">
+              NH eviction (unlawful detainer) runs through Circuit Court. Even with a court order,
+              the process takes time. If you're mid-eviction or facing a non-paying tenant
+              situation, a cash sale is often faster and less expensive than completing the
+              eviction, doing repairs, and re-renting or listing. We account for tenant risk
+              in our offer and take that burden off you.
+            </p>
+          </div>
         </section>
-        <FAQSection items={FAQ_ITEMS} heading="FAQs — Tenant-Occupied Property in Concord NH" />
+
+        <FAQSection items={FAQ_ITEMS} heading="FAQs — Tenant-Occupied Sales in Concord NH" />
+
         <section className="my-8">
           <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
-            {[{ href: '/markets/concord-nh/inherited-property', label: 'Inherited Property' }, { href: '/markets/concord-nh/foreclosure', label: 'Foreclosure' }, { href: '/markets/concord-nh/probate', label: 'Probate' }, { href: '/markets/concord-nh/divorce-sale', label: 'Divorce Sale' }, { href: '/markets/concord-nh/code-violations', label: 'Code Violations' }, { href: '/markets/concord-nh', label: '← Back to Concord NH' }].map(link => (
-              <Link key={link.href} href={link.href} className="bg-brand-light rounded-lg px-4 py-3 text-brand-primary hover:bg-blue-100 font-medium text-sm transition-colors">{link.label}</Link>
+            {LINKS.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="bg-brand-light rounded-lg px-4 py-3 text-brand-primary hover:bg-blue-100 font-medium text-sm transition-colors"
+              >
+                {link.label}
+              </Link>
             ))}
           </div>
         </section>
-        <CashOfferForm variant="footer" headline="Ready to Sell Your Concord NH Rental Property?" sourcePage="/markets/concord-nh/tenant-occupied" />
+
+        <CashOfferForm
+          variant="footer"
+          headline="Ready to Sell Your Concord NH Rental Property?"
+          sourcePage="/markets/concord-nh/tenant-occupied"
+        />
       </div>
     </>
   );
