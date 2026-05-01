@@ -10,35 +10,24 @@ type SitemapEntry = {
   changeFrequency: MetadataRoute.Sitemap[number]["changeFrequency"];
 };
 
+// Rule: only add a slug here when the app/markets/{slug}/ route directory + page.tsx EXIST.
+// Adding slugs before routes causes sitemap 404s — same P0 that was fixed in the property-liens patch.
 const marketSlugs = [
-  "akron-oh",
+  // --- Original 28 live markets ---
   "allentown-pa",
-  "appleton-wi",
   "bethlehem-pa",
-  "binghamton-ny",
   "bloomington-il",
   "boston-ma",
   "bridgeport-ct",
-  "canton-oh",
-  "chambersburg-pa",
   "champaign-urbana-il",
-  "columbus-oh",
-  "concord-nh",
-  "eau-claire-wi",
   "erie-pa",
-  "green-bay-wi",
   "harrisburg-pa",
   "hartford-ct",
-  "janesville-wi",
   "kenosha-wi",
   "king-of-prussia-pa",
   "lancaster-pa",
-  "madison-wi",
   "manchester-nh",
-  "milwaukee-wi",
   "new-haven-ct",
-  "northampton-ma",
-  "norwich-ct",
   "oshkosh-wi",
   "peoria-il",
   "racine-mount-pleasant-wi",
@@ -48,12 +37,28 @@ const marketSlugs = [
   "springfield-il",
   "springfield-ma",
   "state-college-pa",
-  "waterbury-ct",
   "wausau-wi",
   "wilmington-de",
   "worcester-ma",
   "york-pa",
   "youngstown-oh",
+  // --- Wave 1 (MFF-004, routes live as of commit 6ff339e) ---
+  "chambersburg-pa",
+  "madison-wi",
+  "waterbury-ct",
+  // --- Wave 2+ (add each slug here ONLY after its route is deployed and verified 200) ---
+  // "green-bay-wi",      // routes not yet built
+  // "binghamton-ny",     // routes not yet built
+  // "appleton-wi",       // routes not yet built
+  // "canton-oh",         // routes not yet built
+  // "milwaukee-wi",      // routes not yet built
+  // "akron-oh",          // routes not yet built
+  // "concord-nh",        // routes not yet built
+  // "norwich-ct",        // routes not yet built
+  // "northampton-ma",    // routes not yet built
+  // "eau-claire-wi",     // routes not yet built
+  // "janesville-wi",     // routes not yet built
+  // "columbus-oh",       // routes not yet built
 ];
 
 // property-liens is NOT in this shared list — only erie-pa, harrisburg-pa, reading-pa
@@ -91,35 +96,23 @@ const miniSiteResourceMarketSlugs = [
   "springfield-il",
 ];
 
+// Rule: only add a guide slug here when app/guides/{slug}/page.tsx EXISTS.
 const cityGuideSlugs = [
-  "sell-house-fast-akron-oh-2026",
+  // --- Original guides (all routes exist) ---
   "sell-house-fast-allentown-pa-2026",
-  "sell-house-fast-appleton-wi-2026",
   "sell-house-fast-bethlehem-pa-2026",
-  "sell-house-fast-binghamton-ny-2026",
   "sell-house-fast-bloomington-il-2026",
   "sell-house-fast-boston-ma-2026",
   "sell-house-fast-bridgeport-ct-2026",
-  "sell-house-fast-canton-oh-2026",
-  "sell-house-fast-chambersburg-pa-2026",
   "sell-house-fast-champaign-urbana-il-2026",
-  "sell-house-fast-columbus-oh-2026",
-  "sell-house-fast-concord-nh-2026",
-  "sell-house-fast-eau-claire-wi-2026",
   "sell-house-fast-erie-pa-2026",
-  "sell-house-fast-green-bay-wi-2026",
   "sell-house-fast-harrisburg-pa-2026",
   "sell-house-fast-hartford-ct-2026",
-  "sell-house-fast-janesville-wi-2026",
   "sell-house-fast-kenosha-wi-2026",
   "sell-house-fast-king-of-prussia-pa-2026",
   "sell-house-fast-lancaster-pa-2026",
-  "sell-house-fast-madison-wi-2026",
   "sell-house-fast-manchester-nh-2026",
-  "sell-house-fast-milwaukee-wi-2026",
   "sell-house-fast-new-haven-ct-2026",
-  "sell-house-fast-northampton-ma-2026",
-  "sell-house-fast-norwich-ct-2026",
   "sell-house-fast-oshkosh-wi-2026",
   "sell-house-fast-peoria-il-2026",
   "sell-house-fast-racine-mount-pleasant-wi-2026",
@@ -129,12 +122,28 @@ const cityGuideSlugs = [
   "sell-house-fast-springfield-il-2026",
   "sell-house-fast-springfield-ma-2026",
   "sell-house-fast-state-college-pa-2026",
-  "sell-house-fast-waterbury-ct-2026",
   "sell-house-fast-wausau-wi-2026",
   "sell-house-fast-wilmington-de-2026",
   "sell-house-fast-worcester-ma-2026",
   "sell-house-fast-york-pa-2026",
   "sell-house-fast-youngstown-oh-2026",
+  // --- Wave 1 guides (routes live as of commit 6ff339e) ---
+  "sell-house-fast-chambersburg-pa-2026",
+  "sell-house-fast-madison-wi-2026",
+  "sell-house-fast-waterbury-ct-2026",
+  // --- Wave 2+ guides (add ONLY after app/guides/{slug}/page.tsx is deployed and verified 200) ---
+  // "sell-house-fast-green-bay-wi-2026",
+  // "sell-house-fast-binghamton-ny-2026",
+  // "sell-house-fast-appleton-wi-2026",
+  // "sell-house-fast-canton-oh-2026",
+  // "sell-house-fast-milwaukee-wi-2026",
+  // "sell-house-fast-akron-oh-2026",
+  // "sell-house-fast-concord-nh-2026",
+  // "sell-house-fast-norwich-ct-2026",
+  // "sell-house-fast-northampton-ma-2026",
+  // "sell-house-fast-eau-claire-wi-2026",
+  // "sell-house-fast-janesville-wi-2026",
+  // "sell-house-fast-columbus-oh-2026",
 ];
 
 const staticEntries: SitemapEntry[] = [
