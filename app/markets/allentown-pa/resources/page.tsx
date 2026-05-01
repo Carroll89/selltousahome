@@ -90,6 +90,12 @@ const RESOURCE_LINKS = [
     desc: "How the Pre-Sale Inspection, Certificate of Compliance, and buyer acceptance process work — and where cash buyers fit when violations exist.",
     badge: 'Article',
   },
+  {
+    href: '/blog/allentown-pa-cash-buyers-by-neighborhood',
+    label: 'Where Allentown Cash Buyers Are Most Active — Neighborhood Breakdown',
+    desc: 'East Allentown, Center City, Jordan Heights, West End, Trexler Park — current data on where cash buyers concentrate and what that means for your sale.',
+    badge: 'Article',
+  },
 ];
 
 export default function AllentownResourcesPage() {

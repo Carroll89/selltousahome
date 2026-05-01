@@ -498,6 +498,21 @@ export const BLOG_POSTS: BlogPostMeta[] = [
     markets: ['allentown-pa'],
     isStatic: true,
   },
+  {
+    slug: 'allentown-pa-cash-buyers-by-neighborhood',
+    title: 'Where Allentown Cash Buyers Are Most Active — A Neighborhood-by-Neighborhood Breakdown',
+    excerpt: "Not every Allentown neighborhood works the same for sellers. Here's where cash buyers concentrate their activity — East Allentown, Center City, Jordan Heights, West End, and more — with current data and honest caveats.",
+    date: 'April 30, 2026',
+    datePublished: '2026-04-30',
+    category: 'Market Guide',
+    readTime: '8 min',
+    heroImage: '/images/allentown-hero.jpg',
+    heroAlt: 'Allentown PA neighborhoods — cash buyer activity',
+    description: 'Which Allentown neighborhoods see the most cash buyer activity in 2026? East Allentown, Center City, Jordan Heights, West End, and more — with current data and honest caveats.',
+    primaryKeyword: 'sell house fast Allentown PA neighborhood',
+    markets: ['allentown-pa'],
+    isStatic: true,
+  },
 ];
 
 /** Get all posts sorted by date (newest first) */
