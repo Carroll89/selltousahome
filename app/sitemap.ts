@@ -47,7 +47,7 @@ const marketSlugs = [
   "madison-wi",
   "waterbury-ct",
   // --- Wave 2+ (add each slug here ONLY after its route is deployed and verified 200) ---
-  // "green-bay-wi",      // routes not yet built
+  "green-bay-wi",
   // "binghamton-ny",     // routes not yet built
   // "appleton-wi",       // routes not yet built
   // "canton-oh",         // routes not yet built
@@ -132,7 +132,7 @@ const cityGuideSlugs = [
   "sell-house-fast-madison-wi-2026",
   "sell-house-fast-waterbury-ct-2026",
   // --- Wave 2+ guides (add ONLY after app/guides/{slug}/page.tsx is deployed and verified 200) ---
-  // "sell-house-fast-green-bay-wi-2026",
+  "sell-house-fast-green-bay-wi-2026",
   // "sell-house-fast-binghamton-ny-2026",
   // "sell-house-fast-appleton-wi-2026",
   // "sell-house-fast-canton-oh-2026",

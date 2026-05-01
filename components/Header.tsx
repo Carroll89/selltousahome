@@ -52,6 +52,8 @@ const marketsByState: {
       { href: "/markets/oshkosh-wi", label: "Oshkosh" },
       { href: "/markets/wausau-wi", label: "Wausau" },
       { href: "/markets/madison-wi", label: "Madison" },
+      { href: "/markets/green-bay-wi", label: "Green Bay" },
+      { href: "/markets/green-bay-wi", label: "Green Bay" },
     ],
   },
   {

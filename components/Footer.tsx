@@ -60,6 +60,7 @@ export function Footer() {
               <li><Link href="/markets/oshkosh-wi" className="hover:text-white">Oshkosh, WI</Link></li>
               <li><Link href="/markets/wausau-wi" className="hover:text-white">Wausau, WI</Link></li>
               <li><Link href="/markets/madison-wi" className="hover:text-white">Madison, WI</Link></li>
+              <li><Link href="/markets/green-bay-wi" className="hover:text-white">Green Bay, WI</Link></li>
               <li><Link href="/sell-house-fast-wisconsin" className="hover:text-white">Sell House Fast Wisconsin</Link></li>
               <li><Link href="/markets/manchester-nh" className="hover:text-white">Manchester, NH</Link></li>
               <li><Link href="/sell-house-fast-new-hampshire" className="hover:text-white">Sell House Fast New Hampshire</Link></li>

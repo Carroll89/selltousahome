@@ -32,6 +32,7 @@ const marketGuides = [
   { href: '/guides/sell-house-fast-racine-mount-pleasant-wi-2026', label: 'Racine & Mount Pleasant, WI' },
   { href: '/guides/sell-house-fast-oshkosh-wi-2026', label: 'Oshkosh, WI' },
   { href: '/guides/sell-house-fast-madison-wi-2026', label: 'Madison, WI' },
+  { href: '/guides/sell-house-fast-green-bay-wi-2026', label: 'Green Bay, WI' },
   // New Hampshire
   { href: '/guides/sell-house-fast-manchester-nh-2026', label: 'Manchester, NH' },
   // Connecticut

@@ -69,6 +69,16 @@ export default function SellHouseFastWisconsinPage() {
               <p className="text-sm text-gray-600">Dane County · Median $453,500 (+5.8% YoY) · Compete Score 74 · State capital + UW-Madison</p>
               <p className="text-xs text-brand-primary mt-2">See Madison market →</p>
             </Link>
+            <Link href="/markets/green-bay-wi" className="bg-white border border-gray-200 rounded-xl p-5 hover:border-brand-primary transition-colors group">
+              <h3 className="font-bold text-brand-dark group-hover:text-brand-primary mb-1">Green Bay, WI</h3>
+              <p className="text-sm text-gray-600">Brown County · Median $260,000 (+4.0% YoY) · Compete Score 70 · 42% below national avg · Manufacturing-heritage inventory</p>
+              <p className="text-xs text-brand-primary mt-2">See Green Bay market →</p>
+            </Link>
+            <Link href="/markets/green-bay-wi" className="bg-white border border-gray-200 rounded-xl p-5 hover:border-brand-primary transition-colors group">
+              <h3 className="font-bold text-brand-dark group-hover:text-brand-primary mb-1">Green Bay, WI</h3>
+              <p className="text-sm text-gray-600">Brown County · Median $260,000 (+4.0% YoY) · Compete Score 70 · ~42% below national avg · Wisconsin's third-largest city</p>
+              <p className="text-xs text-brand-primary mt-2">See Green Bay market →</p>
+            </Link>
           </div>
         </section>
 
@@ -147,7 +157,7 @@ export default function SellHouseFastWisconsinPage() {
         <section className="mb-10">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">Section 5: Wisconsin Market Snapshot</h2>
           <p className="text-gray-700 mb-4">
-            USA Home Buyers serves three Wisconsin counties across two distinct regions. Kenosha and Racine counties anchor our southeast WI footprint in the Chicago-Milwaukee corridor on Lake Michigan. Winnebago County (Oshkosh) anchors our Fox Valley presence in central-northeast Wisconsin — a nationally hot market at RDC rank #13.
+            USA Home Buyers serves Wisconsin markets across multiple regions. Kenosha and Racine counties anchor our southeast WI footprint in the Chicago-Milwaukee corridor. Winnebago County (Oshkosh) covers the Fox Valley. Dane County (Madison) is our flagship university-market. Brown County (Green Bay) is our northeast Wisconsin anchor — Wisconsin's third-largest city and one of the most affordable Very Competitive markets in our network.
           </p>
           <div className="overflow-x-auto">
             <table className="w-full text-sm border-collapse">
@@ -181,6 +191,20 @@ export default function SellHouseFastWisconsinPage() {
                   <td className="p-3">$250,967 (Apr 2026)</td>
                   <td className="p-3">36.0 days</td>
                   <td className="p-3 text-xs">RDC hotness rank #13; EAA AirVenture city; UW Oshkosh anchor; Lake Winnebago waterfront premium</td>
+                </tr>
+                <tr className="bg-gray-50">
+                  <td className="p-3"><Link href="/markets/madison-wi" className="text-brand-primary hover:underline">Madison</Link></td>
+                  <td className="p-3">Dane County</td>
+                  <td className="p-3">$453,500 median (+5.8% YoY)</td>
+                  <td className="p-3">41 days</td>
+                  <td className="p-3 text-xs">State capital + UW-Madison; Compete Score 74; Craftsman bungalows; highest WI median in network</td>
+                </tr>
+                <tr className="bg-white">
+                  <td className="p-3"><Link href="/markets/green-bay-wi" className="text-brand-primary hover:underline">Green Bay</Link></td>
+                  <td className="p-3">Brown County</td>
+                  <td className="p-3">$260,000 median (+4.0% YoY)</td>
+                  <td className="p-3">51 days</td>
+                  <td className="p-3 text-xs">Compete Score 70; ~42% below national avg; manufacturing heritage; Brown County ROD 305 E. Walnut St.</td>
                 </tr>
               </tbody>
             </table>

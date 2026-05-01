@@ -94,6 +94,7 @@ const MARKET_GROUPS = [
       { label: 'Racine / Mount Pleasant WI', href: '/markets/racine-mount-pleasant-wi' },
       { label: 'Wausau WI', href: '/markets/wausau-wi' },
       { label: 'Madison WI', href: '/markets/madison-wi' },
+      { label: 'Green Bay WI', href: '/markets/green-bay-wi' },
     ],
   },
 ];
