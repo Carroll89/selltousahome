@@ -50,6 +50,7 @@ const MARKET_GROUPS = [
       { label: 'Hartford CT', href: '/markets/hartford-ct' },
       { label: 'New Haven CT', href: '/markets/new-haven-ct' },
       { label: 'Waterbury CT', href: '/markets/waterbury-ct' },
+      { label: 'Norwich CT', href: '/markets/norwich-ct' },
     ],
   },
   {
@@ -72,6 +73,7 @@ const MARKET_GROUPS = [
       { label: 'Boston MA', href: '/markets/boston-ma' },
       { label: 'Springfield MA', href: '/markets/springfield-ma' },
       { label: 'Worcester MA', href: '/markets/worcester-ma' },
+      { label: 'Northampton MA', href: '/markets/northampton-ma' },
     ],
   },
   {
@@ -91,6 +93,7 @@ const MARKET_GROUPS = [
       { label: 'Youngstown OH', href: '/markets/youngstown-oh' },
       { label: 'Canton OH', href: '/markets/canton-oh' },
       { label: 'Akron OH', href: '/markets/akron-oh' },
+      { label: 'Columbus OH', href: '/markets/columbus-oh' },
     ],
   },
   {
@@ -104,6 +107,8 @@ const MARKET_GROUPS = [
       { label: 'Green Bay WI', href: '/markets/green-bay-wi' },
       { label: 'Appleton WI', href: '/markets/appleton-wi' },
       { label: 'Milwaukee WI', href: '/markets/milwaukee-wi' },
+      { label: 'Eau Claire WI', href: '/markets/eau-claire-wi' },
+      { label: 'Janesville WI', href: '/markets/janesville-wi' },
     ],
   },
 ];

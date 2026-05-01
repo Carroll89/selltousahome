@@ -54,11 +54,11 @@ const marketSlugs = [
   "milwaukee-wi",
   "akron-oh",
   "concord-nh",
-  // "norwich-ct",        // routes not yet built
-  // "northampton-ma",    // routes not yet built
-  // "eau-claire-wi",     // routes not yet built
-  // "janesville-wi",     // routes not yet built
-  // "columbus-oh",       // routes not yet built
+  "norwich-ct",
+  "northampton-ma",
+  "eau-claire-wi",
+  "janesville-wi",
+  "columbus-oh",
 ];
 
 // property-liens is NOT in this shared list — only erie-pa, harrisburg-pa, reading-pa
@@ -139,11 +139,11 @@ const cityGuideSlugs = [
   "sell-house-fast-milwaukee-wi-2026",
   "sell-house-fast-akron-oh-2026",
   "sell-house-fast-concord-nh-2026",
-  // "sell-house-fast-norwich-ct-2026",
-  // "sell-house-fast-northampton-ma-2026",
-  // "sell-house-fast-eau-claire-wi-2026",
-  // "sell-house-fast-janesville-wi-2026",
-  // "sell-house-fast-columbus-oh-2026",
+  "sell-house-fast-norwich-ct-2026",
+  "sell-house-fast-northampton-ma-2026",
+  "sell-house-fast-eau-claire-wi-2026",
+  "sell-house-fast-janesville-wi-2026",
+  "sell-house-fast-columbus-oh-2026",
 ];
 
 const staticEntries: SitemapEntry[] = [

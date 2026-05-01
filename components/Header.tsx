@@ -35,6 +35,7 @@ const marketsByState: {
       { href: "/markets/youngstown-oh", label: "Youngstown" },
       { href: "/markets/canton-oh", label: "Canton" },
       { href: "/markets/akron-oh", label: "Akron" },
+      { href: "/markets/columbus-oh", label: "Columbus" },
     ],
   },
   {
@@ -43,6 +44,7 @@ const marketsByState: {
       { href: "/markets/boston-ma", label: "Boston" },
       { href: "/markets/springfield-ma", label: "Springfield" },
       { href: "/markets/worcester-ma", label: "Worcester" },
+      { href: "/markets/northampton-ma", label: "Northampton" },
     ],
   },
   {
@@ -59,6 +61,8 @@ const marketsByState: {
       { href: "/markets/green-bay-wi", label: "Green Bay" },
       { href: "/markets/appleton-wi", label: "Appleton" },
       { href: "/markets/milwaukee-wi", label: "Milwaukee" },
+      { href: "/markets/eau-claire-wi", label: "Eau Claire" },
+      { href: "/markets/janesville-wi", label: "Janesville" },
     ],
   },
   {
@@ -75,6 +79,7 @@ const marketsByState: {
       { href: "/markets/hartford-ct", label: "Hartford" },
       { href: "/markets/new-haven-ct", label: "New Haven" },
       { href: "/markets/waterbury-ct", label: "Waterbury" },
+      { href: "/markets/norwich-ct", label: "Norwich" },
     ],
   },
   {

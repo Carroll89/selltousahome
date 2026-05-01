@@ -89,6 +89,16 @@ export default function SellHouseFastWisconsinPage() {
               <p className="text-sm text-gray-600">Milwaukee County · Median $235,000 (+14.6% YoY) · Compete Score 72 · Wisconsin's largest city · Older duplex stock</p>
               <p className="text-xs text-brand-primary mt-2">See Milwaukee market →</p>
             </Link>
+            <Link href="/markets/eau-claire-wi" className="bg-white border border-gray-200 rounded-xl p-5 hover:border-brand-primary transition-colors group">
+              <h3 className="font-bold text-brand-dark group-hover:text-brand-primary mb-1">Eau Claire, WI</h3>
+              <p className="text-sm text-gray-600">Eau Claire County · Median $285,000 (+2.6% YoY) · Compete Score 60 · city partly extends into Chippewa County</p>
+              <p className="text-xs text-brand-primary mt-2">See Eau Claire market →</p>
+            </Link>
+            <Link href="/markets/janesville-wi" className="bg-white border border-gray-200 rounded-xl p-5 hover:border-brand-primary transition-colors group">
+              <h3 className="font-bold text-brand-dark group-hover:text-brand-primary mb-1">Janesville, WI</h3>
+              <p className="text-sm text-gray-600">Rock County · Median $275,000 · Compete Score 72 · strong sale-to-list ratio; March median mix-shift caveat</p>
+              <p className="text-xs text-brand-primary mt-2">See Janesville market →</p>
+            </Link>
           </div>
         </section>
 

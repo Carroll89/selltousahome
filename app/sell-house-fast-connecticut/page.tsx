@@ -37,12 +37,12 @@ export default function SellHouseFastConnecticutPage() {
         <div className="bg-blue-50 border border-blue-100 rounded-xl p-5 mb-8">
           <p className="text-sm font-semibold text-blue-800 mb-2">TL;DR</p>
           <p className="text-sm text-blue-900 leading-relaxed">
-            USA Home Buyers purchases houses for cash throughout Connecticut — currently serving Bridgeport, New Haven, Hartford, and nearby communities. Written offer in 24 hours, close in 7–14 days, any condition, no repairs, no fees. We cover all closing costs. Call 888-274-5006.
+            USA Home Buyers purchases houses for cash throughout Connecticut — currently serving Bridgeport, New Haven, Hartford, Waterbury, Norwich, and nearby communities. Written offer in 24 hours, close in 7–14 days, any condition, no repairs, no fees. We cover all closing costs. Call 888-274-5006.
           </p>
         </div>
 
         <section className="mb-10">
-          <h2 className="text-2xl font-bold text-brand-dark mb-4">Connecticut Markets We Serve: Bridgeport, New Haven + Hartford</h2>
+          <h2 className="text-2xl font-bold text-brand-dark mb-4">Connecticut Markets We Serve: Bridgeport, New Haven, Hartford, Waterbury + Norwich</h2>
           <div className="grid sm:grid-cols-2 gap-4">
             <Link href="/markets/bridgeport-ct" className="bg-white border border-gray-200 rounded-xl p-5 hover:border-brand-primary transition-colors group">
               <h3 className="font-bold text-brand-dark group-hover:text-brand-primary mb-1">Bridgeport, CT</h3>
@@ -63,6 +63,11 @@ export default function SellHouseFastConnecticutPage() {
               <h3 className="font-bold text-brand-dark group-hover:text-brand-primary mb-1">Waterbury, CT</h3>
               <p className="text-sm text-gray-600">New Haven County · Median home value $276,344 (Zillow, Mar 2026) · 6 avg offers · TIC designation · Brass City working-class inventory</p>
               <p className="text-xs text-brand-primary mt-2">See Waterbury market →</p>
+            </Link>
+            <Link href="/markets/norwich-ct" className="bg-white border border-gray-200 rounded-xl p-5 hover:border-brand-primary transition-colors group">
+              <h3 className="font-bold text-brand-dark group-hover:text-brand-primary mb-1">Norwich, CT</h3>
+              <p className="text-sm text-gray-600">New London County · Median $310,000 (+16.8% YoY) · Compete Score 61 · town-clerk recording caveat</p>
+              <p className="text-xs text-brand-primary mt-2">See Norwich market →</p>
             </Link>
           </div>
         </section>

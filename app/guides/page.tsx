@@ -26,9 +26,11 @@ const marketGuides = [
   { href: '/guides/sell-house-fast-youngstown-oh-2026', label: 'Youngstown, OH' },
   { href: '/guides/sell-house-fast-canton-oh-2026', label: 'Canton, OH' },
   { href: '/guides/sell-house-fast-akron-oh-2026', label: 'Akron, OH' },
+  { href: '/guides/sell-house-fast-columbus-oh-2026', label: 'Columbus, OH' },
   // Massachusetts
   { href: '/guides/sell-house-fast-springfield-ma-2026', label: 'Springfield, MA' },
   { href: '/guides/sell-house-fast-worcester-ma-2026', label: 'Worcester, MA' },
+  { href: '/guides/sell-house-fast-northampton-ma-2026', label: 'Northampton, MA' },
   // Wisconsin
   { href: '/guides/sell-house-fast-kenosha-wi-2026', label: 'Kenosha, WI' },
   { href: '/guides/sell-house-fast-racine-mount-pleasant-wi-2026', label: 'Racine & Mount Pleasant, WI' },
@@ -37,6 +39,8 @@ const marketGuides = [
   { href: '/guides/sell-house-fast-green-bay-wi-2026', label: 'Green Bay, WI' },
   { href: '/guides/sell-house-fast-appleton-wi-2026', label: 'Appleton, WI' },
   { href: '/guides/sell-house-fast-milwaukee-wi-2026', label: 'Milwaukee, WI' },
+  { href: '/guides/sell-house-fast-eau-claire-wi-2026', label: 'Eau Claire, WI' },
+  { href: '/guides/sell-house-fast-janesville-wi-2026', label: 'Janesville, WI' },
   // New Hampshire
   { href: '/guides/sell-house-fast-manchester-nh-2026', label: 'Manchester, NH' },
   { href: '/guides/sell-house-fast-concord-nh-2026', label: 'Concord, NH' },
@@ -44,6 +48,7 @@ const marketGuides = [
   { href: '/guides/sell-house-fast-bridgeport-ct-2026', label: 'Bridgeport, CT' },
   { href: '/guides/sell-house-fast-new-haven-ct-2026', label: 'New Haven, CT' },
   { href: '/guides/sell-house-fast-waterbury-ct-2026', label: 'Waterbury, CT' },
+  { href: '/guides/sell-house-fast-norwich-ct-2026', label: 'Norwich, CT' },
   // New York
   { href: '/guides/sell-house-fast-rochester-ny-2026', label: 'Rochester, NY' },
   // Illinois

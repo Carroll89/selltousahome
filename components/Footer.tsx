@@ -51,10 +51,12 @@ export function Footer() {
               <li><Link href="/markets/youngstown-oh" className="hover:text-white">Youngstown, OH</Link></li>
               <li><Link href="/markets/canton-oh" className="hover:text-white">Canton, OH</Link></li>
               <li><Link href="/markets/akron-oh" className="hover:text-white">Akron, OH</Link></li>
+              <li><Link href="/markets/columbus-oh" className="hover:text-white">Columbus, OH</Link></li>
               <li><Link href="/sell-house-fast-ohio" className="hover:text-white">Sell House Fast Ohio</Link></li>
               <li><Link href="/markets/boston-ma" className="hover:text-white">Boston, MA</Link></li>
               <li><Link href="/markets/springfield-ma" className="hover:text-white">Springfield, MA</Link></li>
               <li><Link href="/markets/worcester-ma" className="hover:text-white">Worcester, MA</Link></li>
+              <li><Link href="/markets/northampton-ma" className="hover:text-white">Northampton, MA</Link></li>
               <li><Link href="/sell-house-fast-massachusetts" className="hover:text-white">Sell House Fast Massachusetts</Link></li>
               <li><Link href="/markets/kenosha-wi" className="hover:text-white">Kenosha, WI</Link></li>
               <li><Link href="/markets/racine-mount-pleasant-wi" className="hover:text-white">Racine &amp; Mount Pleasant, WI</Link></li>
@@ -64,6 +66,8 @@ export function Footer() {
               <li><Link href="/markets/green-bay-wi" className="hover:text-white">Green Bay, WI</Link></li>
               <li><Link href="/markets/appleton-wi" className="hover:text-white">Appleton, WI</Link></li>
               <li><Link href="/markets/milwaukee-wi" className="hover:text-white">Milwaukee, WI</Link></li>
+              <li><Link href="/markets/eau-claire-wi" className="hover:text-white">Eau Claire, WI</Link></li>
+              <li><Link href="/markets/janesville-wi" className="hover:text-white">Janesville, WI</Link></li>
               <li><Link href="/sell-house-fast-wisconsin" className="hover:text-white">Sell House Fast Wisconsin</Link></li>
               <li><Link href="/markets/manchester-nh" className="hover:text-white">Manchester, NH</Link></li>
               <li><Link href="/markets/concord-nh" className="hover:text-white">Concord, NH</Link></li>
@@ -72,6 +76,7 @@ export function Footer() {
               <li><Link href="/markets/hartford-ct" className="hover:text-white">Hartford, CT</Link></li>
               <li><Link href="/markets/waterbury-ct" className="hover:text-white">Waterbury, CT</Link></li>
               <li><Link href="/markets/new-haven-ct" className="hover:text-white">New Haven, CT</Link></li>
+              <li><Link href="/markets/norwich-ct" className="hover:text-white">Norwich, CT</Link></li>
               <li><Link href="/sell-house-fast-connecticut" className="hover:text-white">Sell House Fast Connecticut</Link></li>
               <li><Link href="/markets/rochester-ny" className="hover:text-white">Rochester, NY</Link></li>
               <li><Link href="/sell-house-fast-new-york" className="hover:text-white">Sell House Fast New York</Link></li>
@@ -100,6 +105,11 @@ export function Footer() {
               <li><Link href="/guides/sell-house-fast-champaign-urbana-il-2026" className="hover:text-white">Champaign-Urbana IL Guide</Link></li>
               <li><Link href="/guides/sell-house-fast-new-haven-ct-2026" className="hover:text-white">New Haven CT Guide</Link></li>
               <li><Link href="/guides/sell-house-fast-oshkosh-wi-2026" className="hover:text-white">Oshkosh WI Guide</Link></li>
+              <li><Link href="/guides/sell-house-fast-norwich-ct-2026" className="hover:text-white">Norwich CT Guide</Link></li>
+              <li><Link href="/guides/sell-house-fast-northampton-ma-2026" className="hover:text-white">Northampton MA Guide</Link></li>
+              <li><Link href="/guides/sell-house-fast-eau-claire-wi-2026" className="hover:text-white">Eau Claire WI Guide</Link></li>
+              <li><Link href="/guides/sell-house-fast-janesville-wi-2026" className="hover:text-white">Janesville WI Guide</Link></li>
+              <li><Link href="/guides/sell-house-fast-columbus-oh-2026" className="hover:text-white">Columbus OH Guide</Link></li>
               <li><Link href="/guides/inherited-property" className="hover:text-white">Inherited Property</Link></li>
               <li><Link href="/guides/foreclosure" className="hover:text-white">Foreclosure</Link></li>
               <li><Link href="/guides/behind-on-payments" className="hover:text-white">Behind on Payments</Link></li>

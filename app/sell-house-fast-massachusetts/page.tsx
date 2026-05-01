@@ -37,7 +37,7 @@ export default function SellHouseFastMassachusettsPage() {
         <div className="bg-blue-50 border border-blue-100 rounded-xl p-5 mb-8">
           <p className="text-sm font-semibold text-blue-800 mb-2">TL;DR</p>
           <p className="text-sm text-blue-900 leading-relaxed">
-            USA Home Buyers purchases houses for cash throughout Massachusetts — currently serving Springfield (Hampden County), Worcester (Worcester County), Boston (Suffolk County), and nearby communities. Written offer in 24 hours, close in 7–14 days, any condition, no repairs, no fees. Massachusetts deed excise stamps ($4.56 per $1,000) covered by us. Non-judicial foreclosure state — call before auction notices accelerate. Hablamos español. Call 888-274-5006.
+            USA Home Buyers purchases houses for cash throughout Massachusetts — currently serving Springfield (Hampden County), Worcester (Worcester County), Boston (Suffolk County), Northampton (Hampshire County), and nearby communities. Written offer in 24 hours, close in 7–14 days, any condition, no repairs, no fees. Massachusetts deed excise stamps ($4.56 per $1,000) covered by us. Non-judicial foreclosure state — call before auction notices accelerate. Hablamos español. Call 888-274-5006.
           </p>
         </div>
 
@@ -59,6 +59,11 @@ export default function SellHouseFastMassachusettsPage() {
               <h3 className="font-bold text-brand-dark group-hover:text-brand-primary mb-1">Boston, MA</h3>
               <p className="text-sm text-gray-600">Suffolk County · Median $829,000 metro · #15 Hottest Market</p>
               <p className="text-xs text-brand-primary mt-2">See Boston market →</p>
+            </Link>
+            <Link href="/markets/northampton-ma" className="bg-white border border-gray-200 rounded-xl p-5 hover:border-brand-primary transition-colors group">
+              <h3 className="font-bold text-brand-dark group-hover:text-brand-primary mb-1">Northampton, MA</h3>
+              <p className="text-sm text-gray-600">Hampshire County · Median $535,000 (+5.1% YoY) · Compete Score 66 · Pioneer Valley market</p>
+              <p className="text-xs text-brand-primary mt-2">See Northampton market →</p>
             </Link>
           </div>
         </section>
@@ -165,6 +170,7 @@ export default function SellHouseFastMassachusettsPage() {
                 <tr className="bg-white"><td className="p-3"><Link href="/markets/springfield-ma" className="text-brand-primary hover:underline">Springfield</Link></td><td className="p-3">Hampden County</td><td className="p-3">$178,000</td><td className="p-3">~32 days</td></tr>
                 <tr className="bg-gray-50"><td className="p-3"><Link href="/markets/worcester-ma" className="text-brand-primary hover:underline">Worcester</Link></td><td className="p-3">Worcester County</td><td className="p-3">$310,000</td><td className="p-3">~24 days</td></tr>
                 <tr className="bg-white"><td className="p-3"><Link href="/markets/boston-ma" className="text-brand-primary hover:underline">Boston</Link></td><td className="p-3">Suffolk County</td><td className="p-3">$829,000 (metro)</td><td className="p-3">#15 hottest</td></tr>
+                <tr className="bg-gray-50"><td className="p-3"><Link href="/markets/northampton-ma" className="text-brand-primary hover:underline">Northampton</Link></td><td className="p-3">Hampshire County</td><td className="p-3">$535,000</td><td className="p-3">51 days</td></tr>
               </tbody>
             </table>
           </div>

@@ -150,6 +150,20 @@ export default function OhioHubPage() {
                 Sell Your Akron Home →
               </Link>
             </div>
+            <div className="bg-blue-50 border border-blue-100 rounded-2xl p-6">
+              <h3 className="text-xl font-bold text-brand-dark mb-2">Columbus, OH</h3>
+              <p className="text-gray-700 text-sm mb-3">
+                Franklin County. Ohio capital and large metro market. Median sale price $290,000 (+3.9% YoY), 787 homes sold, Compete Score 65. We avoid unverified city-transfer-add-on claims until title review.
+              </p>
+              <ul className="text-sm text-gray-600 space-y-1 mb-4">
+                <li>→ Franklin County conveyance handled through the Auditor</li>
+                <li>→ DOM: 47 days average</li>
+                <li>→ Cash offer: 63–80% of ARV depending on condition</li>
+              </ul>
+              <Link href="/markets/columbus-oh" className="inline-block bg-brand-primary text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors">
+                Sell Your Columbus Home →
+              </Link>
+            </div>
           </div>
         </section>
 
