@@ -1,143 +1,203 @@
-import type { Metadata } from 'next';
+import type { Metadata } from "next";
 
-import Link from 'next/link';
-import { CashOfferForm } from '@/components/CashOfferForm';
-import { HowItWorks } from '@/components/HowItWorks';
-import { FAQSection } from '@/components/FAQSection';
-import { TestimonialBlock } from '@/components/TestimonialBlock';
-import { ComparisonTable } from '@/components/ComparisonTable';
-import { SituationLinks } from '@/components/SituationLinks';
-import { SchemaMarkup } from '@/components/SchemaMarkup';
-import { harrisburgLocalBusinessSchema, harrisburgFAQSchema, howToSchema, videoObjectSchema } from '@/lib/schema';
-import { PHONE, SITE_URL } from '@/lib/utils';
-import { VideoEmbed } from '@/components/VideoEmbed';
-import { BlogClusterLinks } from '@/components/BlogClusterLinks';
-import { MultiStepForm } from '@/components/MultiStepForm';
+import Link from "next/link";
+import { CashOfferForm } from "@/components/CashOfferForm";
+import { HowItWorks } from "@/components/HowItWorks";
+import { FAQSection } from "@/components/FAQSection";
+import { TestimonialBlock } from "@/components/TestimonialBlock";
+import { ComparisonTable } from "@/components/ComparisonTable";
+import { SituationLinks } from "@/components/SituationLinks";
+import { SchemaMarkup } from "@/components/SchemaMarkup";
+import {
+  harrisburgLocalBusinessSchema,
+  harrisburgFAQSchema,
+  howToSchema,
+  videoObjectSchema,
+} from "@/lib/schema";
+import { PHONE, SITE_URL } from "@/lib/utils";
+import { VideoEmbed } from "@/components/VideoEmbed";
+import { BlogClusterLinks } from "@/components/BlogClusterLinks";
+import { MultiStepForm } from "@/components/MultiStepForm";
 
 export const revalidate = 86400;
 
 export const metadata: Metadata = {
-  title: 'Sell My House Fast Harrisburg PA | Cash Offer in 24 Hours',
+  title: "Sell My House Fast Harrisburg PA | Cash Offer in 24 Hours",
   description:
-    'We buy houses in Harrisburg PA for cash, as-is, in any condition. Written offer in 24 hours, close in 7 days. No repairs, no fees.',
-  alternates: { canonical: 'https://www.selltousahome.com/markets/harrisburg-pa' },
+    "We buy houses in Harrisburg PA for cash, as-is, in any condition. Written offer in 24 hours, close in 7 days. No repairs, no fees.",
+  alternates: {
+    canonical: "https://www.selltousahome.com/markets/harrisburg-pa",
+  },
   openGraph: {
-    images: [{ url: '/images/harrisburg-pa-representative-hero.jpg', width: 1200, height: 630, alt: 'Representative Harrisburg PA brick row homes with Pennsylvania State Capitol context' }],
+    images: [
+      {
+        url: "/images/harrisburg-pa-representative-hero.jpg",
+        width: 1200,
+        height: 630,
+        alt: "Representative Harrisburg PA brick row homes with Pennsylvania State Capitol context",
+      },
+    ],
   },
 };
 
 const TESTIMONIALS = [
   {
-    "quote": "After my mother passed, my brother and I inherited her house off Derry Street. Neither of us live in Harrisburg anymore, and the thought of cleaning it out and repairing it before listing felt impossible. USA Home Buyers made us a fair offer and closed in 12 days. We didn't have to do a thing.",
-    "name": "Sandra M.",
-    "location": "Paxtang, PA",
-    "situation": "Inherited Property — Estate Sale",
-    "date": "March 2026"
+    quote:
+      "After my mother passed, my brother and I inherited her house off Derry Street. Neither of us live in Harrisburg anymore, and the thought of cleaning it out and repairing it before listing felt impossible. USA Home Buyers made us a fair offer and closed in 12 days. We didn't have to do a thing.",
+    name: "Sandra M.",
+    location: "Paxtang, PA",
+    situation: "Inherited Property — Estate Sale",
+    date: "March 2026",
   },
   {
-    "quote": "I was four months behind on my mortgage and the letters were piling up. I didn't know I could sell and still come out with money. USA Home Buyers explained everything, the offer was fair, and we closed before things got any worse.",
-    "name": "James R.",
-    "location": "Steelton, PA",
-    "situation": "Behind on Payments — Pre-Foreclosure",
-    "date": "February 2026"
+    quote:
+      "I was four months behind on my mortgage and the letters were piling up. I didn't know I could sell and still come out with money. USA Home Buyers explained everything, the offer was fair, and we closed before things got any worse.",
+    name: "James R.",
+    location: "Steelton, PA",
+    situation: "Behind on Payments — Pre-Foreclosure",
+    date: "February 2026",
   },
   {
-    "quote": "Our house in Midtown was the one thing me and my ex agreed had to go. Dauphin County proceedings, judge gave us ninety days. USA Home Buyers had a written offer in twenty-four hours — fair number, both of us agreed without argument. Closed in twelve days. The house was the easiest part of the whole process.",
-    "name": "Veronica A.",
-    "location": "Midtown Harrisburg, PA",
-    "situation": "Divorce Sale — Court-Ordered",
-    "date": "July 2025"
+    quote:
+      "Our house in Midtown was the one thing me and my ex agreed had to go. Dauphin County proceedings, judge gave us ninety days. USA Home Buyers had a written offer in twenty-four hours — fair number, both of us agreed without argument. Closed in twelve days. The house was the easiest part of the whole process.",
+    name: "Veronica A.",
+    location: "Midtown Harrisburg, PA",
+    situation: "Divorce Sale — Court-Ordered",
+    date: "July 2025",
   },
   {
-    "quote": "I had a tenant in my rental on Green Street who stopped paying rent and wouldn't leave. USA Home Buyers bought the property with the tenant still in it. That was it. Done.",
-    "name": "Carol T.",
-    "location": "Harrisburg, PA",
-    "situation": "Rental Property — Problem Tenant",
-    "date": "January 2026"
+    quote:
+      "I had a tenant in my rental on Green Street who stopped paying rent and wouldn't leave. USA Home Buyers bought the property with the tenant still in it. That was it. Done.",
+    name: "Carol T.",
+    location: "Harrisburg, PA",
+    situation: "Rental Property — Problem Tenant",
+    date: "January 2026",
   },
   {
-    "quote": "Pennsylvania DGS transferred me to the Pittsburgh office. I had my Camp Hill house on the market for a month with an agent and got two showings. Couldn't wait. USA Home Buyers gave me a written offer in a day and we closed in ten days. I made it to Pittsburgh without doubling up on rent.",
-    "name": "Marcus B.",
-    "location": "Camp Hill, PA",
-    "situation": "Relocation — State Employee Transfer",
-    "date": "April 2025"
+    quote:
+      "Pennsylvania DGS transferred me to the Pittsburgh office. I had my Camp Hill house on the market for a month with an agent and got two showings. Couldn't wait. USA Home Buyers gave me a written offer in a day and we closed in ten days. I made it to Pittsburgh without doubling up on rent.",
+    name: "Marcus B.",
+    location: "Camp Hill, PA",
+    situation: "Relocation — State Employee Transfer",
+    date: "April 2025",
   },
   {
-    "quote": "The furnace died in December and the pipes froze on the north wall. Three rooms with water damage, and the insurance claim was disputed because I'd had a lapse in coverage for two months. I was looking at $27,000 in repairs with no insurance help. USA Home Buyers came out and had me a fair number the next day. Closed in seven days.",
-    "name": "Carolyn W.",
-    "location": "Allison Hill, Harrisburg PA",
-    "situation": "Water Damage — Frozen Pipes",
-    "date": "January 2025"
+    quote:
+      "The furnace died in December and the pipes froze on the north wall. Three rooms with water damage, and the insurance claim was disputed because I'd had a lapse in coverage for two months. I was looking at $27,000 in repairs with no insurance help. USA Home Buyers came out and had me a fair number the next day. Closed in seven days.",
+    name: "Carolyn W.",
+    location: "Allison Hill, Harrisburg PA",
+    situation: "Water Damage — Frozen Pipes",
+    date: "January 2025",
   },
   {
-    "quote": "Sixty-nine years old, my wife is in memory care on Jonestown Road, and I needed to liquidate the house to help cover her care. It wasn't a fun situation. USA Home Buyers were straightforward and decent about it. Offer in twenty-four hours, closed in ten days. I had the money I needed.",
-    "name": "Raymond K.",
-    "location": "Penbrook, PA",
-    "situation": "Downsizing — Memory Care Transition",
-    "date": "March 2025"
-  }
+    quote:
+      "Sixty-nine years old, my wife is in memory care on Jonestown Road, and I needed to liquidate the house to help cover her care. It wasn't a fun situation. USA Home Buyers were straightforward and decent about it. Offer in twenty-four hours, closed in ten days. I had the money I needed.",
+    name: "Raymond K.",
+    location: "Penbrook, PA",
+    situation: "Downsizing — Memory Care Transition",
+    date: "March 2025",
+  },
 ];
 
 const COMPARISON_ROWS = [
-  { label: 'Offer timeline', cashBuyer: '24 hours', traditional: '14-60 days to get an offer' },
-  { label: 'Closing timeline', cashBuyer: '7-14 days', traditional: '45-60+ days' },
-  { label: 'Repairs required', cashBuyer: 'None — we buy as-is', traditional: 'Usually required ($5K-$20K avg)' },
-  { label: 'Agent commissions', cashBuyer: '$0', traditional: '5-6% (~$7,000-$14,000)' },
-  { label: 'Seller closing costs', cashBuyer: 'We cover everything', traditional: '~1-3% + 1% PA transfer tax' },
-  { label: 'Sale certainty', cashBuyer: 'Guaranteed — written contract', traditional: '15-20% of listings fall through' },
-  { label: 'Average net proceeds', cashBuyer: '70-80% of FMV', traditional: '85-90% of FMV (after all costs)' },
+  {
+    label: "Offer timeline",
+    cashBuyer: "24 hours",
+    traditional: "14-60 days to get an offer",
+  },
+  {
+    label: "Closing timeline",
+    cashBuyer: "7-14 days",
+    traditional: "45-60+ days",
+  },
+  {
+    label: "Repairs required",
+    cashBuyer: "None — we buy as-is",
+    traditional: "Usually required ($5K-$20K avg)",
+  },
+  {
+    label: "Agent commissions",
+    cashBuyer: "$0",
+    traditional: "5-6% (~$7,000-$14,000)",
+  },
+  {
+    label: "Seller closing costs",
+    cashBuyer: "We cover everything",
+    traditional: "~1-3% + 1% PA transfer tax",
+  },
+  {
+    label: "Sale certainty",
+    cashBuyer: "Guaranteed — written contract",
+    traditional: "15-20% of listings fall through",
+  },
+  {
+    label: "Average net proceeds",
+    cashBuyer: "70-80% of FMV",
+    traditional: "85-90% of FMV (after all costs)",
+  },
 ];
 
 const FAQ_ITEMS = [
   {
-    question: 'How fast can I sell my house for cash in Harrisburg PA?',
-    answer: 'Once you accept a written offer, we typically close in 7-14 days. We send the written offer within 24 hours of your inquiry. Because we pay cash — no bank financing, no mortgage contingency — there\'s no waiting on lender approval. Our fastest recorded close in the Harrisburg area was 5 days.',
+    question: "How fast can I sell my house for cash in Harrisburg PA?",
+    answer:
+      "Once you accept a written offer, we typically close in 7-14 days. We send the written offer within 24 hours of your inquiry. Because we pay cash — no bank financing, no mortgage contingency — there's no waiting on lender approval. Our fastest recorded close in the Harrisburg area was 5 days.",
   },
   {
-    question: 'How much will you pay for my Harrisburg house?',
-    answer: 'We pay 70-80% of fair market value. For a Harrisburg home anchored to current city sale-price and ZHVI data, that typically means a cash offer of roughly $100,000-$210,700 before property-specific adjustments. There are no agent commissions (saving 5-6%), no closing costs (we cover everything), and no repair expenses.',
+    question: "How much will you pay for my Harrisburg house?",
+    answer:
+      "We pay 70-80% of fair market value. For a Harrisburg home anchored to current city sale-price and ZHVI data, that typically means a cash offer of roughly $100,000-$210,700 before property-specific adjustments. There are no agent commissions (saving 5-6%), no closing costs (we cover everything), and no repair expenses.",
   },
   {
-    question: 'Do I need to make repairs before selling?',
-    answer: 'No. We buy in any condition — fire damage, foundation problems, mold, hoarding, unfinished renovations, severe deferred maintenance. You don\'t need to clean, fix, update, or stage anything. Take whatever you want from the property.',
+    question: "Do I need to make repairs before selling?",
+    answer:
+      "No. We buy in any condition — fire damage, foundation problems, mold, hoarding, unfinished renovations, severe deferred maintenance. You don't need to clean, fix, update, or stage anything. Take whatever you want from the property.",
   },
   {
-    question: 'Is USA Home Buyers a legitimate company in Harrisburg PA?',
-    answer: 'We\'re a BBB-accredited business with a verifiable history of closed sales in Dauphin and Cumberland Counties. Every offer we make is in writing — a formal purchase agreement with price, terms, and closing date. You can verify our business registration through corporations.pa.gov.',
+    question: "Is USA Home Buyers a legitimate company in Harrisburg PA?",
+    answer:
+      "We're a BBB-accredited business with a verifiable history of closed sales in Dauphin and Cumberland Counties. Every offer we make is in writing — a formal purchase agreement with price, terms, and closing date. You can verify our business registration through corporations.pa.gov.",
   },
   {
-    question: 'What areas near Harrisburg do you buy in?',
-    answer: 'All of Dauphin County and Cumberland County. That includes Camp Hill, Mechanicsburg, Carlisle, Lemoyne, Steelton, Hershey, Palmyra, Hummelstown, Middletown, Enola, New Cumberland, and Wormleysburg. If you\'re not sure whether we cover your area, call us.',
+    question: "What areas near Harrisburg do you buy in?",
+    answer:
+      "All of Dauphin County and Cumberland County. That includes Camp Hill, Mechanicsburg, Carlisle, Lemoyne, Steelton, Hershey, Palmyra, Hummelstown, Middletown, Enola, New Cumberland, and Wormleysburg. If you're not sure whether we cover your area, call us.",
   },
   {
-    question: 'What are my closing costs when selling to a cash buyer?',
-    answer: 'Zero. We cover all closing costs — title fees, transfer taxes, recording fees, everything. The offer we make is what you walk away with. No surprises at the closing table.',
+    question: "What are my closing costs when selling to a cash buyer?",
+    answer:
+      "Zero. We cover all closing costs — title fees, transfer taxes, recording fees, everything. The offer we make is what you walk away with. No surprises at the closing table.",
   },
   {
-    question: 'What if I owe more than the house is worth?',
-    answer: 'We can still have a conversation. If the property is underwater — meaning the mortgage balance is higher than the market value — a short sale may be an option, where the lender agrees to accept less than the full balance. Call us and we\'ll walk through what\'s possible.',
+    question: "What if I owe more than the house is worth?",
+    answer:
+      "We can still have a conversation. If the property is underwater — meaning the mortgage balance is higher than the market value — a short sale may be an option, where the lender agrees to accept less than the full balance. Call us and we'll walk through what's possible.",
   },
   {
-    question: 'What happens after I submit the form?',
-    answer: 'We call you within hours during business hours. We\'ll ask about 5-10 questions about the property — condition, situation, what you need from a timeline. Within 24 hours, you receive a written cash offer. No high-pressure sales calls. The offer stands on its own.',
+    question: "What happens after I submit the form?",
+    answer:
+      "We call you within hours during business hours. We'll ask about 5-10 questions about the property — condition, situation, what you need from a timeline. Within 24 hours, you receive a written cash offer. No high-pressure sales calls. The offer stands on its own.",
   },
 ];
 
 export default function HarrisburgMarketPage() {
   return (
     <>
-      <SchemaMarkup schema={[
-        harrisburgLocalBusinessSchema,
-        harrisburgFAQSchema,
-        howToSchema,
-        videoObjectSchema({
-          name: 'Sell Your House Fast in Harrisburg, PA',
-          description:
-            'See how we help homeowners in Harrisburg sell fast for cash',
-          contentUrl: 'https://v3b.fal.media/files/b/0a95c0fc/QS_oBfAsYUxtHMdVSx8CT_harrisburg-main.mp4',
-          thumbnailUrl: `${SITE_URL}/images/video-posters/harrisburg-main-poster.jpg`,
-        }),
-      ]} />
+      <SchemaMarkup
+        schema={[
+          harrisburgLocalBusinessSchema,
+          harrisburgFAQSchema,
+          howToSchema,
+          videoObjectSchema({
+            name: "Sell Your House Fast in Harrisburg, PA",
+            description:
+              "See how we help homeowners in Harrisburg sell fast for cash",
+            contentUrl:
+              "https://v3b.fal.media/files/b/0a95c0fc/QS_oBfAsYUxtHMdVSx8CT_harrisburg-main.mp4",
+            thumbnailUrl: `${SITE_URL}/images/video-posters/harrisburg-main-poster.jpg`,
+          }),
+        ]}
+      />
 
       {/* Hero */}
       <section className="relative text-white py-8 md:py-16 px-4 overflow-hidden">
@@ -156,62 +216,151 @@ export default function HarrisburgMarketPage() {
           />
         </picture>
         <div className="absolute inset-0 bg-brand-dark/80" />
-        <div className="relative z-10 max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-start">
-          <div>
-            <h1 className="text-3xl md:text-4xl font-bold text-white mb-4 leading-tight">
+        <div className="relative z-10 max-w-7xl mx-auto grid lg:grid-cols-[minmax(0,1fr)_430px] gap-5 lg:gap-10 items-start">
+          <div className="order-1 lg:col-start-1 lg:row-start-1">
+            <p className="inline-flex items-center rounded-full bg-white/10 px-3 py-1 text-xs font-semibold text-blue-100 ring-1 ring-white/20 mb-3">
+              Harrisburg cash home buyer · Written offer in 24 hours
+            </p>
+            <h1 className="text-3xl md:text-4xl font-bold text-white mb-3 leading-tight">
               Sell Your House Fast in Harrisburg, PA — Cash Offer in 24 Hours
             </h1>
-            <p className="text-lg text-blue-100 mb-6">
-              USA Home Buyers purchases houses in Harrisburg, PA for cash in any condition — no repairs, no cleaning,
-              no agent fees. We serve all of Dauphin County and Cumberland County, including Camp Hill, Mechanicsburg,
-              Carlisle, and Steelton. Written cash offer within 24 hours, close in as few as 7 days.
+            <p className="text-base md:text-lg text-blue-100 lg:hidden">
+              Get a written cash offer for your Harrisburg house in any
+              condition — no repairs, no cleaning, no agent fees.
             </p>
-            <div className="flex flex-wrap gap-3 text-blue-100 text-sm mb-5">
-              <span>✓ No repairs</span>
+          </div>
+          <div className="order-2 w-full lg:col-start-2 lg:row-start-1 lg:row-span-2 lg:sticky lg:top-24">
+            <CashOfferForm variant="hero" sourcePage="/markets/harrisburg-pa" />
+          </div>
+          <div className="order-3 lg:col-start-1 lg:row-start-2">
+            <p className="hidden lg:block text-base md:text-lg text-blue-100 mb-4">
+              Get a written cash offer for your Harrisburg house in any
+              condition — no repairs, no cleaning, no agent fees. Written offer
+              within 24 hours, close in as few as 7 days.
+            </p>
+            <div className="grid sm:grid-cols-2 gap-2 text-blue-50 text-sm mb-4">
+              <span>✓ No repairs or cleaning</span>
               <span>✓ No commissions</span>
               <span>✓ We pay closing costs</span>
-              <span>✓ Close in 7 days</span>
+              <span>✓ Close in as few as 7 days</span>
             </div>
-            <a href={`tel:${PHONE}`} className="flex w-full md:w-auto items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white font-bold rounded-lg px-6 py-4 text-xl md:py-3 md:text-lg shadow-lg transition-colors ring-2 ring-green-400/50">
+            <a
+              href={`tel:${PHONE}`}
+              className="flex w-full sm:w-auto items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white font-bold rounded-lg px-6 py-4 text-lg shadow-lg transition-colors ring-2 ring-green-400/50"
+            >
               📞 Call 888-274-5006 — We Answer 24/7
             </a>
-            <p className="mt-3 text-blue-200 text-xs md:text-sm">BBB Accredited · 15+ Years Experience · Hundreds of Homes Purchased</p>
+            <p className="mt-3 text-blue-200 text-xs md:text-sm">
+              BBB Accredited · 15+ Years Experience · Hundreds of Homes
+              Purchased
+            </p>
           </div>
+        </div>
+      </section>
+
+      {/* Local resources hub */}
+      <section className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div className="bg-blue-50 border border-blue-100 rounded-2xl p-6 md:p-8 flex flex-col lg:flex-row lg:items-center lg:justify-between gap-5">
           <div>
-            <CashOfferForm variant="hero" sourcePage="/markets/harrisburg-pa" />
+            <p className="text-sm font-semibold text-brand-primary mb-2">
+              Harrisburg mini-site
+            </p>
+            <h2 className="text-2xl font-bold text-brand-dark mb-2">
+              Seller resources for Harrisburg homeowners
+            </h2>
+            <p className="text-gray-700 max-w-3xl">
+              Stay in the Harrisburg section for local market data, situation
+              pages, seller guides, and articles before you decide whether a
+              cash offer or listing makes more sense.
+            </p>
+          </div>
+          <div className="flex flex-col sm:flex-row gap-3 shrink-0">
+            <Link
+              href="/markets/harrisburg-pa/resources"
+              className="bg-brand-primary hover:bg-blue-700 text-white font-semibold rounded-lg px-5 py-3 text-center transition-colors"
+            >
+              Harrisburg Resources
+            </Link>
+            <Link
+              href="/guides/sell-house-fast-harrisburg-pa-2026"
+              className="bg-white hover:bg-gray-50 text-brand-primary font-semibold rounded-lg px-5 py-3 text-center border border-blue-200 transition-colors"
+            >
+              Local Guide
+            </Link>
           </div>
         </div>
       </section>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-
         {/* TL;DR — GEO/AEO Quick Answer */}
         <section className="my-10 bg-blue-50 border-l-4 border-brand-primary rounded-r-2xl p-6 md:p-8">
-          <h2 className="text-xl md:text-2xl font-bold text-brand-dark mb-3">Quick Answer: Sell Your House Fast in Harrisburg, PA</h2>
-          <p className="text-gray-700 leading-relaxed">USA Home Buyers purchases houses in Harrisburg, PA for cash — as-is, in any condition, with no repairs and no agent fees. According to the Zillow Home Value Index, the Harrisburg city ZHVI is $263,369 (Zillow Research city ZHVI, 2026-03-31); Redfin city housing-market data for March 2026 shows a $152,500 median sale price and 24 median days on market. After that, financing and inspections can add another 45–60 days. We close in 7–14 days — cash, no contingencies. We serve all of Harrisburg and Dauphin County.</p>
+          <h2 className="text-xl md:text-2xl font-bold text-brand-dark mb-3">
+            Quick Answer: Sell Your House Fast in Harrisburg, PA
+          </h2>
+          <p className="text-gray-700 leading-relaxed">
+            USA Home Buyers purchases houses in Harrisburg, PA for cash — as-is,
+            in any condition, with no repairs and no agent fees. According to
+            the Zillow Home Value Index, the Harrisburg city ZHVI is $263,369
+            (Zillow Research city ZHVI, 2026-03-31); Redfin city housing-market
+            data for March 2026 shows a $152,500 median sale price and 24 median
+            days on market. After that, financing and inspections can add
+            another 45–60 days. We close in 7–14 days — cash, no contingencies.
+            We serve all of Harrisburg and Dauphin County.
+          </p>
         </section>
 
-      {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
+        {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
         <VideoEmbed
-        src="https://v3b.fal.media/files/b/0a95c0fc/QS_oBfAsYUxtHMdVSx8CT_harrisburg-main.mp4"
-        title="Sell Your House Fast in Harrisburg, PA"
-        poster="/images/video-posters/harrisburg-main-poster.jpg"
-        subtitle="See how we help homeowners in Harrisburg sell fast for cash"
+          src="https://v3b.fal.media/files/b/0a95c0fc/QS_oBfAsYUxtHMdVSx8CT_harrisburg-main.mp4"
+          title="Sell Your House Fast in Harrisburg, PA"
+          poster="/images/video-posters/harrisburg-main-poster.jpg"
+          subtitle="See how we help homeowners in Harrisburg sell fast for cash"
         />
         <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
-        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
-        📝 Video Transcript
-        </summary>
-        <div className="px4 pb-4 text-sm text-gray-600 leading-relaxed">
-        <p className="mb-3">Hey, if you&apos;re looking to sell your house fast in Harrisburg, PA, we can help. I&apos;m with USA Home Buyers — we buy houses right here in Harrisburg and all of Dauphin County, and we do it fast.</p>
-        <p className="mb-3">Here&apos;s how it works. You call us or fill out our form online. We ask you maybe five or ten questions about the property — the condition, your situation, what kind of timeline you need. Within 24 hours, you get a written cash offer. No pressure, no obligation. If you accept, we set a closing date that works for you. We&apos;ve closed in as few as five days in the Harrisburg area.</p>
-        <p className="mb-3">Why go the cash route? The Harrisburg city ZHVI is $263,369 (Zillow Research, 2026-03-31), and Redfin city housing-market data shows 24 median days on market in March 2026 — so it&apos;s a fast market. But once you go pending on the MLS, you&apos;re still looking at 45 to 60 more days for inspections, appraisals, and mortgage underwriting. That&apos;s two months of uncertainty. If the financing falls through, you start over.</p>
-        <p className="mb-3">We don&apos;t use financing. We pay cash. There&apos;s no appraisal contingency, no mortgage approval, no deal falling through at the last minute. No repairs, no cleaning, no agent commissions. We cover all closing costs.</p>
-        <p className="mb-3">We serve all of Harrisburg — Camp Hill, Mechanicsburg, Carlisle, Steelton, and surrounding Dauphin County communities. Whatever your situation, we&apos;ve handled it before.</p>
-        <p className="mb-3">Give us a call at 888-274-5006. We&apos;re here to make this as simple as possible.</p>
-        </div>
+          <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+            📝 Video Transcript
+          </summary>
+          <div className="px4 pb-4 text-sm text-gray-600 leading-relaxed">
+            <p className="mb-3">
+              Hey, if you&apos;re looking to sell your house fast in Harrisburg,
+              PA, we can help. I&apos;m with USA Home Buyers — we buy houses
+              right here in Harrisburg and all of Dauphin County, and we do it
+              fast.
+            </p>
+            <p className="mb-3">
+              Here&apos;s how it works. You call us or fill out our form online.
+              We ask you maybe five or ten questions about the property — the
+              condition, your situation, what kind of timeline you need. Within
+              24 hours, you get a written cash offer. No pressure, no
+              obligation. If you accept, we set a closing date that works for
+              you. We&apos;ve closed in as few as five days in the Harrisburg
+              area.
+            </p>
+            <p className="mb-3">
+              Why go the cash route? The Harrisburg city ZHVI is $263,369
+              (Zillow Research, 2026-03-31), and Redfin city housing-market data
+              shows 24 median days on market in March 2026 — so it&apos;s a fast
+              market. But once you go pending on the MLS, you&apos;re still
+              looking at 45 to 60 more days for inspections, appraisals, and
+              mortgage underwriting. That&apos;s two months of uncertainty. If
+              the financing falls through, you start over.
+            </p>
+            <p className="mb-3">
+              We don&apos;t use financing. We pay cash. There&apos;s no
+              appraisal contingency, no mortgage approval, no deal falling
+              through at the last minute. No repairs, no cleaning, no agent
+              commissions. We cover all closing costs.
+            </p>
+            <p className="mb-3">
+              We serve all of Harrisburg — Camp Hill, Mechanicsburg, Carlisle,
+              Steelton, and surrounding Dauphin County communities. Whatever
+              your situation, we&apos;ve handled it before.
+            </p>
+            <p className="mb-3">
+              Give us a call at 888-274-5006. We&apos;re here to make this as
+              simple as possible.
+            </p>
+          </div>
         </details>
-
-
 
         {/* How It Works */}
         <HowItWorks heading="How Selling Your Harrisburg House for Cash Works" />
@@ -228,36 +377,63 @@ export default function HarrisburgMarketPage() {
             <table className="w-full text-sm">
               <tbody>
                 {[
-                  ['Median home value (Zillow Research city ZHVI, 2026-03-31)', '$263,369'],
-                  ['Median sale price — city limits (Redfin, Mar 2026)', '$152,500'],
-                  ['Median days on market (Redfin city, Mar 2026)', '24 days'],
-                  ['Traditional sale timeline (offer to close)', '45-60 days'],
-                  ['Cash offer range (typical Harrisburg home)', '$100,000–$210,700'],
-                  ['PA transfer tax', '2% (split buyer/seller — 1% each)'],
-                  ['Typical realtor commission', '5–6%'],
+                  [
+                    "Median home value (Zillow Research city ZHVI, 2026-03-31)",
+                    "$263,369",
+                  ],
+                  [
+                    "Median sale price — city limits (Redfin, Mar 2026)",
+                    "$152,500",
+                  ],
+                  ["Median days on market (Redfin city, Mar 2026)", "24 days"],
+                  ["Traditional sale timeline (offer to close)", "45-60 days"],
+                  [
+                    "Cash offer range (typical Harrisburg home)",
+                    "$100,000–$210,700",
+                  ],
+                  ["PA transfer tax", "2% (split buyer/seller — 1% each)"],
+                  ["Typical realtor commission", "5–6%"],
                 ].map(([metric, value], i) => (
-                  <tr key={i} className={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
-                    <td className="py-3 px-4 font-medium text-brand-dark rounded-l">{metric}</td>
-                    <td className="py-3 px-4 font-bold text-brand-primary rounded-r">{value}</td>
+                  <tr
+                    key={i}
+                    className={i % 2 === 0 ? "bg-white" : "bg-gray-50"}
+                  >
+                    <td className="py-3 px-4 font-medium text-brand-dark rounded-l">
+                      {metric}
+                    </td>
+                    <td className="py-3 px-4 font-bold text-brand-primary rounded-r">
+                      {value}
+                    </td>
                   </tr>
                 ))}
               </tbody>
             </table>
           </div>
-          <p className="mt-4 text-xs text-gray-400">Provider data: Redfin city March 2026; Zillow Research city ZHVI 2026-03-31</p>
+          <p className="mt-4 text-xs text-gray-400">
+            Provider data: Redfin city March 2026; Zillow Research city ZHVI
+            2026-03-31
+          </p>
           <p className="mt-2 text-sm text-gray-600">
-            The Harrisburg market is moving, but 24 median days on market plus 45–60 days of financing and closing time is still materially slower than a cash close.
-            After an offer gets accepted, inspections, appraisals, and financing still take 45-60 days.
+            The Harrisburg market is moving, but 24 median days on market plus
+            45–60 days of financing and closing time is still materially slower
+            than a cash close. After an offer gets accepted, inspections,
+            appraisals, and financing still take 45-60 days.
           </p>
           <p className="mt-2 text-sm">
-            <Link href="/markets/harrisburg-pa/market-report" className="text-brand-primary hover:underline">
+            <Link
+              href="/markets/harrisburg-pa/market-report"
+              className="text-brand-primary hover:underline"
+            >
               See the full Harrisburg monthly market report →
             </Link>
           </p>
         </section>
 
         {/* Testimonials */}
-        <TestimonialBlock testimonials={TESTIMONIALS} heading="What Harrisburg Homeowners Are Saying" />
+        <TestimonialBlock
+          testimonials={TESTIMONIALS}
+          heading="What Harrisburg Homeowners Are Saying"
+        />
 
         {/* Comparison Table */}
         <section className="my-12">
@@ -266,12 +442,16 @@ export default function HarrisburgMarketPage() {
           </h2>
           <ComparisonTable rows={COMPARISON_ROWS} />
           <p className="mt-4 text-sm text-gray-600">
-            The math is more nuanced than it looks. If your home needs $12,000 in repairs, a buyer&apos;s inspector finds
-            them and you negotiate — the gap between cash and traditional shrinks fast. A cash sale makes the most
-            sense when speed, certainty, or condition is a problem.
+            The math is more nuanced than it looks. If your home needs $12,000
+            in repairs, a buyer&apos;s inspector finds them and you negotiate —
+            the gap between cash and traditional shrinks fast. A cash sale makes
+            the most sense when speed, certainty, or condition is a problem.
           </p>
           <p className="mt-2 text-sm">
-            <Link href="/resources/cash-offer-vs-listing" className="text-brand-primary hover:underline">
+            <Link
+              href="/resources/cash-offer-vs-listing"
+              className="text-brand-primary hover:underline"
+            >
               See full comparison: Cash Offer vs. Listing in Harrisburg →
             </Link>
           </p>
@@ -288,7 +468,10 @@ export default function HarrisburgMarketPage() {
         </section>
 
         {/* FAQ */}
-        <FAQSection items={FAQ_ITEMS} heading="Frequently Asked Questions — Selling Your Harrisburg Home for Cash" />
+        <FAQSection
+          items={FAQ_ITEMS}
+          heading="Frequently Asked Questions — Selling Your Harrisburg Home for Cash"
+        />
 
         {/* Service Area */}
         <section className="my-12">
@@ -296,17 +479,40 @@ export default function HarrisburgMarketPage() {
             We Buy Houses Throughout the Harrisburg Area
           </h2>
           <p className="text-gray-700 mb-4">
-            Our primary market is Harrisburg proper and surrounding Dauphin County: Steelton, Penbrook, Paxtang,
-            Highspire, Middletown, Hummelstown, Hershey, and Palmyra. We&apos;ve bought homes near the Capitol complex,
-            along the Susquehanna waterfront, in Allison Hill, and throughout the city.
+            Our primary market is Harrisburg proper and surrounding Dauphin
+            County: Steelton, Penbrook, Paxtang, Highspire, Middletown,
+            Hummelstown, Hershey, and Palmyra. We&apos;ve bought homes near the
+            Capitol complex, along the Susquehanna waterfront, in Allison Hill,
+            and throughout the city.
           </p>
           <p className="text-gray-700 mb-4">
-            In Cumberland County: Camp Hill, Mechanicsburg, Carlisle, Lemoyne, New Cumberland, Wormleysburg, and Enola.
-            Our reach extends into Perry County, Lebanon County, and York County.
+            In Cumberland County: Camp Hill, Mechanicsburg, Carlisle, Lemoyne,
+            New Cumberland, Wormleysburg, and Enola. Our reach extends into
+            Perry County, Lebanon County, and York County.
           </p>
           <div className="flex flex-wrap gap-2 mt-4">
-            {['Harrisburg', 'Steelton', 'Camp Hill', 'Mechanicsburg', 'Carlisle', 'Lemoyne', 'Hershey', 'Penbrook', 'Paxtang', 'Middletown', 'Hummelstown', 'Palmyra', 'Enola', 'New Cumberland'].map(city => (
-              <span key={city} className="bg-blue-50 text-brand-primary px-3 py-1 rounded-full text-sm font-medium">{city}</span>
+            {[
+              "Harrisburg",
+              "Steelton",
+              "Camp Hill",
+              "Mechanicsburg",
+              "Carlisle",
+              "Lemoyne",
+              "Hershey",
+              "Penbrook",
+              "Paxtang",
+              "Middletown",
+              "Hummelstown",
+              "Palmyra",
+              "Enola",
+              "New Cumberland",
+            ].map((city) => (
+              <span
+                key={city}
+                className="bg-blue-50 text-brand-primary px-3 py-1 rounded-full text-sm font-medium"
+              >
+                {city}
+              </span>
             ))}
           </div>
         </section>
@@ -321,7 +527,8 @@ export default function HarrisburgMarketPage() {
               Not sure where to start? Let us guide you.
             </h2>
             <p className="text-gray-600">
-              Answer 4 quick questions and get a personalized cash offer for your Harrisburg home.
+              Answer 4 quick questions and get a personalized cash offer for
+              your Harrisburg home.
             </p>
           </div>
           <MultiStepForm sourcePage="/markets/harrisburg-pa" />
@@ -329,7 +536,11 @@ export default function HarrisburgMarketPage() {
 
         {/* Bottom CTA */}
         <section className="my-12">
-          <CashOfferForm variant="footer" headline="Ready to Sell Your Harrisburg Home?" sourcePage="/markets/harrisburg-pa" />
+          <CashOfferForm
+            variant="footer"
+            headline="Ready to Sell Your Harrisburg Home?"
+            sourcePage="/markets/harrisburg-pa"
+          />
         </section>
       </div>
     </>

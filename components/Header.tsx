@@ -1,98 +1,213 @@
-'use client';
+"use client";
 
-import Link from 'next/link';
-import Image from 'next/image';
-import { usePathname } from 'next/navigation';
-import { useState, useRef, useCallback } from 'react';
-import { PHONE } from '@/lib/utils';
+import Link from "next/link";
+import Image from "next/image";
+import { usePathname } from "next/navigation";
+import { useState, useRef, useCallback } from "react";
+import { PHONE } from "@/lib/utils";
 
-const marketsByState: { state: string; cities: { href: string; label: string }[] }[] = [
+const marketsByState: {
+  state: string;
+  cities: { href: string; label: string }[];
+}[] = [
   {
-    state: 'Pennsylvania',
+    state: "Pennsylvania",
     cities: [
-      { href: '/markets/harrisburg-pa', label: 'Harrisburg' },
-      { href: '/markets/allentown-pa', label: 'Allentown' },
-      { href: '/markets/king-of-prussia-pa', label: 'King of Prussia' },
-      { href: '/markets/reading-pa', label: 'Reading' },
-      { href: '/markets/state-college-pa', label: 'State College' },
-      { href: '/markets/erie-pa', label: 'Erie' },
-      { href: '/markets/bethlehem-pa', label: 'Bethlehem' },
-      { href: '/markets/lancaster-pa', label: 'Lancaster' },
-      { href: '/markets/york-pa', label: 'York' },
+      { href: "/markets/harrisburg-pa", label: "Harrisburg" },
+      { href: "/markets/allentown-pa", label: "Allentown" },
+      { href: "/markets/king-of-prussia-pa", label: "King of Prussia" },
+      { href: "/markets/reading-pa", label: "Reading" },
+      { href: "/markets/state-college-pa", label: "State College" },
+      { href: "/markets/erie-pa", label: "Erie" },
+      { href: "/markets/bethlehem-pa", label: "Bethlehem" },
+      { href: "/markets/lancaster-pa", label: "Lancaster" },
+      { href: "/markets/york-pa", label: "York" },
     ],
   },
   {
-    state: 'Delaware',
-    cities: [{ href: '/markets/wilmington-de', label: 'Wilmington' }],
+    state: "Delaware",
+    cities: [{ href: "/markets/wilmington-de", label: "Wilmington" }],
   },
   {
-    state: 'Ohio',
-    cities: [{ href: '/markets/youngstown-oh', label: 'Youngstown' }],
+    state: "Ohio",
+    cities: [{ href: "/markets/youngstown-oh", label: "Youngstown" }],
   },
   {
-    state: 'Massachusetts',
+    state: "Massachusetts",
     cities: [
-      { href: '/markets/boston-ma', label: 'Boston' },
-      { href: '/markets/springfield-ma', label: 'Springfield' },
-      { href: '/markets/worcester-ma', label: 'Worcester' },
+      { href: "/markets/boston-ma", label: "Boston" },
+      { href: "/markets/springfield-ma", label: "Springfield" },
+      { href: "/markets/worcester-ma", label: "Worcester" },
     ],
   },
   {
-    state: 'Wisconsin',
+    state: "Wisconsin",
     cities: [
-      { href: '/markets/kenosha-wi', label: 'Kenosha' },
-      { href: '/markets/racine-mount-pleasant-wi', label: 'Racine & Mount Pleasant' },
-      { href: '/markets/oshkosh-wi', label: 'Oshkosh' },
-      { href: '/markets/wausau-wi', label: 'Wausau' },
+      { href: "/markets/kenosha-wi", label: "Kenosha" },
+      {
+        href: "/markets/racine-mount-pleasant-wi",
+        label: "Racine & Mount Pleasant",
+      },
+      { href: "/markets/oshkosh-wi", label: "Oshkosh" },
+      { href: "/markets/wausau-wi", label: "Wausau" },
     ],
   },
   {
-    state: 'New Hampshire',
-    cities: [{ href: '/markets/manchester-nh', label: 'Manchester' }],
+    state: "New Hampshire",
+    cities: [{ href: "/markets/manchester-nh", label: "Manchester" }],
   },
   {
-    state: 'Connecticut',
+    state: "Connecticut",
     cities: [
-      { href: '/markets/bridgeport-ct', label: 'Bridgeport' },
-      { href: '/markets/hartford-ct', label: 'Hartford' },
-      { href: '/markets/new-haven-ct', label: 'New Haven' },
+      { href: "/markets/bridgeport-ct", label: "Bridgeport" },
+      { href: "/markets/hartford-ct", label: "Hartford" },
+      { href: "/markets/new-haven-ct", label: "New Haven" },
     ],
   },
   {
-    state: 'New York',
-    cities: [{ href: '/markets/rochester-ny', label: 'Rochester' }],
+    state: "New York",
+    cities: [{ href: "/markets/rochester-ny", label: "Rochester" }],
   },
   {
-    state: 'Illinois',
+    state: "Illinois",
     cities: [
-      { href: '/markets/springfield-il', label: 'Springfield' },
-      { href: '/markets/rockford-il', label: 'Rockford' },
-      { href: '/markets/peoria-il', label: 'Peoria' },
-      { href: '/markets/bloomington-il', label: 'Bloomington' },
-      { href: '/markets/champaign-urbana-il', label: 'Champaign-Urbana' },
+      { href: "/markets/springfield-il", label: "Springfield" },
+      { href: "/markets/rockford-il", label: "Rockford" },
+      { href: "/markets/peoria-il", label: "Peoria" },
+      { href: "/markets/bloomington-il", label: "Bloomington" },
+      { href: "/markets/champaign-urbana-il", label: "Champaign-Urbana" },
     ],
   },
 ];
 
+const miniSiteMarkets = [
+  {
+    slug: "allentown-pa",
+    label: "Allentown",
+    guideSlug: "sell-house-fast-allentown-pa-2026",
+    blogSlugs: [
+      "allentown-pa-sell-house-fast-2026",
+      "sell-flood-damaged-house-allentown-pa",
+      "sell-house-code-violations-allentown-pa",
+      "allentown-pa-cash-buyers-by-neighborhood",
+    ],
+  },
+  {
+    slug: "bethlehem-pa",
+    label: "Bethlehem",
+    guideSlug: "sell-house-fast-bethlehem-pa-2026",
+    blogSlugs: ["allentown-pa-sell-house-fast-2026"],
+  },
+  {
+    slug: "harrisburg-pa",
+    label: "Harrisburg",
+    guideSlug: "sell-house-fast-harrisburg-pa-2026",
+    blogSlugs: ["harrisburg-pa-sell-house-fast-2026"],
+  },
+  {
+    slug: "king-of-prussia-pa",
+    label: "King of Prussia",
+    guideSlug: "sell-house-fast-king-of-prussia-pa-2026",
+  },
+  {
+    slug: "reading-pa",
+    label: "Reading",
+    guideSlug: "sell-house-fast-reading-pa-2026",
+  },
+  {
+    slug: "lancaster-pa",
+    label: "Lancaster",
+    guideSlug: "sell-house-fast-lancaster-pa-2026",
+    blogSlugs: ["selling-house-during-divorce-pennsylvania"],
+  },
+  {
+    slug: "state-college-pa",
+    label: "State College",
+    guideSlug: "sell-house-fast-state-college-pa-2026",
+  },
+  { slug: "erie-pa", label: "Erie", guideSlug: "sell-house-fast-erie-pa-2026" },
+  {
+    slug: "york-pa",
+    label: "York",
+    guideSlug: "sell-house-fast-york-pa-2026",
+    blogSlugs: ["selling-house-during-divorce-pennsylvania"],
+  },
+  {
+    slug: "bloomington-il",
+    label: "Bloomington",
+    guideSlug: "sell-house-fast-bloomington-il-2026",
+    blogSlugs: ["bloomington-il-sell-house-fast-2026"],
+  },
+  {
+    slug: "champaign-urbana-il",
+    label: "Champaign-Urbana",
+    guideSlug: "sell-house-fast-champaign-urbana-il-2026",
+    blogSlugs: ["champaign-urbana-il-sell-house-fast-2026"],
+  },
+  {
+    slug: "peoria-il",
+    label: "Peoria",
+    guideSlug: "sell-house-fast-peoria-il-2026",
+    blogSlugs: ["peoria-il-sell-house-fast-2026"],
+  },
+  {
+    slug: "rockford-il",
+    label: "Rockford",
+    guideSlug: "sell-house-fast-rockford-il-2026",
+    blogSlugs: ["rockford-il-sell-house-fast-2026"],
+  },
+  {
+    slug: "springfield-il",
+    label: "Springfield IL",
+    guideSlug: "sell-house-fast-springfield-il-2026",
+    blogSlugs: ["springfield-il-sell-house-fast-2026"],
+  },
+];
+
+function getMiniSiteContext(pathname: string | null) {
+  if (!pathname) return null;
+
+  return (
+    miniSiteMarkets.find((market) => {
+      if (pathname.startsWith(`/markets/${market.slug}`)) return true;
+      if (pathname === `/guides/${market.guideSlug}`) return true;
+      if (pathname === `/resources/how-the-process-works/${market.slug}`)
+        return true;
+      if (pathname === `/reviews/${market.slug}`) return true;
+      if (pathname === `/about/${market.slug}`) return true;
+      return (
+        market.blogSlugs?.some((slug) => pathname === `/blog/${slug}`) ?? false
+      );
+    }) ?? null
+  );
+}
+
 export function Header() {
   const pathname = usePathname();
-  const isAllentownContext =
-    pathname?.startsWith('/markets/allentown-pa') ||
-    pathname === '/guides/sell-house-fast-allentown-pa-2026' ||
-    pathname === '/blog/allentown-pa-sell-house-fast-2026' ||
-    pathname === '/resources/how-the-process-works/allentown-pa' ||
-    pathname === '/reviews/allentown-pa' ||
-    pathname === '/about/allentown-pa' ||
-    false;
-  const homeHref = isAllentownContext ? '/markets/allentown-pa' : '/';
-  const sellerGuidesHref = isAllentownContext ? '/guides/sell-house-fast-allentown-pa-2026' : '/guides';
-  const sellerGuidesLabel = isAllentownContext ? 'Allentown Guide' : 'Seller Guides';
-  const blogHref = isAllentownContext ? '/markets/allentown-pa/resources' : '/blog';
-  const blogLabel = isAllentownContext ? 'Allentown Blog' : 'Blog';
-  const howItWorksHref = isAllentownContext ? '/resources/how-the-process-works/allentown-pa' : '/resources/how-the-process-works';
-  const reviewsHref = isAllentownContext ? '/reviews/allentown-pa' : '/reviews';
-  const aboutHref = isAllentownContext ? '/about/allentown-pa' : '/about';
-  const cashOfferHref = isAllentownContext ? '/markets/allentown-pa#lead-form' : '/#lead-form';
+  const miniSiteContext = getMiniSiteContext(pathname);
+  const homeHref = miniSiteContext ? `/markets/${miniSiteContext.slug}` : "/";
+  const sellerGuidesHref = miniSiteContext
+    ? `/guides/${miniSiteContext.guideSlug}`
+    : "/guides";
+  const sellerGuidesLabel = miniSiteContext
+    ? `${miniSiteContext.label} Guide`
+    : "Seller Guides";
+  const blogHref = miniSiteContext
+    ? `/markets/${miniSiteContext.slug}/resources`
+    : "/blog";
+  const blogLabel = miniSiteContext ? `${miniSiteContext.label} Blog` : "Blog";
+  const howItWorksHref = miniSiteContext
+    ? `/resources/how-the-process-works/${miniSiteContext.slug}`
+    : "/resources/how-the-process-works";
+  const reviewsHref = miniSiteContext
+    ? `/reviews/${miniSiteContext.slug}`
+    : "/reviews";
+  const aboutHref = miniSiteContext
+    ? `/about/${miniSiteContext.slug}`
+    : "/about";
+  const cashOfferHref = miniSiteContext
+    ? `/markets/${miniSiteContext.slug}#lead-form`
+    : "/#lead-form";
 
   const [menuOpen, setMenuOpen] = useState(false);
   const [marketsOpen, setMarketsOpen] = useState(false);
@@ -100,7 +215,10 @@ export function Header() {
   const closeTimer = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const openMarkets = useCallback(() => {
-    if (closeTimer.current) { clearTimeout(closeTimer.current); closeTimer.current = null; }
+    if (closeTimer.current) {
+      clearTimeout(closeTimer.current);
+      closeTimer.current = null;
+    }
     setMarketsOpen(true);
   }, []);
 
@@ -113,7 +231,10 @@ export function Header() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <Link href={homeHref} className="flex items-center gap-2 flex-shrink-0">
+          <Link
+            href={homeHref}
+            className="flex items-center gap-2 flex-shrink-0"
+          >
             <Image
               src="/logo.png"
               alt="USA Home Buyers"
@@ -142,49 +263,69 @@ export function Header() {
               </button>
               {marketsOpen && (
                 <div className="absolute top-full left-0 pt-3 w-72 z-50">
-                <div className="bg-white border border-gray-200 rounded-xl shadow-xl p-5">
-                  {marketsByState.map(({ state, cities }) => (
-                    <div key={state} className="mb-4 last:mb-0">
-                      <p className="text-xs font-bold text-gray-400 uppercase tracking-wider mb-2">
-                        {state}
-                      </p>
-                      <div className="flex flex-wrap gap-x-3 gap-y-1.5">
-                        {cities.map((city) => (
-                          <Link
-                            key={city.href}
-                            href={city.href}
-                            className="text-sm text-gray-600 hover:text-brand-primary transition-colors"
-                            onClick={() => setMarketsOpen(false)}
-                          >
-                            {city.label}
-                          </Link>
-                        ))}
+                  <div className="bg-white border border-gray-200 rounded-xl shadow-xl p-5">
+                    {marketsByState.map(({ state, cities }) => (
+                      <div key={state} className="mb-4 last:mb-0">
+                        <p className="text-xs font-bold text-gray-400 uppercase tracking-wider mb-2">
+                          {state}
+                        </p>
+                        <div className="flex flex-wrap gap-x-3 gap-y-1.5">
+                          {cities.map((city) => (
+                            <Link
+                              key={city.href}
+                              href={city.href}
+                              className="text-sm text-gray-600 hover:text-brand-primary transition-colors"
+                              onClick={() => setMarketsOpen(false)}
+                            >
+                              {city.label}
+                            </Link>
+                          ))}
+                        </div>
                       </div>
-                    </div>
-                  ))}
-                </div>
+                    ))}
+                  </div>
                 </div>
               )}
             </div>
 
-            <Link href={sellerGuidesHref} className="text-gray-600 hover:text-brand-primary whitespace-nowrap">
+            <Link
+              href={sellerGuidesHref}
+              className="text-gray-600 hover:text-brand-primary whitespace-nowrap"
+            >
               {sellerGuidesLabel}
             </Link>
-            <Link href={blogHref} className="text-gray-600 hover:text-brand-primary whitespace-nowrap">
+            <Link
+              href={blogHref}
+              className="text-gray-600 hover:text-brand-primary whitespace-nowrap"
+            >
               {blogLabel}
             </Link>
-            <Link href={howItWorksHref} className="text-gray-600 hover:text-brand-primary whitespace-nowrap">
+            <Link
+              href={howItWorksHref}
+              className="text-gray-600 hover:text-brand-primary whitespace-nowrap"
+            >
               How It Works
             </Link>
-            <Link href={reviewsHref} className="text-gray-600 hover:text-brand-primary">
+            <Link
+              href={reviewsHref}
+              className="text-gray-600 hover:text-brand-primary"
+            >
               Reviews
             </Link>
-            <Link href={aboutHref} className="text-gray-600 hover:text-brand-primary">
+            <Link
+              href={aboutHref}
+              className="text-gray-600 hover:text-brand-primary"
+            >
               About
             </Link>
-            <a href={`tel:${PHONE}`} className="flex flex-col items-end text-brand-primary hover:text-blue-700 transition-colors whitespace-nowrap">
+            <a
+              href={`tel:${PHONE}`}
+              className="flex flex-col items-end text-brand-primary hover:text-blue-700 transition-colors whitespace-nowrap"
+            >
               <span className="font-semibold">{PHONE}</span>
-              <span className="text-xs text-gray-500 font-normal">We Answer 24/7</span>
+              <span className="text-xs text-gray-500 font-normal">
+                We Answer 24/7
+              </span>
             </a>
             <Link
               href={cashOfferHref}
@@ -200,11 +341,26 @@ export function Header() {
             onClick={() => setMenuOpen(!menuOpen)}
             aria-label="Toggle menu"
           >
-            <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg
+              className="w-6 h-6"
+              fill="none"
+              stroke="currentColor"
+              viewBox="0 0 24 24"
+            >
               {menuOpen ? (
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M6 18L18 6M6 6l12 12"
+                />
               ) : (
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth={2}
+                  d="M4 6h16M4 12h16M4 18h16"
+                />
               )}
             </svg>
           </button>
@@ -220,7 +376,7 @@ export function Header() {
                 onClick={() => setMobileMarketsOpen(!mobileMarketsOpen)}
               >
                 <span>Markets</span>
-                <span className="text-xs">{mobileMarketsOpen ? '▴' : '▾'}</span>
+                <span className="text-xs">{mobileMarketsOpen ? "▴" : "▾"}</span>
               </button>
               {mobileMarketsOpen && (
                 <div className="ml-4 mt-1 space-y-3 pb-2">
@@ -234,7 +390,10 @@ export function Header() {
                           key={city.href}
                           href={city.href}
                           className="block px-3 py-1.5 text-sm text-gray-600 hover:text-brand-primary hover:bg-gray-50 rounded-lg"
-                          onClick={() => { setMenuOpen(false); setMobileMarketsOpen(false); }}
+                          onClick={() => {
+                            setMenuOpen(false);
+                            setMobileMarketsOpen(false);
+                          }}
                         >
                           {city.label}
                         </Link>
@@ -248,9 +407,9 @@ export function Header() {
             {[
               { href: sellerGuidesHref, label: sellerGuidesLabel },
               { href: blogHref, label: blogLabel },
-              { href: howItWorksHref, label: 'How It Works' },
-              { href: reviewsHref, label: 'Reviews' },
-              { href: aboutHref, label: 'About' },
+              { href: howItWorksHref, label: "How It Works" },
+              { href: reviewsHref, label: "Reviews" },
+              { href: aboutHref, label: "About" },
             ].map((link) => (
               <Link
                 key={link.href}
