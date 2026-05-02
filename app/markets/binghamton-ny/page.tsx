@@ -240,6 +240,27 @@ export default function BinghamtonNYPage() {
 
       <div className="max-w-7xl mx-auto px-4 py-8">
 
+        {/* VIDEO_CAPTION_EXCEPTION: estimated captions pending human timing review — date:2026-05-02 approver:Dan; Adam voice ID Ib97zM6uFBc71OWgj75I verified by Lens */}
+        <VideoEmbed
+          src="/videos/binghamton-ny/landing.mp4"
+          title="Sell My House Fast Binghamton NY — USA Home Buyers"
+          poster="/images/video-posters/binghamton-ny-main-poster.jpg"
+          captionsSrc="/videos/binghamton-ny/landing-captions.vtt"
+          captionsLabel="English captions"
+          subtitle="A short overview for Binghamton NY homeowners considering a direct as-is cash sale."
+        />
+        <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+          <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+            📝 Video Transcript
+          </summary>
+          <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+            <p className="mb-3">If you need to sell your house fast in Binghamton, New York, USA Home Buyers gives you a straightforward cash-sale path. We buy houses as-is in Binghamton and across Broome County, including Westside, South Side, North Side, East Side, and Downtown Binghamton.</p>
+            <p className="mb-3">Some homes are hard to list the traditional way. They may need repairs, have tenants, be tied to an estate, sit vacant, or create carrying costs every month. With us, you do not have to renovate, stage, hold open houses, or wait for a buyer&apos;s lender to say yes.</p>
+            <p className="mb-3">The first step is a simple conversation about the property and your situation. Then we review the home and give you a written cash offer. If the number and timing work, you choose when to close. If you need extra time, we can discuss that too.</p>
+            <p className="mb-3">There are no agent commissions and no obligation to accept. We are here to give Binghamton homeowners a practical option when speed and certainty matter, without turning the sale into another stressful project for you. For a clear cash offer and a calm walkthrough of the process, call USA Home Buyers at 888-274-5006. We will help you understand your options before you decide.</p>
+          </div>
+        </details>
+
         {/* ===== SECTION 1: Market Data ===== */}
         <section className="my-10" id="binghamton-market">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">
@@ -303,27 +324,6 @@ export default function BinghamtonNYPage() {
           </p>
         </section>
 
-
-        {/* VIDEO_CAPTION_EXCEPTION: estimated captions pending human timing review — date:2026-05-02 approver:Dan; Adam voice ID Ib97zM6uFBc71OWgj75I verified by Lens */}
-        <VideoEmbed
-          src="/videos/binghamton-ny/landing.mp4"
-          title="Sell My House Fast Binghamton NY — USA Home Buyers"
-          poster="/images/video-posters/binghamton-ny-main-poster.jpg"
-          captionsSrc="/videos/binghamton-ny/landing-captions.vtt"
-          captionsLabel="English captions"
-          subtitle="A short overview for Binghamton NY homeowners considering a direct as-is cash sale."
-        />
-        <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
-          <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
-            📝 Video Transcript
-          </summary>
-          <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-            <p className="mb-3">If you need to sell your house fast in Binghamton, New York, USA Home Buyers gives you a straightforward cash-sale path. We buy houses as-is in Binghamton and across Broome County, including Westside, South Side, North Side, East Side, and Downtown Binghamton.</p>
-            <p className="mb-3">Some homes are hard to list the traditional way. They may need repairs, have tenants, be tied to an estate, sit vacant, or create carrying costs every month. With us, you do not have to renovate, stage, hold open houses, or wait for a buyer&apos;s lender to say yes.</p>
-            <p className="mb-3">The first step is a simple conversation about the property and your situation. Then we review the home and give you a written cash offer. If the number and timing work, you choose when to close. If you need extra time, we can discuss that too.</p>
-            <p className="mb-3">There are no agent commissions and no obligation to accept. We are here to give Binghamton homeowners a practical option when speed and certainty matter, without turning the sale into another stressful project for you. For a clear cash offer and a calm walkthrough of the process, call USA Home Buyers at 888-274-5006. We will help you understand your options before you decide.</p>
-          </div>
-        </details>
 
         {/* ===== SECTION 2: How It Works ===== */}
         <section className="my-10" id="how-it-works">
