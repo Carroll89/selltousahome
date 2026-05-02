@@ -148,7 +148,7 @@ export default function GreenBayWIMarketPage() {
           />
         </picture>
         <div className="absolute inset-0 bg-brand-dark/80" />
-        <div className="relative z-10 max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-start">
+        <div className="relative z-10 max-w-7xl mx-auto grid lg:grid-cols-[minmax(0,1fr)_430px] gap-5 lg:gap-10 items-start">
           <div>
             <p className="text-blue-300 text-sm font-medium mb-2">Wisconsin Cash Home Buyers</p>
             <h1 className="text-3xl md:text-4xl font-bold text-white mb-4 leading-tight">
@@ -168,7 +168,7 @@ export default function GreenBayWIMarketPage() {
             </a>
             <p className="mt-3 text-blue-200 text-xs md:text-sm">BBB Accredited · 15+ Years Experience · Hundreds of Homes Purchased</p>
           </div>
-          <div>
+          <div className="w-full lg:sticky lg:top-24">
             <CashOfferForm variant="hero" headline="Get Your Green Bay WI Cash Offer" subheadline="Written offer in 24 hours. Close in 7 days. We cover all closing costs." sourcePage="/markets/green-bay-wi" />
           </div>
         </div>

@@ -165,7 +165,7 @@ export default function BinghamtonNYPage() {
           />
         </picture>
 
-        <div className="relative z-10 max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-start">
+        <div className="relative z-10 max-w-7xl mx-auto grid lg:grid-cols-[minmax(0,1fr)_430px] gap-5 lg:gap-10 items-start">
           <div>
             <p className="text-blue-300 text-sm font-medium mb-2">
               <Link href="/sell-house-fast-new-york" className="hover:text-white">New York</Link> › Binghamton
@@ -204,7 +204,7 @@ export default function BinghamtonNYPage() {
           </div>
 
           {/* Hero form */}
-          <div>
+          <div className="w-full lg:sticky lg:top-24">
             <CashOfferForm
               variant="hero"
               headline="Get Your Cash Offer"
