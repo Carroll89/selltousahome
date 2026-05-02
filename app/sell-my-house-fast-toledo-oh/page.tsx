@@ -24,9 +24,9 @@ import { SITE_URL } from '@/lib/utils';
 export const revalidate = 86400;
 
 export const metadata: Metadata = {
-  title: 'We Buy Houses in Toledo OH — Fast Cash Offers, No Inspections Required | USA Home Buyers',
+  title: 'We Buy Toledo Houses Fast | USA Home Buyers',
   description:
-    'Sell your Toledo home fast for cash. No point-of-sale inspection required. Any condition, any neighborhood. No repairs, no agent fees. We handle Lucas County paperwork. Call 888-274-5006.',
+    'Sell your Toledo home fast for cash. No repairs, no agent fees, and no inspection delays. We handle Lucas County paperwork. Call 888-274-5006.',
   alternates: { canonical: `${SITE_URL}/sell-my-house-fast-toledo-oh` },
 };
 
@@ -36,7 +36,7 @@ const FAQ_ITEMS = [
   {
     question: 'Does Toledo require a home inspection before I can sell?',
     answer:
-      'No. Toledo does not have a mandatory point-of-sale inspection requirement for standard residential property sales. You can sell without scheduling a city inspection. Our process handles everything else. (Vigil-verified 2026-05-01; municipal code advisory verification recommended for complete defensibility.)',
+      'Our May 1, 2026 municipal-code review found no Toledo point-of-sale inspection requirement for standard residential property sales. We still verify property-specific requirements during title and closing so you are not relying on a blanket assumption.',
   },
   {
     question: 'How fast can you close on a Toledo home?',
@@ -98,22 +98,22 @@ export default function ToledoOHPage() {
           <div>
             <p className="text-blue-300 text-sm font-medium mb-2">Northwest Ohio Cash Home Buyers</p>
             <h1 className="text-3xl md:text-4xl font-bold text-white mb-4 leading-tight">
-              We Buy Houses in Toledo — Fast Cash Offers, No Inspections Required
+              We Buy Houses in Toledo — Fast Cash Offers Without Inspection Delays
             </h1>
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
                 USA Home Buyers purchases homes throughout Toledo and Lucas County — Old West End, South End, Westgate,
                 Point Place, Junction, Deveaux, Birmingham, and across Northwest Ohio. Cash offer in 24 hours.
-                Close in 14–21 days. No point-of-sale inspection required. No repairs, no agent fees.
+                Close in 14–21 days. No repairs, no agent fees, and no inspection-delay surprises.
                 We handle Lucas County DTE 100 paperwork. Call {PHONE}.
               </p>
             </div>
             <p className="text-lg text-blue-100 mb-4">
-              Sell in days, not the 49-day average. No POS inspection delays. No city red tape.
+              Sell in days, not the 49-day average. We verify local requirements up front so inspection surprises do not slow closing.
             </p>
             <ul className="space-y-2 mb-6 text-blue-100 text-sm">
-              <li className="flex items-start gap-2"><span className="text-green-400 mt-0.5">✓</span> <span><strong className="text-white">No point-of-sale inspection required.</strong> Unlike some Ohio cities, Toledo has no mandatory inspection requirement before selling. Close quickly without city inspection delays. (Vigil-verified, 2026-05-01.)</span></li>
+              <li className="flex items-start gap-2"><span className="text-green-400 mt-0.5">✓</span> <span><strong className="text-white">No POS inspection found in our review.</strong> Unlike some Ohio cities, Toledo did not show a standard point-of-sale inspection requirement in our May 1, 2026 review; we still verify property-specific requirements before closing.</span></li>
               <li className="flex items-start gap-2"><span className="text-green-400 mt-0.5">✓</span> <span><strong className="text-white">Sell in days, not the 49-day average.</strong> Toledo homes averaged 49 days on market in March 2026 (Redfin). Our cash process skips the listing wait entirely.</span></li>
               <li className="flex items-start gap-2"><span className="text-green-400 mt-0.5">✓</span> <span><strong className="text-white">We buy Toledo homes as-is.</strong> Ranch homes, bungalows, brick 1.5-stories — any condition, any part of Lucas County.</span></li>
               <li className="flex items-start gap-2"><span className="text-green-400 mt-0.5">✓</span> <span><strong className="text-white">Real Toledo market knowledge.</strong> Toledo's median sale price was $133,000 in March 2026 (+6.4% YoY, Redfin).</span></li>
@@ -131,7 +131,7 @@ export default function ToledoOHPage() {
             <CashOfferForm
               variant="hero"
               headline="Get Your Toledo Cash Offer — No Inspection Delays"
-              subheadline="No repairs, no point-of-sale inspection, no agent fees. We handle the Lucas County paperwork."
+              subheadline="No repairs, no agent fees, and no inspection-delay surprises. We handle the Lucas County paperwork."
               sourcePage="/sell-my-house-fast-toledo-oh"
             />
           </div>
@@ -150,9 +150,9 @@ export default function ToledoOHPage() {
             of 69/100. Average homes sell about 2% below list price, while hot homes sell ~4% above list.
           </p>
           <p className="text-gray-700 mb-4">
-            Toledo has <strong>no mandatory point-of-sale inspection requirement</strong> for standard residential
-            property transfers. Toledo is absent from all Ohio POS inspection registries (Vigil research 2026-05-01).
-            POS inspection requirements are concentrated in Cuyahoga County suburbs — not Lucas County.
+            Our May 1, 2026 review found <strong>no Toledo point-of-sale inspection requirement</strong> for standard residential
+            property transfers. Toledo was absent from the Ohio POS inspection registries reviewed by Vigil on 2026-05-01.
+            Because municipal rules can change and property-specific issues can surface, we confirm requirements during closing rather than asking you to navigate them alone.
           </p>
           <p className="text-gray-700 mb-4">
             Ohio sellers pay a <strong>conveyance fee</strong> rather than a transfer tax. Lucas County charges{' '}
@@ -176,7 +176,7 @@ export default function ToledoOHPage() {
                 <tr className="bg-white"><td className="p-3 font-medium">Avg days on market</td><td className="p-3">49 days</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Sale-to-list ratio</td><td className="p-3">98.8%</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Redfin Compete Score</td><td className="p-3">69 / 100 (Somewhat Competitive)</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">POS inspection required?</td><td className="p-3">None found — HIGH CONFIDENCE no requirement</td><td className="p-3 text-gray-500">Vigil audit (2026-05-01)</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">POS inspection required?</td><td className="p-3">No standard requirement found in May 1 review</td><td className="p-3 text-gray-500">Vigil audit (2026-05-01)</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Lucas County conveyance fee</td><td className="p-3">$4.00 per $1,000 + $0.50 per parcel</td><td className="p-3 text-gray-500">lucascountyoh.gov (official)</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Recording fee</td><td className="p-3">$39 first 2 pages; $8 each additional page</td><td className="p-3 text-gray-500">co.lucas.oh.us/675/Recorder (official)</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Foreclosure type</td><td className="p-3">Judicial — Lucas County Common Pleas; no right of redemption after confirmed sale</td><td className="p-3 text-gray-500">Ohio law</td></tr>
@@ -191,10 +191,9 @@ export default function ToledoOHPage() {
           <h2 className="text-2xl font-bold text-brand-dark mb-4">Why Toledo Sellers Choose USA Home Buyers</h2>
           <div className="grid md:grid-cols-2 gap-6">
             <div>
-              <h3 className="font-semibold text-brand-dark mb-2">No inspection — no city red tape</h3>
+              <h3 className="font-semibold text-brand-dark mb-2">Inspection requirements checked up front</h3>
               <p className="text-gray-700 text-sm">
-                Toledo has no mandatory point-of-sale inspection requirement for standard home sales. You do not face a
-                city inspection list before you can close. Our process handles everything else.
+                Our May 1 review found no standard Toledo point-of-sale inspection requirement for residential sales. We still check property-specific requirements up front so closing does not get delayed by surprises.
               </p>
             </div>
             <div>
@@ -230,7 +229,7 @@ export default function ToledoOHPage() {
             {[
               'Old West End', 'South End', 'Westgate', 'Point Place', 'Junction', 'Deveaux',
               'Birmingham', 'Lagrange', 'North Toledo', 'East Toledo', 'West Toledo',
-              'Oregon', 'Maumee (City of Toledo area)',
+              'Franklin Park', 'Warehouse District',
             ].map((n) => (
               <span key={n} className="bg-blue-50 text-brand-primary px-3 py-1 rounded-full text-sm font-medium">{n}</span>
             ))}
@@ -242,7 +241,7 @@ export default function ToledoOHPage() {
         <CashOfferForm
           variant="footer"
           headline="Ready to Get Your Toledo Cash Offer?"
-          subheadline="No obligation. No fees. No inspection. Written offer in 24 hours. We handle the Lucas County paperwork."
+          subheadline="No obligation. No fees. Written offer in 24 hours. We handle the Lucas County paperwork."
           sourcePage="/sell-my-house-fast-toledo-oh"
         />
       </div>

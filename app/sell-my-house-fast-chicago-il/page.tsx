@@ -21,7 +21,7 @@ import { SITE_URL } from '@/lib/utils';
 export const revalidate = 86400;
 
 export const metadata: Metadata = {
-  title: 'We Buy Houses in Chicago IL — Cash Offers, Any Condition | USA Home Buyers',
+  title: 'We Buy Chicago Houses Fast | USA Home Buyers',
   description:
     'Sell your Chicago home fast for cash. Bungalows, 2-flats, greystones — any neighborhood, any condition. No repairs, no agent fees. We handle Cook County paperwork. Call 888-274-5006.',
   alternates: { canonical: `${SITE_URL}/sell-my-house-fast-chicago-il` },

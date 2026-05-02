@@ -939,10 +939,10 @@ const CITY_CONFIGS: Record<string, CityConfig> = {
     lat: 41.6638,
     lng: -83.5552,
     description:
-      'Local cash home buyers in Toledo, OH. No inspection required, no repairs, no agent fees. We handle Lucas County DTE 100 conveyance paperwork and coordinate deed recording with the Lucas County Recorder.',
+      'Local cash home buyers in Toledo, OH. No repairs, no agent fees, and no inspection-delay surprises. We handle Lucas County DTE 100 conveyance paperwork and coordinate deed recording with the Lucas County Recorder.',
     areaServed: [
       { '@type': 'City', name: 'Toledo', sameAs: 'https://en.wikipedia.org/wiki/Toledo,_Ohio' },
-      { '@type': 'AdministrativeArea', name: 'Lucas County' },
+      { '@type': 'County', name: 'Lucas County' },
     ],
   },
   philadelphiaPA: {
@@ -968,7 +968,7 @@ const CITY_CONFIGS: Record<string, CityConfig> = {
       'Cash home buyers in Cincinnati, OH (Hamilton County, Ohio side). We buy houses as-is — Victorians, ranches, any condition. Hamilton County conveyance fee $3.00 per $1,000. No repairs, no agent fees.',
     areaServed: [
       { '@type': 'City', name: 'Cincinnati', sameAs: 'https://en.wikipedia.org/wiki/Cincinnati' },
-      { '@type': 'AdministrativeArea', name: 'Hamilton County' },
+      { '@type': 'County', name: 'Hamilton County' },
     ],
   },
   // ── Batch 003 (authorized 2026-05-01) ──────────────────────────────────────

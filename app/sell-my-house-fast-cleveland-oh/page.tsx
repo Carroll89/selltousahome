@@ -25,7 +25,7 @@ import { SITE_URL } from '@/lib/utils';
 export const revalidate = 86400;
 
 export const metadata: Metadata = {
-  title: 'We Buy Houses in Cleveland OH — Cash Offers, Any Condition | USA Home Buyers',
+  title: 'We Buy Cleveland Houses | USA Home Buyers',
   description:
     'Sell your Cleveland home fast for cash. Colonials, bungalows, Cape Cods — any condition, East or West Side. No repairs, no agent fees. We handle Cuyahoga County paperwork. Call 888-274-5006.',
   alternates: { canonical: `${SITE_URL}/sell-my-house-fast-cleveland-oh` },

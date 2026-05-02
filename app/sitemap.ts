@@ -146,6 +146,14 @@ const cityGuideSlugs = [
   "sell-house-fast-columbus-oh-2026",
 ];
 
+const directMarketPageSlugs = [
+  "chicago-il",
+  "cincinnati-oh",
+  "cleveland-oh",
+  "philadelphia-pa",
+  "toledo-oh",
+];
+
 const staticEntries: SitemapEntry[] = [
   { path: "", priority: 1.0, changeFrequency: "monthly" },
   { path: "/about", priority: 0.6, changeFrequency: "monthly" },
@@ -304,6 +312,11 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })),
     ...miniSiteResourceMarketSlugs.map((marketSlug) => ({
       path: `/markets/${marketSlug}/resources`,
+      priority: 0.9,
+      changeFrequency: "monthly" as const,
+    })),
+    ...directMarketPageSlugs.map((slug) => ({
+      path: `/sell-my-house-fast-${slug}`,
       priority: 0.9,
       changeFrequency: "monthly" as const,
     })),
