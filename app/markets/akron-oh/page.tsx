@@ -7,7 +7,8 @@ import { TestimonialBlock } from '@/components/TestimonialBlock';
 import { ComparisonTable } from '@/components/ComparisonTable';
 import { SituationLinks } from '@/components/SituationLinks';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
-import { akronLocalBusinessSchema, faqSchema } from '@/lib/schema';
+import { VideoEmbed } from '@/components/VideoEmbed';
+import { akronLocalBusinessSchema, faqSchema, videoObjectSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
 import { BlogClusterLinks } from '@/components/BlogClusterLinks';
 import Link from 'next/link';
@@ -109,7 +110,20 @@ export default function AkronOHMarketPage() {
 
   return (
     <>
-      <SchemaMarkup schema={[akronLocalBusinessSchema, faqSchema(FAQ_ITEMS), howToSchema]} />
+      <SchemaMarkup
+        schema={[
+          akronLocalBusinessSchema,
+          faqSchema(FAQ_ITEMS),
+          howToSchema,
+          videoObjectSchema({
+            name: 'Sell My House Fast Akron OH — USA Home Buyers',
+            description: 'Cash offers for Akron and Summit County homes — any condition',
+            contentUrl: `${SITE_URL}/videos/akron-oh/landing.mp4`,
+            thumbnailUrl: `${SITE_URL}/images/video-posters/akron-oh-main-poster.jpg`,
+            uploadDate: '2026-05-02',
+          }),
+        ]}
+      />
 
       <section className="relative text-white py-16 px-4 overflow-hidden">
         <picture className="absolute inset-0 w-full h-full">
@@ -154,6 +168,28 @@ export default function AkronOHMarketPage() {
       </section>
 
       <div className="max-w-7xl mx-auto px-4 py-8">
+
+        {/* VIDEO_CAPTION_EXCEPTION: estimated captions pending human timing review — date:2026-05-02 approver:Dan; Adam voice ID Ib97zM6uFBc71OWgj75I verified by Lens */}
+        <VideoEmbed
+          src="/videos/akron-oh/landing.mp4"
+          title="Sell My House Fast Akron OH — USA Home Buyers"
+          poster="/images/video-posters/akron-oh-main-poster.jpg"
+          captionsSrc="/videos/akron-oh/landing-captions.vtt"
+          captionsLabel="English captions"
+          subtitle="A short overview for Akron OH homeowners considering a direct as-is cash sale."
+        />
+        <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+          <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+            📝 Video Transcript
+          </summary>
+          <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+            <p className="mb-3">If you need to sell your house fast in Akron, Ohio, USA Home Buyers gives you a direct cash-sale option without repairs, showings, or agent commissions. We buy Akron-area homes as-is throughout Summit County, including East Akron, Kenmore, Goodyear Heights, Highland Square, Firestone Park, and Northwest Akron.</p>
+            <p className="mb-3">Maybe the property is older, inherited, vacant, tenant-occupied, behind on payments, or simply needs more repairs than you want to take on. A traditional buyer may want inspections, lender approval, and repairs before closing. We focus on making the sale clear and predictable.</p>
+            <p className="mb-3">The process starts when you tell us about the house and what kind of timeline would help. We review the property, answer your questions, and make a written cash offer. If the offer works, you choose the closing date. You do not have to clean it out or make it market-ready first.</p>
+            <p className="mb-3">There is no obligation and no pressure. We buy in the current condition and explain the offer so you understand the timing, costs, and next steps. If you want a straightforward cash offer for an Akron or Summit County home, call USA Home Buyers at 888-274-5006. We will help you decide if an as-is sale is the right move.</p>
+          </div>
+        </details>
+
         <HowItWorks />
 
         <section className="my-12">

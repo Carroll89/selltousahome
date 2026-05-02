@@ -6,7 +6,8 @@ import { FAQSection } from '@/components/FAQSection';
 import { ComparisonTable } from '@/components/ComparisonTable';
 import { SituationLinks } from '@/components/SituationLinks';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
-import { norwichLocalBusinessSchema, faqSchema } from '@/lib/schema';
+import { VideoEmbed } from '@/components/VideoEmbed';
+import { norwichLocalBusinessSchema, faqSchema, videoObjectSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
 import { BlogClusterLinks } from '@/components/BlogClusterLinks';
 import Link from 'next/link';
@@ -83,7 +84,20 @@ export default function NorwichCTMarketPage() {
 
   return (
     <>
-      <SchemaMarkup schema={[norwichLocalBusinessSchema, faqSchema(FAQ_ITEMS), howToSchema]} />
+      <SchemaMarkup
+        schema={[
+          norwichLocalBusinessSchema,
+          faqSchema(FAQ_ITEMS),
+          howToSchema,
+          videoObjectSchema({
+            name: 'Sell My House Fast Norwich CT — USA Home Buyers',
+            description: 'Cash offers for Norwich and New London County homes — any condition',
+            contentUrl: `${SITE_URL}/videos/norwich-ct/landing.mp4`,
+            thumbnailUrl: `${SITE_URL}/images/video-posters/norwich-ct-main-poster.jpg`,
+            uploadDate: '2026-05-02',
+          }),
+        ]}
+      />
 
       <section className="relative text-white py-16 px-4 overflow-hidden">
         <picture className="absolute inset-0 w-full h-full">
@@ -133,6 +147,28 @@ export default function NorwichCTMarketPage() {
       </section>
 
       <div className="max-w-7xl mx-auto px-4 py-8">
+
+        {/* VIDEO_CAPTION_EXCEPTION: estimated captions pending human timing review — date:2026-05-02 approver:Dan; Adam voice ID Ib97zM6uFBc71OWgj75I verified by Lens */}
+        <VideoEmbed
+          src="/videos/norwich-ct/landing.mp4"
+          title="Sell My House Fast Norwich CT — USA Home Buyers"
+          poster="/images/video-posters/norwich-ct-main-poster.jpg"
+          captionsSrc="/videos/norwich-ct/landing-captions.vtt"
+          captionsLabel="English captions"
+          subtitle="A short overview for Norwich CT homeowners considering a direct as-is cash sale."
+        />
+        <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+          <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+            📝 Video Transcript
+          </summary>
+          <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+            <p className="mb-3">If you need to sell your house fast in Norwich, Connecticut, USA Home Buyers can make the process simpler. We buy houses as-is in Norwich and New London County, including Taftville, Greeneville, Chelsea, Norwichtown, Bean Hill, and Laurel Hill.</p>
+            <p className="mb-3">Some Norwich homes are difficult to sell the traditional way. The property may be inherited, older, vacant, tenant-occupied, facing repair issues, or caught in a deadline where waiting months is not practical. Older mill-era houses in Taftville or Greeneville can also need careful as-is handling. You do not have to renovate, stage the house, or keep negotiating after inspections.</p>
+            <p className="mb-3">Start by telling us about the property and what you need to solve. We review the home, answer your questions, and give you a written cash offer. If it works for you, you choose the closing date. If you need time for family, probate, or moving details, we can talk through that too.</p>
+            <p className="mb-3">We do not charge commissions, and there is no obligation to accept. Our job is to give Norwich homeowners a clear as-is option when speed, certainty, and less hassle matter more than a conventional listing. For a no-pressure cash offer, call USA Home Buyers at 888-274-5006. We will explain the next step in plain English.</p>
+          </div>
+        </details>
+
         <HowItWorks />
 
         <section className="my-12">

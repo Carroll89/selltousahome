@@ -7,7 +7,8 @@ import { TestimonialBlock } from '@/components/TestimonialBlock';
 import { ComparisonTable } from '@/components/ComparisonTable';
 import { SituationLinks } from '@/components/SituationLinks';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
-import { appletonLocalBusinessSchema, faqSchema } from '@/lib/schema';
+import { VideoEmbed } from '@/components/VideoEmbed';
+import { appletonLocalBusinessSchema, faqSchema, videoObjectSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
 import { BlogClusterLinks } from '@/components/BlogClusterLinks';
 import Link from 'next/link';
@@ -109,7 +110,20 @@ export default function AppletonWIMarketPage() {
 
   return (
     <>
-      <SchemaMarkup schema={[appletonLocalBusinessSchema, faqSchema(FAQ_ITEMS), howToSchema]} />
+      <SchemaMarkup
+        schema={[
+          appletonLocalBusinessSchema,
+          faqSchema(FAQ_ITEMS),
+          howToSchema,
+          videoObjectSchema({
+            name: 'Sell My House Fast Appleton WI — USA Home Buyers',
+            description: 'Cash offers for Appleton and Fox Cities homes — any condition',
+            contentUrl: `${SITE_URL}/videos/appleton-wi/landing.mp4`,
+            thumbnailUrl: `${SITE_URL}/images/video-posters/appleton-wi-main-poster.jpg`,
+            uploadDate: '2026-05-02',
+          }),
+        ]}
+      />
 
       <section className="relative text-white py-16 px-4 overflow-hidden">
         <picture className="absolute inset-0 w-full h-full">
@@ -154,6 +168,28 @@ export default function AppletonWIMarketPage() {
       </section>
 
       <div className="max-w-7xl mx-auto px-4 py-8">
+
+        {/* VIDEO_CAPTION_EXCEPTION: estimated captions pending human timing review — date:2026-05-02 approver:Dan; Adam voice ID Ib97zM6uFBc71OWgj75I verified by Lens */}
+        <VideoEmbed
+          src="/videos/appleton-wi/landing.mp4"
+          title="Sell My House Fast Appleton WI — USA Home Buyers"
+          poster="/images/video-posters/appleton-wi-main-poster.jpg"
+          captionsSrc="/videos/appleton-wi/landing-captions.vtt"
+          captionsLabel="English captions"
+          subtitle="A short overview for Appleton WI homeowners considering a direct as-is cash sale."
+        />
+        <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+          <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+            📝 Video Transcript
+          </summary>
+          <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+            <p className="mb-3">If you need to sell your house fast in Appleton, Wisconsin, USA Home Buyers can give you a simpler path than listing, repairing, and waiting. We buy houses as-is across Appleton and the Fox Cities area, including Downtown Appleton, Old Third Ward, Erb Park, City Park, and nearby Outagamie County neighborhoods.</p>
+            <p className="mb-3">Your house may need repairs, be part of an estate, have tenants, sit vacant, or just feel like one more project you do not want to manage. You do not have to update older systems, clean out every room, or make the property perfect before reaching out.</p>
+            <p className="mb-3">Here is the process. You tell us about the house and what you need. We review the property, answer your questions, and give you a written cash offer. If the offer works, you choose the closing date. If you need more time, we can work around your timeline.</p>
+            <p className="mb-3">There are no agent commissions, no required repairs, and no obligation. We explain the offer clearly so you know what happens next and what you can expect at closing. If you want a practical cash-sale option for an Appleton-area home, call USA Home Buyers at 888-274-5006. We will walk you through the next step and help you decide if selling as-is makes sense.</p>
+          </div>
+        </details>
+
         <HowItWorks />
 
         <section className="my-12">

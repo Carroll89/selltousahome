@@ -6,7 +6,8 @@ import { FAQSection } from '@/components/FAQSection';
 import { ComparisonTable } from '@/components/ComparisonTable';
 import { SituationLinks } from '@/components/SituationLinks';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
-import { eauClaireLocalBusinessSchema, faqSchema } from '@/lib/schema';
+import { VideoEmbed } from '@/components/VideoEmbed';
+import { eauClaireLocalBusinessSchema, faqSchema, videoObjectSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
 import { BlogClusterLinks } from '@/components/BlogClusterLinks';
 import Link from 'next/link';
@@ -78,7 +79,20 @@ export default function EauClaireWIMarketPage() {
 
   return (
     <>
-      <SchemaMarkup schema={[eauClaireLocalBusinessSchema, faqSchema(FAQ_ITEMS), howToSchema]} />
+      <SchemaMarkup
+        schema={[
+          eauClaireLocalBusinessSchema,
+          faqSchema(FAQ_ITEMS),
+          howToSchema,
+          videoObjectSchema({
+            name: 'Sell My House Fast Eau Claire WI — USA Home Buyers',
+            description: 'Cash offers for Eau Claire and Chippewa Valley homes — any condition',
+            contentUrl: `${SITE_URL}/videos/eau-claire-wi/landing.mp4`,
+            thumbnailUrl: `${SITE_URL}/images/video-posters/eau-claire-wi-main-poster.jpg`,
+            uploadDate: '2026-05-02',
+          }),
+        ]}
+      />
 
       <section className="relative text-white py-16 px-4 overflow-hidden">
         <picture className="absolute inset-0 w-full h-full">
@@ -123,6 +137,28 @@ export default function EauClaireWIMarketPage() {
       </section>
 
       <div className="max-w-7xl mx-auto px-4 py-8">
+
+        {/* VIDEO_CAPTION_EXCEPTION: estimated captions pending human timing review — date:2026-05-02 approver:Dan; Adam voice ID Ib97zM6uFBc71OWgj75I verified by Lens */}
+        <VideoEmbed
+          src="/videos/eau-claire-wi/landing.mp4"
+          title="Sell My House Fast Eau Claire WI — USA Home Buyers"
+          poster="/images/video-posters/eau-claire-wi-main-poster.jpg"
+          captionsSrc="/videos/eau-claire-wi/landing-captions.vtt"
+          captionsLabel="English captions"
+          subtitle="A short overview for Eau Claire WI homeowners considering a direct as-is cash sale."
+        />
+        <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+          <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+            📝 Video Transcript
+          </summary>
+          <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+            <p className="mb-3">If you need to sell your house fast in Eau Claire, Wisconsin, USA Home Buyers can help you move forward without repairs, open houses, or agent fees. We buy homes as-is across Eau Claire and the surrounding county area, including Randall Park, Third Ward, Eastside Hill, Putnam Heights, Dells Pond, and North Side Hill.</p>
+            <p className="mb-3">This is for sellers who need certainty. The home might be inherited, rented to tenants, near the UWEC area, vacant, older, or in need of repairs you do not want to manage. You do not have to clean everything out, update old systems, or wait for a retail buyer's financing.</p>
+            <p className="mb-3">Our process is simple. Tell us about the house, the condition, and the timeline that would help you. We review the property and give you a written cash offer. If it works, you choose the closing date. If you need more time, we can discuss a timeline that fits your situation.</p>
+            <p className="mb-3">There is no obligation, no pressure, and no commission. We explain the offer clearly so you are not left guessing about fees, repairs, or closing steps. If you want a straightforward cash offer for an Eau Claire-area house, call USA Home Buyers at 888-274-5006. We will help you understand your options before you decide.</p>
+          </div>
+        </details>
+
         <HowItWorks />
 
         <section className="my-12">
