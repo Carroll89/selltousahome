@@ -7,7 +7,8 @@ import { TestimonialBlock } from '@/components/TestimonialBlock';
 import { ComparisonTable } from '@/components/ComparisonTable';
 import { SituationLinks } from '@/components/SituationLinks';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
-import { cantonLocalBusinessSchema, faqSchema } from '@/lib/schema';
+import { VideoEmbed } from '@/components/VideoEmbed';
+import { cantonLocalBusinessSchema, faqSchema, videoObjectSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
 import { BlogClusterLinks } from '@/components/BlogClusterLinks';
 import Link from 'next/link';
@@ -109,7 +110,20 @@ export default function CantonOHMarketPage() {
 
   return (
     <>
-      <SchemaMarkup schema={[cantonLocalBusinessSchema, faqSchema(FAQ_ITEMS), howToSchema]} />
+      <SchemaMarkup
+        schema={[
+          cantonLocalBusinessSchema,
+          faqSchema(FAQ_ITEMS),
+          howToSchema,
+          videoObjectSchema({
+            name: 'Sell My House Fast Canton OH — USA Home Buyers',
+            description: 'Cash offers for Canton and Stark County homes — any condition',
+            contentUrl: `${SITE_URL}/videos/canton-oh/landing.mp4`,
+            thumbnailUrl: `${SITE_URL}/images/video-posters/canton-oh-main-poster.jpg`,
+            uploadDate: '2026-05-02',
+          }),
+        ]}
+      />
 
       <section className="relative text-white py-16 px-4 overflow-hidden">
         <picture className="absolute inset-0 w-full h-full">
@@ -154,6 +168,28 @@ export default function CantonOHMarketPage() {
       </section>
 
       <div className="max-w-7xl mx-auto px-4 py-8">
+
+        {/* VIDEO_CAPTION_EXCEPTION: estimated captions pending human timing review — date:2026-05-02 approver:Dan; Adam voice ID Ib97zM6uFBc71OWgj75I verified by Lens */}
+        <VideoEmbed
+          src="/videos/canton-oh/landing.mp4"
+          title="Sell My House Fast Canton OH — USA Home Buyers"
+          poster="/images/video-posters/canton-oh-main-poster.jpg"
+          captionsSrc="/videos/canton-oh/landing-captions.vtt"
+          captionsLabel="English captions"
+          subtitle="A short overview for Canton OH homeowners considering a direct as-is cash sale."
+        />
+        <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+          <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+            📝 Video Transcript
+          </summary>
+          <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+            <p className="mb-3">If you need to sell your house fast in Canton, Ohio, USA Home Buyers can make the process easier. We buy houses as-is throughout Canton and Stark County, including Central Canton, Southwest Canton, Historic Ridgewood, North Canton, and Massillon.</p>
+            <p className="mb-3">You might be facing repairs you do not want to make, a property you inherited, a rental you are tired of managing, or a home that would be difficult for a retail buyer to finance. You do not have to fix it, clean it out, or wait through months of showings to find out if a buyer can close.</p>
+            <p className="mb-3">We start with the basics. Tell us about the house, the condition, and what timeline would help you. We review the property and give you a written cash offer. If you accept, you pick the closing date. We buy in the current condition, and there are no agent commissions.</p>
+            <p className="mb-3">This is meant to be simple, respectful, and clear. If a cash sale is not right for you, we will tell you. If it is, we can help you move forward without the usual delays, repair requests, or repeated buyer fall-throughs. Call USA Home Buyers at 888-274-5006 for a no-obligation cash offer on your Canton-area home.</p>
+          </div>
+        </details>
+
         <HowItWorks />
 
         <section className="my-12">

@@ -7,7 +7,8 @@ import { TestimonialBlock } from '@/components/TestimonialBlock';
 import { ComparisonTable } from '@/components/ComparisonTable';
 import { SituationLinks } from '@/components/SituationLinks';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
-import { waterburyLocalBusinessSchema, faqSchema } from '@/lib/schema';
+import { VideoEmbed } from '@/components/VideoEmbed';
+import { waterburyLocalBusinessSchema, faqSchema, videoObjectSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
 import { BlogClusterLinks } from '@/components/BlogClusterLinks';
 import Link from 'next/link';
@@ -134,7 +135,20 @@ export default function WaterburyCTMarketPage() {
 
   return (
     <>
-      <SchemaMarkup schema={[waterburyLocalBusinessSchema, faqSchema(FAQ_ITEMS), howToSchema]} />
+      <SchemaMarkup
+        schema={[
+          waterburyLocalBusinessSchema,
+          faqSchema(FAQ_ITEMS),
+          howToSchema,
+          videoObjectSchema({
+            name: 'Sell My House Fast Waterbury CT — USA Home Buyers',
+            description: 'Cash offers for Waterbury and New Haven County homes — any condition',
+            contentUrl: `${SITE_URL}/videos/waterbury-ct/landing.mp4`,
+            thumbnailUrl: `${SITE_URL}/images/video-posters/waterbury-ct-main-poster.jpg`,
+            uploadDate: '2026-05-02',
+          }),
+        ]}
+      />
 
       <section className="relative text-white py-16 px-4 overflow-hidden">
         <picture className="absolute inset-0 w-full h-full">
@@ -179,6 +193,28 @@ export default function WaterburyCTMarketPage() {
       </section>
 
       <div className="max-w-7xl mx-auto px-4 py-8">
+
+        {/* VIDEO_CAPTION_EXCEPTION: estimated captions pending human timing review — date:2026-05-02 approver:Dan; Adam voice ID Ib97zM6uFBc71OWgj75I verified by Lens */}
+        <VideoEmbed
+          src="/videos/waterbury-ct/landing.mp4"
+          title="Sell My House Fast Waterbury CT — USA Home Buyers"
+          poster="/images/video-posters/waterbury-ct-main-poster.jpg"
+          captionsSrc="/videos/waterbury-ct/landing-captions.vtt"
+          captionsLabel="English captions"
+          subtitle="A short overview for Waterbury CT homeowners considering a direct as-is cash sale."
+        />
+        <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+          <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+            📝 Video Transcript
+          </summary>
+          <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+            <p className="mb-3">If you need to sell your house fast in Waterbury, Connecticut, USA Home Buyers can make you a direct cash offer without the usual listing headaches. We buy homes as-is throughout Waterbury and New Haven County, including Town Plot, North End, Bunker Hill, East End, and Waterville.</p>
+            <p className="mb-3">You may be dealing with repairs, an inherited property, a vacant house, tenants, code issues, or a mortgage situation that needs a faster answer. Traditional buyers often want repairs, inspections, financing, and time. We keep the process simple and focused on what you need next.</p>
+            <p className="mb-3">Start by telling us about the property. We review the home, answer your questions, and prepare a written cash offer. If the offer makes sense, you choose the closing date. You do not have to clean the property out, make repairs, or pay agent commissions.</p>
+            <p className="mb-3">Our goal is not to pressure you. It is to give Waterbury homeowners a clear option when a normal sale does not fit the situation, especially when timing, repairs, or uncertainty are the real problem. If you want to see what a cash offer could look like, call USA Home Buyers at 888-274-5006. We will explain the steps and help you move forward on your timeline.</p>
+          </div>
+        </details>
+
         <HowItWorks />
 
         <section className="my-12">

@@ -6,7 +6,8 @@ import { FAQSection } from '@/components/FAQSection';
 import { ComparisonTable } from '@/components/ComparisonTable';
 import { SituationLinks } from '@/components/SituationLinks';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
-import { northamptonLocalBusinessSchema, faqSchema } from '@/lib/schema';
+import { VideoEmbed } from '@/components/VideoEmbed';
+import { northamptonLocalBusinessSchema, faqSchema, videoObjectSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
 import { BlogClusterLinks } from '@/components/BlogClusterLinks';
 import Link from 'next/link';
@@ -83,7 +84,20 @@ export default function NorthamptonMAMarketPage() {
 
   return (
     <>
-      <SchemaMarkup schema={[northamptonLocalBusinessSchema, faqSchema(FAQ_ITEMS), howToSchema]} />
+      <SchemaMarkup
+        schema={[
+          northamptonLocalBusinessSchema,
+          faqSchema(FAQ_ITEMS),
+          howToSchema,
+          videoObjectSchema({
+            name: 'Sell My House Fast Northampton MA — USA Home Buyers',
+            description: 'Cash offers for Northampton and Hampshire County homes — any condition',
+            contentUrl: `${SITE_URL}/videos/northampton-ma/landing.mp4`,
+            thumbnailUrl: `${SITE_URL}/images/video-posters/northampton-ma-main-poster.jpg`,
+            uploadDate: '2026-05-02',
+          }),
+        ]}
+      />
 
       <section className="relative text-white py-16 px-4 overflow-hidden">
         <picture className="absolute inset-0 w-full h-full">
@@ -133,6 +147,28 @@ export default function NorthamptonMAMarketPage() {
       </section>
 
       <div className="max-w-7xl mx-auto px-4 py-8">
+
+        {/* VIDEO_CAPTION_EXCEPTION: estimated captions pending human timing review — date:2026-05-02 approver:Dan; Adam voice ID Ib97zM6uFBc71OWgj75I verified by Lens */}
+        <VideoEmbed
+          src="/videos/northampton-ma/landing.mp4"
+          title="Sell My House Fast Northampton MA — USA Home Buyers"
+          poster="/images/video-posters/northampton-ma-main-poster.jpg"
+          captionsSrc="/videos/northampton-ma/landing-captions.vtt"
+          captionsLabel="English captions"
+          subtitle="A short overview for Northampton MA homeowners considering a direct as-is cash sale."
+        />
+        <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+          <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+            📝 Video Transcript
+          </summary>
+          <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+            <p className="mb-3">If you need to sell your house fast in Northampton, Massachusetts, USA Home Buyers gives you a simpler option than listing, repairing, and waiting. We buy houses as-is for cash in Northampton and throughout Hampshire County.</p>
+            <p className="mb-3">This is built for homeowners who want certainty. The house might need repairs, have old systems, be part of an estate, have tenants, or simply be a property you no longer want to manage. You do not have to paint, clean out every room, schedule open houses, or keep renegotiating after inspections.</p>
+            <p className="mb-3">Our process is direct. Tell us about the property, share the basics, and we will review it with you. Then we make a written cash offer. If it fits what you need, you pick the closing date. If it does not fit, you can walk away with no pressure and no fee.</p>
+            <p className="mb-3">We are not agents, and we do not charge commissions. We buy Northampton-area homes in their current condition and focus on making the sale predictable, including the closing timeline and next steps for your family. For a no-obligation cash offer, call USA Home Buyers at 888-274-5006. We will listen first, explain the process clearly, and help you decide the best next move.</p>
+          </div>
+        </details>
+
         <HowItWorks />
 
         <section className="my-12">

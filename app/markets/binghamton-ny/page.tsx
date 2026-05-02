@@ -7,7 +7,8 @@ import { TestimonialBlock } from '@/components/TestimonialBlock';
 import { ComparisonTable } from '@/components/ComparisonTable';
 import { SituationLinks } from '@/components/SituationLinks';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
-import { binghamtonLocalBusinessSchema, faqSchema } from '@/lib/schema';
+import { VideoEmbed } from '@/components/VideoEmbed';
+import { binghamtonLocalBusinessSchema, faqSchema, videoObjectSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
 import { BlogClusterLinks } from '@/components/BlogClusterLinks';
 import Link from 'next/link';
@@ -136,7 +137,19 @@ const SITUATION_ITEMS_FOR_COMPONENT = SITUATION_ITEMS.map(s => ({ href: s.href, 
 export default function BinghamtonNYPage() {
   return (
     <>
-      <SchemaMarkup schema={[binghamtonLocalBusinessSchema, faqSchema(FAQ_ITEMS)]} />
+      <SchemaMarkup
+        schema={[
+          binghamtonLocalBusinessSchema,
+          faqSchema(FAQ_ITEMS),
+          videoObjectSchema({
+            name: 'Sell My House Fast Binghamton NY — USA Home Buyers',
+            description: 'Cash offers for Binghamton and Broome County homes — any condition',
+            contentUrl: `${SITE_URL}/videos/binghamton-ny/landing.mp4`,
+            thumbnailUrl: `${SITE_URL}/images/video-posters/binghamton-ny-main-poster.jpg`,
+            uploadDate: '2026-05-02',
+          }),
+        ]}
+      />
 
       {/* ===== HERO SECTION ===== */}
       <section className="relative text-white py-16 px-4 overflow-hidden">
@@ -289,6 +302,28 @@ export default function BinghamtonNYPage() {
             direct fetch 2026-05-01.
           </p>
         </section>
+
+
+        {/* VIDEO_CAPTION_EXCEPTION: estimated captions pending human timing review — date:2026-05-02 approver:Dan; Adam voice ID Ib97zM6uFBc71OWgj75I verified by Lens */}
+        <VideoEmbed
+          src="/videos/binghamton-ny/landing.mp4"
+          title="Sell My House Fast Binghamton NY — USA Home Buyers"
+          poster="/images/video-posters/binghamton-ny-main-poster.jpg"
+          captionsSrc="/videos/binghamton-ny/landing-captions.vtt"
+          captionsLabel="English captions"
+          subtitle="A short overview for Binghamton NY homeowners considering a direct as-is cash sale."
+        />
+        <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+          <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+            📝 Video Transcript
+          </summary>
+          <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+            <p className="mb-3">If you need to sell your house fast in Binghamton, New York, USA Home Buyers gives you a straightforward cash-sale path. We buy houses as-is in Binghamton and across Broome County, including Westside, South Side, North Side, East Side, and Downtown Binghamton.</p>
+            <p className="mb-3">Some homes are hard to list the traditional way. They may need repairs, have tenants, be tied to an estate, sit vacant, or create carrying costs every month. With us, you do not have to renovate, stage, hold open houses, or wait for a buyer&apos;s lender to say yes.</p>
+            <p className="mb-3">The first step is a simple conversation about the property and your situation. Then we review the home and give you a written cash offer. If the number and timing work, you choose when to close. If you need extra time, we can discuss that too.</p>
+            <p className="mb-3">There are no agent commissions and no obligation to accept. We are here to give Binghamton homeowners a practical option when speed and certainty matter, without turning the sale into another stressful project for you. For a clear cash offer and a calm walkthrough of the process, call USA Home Buyers at 888-274-5006. We will help you understand your options before you decide.</p>
+          </div>
+        </details>
 
         {/* ===== SECTION 2: How It Works ===== */}
         <section className="my-10" id="how-it-works">
