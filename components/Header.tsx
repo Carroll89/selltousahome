@@ -84,7 +84,10 @@ const marketsByState: {
   },
   {
     state: "New York",
-    cities: [{ href: "/markets/rochester-ny", label: "Rochester" }],
+    cities: [
+      { href: "/markets/rochester-ny", label: "Rochester" },
+      { href: "/markets/binghamton-ny", label: "Binghamton" },
+    ],
   },
   {
     state: "Illinois",
@@ -149,6 +152,88 @@ const miniSiteMarkets = [
     label: "York",
     guideSlug: "sell-house-fast-york-pa-2026",
     blogSlugs: ["selling-house-during-divorce-pennsylvania"],
+  },
+
+  {
+    slug: "appleton-wi",
+    label: "Appleton",
+    guideSlug: "sell-house-fast-appleton-wi-2026",
+    blogSlugs: ["appleton-wi-sell-house-fast-2026"],
+  },
+  {
+    slug: "canton-oh",
+    label: "Canton",
+    guideSlug: "sell-house-fast-canton-oh-2026",
+  },
+  {
+    slug: "milwaukee-wi",
+    label: "Milwaukee",
+    guideSlug: "sell-house-fast-milwaukee-wi-2026",
+  },
+  {
+    slug: "akron-oh",
+    label: "Akron",
+    guideSlug: "sell-house-fast-akron-oh-2026",
+  },
+  {
+    slug: "concord-nh",
+    label: "Concord",
+    guideSlug: "sell-house-fast-concord-nh-2026",
+  },
+  {
+    slug: "norwich-ct",
+    label: "Norwich",
+    guideSlug: "sell-house-fast-norwich-ct-2026",
+    blogSlugs: ["norwich-ct-sell-house-fast-2026"],
+  },
+  {
+    slug: "northampton-ma",
+    label: "Northampton",
+    guideSlug: "sell-house-fast-northampton-ma-2026",
+  },
+  {
+    slug: "eau-claire-wi",
+    label: "Eau Claire",
+    guideSlug: "sell-house-fast-eau-claire-wi-2026",
+  },
+  {
+    slug: "janesville-wi",
+    label: "Janesville",
+    guideSlug: "sell-house-fast-janesville-wi-2026",
+  },
+  {
+    slug: "columbus-oh",
+    label: "Columbus",
+    guideSlug: "sell-house-fast-columbus-oh-2026",
+  },
+  {
+    slug: "madison-wi",
+    label: "Madison",
+    guideSlug: "sell-house-fast-madison-wi-2026",
+    blogSlugs: ["madison-wi-sell-house-fast-2026"],
+  },
+  {
+    slug: "chambersburg-pa",
+    label: "Chambersburg",
+    guideSlug: "sell-house-fast-chambersburg-pa-2026",
+    blogSlugs: ["chambersburg-pa-sell-house-fast-2026"],
+  },
+  {
+    slug: "waterbury-ct",
+    label: "Waterbury",
+    guideSlug: "sell-house-fast-waterbury-ct-2026",
+    blogSlugs: ["waterbury-ct-sell-house-fast-2026"],
+  },
+  {
+    slug: "green-bay-wi",
+    label: "Green Bay",
+    guideSlug: "sell-house-fast-green-bay-wi-2026",
+    blogSlugs: ["green-bay-wi-sell-house-fast-2026"],
+  },
+  {
+    slug: "binghamton-ny",
+    label: "Binghamton",
+    guideSlug: "sell-house-fast-binghamton-ny-2026",
   },
   {
     slug: "bloomington-il",
