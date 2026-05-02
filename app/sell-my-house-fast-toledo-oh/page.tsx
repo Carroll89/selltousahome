@@ -26,7 +26,7 @@ export const revalidate = 86400;
 export const metadata: Metadata = {
   title: 'We Buy Toledo Houses Fast | USA Home Buyers',
   description:
-    'Sell your Toledo home fast for cash. No repairs, no agent fees, and no inspection delays. We handle Lucas County paperwork. Call 888-274-5006.',
+    'Sell your Toledo home fast for cash. No repairs, no agent fees, and local requirement checks up front. We handle Lucas County paperwork. Call 888-274-5006.',
   alternates: { canonical: `${SITE_URL}/sell-my-house-fast-toledo-oh` },
 };
 
@@ -98,14 +98,14 @@ export default function ToledoOHPage() {
           <div>
             <p className="text-blue-300 text-sm font-medium mb-2">Northwest Ohio Cash Home Buyers</p>
             <h1 className="text-3xl md:text-4xl font-bold text-white mb-4 leading-tight">
-              We Buy Houses in Toledo — Fast Cash Offers Without Inspection Delays
+              We Buy Houses in Toledo — Fast Cash Offers With Local Requirement Checks Up Front
             </h1>
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
                 USA Home Buyers purchases homes throughout Toledo and Lucas County — Old West End, South End, Westgate,
                 Point Place, Junction, Deveaux, Birmingham, and across Northwest Ohio. Cash offer in 24 hours.
-                Close in 14–21 days. No repairs, no agent fees, and no inspection-delay surprises.
+                Close in 14–21 days. No repairs, no agent fees, and local requirement checks up front.
                 We handle Lucas County DTE 100 paperwork. Call {PHONE}.
               </p>
             </div>
@@ -130,8 +130,8 @@ export default function ToledoOHPage() {
           <div>
             <CashOfferForm
               variant="hero"
-              headline="Get Your Toledo Cash Offer — No Inspection Delays"
-              subheadline="No repairs, no agent fees, and no inspection-delay surprises. We handle the Lucas County paperwork."
+              headline="Get Your Toledo Cash Offer"
+              subheadline="No repairs, no agent fees, and Toledo requirement checks up front. We handle the Lucas County paperwork."
               sourcePage="/sell-my-house-fast-toledo-oh"
             />
           </div>

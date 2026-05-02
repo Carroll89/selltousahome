@@ -40,7 +40,7 @@ const FAQ_ITEMS = [
   {
     question: 'What areas of Pennsylvania does USA Home Buyers serve?',
     answer:
-      "We currently have active Pennsylvania markets in Central PA (Harrisburg/Dauphin, Lancaster, York), the Lehigh Valley (Allentown/Bethlehem), Berks County (Reading), Northwest PA (Erie), Greater Philadelphia (King of Prussia/Montgomery County), and Centre County (State College).",
+      "We currently have active Pennsylvania markets in Central PA (Harrisburg/Dauphin, Lancaster, York), the Lehigh Valley (Allentown/Bethlehem), Berks County (Reading), Northwest PA (Erie), Greater Philadelphia (King of Prussia/Montgomery County plus a direct Philadelphia city/county route), and Centre County (State College).",
   },
 ];
 
@@ -124,6 +124,13 @@ const PA_MARKETS = [
     highlight: 'Cumberland Valley county seat, Compete Score 79, hot homes 5 days, Maryland-border migration hub',
     surrounding: 'Waynesboro, Greencastle, Mercersburg, Shippensburg',
   },
+  {
+    city: 'Philadelphia',
+    county: 'Philadelphia County',
+    slug: 'direct:philadelphia',
+    highlight: 'City/county route for row homes, 4.578% transfer tax, and estate-sale caveats',
+    surrounding: 'South Philly, North Philly, West Philly, Northeast Philly',
+  },
 ];
 
 export default function SellHouseFastPennsylvaniaPage() {
@@ -155,7 +162,7 @@ export default function SellHouseFastPennsylvaniaPage() {
         {/* TL;DR — GEO/AEO Quick Answer */}
         <div className="bg-blue-50 border-l-4 border-brand-primary rounded-r-xl p-6 mb-10">
           <h2 className="text-lg font-bold text-brand-dark mb-2">Quick Answer: Sell Your House Fast in Pennsylvania</h2>
-          <p className="text-gray-700 text-sm leading-relaxed">USA Home Buyers purchases houses throughout Pennsylvania for cash — as-is, in any condition, with no repairs and no agent fees. We serve 9 active Pennsylvania markets: Harrisburg, Allentown, Bethlehem, Lancaster, York, Reading, Erie, State College, and King of Prussia. According to the Zillow Home Value Index, Pennsylvania's statewide median home value is approximately $287,000 (early 2026). Pennsylvania charges a 2% transfer tax (1% state + 1% local) — we cover all closing costs. Written offer within 24 hours, closing in 7–14 days.</p>
+          <p className="text-gray-700 text-sm leading-relaxed">USA Home Buyers purchases houses throughout Pennsylvania for cash — as-is, in any condition, with no repairs and no agent fees. We serve active Pennsylvania markets including Harrisburg, Allentown, Bethlehem, Lancaster, York, Reading, Erie, State College, King of Prussia, and a direct Philadelphia city/county route. According to the Zillow Home Value Index, Pennsylvania's statewide median home value is approximately $287,000 (early 2026). Pennsylvania charges a 2% transfer tax (1% state + 1% local) — we cover all closing costs. Written offer within 24 hours, closing in 7–14 days.</p>
         </div>
 
 
@@ -166,7 +173,7 @@ export default function SellHouseFastPennsylvaniaPage() {
             {PA_MARKETS.map((market) => (
               <Link
                 key={market.slug}
-                href={`/markets/${market.slug}`}
+                href={market.slug.startsWith('direct:') ? '/sell-my-house-fast-philadelphia-pa' : `/markets/${market.slug}`}
                 className="block border border-gray-200 rounded-xl p-5 hover:border-brand-primary hover:shadow-sm transition-all"
               >
                 <div className="flex items-start justify-between mb-2">

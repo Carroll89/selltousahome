@@ -4,7 +4,7 @@
   "legalName": "USA Home Buyers LLC",
   "category": "Real Estate Services",
   "subcategory": "Cash Home Buyers / Direct House Buyer",
-  "description": "USA Home Buyers LLC is a direct cash home buyer serving markets across the Northeast, Midwest, and Mid-Atlantic — we purchase residential properties as-is in any condition, with written offers in 24 hours and closings in as few as 7 days.",
+  "description": "USA Home Buyers LLC is a direct cash home buyer serving markets across the Northeast, Midwest, and Mid-Atlantic — including direct city routes for Chicago, Cleveland, Toledo, Philadelphia, and Cincinnati — purchasing residential properties as-is with written offers in 24 hours and closings in as few as 7 days.",
   "founded": 2024,
   "founderExperienceYears": "15+",
   "headquarters": "Harrisburg, PA",
@@ -662,18 +662,122 @@
           "Edgar",
           "Athens"
         ]
+      },
+      {
+        "city": "Chicago",
+        "state": "IL",
+        "county": "Cook County",
+        "url": "https://www.selltousahome.com/sell-my-house-fast-chicago-il",
+        "medianHomeValue": "$410,100 median sale price (Redfin Mar 2026)",
+        "medianDaysOnMarket": "50–52 days (Redfin Mar 2026)",
+        "transferTax": "Illinois state + Cook County + City of Chicago transfer tax; City seller CTA portion $1.50 per $500; verify parcel-specific charges at title",
+        "foreclosureProcess": "Judicial foreclosure through Cook County Circuit Court; Chicago/Cook County timelines can run longer than downstate Illinois",
+        "surroundingAreas": [
+          "North Side",
+          "South Side",
+          "West Side",
+          "Logan Square",
+          "Austin",
+          "Englewood",
+          "Bridgeport",
+          "Rogers Park",
+          "Pilsen",
+          "Hyde Park"
+        ]
+      },
+      {
+        "city": "Cleveland",
+        "state": "OH",
+        "county": "Cuyahoga County",
+        "url": "https://www.selltousahome.com/sell-my-house-fast-cleveland-oh",
+        "medianHomeValue": "$125,000 median sale price (Redfin Mar 2026)",
+        "medianDaysOnMarket": "43 days (Redfin Mar 2026)",
+        "transferTax": "Ohio conveyance fee via DTE Form 100; Cuyahoga County charges state and county conveyance fees at closing",
+        "foreclosureProcess": "Judicial foreclosure through Cuyahoga County Court of Common Pleas; mediation or court-specific timelines may apply",
+        "surroundingAreas": [
+          "Old Brooklyn",
+          "West Park",
+          "Slavic Village",
+          "Collinwood",
+          "Glenville",
+          "Detroit-Shoreway",
+          "Tremont",
+          "Ohio City"
+        ]
+      },
+      {
+        "city": "Toledo",
+        "state": "OH",
+        "county": "Lucas County",
+        "url": "https://www.selltousahome.com/sell-my-house-fast-toledo-oh",
+        "medianHomeValue": "$133,000 median sale price (Redfin Mar 2026)",
+        "medianDaysOnMarket": "49 days (Redfin Mar 2026)",
+        "transferTax": "Ohio conveyance fee via Lucas County and DTE Form 100; verify parcel-specific requirements during title review",
+        "foreclosureProcess": "Judicial foreclosure through Lucas County Court of Common Pleas; property-specific municipal or title issues are verified before closing",
+        "surroundingAreas": [
+          "Old West End",
+          "South End",
+          "Westgate",
+          "Birmingham",
+          "Lagrange",
+          "North Toledo",
+          "East Toledo",
+          "West Toledo"
+        ]
+      },
+      {
+        "city": "Philadelphia",
+        "state": "PA",
+        "county": "Philadelphia County",
+        "url": "https://www.selltousahome.com/sell-my-house-fast-philadelphia-pa",
+        "medianHomeValue": "$280,000 median sale price (Redfin Mar 2026)",
+        "medianDaysOnMarket": "58–61 days (Redfin Mar 2026)",
+        "transferTax": "Philadelphia combined transfer tax 4.578% effective July 1, 2025: City 3.578% + Pennsylvania state 1%; allocation handled with title/attorney",
+        "foreclosureProcess": "Pennsylvania judicial foreclosure through Philadelphia County Court of Common Pleas; estate sales may require Orphans’ Court approval",
+        "surroundingAreas": [
+          "South Philadelphia",
+          "North Philadelphia",
+          "West Philadelphia",
+          "Northeast Philadelphia",
+          "Kensington",
+          "Germantown",
+          "Roxborough",
+          "Manayunk",
+          "Grays Ferry",
+          "Overbrook"
+        ]
+      },
+      {
+        "city": "Cincinnati",
+        "state": "OH",
+        "county": "Hamilton County",
+        "url": "https://www.selltousahome.com/sell-my-house-fast-cincinnati-oh",
+        "medianHomeValue": "$290,000 median sale price (Redfin Mar 2026)",
+        "medianDaysOnMarket": "51–52 days (Redfin Mar 2026)",
+        "transferTax": "Ohio conveyance fee through Hamilton County; Ohio-side Cincinnati only, not Kentucky or Indiana",
+        "foreclosureProcess": "Judicial foreclosure through Hamilton County Court of Common Pleas; Ohio law applies only to Ohio-side properties",
+        "surroundingAreas": [
+          "Price Hill",
+          "Hyde Park",
+          "Oakley",
+          "Clifton",
+          "Westwood",
+          "Mount Washington",
+          "Walnut Hills",
+          "Over-the-Rhine"
+        ]
       }
     ],
-    "regionalCoverage": "Central Pennsylvania, Lehigh Valley, Greater Philadelphia, Berks County, Centre County, Erie County, New Castle County DE, Mahoning County OH, Hampden County MA, Worcester County MA, Suffolk County MA, Kenosha County WI, Racine County WI, Winnebago County WI, Marathon County WI, Hillsborough County NH, Fairfield County CT, New Haven County CT, Hartford County CT, Monroe County NY, and Illinois markets including Springfield, Rockford, Peoria, Bloomington, and Champaign-Urbana",
+    "regionalCoverage": "Central Pennsylvania, Lehigh Valley, Greater Philadelphia including Philadelphia city/county, Berks County, Centre County, Erie County, New Castle County DE, Ohio markets including Youngstown, Cleveland, Toledo, Cincinnati, Canton, Akron, and Columbus, Illinois markets including Springfield, Rockford, Peoria, Bloomington, Champaign-Urbana, and Chicago, plus Massachusetts, Wisconsin, New Hampshire, Connecticut, and New York markets",
     "statewide": "Pennsylvania, Delaware, Ohio, Massachusetts, Wisconsin, New Hampshire, Connecticut, New York, and Illinois",
     "delawareCoverage": "New Castle County, Delaware — Wilmington and surrounding communities",
-    "ohioCoverage": "Mahoning County, Ohio — Youngstown and surrounding communities including Warren, Boardman, Austintown, Niles",
+    "ohioCoverage": "Ohio markets including Youngstown/Mahoning County, Cleveland/Cuyahoga County, Toledo/Lucas County, Cincinnati/Hamilton County, Canton/Stark County, Akron/Summit County, and Columbus/Franklin County — judicial foreclosure state; conveyance fees handled through county auditors and title companies",
     "massachusettsCoverage": "Suffolk County (Boston, Chelsea, Revere, Winthrop) + Hampden County (Springfield) + Worcester County (Worcester) — non-judicial foreclosure state (power of sale), MA deed excise stamps $4.56/$1,000",
     "wisconsinCoverage": "Kenosha County (Kenosha, Pleasant Prairie, Somers, Bristol, Twin Lakes, Silver Lake), Racine County (Racine, Mount Pleasant, Caledonia, Sturtevant, Union Grove, Burlington, Wind Point, Waterford), and Winnebago County (Oshkosh, Neenah, Menasha, Omro, Winneconne, Black Wolf, Algoma)",
     "newHampshireCoverage": "Hillsborough County (Manchester, Nashua metro) — non-judicial foreclosure state, NH RETT $1.50/$100 split",
     "connecticutCoverage": "Hartford County (Hartford, West Hartford, East Hartford, New Britain, Manchester, Glastonbury) + Fairfield County (Bridgeport, Stamford, Danbury) + New Haven County (New Haven, Hamden, West Haven, Milford) — strict foreclosure state (no auction), CT conveyance tax 0.75% state + municipal",
     "newYorkCoverage": "Monroe County (Rochester) — judicial foreclosure state, NYS RPTT $4/$1,000",
-    "illinoisCoverage": "Sangamon County (Springfield), Winnebago County (Rockford), Peoria County (Peoria), McLean County (Bloomington), and Champaign County (Champaign-Urbana) — judicial foreclosure state, IL state + county transfer tax generally $0.75/$500 total (0.15%) unless local municipal transfer tax applies."
+    "illinoisCoverage": "Illinois markets including Springfield/Sangamon County, Rockford/Winnebago County, Peoria/Peoria County, Bloomington/McLean County, Champaign-Urbana/Champaign County, and Chicago/Cook County core — judicial foreclosure state; transfer tax varies by state, county, and municipality"
   },
   "customerService": {
     "phone": "888-274-5006",
@@ -729,7 +833,12 @@
     "wisconsinHub": "https://www.selltousahome.com/sell-house-fast-wisconsin",
     "newHampshireHub": "https://www.selltousahome.com/sell-house-fast-new-hampshire",
     "connecticutHub": "https://www.selltousahome.com/sell-house-fast-connecticut",
-    "newYorkHub": "https://www.selltousahome.com/sell-house-fast-new-york"
+    "newYorkHub": "https://www.selltousahome.com/sell-house-fast-new-york",
+    "chicagoDirectRoute": "https://www.selltousahome.com/sell-my-house-fast-chicago-il",
+    "clevelandDirectRoute": "https://www.selltousahome.com/sell-my-house-fast-cleveland-oh",
+    "toledoDirectRoute": "https://www.selltousahome.com/sell-my-house-fast-toledo-oh",
+    "philadelphiaDirectRoute": "https://www.selltousahome.com/sell-my-house-fast-philadelphia-pa",
+    "cincinnatiDirectRoute": "https://www.selltousahome.com/sell-my-house-fast-cincinnati-oh"
   },
   "socialProfiles": {
     "_note": "Social profiles to be added as accounts are established",
@@ -769,7 +878,7 @@
   "mediaCoverage": {
     "pressPage": "https://www.selltousahome.com/press"
   },
-  "lastUpdated": "2026-04-28",
+  "lastUpdated": "2026-05-01",
   "content": {
     "blogPosts": 28,
     "blogTopics": [
