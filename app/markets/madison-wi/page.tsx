@@ -7,7 +7,8 @@ import { TestimonialBlock } from '@/components/TestimonialBlock';
 import { ComparisonTable } from '@/components/ComparisonTable';
 import { SituationLinks } from '@/components/SituationLinks';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
-import { madisonLocalBusinessSchema, faqSchema } from '@/lib/schema';
+import { VideoEmbed } from '@/components/VideoEmbed';
+import { madisonLocalBusinessSchema, faqSchema, videoObjectSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
 import { BlogClusterLinks } from '@/components/BlogClusterLinks';
 import Link from 'next/link';
@@ -130,7 +131,20 @@ export default function MadisonWIMarketPage() {
 
   return (
     <>
-      <SchemaMarkup schema={[madisonLocalBusinessSchema, faqSchema(FAQ_ITEMS), howToSchema]} />
+      <SchemaMarkup
+        schema={[
+          madisonLocalBusinessSchema,
+          faqSchema(FAQ_ITEMS),
+          howToSchema,
+          videoObjectSchema({
+            name: 'Sell My House Fast Madison WI — USA Home Buyers',
+            description: 'A short overview for Madison WI homeowners considering a direct as-is cash sale.',
+            contentUrl: `${SITE_URL}/videos/madison-wi/landing.mp4`,
+            thumbnailUrl: `${SITE_URL}/images/video-posters/madison-wi-main-poster.jpg`,
+            uploadDate: '2026-05-02',
+          }),
+        ]}
+      />
 
       <section className="relative text-white py-16 px-4 overflow-hidden">
         <picture className="absolute inset-0 w-full h-full">
@@ -175,6 +189,28 @@ export default function MadisonWIMarketPage() {
       </section>
 
       <div className="max-w-7xl mx-auto px-4 py-8">
+
+        {/* VIDEO_CAPTION_EXCEPTION: estimated captions pending human timing review — date:2026-05-02 approver:Dan; Adam voice ID Ib97zM6uFBc71OWgj75I verified by Lens */}
+        <VideoEmbed
+          src="/videos/madison-wi/landing.mp4"
+          title="Sell My House Fast Madison WI — USA Home Buyers"
+          poster="/images/video-posters/madison-wi-main-poster.jpg"
+          captionsSrc="/videos/madison-wi/landing-captions.vtt"
+          captionsLabel="English captions"
+          subtitle="A short overview for Madison WI homeowners considering a direct as-is cash sale."
+        />
+        <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+          <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+            📝 Video Transcript
+          </summary>
+          <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+            <p className="mb-3">If you need to sell your house fast in Madison, Wisconsin, USA Home Buyers can give you a direct as-is option without repairs, showings, or agent commissions. We buy homes across Madison and Dane County, including Marquette and Willy Street, Tenney-Lapham, Vilas, South Madison, Capitol-area neighborhoods, and Dudgeon-Monroe.</p>
+            <p className="mb-3">Madison can be a strong market, but not every house is easy to list. You may have inherited an older home, be dealing with a student rental, have tenants in place, need to sell during probate, or simply want to avoid months of repairs and open houses. You do not have to clean out every room, update old systems, or make the property retail-perfect before we can talk.</p>
+            <p className="mb-3">The process is simple. Tell us about the house, the condition, and your timeline. We review the property, answer your questions, and give you a written cash offer. If it works, you choose the closing date. If you need more time, we can talk through that too.</p>
+            <p className="mb-3">There is no obligation and no pressure. Our job is to explain the offer clearly so you know what happens next, what costs are avoided, and whether an as-is sale makes sense. For a practical cash-sale option on a Madison-area home, call USA Home Buyers at 888-274-5006. We will walk you through the next step.</p>
+          </div>
+        </details>
+
         <HowItWorks />
 
         <section className="my-12">

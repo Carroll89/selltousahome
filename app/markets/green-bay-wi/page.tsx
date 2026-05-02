@@ -7,7 +7,8 @@ import { TestimonialBlock } from '@/components/TestimonialBlock';
 import { ComparisonTable } from '@/components/ComparisonTable';
 import { SituationLinks } from '@/components/SituationLinks';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
-import { greenBayLocalBusinessSchema, faqSchema } from '@/lib/schema';
+import { VideoEmbed } from '@/components/VideoEmbed';
+import { greenBayLocalBusinessSchema, faqSchema, videoObjectSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
 import { BlogClusterLinks } from '@/components/BlogClusterLinks';
 import Link from 'next/link';
@@ -130,7 +131,20 @@ export default function GreenBayWIMarketPage() {
 
   return (
     <>
-      <SchemaMarkup schema={[greenBayLocalBusinessSchema, faqSchema(FAQ_ITEMS), howToSchema]} />
+      <SchemaMarkup
+        schema={[
+          greenBayLocalBusinessSchema,
+          faqSchema(FAQ_ITEMS),
+          howToSchema,
+          videoObjectSchema({
+            name: 'Sell My House Fast Green Bay WI — USA Home Buyers',
+            description: 'A short overview for Green Bay WI homeowners considering a direct as-is cash sale.',
+            contentUrl: `${SITE_URL}/videos/green-bay-wi/landing.mp4`,
+            thumbnailUrl: `${SITE_URL}/images/video-posters/green-bay-wi-main-poster.jpg`,
+            uploadDate: '2026-05-02',
+          }),
+        ]}
+      />
 
       <section className="relative text-white py-16 px-4 overflow-hidden">
         <picture className="absolute inset-0 w-full h-full">
@@ -175,6 +189,28 @@ export default function GreenBayWIMarketPage() {
       </section>
 
       <div className="max-w-7xl mx-auto px-4 py-8">
+
+        {/* VIDEO_CAPTION_EXCEPTION: estimated captions pending human timing review — date:2026-05-02 approver:Dan; Adam voice ID Ib97zM6uFBc71OWgj75I verified by Lens */}
+        <VideoEmbed
+          src="/videos/green-bay-wi/landing.mp4"
+          title="Sell My House Fast Green Bay WI — USA Home Buyers"
+          poster="/images/video-posters/green-bay-wi-main-poster.jpg"
+          captionsSrc="/videos/green-bay-wi/landing-captions.vtt"
+          captionsLabel="English captions"
+          subtitle="A short overview for Green Bay WI homeowners considering a direct as-is cash sale."
+        />
+        <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+          <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+            📝 Video Transcript
+          </summary>
+          <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+            <p className="mb-3">If you need to sell your house fast in Green Bay, Wisconsin, USA Home Buyers can make you a direct cash offer and buy the property as-is. We work with homeowners across Green Bay and Brown County, including Astor Park, Fort Howard, Downtown Green Bay, and the broader Green Bay area.</p>
+            <p className="mb-3">Some Green Bay homes are not a simple retail listing. The house may be inherited, vacant, tenant-occupied, near the stadium area, older, or carrying repairs you do not want to manage. You do not have to fix the roof, clean out the basement, update old systems, or wait for a buyer to ask for credits after inspection.</p>
+            <p className="mb-3">Here is how it works. You tell us about the property and your preferred timeline. We review the home, answer your questions, and give you a written cash offer. If it works, you choose when to close. If you need time for family, moving, or probate details, we can discuss that upfront.</p>
+            <p className="mb-3">There are no agent commissions and no obligation. We explain the offer in plain English so you know what to expect before making a decision. For a no-pressure cash offer on a Green Bay-area house, call USA Home Buyers at 888-274-5006. We will help you decide whether selling as-is is the right move.</p>
+          </div>
+        </details>
+
         <HowItWorks />
 
         <section className="my-12">

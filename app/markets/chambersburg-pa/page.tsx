@@ -7,7 +7,8 @@ import { TestimonialBlock } from '@/components/TestimonialBlock';
 import { ComparisonTable } from '@/components/ComparisonTable';
 import { SituationLinks } from '@/components/SituationLinks';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
-import { chambersburgLocalBusinessSchema, faqSchema } from '@/lib/schema';
+import { VideoEmbed } from '@/components/VideoEmbed';
+import { chambersburgLocalBusinessSchema, faqSchema, videoObjectSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
 import { BlogClusterLinks } from '@/components/BlogClusterLinks';
 import Link from 'next/link';
@@ -130,7 +131,20 @@ export default function ChambersburgPAMarketPage() {
 
   return (
     <>
-      <SchemaMarkup schema={[chambersburgLocalBusinessSchema, faqSchema(FAQ_ITEMS), howToSchema]} />
+      <SchemaMarkup
+        schema={[
+          chambersburgLocalBusinessSchema,
+          faqSchema(FAQ_ITEMS),
+          howToSchema,
+          videoObjectSchema({
+            name: 'Sell My House Fast Chambersburg PA — USA Home Buyers',
+            description: 'A short overview for Chambersburg PA homeowners considering a direct as-is cash sale.',
+            contentUrl: `${SITE_URL}/videos/chambersburg-pa/landing.mp4`,
+            thumbnailUrl: `${SITE_URL}/images/video-posters/chambersburg-pa-main-poster.jpg`,
+            uploadDate: '2026-05-02',
+          }),
+        ]}
+      />
 
       <section className="relative text-white py-16 px-4 overflow-hidden">
         <picture className="absolute inset-0 w-full h-full">
@@ -175,6 +189,28 @@ export default function ChambersburgPAMarketPage() {
       </section>
 
       <div className="max-w-7xl mx-auto px-4 py-8">
+
+        {/* VIDEO_CAPTION_EXCEPTION: estimated captions pending human timing review — date:2026-05-02 approver:Dan; Adam voice ID Ib97zM6uFBc71OWgj75I verified by Lens */}
+        <VideoEmbed
+          src="/videos/chambersburg-pa/landing.mp4"
+          title="Sell My House Fast Chambersburg PA — USA Home Buyers"
+          poster="/images/video-posters/chambersburg-pa-main-poster.jpg"
+          captionsSrc="/videos/chambersburg-pa/landing-captions.vtt"
+          captionsLabel="English captions"
+          subtitle="A short overview for Chambersburg PA homeowners considering a direct as-is cash sale."
+        />
+        <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+          <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+            📝 Video Transcript
+          </summary>
+          <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+            <p className="mb-3">If you need to sell your house fast in Chambersburg, Pennsylvania, USA Home Buyers can help you avoid repairs, showings, and drawn-out negotiations. We buy houses as-is in Chambersburg and Franklin County, including Downtown Chambersburg, the Chambersburg Historic District, Hamilton Heights, and nearby Interstate 81 corridor neighborhoods.</p>
+            <p className="mb-3">This can be especially helpful when the property is inherited, vacant, behind on payments, tied to a family deadline, or too repair-heavy for a traditional listing. Older homes near the historic district can come with maintenance questions, cleanout needs, title issues, or buyers who want inspection credits. You do not have to renovate first or make the house perfect before reaching out.</p>
+            <p className="mb-3">Start with a simple conversation about the property and what you need to solve. We review the house, answer your questions, and give you a written cash offer. If it fits your situation, you choose the closing date. If it does not, there is no fee and no obligation.</p>
+            <p className="mb-3">Our goal is certainty. You get a clear number, a clear process, and a local path that does not depend on a buyer's financing or repair demands. If you want a straightforward cash offer for a Chambersburg-area home, call USA Home Buyers at 888-274-5006. We will help you understand your options calmly.</p>
+          </div>
+        </details>
+
         <HowItWorks />
 
         <section className="my-12">

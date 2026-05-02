@@ -6,7 +6,8 @@ import { FAQSection } from '@/components/FAQSection';
 import { ComparisonTable } from '@/components/ComparisonTable';
 import { SituationLinks } from '@/components/SituationLinks';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
-import { janesvilleLocalBusinessSchema, faqSchema } from '@/lib/schema';
+import { VideoEmbed } from '@/components/VideoEmbed';
+import { janesvilleLocalBusinessSchema, faqSchema, videoObjectSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
 import { BlogClusterLinks } from '@/components/BlogClusterLinks';
 import Link from 'next/link';
@@ -78,7 +79,20 @@ export default function JanesvilleWIMarketPage() {
 
   return (
     <>
-      <SchemaMarkup schema={[janesvilleLocalBusinessSchema, faqSchema(FAQ_ITEMS), howToSchema]} />
+      <SchemaMarkup
+        schema={[
+          janesvilleLocalBusinessSchema,
+          faqSchema(FAQ_ITEMS),
+          howToSchema,
+          videoObjectSchema({
+            name: 'Sell My House Fast Janesville WI — USA Home Buyers',
+            description: 'A short overview for Janesville WI homeowners considering a direct as-is cash sale.',
+            contentUrl: `${SITE_URL}/videos/janesville-wi/landing.mp4`,
+            thumbnailUrl: `${SITE_URL}/images/video-posters/janesville-wi-main-poster.jpg`,
+            uploadDate: '2026-05-02',
+          }),
+        ]}
+      />
 
       <section className="relative text-white py-16 px-4 overflow-hidden">
         <picture className="absolute inset-0 w-full h-full">
@@ -123,6 +137,28 @@ export default function JanesvilleWIMarketPage() {
       </section>
 
       <div className="max-w-7xl mx-auto px-4 py-8">
+
+        {/* VIDEO_CAPTION_EXCEPTION: estimated captions pending human timing review — date:2026-05-02 approver:Dan; Adam voice ID Ib97zM6uFBc71OWgj75I verified by Lens */}
+        <VideoEmbed
+          src="/videos/janesville-wi/landing.mp4"
+          title="Sell My House Fast Janesville WI — USA Home Buyers"
+          poster="/images/video-posters/janesville-wi-main-poster.jpg"
+          captionsSrc="/videos/janesville-wi/landing-captions.vtt"
+          captionsLabel="English captions"
+          subtitle="A short overview for Janesville WI homeowners considering a direct as-is cash sale."
+        />
+        <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+          <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+            📝 Video Transcript
+          </summary>
+          <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+            <p className="mb-3">If you need to sell your house fast in Janesville, Wisconsin, USA Home Buyers gives you a simple as-is cash-sale option. We buy homes throughout Janesville and Rock County, including Courthouse Hill, Old Fourth Ward, Rockport, Monterey, Downtown Janesville, and nearby working-class neighborhoods along the Rock River.</p>
+            <p className="mb-3">This is for sellers who need certainty more than a long listing process. The property may be inherited, older, vacant, tenant-occupied, facing foreclosure pressure, or in need of repairs that do not make sense to complete before selling. You do not have to restore a historic home, clean everything out, or wait on a buyer's financing.</p>
+            <p className="mb-3">The first step is easy. Tell us about the house, the condition, and the timeline that would help you. We review the property and provide a written cash offer. If the offer works, you choose the closing date. If you need extra time, we can work around that when possible.</p>
+            <p className="mb-3">There is no commission, no required repair list, and no obligation to accept. We focus on making the next step clear so you can compare your options without pressure. For a straightforward cash offer on a Janesville-area home, call USA Home Buyers at 888-274-5006. We will explain the process and help you move forward.</p>
+          </div>
+        </details>
+
         <HowItWorks />
 
         <section className="my-12">

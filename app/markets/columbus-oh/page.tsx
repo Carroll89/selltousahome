@@ -6,7 +6,8 @@ import { FAQSection } from '@/components/FAQSection';
 import { ComparisonTable } from '@/components/ComparisonTable';
 import { SituationLinks } from '@/components/SituationLinks';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
-import { columbusLocalBusinessSchema, faqSchema } from '@/lib/schema';
+import { VideoEmbed } from '@/components/VideoEmbed';
+import { columbusLocalBusinessSchema, faqSchema, videoObjectSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
 import { BlogClusterLinks } from '@/components/BlogClusterLinks';
 import Link from 'next/link';
@@ -78,7 +79,20 @@ export default function ColumbusOHMarketPage() {
 
   return (
     <>
-      <SchemaMarkup schema={[columbusLocalBusinessSchema, faqSchema(FAQ_ITEMS), howToSchema]} />
+      <SchemaMarkup
+        schema={[
+          columbusLocalBusinessSchema,
+          faqSchema(FAQ_ITEMS),
+          howToSchema,
+          videoObjectSchema({
+            name: 'Sell My House Fast Columbus OH — USA Home Buyers',
+            description: 'A short overview for Columbus OH homeowners considering a direct as-is cash sale.',
+            contentUrl: `${SITE_URL}/videos/columbus-oh/landing.mp4`,
+            thumbnailUrl: `${SITE_URL}/images/video-posters/columbus-oh-main-poster.jpg`,
+            uploadDate: '2026-05-02',
+          }),
+        ]}
+      />
 
       <section className="relative text-white py-16 px-4 overflow-hidden">
         <picture className="absolute inset-0 w-full h-full">
@@ -123,6 +137,28 @@ export default function ColumbusOHMarketPage() {
       </section>
 
       <div className="max-w-7xl mx-auto px-4 py-8">
+
+        {/* VIDEO_CAPTION_EXCEPTION: estimated captions pending human timing review — date:2026-05-02 approver:Dan; Adam voice ID Ib97zM6uFBc71OWgj75I verified by Lens */}
+        <VideoEmbed
+          src="/videos/columbus-oh/landing.mp4"
+          title="Sell My House Fast Columbus OH — USA Home Buyers"
+          poster="/images/video-posters/columbus-oh-main-poster.jpg"
+          captionsSrc="/videos/columbus-oh/landing-captions.vtt"
+          captionsLabel="English captions"
+          subtitle="A short overview for Columbus OH homeowners considering a direct as-is cash sale."
+        />
+        <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+          <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+            📝 Video Transcript
+          </summary>
+          <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+            <p className="mb-3">If you need to sell your house fast in Columbus, Ohio, USA Home Buyers can help you avoid repairs, showings, and months of uncertainty. We buy homes as-is across Columbus and Franklin County, including Franklinton, Linden, Hilltop, Clintonville, the South Side, and the University District.</p>
+            <p className="mb-3">Columbus is a large market, but a normal listing still may not fit your situation. The property might be inherited, vacant, tenant-occupied, behind on payments, tied to a probate timeline, or located in an older neighborhood where repairs and code items can slow everything down. You do not have to clean it out, update it, or manage contractors before speaking with us.</p>
+            <p className="mb-3">We start by learning about the house and your timeline. Then we review the property, answer your questions, and give you a written cash offer. If it works for you, you pick the closing date. If it does not, there is no pressure and no fee.</p>
+            <p className="mb-3">Our role is to give Columbus homeowners a practical as-is option when speed and certainty matter. We are not making promises about your buyer pool or resale plan; we are giving you a clear offer and a simpler path. For a no-obligation cash offer, call USA Home Buyers at 888-274-5006. We will walk you through the next step.</p>
+          </div>
+        </details>
+
         <HowItWorks />
 
         <section className="my-12">
