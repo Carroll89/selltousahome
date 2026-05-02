@@ -12,6 +12,7 @@
  */
 import type { Metadata } from 'next';
 import { CashOfferForm } from '@/components/CashOfferForm';
+import { BlogClusterLinks } from '@/components/BlogClusterLinks';
 import { HowItWorks } from '@/components/HowItWorks';
 import { FAQSection } from '@/components/FAQSection';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
@@ -238,6 +239,8 @@ export default function ChicagoILPage() {
             not typically operate.
           </p>
         </section>
+
+        <BlogClusterLinks marketSlug="chicago-il" cityName="Chicago" />
 
         <FAQSection items={FAQ_ITEMS} heading="FAQs — Selling a House in Chicago, IL" />
 

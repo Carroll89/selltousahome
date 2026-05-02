@@ -35,6 +35,7 @@
  */
 import type { Metadata } from 'next';
 import { CashOfferForm } from '@/components/CashOfferForm';
+import { BlogClusterLinks } from '@/components/BlogClusterLinks';
 import { HowItWorks } from '@/components/HowItWorks';
 import { FAQSection } from '@/components/FAQSection';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
@@ -277,6 +278,8 @@ export default function PhiladelphiaPAPage() {
             Montgomery County, PA — those are separate states and counties with different legal requirements.
           </p>
         </section>
+
+        <BlogClusterLinks marketSlug="philadelphia-pa" cityName="Philadelphia" />
 
         <FAQSection items={FAQ_ITEMS} heading="FAQs — Selling a House in Philadelphia, PA" />
 
