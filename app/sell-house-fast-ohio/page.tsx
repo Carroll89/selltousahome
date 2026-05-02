@@ -122,6 +122,49 @@ export default function OhioHubPage() {
                 Sell Your Youngstown Home →
               </Link>
             </div>
+
+            <div className="bg-blue-50 border border-blue-100 rounded-2xl p-6">
+              <h3 className="text-xl font-bold text-brand-dark mb-2">Cleveland, OH</h3>
+              <p className="text-gray-700 text-sm mb-3">
+                Cuyahoga County. Older colonials, bungalows, and lake-effect maintenance issues. City-specific page covers Cuyahoga County paperwork, foreclosure timelines, and as-is cash sale options.
+              </p>
+              <ul className="text-sm text-gray-600 space-y-1 mb-4">
+                <li>→ Cuyahoga County conveyance and DTE 100 process</li>
+                <li>→ Judicial foreclosure through Common Pleas Court</li>
+                <li>→ Cash offer based on condition and local comps</li>
+              </ul>
+              <Link href="/sell-my-house-fast-cleveland-oh" className="inline-block bg-brand-primary text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors">
+                Sell Your Cleveland Home →
+              </Link>
+            </div>
+            <div className="bg-blue-50 border border-blue-100 rounded-2xl p-6">
+              <h3 className="text-xl font-bold text-brand-dark mb-2">Toledo, OH</h3>
+              <p className="text-gray-700 text-sm mb-3">
+                Lucas County. Direct Toledo guidance for point-of-sale requirement checks, Lucas County conveyance paperwork, tenant-occupied rentals, and as-is cash offers.
+              </p>
+              <ul className="text-sm text-gray-600 space-y-1 mb-4">
+                <li>→ Lucas County conveyance and DTE 100 process</li>
+                <li>→ Property-specific requirements verified up front</li>
+                <li>→ Cash offer for Old West End, South End, Westgate, and more</li>
+              </ul>
+              <Link href="/sell-my-house-fast-toledo-oh" className="inline-block bg-brand-primary text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors">
+                Sell Your Toledo Home →
+              </Link>
+            </div>
+            <div className="bg-blue-50 border border-blue-100 rounded-2xl p-6">
+              <h3 className="text-xl font-bold text-brand-dark mb-2">Cincinnati, OH</h3>
+              <p className="text-gray-700 text-sm mb-3">
+                Hamilton County / Ohio side only. Direct Cincinnati page covers hillside lots, Hamilton County conveyance, and Ohio-specific probate or foreclosure issues.
+              </p>
+              <ul className="text-sm text-gray-600 space-y-1 mb-4">
+                <li>→ Hamilton County conveyance handled through title</li>
+                <li>→ Ohio-side scope, not Kentucky or Indiana</li>
+                <li>→ Cash offers for steep lots and older housing stock</li>
+              </ul>
+              <Link href="/sell-my-house-fast-cincinnati-oh" className="inline-block bg-brand-primary text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors">
+                Sell Your Cincinnati Home →
+              </Link>
+            </div>
             <div className="bg-blue-50 border border-blue-100 rounded-2xl p-6">
               <h3 className="text-xl font-bold text-brand-dark mb-2">Canton, OH</h3>
               <p className="text-gray-700 text-sm mb-3">

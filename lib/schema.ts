@@ -905,6 +905,72 @@ const CITY_CONFIGS: Record<string, CityConfig> = {
       { '@type': 'County', name: 'Franklin County' },
     ],
   },
+  // ── Batch 004 (authorized 2026-05-01) ──────────────────────────────────────
+  chicagoIL: {
+    city: 'Chicago',
+    region: 'IL',
+    postalCode: '60601',
+    lat: 41.8781,
+    lng: -87.6298,
+    description:
+      'Cash home buyers in Chicago, IL. We buy houses as-is — bungalows, 2-flats, greystones — in any neighborhood, any condition. No repairs, no agent fees. We handle Cook County closing paperwork and the City of Chicago transfer tax.',
+    areaServed: [
+      { '@type': 'City', name: 'Chicago', sameAs: 'https://en.wikipedia.org/wiki/Chicago' },
+      { '@type': 'County', name: 'Cook County' },
+    ],
+  },
+  clevelandOH: {
+    city: 'Cleveland',
+    region: 'OH',
+    postalCode: '44113',
+    lat: 41.4993,
+    lng: -81.6944,
+    description:
+      'Cash home buyers in Cleveland, OH and Cuyahoga County. We buy houses as-is — Colonials, bungalows, Cape Cods — any condition. No repairs, no agent fees. We handle the DTE 100 conveyance process and Cuyahoga County closing paperwork.',
+    areaServed: [
+      { '@type': 'City', name: 'Cleveland', sameAs: 'https://en.wikipedia.org/wiki/Cleveland' },
+      { '@type': 'County', name: 'Cuyahoga County' },
+    ],
+  },
+  toledoOH: {
+    city: 'Toledo',
+    region: 'OH',
+    postalCode: '43604',
+    lat: 41.6638,
+    lng: -83.5552,
+    description:
+      'Local cash home buyers in Toledo, OH. No repairs, no agent fees, and no inspection-delay surprises. We handle Lucas County DTE 100 conveyance paperwork and coordinate deed recording with the Lucas County Recorder.',
+    areaServed: [
+      { '@type': 'City', name: 'Toledo', sameAs: 'https://en.wikipedia.org/wiki/Toledo,_Ohio' },
+      { '@type': 'County', name: 'Lucas County' },
+    ],
+  },
+  philadelphiaPA: {
+    city: 'Philadelphia',
+    region: 'PA',
+    postalCode: '19103',
+    lat: 39.9526,
+    lng: -75.1652,
+    description:
+      'Cash home buyers in Philadelphia, PA. We buy row homes as-is — any neighborhood, any condition. No repairs, no agent fees. We handle the Philadelphia transfer tax with your title company and attorney.',
+    areaServed: [
+      { '@type': 'City', name: 'Philadelphia', sameAs: 'https://en.wikipedia.org/wiki/Philadelphia' },
+      { '@type': 'County', name: 'Philadelphia County' },
+    ],
+  },
+  cincinnatiOH: {
+    city: 'Cincinnati',
+    region: 'OH',
+    postalCode: '45202',
+    lat: 39.1031,
+    lng: -84.5120,
+    description:
+      'Cash home buyers in Cincinnati, OH (Hamilton County, Ohio side). We buy houses as-is — Victorians, ranches, any condition. Hamilton County conveyance fee $3.00 per $1,000. No repairs, no agent fees.',
+    areaServed: [
+      { '@type': 'City', name: 'Cincinnati', sameAs: 'https://en.wikipedia.org/wiki/Cincinnati' },
+      { '@type': 'County', name: 'Hamilton County' },
+    ],
+  },
   // ── Batch 003 (authorized 2026-05-01) ──────────────────────────────────────
   madison: {
     city: 'Madison',
@@ -1013,7 +1079,7 @@ const CITY_CONFIGS: Record<string, CityConfig> = {
   },
 };
 
-export function localBusinessSchemaFor(cityKey: 'harrisburg' | 'allentown' | 'bethlehem' | 'kingOfPrussia' | 'reading' | 'stateCollege' | 'erie' | 'lancaster' | 'york' | 'wilmington' | 'youngstown' | 'springfield' | 'kenosha' | 'manchester' | 'bridgeport' | 'worcester' | 'rochester' | 'racineMountPleasant' | 'springfieldIL' | 'rockfordIL' | 'newHaven' | 'oshkosh' | 'peoriaIL' | 'bloomingtonIL' | 'champaignUrbanaIL' | 'boston' | 'hartford' | 'wausau' | 'appleton' | 'canton' | 'milwaukee' | 'akron' | 'concord' | 'norwich' | 'northampton' | 'eauClaire' | 'janesville' | 'columbus' | 'madison' | 'chambersburg' | 'greenBay' | 'waterbury' | 'binghamton') {
+export function localBusinessSchemaFor(cityKey: 'chicagoIL' | 'clevelandOH' | 'toledoOH' | 'philadelphiaPA' | 'cincinnatiOH' | 'harrisburg' | 'allentown' | 'bethlehem' | 'kingOfPrussia' | 'reading' | 'stateCollege' | 'erie' | 'lancaster' | 'york' | 'wilmington' | 'youngstown' | 'springfield' | 'kenosha' | 'manchester' | 'bridgeport' | 'worcester' | 'rochester' | 'racineMountPleasant' | 'springfieldIL' | 'rockfordIL' | 'newHaven' | 'oshkosh' | 'peoriaIL' | 'bloomingtonIL' | 'champaignUrbanaIL' | 'boston' | 'hartford' | 'wausau' | 'appleton' | 'canton' | 'milwaukee' | 'akron' | 'concord' | 'norwich' | 'northampton' | 'eauClaire' | 'janesville' | 'columbus' | 'madison' | 'chambersburg' | 'greenBay' | 'waterbury' | 'binghamton') {
   const cfg = CITY_CONFIGS[cityKey];
   return {
     '@context': 'https://schema.org',
@@ -1549,6 +1615,22 @@ export const janesvilleWILocalBusinessSchema = localBusinessSchemaFor('janesvill
 /** Pre-built Columbus OH LocalBusiness schema */
 export const columbusLocalBusinessSchema = localBusinessSchemaFor('columbus');
 export const columbusOHLocalBusinessSchema = localBusinessSchemaFor('columbus');
+
+// ── Batch 004 exports (authorized 2026-05-01) ──────────────────────────────────────
+/** Pre-built Chicago IL LocalBusiness schema */
+export const chicagoILLocalBusinessSchema = localBusinessSchemaFor('chicagoIL');
+
+/** Pre-built Cleveland OH LocalBusiness schema */
+export const clevelandOHLocalBusinessSchema = localBusinessSchemaFor('clevelandOH');
+
+/** Pre-built Toledo OH LocalBusiness schema */
+export const toledoOHLocalBusinessSchema = localBusinessSchemaFor('toledoOH');
+
+/** Pre-built Philadelphia PA LocalBusiness schema */
+export const philadelphiaPALocalBusinessSchema = localBusinessSchemaFor('philadelphiaPA');
+
+/** Pre-built Cincinnati OH LocalBusiness schema */
+export const cincinnatiOHLocalBusinessSchema = localBusinessSchemaFor('cincinnatiOH');
 
 // ── Batch 003 exports (authorized 2026-05-01) ──────────────────────────────────
 /** Pre-built Madison WI LocalBusiness schema */
