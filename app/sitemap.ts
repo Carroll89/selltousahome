@@ -59,6 +59,12 @@ const marketSlugs = [
   "eau-claire-wi",
   "janesville-wi",
   "columbus-oh",
+  // --- Batch 005 (authorized 2026-05-03) ---
+  "dayton-oh",
+  "richmond-va",
+  "st-louis-mo",
+  "scranton-pa",
+  "fort-wayne-in",
 ];
 
 // property-liens is NOT in this shared list — only erie-pa, harrisburg-pa, reading-pa
@@ -144,6 +150,12 @@ const cityGuideSlugs = [
   "sell-house-fast-eau-claire-wi-2026",
   "sell-house-fast-janesville-wi-2026",
   "sell-house-fast-columbus-oh-2026",
+  // --- Batch 005 guides ---
+  "sell-house-fast-dayton-oh-2026",
+  "sell-house-fast-richmond-va-2026",
+  "sell-house-fast-st-louis-mo-2026",
+  "sell-house-fast-scranton-pa-2026",
+  "sell-house-fast-fort-wayne-in-2026",
 ];
 
 const directMarketPageSlugs = [
@@ -204,6 +216,10 @@ const staticEntries: SitemapEntry[] = [
     priority: 0.9,
     changeFrequency: "monthly",
   },
+  // --- Batch 005 state hubs ---
+  { path: "/sell-house-fast-virginia", priority: 0.9, changeFrequency: "monthly" },
+  { path: "/sell-house-fast-missouri", priority: 0.9, changeFrequency: "monthly" },
+  { path: "/sell-house-fast-indiana", priority: 0.9, changeFrequency: "monthly" },
   { path: "/guides", priority: 0.9, changeFrequency: "monthly" },
   {
     path: "/guides/behind-on-payments",

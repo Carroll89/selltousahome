@@ -24,6 +24,25 @@ const marketsByState: {
       { href: "/markets/york-pa", label: "York" },
       { href: "/markets/chambersburg-pa", label: "Chambersburg" },
       { href: "/sell-my-house-fast-philadelphia-pa", label: "Philadelphia" },
+      { href: "/markets/scranton-pa", label: "Scranton" },
+    ],
+  },
+  {
+    state: "Virginia",
+    cities: [
+      { href: "/markets/richmond-va", label: "Richmond" },
+    ],
+  },
+  {
+    state: "Missouri",
+    cities: [
+      { href: "/markets/st-louis-mo", label: "St. Louis" },
+    ],
+  },
+  {
+    state: "Indiana",
+    cities: [
+      { href: "/markets/fort-wayne-in", label: "Fort Wayne" },
     ],
   },
   {
@@ -40,6 +59,7 @@ const marketsByState: {
       { href: "/sell-my-house-fast-toledo-oh", label: "Toledo" },
       { href: "/sell-my-house-fast-cincinnati-oh", label: "Cincinnati" },
       { href: "/markets/columbus-oh", label: "Columbus" },
+      { href: "/markets/dayton-oh", label: "Dayton" },
     ],
   },
   {

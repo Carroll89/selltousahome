@@ -125,6 +125,13 @@ const PA_MARKETS = [
     surrounding: 'Waynesboro, Greencastle, Mercersburg, Shippensburg',
   },
   {
+    city: 'Scranton',
+    county: 'Lackawanna County',
+    slug: 'scranton-pa',
+    highlight: 'NEPA coal-era housing stock, 3.7% total transfer tax (1% PA + 1% Lackawanna + 1.7% City), NYC/NJ buyer migration, Compete Score 79',
+    surrounding: 'Dickson City, Dunmore, Old Forge, Taylor, Moosic, Carbondale, Wilkes-Barre',
+  },
+  {
     city: 'Philadelphia',
     county: 'Philadelphia County',
     slug: 'direct:philadelphia',

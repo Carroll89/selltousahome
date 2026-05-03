@@ -27,6 +27,15 @@ const marketGuides = [
   { href: '/guides/sell-house-fast-canton-oh-2026', label: 'Canton, OH' },
   { href: '/guides/sell-house-fast-akron-oh-2026', label: 'Akron, OH' },
   { href: '/guides/sell-house-fast-columbus-oh-2026', label: 'Columbus, OH' },
+  { href: '/guides/sell-house-fast-dayton-oh-2026', label: 'Dayton, OH' },
+  // Pennsylvania
+  { href: '/guides/sell-house-fast-scranton-pa-2026', label: 'Scranton, PA' },
+  // Virginia
+  { href: '/guides/sell-house-fast-richmond-va-2026', label: 'Richmond, VA' },
+  // Missouri
+  { href: '/guides/sell-house-fast-st-louis-mo-2026', label: 'St. Louis, MO' },
+  // Indiana
+  { href: '/guides/sell-house-fast-fort-wayne-in-2026', label: 'Fort Wayne, IN' },
   // Massachusetts
   { href: '/guides/sell-house-fast-springfield-ma-2026', label: 'Springfield, MA' },
   { href: '/guides/sell-house-fast-worcester-ma-2026', label: 'Worcester, MA' },
