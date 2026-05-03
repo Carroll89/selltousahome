@@ -59,9 +59,20 @@ function getStateFromSourcePage(sourcePage?: string): string {
   if (!sourcePage) return '';
   if (sourcePage.includes('wilmington-de')) return 'DE';
   if (sourcePage.includes('youngstown-oh')) return 'OH';
+  if (sourcePage.includes('dayton-oh')) return 'OH';
+  if (sourcePage.includes('richmond-va')) return 'VA';
+  if (sourcePage.includes('st-louis-mo')) return 'MO';
+  if (sourcePage.includes('scranton-pa')) return 'PA';
+  if (sourcePage.includes('fort-wayne-in')) return 'IN';
   // Default to PA for all Pennsylvania markets
   if (sourcePage.includes('-pa') || sourcePage.includes('harrisburg') || sourcePage.includes('allentown') || sourcePage.includes('king-of-prussia') || sourcePage.includes('reading') || sourcePage.includes('erie') || sourcePage.includes('state-college') || sourcePage.includes('bethlehem') || sourcePage.includes('lancaster') || sourcePage.includes('york-pa')) return 'PA';
   return '';
+}
+
+function getMarketSlugFromSourcePage(sourcePage?: string): string {
+  if (!sourcePage) return '';
+  const match = sourcePage.match(/\/markets\/([^/]+)/);
+  return match ? match[1] : '';
 }
 
 interface FormState {
@@ -176,7 +187,7 @@ export function CashOfferForm({
       propertyAddress: form.propertyAddress,
       address1: form.propertyAddress,
       situation: form.situation,
-      site: 'harrisburg-pa',
+      site: getMarketSlugFromSourcePage(sourcePage) || 'selltousahome',
       sourcePage: sourcePage || (typeof window !== 'undefined' ? window.location.pathname : ''),
       utmSource: getUTMParam('utm_source'),
       utmMedium: getUTMParam('utm_medium'),
