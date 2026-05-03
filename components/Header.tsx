@@ -252,6 +252,31 @@ const miniSiteMarkets: MiniSiteMarket[] = [
     blogSlugs: ["chambersburg-pa-sell-house-fast-2026"],
   },
   {
+    slug: "dayton-oh",
+    label: "Dayton",
+    guideSlug: "sell-house-fast-dayton-oh-2026",
+  },
+  {
+    slug: "richmond-va",
+    label: "Richmond",
+    guideSlug: "sell-house-fast-richmond-va-2026",
+  },
+  {
+    slug: "st-louis-mo",
+    label: "St. Louis",
+    guideSlug: "sell-house-fast-st-louis-mo-2026",
+  },
+  {
+    slug: "scranton-pa",
+    label: "Scranton",
+    guideSlug: "sell-house-fast-scranton-pa-2026",
+  },
+  {
+    slug: "fort-wayne-in",
+    label: "Fort Wayne",
+    guideSlug: "sell-house-fast-fort-wayne-in-2026",
+  },
+  {
     slug: "waterbury-ct",
     label: "Waterbury",
     guideSlug: "sell-house-fast-waterbury-ct-2026",
