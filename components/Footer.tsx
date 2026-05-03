@@ -48,11 +48,13 @@ export function Footer() {
               <li><Link href="/markets/york-pa/market-report" className="hover:text-white">York Market Report</Link></li>
               <li><Link href="/markets/chambersburg-pa" className="hover:text-white">Chambersburg, PA</Link></li>
               <li><Link href="/sell-my-house-fast-philadelphia-pa" className="hover:text-white">Philadelphia, PA</Link></li>
+              <li><Link href="/markets/scranton-pa" className="hover:text-white">Scranton, PA</Link></li>
               <li><Link href="/markets/wilmington-de" className="hover:text-white">Wilmington, DE</Link></li>
               <li><Link href="/markets/youngstown-oh" className="hover:text-white">Youngstown, OH</Link></li>
               <li><Link href="/markets/canton-oh" className="hover:text-white">Canton, OH</Link></li>
               <li><Link href="/markets/akron-oh" className="hover:text-white">Akron, OH</Link></li>
               <li><Link href="/markets/columbus-oh" className="hover:text-white">Columbus, OH</Link></li>
+              <li><Link href="/markets/dayton-oh" className="hover:text-white">Dayton, OH</Link></li>
               <li><Link href="/sell-my-house-fast-cleveland-oh" className="hover:text-white">Cleveland, OH</Link></li>
               <li><Link href="/sell-my-house-fast-toledo-oh" className="hover:text-white">Toledo, OH</Link></li>
               <li><Link href="/sell-my-house-fast-cincinnati-oh" className="hover:text-white">Cincinnati, OH</Link></li>
@@ -91,6 +93,12 @@ export function Footer() {
               <li><Link href="/markets/bloomington-il" className="hover:text-white">Bloomington, IL</Link></li>
               <li><Link href="/markets/champaign-urbana-il" className="hover:text-white">Champaign-Urbana, IL</Link></li>
               <li><Link href="/sell-house-fast-illinois" className="hover:text-white">Sell House Fast Illinois</Link></li>
+              <li><Link href="/markets/richmond-va" className="hover:text-white">Richmond, VA</Link></li>
+              <li><Link href="/sell-house-fast-virginia" className="hover:text-white">Sell House Fast Virginia</Link></li>
+              <li><Link href="/markets/st-louis-mo" className="hover:text-white">St. Louis, MO</Link></li>
+              <li><Link href="/sell-house-fast-missouri" className="hover:text-white">Sell House Fast Missouri</Link></li>
+              <li><Link href="/markets/fort-wayne-in" className="hover:text-white">Fort Wayne, IN</Link></li>
+              <li><Link href="/sell-house-fast-indiana" className="hover:text-white">Sell House Fast Indiana</Link></li>
             </ul>
           </div>
 
@@ -142,10 +150,10 @@ export function Footer() {
 
         <div className="border-t border-gray-700 pt-6 text-sm text-gray-500">
           <p className="mb-2">
-            We buy houses across Pennsylvania, Delaware, Ohio, Massachusetts, Wisconsin, New Hampshire, Connecticut, New York, and Illinois — Harrisburg, Allentown, Bethlehem, Lancaster, York, Chambersburg, Erie, Reading, Wilmington DE, Youngstown OH, Springfield MA, Worcester MA, Northampton MA, Kenosha WI, Racine-Mount Pleasant WI, Oshkosh WI, Wausau WI, Madison WI, Manchester NH, Concord NH, Bridgeport CT, New Haven CT, Hartford CT, Waterbury CT, Norwich CT, Rochester NY, Binghamton NY, Springfield IL, Rockford IL, Peoria IL, Bloomington IL, Champaign-Urbana IL, Chicago IL, Cleveland OH, Toledo OH, Philadelphia PA, Cincinnati OH, and surrounding communities.
+            We buy houses across Pennsylvania, Delaware, Ohio, Massachusetts, Wisconsin, New Hampshire, Connecticut, New York, Illinois, Virginia, Missouri, and Indiana — Harrisburg, Allentown, Bethlehem, Lancaster, York, Chambersburg, Erie, Reading, Wilmington DE, Youngstown OH, Springfield MA, Worcester MA, Northampton MA, Kenosha WI, Racine-Mount Pleasant WI, Oshkosh WI, Wausau WI, Madison WI, Manchester NH, Concord NH, Bridgeport CT, New Haven CT, Hartford CT, Waterbury CT, Norwich CT, Rochester NY, Binghamton NY, Springfield IL, Rockford IL, Peoria IL, Bloomington IL, Champaign-Urbana IL, Chicago IL, Cleveland OH, Toledo OH, Philadelphia PA, Cincinnati OH, and surrounding communities.
           </p>
           <p>
-            © {currentYear} USA Home Buyers LLC. All rights reserved. | Serving homeowners in PA, DE, OH, MA, WI, NH, CT, NY, and IL
+            © {currentYear} USA Home Buyers LLC. All rights reserved. | Serving homeowners in PA, DE, OH, MA, WI, NH, CT, NY, IL, VA, MO, and IN
           </p>
         </div>
       </div>

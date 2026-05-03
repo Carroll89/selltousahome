@@ -207,6 +207,20 @@ export default function OhioHubPage() {
                 Sell Your Columbus Home →
               </Link>
             </div>
+            <div className="bg-blue-50 border border-blue-100 rounded-2xl p-6">
+              <h3 className="text-xl font-bold text-brand-dark mb-2">Dayton, OH</h3>
+              <p className="text-gray-700 text-sm mb-3">
+                Montgomery County. Home to Wright-Patterson AFB. 41.5% pre-1950 housing stock. Median sale price $130,000 (Redfin, Mar 2026). Compete Score 62. ~60% renter-occupied. Judicial foreclosure via Common Pleas Court.
+              </p>
+              <ul className="text-sm text-gray-600 space-y-1 mb-4">
+                <li>→ Conveyance fee: $4.00/1,000 + $0.50/parcel (Montgomery County Auditor)</li>
+                <li>→ DOM: 63 days median</li>
+                <li>→ Probate Court: 41 N. Perry St., 2nd Floor, Dayton OH 45422</li>
+              </ul>
+              <Link href="/markets/dayton-oh" className="inline-block bg-brand-primary text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors">
+                Sell Your Dayton Home →
+              </Link>
+            </div>
           </div>
         </section>
 

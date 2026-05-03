@@ -951,6 +951,57 @@ export const MINI_SITE_MARKETS: MiniSiteMarket[] = [
     hasFaq: true,
     hasNeighborhoods: true,
   },
+  // ── Batch 005 (authorized 2026-05-03) ──────────────────────────────
+  {
+    slug: "dayton-oh",
+    cityName: "Dayton OH",
+    regionName: "Montgomery County",
+    guideSlug: "sell-house-fast-dayton-oh-2026",
+    intro:
+      "Dayton and Montgomery County seller resources for as-is cash sales, inherited property, Ohio probate, foreclosure, tenant situations, and fast closings.",
+    hasFaq: true,
+    hasNeighborhoods: true,
+  },
+  {
+    slug: "richmond-va",
+    cityName: "Richmond VA",
+    regionName: "Richmond City (independent city)",
+    guideSlug: "sell-house-fast-richmond-va-2026",
+    intro:
+      "Richmond City seller resources for as-is cash sales, inherited property, Virginia Circuit Court probate, non-judicial foreclosure, tenant situations, and fast closings.",
+    hasFaq: true,
+    hasNeighborhoods: true,
+  },
+  {
+    slug: "st-louis-mo",
+    cityName: "St. Louis MO",
+    regionName: "St. Louis City (independent city)",
+    guideSlug: "sell-house-fast-st-louis-mo-2026",
+    intro:
+      "St. Louis City seller resources for as-is cash sales, inherited property, Missouri Circuit Court probate, non-judicial foreclosure, tenant situations, and fast closings. No transfer tax.",
+    hasFaq: true,
+    hasNeighborhoods: true,
+  },
+  {
+    slug: "scranton-pa",
+    cityName: "Scranton PA",
+    regionName: "Lackawanna County",
+    guideSlug: "sell-house-fast-scranton-pa-2026",
+    intro:
+      "Scranton and Lackawanna County seller resources for as-is cash sales, inherited property, Pennsylvania Register of Wills probate, judicial foreclosure, tenant situations, and fast closings. 3.7% transfer tax explained.",
+    hasFaq: true,
+    hasNeighborhoods: true,
+  },
+  {
+    slug: "fort-wayne-in",
+    cityName: "Fort Wayne IN",
+    regionName: "Allen County",
+    guideSlug: "sell-house-fast-fort-wayne-in-2026",
+    intro:
+      "Fort Wayne and Allen County seller resources for as-is cash sales, inherited property, Indiana Circuit Court probate, judicial foreclosure, tenant situations, and fast closings. No transfer tax.",
+    hasFaq: true,
+    hasNeighborhoods: true,
+  },
 ];
 
 export function getMiniSiteMarket(slug: string): MiniSiteMarket {

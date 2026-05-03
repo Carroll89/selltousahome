@@ -1077,9 +1077,135 @@ const CITY_CONFIGS: Record<string, CityConfig> = {
       { '@type': 'County', name: 'Broome County' },
     ],
   },
+  // ── Batch 005 (authorized 2026-05-03) ──────────────────────────────────────
+  dayton: {
+    city: 'Dayton',
+    region: 'OH',
+    postalCode: '45402',
+    lat: 39.7589,
+    lng: -84.1916,
+    description:
+      'Cash home buyers serving Dayton OH and Montgomery County. We buy houses as-is in any condition — no repairs, no agent fees, close in 7-14 days.',
+    areaServed: [
+      { '@type': 'City', name: 'Dayton', sameAs: 'https://en.wikipedia.org/wiki/Dayton,_Ohio' },
+      { '@type': 'City', name: 'Kettering' },
+      { '@type': 'City', name: 'Beavercreek' },
+      { '@type': 'City', name: 'Huber Heights' },
+      { '@type': 'City', name: 'Fairborn' },
+      { '@type': 'City', name: 'Centerville' },
+      { '@type': 'City', name: 'Miamisburg' },
+      { '@type': 'City', name: 'Springboro' },
+      { '@type': 'City', name: 'Trotwood' },
+      { '@type': 'City', name: 'Vandalia' },
+      { '@type': 'City', name: 'Riverside' },
+      { '@type': 'City', name: 'West Carrollton' },
+      { '@type': 'City', name: 'Xenia' },
+      { '@type': 'County', name: 'Montgomery County' },
+      { '@type': 'County', name: 'Greene County' },
+    ],
+  },
+  richmond: {
+    city: 'Richmond',
+    region: 'VA',
+    postalCode: '23219',
+    lat: 37.5407,
+    lng: -77.4360,
+    description:
+      'Cash home buyers serving Richmond VA and the Greater Richmond area. We buy houses as-is in any condition — no repairs, no agent fees, close in 7-14 days.',
+    areaServed: [
+      { '@type': 'City', name: 'Richmond', sameAs: 'https://en.wikipedia.org/wiki/Richmond,_Virginia' },
+      { '@type': 'City', name: 'Henrico' },
+      { '@type': 'City', name: 'Chesterfield' },
+      { '@type': 'City', name: 'Chester' },
+      { '@type': 'City', name: 'Midlothian' },
+      { '@type': 'City', name: 'Mechanicsville' },
+      { '@type': 'City', name: 'Glen Allen' },
+      { '@type': 'City', name: 'Short Pump' },
+      { '@type': 'City', name: 'Highland Springs' },
+      { '@type': 'City', name: 'Colonial Heights' },
+      { '@type': 'City', name: 'Petersburg' },
+      { '@type': 'City', name: 'Hopewell' },
+      { '@type': 'County', name: 'Henrico County' },
+      { '@type': 'County', name: 'Chesterfield County' },
+    ],
+  },
+  stLouis: {
+    city: 'St. Louis',
+    region: 'MO',
+    postalCode: '63103',
+    lat: 38.6270,
+    lng: -90.1994,
+    description:
+      'Cash home buyers serving St. Louis City, MO. We buy houses as-is in any condition — no repairs, no agent fees, close in 7-14 days. St. Louis City is an independent city separate from St. Louis County.',
+    areaServed: [
+      { '@type': 'City', name: 'St. Louis', sameAs: 'https://en.wikipedia.org/wiki/St._Louis' },
+      { '@type': 'City', name: 'Maplewood' },
+      { '@type': 'City', name: 'Webster Groves' },
+      { '@type': 'City', name: 'Kirkwood' },
+      { '@type': 'City', name: 'Ferguson' },
+      { '@type': 'City', name: 'University City' },
+      { '@type': 'City', name: 'Clayton' },
+      { '@type': 'City', name: 'Florissant' },
+      { '@type': 'City', name: 'Overland' },
+      { '@type': 'City', name: 'Affton' },
+      { '@type': 'City', name: 'Mehlville' },
+      { '@type': 'AdministrativeArea', name: 'City of St. Louis' },
+    ],
+  },
+  scranton: {
+    city: 'Scranton',
+    region: 'PA',
+    postalCode: '18503',
+    lat: 41.4090,
+    lng: -75.6624,
+    description:
+      'Cash home buyers serving Scranton PA and Lackawanna County. We buy houses as-is in any condition — no repairs, no agent fees, close in 7-14 days.',
+    areaServed: [
+      { '@type': 'City', name: 'Scranton', sameAs: 'https://en.wikipedia.org/wiki/Scranton,_Pennsylvania' },
+      { '@type': 'City', name: 'Dickson City' },
+      { '@type': 'City', name: 'Dunmore' },
+      { '@type': 'City', name: 'Old Forge' },
+      { '@type': 'City', name: 'Taylor' },
+      { '@type': 'City', name: 'Moosic' },
+      { '@type': 'City', name: 'Jessup' },
+      { '@type': 'City', name: 'Carbondale' },
+      { '@type': 'City', name: 'Olyphant' },
+      { '@type': 'City', name: 'Clarks Summit' },
+      { '@type': 'City', name: 'Archbald' },
+      { '@type': 'City', name: 'Wilkes-Barre' },
+      { '@type': 'City', name: 'Hazleton' },
+      { '@type': 'County', name: 'Lackawanna County' },
+      { '@type': 'County', name: 'Luzerne County' },
+    ],
+  },
+  fortWayne: {
+    city: 'Fort Wayne',
+    region: 'IN',
+    postalCode: '46802',
+    lat: 41.0793,
+    lng: -85.1394,
+    description:
+      'Cash home buyers serving Fort Wayne IN and Allen County. We buy houses as-is in any condition — no repairs, no agent fees, close in 7-14 days.',
+    areaServed: [
+      { '@type': 'City', name: 'Fort Wayne', sameAs: 'https://en.wikipedia.org/wiki/Fort_Wayne,_Indiana' },
+      { '@type': 'City', name: 'New Haven' },
+      { '@type': 'City', name: 'Waynedale' },
+      { '@type': 'City', name: 'Huntertown' },
+      { '@type': 'City', name: 'Grabill' },
+      { '@type': 'City', name: 'Leo-Cedarville' },
+      { '@type': 'City', name: 'Woodburn' },
+      { '@type': 'City', name: 'Garrett' },
+      { '@type': 'City', name: 'Bluffton' },
+      { '@type': 'City', name: 'Columbia City' },
+      { '@type': 'City', name: 'Auburn' },
+      { '@type': 'County', name: 'Allen County' },
+      { '@type': 'County', name: 'DeKalb County' },
+      { '@type': 'County', name: 'Whitley County' },
+    ],
+  },
 };
 
-export function localBusinessSchemaFor(cityKey: 'chicagoIL' | 'clevelandOH' | 'toledoOH' | 'philadelphiaPA' | 'cincinnatiOH' | 'harrisburg' | 'allentown' | 'bethlehem' | 'kingOfPrussia' | 'reading' | 'stateCollege' | 'erie' | 'lancaster' | 'york' | 'wilmington' | 'youngstown' | 'springfield' | 'kenosha' | 'manchester' | 'bridgeport' | 'worcester' | 'rochester' | 'racineMountPleasant' | 'springfieldIL' | 'rockfordIL' | 'newHaven' | 'oshkosh' | 'peoriaIL' | 'bloomingtonIL' | 'champaignUrbanaIL' | 'boston' | 'hartford' | 'wausau' | 'appleton' | 'canton' | 'milwaukee' | 'akron' | 'concord' | 'norwich' | 'northampton' | 'eauClaire' | 'janesville' | 'columbus' | 'madison' | 'chambersburg' | 'greenBay' | 'waterbury' | 'binghamton') {
+export function localBusinessSchemaFor(cityKey: 'chicagoIL' | 'clevelandOH' | 'toledoOH' | 'philadelphiaPA' | 'cincinnatiOH' | 'harrisburg' | 'allentown' | 'bethlehem' | 'kingOfPrussia' | 'reading' | 'stateCollege' | 'erie' | 'lancaster' | 'york' | 'wilmington' | 'youngstown' | 'springfield' | 'kenosha' | 'manchester' | 'bridgeport' | 'worcester' | 'rochester' | 'racineMountPleasant' | 'springfieldIL' | 'rockfordIL' | 'newHaven' | 'oshkosh' | 'peoriaIL' | 'bloomingtonIL' | 'champaignUrbanaIL' | 'boston' | 'hartford' | 'wausau' | 'appleton' | 'canton' | 'milwaukee' | 'akron' | 'concord' | 'norwich' | 'northampton' | 'eauClaire' | 'janesville' | 'columbus' | 'madison' | 'chambersburg' | 'greenBay' | 'waterbury' | 'binghamton' | 'dayton' | 'richmond' | 'stLouis' | 'scranton' | 'fortWayne') {
   const cfg = CITY_CONFIGS[cityKey];
   return {
     '@context': 'https://schema.org',
@@ -1615,6 +1741,27 @@ export const janesvilleWILocalBusinessSchema = localBusinessSchemaFor('janesvill
 /** Pre-built Columbus OH LocalBusiness schema */
 export const columbusLocalBusinessSchema = localBusinessSchemaFor('columbus');
 export const columbusOHLocalBusinessSchema = localBusinessSchemaFor('columbus');
+
+// ── Batch 005 exports (authorized 2026-05-03) ──────────────────────────────────
+/** Pre-built Dayton OH LocalBusiness schema */
+export const daytonLocalBusinessSchema = localBusinessSchemaFor('dayton');
+export const daytonOHLocalBusinessSchema = localBusinessSchemaFor('dayton');
+
+/** Pre-built Richmond VA LocalBusiness schema */
+export const richmondLocalBusinessSchema = localBusinessSchemaFor('richmond');
+export const richmondVALocalBusinessSchema = localBusinessSchemaFor('richmond');
+
+/** Pre-built St. Louis MO LocalBusiness schema */
+export const stLouisLocalBusinessSchema = localBusinessSchemaFor('stLouis');
+export const stLouisMOLocalBusinessSchema = localBusinessSchemaFor('stLouis');
+
+/** Pre-built Scranton PA LocalBusiness schema */
+export const scrantonLocalBusinessSchema = localBusinessSchemaFor('scranton');
+export const scrantonPALocalBusinessSchema = localBusinessSchemaFor('scranton');
+
+/** Pre-built Fort Wayne IN LocalBusiness schema */
+export const fortWayneLocalBusinessSchema = localBusinessSchemaFor('fortWayne');
+export const fortWayneINLocalBusinessSchema = localBusinessSchemaFor('fortWayne');
 
 // ── Batch 004 exports (authorized 2026-05-01) ──────────────────────────────────────
 /** Pre-built Chicago IL LocalBusiness schema */
