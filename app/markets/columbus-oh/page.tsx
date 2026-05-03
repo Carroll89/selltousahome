@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import type { Metadata } from 'next';
 import { CashOfferForm } from '@/components/CashOfferForm';
+import { StickyMobileCTA } from '@/components/StickyMobileCTA';
 import { HowItWorks } from '@/components/HowItWorks';
 import { FAQSection } from '@/components/FAQSection';
 import { ComparisonTable } from '@/components/ComparisonTable';
@@ -267,6 +268,7 @@ export default function ColumbusOHMarketPage() {
           sourcePage="/markets/columbus-oh"
         />
       </div>
+      <StickyMobileCTA hideWhenFormVisible={false} />
     </>
   );
 }

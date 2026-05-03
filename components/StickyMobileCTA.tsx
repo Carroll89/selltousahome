@@ -5,13 +5,17 @@ import { PHONE } from '@/lib/utils';
 
 interface StickyMobileCTAProps {
   phone?: string;
+  hideWhenFormVisible?: boolean;
 }
 
-export function StickyMobileCTA({ phone }: StickyMobileCTAProps) {
-  const tel = phone || PHONE;
+export function StickyMobileCTA({ phone, hideWhenFormVisible = true }: StickyMobileCTAProps) {
+  const displayPhone = phone || PHONE;
+  const tel = displayPhone.replace(/\D/g, '') === '8882745006' ? '+18882745006' : displayPhone;
   const [visible, setVisible] = useState(true);
 
   useEffect(() => {
+    if (!hideWhenFormVisible) return;
+
     const forms = document.querySelectorAll('form');
     if (forms.length === 0) return;
 
@@ -26,7 +30,7 @@ export function StickyMobileCTA({ phone }: StickyMobileCTAProps) {
 
     forms.forEach((form) => observer.observe(form));
     return () => observer.disconnect();
-  }, []);
+  }, [hideWhenFormVisible]);
 
   if (!visible) return null;
 
@@ -35,8 +39,9 @@ export function StickyMobileCTA({ phone }: StickyMobileCTAProps) {
       <a
         href={`tel:${tel}`}
         className="flex-1 flex items-center justify-center gap-2 py-3.5 bg-green-600 text-white font-bold text-sm"
+        aria-label={`Call Now ${displayPhone}`}
       >
-        📞 Call Now
+        📞 Call Now <span className="sr-only">{displayPhone}</span>
       </a>
       <a
         href="#lead-form"

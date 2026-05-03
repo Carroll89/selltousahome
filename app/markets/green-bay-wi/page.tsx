@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import type { Metadata } from 'next';
 import { CashOfferForm } from '@/components/CashOfferForm';
+import { StickyMobileCTA } from '@/components/StickyMobileCTA';
 import { HowItWorks } from '@/components/HowItWorks';
 import { FAQSection } from '@/components/FAQSection';
 import { TestimonialBlock } from '@/components/TestimonialBlock';
@@ -319,6 +320,7 @@ export default function GreenBayWIMarketPage() {
           sourcePage="/markets/green-bay-wi"
         />
       </div>
+      <StickyMobileCTA hideWhenFormVisible={false} />
     </>
   );
 }
