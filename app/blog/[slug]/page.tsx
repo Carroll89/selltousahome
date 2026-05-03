@@ -35,6 +35,16 @@ async function loadContent(slug: string): Promise<BlogPostContent | null> {
         return (await import('@/content/blog/how-to-sell-house-fast-massachusetts')).default;
       case 'selling-inherited-property-new-england':
         return (await import('@/content/blog/selling-inherited-property-new-england')).default;
+      case 'dayton-oh-sell-house-fast-2026':
+        return (await import('@/content/blog/dayton-oh-sell-house-fast-2026')).default;
+      case 'richmond-va-sell-house-fast-2026':
+        return (await import('@/content/blog/richmond-va-sell-house-fast-2026')).default;
+      case 'st-louis-mo-sell-house-fast-2026':
+        return (await import('@/content/blog/st-louis-mo-sell-house-fast-2026')).default;
+      case 'scranton-pa-sell-house-fast-2026':
+        return (await import('@/content/blog/scranton-pa-sell-house-fast-2026')).default;
+      case 'fort-wayne-in-sell-house-fast-2026':
+        return (await import('@/content/blog/fort-wayne-in-sell-house-fast-2026')).default;
       default:
         return null;
     }
