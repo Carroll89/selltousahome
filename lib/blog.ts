@@ -25,6 +25,38 @@ export interface BlogPostMeta {
 
 export const BLOG_POSTS: BlogPostMeta[] = [
 
+  {
+    slug: 'eau-claire-wi-sell-house-fast-2026',
+    title: 'How to Sell Your House Fast in Eau Claire WI in 2026',
+    excerpt: 'Eau Claire homes are moving faster in 2026, but inherited homes, UWEC-area rentals, foreclosure pressure, and winter repair issues can make an as-is cash sale the clearer path.',
+    date: 'May 3, 2026',
+    datePublished: '2026-05-03',
+    category: 'Market Guide',
+    readTime: '8 min',
+    heroImage: '/images/optimized/eau-claire-wi-hero-1200.jpg',
+    heroAlt: 'Eau Claire WI house — sell fast for cash',
+    description: 'Need to sell your Eau Claire house fast? We buy homes in Eau Claire County as-is, any condition. Cash offer in 24 hours, close in 7–14 days.',
+    primaryKeyword: 'sell my house fast Eau Claire WI',
+    markets: ['eau-claire-wi'],
+    isStatic: true,
+  },
+  {
+    slug: 'janesville-wi-sell-house-fast-2026',
+    title: 'How to Sell Your House Fast in Janesville WI in 2026',
+    excerpt: 'Janesville is very competitive in 2026, but repair-heavy homes, estates, foreclosure pressure, and tenant problems can make a direct as-is cash sale more practical.',
+    date: 'May 3, 2026',
+    datePublished: '2026-05-03',
+    category: 'Market Guide',
+    readTime: '8 min',
+    heroImage: '/images/optimized/janesville-wi-hero-1200.jpg',
+    heroAlt: 'Janesville WI house — sell fast for cash',
+    description: 'Need to sell your house fast in Janesville, WI? USA Home Buyers pays cash, buys as-is, and can close in days — no repairs, no agent commissions.',
+    primaryKeyword: 'sell my house fast Janesville WI',
+    markets: ['janesville-wi'],
+    isStatic: true,
+  },
+
+
 
   {
     slug: 'binghamton-ny-sell-house-fast-2026',
