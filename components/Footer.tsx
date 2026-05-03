@@ -47,11 +47,15 @@ export function Footer() {
               <li><Link href="/markets/york-pa" className="hover:text-white">York, PA</Link></li>
               <li><Link href="/markets/york-pa/market-report" className="hover:text-white">York Market Report</Link></li>
               <li><Link href="/markets/chambersburg-pa" className="hover:text-white">Chambersburg, PA</Link></li>
+              <li><Link href="/sell-my-house-fast-philadelphia-pa" className="hover:text-white">Philadelphia, PA</Link></li>
               <li><Link href="/markets/wilmington-de" className="hover:text-white">Wilmington, DE</Link></li>
               <li><Link href="/markets/youngstown-oh" className="hover:text-white">Youngstown, OH</Link></li>
               <li><Link href="/markets/canton-oh" className="hover:text-white">Canton, OH</Link></li>
               <li><Link href="/markets/akron-oh" className="hover:text-white">Akron, OH</Link></li>
               <li><Link href="/markets/columbus-oh" className="hover:text-white">Columbus, OH</Link></li>
+              <li><Link href="/sell-my-house-fast-cleveland-oh" className="hover:text-white">Cleveland, OH</Link></li>
+              <li><Link href="/sell-my-house-fast-toledo-oh" className="hover:text-white">Toledo, OH</Link></li>
+              <li><Link href="/sell-my-house-fast-cincinnati-oh" className="hover:text-white">Cincinnati, OH</Link></li>
               <li><Link href="/sell-house-fast-ohio" className="hover:text-white">Sell House Fast Ohio</Link></li>
               <li><Link href="/markets/boston-ma" className="hover:text-white">Boston, MA</Link></li>
               <li><Link href="/markets/springfield-ma" className="hover:text-white">Springfield, MA</Link></li>
@@ -81,6 +85,7 @@ export function Footer() {
               <li><Link href="/markets/rochester-ny" className="hover:text-white">Rochester, NY</Link></li>
               <li><Link href="/sell-house-fast-new-york" className="hover:text-white">Sell House Fast New York</Link></li>
               <li><Link href="/markets/springfield-il" className="hover:text-white">Springfield, IL</Link></li>
+              <li><Link href="/sell-my-house-fast-chicago-il" className="hover:text-white">Chicago, IL</Link></li>
               <li><Link href="/markets/rockford-il" className="hover:text-white">Rockford, IL</Link></li>
               <li><Link href="/markets/peoria-il" className="hover:text-white">Peoria, IL</Link></li>
               <li><Link href="/markets/bloomington-il" className="hover:text-white">Bloomington, IL</Link></li>
@@ -137,7 +142,7 @@ export function Footer() {
 
         <div className="border-t border-gray-700 pt-6 text-sm text-gray-500">
           <p className="mb-2">
-            We buy houses across Pennsylvania, Delaware, Ohio, Massachusetts, Wisconsin, New Hampshire, Connecticut, New York, and Illinois — Harrisburg, Allentown, Bethlehem, Lancaster, York, Chambersburg, Erie, Reading, Wilmington DE, Youngstown OH, Springfield MA, Worcester MA, Northampton MA, Kenosha WI, Racine-Mount Pleasant WI, Oshkosh WI, Wausau WI, Madison WI, Manchester NH, Concord NH, Bridgeport CT, New Haven CT, Hartford CT, Waterbury CT, Norwich CT, Rochester NY, Binghamton NY, Springfield IL, Rockford IL, Peoria IL, Bloomington IL, Champaign-Urbana IL, and surrounding communities.
+            We buy houses across Pennsylvania, Delaware, Ohio, Massachusetts, Wisconsin, New Hampshire, Connecticut, New York, and Illinois — Harrisburg, Allentown, Bethlehem, Lancaster, York, Chambersburg, Erie, Reading, Wilmington DE, Youngstown OH, Springfield MA, Worcester MA, Northampton MA, Kenosha WI, Racine-Mount Pleasant WI, Oshkosh WI, Wausau WI, Madison WI, Manchester NH, Concord NH, Bridgeport CT, New Haven CT, Hartford CT, Waterbury CT, Norwich CT, Rochester NY, Binghamton NY, Springfield IL, Rockford IL, Peoria IL, Bloomington IL, Champaign-Urbana IL, Chicago IL, Cleveland OH, Toledo OH, Philadelphia PA, Cincinnati OH, and surrounding communities.
           </p>
           <p>
             © {currentYear} USA Home Buyers LLC. All rights reserved. | Serving homeowners in PA, DE, OH, MA, WI, NH, CT, NY, and IL

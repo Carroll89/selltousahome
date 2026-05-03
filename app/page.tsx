@@ -238,6 +238,41 @@ export default function HomePage() {
               <h3 className="font-bold text-brand-primary text-lg mb-1">Youngstown, OH</h3>
               <p className="text-gray-600 text-sm">Mahoning County — Rust Belt, Ohio</p>
             </Link>
+            <Link
+              href="/sell-my-house-fast-chicago-il"
+              className="block bg-white border-2 border-brand-primary rounded-xl p-6 hover:shadow-lg transition-shadow"
+            >
+              <h3 className="font-bold text-brand-primary text-lg mb-1">Chicago, IL</h3>
+              <p className="text-gray-600 text-sm">Cook County — Illinois</p>
+            </Link>
+            <Link
+              href="/sell-my-house-fast-cleveland-oh"
+              className="block bg-white border-2 border-brand-primary rounded-xl p-6 hover:shadow-lg transition-shadow"
+            >
+              <h3 className="font-bold text-brand-primary text-lg mb-1">Cleveland, OH</h3>
+              <p className="text-gray-600 text-sm">Cuyahoga County — Northeast Ohio</p>
+            </Link>
+            <Link
+              href="/sell-my-house-fast-toledo-oh"
+              className="block bg-white border-2 border-brand-primary rounded-xl p-6 hover:shadow-lg transition-shadow"
+            >
+              <h3 className="font-bold text-brand-primary text-lg mb-1">Toledo, OH</h3>
+              <p className="text-gray-600 text-sm">Lucas County — Northwest Ohio</p>
+            </Link>
+            <Link
+              href="/sell-my-house-fast-philadelphia-pa"
+              className="block bg-white border-2 border-brand-primary rounded-xl p-6 hover:shadow-lg transition-shadow"
+            >
+              <h3 className="font-bold text-brand-primary text-lg mb-1">Philadelphia, PA</h3>
+              <p className="text-gray-600 text-sm">Philadelphia County — Southeast PA</p>
+            </Link>
+            <Link
+              href="/sell-my-house-fast-cincinnati-oh"
+              className="block bg-white border-2 border-brand-primary rounded-xl p-6 hover:shadow-lg transition-shadow"
+            >
+              <h3 className="font-bold text-brand-primary text-lg mb-1">Cincinnati, OH</h3>
+              <p className="text-gray-600 text-sm">Hamilton County — Ohio side</p>
+            </Link>
           </div>
         </section>
 

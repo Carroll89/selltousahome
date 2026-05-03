@@ -23,6 +23,7 @@ const marketsByState: {
       { href: "/markets/lancaster-pa", label: "Lancaster" },
       { href: "/markets/york-pa", label: "York" },
       { href: "/markets/chambersburg-pa", label: "Chambersburg" },
+      { href: "/sell-my-house-fast-philadelphia-pa", label: "Philadelphia" },
     ],
   },
   {
@@ -35,6 +36,9 @@ const marketsByState: {
       { href: "/markets/youngstown-oh", label: "Youngstown" },
       { href: "/markets/canton-oh", label: "Canton" },
       { href: "/markets/akron-oh", label: "Akron" },
+      { href: "/sell-my-house-fast-cleveland-oh", label: "Cleveland" },
+      { href: "/sell-my-house-fast-toledo-oh", label: "Toledo" },
+      { href: "/sell-my-house-fast-cincinnati-oh", label: "Cincinnati" },
       { href: "/markets/columbus-oh", label: "Columbus" },
     ],
   },
@@ -97,11 +101,20 @@ const marketsByState: {
       { href: "/markets/peoria-il", label: "Peoria" },
       { href: "/markets/bloomington-il", label: "Bloomington" },
       { href: "/markets/champaign-urbana-il", label: "Champaign-Urbana" },
+      { href: "/sell-my-house-fast-chicago-il", label: "Chicago" },
     ],
   },
 ];
 
-const miniSiteMarkets = [
+type MiniSiteMarket = {
+  slug: string;
+  label: string;
+  guideSlug: string;
+  blogSlugs?: string[];
+  rootHref?: string;
+};
+
+const miniSiteMarkets: MiniSiteMarket[] = [
   {
     slug: "allentown-pa",
     label: "Allentown",
@@ -242,6 +255,39 @@ const miniSiteMarkets = [
     blogSlugs: ["bloomington-il-sell-house-fast-2026"],
   },
   {
+    slug: "chicago-il",
+    label: "Chicago",
+    guideSlug: "sell-house-fast-chicago-il-2026",
+    blogSlugs: ["chicago-il-sell-house-fast-2026"],
+    rootHref: "/sell-my-house-fast-chicago-il",
+  },
+  {
+    slug: "cleveland-oh",
+    label: "Cleveland",
+    guideSlug: "sell-house-fast-cleveland-oh-2026",
+    blogSlugs: ["cleveland-oh-sell-house-fast-2026"],
+    rootHref: "/sell-my-house-fast-cleveland-oh",
+  },
+  {
+    slug: "toledo-oh",
+    label: "Toledo",
+    guideSlug: "sell-house-fast-toledo-oh-2026",
+    rootHref: "/sell-my-house-fast-toledo-oh",
+  },
+  {
+    slug: "philadelphia-pa",
+    label: "Philadelphia",
+    guideSlug: "sell-house-fast-philadelphia-pa-2026",
+    blogSlugs: ["philadelphia-pa-sell-house-fast-2026"],
+    rootHref: "/sell-my-house-fast-philadelphia-pa",
+  },
+  {
+    slug: "cincinnati-oh",
+    label: "Cincinnati",
+    guideSlug: "sell-house-fast-cincinnati-oh-2026",
+    rootHref: "/sell-my-house-fast-cincinnati-oh",
+  },
+  {
     slug: "champaign-urbana-il",
     label: "Champaign-Urbana",
     guideSlug: "sell-house-fast-champaign-urbana-il-2026",
@@ -273,6 +319,7 @@ function getMiniSiteContext(pathname: string | null) {
   return (
     miniSiteMarkets.find((market) => {
       if (pathname.startsWith(`/markets/${market.slug}`)) return true;
+      if (market.rootHref && pathname === market.rootHref) return true;
       if (pathname === `/guides/${market.guideSlug}`) return true;
       if (pathname === `/resources/how-the-process-works/${market.slug}`)
         return true;
@@ -288,7 +335,9 @@ function getMiniSiteContext(pathname: string | null) {
 export function Header() {
   const pathname = usePathname();
   const miniSiteContext = getMiniSiteContext(pathname);
-  const homeHref = miniSiteContext ? `/markets/${miniSiteContext.slug}` : "/";
+  const homeHref = miniSiteContext
+    ? miniSiteContext.rootHref ?? `/markets/${miniSiteContext.slug}`
+    : "/";
   const sellerGuidesHref = miniSiteContext
     ? `/guides/${miniSiteContext.guideSlug}`
     : "/guides";
@@ -309,7 +358,7 @@ export function Header() {
     ? `/about/${miniSiteContext.slug}`
     : "/about";
   const cashOfferHref = miniSiteContext
-    ? `/markets/${miniSiteContext.slug}#lead-form`
+    ? `${miniSiteContext.rootHref ?? `/markets/${miniSiteContext.slug}`}#lead-form`
     : "/#lead-form";
 
   const [menuOpen, setMenuOpen] = useState(false);

@@ -41,6 +41,7 @@ const MARKET_GROUPS = [
       { label: 'State College PA', href: '/markets/state-college-pa' },
       { label: 'York PA', href: '/markets/york-pa' },
       { label: 'Chambersburg PA', href: '/markets/chambersburg-pa' },
+      { label: 'Philadelphia PA', href: '/sell-my-house-fast-philadelphia-pa' },
     ],
   },
   {
@@ -65,6 +66,7 @@ const MARKET_GROUPS = [
       { label: 'Peoria IL', href: '/markets/peoria-il' },
       { label: 'Rockford IL', href: '/markets/rockford-il' },
       { label: 'Springfield IL', href: '/markets/springfield-il' },
+      { label: 'Chicago IL', href: '/sell-my-house-fast-chicago-il' },
     ],
   },
   {
@@ -85,7 +87,10 @@ const MARKET_GROUPS = [
   },
   {
     state: 'New York',
-    markets: [{ label: 'Rochester NY', href: '/markets/rochester-ny' }],
+    markets: [
+      { label: 'Rochester NY', href: '/markets/rochester-ny' },
+      { label: 'Binghamton NY', href: '/markets/binghamton-ny' },
+    ],
   },
   {
     state: 'Ohio',
@@ -93,6 +98,9 @@ const MARKET_GROUPS = [
       { label: 'Youngstown OH', href: '/markets/youngstown-oh' },
       { label: 'Canton OH', href: '/markets/canton-oh' },
       { label: 'Akron OH', href: '/markets/akron-oh' },
+      { label: 'Cleveland OH', href: '/sell-my-house-fast-cleveland-oh' },
+      { label: 'Toledo OH', href: '/sell-my-house-fast-toledo-oh' },
+      { label: 'Cincinnati OH', href: '/sell-my-house-fast-cincinnati-oh' },
       { label: 'Columbus OH', href: '/markets/columbus-oh' },
     ],
   },

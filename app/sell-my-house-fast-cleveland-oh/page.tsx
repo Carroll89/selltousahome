@@ -242,6 +242,38 @@ export default function ClevelandOHPage() {
 
         <FAQSection items={FAQ_ITEMS} heading="FAQs — Selling a House in Cleveland, OH" />
 
+
+
+        {/* Local resources hub */}
+        <section className="my-12 bg-blue-50 border border-blue-100 rounded-2xl p-6 md:p-8 flex flex-col lg:flex-row lg:items-center lg:justify-between gap-5">
+          <div>
+            <p className="text-sm font-semibold text-brand-primary mb-2">
+              Cleveland OH mini-site
+            </p>
+            <h2 className="text-2xl font-bold text-brand-dark mb-2">
+              Seller resources for Cleveland OH homeowners
+            </h2>
+            <p className="text-gray-700 max-w-3xl">
+              Stay in the Cleveland OH section for local seller resources, situation pages, the cash-sale process,
+              reviews, and about pages before you decide whether a cash offer or listing makes more sense.
+            </p>
+          </div>
+          <div className="flex flex-col sm:flex-row gap-3 shrink-0">
+            <a
+              href="/markets/cleveland-oh/resources"
+              className="bg-brand-primary hover:bg-blue-700 text-white font-semibold rounded-lg px-5 py-3 text-center transition-colors"
+            >
+              Cleveland OH Resources
+            </a>
+            <a
+              href="/guides/sell-house-fast-cleveland-oh-2026"
+              className="bg-white hover:bg-gray-50 text-brand-primary font-semibold rounded-lg px-5 py-3 text-center border border-blue-200 transition-colors"
+            >
+              Local Guide
+            </a>
+          </div>
+        </section>
+
         <CashOfferForm
           variant="footer"
           headline="Ready to Get Your Cleveland Cash Offer?"
