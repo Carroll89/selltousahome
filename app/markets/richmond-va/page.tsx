@@ -8,7 +8,8 @@ import { TestimonialBlock } from '@/components/TestimonialBlock';
 import { ComparisonTable } from '@/components/ComparisonTable';
 import { SituationLinks } from '@/components/SituationLinks';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
-import { richmondLocalBusinessSchema, faqSchema } from '@/lib/schema';
+import { VideoEmbed } from '@/components/VideoEmbed';
+import { richmondLocalBusinessSchema, faqSchema, videoObjectSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
 import { BlogClusterLinks } from '@/components/BlogClusterLinks';
 import Link from 'next/link';
@@ -115,6 +116,13 @@ export default function RichmondVAMarketPage() {
           richmondLocalBusinessSchema,
           faqSchema(FAQ_ITEMS),
           howToSchema,
+          videoObjectSchema({
+            name: 'Sell My House Fast Richmond VA — USA Home Buyers',
+            description: "Cash offers for Richmond City homes — The Fan, Church Hill, Scott's Addition, any condition",
+            contentUrl: `${SITE_URL}/videos/richmond-va/landing.mp4`,
+            thumbnailUrl: `${SITE_URL}/videos/richmond-va/landing-poster.jpg`,
+            uploadDate: '2026-05-03',
+          }),
         ]}
       />
 
@@ -157,6 +165,32 @@ export default function RichmondVAMarketPage() {
       </section>
 
       <div className="max-w-7xl mx-auto px-4 py-8">
+
+        {/* VIDEO_CAPTION_EXCEPTION: estimated captions pending human timing review — date:2026-05-03 approver:Dan; Adam voice ID Ib97zM6uFBc71OWgj75I verified by Max fallback generation */}
+        <VideoEmbed
+          src="/videos/richmond-va/landing.mp4"
+          title='Sell My House Fast Richmond VA — USA Home Buyers'
+          poster="/videos/richmond-va/landing-poster.jpg"
+          captionsSrc="/videos/richmond-va/landing-captions.vtt"
+          captionsLabel="English captions"
+          subtitle="Cash offers for Richmond City homes — The Fan, Church Hill, Scott's Addition, any condition"
+        />
+        <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+          <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+            📝 Video Transcript
+          </summary>
+          <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+            <p className="mb-3">Need to sell your house fast in Richmond, Virginia? USA Home Buyers purchases homes as-is for cash throughout Richmond City — The Fan, Church Hill, Scott's Addition, Manchester, Northside, Highland Park, and surrounding areas.</p>
+            <p className="mb-3">No agents, no fees, no repairs.</p>
+            <p className="mb-3">Virginia uses non-judicial foreclosure via deed of trust — the trustee's sale can happen in 45-60 days, with no right of redemption after.</p>
+            <p className="mb-3">A cash sale before that date preserves your equity.</p>
+            <p className="mb-3">We also handle estate properties, divorce sales, tenant-occupied rentals, and code-violation properties.</p>
+            <p className="mb-3">Written cash offer in 24 hours.</p>
+            <p className="mb-3">Close in 7 days.</p>
+            <p className="mb-3">We cover all closing costs including Virginia's grantor's tax.</p>
+            <p className="mb-3">Call 888-274-5006.</p>
+          </div>
+        </details>
 
         <HowItWorks />
 
