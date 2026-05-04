@@ -12,23 +12,23 @@ const pageUrl = `${SITE_URL}/markets/norwich-ct/neighborhoods`;
 export const metadata: Metadata = {
   title: 'Norwich CT Neighborhoods — We Buy Houses Throughout New London County',
   description:
-    'USA Home Buyers purchases houses in all Norwich CT neighborhoods and throughout New London County — Penacook, East Norwich, West Norwich, Bow, Hooksett, and more.',
+    'USA Home Buyers purchases houses in all Norwich CT neighborhoods and throughout New London County — Downtown Norwich, Norwichtown, Taftville, Greeneville, Yantic, Laurel Hill, New London, Groton, and more.',
   alternates: { canonical: pageUrl },
 };
 
 const NEIGHBORHOODS = [
-  { name: 'Penacook', notes: 'Northwest Norwich neighborhood with older mill-town character. Colonial and cape cod housing stock. Good cash buyer angle for inherited homes, deferred maintenance, and estate situations.' },
+  { name: 'Norwichtown', notes: 'Historic Norwich area with older homes, estates, and inherited-property situations.' },
   { name: 'East Norwich', notes: 'East-side residential. Mix of older capes and post-war homes. Solid demand from local buyers and investors. Full service area.' },
   { name: 'West Norwich', notes: 'West-side established neighborhood with mix of housing ages and types. Family-oriented market. Full service area.' },
-  { name: 'South End / Downtown', notes: 'Older central Norwich near the state capitol. Victorian, Greek Revival, and historic homes. Strong character but often significant repair costs — strong cash buyer angle for deferred-maintenance properties.' },
+  { name: 'South End / Downtown', notes: 'Older central Norwich near downtown. Victorian, Greek Revival, and historic homes. Strong character but often significant repair costs — strong cash buyer angle for deferred-maintenance properties.' },
   { name: 'North Norwich', notes: 'Northern Norwich neighborhoods. Mix of residential types. Full service area for cash and distressed situations.' },
-  { name: 'Bow', notes: 'Adjacent suburban town south of Norwich. Mix of older farmhouses and newer construction. Strong owner-occupant and investor demand.' },
-  { name: 'Hooksett', notes: 'Adjacent town south of Norwich on the Merrimack River. Growing suburban market with good access to Manchester. Full service area.' },
-  { name: 'Pembroke', notes: 'Adjacent town southeast of Norwich. Older rural-residential stock with steady investor interest. Full service area.' },
-  { name: 'Canterbury', notes: 'Rural town north of Norwich. Older farmhouses and character properties. Estate and inherited-property angle common.' },
-  { name: 'Dunbarton', notes: 'Rural town west of Norwich. Older rural-residential. Full service area — cash angle for inherited and estate properties.' },
-  { name: 'Hopkinton', notes: 'Town west of Norwich. Mix of rural and suburban residential. Full service area.' },
-  { name: 'Loudon', notes: 'Town northeast of Norwich. Older rural-residential and newer construction. Full service area.' },
+  { name: 'Downtown Norwich', notes: 'Central Norwich homes, older housing stock, and mixed-use properties near local services.' },
+  { name: 'Norwichtown', notes: 'Historic Norwich area with older homes, estates, and inherited-property situations.' },
+  { name: 'Taftville', notes: 'Norwich village with older mill-era housing, multifamily stock, and as-is sale needs.' },
+  { name: 'Greeneville', notes: 'Established Norwich neighborhood with older residential properties and investor demand.' },
+  { name: 'Yantic', notes: 'Norwich village with single-family homes, estate properties, and as-is sale scenarios.' },
+  { name: 'New London', notes: 'Nearby New London County city with older homes, rentals, and cash-sale needs.' },
+  { name: 'Groton', notes: 'Nearby New London County market with owner-occupant, rental, and inherited-property scenarios.' },
 ];
 
 export default function NorwichNeighborhoodsPage() {
@@ -54,8 +54,8 @@ export default function NorwichNeighborhoodsPage() {
       <div className="max-w-4xl mx-auto px-4 py-8">
         <p className="text-gray-700 mb-6">
           USA Home Buyers purchases homes throughout Norwich and New London County. Whether your
-          property is a Victorian near the state capitol, a cape cod in Penacook, or a rural-
-          residential in Canterbury, we make cash offers as-is in any condition. Call 888-274-5006.
+          property is an older home near downtown, a cape cod in Norwichtown or Taftville, or a rural-
+          residential property elsewhere in Hampshire County, we make cash offers as-is in any condition. Call 888-274-5006.
         </p>
         <div className="grid md:grid-cols-2 gap-4 mb-8">
           {NEIGHBORHOODS.map((n) => (

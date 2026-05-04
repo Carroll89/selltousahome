@@ -12,23 +12,23 @@ const pageUrl = `${SITE_URL}/markets/northampton-ma/neighborhoods`;
 export const metadata: Metadata = {
   title: 'Northampton MA Neighborhoods — We Buy Houses Throughout Hampshire County',
   description:
-    'USA Home Buyers purchases houses in all Northampton MA neighborhoods and throughout Hampshire County — Penacook, East Northampton, West Northampton, Bow, Hooksett, and more.',
+    'USA Home Buyers purchases houses in all Northampton MA neighborhoods and throughout Hampshire County — Downtown Northampton, Florence, Leeds, Bay State, Round Hill, Easthampton, Amherst, Hadley, and more.',
   alternates: { canonical: pageUrl },
 };
 
 const NEIGHBORHOODS = [
-  { name: 'Penacook', notes: 'Northwest Northampton neighborhood with older mill-town character. Colonial and cape cod housing stock. Good cash buyer angle for inherited homes, deferred maintenance, and estate situations.' },
+  { name: 'Florence', notes: 'Established Northampton village with older single-family homes, multifamily properties, and estate-sale situations.' },
   { name: 'East Northampton', notes: 'East-side residential. Mix of older capes and post-war homes. Solid demand from local buyers and investors. Full service area.' },
   { name: 'West Northampton', notes: 'West-side established neighborhood with mix of housing ages and types. Family-oriented market. Full service area.' },
-  { name: 'South End / Downtown', notes: 'Older central Northampton near the state capitol. Victorian, Greek Revival, and historic homes. Strong character but often significant repair costs — strong cash buyer angle for deferred-maintenance properties.' },
+  { name: 'South End / Downtown', notes: 'Older central Northampton near downtown. Victorian, Greek Revival, and historic homes. Strong character but often significant repair costs — strong cash buyer angle for deferred-maintenance properties.' },
   { name: 'North Northampton', notes: 'Northern Northampton neighborhoods. Mix of residential types. Full service area for cash and distressed situations.' },
-  { name: 'Bow', notes: 'Adjacent suburban town south of Northampton. Mix of older farmhouses and newer construction. Strong owner-occupant and investor demand.' },
-  { name: 'Hooksett', notes: 'Adjacent town south of Northampton on the Merrimack River. Growing suburban market with good access to Manchester. Full service area.' },
-  { name: 'Pembroke', notes: 'Adjacent town southeast of Northampton. Older rural-residential stock with steady investor interest. Full service area.' },
-  { name: 'Canterbury', notes: 'Rural town north of Northampton. Older farmhouses and character properties. Estate and inherited-property angle common.' },
-  { name: 'Dunbarton', notes: 'Rural town west of Northampton. Older rural-residential. Full service area — cash angle for inherited and estate properties.' },
-  { name: 'Hopkinton', notes: 'Town west of Northampton. Mix of rural and suburban residential. Full service area.' },
-  { name: 'Loudon', notes: 'Town northeast of Northampton. Older rural-residential and newer construction. Full service area.' },
+  { name: 'Downtown Northampton', notes: 'Central Northampton homes, mixed-use properties, and older housing stock near shops and services.' },
+  { name: 'Florence', notes: 'Established Northampton village with older single-family homes, multifamily properties, and estate-sale situations.' },
+  { name: 'Leeds', notes: 'Residential village north of downtown with older homes and inherited-property scenarios.' },
+  { name: 'Easthampton', notes: 'Nearby Hampshire County city with older homes, multifamily stock, and as-is sale needs.' },
+  { name: 'Amherst', notes: 'Nearby Hampshire County market with rentals, estates, and owner-occupant housing.' },
+  { name: 'Hadley', notes: 'Nearby Hampshire County town with rural and suburban properties; full service area.' },
+  { name: 'South Hadley', notes: 'Nearby Hampshire County community with older housing stock and as-is sale needs.' },
 ];
 
 export default function NorthamptonNeighborhoodsPage() {
@@ -54,8 +54,8 @@ export default function NorthamptonNeighborhoodsPage() {
       <div className="max-w-4xl mx-auto px-4 py-8">
         <p className="text-gray-700 mb-6">
           USA Home Buyers purchases homes throughout Northampton and Hampshire County. Whether your
-          property is a Victorian near the state capitol, a cape cod in Penacook, or a rural-
-          residential in Canterbury, we make cash offers as-is in any condition. Call 888-274-5006.
+          property is an older home near downtown, a cape cod in Norwichtown or Taftville, or a rural-
+          residential property elsewhere in Hampshire County, we make cash offers as-is in any condition. Call 888-274-5006.
         </p>
         <div className="grid md:grid-cols-2 gap-4 mb-8">
           {NEIGHBORHOODS.map((n) => (

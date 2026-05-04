@@ -26,7 +26,7 @@ const FAQ_ITEMS = [
   {
     question: 'What is the CT real estate transfer tax and how does it work?',
     answer:
-      "Connecticut has a real estate transfer tax of $1.50 per $100 of consideration total — split equally between buyer and seller at $0.75 per $100 each. It is collected by the CT Department of Revenue Administration (RSA 78-B). On a $270,000 Norwich home, the seller's share is $2,025. We cover all closing costs when you sell to us. Source: CT Dept. of Revenue Administration, revenue.nh.gov.",
+      "Connecticut has a real estate transfer tax of state and municipal conveyance taxes that vary by price point and municipality. The closing attorney confirms the exact amount. We cover ordinary closing costs when you sell to us.",
   },
   {
     question: 'Does Connecticut require an attorney to close a real estate sale?',
@@ -36,17 +36,17 @@ const FAQ_ITEMS = [
   {
     question: 'How does foreclosure work in Connecticut?',
     answer:
-      "Connecticut is a non-judicial foreclosure state. Under RSA 479:25, lenders foreclose via power of sale without court involvement. Requirements: 25 days' published notice plus 60 days' written notice to the borrower. Total timeline: typically 60–90 days from default to sale. No post-sale redemption period. A cash sale before the foreclosure date stops the process.",
+      "Connecticut foreclosure is judicial and handled through Superior Court. Timing depends on filings, court orders, law days, or a sale schedule. A cash sale before a court deadline or sale date may resolve the case if completed in time; consult a Connecticut-licensed attorney.",
   },
   {
-    question: 'Where is New London County Probate Division in Norwich CT?',
+    question: 'Where is the Probate Court in Norwich CT?',
     answer:
-      "New London County Circuit Court — Probate Division, 163 North Main Street, Norwich CT 03301, phone (603) 271-6400. The court handles will probate, estate administration, and related matters in New London County.",
+      "Norwich Probate District, Norwich CT 06360. The court handles will probate, estate administration, and related matters for Norwich-area residents.",
   },
   {
     question: 'What areas near Norwich do you buy in?',
     answer:
-      "All of New London County: Norwich, Bow, Pembroke, Hooksett, Canterbury, Dunbarton, Hopkinton, Loudon, and surrounding communities. Call 888-274-5006 if you're not sure we cover your area.",
+      "New London County communities including Norwich, New London, Groton, Waterford, Montville, Preston, Ledyard, Griswold, Stonington, East Lyme, Lisbon, Sprague, Voluntown, and surrounding communities. Call 888-274-5006 if you're not sure we cover your area.",
   },
   {
     question: 'Do I need to make repairs before selling?',

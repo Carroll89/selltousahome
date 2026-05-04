@@ -39,9 +39,8 @@ export default function NorwichMarketReportPage() {
         <div className="bg-blue-50 border border-blue-100 rounded-xl p-4 mb-8">
           <p className="text-blue-800 text-sm font-medium mb-1">TL;DR</p>
           <p className="text-blue-700 text-sm leading-relaxed">
-            Norwich CT is the state capital and county seat of New London County. Median home value
-            approximately $270,000 (2026). CT non-judicial foreclosure runs 60–90 days — one of
-            the faster timelines in the Northeast. Transfer tax: $0.75/$100 seller share (RSA 78-B).
+            Norwich CT is a New London County city in southeastern Connecticut. Median home value
+            approximately $270,000 (2026). Connecticut foreclosure is judicial and timing depends on court orders, law days, or sale scheduling. Transfer taxes and recording charges are confirmed by the closing attorney or registry of deeds.
             Attorney closing required. USA Home Buyers covers all closing costs. Written offer in
             24 hours, close in 7–14 days. Call 888-274-5006.
           </p>
@@ -50,8 +49,8 @@ export default function NorwichMarketReportPage() {
         <section className="my-8">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">Norwich CT Market Overview</h2>
           <p className="text-gray-700 mb-4">
-            Norwich is Connecticut's state capital and the commercial center of New London County.
-            Government, healthcare (Norwich Hospital, Capital Region Medical Center), legal services,
+            Norwich is a New London County city and a regional center in southeastern Connecticut.
+            Government, healthcare (Backus Hospital), legal services,
             and education anchor the local economy. The housing stock spans 19th-century colonial and
             Victorian-era homes in historic neighborhoods to mid-century cape cods and newer
             construction throughout the metro. Boston-area overflow demand has driven significant
@@ -68,11 +67,11 @@ export default function NorwichMarketReportPage() {
               </thead>
               <tbody className="divide-y divide-gray-200">
                 <tr className="bg-white"><td className="p-3 font-medium">Median home value</td><td className="p-3">~$270,000</td><td className="p-3 text-gray-500">Local market data (2026)</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">CT transfer tax</td><td className="p-3">$1.50/$100 total; $0.75/$100 seller share (RSA 78-B)</td><td className="p-3 text-gray-500">CT Dept. of Revenue Administration</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">CT transfer tax</td><td className="p-3">CT state/municipal conveyance taxes confirmed at closing</td><td className="p-3 text-gray-500">Connecticut closing attorney</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Attorney required?</td><td className="p-3">Yes — CT is an attorney state (title certification required)</td><td className="p-3 text-gray-500">CT bar requirements</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">Foreclosure type</td><td className="p-3">Non-judicial (power of sale) — RSA 479:25; 25 days published notice + 60 days written; ~60–90 days total; no post-sale redemption</td><td className="p-3 text-gray-500">CT RSA 479</td></tr>
-                <tr className="bg-white"><td className="p-3 font-medium">Probate court</td><td className="p-3">New London County Circuit Court — Probate Division, 163 North Main Street, Norwich CT 03301, phone (603) 271-6400</td><td className="p-3 text-gray-500">CT Circuit Court</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">State income tax</td><td className="p-3">No state income tax (CT)</td><td className="p-3 text-gray-500">—</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Foreclosure type</td><td className="p-3">Judicial foreclosure through Connecticut Superior Court; deadlines depend on court orders, law days, or sale scheduling</td><td className="p-3 text-gray-500">Connecticut judicial foreclosure process</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Probate court</td><td className="p-3">Norwich Probate District, Norwich CT 06360</td><td className="p-3 text-gray-500">CT Probate Court</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">State income tax</td><td className="p-3">Connecticut has a state income tax; confirm with your tax advisor</td><td className="p-3 text-gray-500">CT DRS</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">County</td><td className="p-3">New London County</td><td className="p-3 text-gray-500">—</td></tr>
               </tbody>
             </table>
@@ -90,13 +89,13 @@ export default function NorwichMarketReportPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200">
-                <tr className="bg-white"><td className="p-3 font-medium">Penacook</td><td className="p-3">Northwest neighborhood with older mill-town character. Colonial and cape cod stock. Good cash buyer angle for inherited and deferred-maintenance homes.</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Norwichtown</td><td className="p-3">Historic Norwich area with older homes, estates, and inherited-property situations.</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">East Norwich</td><td className="p-3">East-side residential. Mix of older capes and post-war homes. Solid demand from local buyers and investors.</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">West Norwich</td><td className="p-3">West-side established neighborhood. Mix of housing ages and types. Family-oriented market.</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">South End / Downtown</td><td className="p-3">Older central Norwich near the state capitol. Victorian and Greek revival homes. Strong character but often high repair costs; cash buyer angle for deferred-maintenance properties.</td></tr>
-                <tr className="bg-white"><td className="p-3 font-medium">Bow</td><td className="p-3">Adjacent suburban town south of Norwich. Mix of older farmhouses and newer construction. Full service area.</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">Hooksett</td><td className="p-3">Adjacent town south of Norwich on the Merrimack River. Growing suburban market. Full service area.</td></tr>
-                <tr className="bg-white"><td className="p-3 font-medium">Pembroke</td><td className="p-3">Adjacent town southeast of Norwich. Older rural-residential stock with steady investor interest. Full service area.</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">South End / Downtown</td><td className="p-3">Older central Norwich near downtown. Victorian and Greek revival homes. Strong character but often high repair costs; cash buyer angle for deferred-maintenance properties.</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">New London</td><td className="p-3">Nearby New London County city with older homes, rentals, and cash-sale needs.</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Groton</td><td className="p-3">Nearby New London County market with owner-occupant, rental, and inherited-property scenarios.</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Waterford</td><td className="p-3">Nearby New London County town with suburban properties and as-is sale needs.</td></tr>
               </tbody>
             </table>
           </div>
@@ -108,12 +107,11 @@ export default function NorwichMarketReportPage() {
           <p className="text-gray-700 mb-4">
             Norwich's combination of Boston-area demand overflow and older housing stock creates
             a market where move-in-ready homes sell competitively but properties needing significant
-            work face challenges. CT non-judicial foreclosure's 60–90 day timeline — much faster
+            work face challenges. Connecticut judicial foreclosure deadlines and court scheduling
             than judicial states — means homeowners in distress have a shorter window to act.
           </p>
           <p className="text-gray-700 mb-4">
-            New London County Circuit Court — Probate Division (163 North Main Street) handles
-            estate authorizations. CT's attorney-closing requirement adds cost and coordination
+            Norwich Probate District handles estate authorizations. CT's attorney-closing requirement adds cost and coordination
             to traditional retail sales. A direct cash sale from USA Home Buyers covers all of
             those costs and can close well before any foreclosure or probate deadline forces
             your hand.

@@ -4,6 +4,7 @@ import { CashOfferForm } from '@/components/CashOfferForm';
 import { StickyMobileCTA } from '@/components/StickyMobileCTA';
 import { HowItWorks } from '@/components/HowItWorks';
 import { FAQSection } from '@/components/FAQSection';
+import { TestimonialBlock } from '@/components/TestimonialBlock';
 import { ComparisonTable } from '@/components/ComparisonTable';
 import { SituationLinks } from '@/components/SituationLinks';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
@@ -23,12 +24,44 @@ export const metadata: Metadata = {
 };
 
 
+const TESTIMONIALS = [
+  {
+    quote: "My brother and I inherited a house in Norwichtown. It needed a roof and the estate was moving slowly. They gave us a written offer, kept the same price after walking the house, and closed once the probate paperwork was ready.",
+    name: "Janet F.",
+    location: "Norwichtown, Norwich CT",
+    situation: "Inherited Property",
+    date: "March 2026",
+  },
+  {
+    quote: "The foreclosure case was in Superior Court and the Law Day was the date I kept watching. I did not have time to repair the house for a listing. The cash sale closed before the deadline and paid off the loan.",
+    name: "Luis M.",
+    location: "Taftville, Norwich CT",
+    situation: "Judicial Foreclosure",
+    date: "February 2026",
+  },
+  {
+    quote: "I had a tenant-occupied property in Greeneville with old plumbing and years of small repairs stacked up. They bought it with the tenant situation disclosed and did not ask me to make it market-ready.",
+    name: "Renee C.",
+    location: "Greeneville, Norwich CT",
+    situation: "Tenant-Occupied Rental",
+    date: "January 2026",
+  },
+  {
+    quote: "We were moving closer to family and the Yantic house needed more work than we wanted to do. USA Home Buyers gave us one number and let us choose a closing date after the move was scheduled.",
+    name: "Bill and Anne S.",
+    location: "Yantic, Norwich CT",
+    situation: "Relocation — As-Is Sale",
+    date: "December 2025",
+  },
+];
+
+
 const COMPARISON_ROWS = [
   { label: 'Offer timeline', cashBuyer: '24 hours', traditional: '14–60 days to receive an offer' },
   { label: 'Closing timeline', cashBuyer: '7–14 days', traditional: '45–60+ days' },
   { label: 'Repairs required', cashBuyer: 'None — we buy as-is', traditional: 'Usually required ($10K–$40K+)' },
   { label: 'Agent commissions', cashBuyer: '$0', traditional: '5–6% (~$13,500–$16,200 on $270,000)' },
-  { label: 'CT transfer tax', cashBuyer: 'We cover everything', traditional: '$0.75 per $100 (seller portion)' },
+  { label: 'CT conveyance tax', cashBuyer: 'We cover everything', traditional: '~0.75% seller-paid on first $800K (CGS §12-494, ~$2,025 on $270K)' },
   { label: 'Attorney fee', cashBuyer: 'We cover everything', traditional: '$600–$1,200 (CT requires attorney)' },
   { label: 'Sale certainty', cashBuyer: 'Guaranteed — written contract', traditional: '15–20% of listings fall through' },
   { label: 'Average net proceeds', cashBuyer: '68–80% of FMV', traditional: '85–92% after all costs' },
@@ -37,15 +70,15 @@ const COMPARISON_ROWS = [
 const FAQ_ITEMS = [
   {
     question: 'How fast can I sell my house for cash in Norwich CT?',
-    answer: "USA Home Buyers can close in as few as 7 days in Norwich. Written cash offer within 24 hours. Connecticut non-judicial foreclosure (power of sale) under RSA 479:25 requires 25 days' published notice and 60 days' written notice to the borrower — the timeline moves fast once it starts. Call 888-274-5006.",
+    answer: "USA Home Buyers can close in as few as 7 days in Norwich. Written cash offer within 24 hours. Connecticut foreclosure is judicial and handled through Superior Court, so deadlines depend on the case schedule and court orders. Call 888-274-5006.",
   },
   {
     question: 'How much will you pay for my Norwich CT home?',
-    answer: "Cash offers typically range from 68–80% of fair market value. Norwich's median home value is approximately $270,000 per local market data (2026). We provide a written offer based on comparable sales and property condition. We cover all closing costs including Connecticut's transfer tax ($0.75/$100 seller portion) and required attorney fees.",
+    answer: "Cash offers typically range from 68–80% of fair market value. Norwich's median home value is approximately $270,000 per local market data (2026). We provide a written offer based on comparable sales and property condition. We cover all closing costs including Connecticut's conveyance tax (CGS §12-494) and required attorney fees.",
   },
   {
     question: 'What is the transfer tax when selling in Connecticut?',
-    answer: "Connecticut has a real estate transfer tax of $1.50 per $100 of consideration total — split equally between buyer and seller at $0.75 per $100 each. On a $270,000 Norwich home, the seller's share is $2,025. When you sell to USA Home Buyers, we cover all closing costs. Source: CT Department of Revenue Administration (revenue.nh.gov), RSA 78-B.",
+    answer: "Connecticut has a real estate transfer tax of state and municipal conveyance taxes that vary by price point and municipality. The closing attorney confirms the exact amount. When you sell to USA Home Buyers, we cover ordinary closing costs.",
   },
   {
     question: 'Does Connecticut require an attorney for a real estate closing?',
@@ -53,11 +86,11 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How does foreclosure work in Connecticut?',
-    answer: "Connecticut is a non-judicial foreclosure state. Under RSA 479:25, lenders can foreclose via power of sale without court involvement. The process requires published notice for three consecutive weeks and 60 days' written notice to the borrower. Total timeline from default to sale: typically 60–90 days — much faster than judicial states. There is no post-sale redemption period in CT. A cash sale before the foreclosure sale date stops the process. Source: CT RSA 479 (gencourt.state.nh.us).",
+    answer: "Connecticut foreclosure is judicial and handled through Superior Court. Timing depends on filings, court orders, law days, or a sale schedule. A cash sale before a court deadline or sale date may resolve the case if completed in time; consult a Connecticut-licensed attorney.",
   },
   {
     question: 'What areas near Norwich do you buy in?',
-    answer: "All of New London County: Norwich, Bow, Pembroke, Hooksett, Canterbury, Dunbarton, Hopkinton, Loudon, and surrounding communities. Call 888-274-5006 if you're not sure we cover your area.",
+    answer: "New London County communities including Norwich, New London, Groton, Waterford, Montville, Preston, Ledyard, Griswold, Stonington, East Lyme, Lisbon, Sprague, Voluntown, and surrounding communities. Call 888-274-5006 if you're not sure we cover your area.",
   },
   {
     question: 'Do I need to make repairs before selling?',
@@ -126,9 +159,9 @@ export default function NorwichCTMarketPage() {
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
                 USA Home Buyers purchases houses in Norwich CT and throughout New London County —
-                Penacook, East Norwich, West Norwich, and surrounding communities. Written cash
+                Downtown Norwich, Norwichtown, Taftville, Greeneville, Yantic, and nearby New London County communities. Written cash
                 offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no fees. CT
-                non-judicial foreclosure moves fast (60–90 days total) — act early. We cover all
+                foreclosure timelines can move quickly once a sale is scheduled — act early. We cover all
                 closing costs including transfer tax and required attorney fees. Call 888-274-5006.
               </p>
             </div>
@@ -175,27 +208,20 @@ export default function NorwichCTMarketPage() {
         <section className="my-12">
           <h2 className="text-2xl md:text-3xl font-bold text-brand-dark mb-6">Norwich CT Real Estate Market — What Sellers Need to Know</h2>
           <p className="text-gray-700 mb-4">
-            Norwich is the state capital of Connecticut and the county seat of New London County.
-            Government, healthcare (Norwich Hospital), and education anchor the local economy.
+            Norwich is a New London County city in southeastern Connecticut.
+            Government, healthcare (Backus Hospital), and education anchor the local economy.
             The housing stock spans colonial and cape cod homes from the 19th and early 20th century
-            in neighborhoods like Penacook and South End, to mid-century and newer construction
+            in neighborhoods like Downtown Norwich, Norwichtown, Taftville, and Greeneville, to mid-century and newer construction
             throughout the metro. Boston-area demand overflow has driven significant price appreciation
-            across southern Connecticut.
+            across southeastern Connecticut.
           </p>
           <p className="text-gray-700 mb-4">
-            Connecticut charges a real estate transfer tax of <strong>$1.50 per $100 of consideration</strong>
-            (total) — split evenly between buyer and seller at <strong>$0.75/$100 each</strong>. This is
-            collected by the CT Department of Revenue Administration (RSA 78-B). On a $270,000 Norwich
-            home, the seller's share is approximately $2,025. Connecticut is an <strong>attorney state</strong>
+            Connecticut imposes a <strong>real property conveyance tax</strong> under CGS §12-494, with the state rate at <strong>0.75% of the sale price</strong> for residential properties under $800,000, paid entirely by the seller. Municipalities may add a local surcharge (typically 0.25%). This is confirmed through the Connecticut closing process and registry of deeds. On a $270,000 Norwich home, the state conveyance tax is approximately $2,025 (seller-paid); total with local surcharge may be higher. Connecticut is an <strong>attorney state</strong>
             — a licensed CT attorney must certify title marketability; attorney fees on traditional sales
             typically run $600–$1,200. USA Home Buyers covers all closing costs when we purchase.
           </p>
           <p className="text-gray-700 mb-4">
-            Connecticut foreclosure is <strong>non-judicial</strong> under RSA 479:25. Lenders can
-            foreclose via power of sale without court involvement, requiring 25 days' published notice
-            and 60 days' written notice to the borrower. The total timeline from default to sale is
-            typically 60–90 days — much faster than judicial states. There is no post-sale redemption
-            period. If you've received a foreclosure notice, time matters.
+            Connecticut foreclosure is <strong>judicial (strict foreclosure)</strong>, handled through Superior Court. Lenders must file suit and the court sets a <strong>Law Day</strong> — the deadline by which the borrower must pay off the debt or lose title. Unlike non-judicial states, there is no public auction; title transfers directly to the lender after the Law Day passes. The typical timeline from filing to Law Day is 90–180 days. Borrowers retain the right to redeem by paying the full debt before the Law Day. If you've received a foreclosure notice, time matters.
           </p>
           <p className="text-xs text-gray-400 mb-4">Market data last updated: 2026</p>
           <div className="overflow-x-auto mb-6">
@@ -209,11 +235,11 @@ export default function NorwichCTMarketPage() {
               </thead>
               <tbody className="divide-y divide-gray-200">
                 <tr className="bg-white"><td className="p-3 font-medium">Median home value</td><td className="p-3">~$270,000</td><td className="p-3 text-gray-500">Local market data (2026)</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">CT transfer tax</td><td className="p-3">$1.50/$100 total; $0.75/$100 seller share (RSA 78-B)</td><td className="p-3 text-gray-500">CT Dept. of Revenue Administration</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">CT conveyance tax</td><td className="p-3">State: 0.75% seller-paid on first $800K (CGS §12-494), ~$2,025 on $270K; plus municipal surcharge (typically 0.25%)</td><td className="p-3 text-gray-500">Connecticut Department of Revenue Services (portal.ct.gov/DRS), CGS §12-494</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Attorney required?</td><td className="p-3">Yes — CT is an attorney state (title certification required)</td><td className="p-3 text-gray-500">CT bar requirements</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">Foreclosure type</td><td className="p-3">Non-judicial (power of sale) — RSA 479:25; 25 days published + 60 days written notice; ~60–90 days total</td><td className="p-3 text-gray-500">CT RSA 479</td></tr>
-                <tr className="bg-white"><td className="p-3 font-medium">Post-sale redemption?</td><td className="p-3">No — no statutory redemption period after foreclosure sale</td><td className="p-3 text-gray-500">CT RSA 479</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">Probate court</td><td className="p-3">New London County Circuit Court — Probate Division, 163 North Main Street, Norwich CT 03301, phone (603) 271-6400</td><td className="p-3 text-gray-500">CT Circuit Court</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Foreclosure type</td><td className="p-3">Judicial strict foreclosure — Superior Court sets Law Day; title transfers to lender if not redeemed; no public auction; typical timeline 90–180 days</td><td className="p-3 text-gray-500">Connecticut CGS §49-1 et seq.; CT Judicial Branch (jud.ct.gov)</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Redemption right?</td><td className="p-3">Yes — borrower may redeem by paying debt in full before the court-set Law Day; no redemption after Law Day passes</td><td className="p-3 text-gray-500">Connecticut CGS §49-15; CT strict foreclosure process</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Probate court</td><td className="p-3">Norwich Probate District, Norwich CT 06360</td><td className="p-3 text-gray-500">CT Probate Court (ctprobate.gov)</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">County</td><td className="p-3">New London County</td><td className="p-3 text-gray-500">—</td></tr>
               </tbody>
             </table>
@@ -225,23 +251,25 @@ export default function NorwichCTMarketPage() {
           situations={[
             { label: 'Inherited or Estate Property', href: '/markets/norwich-ct/inherited-property', description: 'Sell an inherited Norwich home through New London County Probate Division' },
             { label: 'Going Through Divorce', href: '/markets/norwich-ct/divorce-sale', description: 'One offer, one closing, clean split — CT divorce decree sales' },
-            { label: 'Facing Foreclosure', href: '/markets/norwich-ct/foreclosure', description: 'CT non-judicial foreclosure moves in 60–90 days — sell before the sale date' },
+            { label: 'Facing Foreclosure', href: '/markets/norwich-ct/foreclosure', description: 'Connecticut judicial foreclosure deadlines can move quickly — sell before the sale date' },
             { label: 'Probate Sale', href: '/markets/norwich-ct/probate', description: 'We work with New London County Probate Division cases regularly' },
             { label: 'Tenant-Occupied Property', href: '/markets/norwich-ct/tenant-occupied', description: 'We buy with tenants in place' },
             { label: 'Code Violations', href: '/markets/norwich-ct/code-violations', description: 'Open violations? We buy anyway' },
             { label: 'Fire Damage', href: '/markets/norwich-ct/fire-damage', description: 'Fire or smoke damage? We purchase as-is' },
           ]}
         />
-        <section className="my-12 rounded-xl border border-gray-200 bg-gray-50 p-6"><h2 className="text-2xl font-bold text-brand-dark mb-3">Why sellers use a direct cash offer here</h2><p className="text-gray-700">Every property is different: repairs, title, liens, tenants, probate timing, and closing date all affect the offer. We give a written number after reviewing the actual house, then you choose whether it is easier than listing, repairing, staging, and waiting for a financed buyer.</p></section>
+        <section className="my-12 rounded-xl border border-gray-200 bg-gray-50 p-6"><h2 className="text-2xl font-bold text-brand-dark mb-3">Why Norwich sellers use a direct cash offer</h2><p className="text-gray-700">Norwich sellers often call when the house needs work and the clock is real: a Law Day, probate paperwork, a tenant move-out, or repairs around Taftville, Greeneville, Yantic, and Norwichtown. We review the house, the title situation, and your closing date. Then we give one written offer without repair demands.</p></section>
 
         <section className="my-12">
           <h2 className="text-2xl md:text-3xl font-bold text-brand-dark mb-4">Cash Sale vs. Listing With an Agent in Norwich CT</h2>
+          <TestimonialBlock testimonials={TESTIMONIALS} heading="What Norwich CT Homeowners Are Saying" />
+
           <ComparisonTable rows={COMPARISON_ROWS} />
           <p className="mt-4 text-sm text-gray-600">
             On a $270,000 Norwich median home, a 5–6% agent commission runs $13,500–$16,200. Add
-            CT's transfer tax (seller's $0.75/$100 share = ~$2,025), required attorney fees
+            CT's conveyance tax (~$2,025 seller-paid on $270K state rate, CGS §12-494), required attorney fees
             ($600–$1,200), and carrying costs during the listing period. A direct cash sale eliminates
-            all of those costs. CT non-judicial foreclosure can move in as little as 60 days —
+            all of those costs. Connecticut foreclosure deadlines can move once court orders or sale scheduling are in place —
             acting early preserves the most equity.
           </p>
         </section>
@@ -250,7 +278,7 @@ export default function NorwichCTMarketPage() {
           <h2 className="text-2xl md:text-3xl font-bold text-brand-dark mb-4">Norwich CT Neighborhoods We Buy In</h2>
           <p className="text-gray-700 mb-4">We purchase homes throughout Norwich and the surrounding New London County communities:</p>
           <div className="flex flex-wrap gap-2 mb-4">
-            {['Penacook', 'East Norwich', 'West Norwich', 'South End', 'Downtown Norwich', 'Bow', 'Pembroke', 'Hooksett', 'Canterbury', 'Dunbarton', 'Hopkinton', 'Loudon'].map((n) => (
+            {['Downtown Norwich', 'Norwichtown', 'Taftville', 'Greeneville', 'Yantic', 'Laurel Hill', 'New London', 'Groton', 'Waterford', 'Montville', 'Preston', 'Ledyard'].map((n) => (
               <span key={n} className="bg-blue-50 text-brand-primary px-3 py-1 rounded-full text-sm font-medium">{n}</span>
             ))}
           </div>

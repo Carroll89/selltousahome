@@ -13,7 +13,7 @@ const pageUrl = `${SITE_URL}/markets/northampton-ma/foreclosure`;
 export const metadata: Metadata = {
   title: 'Stop Foreclosure Northampton MA — Sell Before MA Power of Sale Date',
   description:
-    'Facing foreclosure in Northampton MA? MA non-judicial foreclosure runs 60–90 days total. USA Home Buyers purchases homes before the power of sale date — cash offer in 24 hours.',
+    'Facing foreclosure in Northampton MA? Massachusetts foreclosure timelines depend on the notice and sale schedule. USA Home Buyers purchases homes before the power of sale date — cash offer in 24 hours.',
   alternates: { canonical: pageUrl },
 };
 
@@ -21,7 +21,7 @@ const FAQ_ITEMS = [
   {
     question: 'How fast can I sell before foreclosure in Northampton MA?',
     answer:
-      "USA Home Buyers closes in as few as 7 days. Massachusetts non-judicial foreclosure under RSA 479:25 requires 25 days' published notice and 60 days' written notice to the borrower. The total timeline from default to sale is typically 60–90 days — among the faster timelines in the Northeast. A cash sale before the foreclosure sale date preserves your equity. Call 888-274-5006. Consult a Massachusetts-licensed real estate attorney for your specific situation.",
+      "USA Home Buyers closes in as few as 7 days. Massachusetts foreclosure timelines depend on the required notices, lender schedule, and the planned sale date. A cash sale before the foreclosure sale date preserves your equity. Call 888-274-5006. Consult a Massachusetts-licensed real estate attorney for your specific situation.",
   },
   {
     question: 'Will selling stop the MA foreclosure process?',
@@ -31,7 +31,7 @@ const FAQ_ITEMS = [
   {
     question: 'What is the foreclosure process in Hampshire County MA?',
     answer:
-      "Massachusetts is a non-judicial foreclosure state. Lenders foreclose via power of sale under RSA 479:25 — no court involvement required. Requirements: published notice in a local newspaper for three consecutive weeks, plus 60 days' written notice to the borrower. The total timeline from default to sale is typically 60–90 days. There is no post-sale redemption period. This faster timeline compared to judicial states means acting early is critical. Source: MA RSA 479 (gencourt.state.nh.us). Consult an MA-licensed real estate attorney for your specific situation.",
+      "Massachusetts foreclosure commonly proceeds by power of sale under Massachusetts law after required borrower notices and sale publication. Exact deadlines depend on the loan, notice status, and scheduled sale date, so acting early is critical. Consult a Massachusetts-licensed real estate attorney for your specific situation.",
   },
   {
     question: 'What if I owe more than the house is worth?',
@@ -41,7 +41,7 @@ const FAQ_ITEMS = [
   {
     question: 'What areas near Northampton do you buy in pre-foreclosure?',
     answer:
-      'All of Hampshire County: Northampton, Bow, Pembroke, Hooksett, Canterbury, Dunbarton, Hopkinton, Loudon, and surrounding communities. Call 888-274-5006.',
+      'Hampshire County communities including Northampton, Easthampton, Amherst, Hadley, Hatfield, Williamsburg, Southampton, South Hadley, Belchertown, Granby, and surrounding communities. Call 888-274-5006.',
   },
 ];
 
@@ -80,8 +80,7 @@ export default function NorthamptonForeclosurePage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                Massachusetts non-judicial foreclosure runs on a 60–90 day timeline from default
-                to sale under RSA 479:25 — no court required. There is no post-sale redemption
+                Massachusetts foreclosure timelines depend on required notices and the scheduled sale date. A cash sale before the sale can help preserve options; consult a Massachusetts-licensed attorney for case-specific advice. There is generally no post-sale redemption
                 period. USA Home Buyers purchases Northampton homes before the power of sale date —
                 written cash offer in 24 hours, close in 7–14 days. We cover all closing costs.
                 Call 888-274-5006.
@@ -115,11 +114,10 @@ export default function NorthamptonForeclosurePage() {
       <div className="max-w-7xl mx-auto px-4 py-8">
         <section className="my-8">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">
-            How Non-Judicial Foreclosure Works in Massachusetts
+            How Foreclosure Works in Massachusetts
           </h2>
           <p className="text-gray-700 mb-4">
-            Massachusetts uses non-judicial foreclosure — the lender can foreclose via power of
-            sale without going to court. Under RSA 479:25, the lender must publish notice of the
+            Massachusetts foreclosure commonly proceeds by power of sale under Massachusetts law after required borrower notices and sale publication. Confirm the exact deadlines with a Massachusetts-licensed attorney before the
             foreclosure sale in a local newspaper for three consecutive weeks and provide 60 days'
             written notice to the borrower. The total timeline from default to completed foreclosure
             sale is typically <strong>60–90 days</strong> — significantly faster than New England

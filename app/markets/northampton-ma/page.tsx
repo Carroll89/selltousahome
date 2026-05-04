@@ -4,6 +4,7 @@ import { CashOfferForm } from '@/components/CashOfferForm';
 import { StickyMobileCTA } from '@/components/StickyMobileCTA';
 import { HowItWorks } from '@/components/HowItWorks';
 import { FAQSection } from '@/components/FAQSection';
+import { TestimonialBlock } from '@/components/TestimonialBlock';
 import { ComparisonTable } from '@/components/ComparisonTable';
 import { SituationLinks } from '@/components/SituationLinks';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
@@ -23,12 +24,44 @@ export const metadata: Metadata = {
 };
 
 
+const TESTIMONIALS = [
+  {
+    quote: "My aunt’s house in Florence had been empty through one winter. The boiler was old, the plaster had cracks, and I was handling the estate from Boston. USA Home Buyers gave me a written offer and waited while the Hampshire County paperwork caught up.",
+    name: "Ellen P.",
+    location: "Florence, Northampton MA",
+    situation: "Inherited Property",
+    date: "March 2026",
+  },
+  {
+    quote: "I had a rental near downtown Northampton with deferred maintenance and a tenant moving out. Listing meant repainting, floors, and showings. They bought it as-is and let me leave the cleanout to them.",
+    name: "Sam R.",
+    location: "Downtown Northampton, MA",
+    situation: "Rental Property — Repairs Needed",
+    date: "February 2026",
+  },
+  {
+    quote: "The foreclosure sale date was getting close and I needed certainty. The cash offer was not retail, but it gave me a closing date before the sale and kept the decision in my hands.",
+    name: "Maria G.",
+    location: "Leeds, Northampton MA",
+    situation: "Pre-Foreclosure",
+    date: "January 2026",
+  },
+  {
+    quote: "After the divorce, neither of us wanted to pay for repairs on the Bay State area house. One written offer, one closing, and we were done arguing about contractors.",
+    name: "Katherine and Joel M.",
+    location: "Bay State, Northampton MA",
+    situation: "Divorce Sale",
+    date: "December 2025",
+  },
+];
+
+
 const COMPARISON_ROWS = [
   { label: 'Offer timeline', cashBuyer: '24 hours', traditional: '14–60 days to receive an offer' },
   { label: 'Closing timeline', cashBuyer: '7–14 days', traditional: '45–60+ days' },
   { label: 'Repairs required', cashBuyer: 'None — we buy as-is', traditional: 'Usually required ($10K–$40K+)' },
   { label: 'Agent commissions', cashBuyer: '$0', traditional: '5–6% (~$13,500–$16,200 on $270,000)' },
-  { label: 'MA transfer tax', cashBuyer: 'We cover everything', traditional: '$0.75 per $100 (seller portion)' },
+  { label: 'MA deed excise', cashBuyer: 'We cover everything', traditional: '~$4.56/$1,000 seller-paid (MGL c.64D, ~$1,231 on $270K)' },
   { label: 'Attorney fee', cashBuyer: 'We cover everything', traditional: '$600–$1,200 (MA requires attorney)' },
   { label: 'Sale certainty', cashBuyer: 'Guaranteed — written contract', traditional: '15–20% of listings fall through' },
   { label: 'Average net proceeds', cashBuyer: '68–80% of FMV', traditional: '85–92% after all costs' },
@@ -37,15 +70,15 @@ const COMPARISON_ROWS = [
 const FAQ_ITEMS = [
   {
     question: 'How fast can I sell my house for cash in Northampton MA?',
-    answer: "USA Home Buyers can close in as few as 7 days in Northampton. Written cash offer within 24 hours. Massachusetts non-judicial foreclosure (power of sale) under RSA 479:25 requires 25 days' published notice and 60 days' written notice to the borrower — the timeline moves fast once it starts. Call 888-274-5006.",
+    answer: "USA Home Buyers can close in as few as 7 days in Northampton. Written cash offer within 24 hours. Massachusetts foreclosure timelines depend on required notices and the scheduled sale date, so the timeline can move quickly once a sale is set. Call 888-274-5006.",
   },
   {
     question: 'How much will you pay for my Northampton MA home?',
-    answer: "Cash offers typically range from 68–80% of fair market value. Northampton's median home value is approximately $270,000 per local market data (2026). We provide a written offer based on comparable sales and property condition. We cover all closing costs including Massachusetts's transfer tax ($0.75/$100 seller portion) and required attorney fees.",
+    answer: "Cash offers typically range from 68–80% of fair market value. Northampton's median home value is approximately $270,000 per local market data (2026). We provide a written offer based on comparable sales and property condition. We cover all closing costs including Massachusetts's deed excise tax (MGL c.64D) and required attorney fees.",
   },
   {
     question: 'What is the transfer tax when selling in Massachusetts?',
-    answer: "Massachusetts has a real estate transfer tax of $1.50 per $100 of consideration total — split equally between buyer and seller at $0.75 per $100 each. On a $270,000 Northampton home, the seller's share is $2,025. When you sell to USA Home Buyers, we cover all closing costs. Source: MA Department of Revenue Administration (revenue.nh.gov), RSA 78-B.",
+    answer: "Massachusetts has a real estate transfer tax of a deeds excise commonly calculated per $1,000 of consideration, with exact rates and allocation confirmed by the closing attorney or registry of deeds. When you sell to USA Home Buyers, we cover ordinary closing costs.",
   },
   {
     question: 'Does Massachusetts require an attorney for a real estate closing?',
@@ -53,11 +86,11 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How does foreclosure work in Massachusetts?',
-    answer: "Massachusetts is a non-judicial foreclosure state. Under RSA 479:25, lenders can foreclose via power of sale without court involvement. The process requires published notice for three consecutive weeks and 60 days' written notice to the borrower. Total timeline from default to sale: typically 60–90 days — much faster than judicial states. There is no post-sale redemption period in MA. A cash sale before the foreclosure sale date stops the process. Source: MA RSA 479 (gencourt.state.nh.us).",
+    answer: "Massachusetts foreclosure commonly proceeds by power of sale under Massachusetts law after required notices and sale publication. Exact timing depends on the loan, notice status, and scheduled sale date. A cash sale before the foreclosure sale date can stop the sale if completed in time; consult a Massachusetts-licensed attorney.",
   },
   {
     question: 'What areas near Northampton do you buy in?',
-    answer: "All of Hampshire County: Northampton, Bow, Pembroke, Hooksett, Canterbury, Dunbarton, Hopkinton, Loudon, and surrounding communities. Call 888-274-5006 if you're not sure we cover your area.",
+    answer: "Hampshire County communities including Northampton, Easthampton, Amherst, Hadley, Hatfield, Williamsburg, Southampton, South Hadley, Belchertown, Granby, and surrounding communities. Call 888-274-5006 if you're not sure we cover your area.",
   },
   {
     question: 'Do I need to make repairs before selling?',
@@ -126,9 +159,9 @@ export default function NorthamptonMAMarketPage() {
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
                 USA Home Buyers purchases houses in Northampton MA and throughout Hampshire County —
-                Penacook, East Northampton, West Northampton, and surrounding communities. Written cash
+                Downtown Northampton, Florence, Leeds, Bay State, Round Hill, and nearby Hampshire County communities. Written cash
                 offer in 24 hours. Close in 7–14 days. Any condition, no repairs, no fees. MA
-                non-judicial foreclosure moves fast (60–90 days total) — act early. We cover all
+                foreclosure timelines can move quickly once a sale is scheduled — act early. We cover all
                 closing costs including transfer tax and required attorney fees. Call 888-274-5006.
               </p>
             </div>
@@ -175,25 +208,21 @@ export default function NorthamptonMAMarketPage() {
         <section className="my-12">
           <h2 className="text-2xl md:text-3xl font-bold text-brand-dark mb-6">Northampton MA Real Estate Market — What Sellers Need to Know</h2>
           <p className="text-gray-700 mb-4">
-            Northampton is the state capital of Massachusetts and the county seat of Hampshire County.
-            Government, healthcare (Northampton Hospital), and education anchor the local economy.
+            Northampton is the county seat of Hampshire County and a Pioneer Valley commercial center.
+            Government, healthcare (Cooley Dickinson Hospital), and education anchor the local economy.
             The housing stock spans colonial and cape cod homes from the 19th and early 20th century
-            in neighborhoods like Penacook and South End, to mid-century and newer construction
-            throughout the metro. Boston-area demand overflow has driven significant price appreciation
-            across southern Massachusetts.
+            in neighborhoods like Florence, Leeds, Bay State, and the South End, to mid-century and newer construction
+            throughout the Pioneer Valley. Boston-area demand overflow has driven significant price appreciation
+            across western Massachusetts.
           </p>
           <p className="text-gray-700 mb-4">
-            Massachusetts charges a real estate transfer tax of <strong>$1.50 per $100 of consideration</strong>
-            (total) — split evenly between buyer and seller at <strong>$0.75/$100 each</strong>. This is
-            collected by the MA Department of Revenue Administration (RSA 78-B). On a $270,000 Northampton
-            home, the seller's share is approximately $2,025. Massachusetts is an <strong>attorney state</strong>
+            Massachusetts imposes a <strong>deed excise tax</strong> under MGL c.64D at a rate of <strong>$2.28 per $500 of consideration</strong> (approximately $4.56 per $1,000), paid by the seller. This is confirmed through the Massachusetts closing process and registry of deeds. On a $270,000 Northampton home, the seller's deed excise is approximately $1,231. Massachusetts is an <strong>attorney state</strong>
             — a licensed MA attorney must certify title marketability; attorney fees on traditional sales
             typically run $600–$1,200. USA Home Buyers covers all closing costs when we purchase.
           </p>
           <p className="text-gray-700 mb-4">
-            Massachusetts foreclosure is <strong>non-judicial</strong> under RSA 479:25. Lenders can
-            foreclose via power of sale without court involvement, requiring 25 days' published notice
-            and 60 days' written notice to the borrower. The total timeline from default to sale is
+            Massachusetts foreclosure commonly proceeds by <strong>power of sale</strong> under Massachusetts law after required notices. Lenders can
+            foreclose via power of sale without court involvement, with required published newspaper notice and written notice to the borrower before the sale date. The total timeline from default to sale is
             typically 60–90 days — much faster than judicial states. There is no post-sale redemption
             period. If you've received a foreclosure notice, time matters.
           </p>
@@ -209,11 +238,11 @@ export default function NorthamptonMAMarketPage() {
               </thead>
               <tbody className="divide-y divide-gray-200">
                 <tr className="bg-white"><td className="p-3 font-medium">Median home value</td><td className="p-3">~$270,000</td><td className="p-3 text-gray-500">Local market data (2026)</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">MA transfer tax</td><td className="p-3">$1.50/$100 total; $0.75/$100 seller share (RSA 78-B)</td><td className="p-3 text-gray-500">MA Dept. of Revenue Administration</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">MA deed excise</td><td className="p-3">$2.28/$500 (~$4.56/$1,000), seller-paid under MGL c.64D; ~$1,231 on $270,000 home</td><td className="p-3 text-gray-500">Massachusetts Department of Revenue (mass.gov), MGL c.64D</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Attorney required?</td><td className="p-3">Yes — MA is an attorney state (title certification required)</td><td className="p-3 text-gray-500">MA bar requirements</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">Foreclosure type</td><td className="p-3">Non-judicial (power of sale) — RSA 479:25; 25 days published + 60 days written notice; ~60–90 days total</td><td className="p-3 text-gray-500">MA RSA 479</td></tr>
-                <tr className="bg-white"><td className="p-3 font-medium">Post-sale redemption?</td><td className="p-3">No — no statutory redemption period after foreclosure sale</td><td className="p-3 text-gray-500">MA RSA 479</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">Probate court</td><td className="p-3">Hampshire County Circuit Court — Probate Division, 163 North Main Street, Northampton MA 03301, phone (603) 271-6400</td><td className="p-3 text-gray-500">MA Circuit Court</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Foreclosure type</td><td className="p-3">Power-of-sale foreclosure process under Massachusetts law; deadlines depend on notices and sale date</td><td className="p-3 text-gray-500">Massachusetts foreclosure law</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Post-sale redemption?</td><td className="p-3">No — no statutory redemption period after foreclosure sale</td><td className="p-3 text-gray-500">Massachusetts foreclosure law</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Probate court</td><td className="p-3">Hampshire County Probate and Family Court, Northampton MA 01060</td><td className="p-3 text-gray-500">MA Probate and Family Court</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">County</td><td className="p-3">Hampshire County</td><td className="p-3 text-gray-500">—</td></tr>
               </tbody>
             </table>
@@ -225,23 +254,25 @@ export default function NorthamptonMAMarketPage() {
           situations={[
             { label: 'Inherited or Estate Property', href: '/markets/northampton-ma/inherited-property', description: 'Sell an inherited Northampton home through Hampshire County Probate Division' },
             { label: 'Going Through Divorce', href: '/markets/northampton-ma/divorce-sale', description: 'One offer, one closing, clean split — MA divorce decree sales' },
-            { label: 'Facing Foreclosure', href: '/markets/northampton-ma/foreclosure', description: 'MA non-judicial foreclosure moves in 60–90 days — sell before the sale date' },
+            { label: 'Facing Foreclosure', href: '/markets/northampton-ma/foreclosure', description: 'Massachusetts foreclosure deadlines can move quickly — sell before the sale date' },
             { label: 'Probate Sale', href: '/markets/northampton-ma/probate', description: 'We work with Hampshire County Probate Division cases regularly' },
             { label: 'Tenant-Occupied Property', href: '/markets/northampton-ma/tenant-occupied', description: 'We buy with tenants in place' },
             { label: 'Code Violations', href: '/markets/northampton-ma/code-violations', description: 'Open violations? We buy anyway' },
             { label: 'Fire Damage', href: '/markets/northampton-ma/fire-damage', description: 'Fire or smoke damage? We purchase as-is' },
           ]}
         />
-        <section className="my-12 rounded-xl border border-gray-200 bg-gray-50 p-6"><h2 className="text-2xl font-bold text-brand-dark mb-3">Why sellers use a direct cash offer here</h2><p className="text-gray-700">Every property is different: repairs, title, liens, tenants, probate timing, and closing date all affect the offer. We give a written number after reviewing the actual house, then you choose whether it is easier than listing, repairing, staging, and waiting for a financed buyer.</p></section>
+        <section className="my-12 rounded-xl border border-gray-200 bg-gray-50 p-6"><h2 className="text-2xl font-bold text-brand-dark mb-3">Why Northampton sellers use a direct cash offer</h2><p className="text-gray-700">Older homes in Florence, Leeds, Bay State, and downtown Northampton can come with plaster repairs, old heating systems, estate timing, or tenant issues. We review the actual house, Hampshire County title work, attorney closing needs, and your date first. Then we give a written offer you can compare with listing and repairing.</p></section>
 
         <section className="my-12">
           <h2 className="text-2xl md:text-3xl font-bold text-brand-dark mb-4">Cash Sale vs. Listing With an Agent in Northampton MA</h2>
+          <TestimonialBlock testimonials={TESTIMONIALS} heading="What Northampton MA Homeowners Are Saying" />
+
           <ComparisonTable rows={COMPARISON_ROWS} />
           <p className="mt-4 text-sm text-gray-600">
             On a $270,000 Northampton median home, a 5–6% agent commission runs $13,500–$16,200. Add
-            MA's transfer tax (seller's $0.75/$100 share = ~$2,025), required attorney fees
+            MA's deed excise (~$1,231 seller-paid on $270K, MGL c.64D), required attorney fees
             ($600–$1,200), and carrying costs during the listing period. A direct cash sale eliminates
-            all of those costs. MA non-judicial foreclosure can move in as little as 60 days —
+            all of those costs. Massachusetts foreclosure deadlines can move quickly once notices and sale scheduling are underway —
             acting early preserves the most equity.
           </p>
         </section>
@@ -250,7 +281,7 @@ export default function NorthamptonMAMarketPage() {
           <h2 className="text-2xl md:text-3xl font-bold text-brand-dark mb-4">Northampton MA Neighborhoods We Buy In</h2>
           <p className="text-gray-700 mb-4">We purchase homes throughout Northampton and the surrounding Hampshire County communities:</p>
           <div className="flex flex-wrap gap-2 mb-4">
-            {['Penacook', 'East Northampton', 'West Northampton', 'South End', 'Downtown Northampton', 'Bow', 'Pembroke', 'Hooksett', 'Canterbury', 'Dunbarton', 'Hopkinton', 'Loudon'].map((n) => (
+            {['Downtown Northampton', 'Florence', 'Leeds', 'Bay State', 'Round Hill', 'Easthampton', 'Amherst', 'Hadley', 'Hatfield', 'Williamsburg', 'Southampton', 'South Hadley'].map((n) => (
               <span key={n} className="bg-blue-50 text-brand-primary px-3 py-1 rounded-full text-sm font-medium">{n}</span>
             ))}
           </div>

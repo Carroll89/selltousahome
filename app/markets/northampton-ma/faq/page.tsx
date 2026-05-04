@@ -26,7 +26,7 @@ const FAQ_ITEMS = [
   {
     question: 'What is the MA real estate transfer tax and how does it work?',
     answer:
-      "Massachusetts has a real estate transfer tax of $1.50 per $100 of consideration total — split equally between buyer and seller at $0.75 per $100 each. It is collected by the MA Department of Revenue Administration (RSA 78-B). On a $270,000 Northampton home, the seller's share is $2,025. We cover all closing costs when you sell to us. Source: MA Dept. of Revenue Administration, revenue.nh.gov.",
+      "Massachusetts has a real estate transfer tax of a deeds excise commonly calculated per $1,000 of consideration, with rates and local handling confirmed by the closing attorney or registry of deeds. We cover ordinary closing costs when you sell to us.",
   },
   {
     question: 'Does Massachusetts require an attorney to close a real estate sale?',
@@ -36,17 +36,17 @@ const FAQ_ITEMS = [
   {
     question: 'How does foreclosure work in Massachusetts?',
     answer:
-      "Massachusetts is a non-judicial foreclosure state. Under RSA 479:25, lenders foreclose via power of sale without court involvement. Requirements: 25 days' published notice plus 60 days' written notice to the borrower. Total timeline: typically 60–90 days from default to sale. No post-sale redemption period. A cash sale before the foreclosure date stops the process.",
+      "Massachusetts foreclosure commonly proceeds by power of sale under Massachusetts law after required notices and publication. Exact timing depends on the lender schedule and sale date. A cash sale before the foreclosure date can stop the sale if completed in time; consult a Massachusetts-licensed attorney.",
   },
   {
-    question: 'Where is Hampshire County Probate Division in Northampton MA?',
+    question: 'Where is Hampshire Probate and Family Court in Northampton MA?',
     answer:
-      "Hampshire County Circuit Court — Probate Division, 163 North Main Street, Northampton MA 03301, phone (603) 271-6400. The court handles will probate, estate administration, and related matters in Hampshire County.",
+      "Hampshire Probate and Family Court, Northampton MA 01060. The court handles will probate, estate administration, and related matters in Hampshire County.",
   },
   {
     question: 'What areas near Northampton do you buy in?',
     answer:
-      "All of Hampshire County: Northampton, Bow, Pembroke, Hooksett, Canterbury, Dunbarton, Hopkinton, Loudon, and surrounding communities. Call 888-274-5006 if you're not sure we cover your area.",
+      "Hampshire County communities including Northampton, Easthampton, Amherst, Hadley, Hatfield, Williamsburg, Southampton, South Hadley, Belchertown, Granby, and surrounding communities. Call 888-274-5006 if you're not sure we cover your area.",
   },
   {
     question: 'Do I need to make repairs before selling?',

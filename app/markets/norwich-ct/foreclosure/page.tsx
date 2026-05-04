@@ -13,7 +13,7 @@ const pageUrl = `${SITE_URL}/markets/norwich-ct/foreclosure`;
 export const metadata: Metadata = {
   title: 'Stop Foreclosure Norwich CT — Sell Before CT Power of Sale Date',
   description:
-    'Facing foreclosure in Norwich CT? CT non-judicial foreclosure runs 60–90 days total. USA Home Buyers purchases homes before the power of sale date — cash offer in 24 hours.',
+    'Facing foreclosure in Norwich CT? Connecticut foreclosure timelines depend on the Superior Court process and case schedule. USA Home Buyers purchases homes before the power of sale date — cash offer in 24 hours.',
   alternates: { canonical: pageUrl },
 };
 
@@ -21,7 +21,7 @@ const FAQ_ITEMS = [
   {
     question: 'How fast can I sell before foreclosure in Norwich CT?',
     answer:
-      "USA Home Buyers closes in as few as 7 days. Connecticut non-judicial foreclosure under RSA 479:25 requires 25 days' published notice and 60 days' written notice to the borrower. The total timeline from default to sale is typically 60–90 days — among the faster timelines in the Northeast. A cash sale before the foreclosure sale date preserves your equity. Call 888-274-5006. Consult a Connecticut-licensed real estate attorney for your specific situation.",
+      "USA Home Buyers closes in as few as 7 days. Connecticut foreclosure is handled through the court system, and timing depends on filings, court orders, and any law-day or sale schedule. A cash sale before the foreclosure sale date preserves your equity. Call 888-274-5006. Consult a Connecticut-licensed real estate attorney for your specific situation.",
   },
   {
     question: 'Will selling stop the CT foreclosure process?',
@@ -31,7 +31,7 @@ const FAQ_ITEMS = [
   {
     question: 'What is the foreclosure process in New London County CT?',
     answer:
-      "Connecticut is a non-judicial foreclosure state. Lenders foreclose via power of sale under RSA 479:25 — no court involvement required. Requirements: published notice in a local newspaper for three consecutive weeks, plus 60 days' written notice to the borrower. The total timeline from default to sale is typically 60–90 days. There is no post-sale redemption period. This faster timeline compared to judicial states means acting early is critical. Source: CT RSA 479 (gencourt.state.nh.us). Consult an CT-licensed real estate attorney for your specific situation.",
+      "Connecticut foreclosure is judicial and handled through Superior Court. Depending on the case, the court may set law days or a sale process. Exact deadlines depend on court orders and the loan status, so acting early is critical. Consult a Connecticut-licensed real estate attorney for your specific situation.",
   },
   {
     question: 'What if I owe more than the house is worth?',
@@ -41,7 +41,7 @@ const FAQ_ITEMS = [
   {
     question: 'What areas near Norwich do you buy in pre-foreclosure?',
     answer:
-      'All of New London County: Norwich, Bow, Pembroke, Hooksett, Canterbury, Dunbarton, Hopkinton, Loudon, and surrounding communities. Call 888-274-5006.',
+      'New London County communities including Norwich, New London, Groton, Waterford, Montville, Preston, Ledyard, Griswold, Stonington, East Lyme, Lisbon, Sprague, Voluntown, and surrounding communities. Call 888-274-5006.',
   },
 ];
 
@@ -80,8 +80,7 @@ export default function NorwichForeclosurePage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                Connecticut non-judicial foreclosure runs on a 60–90 day timeline from default
-                to sale under RSA 479:25 — no court required. There is no post-sale redemption
+                Connecticut foreclosure is judicial and handled through Superior Court. The schedule depends on court orders, law days, or sale dates, so early action matters. Redemption rights and deadlines are case-specific
                 period. USA Home Buyers purchases Norwich homes before the power of sale date —
                 written cash offer in 24 hours, close in 7–14 days. We cover all closing costs.
                 Call 888-274-5006.
@@ -115,11 +114,10 @@ export default function NorwichForeclosurePage() {
       <div className="max-w-7xl mx-auto px-4 py-8">
         <section className="my-8">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">
-            How Non-Judicial Foreclosure Works in Connecticut
+            How Judicial Foreclosure Works in Connecticut
           </h2>
           <p className="text-gray-700 mb-4">
-            Connecticut uses non-judicial foreclosure — the lender can foreclose via power of
-            sale without going to court. Under RSA 479:25, the lender must publish notice of the
+            Connecticut foreclosure is judicial and handled through Superior Court. The lender must proceed through the court process, and homeowners should review court deadlines with a Connecticut-licensed attorney before the
             foreclosure sale in a local newspaper for three consecutive weeks and provide 60 days'
             written notice to the borrower. The total timeline from default to completed foreclosure
             sale is typically <strong>60–90 days</strong> — significantly faster than New England

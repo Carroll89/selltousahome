@@ -21,12 +21,12 @@ const FAQ_ITEMS = [
   {
     question: 'Can I sell an inherited house in Norwich before probate is complete?',
     answer:
-      "You can accept an offer and sign a purchase contract during probate, but the deed cannot transfer until the executor or administrator holds Letters of Administration from New London County Circuit Court — Probate Division. We make a cash offer immediately and schedule closing for when that legal authority is in hand.",
+      "You can accept an offer and sign a purchase contract during probate, but the deed cannot transfer until the executor or administrator holds probate authority from Norwich Probate District. We make a cash offer immediately and schedule closing for when that legal authority is in hand.",
   },
   {
-    question: 'Where is New London County Probate Division in Norwich CT?',
+    question: 'Where is the Probate Court in Norwich CT?',
     answer:
-      "Connecticut probate is handled by the Circuit Court — Probate Division in each county. New London County Circuit Court — Probate Division is located at 163 North Main Street, Norwich CT 03301, phone (603) 271-6400. The court handles will probate, estate administration, and related matters in New London County.",
+      "Connecticut probate courts operate at the town level. The Norwich Probate District serves Norwich and is located in Norwich CT 06360. The court handles will probate, estate administration, and related matters for Norwich-area residents.",
   },
   {
     question: 'How long does probate take in New London County CT?',
@@ -36,7 +36,7 @@ const FAQ_ITEMS = [
   {
     question: 'Does CT have a simplified small estate procedure that avoids probate?',
     answer:
-      "Connecticut offers voluntary administration for estates with personal property under $10,000. However, real estate generally requires formal probate through the Circuit Court — Probate Division regardless of the property's value. Consult an CT-licensed estate attorney for your specific situation.",
+      "Connecticut offers voluntary administration for small estates. However, real estate generally requires formal probate through the probate court regardless of the property's value. Consult a CT-licensed estate attorney for your specific situation.",
   },
   {
     question: "We're out-of-state heirs — can we sell the Norwich property remotely?",
@@ -80,9 +80,8 @@ export default function NorwichInheritedPropertyPage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                CT estate sales run through New London County Circuit Court — Probate Division
-                (163 North Main Street, Norwich CT 03301, phone (603) 271-6400). Once the
-                personal representative holds Letters of Administration, USA Home Buyers closes
+                CT estate sales run through the Norwich Probate District in Norwich CT 06360. Once the
+                personal representative holds probate authority, USA Home Buyers closes
                 in 7–14 days. No repairs, no prep, no cleanout required. We buy Norwich colonials,
                 capes, and older New England homes as-is. Written cash offer in 24 hours.
                 Call 888-274-5006.
@@ -120,7 +119,7 @@ export default function NorwichInheritedPropertyPage() {
           </h2>
           <p className="text-gray-700 mb-4">
             Norwich's older housing stock — colonial, cape cod, and Victorian-era homes in
-            Penacook, South End, and established city neighborhoods — was built by generations
+            Downtown Norwich, Norwichtown, Taftville, Greeneville, and established city neighborhoods — was built by generations
             of Connecticut state government workers, healthcare professionals, and tradespeople
             who settled here in the early-to-mid 20th century. That generation is aging, and
             the homes they're passing on often carry decades of deferred maintenance.
@@ -134,14 +133,13 @@ export default function NorwichInheritedPropertyPage() {
           </p>
 
           <div className="border-l-4 border-purple-400 pl-4 mb-6">
-            <h3 className="font-semibold text-brand-dark mb-1">New London County Circuit Court — Probate Division</h3>
+            <h3 className="font-semibold text-brand-dark mb-1">Norwich Probate District</h3>
             <p className="text-sm text-gray-700">
-              Connecticut probate runs through the Circuit Court — Probate Division in each
-              county. In Norwich, that's <strong>163 North Main Street, Norwich CT 03301</strong>,
-              phone (603) 271-6400. The personal representative named in the will receives
-              <strong> Letters of Administration</strong> upon the will's admission to probate.
-              For intestate estates (no will), the court appoints an administrator. Those letters
-              grant legal authority to sell real property on behalf of the estate.
+              Connecticut probate courts operate at the town level. The Norwich Probate District
+              is located in <strong>Norwich CT 06360</strong>. The court issues probate authority
+              to the estate's personal representative upon the will's admission to probate.
+              For intestate estates (no will), the court appoints an administrator. That authority
+              grants legal standing to sell real property on behalf of the estate.
             </p>
           </div>
 

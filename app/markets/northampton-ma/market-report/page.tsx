@@ -39,9 +39,8 @@ export default function NorthamptonMarketReportPage() {
         <div className="bg-blue-50 border border-blue-100 rounded-xl p-4 mb-8">
           <p className="text-blue-800 text-sm font-medium mb-1">TL;DR</p>
           <p className="text-blue-700 text-sm leading-relaxed">
-            Northampton MA is the state capital and county seat of Hampshire County. Median home value
-            approximately $270,000 (2026). MA non-judicial foreclosure runs 60–90 days — one of
-            the faster timelines in the Northeast. Transfer tax: $0.75/$100 seller share (RSA 78-B).
+            Northampton MA is a Hampshire County city and regional center in western Massachusetts. Median home value
+            approximately $270,000 (2026). Massachusetts foreclosure timelines depend on required notices, lender scheduling, and the sale date. Transfer taxes and recording charges are confirmed by the closing attorney or registry of deeds.
             Attorney closing required. USA Home Buyers covers all closing costs. Written offer in
             24 hours, close in 7–14 days. Call 888-274-5006.
           </p>
@@ -50,8 +49,8 @@ export default function NorthamptonMarketReportPage() {
         <section className="my-8">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">Northampton MA Market Overview</h2>
           <p className="text-gray-700 mb-4">
-            Northampton is Massachusetts's state capital and the commercial center of Hampshire County.
-            Government, healthcare (Northampton Hospital, Capital Region Medical Center), legal services,
+            Northampton is a Hampshire County city and a commercial center for the Pioneer Valley.
+            Government, healthcare (Cooley Dickinson Hospital), legal services,
             and education anchor the local economy. The housing stock spans 19th-century colonial and
             Victorian-era homes in historic neighborhoods to mid-century cape cods and newer
             construction throughout the metro. Boston-area overflow demand has driven significant
@@ -68,11 +67,11 @@ export default function NorthamptonMarketReportPage() {
               </thead>
               <tbody className="divide-y divide-gray-200">
                 <tr className="bg-white"><td className="p-3 font-medium">Median home value</td><td className="p-3">~$270,000</td><td className="p-3 text-gray-500">Local market data (2026)</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">MA transfer tax</td><td className="p-3">$1.50/$100 total; $0.75/$100 seller share (RSA 78-B)</td><td className="p-3 text-gray-500">MA Dept. of Revenue Administration</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">MA transfer tax</td><td className="p-3">MA deeds excise and recording charges confirmed at closing</td><td className="p-3 text-gray-500">Massachusetts registry/closing attorney</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Attorney required?</td><td className="p-3">Yes — MA is an attorney state (title certification required)</td><td className="p-3 text-gray-500">MA bar requirements</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">Foreclosure type</td><td className="p-3">Non-judicial (power of sale) — RSA 479:25; 25 days published notice + 60 days written; ~60–90 days total; no post-sale redemption</td><td className="p-3 text-gray-500">MA RSA 479</td></tr>
-                <tr className="bg-white"><td className="p-3 font-medium">Probate court</td><td className="p-3">Hampshire County Circuit Court — Probate Division, 163 North Main Street, Northampton MA 03301, phone (603) 271-6400</td><td className="p-3 text-gray-500">MA Circuit Court</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">State income tax</td><td className="p-3">No state income tax (MA)</td><td className="p-3 text-gray-500">—</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Foreclosure type</td><td className="p-3">Power-of-sale foreclosure process under Massachusetts law; deadlines depend on notices and sale date</td><td className="p-3 text-gray-500">Massachusetts foreclosure law</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Probate court</td><td className="p-3">Hampshire Probate and Family Court, Northampton MA 01060</td><td className="p-3 text-gray-500">MA Probate and Family Court</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">State income tax</td><td className="p-3">Massachusetts has a flat state income tax; confirm with your tax advisor</td><td className="p-3 text-gray-500">MA DOR</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">County</td><td className="p-3">Hampshire County</td><td className="p-3 text-gray-500">—</td></tr>
               </tbody>
             </table>
@@ -90,13 +89,13 @@ export default function NorthamptonMarketReportPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200">
-                <tr className="bg-white"><td className="p-3 font-medium">Penacook</td><td className="p-3">Northwest neighborhood with older mill-town character. Colonial and cape cod stock. Good cash buyer angle for inherited and deferred-maintenance homes.</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Norwichtown</td><td className="p-3">Historic Norwich area with older homes, estates, and inherited-property situations.</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">East Northampton</td><td className="p-3">East-side residential. Mix of older capes and post-war homes. Solid demand from local buyers and investors.</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">West Northampton</td><td className="p-3">West-side established neighborhood. Mix of housing ages and types. Family-oriented market.</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">South End / Downtown</td><td className="p-3">Older central Northampton near the state capitol. Victorian and Greek revival homes. Strong character but often high repair costs; cash buyer angle for deferred-maintenance properties.</td></tr>
-                <tr className="bg-white"><td className="p-3 font-medium">Bow</td><td className="p-3">Adjacent suburban town south of Northampton. Mix of older farmhouses and newer construction. Full service area.</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">Hooksett</td><td className="p-3">Adjacent town south of Northampton on the Merrimack River. Growing suburban market. Full service area.</td></tr>
-                <tr className="bg-white"><td className="p-3 font-medium">Pembroke</td><td className="p-3">Adjacent town southeast of Northampton. Older rural-residential stock with steady investor interest. Full service area.</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">South End / Downtown</td><td className="p-3">Older central Northampton near downtown. Victorian and Greek revival homes. Strong character but often high repair costs; cash buyer angle for deferred-maintenance properties.</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Easthampton</td><td className="p-3">Nearby Hampshire County city with older homes, multifamily stock, and as-is sale needs.</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Amherst</td><td className="p-3">Nearby Hampshire County market with rentals, estates, and owner-occupant housing.</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Hadley</td><td className="p-3">Nearby Hampshire County town with rural and suburban properties. Full service area.</td></tr>
               </tbody>
             </table>
           </div>
@@ -108,12 +107,11 @@ export default function NorthamptonMarketReportPage() {
           <p className="text-gray-700 mb-4">
             Northampton's combination of Boston-area demand overflow and older housing stock creates
             a market where move-in-ready homes sell competitively but properties needing significant
-            work face challenges. MA non-judicial foreclosure's 60–90 day timeline — much faster
+            work face challenges. Massachusetts foreclosure timelines and sale deadlines
             than judicial states — means homeowners in distress have a shorter window to act.
           </p>
           <p className="text-gray-700 mb-4">
-            Hampshire County Circuit Court — Probate Division (163 North Main Street) handles
-            estate authorizations. MA's attorney-closing requirement adds cost and coordination
+            Hampshire Probate and Family Court handles estate authorizations. MA's attorney-closing requirement adds cost and coordination
             to traditional retail sales. A direct cash sale from USA Home Buyers covers all of
             those costs and can close well before any foreclosure or probate deadline forces
             your hand.

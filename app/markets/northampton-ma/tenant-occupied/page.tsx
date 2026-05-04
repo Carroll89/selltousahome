@@ -26,7 +26,7 @@ const FAQ_ITEMS = [
   {
     question: 'What are my notice obligations to tenants in Massachusetts?',
     answer:
-      "Massachusetts requires reasonable advance notice for landlord entry. MA RSA 540-A governs landlord-tenant relationships, including entry rights and notice requirements. We typically minimize disruption to tenants — we can often make an offer based on exterior inspection and available information without requiring interior showings. Consult an MA-licensed attorney for notice requirements specific to your lease.",
+      "Massachusetts landlord-tenant rules govern entry rights, notice, deposits, and lease obligations. We typically minimize disruption to tenants — we can often make an offer based on exterior inspection and available information without requiring interior showings. Consult an MA-licensed attorney for notice requirements specific to your lease.",
   },
   {
     question: 'What if my tenant is behind on rent or I have begun eviction?',
@@ -36,12 +36,12 @@ const FAQ_ITEMS = [
   {
     question: 'How does the security deposit transfer work in Massachusetts?',
     answer:
-      "Under MA RSA 540-A, when a property is sold, the security deposit obligation transfers to the new owner. At closing, security deposit obligations transfer to us and we manage that relationship going forward. This is standard and your title company will handle the mechanics.",
+      "When a Massachusetts rental property is sold, lease and deposit obligations are handled through the closing and transfer to the new owner as required by Massachusetts law. At closing, security deposit obligations transfer to us and we manage that relationship going forward. This is standard and your title company will handle the mechanics.",
   },
   {
     question: 'What areas near Northampton do you buy tenant-occupied rentals?',
     answer:
-      "All of Hampshire County: Northampton, Bow, Pembroke, Hooksett, Canterbury, Dunbarton, Hopkinton, Loudon, and surrounding communities. Call 888-274-5006.",
+      "Hampshire County communities including Northampton, Easthampton, Amherst, Hadley, Hatfield, Williamsburg, Southampton, South Hadley, Belchertown, Granby, and surrounding communities. Call 888-274-5006.",
   },
 ];
 

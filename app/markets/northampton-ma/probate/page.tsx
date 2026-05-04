@@ -21,12 +21,12 @@ const FAQ_ITEMS = [
   {
     question: 'Can I sell a probate house in Northampton before the estate closes?',
     answer:
-      "Yes. You can accept an offer and sign a purchase contract during probate. The deed cannot transfer until the personal representative holds Letters of Administration from Hampshire County Circuit Court — Probate Division. We set the closing date for after that authority is issued and close quickly once it is in hand.",
+      "Yes. You can accept an offer and sign a purchase contract during probate. The deed cannot transfer until the personal representative holds Letters of Administration from Hampshire Probate and Family Court. We set the closing date for after that authority is issued and close quickly once it is in hand.",
   },
   {
-    question: 'Where is Hampshire County Probate Division and who do I contact?',
+    question: 'Where is Hampshire Probate and Family Court and who do I contact?',
     answer:
-      "Hampshire County Circuit Court — Probate Division. Address: 163 North Main Street, Northampton MA 03301. Phone: (603) 271-6400. The court handles will probate, estate administration, guardianship, and related matters in Hampshire County.",
+      "Hampshire Probate and Family Court, Northampton MA 01060. The court handles will probate, estate administration, guardianship, and related matters in Hampshire County.",
   },
   {
     question: 'Do I need an attorney to sell a probate property in Massachusetts?',
@@ -80,8 +80,7 @@ export default function NorthamptonProbatePage() {
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
-                MA estate sales go through Hampshire County Circuit Court — Probate Division
-                (163 North Main Street, Northampton MA 03301, phone (603) 271-6400). Once the
+                MA estate sales go through Hampshire Probate and Family Court in Northampton MA 01060. Once the
                 personal representative holds Letters of Administration, USA Home Buyers closes
                 in 7–14 days. We buy as-is — any condition, liens or back taxes resolved at
                 closing. Written cash offer in 24 hours. Call 888-274-5006.
@@ -118,10 +117,9 @@ export default function NorthamptonProbatePage() {
             Probate Real Estate Sales in Hampshire County, MA
           </h2>
           <p className="text-gray-700 mb-4">
-            Hampshire County Circuit Court — Probate Division handles estate administration for
-            Northampton and all of Hampshire County. The court is located at <strong>163 North Main
-            Street, Northampton MA 03301</strong>, phone (603) 271-6400. When a property owner passes
-            away, the personal representative named in the will receives
+            Hampshire Probate and Family Court handles estate administration for
+            Northampton and all of Hampshire County. The court is located in <strong>Northampton MA 01060</strong>.
+            When a property owner passes away, the personal representative named in the will receives
             <strong> Letters of Administration</strong> upon the will's admission to probate.
             For intestate estates (no will), the court appoints an administrator. Those letters
             grant legal authority to sell real property on behalf of the estate.
