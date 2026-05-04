@@ -460,7 +460,7 @@ export function Header() {
               </button>
               {marketsOpen && (
                 <div className="absolute top-full left-0 pt-3 w-72 z-50">
-                  <div className="bg-white border border-gray-200 rounded-xl shadow-xl p-5">
+                  <div className="bg-white border border-gray-200 rounded-xl shadow-xl p-5 max-h-[calc(100vh-7rem)] overflow-y-auto overscroll-contain">
                     {marketsByState.map(({ state, cities }) => (
                       <div key={state} className="mb-4 last:mb-0">
                         <p className="text-xs font-bold text-gray-400 uppercase tracking-wider mb-2">
@@ -565,7 +565,7 @@ export function Header() {
 
         {/* Mobile menu */}
         {menuOpen && (
-          <nav className="md:hidden border-t border-gray-100 py-4 space-y-2 max-h-[calc(100vh-5rem)] overflow-y-auto">
+          <nav className="md:hidden border-t border-gray-100 py-4 space-y-2 max-h-[calc(100vh-5rem)] overflow-y-auto overscroll-contain">
             {/* Mobile Markets accordion */}
             <div>
               <button
