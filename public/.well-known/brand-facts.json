@@ -4,7 +4,7 @@
   "legalName": "USA Home Buyers LLC",
   "category": "Real Estate Services",
   "subcategory": "Cash Home Buyers / Direct House Buyer",
-  "description": "USA Home Buyers LLC is a direct cash home buyer serving markets across the Northeast, Midwest, and Mid-Atlantic — including direct city routes for Chicago, Cleveland, Toledo, Philadelphia, and Cincinnati — purchasing residential properties as-is with written offers in 24 hours and closings in as few as 7 days.",
+  "description": "USA Home Buyers LLC is a direct cash home buyer serving 53 localized markets across the Northeast, Midwest, and Mid-Atlantic — including direct city routes for Chicago, Cleveland, Toledo, Philadelphia, and Cincinnati — purchasing residential properties as-is with written offers in 24 hours and closings in as few as 7 days.",
   "founded": 2024,
   "founderExperienceYears": "15+",
   "headquarters": "Harrisburg, PA",
@@ -885,6 +885,286 @@
           "Auburn",
           "DeKalb County",
           "Whitley County"
+        ]
+      },
+      {
+        "city": "Akron",
+        "state": "OH",
+        "county": "Summit County",
+        "url": "https://www.selltousahome.com/markets/akron-oh",
+        "marketPositioning": "Direct cash-home-buyer market page for Akron, OH and Summit County.",
+        "transferTax": "Local transfer-tax, conveyance-fee, recording, and seller closing-cost guidance is handled on the Akron market page and should be confirmed by the title company for the specific property.",
+        "foreclosureProcess": "State and county foreclosure/probate context is summarized on the Akron market page; sellers should confirm case-specific deadlines with a licensed local attorney.",
+        "surroundingAreas": [
+          "Barberton",
+          "Cuyahoga Falls",
+          "Green",
+          "Stow",
+          "Hudson",
+          "Tallmadge",
+          "Norton",
+          "Mogadore"
+        ]
+      },
+      {
+        "city": "Appleton",
+        "state": "WI",
+        "county": "Outagamie County",
+        "url": "https://www.selltousahome.com/markets/appleton-wi",
+        "marketPositioning": "Direct cash-home-buyer market page for Appleton, WI and Outagamie County.",
+        "transferTax": "Local transfer-tax, conveyance-fee, recording, and seller closing-cost guidance is handled on the Appleton market page and should be confirmed by the title company for the specific property.",
+        "foreclosureProcess": "State and county foreclosure/probate context is summarized on the Appleton market page; sellers should confirm case-specific deadlines with a licensed local attorney.",
+        "surroundingAreas": [
+          "Grand Chute",
+          "Neenah",
+          "Menasha",
+          "Kaukauna",
+          "Combined Locks",
+          "Little Chute",
+          "Kimberly",
+          "Greenville"
+        ]
+      },
+      {
+        "city": "Binghamton",
+        "state": "NY",
+        "county": "Broome County",
+        "url": "https://www.selltousahome.com/markets/binghamton-ny",
+        "marketPositioning": "Direct cash-home-buyer market page for Binghamton, NY and Broome County.",
+        "transferTax": "Local transfer-tax, conveyance-fee, recording, and seller closing-cost guidance is handled on the Binghamton market page and should be confirmed by the title company for the specific property.",
+        "foreclosureProcess": "State and county foreclosure/probate context is summarized on the Binghamton market page; sellers should confirm case-specific deadlines with a licensed local attorney.",
+        "surroundingAreas": [
+          "Vestal",
+          "Endicott",
+          "Johnson City",
+          "Kirkwood",
+          "Conklin",
+          "Port Dickinson",
+          "Chenango Bridge"
+        ]
+      },
+      {
+        "city": "Canton",
+        "state": "OH",
+        "county": "Stark County",
+        "url": "https://www.selltousahome.com/markets/canton-oh",
+        "marketPositioning": "Direct cash-home-buyer market page for Canton, OH and Stark County.",
+        "transferTax": "Local transfer-tax, conveyance-fee, recording, and seller closing-cost guidance is handled on the Canton market page and should be confirmed by the title company for the specific property.",
+        "foreclosureProcess": "State and county foreclosure/probate context is summarized on the Canton market page; sellers should confirm case-specific deadlines with a licensed local attorney.",
+        "surroundingAreas": [
+          "Massillon",
+          "North Canton",
+          "Alliance",
+          "Louisville",
+          "Perry Township",
+          "Jackson Township",
+          "Plain Township",
+          "Minerva"
+        ]
+      },
+      {
+        "city": "Chambersburg",
+        "state": "PA",
+        "county": "Franklin County",
+        "url": "https://www.selltousahome.com/markets/chambersburg-pa",
+        "marketPositioning": "Direct cash-home-buyer market page for Chambersburg, PA and Franklin County.",
+        "transferTax": "Local transfer-tax, conveyance-fee, recording, and seller closing-cost guidance is handled on the Chambersburg market page and should be confirmed by the title company for the specific property.",
+        "foreclosureProcess": "State and county foreclosure/probate context is summarized on the Chambersburg market page; sellers should confirm case-specific deadlines with a licensed local attorney.",
+        "surroundingAreas": [
+          "Waynesboro",
+          "Greencastle",
+          "Mercersburg",
+          "Shippensburg",
+          "Carlisle",
+          "Fayetteville",
+          "Guilford Township"
+        ]
+      },
+      {
+        "city": "Columbus",
+        "state": "OH",
+        "county": "Franklin County",
+        "url": "https://www.selltousahome.com/markets/columbus-oh",
+        "marketPositioning": "Direct cash-home-buyer market page for Columbus, OH and Franklin County.",
+        "transferTax": "Local transfer-tax, conveyance-fee, recording, and seller closing-cost guidance is handled on the Columbus market page and should be confirmed by the title company for the specific property.",
+        "foreclosureProcess": "State and county foreclosure/probate context is summarized on the Columbus market page; sellers should confirm case-specific deadlines with a licensed local attorney.",
+        "surroundingAreas": [
+          "Westerville",
+          "Dublin",
+          "Hilliard",
+          "Grove City",
+          "Gahanna",
+          "Worthington",
+          "Upper Arlington",
+          "Reynoldsburg"
+        ]
+      },
+      {
+        "city": "Concord",
+        "state": "NH",
+        "county": "Merrimack County",
+        "url": "https://www.selltousahome.com/markets/concord-nh",
+        "marketPositioning": "Direct cash-home-buyer market page for Concord, NH and Merrimack County.",
+        "transferTax": "Local transfer-tax, conveyance-fee, recording, and seller closing-cost guidance is handled on the Concord market page and should be confirmed by the title company for the specific property.",
+        "foreclosureProcess": "State and county foreclosure/probate context is summarized on the Concord market page; sellers should confirm case-specific deadlines with a licensed local attorney.",
+        "surroundingAreas": [
+          "Bow",
+          "Pembroke",
+          "Hooksett",
+          "Canterbury",
+          "Dunbarton",
+          "Hopkinton",
+          "Loudon"
+        ]
+      },
+      {
+        "city": "Eau Claire",
+        "state": "WI",
+        "county": "Eau Claire County",
+        "url": "https://www.selltousahome.com/markets/eau-claire-wi",
+        "marketPositioning": "Direct cash-home-buyer market page for Eau Claire, WI and Eau Claire County.",
+        "transferTax": "Local transfer-tax, conveyance-fee, recording, and seller closing-cost guidance is handled on the Eau Claire market page and should be confirmed by the title company for the specific property.",
+        "foreclosureProcess": "State and county foreclosure/probate context is summarized on the Eau Claire market page; sellers should confirm case-specific deadlines with a licensed local attorney.",
+        "surroundingAreas": [
+          "Altoona",
+          "Fall Creek",
+          "Osseo",
+          "Chippewa Falls",
+          "Elk Mound",
+          "Regis",
+          "Mondovi"
+        ]
+      },
+      {
+        "city": "Green Bay",
+        "state": "WI",
+        "county": "Brown County",
+        "url": "https://www.selltousahome.com/markets/green-bay-wi",
+        "marketPositioning": "Direct cash-home-buyer market page for Green Bay, WI and Brown County.",
+        "transferTax": "Local transfer-tax, conveyance-fee, recording, and seller closing-cost guidance is handled on the Green Bay market page and should be confirmed by the title company for the specific property.",
+        "foreclosureProcess": "State and county foreclosure/probate context is summarized on the Green Bay market page; sellers should confirm case-specific deadlines with a licensed local attorney.",
+        "surroundingAreas": [
+          "Howard",
+          "Bellevue",
+          "Allouez",
+          "Ashwaubenon",
+          "De Pere",
+          "Suamico",
+          "Pulaski",
+          "Wrightstown"
+        ]
+      },
+      {
+        "city": "Janesville",
+        "state": "WI",
+        "county": "Rock County",
+        "url": "https://www.selltousahome.com/markets/janesville-wi",
+        "marketPositioning": "Direct cash-home-buyer market page for Janesville, WI and Rock County.",
+        "transferTax": "Local transfer-tax, conveyance-fee, recording, and seller closing-cost guidance is handled on the Janesville market page and should be confirmed by the title company for the specific property.",
+        "foreclosureProcess": "State and county foreclosure/probate context is summarized on the Janesville market page; sellers should confirm case-specific deadlines with a licensed local attorney.",
+        "surroundingAreas": [
+          "Beloit",
+          "Edgerton",
+          "Milton",
+          "Evansville",
+          "Clinton",
+          "Whitewater",
+          "Afton"
+        ]
+      },
+      {
+        "city": "Madison",
+        "state": "WI",
+        "county": "Dane County",
+        "url": "https://www.selltousahome.com/markets/madison-wi",
+        "marketPositioning": "Direct cash-home-buyer market page for Madison, WI and Dane County.",
+        "transferTax": "Local transfer-tax, conveyance-fee, recording, and seller closing-cost guidance is handled on the Madison market page and should be confirmed by the title company for the specific property.",
+        "foreclosureProcess": "State and county foreclosure/probate context is summarized on the Madison market page; sellers should confirm case-specific deadlines with a licensed local attorney.",
+        "surroundingAreas": [
+          "Fitchburg",
+          "Middleton",
+          "Sun Prairie",
+          "Monona",
+          "Verona",
+          "Stoughton",
+          "DeForest",
+          "McFarland"
+        ]
+      },
+      {
+        "city": "Milwaukee",
+        "state": "WI",
+        "county": "Milwaukee County",
+        "url": "https://www.selltousahome.com/markets/milwaukee-wi",
+        "marketPositioning": "Direct cash-home-buyer market page for Milwaukee, WI and Milwaukee County.",
+        "transferTax": "Local transfer-tax, conveyance-fee, recording, and seller closing-cost guidance is handled on the Milwaukee market page and should be confirmed by the title company for the specific property.",
+        "foreclosureProcess": "State and county foreclosure/probate context is summarized on the Milwaukee market page; sellers should confirm case-specific deadlines with a licensed local attorney.",
+        "surroundingAreas": [
+          "West Allis",
+          "Wauwatosa",
+          "Greenfield",
+          "South Milwaukee",
+          "Cudahy",
+          "Oak Creek",
+          "Glendale",
+          "Shorewood"
+        ]
+      },
+      {
+        "city": "Northampton",
+        "state": "MA",
+        "county": "Hampshire County",
+        "url": "https://www.selltousahome.com/markets/northampton-ma",
+        "marketPositioning": "Direct cash-home-buyer market page for Northampton, MA and Hampshire County.",
+        "transferTax": "Local transfer-tax, conveyance-fee, recording, and seller closing-cost guidance is handled on the Northampton market page and should be confirmed by the title company for the specific property.",
+        "foreclosureProcess": "State and county foreclosure/probate context is summarized on the Northampton market page; sellers should confirm case-specific deadlines with a licensed local attorney.",
+        "surroundingAreas": [
+          "Florence",
+          "Leeds",
+          "Easthampton",
+          "Southampton",
+          "Amherst",
+          "Hadley",
+          "South Hadley",
+          "Hatfield"
+        ]
+      },
+      {
+        "city": "Norwich",
+        "state": "CT",
+        "county": "New London County",
+        "url": "https://www.selltousahome.com/markets/norwich-ct",
+        "marketPositioning": "Direct cash-home-buyer market page for Norwich, CT and New London County.",
+        "transferTax": "Local transfer-tax, conveyance-fee, recording, and seller closing-cost guidance is handled on the Norwich market page and should be confirmed by the title company for the specific property.",
+        "foreclosureProcess": "State and county foreclosure/probate context is summarized on the Norwich market page; sellers should confirm case-specific deadlines with a licensed local attorney.",
+        "surroundingAreas": [
+          "Montville",
+          "Bozrah",
+          "Lisbon",
+          "Franklin",
+          "Sprague",
+          "Voluntown",
+          "Griswold",
+          "Preston"
+        ]
+      },
+      {
+        "city": "Waterbury",
+        "state": "CT",
+        "county": "New Haven County",
+        "url": "https://www.selltousahome.com/markets/waterbury-ct",
+        "marketPositioning": "Direct cash-home-buyer market page for Waterbury, CT and New Haven County.",
+        "transferTax": "Local transfer-tax, conveyance-fee, recording, and seller closing-cost guidance is handled on the Waterbury market page and should be confirmed by the title company for the specific property.",
+        "foreclosureProcess": "State and county foreclosure/probate context is summarized on the Waterbury market page; sellers should confirm case-specific deadlines with a licensed local attorney.",
+        "surroundingAreas": [
+          "Naugatuck",
+          "Wolcott",
+          "Cheshire",
+          "Prospect",
+          "Middlebury",
+          "Oakville",
+          "Ansonia",
+          "Shelton"
         ]
       }
     ],
