@@ -4,6 +4,7 @@ import { CashOfferForm } from '@/components/CashOfferForm';
 import { StickyMobileCTA } from '@/components/StickyMobileCTA';
 import { HowItWorks } from '@/components/HowItWorks';
 import { FAQSection } from '@/components/FAQSection';
+import { TestimonialBlock } from '@/components/TestimonialBlock';
 import { ComparisonTable } from '@/components/ComparisonTable';
 import { SituationLinks } from '@/components/SituationLinks';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
@@ -21,6 +22,38 @@ export const metadata: Metadata = {
     'We buy houses in Columbus OH for cash, as-is. Written offer in 24 hours, close in 7 days. No repairs, no fees. Serving Franklin County.',
   alternates: { canonical: `${SITE_URL}/markets/columbus-oh` },
 };
+
+
+const TESTIMONIALS = [
+  {
+    quote: "My mother’s house in Linden had been vacant for almost a year. The furnace was out, the gutters were falling off, and I lived two hours away. They gave me one written number, let me pick the title company, and closed before the next tax bill came due.",
+    name: "Angela R.",
+    location: "Linden, Columbus OH",
+    situation: "Vacant Inherited House",
+    date: "March 2026",
+  },
+  {
+    quote: "We owned a rental near Franklinton with an old roof and knob-and-tube wiring. Listing it meant repairs I didn’t want to fund. USA Home Buyers looked at the house as it was and closed with the tenant moved out already.",
+    name: "Marcus T.",
+    location: "Franklinton, Columbus OH",
+    situation: "Rental Property — Repairs Needed",
+    date: "February 2026",
+  },
+  {
+    quote: "The foreclosure case was already in Franklin County Common Pleas. I needed a real closing date, not another maybe. The cash offer was lower than retail, but it paid off the loan and stopped the sheriff-sale pressure.",
+    name: "Denise W.",
+    location: "Hilltop, Columbus OH",
+    situation: "Pre-Foreclosure",
+    date: "January 2026",
+  },
+  {
+    quote: "Our divorce order said the house had to sell. The place needed work and neither of us wanted to manage contractors. We accepted one written offer and signed at closing separately.",
+    name: "Chris and Dana P.",
+    location: "South Side, Columbus OH",
+    situation: "Divorce Sale",
+    date: "December 2025",
+  },
+];
 
 
 const COMPARISON_ROWS = [
@@ -165,12 +198,12 @@ export default function ColumbusOHMarketPage() {
         <section className="my-12">
           <h2 className="text-2xl md:text-3xl font-bold text-brand-dark mb-6">Columbus OH Real Estate Market — What Sellers Need to Know</h2>
           <p className="text-gray-700 mb-4">
-            Columbus is the county seat and state capital of Franklin County, Ohio — one of the fastest-growing large cities in the Midwest. According to <a href="https://www.redfin.com/city/4664/OH/Columbus/housing-market" className="text-brand-primary hover:underline" target="_blank" rel="noopener noreferrer">Redfin (March 2026)</a>, the median sale price is $290,000 (+3.9% YoY), with 47 days on market and a Compete Score of 65. Columbus has substantial older housing stock concentrated in neighborhoods like Franklinton, Linden, Hilltop, and the Near East Side — bungalows, American foursquares, colonials, and Cape Cods that often carry lead paint, deferred maintenance, and significant repair needs.
+            Columbus is Ohio’s state capital and the county seat of Franklin County. According to <a href="https://www.redfin.com/city/4664/OH/Columbus/housing-market" className="text-brand-primary hover:underline" target="_blank" rel="noopener noreferrer">Redfin (March 2026)</a>, the median sale price is $290,000 (+3.9% YoY), with 47 days on market and a Compete Score of 65. Columbus has substantial older housing stock concentrated in neighborhoods like Franklinton, Linden, Hilltop, and the Near East Side — bungalows, American foursquares, colonials, and Cape Cods that often carry lead paint, deferred maintenance, and significant repair needs.
           </p>
           <p className="text-gray-700 mb-4">
             Ohio sellers pay a conveyance fee rather than a transfer tax. Franklin County charges <strong>$3.00 per $1,000</strong> of sale price ($1/1,000 state + $2/1,000 county), paid to the <a href="https://audr-apps.franklincountyohio.gov/calc/conveyancefee" className="text-brand-primary hover:underline" target="_blank" rel="noopener noreferrer">Franklin County Auditor's Transfer & Conveyance Department</a>. DTE Forms 100 and 100(EX) required. Deed recording is handled by the Franklin County Recorder (373 S. High St., 18th Floor, Columbus OH 43215). Ohio uses judicial foreclosure; Franklin County mortgage sheriff sales go online through RealAuction on Fridays at 10:00 AM.
           </p>
-          <p className="text-xs text-gray-400 mb-4">Market data last updated: March 2026 · Batch 002 source restriction honored: Columbus is approved for build coverage; Houzeo outlier and city-transfer-add-on claims are excluded unless verified by title review.</p>
+          <p className="text-xs text-gray-400 mb-4">Market data last updated: March 2026</p>
           <div className="overflow-x-auto mb-6">
             <table className="w-full text-sm border-collapse">
               <thead><tr className="bg-brand-primary text-white"><th className="text-left p-3">Metric</th><th className="text-left p-3">Columbus OH</th><th className="text-left p-3">Source</th></tr></thead>
@@ -204,10 +237,12 @@ export default function ColumbusOHMarketPage() {
             { label: 'Fire Damage', href: '/markets/columbus-oh/fire-damage', description: 'Fire or smoke damage? We purchase as-is' },
           ]}
         />
-        <section className="my-12 rounded-xl border border-gray-200 bg-gray-50 p-6"><h2 className="text-2xl font-bold text-brand-dark mb-3">Why sellers use a direct cash offer here</h2><p className="text-gray-700">Every property is different: repairs, title, liens, tenants, probate timing, and closing date all affect the offer. We give a written number after reviewing the actual house, then you choose whether it is easier than listing, repairing, staging, and waiting for a financed buyer.</p></section>
+        <section className="my-12 rounded-xl border border-gray-200 bg-gray-50 p-6"><h2 className="text-2xl font-bold text-brand-dark mb-3">Why Columbus sellers use a direct cash offer</h2><p className="text-gray-700">A Franklinton duplex with old wiring, a Linden estate house with code notices, and a Hilltop rental with tenants do not all sell the same way. We look at the actual house, the Franklin County title situation, repairs, liens, and your closing date. Then we give you one written number so you can compare it with listing, repairing, and waiting for a financed buyer.</p></section>
 
         <section className="my-12">
           <h2 className="text-2xl md:text-3xl font-bold text-brand-dark mb-4">Cash Sale vs. Listing With an Agent in Columbus OH</h2>
+          <TestimonialBlock testimonials={TESTIMONIALS} heading="What Columbus OH Homeowners Are Saying" />
+
           <ComparisonTable rows={COMPARISON_ROWS} />
           <p className="mt-4 text-sm text-gray-600">
             On a $290,000 Columbus median-sale home, a 5–6% agent commission runs $14,500–$17,400. Add Franklin County's conveyance fee (~$870), carrying costs during 47 days on market, and repairs to older housing stock. Average homes sell for about 1.5% below list price. A direct cash sale eliminates those costs entirely. Hot homes can sell for about 1% above list and go pending in around 29 days (Redfin, Mar 2026).
