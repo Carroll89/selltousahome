@@ -139,11 +139,16 @@ export default function StLouisMOMarketPage() {
         </picture>
         <div className="absolute inset-0 bg-brand-dark/80" />
         <div className="relative z-10 max-w-7xl mx-auto grid lg:grid-cols-[minmax(0,1fr)_430px] gap-5 lg:gap-10 items-start">
-          <div>
+          <div className="lg:col-start-1 lg:row-start-1">
             <p className="text-blue-300 text-sm font-medium mb-2">Missouri Cash Home Buyers</p>
             <h1 className="text-3xl md:text-4xl font-bold text-white mb-4 leading-tight">
               We Buy Houses in St. Louis, Missouri — Cash Offers, No Transfer Tax, Close Fast
             </h1>
+          </div>
+          <div className="w-full lg:col-start-2 lg:row-start-1 lg:row-span-2 lg:sticky lg:top-24">
+            <CashOfferForm variant="hero" headline="Get Your St. Louis City Cash Offer" subheadline="Written offer in 24 hours. Close in 7 days. No transfer tax." sourcePage="/markets/st-louis-mo" />
+          </div>
+          <div className="lg:col-start-1 lg:row-start-2">
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
@@ -157,9 +162,6 @@ export default function StLouisMOMarketPage() {
               📞 Call 888-274-5006 — We Answer 24/7
             </a>
             <p className="mt-3 text-blue-200 text-xs md:text-sm">BBB Accredited · 15+ Years Experience · Hundreds of Homes Purchased</p>
-          </div>
-          <div className="w-full lg:sticky lg:top-24">
-            <CashOfferForm variant="hero" headline="Get Your St. Louis City Cash Offer" subheadline="Written offer in 24 hours. Close in 7 days. No transfer tax." sourcePage="/markets/st-louis-mo" />
           </div>
         </div>
       </section>
