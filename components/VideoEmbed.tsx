@@ -44,7 +44,6 @@ export function VideoEmbed({
                 src={captionsSrc}
                 srcLang={captionsLang ?? 'en'}
                 label={captionsLabel ?? 'English captions'}
-                default
               />
             )}
           </video>

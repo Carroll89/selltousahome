@@ -180,20 +180,10 @@ export default function StLouisMOMarketPage() {
             📝 Video Transcript
           </summary>
           <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-            <p className="mb-3">Need to sell your house fast in St.</p>
-            <p className="mb-3">Louis, Missouri? USA Home Buyers purchases homes as-is for cash throughout St.</p>
-            <p className="mb-3">Louis City — Dutchtown, South City, Soulard, Benton Park, Shaw, Tower Grove, The Hill, Cherokee Street, North St.</p>
-            <p className="mb-3">Louis, and surrounding City neighborhoods.</p>
-            <p className="mb-3">No agents, no fees, no repairs.</p>
-            <p className="mb-3">St.</p>
-            <p className="mb-3">Louis City is independent from St.</p>
-            <p className="mb-3">Louis County — all transactions go through City offices.</p>
-            <p className="mb-3">Missouri has no transfer tax — a real advantage at closing.</p>
-            <p className="mb-3">Missouri uses non-judicial foreclosure — once the trustee's sale notice is published, the sale can happen in 60-90 days.</p>
-            <p className="mb-3">A cash sale before that preserves your equity.</p>
-            <p className="mb-3">Written cash offer in 24 hours.</p>
-            <p className="mb-3">Close in 7 days.</p>
-            <p className="mb-3">Call 888-274-5006.</p>
+            <p className="mb-3">Need to sell your house fast in St. Louis, Missouri? USA Home Buyers purchases homes as-is for cash throughout St. Louis City — Dutchtown, South City, Soulard, Benton Park, Shaw, Tower Grove, The Hill, Cherokee Street, North St. Louis, and surrounding City neighborhoods.</p>
+            <p className="mb-3">No agents, no fees, no repairs. St. Louis City is independent from St. Louis County, and all transactions go through City offices.</p>
+            <p className="mb-3">Missouri has no transfer tax, which can be a real advantage at closing. Missouri uses non-judicial foreclosure; once the trustee's sale notice is published, the sale can happen in 60–90 days.</p>
+            <p className="mb-3">A cash sale before that can help preserve your equity. We provide a written cash offer in 24 hours, and if the offer works for you, we can close in as few as 7 days. Call USA Home Buyers at 888-274-5006.</p>
           </div>
         </details>
 
