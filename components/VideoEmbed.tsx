@@ -13,9 +13,6 @@ export function VideoEmbed({
   title,
   poster,
   subtitle,
-  captionsSrc,
-  captionsLabel,
-  captionsLang,
 }: VideoEmbedProps) {
   return (
     <section className="bg-brand-light py-10 px-4">
@@ -27,7 +24,6 @@ export function VideoEmbed({
           <p className="text-base text-gray-600 mb-4">{subtitle}</p>
         )}
         <div className="rounded-2xl overflow-hidden shadow-lg border border-gray-200 bg-gray-900 p-1">
-          {/* eslint-disable-next-line jsx-a11y/media-has-caption */}
           <video
             src={src}
             title={title}
@@ -37,16 +33,7 @@ export function VideoEmbed({
             preload="none"
             className="w-full rounded-xl"
             aria-label={title}
-          >
-            {captionsSrc && (
-              <track
-                kind="captions"
-                src={captionsSrc}
-                srcLang={captionsLang ?? 'en'}
-                label={captionsLabel ?? 'English captions'}
-              />
-            )}
-          </video>
+          />
         </div>
       </div>
     </section>
