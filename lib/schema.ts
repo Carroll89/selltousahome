@@ -1327,7 +1327,7 @@ export const youngstownFAQSchema = {
       name: 'How much will you pay for my Youngstown OH house?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Cash offers for Youngstown homes typically range from 65\u201375% of after-repair value. According to Redfin, the Youngstown median sale price is $129,200 (February 2026). We cover all closing costs including Ohio\u2019s conveyance fee \u2014 nothing comes out of your offer.',
+        text: 'For average-condition Youngstown properties, cash offers typically land around 70–80% of fair market value before repair costs, property condition, title issues, holding costs, and risk adjustments specific to the home. According to Redfin, the Youngstown median sale price is $129,200 (February 2026). We cover all closing costs including Ohio\u2019s conveyance fee \u2014 nothing comes out of your offer.',
       },
     },
     {
@@ -1402,7 +1402,7 @@ export const wilmingtonFAQSchema = {
       name: 'How much will you pay for my Wilmington DE house?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Cash offers for Wilmington city homes typically range from 65\u201375% of after-repair value. According to Redfin, Wilmington median sale price is $251,200 (Redfin Wilmington city, Mar 2026, +12.1% YoY). We cover all closing costs including Delaware\u2019s 4% transfer tax \u2014 nothing comes out of your offer number.',
+        text: 'For average-condition Wilmington city properties, cash offers typically land around 70–80% of fair market value before repair costs, property condition, title issues, holding costs, and risk adjustments specific to the home. According to Redfin, Wilmington median sale price is $251,200 (Redfin Wilmington city, Mar 2026, +12.1% YoY). We cover all closing costs including Delaware\u2019s 4% transfer tax \u2014 nothing comes out of your offer number.',
       },
     },
     {
@@ -1552,7 +1552,7 @@ export const yorkFAQSchema = {
       name: 'How much will you pay for my York PA house?',
       acceptedAnswer: {
         '@type': 'Answer',
-        text: 'Cash offers for York homes typically range from 65–75% of after-repair value. According to Redfin city housing-market data (March 2026), the York City median sale price is $172,500, with Northeast York properties often under $120,000. We cover all closing costs — no agent commissions, no fees deducted from your number.',
+        text: 'For average-condition York properties, cash offers typically land around 70–80% of fair market value before repair costs, property condition, title issues, holding costs, and risk adjustments specific to the home. According to Redfin city housing-market data (March 2026), the York City median sale price is $172,500, with Northeast York properties often under $120,000. We cover all closing costs — no agent commissions, no fees deducted from your number.',
       },
     },
     {
