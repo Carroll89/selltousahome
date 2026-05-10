@@ -115,14 +115,23 @@ export default function PhiladelphiaPAPage() {
       <SchemaMarkup schema={[localBusinessSchema, faqSchema(FAQ_ITEMS), breadcrumbSchema]} />
 
       {/* Hero Section */}
-      <section className="relative text-white py-16 px-4 overflow-hidden bg-brand-dark">
+      <section className="relative text-white py-8 md:py-16 px-4 overflow-hidden bg-brand-dark">
         <div className="absolute inset-0 bg-gradient-to-br from-brand-dark via-blue-950 to-brand-dark opacity-90" />
         <div className="relative z-10 max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-start">
           <div>
             <p className="text-blue-300 text-sm font-medium mb-2">Pennsylvania Cash Home Buyers</p>
-            <h1 className="text-3xl md:text-4xl font-bold text-white mb-4 leading-tight">
+            <h1 className="text-2xl md:text-4xl font-bold text-white mb-3 md:mb-4 leading-tight">
               We Buy Houses in Philadelphia — Cash Offers for Row Homes, Any Neighborhood, Any Condition
             </h1>
+            {/* MOBILE_FORM_ABOVE_FOLD_FIX: keep form-start before summary block on mobile Template A pages. */}
+            <div className="lg:hidden mb-4">
+              <CashOfferForm
+                variant="hero"
+                headline="Get Your Philadelphia Cash Offer"
+                subheadline="No repairs. No open houses. We handle Philly's transfer tax and closing paperwork with your attorney."
+                sourcePage="/sell-my-house-fast-philadelphia-pa"
+              />
+            </div>
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
@@ -152,7 +161,7 @@ export default function PhiladelphiaPAPage() {
             </a>
             <p className="mt-3 text-blue-200 text-xs md:text-sm">BBB Accredited · 15+ Years Experience · Hundreds of Homes Purchased</p>
           </div>
-          <div>
+          <div className="hidden lg:block">
             <CashOfferForm
               variant="hero"
               headline="Get Your Philadelphia Cash Offer"

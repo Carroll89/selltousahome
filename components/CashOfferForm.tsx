@@ -236,7 +236,7 @@ export function CashOfferForm({
   const containerClass = isFooter
     ? 'bg-brand-dark rounded-xl p-6 text-white'
     : variant === 'hero'
-    ? 'bg-white rounded-xl shadow-xl p-6 md:p-8'
+    ? 'bg-white rounded-xl shadow-xl p-4 md:p-8'
     : 'bg-brand-light border border-gray-200 rounded-xl p-6';
 
   const labelClass = isFooter ? 'text-gray-200' : 'text-gray-700';
@@ -246,15 +246,15 @@ export function CashOfferForm({
 
   return (
     <div id="lead-form" className={containerClass}>
-      <h2 className={`text-2xl font-bold mb-1 ${isFooter ? 'text-white' : 'text-brand-dark'}`}>
+      <h2 className={`text-xl md:text-2xl font-bold mb-1 ${isFooter ? 'text-white' : 'text-brand-dark'}`}>
         {headline}
       </h2>
-      <p className={`text-sm mb-4 ${isFooter ? 'text-gray-300' : 'text-gray-500'}`}>{subheadline}</p>
+      <p className={`text-xs md:text-sm mb-2 md:mb-4 ${isFooter ? 'text-gray-300' : 'text-gray-500'}`}>{subheadline}</p>
 
       {/* TODO(Lens/Dan): Replace text placeholder with official BBB A+ Accredited badge image when received. Target path: public/images/trust/bbb-a-plus.png */}
       {variant === 'hero' && (
-        <div className="flex items-center gap-3 mb-4 pb-4 border-b border-gray-200">
-          <div className="flex-shrink-0 bg-blue-900 text-white text-xs font-bold px-3 py-2 rounded leading-tight text-center" aria-label="BBB A+ Accredited Business">
+        <div className="flex items-center gap-2 md:gap-3 mb-2 md:mb-4 pb-2 md:pb-4 border-b border-gray-200">
+          <div className="flex-shrink-0 bg-blue-900 text-white text-xs font-bold px-3 py-1 md:py-2 rounded leading-tight text-center" aria-label="BBB A+ Accredited Business">
             <div>BBB</div>
             <div className="text-yellow-300">A+ RATED</div>
           </div>
@@ -265,7 +265,7 @@ export function CashOfferForm({
         </div>
       )}
 
-      <form onSubmit={handleSubmit} noValidate className={variant === 'hero' ? 'space-y-3' : 'space-y-4'}>
+      <form onSubmit={handleSubmit} noValidate className={variant === 'hero' ? 'space-y-2 md:space-y-3' : 'space-y-4'}>
         <div>
           <label htmlFor="name" className={`block text-sm font-medium ${labelClass}`}>
             Your Name <span className="text-red-500">*</span>

@@ -145,6 +145,10 @@ export default function FortWayneINMarketPage() {
             <h1 className="text-3xl md:text-4xl font-bold text-white mb-4 leading-tight">
               Sell My House Fast Fort Wayne, Indiana — Fast Cash Offers, No Transfer Tax
             </h1>
+            {/* MOBILE_FORM_ABOVE_FOLD_FIX: keep form-start before summary block on mobile Template A pages. */}
+            <div className="lg:hidden mb-4">
+              <CashOfferForm variant="hero" headline="Get Your Fort Wayne IN Cash Offer" subheadline="Written offer in 24 hours. Close in 7 days. No Indiana transfer tax." sourcePage="/markets/fort-wayne-in" />
+            </div>
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
@@ -159,7 +163,7 @@ export default function FortWayneINMarketPage() {
             </a>
             <p className="mt-3 text-blue-200 text-xs md:text-sm">BBB Accredited · 15+ Years Experience · Hundreds of Homes Purchased</p>
           </div>
-          <div className="w-full lg:sticky lg:top-24">
+          <div className="hidden lg:block w-full lg:sticky lg:top-24">
             <CashOfferForm variant="hero" headline="Get Your Fort Wayne IN Cash Offer" subheadline="Written offer in 24 hours. Close in 7 days. No Indiana transfer tax." sourcePage="/markets/fort-wayne-in" />
           </div>
         </div>

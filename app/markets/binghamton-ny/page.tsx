@@ -187,6 +187,15 @@ export default function BinghamtonNYPage() {
             <h1 className="text-3xl md:text-4xl font-bold text-white mb-4 leading-tight">
               We Buy Houses in Binghamton NY — Cash Offer in 24 Hours
             </h1>
+            {/* MOBILE_FORM_ABOVE_FOLD_FIX: keep form-start before summary block on mobile Template A pages. */}
+            <div className="lg:hidden mb-4">
+              <CashOfferForm
+                variant="hero"
+                headline="Get Your Cash Offer"
+                subheadline="Written offer in 24 hours. No repairs. No fees."
+                sourcePage="/markets/binghamton-ny"
+              />
+            </div>
 
             {/* TL;DR block — Iron Rule #5 */}
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
@@ -218,7 +227,7 @@ export default function BinghamtonNYPage() {
           </div>
 
           {/* Hero form */}
-          <div className="w-full lg:sticky lg:top-24">
+          <div className="hidden lg:block w-full lg:sticky lg:top-24">
             <CashOfferForm
               variant="hero"
               headline="Get Your Cash Offer"

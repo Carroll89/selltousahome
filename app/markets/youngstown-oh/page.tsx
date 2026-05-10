@@ -150,6 +150,10 @@ export default function YoungstownMarketPage() {
             <h1 className="text-3xl md:text-4xl font-bold text-white mb-4 leading-tight">
               Sell Your House Fast in Youngstown, OH — Cash Offer in 24 Hours
             </h1>
+            {/* MOBILE_FORM_ABOVE_FOLD_FIX: keep form-start before summary block on mobile Template A pages. */}
+            <div className="lg:hidden mb-4">
+              <CashOfferForm variant="hero" sourcePage="/markets/youngstown-oh" />
+            </div>
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
               <p className="text-white text-sm leading-relaxed">
@@ -178,7 +182,7 @@ export default function YoungstownMarketPage() {
               Serving Youngstown · Warren · Boardman · Austintown · Niles · Campbell · Struthers · Girard and all of Mahoning County
             </p>
           </div>
-          <div>
+          <div className="hidden lg:block">
             <CashOfferForm variant="hero" sourcePage="/markets/youngstown-oh" />
           </div>
         </div>

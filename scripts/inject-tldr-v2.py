@@ -14,6 +14,10 @@ Insertion logic (priority order):
  2. max-w-4xl container — insert after the container opening
  3. max-w-7xl container (hub pages) — insert after the first bare max-w-7xl div
 
+Mobile conversion guard: never inject a TL;DR block ahead of an existing
+CashOfferForm. Market landing pages must keep the mobile capture moment before
+long GEO/AEO summaries.
+
 Only runs on pages that DON'T already have a TL;DR block.
 """
 
@@ -387,6 +391,12 @@ def already_has_tldr(content: str) -> bool:
     return any(marker in content for marker in ALREADY_HAS_TLDR)
 
 
+def would_precede_cash_offer_form(content: str, insertion_index: int) -> bool:
+    """Return True when a TL;DR insertion would appear before lead capture."""
+    form_index = content.find("<CashOfferForm")
+    return form_index != -1 and insertion_index < form_index
+
+
 def inject_tldr(file_path: str, heading: str, text: str, is_hub: bool = False) -> bool:
     with open(file_path, "r", encoding="utf-8") as f:
         content = f.read()
@@ -398,7 +408,10 @@ def inject_tldr(file_path: str, heading: str, text: str, is_hub: bool = False) -
     if is_hub:
         tldr_block = make_hub_tldr_block(heading, text)
         # For hub pages, insert after first bare max-w-7xl content div
-        if HUB_CONTAINER_PATTERN.search(content):
+        if (match := HUB_CONTAINER_PATTERN.search(content)):
+            if would_precede_cash_offer_form(content, match.start()):
+                print(f"  ✗ CANNOT INSERT (would precede CashOfferForm): {file_path}")
+                return False
             new_content = HUB_CONTAINER_PATTERN.sub(
                 r'\1' + "\n" + tldr_block,
                 content,
@@ -409,10 +422,17 @@ def inject_tldr(file_path: str, heading: str, text: str, is_hub: bool = False) -
             return False
     else:
         tldr_block = make_tldr_block(heading, text)
-        # Try <article> first, then max-w-4xl container
-        if "<article>" in content:
+        # Try <article> first, then max-w-4xl container, unless that would bury a mobile form.
+        article_index = content.find("<article>")
+        if article_index != -1:
+            if would_precede_cash_offer_form(content, article_index):
+                print(f"  ✗ CANNOT INSERT (would precede CashOfferForm): {file_path}")
+                return False
             new_content = content.replace("<article>", "<article>" + tldr_block, 1)
-        elif CONTAINER_PATTERN.search(content):
+        elif (match := CONTAINER_PATTERN.search(content)):
+            if would_precede_cash_offer_form(content, match.start()):
+                print(f"  ✗ CANNOT INSERT (would precede CashOfferForm): {file_path}")
+                return False
             new_content = CONTAINER_PATTERN.sub(
                 r'\1' + "\n" + tldr_block,
                 content,

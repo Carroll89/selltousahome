@@ -8,6 +8,10 @@ Insertion point: right after the opening
 which is the standard article wrapper on all market pages.
 
 Only runs on pages that DON'T already have a TL;DR block.
+
+Mobile conversion guard: never inject a TL;DR block ahead of an existing
+CashOfferForm. Market landing pages must keep the mobile capture moment before
+long GEO/AEO summaries.
 """
 
 import os
@@ -395,6 +399,12 @@ def already_has_tldr(content: str) -> bool:
     return any(marker in content for marker in ALREADY_HAS_TLDR)
 
 
+def would_precede_cash_offer_form(content: str, insertion_index: int) -> bool:
+    """Return True when a TL;DR insertion would appear before lead capture."""
+    form_index = content.find("<CashOfferForm")
+    return form_index != -1 and insertion_index < form_index
+
+
 def inject_tldr(file_path: str, heading: str, text: str) -> bool:
     """
     Inject TL;DR into file_path if it doesn't already have one.
@@ -409,10 +419,17 @@ def inject_tldr(file_path: str, heading: str, text: str) -> bool:
 
     tldr_block = make_tldr_block(heading, text)
 
-    # Try inserting after <article> first
-    if "<article>" in content:
+    # Try inserting after <article> first, unless that would bury a mobile form.
+    article_index = content.find("<article>")
+    if article_index != -1:
+        if would_precede_cash_offer_form(content, article_index):
+            print(f"  ✗ CANNOT INSERT (would precede CashOfferForm): {file_path}")
+            return False
         new_content = content.replace("<article>", "<article>" + tldr_block, 1)
-    elif CONTAINER_PATTERN.search(content):
+    elif (match := CONTAINER_PATTERN.search(content)):
+        if would_precede_cash_offer_form(content, match.start()):
+            print(f"  ✗ CANNOT INSERT (would precede CashOfferForm): {file_path}")
+            return False
         # No <article> tag — insert right after the container div opening
         new_content = CONTAINER_PATTERN.sub(
             r'\1' + "\n" + tldr_block,
