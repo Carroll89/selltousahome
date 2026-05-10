@@ -200,12 +200,13 @@ export default function KenosaWIMarketPage() {
         </div>
       </section>
 
-        {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
       <VideoEmbed
         src="/videos/kenosha-wi/landing.mp4"
         title="Sell My House Fast Kenosha WI — USA Home Buyers"
         subtitle="Cash offers for Kenosha and Kenosha County homes — any condition"
         poster="/images/video-posters/kenosha-wi-main-poster.jpg"
+        captionsSrc="/videos/kenosha-wi/landing-captions.vtt"
+        captionsLabel="English captions"
         />
         <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
         <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
