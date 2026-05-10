@@ -80,6 +80,22 @@ const bloomingtonILLocalBusinessSchema = {
   ],
   priceRange: "$$",
   image: `${SITE_URL}/images/bloomington-il-hero.jpg`,
+
+  hasOfferCatalog: {
+    "@type": "OfferCatalog",
+    name: "Cash Home Buying Services",
+    itemListElement: [
+      {
+        "@type": "Offer",
+        itemOffered: {
+          "@type": "Service",
+          name: "Cash Home Purchase",
+          description:
+            "We buy houses for cash in any condition, any situation, closing in 7-14 days.",
+        },
+      },
+    ],
+  },
 };
 
 const TESTIMONIALS = [
