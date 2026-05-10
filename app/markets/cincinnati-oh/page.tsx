@@ -29,7 +29,7 @@ import { SITE_URL } from '@/lib/utils';
 export const revalidate = 86400;
 
 export const metadata: Metadata = {
-  title: 'We Buy Cincinnati Houses | USA Home Buyers',
+  title: 'We Buy Cincinnati Houses',
   description:
     'Sell your Cincinnati home fast for cash. Victorians, ranches, any condition on any hill. No repairs, no agent fees. Hamilton County Ohio. We handle closing paperwork. Call 888-274-5006.',
   alternates: { canonical: `${SITE_URL}/markets/cincinnati-oh` },
