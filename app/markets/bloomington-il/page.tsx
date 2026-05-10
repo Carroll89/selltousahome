@@ -397,9 +397,9 @@ export default function BloomingtonILMarketPage() {
         </div>
       </section>
 
-      {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
       <VideoEmbed
         src="/videos/bloomington-il/landing.mp4"
+        captionsSrc="/videos/bloomington-il/landing-captions.vtt"
         title="Sell My House Fast Bloomington IL — USA Home Buyers"
         poster="/videos/bloomington-il/landing-poster.jpg"
         subtitle="Cash offers for Bloomington, Normal, and McLean County homes — any condition"

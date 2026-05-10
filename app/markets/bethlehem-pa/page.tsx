@@ -420,9 +420,9 @@ export default function BethlehemMarketPage() {
           </p>
         </section>
 
-        {/* VIDEO_CAPTION_EXCEPTION: source transcript unavailable, audio pending human review — date:2026-04-28 approver:Dan */}
         <VideoEmbed
           src="/videos/bethlehem-pa/landing.mp4"
+          captionsSrc="/videos/bethlehem-pa/landing-captions.vtt"
           title="Sell Your House Fast in Bethlehem, PA"
           poster="/videos/bethlehem-pa-main-poster.jpg"
           subtitle="See how we help homeowners in Bethlehem sell fast for cash"

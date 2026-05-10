@@ -422,9 +422,9 @@ export default function ErieMarketPage() {
           </p>
         </section>
 
-        {/* VIDEO_CAPTION_EXCEPTION: source transcript unavailable, audio pending human review — date:2026-04-28 approver:Dan */}
         <VideoEmbed
           src="/videos/erie-pa/landing.mp4"
+          captionsSrc="/videos/erie-pa/landing-captions.vtt"
           title="Sell Your House Fast in Erie, PA"
           poster="/videos/erie-pa-main-poster.jpg"
           subtitle="See how we help homeowners in Erie sell fast for cash"

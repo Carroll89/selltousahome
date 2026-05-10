@@ -199,9 +199,9 @@ export default function BostonMAMarketPage() {
         </div>
       </section>
 
-      {/* VIDEO_CAPTION_EXCEPTION: 4.1s clip, audio pending human review — date:2026-04-28 approver:Dan */}
       <VideoEmbed
         src="/videos/boston-ma/landing.mp4"
+        captionsSrc="/videos/boston-ma/landing-captions.vtt"
         poster="/images/video-posters/boston-ma-main-poster.jpg"
         title="Sell My House Fast Boston MA — USA Home Buyers"
         subtitle="Cash offers for Boston and Greater Boston homes — any condition"

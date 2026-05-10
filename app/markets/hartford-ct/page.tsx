@@ -199,9 +199,9 @@ export default function HartfordCTMarketPage() {
         </div>
       </section>
 
-      {/* VIDEO_CAPTION_EXCEPTION: short landing clip, audio pending human review — date:2026-04-28 approver:Dan */}
       <VideoEmbed
         src="/videos/hartford-ct/landing.mp4"
+        captionsSrc="/videos/hartford-ct/landing-captions.vtt"
         title="Sell My House Fast Hartford CT — USA Home Buyers"
         subtitle="Cash offers for Hartford and Hartford County homes — any condition"
         poster="/images/video-posters/hartford-ct-main-poster.jpg"

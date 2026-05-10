@@ -388,9 +388,9 @@ export default function ChampaignUrbanaILMarketPage() {
         </div>
       </section>
 
-      {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
       <VideoEmbed
         src="/videos/champaign-urbana-il/landing.mp4"
+        captionsSrc="/videos/champaign-urbana-il/landing-captions.vtt"
         title="Sell My House Fast Champaign-Urbana IL — USA Home Buyers"
         poster="/videos/champaign-urbana-il/landing-poster.jpg"
         subtitle="Cash offers for Champaign, Urbana, and Champaign County homes — any condition"
