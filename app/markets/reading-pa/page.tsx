@@ -197,7 +197,7 @@ export default function ReadingMarketPage() {
             name: "Sell Your House Fast in Reading, PA",
             description:
               "USA Home Buyers explains how to sell your house fast in Reading, PA for cash — no repairs, no agent fees, covering Reading&apos;s 5% transfer tax.",
-            contentUrl: `${SITE_URL}/videos/reading-pa-main.mp4`,
+            contentUrl: `${SITE_URL}/videos/reading-pa/landing.mp4`,
             thumbnailUrl: `${SITE_URL}/videos/reading-pa-main-poster.jpg`,
             uploadDate: "2026-04-12",
           }),
@@ -317,7 +317,7 @@ export default function ReadingMarketPage() {
 
         {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
         <VideoEmbed
-          src="/videos/reading-pa-main.mp4"
+          src="/videos/reading-pa/landing.mp4"
           title="Sell Your House Fast in Reading, PA"
           poster="/videos/reading-pa-main-poster.jpg"
           subtitle="See how we help homeowners in Reading sell fast for cash"

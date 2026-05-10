@@ -191,7 +191,7 @@ export default function StateCollegeMarketPage() {
             name: "Sell Your House Fast in State College, PA",
             description:
               "See how we help homeowners in State College and Centre County sell fast",
-            contentUrl: `${SITE_URL}/videos/state-college-main.mp4`,
+            contentUrl: `${SITE_URL}/videos/state-college-pa/landing.mp4`,
             thumbnailUrl: `${SITE_URL}/videos/state-college-main-poster.jpg`,
             uploadDate: "2026-04-12",
           }),
@@ -314,7 +314,7 @@ export default function StateCollegeMarketPage() {
 
         {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
         <VideoEmbed
-          src="/videos/state-college-main.mp4"
+          src="/videos/state-college-pa/landing.mp4"
           title="Sell Your House Fast in State College, PA"
           poster="/videos/state-college-main-poster.jpg"
           subtitle="See how we help homeowners in State College and Centre County sell fast"
