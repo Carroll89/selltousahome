@@ -24,6 +24,245 @@ export interface BlogPostMeta {
 }
 
 export const BLOG_POSTS: BlogPostMeta[] = [
+  {
+  slug: "boston-ma-sell-house-fast-2026",
+  title: "Sell Your House Fast in Boston, MA in 2026",
+  excerpt: "If you need to sell a house fast in Boston, the simplest path is usually an as-is cash offer from a buyer who understands Massachusetts closings, Suffolk County title work, tenants, older housing stock, and Boston's…",
+  date: "May 10, 2026",
+  datePublished: "2026-05-10",
+  category: "Market Guide",
+  readTime: "8 min",
+  heroImage: "/images/optimized/boston-ma-hero-1200.jpg",
+  heroAlt: "Boston MA house — sell fast for cash",
+  description: "Sell a Boston house fast as-is in 2026. Cash offer options for inherited, foreclosure, tenant, and repair-heavy homes.",
+  primaryKeyword: "sell my house fast Boston MA",
+  markets: [
+    "boston-ma"
+  ],
+  isStatic: false
+},
+  {
+  slug: "bridgeport-ct-sell-house-fast-2026",
+  title: "How to Sell Your House Fast in Bridgeport CT (2026)",
+  excerpt: "If you need to sell a house fast in Bridgeport, the cleanest path is usually a direct as-is cash sale with a buyer who understands Fairfield County, Connecticut attorney closings, Bridgeport Town Clerk recording, and…",
+  date: "May 10, 2026",
+  datePublished: "2026-05-10",
+  category: "Market Guide",
+  readTime: "8 min",
+  heroImage: "/images/optimized/bridgeport-ct-hero-1200.jpg",
+  heroAlt: "Bridgeport CT house — sell fast for cash",
+  description: "Sell your Bridgeport CT house fast in 2026. Local cash sale options, foreclosure, probate, taxes, and Spanish help.",
+  primaryKeyword: "sell my house fast Bridgeport CT",
+  markets: [
+    "bridgeport-ct"
+  ],
+  isStatic: false
+},
+  {
+  slug: "cincinnati-oh-sell-house-fast-2026",
+  title: "How to Sell Your House Fast in Cincinnati, OH in 2026",
+  excerpt: "**TL;DR:** Selling your Cincinnati home fast means choosing your path based on your situation. According to Redfin, Cincinnati's median sale price hit $290,000 in March 2026, up 9.2% year over year, with homes sitting…",
+  date: "May 10, 2026",
+  datePublished: "2026-05-10",
+  category: "Market Guide",
+  readTime: "8 min",
+  heroImage: "/images/optimized/akron-oh-hero-1200.jpg",
+  heroAlt: "Cincinnati OH house — sell fast for cash",
+  description: "Need to sell your house fast in Cincinnati OH? Compare listing, repairs, and a direct as-is cash offer from USA Home Buyers in 2026.",
+  primaryKeyword: "sell my house fast Cincinnati OH",
+  markets: [
+    "cincinnati-oh"
+  ],
+  isStatic: false
+},
+  {
+  slug: "erie-pa-sell-house-fast-2026",
+  title: "Sell Your House Fast in Erie, PA in 2026",
+  excerpt: "If you need to sell a house fast in Erie, the cleanest path is usually an as-is cash sale: request an offer, let the buyer review the property, choose a closing date, and sell without repairs, showings, or waiting on…",
+  date: "May 10, 2026",
+  datePublished: "2026-05-10",
+  category: "Market Guide",
+  readTime: "8 min",
+  heroImage: "/images/optimized/erie-pa-hero-1200.jpg",
+  heroAlt: "Erie PA house — sell fast for cash",
+  description: "Need to sell a house fast in Erie, PA? Learn as-is options, Erie market data, foreclosure timing, taxes, and how cash offers work.",
+  primaryKeyword: "sell my house fast Erie PA",
+  markets: [
+    "erie-pa"
+  ],
+  isStatic: false
+},
+  {
+  slug: "hartford-ct-sell-house-fast-2026",
+  title: "How to Sell Your House Fast in Hartford CT (2026)",
+  excerpt: "If you need to sell a house fast in Hartford, CT, the fastest clean path is usually a direct as-is cash sale: get a written offer, skip repairs and showings, choose a closing date, and confirm your net before you sign.…",
+  date: "May 10, 2026",
+  datePublished: "2026-05-10",
+  category: "Market Guide",
+  readTime: "8 min",
+  heroImage: "/images/optimized/hartford-ct-representative-hero-1200.jpg",
+  heroAlt: "Hartford CT house — sell fast for cash",
+  description: "Sell your Hartford CT house fast in 2026. Local cash sale steps, Hartford market data, probate, foreclosure, taxes, and Spanish help.",
+  primaryKeyword: "sell my house fast Hartford CT",
+  markets: [
+    "hartford-ct"
+  ],
+  isStatic: false
+},
+  {
+  slug: "kenosha-wi-sell-house-fast-2026",
+  title: "Sell your house fast in Kenosha WI",
+  excerpt: "If you need to sell a house fast in Kenosha WI, you have two basic paths: list it if the home is clean, financeable, and you can wait, or sell as-is for cash when repairs, inherited-property issues, tenants, foreclosure…",
+  date: "May 10, 2026",
+  datePublished: "2026-05-10",
+  category: "Market Guide",
+  readTime: "8 min",
+  heroImage: "/images/optimized/kenosha-wi-hero-1200.jpg",
+  heroAlt: "Kenosha WI house — sell fast for cash",
+  description: "Sell your Kenosha WI house fast, as-is, with a cash offer for inherited homes, bungalows, rentals, or foreclosure pressure.",
+  primaryKeyword: "sell my house fast Kenosha WI",
+  markets: [
+    "kenosha-wi"
+  ],
+  isStatic: false
+},
+  {
+  slug: "king-of-prussia-pa-sell-house-fast-2026",
+  title: "How to Sell Your House Fast in King of Prussia PA (2026)",
+  excerpt: "If you need to sell a house fast in King of Prussia, the fastest clean path is usually an as-is cash sale with a buyer who can close around your schedule. KOP is still a strong market, so many homes can sell well with…",
+  date: "May 10, 2026",
+  datePublished: "2026-05-10",
+  category: "Market Guide",
+  readTime: "8 min",
+  heroImage: "/images/optimized/king-of-prussia-landmark-hero-1200.jpg",
+  heroAlt: "King of Prussia PA house — sell fast for cash",
+  description: "Need to sell your house fast in King of Prussia PA? Compare listing, repairs, and a direct as-is cash offer from USA Home Buyers in 2026.",
+  primaryKeyword: "sell my house fast King of Prussia PA",
+  markets: [
+    "king-of-prussia-pa"
+  ],
+  isStatic: false
+},
+  {
+  slug: "racine-mount-pleasant-wi-sell-house-fast-2026",
+  title: "How to Sell Your House Fast in Racine and Mount Pleasant WI (2026)",
+  excerpt: "If you need to sell a house fast in Racine or Mount Pleasant, WI, the cleanest path is usually an as-is cash offer with a buyer who understands Racine County closings, older Racine housing stock, and Mount Pleasant’s…",
+  date: "May 10, 2026",
+  datePublished: "2026-05-10",
+  category: "Market Guide",
+  readTime: "8 min",
+  heroImage: "/images/optimized/racine-mount-pleasant-wi-hero-1200.jpg",
+  heroAlt: "Racine and Mount Pleasant WI house — sell fast for cash",
+  description: "Sell your Racine or Mount Pleasant WI house fast in 2026. Local market data, cash sale steps, probate, foreclosure, and fees.",
+  primaryKeyword: "sell my house fast Racine and Mount Pleasant WI",
+  markets: [
+    "racine-mount-pleasant-wi"
+  ],
+  isStatic: false
+},
+  {
+  slug: "springfield-ma-sell-house-fast-2026",
+  title: "How to Sell Your House Fast in Springfield MA (2026)",
+  excerpt: "If you need to sell a house fast in Springfield, you have two realistic paths: price it well and list it, or sell as-is to a cash buyer who can close without repairs, showings, or lender delays. In 2026, Springfield is…",
+  date: "May 10, 2026",
+  datePublished: "2026-05-10",
+  category: "Market Guide",
+  readTime: "8 min",
+  heroImage: "/images/optimized/springfield-ma-hero-1200.jpg",
+  heroAlt: "Springfield MA house — sell fast for cash",
+  description: "Sell your Springfield MA house fast in 2026. Local cash offer help for as-is homes, probate, foreclosure, and Spanish-speaking sellers.",
+  primaryKeyword: "sell my house fast Springfield MA",
+  markets: [
+    "springfield-ma"
+  ],
+  isStatic: false
+},
+  {
+  slug: "state-college-pa-sell-house-fast-2026",
+  title: "How to Sell Your House Fast in State College PA (2026)",
+  excerpt: "If you need to sell a house fast in State College, the normal real estate process can feel strange. On paper, the market looks hot. Redfin reports a State College median sale price of $480,500, homes selling in about 5…",
+  date: "May 10, 2026",
+  datePublished: "2026-05-10",
+  category: "Market Guide",
+  readTime: "8 min",
+  heroImage: "/images/optimized/state-college-hero-1200.jpg",
+  heroAlt: "State College PA house — sell fast for cash",
+  description: "Need to sell your house fast in State College PA? Compare listing, repairs, and a direct as-is cash offer from USA Home Buyers in 2026.",
+  primaryKeyword: "sell my house fast State College PA",
+  markets: [
+    "state-college-pa"
+  ],
+  isStatic: false
+},
+  {
+  slug: "toledo-oh-sell-house-fast-2026",
+  title: "How to Sell Your House Fast in Toledo, OH in 2026",
+  excerpt: "**TL;DR:** USA Home Buyers purchases Toledo homes as-is, in any condition: estate properties, repair-heavy houses, pre-foreclosure situations, and landlord exits. Redfin's March 2026 data shows Toledo's median sale…",
+  date: "May 10, 2026",
+  datePublished: "2026-05-10",
+  category: "Market Guide",
+  readTime: "8 min",
+  heroImage: "/images/optimized/columbus-oh-hero-1200.jpg",
+  heroAlt: "Toledo OH house — sell fast for cash",
+  description: "Need to sell your house fast in Toledo OH? Compare listing, repairs, and a direct as-is cash offer from USA Home Buyers in 2026.",
+  primaryKeyword: "sell my house fast Toledo OH",
+  markets: [
+    "toledo-oh"
+  ],
+  isStatic: false
+},
+  {
+  slug: "wausau-wi-sell-house-fast-2026",
+  title: "How to Sell Your House Fast in Wausau WI (2026)",
+  excerpt: "Selling a house in Wausau is not the same as selling in Weston, Schofield, Rib Mountain, or the broader Wausau-Weston metro. City values can move differently, and older homes in town often need a buyer who understands…",
+  date: "May 10, 2026",
+  datePublished: "2026-05-10",
+  category: "Market Guide",
+  readTime: "8 min",
+  heroImage: "/images/optimized/wausau-wi-hero-lg.jpg",
+  heroAlt: "Wausau WI house — sell fast for cash",
+  description: "Need to sell your house fast in Wausau WI? Compare listing, repairs, and a direct as-is cash offer from USA Home Buyers in 2026.",
+  primaryKeyword: "sell my house fast Wausau WI",
+  markets: [
+    "wausau-wi"
+  ],
+  isStatic: false
+},
+  {
+  slug: "worcester-ma-sell-house-fast-2026",
+  title: "How to Sell Your House Fast in Worcester MA (2026)",
+  excerpt: "Worcester is a strong market, but that does not mean selling is easy when your house needs work. Redfin reported a Worcester median sale price of $499,250 in March 2026, with homes selling in about 26 days and an 81 out…",
+  date: "May 10, 2026",
+  datePublished: "2026-05-10",
+  category: "Market Guide",
+  readTime: "8 min",
+  heroImage: "/images/optimized/worcester-ma-hero-1200.jpg",
+  heroAlt: "Worcester MA house — sell fast for cash",
+  description: "Need to sell your house fast in Worcester MA? Compare listing, repairs, and a direct as-is cash offer from USA Home Buyers in 2026.",
+  primaryKeyword: "sell my house fast Worcester MA",
+  markets: [
+    "worcester-ma"
+  ],
+  isStatic: false
+},
+  {
+  slug: "youngstown-oh-sell-house-fast-2026",
+  title: "How to Sell Your House Fast in Youngstown OH (2026)",
+  excerpt: "If you need to sell a house fast in Youngstown, you probably already know the usual listing process can be frustrating. A lot of homes here have history, but they also have repairs. Steel-era houses, vacant properties,…",
+  date: "May 10, 2026",
+  datePublished: "2026-05-10",
+  category: "Market Guide",
+  readTime: "8 min",
+  heroImage: "/images/optimized/youngstown-oh-hero-1200.jpg",
+  heroAlt: "Youngstown OH house — sell fast for cash",
+  description: "Need to sell your house fast in Youngstown OH? Compare listing, repairs, and a direct as-is cash offer from USA Home Buyers in 2026.",
+  primaryKeyword: "sell my house fast Youngstown OH",
+  markets: [
+    "youngstown-oh"
+  ],
+  isStatic: false
+},
+
 
   {
     slug: 'eau-claire-wi-sell-house-fast-2026',

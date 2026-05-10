@@ -45,6 +45,34 @@ async function loadContent(slug: string): Promise<BlogPostContent | null> {
         return (await import('@/content/blog/scranton-pa-sell-house-fast-2026')).default;
       case 'fort-wayne-in-sell-house-fast-2026':
         return (await import('@/content/blog/fort-wayne-in-sell-house-fast-2026')).default;
+      case 'boston-ma-sell-house-fast-2026':
+        return (await import('@/content/blog/boston-ma-sell-house-fast-2026')).default;
+      case 'bridgeport-ct-sell-house-fast-2026':
+        return (await import('@/content/blog/bridgeport-ct-sell-house-fast-2026')).default;
+      case 'cincinnati-oh-sell-house-fast-2026':
+        return (await import('@/content/blog/cincinnati-oh-sell-house-fast-2026')).default;
+      case 'erie-pa-sell-house-fast-2026':
+        return (await import('@/content/blog/erie-pa-sell-house-fast-2026')).default;
+      case 'hartford-ct-sell-house-fast-2026':
+        return (await import('@/content/blog/hartford-ct-sell-house-fast-2026')).default;
+      case 'kenosha-wi-sell-house-fast-2026':
+        return (await import('@/content/blog/kenosha-wi-sell-house-fast-2026')).default;
+      case 'king-of-prussia-pa-sell-house-fast-2026':
+        return (await import('@/content/blog/king-of-prussia-pa-sell-house-fast-2026')).default;
+      case 'racine-mount-pleasant-wi-sell-house-fast-2026':
+        return (await import('@/content/blog/racine-mount-pleasant-wi-sell-house-fast-2026')).default;
+      case 'springfield-ma-sell-house-fast-2026':
+        return (await import('@/content/blog/springfield-ma-sell-house-fast-2026')).default;
+      case 'state-college-pa-sell-house-fast-2026':
+        return (await import('@/content/blog/state-college-pa-sell-house-fast-2026')).default;
+      case 'toledo-oh-sell-house-fast-2026':
+        return (await import('@/content/blog/toledo-oh-sell-house-fast-2026')).default;
+      case 'wausau-wi-sell-house-fast-2026':
+        return (await import('@/content/blog/wausau-wi-sell-house-fast-2026')).default;
+      case 'worcester-ma-sell-house-fast-2026':
+        return (await import('@/content/blog/worcester-ma-sell-house-fast-2026')).default;
+      case 'youngstown-oh-sell-house-fast-2026':
+        return (await import('@/content/blog/youngstown-oh-sell-house-fast-2026')).default;
       default:
         return null;
     }
