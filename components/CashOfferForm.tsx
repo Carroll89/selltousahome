@@ -69,10 +69,21 @@ function getStateFromSourcePage(sourcePage?: string): string {
   return '';
 }
 
-function getMarketSlugFromSourcePage(sourcePage?: string): string {
-  if (!sourcePage) return '';
-  const match = sourcePage.match(/\/markets\/([^/]+)/);
-  return match ? match[1] : '';
+export function extractMarketSlugFromPath(path?: string): string {
+  if (!path) return '';
+  const normalizedPath = path.trim().toLowerCase();
+
+  const marketRouteMatch = normalizedPath.match(/(?:^|\/)markets\/([^/?#]+)/);
+  if (marketRouteMatch?.[1]) return marketRouteMatch[1];
+
+  const directRouteMatch = normalizedPath.match(/(?:^|\/)sell-my-house-fast-([^/?#]+)/);
+  if (directRouteMatch?.[1]) return directRouteMatch[1];
+
+  return '';
+}
+
+function getCurrentPath(): string {
+  return typeof window !== 'undefined' ? window.location.pathname : '';
 }
 
 interface FormState {
@@ -178,6 +189,8 @@ export function CashOfferForm({
     setSubmitting(true);
 
     const [firstName, ...lastParts] = form.name.trim().split(' ');
+    const currentPath = getCurrentPath();
+    const marketSlug = extractMarketSlugFromPath(sourcePage) || extractMarketSlugFromPath(currentPath);
     const payload = {
       firstName,
       lastName: lastParts.join(' ') || '',
@@ -187,21 +200,16 @@ export function CashOfferForm({
       propertyAddress: form.propertyAddress,
       address1: form.propertyAddress,
       situation: form.situation,
-      site: getMarketSlugFromSourcePage(sourcePage) || 'selltousahome',
-      sourcePage: sourcePage || (typeof window !== 'undefined' ? window.location.pathname : ''),
+      site: marketSlug || 'selltousahome',
+      sourcePage: sourcePage || currentPath,
       utmSource: getUTMParam('utm_source'),
       utmMedium: getUTMParam('utm_medium'),
       utmCampaign: getUTMParam('utm_campaign'),
-      source_market: (() => {
-        const path = typeof window !== 'undefined' ? window.location.pathname : '';
-        const match = path.match(/\/markets\/([^/]+)/);
-        return match ? match[1] : '';
-      })(),
+      source_market: marketSlug,
       source_page_type: (() => {
-        const path = typeof window !== 'undefined' ? window.location.pathname : '';
-        if (path.startsWith('/markets/')) return 'market';
-        if (path.startsWith('/guides/')) return 'guide';
-        if (path.startsWith('/blog/')) return 'blog';
+        if (currentPath.startsWith('/markets/') || currentPath.startsWith('/sell-my-house-fast-')) return 'market';
+        if (currentPath.startsWith('/guides/')) return 'guide';
+        if (currentPath.startsWith('/blog/')) return 'blog';
         return 'other';
       })(),
       source_channel: getSourceChannel(),
