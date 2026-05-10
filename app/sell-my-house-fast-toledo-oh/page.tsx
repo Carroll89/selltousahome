@@ -24,7 +24,7 @@ import { SITE_URL } from '@/lib/utils';
 export const revalidate = 86400;
 
 export const metadata: Metadata = {
-  title: 'We Buy Toledo Houses Fast | USA Home Buyers',
+  title: 'We Buy Toledo Houses Fast',
   description:
     'Sell your Toledo home fast for cash. No repairs, no agent fees, and local requirement checks up front. We handle Lucas County paperwork. Call 888-274-5006.',
   alternates: { canonical: `${SITE_URL}/sell-my-house-fast-toledo-oh` },

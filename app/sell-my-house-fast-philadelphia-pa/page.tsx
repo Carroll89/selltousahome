@@ -45,7 +45,7 @@ import { SITE_URL } from '@/lib/utils';
 export const revalidate = 86400;
 
 export const metadata: Metadata = {
-  title: 'We Buy Philadelphia Houses | USA Home Buyers',
+  title: 'We Buy Philadelphia Houses',
   description:
     'Sell your Philadelphia row house fast for cash. Any neighborhood, any condition. No repairs, no agent fees. We handle Philly transfer tax and closing paperwork. Call 888-274-5006.',
   alternates: { canonical: `${SITE_URL}/sell-my-house-fast-philadelphia-pa` },
