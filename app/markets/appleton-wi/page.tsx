@@ -61,7 +61,7 @@ const COMPARISON_ROWS = [
   { label: 'Agent commissions', cashBuyer: '$0', traditional: '5–6% (~$8,550–$10,260 on $285K)' },
   { label: 'WI transfer fee', cashBuyer: 'We cover everything', traditional: '0.3% ($3/$1,000, seller pays)' },
   { label: 'Sale certainty', cashBuyer: 'Guaranteed — written contract', traditional: '15–20% of listings fall through' },
-  { label: 'Average net proceeds', cashBuyer: '65–82% of FMV', traditional: '84–90% after all costs' },
+  { label: 'Average net proceeds', cashBuyer: '70–80% of FMV before property-specific adjustments', traditional: '84–90% after all costs' },
 ];
 
 const FAQ_ITEMS = [
@@ -71,7 +71,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How much will you pay for my Appleton WI home?',
-    answer: "Cash offers typically range from 65–82% of fair market value depending on condition. According to Redfin (March 2026), Appleton's median sale price is $285,000 — with a Compete Score of 77/100. We provide a written offer based on comparable sales and property condition. We cover all closing costs including Wisconsin's $3/$1,000 transfer fee collected at the Outagamie County Register of Deeds.",
+    answer: "For average-condition properties, cash offers typically land around 70–80% of fair market value — before factoring in repair costs, property condition, title issues, holding costs, and risk adjustments specific to your home. According to Redfin (March 2026), Appleton's median sale price is $285,000 — with a Compete Score of 77/100. We provide a written offer based on comparable sales and property condition. We cover all closing costs including Wisconsin's $3/$1,000 transfer fee collected at the Outagamie County Register of Deeds.",
   },
   {
     question: 'What is the transfer fee when selling in Appleton WI?',

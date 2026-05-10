@@ -85,7 +85,7 @@ const COMPARISON_ROWS = [
   { label: 'Agent commissions', cashBuyer: '$0', traditional: '5-6% (~$25,000-$30,000)' },
   { label: 'MA deed excise stamps', cashBuyer: 'We cover everything', traditional: 'Seller pays $4.56 per $1,000' },
   { label: 'Sale certainty', cashBuyer: 'Guaranteed — written contract', traditional: '15-20% of listings fall through' },
-  { label: 'Average net proceeds', cashBuyer: '70-80% of FMV', traditional: '85-92% after all costs' },
+  { label: 'Average net proceeds', cashBuyer: '70–80% of FMV before property-specific adjustments', traditional: '85-92% after all costs' },
 ];
 
 const FAQ_ITEMS = [
@@ -95,7 +95,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How much will you pay for my Worcester MA house?',
-    answer: 'Cash offers for Worcester homes typically range from 68-80% of fair market value. According to Zillow Research, the Worcester City ZHVI is $430,112 (+1.0% YoY, March 2026); Redfin tracks city median sale price at $499,250 (+12.2% YoY, March 2026). We cover all closing costs including Massachusetts deed excise stamps ($4.56 per $1,000 — seller pays on traditional sales).',
+    answer: 'For average-condition properties, cash offers typically land around 70–80% of fair market value — before factoring in repair costs, property condition, title issues, holding costs, and risk adjustments specific to your home. According to Zillow Research, the Worcester City ZHVI is $430,112 (+1.0% YoY, March 2026); Redfin tracks city median sale price at $499,250 (+12.2% YoY, March 2026). We cover all closing costs including Massachusetts deed excise stamps ($4.56 per $1,000 — seller pays on traditional sales).',
   },
   {
     question: 'What is the deed excise tax when selling a house in Worcester MA?',

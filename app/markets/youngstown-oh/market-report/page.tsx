@@ -113,7 +113,7 @@ export default function YoungstownMarketReportPage() {
                   ['Sale-to-list ratio', '94.6%'],
                   ['Redfin Compete Score', '68/100 — Somewhat Competitive'],
                   ['Homes sold — Mar 2026', '44 homes'],
-                  ['Cash offer range', '65-75% of after-repair value'],
+                  ['Cash offer range', '70–80% of fair market value before property-specific adjustments'],
                   ['Ohio conveyance fee (Mahoning County)', '$4.00/1,000 + $0.50/parcel (seller pays)'],
                   ['Recording fee (as of Jan 2026)', '$39 base + $8/additional page'],
                   ['City population (2024 est.)', '59,331 — declining (-8.4% since 2019)'],

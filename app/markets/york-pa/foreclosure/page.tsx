@@ -37,7 +37,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How much will I net from selling before a York foreclosure?',
-    answer: "According to Redfin city housing-market data, York City's median sale price is $172,500 as of March 2026. Cash offers typically run 65-75% of after-repair value. From the offer, your mortgage payoff, any liens, and closing costs are paid at closing. We cover transfer tax and all closing costs — nothing extra out of your pocket.",
+    answer: "According to Redfin city housing-market data, York City's median sale price is $172,500 as of March 2026. For average-condition properties, cash offers typically land around 70–80% of fair market value — before factoring in repair costs, property condition, title issues, holding costs, and risk adjustments specific to your home. From the offer, your mortgage payoff, any liens, and closing costs are paid at closing. We cover transfer tax and all closing costs — nothing extra out of your pocket.",
   },
   {
     question: 'Where are York County foreclosure sales held?',

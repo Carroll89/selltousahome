@@ -37,7 +37,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How do you calculate the cash offer on a fire-damaged York home?',
-    answer: "We estimate the after-repair value (ARV) — what the property would be worth fully restored — and subtract the cost of remediation and repair. On a York City property with significant fire damage, restoration costs vary widely depending on structural integrity. According to Redfin city housing-market data (March 2026), York City's median sale price is $172,500, which helps establish the ARV baseline even for damaged properties.",
+    answer: "We estimate the fair market value after repairs — what the property would be worth fully restored — and subtract the cost of remediation and repair. On a York City property with significant fire damage, restoration costs vary widely depending on structural integrity. According to Redfin city housing-market data (March 2026), York City's median sale price is $172,500, which helps establish the repaired-value baseline even for damaged properties.",
   },
 ];
 

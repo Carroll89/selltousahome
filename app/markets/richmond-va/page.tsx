@@ -61,7 +61,7 @@ const COMPARISON_ROWS = [
   { label: 'Agent commissions', cashBuyer: '$0', traditional: '5–6% (~$20,725–$24,870 on $414,500)' },
   { label: 'VA grantor\'s tax', cashBuyer: 'We cover everything', traditional: '$0.50/$500 of value (§ 58.1-802, seller pays)' },
   { label: 'Sale certainty', cashBuyer: 'Guaranteed — written contract', traditional: '15–20% of listings fall through' },
-  { label: 'Average net proceeds', cashBuyer: '70–82% of FMV', traditional: '84–90% after all costs' },
+  { label: 'Average net proceeds', cashBuyer: '70–80% of FMV before property-specific adjustments', traditional: '84–90% after all costs' },
 ];
 
 const FAQ_ITEMS = [
@@ -71,7 +71,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How much will you pay for my Richmond VA home?',
-    answer: "Cash offers typically range from 70–82% of fair market value. According to Redfin (March 2026), Richmond's median sale price is $414,500 — with a Compete Score of 82/100 and 24 days on market. Sellers are getting about 100.4% of list price on average. We provide a written offer based on comparable sales and condition.",
+    answer: "For average-condition properties, cash offers typically land around 70–80% of fair market value — before factoring in repair costs, property condition, title issues, holding costs, and risk adjustments specific to your home. According to Redfin (March 2026), Richmond's median sale price is $414,500 — with a Compete Score of 82/100 and 24 days on market. Sellers are getting about 100.4% of list price on average. We provide a written offer based on comparable sales and condition.",
   },
   {
     question: 'What are the transfer taxes when selling in Richmond VA?',

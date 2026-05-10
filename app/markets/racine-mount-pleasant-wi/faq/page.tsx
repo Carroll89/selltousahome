@@ -25,7 +25,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How much will USA Home Buyers pay for my Racine property?',
-    answer: 'Cash offers typically range from 68-80% of fair market value. According to the Zillow Home Value Index (Zillow Research City ZHVI CSV, 2026-03-31), the typical Racine city home value is $208,908, up 4.9% year over year. Redfin reports a March 2026 median sale price of $219,000 in Racine. Mount Pleasant homes run higher — Zillow Research City ZHVI CSV shows Mount Pleasant village ZHVI at $336,759 (2026-03-31). We cover all closing costs — the offer we make is what you walk away with. No deductions at the closing table.',
+    answer: 'For average-condition properties, cash offers typically land around 70–80% of fair market value — before factoring in repair costs, property condition, title issues, holding costs, and risk adjustments specific to your home. According to the Zillow Home Value Index (Zillow Research City ZHVI CSV, 2026-03-31), the typical Racine city home value is $208,908, up 4.9% year over year. Redfin reports a March 2026 median sale price of $219,000 in Racine. Mount Pleasant homes run higher — Zillow Research City ZHVI CSV shows Mount Pleasant village ZHVI at $336,759 (2026-03-31). We cover all closing costs — the offer we make is what you walk away with. No deductions at the closing table.',
   },
   {
     question: 'What is the transfer tax when selling a house in Racine WI?',

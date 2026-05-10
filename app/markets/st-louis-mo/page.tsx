@@ -61,7 +61,7 @@ const COMPARISON_ROWS = [
   { label: 'Agent commissions', cashBuyer: '$0', traditional: '5–6% (~$12,500–$15,000 on $250K)' },
   { label: 'MO transfer tax', cashBuyer: '$0 — Missouri has no transfer tax', traditional: '$0 — Missouri has no transfer tax' },
   { label: 'Sale certainty', cashBuyer: 'Guaranteed — written contract', traditional: '15–20% of listings fall through' },
-  { label: 'Average net proceeds', cashBuyer: '70–82% of FMV', traditional: '84–90% after all costs' },
+  { label: 'Average net proceeds', cashBuyer: '70–80% of FMV before property-specific adjustments', traditional: '84–90% after all costs' },
 ];
 
 const FAQ_ITEMS = [

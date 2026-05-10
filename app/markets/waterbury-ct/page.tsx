@@ -82,7 +82,7 @@ const COMPARISON_ROWS = [
   { label: 'Agent commissions', cashBuyer: '$0', traditional: '5–6% (~$15,000–$18,000 on $299K)' },
   { label: 'CT closing attorney required?', cashBuyer: 'Coordinated by us', traditional: 'Yes — Connecticut requires attorney at closing' },
   { label: 'Sale certainty', cashBuyer: 'Guaranteed — written contract', traditional: '15–20% of listings fall through' },
-  { label: 'Average net proceeds', cashBuyer: '70–80% of FMV', traditional: '83–90% after all costs' },
+  { label: 'Average net proceeds', cashBuyer: '70–80% of FMV before property-specific adjustments', traditional: '83–90% after all costs' },
 ];
 
 const FAQ_ITEMS = [
@@ -92,7 +92,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How much will you pay for my Waterbury CT home?',
-    answer: "Cash offers typically range from 65–78% of fair market value. According to Zillow (March 2026), Waterbury's median home value is $276,344 — up 2.8% year-over-year. According to Redfin (March 2026), the median sale price is $299,000. We provide a written offer based on comparable sales and property condition. We cover all closing costs.",
+    answer: "For average-condition properties, cash offers typically land around 70–80% of fair market value — before factoring in repair costs, property condition, title issues, holding costs, and risk adjustments specific to your home. According to Zillow (March 2026), Waterbury's median home value is $276,344 — up 2.8% year-over-year. According to Redfin (March 2026), the median sale price is $299,000. We provide a written offer based on comparable sales and property condition. We cover all closing costs.",
   },
   {
     question: 'What is the conveyance tax when selling in Waterbury CT?',

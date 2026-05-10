@@ -85,7 +85,7 @@ const COMPARISON_ROWS = [
   { label: 'Agent commissions', cashBuyer: '$0', traditional: '5-6% (~$9,000-$11,000)' },
   { label: 'MA deed excise stamps', cashBuyer: 'We cover everything', traditional: 'Seller pays $4.56 per $1,000' },
   { label: 'Sale certainty', cashBuyer: 'Guaranteed — written contract', traditional: '15-20% of listings fall through' },
-  { label: 'Average net proceeds', cashBuyer: '70-80% of FMV', traditional: '85-92% after all costs' },
+  { label: 'Average net proceeds', cashBuyer: '70–80% of FMV before property-specific adjustments', traditional: '85-92% after all costs' },
 ];
 
 const FAQ_ITEMS = [
@@ -95,7 +95,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How much will you pay for my Springfield MA house?',
-    answer: 'Cash offers for Springfield homes typically range from 65-78% of fair market value. According to Zillow Research city ZHVI (2026-03-31), the Springfield typical home value is $294,613. A typical cash offer on a Forest Park or Pine Point triple-decker near the $160,000-$200,000 range runs $112,000-$156,000. We cover all closing costs including Massachusetts deed excise stamps ($4.56 per $1,000 — seller pays on traditional sales).',
+    answer: 'For average-condition properties, cash offers typically land around 70–80% of fair market value — before factoring in repair costs, property condition, title issues, holding costs, and risk adjustments specific to your home. According to Zillow Research city ZHVI (2026-03-31), the Springfield typical home value is $294,613. A typical cash offer on a Forest Park or Pine Point triple-decker near the $160,000-$200,000 range runs $112,000-$156,000. We cover all closing costs including Massachusetts deed excise stamps ($4.56 per $1,000 — seller pays on traditional sales).',
   },
   {
     question: 'What is the deed excise tax when selling a house in Springfield MA?',

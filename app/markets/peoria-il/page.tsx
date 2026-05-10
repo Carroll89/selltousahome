@@ -191,7 +191,7 @@ const COMPARISON_ROWS = [
   },
   {
     label: "Average net proceeds",
-    cashBuyer: "65-75% of FMV",
+    cashBuyer: "70–80% of FMV before property-specific adjustments",
     traditional: "85-92% after all costs (well-maintained only)",
   },
 ];
@@ -210,7 +210,7 @@ const FAQ_ITEMS = [
   {
     question: "How much will you pay for my Peoria IL house?",
     answer:
-      "According to Zillow Research City CSV (2026-03-31), Peoria's Home Value Index is $128,838 (+7.4% YoY). Per Redfin (Peoria city, Mar 2026), the median sale price is $145,900 (+8.2% YoY). Cash offers typically run 65-75% of fair market value depending on condition, location, and liens. Entry-level South Side and East Bluff homes — the segment with the highest distressed inventory — commonly receive offers in the $50,000-$95,000 range. We cover all closing costs including the $500 Peoria City transfer tax. Call 888-274-5006.",
+      "According to Zillow Research City CSV (2026-03-31), Peoria's Home Value Index is $128,838 (+7.4% YoY). Per Redfin (Peoria city, Mar 2026), the median sale price is $145,900 (+8.2% YoY). Cash offers typically run 70–80% of fair market value before property-specific adjustments depending on condition, location, and liens. Entry-level South Side and East Bluff homes — the segment with the highest distressed inventory — commonly receive offers in the $50,000-$95,000 range. We cover all closing costs including the $500 Peoria City transfer tax. Call 888-274-5006.",
   },
   {
     question: "Do I need to make repairs before selling to USA Home Buyers?",

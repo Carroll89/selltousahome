@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 
 const FAQ_ITEMS = [
   { question: 'How does the cash buying process work in Wausau?', answer: 'Submit your info or call 888-274-5006. Written cash offer within 24 hours. You pick the closing date — as fast as 7 days. We cover all closing costs including WI transfer fee.' },
-  { question: 'How much do you pay for Wausau homes?', answer: 'Cash offers typically range from 65-78% of fair market value. Wausau metro median listing: ~$366,000. We provide written offers based on comparable sales and condition.' },
+  { question: 'How much do you pay for Wausau homes?', answer: 'For average-condition properties, cash offers typically land around 70–80% of fair market value — before factoring in repair costs, property condition, title issues, holding costs, and risk adjustments specific to your home. Wausau metro median listing: ~$366,000. We provide written offers based on comparable sales and condition.' },
   { question: 'Do you really buy in any condition?', answer: 'Yes. Aging furnaces, ice dam damage, basement moisture, mold, fire damage, code violations — we buy it all. Central Wisconsin winters are hard on homes.' },
   { question: 'What closing costs do I pay?', answer: 'None. We cover everything including WI transfer fee (0.3%), title, recording, and closing fees.' },
   { question: 'What areas do you cover?', answer: 'All of Marathon County: Wausau, Weston, Schofield, Rothschild, Rib Mountain, Marathon City, Mosinee, Kronenwetter, and surrounding communities.' },

@@ -85,7 +85,7 @@ const COMPARISON_ROWS = [
   { label: 'Agent commissions', cashBuyer: '$0', traditional: '5-6% (~$41,000-$50,000 on $829K)' },
   { label: 'MA deed excise stamps', cashBuyer: 'We cover everything', traditional: '$4.56 per $1,000 (seller pays)' },
   { label: 'Sale certainty', cashBuyer: 'Guaranteed — written contract', traditional: '15-20% of listings fall through' },
-  { label: 'Average net proceeds', cashBuyer: '70-80% of FMV', traditional: '85-92% after all costs' },
+  { label: 'Average net proceeds', cashBuyer: '70–80% of FMV before property-specific adjustments', traditional: '85-92% after all costs' },
 ];
 
 const FAQ_ITEMS = [
@@ -95,7 +95,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How much will you pay for my Boston home?',
-    answer: 'Cash offers typically range from 65-78% of fair market value. Boston metro median listing price is approximately $829,000, though neighborhoods vary enormously — Mattapan and Dorchester homes may list at $500,000-$600,000 while Back Bay condos exceed $1M. We provide a written offer based on comparable sales and property condition.',
+    answer: 'For average-condition properties, cash offers typically land around 70–80% of fair market value — before factoring in repair costs, property condition, title issues, holding costs, and risk adjustments specific to your home. Boston metro median listing price is approximately $829,000, though neighborhoods vary enormously — Mattapan and Dorchester homes may list at $500,000-$600,000 while Back Bay condos exceed $1M. We provide a written offer based on comparable sales and property condition.',
   },
   {
     question: 'What are the transfer taxes when selling in Boston?',

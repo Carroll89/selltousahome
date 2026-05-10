@@ -81,7 +81,7 @@ export default function WilmingtonMarketReportPage() {
                   ['Redfin Compete Score', '57/100 — Somewhat Competitive', 'Redfin, Mar 2026'],
                   ['Homes sold monthly', '64', 'Redfin Wilmington city, Mar 2026'],
                   ['Transfer tax — Wilmington', '4.0% total', 'DE Division of Revenue'],
-                  ['Cash offer range', '65-75% of ARV', 'Market estimate, compiled Apr 2026'],
+                  ['Cash offer range', '70–80% of FMV before property-specific adjustments', 'Market estimate, compiled Apr 2026'],
                 ].map(([metric, value, source], i) => (
                   <tr key={i} className={i % 2 === 0 ? 'bg-white' : 'bg-gray-50'}>
                     <td className="py-3 px-4 font-medium text-brand-dark border border-gray-100">{metric}</td>

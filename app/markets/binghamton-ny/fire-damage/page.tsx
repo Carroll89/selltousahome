@@ -36,7 +36,7 @@ const FAQ_ITEMS = [
   {
     question: "How do you determine a fair offer for a fire-damaged home?",
     answer:
-      "We evaluate the after-repair value (ARV) of the property based on Broome County comparable sales, estimate the remediation cost for fire and smoke damage, and factor in carrying costs. Our written offer reflects that analysis. We're straightforward about our methodology — call 888-274-5006 and we'll walk through it.",
+      "We evaluate the property's fair market value after repairs based on Broome County comparable sales, estimate the remediation cost for fire and smoke damage, and factor in carrying costs. Our written offer reflects that analysis. We're straightforward about our methodology — call 888-274-5006 and we'll walk through it.",
   },
   {
     question: "How quickly can we close on a fire-damaged property?",

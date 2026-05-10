@@ -37,7 +37,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How much will I net from selling before a Wilmington foreclosure?',
-    answer: "According to Redfin, Wilmington's median sale price is $251,200 as of March 2026 per Redfin Wilmington city data. Cash offers typically run 65-75% of after-repair value. From the offer, your mortgage payoff, any liens, and closing costs are paid at closing. We cover all closing costs including Delaware's 4% transfer tax — nothing extra out of your pocket.",
+    answer: "According to Redfin, Wilmington's median sale price is $251,200 as of March 2026 per Redfin Wilmington city data. For average-condition properties, cash offers typically land around 70–80% of fair market value — before factoring in repair costs, property condition, title issues, holding costs, and risk adjustments specific to your home. From the offer, your mortgage payoff, any liens, and closing costs are paid at closing. We cover all closing costs including Delaware's 4% transfer tax — nothing extra out of your pocket.",
   },
   {
     question: 'How quickly can you close if I\'m facing foreclosure in Wilmington?',

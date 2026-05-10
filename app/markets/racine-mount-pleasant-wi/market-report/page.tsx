@@ -59,7 +59,7 @@ export default function RacineMarketReportPage() {
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Median days on market (Racine city)</td><td className="p-3">37 days</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Redfin Compete Score</td><td className="p-3">84/100</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Redfin compete score</td><td className="p-3">82 / 100 (Very Competitive)</td><td className="p-3 text-gray-500">Redfin (Mar 2026)</td></tr>
-                <tr className="bg-white"><td className="p-3 font-medium">Typical cash offer range</td><td className="p-3">68-80% of FMV</td><td className="p-3 text-gray-500">Local investor norms</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Typical cash offer range</td><td className="p-3">70–80% of FMV before property-specific adjustments</td><td className="p-3 text-gray-500">Local investor norms</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Wisconsin realty transfer fee</td><td className="p-3">$3.00 per $1,000 (seller pays)</td><td className="p-3 text-gray-500">Wis. Stat. § 77.22</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Foreclosure process</td><td className="p-3">Judicial (Racine Co. Circuit Court, 10-14 months)</td><td className="p-3 text-gray-500">Wis. Stats. Ch. 846</td></tr>
               </tbody>
@@ -136,7 +136,7 @@ export default function RacineMarketReportPage() {
             With 37 median days on market and Redfin rating Racine 84/100 on its Compete Score (Redfin, March 2026), Racine is a technically competitive market — but that velocity hides a bifurcation. Move-in-ready Mount Pleasant suburban homes in the I-94 corridor move fast at full asking. Pre-1940 Racine city homes in the historic districts often sit longer or see deeper price cuts because their buyer pool is limited to cash investors, FHA 203(k) renovation buyers, or conventional loans with major contingencies.
           </p>
           <p className="text-gray-700 mb-4">
-            A direct cash sale to USA Home Buyers closes in 7–14 days with no repairs required. We cover all closing costs including the Wisconsin realty transfer fee. Cash offers typically run 68–80% of fair market value — but on pre-war Racine inventory where conventional financing is already a non-starter, the implied discount is much smaller than the headline number suggests.
+            A direct cash sale to USA Home Buyers closes in 7–14 days with no repairs required. We cover all closing costs including the Wisconsin realty transfer fee. For average-condition properties, cash offers typically land around 70–80% of fair market value — before factoring in repair costs, property condition, title issues, holding costs, and risk adjustments specific to your home.
           </p>
         </section>
 

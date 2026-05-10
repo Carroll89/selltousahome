@@ -43,7 +43,7 @@ export default function PeoriaILMarketReportPage() {
           <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
             <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
             <p className="text-white text-sm leading-relaxed">
-According to Zillow Research City CSV (Peoria city, 2026-03-31), Peoria ZHVI: $128,838 (+7.4% YoY). Per Redfin (Peoria city, Mar 2026), city median: $145,900 (+8.2% YoY). Source: Peoria City Code §27-226 — Peoria's municipal RETT adds $500 on a $200K sale; $800 total three-layer stack. RDC rank #29. Cash offers 65-75% of FMV. Call 888-274-5006.
+According to Zillow Research City CSV (Peoria city, 2026-03-31), Peoria ZHVI: $128,838 (+7.4% YoY). Per Redfin (Peoria city, Mar 2026), city median: $145,900 (+8.2% YoY). Source: Peoria City Code §27-226 — Peoria's municipal RETT adds $500 on a $200K sale; $800 total three-layer stack. RDC rank #29. Cash offers 70–80% of FMV before property-specific adjustments. Call 888-274-5006.
             </p>
           </div>
         </div>
@@ -196,7 +196,7 @@ According to Zillow Research City CSV (Peoria city, 2026-03-31), Peoria ZHVI: $1
         <section className="my-8">
           <h2 className="text-2xl font-bold text-brand-dark mb-4">Cash Offer Range for Peoria IL Homes</h2>
           <p className="text-gray-700 mb-4">
-            Cash offers from USA Home Buyers typically run 65-75% of fair market value, depending on the property's condition, location within Peoria, existing liens, and required remediation. For context:
+            For average-condition properties, cash offers typically land around 70–80% of fair market value — before factoring in repair costs, property condition, title issues, holding costs, and risk adjustments specific to your home. For context:
           </p>
           <ul className="list-disc pl-6 text-gray-700 mb-4 space-y-2">
             <li><strong>South Peoria / East Bluff distressed homes:</strong> $30,000–$75,000 range (high deferred maintenance, significant rehab required)</li>

@@ -55,7 +55,7 @@ According to Zillow Research and Redfin data for Worcester city (March 2026), th
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Median sale price</td><td className="p-3">$499,250 (+12.2% YoY)</td><td className="p-3 text-gray-500">Redfin city (Mar 2026)</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Price per sq ft</td><td className="p-3">$265</td><td className="p-3 text-gray-500">Redfin city (Mar 2026)</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Median days on market</td><td className="p-3">26 days</td><td className="p-3 text-gray-500">Redfin city (Mar 2026)</td></tr>
-                <tr className="bg-white"><td className="p-3 font-medium">Typical cash offer range</td><td className="p-3">68-80% of FMV</td><td className="p-3 text-gray-500">Local investor norms</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Typical cash offer range</td><td className="p-3">70–80% of FMV before property-specific adjustments</td><td className="p-3 text-gray-500">Local investor norms</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Transfer tax</td><td className="p-3">$4.56 per $1,000 (deed excise, seller pays)</td><td className="p-3 text-gray-500">State revenue authority</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Foreclosure process</td><td className="p-3">Non-judicial (power of sale, ~75-120 days, MGL Ch. 183)</td><td className="p-3 text-gray-500">State statutes</td></tr>
               </tbody>
@@ -101,7 +101,7 @@ According to Zillow Research and Redfin data for Worcester city (March 2026), th
             With 26 median days on market, a traditional sale in Worcester still takes time — and that's before accounting for inspection contingencies, financing contingencies, and repair negotiations. Properties that need work often sit longer or require significant price reductions.
           </p>
           <p className="text-gray-700 mb-4">
-            A direct cash sale to USA Home Buyers closes in 7–14 days with no repairs required. We cover all closing costs including $4.56 per $1,000 (deed excise, seller pays). The trade-off: cash offers typically run 68-80% of fair market value.
+            A direct cash sale to USA Home Buyers closes in 7–14 days with no repairs required. We cover all closing costs including $4.56 per $1,000 (deed excise, seller pays). The trade-off: cash offers typically run 70–80% of fair market value before property-specific adjustments.
           </p>
         </section>
 

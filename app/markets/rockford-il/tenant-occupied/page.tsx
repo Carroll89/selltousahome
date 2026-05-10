@@ -163,7 +163,7 @@ export default function RockfordTenantOccupiedPage() {
               </thead>
               <tbody className="divide-y divide-gray-200">
                 <tr className="bg-white"><td className="p-3 font-medium">Evict, then retail list</td><td className="p-3">4-8 weeks eviction + 14 days DOM + 30-45 days close = 3-4 months min</td><td className="p-3">$180-$250 filing + attorney fees + lost rent during vacancy + 5-6% commission + repairs</td><td className="p-3">85-91% FMV after all costs (best case, well-maintained)</td></tr>
-                <tr className="bg-gray-50 font-medium"><td className="p-3">Sell to USA Home Buyers (tenants in place)</td><td className="p-3">7-14 days from offer acceptance</td><td className="p-3">$0 - we cover all closing costs</td><td className="p-3">70-78% FMV; no timeline risk, no eviction cost</td></tr>
+                <tr className="bg-gray-50 font-medium"><td className="p-3">Sell to USA Home Buyers (tenants in place)</td><td className="p-3">7-14 days from offer acceptance</td><td className="p-3">$0 - we cover all closing costs</td><td className="p-3">70–80% FMV before property-specific adjustments; no timeline risk, no eviction cost</td></tr>
               </tbody>
             </table>
           </div>

@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 
 const FAQ_ITEMS = [
   { question: 'How fast can I sell my house for cash in Dayton OH?', answer: 'USA Home Buyers closes in as few as 7 days. Written cash offer within 24 hours. Call 888-274-5006.' },
-  { question: 'How much will you pay for my Dayton home?', answer: 'Cash offers typically range from 70-82% of fair market value. We cover all closing costs.' },
+  { question: 'How much will you pay for my Dayton home?', answer: 'For average-condition properties, cash offers typically land around 70–80% of fair market value — before factoring in repair costs, property condition, title issues, holding costs, and risk adjustments specific to your home. We cover all closing costs.' },
   { question: 'What closing costs apply when selling in Dayton OH?', answer: 'Montgomery County conveyance fee: $4.00/$1,000 + $0.50/parcel. When you sell to USA Home Buyers, we cover all closing costs.' },
   { question: 'Do I need to make repairs?', answer: 'No. We buy in any condition -- no repairs, no cleaning, no staging required.' },
   { question: 'How does the OH foreclosure process work?', answer: 'Ohio judicial foreclosure -- Montgomery County Common Pleas Court; HB 130 mediation referral required. Consult a licensed real estate attorney for your specific situation.' },

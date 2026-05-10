@@ -85,7 +85,7 @@ const COMPARISON_ROWS = [
   { label: 'Agent commissions', cashBuyer: '$0', traditional: '5-6% (~$12,560-$15,072 on $251K home)' },
   { label: 'Transfer tax (4% total in Wilmington)', cashBuyer: 'We cover all closing costs', traditional: 'Seller pays ~2% of sale price ($5,024)' },
   { label: 'Sale certainty', cashBuyer: 'Guaranteed — written contract', traditional: '15-20% of listings fall through' },
-  { label: 'Average net proceeds', cashBuyer: '65-75% of ARV (no deductions)', traditional: '85-90% FMV minus repairs, commissions, tax' },
+  { label: 'Average net proceeds', cashBuyer: '70–80% of FMV before property-specific adjustments', traditional: '85-90% FMV minus repairs, commissions, tax' },
 ];
 
 const FAQ_ITEMS = [
@@ -99,7 +99,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How much will you pay for my Wilmington DE house?',
-    answer: "Cash offers for Wilmington city homes typically range from 65-75% of after-repair value. According to Redfin, Wilmington's median sale price is $251,200 (Redfin Wilmington city, Mar 2026, +12.1% YoY). The Zillow Research City ZHVI is $325,758 (2026-03-31, +2.5% YoY). Row homes in Southbridge and West Side often yield offers in the $130,000-$165,000 range when we cover all closing costs — nothing deducted from your number.",
+    answer: "For average-condition properties, cash offers typically land around 70–80% of fair market value — before factoring in repair costs, property condition, title issues, holding costs, and risk adjustments specific to your home. According to Redfin, Wilmington's median sale price is $251,200 (Redfin Wilmington city, Mar 2026, +12.1% YoY). The Zillow Research City ZHVI is $325,758 (2026-03-31, +2.5% YoY). Row homes in Southbridge and West Side often yield offers in the $130,000-$165,000 range when we cover all closing costs — nothing deducted from your number.",
   },
   {
     question: 'Do I need to make repairs before selling?',
@@ -267,7 +267,7 @@ export default function WilmingtonMarketPage() {
                   ['Sale-to-list ratio (Redfin Wilmington city, Mar 2026)', '98.3%'],
                   ['Median sold DOM (Redfin Wilmington city, Mar 2026)', '61 days'],
                   ['Redfin Compete Score', '57/100 — Somewhat Competitive'],
-                  ['Cash offer range (Wilmington city)', '65-75% of after-repair value (ARV)'],
+                  ['Cash offer range (Wilmington city)', '70–80% of fair market value before property-specific adjustments'],
                   ['Average offers per home', '2'],
                   ['Transfer tax — Wilmington DE', '4.0% total (2.5% DE state + 1.5% City of Wilmington)'],
                   ['Transfer tax — typical split', 'Buyer and seller each pay 2%'],

@@ -85,7 +85,7 @@ const COMPARISON_ROWS = [
   { label: 'Agent commissions', cashBuyer: '$0', traditional: '5-6% (~$8,000-$10,000)' },
   { label: 'NY transfer tax', cashBuyer: 'We cover everything', traditional: 'Seller pays $4 per $1,000 (NYS)' },
   { label: 'Sale certainty', cashBuyer: 'Guaranteed — written contract', traditional: '15-20% of listings fall through' },
-  { label: 'Average net proceeds', cashBuyer: '70-80% of FMV', traditional: '85-92% after all costs' },
+  { label: 'Average net proceeds', cashBuyer: '70–80% of FMV before property-specific adjustments', traditional: '85-92% after all costs' },
 ];
 
 const FAQ_ITEMS = [
@@ -95,7 +95,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How much will you pay for my Rochester NY house?',
-    answer: 'Cash offers for Rochester homes typically range from 65-78% of fair market value. According to Zillow Research, the Rochester City ZHVI is $235,784 (+3.0% YoY, March 2026); Redfin tracks the city median sale price at $160,000 (March 2026). A typical cash offer on a 19th Ward or South Wedge bungalow runs 65-78% of FMV. We cover all closing costs including New York State\'s transfer tax ($4 per $1,000 — seller pays on traditional sales).',
+    answer: 'For average-condition properties, cash offers typically land around 70–80% of fair market value — before factoring in repair costs, property condition, title issues, holding costs, and risk adjustments specific to your home. According to Zillow Research, the Rochester City ZHVI is $235,784 (+3.0% YoY, March 2026); Redfin tracks the city median sale price at $160,000 (March 2026). A typical cash offer on a 19th Ward or South Wedge bungalow runs 70–80% of FMV before property-specific adjustments. We cover all closing costs including New York State\'s transfer tax ($4 per $1,000 — seller pays on traditional sales).',
   },
   {
     question: 'What is the transfer tax when selling a house in Rochester NY?',

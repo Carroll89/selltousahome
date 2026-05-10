@@ -61,7 +61,7 @@ const COMPARISON_ROWS = [
   { label: 'Agent commissions', cashBuyer: '$0', traditional: '5–6% (~$10,775–$12,930 on $215,500)' },
   { label: 'Scranton transfer tax', cashBuyer: 'We cover everything', traditional: '3.7% total: 1% PA + 1% Lackawanna County + 1.7% City ($7,974 on $215,500)' },
   { label: 'Sale certainty', cashBuyer: 'Guaranteed — written contract', traditional: '15–20% of listings fall through' },
-  { label: 'Average net proceeds', cashBuyer: '70–82% of FMV', traditional: '84–90% after all costs' },
+  { label: 'Average net proceeds', cashBuyer: '70–80% of FMV before property-specific adjustments', traditional: '84–90% after all costs' },
 ];
 
 const FAQ_ITEMS = [

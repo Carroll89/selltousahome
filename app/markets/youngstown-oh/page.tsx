@@ -85,7 +85,7 @@ const COMPARISON_ROWS = [
   { label: 'Agent commissions', cashBuyer: '$0', traditional: '5-6% (~$6,460-$7,752 on $129K home)' },
   { label: 'Ohio conveyance fee ($4/1,000)', cashBuyer: 'We cover all closing costs', traditional: 'Seller pays ~$517 on $129,200 sale' },
   { label: 'Sale certainty', cashBuyer: 'Guaranteed — written contract', traditional: '15-20% of listings fall through' },
-  { label: 'Average net proceeds', cashBuyer: '65-75% of ARV (no deductions)', traditional: '85-90% FMV minus repairs, commissions, fee' },
+  { label: 'Average net proceeds', cashBuyer: '70–80% of FMV before property-specific adjustments', traditional: '85-90% FMV minus repairs, commissions, fee' },
 ];
 
 const FAQ_ITEMS = [
@@ -99,7 +99,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How much will you pay for my Youngstown OH house?',
-    answer: "Cash offers for Youngstown homes typically run 65-75% of after-repair value. According to Redfin (Youngstown city, Mar 2026), the Youngstown median sale price is $90,000 (-3.2% YoY). The Zillow Research City ZHVI is $70,004 (2026-03-31) — reflecting the large stock of vacant and distressed properties. Most city-core homes receive offers in the $35,000-$90,000 range depending on neighborhood and condition; Boardman and Austintown properties are higher. We cover all closing costs — nothing deducted from your number.",
+    answer: "For average-condition properties, cash offers typically land around 70–80% of fair market value — before factoring in repair costs, property condition, title issues, holding costs, and risk adjustments specific to your home. According to Redfin (Youngstown city, Mar 2026), the Youngstown median sale price is $90,000 (-3.2% YoY). The Zillow Research City ZHVI is $70,004 (2026-03-31) — reflecting the large stock of vacant and distressed properties. Most city-core homes receive offers in the $35,000-$90,000 range depending on neighborhood and condition; Boardman and Austintown properties are higher. We cover all closing costs — nothing deducted from your number.",
   },
   {
     question: 'Do I need to make repairs before selling?',
@@ -278,7 +278,7 @@ export default function YoungstownMarketPage() {
                   ['Sale-to-list ratio (Redfin Youngstown city, Mar 2026)', '94.6%'],
                   ['Redfin Compete Score', '68/100 — Somewhat Competitive'],
                   ['Homes sold monthly (Redfin Youngstown city, Mar 2026)', '44 homes'],
-                  ['Cash offer range (Youngstown city)', '65-75% of after-repair value (ARV)'],
+                  ['Cash offer range (Youngstown city)', '70–80% of fair market value before property-specific adjustments'],
                   ['Ohio conveyance fee — Mahoning County', '$4.00/1,000 (state $1 + county $3) + $0.50/parcel'],
                   ['Who pays conveyance fee', 'Seller pays — standard throughout Ohio'],
                   ['Example — $129,200 sale', 'Conveyance fee: ~$517 (seller-paid)'],

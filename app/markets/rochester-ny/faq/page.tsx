@@ -25,7 +25,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How much will USA Home Buyers pay for my Rochester property?',
-    answer: 'Cash offers typically range from 65-78% of fair market value. According to Zillow Research, the Rochester City ZHVI is $235,784 (+3.0% YoY, March 2026); Redfin city median sale price is $160,000 (March 2026). We cover all closing costs — the offer we make is what you walk away with. No deductions at the closing table.',
+    answer: 'For average-condition properties, cash offers typically land around 70–80% of fair market value — before factoring in repair costs, property condition, title issues, holding costs, and risk adjustments specific to your home. According to Zillow Research, the Rochester City ZHVI is $235,784 (+3.0% YoY, March 2026); Redfin city median sale price is $160,000 (March 2026). We cover all closing costs — the offer we make is what you walk away with. No deductions at the closing table.',
   },
   {
     question: 'What is the transfer tax when selling a house in Rochester NY?',

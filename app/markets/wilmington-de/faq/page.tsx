@@ -28,7 +28,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How much will you pay for my Wilmington house?',
-    answer: "Cash offers for Wilmington city homes typically range from 65-75% of after-repair value. According to Redfin, Wilmington's median sale price is $251,200 (Redfin Wilmington city, Mar 2026, +12.1% YoY). Row homes in Southbridge and West Side often yield offers in the $130,000-$165,000 range when we cover all closing costs — no commissions, no fees deducted from your number. We give you a specific written number within 24 hours.",
+    answer: "For average-condition properties, cash offers typically land around 70–80% of fair market value — before factoring in repair costs, property condition, title issues, holding costs, and risk adjustments specific to your home. According to Redfin, Wilmington's median sale price is $251,200 (Redfin Wilmington city, Mar 2026, +12.1% YoY). Row homes in Southbridge and West Side often yield offers in the $130,000-$165,000 range when we cover all closing costs — no commissions, no fees deducted from your number. We give you a specific written number within 24 hours.",
   },
   {
     question: 'Do I need to make repairs before selling?',

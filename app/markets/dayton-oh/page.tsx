@@ -61,7 +61,7 @@ const COMPARISON_ROWS = [
   { label: 'Agent commissions', cashBuyer: '$0', traditional: '5–6% (~$6,500–$7,800 on $130K)' },
   { label: 'OH conveyance fee', cashBuyer: 'We cover everything', traditional: '$4.00/$1,000 + $0.50/parcel (Montgomery County)' },
   { label: 'Sale certainty', cashBuyer: 'Guaranteed — written contract', traditional: '15–20% of listings fall through' },
-  { label: 'Average net proceeds', cashBuyer: '70–82% of FMV', traditional: '84–90% after all costs' },
+  { label: 'Average net proceeds', cashBuyer: '70–80% of FMV before property-specific adjustments', traditional: '84–90% after all costs' },
 ];
 
 const FAQ_ITEMS = [
@@ -71,7 +71,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How much will you pay for my Dayton OH home?',
-    answer: "Cash offers typically range from 70–82% of fair market value. According to Redfin (March 2026), Dayton's median sale price is $130,000 with a Compete Score of 62/100 and 63 days on market. We provide a written offer based on comparable sales and condition. We cover all closing costs including Montgomery County's conveyance fee.",
+    answer: "For average-condition properties, cash offers typically land around 70–80% of fair market value — before factoring in repair costs, property condition, title issues, holding costs, and risk adjustments specific to your home. According to Redfin (March 2026), Dayton's median sale price is $130,000 with a Compete Score of 62/100 and 63 days on market. We provide a written offer based on comparable sales and condition. We cover all closing costs including Montgomery County's conveyance fee.",
   },
   {
     question: 'What is the conveyance fee when selling in Montgomery County OH?',

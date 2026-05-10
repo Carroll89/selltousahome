@@ -23,7 +23,7 @@ const NEIGHBORHOODS = [
     priceRange: '$100,000 – $200,000',
     housingType: 'Dense brick row homes, American Foursquare, some detached',
     investorActivity: 'Very High',
-    notes: 'Highest investor activity in the city. Tightest price-to-ARV spread. The Southbridge Wetland Park (completed 2022) has improved the neighborhood\'s appeal. Most homes here are pre-1930 worker housing built for DuPont-era industrial employees.',
+    notes: 'Highest investor activity in the city. Tightest renovation-cost-to-value spread. The Southbridge Wetland Park (completed 2022) has improved the neighborhood\'s appeal. Most homes here are pre-1930 worker housing built for DuPont-era industrial employees.',
     source: 'homes.com South Wilmington neighborhood guide',
   },
   {

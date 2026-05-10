@@ -82,7 +82,7 @@ const COMPARISON_ROWS = [
   { label: 'Agent commissions', cashBuyer: '$0', traditional: '5–6% (~$22,000–$27,000 on $453K)' },
   { label: 'WI transfer fee', cashBuyer: 'We cover everything', traditional: '0.3% ($3/$1,000, seller pays)' },
   { label: 'Sale certainty', cashBuyer: 'Guaranteed — written contract', traditional: '15–20% of listings fall through' },
-  { label: 'Average net proceeds', cashBuyer: '70–80% of FMV', traditional: '84–90% after all costs' },
+  { label: 'Average net proceeds', cashBuyer: '70–80% of FMV before property-specific adjustments', traditional: '84–90% after all costs' },
 ];
 
 const FAQ_ITEMS = [
@@ -92,7 +92,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How much will you pay for my Madison WI home?',
-    answer: 'Cash offers typically range from 65–78% of fair market value. According to Redfin (March 2026), Madison\'s median sale price is $453,500 — among the highest in the Wisconsin markets we serve. We provide a written offer based on comparable sales and property condition. We cover all closing costs including Wisconsin\'s $3/$1,000 transfer fee.',
+    answer: 'For average-condition properties, cash offers typically land around 70–80% of fair market value — before factoring in repair costs, property condition, title issues, holding costs, and risk adjustments specific to your home. According to Redfin (March 2026), Madison\'s median sale price is $453,500 — among the highest in the Wisconsin markets we serve. We provide a written offer based on comparable sales and property condition. We cover all closing costs including Wisconsin\'s $3/$1,000 transfer fee.',
   },
   {
     question: 'What is the transfer fee when selling in Madison WI?',

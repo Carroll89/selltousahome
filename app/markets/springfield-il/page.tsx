@@ -193,7 +193,7 @@ const COMPARISON_ROWS = [
   },
   {
     label: "Average net proceeds",
-    cashBuyer: "65-75% of FMV",
+    cashBuyer: "70–80% of FMV before property-specific adjustments",
     traditional: "85-92% after all costs",
   },
 ];
@@ -207,7 +207,7 @@ const FAQ_ITEMS = [
   {
     question: "How much will you pay for my Springfield IL house?",
     answer:
-      "Cash offers for Springfield homes typically run 65-75% of fair market value, depending on condition, location, and any liens. According to Zillow (March 2026), the Springfield IL Zillow Home Value Index is $163,198, up 8.2% year over year. Redfin puts the March 2026 median sale price at $186,000, up 22.4% YoY. A typical cash offer on a Harvard Park bungalow or Enos Park Victorian runs $106,000-$122,000 on a home at ZHVI. We cover all closing costs including Illinois state and Sangamon County transfer taxes ($0.75 per $500 of consideration).",
+      "Cash offers for Springfield homes typically run 70–80% of fair market value before property-specific adjustments, depending on condition, location, and any liens. According to Zillow (March 2026), the Springfield IL Zillow Home Value Index is $163,198, up 8.2% year over year. Redfin puts the March 2026 median sale price at $186,000, up 22.4% YoY. A typical cash offer on a Harvard Park bungalow or Enos Park Victorian runs $106,000-$122,000 on a home at ZHVI. We cover all closing costs including Illinois state and Sangamon County transfer taxes ($0.75 per $500 of consideration).",
   },
   {
     question:

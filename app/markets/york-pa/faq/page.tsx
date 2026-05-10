@@ -28,7 +28,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How much will you pay for my York house?',
-    answer: "Cash offers for York City homes typically range from 65-75% of after-repair value. According to Redfin city housing-market data, York City's median sale price is $172,500 (March 2026). Northeast York properties near the $120,000 level can still generate fair cash offers when we cover all closing costs — no commissions, no fees. We give you a specific written number within 24 hours.",
+    answer: "For average-condition properties, cash offers typically land around 70–80% of fair market value — before factoring in repair costs, property condition, title issues, holding costs, and risk adjustments specific to your home. According to Redfin city housing-market data, York City's median sale price is $172,500 (March 2026). Northeast York properties near the $120,000 level can still generate fair cash offers when we cover all closing costs — no commissions, no fees. We give you a specific written number within 24 hours.",
   },
   {
     question: 'Do I need to make repairs before selling?',

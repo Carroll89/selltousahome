@@ -192,7 +192,7 @@ const COMPARISON_ROWS = [
   },
   {
     label: "Average net proceeds",
-    cashBuyer: "65-75% of FMV",
+    cashBuyer: "70–80% of FMV before property-specific adjustments",
     traditional: "85-92% after all costs (well-maintained only)",
   },
 ];
@@ -206,7 +206,7 @@ const FAQ_ITEMS = [
   {
     question: "How much will you pay for my Rockford IL house?",
     answer:
-      "Cash offers for Rockford homes typically run 70-78% of fair market value, depending on condition, location, and any liens. Zillow's Home Value Index for Rockford is $177,225 (+9.9% YoY, Zillow Research City ZHVI CSV, 2026-03-31). Redfin puts the March 2026 median sale price at $170,000 (+17.2% YoY). A typical cash offer on a Churchill Grove craftsman or Signal Hill ranch runs $99,000-$111,000 on a home at ZHVI. We cover all closing costs including Illinois state transfer tax and Winnebago County transfer tax — total $0.75/$500 combined (no municipal RETT in Rockford).",
+      "Cash offers for Rockford homes typically run 70–80% of fair market value before property-specific adjustments, depending on condition, location, and any liens. Zillow's Home Value Index for Rockford is $177,225 (+9.9% YoY, Zillow Research City ZHVI CSV, 2026-03-31). Redfin puts the March 2026 median sale price at $170,000 (+17.2% YoY). A typical cash offer on a Churchill Grove craftsman or Signal Hill ranch runs $99,000-$111,000 on a home at ZHVI. We cover all closing costs including Illinois state transfer tax and Winnebago County transfer tax — total $0.75/$500 combined (no municipal RETT in Rockford).",
   },
   {
     question: "What is the transfer tax when selling a house in Rockford IL?",

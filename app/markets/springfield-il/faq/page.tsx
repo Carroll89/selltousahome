@@ -42,7 +42,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'What is the cash offer range for Springfield IL homes?',
-    answer: 'Cash offers for Springfield homes typically run 65-75% of fair market value depending on condition, location, and any liens. On the Zillow ZHVI of $163,198, that\'s roughly $106,000-$122,400. On the Redfin median of $186,000, roughly $120,900-$139,500. Distressed properties (major repairs needed, code violations, fire damage) price lower; well-maintained properties in strong neighborhoods price toward the top of the range. We cover all closing costs — the offer is the net you receive.',
+    answer: 'Cash offers for Springfield homes typically run 70–80% of fair market value before property-specific adjustments depending on condition, location, and any liens. On the Zillow ZHVI of $163,198, that\'s roughly $106,000-$122,400. On the Redfin median of $186,000, roughly $120,900-$139,500. Distressed properties (major repairs needed, code violations, fire damage) price lower; well-maintained properties in strong neighborhoods price toward the top of the range. We cover all closing costs — the offer is the net you receive.',
   },
   {
     question: 'Does the City of Springfield have a local landlord-tenant ordinance?',

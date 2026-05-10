@@ -88,7 +88,7 @@ export default function YorkNeighborhoodsPage() {
         </h1>
         <p className="text-gray-600 mb-2">
           Data from Redfin neighborhood market pages (February–November 2025/2026). Cash offer ranges reflect
-          65-75% of ARV typical for York City's older housing stock.
+          70–80% of FMV before property-specific adjustments typical for York City's older housing stock.
         </p>
         <p className="text-gray-600 text-sm mb-8">Provider data: Redfin neighborhood pages and March 2026 city data; Zillow Research ZHVI 2026-03-31</p>
 
@@ -116,7 +116,7 @@ export default function YorkNeighborhoodsPage() {
               <div className="bg-white rounded-xl p-3 text-sm">
                 <span className="font-semibold text-brand-dark">Typical cash offer range: </span>
                 <span className="text-brand-primary font-bold">{n.cashRange}</span>
-                <span className="text-gray-500 ml-1">(65-75% of ARV, all closing costs included)</span>
+                <span className="text-gray-500 ml-1">(70–80% of FMV before property-specific adjustments, all closing costs included)</span>
               </div>
             </div>
           ))}

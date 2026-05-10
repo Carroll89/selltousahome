@@ -63,7 +63,7 @@ const COMPARISON_ROWS = [
   { label: 'Agent commissions', cashBuyer: '$0', traditional: '5–6% (~$14,500–$17,400 on $290,000)' },
   { label: 'OH conveyance fee', cashBuyer: 'We cover everything', traditional: '$3.00/$1,000 (Franklin County Auditor)' },
   { label: 'Sale certainty', cashBuyer: 'Guaranteed — written contract', traditional: '15–20% of listings fall through' },
-  { label: 'Average net proceeds', cashBuyer: '60–80% of FMV', traditional: '84–90% after all costs' },
+  { label: 'Average net proceeds', cashBuyer: '70–80% of FMV before property-specific adjustments', traditional: '84–90% after all costs' },
 ];
 
 const FAQ_ITEMS = [
@@ -73,7 +73,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How much will you pay for my Columbus OH home?',
-    answer: "Cash offers typically range from 60–80% of fair market value. According to Redfin (March 2026), Columbus's median sale price is $290,000 — up 3.9% year-over-year — with a Compete Score of 65. We provide a written offer based on comparable sales and property condition. We cover all closing costs including Franklin County's $3.00/$1,000 conveyance fee.",
+    answer: "For average-condition properties, cash offers typically land around 70–80% of fair market value — before factoring in repair costs, property condition, title issues, holding costs, and risk adjustments specific to your home. According to Redfin (March 2026), Columbus's median sale price is $290,000 — up 3.9% year-over-year — with a Compete Score of 65. We provide a written offer based on comparable sales and property condition. We cover all closing costs including Franklin County's $3.00/$1,000 conveyance fee.",
   },
   {
     question: 'What is the conveyance fee when selling in Franklin County OH?',

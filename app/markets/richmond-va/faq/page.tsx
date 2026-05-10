@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 
 const FAQ_ITEMS = [
   { question: 'How fast can I sell my house for cash in Richmond VA?', answer: 'USA Home Buyers closes in as few as 7 days. Written cash offer within 24 hours. Call 888-274-5006.' },
-  { question: 'How much will you pay for my Richmond home?', answer: 'Cash offers typically range from 70-82% of fair market value. We cover all closing costs.' },
+  { question: 'How much will you pay for my Richmond home?', answer: 'For average-condition properties, cash offers typically land around 70–80% of fair market value — before factoring in repair costs, property condition, title issues, holding costs, and risk adjustments specific to your home. We cover all closing costs.' },
   { question: 'What closing costs apply when selling in Richmond VA?', answer: 'State grantor\'s tax $0.50/$500 (seller); state recordation $0.25/$100 (buyer); Richmond City local add-on -- verify with settlement agent. When you sell to USA Home Buyers, we cover all closing costs.' },
   { question: 'Do I need to make repairs?', answer: 'No. We buy in any condition -- no repairs, no cleaning, no staging required.' },
   { question: 'How does the VA foreclosure process work?', answer: 'Virginia non-judicial foreclosure via deed of trust -- VA Code 55.1-321; ~45-60 days; no post-sale redemption. Consult a licensed real estate attorney for your specific situation.' },

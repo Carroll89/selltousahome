@@ -75,7 +75,7 @@ const COMPARISON_ROWS = [
   { label: 'Agent commissions', cashBuyer: '$0', traditional: '5-6% (~$18,000-$22,000)' },
   { label: 'WI transfer fee', cashBuyer: 'We cover everything', traditional: '0.3% of sale price (seller pays)' },
   { label: 'Sale certainty', cashBuyer: 'Guaranteed — written contract', traditional: '15-20% of listings fall through' },
-  { label: 'Average net proceeds', cashBuyer: '70-80% of FMV', traditional: '85-92% after all costs' },
+  { label: 'Average net proceeds', cashBuyer: '70–80% of FMV before property-specific adjustments', traditional: '85-92% after all costs' },
 ];
 
 const FAQ_ITEMS = [
@@ -85,7 +85,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How much will you pay for my Wausau home?',
-    answer: 'Cash offers typically range from 65-78% of fair market value. Wausau metro median listing price is $366,000 (Realtor.com, March 2026). We provide a written offer based on comparable sales and property condition. We cover all closing costs including Wisconsin\'s transfer fee.',  
+    answer: 'For average-condition properties, cash offers typically land around 70–80% of fair market value — before factoring in repair costs, property condition, title issues, holding costs, and risk adjustments specific to your home. Wausau metro median listing price is $366,000 (Realtor.com, March 2026). We provide a written offer based on comparable sales and property condition. We cover all closing costs including Wisconsin\'s transfer fee.',
   },
   {
     question: 'What is the transfer fee when selling in Wausau WI?',

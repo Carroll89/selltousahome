@@ -18,7 +18,7 @@ export const metadata: Metadata = {
 
 const FAQ_ITEMS = [
   { question: 'How fast can I sell my house for cash in St. Louis MO?', answer: 'USA Home Buyers closes in as few as 7 days. Written cash offer within 24 hours. Call 888-274-5006.' },
-  { question: 'How much will you pay for my St. Louis home?', answer: 'Cash offers typically range from 70-82% of fair market value. We cover all closing costs.' },
+  { question: 'How much will you pay for my St. Louis home?', answer: 'For average-condition properties, cash offers typically land around 70–80% of fair market value — before factoring in repair costs, property condition, title issues, holding costs, and risk adjustments specific to your home. We cover all closing costs.' },
   { question: 'What closing costs apply when selling in St. Louis MO?', answer: 'No Missouri state or local transfer tax. When you sell to USA Home Buyers, we cover all closing costs.' },
   { question: 'Do I need to make repairs?', answer: 'No. We buy in any condition -- no repairs, no cleaning, no staging required.' },
   { question: 'How does the MO foreclosure process work?', answer: 'Missouri non-judicial foreclosure via deed of trust -- RSMo 443.310; ~60-90 days. Consult a licensed real estate attorney for your specific situation.' },

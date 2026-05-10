@@ -130,7 +130,7 @@ const COMPARISON_ROWS = [
   },
   {
     label: "Average net proceeds",
-    cashBuyer: "65-75% of ARV (no deductions)",
+    cashBuyer: "70–80% of FMV before property-specific adjustments",
     traditional: "85-90% FMV minus repairs, commissions",
   },
 ];
@@ -149,7 +149,7 @@ const FAQ_ITEMS = [
   {
     question: "How much will you pay for my York PA house?",
     answer:
-      "Cash offers for York City homes typically range from 65-75% of after-repair value. According to Redfin city housing-market data, York's median sale price is $172,500 (March 2026, -2.5% YoY). Northeast York properties under the $120,000 range can still get fair offers — we cover all closing costs, so nothing comes out of your number.",
+      "For average-condition properties, cash offers typically land around 70–80% of fair market value — before factoring in repair costs, property condition, title issues, holding costs, and risk adjustments specific to your home. According to Redfin city housing-market data, York's median sale price is $172,500 (March 2026, -2.5% YoY). Northeast York properties under the $120,000 range can still get fair offers — we cover all closing costs, so nothing comes out of your number.",
   },
   {
     question: "Do I need to make repairs before selling?",
@@ -425,7 +425,7 @@ export default function YorkMarketPage() {
                   ["Homes sold Mar 2026", "34"],
                   [
                     "Cash offer range (typical York City)",
-                    "65-75% of ARV (after repair value)",
+                    "70–80% of FMV before property-specific adjustments",
                   ],
                   [
                     "Transfer tax",

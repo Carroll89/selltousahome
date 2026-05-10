@@ -94,7 +94,7 @@ const FAQ_ITEMS = [
   {
     question: 'How much will you pay for my Binghamton NY home?',
     answer:
-      "Cash offers typically range from 58–75% of fair market value depending on condition and title complexity. According to Redfin (March 2026), Binghamton's median sale price is $175,000 with a Compete Score of 72 — a very competitive market. We provide a written offer based on comparable Broome County sales and property condition. We cover all closing costs including the Broome County transfer tax.",
+      "For average-condition properties, cash offers typically land around 70–80% of fair market value — before factoring in repair costs, property condition, title issues, holding costs, and risk adjustments specific to your home. According to Redfin (March 2026), Binghamton's median sale price is $175,000 with a Compete Score of 72 — a very competitive market. We provide a written offer based on comparable Broome County sales and property condition. We cover all closing costs including the Broome County transfer tax.",
   },
   {
     question: 'What is the transfer tax when selling in Binghamton NY?',

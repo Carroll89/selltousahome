@@ -82,7 +82,7 @@ const COMPARISON_ROWS = [
   { label: 'Agent commissions', cashBuyer: '$0', traditional: '5–6% (~$11,000–$14,000 on $229K)' },
   { label: 'PA transfer tax', cashBuyer: 'We cover everything', traditional: '2% total (1% state + 1% Borough of Chambersburg, seller typically pays 1%)' },
   { label: 'Sale certainty', cashBuyer: 'Guaranteed — written contract', traditional: '15–20% of listings fall through' },
-  { label: 'Average net proceeds', cashBuyer: '70–80% of FMV', traditional: '83–90% after all costs' },
+  { label: 'Average net proceeds', cashBuyer: '70–80% of FMV before property-specific adjustments', traditional: '83–90% after all costs' },
 ];
 
 const FAQ_ITEMS = [
@@ -92,7 +92,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How much will you pay for my Chambersburg PA home?',
-    answer: "Cash offers typically range from 65–78% of fair market value. According to Redfin (March 2026), Chambersburg's median sale price is $228,975 with a Compete Score of 79 — the market moves fast for move-in-ready homes. We provide a written offer based on comparable sales and property condition. We cover all closing costs.",
+    answer: "For average-condition properties, cash offers typically land around 70–80% of fair market value — before factoring in repair costs, property condition, title issues, holding costs, and risk adjustments specific to your home. According to Redfin (March 2026), Chambersburg's median sale price is $228,975 with a Compete Score of 79 — the market moves fast for move-in-ready homes. We provide a written offer based on comparable sales and property condition. We cover all closing costs.",
   },
   {
     question: 'What is the transfer tax when selling in Chambersburg PA?',

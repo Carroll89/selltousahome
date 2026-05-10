@@ -51,7 +51,7 @@ const FAQ_ITEMS = [
   {
     question: 'How much below market value will a cash buyer pay in Binghamton?',
     answer:
-      "Cash offers in Binghamton typically range from 58–75% of after-repair value (ARV), depending on property condition and title complexity. Clean condition with marketable title: 68–75%. Heavy repair, code violations, or deferred maintenance: 60–68%. Probate/title complexity, tenant situations, or legal clouds: 58–65%. That discount reflects what you save on agent commissions, repairs, carrying costs during the 70-day average DOM, and the NY closing cost stack. Call 888-274-5006 for a specific offer on your property.",
+      "For average-condition properties, cash offers typically land around 70–80% of fair market value — before factoring in repair costs, property condition, title issues, holding costs, and risk adjustments specific to your home. Clean condition with marketable title: 68–75%. Heavy repair, code violations, or deferred maintenance: 60–68%. Probate/title complexity, tenant situations, or legal clouds: 58–65%. That discount reflects what you save on agent commissions, repairs, carrying costs during the 70-day average DOM, and the NY closing cost stack. Call 888-274-5006 for a specific offer on your property.",
   },
   {
     question: 'What is Johnson City and does it affect my Binghamton sale?',

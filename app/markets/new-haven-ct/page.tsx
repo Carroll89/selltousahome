@@ -85,7 +85,7 @@ const COMPARISON_ROWS = [
   { label: 'Agent commissions', cashBuyer: '$0', traditional: '5-6% (~$18,000-$22,000)' },
   { label: 'CT conveyance tax', cashBuyer: 'We cover everything', traditional: '1.25% (New Haven Targeted Investment muni)' },
   { label: 'Sale certainty', cashBuyer: 'Guaranteed — written contract', traditional: '15-20% of listings fall through' },
-  { label: 'Average net proceeds', cashBuyer: '70-80% of FMV', traditional: '85-92% after all costs' },
+  { label: 'Average net proceeds', cashBuyer: '70–80% of FMV before property-specific adjustments', traditional: '85-92% after all costs' },
 ];
 
 const FAQ_ITEMS = [
@@ -95,7 +95,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How much will you pay for my New Haven CT house?',
-    answer: "Cash offers for New Haven homes typically range from 65-80% of fair market value. According to the Zillow Research City ZHVI CSV (New Haven city, 2026-03-31), the typical New Haven home value is $326,440 (+5.7% YoY). Redfin's median sale price is $365,000 (Mar 2026). A typical cash offer on a Fair Haven triple-decker or Hill neighborhood row home runs $228,000–$261,000. We cover all closing costs including Connecticut's conveyance tax — 1.25% total (state 0.75% + municipal 0.50% for New Haven's Targeted Investment status). Source: Connecticut DRS (ct.gov/drs).",
+    answer: "For average-condition properties, cash offers typically land around 70–80% of fair market value — before factoring in repair costs, property condition, title issues, holding costs, and risk adjustments specific to your home. According to the Zillow Research City ZHVI CSV (New Haven city, 2026-03-31), the typical New Haven home value is $326,440 (+5.7% YoY). Redfin's median sale price is $365,000 (Mar 2026).  We cover all closing costs including Connecticut's conveyance tax — 1.25% total (state 0.75% + municipal 0.50% for New Haven's Targeted Investment status). Source: Connecticut DRS (ct.gov/drs).",
   },
   {
     question: 'What is the conveyance tax when selling a house in New Haven CT?',

@@ -269,7 +269,7 @@ export default function PeoriaCodeViolationsPage() {
             The Bradley Park and Knoxville Avenue corridor neighborhoods are subject to a different code violation profile: student-rental damage complaints from neighbors and occasional interior-condition citations. These violations are typically less severe than structural issues but can accumulate if a landlord is managing multiple properties or has reduced involvement in the property.
           </p>
           <p className="text-gray-700 mb-4">
-            For landlords in these areas with open violation notices and code-condition issues from years of student rental occupancy, USA Home Buyers purchases the property as-is. We factor the violation status into the offer and handle all post-closing compliance. Per Redfin (Peoria city, Mar 2026), the Peoria city median sale price is $145,900 — and for a code-impaired rental property, a cash sale at 65–75% of value in today's rising market may net more than waiting through a remediation and re-list cycle.
+            For landlords in these areas with open violation notices and code-condition issues from years of student rental occupancy, USA Home Buyers purchases the property as-is. We factor the violation status into the offer and handle all post-closing compliance. Per Redfin (Peoria city, Mar 2026), the Peoria city median sale price is $145,900 — and for a code-impaired rental property, a property-specific cash sale may net more than waiting through a remediation and re-list cycle.
           </p>
 
           <h2 className="text-2xl font-bold text-brand-dark mb-4">How USA Home Buyers Handles Code Violation Properties</h2>

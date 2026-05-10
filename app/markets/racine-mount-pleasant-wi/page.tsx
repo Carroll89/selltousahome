@@ -85,7 +85,7 @@ const COMPARISON_ROWS = [
   { label: 'Agent commissions', cashBuyer: '$0', traditional: '5-6% (~$10,950-$13,140 on Racine median)' },
   { label: 'WI realty transfer fee', cashBuyer: 'We cover everything', traditional: 'Seller pays $3 per $1,000' },
   { label: 'Sale certainty', cashBuyer: 'Guaranteed — written contract', traditional: '15-20% of listings fall through' },
-  { label: 'Average net proceeds', cashBuyer: '70-80% of FMV', traditional: '85-92% after all costs' },
+  { label: 'Average net proceeds', cashBuyer: '70–80% of FMV before property-specific adjustments', traditional: '85-92% after all costs' },
 ];
 
 const FAQ_ITEMS = [
@@ -95,7 +95,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How much will you pay for my Racine WI house?',
-    answer: 'Cash offers for Racine homes typically range from 68-80% of fair market value. According to Zillow Research City ZHVI CSV (2026-03-31), Racine city ZHVI is $208,908, up 4.9% year over year. A typical cash offer on a Northside cream brick cottage or a West Racine bungalow runs $142,000-$167,000. Mount Pleasant suburban homes closer to the I-94 / Microsoft corridor use a separate village ZHVI of $336,759 (Zillow Research City ZHVI CSV, 2026-03-31), with cash offers in the $231K-$264K range. We cover all closing costs including the Wisconsin realty transfer fee.',
+    answer: 'For average-condition properties, cash offers typically land around 70–80% of fair market value — before factoring in repair costs, property condition, title issues, holding costs, and risk adjustments specific to your home. According to Zillow Research City ZHVI CSV (2026-03-31), Racine city ZHVI is $208,908, up 4.9% year over year. A typical cash offer on a Northside cream brick cottage or a West Racine bungalow runs $142,000-$167,000. Mount Pleasant suburban homes closer to the I-94 / Microsoft corridor use a separate village ZHVI of $336,759 (Zillow Research City ZHVI CSV, 2026-03-31), with cash offers in the $231K-$264K range. We cover all closing costs including the Wisconsin realty transfer fee.',
   },
   {
     question: 'What is the realty transfer fee when selling a house in Racine WI?',

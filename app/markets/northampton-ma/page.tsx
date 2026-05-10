@@ -64,7 +64,7 @@ const COMPARISON_ROWS = [
   { label: 'MA deed excise', cashBuyer: 'We cover everything', traditional: '~$4.56/$1,000 seller-paid (MGL c.64D, ~$1,231 on $270K)' },
   { label: 'Attorney fee', cashBuyer: 'We cover everything', traditional: '$600–$1,200 (MA requires attorney)' },
   { label: 'Sale certainty', cashBuyer: 'Guaranteed — written contract', traditional: '15–20% of listings fall through' },
-  { label: 'Average net proceeds', cashBuyer: '68–80% of FMV', traditional: '85–92% after all costs' },
+  { label: 'Average net proceeds', cashBuyer: '70–80% of FMV before property-specific adjustments', traditional: '85–92% after all costs' },
 ];
 
 const FAQ_ITEMS = [
@@ -74,7 +74,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How much will you pay for my Northampton MA home?',
-    answer: "Cash offers typically range from 68–80% of fair market value. Northampton's median home value is approximately $270,000 per local market data (2026). We provide a written offer based on comparable sales and property condition. We cover all closing costs including Massachusetts's deed excise tax (MGL c.64D) and required attorney fees.",
+    answer: "For average-condition properties, cash offers typically land around 70–80% of fair market value — before factoring in repair costs, property condition, title issues, holding costs, and risk adjustments specific to your home. Northampton's median home value is approximately $270,000 per local market data (2026). We provide a written offer based on comparable sales and property condition. We cover all closing costs including Massachusetts's deed excise tax (MGL c.64D) and required attorney fees.",
   },
   {
     question: 'What is the transfer tax when selling in Massachusetts?',

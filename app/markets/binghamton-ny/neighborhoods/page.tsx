@@ -21,7 +21,7 @@ const NEIGHBORHOODS = [
     name: 'Westside',
     character:
       "Historically the most desirable residential area in Binghamton, the Westside developed in the late 19th and early 20th centuries for the professional and managerial class that staffed the city's manufacturing and commercial enterprises. Victorian-era homes, 2-story Colonials, and Craftsman bungalows line tree-canopied streets near Recreation Park. The proximity to Binghamton University via the city's west side creates a student rental presence — particularly along Front Street and the Leroy Street corridor. Inherited Westside properties often come with beautiful bones and deferred maintenance.",
-    investorAngle: 'Inherited Victorians, student rentals, older estate properties. Westside properties often have strong ARV potential — and significant updating costs.',
+    investorAngle: 'Inherited Victorians, student rentals, older estate properties. Westside properties often have strong repaired-value potential — and significant updating costs.',
   },
   {
     name: 'South Side',
@@ -103,7 +103,7 @@ export default function BinghamtonNeighborhoodsPage() {
             The housing stock across these neighborhoods varies significantly — from Victorian
             and Craftsman-era construction on the Westside to post-war single-family homes
             on the North Side to working-class 2-families on the South Side. For cash buyers,
-            the Westside has the highest ARV potential; the South Side has the most distressed
+            the Westside has the highest repaired-value potential; the South Side has the most distressed
             inventory. All of it is relevant to a seller trying to move quickly.
           </p>
 

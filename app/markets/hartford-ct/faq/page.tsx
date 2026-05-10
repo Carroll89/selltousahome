@@ -25,7 +25,7 @@ const FAQ_ITEMS = [
   },
   {
     question: 'How much do you pay for Hartford CT houses?',
-    answer: 'Cash offers typically range from 65-78% of fair market value, depending on condition, location, and needed repairs. Hartford metro median listing price is approximately $455,000, though city neighborhoods like Frog Hollow and Barry Square run significantly lower ($180,000-$250,000). West Hartford averages over $400,000. We provide a written offer based on comparable sales and property condition.',
+    answer: 'For average-condition properties, cash offers typically land around 70–80% of fair market value — before factoring in repair costs, property condition, title issues, holding costs, and risk adjustments specific to your home. Hartford metro median listing price is approximately $455,000, though city neighborhoods like Frog Hollow and Barry Square run significantly lower ($180,000-$250,000). West Hartford averages over $400,000. We provide a written offer based on comparable sales and property condition.',
   },
   {
     question: 'Do you really buy houses in any condition?',

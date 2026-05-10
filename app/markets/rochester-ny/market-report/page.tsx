@@ -55,7 +55,7 @@ According to Zillow Research and Redfin data for Rochester NY (March 2026), the 
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Median sale price</td><td className="p-3">$160,000 (+6.0% YoY)</td><td className="p-3 text-gray-500">Redfin city (Mar 2026)</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Price per sq ft</td><td className="p-3">$104</td><td className="p-3 text-gray-500">Redfin city (Mar 2026)</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Median days on market</td><td className="p-3">14 days</td><td className="p-3 text-gray-500">Redfin city (Mar 2026)</td></tr>
-                <tr className="bg-white"><td className="p-3 font-medium">Typical cash offer range</td><td className="p-3">65-78% of FMV</td><td className="p-3 text-gray-500">Local investor norms</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Typical cash offer range</td><td className="p-3">70–80% of FMV before property-specific adjustments</td><td className="p-3 text-gray-500">Local investor norms</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Transfer tax</td><td className="p-3">$4.00 per $1,000 NYS (0.4%, seller pays)</td><td className="p-3 text-gray-500">State revenue authority</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Foreclosure process</td><td className="p-3">Judicial (Monroe County Supreme Court, 12-24 months, RPAPL §1301)</td><td className="p-3 text-gray-500">State statutes</td></tr>
               </tbody>
@@ -101,7 +101,7 @@ According to Zillow Research and Redfin data for Rochester NY (March 2026), the 
             With 14 median days on market, Rochester moves quickly for retail-ready properties — but that assumes no inspection contingencies, financing delays, or repair negotiations. Properties that need work often sit longer or require significant price reductions.
           </p>
           <p className="text-gray-700 mb-4">
-            A direct cash sale to USA Home Buyers closes in 7–14 days with no repairs required. We cover all closing costs including $4.00 per $1,000 NYS (0.4%, seller pays). The trade-off: cash offers typically run 65-78% of fair market value.
+            A direct cash sale to USA Home Buyers closes in 7–14 days with no repairs required. We cover all closing costs including $4.00 per $1,000 NYS (0.4%, seller pays). The trade-off: cash offers typically run 70–80% of fair market value before property-specific adjustments.
           </p>
         </section>
 

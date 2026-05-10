@@ -36,7 +36,7 @@ export default function RockfordILMarketReportPage() {
           <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
             <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
             <p className="text-white text-sm leading-relaxed">
-              According to Zillow Research City ZHVI CSV (2026-03-31), Rockford ZHVI: $177,225 (+9.9% YoY). Per Redfin (March 2026), median sale price: $170,000 (+17.2% YoY). Compete score 90/100. Median sold DOM: 14 days. RDC hotness rank #11. Transfer tax: $0.75/$500, no municipal RETT. Winnebago County foreclosure timeline 14-20 months. Cash offers 70-78% of FMV. USA Home Buyers: 888-274-5006.
+              According to Zillow Research City ZHVI CSV (2026-03-31), Rockford ZHVI: $177,225 (+9.9% YoY). Per Redfin (March 2026), median sale price: $170,000 (+17.2% YoY). Compete score 90/100. Median sold DOM: 14 days. RDC hotness rank #11. Transfer tax: $0.75/$500, no municipal RETT. Winnebago County foreclosure timeline 14-20 months. Cash offers 70–80% of FMV before property-specific adjustments. USA Home Buyers: 888-274-5006.
             </p>
           </div>
         </div>
@@ -137,13 +137,13 @@ export default function RockfordILMarketReportPage() {
                 </tr>
               </thead>
               <tbody className="divide-y divide-gray-200">
-                <tr className="bg-white"><td className="p-3 font-medium">Standard cash offer</td><td className="p-3">70–78% of FMV</td><td className="p-3">Standard IL investor range; Rockford's lower price point makes this accessible</td></tr>
-                <tr className="bg-gray-50"><td className="p-3 font-medium">Distressed / major repairs needed</td><td className="p-3">60–70% of FMV</td><td className="p-3">Common in pre-1970 Rockford stock with deferred maintenance</td></tr>
-                <tr className="bg-white"><td className="p-3 font-medium">Competitive (multiple bidders)</td><td className="p-3">75–82% of FMV</td><td className="p-3">90/100 Redfin score drives competitive cash above typical range</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Average-condition cash offer</td><td className="p-3">70–80% of FMV before property-specific adjustments</td><td className="p-3">Rule of thumb only; every offer depends on the specific home</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Distressed / major repairs needed</td><td className="p-3">Property-specific adjustment</td><td className="p-3">Common in pre-1970 Rockford stock with deferred maintenance</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Competitive (multiple bidders)</td><td className="p-3">Property-specific adjustment</td><td className="p-3">90/100 Redfin score can affect buyer demand, but no fixed range is promised</td></tr>
               </tbody>
             </table>
           </div>
-          <p className="text-gray-700 text-sm mt-2">On the $177,225 ZHVI, a 70-78% range = $100,001-$111,430. On the $170,000 Redfin median, that's $119,000-$132,600. Actual offer depends on condition, neighborhood, and liens.</p>
+          <p className="text-gray-700 text-sm mt-2">For average-condition properties, cash offers typically land around 70–80% of fair market value — before factoring in repair costs, property condition, title issues, holding costs, and risk adjustments specific to your home.</p>
         </section>
 
         <section className="my-8">
