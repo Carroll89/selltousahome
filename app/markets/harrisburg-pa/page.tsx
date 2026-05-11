@@ -308,7 +308,6 @@ export default function HarrisburgMarketPage() {
           </p>
         </section>
 
-        {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
         <VideoEmbed
           src="/videos/harrisburg-pa/landing.mp4"
           title="Sell Your House Fast in Harrisburg, PA"
@@ -322,7 +321,28 @@ export default function HarrisburgMarketPage() {
             📝 Video Transcript
           </summary>
           <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-            <p>If you need to sell a house in Harrisburg, PA, USA Home Buyers can make a no-obligation cash offer. We buy houses as-is, so you do not have to make repairs, clean out the property, or pay agent commissions. Tell us about the house and your timeline. We review the property, answer your questions, and put the offer in writing. If the offer works for you, you choose the closing date. Call 888-274-5006 to get started.</p>
+            <p className="mb-3">
+              If you need to sell a house in Harrisburg, Pennsylvania, we can
+              make you a simple cash offer and buy the property as is — meaning
+              no repairs, no cleanup, and no open houses.
+            </p>
+            <p className="mb-3">
+              This can help if you inherited a house, have tenants you do not
+              want to manage, are behind on payments, have code violations, or
+              just need a clean way to move on.
+            </p>
+            <p className="mb-3">
+              We handle houses across Harrisburg and Dauphin County, including
+              older row homes, rentals, and properties that need work.
+            </p>
+            <p className="mb-3">
+              There are no commissions, no agent showings, and no pressure. If
+              the offer works for you, you choose the closing date.
+            </p>
+            <p className="mb-3">
+              Call eight eight eight, two seven four, five zero zero six, and we
+              will walk you through your options.
+            </p>
           </div>
         </details>
 
