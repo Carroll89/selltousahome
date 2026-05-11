@@ -189,13 +189,13 @@ export default function HarrisburgMarketPage() {
           harrisburgFAQSchema,
           howToSchema,
           videoObjectSchema({
-            name: "Sell Your House Fast in Harrisburg, PA",
-            description:
-              "See how we help homeowners in Harrisburg sell fast for cash",
-            contentUrl:
-              "https://v3b.fal.media/files/b/0a95c0fc/QS_oBfAsYUxtHMdVSx8CT_harrisburg-main.mp4",
-            thumbnailUrl: `${SITE_URL}/images/video-posters/harrisburg-main-poster.jpg`,
-          }),
+          name: 'Sell Your House Fast in Harrisburg, PA',
+          description:
+            'A short overview of how USA Home Buyers helps Harrisburg, PA homeowners sell as-is for cash with no repairs, no agent commissions, and a no-obligation offer.',
+          contentUrl: `${SITE_URL}/videos/harrisburg-pa/landing.mp4`,
+          thumbnailUrl: `${SITE_URL}/videos/harrisburg-pa/landing-poster.jpg`,
+          uploadDate: '2026-05-10',
+        }),
         ]}
       />
 
@@ -310,57 +310,22 @@ export default function HarrisburgMarketPage() {
 
         {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
         <VideoEmbed
-          src="https://v3b.fal.media/files/b/0a95c0fc/QS_oBfAsYUxtHMdVSx8CT_harrisburg-main.mp4"
+          src="/videos/harrisburg-pa/landing.mp4"
           title="Sell Your House Fast in Harrisburg, PA"
-          poster="/images/video-posters/harrisburg-main-poster.jpg"
-          subtitle="See how we help homeowners in Harrisburg sell fast for cash"
+          poster="/videos/harrisburg-pa/landing-poster.jpg"
+          captionsSrc="/videos/harrisburg-pa/landing-captions.vtt"
+          captionsLabel="English captions"
+          subtitle="A short overview for Harrisburg, PA homeowners considering a direct as-is cash sale."
         />
         <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
           <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
             📝 Video Transcript
           </summary>
-          <div className="px4 pb-4 text-sm text-gray-600 leading-relaxed">
-            <p className="mb-3">
-              Hey, if you&apos;re looking to sell your house fast in Harrisburg,
-              PA, we can help. I&apos;m with USA Home Buyers — we buy houses
-              right here in Harrisburg and all of Dauphin County, and we do it
-              fast.
-            </p>
-            <p className="mb-3">
-              Here&apos;s how it works. You call us or fill out our form online.
-              We ask you maybe five or ten questions about the property — the
-              condition, your situation, what kind of timeline you need. Within
-              24 hours, you get a written cash offer. No pressure, no
-              obligation. If you accept, we set a closing date that works for
-              you. We&apos;ve closed in as few as five days in the Harrisburg
-              area.
-            </p>
-            <p className="mb-3">
-              Why go the cash route? The Harrisburg city ZHVI is $263,369
-              (Zillow Research, 2026-03-31), and Redfin city housing-market data
-              shows 24 median days on market in March 2026 — so it&apos;s a fast
-              market. But once you go pending on the MLS, you&apos;re still
-              looking at 45 to 60 more days for inspections, appraisals, and
-              mortgage underwriting. That&apos;s two months of uncertainty. If
-              the financing falls through, you start over.
-            </p>
-            <p className="mb-3">
-              We don&apos;t use financing. We pay cash. There&apos;s no
-              appraisal contingency, no mortgage approval, no deal falling
-              through at the last minute. No repairs, no cleaning, no agent
-              commissions. We cover all closing costs.
-            </p>
-            <p className="mb-3">
-              We serve all of Harrisburg — Camp Hill, Mechanicsburg, Carlisle,
-              Steelton, and surrounding Dauphin County communities. Whatever
-              your situation, we&apos;ve handled it before.
-            </p>
-            <p className="mb-3">
-              Give us a call at 888-274-5006. We&apos;re here to make this as
-              simple as possible.
-            </p>
+          <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+            <p>If you need to sell a house in Harrisburg, PA, USA Home Buyers can make a no-obligation cash offer. We buy houses as-is, so you do not have to make repairs, clean out the property, or pay agent commissions. Tell us about the house and your timeline. We review the property, answer your questions, and put the offer in writing. If the offer works for you, you choose the closing date. Call 888-274-5006 to get started.</p>
           </div>
         </details>
+
 
         {/* How It Works */}
         <HowItWorks heading="How Selling Your Harrisburg House for Cash Works" />

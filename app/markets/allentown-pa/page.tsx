@@ -142,10 +142,10 @@ export default function AllentownMarketPage() {
         videoObjectSchema({
           name: 'Sell Your House Fast in Allentown, PA',
           description:
-            'USA Home Buyers buys houses as-is for cash in Allentown and Lehigh County with written offers in 24 hours, no repairs, and no agent fees.',
-          contentUrl: 'https://v3b.fal.media/files/b/0a95c0f8/zLYouEqILs7_2R7GIM9GB_allentown-main.mp4',
-          thumbnailUrl: `${SITE_URL}/images/video-posters/allentown-main-poster.jpg`,
-          uploadDate: '2026-04-06',
+            'A short overview of how USA Home Buyers helps Allentown, PA homeowners sell as-is for cash with no repairs, no agent commissions, and a no-obligation offer.',
+          contentUrl: `${SITE_URL}/videos/allentown-pa/landing.mp4`,
+          thumbnailUrl: `${SITE_URL}/videos/allentown-pa/landing-poster.jpg`,
+          uploadDate: '2026-05-10',
         }),
       ]} />
 
@@ -214,24 +214,22 @@ export default function AllentownMarketPage() {
 
         {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
         <VideoEmbed
-        src="https://v3b.fal.media/files/b/0a95c0f8/zLYouEqILs7_2R7GIM9GB_allentown-main.mp4"
-        title="Sell Your House Fast in Allentown, PA"
-        poster="/images/video-posters/allentown-main-poster.jpg"
-        subtitle="See how we help homeowners in Allentown sell fast for cash — no repairs, no fees"
+          src="/videos/allentown-pa/landing.mp4"
+          title="Sell Your House Fast in Allentown, PA"
+          poster="/videos/allentown-pa/landing-poster.jpg"
+          captionsSrc="/videos/allentown-pa/landing-captions.vtt"
+          captionsLabel="English captions"
+          subtitle="A short overview for Allentown, PA homeowners considering a direct as-is cash sale."
         />
         <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
-        <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
-        📝 Video Transcript
-        </summary>
-        <div className="px4 pb-4 text-sm text-gray-600 leading-relaxed">
-        <p className="mb-3">Hey, if you need to sell your house fast in Allentown, PA, I want to tell you exactly how we work. I&apos;m with USA Home Buyers. We buy houses in Allentown and all of Lehigh County and Northampton County for cash, as-is, with no repairs and no agent fees.</p>
-        <p className="mb-3">Here&apos;s the Allentown market right now in 2026. Zillow Research city ZHVI is $309,699 as of 2026-03-31, with Redfin March 2026 city median sale prices at $255,000 and 15 median days on market — it&apos;s an active market. But after you go pending, you&apos;re still 45 to 60 days from closing. That&apos;s two to three months from listing to keys changing hands.</p>
-        <p className="mb-3">We short-circuit all of that. You contact us, we ask a few questions about your property and situation, and within 24 hours you have a written cash offer. If you accept, you choose the closing date. Our fastest close in the Lehigh Valley was six days.</p>
-        <p className="mb-3">No repairs. No cleaning. No staging. No open houses. No agent commissions eating 5 to 6 percent of your sale price. We cover all closing costs.</p>
-        <p className="mb-3">We serve all of Allentown — the South Side, West End, Fountain Hill, Whitehall, Bethlehem, Easton, Northampton Borough, Emmaus, Catasauqua, and every corner of Lehigh and Northampton County. Whatever your situation — estate, divorce, foreclosure, bad condition, problem tenant — we&apos;ve handled it before.</p>
-        <p className="mb-3">Call 888-274-5006 to get your offer started. We&apos;re ready today.</p>
-        </div>
+          <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+            📝 Video Transcript
+          </summary>
+          <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+            <p>If you need to sell a house in Allentown, PA, USA Home Buyers can make a no-obligation cash offer. We buy houses as-is, so you do not have to make repairs, clean out the property, or pay agent commissions. Tell us about the house and your timeline. We review the property, answer your questions, and put the offer in writing. If the offer works for you, you choose the closing date. Call 888-274-5006 to get started.</p>
+          </div>
         </details>
+
 
 
 

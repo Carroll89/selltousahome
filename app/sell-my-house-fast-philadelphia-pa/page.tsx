@@ -39,7 +39,8 @@ import { BlogClusterLinks } from '@/components/BlogClusterLinks';
 import { HowItWorks } from '@/components/HowItWorks';
 import { FAQSection } from '@/components/FAQSection';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
-import { philadelphiaPALocalBusinessSchema, faqSchema } from '@/lib/schema';
+import { VideoEmbed } from '@/components/VideoEmbed';
+import { philadelphiaPALocalBusinessSchema, faqSchema, videoObjectSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
 
 export const revalidate = 86400;
@@ -112,7 +113,14 @@ const breadcrumbSchema = {
 export default function PhiladelphiaPAPage() {
   return (
     <>
-      <SchemaMarkup schema={[localBusinessSchema, faqSchema(FAQ_ITEMS), breadcrumbSchema]} />
+      <SchemaMarkup schema={[localBusinessSchema, faqSchema(FAQ_ITEMS), breadcrumbSchema, videoObjectSchema({
+          name: 'Sell Your House Fast in Philadelphia, PA',
+          description:
+            'A short overview of how USA Home Buyers helps Philadelphia, PA homeowners sell as-is for cash with no repairs, no agent commissions, and a no-obligation offer.',
+          contentUrl: `${SITE_URL}/videos/philadelphia-pa/landing.mp4`,
+          thumbnailUrl: `${SITE_URL}/videos/philadelphia-pa/landing-poster.jpg`,
+          uploadDate: '2026-05-10',
+        })]} />
 
       {/* Hero Section */}
       <section className="relative text-white py-8 md:py-16 px-4 overflow-hidden bg-brand-dark">
@@ -173,6 +181,23 @@ export default function PhiladelphiaPAPage() {
       </section>
 
       <div className="max-w-7xl mx-auto px-4 py-8">
+        <VideoEmbed
+          src="/videos/philadelphia-pa/landing.mp4"
+          title="Sell Your House Fast in Philadelphia, PA"
+          poster="/videos/philadelphia-pa/landing-poster.jpg"
+          captionsSrc="/videos/philadelphia-pa/landing-captions.vtt"
+          captionsLabel="English captions"
+          subtitle="A short overview for Philadelphia, PA homeowners considering a direct as-is cash sale."
+        />
+        <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+          <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+            📝 Video Transcript
+          </summary>
+          <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+            <p>If you need to sell a house in Philadelphia, PA, USA Home Buyers can make a no-obligation cash offer. We buy houses as-is, so you do not have to make repairs, clean out the property, or pay agent commissions. Tell us about the house and your timeline. We review the property, answer your questions, and put the offer in writing. If the offer works for you, you choose the closing date. Call 888-274-5006 to get started.</p>
+          </div>
+        </details>
+
         <HowItWorks />
 
         {/* Market Context */}

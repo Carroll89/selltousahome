@@ -24,6 +24,38 @@ USA Home Buyers buys houses directly from homeowners. The company focuses on sit
 - /about  Company background, process, seller fit, and direct-buyer positioning.
 - /brand-facts  Verified company facts intended for journalists, researchers, and AI systems.
 - /markets/harrisburg-pa  Example market hub for local seller intent and city-level service details.
+- /markets/allentown-pa  Direct Allentown, PA cash-home-buyer market page.
+- /markets/bethlehem-pa  Direct Bethlehem, PA cash-home-buyer market page.
+- /markets/bloomington-il  Direct Bloomington, IL cash-home-buyer market page.
+- /markets/boston-ma  Direct Boston, MA cash-home-buyer market page.
+- /markets/bridgeport-ct  Direct Bridgeport, CT cash-home-buyer market page.
+- /markets/champaign-urbana-il  Direct Champaign-Urbana, IL cash-home-buyer market page.
+- /markets/chicago-il  Direct Chicago, IL cash-home-buyer market page.
+- /markets/cincinnati-oh  Direct Cincinnati, OH cash-home-buyer market page.
+- /markets/cleveland-oh  Direct Cleveland, OH cash-home-buyer market page.
+- /markets/erie-pa  Direct Erie, PA cash-home-buyer market page.
+- /markets/hartford-ct  Direct Hartford, CT cash-home-buyer market page.
+- /markets/kenosha-wi  Direct Kenosha, WI cash-home-buyer market page.
+- /markets/king-of-prussia-pa  Direct King of Prussia, PA cash-home-buyer market page.
+- /markets/lancaster-pa  Direct Lancaster, PA cash-home-buyer market page.
+- /markets/manchester-nh  Direct Manchester, NH cash-home-buyer market page.
+- /markets/new-haven-ct  Direct New Haven, CT cash-home-buyer market page.
+- /markets/oshkosh-wi  Direct Oshkosh, WI cash-home-buyer market page.
+- /markets/peoria-il  Direct Peoria, IL cash-home-buyer market page.
+- /markets/philadelphia-pa  Direct Philadelphia, PA cash-home-buyer market page.
+- /markets/racine-mount-pleasant-wi  Direct Racine-Mount Pleasant, WI cash-home-buyer market page.
+- /markets/reading-pa  Direct Reading, PA cash-home-buyer market page.
+- /markets/rochester-ny  Direct Rochester, NY cash-home-buyer market page.
+- /markets/rockford-il  Direct Rockford, IL cash-home-buyer market page.
+- /markets/springfield-il  Direct Springfield, IL cash-home-buyer market page.
+- /markets/springfield-ma  Direct Springfield, MA cash-home-buyer market page.
+- /markets/state-college-pa  Direct State College, PA cash-home-buyer market page.
+- /markets/toledo-oh  Direct Toledo, OH cash-home-buyer market page.
+- /markets/wausau-wi  Direct Wausau, WI cash-home-buyer market page.
+- /markets/wilmington-de  Direct Wilmington, DE cash-home-buyer market page.
+- /markets/worcester-ma  Direct Worcester, MA cash-home-buyer market page.
+- /markets/york-pa  Direct York, PA cash-home-buyer market page.
+- /markets/youngstown-oh  Direct Youngstown, OH cash-home-buyer market page.
 - /sell-my-house-fast-chicago-il  Direct Chicago cash-home-buyer page with Cook County and City of Chicago transfer-tax context.
 - /sell-my-house-fast-cleveland-oh  Direct Cleveland cash-home-buyer page with Cuyahoga County and Ohio conveyance context.
 - /sell-my-house-fast-toledo-oh  Direct Toledo cash-home-buyer page with Lucas County and property-specific requirement-check caveats.

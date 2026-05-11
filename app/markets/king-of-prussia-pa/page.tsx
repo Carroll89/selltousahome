@@ -242,12 +242,13 @@ export default function KingOfPrussiaMarketPage() {
           kopFAQSchema,
           howToSchema,
           videoObjectSchema({
-            name: "Sell Your House Fast in King of Prussia, PA",
-            description: "Cash offer in 24 hours — no repairs, no agent fees",
-            contentUrl:
-              "https://v3b.fal.media/files/b/0a95decf/74Ql1wWuwS01CHQNHWto7_tmp_92t1iuy.mp4",
-            thumbnailUrl: `${SITE_URL}/images/video-posters/kop-main.jpg`,
-          }),
+          name: 'Sell Your House Fast in King of Prussia, PA',
+          description:
+            'A short overview of how USA Home Buyers helps King of Prussia, PA homeowners sell as-is for cash with no repairs, no agent commissions, and a no-obligation offer.',
+          contentUrl: `${SITE_URL}/videos/king-of-prussia-pa/landing.mp4`,
+          thumbnailUrl: `${SITE_URL}/videos/king-of-prussia-pa/landing-poster.jpg`,
+          uploadDate: '2026-05-10',
+        }),
         ]}
       />
 
@@ -368,50 +369,22 @@ export default function KingOfPrussiaMarketPage() {
 
         {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
         <VideoEmbed
-          src="https://v3b.fal.media/files/b/0a95decf/74Ql1wWuwS01CHQNHWto7_tmp_92t1iuy.mp4"
+          src="/videos/king-of-prussia-pa/landing.mp4"
           title="Sell Your House Fast in King of Prussia, PA"
-          poster="/images/video-posters/kop-main.jpg"
-          subtitle="Cash offer in 24 hours — no repairs, no agent fees"
+          poster="/videos/king-of-prussia-pa/landing-poster.jpg"
+          captionsSrc="/videos/king-of-prussia-pa/landing-captions.vtt"
+          captionsLabel="English captions"
+          subtitle="A short overview for King of Prussia, PA homeowners considering a direct as-is cash sale."
         />
         <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
           <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
             📝 Video Transcript
           </summary>
           <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-            <p className="mb-3">
-              If you&apos;re looking to sell your house fast in King of Prussia,
-              PA, here&apos;s how we work. I&apos;m with USA Home Buyers. We buy
-              homes in King of Prussia and throughout Montgomery County for
-              cash, as-is, in any condition.
-            </p>
-            <p className="mb-3">
-              Here&apos;s the 2026 market reality in King of Prussia. Zillow
-              puts the median home value at $498,174. Redfin&apos;s median sale
-              price is $540,620. King of Prussia has a Redfin Compete Score of
-              80 out of 100. But the median home takes 25 days to go pending,
-              then another 45 to 60 days to close. You&apos;re looking at
-              approximately two to three months from listing to cash in hand.
-            </p>
-            <p className="mb-3">
-              We close in 7 to 14 days. Written offer within 24 hours of your
-              call. No repairs, no cleaning, no agent commissions. We cover all
-              closing costs.
-            </p>
-            <p className="mb-3">
-              We serve all of Upper Merion Township and Montgomery County:
-              Norristown, Conshohocken, Plymouth Meeting, Wayne, Collegeville,
-              Valley Forge, Bryn Mawr, Bridgeport, and surrounding communities.
-              Whether you&apos;re relocating, dealing with an inherited
-              property, or facing a time-sensitive situation — we&apos;re the
-              call to make.
-            </p>
-            <p className="mb-3">
-              Call USA Home Buyers at 888-274-5006. We&apos;ll ask a few
-              questions, make a fair written offer within 24 hours, and close on
-              your schedule.
-            </p>
+            <p>If you need to sell a house in King of Prussia, PA, USA Home Buyers can make a no-obligation cash offer. We buy houses as-is, so you do not have to make repairs, clean out the property, or pay agent commissions. Tell us about the house and your timeline. We review the property, answer your questions, and put the offer in writing. If the offer works for you, you choose the closing date. Call 888-274-5006 to get started.</p>
           </div>
         </details>
+
 
         {/* How It Works */}
         <HowItWorks heading="How Selling Your King of Prussia Home for Cash Works" />

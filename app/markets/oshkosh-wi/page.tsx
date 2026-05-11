@@ -8,7 +8,8 @@ import { TestimonialBlock } from '@/components/TestimonialBlock';
 import { ComparisonTable } from '@/components/ComparisonTable';
 import { SituationLinks } from '@/components/SituationLinks';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
-import { faqSchema } from '@/lib/schema';
+import { VideoEmbed } from '@/components/VideoEmbed';
+import { faqSchema, videoObjectSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
 import { BlogClusterLinks } from '@/components/BlogClusterLinks';
 import { MultiStepForm } from '@/components/MultiStepForm';
@@ -181,7 +182,14 @@ export default function OshkoshWIMarketPage() {
 
   return (
     <>
-      <SchemaMarkup schema={[oshkoshWILocalBusinessSchema, faqSchema(FAQ_ITEMS), howToSchema]} />
+      <SchemaMarkup schema={[oshkoshWILocalBusinessSchema, faqSchema(FAQ_ITEMS), howToSchema, videoObjectSchema({
+          name: 'Sell My House Fast Oshkosh WI — USA Home Buyers',
+          description:
+            'A short overview of how USA Home Buyers helps Oshkosh, WI homeowners sell as-is for cash with no repairs, no agent commissions, and a no-obligation offer.',
+          contentUrl: `${SITE_URL}/videos/oshkosh-wi/landing.mp4`,
+          thumbnailUrl: `${SITE_URL}/videos/oshkosh-wi/landing-poster.jpg`,
+          uploadDate: '2026-05-10',
+        })]} />
 
       <section className="relative text-white py-16 px-4 overflow-hidden">
         <picture className="absolute inset-0 w-full h-full">
@@ -247,6 +255,23 @@ export default function OshkoshWIMarketPage() {
 
 
       <div className="max-w-7xl mx-auto px-4 py-8">
+        <VideoEmbed
+          src="/videos/oshkosh-wi/landing.mp4"
+          title="Sell My House Fast Oshkosh WI — USA Home Buyers"
+          poster="/videos/oshkosh-wi/landing-poster.jpg"
+          captionsSrc="/videos/oshkosh-wi/landing-captions.vtt"
+          captionsLabel="English captions"
+          subtitle="A short overview for Oshkosh, WI homeowners considering a direct as-is cash sale."
+        />
+        <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+          <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+            📝 Video Transcript
+          </summary>
+          <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+            <p>If you need to sell a house in Oshkosh, WI, USA Home Buyers can make a no-obligation cash offer. We buy houses as-is, so you do not have to make repairs, clean out the property, or pay agent commissions. Tell us about the house and your timeline. We review the property, answer your questions, and put the offer in writing. If the offer works for you, you choose the closing date. Call 888-274-5006 to get started.</p>
+          </div>
+        </details>
+
         <HowItWorks />
 
         <section className="my-12">
