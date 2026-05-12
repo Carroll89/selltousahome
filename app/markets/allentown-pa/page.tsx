@@ -145,7 +145,7 @@ export default function AllentownMarketPage() {
             'A short overview of how USA Home Buyers helps Allentown, PA homeowners sell as-is for cash with no repairs, no agent commissions, and a no-obligation offer.',
           contentUrl: `${SITE_URL}/videos/allentown-pa/landing.mp4`,
           thumbnailUrl: `${SITE_URL}/videos/allentown-pa/landing-poster.jpg`,
-          uploadDate: '2026-05-10',
+          uploadDate: '2026-05-12',
         }),
       ]} />
 
@@ -225,8 +225,12 @@ export default function AllentownMarketPage() {
           <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
             📝 Video Transcript
           </summary>
-          <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-            <p>If you need to sell a house in Allentown, PA, USA Home Buyers can make a no-obligation cash offer. We buy houses as-is, so you do not have to make repairs, clean out the property, or pay agent commissions. Tell us about the house and your timeline. We review the property, answer your questions, and put the offer in writing. If the offer works for you, you choose the closing date. Call 888-274-5006 to get started.</p>
+          <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed space-y-3">
+            <p>If you need to sell a house in Allentown, Pennsylvania, we can make you a simple cash offer and buy the property as is — meaning no repairs, no cleanup, and no open houses.</p>
+            <p>This can help if you inherited a house, have tenants you do not want to manage, are behind on payments, have code violations, or just need a clean way to move on.</p>
+            <p>We handle houses across Allentown and the Lehigh Valley, including rowhomes and twins, older single-family homes and capes, and modest borough and suburban homes that need work.</p>
+            <p>There are no commissions, no agent showings, and no pressure. If the offer works for you, you choose the closing date.</p>
+            <p>Call eight eight eight, two seven four, five zero zero six, and we will walk you through your options.</p>
           </div>
         </details>
 

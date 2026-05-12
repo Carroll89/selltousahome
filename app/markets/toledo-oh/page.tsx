@@ -22,7 +22,8 @@ import { CashOfferForm } from '@/components/CashOfferForm';
 import { HowItWorks } from '@/components/HowItWorks';
 import { FAQSection } from '@/components/FAQSection';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
-import { toledoOHLocalBusinessSchema, faqSchema } from '@/lib/schema';
+import { VideoEmbed } from '@/components/VideoEmbed';
+import { toledoOHLocalBusinessSchema, faqSchema, videoObjectSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
 
 export const revalidate = 86400;
@@ -93,7 +94,19 @@ const breadcrumbSchema = {
 export default function ToledoOHPage() {
   return (
     <>
-      <SchemaMarkup schema={[localBusinessSchema, faqSchema(FAQ_ITEMS), breadcrumbSchema]} />
+      <SchemaMarkup schema={[
+        localBusinessSchema,
+        faqSchema(FAQ_ITEMS),
+        breadcrumbSchema,
+        videoObjectSchema({
+          name: 'Sell Your House Fast in Toledo, OH',
+          description:
+            'USA Home Buyers explains how Toledo, OH homeowners can sell as-is for cash with no repairs, no cleanup, and no open houses.',
+          contentUrl: `${SITE_URL}/videos/toledo-oh/landing.mp4`,
+          thumbnailUrl: `${SITE_URL}/videos/toledo-oh/landing-poster.jpg`,
+          uploadDate: '2026-05-12',
+        }),
+      ]} />
 
       {/* Hero Section */}
       <section className="relative text-white py-8 md:py-16 px-4 overflow-hidden bg-brand-dark">
@@ -152,6 +165,28 @@ export default function ToledoOHPage() {
       </section>
 
       <div className="max-w-7xl mx-auto px-4 py-8">
+
+        <VideoEmbed
+          src="/videos/toledo-oh/landing.mp4"
+          title="Sell Your House Fast in Toledo, OH"
+          poster="/videos/toledo-oh/landing-poster.jpg"
+          captionsSrc="/videos/toledo-oh/landing-captions.vtt"
+          captionsLabel="English captions"
+          subtitle="A short overview for Toledo, OH homeowners considering a direct as-is cash sale."
+        />
+        <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+          <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+            📝 Video Transcript
+          </summary>
+          <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed space-y-3">
+            <p>If you need to sell a house in Toledo, Ohio, we can make you a simple cash offer and buy the property as is — meaning no repairs, no cleanup, and no open houses.</p>
+            <p>This can help if you inherited a house, have tenants you do not want to manage, are behind on payments, have code violations, or just need a clean way to move on.</p>
+            <p>We handle houses across Toledo and Lucas County, including older brick single-family homes, bungalows and capes, and duplexes and two-unit properties that need work.</p>
+            <p>There are no commissions, no agent showings, and no pressure. If the offer works for you, you choose the closing date.</p>
+            <p>Call eight eight eight, two seven four, five zero zero six, and we will walk you through your options.</p>
+          </div>
+        </details>
+
         <HowItWorks />
 
         {/* Market Context */}
