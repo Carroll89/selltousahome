@@ -139,7 +139,7 @@ export default function WorcesterMAMarketPage() {
 
   return (
     <>
-      <SchemaMarkup schema={[worcesterLocalBusinessSchema, faqSchema(FAQ_ITEMS), howToSchema, videoObjectSchema({ name: 'Sell My House Fast Worcester MA — USA Home Buyers', description: 'Cash offers for Worcester and Worcester County homes — any condition', contentUrl: `${SITE_URL}/videos/worcester-ma/landing.mp4`, thumbnailUrl: `${SITE_URL}/images/video-posters/worcester-ma-main-poster.jpg`, uploadDate: '2026-04-28' })]} />
+      <SchemaMarkup schema={[worcesterLocalBusinessSchema, faqSchema(FAQ_ITEMS), howToSchema, videoObjectSchema({ name: 'Sell My House Fast Worcester MA — USA Home Buyers', description: 'Cash offers for Worcester and Worcester County homes — any condition', contentUrl: `${SITE_URL}/videos/worcester-ma/landing.mp4`, thumbnailUrl: `${SITE_URL}/videos/worcester-ma/landing-poster.jpg`, uploadDate: '2026-05-12' })]} />
 
       <section className="relative text-white py-16 px-4 overflow-hidden">
         <picture className="absolute inset-0 w-full h-full">
@@ -187,19 +187,25 @@ export default function WorcesterMAMarketPage() {
         </div>
       </section>
 
-        {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
+        {/* VIDEO_CAPTION_EXCEPTION: AUDIO-SYNC-PENDING accepted caveat — package QA passed 2026-05-12; waveform/manual timing review still pending. */}
       <VideoEmbed
         src="/videos/worcester-ma/landing.mp4"
         title="Sell My House Fast Worcester MA — USA Home Buyers"
         subtitle="Cash offers for Worcester and Worcester County homes — any condition"
-        poster="/images/video-posters/worcester-ma-main-poster.jpg"
+        poster="/videos/worcester-ma/landing-poster.jpg"
+        captionsSrc="/videos/worcester-ma/landing-captions.vtt"
+        captionsLabel="English captions"
         />
         <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
         <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
         📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-        If you need to sell your house fast in Worcester, Massachusetts — you've found the right team. We're USA Home Buyers, and we purchase houses as-is, for cash, throughout Worcester County. Whether your home needs repairs, you're behind on payments, going through a divorce, or you've inherited a property you don't know what to do with — we make the process simple. No agents. No fees. No repairs needed. We buy Worcester homes in any condition — from Main South and Great Brook Valley to Vernon Hill and beyond. Written cash offer within 24 hours. Close in as few as seven days on your schedule. Call us now at 888-274-5006. That's 888-274-5006.
+        <p className="mb-3">If you need to sell a house in Worcester, Massachusetts, we can make you a simple cash offer and buy the property as is — meaning no repairs, no cleanup, and no open houses.</p>
+            <p className="mb-3">This can help if you inherited a house, have tenants you do not want to manage, are behind on payments, have code violations, or just need a clean way to move on.</p>
+            <p className="mb-3">We handle houses across Worcester and central Massachusetts, including triple-deckers, colonials, and older single-family homes that need work.</p>
+            <p className="mb-3">There are no commissions, no agent showings, and no pressure. If the offer works for you, you choose the closing date.</p>
+            <p className="mb-3">Call eight eight eight, two seven four, five zero zero six, and we will walk you through your options.</p>
         </div>
         </details>
 

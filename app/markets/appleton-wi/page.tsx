@@ -120,8 +120,8 @@ export default function AppletonWIMarketPage() {
             name: 'Sell My House Fast Appleton WI — USA Home Buyers',
             description: 'Cash offers for Appleton and Fox Cities homes — any condition',
             contentUrl: `${SITE_URL}/videos/appleton-wi/landing.mp4`,
-            thumbnailUrl: `${SITE_URL}/images/video-posters/appleton-wi-main-poster.jpg`,
-            uploadDate: '2026-05-02',
+            thumbnailUrl: `${SITE_URL}/videos/appleton-wi/landing-poster.jpg`,
+            uploadDate: '2026-05-12',
           }),
         ]}
       />
@@ -174,11 +174,11 @@ export default function AppletonWIMarketPage() {
 
       <div className="max-w-7xl mx-auto px-4 py-8">
 
-        {/* VIDEO_CAPTION_EXCEPTION: estimated captions pending human timing review — date:2026-05-02 approver:Dan; Adam voice ID Ib97zM6uFBc71OWgj75I verified by Lens */}
+        {/* VIDEO_CAPTION_EXCEPTION: AUDIO-SYNC-PENDING accepted caveat — package QA passed 2026-05-12; waveform/manual timing review still pending. */}
         <VideoEmbed
           src="/videos/appleton-wi/landing.mp4"
           title="Sell My House Fast Appleton WI — USA Home Buyers"
-          poster="/images/video-posters/appleton-wi-main-poster.jpg"
+          poster="/videos/appleton-wi/landing-poster.jpg"
           captionsSrc="/videos/appleton-wi/landing-captions.vtt"
           captionsLabel="English captions"
           subtitle="A short overview for Appleton WI homeowners considering a direct as-is cash sale."
@@ -188,10 +188,11 @@ export default function AppletonWIMarketPage() {
             📝 Video Transcript
           </summary>
           <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-            <p className="mb-3">If you need to sell your house fast in Appleton, Wisconsin, USA Home Buyers can give you a simpler path than listing, repairing, and waiting. We buy houses as-is across Appleton and the Fox Cities area, including Downtown Appleton, Old Third Ward, Erb Park, City Park, and nearby Outagamie County neighborhoods.</p>
-            <p className="mb-3">Your house may need repairs, be part of an estate, have tenants, sit vacant, or just feel like one more project you do not want to manage. You do not have to update older systems, clean out every room, or make the property perfect before reaching out.</p>
-            <p className="mb-3">Here is the process. You tell us about the house and what you need. We review the property, answer your questions, and give you a written cash offer. If the offer works, you choose the closing date. If you need more time, we can work around your timeline.</p>
-            <p className="mb-3">There are no agent commissions, no required repairs, and no obligation. We explain the offer clearly so you know what happens next and what you can expect at closing. If you want a practical cash-sale option for an Appleton-area home, call USA Home Buyers at 888-274-5006. We will walk you through the next step and help you decide if selling as-is makes sense.</p>
+            <p className="mb-3">If you need to sell a house in Appleton, Wisconsin, we can make you a simple cash offer and buy the property as is — meaning no repairs, no cleanup, and no open houses.</p>
+            <p className="mb-3">This can help if you inherited a house, have tenants you do not want to manage, are behind on payments, have code violations, or just need a clean way to move on.</p>
+            <p className="mb-3">We handle houses across Appleton and the Fox Cities, including older single-family homes, small ranches, and properties that need work.</p>
+            <p className="mb-3">There are no commissions, no agent showings, and no pressure. If the offer works for you, you choose the closing date.</p>
+            <p className="mb-3">Call eight eight eight, two seven four, five zero zero six, and we will walk you through your options.</p>
           </div>
         </details>
 

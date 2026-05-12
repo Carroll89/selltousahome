@@ -120,8 +120,8 @@ export default function AkronOHMarketPage() {
             name: 'Sell My House Fast Akron OH — USA Home Buyers',
             description: 'Cash offers for Akron and Summit County homes — any condition',
             contentUrl: `${SITE_URL}/videos/akron-oh/landing.mp4`,
-            thumbnailUrl: `${SITE_URL}/images/video-posters/akron-oh-main-poster.jpg`,
-            uploadDate: '2026-05-02',
+            thumbnailUrl: `${SITE_URL}/videos/akron-oh/landing-poster.jpg`,
+            uploadDate: '2026-05-12',
           }),
         ]}
       />
@@ -174,11 +174,11 @@ export default function AkronOHMarketPage() {
 
       <div className="max-w-7xl mx-auto px-4 py-8">
 
-        {/* VIDEO_CAPTION_EXCEPTION: estimated captions pending human timing review — date:2026-05-02 approver:Dan; Adam voice ID Ib97zM6uFBc71OWgj75I verified by Lens */}
+        {/* VIDEO_CAPTION_EXCEPTION: AUDIO-SYNC-PENDING accepted caveat — package QA passed 2026-05-12; waveform/manual timing review still pending. */}
         <VideoEmbed
           src="/videos/akron-oh/landing.mp4"
           title="Sell My House Fast Akron OH — USA Home Buyers"
-          poster="/images/video-posters/akron-oh-main-poster.jpg"
+          poster="/videos/akron-oh/landing-poster.jpg"
           captionsSrc="/videos/akron-oh/landing-captions.vtt"
           captionsLabel="English captions"
           subtitle="A short overview for Akron OH homeowners considering a direct as-is cash sale."
@@ -188,10 +188,11 @@ export default function AkronOHMarketPage() {
             📝 Video Transcript
           </summary>
           <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-            <p className="mb-3">If you need to sell your house fast in Akron, Ohio, USA Home Buyers gives you a direct cash-sale option without repairs, showings, or agent commissions. We buy Akron-area homes as-is throughout Summit County, including East Akron, Kenmore, Goodyear Heights, Highland Square, Firestone Park, and Northwest Akron.</p>
-            <p className="mb-3">Maybe the property is older, inherited, vacant, tenant-occupied, behind on payments, or simply needs more repairs than you want to take on. A traditional buyer may want inspections, lender approval, and repairs before closing. We focus on making the sale clear and predictable.</p>
-            <p className="mb-3">The process starts when you tell us about the house and what kind of timeline would help. We review the property, answer your questions, and make a written cash offer. If the offer works, you choose the closing date. You do not have to clean it out or make it market-ready first.</p>
-            <p className="mb-3">There is no obligation and no pressure. We buy in the current condition and explain the offer so you understand the timing, costs, and next steps. If you want a straightforward cash offer for an Akron or Summit County home, call USA Home Buyers at 888-274-5006. We will help you decide if an as-is sale is the right move.</p>
+            <p className="mb-3">If you need to sell a house in Akron, Ohio, we can make you a simple cash offer and buy the property as is — meaning no repairs, no cleanup, and no open houses.</p>
+            <p className="mb-3">This can help if you inherited a house, have tenants you do not want to manage, are behind on payments, have code violations, or just need a clean way to move on.</p>
+            <p className="mb-3">We handle houses across Akron and Summit County, including older single-family homes, bungalows, and properties that need work.</p>
+            <p className="mb-3">There are no commissions, no agent showings, and no pressure. If the offer works for you, you choose the closing date.</p>
+            <p className="mb-3">Call eight eight eight, two seven four, five zero zero six, and we will walk you through your options.</p>
           </div>
         </details>
 

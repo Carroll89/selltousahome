@@ -198,8 +198,8 @@ export default function ReadingMarketPage() {
             description:
               "USA Home Buyers explains how to sell your house fast in Reading, PA for cash — no repairs, no agent fees, covering Reading&apos;s 5% transfer tax.",
             contentUrl: `${SITE_URL}/videos/reading-pa/landing.mp4`,
-            thumbnailUrl: `${SITE_URL}/videos/reading-pa-main-poster.jpg`,
-            uploadDate: "2026-04-12",
+            thumbnailUrl: `${SITE_URL}/videos/reading-pa/landing-poster.jpg`,
+            uploadDate: "2026-05-12",
           }),
         ]}
       />
@@ -315,11 +315,13 @@ export default function ReadingMarketPage() {
           </p>
         </section>
 
-        {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
+        {/* VIDEO_CAPTION_EXCEPTION: AUDIO-SYNC-PENDING accepted caveat — package QA passed 2026-05-12; waveform/manual timing review still pending. */}
         <VideoEmbed
           src="/videos/reading-pa/landing.mp4"
           title="Sell Your House Fast in Reading, PA"
-          poster="/videos/reading-pa-main-poster.jpg"
+          poster="/videos/reading-pa/landing-poster.jpg"
+          captionsSrc="/videos/reading-pa/landing-captions.vtt"
+          captionsLabel="English captions"
           subtitle="See how we help homeowners in Reading sell fast for cash"
         />
         <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
@@ -327,20 +329,11 @@ export default function ReadingMarketPage() {
             📝 Video Transcript
           </summary>
           <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-            <p className="mb-3">
-              Looking to sell your house fast in Reading, Pennsylvania?
-              We&apos;re USA Home Buyers, local cash buyers serving Reading and
-              all of Berks County. We buy houses as-is, in any condition. No
-              repairs, no agent fees, and we can close in as little as seven
-              days.
-            </p>
-            <p className="mb-3">
-              Here&apos;s something most sellers don&apos;t realize: Reading has
-              one of the highest transfer taxes in Pennsylvania at five percent.
-              That&apos;s over nine thousand dollars on a typical home sale.
-              When you sell to us, we help you avoid those hidden costs.
-            </p>
-            <p>Call us today for a free cash offer. Hablamos español.</p>
+            <p className="mb-3">If you need to sell a house in Reading, Pennsylvania, we can make you a simple cash offer and buy the property as is — meaning no repairs, no cleanup, and no open houses.</p>
+            <p className="mb-3">This can help if you inherited a house, have tenants you do not want to manage, are behind on payments, have code violations, or just need a clean way to move on.</p>
+            <p className="mb-3">We handle houses across Reading and Berks County, including older row homes, brick attached homes, and properties that need work.</p>
+            <p className="mb-3">There are no commissions, no agent showings, and no pressure. If the offer works for you, you choose the closing date.</p>
+            <p className="mb-3">Call eight eight eight, two seven four, five zero zero six, and we will walk you through your options.</p>
           </div>
         </details>
 

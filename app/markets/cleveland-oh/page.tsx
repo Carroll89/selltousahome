@@ -23,8 +23,9 @@ import { CashOfferForm } from '@/components/CashOfferForm';
 import { BlogClusterLinks } from '@/components/BlogClusterLinks';
 import { HowItWorks } from '@/components/HowItWorks';
 import { FAQSection } from '@/components/FAQSection';
+import { VideoEmbed } from '@/components/VideoEmbed';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
-import { clevelandOHLocalBusinessSchema, faqSchema } from '@/lib/schema';
+import { clevelandOHLocalBusinessSchema, faqSchema, videoObjectSchema } from '@/lib/schema';
 import { SITE_URL } from '@/lib/utils';
 
 export const revalidate = 86400;
@@ -95,7 +96,20 @@ const breadcrumbSchema = {
 export default function ClevelandOHPage() {
   return (
     <>
-      <SchemaMarkup schema={[localBusinessSchema, faqSchema(FAQ_ITEMS), breadcrumbSchema]} />
+      <SchemaMarkup
+        schema={[
+          localBusinessSchema,
+          faqSchema(FAQ_ITEMS),
+          breadcrumbSchema,
+          videoObjectSchema({
+            name: 'Sell My House Fast Cleveland OH — USA Home Buyers',
+            description: 'Cash offers for Cleveland and Cuyahoga County homes — any condition',
+            contentUrl: `${SITE_URL}/videos/cleveland-oh/landing.mp4`,
+            thumbnailUrl: `${SITE_URL}/videos/cleveland-oh/landing-poster.jpg`,
+            uploadDate: '2026-05-12',
+          }),
+        ]}
+      />
 
       {/* Hero Section */}
       <section className="relative text-white py-8 md:py-16 px-4 overflow-hidden bg-brand-dark">
@@ -155,6 +169,28 @@ export default function ClevelandOHPage() {
 
       <div className="max-w-7xl mx-auto px-4 py-8">
         <HowItWorks />
+
+        {/* VIDEO_CAPTION_EXCEPTION: AUDIO-SYNC-PENDING accepted caveat — package QA passed 2026-05-12; waveform/manual timing review still pending. */}
+        <VideoEmbed
+          src="/videos/cleveland-oh/landing.mp4"
+          title="Sell My House Fast Cleveland OH — USA Home Buyers"
+          poster="/videos/cleveland-oh/landing-poster.jpg"
+          captionsSrc="/videos/cleveland-oh/landing-captions.vtt"
+          captionsLabel="English captions"
+          subtitle="A short overview for Cleveland OH homeowners considering a direct as-is cash sale."
+        />
+        <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+          <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+            📝 Video Transcript
+          </summary>
+          <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+            <p className="mb-3">If you need to sell a house in Cleveland, Ohio, we can make you a simple cash offer and buy the property as is — meaning no repairs, no cleanup, and no open houses.</p>
+            <p className="mb-3">This can help if you inherited a house, have tenants you do not want to manage, are behind on payments, have code violations, or just need a clean way to move on.</p>
+            <p className="mb-3">We handle houses across Cleveland and Cuyahoga County, including older brick and frame homes, bungalows, and properties that need work.</p>
+            <p className="mb-3">There are no commissions, no agent showings, and no pressure. If the offer works for you, you choose the closing date.</p>
+            <p className="mb-3">Call eight eight eight, two seven four, five zero zero six, and we will walk you through your options.</p>
+          </div>
+        </details>
 
         {/* Market Context */}
         <section className="my-12">
