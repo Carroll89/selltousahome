@@ -192,8 +192,8 @@ export default function YorkMarketPage() {
             description:
               "Cash offers for York and York County homes — any condition",
             contentUrl: `${SITE_URL}/videos/york-pa/landing.mp4`,
-            thumbnailUrl: `${SITE_URL}/images/video-posters/york-pa-main-poster.jpg`,
-            uploadDate: "2026-04-28",
+            thumbnailUrl: `${SITE_URL}/videos/york-pa/landing-poster.jpg`,
+            uploadDate: "2026-05-12",
           }),
         ]}
       />
@@ -293,7 +293,9 @@ export default function YorkMarketPage() {
       {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
       <VideoEmbed
         src="/videos/york-pa/landing.mp4"
-        poster="/images/video-posters/york-pa-main-poster.jpg"
+        poster="/videos/york-pa/landing-poster.jpg"
+        captionsSrc="/videos/york-pa/landing-captions.vtt"
+        captionsLabel="English captions"
         title="Sell My House Fast York PA — USA Home Buyers"
         subtitle="Cash offers for York and York County homes — any condition"
       />
@@ -302,16 +304,11 @@ export default function YorkMarketPage() {
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          If you need to sell your house fast in York, Pennsylvania — you've
-          found the right team. We're USA Home Buyers, and we purchase houses
-          as-is, for cash, throughout York County. Whether your home needs
-          repairs, you're behind on payments, going through a divorce, or you've
-          inherited a property you don't know what to do with — we make the
-          process simple. No agents. No fees. No repairs needed. We buy York
-          homes in any condition — century-old factory-era row homes, suburban
-          ranches, or anything across York County. Written cash offer within 24
-          hours. Close in as few as seven days on your schedule. Call us now at
-          888-274-5006. That's 888-274-5006.
+            <p>If you need to sell a house in York, Pennsylvania, we can make you a simple cash offer and buy the property as is — meaning no repairs, no cleanup, and no open houses.</p>
+            <p>This can help if you inherited a house, have tenants you do not want to manage, are behind on payments, have code violations, or just need a clean way to move on.</p>
+            <p>We handle houses across York and York County, including brick rowhomes and twins, capes and ranches, and attached and rowhome properties that need work.</p>
+            <p>There are no commissions, no agent showings, and no pressure. If the offer works for you, you choose the closing date.</p>
+            <p>Call eight eight eight, two seven four, five zero zero six, and we will walk you through your options.</p>
         </div>
       </details>
 

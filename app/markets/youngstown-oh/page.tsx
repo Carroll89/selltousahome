@@ -126,7 +126,7 @@ const FAQ_ITEMS = [
 export default function YoungstownMarketPage() {
   return (
     <>
-      <SchemaMarkup schema={[youngstownLocalBusinessSchema, youngstownFAQSchema, youngstownHowToSchema, videoObjectSchema({ name: 'Sell My House Fast Youngstown OH — USA Home Buyers', description: 'Cash offers for Youngstown and Mahoning County homes — any condition', contentUrl: `${SITE_URL}/videos/youngstown-oh/landing.mp4`, thumbnailUrl: `${SITE_URL}/images/video-posters/youngstown-oh-main-poster.jpg`, uploadDate: '2026-04-28' })]} />
+      <SchemaMarkup schema={[youngstownLocalBusinessSchema, youngstownFAQSchema, youngstownHowToSchema, videoObjectSchema({ name: 'Sell My House Fast Youngstown OH — USA Home Buyers', description: 'Cash offers for Youngstown and Mahoning County homes — any condition', contentUrl: `${SITE_URL}/videos/youngstown-oh/landing.mp4`, thumbnailUrl: `${SITE_URL}/videos/youngstown-oh/landing-poster.jpg`, uploadDate: '2026-05-12' })]} />
 
       {/* Hero */}
       <section className="relative text-white py-8 md:py-16 px-4 overflow-hidden">
@@ -193,14 +193,20 @@ export default function YoungstownMarketPage() {
         src="/videos/youngstown-oh/landing.mp4"
         title="Sell My House Fast Youngstown OH — USA Home Buyers"
         subtitle="Cash offers for Youngstown and Mahoning County homes — any condition"
-        poster="/images/video-posters/youngstown-oh-main-poster.jpg"
+        poster="/videos/youngstown-oh/landing-poster.jpg"
+        captionsSrc="/videos/youngstown-oh/landing-captions.vtt"
+        captionsLabel="English captions"
         />
         <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
         <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
         📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-        If you need to sell your house fast in Youngstown, Ohio — you've found the right team. We're USA Home Buyers, and we purchase houses as-is, for cash, throughout Mahoning County. Whether your home needs repairs, you're behind on payments, going through a divorce, or you've inherited a property you don't know what to do with — we make the process simple. No agents. No fees. No repairs needed. We buy Youngstown homes in any condition — steel-era bungalows, vacant properties, inherited homes — whatever the situation. Written cash offer within 24 hours. Close in as few as seven days on your schedule. Call us now at 888-274-5006. That's 888-274-5006.
+            <p>If you need to sell a house in Youngstown, Ohio, we can make you a simple cash offer and buy the property as is — meaning no repairs, no cleanup, and no open houses.</p>
+            <p>This can help if you inherited a house, have tenants you do not want to manage, are behind on payments, have code violations, or just need a clean way to move on.</p>
+            <p>We handle houses across Youngstown and Mahoning County, including older brick and frame single-family homes, bungalows and capes, and two-family properties that need work.</p>
+            <p>There are no commissions, no agent showings, and no pressure. If the offer works for you, you choose the closing date.</p>
+            <p>Call eight eight eight, two seven four, five zero zero six, and we will walk you through your options.</p>
         </div>
         </details>
 

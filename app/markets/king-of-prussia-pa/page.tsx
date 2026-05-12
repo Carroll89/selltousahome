@@ -247,7 +247,7 @@ export default function KingOfPrussiaMarketPage() {
             'A short overview of how USA Home Buyers helps King of Prussia, PA homeowners sell as-is for cash with no repairs, no agent commissions, and a no-obligation offer.',
           contentUrl: `${SITE_URL}/videos/king-of-prussia-pa/landing.mp4`,
           thumbnailUrl: `${SITE_URL}/videos/king-of-prussia-pa/landing-poster.jpg`,
-          uploadDate: '2026-05-10',
+          uploadDate: '2026-05-12',
         }),
         ]}
       />
@@ -381,7 +381,11 @@ export default function KingOfPrussiaMarketPage() {
             📝 Video Transcript
           </summary>
           <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-            <p>If you need to sell a house in King of Prussia, PA, USA Home Buyers can make a no-obligation cash offer. We buy houses as-is, so you do not have to make repairs, clean out the property, or pay agent commissions. Tell us about the house and your timeline. We review the property, answer your questions, and put the offer in writing. If the offer works for you, you choose the closing date. Call 888-274-5006 to get started.</p>
+            <p>If you need to sell a house in King of Prussia, Pennsylvania, we can make you a simple cash offer and buy the property as is — meaning no repairs, no cleanup, and no open houses.</p>
+            <p>This can help if you inherited a house, have tenants you do not want to manage, are behind on payments, have code violations, or just need a clean way to move on.</p>
+            <p>We handle houses across King of Prussia and Montgomery County, including suburban colonials and capes, split-levels and ranches, and townhomes and attached homes that need work.</p>
+            <p>There are no commissions, no agent showings, and no pressure. If the offer works for you, you choose the closing date.</p>
+            <p>Call eight eight eight, two seven four, five zero zero six, and we will walk you through your options.</p>
           </div>
         </details>
 

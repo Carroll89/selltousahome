@@ -296,7 +296,7 @@ export default function SpringfieldILMarketPage() {
               "USA Home Buyers purchases houses in Springfield and Sangamon County for cash, as-is, with no repairs, no agent fees, and closings on the seller's timeline.",
             contentUrl: `${SITE_URL}/videos/springfield-il/landing.mp4`,
             thumbnailUrl: `${SITE_URL}/videos/springfield-il/landing-poster.jpg`,
-            uploadDate: "2026-04-18",
+            uploadDate: "2026-05-12",
           }),
         ]}
       />
@@ -404,24 +404,22 @@ export default function SpringfieldILMarketPage() {
           src="/videos/springfield-il/landing.mp4"
           title="Sell Your House Fast in Springfield, IL"
           poster="/videos/springfield-il/landing-poster.jpg"
+          captionsSrc="/videos/springfield-il/landing-captions.vtt"
+          captionsLabel="English captions"
           subtitle="See how we help homeowners in Springfield sell fast for cash"
         />
-        {/* VIDEO_SUMMARY_PENDING_REVIEW: draft captions contain estimated timing and old phone copy — replace with exact transcript/captions after review */}
-        <div className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
-          <h3 className="px-4 pt-3 text-sm font-semibold text-gray-700">
-            About This Video
-          </h3>
-          <p className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-            This video introduces USA Home Buyers' cash home-buying process for
-            Springfield and Sangamon County sellers. It summarizes the as-is
-            offer process for homeowners dealing with repairs, foreclosure,
-            probate, divorce, relocation, tenant issues, storm damage, or older
-            Springfield homes that may not qualify cleanly for traditional
-            financing. Draft captions are intentionally not deployed because the
-            available VTT timing is estimated and includes outdated phone copy;
-            exact captions are pending human review.
-          </p>
-        </div>
+        <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+          <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+            📝 Video Transcript
+          </summary>
+          <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
+            <p>If you need to sell a house in Springfield, Illinois, we can make you a simple cash offer and buy the property as is — meaning no repairs, no cleanup, and no open houses.</p>
+            <p>This can help if you inherited a house, have tenants you do not want to manage, are behind on payments, have code violations, or just need a clean way to move on.</p>
+            <p>We handle houses across Springfield and Sangamon County, including bungalows and capes, ranch and single-family homes, and two-family and duplex properties that need work.</p>
+            <p>There are no commissions, no agent showings, and no pressure. If the offer works for you, you choose the closing date.</p>
+            <p>Call eight eight eight, two seven four, five zero zero six, and we will walk you through your options.</p>
+          </div>
+        </details>
 
         <HowItWorks />
 

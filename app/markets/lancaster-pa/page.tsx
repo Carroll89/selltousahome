@@ -192,8 +192,8 @@ export default function LancasterMarketPage() {
             description:
               "Cash offers for Lancaster and Lancaster County homes — any condition",
             contentUrl: `${SITE_URL}/videos/lancaster-pa/landing.mp4`,
-            thumbnailUrl: `${SITE_URL}/images/video-posters/lancaster-pa-main-poster.jpg`,
-            uploadDate: "2026-04-28",
+            thumbnailUrl: `${SITE_URL}/videos/lancaster-pa/landing-poster.jpg`,
+            uploadDate: "2026-05-12",
           }),
         ]}
       />
@@ -293,7 +293,9 @@ export default function LancasterMarketPage() {
       {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
       <VideoEmbed
         src="/videos/lancaster-pa/landing.mp4"
-        poster="/images/video-posters/lancaster-pa-main-poster.jpg"
+        poster="/videos/lancaster-pa/landing-poster.jpg"
+        captionsSrc="/videos/lancaster-pa/landing-captions.vtt"
+        captionsLabel="English captions"
         title="Sell My House Fast Lancaster PA — USA Home Buyers"
         subtitle="Cash offers for Lancaster and Lancaster County homes — any condition"
       />
@@ -302,16 +304,11 @@ export default function LancasterMarketPage() {
           📝 Video Transcript
         </summary>
         <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed">
-          If you need to sell your house fast in Lancaster, Pennsylvania —
-          you've found the right team. We're USA Home Buyers, and we purchase
-          houses as-is, for cash, throughout Lancaster County. Whether your home
-          needs repairs, you're behind on payments, going through a divorce, or
-          you've inherited a property you don't know what to do with — we make
-          the process simple. No agents. No fees. No repairs needed. We buy
-          Lancaster homes in any condition — Cabbage Hill rowhouses, West End
-          properties, or anything across Lancaster County. Written cash offer
-          within 24 hours. Close in as few as seven days on your schedule. Call
-          us now at 888-274-5006. That's 888-274-5006.
+            <p>If you need to sell a house in Lancaster, Pennsylvania, we can make you a simple cash offer and buy the property as is — meaning no repairs, no cleanup, and no open houses.</p>
+            <p>This can help if you inherited a house, have tenants you do not want to manage, are behind on payments, have code violations, or just need a clean way to move on.</p>
+            <p>We handle houses across Lancaster and the surrounding area, including older brick rowhomes, capes and single-family homes, and brick twins and attached homes that need work.</p>
+            <p>There are no commissions, no agent showings, and no pressure. If the offer works for you, you choose the closing date.</p>
+            <p>Call eight eight eight, two seven four, five zero zero six, and we will walk you through your options.</p>
         </div>
       </details>
 
