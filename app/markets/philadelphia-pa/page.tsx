@@ -133,7 +133,18 @@ export default function PhiladelphiaPAPage() {
 
       {/* Hero Section */}
       <section className="relative text-white py-8 md:py-16 px-4 overflow-hidden bg-brand-dark">
-        <div className="absolute inset-0 bg-gradient-to-br from-brand-dark via-blue-950 to-brand-dark opacity-90" />
+        <picture className="absolute inset-0 w-full h-full">
+          <source
+            srcSet="/images/optimized/philadelphia-pa-representative-hero-640.jpg 640w, /images/optimized/philadelphia-pa-representative-hero-828.jpg 828w, /images/optimized/philadelphia-pa-representative-hero-1080.jpg 1080w, /images/optimized/philadelphia-pa-representative-hero-1200.jpg 1200w"
+            sizes="100vw"
+          />
+          <img
+            src="/images/optimized/philadelphia-pa-representative-hero-1200.jpg"
+            alt="Representative Philadelphia PA brick rowhomes — sell your house fast for cash"
+            className="w-full h-full object-cover"
+          />
+        </picture>
+        <div className="absolute inset-0 bg-brand-dark/80" />
         <div className="relative z-10 max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-start">
           <div>
             <p className="text-blue-300 text-sm font-medium mb-2">Pennsylvania Cash Home Buyers</p>
