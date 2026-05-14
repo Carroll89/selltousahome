@@ -192,7 +192,7 @@ export default function StateCollegeMarketPage() {
             description:
               "See how we help homeowners in State College and Centre County sell fast",
             contentUrl: `${SITE_URL}/videos/state-college-pa/landing.mp4`,
-            thumbnailUrl: `${SITE_URL}/videos/state-college-main-poster.jpg`,
+            thumbnailUrl: `${SITE_URL}/videos/state-college-pa/landing-poster.jpg`,
             uploadDate: "2026-04-12",
           }),
         ]}
@@ -311,12 +311,10 @@ export default function StateCollegeMarketPage() {
             contingencies. We serve all of State College and Centre County.
           </p>
         </section>
-
-        {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
         <VideoEmbed
           src="/videos/state-college-pa/landing.mp4"
           title="Sell Your House Fast in State College, PA"
-          poster="/videos/state-college-main-poster.jpg"
+          poster="/videos/state-college-pa/landing-poster.jpg"
           subtitle="See how we help homeowners in State College and Centre County sell fast"
         />
         <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">

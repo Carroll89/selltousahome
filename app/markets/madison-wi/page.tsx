@@ -141,7 +141,7 @@ export default function MadisonWIMarketPage() {
             name: 'Sell My House Fast Madison WI — USA Home Buyers',
             description: 'A short overview for Madison WI homeowners considering a direct as-is cash sale.',
             contentUrl: `${SITE_URL}/videos/madison-wi/landing.mp4`,
-            thumbnailUrl: `${SITE_URL}/images/video-posters/madison-wi-main-poster.jpg`,
+            thumbnailUrl: `${SITE_URL}/videos/madison-wi/landing-poster.jpg`,
             uploadDate: '2026-05-02',
           }),
         ]}
@@ -194,14 +194,10 @@ export default function MadisonWIMarketPage() {
       </section>
 
       <div className="max-w-7xl mx-auto px-4 py-8">
-
-        {/* VIDEO_CAPTION_EXCEPTION: estimated captions pending human timing review — date:2026-05-02 approver:Dan; Adam voice ID Ib97zM6uFBc71OWgj75I verified by Lens */}
         <VideoEmbed
           src="/videos/madison-wi/landing.mp4"
           title="Sell My House Fast Madison WI — USA Home Buyers"
-          poster="/images/video-posters/madison-wi-main-poster.jpg"
-          captionsSrc="/videos/madison-wi/landing-captions.vtt"
-          captionsLabel="English captions"
+          poster="/videos/madison-wi/landing-poster.jpg"
           subtitle="A short overview for Madison WI homeowners considering a direct as-is cash sale."
         />
         <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">

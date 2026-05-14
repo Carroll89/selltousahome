@@ -192,7 +192,7 @@ export default function ErieMarketPage() {
             description:
               "USA Home Buyers purchases houses in Erie and Erie County for cash, as-is, with no repairs, no agent fees, and closings on the seller's timeline.",
             contentUrl: `${SITE_URL}/videos/erie-pa/landing.mp4`,
-            thumbnailUrl: `${SITE_URL}/videos/erie-pa-main-poster.jpg`,
+            thumbnailUrl: `${SITE_URL}/videos/erie-pa/landing-poster.jpg`,
             uploadDate: "2026-04-18",
           }),
         ]}
@@ -424,9 +424,8 @@ export default function ErieMarketPage() {
 
         <VideoEmbed
           src="/videos/erie-pa/landing.mp4"
-          captionsSrc="/videos/erie-pa/landing-captions.vtt"
           title="Sell Your House Fast in Erie, PA"
-          poster="/videos/erie-pa-main-poster.jpg"
+          poster="/videos/erie-pa/landing-poster.jpg"
           subtitle="See how we help homeowners in Erie sell fast for cash"
         />
         {/* VIDEO_SUMMARY_PENDING_REVIEW: source transcript unavailable — replace with exact transcript and captions after Lens/Scribe audio review */}

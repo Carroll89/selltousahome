@@ -169,14 +169,10 @@ export default function RichmondVAMarketPage() {
       </section>
 
       <div className="max-w-7xl mx-auto px-4 py-8">
-
-        {/* VIDEO_CAPTION_EXCEPTION: estimated captions pending human timing review — date:2026-05-03 approver:Dan; Adam voice ID Ib97zM6uFBc71OWgj75I verified by Max fallback generation */}
         <VideoEmbed
           src="/videos/richmond-va/landing.mp4"
           title='Sell My House Fast Richmond VA — USA Home Buyers'
           poster="/videos/richmond-va/landing-poster.jpg"
-          captionsSrc="/videos/richmond-va/landing-captions.vtt"
-          captionsLabel="English captions"
           subtitle="Cash offers for Richmond City homes — The Fan, Church Hill, Scott's Addition, any condition"
         />
         <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">

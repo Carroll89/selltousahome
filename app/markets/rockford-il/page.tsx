@@ -390,8 +390,6 @@ export default function RockfordILMarketPage() {
           </div>
         </div>
       </section>
-
-      {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
       <VideoEmbed
         src="/videos/rockford-il/landing.mp4"
         title="Sell My House Fast Rockford IL — USA Home Buyers"

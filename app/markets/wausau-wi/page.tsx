@@ -134,7 +134,7 @@ export default function WausauWIMarketPage() {
           description:
             'USA Home Buyers purchases houses in Wausau and Marathon County for cash, as-is, in any condition. Call 888-274-5006 for a written offer in 24 hours.',
           contentUrl: `${SITE_URL}/videos/wausau-wi/landing.mp4`,
-          thumbnailUrl: `${SITE_URL}/images/video-posters/wausau-wi-main-poster.jpg`,
+          thumbnailUrl: `${SITE_URL}/videos/wausau-wi/landing-poster.jpg`,
           uploadDate: '2026-04-18',
         }),
       ]} />
@@ -142,13 +142,13 @@ export default function WausauWIMarketPage() {
       <section className="relative text-white py-16 px-4 overflow-hidden">
         <picture className="absolute inset-0 w-full h-full">
           <source
-            srcSet="/images/optimized/wausau-wi-hero-sm.jpg 640w, /images/optimized/wausau-wi-hero-md.jpg 768w, /images/optimized/wausau-wi-hero-lg.jpg 1024w, /images/optimized/wausau-wi-hero-xl.jpg 1280w"
+            srcSet="/images/optimized/wausau-wi-hero-sm.jpg 640w, /images/optimized/wausau-wi-hero-md.jpg 768w, /images/optimized/wausau-wi-hero-lg.jpg 1024w"
             type="image/jpeg"
             sizes="100vw"
           />
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/images/optimized/wausau-wi-hero-xl.jpg"
+            src="/images/optimized/wausau-wi-hero-lg.jpg"
             alt="Wausau WI homes — Craftsman bungalows and ranch houses"
             fetchPriority="high"
             className="object-cover object-center absolute inset-0 w-full h-full"
@@ -184,13 +184,11 @@ export default function WausauWIMarketPage() {
           </div>
         </div>
       </section>
-
-      {/* VIDEO_CAPTION_EXCEPTION: short landing clip, audio pending human review — date:2026-04-28 approver:Dan */}
       <VideoEmbed
         src="/videos/wausau-wi/landing.mp4"
         title="Sell My House Fast Wausau WI — USA Home Buyers"
         subtitle="Cash offers for Wausau and Marathon County homes — any condition"
-        poster="/images/video-posters/wausau-wi-main-poster.jpg"
+        poster="/videos/wausau-wi/landing-poster.jpg"
       />
 
       {/* VIDEO_SUMMARY_PENDING_REVIEW: audio not yet human-verified — replace with real transcript after Lens review */}

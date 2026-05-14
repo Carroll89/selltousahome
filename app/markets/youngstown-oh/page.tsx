@@ -188,14 +188,11 @@ export default function YoungstownMarketPage() {
         </div>
       </section>
 
-        {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
       <VideoEmbed
         src="/videos/youngstown-oh/landing.mp4"
         title="Sell My House Fast Youngstown OH — USA Home Buyers"
         subtitle="Cash offers for Youngstown and Mahoning County homes — any condition"
         poster="/videos/youngstown-oh/landing-poster.jpg"
-        captionsSrc="/videos/youngstown-oh/landing-captions.vtt"
-        captionsLabel="English captions"
         />
         <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
         <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">

@@ -212,13 +212,10 @@ export default function AllentownMarketPage() {
           <p className="text-gray-700 leading-relaxed">USA Home Buyers purchases houses in Allentown, PA for cash — as-is, in any condition, with no repairs and no agent fees. According to Zillow Research city ZHVI (2026-03-31), the typical Allentown home value is $309,699 (+3.8% YoY); Redfin city housing-market data for March 2026 shows a $255,000 median sale price (+5.2% YoY), $167 per square foot, and 15 median days on market. We skip the market process entirely — written offer within 24 hours, closing in as few as 7 days. We serve all of Allentown, Bethlehem, Easton, and Lehigh and Northampton Counties.</p>
         </section>
 
-        {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
         <VideoEmbed
           src="/videos/allentown-pa/landing.mp4"
           title="Sell Your House Fast in Allentown, PA"
           poster="/videos/allentown-pa/landing-poster.jpg"
-          captionsSrc="/videos/allentown-pa/landing-captions.vtt"
-          captionsLabel="English captions"
           subtitle="A short overview for Allentown, PA homeowners considering a direct as-is cash sale."
         />
         <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">

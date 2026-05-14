@@ -173,14 +173,11 @@ export default function AkronOHMarketPage() {
       </section>
 
       <div className="max-w-7xl mx-auto px-4 py-8">
-
-        {/* VIDEO_CAPTION_EXCEPTION: AUDIO-SYNC-PENDING accepted caveat — package QA passed 2026-05-12; waveform/manual timing review still pending. */}
+        {/* NVP53_APPROVED_VOICE_NO_PLAYER_CAPTIONS: VTT retained as sidecar asset only; do not attach a player caption track without Dan approval. */}
         <VideoEmbed
           src="/videos/akron-oh/landing.mp4"
           title="Sell My House Fast Akron OH — USA Home Buyers"
           poster="/videos/akron-oh/landing-poster.jpg"
-          captionsSrc="/videos/akron-oh/landing-captions.vtt"
-          captionsLabel="English captions"
           subtitle="A short overview for Akron OH homeowners considering a direct as-is cash sale."
         />
         <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">

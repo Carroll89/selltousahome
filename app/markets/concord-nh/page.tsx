@@ -125,7 +125,7 @@ export default function ConcordNHMarketPage() {
             name: 'Sell My House Fast Concord NH — USA Home Buyers',
             description: 'Cash offers for Concord and Merrimack County homes — any condition',
             contentUrl: `${SITE_URL}/videos/concord-nh/landing.mp4`,
-            thumbnailUrl: `${SITE_URL}/images/video-posters/concord-nh-main-poster.jpg`,
+            thumbnailUrl: `${SITE_URL}/videos/concord-nh/landing-poster.jpg`,
             uploadDate: '2026-05-02',
           }),
         ]}
@@ -183,14 +183,10 @@ export default function ConcordNHMarketPage() {
       </section>
 
       <div className="max-w-7xl mx-auto px-4 py-8">
-
-        {/* VIDEO_CAPTION_EXCEPTION: estimated captions pending human timing review — date:2026-05-02 approver:Dan; Adam voice ID Ib97zM6uFBc71OWgj75I verified by Lens */}
         <VideoEmbed
           src="/videos/concord-nh/landing.mp4"
           title="Sell My House Fast Concord NH — USA Home Buyers"
-          poster="/images/video-posters/concord-nh-main-poster.jpg"
-          captionsSrc="/videos/concord-nh/landing-captions.vtt"
-          captionsLabel="English captions"
+          poster="/videos/concord-nh/landing-poster.jpg"
           subtitle="A short overview for Concord NH homeowners considering a direct as-is cash sale."
         />
         <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">

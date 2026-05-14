@@ -186,15 +186,12 @@ export default function WorcesterMAMarketPage() {
           </div>
         </div>
       </section>
-
-        {/* VIDEO_CAPTION_EXCEPTION: AUDIO-SYNC-PENDING accepted caveat — package QA passed 2026-05-12; waveform/manual timing review still pending. */}
-      <VideoEmbed
+      {/* NVP53_APPROVED_VOICE_NO_PLAYER_CAPTIONS: VTT retained as sidecar asset only; do not attach a player caption track without Dan approval. */}
+        <VideoEmbed
         src="/videos/worcester-ma/landing.mp4"
         title="Sell My House Fast Worcester MA — USA Home Buyers"
         subtitle="Cash offers for Worcester and Worcester County homes — any condition"
         poster="/videos/worcester-ma/landing-poster.jpg"
-        captionsSrc="/videos/worcester-ma/landing-captions.vtt"
-        captionsLabel="English captions"
         />
         <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
         <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">

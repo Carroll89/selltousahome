@@ -314,14 +314,11 @@ export default function ReadingMarketPage() {
             few as 7 days. Hablamos español — 70.8% of Reading is Hispanic.
           </p>
         </section>
-
-        {/* VIDEO_CAPTION_EXCEPTION: AUDIO-SYNC-PENDING accepted caveat — package QA passed 2026-05-12; waveform/manual timing review still pending. */}
+        {/* NVP53_APPROVED_VOICE_NO_PLAYER_CAPTIONS: VTT retained as sidecar asset only; do not attach a player caption track without Dan approval. */}
         <VideoEmbed
           src="/videos/reading-pa/landing.mp4"
           title="Sell Your House Fast in Reading, PA"
           poster="/videos/reading-pa/landing-poster.jpg"
-          captionsSrc="/videos/reading-pa/landing-captions.vtt"
-          captionsLabel="English captions"
           subtitle="See how we help homeowners in Reading sell fast for cash"
         />
         <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">

@@ -19,6 +19,7 @@
  *  - Geographic scope: City of Cleveland ONLY — NOT Parma, Lakewood, Euclid, Shaker Heights
  */
 import type { Metadata } from 'next';
+import Image from 'next/image';
 import { CashOfferForm } from '@/components/CashOfferForm';
 import { BlogClusterLinks } from '@/components/BlogClusterLinks';
 import { HowItWorks } from '@/components/HowItWorks';
@@ -113,7 +114,16 @@ export default function ClevelandOHPage() {
 
       {/* Hero Section */}
       <section className="relative text-white py-8 md:py-16 px-4 overflow-hidden bg-brand-dark">
-        <div className="absolute inset-0 bg-gradient-to-br from-brand-dark via-blue-950 to-brand-dark opacity-90" />
+        <Image
+          src="/images/cleveland-oh-representative-hero.jpg"
+          alt=""
+          fill
+          priority
+          aria-hidden="true"
+          className="absolute inset-0 object-cover opacity-35"
+          sizes="100vw"
+        />
+        <div className="absolute inset-0 bg-gradient-to-br from-brand-dark/80 via-blue-950/70 to-brand-dark/80" />
         <div className="relative z-10 max-w-7xl mx-auto grid lg:grid-cols-2 gap-12 items-start">
           <div>
             <p className="text-blue-300 text-sm font-medium mb-2">Ohio Cash Home Buyers</p>
@@ -128,6 +138,20 @@ export default function ClevelandOHPage() {
                 subheadline="Written offer in 24 hours. Close in 14–21 days. We handle the Cuyahoga County paperwork."
                 sourcePage="/markets/cleveland-oh"
               />
+            </div>
+            <div className="lg:hidden relative h-44 mb-4 overflow-hidden rounded-2xl border border-white/20 shadow-xl">
+              <Image
+                src="/images/cleveland-oh-representative-hero.jpg"
+                alt="Representative older Cleveland single-family home used as local hero imagery"
+                fill
+                priority
+                className="object-cover"
+                sizes="100vw"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-brand-dark/70 via-transparent to-transparent" />
+              <p className="absolute bottom-3 left-3 right-3 text-xs font-medium text-white drop-shadow">
+                Representative Cleveland housing stock — local hero image
+              </p>
             </div>
             <div className="bg-white/10 border border-white/20 rounded-xl p-4 mb-4">
               <p className="text-blue-100 text-sm font-medium mb-1">TL;DR</p>
@@ -156,7 +180,21 @@ export default function ClevelandOHPage() {
             </a>
             <p className="mt-3 text-blue-200 text-xs md:text-sm">BBB Accredited · 15+ Years Experience · Hundreds of Homes Purchased</p>
           </div>
-          <div className="hidden lg:block">
+          <div className="hidden lg:block space-y-5">
+            <div className="relative h-64 overflow-hidden rounded-2xl border border-white/20 shadow-2xl">
+              <Image
+                src="/images/cleveland-oh-representative-hero.jpg"
+                alt="Representative older Cleveland single-family home used as local hero imagery"
+                fill
+                priority
+                className="object-cover"
+                sizes="(min-width: 1024px) 50vw, 100vw"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-brand-dark/70 via-brand-dark/10 to-transparent" />
+              <p className="absolute bottom-4 left-4 right-4 text-sm font-semibold text-white drop-shadow">
+                Representative Cleveland housing stock — local hero image
+              </p>
+            </div>
             <CashOfferForm
               variant="hero"
               headline="Get Your Cleveland Cash Offer"
@@ -169,14 +207,11 @@ export default function ClevelandOHPage() {
 
       <div className="max-w-7xl mx-auto px-4 py-8">
         <HowItWorks />
-
-        {/* VIDEO_CAPTION_EXCEPTION: AUDIO-SYNC-PENDING accepted caveat — package QA passed 2026-05-12; waveform/manual timing review still pending. */}
+        {/* NVP53_APPROVED_VOICE_NO_PLAYER_CAPTIONS: VTT retained as sidecar asset only; do not attach a player caption track without Dan approval. */}
         <VideoEmbed
           src="/videos/cleveland-oh/landing.mp4"
           title="Sell My House Fast Cleveland OH — USA Home Buyers"
           poster="/videos/cleveland-oh/landing-poster.jpg"
-          captionsSrc="/videos/cleveland-oh/landing-captions.vtt"
-          captionsLabel="English captions"
           subtitle="A short overview for Cleveland OH homeowners considering a direct as-is cash sale."
         />
         <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">

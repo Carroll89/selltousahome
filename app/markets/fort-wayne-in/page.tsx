@@ -170,14 +170,10 @@ export default function FortWayneINMarketPage() {
       </section>
 
       <div className="max-w-7xl mx-auto px-4 py-8">
-
-        {/* VIDEO_CAPTION_EXCEPTION: estimated captions pending human timing review — date:2026-05-03 approver:Dan; Adam voice ID Ib97zM6uFBc71OWgj75I verified by Max fallback generation */}
         <VideoEmbed
           src="/videos/fort-wayne-in/landing.mp4"
           title='Sell My House Fast Fort Wayne IN — USA Home Buyers'
           poster="/videos/fort-wayne-in/landing-poster.jpg"
-          captionsSrc="/videos/fort-wayne-in/landing-captions.vtt"
-          captionsLabel="English captions"
           subtitle='Cash offers for Fort Wayne and Allen County homes — any condition, no transfer tax'
         />
         <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">

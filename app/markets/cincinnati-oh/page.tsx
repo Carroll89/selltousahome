@@ -186,8 +186,6 @@ export default function CincinnatiOHPage() {
           src="/videos/cincinnati-oh/landing.mp4"
           title="Sell Your House Fast in Cincinnati, OH"
           poster="/videos/cincinnati-oh/landing-poster.jpg"
-          captionsSrc="/videos/cincinnati-oh/landing-captions.vtt"
-          captionsLabel="English captions"
           subtitle="A short overview for Cincinnati, OH homeowners considering a direct as-is cash sale."
         />
         <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">

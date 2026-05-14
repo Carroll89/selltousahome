@@ -148,7 +148,7 @@ export default function HartfordCTMarketPage() {
           description:
             'USA Home Buyers purchases houses in Hartford and Hartford County for cash, as-is, in any condition. Call 888-274-5006 for a written offer in 24 hours.',
           contentUrl: `${SITE_URL}/videos/hartford-ct/landing.mp4`,
-          thumbnailUrl: `${SITE_URL}/images/video-posters/hartford-ct-main-poster.jpg`,
+          thumbnailUrl: `${SITE_URL}/videos/hartford-ct/landing-poster.jpg`,
           uploadDate: '2026-04-18',
         }),
       ]} />
@@ -201,10 +201,9 @@ export default function HartfordCTMarketPage() {
 
       <VideoEmbed
         src="/videos/hartford-ct/landing.mp4"
-        captionsSrc="/videos/hartford-ct/landing-captions.vtt"
         title="Sell My House Fast Hartford CT — USA Home Buyers"
         subtitle="Cash offers for Hartford and Hartford County homes — any condition"
-        poster="/images/video-posters/hartford-ct-main-poster.jpg"
+        poster="/videos/hartford-ct/landing-poster.jpg"
       />
 
       {/* VIDEO_SUMMARY_PENDING_REVIEW: audio not yet human-verified — replace with real transcript after Lens review */}

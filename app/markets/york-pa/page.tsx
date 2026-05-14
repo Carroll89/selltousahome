@@ -290,12 +290,9 @@ export default function YorkMarketPage() {
         </div>
       </section>
 
-      {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
       <VideoEmbed
         src="/videos/york-pa/landing.mp4"
         poster="/videos/york-pa/landing-poster.jpg"
-        captionsSrc="/videos/york-pa/landing-captions.vtt"
-        captionsLabel="English captions"
         title="Sell My House Fast York PA — USA Home Buyers"
         subtitle="Cash offers for York and York County homes — any condition"
       />

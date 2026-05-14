@@ -290,12 +290,9 @@ export default function LancasterMarketPage() {
         </div>
       </section>
 
-      {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
       <VideoEmbed
         src="/videos/lancaster-pa/landing.mp4"
         poster="/videos/lancaster-pa/landing-poster.jpg"
-        captionsSrc="/videos/lancaster-pa/landing-captions.vtt"
-        captionsLabel="English captions"
         title="Sell My House Fast Lancaster PA — USA Home Buyers"
         subtitle="Cash offers for Lancaster and Lancaster County homes — any condition"
       />

@@ -259,8 +259,6 @@ export default function OshkoshWIMarketPage() {
           src="/videos/oshkosh-wi/landing.mp4"
           title="Sell My House Fast Oshkosh WI — USA Home Buyers"
           poster="/videos/oshkosh-wi/landing-poster.jpg"
-          captionsSrc="/videos/oshkosh-wi/landing-captions.vtt"
-          captionsLabel="English captions"
           subtitle="A short overview for Oshkosh, WI homeowners considering a direct as-is cash sale."
         />
         <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">

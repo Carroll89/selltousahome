@@ -180,8 +180,6 @@ export default function ChicagoILPage() {
           src="/videos/chicago-il/landing.mp4"
           title="Sell Your House Fast in Chicago, IL"
           poster="/videos/chicago-il/landing-poster.jpg"
-          captionsSrc="/videos/chicago-il/landing-captions.vtt"
-          captionsLabel="English captions"
           subtitle="A short overview for Chicago, IL homeowners considering a direct as-is cash sale."
         />
         <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">

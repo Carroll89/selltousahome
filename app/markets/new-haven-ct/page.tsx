@@ -204,8 +204,6 @@ export default function NewHavenCTMarketPage() {
           </div>
         </div>
       </section>
-
-        {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
         <VideoEmbed
         src="/videos/new-haven-ct/landing.mp4"
         title="Sell My House Fast New Haven CT — USA Home Buyers"

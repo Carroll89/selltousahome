@@ -173,14 +173,11 @@ export default function AppletonWIMarketPage() {
       </section>
 
       <div className="max-w-7xl mx-auto px-4 py-8">
-
-        {/* VIDEO_CAPTION_EXCEPTION: AUDIO-SYNC-PENDING accepted caveat — package QA passed 2026-05-12; waveform/manual timing review still pending. */}
+        {/* NVP53_APPROVED_VOICE_NO_PLAYER_CAPTIONS: VTT retained as sidecar asset only; do not attach a player caption track without Dan approval. */}
         <VideoEmbed
           src="/videos/appleton-wi/landing.mp4"
           title="Sell My House Fast Appleton WI — USA Home Buyers"
           poster="/videos/appleton-wi/landing-poster.jpg"
-          captionsSrc="/videos/appleton-wi/landing-captions.vtt"
-          captionsLabel="English captions"
           subtitle="A short overview for Appleton WI homeowners considering a direct as-is cash sale."
         />
         <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">

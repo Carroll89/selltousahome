@@ -367,13 +367,10 @@ export default function KingOfPrussiaMarketPage() {
           </p>
         </section>
 
-        {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
         <VideoEmbed
           src="/videos/king-of-prussia-pa/landing.mp4"
           title="Sell Your House Fast in King of Prussia, PA"
           poster="/videos/king-of-prussia-pa/landing-poster.jpg"
-          captionsSrc="/videos/king-of-prussia-pa/landing-captions.vtt"
-          captionsLabel="English captions"
           subtitle="A short overview for King of Prussia, PA homeowners considering a direct as-is cash sale."
         />
         <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">

@@ -399,13 +399,10 @@ export default function SpringfieldILMarketPage() {
       </section>
 
       <div className="max-w-7xl mx-auto px-4 py-8">
-        {/* VIDEO_CAPTION_EXCEPTION: draft VTT timing/phone copy pending human review — date:2026-04-28 approver:Dan */}
         <VideoEmbed
           src="/videos/springfield-il/landing.mp4"
           title="Sell Your House Fast in Springfield, IL"
           poster="/videos/springfield-il/landing-poster.jpg"
-          captionsSrc="/videos/springfield-il/landing-captions.vtt"
-          captionsLabel="English captions"
           subtitle="See how we help homeowners in Springfield sell fast for cash"
         />
         <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">

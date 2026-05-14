@@ -139,7 +139,7 @@ export default function ManchesterNHMarketPage() {
 
   return (
     <>
-      <SchemaMarkup schema={[manchesterLocalBusinessSchema, faqSchema(FAQ_ITEMS), howToSchema, videoObjectSchema({ name: 'Sell My House Fast Manchester NH — USA Home Buyers', description: 'Cash offers for Manchester and Hillsborough County homes — any condition', contentUrl: `${SITE_URL}/videos/manchester-nh/landing.mp4`, thumbnailUrl: `${SITE_URL}/images/video-posters/manchester-nh-main-poster.jpg`, uploadDate: '2026-04-28' })]} />
+      <SchemaMarkup schema={[manchesterLocalBusinessSchema, faqSchema(FAQ_ITEMS), howToSchema, videoObjectSchema({ name: 'Sell My House Fast Manchester NH — USA Home Buyers', description: 'Cash offers for Manchester and Hillsborough County homes — any condition', contentUrl: `${SITE_URL}/videos/manchester-nh/landing.mp4`, thumbnailUrl: `${SITE_URL}/videos/manchester-nh/landing-poster.jpg`, uploadDate: '2026-04-28' })]} />
 
       <section className="relative text-white py-16 px-4 overflow-hidden">
         <picture className="absolute inset-0 w-full h-full">
@@ -186,13 +186,11 @@ export default function ManchesterNHMarketPage() {
           </div>
         </div>
       </section>
-
-        {/* VIDEO_CAPTION_EXCEPTION: captions pending transcript/audio review — date:2026-04-28 approver:Dan */}
       <VideoEmbed
         src="/videos/manchester-nh/landing.mp4"
         title="Sell My House Fast Manchester NH — USA Home Buyers"
         subtitle="Cash offers for Manchester and Hillsborough County homes — any condition"
-        poster="/images/video-posters/manchester-nh-main-poster.jpg"
+        poster="/videos/manchester-nh/landing-poster.jpg"
         />
         <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
         <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">

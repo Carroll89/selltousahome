@@ -191,7 +191,7 @@ export default function BethlehemMarketPage() {
             description:
               "USA Home Buyers purchases houses in Bethlehem and Northampton County for cash, as-is, with no repairs, no agent fees, and closings on the seller's timeline.",
             contentUrl: `${SITE_URL}/videos/bethlehem-pa/landing.mp4`,
-            thumbnailUrl: `${SITE_URL}/videos/bethlehem-pa-main-poster.jpg`,
+            thumbnailUrl: `${SITE_URL}/videos/bethlehem-pa/landing-poster.jpg`,
             uploadDate: "2026-04-18",
           }),
         ]}
@@ -422,9 +422,8 @@ export default function BethlehemMarketPage() {
 
         <VideoEmbed
           src="/videos/bethlehem-pa/landing.mp4"
-          captionsSrc="/videos/bethlehem-pa/landing-captions.vtt"
           title="Sell Your House Fast in Bethlehem, PA"
-          poster="/videos/bethlehem-pa-main-poster.jpg"
+          poster="/videos/bethlehem-pa/landing-poster.jpg"
           subtitle="See how we help homeowners in Bethlehem sell fast for cash"
         />
         {/* VIDEO_SUMMARY_PENDING_REVIEW: source transcript unavailable — replace with exact transcript and captions after Lens/Scribe audio review */}

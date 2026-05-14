@@ -145,7 +145,7 @@ export default function WaterburyCTMarketPage() {
             name: 'Sell My House Fast Waterbury CT — USA Home Buyers',
             description: 'Cash offers for Waterbury and New Haven County homes — any condition',
             contentUrl: `${SITE_URL}/videos/waterbury-ct/landing.mp4`,
-            thumbnailUrl: `${SITE_URL}/images/video-posters/waterbury-ct-main-poster.jpg`,
+            thumbnailUrl: `${SITE_URL}/videos/waterbury-ct/landing-poster.jpg`,
             uploadDate: '2026-05-02',
           }),
         ]}
@@ -198,14 +198,10 @@ export default function WaterburyCTMarketPage() {
       </section>
 
       <div className="max-w-7xl mx-auto px-4 py-8">
-
-        {/* VIDEO_CAPTION_EXCEPTION: estimated captions pending human timing review — date:2026-05-02 approver:Dan; Adam voice ID Ib97zM6uFBc71OWgj75I verified by Lens */}
         <VideoEmbed
           src="/videos/waterbury-ct/landing.mp4"
           title="Sell My House Fast Waterbury CT — USA Home Buyers"
-          poster="/images/video-posters/waterbury-ct-main-poster.jpg"
-          captionsSrc="/videos/waterbury-ct/landing-captions.vtt"
-          captionsLabel="English captions"
+          poster="/videos/waterbury-ct/landing-poster.jpg"
           subtitle="A short overview for Waterbury CT homeowners considering a direct as-is cash sale."
         />
         <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">

@@ -148,7 +148,7 @@ export default function BostonMAMarketPage() {
           description:
             'USA Home Buyers purchases homes in Boston and Greater Boston for cash, as-is, in any condition. Call 888-274-5006 for a written offer in 24 hours.',
           contentUrl: `${SITE_URL}/videos/boston-ma/landing.mp4`,
-          thumbnailUrl: `${SITE_URL}/images/video-posters/boston-ma-main-poster.jpg`,
+          thumbnailUrl: `${SITE_URL}/videos/boston-ma/landing-poster.jpg`,
           uploadDate: '2026-04-18',
         }),
       ]} />
@@ -201,8 +201,7 @@ export default function BostonMAMarketPage() {
 
       <VideoEmbed
         src="/videos/boston-ma/landing.mp4"
-        captionsSrc="/videos/boston-ma/landing-captions.vtt"
-        poster="/images/video-posters/boston-ma-main-poster.jpg"
+        poster="/videos/boston-ma/landing-poster.jpg"
         title="Sell My House Fast Boston MA — USA Home Buyers"
         subtitle="Cash offers for Boston and Greater Boston homes — any condition"
       />

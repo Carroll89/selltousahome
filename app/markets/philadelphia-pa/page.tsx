@@ -206,8 +206,6 @@ export default function PhiladelphiaPAPage() {
           src="/videos/philadelphia-pa/landing.mp4"
           title="Sell Your House Fast in Philadelphia, PA"
           poster="/videos/philadelphia-pa/landing-poster.jpg"
-          captionsSrc="/videos/philadelphia-pa/landing-captions.vtt"
-          captionsLabel="English captions"
           subtitle="A short overview for Philadelphia, PA homeowners considering a direct as-is cash sale."
         />
         <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">

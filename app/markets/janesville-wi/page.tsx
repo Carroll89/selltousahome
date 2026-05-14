@@ -122,7 +122,7 @@ export default function JanesvilleWIMarketPage() {
             name: 'Sell My House Fast Janesville WI — USA Home Buyers',
             description: 'A short overview for Janesville WI homeowners considering a direct as-is cash sale.',
             contentUrl: `${SITE_URL}/videos/janesville-wi/landing.mp4`,
-            thumbnailUrl: `${SITE_URL}/images/video-posters/janesville-wi-main-poster.jpg`,
+            thumbnailUrl: `${SITE_URL}/videos/janesville-wi/landing-poster.jpg`,
             uploadDate: '2026-05-02',
           }),
         ]}
@@ -173,14 +173,10 @@ export default function JanesvilleWIMarketPage() {
       </section>
 
       <div className="max-w-7xl mx-auto px-4 py-8">
-
-        {/* VIDEO_CAPTION_EXCEPTION: estimated captions pending human timing review — date:2026-05-02 approver:Dan; Adam voice ID Ib97zM6uFBc71OWgj75I verified by Lens */}
         <VideoEmbed
           src="/videos/janesville-wi/landing.mp4"
           title="Sell My House Fast Janesville WI — USA Home Buyers"
-          poster="/images/video-posters/janesville-wi-main-poster.jpg"
-          captionsSrc="/videos/janesville-wi/landing-captions.vtt"
-          captionsLabel="English captions"
+          poster="/videos/janesville-wi/landing-poster.jpg"
           subtitle="A short overview for Janesville WI homeowners considering a direct as-is cash sale."
         />
         <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">

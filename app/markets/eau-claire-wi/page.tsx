@@ -122,7 +122,7 @@ export default function EauClaireWIMarketPage() {
             name: 'Sell My House Fast Eau Claire WI — USA Home Buyers',
             description: 'Cash offers for Eau Claire and Chippewa Valley homes — any condition',
             contentUrl: `${SITE_URL}/videos/eau-claire-wi/landing.mp4`,
-            thumbnailUrl: `${SITE_URL}/images/video-posters/eau-claire-wi-main-poster.jpg`,
+            thumbnailUrl: `${SITE_URL}/videos/eau-claire-wi/landing-poster.jpg`,
             uploadDate: '2026-05-02',
           }),
         ]}
@@ -175,14 +175,10 @@ export default function EauClaireWIMarketPage() {
       </section>
 
       <div className="max-w-7xl mx-auto px-4 py-8">
-
-        {/* VIDEO_CAPTION_EXCEPTION: estimated captions pending human timing review — date:2026-05-02 approver:Dan; Adam voice ID Ib97zM6uFBc71OWgj75I verified by Lens */}
         <VideoEmbed
           src="/videos/eau-claire-wi/landing.mp4"
           title="Sell My House Fast Eau Claire WI — USA Home Buyers"
-          poster="/images/video-posters/eau-claire-wi-main-poster.jpg"
-          captionsSrc="/videos/eau-claire-wi/landing-captions.vtt"
-          captionsLabel="English captions"
+          poster="/videos/eau-claire-wi/landing-poster.jpg"
           subtitle="A short overview for Eau Claire WI homeowners considering a direct as-is cash sale."
         />
         <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
