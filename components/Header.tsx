@@ -43,6 +43,7 @@ const marketsByState: {
     state: "Indiana",
     cities: [
       { href: "/markets/fort-wayne-in", label: "Fort Wayne" },
+      { href: "/markets/lafayette-in", label: "Lafayette" },
     ],
   },
   {

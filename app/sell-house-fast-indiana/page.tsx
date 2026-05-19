@@ -113,6 +113,20 @@ export default function IndianaHubPage() {
                 Sell Your Fort Wayne Home &#x2192;
               </Link>
             </div>
+            <div className="bg-blue-50 border border-blue-100 rounded-2xl p-6">
+              <h3 className="text-xl font-bold text-brand-dark mb-2">Lafayette, IN</h3>
+              <p className="text-gray-700 text-sm mb-3">
+                Tippecanoe County. Purdue-adjacent rental demand, older city housing, no Indiana transfer tax, and judicial-only foreclosure. Redfin reported a $245,000 median sale price and 26 median days on market in March 2026.
+              </p>
+              <ul className="text-sm text-gray-600 space-y-1 mb-4">
+                <li>&#x2192; No Indiana transfer tax</li>
+                <li>&#x2192; DOM: 26 days median</li>
+                <li>&#x2192; Tippecanoe Circuit Court handles probate</li>
+              </ul>
+              <Link href="/markets/lafayette-in" className="inline-block bg-brand-primary text-white px-4 py-2 rounded-lg text-sm font-medium hover:bg-blue-700 transition-colors">
+                Sell Your Lafayette Home &#x2192;
+              </Link>
+            </div>
           </div>
         </section>
 

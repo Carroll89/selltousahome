@@ -98,6 +98,7 @@ export function Footer() {
               <li><Link href="/markets/st-louis-mo" className="hover:text-white">St. Louis, MO</Link></li>
               <li><Link href="/sell-house-fast-missouri" className="hover:text-white">Sell House Fast Missouri</Link></li>
               <li><Link href="/markets/fort-wayne-in" className="hover:text-white">Fort Wayne, IN</Link></li>
+              <li><Link href="/markets/lafayette-in" className="hover:text-white">Lafayette, IN</Link></li>
               <li><Link href="/sell-house-fast-indiana" className="hover:text-white">Sell House Fast Indiana</Link></li>
             </ul>
           </div>
@@ -150,7 +151,7 @@ export function Footer() {
 
         <div className="border-t border-gray-700 pt-6 text-sm text-gray-500">
           <p className="mb-2">
-            We buy houses across Pennsylvania, Delaware, Ohio, Massachusetts, Wisconsin, New Hampshire, Connecticut, New York, Illinois, Virginia, Missouri, and Indiana — Harrisburg, Allentown, Bethlehem, Lancaster, York, Chambersburg, Erie, Reading, Wilmington DE, Youngstown OH, Springfield MA, Worcester MA, Northampton MA, Kenosha WI, Racine-Mount Pleasant WI, Oshkosh WI, Wausau WI, Madison WI, Manchester NH, Concord NH, Bridgeport CT, New Haven CT, Hartford CT, Waterbury CT, Norwich CT, Rochester NY, Binghamton NY, Springfield IL, Rockford IL, Peoria IL, Bloomington IL, Champaign-Urbana IL, Chicago IL, Cleveland OH, Toledo OH, Philadelphia PA, Cincinnati OH, and surrounding communities.
+            We buy houses across Pennsylvania, Delaware, Ohio, Massachusetts, Wisconsin, New Hampshire, Connecticut, New York, Illinois, Virginia, Missouri, and Indiana — Harrisburg, Allentown, Bethlehem, Lancaster, York, Chambersburg, Erie, Reading, Wilmington DE, Youngstown OH, Springfield MA, Worcester MA, Northampton MA, Kenosha WI, Racine-Mount Pleasant WI, Oshkosh WI, Wausau WI, Madison WI, Manchester NH, Concord NH, Bridgeport CT, New Haven CT, Hartford CT, Waterbury CT, Norwich CT, Rochester NY, Binghamton NY, Springfield IL, Rockford IL, Peoria IL, Bloomington IL, Champaign-Urbana IL, Chicago IL, Cleveland OH, Toledo OH, Philadelphia PA, Cincinnati OH, Fort Wayne IN, Lafayette IN, and surrounding communities.
           </p>
           <p>
             © {currentYear} USA Home Buyers LLC. All rights reserved. | Serving homeowners in PA, DE, OH, MA, WI, NH, CT, NY, IL, VA, MO, and IN
