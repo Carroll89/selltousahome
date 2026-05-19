@@ -10,7 +10,7 @@ import { ComparisonTable } from '@/components/ComparisonTable';
 import { SituationLinks } from '@/components/SituationLinks';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
 import { BlogClusterLinks } from '@/components/BlogClusterLinks';
-import { faqSchema, howToSchema, lafayetteLocalBusinessSchema } from '@/lib/schema';
+import { faqSchema, lafayetteHowToSchema, lafayetteLocalBusinessSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
 import {
   LAFAYETTE_COMPARISON_ROWS,
@@ -38,7 +38,7 @@ export default function LafayetteINMarketPage() {
         schema={[
           lafayetteLocalBusinessSchema,
           faqSchema(LAFAYETTE_FAQ_ITEMS),
-          howToSchema,
+          lafayetteHowToSchema,
         ]}
       />
 
@@ -208,4 +208,3 @@ export default function LafayetteINMarketPage() {
     </>
   );
 }
-

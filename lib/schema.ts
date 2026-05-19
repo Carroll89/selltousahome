@@ -1988,6 +1988,39 @@ export const howToSchema = {
   ],
 };
 
+export const lafayetteHowToSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'HowTo',
+  name: 'How to Sell Your House Fast for Cash in Lafayette IN',
+  description: 'Step-by-step process for selling your Lafayette home for cash',
+  step: [
+    {
+      '@type': 'HowToStep',
+      name: 'Submit Your Property Information',
+      text: 'Fill out our 2-minute form with basic details about your Lafayette property.',
+      position: 1,
+    },
+    {
+      '@type': 'HowToStep',
+      name: 'Receive Your Cash Offer',
+      text: 'We review your property and send a written cash offer within 24 hours.',
+      position: 2,
+    },
+    {
+      '@type': 'HowToStep',
+      name: 'Choose Your Closing Date',
+      text: 'If you accept, pick any closing date that works for you.',
+      position: 3,
+    },
+    {
+      '@type': 'HowToStep',
+      name: 'Get Paid',
+      text: 'Show up to closing, sign the paperwork, and walk away with your cash.',
+      position: 4,
+    },
+  ],
+};
+
 export const erieHowToSchema = {
   '@context': 'https://schema.org',
   '@type': 'HowTo',
