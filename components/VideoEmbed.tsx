@@ -13,6 +13,9 @@ export function VideoEmbed({
   title,
   poster,
   subtitle,
+  captionsSrc,
+  captionsLabel = 'English captions',
+  captionsLang = 'en',
 }: VideoEmbedProps) {
   return (
     <section className="bg-brand-light py-10 px-4">
@@ -33,7 +36,17 @@ export function VideoEmbed({
             preload="none"
             className="w-full rounded-xl"
             aria-label={title}
-          />
+          >
+            {captionsSrc && (
+              <track
+                kind="captions"
+                src={captionsSrc}
+                srcLang={captionsLang}
+                label={captionsLabel}
+                default
+              />
+            )}
+          </video>
         </div>
       </div>
     </section>

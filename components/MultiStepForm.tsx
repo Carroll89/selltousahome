@@ -5,6 +5,8 @@ import { GHL_WEBHOOK_URL, getUTMParam, getSourceChannel } from '@/lib/utils';
 
 interface MultiStepFormProps {
   sourcePage?: string;
+  addressPlaceholder?: string;
+  phonePlaceholder?: string;
 }
 
 const SITUATION_CARDS = [
@@ -25,7 +27,17 @@ const TIMELINE_CARDS = [
 
 const TOTAL_STEPS = 4;
 
-export function MultiStepForm({ sourcePage }: MultiStepFormProps) {
+function extractMarketSlug(path?: string): string {
+  if (!path) return '';
+  const marketRouteMatch = path.match(/\/markets\/([^/]+)/);
+  return marketRouteMatch?.[1] ?? '';
+}
+
+export function MultiStepForm({
+  sourcePage,
+  addressPlaceholder = '123 Main St, Harrisburg, PA',
+  phonePlaceholder = '(717) 555-0000',
+}: MultiStepFormProps) {
   const [step, setStep] = useState(1);
   const [animating, setAnimating] = useState(false);
   const [situation, setSituation] = useState('');
@@ -96,7 +108,7 @@ export function MultiStepForm({ sourcePage }: MultiStepFormProps) {
 
     const [firstName, ...lastParts] = name.trim().split(' ');
     const path = typeof window !== 'undefined' ? window.location.pathname : '';
-    const marketMatch = path.match(/\/markets\/([^/]+)/);
+    const sourceMarket = extractMarketSlug(sourcePage) || extractMarketSlug(path);
 
     const payload = {
       firstName,
@@ -108,12 +120,12 @@ export function MultiStepForm({ sourcePage }: MultiStepFormProps) {
       address1: propertyAddress,
       situation,
       timeline,
-      site: 'harrisburg-pa',
+      site: sourceMarket || 'selltousahome',
       sourcePage: sourcePage || path,
       utmSource: getUTMParam('utm_source'),
       utmMedium: getUTMParam('utm_medium'),
       utmCampaign: getUTMParam('utm_campaign'),
-      source_market: marketMatch ? marketMatch[1] : '',
+      source_market: sourceMarket,
       source_page_type: path.startsWith('/markets/')
         ? 'market'
         : path.startsWith('/guides/')
@@ -259,7 +271,7 @@ export function MultiStepForm({ sourcePage }: MultiStepFormProps) {
                   autoComplete="street-address"
                   value={propertyAddress}
                   onChange={(e) => setPropertyAddress(e.target.value)}
-                  placeholder="123 Main St, Harrisburg, PA"
+                  placeholder={addressPlaceholder}
                   className="block w-full rounded-lg border-gray-300 focus:ring-brand-primary focus:border-brand-primary min-h-[44px] text-base px-3"
                 />
                 {errors.propertyAddress && (
@@ -319,7 +331,7 @@ export function MultiStepForm({ sourcePage }: MultiStepFormProps) {
                   autoComplete="tel"
                   value={phone}
                   onChange={(e) => setPhone(e.target.value)}
-                  placeholder="(717) 555-0000"
+                  placeholder={phonePlaceholder}
                   className="block w-full rounded-lg border-gray-300 focus:ring-brand-primary focus:border-brand-primary min-h-[44px] text-base px-3"
                 />
                 {errors.phone && <p className="mt-1 text-sm text-red-500">{errors.phone}</p>}

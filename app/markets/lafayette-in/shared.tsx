@@ -43,6 +43,21 @@ export const LAFAYETTE_FAQ_ITEMS = [
     answer:
       'We buy homes throughout Lafayette and Tippecanoe County, including older neighborhoods near downtown, Ninth Street Hill, south-side ranch homes, near-northside areas, and outlying county properties.',
   },
+  {
+    question: 'How much is a typical cash offer for a Lafayette house?',
+    answer:
+      'Cash offers are property-specific, but many direct as-is offers fall around 70-80% of fair market value before adjusting for condition, repairs, title issues, tenant status, and seller timeline. On a $245,000 Lafayette median-sale home, that rough range is about $171,500-$196,000 before property-specific review.',
+  },
+  {
+    question: 'Can I sell if the Lafayette house has liens, back taxes, or is vacant?',
+    answer:
+      'Often, yes. Liens, back taxes, unpaid utilities, and vacant-property issues can usually be reviewed during title work and paid from closing proceeds when there is enough equity. We buy vacant Lafayette homes as-is and coordinate with the title company before closing.',
+  },
+  {
+    question: 'Can you help senior downsizing, relocation, or Spanish-speaking sellers?',
+    answer:
+      'Yes. We work with Lafayette homeowners who are downsizing, moving for work or family, helping an older parent transition, or simply need a calmer sale. Spanish-speaking help can be arranged during the offer and closing process.',
+  },
 ];
 
 export const LAFAYETTE_TESTIMONIALS = [
@@ -82,12 +97,14 @@ export const LAFAYETTE_TESTIMONIALS = [
 
 export const LAFAYETTE_COMPARISON_ROWS = [
   { label: 'Offer timeline', cashBuyer: '24 hours', traditional: '14-60 days to receive an offer' },
-  { label: 'Closing timeline', cashBuyer: '7-30 days', traditional: '60-90+ days' },
+  { label: 'Closing timeline', cashBuyer: '7-14 days when title is clear', traditional: '45-90+ days' },
   { label: 'Repairs required', cashBuyer: 'None - we buy as-is', traditional: 'Often required after inspection' },
   { label: 'Agent commissions', cashBuyer: '$0', traditional: '5-6% of sale price' },
+  { label: 'Seller closing costs', cashBuyer: 'We cover standard seller-side costs', traditional: 'Seller costs vary by contract and title' },
   { label: 'Indiana transfer tax', cashBuyer: '$0', traditional: '$0' },
   { label: 'Showings', cashBuyer: 'None', traditional: 'Multiple showings and open houses' },
   { label: 'Sale certainty', cashBuyer: 'Cash, no financing contingency', traditional: 'Buyer financing can fall through' },
+  { label: 'Average net proceeds', cashBuyer: 'Often 70-80% of fair market value', traditional: 'Higher top-line price, minus repairs, commissions, and carrying costs' },
 ];
 
 export const LAFAYETTE_SITUATIONS = [
@@ -336,4 +353,3 @@ export function LafayetteSituationPage({ slug }: { slug: string }) {
     </>
   );
 }
-

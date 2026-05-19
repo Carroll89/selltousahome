@@ -52,6 +52,7 @@ function getCityFromSourcePage(sourcePage?: string): string {
   if (sourcePage.includes('york-pa')) return 'York';
   if (sourcePage.includes('wilmington-de')) return 'Wilmington';
   if (sourcePage.includes('youngstown-oh')) return 'Youngstown';
+  if (sourcePage.includes('lafayette-in')) return 'Lafayette';
   return 'Your City';
 }
 
@@ -64,6 +65,7 @@ function getStateFromSourcePage(sourcePage?: string): string {
   if (sourcePage.includes('st-louis-mo')) return 'MO';
   if (sourcePage.includes('scranton-pa')) return 'PA';
   if (sourcePage.includes('fort-wayne-in')) return 'IN';
+  if (sourcePage.includes('lafayette-in')) return 'IN';
   // Default to PA for all Pennsylvania markets
   if (sourcePage.includes('-pa') || sourcePage.includes('harrisburg') || sourcePage.includes('allentown') || sourcePage.includes('king-of-prussia') || sourcePage.includes('reading') || sourcePage.includes('erie') || sourcePage.includes('state-college') || sourcePage.includes('bethlehem') || sourcePage.includes('lancaster') || sourcePage.includes('york-pa')) return 'PA';
   return '';

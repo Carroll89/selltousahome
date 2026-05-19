@@ -10,7 +10,9 @@ import { ComparisonTable } from '@/components/ComparisonTable';
 import { SituationLinks } from '@/components/SituationLinks';
 import { SchemaMarkup } from '@/components/SchemaMarkup';
 import { BlogClusterLinks } from '@/components/BlogClusterLinks';
-import { faqSchema, lafayetteHowToSchema, lafayetteLocalBusinessSchema } from '@/lib/schema';
+import { VideoEmbed } from '@/components/VideoEmbed';
+import { MultiStepForm } from '@/components/MultiStepForm';
+import { faqSchema, lafayetteHowToSchema, lafayetteLocalBusinessSchema, videoObjectSchema } from '@/lib/schema';
 import { PHONE, SITE_URL } from '@/lib/utils';
 import {
   LAFAYETTE_COMPARISON_ROWS,
@@ -39,15 +41,27 @@ export default function LafayetteINMarketPage() {
           lafayetteLocalBusinessSchema,
           faqSchema(LAFAYETTE_FAQ_ITEMS),
           lafayetteHowToSchema,
+          videoObjectSchema({
+            name: 'Sell Your House Fast in Lafayette, IN',
+            description:
+              'A short overview of how USA Home Buyers helps Lafayette, IN homeowners sell as-is for cash with no repairs, no commissions, and a flexible closing date.',
+            contentUrl: `${SITE_URL}/videos/lafayette-in/landing.mp4`,
+            thumbnailUrl: `${SITE_URL}/videos/lafayette-in/landing-poster.jpg`,
+            uploadDate: '2026-05-19',
+          }),
         ]}
       />
 
       <section className="relative text-white py-8 md:py-16 px-4 overflow-hidden">
         <picture className="absolute inset-0 w-full h-full">
-          <source srcSet="/images/lafayette-in-hero.webp" type="image/webp" />
+          <source
+            srcSet="/images/optimized/lafayette-in-hero-640.jpg 640w, /images/optimized/lafayette-in-hero-828.jpg 828w, /images/optimized/lafayette-in-hero-1080.jpg 1080w, /images/optimized/lafayette-in-hero-1200.jpg 1200w"
+            type="image/jpeg"
+            sizes="100vw"
+          />
           {/* eslint-disable-next-line @next/next/no-img-element */}
           <img
-            src="/images/lafayette-in-hero.jpg"
+            src="/images/optimized/lafayette-in-hero-1200.jpg"
             alt="Lafayette IN Craftsman-style residential home"
             fetchPriority="high"
             className="object-cover object-center absolute inset-0 w-full h-full"
@@ -79,10 +93,10 @@ export default function LafayetteINMarketPage() {
               We buy houses in Lafayette and throughout Tippecanoe County in any condition: inherited homes, rentals, pre-foreclosure, divorce sales, code violations, fire damage, and properties that need too much work to list.
             </p>
             <div className="grid sm:grid-cols-2 gap-2 text-blue-50 text-sm mb-4">
-              <span>No repairs or cleaning</span>
-              <span>No commissions</span>
-              <span>We pay standard seller-side costs</span>
-              <span>Close in 7 days or on your schedule</span>
+              <span>✓ No repairs or cleaning</span>
+              <span>✓ No commissions</span>
+              <span>✓ We pay standard seller-side costs</span>
+              <span>✓ Close in as few as 7 days</span>
             </div>
             <a href="tel:+18882745006" className="flex w-full sm:w-auto items-center justify-center gap-2 bg-green-600 hover:bg-green-700 text-white font-bold rounded-lg px-6 py-4 text-lg shadow-lg transition-colors ring-2 ring-green-400/50">
               Call {PHONE} - We Answer 24/7
@@ -101,6 +115,26 @@ export default function LafayetteINMarketPage() {
         </section>
 
         <HowItWorks />
+
+        <VideoEmbed
+          src="/videos/lafayette-in/landing.mp4"
+          title="Sell Your House Fast in Lafayette, IN"
+          poster="/videos/lafayette-in/landing-poster.jpg"
+          captionsSrc="/videos/lafayette-in/landing-captions.vtt"
+          subtitle="A short overview for Lafayette and Tippecanoe County homeowners considering a direct as-is cash sale."
+        />
+        <details className="mt-4 mb-8 border border-gray-200 rounded-lg max-w-4xl mx-auto">
+          <summary className="px-4 py-3 cursor-pointer text-sm font-medium text-gray-700 hover:text-gray-900">
+            Video Transcript
+          </summary>
+          <div className="px-4 pb-4 text-sm text-gray-600 leading-relaxed space-y-3">
+            <p>If you need to sell a house in Lafayette, Indiana, USA Home Buyers can make a direct cash offer and buy the property as-is.</p>
+            <p>That can help when the house needs repairs, has tenants, is part of an estate, is facing a deadline, or simply would be hard to list the normal way.</p>
+            <p>We work across Lafayette and Tippecanoe County, including older homes near downtown, Ninth Street Hill, south-side ranch homes, rentals, inherited properties, and vacant houses.</p>
+            <p>There are no agent commissions, no repair requirements, and no open houses. If the offer works, you choose a closing date that fits your situation.</p>
+            <p>Call eight eight eight, two seven four, five zero zero six, and we will walk you through your options.</p>
+          </div>
+        </details>
 
         <section className="my-12">
           <h2 className="text-2xl md:text-3xl font-bold text-brand-dark mb-6">Lafayette IN Market Snapshot</h2>
@@ -121,11 +155,18 @@ export default function LafayetteINMarketPage() {
                 <tr className="bg-white"><td className="p-3 font-medium">Compete Score</td><td className="p-3">83 / 100 - Very Competitive</td><td className="p-3 text-gray-500">Redfin, Mar 2026</td></tr>
                 <tr className="bg-gray-50"><td className="p-3 font-medium">Zillow ZHVI</td><td className="p-3">$266,175 (+2.3% YoY)</td><td className="p-3 text-gray-500">Zillow, Apr 2026</td></tr>
                 <tr className="bg-white"><td className="p-3 font-medium">Indiana transfer tax</td><td className="p-3">$0</td><td className="p-3 text-gray-500">Confirm transaction details with title/closing attorney</td></tr>
+                <tr className="bg-gray-50"><td className="p-3 font-medium">Typical cash-offer range</td><td className="p-3">$171,500-$196,000</td><td className="p-3 text-gray-500">70-80% of $245,000 median sale price before property-specific review</td></tr>
+                <tr className="bg-white"><td className="p-3 font-medium">Distress situations served</td><td className="p-3">Probate, foreclosure, tenants, repairs, code/fire damage, liens, vacant homes</td><td className="p-3 text-gray-500">Seller-specific review; not a foreclosure-listing count</td></tr>
               </tbody>
             </table>
           </div>
           <p className="text-sm text-gray-600">
             Lafayette is competitive, but a strong market does not solve every seller problem. Homes with deferred maintenance, estate timing, tenant issues, foreclosure deadlines, or fire/code damage often need certainty more than another round of showings.
+          </p>
+          <p className="mt-2 text-sm">
+            <Link href="/markets/lafayette-in/market-report" className="text-brand-primary hover:underline">
+              See the full Lafayette IN monthly market report →
+            </Link>
           </p>
         </section>
 
@@ -155,6 +196,25 @@ export default function LafayetteINMarketPage() {
           }))}
         />
 
+        <section className="my-10">
+          <h2 className="text-2xl font-bold text-brand-dark mb-4">Other Lafayette Seller Situations We Handle</h2>
+          <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {[
+              { label: 'Major repairs or as-is sale', href: '/resources/sell-house-without-repairs', desc: 'Roofs, foundations, cleanouts, water damage, and inspection issues do not need to be fixed before we review the home.' },
+              { label: 'Liens or back taxes', href: '/guides/back-taxes', desc: 'Title issues, tax balances, and lien payoffs can often be handled through closing when there is enough equity.' },
+              { label: 'Vacant property', href: '/guides/vacant-property', desc: 'Vacant Lafayette homes can create utility, security, insurance, and maintenance pressure. We can buy as-is.' },
+              { label: 'Relocation or job move', href: '/guides/relocation', desc: 'A direct sale can give you one closing date instead of showings, inspection delays, and financing uncertainty.' },
+              { label: 'Senior downsizing', href: '/resources/how-the-process-works', desc: 'We can work with family members, attorneys, or helpers when a homeowner needs a calmer move.' },
+              { label: 'Spanish-speaking help', href: '/markets/lafayette-in/faq', desc: 'Spanish-speaking help can be arranged for the offer and closing process when needed.' },
+            ].map((item) => (
+              <Link key={item.href + item.label} href={item.href} className="block bg-gray-50 hover:bg-blue-50 border border-gray-200 hover:border-blue-300 rounded-xl p-4 transition">
+                <p className="font-semibold text-brand-primary mb-1">{item.label}</p>
+                <p className="text-sm text-gray-600">{item.desc}</p>
+              </Link>
+            ))}
+          </div>
+        </section>
+
         <TestimonialBlock testimonials={LAFAYETTE_TESTIMONIALS} heading="What Lafayette IN Sellers Say" />
 
         <section className="my-12">
@@ -163,6 +223,20 @@ export default function LafayetteINMarketPage() {
           <p className="mt-4 text-sm text-gray-600">
             On a $245,000 Lafayette median-sale home, a 5-6% agent commission can run $12,250-$14,700 before repairs, concessions, and carrying costs. A direct cash sale usually trades some top-line price for speed, certainty, and no repair burden.
           </p>
+          <p className="mt-2 text-sm">
+            <Link href="/resources/cash-offer-vs-listing" className="text-brand-primary hover:underline">
+              See full comparison: Cash Offer vs. Listing →
+            </Link>
+          </p>
+        </section>
+
+        <section className="my-12">
+          <CashOfferForm
+            variant="inline"
+            headline="Get Your Lafayette Cash Offer"
+            subheadline="No obligation. Written offer in 24 hours."
+            sourcePage="/markets/lafayette-in"
+          />
         </section>
 
         <section className="my-12">
@@ -178,6 +252,22 @@ export default function LafayetteINMarketPage() {
         <FAQSection items={LAFAYETTE_FAQ_ITEMS} heading="FAQs - Selling a House in Lafayette IN" />
 
         <BlogClusterLinks marketSlug="lafayette-in" cityName="Lafayette IN" />
+
+        <section className="my-12 bg-brand-light rounded-2xl p-6 md:p-8">
+          <div className="text-center mb-8">
+            <h2 className="text-2xl md:text-3xl font-bold text-brand-dark mb-2">
+              Not sure where to start? Let us guide you.
+            </h2>
+            <p className="text-gray-600">
+              Answer 4 quick questions and get a personalized cash offer for your Lafayette home.
+            </p>
+          </div>
+          <MultiStepForm
+            sourcePage="/markets/lafayette-in"
+            addressPlaceholder="123 Main St, Lafayette, IN"
+            phonePlaceholder="(765) 555-0000"
+          />
+        </section>
 
         <section className="my-12 bg-blue-50 border border-blue-100 rounded-2xl p-6 md:p-8 flex flex-col lg:flex-row lg:items-center lg:justify-between gap-5">
           <div>

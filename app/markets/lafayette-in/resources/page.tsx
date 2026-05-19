@@ -42,6 +42,19 @@ export default function LafayetteResourcesPage() {
         <section className="my-10">
           <h2 className="text-2xl md:text-3xl font-bold text-brand-dark mb-4">Local Seller Links</h2>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
+            {[
+              { href: '/markets/lafayette-in/market-report', label: 'Lafayette Market Report', desc: 'Price, days on market, Indiana transfer-tax context, and seller options.' },
+              { href: '/blog/lafayette-in-sell-house-fast-2026', label: 'Lafayette Seller Guide 2026', desc: 'First-pass launch guide for homeowners comparing a listing with a direct cash offer.' },
+              { href: '/resources/cash-offer-vs-listing', label: 'Cash Offer vs. Listing', desc: 'Compare speed, certainty, repairs, commissions, and net proceeds.' },
+              { href: '/resources/sell-house-without-repairs', label: 'Sell Without Repairs', desc: 'General as-is sale guidance for homes that need work before a retail listing.' },
+              { href: '/guides/back-taxes', label: 'Back Taxes and Liens', desc: 'How tax balances and liens can often be handled during title and closing.' },
+              { href: '/guides/vacant-property', label: 'Vacant Property Guide', desc: 'Options when carrying a vacant home is becoming expensive or risky.' },
+            ].map((item) => (
+              <Link key={item.href} href={item.href} className="block bg-white border border-gray-200 rounded-xl p-5 hover:border-brand-primary hover:shadow-md transition-all">
+                <h3 className="font-semibold text-brand-dark mb-1">{item.label}</h3>
+                <p className="text-sm text-gray-500">{item.desc}</p>
+              </Link>
+            ))}
             {LAFAYETTE_SITUATIONS.map((s) => (
               <Link key={s.slug} href={`/markets/lafayette-in/${s.slug}`} className="block bg-white border border-gray-200 rounded-xl p-5 hover:border-brand-primary hover:shadow-md transition-all">
                 <h3 className="font-semibold text-brand-dark mb-1">{s.label}</h3>
@@ -56,4 +69,3 @@ export default function LafayetteResourcesPage() {
     </>
   );
 }
-
