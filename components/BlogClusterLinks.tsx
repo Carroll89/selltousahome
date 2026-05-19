@@ -11,6 +11,7 @@ const STATE_HUBS: Record<string, { href: string; label: string }> = {
   ct: { href: '/sell-house-fast-connecticut', label: 'Connecticut seller resources' },
   ny: { href: '/sell-house-fast-new-york', label: 'New York seller resources' },
   il: { href: '/sell-house-fast-illinois', label: 'Illinois seller resources' },
+  in: { href: '/sell-house-fast-indiana', label: 'Indiana seller resources' },
 };
 
 function getStateHub(marketSlug: string) {

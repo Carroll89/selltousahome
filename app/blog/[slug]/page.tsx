@@ -73,6 +73,8 @@ async function loadContent(slug: string): Promise<BlogPostContent | null> {
         return (await import('@/content/blog/worcester-ma-sell-house-fast-2026')).default;
       case 'youngstown-oh-sell-house-fast-2026':
         return (await import('@/content/blog/youngstown-oh-sell-house-fast-2026')).default;
+      case 'lafayette-in-sell-house-fast-2026':
+        return (await import('@/content/blog/lafayette-in-sell-house-fast-2026')).default;
       default:
         return null;
     }

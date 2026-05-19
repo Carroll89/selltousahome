@@ -65,6 +65,7 @@ const marketSlugs = [
   "st-louis-mo",
   "scranton-pa",
   "fort-wayne-in",
+  "lafayette-in",
 ];
 
 // property-liens is NOT in this shared list — only erie-pa, harrisburg-pa, reading-pa
@@ -100,6 +101,7 @@ const miniSiteResourceMarketSlugs = [
   "peoria-il",
   "rockford-il",
   "springfield-il",
+  "lafayette-in",
 ];
 
 // Rule: only add a guide slug here when app/guides/{slug}/page.tsx EXISTS.

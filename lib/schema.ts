@@ -1203,9 +1203,30 @@ const CITY_CONFIGS: Record<string, CityConfig> = {
       { '@type': 'County', name: 'Whitley County' },
     ],
   },
+  lafayette: {
+    city: 'Lafayette',
+    region: 'IN',
+    postalCode: '47901',
+    lat: 40.4167,
+    lng: -86.8753,
+    description:
+      'Cash home buyers serving Lafayette IN and Tippecanoe County. We buy houses as-is in any condition - no repairs, no agent fees, close in 7-14 days.',
+    areaServed: [
+      { '@type': 'City', name: 'Lafayette', sameAs: 'https://en.wikipedia.org/wiki/Lafayette,_Indiana' },
+      { '@type': 'City', name: 'West Lafayette' },
+      { '@type': 'City', name: 'Battle Ground' },
+      { '@type': 'City', name: 'Dayton' },
+      { '@type': 'City', name: 'Shadeland' },
+      { '@type': 'City', name: 'Otterbein' },
+      { '@type': 'City', name: 'Montmorenci' },
+      { '@type': 'County', name: 'Tippecanoe County' },
+      { '@type': 'County', name: 'Benton County' },
+      { '@type': 'County', name: 'Carroll County' },
+    ],
+  },
 };
 
-export function localBusinessSchemaFor(cityKey: 'chicagoIL' | 'clevelandOH' | 'toledoOH' | 'philadelphiaPA' | 'cincinnatiOH' | 'harrisburg' | 'allentown' | 'bethlehem' | 'kingOfPrussia' | 'reading' | 'stateCollege' | 'erie' | 'lancaster' | 'york' | 'wilmington' | 'youngstown' | 'springfield' | 'kenosha' | 'manchester' | 'bridgeport' | 'worcester' | 'rochester' | 'racineMountPleasant' | 'springfieldIL' | 'rockfordIL' | 'newHaven' | 'oshkosh' | 'peoriaIL' | 'bloomingtonIL' | 'champaignUrbanaIL' | 'boston' | 'hartford' | 'wausau' | 'appleton' | 'canton' | 'milwaukee' | 'akron' | 'concord' | 'norwich' | 'northampton' | 'eauClaire' | 'janesville' | 'columbus' | 'madison' | 'chambersburg' | 'greenBay' | 'waterbury' | 'binghamton' | 'dayton' | 'richmond' | 'stLouis' | 'scranton' | 'fortWayne') {
+export function localBusinessSchemaFor(cityKey: 'chicagoIL' | 'clevelandOH' | 'toledoOH' | 'philadelphiaPA' | 'cincinnatiOH' | 'harrisburg' | 'allentown' | 'bethlehem' | 'kingOfPrussia' | 'reading' | 'stateCollege' | 'erie' | 'lancaster' | 'york' | 'wilmington' | 'youngstown' | 'springfield' | 'kenosha' | 'manchester' | 'bridgeport' | 'worcester' | 'rochester' | 'racineMountPleasant' | 'springfieldIL' | 'rockfordIL' | 'newHaven' | 'oshkosh' | 'peoriaIL' | 'bloomingtonIL' | 'champaignUrbanaIL' | 'boston' | 'hartford' | 'wausau' | 'appleton' | 'canton' | 'milwaukee' | 'akron' | 'concord' | 'norwich' | 'northampton' | 'eauClaire' | 'janesville' | 'columbus' | 'madison' | 'chambersburg' | 'greenBay' | 'waterbury' | 'binghamton' | 'dayton' | 'richmond' | 'stLouis' | 'scranton' | 'fortWayne' | 'lafayette') {
   const cfg = CITY_CONFIGS[cityKey];
   return {
     '@context': 'https://schema.org',
@@ -1762,6 +1783,10 @@ export const scrantonPALocalBusinessSchema = localBusinessSchemaFor('scranton');
 /** Pre-built Fort Wayne IN LocalBusiness schema */
 export const fortWayneLocalBusinessSchema = localBusinessSchemaFor('fortWayne');
 export const fortWayneINLocalBusinessSchema = localBusinessSchemaFor('fortWayne');
+
+/** Pre-built Lafayette IN LocalBusiness schema */
+export const lafayetteLocalBusinessSchema = localBusinessSchemaFor('lafayette');
+export const lafayetteINLocalBusinessSchema = localBusinessSchemaFor('lafayette');
 
 // ── Batch 004 exports (authorized 2026-05-01) ──────────────────────────────────────
 /** Pre-built Chicago IL LocalBusiness schema */
